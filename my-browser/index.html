@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Browser</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    #controls {
+      background: #f0f0f0;
+      padding: 8px;
+      display: flex;
+      gap: 8px;
+      border-bottom: 1px solid #ccc;
+      align-items: center;
+    }
+
+    #url-input {
+      flex-grow: 1;
+      padding: 6px 12px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+
+    button {
+      padding: 6px 12px;
+      cursor: pointer;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background: #e0e0e0;
+    }
+
+    webview {
+      flex-grow: 1;
+      border: none;
+    }
+
+    #history-dropdown {
+      position: absolute;
+      top: 50px;
+      right: 10px;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      max-height: 400px;
+      overflow-y: auto;
+      display: none;
+      z-index: 1000;
+    }
+
+    .history-item {
+      padding: 8px 12px;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .history-item:hover {
+      background: #f5f5f5;
+    }
+
+    .history-item:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="controls">
+    <button id="home">🏠</button>
+    <button id="back">Back</button>
+    <button id="forward">Forward</button>
+    <button id="reload">Reload</button>
+    <input type="text" id="url-input" placeholder="Enter URL (e.g., https://google.com)">
+    <button id="go">Go</button>
+    <button id="history-btn">History</button>
+  </div>
+  <div id="history-dropdown"></div>
+
+  <!-- Main Container -->
+  <div id="main-container">
+    <!-- The webview tag is the core of our browser -->
+    <webview id="view" preload="webview-preload.js" partition="persist:mksap"></webview>
+
+    <!-- Right Panel -->
+    <div id="right-panel">
+      <button id="inspect">Inspect</button>
+
+      <div id="mode-controls" class="panel-section">
+        <label>Mode</label>
+        <button id="mode-text" class="mode-btn active" title="Copy Text Only">📝 Text</button>
+        <button id="mode-image" class="mode-btn" title="Download Images Only">🖼️ Images</button>
+        <button id="mode-table" class="mode-btn" title="Copy Table Data">📊 Tables</button>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    /* Layout */
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    #controls {
+      flex-shrink: 0;
+    }
+
+    #main-container {
+      display: flex;
+      flex-grow: 1;
+      height: 0;
+      /* Important for flex child to scroll/contain webview */
+      border-top: 1px solid #ccc;
+    }
+
+    webview {
+      flex-grow: 1;
+      height: 100%;
+      border: none;
+    }
+
+    #right-panel {
+      width: 120px;
+      background: #f8f9fa;
+      border-left: 1px solid #ccc;
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    /* Panel Elements */
+    #inspect {
+      width: 100%;
+      padding: 10px;
+      font-weight: bold;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    #inspect.active {
+      background: #e74c3c;
+      color: white;
+      border-color: #c0392b;
+    }
+
+    .panel-section {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .panel-section label {
+      font-size: 12px;
+      font-weight: bold;
+      color: #666;
+      text-transform: uppercase;
+    }
+
+    .mode-btn {
+      width: 100%;
+      padding: 8px;
+      text-align: left;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+
+    .mode-btn:hover {
+      background: #f0f0f0;
+    }
+
+    .mode-btn.active {
+      background: #007bff;
+      color: white;
+      border-color: #0056b3;
+    }
+  </style>
+  <script src="renderer.js"></script>
+</body>
+
+</html>

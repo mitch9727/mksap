@@ -4,7 +4,7 @@
 
 This is a medical education project for processing MKSAP (Medical Knowledge Self-Assessment Program) multiple-choice questions into structured, machine-readable markdown files optimized for Anki flashcard generation.
 
-**Current working directory:** `/Users/Mitchell/Documents/MKSAP`
+**Current working directory:** `/Users/Mitchell/coding/projects/MKSAP`
 
 ## Project Structure
 
@@ -13,21 +13,16 @@ MKSAP/
 ├── MCQs/                    # Medical multiple-choice questions
 │   ├── COMPLETED/          # Finished MCQ cards
 │   │   └── Cards/          # Individual markdown files (e.g., CVMCQ24042.md)
-│   │       └── VDX/        # Video/diagnostic subcategory
-│   ├── CONVERTED/          # Intermediate processing stage
-│   └── IN PROGRESS/        # Active work
-├── READMEs/                # Documentation versions
-│   ├── README_v0.md through README_v7.md
-│   └── README_v7.md        # Current canonical specification
-├── my-browser/             # Electron browser application
-│   ├── index.html
-│   ├── main.js
-│   ├── renderer.js
-│   ├── preload.js
-│   ├── webview-preload.js
-│   ├── start.html
-│   └── package.json
-└── CLAUDE.MD              # This file
+│   ├── IN PROGRESS/        # Cards currently being worked on
+│   └── CONVERTED/          # Intermediate files
+├── READMEs/                # Project documentation
+│   └── README.md           # Current canonical specification
+├── scraper/                # Headless MKSAP Scraper
+│   ├── src/                # Scraper source code
+│   ├── config/             # Configuration & Auth
+│   ├── output/             # JSON & Asset Output
+│   └── README.md           # Scraper instructions
+└── CLAUDE.MD               # This file
 ```
 
 ## Key Workflows
@@ -128,7 +123,7 @@ Before completing any MCQ card generation:
 
 ## Documentation
 
-**Primary specification:** `READMEs/README_v7.md`
+**Primary specification:** `READMEs/README.md`
 
 This file contains:
 - Complete canonical template
@@ -138,7 +133,7 @@ This file contains:
 - Quality control checklist
 - Worked examples
 
-**Version history:** Earlier README versions (v0-v6) show evolution but README_v7.md is authoritative.
+**Version history:** Consolidated from earlier versions (v0-v7).
 
 ## Technical Context
 

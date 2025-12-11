@@ -1,0 +1,15 @@
+{
+  "name": "mksap-scraper",
+  "version": "1.0.0",
+  "description": "Headless automation for extracting MKSAP questions into structured JSON",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "discover": "node discover-selectors.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "cheerio": "^1.0.0-rc.12",
+    "winston": "^3.11.0"
+  }
+}

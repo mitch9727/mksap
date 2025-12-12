@@ -3,6 +3,7 @@ const BaseState = require('./base');
 const fs = require('fs');
 const path = require('path');
 const selectors = require('../selectors');
+const { analyzeAuthenticationState } = require('../skills/authenticationAssistant');
 
 class LoginState extends BaseState {
     async execute() {
@@ -32,6 +33,26 @@ class LoginState extends BaseState {
                     return 'NAVIGATE';
                 } catch (e) {
                     this.logger.warn('Session invalid or expired. Re-login required.');
+
+                    // Use AI to diagnose auth state
+                    try {
+                        const screenshot = await this.page.screenshot({ encoding: 'base64' });
+                        const analysis = await analyzeAuthenticationState({
+                            screenshot,
+                            pageUrl: this.page.url(),
+                            authState: 'session_expired'
+                        });
+
+                        this.logger.info(`Auth diagnosis: ${analysis.diagnosis}`);
+
+                        if (analysis.detectedChallenges && analysis.detectedChallenges.length > 0) {
+                            this.logger.warn(`Detected challenges: ${analysis.detectedChallenges.join(', ')}`);
+                        }
+                    } catch (aiError) {
+                        // AI diagnosis failed - continue with manual login
+                        this.logger.debug(`Auth analysis skipped: ${aiError.message}`);
+                    }
+
                     // Fallthrough to manual login
                 }
             } catch (error) {
@@ -52,6 +73,30 @@ class LoginState extends BaseState {
         try {
             await this.page.waitForSelector(selectors.login.loggedInIndicator, { timeout: 300000 }); // 5 mins
         } catch (e) {
+            // Login timed out - use AI to diagnose why
+            try {
+                const screenshot = await this.page.screenshot({ encoding: 'base64' });
+                const analysis = await analyzeAuthenticationState({
+                    screenshot,
+                    pageUrl: this.page.url(),
+                    authState: 'login_timeout',
+                    error: 'User did not complete login within 5 minutes'
+                });
+
+                this.logger.error(`Login timeout diagnosis: ${analysis.diagnosis}`);
+
+                if (analysis.detectedChallenges && analysis.detectedChallenges.includes('captcha')) {
+                    throw new Error('Login failed: CAPTCHA detected. Please complete CAPTCHA and try again.');
+                }
+
+                if (analysis.suggestedAction) {
+                    this.logger.info(`Suggested action: ${analysis.suggestedAction}`);
+                }
+            } catch (aiError) {
+                // AI diagnosis failed
+                this.logger.debug(`Auth analysis failed: ${aiError.message}`);
+            }
+
             throw new Error('Login timed out. Please run the scraper again and complete login within 5 minutes.');
         }
 

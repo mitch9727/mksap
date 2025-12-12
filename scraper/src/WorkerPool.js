@@ -21,6 +21,8 @@ const path = require('path');
 const winston = require('winston');
 const SystemScraper = require('./SystemScraper');
 const SYSTEMS = require('../config/systems');
+const { getUsageStatus } = require('./ai/claudeCodeClient');
+const { cleanupAllTempFiles } = require('./ai/tempFileManager');
 
 class WorkerPool {
     constructor(systemCodes, authFile, outputDir, concurrency = 2, sharedLogger = null) {
@@ -146,14 +148,38 @@ class WorkerPool {
                 }
             })
             .catch(error => {
-                this.logger.error(`✗ Failed: ${systemConfig.emoji} ${systemConfig.name} - ${error.message}`);
-                this.failedSystems.push(systemCode);
-                this.activeWorkers.delete(systemCode);
-                // Spawn next worker even if this one failed
-                if (this.queue.length > 0) {
-                    this.spawnWorker().catch(e => {
-                        this.logger.error(`Failed to spawn next worker: ${e.message}`);
-                    });
+                // Check if error is USAGE_LIMIT_REACHED
+                if (error.message === 'USAGE_LIMIT_REACHED') {
+                    this.logger.error('');
+                    this.logger.error('⚠️⚠️⚠️ CLAUDE CODE USAGE LIMIT REACHED ⚠️⚠️⚠️');
+                    this.logger.error('');
+                    this.logger.error('The scraper has stopped to preserve progress.');
+                    this.logger.error(`System "${systemConfig.name}" was in progress when limit was hit.`);
+                    this.logger.error('');
+                    this.logger.error('Checkpoint has been saved automatically.');
+                    this.logger.error('');
+                    this.logger.error('To resume when usage resets:');
+                    this.logger.error(`  npm start ${systemCode}`);
+                    this.logger.error('');
+                    this.logger.error('The scraper will automatically resume from the checkpoint.');
+                    this.logger.error('');
+
+                    // Stop all workers immediately
+                    this.queue = []; // Clear queue to prevent spawning new workers
+                    this.activeWorkers.delete(systemCode);
+
+                    // Don't mark as failed - it's a graceful stop
+                    // User can resume later
+                } else {
+                    this.logger.error(`✗ Failed: ${systemConfig.emoji} ${systemConfig.name} - ${error.message}`);
+                    this.failedSystems.push(systemCode);
+                    this.activeWorkers.delete(systemCode);
+                    // Spawn next worker even if this one failed
+                    if (this.queue.length > 0) {
+                        this.spawnWorker().catch(e => {
+                            this.logger.error(`Failed to spawn next worker: ${e.message}`);
+                        });
+                    }
                 }
             });
     }
@@ -177,10 +203,19 @@ class WorkerPool {
     }
 
     /**
-     * Cleanup - close browser
+     * Cleanup - close browser and temp files
      * @returns {Promise<void>}
      */
     async cleanup() {
+        // Cleanup temp files (screenshots for AI analysis)
+        try {
+            await cleanupAllTempFiles();
+            this.logger.info('✓ Cleaned up temp files');
+        } catch (error) {
+            this.logger.warn(`Error cleaning temp files: ${error.message}`);
+        }
+
+        // Close browser
         if (this.browser) {
             try {
                 this.logger.info('🔌 Closing browser...');
@@ -220,6 +255,25 @@ class WorkerPool {
         this.logger.info('═══════════════════════════════════════════════════════');
         this.logger.info(`Total: ${this.completedSystems.length} completed, ${this.failedSystems.length} failed`);
         this.logger.info('═══════════════════════════════════════════════════════');
+
+        // Report AI usage statistics
+        const usageStatus = getUsageStatus();
+        if (usageStatus.apiRequestCount > 0) {
+            this.logger.info('');
+            this.logger.info('AI Usage Statistics:');
+            this.logger.info(`  Mode: ${usageStatus.currentMode}`);
+            this.logger.info(`  API Requests: ${usageStatus.apiRequestCount}`);
+            this.logger.info(`  API Cost: $${usageStatus.apiCostTotal.toFixed(4)}`);
+            this.logger.info(`  Avg Cost/Request: $${usageStatus.avgCostPerRequest.toFixed(4)}`);
+        } else if (usageStatus.currentMode === 'claude-code') {
+            this.logger.info('');
+            this.logger.info('AI Usage: Claude Code CLI (no external costs)');
+        }
+
+        if (usageStatus.claudeCodeLimitReached) {
+            this.logger.info('');
+            this.logger.info(`⚠️  Claude Code usage limit was reached at ${usageStatus.limitReachedTimestamp}`);
+        }
     }
 }
 

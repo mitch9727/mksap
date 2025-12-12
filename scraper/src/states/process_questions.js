@@ -6,17 +6,34 @@ const { extractTables } = require('../extractors/tables');
 const { extractSyllabus } = require('../extractors/syllabus');
 const { extractText } = require('../utils/htmlParser');
 const { writeQuestionJson } = require('../utils/questionWriter');
+const { smartRetry, diagnoseError } = require('../skills/errorDiagnostician');
+const ProgressCheckpointAgent = require('../agents/progressCheckpointAgent');
 
 class ProcessQuestionsState extends BaseState {
     async execute() {
         const systemFolder = this.machine.systemConfig.folder;
+        const systemCode = this.machine.systemCode;
         const outputDir = this.machine.getSystemOutputDir();
         this.logger.info(`Processing questions for ${this.machine.systemConfig.name}...`);
         this.logger.info(`Saving to: ${outputDir}`);
 
+        // Initialize checkpoint agent
+        const checkpointAgent = new ProgressCheckpointAgent(outputDir, this.logger);
+
+        // Check for existing checkpoint
+        const checkpoint = checkpointAgent.loadCheckpoint(systemFolder);
+        const processedQuestionIds = new Set(checkpoint?.processedQuestions || []);
+
+        if (checkpoint) {
+            this.logger.info(`✓ Checkpoint found! Resuming from: ${checkpoint.lastQuestionId}`);
+            this.logger.info(`  Already processed: ${checkpoint.questionCount} questions`);
+            this.logger.info(`  Last page: ${checkpoint.currentPage}`);
+        }
+
         // Loop controls
         let hasNextPage = true;
-        let questionCount = 0;
+        let questionCount = checkpoint?.questionCount || 0;
+        let currentPage = 1;
 
         while (hasNextPage) {
             // 1. Get all question items
@@ -27,31 +44,107 @@ class ProcessQuestionsState extends BaseState {
                 const qItem = questions[i];
 
                 try {
-                    // Open Modal
-                    this.logger.info(`Opening question ${i + 1}/${questions.length}...`);
-                    await qItem.click();
+                    // Use smart retry with AI-powered error diagnosis
+                    await smartRetry(
+                        async () => {
+                            // Open Modal
+                            this.logger.info(`Opening question ${i + 1}/${questions.length}...`);
+                            await qItem.click();
 
-                    // Wait for Modal Content
-                    const modal = this.page.locator(selectors.question.container);
-                    await modal.waitFor({ state: 'visible', timeout: 5000 });
+                            // Wait for Modal Content
+                            const modal = this.page.locator(selectors.question.container);
+                            await modal.waitFor({ state: 'visible', timeout: 5000 });
 
-                    // --- EXTRACTION START ---
-                    const data = await this.scrapeStrictSchema(modal, systemFolder, outputDir);
-                    // --- EXTRACTION END ---
+                            // --- EXTRACTION START ---
+                            const data = await this.scrapeStrictSchema(modal, systemFolder, outputDir);
+                            // --- EXTRACTION END ---
 
-                    // Save as individual JSON file
-                    const jsonPath = await writeQuestionJson(data, systemFolder, outputDir);
-                    questionCount++;
-                    this.logger.info(`✓ Saved ${data.ID} to ${jsonPath}`);
+                            // Skip if already processed (from checkpoint)
+                            if (processedQuestionIds.has(data.ID)) {
+                                this.logger.info(`⏭️  Skipping ${data.ID} (already processed)`);
 
-                    // Close Modal
-                    await this.page.click(selectors.question.closeBtn);
-                    await modal.waitFor({ state: 'hidden' });
+                                // Close Modal
+                                await this.page.click(selectors.question.closeBtn);
+                                await modal.waitFor({ state: 'hidden' });
+                                return; // Skip saving
+                            }
+
+                            // Save as individual JSON file
+                            const jsonPath = await writeQuestionJson(data, systemFolder, outputDir);
+                            questionCount++;
+                            processedQuestionIds.add(data.ID);
+                            this.logger.info(`✓ Saved ${data.ID} to ${jsonPath}`);
+
+                            // Save checkpoint every 10 questions
+                            if (checkpointAgent.shouldSaveCheckpoint(questionCount)) {
+                                checkpointAgent.saveCheckpoint({
+                                    systemFolder,
+                                    systemCode,
+                                    currentPage,
+                                    questionCount,
+                                    lastQuestionId: data.ID,
+                                    processedQuestions: Array.from(processedQuestionIds)
+                                });
+                                this.logger.info(`💾 Checkpoint saved (${questionCount} questions)`);
+                            }
+
+                            // Close Modal
+                            await this.page.click(selectors.question.closeBtn);
+                            await modal.waitFor({ state: 'hidden' });
+                        },
+                        {
+                            page: this.page,
+                            state: 'PROCESS_QUESTIONS',
+                            context: {
+                                questionIndex: i + 1,
+                                systemFolder,
+                                operation: 'extract_question'
+                            },
+                            maxRetries: 3
+                        }
+                    );
                 } catch (error) {
-                    this.logger.error(`Failed to process question ${i + 1}: ${error.message}`);
+                    // Check if error is USAGE_LIMIT_REACHED
+                    if (error.message === 'USAGE_LIMIT_REACHED') {
+                        // Save checkpoint before throwing
+                        checkpointAgent.saveCheckpoint({
+                            systemFolder,
+                            systemCode,
+                            currentPage,
+                            questionCount,
+                            lastQuestionId: processedQuestionIds.size > 0 ? Array.from(processedQuestionIds).pop() : 'UNKNOWN',
+                            processedQuestions: Array.from(processedQuestionIds)
+                        });
+
+                        this.logger.error('');
+                        this.logger.error(`💾 Emergency checkpoint saved: ${questionCount} questions processed`);
+                        this.logger.error('');
+
+                        throw error; // Propagate to WorkerPool
+                    }
+
+                    // For other errors, try to get AI diagnosis
+                    try {
+                        const screenshot = await this.page.screenshot({ encoding: 'base64' });
+                        const diagnosis = await diagnoseError({
+                            error,
+                            state: 'PROCESS_QUESTIONS',
+                            screenshot,
+                            context: { questionIndex: i + 1, systemFolder }
+                        });
+
+                        this.logger.error(`AI Diagnosis: ${diagnosis.diagnosis}`);
+                        this.logger.error(`Suggested fix: ${diagnosis.suggestedFix}`);
+                    } catch (diagError) {
+                        // AI diagnosis failed - just log the original error
+                        this.logger.error(`Failed to process question ${i + 1}: ${error.message}`);
+                    }
+
                     // Continue to next question
                 }
             }
+
+            currentPage++;
 
             // Pagination Check
             const nextBtn = this.page.locator(selectors.list.nextPageBtn);
@@ -67,6 +160,11 @@ class ProcessQuestionsState extends BaseState {
         }
 
         this.logger.info(`✓ Completed: Processed ${questionCount} questions for ${this.machine.systemConfig.name}`);
+
+        // Delete checkpoint on successful completion
+        checkpointAgent.deleteCheckpoint(systemFolder);
+        this.logger.info('💾 Checkpoint deleted (successful completion)');
+
         return 'EXIT';
     }
 

@@ -8,8 +8,9 @@
     "discover": "node discover-selectors.js"
   },
   "dependencies": {
-    "playwright": "^1.40.0",
+    "@anthropic-ai/sdk": "^0.71.2",
     "cheerio": "^1.0.0-rc.12",
+    "playwright": "^1.40.0",
     "winston": "^3.11.0"
   }
 }

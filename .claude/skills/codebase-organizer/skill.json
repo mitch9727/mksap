@@ -1,0 +1,27 @@
+{
+  "name": "codebase-organizer",
+  "version": "1.0.0",
+  "description": "AI-powered codebase organization and analysis. Analyzes file content to suggest correct locations, identifies misplaced files, and maintains project structure consistency.",
+  "entrypoint": "lib/main.js",
+  "capabilities": [
+    "file-analysis",
+    "location-suggestion",
+    "structure-validation",
+    "organization-automation"
+  ],
+  "config": {
+    "rulesFile": "../../organization-rules.json",
+    "dryRun": true,
+    "verbose": false,
+    "scope": "all"
+  },
+  "dependencies": [],
+  "author": "Claude",
+  "license": "MIT",
+  "tags": [
+    "automation",
+    "project-maintenance",
+    "organization",
+    "ai-powered"
+  ]
+}

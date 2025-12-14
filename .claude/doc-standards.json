@@ -1,0 +1,118 @@
+{
+  "version": "1.0.0",
+  "description": "Documentation standards and quality guidelines",
+  "structure": {
+    "requireHeadings": true,
+    "requireTableOfContents": false,
+    "maxHeadingDepth": 4,
+    "requireBlankLinesBetween": true,
+    "blankLinesRule": "Exactly one blank line between sections"
+  },
+  "links": {
+    "checkInternal": true,
+    "checkExternal": false,
+    "preferRelative": true,
+    "relativePath": {
+      "rule": "Use ../../../ style relative paths from file location",
+      "example": "[Link text](../architecture/GUIDE.md)"
+    }
+  },
+  "content": {
+    "requireLastUpdated": false,
+    "requireAuthor": false,
+    "maxLineLength": 120,
+    "preferMarkdownSyntax": true
+  },
+  "fileTypes": {
+    "commands": {
+      "required": ["Purpose", "Usage", "Implementation"],
+      "optional": ["Output Examples", "Error Examples", "Integration", "See Also"],
+      "template": ".claude/templates/slash-command.md",
+      "location": ".claude/commands/",
+      "naming": "lowercase-with-hyphens.md"
+    },
+    "skills": {
+      "required": ["skill.json", "instructions.md"],
+      "template": ".claude/templates/skill.json",
+      "location": ".claude/skills/",
+      "naming": "lowercase-with-hyphens"
+    },
+    "documentation": {
+      "required": ["# Title"],
+      "optional": ["Table of Contents", "Examples", "See Also"],
+      "template": ".claude/templates/documentation.md",
+      "location": "docs/**/",
+      "naming": "UPPERCASE_WITH_UNDERSCORES.md"
+    }
+  },
+  "requirements": {
+    "README.md": {
+      "required": ["Project Overview", "Quick Start", "Key Concepts"],
+      "location": "docs/project/"
+    },
+    "INDEX.md": {
+      "required": ["Documentation Structure", "File Organization", "Quick Navigation"],
+      "location": "docs/project/"
+    },
+    "TECHNICAL_SPEC.md": {
+      "required": ["Architecture", "API Reference", "Configuration"],
+      "location": "docs/scraper/"
+    },
+    "CODEBASE_GUIDE.md": {
+      "required": ["Architecture", "Code Structure", "How to Understand Code"],
+      "location": "docs/architecture/"
+    }
+  },
+  "formatting": {
+    "headings": {
+      "style": "ATX (# Style)",
+      "capitalization": "Title Case",
+      "example": "# Main Title"
+    },
+    "lists": {
+      "unordered": "Use - or * consistently",
+      "ordered": "Use 1. 2. 3. style",
+      "nesting": "Indent with 2 spaces"
+    },
+    "codeBlocks": {
+      "inline": "Use `backticks`",
+      "block": "Use triple backticks with language",
+      "example": "```javascript\ncode here\n```"
+    },
+    "links": {
+      "style": "[Text](path)",
+      "reference": "Avoid reference-style links",
+      "anchor": "Use lowercase-with-hyphens for anchors"
+    }
+  },
+  "quality": {
+    "spelling": "US English (color, not colour)",
+    "consistency": "Use consistent terminology throughout",
+    "clarity": "Sentences should be clear and concise",
+    "examples": "Include examples where applicable",
+    "precision": "Be specific about file paths and commands"
+  },
+  "commands": {
+    "required_sections": [
+      "# /command-name - Short Description",
+      "## Purpose",
+      "## Usage",
+      "## Implementation"
+    ],
+    "optional_sections": [
+      "## Output Example",
+      "## Error Examples",
+      "## Related Commands",
+      "## Integration",
+      "## See Also"
+    ]
+  },
+  "bestPractices": {
+    "navigation": "Always include links to related documentation",
+    "examples": "Provide real-world examples when possible",
+    "clarity": "Write for someone reading without context",
+    "structure": "Use consistent structure across similar documents",
+    "updates": "Keep Last Updated date current",
+    "tone": "Professional but approachable"
+  }
+}

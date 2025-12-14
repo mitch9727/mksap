@@ -1,0 +1,27 @@
+{
+  "name": "doc-validator",
+  "version": "1.0.0",
+  "description": "Documentation quality and consistency validator. Checks for broken links, enforces standards, and detects outdated content.",
+  "entrypoint": "lib/main.js",
+  "capabilities": [
+    "link-validation",
+    "completeness-check",
+    "style-enforcement",
+    "content-analysis"
+  ],
+  "config": {
+    "standardsFile": "../../doc-standards.json",
+    "checkInternal": true,
+    "checkExternal": false,
+    "verbose": false
+  },
+  "dependencies": [],
+  "author": "Claude",
+  "license": "MIT",
+  "tags": [
+    "automation",
+    "documentation",
+    "quality-assurance",
+    "validation"
+  ]
+}

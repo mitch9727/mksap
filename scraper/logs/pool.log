@@ -1,0 +1,193 @@
+[2025-12-13T02:07:04.298Z] [POOL] INFO: 🚀 Starting WorkerPool with 2 concurrent workers
+[2025-12-13T02:07:04.298Z] [POOL] INFO: 📋 Queue: cv
+[2025-12-13T02:07:04.298Z] [POOL] INFO: 🌐 Launching Playwright browser...
+[2025-12-13T02:07:05.574Z] [POOL] INFO: ✓ Browser launched
+[2025-12-13T02:07:05.574Z] [POOL] INFO: ▶️  Spawning worker for 🫀 Cardiovascular Medicine
+[2025-12-13T02:07:05.574Z] [POOL] INFO: 🫀 Starting Cardiovascular Medicine scraper...
+[2025-12-13T02:07:05.574Z] [POOL] INFO: Entering state: INIT
+[2025-12-13T02:07:05.574Z] [POOL] INFO: Initializing Context for System...
+[2025-12-13T02:07:05.574Z] [POOL] INFO: No auth file found. First run will require manual login.
+[2025-12-13T02:07:05.625Z] [POOL] INFO: Context and page created successfully
+[2025-12-13T02:07:05.625Z] [POOL] INFO: Entering state: LOGIN
+[2025-12-13T02:07:05.625Z] [POOL] INFO: --- MANUAL LOGIN REQUIRED ---
+[2025-12-13T02:07:05.625Z] [POOL] INFO: Please log in to MKSAP in the browser window.
+[2025-12-13T02:07:05.625Z] [POOL] INFO: You have 5 minutes to complete login.
+[2025-12-13T02:11:36.874Z] [POOL] INFO: 🚀 Starting WorkerPool with 2 concurrent workers
+[2025-12-13T02:11:36.874Z] [POOL] INFO: 📋 Queue: cv
+[2025-12-13T02:11:36.874Z] [POOL] INFO: 🌐 Launching Playwright browser...
+[2025-12-13T02:11:37.075Z] [POOL] INFO: ✓ Browser launched
+[2025-12-13T02:11:37.075Z] [POOL] INFO: ▶️  Spawning worker for 🫀 Cardiovascular Medicine
+[2025-12-13T02:11:37.075Z] [POOL] INFO: 🫀 Starting Cardiovascular Medicine scraper...
+[2025-12-13T02:11:37.075Z] [POOL] INFO: Entering state: INIT
+[2025-12-13T02:11:37.075Z] [POOL] INFO: Initializing Context for System...
+[2025-12-13T02:11:37.075Z] [POOL] INFO: No auth file found. First run will require manual login.
+[2025-12-13T02:11:37.117Z] [POOL] INFO: Context and page created successfully
+[2025-12-13T02:11:37.117Z] [POOL] INFO: Entering state: LOGIN
+[2025-12-13T02:11:37.117Z] [POOL] INFO: --- MANUAL LOGIN REQUIRED ---
+[2025-12-13T02:11:37.117Z] [POOL] INFO: Please log in to MKSAP in the browser window.
+[2025-12-13T02:11:37.117Z] [POOL] INFO: You have 5 minutes to complete login.
+[2025-12-13T02:16:38.351Z] [POOL] ERROR: Login timeout diagnosis: Unable to analyze authentication state (AI unavailable)
+[2025-12-13T02:16:38.351Z] [POOL] INFO: Suggested action: manual_login_required
+[2025-12-13T02:16:38.351Z] [POOL] ERROR: Critical error in LOGIN: Login timed out. Please run the scraper again and complete login within 5 minutes.
+[2025-12-13T02:16:38.441Z] [POOL] ERROR: Error screenshot saved to /Users/Mitchell/coding/projects/MKSAP/scraper/logs/errors/cv_error_1765592198351.png
+[2025-12-13T02:16:38.443Z] [POOL] INFO: Context closed successfully
+[2025-12-13T02:16:38.443Z] [POOL] INFO: 🫀 Cardiovascular Medicine scraper finished.
+[2025-12-13T02:16:38.443Z] [POOL] INFO: ✓ Completed: 🫀 Cardiovascular Medicine
+[2025-12-13T02:16:39.317Z] [POOL] INFO: ✓ Cleaned up temp files
+[2025-12-13T02:16:39.317Z] [POOL] INFO: 🔌 Closing browser...
+[2025-12-13T02:16:39.345Z] [POOL] INFO: ✓ Browser closed
+[2025-12-13T02:21:29.817Z] [POOL] INFO: 🚀 Starting WorkerPool with 2 concurrent workers
+[2025-12-13T02:21:29.818Z] [POOL] INFO: 📋 Queue: cv
+[2025-12-13T02:21:29.818Z] [POOL] INFO: 🌐 Launching browser in VISIBLE mode (first-time login required)...
+[2025-12-13T02:21:30.123Z] [POOL] INFO: ✓ Browser launched
+[2025-12-13T02:21:30.123Z] [POOL] INFO: ▶️  Spawning worker for 🫀 Cardiovascular Medicine
+[2025-12-13T02:21:30.123Z] [POOL] INFO: 🫀 Starting Cardiovascular Medicine scraper...
+[2025-12-13T02:21:30.123Z] [POOL] INFO: Entering state: INIT
+[2025-12-13T02:21:30.123Z] [POOL] INFO: Initializing Context for System...
+[2025-12-13T02:21:30.123Z] [POOL] INFO: No auth file found. First run will require manual login.
+[2025-12-13T02:21:30.371Z] [POOL] INFO: Context and page created successfully
+[2025-12-13T02:21:30.371Z] [POOL] INFO: Entering state: LOGIN
+[2025-12-13T02:21:30.371Z] [POOL] INFO: --- MANUAL LOGIN REQUIRED ---
+[2025-12-13T02:21:30.371Z] [POOL] INFO: Please log in to MKSAP in the browser window.
+[2025-12-13T02:21:30.371Z] [POOL] INFO: You have 5 minutes to complete login.
+[2025-12-13T02:22:28.628Z] [POOL] INFO: ✓ Login detected! Saving session...
+[2025-12-13T02:22:30.633Z] [POOL] INFO: Auth state saved to /Users/Mitchell/coding/projects/MKSAP/scraper/config/auth.json
+[2025-12-13T02:22:30.633Z] [POOL] INFO: Entering state: NAVIGATE
+[2025-12-13T02:22:30.633Z] [POOL] INFO: 🔄 Navigating to Cardiovascular Medicine...
+[2025-12-13T02:22:30.633Z] [POOL] INFO: Clicking Question Bank link...
+[2025-12-13T02:23:00.643Z] [POOL] ERROR: Failed to click Question Bank link
+[2025-12-13T02:23:00.643Z] [POOL] ERROR: Critical error in NAVIGATE: page.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('a[href="/app/question-bank"]')[22m
+[2m    - locator resolved to <a class="nav-link" href="/app/question-bank" data-rr-ui-event-key="/app/question-bank">…</a>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    58 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is not visible[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+
+[2025-12-13T02:23:00.716Z] [POOL] ERROR: Error screenshot saved to /Users/Mitchell/coding/projects/MKSAP/scraper/logs/errors/cv_error_1765592580644.png
+[2025-12-13T02:23:00.727Z] [POOL] INFO: Context closed successfully
+[2025-12-13T02:23:00.727Z] [POOL] INFO: 🫀 Cardiovascular Medicine scraper finished.
+[2025-12-13T02:23:00.727Z] [POOL] INFO: ✓ Completed: 🫀 Cardiovascular Medicine
+[2025-12-13T02:23:01.196Z] [POOL] INFO: ✓ Cleaned up temp files
+[2025-12-13T02:23:01.196Z] [POOL] INFO: 🔌 Closing browser...
+[2025-12-13T02:23:01.243Z] [POOL] INFO: ✓ Browser closed
+[2025-12-13T02:46:25.641Z] [POOL] INFO: 🚀 Starting WorkerPool with 2 concurrent workers
+[2025-12-13T02:46:25.642Z] [POOL] INFO: 📋 Queue: cv
+[2025-12-13T02:46:25.642Z] [POOL] INFO: 🌐 Launching Playwright browser...
+[2025-12-13T02:46:25.855Z] [POOL] INFO: ✓ Browser launched
+[2025-12-13T02:46:25.855Z] [POOL] INFO: ▶️  Spawning worker for 🫀 Cardiovascular Medicine
+[2025-12-13T02:46:25.855Z] [POOL] INFO: 🫀 Starting Cardiovascular Medicine scraper...
+[2025-12-13T02:46:25.856Z] [POOL] INFO: Entering state: INIT
+[2025-12-13T02:46:25.856Z] [POOL] INFO: Initializing Context for System...
+[2025-12-13T02:46:25.896Z] [POOL] INFO: Context and page created successfully
+[2025-12-13T02:46:25.896Z] [POOL] INFO: Entering state: LOGIN
+[2025-12-13T02:46:25.896Z] [POOL] INFO: Loading existing auth state...
+[2025-12-13T02:46:32.076Z] [POOL] WARN: Session invalid or expired. Re-login required.
+[2025-12-13T02:46:32.109Z] [POOL] INFO: Auth diagnosis: Unable to analyze authentication state (AI unavailable)
+[2025-12-13T02:46:32.109Z] [POOL] INFO: --- MANUAL LOGIN REQUIRED ---
+[2025-12-13T02:46:32.109Z] [POOL] INFO: Please log in to MKSAP in the browser window.
+[2025-12-13T02:46:32.109Z] [POOL] INFO: You have 5 minutes to complete login.
+[2025-12-13T02:46:55.264Z] [POOL] INFO: ✓ Login detected! Saving session...
+[2025-12-13T02:46:57.273Z] [POOL] INFO: Auth state saved to /Users/Mitchell/coding/projects/MKSAP/scraper/config/auth.json
+[2025-12-13T02:46:57.273Z] [POOL] INFO: Entering state: NAVIGATE
+[2025-12-13T02:46:57.274Z] [POOL] INFO: 🔄 Navigating to Cardiovascular Medicine...
+[2025-12-13T02:46:57.274Z] [POOL] INFO: Clicking Question Bank link...
+[2025-12-13T02:47:07.276Z] [POOL] ERROR: Failed to click Question Bank link
+[2025-12-13T02:47:07.276Z] [POOL] ERROR: Critical error in NAVIGATE: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('a[href="/app/question-bank"]') to be visible[22m
+[2m    25 × locator resolved to hidden <a class="nav-link" href="/app/question-bank" data-rr-ui-event-key="/app/question-bank">…</a>[22m
+
+[2025-12-13T02:47:07.328Z] [POOL] ERROR: Error screenshot saved to /Users/Mitchell/coding/projects/MKSAP/scraper/logs/errors/cv_error_1765594027276.png
+[2025-12-13T02:47:07.330Z] [POOL] INFO: Context closed successfully
+[2025-12-13T02:47:07.330Z] [POOL] INFO: 🫀 Cardiovascular Medicine scraper finished.
+[2025-12-13T02:47:07.330Z] [POOL] INFO: ✓ Completed: 🫀 Cardiovascular Medicine
+[2025-12-13T02:47:07.891Z] [POOL] INFO: ✓ Cleaned up temp files
+[2025-12-13T02:47:07.891Z] [POOL] INFO: 🔌 Closing browser...
+[2025-12-13T02:47:07.909Z] [POOL] INFO: ✓ Browser closed
+[2025-12-13T02:51:32.395Z] [POOL] INFO: 🚀 Starting WorkerPool with 2 concurrent workers
+[2025-12-13T02:51:32.396Z] [POOL] INFO: 📋 Queue: cv
+[2025-12-13T02:51:32.396Z] [POOL] INFO: 🌐 Launching Playwright browser...
+[2025-12-13T02:51:32.578Z] [POOL] INFO: ✓ Browser launched
+[2025-12-13T02:51:32.578Z] [POOL] INFO: ▶️  Spawning worker for 🫀 Cardiovascular Medicine
+[2025-12-13T02:51:32.578Z] [POOL] INFO: 🫀 Starting Cardiovascular Medicine scraper...
+[2025-12-13T02:51:32.578Z] [POOL] INFO: Entering state: INIT
+[2025-12-13T02:51:32.578Z] [POOL] INFO: Initializing Context for System...
+[2025-12-13T02:51:32.618Z] [POOL] INFO: Context and page created successfully
+[2025-12-13T02:51:32.618Z] [POOL] INFO: Entering state: LOGIN
+[2025-12-13T02:51:32.618Z] [POOL] INFO: Loading existing auth state...
+[2025-12-13T02:51:45.091Z] [POOL] WARN: Session invalid or expired. Re-login required.
+[2025-12-13T02:51:45.128Z] [POOL] INFO: Auth diagnosis: Unable to analyze authentication state (AI unavailable)
+[2025-12-13T02:51:45.128Z] [POOL] INFO: --- MANUAL LOGIN REQUIRED ---
+[2025-12-13T02:51:45.128Z] [POOL] INFO: Please log in to MKSAP in the browser window.
+[2025-12-13T02:51:45.128Z] [POOL] INFO: You have 5 minutes to complete login.
+[2025-12-13T02:52:05.791Z] [POOL] INFO: ✓ Login detected! Saving session...
+[2025-12-13T02:52:07.800Z] [POOL] INFO: Auth state saved to /Users/Mitchell/coding/projects/MKSAP/scraper/config/auth.json
+[2025-12-13T02:52:07.800Z] [POOL] INFO: Entering state: NAVIGATE
+[2025-12-13T02:52:07.800Z] [POOL] INFO: 🔄 Navigating to Cardiovascular Medicine...
+[2025-12-13T02:52:07.800Z] [POOL] INFO: Checking if hamburger menu is present...
+[2025-12-13T02:52:07.803Z] [POOL] INFO: Navigation is collapsed. Opening hamburger menu...
+[2025-12-13T02:52:08.363Z] [POOL] INFO: ✓ Hamburger menu opened
+[2025-12-13T02:52:08.364Z] [POOL] INFO: Clicking Question Bank link...
+[2025-12-13T02:52:08.390Z] [POOL] ERROR: Failed to click Question Bank link
+[2025-12-13T02:52:08.390Z] [POOL] ERROR: Critical error in NAVIGATE: locator.waitFor: Error: strict mode violation: locator('a[href="/app/question-bank"]') resolved to 2 elements:
+    1) <a class="nav-link" href="/app/question-bank" data-rr-ui-event-key="/app/question-bank">…</a> aka locator('#secondaryAppNav').getByText('Question Bank')
+    2) <a class="nav-link" href="/app/question-bank" data-rr-ui-event-key="/app/question-bank">…</a> aka getByRole('link', { name: 'Question Bank' })
+
+Call log:
+[2m  - waiting for locator('a[href="/app/question-bank"]') to be visible[22m
+
+[2025-12-13T02:52:08.434Z] [POOL] ERROR: Error screenshot saved to /Users/Mitchell/coding/projects/MKSAP/scraper/logs/errors/cv_error_1765594328390.png
+[2025-12-13T02:52:08.435Z] [POOL] INFO: Context closed successfully
+[2025-12-13T02:52:08.435Z] [POOL] INFO: 🫀 Cardiovascular Medicine scraper finished.
+[2025-12-13T02:52:08.435Z] [POOL] INFO: ✓ Completed: 🫀 Cardiovascular Medicine
+[2025-12-13T02:52:08.610Z] [POOL] INFO: ✓ Cleaned up temp files
+[2025-12-13T02:52:08.610Z] [POOL] INFO: 🔌 Closing browser...
+[2025-12-13T02:52:08.632Z] [POOL] INFO: ✓ Browser closed
+[2025-12-13T02:56:22.609Z] [POOL] INFO: 🚀 Starting WorkerPool with 2 concurrent workers
+[2025-12-13T02:56:22.610Z] [POOL] INFO: 📋 Queue: cv
+[2025-12-13T02:56:22.610Z] [POOL] INFO: 🌐 Launching Playwright browser...
+[2025-12-13T02:56:22.797Z] [POOL] INFO: ✓ Browser launched
+[2025-12-13T02:56:22.797Z] [POOL] INFO: ▶️  Spawning worker for 🫀 Cardiovascular Medicine
+[2025-12-13T02:56:22.797Z] [POOL] INFO: 🫀 Starting Cardiovascular Medicine scraper...
+[2025-12-13T02:56:22.797Z] [POOL] INFO: Entering state: INIT
+[2025-12-13T02:56:22.797Z] [POOL] INFO: Initializing Context for System...
+[2025-12-13T02:56:22.836Z] [POOL] INFO: Context and page created successfully
+[2025-12-13T02:56:22.836Z] [POOL] INFO: Entering state: LOGIN
+[2025-12-13T02:56:22.837Z] [POOL] INFO: Loading existing auth state...
+[2025-12-13T02:56:29.126Z] [POOL] WARN: Session invalid or expired. Re-login required.
+[2025-12-13T02:56:29.165Z] [POOL] INFO: Auth diagnosis: Unable to analyze authentication state (AI unavailable)
+[2025-12-13T02:56:29.165Z] [POOL] INFO: --- MANUAL LOGIN REQUIRED ---
+[2025-12-13T02:56:29.165Z] [POOL] INFO: Please log in to MKSAP in the browser window.
+[2025-12-13T02:56:29.165Z] [POOL] INFO: You have 5 minutes to complete login.
+[2025-12-13T02:56:46.857Z] [POOL] INFO: ✓ Login detected! Saving session...
+[2025-12-13T02:56:48.868Z] [POOL] INFO: Auth state saved to /Users/Mitchell/coding/projects/MKSAP/scraper/config/auth.json
+[2025-12-13T02:56:48.868Z] [POOL] INFO: Entering state: NAVIGATE
+[2025-12-13T02:56:48.868Z] [POOL] INFO: 🔄 Navigating to Cardiovascular Medicine...
+[2025-12-13T02:56:48.868Z] [POOL] INFO: Checking if hamburger menu is present...
+[2025-12-13T02:56:48.872Z] [POOL] INFO: Navigation is collapsed. Opening hamburger menu...
+[2025-12-13T02:56:49.437Z] [POOL] INFO: ✓ Hamburger menu opened
+[2025-12-13T02:56:49.437Z] [POOL] INFO: Clicking Question Bank link...
+[2025-12-13T02:56:59.440Z] [POOL] ERROR: Failed to click Question Bank link
+[2025-12-13T02:56:59.440Z] [POOL] ERROR: Critical error in NAVIGATE: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('a[href="/app/question-bank"]').first() to be visible[22m
+[2m    25 × locator resolved to hidden <a class="nav-link" href="/app/question-bank" data-rr-ui-event-key="/app/question-bank">…</a>[22m
+
+[2025-12-13T02:56:59.482Z] [POOL] ERROR: Error screenshot saved to /Users/Mitchell/coding/projects/MKSAP/scraper/logs/errors/cv_error_1765594619440.png
+[2025-12-13T02:56:59.484Z] [POOL] INFO: Context closed successfully
+[2025-12-13T02:56:59.484Z] [POOL] INFO: 🫀 Cardiovascular Medicine scraper finished.
+[2025-12-13T02:56:59.484Z] [POOL] INFO: ✓ Completed: 🫀 Cardiovascular Medicine
+[2025-12-13T02:56:59.825Z] [POOL] INFO: ✓ Cleaned up temp files
+[2025-12-13T02:56:59.826Z] [POOL] INFO: 🔌 Closing browser...
+[2025-12-13T02:56:59.852Z] [POOL] INFO: ✓ Browser closed

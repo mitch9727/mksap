@@ -25,13 +25,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# Node.js (for my-browser/)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-package-lock.json
-.npm
+# Rust
+target/
+# Cargo.lock is TRACKED - provides reproducible builds
 
 # Editor directories and files
 .vscode/

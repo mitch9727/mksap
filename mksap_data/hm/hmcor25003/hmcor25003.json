@@ -1,0 +1,60 @@
+{
+  "question_id": "hmcor25003",
+  "category": "hm",
+  "educational_objective": "Diagnose myelodysplastic syndrome.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 69-year-old man is evaluated for progressive fatigue and dyspnea on exertion. Medical history is significant for diabetes mellitus and hypertension. He does not drink alcohol or smoke. Medications are metformin and lisinopril.The physical examination is normal.Laboratory studies:Hemoglobin8.5 g/dL (85 g/L)LLeukocyte count3100/µL (3.1 × 109/L) with 35% neutrophils, 45% lymphocytes, 20% monocytesLMean corpuscular volume105 fLHPlatelet count120,000/µL (120 × 109/L)LSerum levels of vitamin B12 and folate are normal. HIV testing is negative. Peripheral blood smear is shown.",
+  "question_stem": "Which of the following tests is most likely to confirm the diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "BCR::ABL testing",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Bone marrow biopsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "PET/CT",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Serum and urine protein electrophoresis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This older adult patient with pancytopenia and macrocytosis should undergo bone marrow biopsy (BMB) (Option B) for a suspected myelodysplastic syndrome (MDS). MDS is a group of blood and marrow cancers characterized by ineffective hematopoiesis in the bone marrow leading to peripheral blood cytopenias. MDS carries a variable risk of transformation to acute myeloid leukemia (AML) that correlates with prognosis. Most MDS cases are idiopathic and often age related; the median age of diagnosis is approximately age 70 years. Secondary MDS can result from chemotherapy or radiation therapy, chemical exposure (e.g., benzene), and other factors. MDS varies in presentation depending on the severity of the blood cell lineage(s) affected. It should be suspected in patients with otherwise unexplained cytopenias, especially with dysplastic findings on peripheral blood smear. Other causes of dysplasia, including chronic infections (HIV), vitamin B12 deficiency, alcohol use, and medications such as sulfamethoxazole, must be ruled out. A BMB specimen showing hypercellular marrow with dysplastic myeloid progenitor cells and lack of orderly maturation is diagnostic. BMB is not only required for the diagnosis of MDS, it also allows for risk stratification, which determines treatment. This patient has an unexplained macrocytic anemia with dysplastic features on peripheral blood smear, including a nucleated erythrocyte (center) and a dysplastic neutrophil with abnormal segmentation and hypogranularity. MDS is strongly suspected, so the most appropriate diagnostic test is a BMB.BCR::ABL translocation (Option A) involving chromosomes 9 and 22 is pathognomonic for chronic myeloid leukemia (CML), a myeloproliferative neoplasm. CML typically presents in the chronic phase with elevated neutrophils, platelets, or both. CML cannot explain this patient's pancytopenia and abnormal peripheral blood smear findings.PET/CT (Option C) has utility in the detection of solid tumors, such as lymphoma, but it has no role in the diagnosis of MDS. The dysplasia on this patient's blood smear indicates a problem in the bone marrow, so BMB is a more appropriate diagnostic test.Serum and urine protein electrophoresis (Option D) is indicated in the evaluation of suspected multiple myeloma. Although patients with multiple myeloma may present with pancytopenia, anemia is more likely to be normochromic or normocytic rather than macrocytic. Furthermore, multiple myeloma would not explain the dysplastic leukocyte or nucleated erythrocyte on this patient's peripheral blood smear.",
+  "key_points": [
+    "A myelodysplastic syndrome (MDS) should be suspected in patients with pancytopenia, macrocytic anemia, or dysplastic findings on peripheral blood smear.",
+    "Bone marrow biopsy is required for the diagnosis of MDS, and it provides risk stratification information to guide therapy."
+  ],
+  "references": "Sekeres MA, Taylor J. Diagnosis and treatment of myelodysplastic syndromes: a review. JAMA. 2022;328:872-880. PMID: 36066514 doi:10.1001/jama.2022.14578",
+  "related_content": {
+    "syllabus": [
+      "hmsec24002_24006"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:44:24.252286-06:00"
+}

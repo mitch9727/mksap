@@ -1,0 +1,65 @@
+{
+  "question_id": "idmcq24001",
+  "category": "id",
+  "educational_objective": "Evaluate the significance of <i>Bacillus</i> in a blood culture.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 33-year-old woman is evaluated before hospital discharge. She was hospitalized 2 days ago with pyelonephritis; her fever, dysuria, and flank pain have improved with empiric ceftriaxone. Urine cultures have grown pan-sensitive Escherichia coli; a course of oral trimethoprim-sulfamethoxazole is planned. Medical history is unremarkable. She takes no other medications.On physical examination, vital signs are normal. The examination is unremarkable apart from mild right flank pain, which has improved since admission.Bacillus subtilis is isolated in one of two blood cultures drawn at admission.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Add intravenous vancomycin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Add linezolid",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Obtain transthoracic echocardiogram",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Repeat blood cultures",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "No change in management",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "E",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient does not require any change in management (Option E). Blood culture contamination with skin or environmental bacteria is a common problem, leading to prolonged hospitalization, unnecessary antibiotics, and increased medical costs. Coagulase-negative staphylococci account for more than 75% of blood culture contaminants, but other organisms are also implicated. Bacillus species are widespread in the environment and, in the absence of trauma, are uncommon causes of human infection. Contamination should be considered when low-virulence organisms such as Bacillus species (except for Bacillus anthracis), most coagulase-negative staphylococci (e.g., Staphylococcus epidermidis), Micrococcus species, most Corynebacterium species, or Cutibacterium acnes are grown in a single bottle or single set of blood cultures or when these organisms are present as mixed flora in addition to other bacteria. However, clinical judgement is necessary to assess significance when one of these organisms is isolated. Bacteremia may be pathogenic in patients with prosthetic material, including prosthetic heart valves; indwelling central venous catheters; or cardiac implantable electronic devices. In this subset of patients, additional clinical assessment, such as repeat blood cultures and, when concern persists, echocardiography, may be necessary to exclude true infection. This patient does not have implanted prosthetic material and pyelonephritis is an alternative cause for her symptoms; her fever also rapidly resolved with treatment that would not typically be effective against Bacillus. These findings are consistent with blood culture contamination with this organism, and no further evaluation or treatment is necessary.Vancomycin and linezolid are active in vitro against Bacillus species, but treatment is not indicated in a patient without clinical evidence of infection (Option A, Option B).Echocardiography should be considered to exclude endovascular infection in patients with risk factors (e.g., prosthetic heart valves), ongoing signs of infection with no alternative cause, growth in multiple cultures, or persistently positive blood cultures (Option C). In patients without these features, additional evaluation adds costs with limited value.Repeat blood cultures would be indicated if this patient had risk factors for an endovascular infection but are low yield in an otherwise healthy patient whose symptoms have improved without directed antibiotic treatment targeting the blood culture contaminant (Option D).",
+  "key_points": [
+    "Blood culture contamination should be considered when low-virulence organisms (most Bacillus species, coagulase-negative staphylococci, Micrococcus species, Corynebacterium species, Cutibacterium acnes) are grown in a single bottle or single set of blood cultures.",
+    "In patients without signs of or risk factors for endovascular infection, additional evaluation may add cost with limited value."
+  ],
+  "references": "Doern GV, Carroll KC, Diekema DJ, et al. Practical guidance for clinical microbiology laboratories: A comprehensive update on the problem of blood culture contamination and a discussion of methods for addressing the problem. Clin Microbiol Rev. 2019;33. PMID: 31666280 doi:10.1128/CMR.00009-19",
+  "related_content": {
+    "syllabus": [
+      "idsec24005_24003"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:45:33.678010-06:00"
+}

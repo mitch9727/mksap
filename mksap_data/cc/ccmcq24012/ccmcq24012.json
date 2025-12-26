@@ -1,0 +1,59 @@
+{
+  "question_id": "ccmcq24012",
+  "category": "cc",
+  "educational_objective": "Diagnose obstructive shock caused by a tension pneumothorax.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 68-year-old patient is evaluated in the ICU for hypotension and hypoxemia. They were hospitalized 4 days ago for COVID-19–associated acute respiratory distress syndrome, which required intubation, mechanical ventilation, and sedation. Over the past 20 minutes, the patient has developed progressive hypotension. Oxygen saturation decreased from 92% to 86%. Medications are dexamethasone, propofol, fentanyl, and low-molecular-weight heparin.On physical examination, temperature is 37.1 °C (98.8 °F), blood pressure is 90/55 mm Hg, pulse rate is 120/min, and respiration rate is 26/min by ventilator. Oxygen saturation is 86% with the patient breathing Fio2 of 0.70. Tidal volume is 375 mL, and positive end-expiratory pressure is 14 cm H2O. The ventilator indicates elevated plateau and peak pressures. The patient is using accessory muscles during inspiration. Breath sounds and heart sounds are difficult to assess because of ambient noise, including alarms and the ventilator.",
+  "question_stem": "Which of the following is the most appropriate next step in diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bedside chest ultrasonography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "ECG",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Echocardiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pulmonary CT angiography",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step for this patient, who likely has obstructive shock due to a tension pneumothorax, is immediate bedside chest ultrasonography (Option A). Obstructive shock occurs when extravascular forces cause impaired cardiac output despite normal cardiac function. Common causes include cardiac tamponade, tension pneumothorax, and acute pulmonary embolism. In tension pneumothorax, hypotension develops from increased pleural pressures, leading to venous compression and diminished venous return to the right atrium. This resulting condition can also cause atelectasis and hypoxic vasoconstriction, which increases pulmonary vascular resistance and right ventricular afterload. Pneumothorax is common in patients with acute respiratory distress syndrome who require mechanical ventilation. Patients with tension pneumothorax typically have decreased or absent lung sounds on the affected side; tracheal deviation may be present. Tension pneumothorax is diagnosed through imaging, and point-of-care lung ultrasonography can rapidly assess patients for pneumothorax. A lung point sign, as seen in the video, can be used to identify a pneumothorax on ultrasonography. This patient has had acute onset of worsening hypoxemia, elevated ventilatory pressures, and hypotension, all suggesting tension pneumothorax with obstructive shock. They should immediately undergo bedside ultrasonography followed by emergent needle decompression of the affected thoracic space with subsequent thoracostomy tube insertion. In unstable patients for whom tension pneumothorax is strongly suspected, needle decompression should not be delayed if imaging (ultrasonography or radiography) is not immediately available.ECG (Option B) is not the best management in this patient. Although ECG is an appropriate study for the evaluation of a critically ill patient with acute decompensation, this patient has signs of a respiratory cause of decompensation, with acute rise in peak and plateau pressures. In this setting, the evaluation of a respiratory cause of acutely worsening shock is more likely and should be the focus of resuscitative efforts.Echocardiography (Option C) is an appropriate test in shock when cardiac tamponade or cardiogenic shock is suspected. This patient's clinical deterioration while on positive-pressure ventilation with findings of elevated ventilatory pressures is more suggestive of tension pneumothorax than a cardiac process, and bedside chest ultrasonography is a more appropriate next step.Pulmonary CT angiography (Option D) is usually the test of choice for patients suspected of having pulmonary embolism, another cause of obstructive shock. Although pulmonary embolism can cause the acute hemodynamic deterioration and hypoxemia seen in this patient, pneumothorax is more likely given their elevated ventilatory pressures.",
+  "key_points": [
+    "Obstructive shock secondary to tension pneumothorax is often associated with decreased or absent lung sounds on the affected side; the diagnosis may be made rapidly with point-of-care lung ultrasonography."
+  ],
+  "references": "Bischin AM, Manning HL, Feller-Kopman D. Lung story short: differing physiology of tension pneumothorax in spontaneously breathing and mechanically ventilated patients. Ann Am Thorac Soc. 2022;19:1760-3. PMID: 36178397 doi:10.1513/AnnalsATS.202203-188CC",
+  "related_content": {
+    "syllabus": [
+      "ccsec24002_24025"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:53:33.574048-06:00"
+}

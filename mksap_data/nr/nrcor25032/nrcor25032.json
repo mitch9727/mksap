@@ -1,0 +1,60 @@
+{
+  "question_id": "nrcor25032",
+  "category": "nr",
+  "educational_objective": "Manage early antithrombotic therapy in a patient with a cardioembolic ischemic stroke.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "An 82-year-old man is evaluated in the emergency department for difficulty speaking and right-sided weakness that began 6 hours ago. He has hypertension and dyslipidemia. Medications are amlodipine and rosuvastatin.On physical examination, blood pressure is 185/92 mm Hg, and pulse rate is 86/min and irregular. Cardiac auscultation confirms an irregularly irregular rhythm. The patient has expressive aphasia, right facial droop, and no movement in his right arm. National Institutes of Health Stroke Scale score is 8. He passes a bedside dysphagia screen.ECG shows atrial fibrillation.Head CT scan shows an acute infarct in the left superior middle cerebral artery territory without hemorrhage. CT angiogram of the head and neck is normal.",
+  "question_stem": "Which of the following is the most appropriate immediate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Apixaban",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Aspirin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Aspirin and clopidogrel",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Intravenous unfractionated heparin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment is aspirin (Option B). In patients with ischemic stroke who are not candidates for thrombolysis or thrombectomy, the use of aspirin significantly reduces the short-term risk for recurrence and disability. Aspirin should be administered upon presentation to patients without contraindications who have an acute ischemic stroke and are not undergoing thrombolysis or thrombectomy. A dysphagia evaluation is necessary to ensure that the patient can safely swallow aspirin; if not, aspirin should be administered rectally. This patient presented outside the time window for thrombolysis and does not have a visualized large vessel occlusion that could be targeted for thrombectomy; aspirin is the most appropriate immediate treatment.Patients with cardioembolic stroke secondary to atrial fibrillation should be given a direct oral anticoagulant or warfarin for long-term secondary prevention. Initiating anticoagulation in the setting of acute ischemic stroke, however, increases the likelihood of hemorrhagic transformation, especially in patients with larger-volume strokes. The timing of anticoagulation initiation depends on several factors, including infarct size, blood pressure control, and radiographic evidence of hemorrhagic transformation. Optimal timing for initiating anticoagulation is the subject of ongoing clinical trials, but a delay of at least 48 hours after stroke onset is reasonable to decrease the likelihood of bleeding. Thus, apixaban (Option A) is not the most appropriate immediate treatment in this patient with a stroke of 6 hours' duration.A short course (21-30 days) of dual antiplatelet therapy, such as aspirin plus clopidogrel or aspirin plus ticagrelor (Option C), has demonstrated benefit for secondary stroke prevention in patients with minor noncardioembolic ischemic stroke (National Institutes of Health Stroke Scale [NIHSS] score 0-5) or high-risk transient ischemic attack. However, patients with cardioembolic stroke, such as this one, were not included in these trials.Intravenous unfractionated heparin (Option D) is not recommended in acute ischemic stroke as it has not been shown to reduce the short-term risk for recurrent stroke and is associated with a higher risk for hemorrhagic complications. Immediate systemic anticoagulation with heparin is avoided unless a concomitant higher-risk embolic source is present, such as left ventricular thrombus or a mechanical mitral valve.",
+  "key_points": [
+    "The use of aspirin in patients with ischemic stroke who present outside of the window for thrombolysis significantly reduces the short-term risk for recurrence and disability.",
+    "Long-term anticoagulation with warfarin or a direct oral anticoagulant is indicated in patients with atrial fibrillation who have had a cardioembolic stroke, but it should not be initiated immediately because of the risk for hemorrhagic transformation."
+  ],
+  "references": "Kleindorfer DO, Towfighi A, Chaturvedi S, et al. 2021 Guideline for the prevention of stroke in patients with stroke and transient ischemic attack: a guideline from the American Heart Association/American Stroke Association. Stroke. 2021;52:e364-e467. PMID: 34024117 doi:10.1161/STR.0000000000000375",
+  "related_content": {
+    "syllabus": [
+      "nrsec24004_24013"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:50:05.496488-06:00"
+}

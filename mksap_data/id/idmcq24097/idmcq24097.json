@@ -1,0 +1,59 @@
+{
+  "question_id": "idmcq24097",
+  "category": "id",
+  "educational_objective": "Treat <i>Pseudomonas aeruginosa</i>–associated septic arthritis in a person who injects drugs.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 33-year-old woman is evaluated on hospital day 2 after being admitted for a 3-day history of fever and pain and swelling of the left knee. On admission, leukocyte count was elevated, radiographs showed a large effusion of the left knee, and arthrocentesis suggested septic arthritis. She injects heroin intravenously daily. Empiric vancomycin and cefepime therapy was initiated; her symptoms and leukocyte count have improved.On physical examination, vital signs are normal. Examination findings are improved from admission, but limited range of motion, warmth, tenderness, and swelling of the left knee are noted.Blood cultures show no growth. Cultures of the knee joint fluid are now growing Pseudomonas aeruginosa.",
+  "question_stem": "In addition to adequate drainage, which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Discontinue current treatment and begin ceftriaxone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Discontinue current treatment and begin trimethoprim-sulfamethoxazole",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Discontinue vancomycin and continue cefepime",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Continue current treatment",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has Pseudomonas aeruginosa–associated septic arthritis; antibiotic stewardship principles favor discontinuing vancomycin (which has no activity against P. aeruginosa) and continuing use of a first-line antipseudomonal antibiotic such as cefepime, a fourth-generation cephalosporin (Option C). Other potential first-line agents include ceftazidime, a carbapenem (e.g., meropenem), and a fluoroquinolone (e.g., ciprofloxacin or levofloxacin). Because this patient is improving with cefepime therapy and does not appear to have a worsening infection or severe sepsis, combination antipseudomonal antibiotic therapy is likely not needed; however, in vitro susceptibility results should be checked to ensure that the organism is susceptible to cefepime.Ceftriaxone (Option A), a third-generation cephalosporin, has broad-spectrum activity against many aerobic gram-positive and gram-negative pathogens as well as some gram-positive anaerobes. However, ceftriaxone does not have reliable activity against P. aeruginosa and thus would not be an appropriate choice for this patient.Trimethoprim-sulfamethoxazole (Option B) has activity against a range of pathogens, including community-associated methicillin-resistant Staphylococcus aureus (MRSA), Stenotrophomonas maltophilia, Nocardia species, Serratia marcescens, Burkholderia cepacia, and Pneumocystis jirovecii. However, P. aeruginosa is resistant to this agent.Empiric treatment of persons who inject drugs who have suspected septic arthritis should include broad-spectrum coverage with agents active against MRSA (e.g., vancomycin) and P. aeruginosa (e.g., cefepime) (Option D). However, when culture results demonstrate only P. aeruginosa, vancomycin should be discontinued and the antipseudomonal should be continued.",
+  "key_points": [
+    "Empiric treatment of persons who inject drugs and have suspected septic arthritis should include broad-spectrum coverage with agents active against methicillin-resistant Staphylococcus aureus (vancomycin) and Pseudomonas aeruginosa (cefepime, ceftazidime); when culture results are available, treatment should be narrowed to address the specific causative organism."
+  ],
+  "references": "Ibrahim D, Jabbour JF, Kanj SS. Current choices of antibiotic treatment for Pseudomonas aeruginosa infections. Curr Opin Infect Dis. 2020;33:464-473. PMID: 33148986 doi:10.1097/QCO.0000000000000677",
+  "related_content": {
+    "syllabus": [
+      "idsec24004_24015"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:45:33.761251-06:00"
+}

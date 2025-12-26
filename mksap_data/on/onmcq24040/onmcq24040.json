@@ -1,0 +1,60 @@
+{
+  "question_id": "onmcq24040",
+  "category": "on",
+  "educational_objective": "Treat a patient with stage II mismatch repair–deficient colon cancer.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 45-year-old man is evaluated during a medical oncology consultation 3 weeks after undergoing right hemicolectomy for adenocarcinoma of the ascending colon. Preoperative staging showed no evidence of metastatic disease. He has recovered well from surgery, has resumed regular activities, and is eating well.Physical examination findings, including vital signs, are normal.Laboratory study results are normal.Pathology shows a poorly differentiated tumor penetrating the full thickness of the bowel wall with no positive lymph nodes. Perineural and lymphovascular invasion are noted on pathology.Immunohistochemical stains for mismatch repair proteins are negative for MLH1 and PMS2.",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Adjuvant therapy with capecitabine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Adjuvant therapy with capecitabine plus oxaliplatin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Adjuvant therapy with a PD-1 inhibitor",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No further therapy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "No further therapy (Option D) is indicated for this patient. Most patients with nonmetastatic colon cancers are initially treated with surgical resection, and pathologic evaluation determines further treatment. This patient has undergone hemicolectomy for stage II colon cancer that is mismatch repair deficient (dMMR). Patients with these tumors have a favorable prognosis and a low risk for recurrence with observation alone regardless of other potential risk factors, such as perineural or lymphovascular invasion. Treatment with standard chemotherapy has not been shown to further improve prognosis, and these tumors should not receive adjuvant chemotherapy. However, approximately 20% of patients with dMMR colon cancer will have a germline mismatch repair deficiency, or Lynch syndrome. Therefore, genetic counseling and screening for Lynch syndrome is appropriate for all patients with dMMR tumors.This patient does not require adjuvant chemotherapy (Options A, B). For a patient with a mismatch repair–proficient tumor, poorly differentiated histology and perineural and lymphovascular invasion are risk factors that would imply a role for adjuvant chemotherapy, either with capecitabine alone or with oxaliplatin. However, these factors are not relevant to treatment decisions in dMMR tumors, such as with this patient.Adjuvant therapy with a PD-1 inhibitor (Option C) is not indicated for this patient. PD-1 inhibitors are immunotherapy agents that facilitate attack on the tumor by the patient's immune system. These agents are very active in metastatic dMMR colorectal cancer but do not have a role in the postoperative, or adjuvant, setting in stage II colon cancers.",
+  "key_points": [
+    "Patients with stage II colon cancer that lacks high-risk features or is mismatch repair deficient have favorable prognoses and are unlikely to benefit further from adjuvant chemotherapy.",
+    "Patients with mismatch repair–proficient colon cancer, poorly differentiated histology, and perineural and lymphovascular invasion can be treated with adjuvant chemotherapy with capecitabine alone or with oxaliplatin."
+  ],
+  "references": "Baxter NN, Kennedy EB, Bergsland E, et al. Adjuvant therapy for stage II colon cancer: ASCO guideline update. J Clin Oncol. 2022;40:892-910. PMID: 34936379 doi:10.1200/JCO.21.02538",
+  "related_content": {
+    "syllabus": [
+      "onsec24003_24005"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:51:14.645944-06:00"
+}

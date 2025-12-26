@@ -1,0 +1,65 @@
+{
+  "question_id": "fcmcq24042",
+  "category": "fc",
+  "educational_objective": "Evaluate a patient with a family history of <i>BRCA1</i> variant and a negative direct-to-consumer genomic test result.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 22-year-old woman asks for advice regarding her risk for breast cancer. She recently obtained a direct-to-consumer test, the result of which was negative for BRCA1. Her mother was diagnosed with premenopausal invasive breast cancer at age 48 years with a BRCA1 variant found on genetic testing. Her maternal grandmother died of ovarian cancer at age 55 years but never underwent genetic testing. The patient's only medication is a combined oral contraceptive. She identifies as Filipina.Physical examination findings, including vital signs, are unremarkable.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "BRCA1/2 testing",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Mammography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Referral for genetic counseling",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Referral for prophylactic mastectomy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "Reassurance",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has a first-degree relative with a known BRCA1 variant, and a referral for genetic counseling (Option C) is the most appropriate next step. Direct-to-consumer (DTC) testing is approved only to provide health information; DTC tests are not diagnostic tests. The FDA recommends confirmation with clinical testing before using DTC test results in patient care. Clinical genetic testing in a Clinical Laboratory Improvement Amendments (CLIA)-certified laboratory is necessary to confirm the presence or absence of a BRCA variant. DTC testing typically evaluates for the most common BRCA variants among Ashkenazi Jewish/northern European populations, which account for only three of the more than 1000 known pathogenic variants of BRCA. Therefore, DTC testing has a high false-negative rate in other ethnic populations. Before genetic testing, patients should receive guidance from a trained genetic counselor so they can make an informed decision before testing. Protections have been established to prevent discrimination by health insurance companies but not by life or disability insurance providers. Genetic counselors can also help identify the appropriate genetic test to be performed.Genetic testing has many risks and limitations, and the genetic tests available vary widely. Patients should be referred for genetic counseling before genetic testing. Therefore, proceeding with direct BRCA1/2 testing (Option A) without first referring the patient for genetic counseling is inappropriate.For women with a pathogenic BRCA variant, the National Comprehensive Cancer Network recommends that breast cancer screening with breast MRI start at age 25 years and annual mammography (Option B) be added at age 30 years. Regardless of her BRCA variant status, this patient is younger than the recommended screening age.Prophylactic bilateral mastectomies for BRCA1 or BRCA2 variant carriers decrease the risk for breast cancer by greater than 90%. However, prophylactic mastectomy (Option D) should not be recommended to a patient without a positive clinical test result for a BRCA variant.Reassurance based on a negative DTC genetic test result (Option E) is not appropriate. DTC tests use risk estimation based on single-nucleotide polymorphisms and look for genetic variants common in certain ethnic groups while not including other variants.",
+  "key_points": [
+    "The FDA recommends confirmation with clinical testing before using direct-to-consumer test results in patient care; clinical genetic testing in a Clinical Laboratory Improvement Amendments (CLIA)-certified laboratory is necessary to confirm the presence or absence of a BRCA variant.",
+    "Before genetic testing, patients should receive guidance from a trained genetic counselor so they can make an informed decision."
+  ],
+  "references": "Gill J, Obley AJ, Prasad V. Direct-to-consumer genetic testing: the implications of the US FDA's first marketing authorization for BRCA mutation testing. JAMA. 2018;319:2377-2378. PMID: 29800087 doi:10.1001/jama.2018.5330",
+  "related_content": {
+    "syllabus": [
+      "fcsec24006_24005"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T11:31:33.953450-06:00"
+}

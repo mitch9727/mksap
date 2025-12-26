@@ -1,50 +1,51 @@
 === MKSAP DATA VALIDATION REPORT ===
 
-Total Questions Found: 2066
-Total Valid Questions: 2066
+Total Questions Found: 2198
+Total Valid Questions: 2198
 Total Invalid Questions: 0
 
 === INVALID BREAKDOWN ===
 Missing JSON: 0
-Missing Metadata: 0
 Parse Errors: 0
 Schema Invalid: 0
 
 === PER-SYSTEM SUMMARY ===
 ✓ OK cc: 55/55 questions (55 valid, 100.0% of discovered)
 ✓ OK cs: 98/98 questions (98 valid, 100.0% of discovered)
-✓ OK cv: 240/216 questions (240 valid, 111.1% of expected)
+✓ OK cv: 240/240 questions (240 valid, 100.0% of discovered)
 ✓ OK dm: 113/113 questions (113 valid, 100.0% of discovered)
-✓ OK en: 160/136 questions (160 valid, 117.6% of expected)
-✓ OK gi: 125/77 questions (125 valid, 162.3% of expected)
-✓ OK hm: 149/125 questions (149 valid, 119.2% of expected)
+✓ OK en: 160/160 questions (160 valid, 100.0% of discovered)
+✓ OK fc: 132/132 questions (132 valid, 100.0% of discovered)
+✓ OK gi: 125/125 questions (125 valid, 100.0% of discovered)
+✓ OK hm: 149/149 questions (149 valid, 100.0% of discovered)
 ✓ OK hp: 53/53 questions (53 valid, 100.0% of discovered)
-✓ OK id: 229/205 questions (229 valid, 111.7% of expected)
-✓ OK in: 110/100 questions (110 valid, 110.0% of expected)
-✓ OK np: 179/155 questions (179 valid, 115.5% of expected)
-✓ OK nr: 142/118 questions (142 valid, 120.3% of expected)
-✓ OK on: 127/103 questions (127 valid, 123.3% of expected)
-✓ OK pm: 131/131 questions (131 valid, 100.0% of expected)
-✓ OK rm: 155/131 questions (155 valid, 118.3% of expected)
+✓ OK id: 229/229 questions (229 valid, 100.0% of discovered)
+✓ OK in: 110/110 questions (110 valid, 100.0% of discovered)
+✓ OK np: 179/179 questions (179 valid, 100.0% of discovered)
+✓ OK nr: 142/142 questions (142 valid, 100.0% of discovered)
+✓ OK on: 127/127 questions (127 valid, 100.0% of discovered)
+✓ OK pm: 131/131 questions (131 valid, 100.0% of discovered)
+✓ OK rm: 155/155 questions (155 valid, 100.0% of discovered)
 
 
 === SPECIFICATION COMPLIANCE REPORT ===
 
-✓ cv (Cardiovascular Medicine): 240/216 questions (111.1% of baseline)
-✓ en (Endocrinology and Metabolism): 160/136 questions (117.6% of baseline)
-✓ cs (Foundations of Clinical Practice and Common Symptoms): 98/98 questions (100.0% of discovered)
-✓ gi (Gastroenterology): 125/77 questions (162.3% of baseline)
+✓ cv (Cardiovascular Medicine): 240/240 questions (100.0% of discovered)
+✓ en (Endocrinology and Metabolism): 160/160 questions (100.0% of discovered)
+✓ fc (Foundations of Clinical Practice): 132/132 questions (100.0% of discovered)
+✓ cs (Common Symptoms): 98/98 questions (100.0% of discovered)
+✓ gi (Gastroenterology): 125/125 questions (100.0% of discovered)
 ✓ hp (Hepatology): 53/53 questions (100.0% of discovered)
-✓ hm (Hematology): 149/125 questions (119.2% of baseline)
-✓ id (Infectious Disease): 229/205 questions (111.7% of baseline)
-✓ in (Interdisciplinary Medicine): 110/100 questions (110.0% of baseline)
+✓ hm (Hematology): 149/149 questions (100.0% of discovered)
+✓ id (Infectious Disease): 229/229 questions (100.0% of discovered)
+✓ in (Interdisciplinary Medicine): 110/110 questions (100.0% of discovered)
 ✓ dm (Dermatology): 113/113 questions (100.0% of discovered)
-✓ np (Nephrology): 179/155 questions (115.5% of baseline)
-✓ nr (Neurology): 142/118 questions (120.3% of baseline)
-✓ on (Oncology): 127/103 questions (123.3% of baseline)
-✓ pm (Pulmonary Medicine): 131/131 questions (100.0% of baseline)
+✓ np (Nephrology): 179/179 questions (100.0% of discovered)
+✓ nr (Neurology): 142/142 questions (100.0% of discovered)
+✓ on (Oncology): 127/127 questions (100.0% of discovered)
+✓ pm (Pulmonary Medicine): 131/131 questions (100.0% of discovered)
 ✓ cc (Critical Care Medicine): 55/55 questions (100.0% of discovered)
-✓ rm (Rheumatology): 155/131 questions (118.3% of baseline)
+✓ rm (Rheumatology): 155/155 questions (100.0% of discovered)
 
 === OVERALL (DISCOVERY-BASED) ===
-2066/319 questions extracted (647.6%)
+2198/2198 questions extracted (100.0%)

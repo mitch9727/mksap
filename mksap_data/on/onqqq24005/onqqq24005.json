@@ -1,0 +1,59 @@
+{
+  "question_id": "onqqq24005",
+  "category": "on",
+  "educational_objective": "Screen for PD-L1 expression in metastatic non–small cell lung cancer.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 65-year-old man is evaluated for cough and shortness of breath with exertion as well as a 4.5-kg (10 lb) weight loss over the past 2 months. He takes no medications.On physical examination, decreased breath sounds are heard in the lower right lung field.Chest radiograph reveals a right lower lobe opacity, and CT scan of the chest reveals a large right lower lobe mass, liver masses, and a right adrenal mass. These findings are consistent with metastases.A biopsy of the right lung mass reveals adenocarcinoma. Tumor genomic profiling reveals no genetic alterations.",
+  "question_stem": "Which of the following is the most appropriate diagnostic or screening test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Liver biopsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "PD-L1 expression",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "PET/CT",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pulmonary function testing",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "In patients with metastatic non–small cell lung cancer (NSCLC), a quantitative measure of PD-L1 on tumor cells (Option B) is used to determine suitability for immune checkpoint inhibitors that target this pathway; higher expression (especially if greater than 50%) is more predictive of treatment response. Accepted front-line treatment for patients with metastatic NSCLC previously was platinum-based chemotherapy, except in those found to have a driver alteration, in whom small molecule inhibitors are indicated. However, immunotherapy with pembrolizumab is FDA approved for the initial treatment of metastatic NSCLC that is positive for expression of PD-L1. Pembrolizumab is a monoclonal antibody directed against PD-L1, and it blocks binding of this ligand to the PD-1 receptor, preventing the cancer from silencing cellular immunity. This agent was found to significantly improve overall survival compared with platinum-based chemotherapy in a phase 3 trial that enrolled 305 patients with advanced NSCLC who had at least 50% tumor cell positivity for PD-L1. Based on these data, it is standard practice to test all patients newly diagnosed with metastatic NSCLC for PD-L1 expression.Liver biopsy (Option A) can help confirm the presence of metastatic disease. However, it is not indicated in patients with imaging findings consistent with metastatic disease whose diagnosis has been confirmed by biopsy of the primary lesion, as in this patient.PET/CT (Option C) has no role in the evaluation or management of patients with known metastatic disease and would not be indicated for this patient.Pulmonary function testing (Option D) plays no role in the management of patients with metastatic disease. These tests are typically indicated in patients who are being considered for surgery for early-stage disease.",
+  "key_points": [
+    "It is standard practice to test all patients newly diagnosed with metastatic non−small cell lung cancer for PD-L1 expression."
+  ],
+  "references": "Reck M, Rodríguez-Abreu D, Robinson AG, et al. Updated analysis of KEYNOTE-024: pembrolizumab versus platinum-based chemotherapy for advanced non-small-cell lung cancer with PD-L1 tumor proportion score of 50% or greater. J Clin Oncol. 2019;37:537-546. PMID: 30620668 doi:10.1200/JCO.18.00149",
+  "related_content": {
+    "syllabus": [
+      "onsec24004_24006"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:51:14.748170-06:00"
+}

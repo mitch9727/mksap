@@ -1,0 +1,59 @@
+{
+  "question_id": "pmcor25007",
+  "category": "pm",
+  "educational_objective": "Diagnose a complicated parapneumonic effusion.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 60-year-old man is evaluated in the emergency department for a 1-week history of cough, shortness of breath, chest pain, and night sweats. He has atrial fibrillation, hypertension, and heart failure with preserved ejection fraction. Medications are metoprolol, valsartan, and apixaban. He has a 25-pack-year smoking history.On physical examination, temperature is 38.8 °C (102 °F), blood pressure is 145/82 mm Hg, pulse rate is 128/min, and respiration rate is 30/min. Oxygen saturation is 88% with the patient breathing ambient air. Heart rhythm is irregularly irregular. No jugular venous distention or leg edema is observed. Decreased breath sounds and dullness to percussion at the right lung base are noted. The remainder of the examination is noncontributory.Laboratory studies:Leukocyte count16,000/µL (16.0 × 109/L)HTotal protein6.9 g/dL (69 g/L)Chest radiograph shows a large right pleural effusion with associated compressive atelectasis or consolidation, and consolidation in the right upper lobe.The patient is prescribed broad-spectrum antibiotics, and diagnostic thoracentesis removes 100 mL of serous pleural fluid.Pleural fluid studies:pH7.0LGlucose42 mg/dL (2.3 mmol/L)LLactate dehydrogenase2310 U/LHProtein, total5.2 g/dL (52 g/L)Gram stainNegative",
+  "question_stem": "Which of the following is the most likely cause of this patient's pleural effusion?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bacterial infection in the pleural space",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Heart failure",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Malignancy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sterile inflammatory response",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has a complicated parapneumonic effusion caused by bacterial invasion of the pleural space (Option A). A parapneumonic effusion is defined as fluid in the pleural space accompanying clinical pneumonia. Parapneumonic effusions are characterized as uncomplicated (sterile), complicated (infected), or empyemas (infected and frankly purulent). Because bacteria may be cleared rapidly from the pleural space, complicated parapneumonic effusions typically have a negative Gram stain and no microbial growth on bacterial cultures. Therefore, in the setting of clinical pneumonia, pleural fluid pH and glucose levels are used as proxy indicators of infection. Loculation is also a suggestive feature of a complicated (infected) effusion. Complicated parapneumonic effusions have a variable response to antibiotics alone, so drainage is indicated to speed clinical recovery. This patient has clinically evident pneumonia (acute constitutional and respiratory symptoms, fever, leukocytosis, and consolidation on radiograph) and a serous, acidic pleural effusion with low glucose level, indicating a complicated parapneumonic effusion caused by bacterial infection of the pleural space.Although heart failure (Option B) is a leading cause of pleural effusions, these effusions are transudative. In contrast, this patient's effusion is exudative, as indicated by the pleural fluid lactate dehydrogenase (LDH) level greater than two thirds the upper limit of normal for serum LDH and a pleural fluid to serum total protein ratio of >0.5. The presence of clinical pneumonia and normal volume examination also support the diagnosis of parapneumonic effusion.A malignant effusion (Option C) may be characterized by a low pH and glucose level, but the acuity of this patient's presentation, as well as the examination, laboratory, and radiographic findings, supports an infectious cause.An uncomplicated parapneumonic effusion is caused by accumulation of exudative, noninfected fluid in the pleural space (Option D). Uncomplicated effusions do not require drainage and typically resolve with antibiotic therapy alone. Uncomplicated effusions are characterized by a pH greater than 7.2 and glucose level greater than 60 mg/dL (3.3 mmol/L), unlike the biochemical features of this patient's pleural fluid.",
+  "key_points": [
+    "Parapneumonic effusions with a pleural fluid pH less than 7.2 or a glucose level less than 60 mg/dL (3.3 mmol/L) require thoracostomy or surgical drainage in addition to antibiotics."
+  ],
+  "references": "Addala DN, Bedawi EO, Rahman NM. Parapneumonic effusion and empyema. Clin Chest Med. 2021;42:637-647. PMID: 34774171 doi:10.1016/j.ccm.2021.08.001",
+  "related_content": {
+    "syllabus": [
+      "pmsec24005_24012"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:52:23.706275-06:00"
+}

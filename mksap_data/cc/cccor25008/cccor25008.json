@@ -1,0 +1,60 @@
+{
+  "question_id": "cccor25008",
+  "category": "cc",
+  "educational_objective": "Diagnose neuroleptic malignant syndrome.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 31-year-old man is evaluated in the emergency department (ED) after his girlfriend called emergency medical services when he could not get out of bed. Four days ago he was evaluated in the ED for nausea and vomiting, diagnosed with gastroenteritis, given intravenous fluids, and prescribed metoclopramide. Although his gastrointestinal symptoms improved, he has become progressively shaky and diaphoretic over the past 2 days. He was also confused upon awakening this morning. He has schizophrenia, and his only long-term medication is quetiapine. He does not drink alcohol.On physical examination, temperature is 40.4 °C (104.7 °F), blood pressure is 164/82 mm Hg, pulse rate is 128/min, and respiration rate is 22/min. Oxygen saturation is 98% with the patient breathing ambient air. He is drooling, diaphoretic, tremulous, and disoriented and cannot provide a clear history. He moves all four extremities well, but increased muscle tone is present. Deep tendon reflexes are hypoactive.Laboratory studies:Leukocyte count14,000 µL (14 × 109/L)HCreatine kinase1750 U/LHHead CT scan is negative.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Anticholinergic toxicity",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Malignant hyperthermia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Neuroleptic malignant syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Serotonin syndrome",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is neuroleptic malignant syndrome (NMS) (Option C). NMS is an idiosyncratic response classically associated with the use of first-generation antipsychotic agents such as haloperidol but also seen with newer-generation antipsychotics, as well as antiemetics. NMS is more common at times of medication initiation or dose escalation but can occur after prolonged use. The diagnosis is made clinically and is characterized by mental status changes, high fever, muscle rigidity (described as “lead pipe” rigidity), and dysautonomia. Common laboratory abnormalities include leukocytosis and an elevated serum creatine kinase level, which may be striking. Mortality may exceed 10%. Treatment includes stopping the triggering agent; active cooling; and supportive care, including intravenous fluid administration. This patient has classic symptoms of NMS, takes the second-generation antipsychotic quetiapine, and was recently prescribed metoclopramide, a drug with dopamine antagonistic properties that is also associated with NMS. NMS is the most likely diagnosis.Patients with anticholinergic toxicity (Option A) may present with encephalopathy and fever; however, diaphoresis, muscle rigidity, and drooling are not typical features. This patient is also not taking medications known to have anticholinergic effects. In fact, in addition to its antidopaminergic effects, metoclopramide has cholinomimetic properties leading to its utility in gastrointestinal hypomotility disorders.Muscle rigidity and very high fever are also encountered in malignant hyperthermia (Option B). However, malignant hyperthermia is a rare genetic disorder associated with exposure to inhaled anesthetic agents or the paralytic succinylcholine, which has not occurred in this patient.Serotonin syndrome (Option D), associated with serotonergic agents, shares some features with NMS, such as encephalopathy and fever. However, patients with serotonin syndrome do not present with muscle rigidity and more typically have hyperactive deep tendon reflexes. This patient has muscle rigidity and underactive deep tendon reflexes and has not been exposed to any known serotonergic drugs; therefore, serotonin syndrome is unlikely.",
+  "key_points": [
+    "Neuroleptic malignant syndrome is a clinical diagnosis characterized by the tetrad of fever, mental status changes, muscle rigidity, and dysautonomia.",
+    "Neuroleptic malignant syndrome is classically associated with the use of first-generation antipsychotic agents but can also occur with newer-generation antipsychotics, as well as antiemetics."
+  ],
+  "references": "Szota AM, Radajewska I, Araszkiewicz AS. Atypical neuroleptic malignant syndrome: case reports and diagnostic challenges. J Psychoactive Drugs. 2022;54:284-93. PMID: 34340640 doi:10.1080/02791072.2021.1957188",
+  "related_content": {
+    "syllabus": [
+      "ccsec24003_24005"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:53:33.603998-06:00"
+}

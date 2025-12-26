@@ -1,0 +1,60 @@
+{
+  "question_id": "idcor25014",
+  "category": "id",
+  "educational_objective": "Treat central line–associated fungal bloodstream infection.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 37-year-old man is evaluated in the hospital for 3 days of fever. He is receiving prolonged parenteral antibiotics through a peripherally inserted central catheter (PICC) for infective endocarditis.On physical examination, temperature is 38.6 °C (101.5 °F). A right brachial PICC site appears normal. A grade 2/6 diastolic murmur is heard at the left lower sternal border. The remainder of the physical examination is normal.Blood cultures grow Candida species. The previous antibiotics are continued, and blood cultures are repeated.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Exchange PICC line over a guidewire and start fluconazole",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Perform susceptibility testing",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Remove PICC line and start micafungin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Start amphotericin B through PICC line",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Removal of the peripherally inserted central catheter (PICC) and initiation of antifungal therapy with an echinocandin, such as micafungin (Option C), caspofungin, or anidulafungin, is the most appropriate management for this patient. When candidemia is likely to be the result of an intravenous catheter, the catheter must be removed promptly because it serves as a nidus for ongoing candidemia. For candidemia related to intravenous catheters, the duration is shorter and the mortality rate is lower when the catheter is removed than when it remains in place. In addition, with fungal colonization, catheter salvage is extremely difficult, and removal of the catheter is almost always required. Although removal of long-term catheters may be a management challenge in patients being treated with a prolonged course of antibiotics, such as this patient, alternative short-term access is indicated to continue treatment and allow antifungal therapy to be given. Empiric antifungal echinocandin therapy should be started because candidemia can be prolonged and may lead to metastatic complications (endophthalmitis, endocarditis, osteomyelitis). Blood cultures should be repeated until candidemia clearance is documented. Treatment should be given for 2 weeks after symptoms resolve and blood cultures are negative for candidemia, or longer if metastatic complications are present.Because some Candida species can be resistant to fluconazole (Option A), it should not be used for initial empiric treatment of candidemia. If the isolate is later determined to be fluconazole-susceptible, the patient can be switched to fluconazole to complete the treatment course. Also, removal and replacement of the PICC line at a new site is preferred to exchange over a guidewire in the setting of candidemia.Because of the high risk and potential complications of untreated candidemia, it would be inappropriate to delay antifungal treatment or PICC line removal while awaiting susceptibility testing results (Option B).Amphotericin B (Option D) is associated with greater toxicity compared with echinocandins and is typically reserved for fungal infections with resistance to the other antifungal classes. Thus, it would not be the most appropriate antifungal agent choice in this patient. In addition, the PICC line should be removed.",
+  "key_points": [
+    "When candidemia is likely to be the result of an intravenous catheter, the catheter must be removed promptly because it serves as a nidus for ongoing candidemia.",
+    "An echinocandin (micafungin, caspofungin, or anidulafungin) is typically the preferred empiric agent for all patients with candidemia."
+  ],
+  "references": "Pappas PG, Kauffman CA, Andes DR, et al. Clinical practice guideline for the management of candidiasis: 2016 update by the Infectious Diseases Society of America. Clin Infect Dis. 2016;62:e1-e50. PMID: 26679628 doi:10.1093/cid/civ933",
+  "related_content": {
+    "syllabus": [
+      "idsec24018_24014"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:45:33.864835-06:00"
+}

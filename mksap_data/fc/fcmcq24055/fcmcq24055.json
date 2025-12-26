@@ -1,0 +1,64 @@
+{
+  "question_id": "fcmcq24055",
+  "category": "fc",
+  "educational_objective": "Avoid routine preoperative testing in a patient undergoing low-risk surgery.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 72-year-old woman is scheduled for staged bilateral cataract extractions. She feels well overall. Medical history is notable for hypertension, dyslipidemia, and hypothyroidism. Medications are amlodipine, lisinopril, atorvastatin, and levothyroxine. Her medication regimen has remained stable over the past 2 years.On physical examination, vital signs and other findings are unremarkable.Laboratory studies from 6 months ago show normal serum electrolyte, creatinine, and thyroid-stimulating hormone levels.",
+  "question_stem": "Which of the following is (are) the most appropriate preoperative diagnostic test(s) to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "ECG",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hemoglobin level",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Serum electrolyte and creatinine levels",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Thyroid-stimulating hormone level",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "No diagnostic studies",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "E",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient is scheduled for cataract extraction, which is a low-risk surgical procedure (see Table: Suggested Risk Stratification for Procedural Bleed Risk) and requires no specific diagnostic studies (Option E) for preoperative evaluation. For cataract extraction and other low-risk invasive procedures, including hernia repairs and superficial surgeries, routine preoperative diagnostic testing is discouraged because it is of very low yield and unlikely to affect perioperative management. In such situations, diagnostic testing should be ordered only if it is otherwise indicated outside the preoperative context.Preoperative ECG (Option A) is reasonable in patients with known cardiovascular disease, arrhythmia, or structural heart disease or with symptoms of cardiovascular disease who will be undergoing moderate- to high-risk surgeries. However, it is not indicated for asymptomatic patients undergoing low-risk procedures.Measuring hemoglobin level (Option B) is reasonable in patients with a history or findings suggestive of anemia, those with an underlying disease that predisposes them to anemia (e.g., chronic kidney disease), or those undergoing surgery in which large blood loss occurs (e.g., total hip arthroplasty). However, routine assessment of hemoglobin is unnecessary in patients undergoing low-risk eye surgery.In an asymptomatic patient, evaluation of serum electrolyte and creatinine levels (Option C) is not necessary before low-risk surgery. Even for patients with chronic diseases or for those taking medications that may affect kidney function or electrolytes, assessment before low-risk procedures is generally unnecessary.In patients with symptoms that suggest thyroid disease or in those with a recent change in levothyroxine dosage, obtaining a preoperative thyroid-stimulating hormone level (Option D) is reasonable. This patient has not had a recent change to her levothyroxine dosing and is undergoing low-risk surgery that does not require preoperative testing.",
+  "key_points": [
+    "For patients undergoing ambulatory or low-risk surgery (e.g., cataract extraction, hernia repair), preoperative testing is discouraged because there is minimal evidence of its usefulness."
+  ],
+  "references": "Macias AA, Goldfarb J. Preoperative evaluation of patients undergoing eye surgery. Anesthesiol Clin. 2024;42:159-168. PMID: 38278587 doi:10.1016/j.anclin.2023.08.006",
+  "related_content": {
+    "syllabus": [
+      "fcsec24009_24002"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T11:31:34.026956-06:00"
+}

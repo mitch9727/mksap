@@ -1,0 +1,60 @@
+{
+  "question_id": "pmmcq24027",
+  "category": "pm",
+  "educational_objective": "Diagnose pleural malignancy with thoracoscopy.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 68-year-old woman is evaluated for 2 months of worsening shortness of breath. One week ago, she was evaluated in the emergency department for dyspnea. Chest CT scan revealed a large left-sided pleural effusion with associated compressive atelectasis but was otherwise unremarkable. She underwent thoracentesis, with removal of 1200 mL of serosanguinous fluid. Pleural fluid analysis revealed an exudative effusion with negative cytology results. Her dyspnea has returned over the past week. Medical history is significant for breast cancer treated with left mastectomy and adjuvant chemoradiation therapy 20 years ago. She has a 40-pack-year history of smoking but stopped smoking 20 years ago. She takes no medications.On physical examination, vital signs are normal. Lung auscultation reveals decreased breath sounds and dullness to percussion at the left lung base.Repeat chest radiograph shows a large left pleural effusion. Thoracentesis is again performed, and 1 L of serosanguinous fluid is removed. Pleural fluid analysis reveals an exudative effusion with negative cytology results.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Closed pleural biopsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "High-resolution chest CT",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Repeat pleural fluid cytology if effusion recurs",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Thoracoscopy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management in this patient with a possible malignant pleural effusion is to perform thoracoscopy (Option D). Cytologic examination of pleural fluid has an overall sensitivity for detecting cancer of 60%. This value is slightly higher for lung adenocarcinoma (84%) but lower for mesothelioma (29%), squamous cell carcinoma (24%), and lymphoma (40%). When cytology results are negative but malignancy is still suspected, pleural biopsy under direct visualization through thoracoscopy is the next step in evaluation. This procedure has a sensitivity for diagnosing malignant disease of greater than 90%. This patient has a recurrent exudative pleural effusion with a high suspicion for malignancy given her history of smoking and breast cancer. Thoracoscopy with direct pleural biopsy is indicated.Closed pleural biopsy (Option A) provides only a random sample of pleural tissue; it is less sensitive than fluid cytology and has been replaced by thoracoscopy in the diagnostic evaluation of pleural malignancy. Closed pleural biopsy would not be the preferred procedure to perform in this patient suspected of having malignant pleural effusion.High-resolution chest CT (HRCT) (Option B) is not necessary in this patient. HRCT is most useful in evaluating suspected interstitial lung disease. It is not indicated, however, in the evaluation of pleural disease or possible malignancy. Although the slice thickness is thinner in HRCT than conventional CT, the slice interval is greater; it “skips” interval sections of the lung and should not be used to evaluate possible lung nodules. HRCT is not indicated in this patient with possible malignancy. However, standard-resolution CT of the chest with contrast to evaluate the pleura and parenchyma for possible malignancy would be useful to perform after thoracentesis.Repeating thoracentesis and pleural fluid cytology if effusion recurs (Option C) is not likely to be helpful. Obtaining more than two pleural fluid samples for cytology in a patient suspected of having malignant pleural effusion offers minimal benefit. This patient has already undergone the procedure twice, and repeat cytology is not indicated.",
+  "key_points": [
+    "Thoracoscopy has a diagnostic sensitivity of greater than 90% for detecting pleural malignancy in patients suspected of having malignant pleural effusion.",
+    "Obtaining more than two pleural fluid samples for cytology in suspected malignant pleural effusion offers minimal benefit."
+  ],
+  "references": "Kassirian S, Hinton SN, Cuninghame S, et al. Diagnostic sensitivity of pleural fluid cytology in malignant pleural effusions: systematic review and meta-analysis. Thorax. 2023;78(1):32-40. PMID: 35110369 doi:10.1136/thoraxjnl-2021-217959.",
+  "related_content": {
+    "syllabus": [
+      "pmsec24005_24010"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:52:23.615360-06:00"
+}

@@ -1,0 +1,59 @@
+{
+  "question_id": "idcor25001",
+  "category": "id",
+  "educational_objective": "Treat ehrlichiosis empirically with doxycycline.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 22-year-old man is evaluated in the emergency department for a 5-day history of intermittent fevers, headache, nausea, and body aches after returning from a 2-week hiking trip in Tennessee. Medical history is unremarkable, and he takes no medications.On physical examination, temperature is 38.2 °C (100.8 °F); other vital signs are normal. The remainder of the examination is unremarkable.Laboratory studies:Hematocrit40%LLeukocyte count2900/µL (2.9 × 109/L) with normal differentialLPlatelet count80,000/µL (80 × 109/L)LAlbumin4 g/dL (40 g/L)Alkaline phosphatase100 U/LHAlanine aminotransferase300 U/LHAspartate aminotransferase280 U/LHBilirubin, total0.9 mg/dL (15.4 µmol/L)Erythrocytes appear normal on a peripheral blood smear.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Serologic testing for Borrelia burgdorferi",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Serologic testing for Rickettsia rickettsii",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Treatment with azithromycin and atovaquone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Treatment with doxycycline",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management for this patient is empiric treatment with doxycycline (Option D). The exposure history and clinical illness are consistent with ehrlichiosis, a tick-borne illness most commonly transmitted by the Lone Star tick, which is endemic to the southeastern, south-central, and mid-Atlantic United States. Patients typically present within 2 weeks after tick exposure with fever, chills, headache, malaise, and myalgia. Physical examination findings are usually unremarkable, although a nonspecific rash may be present in less than 30% of patients. Common laboratory abnormalities include leukopenia, thrombocytopenia, and elevated serum aminotransferase levels. Whole-blood polymerase chain reaction is the most sensitive and specific diagnostic test, and results are typically positive during the first 2 weeks of infection. Serologic testing for Ehrlichia chaffeensis with antibody titers performed on paired acute and convalescent plasma 2 to 4 weeks apart can be used to confirm the diagnosis, but its utility in the acute setting is limited. Peripheral blood smear demonstrating morulae in monocytes can confirm the diagnosis but requires highly skilled microbiology expertise. This patient's presentation is consistent with E. chaffeensis infection. Severe illness and mortality are possible with ehrlichiosis, so empiric treatment with doxycycline should be started as soon as the illness is suspected.Lyme disease is transmitted by the deer tick endemic to the northeastern, mid-Atlantic, and midwestern United States. Early localized disease traditionally presents as a bull's-eye lesion (erythema migrans) at the site of the tick bite. Without prompt treatment, the organism can disseminate to cause neuroborreliosis, myocarditis, or polyarthritis. This patient's illness is inconsistent with Lyme disease, so serologic testing for Borrelia burgdorferi (Option A) is not the best management.Rocky Mountain spotted fever (RMSF) is a tick-borne illness common in the southeastern and south-central United States that is caused by Rickettsia rickettsii. Early symptoms and laboratory findings are similar to those of ehrlichiosis; however, most patients with RMSF develop a rash. Because this patient lacks a rash, ehrlichiosis is more likely. Additionally, RMSF is also treated empirically with doxycycline, and serologic testing (Option B) should not be performed during the first 5 days of symptoms because the antibody response is not yet detectable.Azithromycin and atovaquone (Option C) are coadministered as treatment for babesiosis, a tick-borne illness that occurs in areas of Lyme endemicity. Patients with babesiosis typically have hemolytic anemia, and thin blood smear analysis can show Babesia organisms in blood cells. This patient's presentation is inconsistent with this diagnosis, so treatment for babesiosis is inappropriate.",
+  "key_points": [
+    "Severe illness and mortality are possible in ehrlichiosis, so empiric treatment with doxycycline should be started as soon as the illness is suspected."
+  ],
+  "references": "Madison-Antenucci S, Kramer LD, Gebhardt LL, et al. Emerging tick-borne diseases. Clin Microbiol Rev. 2020;33:e00083-18. PMID: 31896541 doi:10.1128/CMR.00083-18",
+  "related_content": {
+    "syllabus": [
+      "idsec24007_24008"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:45:33.852027-06:00"
+}

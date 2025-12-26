@@ -1,0 +1,59 @@
+{
+  "question_id": "fcmcq24056",
+  "category": "fc",
+  "educational_objective": "Delay elective noncardiac surgery in a patient who recently underwent percutaneous coronary intervention.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 61-year-old man is seen for a preoperative evaluation. He plans to undergo elective left total knee arthroplasty in 1 month for osteoarthritis. Apart from left knee pain, he feels well. He was hospitalized 3 months ago for an ST-elevation myocardial infarction and underwent percutaneous coronary intervention with a drug-eluting stent. An echocardiogram 1 month ago was normal. Medical history also includes hypertension and dyslipidemia. Medications are aspirin, ticagrelor, metoprolol, rosuvastatin, and lisinopril.On physical examination, vital signs are normal. Cardiac and pulmonary examinations are unremarkable. No peripheral edema is noted. Range-of-motion assessment of the left knee provokes crepitus and pain.Electrocardiogram shows normal sinus rhythm.",
+  "question_stem": "Which of the following is the optimal preoperative management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Continue ticagrelor and aspirin throughout surgery",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Delay surgery",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Stop aspirin and ticagrelor 5 days before surgery",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Stop ticagrelor 5 days before surgery; continue aspirin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "For this patient who recently had an acute coronary syndrome and underwent primary percutaneous coronary intervention (PCI) with a drug-eluting stent (DES) 3 months ago, the optimal preoperative management is to delay surgery (Option B). Patients who have undergone coronary stenting are at increased risk for ischemic events after PCI; the risk is higher in those who have undergone stenting for an acute coronary syndrome. The timing of surgery after coronary stenting should account for the risk for stent thrombosis, timeliness and urgency of surgery, and bleeding risk. The American Heart Association/American College of Cardiology perioperative guidelines recommend uninterrupted continuation of dual antiplatelet therapy (DAPT) for 30 days after bare metal stent placement and 6 months after DES placement in patients with chronic coronary disease; ideally, DAPT should be continued for 12 months after DES placement for an acute coronary event. This patient is planning to undergo elective orthopedic surgery 4 months after an acute coronary event, and optimally, his surgery should be delayed until he has completed 12 months of DAPT.This patient should be advised to delay surgery given his recent acute coronary event. Proceeding with surgery now and continuing ticagrelor and aspirin through surgery (Option A) are not recommended and will increase his bleeding risk.If the risk of surgical delay exceeds the risk for stent thrombosis, discontinuation of P2Y12 inhibitors may be considered after a minimum of 3 months in patients with a DES. Aspirin (preferably low dose) should be continued if at all possible, and DAPT should be restarted as soon as bleeding risk has sufficiently diminished. This patient does not require urgent surgery; therefore, stopping ticagrelor, regardless of whether aspirin is continued (Options C, D), is inappropriate.",
+  "key_points": [
+    "In patients with coronary stents, elective noncardiac surgery should be delayed so that dual antiplatelet therapy can be continued uninterrupted for 30 days after bare metal stent placement and 6 months after drug-eluting stent placement for chronic coronary disease; the time frame should be extended to 12 months for patients who underwent drug-eluting stent placement for an acute coronary event."
+  ],
+  "references": "Thompson A, Fleischmann KE, Smilowitz NR, et al. 2024 AHA/ACC/ACS/ASNC/HRS/SCA/SCCT/SCMR/SVM guideline for perioperative cardiovascular management for noncardiac surgery: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2024;150:e351-e442. PMID: 39316661 doi:10.1161/CIR.0000000000001285",
+  "related_content": {
+    "syllabus": [
+      "fcsec24009_24011"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T11:31:34.000050-06:00"
+}

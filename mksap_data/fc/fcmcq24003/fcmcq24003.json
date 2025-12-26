@@ -1,0 +1,60 @@
+{
+  "question_id": "fcmcq24003",
+  "category": "fc",
+  "educational_objective": "Avoid vitamins and herbal supplements in the absence of a compelling indication.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 45-year-old woman is evaluated during follow-up for hypertension, type 2 diabetes mellitus without complications, and dyslipidemia. She exercises regularly and follows a Mediterranean diet. She has one 5-oz glass of wine per evening with dinner; she has a score of 4 on the Alcohol Use Disorders Identification Test. She takes losartan, rosuvastatin, empagliflozin, milk thistle, and a multivitamin supplement.Physical examination findings, including vital signs, are normal.Laboratory studies:LDL cholesterol50 mg/dL (1.3 mmol/L)Hemoglobin A1c6.2%HResults of a comprehensive metabolic panel are unremarkable.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Add metformin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Add naltrexone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Add vitamin E supplement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Stop milk thistle and the multivitamin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is to stop milk thistle and the multivitamin supplement (Option D). Multivitamin supplements are of little use in patients with a well-rounded diet and are not adequate to replace vitamin deficiencies caused by a poor diet. This patient follows a Mediterranean diet and is unlikely to have vitamin deficiencies that would be corrected by a multivitamin supplement. Additionally, the U.S. Preventive Services Task Force (USPSTF) has concluded that the current evidence is insufficient to assess the use of multivitamins for the prevention of cardiovascular disease or cancer. Milk thistle is often used by patients to treat liver inflammation due to medications and alcohol; there is no evidence, however, that milk thistle improves liver inflammation. In addition, milk thistle interferes with drugs that are metabolized by cytochrome P-450 2C9. This patient is taking two medications, losartan and rosuvastatin, metabolized by this enzyme, and use of milk thistle may cause harm due to these interactions.According to the American Diabetes Association Standards of Care in Diabetes, first-line goal-directed therapy for adults with type 2 diabetes mellitus and an increased risk for atherosclerotic cardiovascular disease should include a glucagon-like peptide receptor agonist or a sodium-glucose cotransporter 2 (SGLT2) inhibitor with cardiovascular benefit, independent of metformin use. Because this patient's diabetes is currently well controlled with empagliflozin, an SGLT2 inhibitor, adding metformin (Option A) is not necessary at this time.Naltrexone (Option B), which may be used to treat alcohol use disorder, would not be appropriate for this patient because there is no evidence that she has this condition. Her current consumption of one drink per day is considered the upper limit of safe alcohol intake for women. In addition, her Alcohol Use Disorders Identification Test score is normal, suggesting that she has a low risk for hazardous or harmful alcohol use.The USPSTF recommends against the use of vitamin E supplements for the prevention of cardiovascular disease or cancer. Starting this patient on vitamin E (Option C) would not be appropriate.",
+  "key_points": [
+    "Multivitamin supplements are of little use in patients with a well-rounded diet and are not adequate to replace vitamin deficiencies caused by a poor diet; there is insufficient evidence for multivitamins in the prevention of cardiovascular disease or cancer.",
+    "Milk thistle is often used by patients to treat liver inflammation due to medications and alcohol, but there is no evidence that it improves liver inflammation; in addition, milk thistle interferes with drugs that are metabolized by cytochrome P-450 2C9."
+  ],
+  "references": "Mangione CM, Barry MJ, Nicholson WK, et al; US Preventive Services Task Force. Vitamin, mineral, and multivitamin supplementation to prevent cardiovascular disease and cancer: US Preventive Services Task Force recommendation statement. JAMA. 2022;327:2326-2333. PMID: 35727271 doi:10.1001/jama.2022.8970",
+  "related_content": {
+    "syllabus": [
+      "fcsec24008_24051"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T11:31:33.874788-06:00"
+}

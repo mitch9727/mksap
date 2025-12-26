@@ -1,0 +1,60 @@
+{
+  "question_id": "hmcor25019",
+  "category": "hm",
+  "educational_objective": "Evaluate low-risk pulmonary embolism with Pulmonary Embolism Rule-Out Criteria score.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 35-year-old man is evaluated in the emergency department for a 2-day history of shortness of breath without cough, chest pain, or hemoptysis. Medical history is unremarkable, and he takes no medications.On physical examination, blood pressure is 125/65 mm Hg, pulse rate is 70/min, and respiration rate is 16/min. Oxygen saturation is 99% breathing ambient air. No leg swelling is present.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "CT pulmonary angiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "D-dimer measurement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Duplex imaging of bilateral lower extremities",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pulmonary Embolism Rule-Out Criteria score calculation",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management of this patient with a very low risk of pulmonary embolism (PE) is to calculate the Pulmonary Embolism Rule-Out Criteria (PERC) score (Option D) to determine the appropriateness of further diagnostic testing. These criteria include symptoms and signs, medical history, and the absence of an alternate diagnosis; one point is awarded for each criterion met (Table: PERC for Predicting Probability of PE). The PERC should only be applied in the setting of a very low likelihood of PE. When the PERC score is zero, D-dimer testing and CT angiography should not be performed. A meta-analysis of 12 studies showed that if the PERC is used, only 0.3% of PEs would be missed and 22% of D-dimer testing would have been safely avoided. This patient meets no PERC criteria (score = 0), so he requires no further diagnostic testing specifically for PE; further evaluation for his shortness of breath should be guided by the clinical presentation.If the PERC score is greater than zero and the probability of PE by Wells criteria is intermediate or high, CT pulmonary angiography (Option A) is usually appropriate. Imaging is also indicated if the PERC score is positive and the Wells score is low but the D-dimer is positive. This patient meets none of those criteria.In patients with a PERC score greater than zero, but a low probability of PE by Wells criteria, D-dimer testing (Option B) should be performed. If D-dimer is negative, then no additional testing is required. If D-dimer is positive, further evaluation with imaging is merited. This patient has a PERC score of zero, however, so a D-dimer should not be obtained because of the risk of a false-positive test.Duplex ultrasonography (Option C) is an appropriate test to evaluate for deep venous thrombosis (DVT), but it is of no utility in this patient with no signs or symptoms of DVT.",
+  "key_points": [
+    "For patients who present with symptoms suspicious for an acute pulmonary embolism, validated prediction rules should be used to help effectively and cost-efficiently evaluate this condition.",
+    "Patients with a Pulmonary Embolism Rule-Out Criteria score of zero have a very low pretest probability of pulmonary embolism (PE) and require no further testing for PE."
+  ],
+  "references": "Tritschler T, Kraaijpoel N, Le Gal G, et al. Venous thromboembolism: advances in diagnosis and treatment. JAMA. 2018;320:1583-1594. PMID: 30326130 doi:10.1001/jama.2018.14346",
+  "related_content": {
+    "syllabus": [
+      "hmsec24009_24020"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:44:24.264521-06:00"
+}

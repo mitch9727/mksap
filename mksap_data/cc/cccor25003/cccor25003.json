@@ -1,0 +1,59 @@
+{
+  "question_id": "cccor25003",
+  "category": "cc",
+  "educational_objective": "Diagnose acute respiratory distress syndrome.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 36-year-old woman is evaluated for respiratory failure requiring invasive mechanical ventilation 2 hours after a motor vehicle collision in which she sustained right foot and ankle fracture. She has no medical conditions and takes no medications.On physical examination, temperature is 38.0 °C (100.4 °F), blood pressure is 100/65 mm Hg, pulse rate is 100/min, and respiration rate is 26/min. With ventilator settings of an Fio2 of 0.50 and positive end-expiratory pressure of 12 cm H2O, oxygen saturation is 90%. Multiple contusions are seen on her chest. Estimated central venous pressure is normal. Other than tachycardia, cardiac examination is normal. Diffuse lung crackles are heard.Arterial blood gas studies:pH7.3LPco250 mm Hg (6.6 kPa)HPo266 mm Hg (8.8 kPa)LThe hemoglobin level has remained stable.ECG shows only sinus tachycardia. Chest radiograph is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute respiratory distress syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Cardiogenic pulmonary edema",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Diffuse alveolar hemorrhage",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pulmonary embolism",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis in this patient with hypoxemic respiratory failure following trauma is acute respiratory distress syndrome (ARDS) (Option A). ARDS is characterized by acute hypoxemia and diffuse lung injury due to an inciting insult. The most common causes are sepsis and pneumonia, but many other causes are possible, including trauma. There is no single diagnostic test for ARDS. The 2023 New Global Definition of ARDS specifies the following criteria:Acute hypoxemic respiratory failure (not attributable to heart failure) with onset within 1 week of known ARDS insultIf patient is not intubated: use of high-flow nasal oxygen of at least 30 L/min or noninvasive ventilation/continuous positive airway pressure of at least 5 cm H2O end-expiratory pressureHypoxemia levels of Po2 and Fio2 no greater than 300 mm Hg or Spo2/Fio2 ratio less than 315 mm Hg with Spo2 no greater than 97%Bilateral opacities on chest imagingPatients with ARDS are at high risk for mortality, which is usually the result of underlying disease, secondary infection, or multiorgan dysfunction rather than refractory respiratory failure. Most patients with ARDS are managed with invasive mechanical ventilation. Use of low-tidal-volume ventilation and positive end-expiratory pressure is the cornerstone of ARDS management and is associated with improved patient outcomes. This patient's trauma triggered her respiratory failure, and her radiographic findings and hypoxemia are consistent with a diagnosis of ARDS.Acute cardiogenic pulmonary edema (Option B) can present as hypoxemic respiratory failure. Evaluation of patients with acute respiratory failure should include an assessment for volume overload and cardiac injury. Echocardiography may be required if the diagnosis is unclear. Although cardiac contusion can lead to heart failure from valvular injury or cardiac dysfunction, this patient does not have clinical findings suggestive of cardiogenic pulmonary edema.Diffuse alveolar hemorrhage (DAH) (Option C) is the result of bleeding into the alveolar spaces secondary to the disruption of the alveolar-capillary basement membrane, usually in the context of autoimmune or inflammatory disorders rather than trauma. Although radiographic findings in DAH and ARDS are similar, most patients with DAH present with hemoptysis and a decreasing hemoglobin level. Given the relationship of this patient's trauma to the onset of respiratory distress, the absence of hemoptysis, and the patient's stable hemoglobin level, ARDS is a more likely diagnosis.Patients with pulmonary embolism (Option D) may present with chest pain, dyspnea, tachypnea, and hypoxemic respiratory failure. Chest radiographs are most often normal. Pulmonary embolism would not explain the diffuse opacities on this patient's chest radiograph.",
+  "key_points": [
+    "The diagnosis of acute respiratory distress syndrome (ARDS) is based on the onset of respiratory failure within 1 week of known ARDS insult; bilateral opacities on chest imaging; respiratory failure not related to cardiac failure or volume overload; and arterial Po2/Fio2 ratio less than 300 mm Hg on at least 5 cm H2O positive end-expiratory pressure."
+  ],
+  "references": "Meyer NJ, Gattinoni L, Calfee CS. Acute respiratory distress syndrome. Lancet. 2021;398:622-637. PMID: 34217425 doi:10.1016/S0140-6736(21)00439-6",
+  "related_content": {
+    "syllabus": [
+      "ccsec24002_24005"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:53:33.603584-06:00"
+}

@@ -1,0 +1,60 @@
+{
+  "question_id": "pmcor25016",
+  "category": "pm",
+  "educational_objective": "Evaluate for pulmonary hypertension in a patient with exertional dyspnea and a reduced D<small class=\"small-caps\">lco</small>.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 27-year-old woman is evaluated for 6 months of progressive shortness of breath. She first noticed breathing difficulty during routine exercise. Her breathing has progressively worsened, and she now becomes winded when climbing a flight of stairs. She reports no associated cough, chest tightness, or wheezing. She has no medical problems and is not taking any medications.Physical examination findings, including vital signs, are normal.Results of a complete blood count and thyroid-stimulating hormone level are normal. Pulmonary function test results are normal except for a low Dlco and do not change with administration of a bronchodilator.Chest radiograph is normal.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Fractional exhaled nitric oxide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "6-Minute walk test",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Transthoracic echocardiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Ventilation-perfusion scanning",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate diagnostic test to perform next in this young patient with progressive dyspnea and a low Dlco is transthoracic echocardiography (Option C). The diffusion capacity of the lungs as measured by the Dlco can be decreased by obstructive lung diseases (such as COPD), restrictive lung diseases (such as interstitial pulmonary fibrosis), and pulmonary vascular disorders (such as pulmonary arterial hypertension [PAH]). A pattern of normal spirometry results with a decreased Dlco should prompt consideration of pulmonary vascular disease, and transthoracic echocardiography is a useful first-line test in patients with suspected PAH. Echocardiographic features suggestive of PAH include elevated tricuspid regurgitant jet velocity, right atrial and right ventricular enlargement, septal flattening, and decreased right ventricular function. This patient with exertional dyspnea, normal spirometry results, and a low Dlco should be evaluated for PAH with echocardiography.Fractional exhaled nitric oxide (FeNO) (Option A) can help quantify eosinophilic airway inflammation and is elevated in many patients with asthma and nonasthmatic eosinophilic bronchitis; the American Thoracic Society suggests all patients with asthma should undergo assessment of FeNO. This patient, however, has normal results on spirometry and a methacholine challenge test, making the diagnosis of asthma very unlikely. She additionally has no cough suggesting nonasthmatic eosinophilic bronchitis. FeNO is not the most appropriate next test.The 6-minute walk test (Option B) is useful to monitor exercise capacity and treatment response in patients with many pulmonary diseases, including idiopathic pulmonary fibrosis and PAH. It is also a significant predictor of prognosis and survival in these diseases. However, the test is not helpful for establishing a diagnosis because many pulmonary conditions cause an abnormal result, and it would not be the most appropriate next diagnostic test.In addition to its role in the diagnosis of acute pulmonary embolism, ventilation-perfusion scanning (Option D) is indicated to assess the possibility of chronic thromboembolic pulmonary hypertension in patients with pulmonary hypertension without a clear cause. Although pulmonary hypertension is a significant possibility given the pattern of normal spirometry and a decreased Dlco, echocardiography should be performed to confirm pulmonary hypertension before testing for potential causes of the elevated pressures.",
+  "key_points": [
+    "Pulmonary vascular disorders, such as pulmonary hypertension, compromise the gas exchange in the lung and lead to a reduced Dlco on pulmonary function testing.",
+    "Echocardiography should be performed when pulmonary hypertension is suspected."
+  ],
+  "references": "Stadler S, Mergenthaler N, Lange TJ. The prognostic value of Dlco and pulmonary blood flow in patients with pulmonary hypertension. Pulm Circ. 2019;9:2045894019894531. PMID: 31908765 doi:10.1177/2045894019894531",
+  "related_content": {
+    "syllabus": [
+      "pmsec24006_24002"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:52:23.701264-06:00"
+}

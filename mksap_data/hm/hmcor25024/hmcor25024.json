@@ -1,0 +1,65 @@
+{
+  "question_id": "hmcor25024",
+  "category": "hm",
+  "educational_objective": "Diagnose vitamin B<sub>12</sub> deficiency.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 40-year-old man undergoes follow-up evaluation for anemia discovered during evaluation for fatigue. He is otherwise healthy and takes no medications.Physical examination, including vital signs, is normal.Laboratory studies:Hemoglobin9.0 g/dL (90 g/L)LMean corpuscular volume110 fLHLeukocyte count7400/μL (7.4 × 109/L)Platelet count250,000/μL (250 × 109/L)Folate18 ng/mL (40.8 nmol/L)Vitamin B12226 pg/mL (168 pmol/L)Peripheral blood smear is shown.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Esophagogastroduodenoscopy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Ferritin level",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Intrinsic factor antibodies",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Methylmalonic acid level",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "Thyroid-stimulating hormone level",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate diagnostic test for this patient is measuring the methylmalonic acid level to confirm the likely diagnosis of vitamin B12 (cobalamin) deficiency (Option D). Patients with vitamin B12 deficiency can present with weight loss, glossitis, and neurologic findings, including loss of proprioception and vibratory sense and spastic ataxia. Psychiatric symptoms, including dementia, hallucinations, and frank psychosis, may occur. Laboratory findings include a megaloblastic anemia with macrocytosis and hypersegmented neutrophils on the peripheral blood smear. The serum vitamin B12 level is approximately 95% sensitive in diagnosing deficiency in symptomatic patients, and a vitamin B12 level less than 200 pg/mL (148 pmol/L) strongly suggests the diagnosis, whereas a level greater than 300 pg/mL (221 pmol/L) effectively excludes vitamin B12 deficiency. In patients with equivocal levels, metabolite testing with methylmalonic acid and homocysteine levels may be indicated because both are elevated in vitamin B12 deficiency; an elevated methylmalonic acid level is a more sensitive indicator of deficiency than vitamin levels themselves. This patient has many clinical features of vitamin B12 deficiency, including macrocytic anemia and hypersegmented neutrophils, but an equivocal vitamin B12 level. Metabolite testing with methylmalonic acid level is indicated.Esophagogastroduodenoscopy (Option A) is not the most appropriate diagnostic test to perform next. Although patients with pernicious anemia have an increased risk of upper gastrointestinal malignancy, there is no evidence that surveillance esophagogastroduodenoscopy improves outcomes. This patient has no symptoms and does not yet have a diagnosis of vitamin B12 deficiency or pernicious anemia.A serum ferritin measurement (Option B) to evaluate iron deficiency is not indicated. Although iron deficiency is well recognized in patients with occult gastrointestinal blood loss, iron deficiency is not associated with macrocytosis or hypersegmented neutrophils.Testing for intrinsic factor antibodies (Option C) may be considered to assess the possibility of pernicious anemia if the diagnosis of vitamin B12 deficiency is confirmed. However, detecting intrinsic factor antibodies will not alter management and is often unnecessary. The diagnosis of vitamin B12 deficiency should be confirmed before considering testing for pernicious anemia.Measuring this patient's thyroid-stimulating hormone level (Option E) would not be appropriate. Hypothyroidism may result in a macrocytic anemia, but hypersegmented neutrophils are not associated with this diagnosis. The immediate focus should be on assessing the likelihood of vitamin B12 deficiency.",
+  "key_points": [
+    "An elevated methylmalonic acid level is a more sensitive indicator of vitamin B12 deficiency and should be obtained in patients with low-normal serum vitamin B12 levels and clinical features suggesting deficiency.",
+    "A vitamin B12 level greater than 300 pg/mL (221 pmol/L) effectively excludes deficiency."
+  ],
+  "references": "Langan RC, Goodbred AJ. Vitamin B12 deficiency: recognition and management. Am Fam Physician. 2017;96:384-389. PMID: 28925645",
+  "related_content": {
+    "syllabus": [
+      "hmsec24004_24011"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:44:24.290983-06:00"
+}

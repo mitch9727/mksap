@@ -1,0 +1,60 @@
+{
+  "question_id": "fcmcq24097",
+  "category": "fc",
+  "educational_objective": "Protect patient confidentiality.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A physician receives a message from a 78-year-old patient's daughter through the electronic health record (EHR) asking for a refill of her father's sertraline prescription. The patient has a history of anxiety, depression, and mild cognitive impairment. His daughter indicates that the sertraline dosage may not be high enough because her father has been experiencing increasing anxiety. She also asks whether alprazolam can be prescribed. The EHR shows no record of the patient giving consent for the physician to talk to family members.",
+  "question_stem": "Which of the following is the most appropriate next step?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Call the daughter to gain additional details about her father's symptoms",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Reply, explaining that alprazolam is not recommended in older adults",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Schedule a visit with the patient",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Write a prescription for sertraline at an increased dosage",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The physician should schedule a visit with the patient (Option C). Physicians have an ethical and legal obligation to protect the privacy and confidentiality of their patients' medical information; disclosure of medical information outside the patient-physician relationship requires patient consent. Disclosing information without consent or patient knowledge violates confidentiality and may compromise trust in the patient-physician relationship. Communication through electronic health records and patient portals is subject to the same tenets of privacy and confidentiality. In this case, the patient has not given consent for the physician to discuss his medical information with others. The physician should schedule a visit to assess symptoms directly with the patient. During the visit, the physician may also ask whether the patient would like other individuals to have access to his medical information, and the patient may sign paperwork to that effect.A physician must have consent from the patient to discuss medical information with others. In this case, because the physician does not have the patient's consent to discuss his medical information with any family members, calling the daughter to ask for more information (Option A) or replying to the message to explain that alprazolam is not recommended in older patients (Option B) would violate the patient's confidentiality.Adjusting a patient's medication (Option D) based on third-party information without first discussing symptoms and management with the patient is inappropriate. In this instance, the patient has not provided consent for the physician to discuss his medical information with others, and the patient should be contacted directly to discuss his symptoms before any changes are made to his medical regimen.",
+  "key_points": [
+    "Health care providers must have consent from patients to discuss their medical information with others, including family members.",
+    "Disclosing a patient's information without their consent or knowledge violates confidentiality and may compromise trust in the patient-physician relationship."
+  ],
+  "references": "Tapuria A, Porat T, Kalra D, et al. Impact of patient access to their electronic health record: systematic review. Inform Health Soc Care. 2021;46:192-204. PMID: 33840342 doi:10.1080/17538157.2021.1879810",
+  "related_content": {
+    "syllabus": [
+      "fcsec24003_24006"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T11:31:34.105035-06:00"
+}

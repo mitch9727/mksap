@@ -1,0 +1,60 @@
+{
+  "question_id": "idqqq24016",
+  "category": "id",
+  "educational_objective": "Treat coagulase-negative <i>Staphylococcus</i> central line–associated bloodstream infection.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 46-year-old woman is evaluated for new-onset fever and discomfort at the site of a peripherally inserted central catheter (PICC). She was hospitalized for acute pancreatitis and required the PICC for intravenous access and hydration.On physical examination, temperature is 37.8 °C (100.1 °F). Right brachial PICC site is tender, without erythema. Cardiac examination is without murmurs.Two sets of peripheral blood cultures are obtained, showing gram-positive cocci in clusters. Both sets of blood cultures are growing methicillin-resistant Staphylococcus epidermidis. Vancomycin is initiated.",
+  "question_stem": "Which of the following is the most appropriate additional management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Maintain PICC line and continue vancomycin for 4 weeks",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Maintain PICC line and perform transesophageal echocardiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Remove PICC line",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Remove PICC line and repeat blood cultures",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is to remove the peripherally inserted central catheter (PICC) and repeat blood cultures (Option D). Central line–associated bloodstream infections (CLABSIs) can occur with any type of catheter, including short-term peripheral intravenous catheters and PICCs. They are most commonly caused by coagulase-negative staphylococci (CoNS) such as Staphylococcus epidermidis, followed by Staphylococcus aureus. Except for Staphylococcus lugdunensis (which should be managed like S. aureus), CoNS are less virulent than S. aureus and are less likely to cause metastatic infection or endocarditis in patients without prosthetic devices or endovascular hardware (such as prosthetic heart valves). CoNS CLABSIs often resolve with removal of the catheter. Blood cultures should be repeated after catheter removal to document clearance of the organism; time to clearance can inform duration of antibiotic therapy.Patients with CoNS CLABSIs can be treated with 10 to 14 days of parenteral antibiotics combined with antibiotic lock therapy if the catheter cannot be removed. Extension of this treatment course empirically to 4 weeks (Option A) is likely unnecessary with this organism.In patients with persistent CoNS bacteremia or endovascular hardware, transesophageal echocardiography (Option B) may be pursued to evaluate for endocarditis. In this patient without proven prolonged bacteremia or endovascular hardware, transesophageal echocardiography is not necessary.Removal of the catheter alone (Option C) without documenting organism clearance on blood culture or providing antibiotics is likely inappropriate for this patient.",
+  "key_points": [
+    "Coagulase-negative staphylococci (CoNS) central line–associated bloodstream infections (CLABSIs) often resolve with removal of the catheter, which can be confirmed with blood cultures after catheter removal.",
+    "Patients with CoNS CLABSIs can be treated with 10 to 14 days of parenteral antibiotics combined with antibiotic lock therapy if the catheter cannot be removed."
+  ],
+  "references": "Lutwick L, Al-Maani AS, Mehtar S, et al. Managing and preventing vascular catheter infections: A position paper of the international society for infectious diseases. Int J Infect Dis. 2019;84:22-29. PMID: 31005622 doi:10.1016/j.ijid.2019.04.014",
+  "related_content": {
+    "syllabus": [
+      "idsec24018_24014"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:45:33.829948-06:00"
+}

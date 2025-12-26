@@ -1,0 +1,60 @@
+{
+  "question_id": "hmmcq24071",
+  "category": "hm",
+  "educational_objective": "Treat limb-threatening deep venous thrombosis.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 65-year-old man is evaluated in the emergency department for worsening pain and swelling of the left leg of 5 days' duration. He reports no trauma or pain. Medical history is significant for coronary artery disease, hypertension, and dyslipidemia. Medications are metoprolol, aspirin, amlodipine, fosinopril, and atorvastatin.On physical examination, vital signs are normal. The left lower leg is cool to touch, and swelling is present throughout the leg. The skin distal to the mid calf is mottled and cyanotic. Capillary refill is delayed.Ultrasound of the left lower extremity shows extensive occlusive femoral vein thrombosis.",
+  "question_stem": "Which of the following is the most appropriate immediate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Clopidogrel",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Enoxaparin bridged to warfarin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Rivaroxaban",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Unfractionated heparin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment for this patient with limb-threatening deep venous thrombosis (DVT) is unfractionated heparin (UFH) (Option D). For most patients with DVT, a direct oral anticoagulant (DOAC) such as rivaroxaban is the preferred choice of anticoagulation. When parenteral anticoagulation is necessary, initial treatment with low-molecular-weight heparin is generally favored over UFH because of the unpredictable bioavailability of UFH and the need for intravenous delivery and frequent laboratory monitoring. However, because of its short half-life with rapid dissipation of anticoagulant effect after discontinuation, UFH may be preferred in patients who may require thrombolytic therapy or emergent surgery. Thrombolytic therapy in patients with DVT is best limited to those with a threatened limb secondary to impaired perfusion (phlegmasia cerulea dolens). This patient has limb-threatening thrombosis, as evidenced by cyanosis, poor perfusion, and edema, which may lead to arterial ischemia and gangrene of the limb. For acute DVT, catheter-directed thrombolysis may be required to restore circulation to the lower extremity, and UFH is the most appropriate initial choice for immediate anticoagulation.Dual antiplatelet therapy (DAPT) with aspirin and clopidogrel (Option A) is useful in preventing arterial thrombosis, especially in the setting of atherosclerosis and the presence of an arterial stent. However, antiplatelet agents have no role in the management of acute venous thromboembolism (VTE).Bridging enoxaparin to warfarin (Option B) is appropriate for patients with a less massive thrombus and a contraindication to DOACs. Because of its short half-life, UFH is a better choice in this patient who is likely to undergo catheter-directed thrombolysis.Rivaroxaban (Option C) is a standard treatment option for acute VTE because it is immediately effective and does not require bridging therapy. However, it is not the most appropriate treatment in patients who may require emergent surgery or thrombolytic therapy, such as this patient.",
+  "key_points": [
+    "Unfractionated heparin is preferred in patients with limb-threatening deep venous thrombosis who may require catheter-directed thrombolysis.",
+    "Acute lower extremity thrombosis characterized by marked edema and pain with cyanosis and mottled skin (phlegmasia cerulea dolens) may lead to arterial ischemia and gangrene, and consideration should be given to catheter-directed thrombolysis."
+  ],
+  "references": "Stevens SM, Woller SC, Kreuziger LB, et al. Antithrombotic therapy for VTE disease: second update of the CHEST guideline and expert panel report. Chest. 2021;160:e545-e608. PMID: 34352278 doi:10.1016/j.chest.2021.07.055",
+  "related_content": {
+    "syllabus": [
+      "hmsec24009_24021"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:44:24.215882-06:00"
+}

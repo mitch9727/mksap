@@ -1,0 +1,59 @@
+{
+  "question_id": "oncor25012",
+  "category": "on",
+  "educational_objective": "Diagnose a patient with an ovarian mass.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 50-year-old woman is evaluated for left lower pelvic pain for the last 3 months. Her mother was diagnosed with breast cancer at age 66 years. The patient has no family history of ovarian cancer. She is otherwise healthy and takes no medications.On physical examination, vital signs are normal. Pelvic examination is notable for a left adnexal mass.Laboratory studiesCA-125135 U/mL (normal, <35 U/mL)HResults of complete blood count, chemistry profile, and liver function tests are normal.Transvaginal ultrasound reveals an 8-cm left adnexal mass. CT scan of the chest, abdomen, and pelvis shows no evidence of abdominal or pelvic lymphadenopathy or distant metastases.",
+  "question_stem": "Which of the following is the most appropriate initial management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "BRCA1/2 testing",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "CT-guided biopsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Neoadjuvant chemotherapy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Surgical removal of the mass",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient most likely has stage I ovarian cancer (confined to the ovary) and should be referred to a gynecologic oncologist for surgical removal of the mass (Option D). Patients with ovarian cancer usually present at an advanced stage with bloating, abdominal or pelvic pain, constipation, urinary symptoms, or early satiety. The initial evaluation should include physical examination, serum CA-125 level measurement, complete blood count, chemistry profile, and liver function testing. Transvaginal ultrasonography is the initial diagnostic imaging modality. PET, CT, or MRI may be obtained as part of the evaluation for locally advanced or metastatic disease. The initial invasive test is removal of the intact tumor, if possible, because removal is associated with improved survival. At the time of surgical removal, patients also undergo comprehensive surgical staging to evaluate for additional disease that would upstage the cancer. This procedure is usually performed through a laparotomy and involves inspection of the peritoneal cavity (including the paracolic gutters and dome of the diaphragm), lymph node sampling, omentectomy, and peritoneal washings. Optimal cytoreduction by a gynecologic oncologist is important because the amount of residual tumor after surgical debulking correlates inversely with survival. This patient with likely early ovarian cancer should have surgical removal of her adnexal mass as well as complete surgical staging.BRCA1/2 testing (Option A) is recommended for all patients with ovarian cancer, but the first step in this patient's evaluation is to establish a diagnosis.CT-guided biopsy (Option B) should not be performed for an isolated adnexal mass to avoid rupture of the tumor and because it does not allow for comprehensive surgical staging. A CT-guided biopsy is an appropriate diagnostic procedure for a patient who presents with advanced ovarian cancer in which there is radiographic evidence of spread in the peritoneum or to a distant site, and which is not amenable to surgical resection.Patients with late-stage ovarian cancer who are at high perioperative risk or who have a low likelihood of optimal tumor debulking should receive neoadjuvant chemotherapy (Option C) followed by reevaluation for cytoreductive surgery. Tumors that involve the porta hepatis, have metastasized to the liver or lungs, or cause massive ascites are examples of disease that might be best treated with neoadjuvant chemotherapy. This patient's isolated adnexal mass is best approached by immediate surgical removal.",
+  "key_points": [
+    "Surgical exploration is recommended for diagnosis of early ovarian cancer; removing the ovarian cancer intact without rupture improves survival."
+  ],
+  "references": "Armstrong DK, Alvarez RD, Bakkum-Gamez JN, et al. Ovarian cancer, version 2.2020, NCCN clinical practice guidelines in oncology. J Natl Compr Canc Netw. 2021;19:191-226. PMID: 33545690 doi:10.6004/jnccn.2021.0007",
+  "related_content": {
+    "syllabus": [
+      "onsec24007_24004"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:51:14.785411-06:00"
+}

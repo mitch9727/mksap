@@ -1,0 +1,65 @@
+{
+  "question_id": "fcmcq24047",
+  "category": "fc",
+  "educational_objective": "Evaluate a patient with chronic liver disease for surgery.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 62-year-old man is evaluated in the office before elective left total knee replacement for osteoarthritis. He has a history of alcohol-induced liver disease with compensated cirrhosis, hypertension, and dyslipidemia. He has a remote history of alcohol use disorder, and his AUDIT-C (Alcohol Use Disorders Identification Test–Consumption) score is 0. Medications are acetaminophen, amlodipine, and atorvastatin.On physical examination, vital signs are normal. Scattered spider angiomas are noted. No ascites, jaundice, or asterixis is observed. The left knee has crepitus and limited range of motion.Laboratory studies:Platelet count140,000/µL (140 × 109/L)LINR1.2Total bilirubin1.4 mg/dL (23.9 µmol/L)HCreatinine1.0 mg/dL (88.4 µmol/L)The calculated Model for End-stage Liver Disease (MELD) score is 9.His last upper endoscopy, 2 years ago, was normal.",
+  "question_stem": "Which of the following is the most appropriate perioperative management of this patient's liver disease?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Recommend against surgery",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Refer for liver transplant evaluation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Repeat upper endoscopy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Start carvedilol",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "No additional management",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "E",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient with well-compensated cirrhosis and a Model for End-stage Liver Disease (MELD) score of 9 does not require further management of his liver disease before elective orthopedic surgery (Option E). Liver disease increases the risk for perioperative infection, encephalopathy, bleeding, fluid retention, and acute kidney and liver decompensation. Patients with chronic liver disease require careful preoperative evaluation and risk stratification using the MELD, Child-Turcotte-Pugh, or VOCAL-Penn score. Patients with compensated liver disease and a MELD score less than 8 to 10 are typically able to proceed with surgery with optimal medical management. In persons with intermediate risk (MELD score of 11-15), the perioperative risks are greater and referral to a hepatologist for preoperative optimization and perioperative management is reasonable before proceeding with surgery.This patient has stable liver disease and a MELD score of 9; therefore, recommending against surgery (Option A) is inappropriate. He currently is receiving optimal medical treatment, with awareness of the liver disease, and can proceed with elective surgery.Patients with severe liver disease are often at prohibitive risk for perioperative complications and death; patients with a MELD score greater than 15 should be referred for transplant evaluation (Option B) before surgery if appropriate. This patient's MELD score of 9 does not meet the threshold for consideration of presurgical liver transplant evaluation.Repeat upper endoscopy (Option C) is not indicated for this patient currently. Patients with cirrhosis may require periodic testing with upper endoscopy for esophageal varices, depending on the presence of varices on previous testing, liver disease activity, and use of nonselective β-blockers. For patients who do not have varices on initial testing and whose cause of cirrhosis has ceased (e.g., abstinence from alcohol), the testing interval is 3 years. This patient has an AUDIT-C score of 0, and his last upper endoscopy 2 years ago was normal.Nonselective β-blockers, such as carvedilol (Option D), are indicated in patients with cirrhosis and esophageal varices to prevent bleeding. β-Blocker therapy should also be considered for patients with a cardiac indication (e.g., previous myocardial infarction, coronary artery disease, heart failure). This patient does not have esophageal varices or another indication for a β-blocker.",
+  "key_points": [
+    "Patients with chronic liver disease have an increased risk for perioperative complications and require preoperative risk stratification using a validated instrument, such as the Model for End-stage Liver Disease (MELD) score.",
+    "Patients with a MELD score less than 8 to 10 are typically able to proceed with surgery, those with intermediate risk should undergo further evaluation with a hepatologist, and those with a MELD score greater than 15 should be referred for transplant evaluation."
+  ],
+  "references": "Newman KL, Johnson KM, Cornia PB, et al. Perioperative evaluation and management of patients with cirrhosis: risk assessment, surgical outcomes, and future directions. Clin Gastroenterol Hepatol. 2020;18:2398-2414.e3. PMID: 31376494 doi:10.1016/j.cgh.2019.07.051",
+  "related_content": {
+    "syllabus": [
+      "fcsec24009_24031"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T11:31:33.993308-06:00"
+}

@@ -1,0 +1,60 @@
+{
+  "question_id": "onmcq24054",
+  "category": "on",
+  "educational_objective": "Evaluate a patient with hormone receptor–positive, HER2<i>-</i>negative breast cancer.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 62-year-old woman is evaluated following lumpectomy and sentinel lymph node biopsy for cancer of the left breast. She was found to have a 3-cm node-negative (anatomic stage IIA), estrogen receptor–positive, progesterone receptor–positive, HER2-negative invasive ductal carcinoma. She has no other medical problems and takes no medications.On physical examination, vital signs are normal. A well-healing lumpectomy incision is noted.Results of laboratory studies are normal.",
+  "question_stem": "Which of the following is the most appropriate test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Assessment of PD-L1 expression",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "HER2 fluorescence in situ hybridization",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Multigene recurrence assay",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No additional testing",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate test for this patient would be a multigene recurrence assay (Option C). Patients with early-stage, hormone receptor–positive, HER2-negative breast cancer benefit from adjuvant endocrine therapy for 5 to 10 years. Selected patients also benefit from adjuvant chemotherapy, which is started 4 to 8 weeks after surgery, followed by radiation therapy (if applicable), and then endocrine therapy (see Figure: Early-Stage Breast Cancer Treatment Algorithms). For patients with zero to three positive axillary nodes, multigene assays can be used to predict the potential benefit of adding chemotherapy to a patient's treatment. For example, analysis of a tumor with the 21-gene recurrence score assay can determine which patients may benefit from chemotherapy in addition to endocrine therapy. Therefore, a multigene assay would be the most appropriate next step in assessing this patient.Assessment of PD-L1 expression (Option A) is not indicated for this patient. She has hormone receptor–positive breast cancer, for which immunotherapy is not used in early or advanced-stage disease. PD-L1 can be used to determine which patients with advanced triple-negative breast cancer may benefit from immunotherapy, but it has not been shown to predict the benefit of immunotherapy for those with early-stage disease. There is no indication for PD-L1 testing in this case.This patient does not require HER2 fluorescence in situ hybridization (FISH) (Option B). FISH is used to assess HER2 amplification if immunohistochemistry results are equivocal such as with a 2+ result on immunohistochemistry. However, this patient tested negative for HER2 expression, so FISH is not indicated.It would not be appropriate for this patient to forgo additional testing (Option D). A multigene assay can be used to predict the benefit of treating her with chemotherapy and should be used to help determine the most appropriate treatment.",
+  "key_points": [
+    "For patients with hormone receptor–positive, HER2-negative breast cancer with zero to three positive axillary nodes, multigene assays can be used to predict the potential benefit of adding chemotherapy to a patient's treatment.",
+    "Patients with hormone receptor–positive, HER2-negative breast cancer benefit from adjuvant endocrine therapy for 5 to 10 years; selected patients also benefit from adjuvant chemotherapy initiated 4 to 8 weeks after surgery, followed by radiation therapy (if applicable), and then endocrine therapy."
+  ],
+  "references": "Andre F, Ismaila N, Allison KH, et al. Biomarkers for adjuvant endocrine and chemotherapy in early-stage breast cancer: ASCO guideline update. J Clin Oncol. 2022;40:1816-37. PMID: 35439025 doi:10.1200/JCO.22.00069",
+  "related_content": {
+    "syllabus": [
+      "onsec24002_24012"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:51:14.689162-06:00"
+}

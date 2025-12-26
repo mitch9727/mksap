@@ -1,0 +1,59 @@
+{
+  "question_id": "npcor25019",
+  "category": "np",
+  "educational_objective": "Manage a suspected catheter-related bloodstream infection.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 57-year-old man is evaluated in the emergency department for hypotension. He has end-stage kidney disease and for 3 months has received dialysis with a tunneled cuffed catheter because his arteriovenous fistula has not yet matured for use. Thirty minutes after initiation of hemodialysis treatment earlier today, he developed a fever of 38.5 °C (101.3 °F) and his systolic blood pressure fell to <90 mm Hg. Intravenous saline boluses were administered, and the dialysis procedure was terminated.On physical examination, temperature is 38.5 °C (101.3 °F), blood pressure is 80/50 mm Hg, heart rate is 120/min, respiration rate is 22/min, and oxygen saturation is 94% with the patient breathing 2 L/min of oxygen by nasal cannula. A right internal jugular hemodialysis catheter is in place, with no erythema or discharge at the exit site. A brachiocephalic arteriovenous fistula is present in the left upper extremity, with a positive thrill and bruit. The remainder of the examination is normal.Blood and urine cultures are obtained.Intravenous cefepime and vancomycin are initiated, repeated fluid boluses are administered, and intravenous norepinephrine is started.",
+  "question_stem": "Which of the following is the most appropriate additional management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Exchange the tunneled catheter over guidewire",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Remove the tunneled catheter",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Surgically excise the arteriovenous fistula",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Treat the catheter with antibiotic lock therapy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate additional management is to remove the tunneled hemodialysis catheter (Option B). Infection is the second leading cause of death in patients with end-stage kidney disease. Patients are at increased risk because of their relatively immunosuppressed state from chronic inflammation and frequent health care environment exposure. Tunneled dialysis catheters increase the risks for bacteremia, hospitalization, and death, and empiric antibiotics should be administered while awaiting blood culture results for patients with suspected bacteremia. Tunneled catheters should be removed for severe sepsis; evidence of metastatic infection (e.g., infective endocarditis, spinal epidural abscess); evidence of a catheter tunnel infection (e.g., positive concurrent catheter and peripheral blood cultures with 5-fold greater colony count from the catheter, or catheter cultures positive 2 hours before peripheral cultures); or persistent fever or bacteremia despite administration of antibiotics.Exchange of the catheter over a guidewire (Option A) may be an option for clinically stable patients infected with less virulent organisms and without a tunnel infection who clear the bacteremia within 72 hours of antibiotic administration. This patient is not hemodynamically stable and requires intravenous pressors; therefore, catheter exchange is not the most appropriate management.Arteriovenous fistula (AVF) excision (Option C) is not indicated. The risk for infection is lower with hemodialysis arm-access sites than with catheters; AVFs have a lower risk compared with arteriovenous grafts. This patient has no evidence of an AVF-related infection, nor is one expected, as his AVF has not yet been used for dialysis.Antibiotic lock therapy (Option D) consists of instilling antibiotics into the catheter lumen to treat catheter-related bloodstream infections. Antibiotic lock therapy may be an alternative for stable patients with limited vascular dialysis access options and who are infected with less virulent organisms, such as Staphylococcus epidermitis. However, catheter salvage should not be attempted for patients with severe sepsis, Staphylococcus aureus infections, and infections with certain gram-negative organisms.",
+  "key_points": [
+    "Tunneled catheters should be removed from hemodialysis patients who have bacteremia with severe sepsis, evidence of metastatic infection, evidence of a tunnel infection, or persistent fever or bacteremia despite antibiotic administration."
+  ],
+  "references": "Lok CE, Huber TS, Lee T, et al; National Kidney Foundation. KDOQI clinical practice guideline for vascular access: 2019 update. Am J Kidney Dis. 2020;75:S1-S164. PMID: 32778223 doi:10.1053/j.ajkd.2019.12.001",
+  "related_content": {
+    "syllabus": [
+      "npsec24011_24059"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:48:56.325366-06:00"
+}

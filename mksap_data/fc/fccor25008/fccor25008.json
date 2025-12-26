@@ -1,0 +1,59 @@
+{
+  "question_id": "fccor25008",
+  "category": "fc",
+  "educational_objective": "Understand the utility of likelihood ratios in clinical practice.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A group of investigators studied the diagnostic value of a serum protein level in patients with a very rare condition. Their study showed that 98% of enrolled patients with the disease had a serum level two to three times higher than healthy control participants. The researchers discussed the best statistical tool to help clinicians estimate the posttest probability of the disease when serum protein levels are high.",
+  "question_stem": "Which of the following is the most appropriate statistical tool?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Chi-squared test of independence",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Likelihood ratio",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Positive predictive value",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sensitivity",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "A likelihood ratio (LR) (Option B) is a valuable tool for estimating the posttest probability of a disease based on a test result or physical examination finding. LRs are used in conjunction with the pretest probability of disease (the probability of disease in the patient before the test result is considered). The interaction between the pretest probability and LR results in a posttest probability of disease. The positive likelihood ratio (used when the test result is positive) is calculated as sensitivity/(1 - specificity), whereas the negative likelihood ratio (used when the test result is negative) is calculated as (1 - sensitivity)/specificity. An LR greater than 1 increases the probability of disease, whereas a value lower than 1 decreases it. To determine the posttest probability of disease on the basis of the LR, a nomogram can be used (see Figure: Nomogram for Interpreting Diagnostic Test Results). For ease of clinical use, general LR rules may also be applied: positive LR values of 2, 5, and 10 correspond to an increase in disease probability of about 15%, 30%, and 45%, respectively, whereas negative LR values of 0.5, 0.2, and 0.1 correspond to a decrease in disease probability of about 15%, 30%, and 45%, respectively. Larger positive LRs and smaller negative LRs are more apt to affect clinical decisions. LRs can be used to estimate posttest probability in common diseases or in rare diseases, as in this case.The chi-squared test of independence (Option A) can be used to determine whether two categorical values are dependent or independent of each other. The chi-squared test is useful in research but is less applicable in clinical care. The chi-squared test cannot be used to calculate a posttest probability.The positive predictive value (PPV) (Option C) defines the probability of a condition given a positive test result, but it is highly dependent on disease prevalence (true positive/[true positive + false positive]). In a rare disease, most positive results are false positives and the PPV is low.Sensitivity (Option D) is the ability of a test to identify the presence of disease in individuals who have the disease. Sensitivity and specificity are characteristics of the test itself and do not include information about the disease prevalence. In the case of a rare disease, disease prevalence needs to be factored in when using a test clinically. Sensitivity or specificity cannot be used on its own to calculate posttest probability.",
+  "key_points": [
+    "The likelihood ratio (LR) can be used to estimate the posttest probability of disease; unlike positive predictive value, LRs are useful in low-prevalence conditions."
+  ],
+  "references": "Crewe S, Rowe PC. Research and statistics: likelihood ratio in diagnosis. Pediatr Rev. 2011;32:296-8. PMID: 21724905 doi:10.1542/pir.32-7-296",
+  "related_content": {
+    "syllabus": [
+      "fcsec24002_24012"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T11:31:34.217784-06:00"
+}

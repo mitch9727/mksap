@@ -1,0 +1,60 @@
+{
+  "question_id": "fcmcq24059",
+  "category": "fc",
+  "educational_objective": "Evaluate kidney disease without race-based modifiers.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 67-year-old man is evaluated during a routine examination. He has hypertension, dyslipidemia, type 2 diabetes mellitus, and chronic kidney disease. Medications are amlodipine, losartan, rosuvastatin, insulin glargine, insulin lispro, and empagliflozin. The patient identifies as Black.On physical examination, blood pressure is 118/76 mm Hg; other findings are normal.Laboratory studies:Creatinine2.0 mg/dL (176.8 µmol/L)HElectrolyte levels are normal.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Add hydrochlorothiazide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Calculate estimated glomerular filtration rate using the 2021 CKD-EPI creatinine equation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Refer for hemodialysis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Refer for kidney replacement therapy education",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is to calculate the patient's estimated glomerular filtration rate (eGFR) using the 2021 Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) creatinine equation (Option B). This patient has CKD, and assessing his eGFR is the most appropriate next step. Various calculators exist for determining eGFR. Some formulas, such as older versions of the CKD-EPI creatinine equation and the Modification of Diet in Renal Disease (MDRD) study equation, include race as a variable; however, this inclusion may translate into delayed or inequitable care, because race is a social construct not a biological variable. For example, an older version of the CKD-EPI creatinine equation for a patient who identifies as Black resulted in an eGFR that was 16% higher than for patients of any other race. These race-based modifications may overestimate kidney function and delay treatment for kidney disease in Black patients. For these reasons, to estimate GFR, the National Kidney Foundation and the American Society of Nephrology recommend using the 2021 CKD-EPI creatinine equation, which has been refitted to estimate kidney function for all patients, without a race variable.Adding an additional antihypertensive agent, such as hydrochlorothiazide (Option A), is not indicated; this patient's blood pressure is currently well controlled.Clinical decisions regarding management of CKD should be made based on eGFR using the 2021 CKD-EPI creatinine equation. Patients with progressive CKD and an eGFR less than 30 mL/min/1.73 m2 should be referred to a kidney replacement therapy education program to learn about therapeutic options, including dialysis modalities, kidney transplantation, and nondialytic medical management, so they can make an informed decision in the future. This patient's eGFR is 36 mL/min/1.73 m2 based on the 2021 CKD-EPI creatinine equation; therefore, he does not require education on kidney replacement therapy (Option D) currently. Likewise, this patient does not currently require hemodialysis (Option C).",
+  "key_points": [
+    "Use of race-adjusted algorithms to calculate estimated glomerular filtration rate may lead to inequitable care.",
+    "To estimate glomerular filtration rate, the National Kidney Foundation and American Society of Nephrology recommend using the 2021 Chronic Kidney Disease Epidemiology Collaboration creatinine equation, which has been refitted to estimate kidney function for all patients, without a race variable."
+  ],
+  "references": "List JM, Palevsky P, Tamang S, et al. Eliminating algorithmic racial bias in clinical decision support algorithms: use cases from the Veterans Health Administration. Health Equity. 2023;7:809-816. PMID: 38076213 doi:10.1089/heq.2023.0037",
+  "related_content": {
+    "syllabus": [
+      "fcsec24004_24009"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T11:31:34.009325-06:00"
+}

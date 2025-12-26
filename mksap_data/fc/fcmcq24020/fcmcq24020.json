@@ -1,0 +1,60 @@
+{
+  "question_id": "fcmcq24020",
+  "category": "fc",
+  "educational_objective": "Recognize confirmation bias as a cause of diagnostic error.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 37-year-old woman is evaluated in the emergency department for nausea, vomiting, and abdominal pain. She has a history of irritable bowel syndrome (IBS) and has presented to the emergency department frequently over the past year with abdominal pain. Several previous abdominal CT scans have been unremarkable.On physical examination, temperature is 37.4 °C (99.3 °F), blood pressure is 110/60 mm Hg, and pulse rate is 120/min. Abdominal examination elicits severe tenderness and guarding in the right lower quadrant.Laboratory studies:Leukocyte count15,000/µL (15 × 109/L)HAn abdominal ultrasound is normal but does not visualize the appendix.During shift change, the patient is signed out to the incoming physician as a patient with several previous emergency department visits for IBS symptoms who is presenting with recurrent abdominal pain, likely related to IBS given the normal abdominal ultrasound.The incoming physician assesses the patient, determines the patient's Alvarado score is 7 (probable/likely appendicitis), and orders a CT scan of the abdomen/pelvis that reveals acute appendicitis.",
+  "question_stem": "Which of the following contributed to the nearly missed diagnosis of appendicitis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Confirmation bias",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Diagnostic momentum",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Hindsight bias",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Hypothetico-deductive reasoning",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely factor that contributed to the nearly missed diagnosis of appendicitis is confirmation bias (Option A). A diagnostic error is present when there was a missed opportunity to make the correct diagnosis in a timely manner; it is often preventable. Most patients will be subject to a diagnostic error in their lifetime. Diagnostic errors are usually multifactorial in etiology, with flaws in the individual clinician's cognitive processes and systems-level issues contributing to most errors. Confirmation bias, a type of cognitive error, is the predisposition to seek evidence to confirm a suspected diagnosis without looking for evidence, or overlooking evidence, that disproves it. In this case, the first physician suspected that this patient, who frequented the hospital often for similar symptoms, was again presenting with irritable bowel syndrome (IBS). The physician emphasized the normal ultrasound findings and overlooked the inability to visualize the appendix on imaging, the leukocytosis, and the right-sided abdominal pain.Diagnostic momentum (Option B) occurs when a diagnosis is suggested early in the diagnostic process and the diagnostic evaluation continues to move toward that diagnosis even if data do not support it. In this case, the second physician did not continue to move toward a diagnosis of IBS and astutely reevaluated the patient using an appropriate clinical prediction tool.Hindsight bias (Option C) occurs when knowing the outcome influences how a past event, or past decisions, are perceived. For example, during a root cause analysis, others not involved in the care of a patient and who are aware of the outcome of the case may underestimate or overestimate the abilities of the physician who was directly involved in the case. Hindsight bias did not occur in this case.Hypothetico-deductive reasoning (Option D), an analytical, rule-based approach to diagnosis, is characterized by an analysis of each diagnostic possibility, including the concordant and discordant aspects of the presentation. In this case, the first physician is unlikely to have applied hypothetico-deductive reasoning; this type of cognitive process would probably have considered appendicitis as a cause of the patient's right-sided abdominal pain and leukocytosis.",
+  "key_points": [
+    "A diagnostic error is present when there was a missed opportunity to make the correct diagnosis in a timely manner.",
+    "Confirmation bias is the predisposition to seek evidence to confirm a suspected diagnosis without looking for evidence, or overlooking evidence, that disproves it."
+  ],
+  "references": "Loncharich MF, Robbins RC, Durning SJ, et al. Cognitive biases in internal medicine: a scoping review. Diagnosis (Berl). 2023;10:205-214. PMID: 37079281 doi:10.1515/dx-2022-0120",
+  "related_content": {
+    "syllabus": [
+      "fcsec24002_24002"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T11:31:33.915504-06:00"
+}

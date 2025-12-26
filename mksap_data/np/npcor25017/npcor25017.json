@@ -1,0 +1,60 @@
+{
+  "question_id": "npcor25017",
+  "category": "np",
+  "educational_objective": "Treat a patient with diabetic kidney disease using a sodium-glucose cotransporter 2 inhibitor.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 60-year-old asymptomatic woman is evaluated for stage G3 proteinuric chronic kidney disease attributed to type 2 diabetes mellitus. She also has hypertension and dyslipidemia. Medications are lisinopril, amlodipine, atorvastatin, and metformin.On physical examination, blood pressure is 130/80 mm Hg and pulse rate is 83/min. Other vital signs are normal. The remainder of the examination is normal.Fasting laboratory studies:Potassium4.3 mEq/L (4.3 mmol/L)Bicarbonate24 mEq/L (24 mmol/L)LDL cholesterol75 mg/dL (1.9 mmol/L)Hemoglobin A1c8.3%HCreatinine1.2 mg/dL (106.1 µmol/L)Estimated glomerular filtration rate47 mL/min/1.73m2 Spot urine albumin-creatinine ratio 360 mg/gCalculated 10-year ASCVD risk is 15%.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Add empagliflozin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Add losartan",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Add pioglitazone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Discontinue atorvastatin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management for this patient is to add empagliflozin (Option A). Clinical trials consistently show that glycemic control, blood pressure control, and the use of renin-angiotensin system (RAS) blockers slow the progression of chronic kidney disease (CKD) in patients with diabetes mellitus. More recently, randomized trials have shown that sodium-glucose cotransporter 2 (SGLT2) inhibitors slow the progression of CKD and reduce the risk for death from kidney and cardiovascular complications. For patients with type 2 diabetes and diabetic kidney disease, the American Diabetes Association (ADA) and KDIGO recommend consideration of an SGLT2 inhibitor when the estimated glomerular filtration rate is ≥20 mL/min/1.73 m2 (regardless of urine albumin-creatinine ratio) to reduce progression of kidney disease and cardiovascular events. For this patient with stage G3 CKD and moderately increased albuminuria, an SGLT2 inhibitor, such as empagliflozin, should be added. A glucagon-like peptide 1 receptor agonist with demonstrated benefit is also recommended to reduce risk for CKD progression and cardiovascular events in patients with diabetes.Adding losartan (Option B) would be inappropriate. Losartan is an angiotensin receptor blocker (ARB), which should not be used concomitantly with an ACE inhibitor (e.g., lisinopril). Although RAS blockers slow the rate of progression for proteinuric CKD and are indicated for patients with CKD who can tolerate them, clinical trials show that dual RAS blockade with an ACE inhibitor and an ARB may increase the risk for adverse events (e.g., hyperkalemia, hypotension, acute kidney injury).The thiazolidinedione pioglitazone (Option C) is not the most appropriate treatment for this patient. Thiazolidinediones should be used cautiously in a patient with CKD given their potential to cause fluid retention. In addition, no consistent data from randomized controlled trials show that this drug class improves kidney outcomes in patients with CKD.Discontinuing atorvastatin (Option D) is inappropriate because this patient with CKD and high risk for atherosclerotic cardiovascular disease has an indication for statin therapy. American College of Cardiology/American Heart Association and ADA guidelines recommend at least a moderate-dose statin for patients with diabetes.",
+  "key_points": [
+    "Sodium-glucose cotransporter 2 inhibitors slow the progression of chronic kidney disease (CKD) and reduce the risk for death from kidney or cardiovascular complications in patients with diabetic kidney disease.",
+    "Glucagon-like peptide 1 receptor agonists reduce the risks for cardiovascular events and slow CKD progression in patients with type 2 diabetes mellitus."
+  ],
+  "references": "Kidney Disease: Improving Global Outcomes (KDIGO) CKD Work Group. KDIGO 2024 clinical practice guideline for the evaluation and management of chronic kidney disease. Kidney Int. 2024;105:S117-S314. PMID: 38490803 doi:10.1016/j.kint.2023.10.018",
+  "related_content": {
+    "syllabus": [
+      "npsec24011_24030"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:48:56.292093-06:00"
+}

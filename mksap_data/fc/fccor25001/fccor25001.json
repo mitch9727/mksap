@@ -1,0 +1,60 @@
+{
+  "question_id": "fccor25001",
+  "category": "fc",
+  "educational_objective": "Understand the relationship between prevalence and predictive values.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A study evaluated the test characteristics of a new rapid diagnostic test for influenza. Polymerase chain reaction–based testing of nasal secretions was used as the gold standard for diagnosis. The study was performed during the summer, when influenza rates are at their nadir.The sensitivity and specificity of the rapid diagnostic test are 70.6% and 92.8%, respectively. The positive and negative predictive values are 90.7% and 75.9%, respectively.",
+  "question_stem": "Which of the following reflects how the new test will perform at the peak of influenza season?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Negative predictive value will increase",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Positive predictive value will increase",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Sensitivity will increase",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Specificity will increase",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "At the peak of influenza season, the positive predictive value of the new test will increase (Option B). Positive and negative predictive values reflect the ability of a test to predict the presence or absence of disease in a specific population. The positive predictive value is the proportion of persons with a positive test result who have the disease. Stated another way, the positive predictive value is the likelihood that a person with a positive test result actually has the disease. The negative predictive value is the proportion of persons with a negative test result who are disease-free; that is, the likelihood that a person who has a negative test result does not have the disease. Predictive values are influenced by disease prevalence: as disease prevalence increases, the positive predictive value increases and the negative predictive value decreases. Conversely, as disease prevalence decreases, the positive predictive value decreases and the negative predictive value increases. Because the prevalence of influenza increases during the peak of influenza season, the proportion of true-positive results increases; in other words, the positive predictive value will increase.As the disease prevalence increases, the negative predictive value, or the proportion of true-negative results, decreases. Therefore, Option A is incorrect.Sensitivity is the proportion of persons with the disease who have a positive test result; sensitive tests are those with low rates of false-negative results. The sensitivity of a test does not change according to disease prevalence, so Option C is incorrect.Specificity is the proportion of persons without the disease who have a negative test result; specific tests are those with low rates of false-positive results. The specificity of a test does not change according to disease prevalence, so Option D is incorrect.",
+  "key_points": [
+    "The positive predictive value is the proportion of persons with a positive test result who have the disease; the negative predictive value is the proportion of persons with a negative test result who are disease-free.",
+    "Positive predictive value increases as disease prevalence increases, and negative predictive value decreases as disease prevalence increases."
+  ],
+  "references": "Armstrong KA, Metlay JP. Annals clinical decision making: using a diagnostic test. Ann Intern Med. 2020;172:604-609. PMID: 32311733",
+  "related_content": {
+    "syllabus": [
+      "fcsec24002_24010"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T11:31:34.203200-06:00"
+}

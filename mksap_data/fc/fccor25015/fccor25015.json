@@ -1,0 +1,60 @@
+{
+  "question_id": "fccor25015",
+  "category": "fc",
+  "educational_objective": "Provide hepatitis B vaccination for a patient older than 60 years who is at risk.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 63-year-old woman is evaluated during a preventive health care visit. Her vaccination history is as follows:Laboratory studies:VaccineTimingCOVID-19Up to date with vaccinations and boostersInfluenzaMost recent influenza seasonRecombinant zoster6 years agoTetanus, diphtheria, and acellular pertussis5 years agoHer medical history is significant for recently diagnosed metabolic dysfunction–associated steatotic liver disease and dyslipidemia. Her only medication is atorvastatin.",
+  "question_stem": "Which of the following vaccines should the patient receive now?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Haemophilus influenzae type b",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hepatitis B",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "23-Valent pneumococcal polysaccharide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No vaccine",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient should receive the hepatitis B vaccine (Option B). The American College of Physicians recommends immunization against hepatitis B virus for all adults aged 19 to 59 years. The hepatitis B vaccine should also be administered to patients aged 60 years and older who desire vaccination or who are at high risk for infection (see Table: Populations With a Risk-Based Indication for HBV Vaccination). Patients with chronic liver diseases, such as metabolic dysfunction–associated steatotic liver disease (MASLD), are considered to be at increased risk and should be vaccinated. Immunization options include a two-, three-, or four-dose series, and some of these formulations include the hepatitis A vaccine as well. Checking serum antibody levels is not usually recommended after routine vaccination; it is indicated in patients in whom subsequent clinical management depends on knowledge of serologic response (e.g., patients receiving long-term hemodialysis; patients with immunocompromise, including persons living with HIV; health care and public safety workers; and needle-sharing or sex partners of persons who have tested positive for hepatitis B surface antigen). Although this patient is older than the recommended age for routine vaccination, her diagnosis of chronic liver disease is an indication for hepatitis B vaccination. Notably, this patient should also receive the hepatitis A vaccine because of her diagnosis of MASLD; therefore, a formulation that includes both vaccines is preferred in this case.Haemophilus influenzae type b vaccination (Option A) is indicated in hematopoietic stem cell transplant recipients or those with asplenia; it is not necessary for this patient.The American College of Physicians recommends routine pneumococcal vaccination in patients aged 50 years and older. It is also indicated for patients with certain high-risk conditions (see Table: Indications for Pneumococcal Vaccination), including chronic liver disease. For patients who have never received a pneumococcal vaccination, vaccination options include the 20-valent pneumococcal conjugate vaccine (PCV20), the 21-valent pneumococcal conjugate vaccine (PCV21), or a combination of the 15-valent pneumococcal conjugate vaccine (PCV15) followed by the 23-valent pneumococcal polysaccharide vaccine (PPSV23) (Option C) at least 1 year later. Although this patient is eligible for the pneumococcal vaccine, she should receive PCV15 before PPSV23 (or PCV20 or PCV21 alone). Thus, PPSV23 would not be appropriate to administer to this patient at this time.This patient has chronic liver disease, for which several vaccinations (hepatitis A, hepatitis B, pneumococcus) are indicated. Not offering any vaccinations (Option D) would be inappropriate.",
+  "key_points": [
+    "Immunization against hepatitis B virus is indicated for all adults aged 19 to 59 years.",
+    "The hepatitis B vaccine should be administered to patients aged 60 years and older who desire vaccination or who are considered at high risk for infection."
+  ],
+  "references": "Wodi AP, Issa AN, Moser CA, et al. Advisory Committee on Immunization Practices recommended immunization schedule for adults aged 19 years or older - United States, 2025. MMWR Morb Mortal Wkly Rep. 2025;74:30-33. PMID: 39820474 doi:10.15585/mmwr.mm7402a3",
+  "related_content": {
+    "syllabus": [
+      "fcsec24008_24039"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T11:31:34.227075-06:00"
+}

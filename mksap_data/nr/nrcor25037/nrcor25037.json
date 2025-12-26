@@ -1,0 +1,60 @@
+{
+  "question_id": "nrcor25037",
+  "category": "nr",
+  "educational_objective": "Avoid prophylactic antiseizure medication in a patient with a central nervous system tumor without evidence of seizure activity.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 47-year-old woman is evaluated for a 2-month history of headache and progressive weakness in her left hand. She has no relevant medical history and takes no medications.On physical examination, vital signs are normal. On the left side, she has difficulty tapping her thumb and index finger together, extending or abducting her fingers, and making a tight fist. Mild pronator drift of the left arm is also noted.MRI with contrast reveals a 5-mm nonenhancing mass in the right frontal lobe near the motor cortex. It is hyperintense on a T2-weighted image and hypointense on a T1-weighted image. No contrast enhancement with gadolinium or vasogenic edema is seen.",
+  "question_stem": "In addition to neurosurgical referral, which of the following is the most appropriate initial treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Dexamethasone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Lacosamide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Phenytoin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No additional treatment",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is neurosurgical referral with no additional initial treatment (Option D). Seizures are a common complication of central nervous system (CNS) tumors and can cause substantial morbidity. Antiseizure drugs (ASDs) are indicated for patients with CNS tumors who experience a seizure or who have symptoms suggestive of unrecognized seizure activity. In contrast, routine prophylactic use of ASDs in the absence of suspected seizure activity is not recommended because it does not effectively reduce the risk for seizure activity. Some surgeons recommend prophylactic ASDs for a few weeks after surgical resection of a CNS tumor, although little evidence supports this practice. Importantly, seizures may not be directly caused by the CNS tumor but rather by associated conditions or treatments, such as electrolyte disturbances, infection, chemotherapy, or paraneoplastic encephalitis, and evaluation for these causes is necessary when seizures do occur. This patient with a CNS tumor has no symptoms suggestive of a seizure, and she should not receive prophylactic ASDs.Tumor-related edema can contribute to headaches, seizures, and focal neurologic deficits. Patients with tumor-related edema should be treated with glucocorticoids, typically dexamethasone, to reduce these symptoms. However, MRI showed no vasogenic edema in this patient, and dexamethasone (Option A) is not indicated.Lacosamide (Option B) and levetiracetam are ASDs that are commonly used in patients with CNS tumors and seizure activity. These newer agents are preferred to older ASDs when treating seizures in patients with CNS tumors because of their better tolerability, fewer drug-drug interactions, and intravenous availability allowing rapid titration to a therapeutic dose. However, this patient is not experiencing seizures and should not be treated with ASDs.Phenytoin (Option C) is an older ASD that has some efficacy in seizures associated with CNS tumors. However, newer ASDs with fewer adverse effects are recommended for patients with CNS tumors and seizures. Older agents like phenytoin and carbamazepine can also reduce the serum levels of chemotherapeutic agents through cytochrome P450 enzyme induction. Furthermore, this patient does not have seizure activity and has no indication for treatment with prophylactic ASDs.",
+  "key_points": [
+    "In patients with central nervous system (CNS) tumors not associated with seizures, prophylactic antiseizure drugs are not recommended.",
+    "Newer antiseizure drugs (ASDs) such as lacosamide and levetiracetam are preferred over older ASDs in patients with CNS tumors and seizure activity because of their better tolerability, fewer drug-drug interactions, and intravenous availability allowing rapid titration to a therapeutic dose."
+  ],
+  "references": "Walbert T, Harrison RA, Schiff D, et al. SNO and EANO practice guideline update: anticonvulsant prophylaxis in patients with newly diagnosed brain tumors. Neuro Oncol. 2021;23:1835-1844. PMID: 34174071 doi:10.1093/neuonc/noab152",
+  "related_content": {
+    "syllabus": [
+      "nrsec24010_24008"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:50:05.519301-06:00"
+}

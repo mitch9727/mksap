@@ -1,0 +1,60 @@
+{
+  "question_id": "npcor25006",
+  "category": "np",
+  "educational_objective": "Diagnose postrenal obstructive uropathy.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 77-year-old man is evaluated in the emergency department for a 2-day history of progressive lower abdominal discomfort. For the past 6 months he has had urinary frequency and hesitancy and nocturia. Medical history is significant for type 2 diabetes mellitus and hypertension. Medications are hydrochlorothiazide, metformin, and empagliflozin. He began taking over-the-counter doxylamine for insomnia during the past week.On physical examination, the patient appears uncomfortable. Blood pressure is 158/64 mm Hg; other vital signs are normal. There is suprapubic tenderness to palpation.Laboratory studies:Blood urea nitrogen50 mg/dL (17.9 mmol/L)HCreatinine2.4 mg/dL (212.2 µmol/L)HBaseline1.1 mg/dL (97.2 µmol/L)Urinalysis with microscopySpecific gravity 1.012; 2+ glucose, 1+ blood; 0-3 erythrocytes/hpf, no leukocytes or casts",
+  "question_stem": "Which of the following is the most appropriate initial step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "1-L 0.9% saline bolus",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Bladder ultrasonography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Discontinuation of empagliflozin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Kidney ultrasonography",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate initial step in management is bladder ultrasonography (Option B). This patient most likely has postrenal obstructive uropathy secondary to benign prostatic hyperplasia (BPH) and the recent addition of doxylamine, an anticholinergic medication that can result in urinary retention. Postrenal acute kidney injury (AKI) results from urinary tract obstruction anywhere along the urinary tract from the renal pelvis to the external urethral meatus. If left untreated, the elevated tubular pressure can cause chronic kidney damage. Postrenal obstruction should be suspected in patients with a history or symptoms of BPH, neurogenic bladder, nephrolithiasis, pelvic malignancies, previous retroperitoneal radiation therapy, abdominal or pelvic surgeries, or retroperitoneal adenopathy. Symptoms of bladder outlet obstruction may include abdominal fullness or pain; urinary frequency, urgency, and hesitancy; nocturia; and incomplete voiding. The diagnosis is supported by a distended bladder on physical examination. In postrenal obstruction, urine sediment is often unremarkable, but microscopic hematuria may be present. Bladder outlet obstruction is confirmed by an elevated postvoid residual bladder volume on ultrasonography. If the obstruction is relieved within 1 to 2 weeks, recovery of kidney function is excellent. In addition to diagnosing and treating this patient's urinary obstruction, he should be advised to discontinue doxylamine and avoid other anticholinergics (antihistamines, tricyclic antidepressants).This patient's physical examination findings of an elevated blood pressure and a normal heart rate do not support a diagnosis of volume depletion as a cause of his AKI. Therefore, a 1-L 0.9% saline bolus (Option A) is not indicated.Empagliflozin (Option C) is a sodium-glucose cotransporter 2 inhibitor that causes natriuresis and glucosuria. It can cause urinary frequency and is associated with urinary tract infections. However, it does not cause urinary retention. This patient's glucosuria is an expected finding, and empagliflozin does not need to be discontinued.Obstruction of the upper tract (ureters or renal pelvis) must be bilateral to cause AKI (unless obstruction occurs in a single kidney); causes may include nephrolithiasis, abdominal or pelvic surgeries or radiation, pelvic malignancies, or retroperitoneal fibrosis or lymphadenopathy. Kidney ultrasonography (Option D) is the modality of choice for diagnosing upper tract obstruction. In this patient who is likely to have lower urinary tract obstruction, bladder ultrasonography and bladder catheterization are more appropriate next steps.",
+  "key_points": [
+    "Postrenal acute kidney injury results from urinary tract obstruction and is readily reversible if recognized early and promptly treated.",
+    "Postrenal obstruction should be suspected in patients with a history or symptoms of benign prostatic hyperplasia, neurogenic bladder, nephrolithiasis, pelvic malignancies, previous retroperitoneal radiation therapy, abdominal or pelvic surgeries, or retroperitoneal adenopathy."
+  ],
+  "references": "Chávez-Iñiguez JS, Navarro-Gallardo GJ, Medina-González R, et al. Acute kidney injury caused by obstructive nephropathy. Int J Nephrol. 2020;2020:8846622. PMID: 33312728 doi:10.1155/2020/8846622",
+  "related_content": {
+    "syllabus": [
+      "npsec24006_24018"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:48:56.285278-06:00"
+}

@@ -1,0 +1,59 @@
+{
+  "question_id": "fcmcq24016",
+  "category": "fc",
+  "educational_objective": "Identify limitations of a study as it applies to clinical medicine.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 45-year-old woman is evaluated for recurrent urinary tract infections (UTIs). She has been hospitalized twice for pyelonephritis. The patient read that cranberry juice can decrease UTI recurrence, and she wants to know whether she should start regularly drinking cranberry juice.A randomized controlled trial of matched female patients aged 18 to 25 years showed a positive association between cranberry juice intake and a decrease in recurrent UTIs. Exclusion criteria included age less than 18 and greater than 25 years, comorbid conditions, hospitalization for cystitis, or history of cystitis with a multidrug-resistant organism. The study showed an absolute risk reduction of 20% in UTI recurrence (P < 0.02) in women who drank 4 oz of cranberry juice daily compared with those who drank no cranberry juice.",
+  "question_stem": "Which of the following is the most relevant limitation of the study as it pertains to this patient?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Confounding",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "External validity",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Random error",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Selection bias",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most relevant limitation of this study as it pertains to this patient is external validity (Option B). Validity is the degree to which a study's results reflect what is correct or true. It is distinct from reliability, a construct that measures how consistent the results are upon repeated measurement. Validity can be further categorized as internal or external. Internal validity refers to how well study error is minimized, whereas external validity is the extent to which the study results can be applied or generalized beyond the study setting. This study enrolled women who are younger than this patient, so the results may not be applicable to her. The study also excluded hospitalized patients and those with comorbid conditions, further reducing its validity to this patient.Systematic error is the influence of confounders and bias on study results. Confounding (Option A) occurs when factors other than the variables being investigated are independently associated with the study population and the end point being assessed. The strongest protection against both known and unknown confounders is provided by random assignment of the study intervention. This study's randomized and matched design should mitigate confounding.Random error (Option C) is introduced into a study by random variability or chance, and it can be reduced by using precise measurement strategies and ensuring the appropriate study size necessary to provide adequate power. Statistical significance, reported using P values, helps quantify the probability of the results being due to random error or chance. A P value of 0.05 or less is generally considered to indicate statistical significance. The P value for this study (P < 0.02) indicates that random error is not likely to be a major issue.Bias refers to the presence of factors that skew study results in a specific direction. Bias may be introduced at any point in a study design, including patient recruitment and outcome measurement. Selection bias (Option D) occurs during recruitment and selection of patients and can be mitigated by randomization and demographic matching of intervention and control groups, as was done with this study.",
+  "key_points": [
+    "External validity is the extent to which study results can be applied or generalized beyond the study setting."
+  ],
+  "references": "Murad MH, Katabi A, Benkhadra R, et al. External validity, generalisability, applicability and directness: a brief primer. BMJ Evid Based Med. 2018;23:17-19. PMID: 29367319 doi:10.1136/ebmed-2017-110800",
+  "related_content": {
+    "syllabus": [
+      "fcsec24002_24009"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T11:31:33.873108-06:00"
+}

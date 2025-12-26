@@ -1,0 +1,60 @@
+{
+  "question_id": "hmcor25001",
+  "category": "hm",
+  "educational_objective": "Diagnose medication-induced neutropenia.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 28-year-old woman is hospitalized for surgical repair of a comminuted ankle fracture sustained in a motorized scooter accident. Medical history is significant for recurrent urinary tract infections, for which she has been taking daily prophylactic trimethoprim-sulfamethoxazole for the past 3 months. She has no other chronic conditions and takes no other medications. She consumes a vegetarian diet.On physical examination, vital signs are normal. Her right ankle is ecchymotic and swollen. The remainder of the examination is normal.Laboratory studies:Hemoglobin13.9 g/dL (139 g/L)Leukocyte count2300/μL (2.3 × 109/L) (20% neutrophils, 72% lymphocytes, 8% monocytes)LAbsolute neutrophil count460/μL (0.46 × 109/L)LMean corpuscular volume92 fLPlatelet count302,000/μL (302 × 109/L)Complete blood count 1 year ago was normal.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cyclic neutropenia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Duffy-null associated neutrophil count",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Medication-induced neutropenia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Vitamin B12 deficiency",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis in this patient taking trimethoprim-sulfamethoxazole is medication-induced neutropenia (Option C). Neutropenia is defined as a circulating absolute neutrophil count (ANC) less than 1500/μL (1.5 × 109/L); severe neutropenia is an ANC less than 500/μL (0.5 × 109/L). The differential diagnosis for neutropenia is broad. Degree of neutropenia, acuity of onset, and presence of other abnormalities in the complete blood count, such as anemia or thrombocytopenia, are helpful in differentiating the potential cause. Review of medications is important in the evaluation of neutropenia because medications are a common cause. Drug-induced neutropenia results from impairment of normal granulopoiesis in the bone marrow or through a drug-dependent, antibody-mediated immune destruction of circulating neutrophils. Classic medications that cause bone marrow suppression include clozapine, methimazole, and trimethoprim-sulfamethoxazole (as well as other antibiotics). The effects are typically seen within the first 3 months of drug initiation. Medication-induced neutropenia most often occurs in patients older than 50 years. Symptoms can include fever and oral ulcerations or may be related to sites of infection, with complications occurring more commonly with lower ANCs. Treatment focuses on removing the offending agent, and the condition often resolves within 1 to 3 weeks. Granulocyte colony-stimulating factor can shorten recovery time and may be used in patients with neutropenia and active infection.Cyclic neutropenia is a rare genetic cause of symptomatic neutropenia that recurs every 3 weeks (Option A). Neutropenia can be severe (ANC <200/μL [0.2 × 109/L]); lasts for 2 to 3 days; and is associated with recurrent fever, oral ulcerations, and infections. This patient lacks these historical features and the severe neutropenia associated with this condition.Duffy-null associated neutrophil count (DANC; previously called benign ethnic neutropenia) (Option B) is more common among patients with certain ancestries, including those of sub-Saharan African or Middle Eastern descent. Patients with DANC are asymptomatic and have no increased risk of infections. The degree of neutropenia in DANC is mild or moderate, rarely with an ANC less than 1000/μL (1 × 109/L). This patient has more profound neutropenia than would be expected with DANC; additionally, DANC would likely have been evident on a previous complete blood count.Vitamin B12 is necessary for DNA synthesis and deficiency can cause macrocytic anemia and pancytopenia. Despite this patient's vegetarian diet, however, her normal hemoglobin level and mean corpuscular volume do not support a diagnosis of vitamin B12 deficiency (Option D).",
+  "key_points": [
+    "Neutropenia is defined as a circulating absolute neutrophil count (ANC) less than 1500/μL (1.5 × 109/L); severe neutropenia is an ANC less than 500/μL (0.5 × 109/L).",
+    "Medications are a common cause of neutropenia; classically implicated medications include clozapine, methimazole, and trimethoprim-sulfamethoxazole."
+  ],
+  "references": "Zon RL, Berliner N. How I manage inpatient consultations for quantitative neutrophil abnormalities in adults. Blood. 2023;142:786-793. PMID: 36279420 doi:10.1182/blood.2021014818",
+  "related_content": {
+    "syllabus": [
+      "hmsec24001_24002"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:44:24.212546-06:00"
+}

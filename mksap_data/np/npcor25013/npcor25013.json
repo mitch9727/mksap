@@ -1,0 +1,59 @@
+{
+  "question_id": "npcor25013",
+  "category": "np",
+  "educational_objective": "Treat hypertensive emergency in a patient with heart failure.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 54-year-old woman is evaluated in the emergency department for acute dyspnea. Medical history includes difficult-to-treat hypertension and hyperlipidemia. Medications are nifedipine, hydrochlorothiazide, metoprolol, hydralazine, and atorvastatin.On physical examination, blood pressure is 210/120 mm Hg in both arms, pulse rate is 110/min, respiration rate is 28/min, and oxygen saturation is 94% with the patient breathing 2 L/min of oxygen by nasal cannula. Funduscopic examination shows no papilledema. Central venous pressure is elevated. Cardiopulmonary examination reveals tachycardia, a summation gallop, and bilateral crackles.Chest radiograph shows an enlarged cardiac silhouette and bilateral pulmonary edema. ECG shows sinus tachycardia, left-axis deviation, and left ventricular hypertrophy.Intravenous nitroglycerin and furosemide are initiated. After 3 hours, blood pressure is 156/94 mm Hg, pulse rate is 88/min, respiration rate is 18/min, and oxygen saturation is 98% with the patient breathing 2 L/min of oxygen by nasal cannula.Two high-sensitivity troponin T levels, obtained serially, are not consistent with acute myocardial infarction.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Increased dose of intravenous nitroglycerin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Intravenous esmolol",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Intravenous hydralazine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No change in management",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "It is appropriate to continue the same management (Option D) with intravenous nitroglycerin and furosemide in this patient with hypertensive emergency and acute heart failure. Hypertensive emergency refers to elevated blood pressure (BP) significantly above the normal range causing acute organ damage or dysfunction, such as ischemic or hemorrhagic stroke, encephalopathy, acute kidney injury, retinopathy, preeclampsia/eclampsia, acute myocardial infarction, aortic dissection, or acute heart failure. The BP threshold associated with hypertensive emergency is >180/110-120 mm Hg; however, this threshold is not an absolute criterion for diagnosis, as target-organ damage may also occur at lower BP levels. Treatment involves rapidly lowering the patient's BP, usually with intravenous short-acting agents in an ICU setting. The 2017 American College of Cardiology/American Heart Association BP guidelines recommend that for adults with severe preeclampsia, eclampsia, or pheochromocytoma, systolic BP should be reduced to <140 mm Hg during the first hour; it should be reduced to <120 mm Hg in the first hour in cases of aortic dissection. In patients without those conditions, BP should be reduced by a maximum of 25% during the first hour, then to 160/100-110 mm Hg within the next 2 to 6 hours, and finally to normal during the subsequent 24 to 48 hours. For patients with acute pulmonary edema, such as this one, nitroglycerin is a preferred antihypertensive treatment (see Table: Antihypertensives for Hypertensive Emergencies with Comorbidities).Increasing the dose of intravenous nitroglycerin (Option A) is inappropriate. Intravenous nitroglycerin is an easily titratable venodilator that reduces afterload in the setting of acute heart failure, as in this patient. This patient's BP has been appropriately lowered, and her oxygen saturation has improved. Increasing the nitroglycerin dose would risk a further rapid drop in BP, with consequent hypoperfusion and risk for organ injury (e.g., acute kidney injury).Starting intravenous esmolol or hydralazine is inappropriate because the patient's BP has been lowered adequately. Additionally, β-blockers such as esmolol (Option B) are contraindicated in the setting of acute heart failure, as they decrease cardiac contractility. Hydralazine (Option C) is not first-line therapy in this patient with acute heart failure, and it has a long duration of action that makes careful titration difficult.",
+  "key_points": [
+    "For adults with hypertensive emergency without a compelling condition requiring more aggressive lowering of blood pressure (aortic dissection, severe preeclampsia, eclampsia, or pheochromocytoma), BP should be reduced by no more than 25% within the first hour; then to 160/100-110 mm Hg within the next 2 to 6 hours; and then to normal during the subsequent 24 to 48 hours."
+  ],
+  "references": "Miller JB, Hrabec D, Krishnamoorthy V, et al. Evaluation and management of hypertensive emergency. BMJ. 2024;386:e077205. PMID: 39059997 doi:10.1136/bmj-2023-077205",
+  "related_content": {
+    "syllabus": [
+      "npsec24005_24052"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:48:56.284056-06:00"
+}

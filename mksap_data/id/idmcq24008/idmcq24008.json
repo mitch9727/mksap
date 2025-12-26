@@ -1,0 +1,60 @@
+{
+  "question_id": "idmcq24008",
+  "category": "id",
+  "educational_objective": "Evaluate a patient following exposure to tuberculosis.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 59-year-old patient undergoes follow-up evaluation 10 weeks after exposure to a coworker with active tuberculosis infection. An initial interferon-gamma release assay (IGRA) result was negative 2 weeks following exposure. The patient reports feeling well, with no fever, night sweats, new or worsening cough, or weight loss. They take no medications.On physical examination, vital signs and other findings are normal.Repeat IGRA at 9 weeks after exposure is negative.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acid-fast bacilli smear and culture of sputum",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Chest radiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Rifampin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No further management",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "No further testing or intervention is indicated for this patient (Option D). Following exposure to Mycobacterium tuberculosis, they were appropriately evaluated, and no findings indicated infection. \"Close contacts\" are generally defined as persons who spent significant time with a person with tuberculosis infection; outside of health care settings, close contacts are often family members, friends, or coworkers. Close contacts should be evaluated for M. tuberculosis infection with a baseline interferon-gamma release assay (IGRA) or tuberculin skin test (TST). Baseline testing should be performed as soon as possible, preferably within 2 weeks of the exposure, to identify whether the contact might have had previous latent tuberculosis infection (LTBI). After a negative baseline IGRA or TST, a repeat IGRA or TST should be performed 8 to 10 weeks after exposure. The IGRA or TST will be positive within 4 to 10 weeks following exposure in a person who has contracted tuberculosis infection. This patient had a negative baseline IGRA and a negative repeat IGRA at week 9 after exposure; therefore, they do not have M. tuberculosis infection. The aim of postexposure evaluation is to identify persons who have acquired tuberculosis infection because of an exposure and would benefit from early treatment for LTBI. The risk of progression to active tuberculosis infection is highest in the first 2 years after infection.Acid-fast bacilli smear and culture of a sputum sample (Option A) would be performed if the patient had symptoms of active pulmonary tuberculosis infection. This patient has no symptoms suggesting active tuberculosis, so no further testing is needed.Chest radiography (Option B) would be indicated if the patient had a positive IGRA or TST, or symptoms suggesting active tuberculosis infection (e.g., fever, cough, night sweats for >2 weeks, unintentional weight loss).Rifampin is recommended for treatment of LTBI (Option C). This patient has two negative IGRA results 7 weeks apart, indicating they do not have LTBI. Therefore, no treatment is indicated.",
+  "key_points": [
+    "Baseline interferon-gamma release assay (IGRA) or tuberculin skin testing should be performed within 2 weeks of exposure to Mycobacterium tuberculosis and repeated 8 to 10 weeks after exposure to identify close contacts who develop latent tuberculosis infection (LTBI).",
+    "In a patient who has been exposed to M. tuberculosis, a negative baseline IGRA and a negative repeat IGRA at 8 to 10 weeks after exposure indicates no LTBI."
+  ],
+  "references": "Shah M, Dorman SE. Latent tuberculosis infection. N Engl J Med. 2021;385:2271-2280. PMID: 34879450 doi:10.1056/NEJMcp2108501",
+  "related_content": {
+    "syllabus": [
+      "idsec24009_24004"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:45:33.670769-06:00"
+}

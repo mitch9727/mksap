@@ -1,0 +1,60 @@
+{
+  "question_id": "idcor25011",
+  "category": "id",
+  "educational_objective": "Diagnose <i>Legionella</i> pneumonia.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/26/2025"
+  },
+  "question_text": "A 22-year-old man is evaluated in the emergency department for a 3-day history of nonproductive cough, fever, and diarrhea. He returned 1 week ago from a tournament in Indiana with his college wrestling team. During the trip, the team used an indoor hot tub. Three other team members have developed similar symptoms. Medical history is noncontributory, and he takes no medications.On physical examination, temperature is 38.8 °C (101.8 °F), blood pressure is 115/75 mm Hg, pulse rate is 68/min, and respiration rate is 24/min. Lung examination reveals diffuse crackles. The rest of the examination is unremarkable.Laboratory studies:Sodium128 mEq/L (128 mmol/L)LCOVID-19 and Legionella urinary antigen testing are negative.A chest radiograph is shown.The patient's symptoms improve within 48 hours of initiating empiric therapy with azithromycin.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute pulmonary histoplasmosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Legionella pneumonia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Mpox infection",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Hypersensitivity pneumonitis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Despite the negative Legionella urine antigen test, the most likely diagnosis in this patient is Legionella pneumonia (Option B). Legionella causes 2% to 15% of community-acquired pneumonia (CAP) illnesses but is likely underrecognized. Several clinical and epidemiologic clues suggest a Legionella pneumonia diagnosis in this patient. Most important is the clustering of infections among cotravelers exposed to a common water source. Legionella has been associated with inhalation of infectious aerosols from water sources, including air conditioning cooling units, spas, pools, fountains, and showers. Features that are variably present but may suggest Legionella include gastrointestinal symptoms (including diarrhea), altered mentation, pulse-temperature dissociation, increased liver enzymes, and hyponatremia. Additionally, radiographic findings include multilobar interstitial infiltrates, as seen in this patient. The 2019 Infectious Diseases Society of America and American Thoracic Society guidelines recommend conditional testing for Legionella urinary antigen when suggestive epidemiologic features are present, such as an outbreak, or in cases of severe pneumonia. However, this test only detects Legionella pneumophila serogroup 1, which accounts for 70% to 90% of laboratory-diagnosed Legionella pneumonia in the United States; other species or serogroups would be missed through urinary antigen testing, such as occurred in this patient, but may be identified by culture of respiratory specimens on selective media.Acute pulmonary histoplasmosis (Option A) is caused by Histoplasma capsulatum, an important endemic mycosis in Indiana and the Ohio and Mississippi River valleys. Symptoms, including fever, chills, cough, and myalgia, typically develop 1 to 4 weeks after exposure. Acute pulmonary histoplasmosis is unlikely in this patient because diarrhea and hyponatremia are not typically seen, and improvement would not be expected with treatment with azithromycin.Mpox (Option C) can be spread through close physical contact and can cause respiratory symptoms such as sore throat and cough along with a febrile illness. However, skin lesions would be expected as part of the presentation, and symptom improvement would not be expected to occur with treatment with azithromycin.Hypersensitivity pneumonitis (Options D) can develop as the result of Mycobacterium avium complex (MAC) exposure after hot tub use (“hot tub lung”). It is unlikely in this patient considering his clinical course because the presentation for MAC pulmonary infection is more indolent. In addition, improvement of hypersensitivity pneumonitis would not be expected to occur with azithromycin treatment.",
+  "key_points": [
+    "Legionella pneumonia should be suspected in groups of patients with similar symptoms who have recently been exposed to a common water source.",
+    "Legionella urinary antigen detects only Legionella pneumophila serogroup 1; other species or serogroups would be missed through urinary antigen testing."
+  ],
+  "references": "Chahin A, Opal SM. Severe pneumonia caused by Legionella pneumophila: differential diagnosis and therapeutic considerations. Infect Dis Clin North Am. 2017;31:111-121. PMID: 28159171 doi:10.1016/j.idc.2016.10.009",
+  "related_content": {
+    "syllabus": [
+      "idsec24006_24003"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-26T09:45:33.852477-06:00"
+}

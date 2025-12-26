@@ -7,7 +7,7 @@ use std::env;
 use std::sync::Arc;
 use tokio::time::sleep;
 use std::time::Duration;
-use tracing::{info, error, warn};
+use tracing::{info, error, warn, debug};
 use serde_json::json;
 use futures::stream::{self, StreamExt};
 use rand::seq::SliceRandom;
@@ -235,7 +235,7 @@ impl MKSAPExtractor {
         let concurrency = Self::concurrency_limit();
 
         // Phase 1: Discovery - find all valid questions
-        info!("Phase 1: Discovering valid questions for {}...", category.name);
+        debug!("Phase 1: Discovering valid questions for {}...", category.name);
         let refresh = env::var("MKSAP_REFRESH_DISCOVERY")
             .map(|value| value == "1" || value.eq_ignore_ascii_case("true"))
             .unwrap_or(false);
@@ -263,7 +263,7 @@ impl MKSAPExtractor {
         info!("✓ Found {} valid questions in {}", valid_ids.len(), category.name);
 
         // Phase 2: Setup - create folders for valid questions
-        info!("Phase 2: Creating directories for {} questions...", valid_ids.len());
+        debug!("Phase 2: Creating directories for {} questions...", valid_ids.len());
         for question_id in &valid_ids {
             let question_folder = Path::new(&self.output_dir)
                 .join(&category.code)
@@ -271,10 +271,10 @@ impl MKSAPExtractor {
             fs::create_dir_all(&question_folder)
                 .context("Failed to create question folder")?;
         }
-        info!("✓ Directories created");
+        debug!("✓ Directories created");
 
         // Phase 3: Extraction - download and process only valid questions
-        info!(
+        debug!(
             "Phase 3: Extracting data for {} questions (concurrency: {})...",
             valid_ids.len(),
             concurrency
@@ -320,9 +320,7 @@ impl MKSAPExtractor {
             }
         }
 
-        if questions_skipped > 0 {
-            info!("Skipped {} already-extracted questions for {}", questions_skipped, category.name);
-        }
+        // Skip count will be included in per-system summary from main.rs
 
         Ok(questions_extracted)
     }

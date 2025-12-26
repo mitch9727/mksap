@@ -1,5 +1,9 @@
 # MKSAP Project Overview
 
+## ⚠️ CRITICAL FIX (December 25, 2025)
+
+**Question ID Prefix Mismatch Corrected**: The "Foundations of Clinical Practice and Common Symptoms" (CS) section was configured with wrong prefix "cc" instead of correct "cs". This has been fixed in config.rs. Next extraction run should discover ~206 questions instead of 55. See [EXTRACTION_GAPS_ANALYSIS.md](../../EXTRACTION_GAPS_ANALYSIS.md#critical-update-december-25-2025---evening-question-id-prefix-mismatch-discovery) for details.
+
 ## Project Goal
 
 Extract the full MKSAP question bank into structured JSON using the Rust API-based extractor, then use that data for downstream processing (Markdown/Anki generation).
@@ -7,8 +11,9 @@ Extract the full MKSAP question bank into structured JSON using the Rust API-bas
 ## Current Status
 
 - Rust extractor is the primary and only supported extraction method.
-- **1,802 questions extracted across all 12 systems** (1,539 from 2024 + 289 from 2025)
-- **Overall completion: 100.7%** (based on API-discovered question count: 1,790)
+- **1,802 questions extracted across 11 systems + 55 with incorrect prefix** (1,539 from 2024 + 289 from 2025)
+- **Expected improvement**: CS section expected to increase from 55 to ~206 questions after re-extraction with correct prefix
+- **Overall completion: 100.7%** (based on API-discovered question count: 1,790) - will improve after CS fix
 
 ## Completion Metrics (December 2025 Update)
 

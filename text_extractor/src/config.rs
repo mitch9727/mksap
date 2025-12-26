@@ -28,7 +28,7 @@ pub fn init_organ_systems() -> Vec<OrganSystem> {
             baseline_2024_count: 136,
         },
         OrganSystem {
-            id: "cc".to_string(),
+            id: "cs".to_string(),
             name: "Foundations of Clinical Practice and Common Symptoms".to_string(),
             baseline_2024_count: 206,
         },

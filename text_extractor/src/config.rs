@@ -69,8 +69,13 @@ pub fn init_organ_systems() -> Vec<OrganSystem> {
         },
         OrganSystem {
             id: "pm".to_string(),
-            name: "Pulmonary and Critical Care Medicine".to_string(),
-            baseline_2024_count: 162,
+            name: "Pulmonary Medicine".to_string(),
+            baseline_2024_count: 131,
+        },
+        OrganSystem {
+            id: "cc".to_string(),
+            name: "Critical Care Medicine".to_string(),
+            baseline_2024_count: 55,
         },
         OrganSystem {
             id: "rm".to_string(),

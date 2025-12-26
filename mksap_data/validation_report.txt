@@ -1,0 +1,44 @@
+=== MKSAP DATA VALIDATION REPORT ===
+
+Total Questions Found: 1802
+Total Valid Questions: 1802
+Total Invalid Questions: 0
+
+=== INVALID BREAKDOWN ===
+Missing JSON: 0
+Missing Metadata: 0
+Parse Errors: 0
+Schema Invalid: 0
+
+=== PER-SYSTEM SUMMARY ===
+✓ OK cc: 55/206 questions (55 valid, 26.7% of expected)
+✓ OK cv: 240/216 questions (240 valid, 111.1% of expected)
+✓ OK en: 160/136 questions (160 valid, 117.6% of expected)
+✓ OK gi: 125/154 questions (125 valid, 81.2% of expected)
+✓ OK hm: 149/125 questions (149 valid, 119.2% of expected)
+✓ OK id: 229/205 questions (229 valid, 111.7% of expected)
+✓ OK in: 110/199 questions (110 valid, 55.3% of expected)
+✓ OK np: 179/155 questions (179 valid, 115.5% of expected)
+✓ OK nr: 142/118 questions (142 valid, 120.3% of expected)
+✓ OK on: 127/103 questions (127 valid, 123.3% of expected)
+✓ OK pm: 131/162 questions (131 valid, 80.9% of expected)
+✓ OK rm: 155/131 questions (155 valid, 118.3% of expected)
+
+
+=== SPECIFICATION COMPLIANCE REPORT ===
+
+✓ cv (Cardiovascular Medicine): 240/216 questions (111.1% of baseline)
+✓ en (Endocrinology and Metabolism): 160/136 questions (117.6% of baseline)
+⚠ cc (Foundations of Clinical Practice and Common Symptoms): 55/206 questions (26.7% of baseline)
+⚠ gi (Gastroenterology and Hepatology): 125/154 questions (81.2% of baseline)
+✓ hm (Hematology): 149/125 questions (119.2% of baseline)
+✓ id (Infectious Disease): 229/205 questions (111.7% of baseline)
+⚠ in (Interdisciplinary Medicine and Dermatology): 110/199 questions (55.3% of baseline)
+✓ np (Nephrology): 179/155 questions (115.5% of baseline)
+✓ nr (Neurology): 142/118 questions (120.3% of baseline)
+✓ on (Oncology): 127/103 questions (123.3% of baseline)
+⚠ pm (Pulmonary and Critical Care Medicine): 131/162 questions (80.9% of baseline)
+✓ rm (Rheumatology): 155/131 questions (118.3% of baseline)
+
+=== OVERALL (BASELINE) ===
+1802/1910 questions extracted (94.3%)

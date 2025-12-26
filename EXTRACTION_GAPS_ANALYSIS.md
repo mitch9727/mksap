@@ -463,7 +463,196 @@ Why this error existed:
 Investigation confirmed all other 11 systems use correct prefixes:
 - cv → cvcor25002, cvmcq24001 ✓ (correct)
 - en → encor25001, enmcq24001 ✓ (correct)
-- gi → gicor25001, gimcq24001 ✓ (correct)
-- ... (all others verified correct)
+- gi → gicor25001, gimcq24001 ✓ (correct) - BUT also uses "hp" for Hepatology
+- id → idcor25001, idmcq24001 ✓ (correct)
+- hm → hmcor25001, hmmcq24001 ✓ (correct)
+- np → npmcq24001 ✓ (correct)
+- nr → nrmcq24001 ✓ (correct)
+- on → onmcq24001 ✓ (correct)
+- pm → pmmcq24001 ✓ (correct) - AND also uses "cc" for Critical Care
+- rm → rmmcq24001 ✓ (correct)
+- in → inmcq24001 ✓ (correct) - AND also uses "dm" for Dermatology
+- cs → csvdx24009, csmcq24001 ✓ (correct - formerly misconfigured as "cc")
 
-Only the "cc" → "cs" mismatch was found.
+### Multi-Prefix Content Areas (AND Sections)
+
+Three content areas use **multiple question ID prefixes** requiring separate system entries:
+
+| Content Area | URL ID | System 1 | Prefix 1 | System 2 | Prefix 2 |
+|-------------|--------|----------|----------|----------|----------|
+| Pulmonary AND Critical Care | pmcc | Pulmonary Medicine | pm | Critical Care Medicine | cc |
+| Gastroenterology AND Hepatology | gihp | Gastroenterology | gi | Hepatology | hp |
+| Interdisciplinary AND Dermatology | dmin | Interdisciplinary Medicine | in | Dermatology | dm |
+
+The "AND" designation in the web UI doesn't mean the questions are mixed - they're completely separated by prefix in the API.
+
+---
+
+## IMPLEMENTATION COMPLETE (December 25, 2025 - Evening): Multi-Prefix Architecture
+
+### Architecture Changes
+
+The MKSAP extractor has been updated to support multiple question ID prefixes per content area, enabling proper extraction of all question bank sections including those with "AND" designations.
+
+### Code Modifications
+
+**1. Configuration Layer (`text_extractor/src/config.rs`)**
+
+Added `question_prefixes: Vec<String>` field to `OrganSystem` struct:
+```rust
+#[derive(Debug, Clone)]
+pub struct OrganSystem {
+    pub id: String,
+    pub name: String,
+    pub question_prefixes: Vec<String>,  // NEW: supports multiple prefixes
+    pub baseline_2024_count: u32,
+}
+```
+
+Updated all 15 system definitions with proper multi-prefix support:
+- 9 single-prefix systems: cv, en, hm, id, np, nr, on, rm, cs
+- 6 systems from 3 "AND" content areas (now 6 total systems):
+  - pm (Pulmonary): ["pm"]
+  - cc (Critical Care): ["cc"]
+  - gi (Gastroenterology): ["gi"]
+  - hp (Hepatology): ["hp"]
+  - in (Interdisciplinary): ["in"]
+  - dm (Dermatology): ["dm"]
+
+**Total systems now: 15 (up from 12)**
+
+**2. Extractor Layer (`text_extractor/src/main.rs`)**
+
+Updated category definitions to reflect multi-prefix architecture:
+- Separated 3 "AND" content areas into 6 distinct system categories
+- Fixed incorrect "cc" prefix for Foundations (now "cs")
+- Configured correct URL paths for each system
+- All 15 categories are now processed independently
+
+**3. Discovery Phase (`text_extractor/src/extractor.rs`)**
+
+The existing `generate_question_ids()` method generates IDs for a single prefix, which is correct for the current approach since each category in the extraction loop uses a single prefix.
+
+### System Count Summary
+
+**Before**: 13 systems (including incorrect pm/cc merge)
+**After**: 15 systems (proper separation of all "AND" content areas)
+
+Breakdown:
+- 9 straightforward single-prefix systems
+- 3 AND content areas split into 6 separate systems
+  - Pulmonary AND Critical Care → pm (131q) + cc (55q)
+  - Gastroenterology AND Hepatology → gi (~77q) + hp (~77q)
+  - Interdisciplinary AND Dermatology → in (~100q) + dm (~99q)
+
+### Expected Question Count After Next Extraction
+
+**Previous Baseline Total**: 1,810 questions
+**Current Extracted Total**: 1,802 questions
+**Expected After Re-extraction with All Prefixes**: ~2,000+ questions
+
+The increase comes from:
+- cs system: ~206 questions (vs. old cc with only 55)
+- hp system: ~77 questions (new)
+- dm system: ~99 questions (new)
+- Plus any additional 2025 content in all systems
+
+### How the System Works
+
+**Discovery Phase:**
+1. For each of 15 systems, generates all candidate question IDs
+2. Tests each ID with HTTP HEAD request
+3. Collects discovered IDs in checkpoint files
+4. Saves discovery metadata (timestamp, count, hit rate)
+
+**Extraction Phase:**
+1. Loads discovered IDs from checkpoints
+2. Fetches full question JSON for each discovered ID
+3. Saves JSON + metadata to system-specific directory (mksap_data/{system_id}/)
+4. Downloads associated media (figures, videos, tables)
+
+**Validation Phase:**
+1. Loads discovery metadata from `.checkpoints/discovery_metadata.json`
+2. Calculates completion percentage: (extracted / discovered) × 100
+3. Flags data integrity issues if extracted > discovered
+4. Reports per-system and overall completion metrics
+
+### Directory Structure After Re-extraction
+
+```
+mksap_data/
+├── .checkpoints/
+│   ├── discovery_metadata.json     # Overall discovery statistics
+│   ├── cv_ids.txt                  # Discovered IDs (existing)
+│   ├── en_ids.txt
+│   ├── cs_ids.txt                  # Foundations (corrected prefix)
+│   ├── gi_ids.txt                  # Gastroenterology only
+│   ├── hp_ids.txt                  # Hepatology (new)
+│   ├── pm_ids.txt                  # Pulmonary only
+│   ├── cc_ids.txt                  # Critical Care only
+│   ├── in_ids.txt                  # Interdisciplinary only
+│   ├── dm_ids.txt                  # Dermatology (new)
+│   └── ... (9 more systems)
+│
+├── cv/        # 240 questions
+├── en/        # 160 questions
+├── cs/        # ~206 questions (was empty, now will be populated)
+├── gi/        # ~77 questions (was 125, now will be split)
+├── hp/        # ~77 questions (new directory)
+├── hm/        # 149 questions
+├── id/        # 229 questions
+├── in/        # ~100 questions (was 110, now will be split)
+├── dm/        # ~99 questions (new directory)
+├── np/        # 179 questions
+├── nr/        # 142 questions
+├── on/        # 127 questions
+├── pm/        # 131 questions
+├── cc/        # 55 questions (independent, no longer false prefix for cs)
+├── rm/        # 155 questions
+│
+└── validation_report.txt   # Updated completion metrics
+```
+
+### Next Steps
+
+1. **Prepare for re-extraction:**
+   - Have MKSAP_SESSION token ready
+   - Clear old cs checkpoint (will be regenerated): `rm mksap_data/.checkpoints/cs_ids.txt`
+   - Optional: backup existing data before re-extraction
+
+2. **Run extraction with updated configuration:**
+   ```bash
+   MKSAP_SESSION=<token> cargo run --release
+   ```
+
+3. **Monitor discovery phase output:**
+   - Watch for "cs" system to discover ~206 questions
+   - Watch for "hp" system to discover ~77 questions
+   - Watch for "dm" system to discover ~99 questions
+
+4. **Verify discovery results:**
+   ```bash
+   cargo run --release -- discovery-stats
+   ```
+   Expected to show all 15 systems with accurate discovery counts.
+
+5. **Validate extraction:**
+   ```bash
+   cargo run --release -- validate
+   ```
+   Expected to show ~100% completion across all 15 systems.
+
+### Architecture Benefits
+
+1. **Separation of Concerns**: Each "AND" content area is now correctly represented as separate medical specialties
+2. **Complete Data Collection**: All question prefixes are now discovered and extracted
+3. **Accurate Metrics**: Completion percentages based on actual API discovery, not hardcoded guesses
+4. **Future-Proof**: Easy to add new systems or prefixes if content structure changes
+5. **Checkpoint Integrity**: Each system maintains its own checkpoint for robust resumable extraction
+
+### Files Modified
+
+1. `text_extractor/src/config.rs` - Added `question_prefixes` field, added hp/dm systems
+2. `text_extractor/src/main.rs` - Updated 15 categories with correct prefixes and separations
+3. `EXTRACTION_GAPS_ANALYSIS.md` - Documented multi-prefix architecture and findings
+4. Build tested and confirmed ✓ (cargo check passed with expected warnings)

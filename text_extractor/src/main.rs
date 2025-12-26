@@ -173,7 +173,10 @@ async fn main() -> Result<()> {
     fs::create_dir_all(output_dir)
         .context("Failed to create output directory")?;
 
+    // Build categories from updated configuration with multi-prefix support
+    // Some content areas contain AND (e.g., "Pulmonary AND Critical Care") and are split into separate systems
     let categories = vec![
+        // Single-prefix systems (no "AND" sections)
         Category {
             code: "cv".to_string(),
             name: "Cardiovascular Medicine".to_string(),
@@ -222,29 +225,51 @@ async fn main() -> Result<()> {
             path: "/app/question-bank/content-areas/rm/answered-questions".to_string(),
             question_prefix: "rm".to_string(),
         },
+        // Foundations of Clinical Practice and Common Symptoms - uses "cs" prefix, not "cc"
         Category {
-            code: "cc".to_string(),
-            name: "Foundations of Clinical Practice".to_string(),
+            code: "cs".to_string(),
+            name: "Foundations of Clinical Practice and Common Symptoms".to_string(),
             path: "/app/question-bank/content-areas/fccs/answered-questions".to_string(),
-            question_prefix: "cc".to_string(),
+            question_prefix: "cs".to_string(),
         },
+        // Gastroenterology AND Hepatology - split systems with separate prefixes
         Category {
             code: "gi".to_string(),
-            name: "Gastroenterology and Hepatology".to_string(),
+            name: "Gastroenterology".to_string(),
             path: "/app/question-bank/content-areas/gihp/answered-questions".to_string(),
             question_prefix: "gi".to_string(),
         },
         Category {
+            code: "hp".to_string(),
+            name: "Hepatology".to_string(),
+            path: "/app/question-bank/content-areas/gihp/answered-questions".to_string(),
+            question_prefix: "hp".to_string(),
+        },
+        // Interdisciplinary Medicine AND Dermatology - split systems with separate prefixes
+        Category {
             code: "in".to_string(),
-            name: "Interdisciplinary Medicine and Dermatology".to_string(),
-            path: "/app/question-bank/content-areas/in/answered-questions".to_string(),
+            name: "Interdisciplinary Medicine".to_string(),
+            path: "/app/question-bank/content-areas/dmin/answered-questions".to_string(),
             question_prefix: "in".to_string(),
         },
         Category {
+            code: "dm".to_string(),
+            name: "Dermatology".to_string(),
+            path: "/app/question-bank/content-areas/dmin/answered-questions".to_string(),
+            question_prefix: "dm".to_string(),
+        },
+        // Pulmonary AND Critical Care Medicine - split systems with separate prefixes
+        Category {
             code: "pm".to_string(),
-            name: "Pulmonary and Critical Care Medicine".to_string(),
+            name: "Pulmonary Medicine".to_string(),
             path: "/app/question-bank/content-areas/pmcc/answered-questions".to_string(),
             question_prefix: "pm".to_string(),
+        },
+        Category {
+            code: "cc".to_string(),
+            name: "Critical Care Medicine".to_string(),
+            path: "/app/question-bank/content-areas/pmcc/answered-questions".to_string(),
+            question_prefix: "cc".to_string(),
         },
     ];
 

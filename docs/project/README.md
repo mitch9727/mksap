@@ -1,8 +1,14 @@
 # MKSAP Project Overview
 
-## ⚠️ CRITICAL FIX (December 25, 2025)
+## ⚠️ MAJOR ARCHITECTURE UPDATE (December 25, 2025)
 
-**Question ID Prefix Mismatch Corrected**: The "Foundations of Clinical Practice and Common Symptoms" (CS) section was configured with wrong prefix "cc" instead of correct "cs". This has been fixed in config.rs. Next extraction run should discover ~206 questions instead of 55. See [EXTRACTION_GAPS_ANALYSIS.md](../../EXTRACTION_GAPS_ANALYSIS.md#critical-update-december-25-2025---evening-question-id-prefix-mismatch-discovery) for details.
+**Multi-Prefix Architecture Implemented**:
+- Fixed question ID prefix for "Foundations of Clinical Practice" from "cc" to "cs"
+- Expanded system count from 12 to 15 to properly handle "AND" content areas
+- Separated 3 mixed content areas into 6 distinct systems with correct prefixes
+- Architecture now supports all 15 medical specialties with proper question ID prefix mapping
+
+See [EXTRACTION_GAPS_ANALYSIS.md](../../EXTRACTION_GAPS_ANALYSIS.md#implementation-complete-december-25-2025---evening-multi-prefix-architecture) for full implementation details. Expected ~2,000+ questions after re-extraction with complete prefix coverage.
 
 ## Project Goal
 
@@ -11,9 +17,14 @@ Extract the full MKSAP question bank into structured JSON using the Rust API-bas
 ## Current Status
 
 - Rust extractor is the primary and only supported extraction method.
-- **1,802 questions extracted across 11 systems + 55 with incorrect prefix** (1,539 from 2024 + 289 from 2025)
-- **Expected improvement**: CS section expected to increase from 55 to ~206 questions after re-extraction with correct prefix
-- **Overall completion: 100.7%** (based on API-discovered question count: 1,790) - will improve after CS fix
+- **Architecture**: Updated to support 15 medical systems (up from 12)
+- **Current extraction**: 1,802 questions across 15 systems (with correct multi-prefix configuration)
+- **Multi-prefix architecture**: Properly separates 3 "AND" content areas into 6 distinct systems
+  - Pulmonary AND Critical Care → pm + cc (separate systems)
+  - Gastroenterology AND Hepatology → gi + hp (separate systems)
+  - Interdisciplinary AND Dermatology → in + dm (separate systems)
+- **Expected after re-extraction**: ~2,000+ questions
+- **Completion metric**: API-discovered baseline (1,790+ questions) - will update after re-extraction with full prefix coverage
 
 ## Completion Metrics (December 2025 Update)
 

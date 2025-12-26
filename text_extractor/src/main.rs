@@ -410,12 +410,22 @@ async fn main() -> Result<()> {
     }
 
     for (idx, category) in categories.iter().enumerate() {
-        info!("\n[{}/{}] Extracting: {}", idx + 1, categories.len(), category.name);
+        info!("\n[{}/{}] Processing: {}", idx + 1, categories.len(), category.name);
 
         match extractor.extract_category(category).await {
             Ok(count) => {
                 total_extracted += count;
-                info!("✓ Extracted {} questions from {}", count, category.name);
+
+                // Load checkpoint to calculate extracted vs already-extracted
+                let checkpoint_path = format!("mksap_data/.checkpoints/{}_ids.txt", category.code);
+                let total_discovered = match std::fs::read_to_string(&checkpoint_path) {
+                    Ok(content) => content.lines().count(),
+                    Err(_) => count as usize,
+                };
+                let already_extracted = total_discovered.saturating_sub(count as usize);
+
+                info!("✓ {}: Extracted {} new, {} already extracted",
+                    category.code, count, already_extracted);
             }
             Err(e) => {
                 error!("✗ Failed to extract {}: {}", category.name, e);

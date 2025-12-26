@@ -326,6 +326,7 @@ impl MKSAPExtractor {
     }
 
     /// Log a consolidated discovery result line
+    #[allow(dead_code)]
     pub fn log_discovery_result(category_code: &str, discovered_count: usize, question_types: &[&str]) {
         if discovered_count > 0 {
             let types_str = if question_types.is_empty() {

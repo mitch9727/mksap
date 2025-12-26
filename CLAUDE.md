@@ -8,9 +8,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **MKSAP Question Bank Extractor** - CLI data extraction tool for downloading medical education questions from the ACP MKSAP (Medical Knowledge Self-Assessment Program) online question bank into structured JSON format.
 
-**Current Status**: 1,802+ of 2,065 questions extracted (87.3% complete)
 **Primary Language**: Rust 2021 Edition with Tokio async runtime
 **Architecture**: Dual-extractor system (text + media post-processing)
+**Validation**: Discovery-based extraction using API HEAD requests
+**Check Progress**: Run `./target/release/mksap-extractor validate` for current metrics
 
 ## Common Commands
 
@@ -110,31 +111,35 @@ This project uses **two separate Rust binaries** working in sequence:
 
 ### Organ System Configuration
 
-The extractor targets **12 medical organ systems** defined in [text_extractor/src/config.rs](text_extractor/src/config.rs:23-162):
+The extractor targets **15 medical organ systems** defined in [text_extractor/src/config.rs](text_extractor/src/config.rs):
 
 ```rust
 pub struct OrganSystem {
-    pub id: String,              // Filesystem code (cv, en, hm, etc.)
-    pub name: String,            // Full name
-    pub url_slug: String,        // Web UI code
-    pub api_code: String,        // API prefix for question IDs
-    pub total_questions: u32,    // Expected count
+    pub id: String,                    // Filesystem code (cv, en, cs, etc.)
+    pub name: String,                  // Full name
+    pub question_prefixes: Vec<String>, // Question ID prefixes
+    pub baseline_2024_count: u32,      // Historical baseline (informational only)
 }
 ```
 
-**System Inventory**:
-- **cv** - Cardiovascular Medicine (216 questions)
-- **en** - Endocrinology & Metabolism (136 questions)
-- **cc** - Foundations of Clinical Practice (206 questions)
-- **gi** - Gastroenterology & Hepatology (154 questions)
-- **hm** - Hematology (125 questions)
-- **id** - Infectious Disease (205 questions)
-- **in** - Interdisciplinary Medicine (199 questions)
-- **np** - Nephrology (155 questions)
-- **nr** - Neurology (118 questions)
-- **on** - Oncology (103 questions)
-- **pm** - Pulmonary & Critical Care (162 questions)
-- **rm** - Rheumatology (131 questions)
+**Configured System Prefixes** (15 total):
+- **cv** - Cardiovascular Medicine
+- **en** - Endocrinology and Metabolism
+- **cs** - Foundations of Clinical Practice and Common Symptoms
+- **gi** - Gastroenterology
+- **hp** - Hepatology
+- **hm** - Hematology
+- **id** - Infectious Disease
+- **in** - Interdisciplinary Medicine
+- **dm** - Dermatology
+- **np** - Nephrology
+- **nr** - Neurology
+- **on** - Oncology
+- **pm** - Pulmonary Medicine
+- **cc** - Critical Care Medicine
+- **rm** - Rheumatology
+
+**Note**: Baseline counts are informational only. Actual question availability is determined via API discovery (HTTP HEAD requests), stored in `.checkpoints/discovery_metadata.json`.
 
 ### Question ID Pattern
 
@@ -417,5 +422,6 @@ This project follows **Conventional Commits**:
 ---
 
 **Last Updated**: December 26, 2025
-**Project Status**: Active development (87.3% complete - 1,802+ of 2,065 questions)
+**Project Status**: Active development - Phase 1 (Data Extraction)
+**Check Progress**: Run `./target/release/mksap-extractor validate`
 **Repository**: git@github.com:mitch9727/mksap.git

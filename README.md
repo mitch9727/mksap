@@ -6,10 +6,10 @@ System for extracting medical education questions from the ACP MKSAP (Medical Kn
 
 ## Current Status
 
-- **1,802+ questions extracted** (87.3% of 2,065 target)
-- **12 organ systems** with data
-- **Primary Tool**: Rust MKSAP Extractor (API-based, active)
-- **Phase**: Phase 1 - Data Extraction (See [PHASE_1_PLAN.md](docs/project/PHASE_1_PLAN.md) for complete roadmap)
+- **Primary Tool**: Rust MKSAP Extractor (API-based extraction with discovery validation)
+- **Architecture**: 15 organ system prefixes configured (see [config.rs](text_extractor/src/config.rs))
+- **Extraction Progress**: Run `./target/release/mksap-extractor validate` for current metrics
+- **Historical Data**: See [docs/project/reports/](docs/project/reports/) for past extraction summaries
 
 ## Quick Start
 
@@ -80,26 +80,34 @@ MKSAP_SESSION=... ./target/release/media-extractor
 
 ## Data Structure
 
-Extracted questions are organized by organ system. Target: 2,233 questions across 16 systems and 6 question types (mcq, cor, vdx, qqq, mqq, sq).
+Extracted questions are organized by organ system in the `mksap_data/` directory:
 
-Current extracted data (1,802+ questions across 12 systems):
 ```
 mksap_data/
-├── cv/   - Cardiovascular Medicine
-├── cc/   - Foundations of Clinical Practice
-├── en/   - Endocrinology & Metabolism
-├── gi/   - Gastroenterology & Hepatology
-├── hm/   - Hematology
-├── id/   - Infectious Disease
-├── in/   - Interdisciplinary Medicine
-├── np/   - Nephrology
-├── nr/   - Neurology
-├── on/   - Oncology
-├── pm/   - Pulmonary & Critical Care
-└── rm/   - Rheumatology
+├── .checkpoints/        # Extraction state and discovery metadata
+├── cv/                  # Cardiovascular Medicine
+├── en/                  # Endocrinology & Metabolism
+├── cs/                  # Clinical Practice
+├── gi/                  # Gastroenterology
+├── hp/                  # Hepatology
+├── hm/                  # Hematology
+├── id/                  # Infectious Disease
+├── in/                  # Interdisciplinary Medicine
+├── dm/                  # Dermatology
+├── np/                  # Nephrology
+├── nr/                  # Neurology
+├── on/                  # Oncology
+├── pm/                  # Pulmonary Medicine
+├── cc/                  # Critical Care
+└── rm/                  # Rheumatology
 ```
 
-See [docs/project/README.md](docs/project/README.md) for detailed status and extraction progress.
+Each question directory contains:
+- `{question_id}.json` - Complete structured data
+- `{question_id}_metadata.txt` - Human-readable summary
+- `figures/` - Downloaded media assets (if any)
+
+See [config.rs](text_extractor/src/config.rs) for complete system definitions.
 
 ## Features
 
@@ -200,18 +208,13 @@ See [Troubleshooting Guide](docs/reference/TROUBLESHOOTING.md) for:
 
 ### Project Status
 
-**Last Updated**: December 26, 2025
 **Current Phase**: Phase 1 - Data Extraction
-**Extraction Coverage**: 87.3% (1,802+/2,065 questions)
-**Data Quality**: 100% validity
-**Systems Extracted**: 12 of 12 organ systems
+**Architecture**: Discovery-based extraction with API validation
+**Check Progress**: Run `./target/release/mksap-extractor validate`
 
-**Active Development**:
-- Finalizing remaining questions across all 12 systems
-- Data validation and quality assurance
-- Preparing Phase 2 (Intelligent Fact Extraction via Claude)
+The extractor uses API discovery (HTTP HEAD requests) to determine available questions, ensuring metrics reflect current API state rather than outdated baselines.
 
-See [docs/project/README.md](docs/project/README.md) for detailed status and [PHASE_1_PLAN.md](docs/project/PHASE_1_PLAN.md) for roadmap.
+See [docs/project/README.md](docs/project/README.md) for architecture details and [docs/project/reports/](docs/project/reports/) for historical extraction data.
 
 ## License
 

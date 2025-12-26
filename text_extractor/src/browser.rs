@@ -1,4 +1,4 @@
-//! Cross-platform browser-based authentication fallback for MKSAP session login.
+//! Browser-based authentication fallback for MKSAP session login.
 //!
 //! # Purpose
 //!

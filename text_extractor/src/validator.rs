@@ -17,7 +17,6 @@ pub struct ValidationResult {
     pub invalid_questions: Vec<String>,
     pub missing_fields: Vec<(String, Vec<String>)>,
     pub missing_json: Vec<String>,
-    pub missing_metadata: Vec<String>,
     pub parse_errors: Vec<String>,
     pub schema_invalid: Vec<String>,
     pub systems_verified: Vec<SystemValidation>,
@@ -45,7 +44,6 @@ enum ValidationOutcome {
     Valid,
     SchemaInvalid,
     MissingJson,
-    MissingMetadata,
     ParseError(String),
 }
 
@@ -66,7 +64,6 @@ impl DataValidator {
             invalid_questions: Vec::new(),
             missing_fields: Vec::new(),
             missing_json: Vec::new(),
-            missing_metadata: Vec::new(),
             parse_errors: Vec::new(),
             schema_invalid: Vec::new(),
             systems_verified: Vec::new(),
@@ -174,39 +171,15 @@ impl DataValidator {
                     ValidationOutcome::SchemaInvalid => {
                         result.invalid_questions.push(question_id.clone());
                         result.schema_invalid.push(question_id.clone());
-                        system_validation.issues.push(format!(
-                            "Question {} has missing or invalid fields",
-                            question_id
-                        ));
                     }
                     ValidationOutcome::MissingJson => {
                         result.invalid_questions.push(question_id.clone());
                         result.missing_json.push(question_id.clone());
-                        system_validation.issues.push(format!(
-                            "Question {}: Missing JSON file: {}",
-                            question_id,
-                            question_path
-                                .join(format!("{}.json", question_id))
-                                .display()
-                        ));
-                    }
-                    ValidationOutcome::MissingMetadata => {
-                        result.invalid_questions.push(question_id.clone());
-                        result.missing_metadata.push(question_id.clone());
-                        system_validation.issues.push(format!(
-                            "Question {}: Missing metadata file: {}",
-                            question_id,
-                            question_path
-                                .join(format!("{}_metadata.txt", question_id))
-                                .display()
-                        ));
                     }
                     ValidationOutcome::ParseError(error) => {
                         result.invalid_questions.push(question_id.clone());
                         result.parse_errors.push(question_id.clone());
-                        system_validation
-                            .issues
-                            .push(format!("Question {}: {}", question_id, error));
+                        warn!("Question {} parse error: {}", question_id, error);
                     }
                 }
             }
@@ -262,27 +235,16 @@ impl DataValidator {
                     .join(format!("{}.json", question_id))
                     .display()
             )),
-            ValidationOutcome::MissingMetadata => Err(anyhow::anyhow!(
-                "Missing metadata file: {}",
-                question_path
-                    .join(format!("{}_metadata.txt", question_id))
-                    .display()
-            )),
             ValidationOutcome::ParseError(error) => Err(anyhow::anyhow!(error)),
         }
     }
 
     fn validate_question_detailed(question_path: &Path, question_id: &str) -> ValidationOutcome {
         let json_file = question_path.join(format!("{}.json", question_id));
-        let metadata_file = question_path.join(format!("{}_metadata.txt", question_id));
 
-        // Check if both files exist
+        // Check if JSON file exists
         if !json_file.exists() {
             return ValidationOutcome::MissingJson;
-        }
-
-        if !metadata_file.exists() {
-            return ValidationOutcome::MissingMetadata;
         }
 
         // Parse and validate JSON structure
@@ -372,10 +334,6 @@ impl DataValidator {
 
         report.push_str("=== INVALID BREAKDOWN ===\n");
         report.push_str(&format!("Missing JSON: {}\n", result.missing_json.len()));
-        report.push_str(&format!(
-            "Missing Metadata: {}\n",
-            result.missing_metadata.len()
-        ));
         report.push_str(&format!("Parse Errors: {}\n", result.parse_errors.len()));
         report.push_str(&format!(
             "Schema Invalid: {}\n\n",
@@ -426,177 +384,19 @@ impl DataValidator {
         }
 
         if !result.invalid_questions.is_empty() {
-            report.push_str("\n=== INVALID QUESTIONS ===\n");
-            for question in result.invalid_questions.iter().take(20) {
-                report.push_str(&format!("- {}\n", question));
-            }
-            if result.invalid_questions.len() > 20 {
-                report.push_str(&format!(
-                    "... and {} more\n",
-                    result.invalid_questions.len() - 20
-                ));
-            }
-        }
+            report.push_str("\n=== ISSUE DETAILS (QUESTION IDS) ===\n");
 
-        report
-    }
+            let mut missing_json = result.missing_json.clone();
+            missing_json.sort();
+            Self::append_issue_list(&mut report, "Missing JSON", &missing_json);
 
-    /// Generate detailed discovery-aware validation report with metadata
-    #[allow(dead_code)]
-    pub fn generate_discovery_report(
-        result: &ValidationResult,
-        discovery_metadata: &Option<DiscoveryMetadataCollection>,
-    ) -> String {
-        let mut report = String::new();
+            let mut parse_errors = result.parse_errors.clone();
+            parse_errors.sort();
+            Self::append_issue_list(&mut report, "Parse Errors", &parse_errors);
 
-        report.push_str("# MKSAP Extraction Validation Report (Discovery-Based)\n\n");
-        report.push_str(&format!(
-            "Generated: {}\n\n",
-            chrono::Local::now().to_rfc2822()
-        ));
-
-        // Overall statistics
-        report.push_str("## Overall Statistics\n\n");
-
-        if let Some(ref metadata) = discovery_metadata {
-            let total_discovered: usize = metadata.systems.iter().map(|s| s.discovered_count).sum();
-
-            let total_extracted = result.valid_questions;
-            let overall_pct = if total_discovered > 0 {
-                (total_extracted as f64 / total_discovered as f64) * 100.0
-            } else {
-                0.0
-            };
-
-            report.push_str(&format!(
-                "- **Total Discovered** (via API): {} questions\n",
-                total_discovered
-            ));
-            report.push_str(&format!(
-                "- **Total Extracted**: {} questions\n",
-                total_extracted
-            ));
-            report.push_str(&format!(
-                "- **Overall Completion**: {:.1}%\n\n",
-                overall_pct
-            ));
-            report.push_str(&format!(
-                "- **Discovery Last Updated**: {}\n\n",
-                metadata.last_updated
-            ));
-        } else {
-            report.push_str(
-                "- **Discovery Metadata**: Not available (no discovery has been performed)\n",
-            );
-            report.push_str(&format!(
-                "- **Total Extracted**: {} questions\n\n",
-                result.valid_questions
-            ));
-        }
-
-        // Historical baseline (informational)
-        let total_baseline: u32 = config::init_organ_systems()
-            .iter()
-            .map(|s| s.baseline_2024_count)
-            .sum();
-        report.push_str(&format!(
-            "- **Historical Baseline** (MKSAP 2024 initial release): {} questions (informational only)\n\n",
-            total_baseline
-        ));
-
-        // Per-system breakdown
-        report.push_str("## System Breakdown\n\n");
-        report.push_str("| System | Extracted | Discovered | Baseline | % Complete | Status |\n");
-        report.push_str("|--------|-----------|------------|----------|------------|--------|\n");
-
-        for system_val in &result.systems_verified {
-            let discovered_str = system_val
-                .discovered_count
-                .map(|d| d.to_string())
-                .unwrap_or_else(|| "?".to_string());
-
-            let percentage = if let Some(discovered) = system_val.discovered_count {
-                if discovered > 0 {
-                    (system_val.found_count as f64 / discovered as f64) * 100.0
-                } else {
-                    0.0
-                }
-            } else {
-                0.0
-            };
-
-            let status = if system_val.found_count > system_val.discovered_count.unwrap_or(0) {
-                "⚠ Over-extracted"
-            } else if percentage >= 100.0 {
-                "✓ Complete"
-            } else if percentage >= 90.0 {
-                "◐ 90%+"
-            } else {
-                "○ Incomplete"
-            };
-
-            report.push_str(&format!(
-                "| {} | {} | {} | {} | {:.1}% | {} |\n",
-                system_val.system_id,
-                system_val.found_count,
-                discovered_str,
-                system_val.expected_count,
-                percentage,
-                status
-            ));
-        }
-
-        // Data integrity warnings
-        report.push_str("\n## Data Integrity Checks\n\n");
-
-        let mut warnings_found = false;
-        for system_val in &result.systems_verified {
-            if let Some(discovered) = system_val.discovered_count {
-                if system_val.found_count > discovered {
-                    if !warnings_found {
-                        warnings_found = true;
-                    }
-                    report.push_str(&format!(
-                        "⚠ **WARNING**: System `{}` has {} extracted but only {} discovered.\n",
-                        system_val.system_id, system_val.found_count, discovered
-                    ));
-                    report.push_str("  - Possible causes: Stale discovery checkpoint, manual additions, or extraction errors.\n");
-                    report.push_str(&format!(
-                        "  - Recommendation: Re-run discovery phase for system `{}`.\n\n",
-                        system_val.system_id
-                    ));
-                }
-            }
-        }
-
-        if !warnings_found {
-            report.push_str("✓ No data integrity warnings detected.\n\n");
-        }
-
-        // Discovery statistics
-        if let Some(ref metadata) = discovery_metadata {
-            report.push_str("## Discovery Statistics\n\n");
-
-            for sys_meta in &metadata.systems {
-                report.push_str(&format!("### System: {}\n\n", sys_meta.system_code));
-                report.push_str(&format!(
-                    "- Discovered: {} questions\n",
-                    sys_meta.discovered_count
-                ));
-                report.push_str(&format!(
-                    "- Candidates Tested: {}\n",
-                    sys_meta.candidates_tested
-                ));
-                report.push_str(&format!("- Hit Rate: {:.2}%\n", sys_meta.hit_rate * 100.0));
-                report.push_str(&format!(
-                    "- Question Types Found: {}\n",
-                    sys_meta.question_types_found.join(", ")
-                ));
-                report.push_str(&format!(
-                    "- Last Discovery: {}\n\n",
-                    sys_meta.discovery_timestamp
-                ));
-            }
+            let mut schema_invalid = result.schema_invalid.clone();
+            schema_invalid.sort();
+            Self::append_issue_list(&mut report, "Schema Invalid", &schema_invalid);
         }
 
         report
@@ -703,5 +503,28 @@ impl DataValidator {
         }
 
         comparison
+    }
+
+    fn append_issue_list(report: &mut String, label: &str, ids: &[String]) {
+        report.push_str(&format!("{}: {}\n", label, ids.len()));
+        if ids.is_empty() {
+            return;
+        }
+
+        let mut current = String::new();
+        let per_line = 10usize;
+
+        for (idx, id) in ids.iter().enumerate() {
+            if idx % per_line == 0 && !current.is_empty() {
+                report.push_str(&format!("  {}\n", current.trim_end_matches(", ")));
+                current.clear();
+            }
+            current.push_str(id);
+            current.push_str(", ");
+        }
+
+        if !current.is_empty() {
+            report.push_str(&format!("  {}\n", current.trim_end_matches(", ")));
+        }
     }
 }

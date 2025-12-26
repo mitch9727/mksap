@@ -122,6 +122,73 @@ The MKSAP API availability changes over time:
 
 With API-driven metrics, the system automatically adapts to real API state without manual updates.
 
+## Logging and Debugging
+
+### Standard Output
+
+The extractor produces clean, production-grade output by default:
+
+```bash
+# Run extraction or validation
+cargo run --release
+
+# Sample output (consolidated per-system results):
+[1/15] Processing: Cardiovascular Medicine
+✓ cv: Extracted 0 new, 240 already extracted
+
+[2/15] Processing: Endocrinology and Metabolism
+✓ en: Extracted 0 new, 160 already extracted
+```
+
+Output features:
+- Discovery results: `✓ {system}: Discovered {count} questions ({types} types)`
+- Extraction results: `✓ {system}: Extracted {new} new, {existing} already extracted`
+- Errors and warnings are always displayed (independent of log level)
+- No redundant category name repetition
+- Silent directory creation (no per-file output)
+
+### Debug Output
+
+To see detailed phase-level logging (Phase 1, 2, 3 messages):
+
+```bash
+RUST_LOG=debug cargo run --release
+```
+
+This enables:
+- Discovery phase details: Which candidates are being tested, hit rate
+- Directory creation logs: When question folders are created
+- Extraction phase details: Concurrency level and progress
+- All debug-level tracing information
+
+Example debug output:
+```
+[DEBUG] Phase 1: Discovering valid questions for Cardiovascular Medicine...
+[DEBUG] Phase 2: Creating directories for 240 questions...
+[DEBUG] Phase 3: Extracting data for 240 questions (concurrency: 14)...
+```
+
+### Log Level Reference
+
+| Level | Use Case |
+|-------|----------|
+| INFO (default) | Clean production output, discovery/extraction summaries |
+| DEBUG | Detailed phase information, diagnostic details |
+| WARN | Non-fatal issues (rate limiting, retries) |
+| ERROR | Extraction failures, critical errors |
+
+### Troubleshooting Output
+
+If extraction appears to hang or produce unexpected results:
+
+```bash
+# Enable debug logging with timestamps
+RUST_LOG=debug,html5ever=off cargo run --release 2>&1 | tee extractor.log
+
+# Search for error or warning messages
+grep -E "error|warning|failed" extractor.log
+```
+
 ## Next Steps
 
 1. Run validation with new discovery-based metrics: `cargo run --release -- validate`

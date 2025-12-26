@@ -1,0 +1,62 @@
+{
+  "category": "cv",
+  "critique": "The most appropriate preventive measure is for the patient to continue her current regimen, including apixaban (Option D). The decision to use oral anticoagulation for stroke prevention in atrial fibrillation depends on the patient's thromboembolic risk balanced by the risk for bleeding. The CHA2DS2-VASc score is used to risk stratify patients with nonvalvular atrial fibrillation and determine the appropriateness of oral anticoagulation (see ). Guidelines vary regarding the threshold for initiation of oral anticoagulation. The American College of Cardiology/American Heart Association/Heart Rhythm Society recommend anticoagulation for a score of 2 or greater in men or 3 or greater in women; however, greater leeway is now acknowledged to include other factors in the decision (e.g., chronic kidney disease, arrhythmia burden). The American College of Chest Physicians recommends anticoagulation with one or more non-sex stroke risk factors (i.e., a score of ≥1 in men or ≥2 in women). Catheter ablation of atrial fibrillation, although effective in maintaining sinus rhythm and reducing symptoms, has not been definitively shown to obviate the need for anticoagulation when otherwise indicated. This patient has a CHA2DS2-VASc score of 5, suggesting a high risk for stroke and a continued need for anticoagulation with apixaban.Adding aspirin to oral anticoagulation (Option A) significantly increases the risk for bleeding. Patients with strong indications for antiplatelet therapy, such as recent cardiovascular or cerebrovascular events or the presence of a coronary stent, should receive antiplatelet therapy; otherwise, the combination of antiplatelet therapy and oral anticoagulation is avoided. This patient has no indication for the addition of aspirin.This patient has a high risk for stroke, with a CHA2DS2-VASc score of 5: 2 points for age 75 years and older and 1 point each for female sex, hypertension, and diabetes. Catheter ablation does not decrease her risk for stroke, and discontinuing apixaban (Option B) at this time would be inappropriate.Left atrial appendage occlusion (LAAO) (Option C) may be considered to prevent stroke in patients with at least a moderate risk for stroke (CHA2DS2-VASc score ≥3) if anticoagulation is not feasible. This patient does not have bleeding or other contraindications to oral anticoagulation, and LAAO is not appropriate at this time.",
+  "educational_objective": "Prevent stroke in a patient treated with catheter ablation for atrial fibrillation.",
+  "extracted_at": "2025-12-22T22:49:31.869879-06:00",
+  "key_points": [
+    "Although catheter ablation in atrial fibrillation reduces symptoms, it has not been definitively demonstrated to decrease stroke risk, particularly among patients with high baseline risk.",
+    "Left atrial appendage occlusion may be considered to prevent stroke in patients with at least a moderate risk for stroke (CHA2DS2-VASc score ≥3) if anticoagulation is not feasible."
+  ],
+  "media": {
+    "images": [],
+    "svgs": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/22/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Add aspirin"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Discontinue apixaban"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Refer for left atrial appendage occlusion"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Continue current regimen"
+    }
+  ],
+  "question_id": "cvmcq24116",
+  "question_stem": "Which of the following is the most appropriate management of this patient's risk for stroke?",
+  "question_text": "A 79-year-old woman is evaluated during a follow-up visit 3 months after undergoing catheter ablation for paroxysmal atrial fibrillation. She has no symptoms. She has hypertension, dyslipidemia, and diabetes mellitus. Medications are apixaban, lisinopril, atorvastatin, and metformin.Physical examination findings, including vital signs, are normal.Routine laboratory studies are normal.ECG shows sinus rhythm. Previous echocardiogram showed mild left atrial enlargement with normal left ventricular function (ejection fraction of 55%) and no significant valvular disease.",
+  "references": "January CT, Wann LS, Calkins H, et al. 2019 AHA/ACC/HRS focused update of the 2014 AHA/ACC/HRS guideline for the management of patients with atrial fibrillation: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. J Am Coll Cardiol. 2019;74:104-132. PMID: 30703431 doi:10.1016/j.jacc.2019.01.011",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "cvsec24006_24023"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

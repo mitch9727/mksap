@@ -1,0 +1,60 @@
+{
+  "question_id": "npcor25010",
+  "category": "np",
+  "educational_objective": "Manage kidney dysfunction in a patient with cirrhosis.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 60-year-old woman is evaluated during a follow-up visit for cirrhosis associated with metabolic dysfunction–associated steatohepatitis. Her clinical course has been complicated by ascites that has persisted despite escalating diuretic treatment. She adheres to a low-sodium diet. Medications are furosemide and spironolactone.On physical examination, temperature is 36.9 °C (98.4 °F), blood pressure is 98/58 mm Hg, pulse rate is 90/min, and respiration rate is 16/min. She has scleral icterus and spider angiomas across her chest and upper back. Abdomen is soft and nondistended but has appreciable ascites. She has no peripheral edema.Laboratory studies:Creatinine1.5 mg/dL (132.6 μmol/L)H2 weeks ago0.9 mg/dL (79.6 μmol/L)Sodium134 mEq/L (134 mmol/L)LUrinalysis with microscopySpecific gravity 1.028; no glucose, no protein, no leukocytes, no erythrocytes; few hyaline castsAbdominal ultrasonography shows a shrunken, irregular, nodular liver; a dilated portal vein; patent hepatic and portal vasculature; and moderate ascites.",
+  "question_stem": "Which of the following is the most appropriate initial management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Discontinue diuretics",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Initiate terlipressin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Initiate propranolol",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Perform a large-volume paracentesis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate initial management is to discontinue this patient's diuretics (Option A). In a patient with cirrhosis and portal hypertension, ascites is a manifestation of inadequate natriuresis, with increased splanchnic blood flow and reduced renal perfusion. Those factors contribute to accumulation of fluid in the peritoneal space. Initial management of ascites includes dietary sodium restriction and diuretic therapy with spironolactone and furosemide. However, patients may develop acute kidney injury (AKI) related to decreased intravascular volume and consequent decreased renal perfusion. As the splanchnic vasculature progressively dilates and renal perfusion decreases with worsening of portal hypertension, hepatorenal syndrome can develop, which manifests as declining renal function. The initial evaluation of AKI in cirrhosis includes assessing intravascular volume, ruling out infection, and excluding other causes of AKI. This patient's low blood pressure, tachycardia, and mild hyponatremia suggest a low effective arterial blood volume. The urinalysis does not identify another cause of AKI; therefore, furosemide and spironolactone should be stopped.Terlipressin (Option B), in combination with albumin infusion, is a therapeutic option for hepatorenal syndrome-acute kidney injury. In these patients, if kidney function does not improve after diuretic discontinuation and 2 days of volume expansion with intravenous albumin, then hepatorenal syndrome is likely, and vasoconstrictors (terlipressin is preferred, but midodrine and octreotide are also options) can be considered.Nonselective β-blockers, such as propranolol (Option C), are often used in patients with cirrhosis and portal hypertension to reduce portal pressures and the risk for variceal hemorrhage. However, in the setting of refractory ascites or hepatorenal syndrome, β-blocker therapy should not be initiated because it can lower renal perfusion pressures and worsen clinical outcomes. β-Blockers already a part of a patient's medication regimen should be discontinued in this context.Although a diagnostic paracentesis should be performed to rule out infection in this patient, a large-volume paracentesis (Option D) should not be performed when the ascites is moderate and there is new AKI. For tense ascites with concern for intra-abdominal hypertension, large-volume paracentesis would be appropriate.",
+  "key_points": [
+    "Initial management of acute kidney injury (AKI) in patients with cirrhosis is to assess intravascular volume and stop diuretic therapy as appropriate, rule out infection, and exclude other causes of AKI.",
+    "In patients with refractory ascites or hepatorenal syndrome, β-blocker therapy should be discontinued."
+  ],
+  "references": "Kanduri SR, Velez JCQ. Kidney dysfunction in the setting of liver failure: core curriculum 2024. Am J Kidney Dis. 2024;83:386-401. PMID: 38070000 doi:10.1053/j.ajkd.2023.08.013",
+  "related_content": {
+    "syllabus": [
+      "npsec24006_24022"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:29:49.302266-06:00"
+}

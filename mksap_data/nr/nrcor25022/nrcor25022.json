@@ -1,0 +1,60 @@
+{
+  "question_id": "nrcor25022",
+  "category": "nr",
+  "educational_objective": "Manage an acute intracerebral hemorrhage in a patient without elevated blood pressure.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "An 87-year-old woman is evaluated in the emergency department for left arm weakness and headache of 3 hours' duration. Medical history is significant for dyslipidemia and coronary artery disease; a coronary artery stent was placed for ST-elevation myocardial infarction 4 years ago. Medications are atorvastatin, metoprolol succinate, and aspirin.On physical examination, blood pressure is 122/86 mm Hg, and pulse rate is 78/min. She has left-sided inattention and left arm weakness.Laboratory studies:Activated partial thromboplastin time31 sPlatelet count295,000/μL (295 × 109/L)INR1.0Glucose102 mg/dL (5.7 mmol/L)HHead CT scan shows a right frontal lobe intracerebral hemorrhage with no midline shift or intraventricular extension.",
+  "question_stem": "Which of the following is the most appropriate acute treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Intravenous methylprednisolone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Intravenous nicardipine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Platelet transfusion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No further treatment",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient requires no further acute treatment (Option D) for her intracerebral hemorrhage (ICH). ICH is most commonly caused by hypertension, although lobar hemorrhages near the cortical surface may also be caused by hemorrhagic tumors, arteriovenous malformations, cortical vein thrombosis, and cerebral amyloid angiopathy. The mainstay of therapy in ICH is avoiding hematoma expansion by treating coagulopathy and blood pressure. In patients with ICH and elevated blood pressure, immediate blood pressure lowering is indicated to prevent hematoma expansion and improve neurologic outcomes and survival. In patients with a systolic blood pressure between 150 and 220 mm Hg, American Heart Association/American Stroke Association guidelines recommend lowering the systolic blood pressure to a target of 130 to 150 mm Hg. In patients without elevated blood pressure, blood pressure lowering is not indicated; no immediate medical therapy other than reversal of coagulopathy, if present, is indicated. In all patients with ICH, blood glucose levels should be monitored closely, and patients should be observed for evidence of increased intracranial pressure. Coordinated multidisciplinary inpatient team care with rehabilitation and early discharge planning is also appropriate. This patient has a new right frontal lobe ICH, most likely secondary to cerebral amyloid angiopathy. In the absence of acutely elevated blood pressure and coagulopathy, no further immediate treatment is indicated.Intravenous or oral glucocorticoids, such as methylprednisolone (Option A), should not be administered to patients with hemorrhagic stroke. No evidence has shown that glucocorticoids improve outcomes in patients with ischemic or hemorrhagic stroke, and data from observational studies in patients with traumatic intracranial hemorrhage suggest the potential for harm.Intravenous nicardipine (Option B) would be an appropriate treatment in a patient with a subcortical ICH and elevated blood pressure. This patient's systolic blood pressure, however, is not between 150 and 220 mm Hg; therefore, immediate blood pressure lowering is not indicated.Platelet transfusions (Option C) should not be administered to patients with ICH, even if it is thought to be related to antiplatelet therapy; transfusion can be considered if neurosurgical intervention is planned. These transfusions do not reduce the risk for hematoma expansion, and they increase the risk for morbidity and mortality through various mechanisms, including transfusion reactions.",
+  "key_points": [
+    "Immediate blood pressure lowering is not indicated in patients with intracerebral hemorrhage without elevated blood pressure.",
+    "Glucocorticoids are not an appropriate treatment for patients with intracerebral hemorrhage."
+  ],
+  "references": "Greenberg SM, Ziai WC, Cordonnier C, et al; American Heart Association/American Stroke Association. 2022 Guideline for the management of patients with spontaneous intracerebral hemorrhage: a guideline from the American Heart Association/American Stroke Association. Stroke. 2022;53:e282-e361. PMID: 35579034 doi:10.1161/STR.0000000000000407",
+  "related_content": {
+    "syllabus": [
+      "nrsec24004_24023"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:30:40.191591-06:00"
+}

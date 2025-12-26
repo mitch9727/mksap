@@ -1,0 +1,59 @@
+{
+  "category": "cv",
+  "critique": "This patient's telemetry rhythm strip demonstrates torsades de pointes (Option C), a polymorphic ventricular tachycardia. Torsades de pointes is associated with QT interval prolongation and is characterized by an undulating QRS pattern that seems to twist across the baseline. This tracing also shows the initiation of ventricular tachycardia with a premature ventricular complex occurring during the repolarization phase of the previous QRS complex (“R-on-T” event).Macrolide and quinolone antibiotics may prolong the QT interval, particularly in combination with other QT-prolonging medications, such as some antidepressants and antipsychotics. Alternative antibiotics should be considered in patients at risk for torsades de pointes, including those with a history of a long QT interval or who are receiving medications that prolong the QT interval.",
+  "educational_objective": "Identify torsades de pointes on ECG.",
+  "extracted_at": "2025-12-23T14:08:40.397468-06:00",
+  "key_points": [],
+  "media": {
+    "images": [
+      "figures/cvfig24627.a0f3b94ac99665d794b0cb2beb13af13.jpg"
+    ],
+    "svgs": [],
+    "tables": [],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/23/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Monomorphic ventricular tachycardia"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Right bundle branch block with aberrancy"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Torsades de pointes"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Ventricular fibrillation"
+    }
+  ],
+  "question_id": "cvvdx24023",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "question_text": "A 35-year-old man is evaluated in the emergency department for rapid heart rate and dizziness. He was recently started on levofloxacin for community-acquired pneumonia. Medical history is significant for depression, for which he takes amitriptyline.A telemetry rhythm strip is shown.",
+  "references": "",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "cvsec24006_24040"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

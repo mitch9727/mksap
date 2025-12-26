@@ -1,0 +1,60 @@
+{
+  "question_id": "encor25023",
+  "category": "en",
+  "educational_objective": "Diagnose hypomagnesemia as the cause of hypocalcemia.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 55-year-old woman returns to the emergency department for persistent weakness, shakiness, and intermittent hand spasms. Three days ago, she was diagnosed with hypocalcemia; vitamin D3 and calcium carbonate were initiated at that time. Medical history is relevant for metastatic ovarian cancer, treated with cisplatin and paclitaxel chemotherapy.On physical examination, vital signs are normal. Tetany of the hand is noted during blood pressure assessment. Chvostek sign is positive.Laboratory studies:Albumin3.5 g/dL (35 g/L)Calcium7.6 mg/dL (1.9 mmol/L)LCreatinine1.0 mg/dL (88.4 µmol/L)Potassium4.2 mEq/L (4.2 mmol/L)Parathyroid hormone19 pg/mL (19 ng/L)The laboratory results are similar to those obtained 3 days ago.ECG shows a prolonged QTc interval.",
+  "question_stem": "Which of the following measurements is most appropriate to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Arterial blood gas",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Ionized calcium",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Parathyroid hormone–related protein",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Serum magnesium",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next test in this patient with persistent hypocalcemia is measurement of the serum magnesium level (Option D). Most patients with hypocalcemia are asymptomatic or report intermittent paresthesia of the hands and feet or perioral numbness. Patients with severe hypocalcemia may exhibit neuromuscular symptoms and signs. Carpopedal spasm with characteristic hand posture (flexion at metacarpophalangeal joints and extension at interphalangeal joints) may be spontaneous or triggered by transient distal limb ischemia during blood pressure assessment. Facial nerve hyperirritability and muscle spasm can be demonstrated by percussion of the facial nerve just anterior to the ear. Importantly, severe hypocalcemia (<7.5 mg/dL [1.9 mmol/L]) can cause laryngospasm, seizure, myocardial dysfunction, and QT interval prolongation leading to sudden cardiac death without prodromal paresthesia or muscle cramping. Hypocalcemia may be caused by various disorders (see Table: Mechanisms and Causes of Hypocalcemic Disorders). Low levels of magnesium (e.g., because of medications, alcohol use disorder, malnutrition) activate G-proteins that stimulate the calcium-sensing receptor and decrease parathyroid hormone (PTH) secretion. Functional hypoparathyroidism due to hypomagnesemia must be excluded before other causes of hypocalcemia are pursued. Hypomagnesemia significant enough to cause hypoparathyroidism is most commonly caused by medications that impair the renal handling of magnesium, including platinum-based chemotherapeutic agents. Prompt resolution of hypocalcemia following correction of hypomagnesemia confirms the diagnosis.Acute respiratory alkalosis causes transient symptomatic hypocalcemia due to a rapid increase in the fraction of intravascular calcium bound to albumin; however, in the absence of hyperventilation on examination, an arterial blood gas measurement (Option A) is not necessary in the evaluation of hypocalcemia.Approximately 40% to 45% of the calcium in serum is bound to protein, principally albumin, although the physiologically active form of calcium is in an ionized (or free) state. In most patients with relatively normal serum albumin levels, the total calcium usually accurately reflects the ionized calcium fraction. This patient's albumin level is normal, and her symptoms correspond to the measured calcium level; therefore, measurement of ionized calcium (Option B) is not needed.Hypercalcemia of malignancy is caused by tumor-produced PTH-related protein (PTHrP), which leads to extensive bone resorption. This syndrome raises serum calcium levels in a PTH-independent manner; PTHrP measurement (Option C) is not indicated in this patient with a low calcium level.",
+  "key_points": [
+    "Hypomagnesemia causes functional, reversible parathyroid hypofunction and must be excluded before a low or inappropriately normal parathyroid hormone level in the setting of hypocalcemia is attributed to hypoparathyroidism.",
+    "In patients with hypomagnesemia-induced parathyroid hypofunction, prompt resolution of hypocalcemia following correction of hypomagnesemia confirms the diagnosis."
+  ],
+  "references": "Pepe J, Colangelo L, Biamonte F, et al. Diagnosis and management of hypocalcemia. Endocrine. 2020;69:485-495. PMID: 32367335 doi:10.1007/s12020-020-02324-2",
+  "related_content": {
+    "syllabus": [
+      "ensec24008_24020"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:27:18.740329-06:00"
+}

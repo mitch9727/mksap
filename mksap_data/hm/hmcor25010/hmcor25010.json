@@ -1,0 +1,60 @@
+{
+  "question_id": "hmcor25010",
+  "category": "hm",
+  "educational_objective": "Manage heparin-induced thrombocytopenia.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 74-year-old man is evaluated in the hospital for new-onset thrombocytopenia. He was hospitalized 24 hours ago with a left hip fracture and underwent open reduction and internal fixation of the left femur. Medical history is significant for severe COPD; his last exacerbation requiring hospitalization was 3 weeks ago, during which he received heparin prophylaxis. Inpatient medications are inhaled fluticasone-umeclidinium-vilanterol, as-needed acetaminophen and oxycodone, and low-molecular-weight heparin (LMWH).On physical examination, vital signs are normal. The surgical scar on the left hip is well-approximated and oozing a scant amount of blood.Laboratory studies:Hemoglobin12 g/dL (120 g/L)LLeukocyte count10,500/μL (10.5 × 109/L)HPlatelet count65,000/μL (65 × 109/L)LAt admission155,000/μL (155 × 109/L)Estimated glomerular filtration rate>60 mL/min/1.73 m2 Peripheral blood smear is normal.LMWH is discontinued, and a test for heparin-induced antibody is ordered.",
+  "question_stem": "Which of the following is the most appropriate management at this time?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Argatroban",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Intravenous immune globulin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Platelet transfusion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Warfarin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Initiating a nonheparin anticoagulant such as argatroban (Option A) is the most appropriate choice for this patient with a high probability of type-II heparin-induced thrombocytopenia (HIT). Type II HIT is an immune-mediated thrombocytopenia occurring 5 to 10 days after exposure to heparin or more rapidly if there has been heparin exposure in the previous 100 days. It is caused by antibodies against platelet factor 4 complexed to heparin that activate platelets and cause mild thrombocytopenia and potentially life-threatening thrombosis in the venous and arterial systems. In patients with possible HIT, the 4T scoring system, which assesses the degree and timing of thrombocytopenia as well as the presence of new thrombosis, guides initial management (see Table: The 4T Scoring System). Patients with a high or moderate probability of HIT require immediate heparin discontinuation with initiation of an alternate anticoagulant (unless the patient is experiencing serious bleeding). Argatroban, bivalirudin, fondaparinux, or possibly direct oral anticoagulants (such as rivaroxaban) are options. This patient's 4T score is 6 (platelet count decrease >50% = 2 points; onset <1 day in the setting of previous heparin exposure within previous 30 days = 2 points; no other likely cause of thrombocytopenia = 2 points). This indicates a high probability of HIT, so in addition to stopping heparin, argatroban is indicated.Intravenous immune globulin (IVIG) (Option B) may be used in the treatment of severe idiopathic thrombocytopenic purpura. It is possible that IVIG may have utility in the treatment of prolonged, refractory HIT, but no current recommendations indicate using it as a first-line therapy.Platelet transfusions (Option C) are contraindicated during the acute phase of HIT because binding of transfused platelets to IgG activates them, releasing platelet factor 4 and worsening the hypercoagulable state. This patient is not experiencing life-threatening bleeding, and his current platelet count is not severely depressed, so the risk of platelet transfusion outweighs the benefit.Warfarin (Option D) will lower protein C and S levels, resulting in short-term hypercoagulability. Warfarin can be used as an alternative to heparin, but it is not immediately effective and should not be started until sufficient anticoagulation is achieved with an alternative nonheparin anticoagulant.",
+  "key_points": [
+    "In patients with suspected heparin-induced thrombocytopenia (HIT), use of the 4T score is recommended to guide clinical decisions and management.",
+    "Heparin should be discontinued in patients with suspected HIT and an intermediate or high 4T score, and HIT laboratory testing should be obtained; in most cases, a nonheparin anticoagulant should be initiated."
+  ],
+  "references": "Marini I, Uzun G, Jamal K, et al. Treatment of drug-induced immune thrombocytopenias. Haematologica. 2022;107:1264-1277. PMID: 35642486 doi:10.3324/haematol.2021.279484",
+  "related_content": {
+    "syllabus": [
+      "hmsec24006_24008"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:28:09.037982-06:00"
+}

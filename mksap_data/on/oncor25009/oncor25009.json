@@ -1,0 +1,60 @@
+{
+  "question_id": "oncor25009",
+  "category": "on",
+  "educational_objective": "Screen for osteoporosis in patients treated with androgen deprivation therapy.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 55-year-old man is evaluated after being diagnosed with high-risk prostate cancer. He is asymptomatic. Transrectal biopsy showed multiple foci of prostate cancer in both lobes with the highest Gleason score of 8.Physical examination findings, including vital signs, are normal.CT and bone scan are negative for metastatic disease.Treatment with androgen deprivation therapy plus radiation therapy has been initiated.",
+  "question_stem": "Which of the following is the most appropriate test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Dual-energy x-ray absorptiometry",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Exercise stress test",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Montreal Cognitive Assessment",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Urinalysis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate test in this patient receiving androgen deprivation therapy (ADT) is a dual-energy x-ray absorptiometry (DEXA) (Option A) to establish baseline bone density and assess for fracture risk. Patients diagnosed with high-risk nonmetastatic prostate cancer are usually treated with a combination of ADT and radiation therapy, which has been shown to improve survival. ADT results in many short- and long-term adverse effects. Short-term effects include loss of lean body mass, fatigue, gynecomastia, hair loss, decreased libido, erectile dysfunction, and vasomotor symptoms. Long-term risks include a possible increase in cardiovascular disease and cognitive dysfunction, increased risk for venous thromboembolism, and reduction in bone density. Patients with nonmetastatic cancer with one or more risk factors for osteoporotic fracture should be offered DEXA screening. Patients who are prescribed a drug that causes bone loss or whose bone mineral density is near the threshold of treatment should be screened every 2 years. For patients with osteoporosis, bisphosphonates or denosumab may be offered to reduce the risk for fracture. This patient's endocrine therapy for his prostate cancer constitutes a risk factor for osteoporosis, so DEXA should be performed now and periodically in the future, as long as he is taking ADT.Patients treated with ADT may be at risk for cardiovascular disease; however, there are no recommendations for screening with exercise electrocardiography (Option B).There is increasing but inconsistent evidence that ADT is associated with cognitive impairment and Alzheimer disease. However, there is no recommendation for routine dementia screening, such as with the Montreal Cognitive Assessment (Option C), in patients taking ATD. The U.S. Preventive Services Task Force has concluded that evidence for or against routine dementia screening in older adults is insufficient.Radiotherapy to the prostate confers a short-term risk for cystitis, but there is no indication to obtain urinalysis (Option D) in asymptomatic patients receiving prostate radiation therapy or ADT.",
+  "key_points": [
+    "Patients with nonmetastatic cancer with one or more risk factors for osteoporotic fracture should be offered dual-energy x-ray absorptiometry (DEXA) screening.",
+    "Patients with nonmetastatic cancer who are prescribed a drug that causes bone loss or whose bone mineral density is near the threshold of treatment should be screened with DEXA every 2 years."
+  ],
+  "references": "Khan MI. Management of bone loss due to endocrine therapy during cancer treatment. Osteoporos Int. 2023;34:671-680. PMID: 36656338 doi:10.1007/s00198-023-06672-3",
+  "related_content": {
+    "syllabus": [
+      "onsec24006_24005"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:31:30.489785-06:00"
+}

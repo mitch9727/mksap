@@ -1,0 +1,59 @@
+{
+  "question_id": "idcor25030",
+  "category": "id",
+  "educational_objective": "Test for latent tuberculosis using an interferon-gamma release assay in a patient with a history of bacille Calmette-Guérin vaccination.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 40-year-old man arrives for tuberculosis testing before starting a job at a correctional facility. Medical history is notable only for bacille Calmette-Guérin vaccination as a child in Singapore. He takes no medications.On physical examination, vital signs and all examination findings are normal.",
+  "question_stem": "Which of the following is the most appropriate screening test?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Chest radiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Interferon-gamma release assay",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Sputum acid-fast bacilli staining and culture",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Tuberculin skin testing",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate screening test to perform in this patient is interferon-gamma release assay (IGRA) (Option B). Mycobacterium tuberculosis infects 25% of the global population, but more than 90% of infections are latent tuberculosis infections (LTBI). Patients with LTBI are infected with potentially viable tuberculosis organisms that have been contained and rendered asymptomatic and noncontagious by the immune system. The lifetime risk of developing active tuberculosis infection in patients with LTBI is 5% to 10%; therefore, detection and eradication is important. LTBI can be diagnosed through tuberculin skin testing (TST) or serum IGRA. Patients who have had bacille Calmette-Guérin (BCG) vaccination are more likely to have a false-positive TST because of cross reactivity between the mycobacteria in the BCG vaccine and the tuberculosis antigen used in the skin test. The CDC recommends performing an IGRA rather than a TST in persons 5 years or older who have a history of BCG vaccination or in patients who are unlikely to return to have their TST result interpreted.Patients with a positive screening test for LTBI should undergo a clinical history, physical examination, and chest radiography to exclude active tuberculosis before initiation of treatment because treatment differs between LTBI and active tuberculosis infection (Option A). Chest radiograph findings in LTBI can include evidence of calcified nodules and lymph nodes consistent with old granulomatous disease. Chest radiography is not useful in LTBI screening of patients without symptoms or a positive screening test.Sputum acid-fast bacilli (AFB) stains and cultures are obtained to diagnose active tuberculosis (Option C). Three samples should be collected at least 8 hours apart to assess for highly contagious, smear-positive tuberculosis. This patient is asymptomatic, so it is unlikely he has active tuberculosis, and sputum AFB testing would not be appropriate.TST is an alternative method used to diagnose LTBI (Option D). In this test, purified protein derivative is injected intradermally, and the subsequent size of induration is measured between 48 and 72 hours later to determine infection with tuberculosis. Because this patient received BCG vaccination in the past, TST would have a higher false-positive rate, so IGRA is the recommended test.",
+  "key_points": [
+    "The CDC recommends performing an interferon-gamma release assay rather than a tuberculin skin test (TST) in persons 5 years or older who have a history of bacille Calmette-Guérin vaccination or are unlikely to return to have their TST result interpreted."
+  ],
+  "references": "Sosa LE, Njie GJ, Lobato MN, et al. Tuberculosis screening, testing, and treatment of U.S. health care personnel: recommendations from the National Tuberculosis Controllers Association and CDC, 2019. MMWR Morb Mortal Wkly Rep. 2019;68:439-443. PMID: 31099768 doi:10.15585/mmwr.mm6819a3",
+  "related_content": {
+    "syllabus": [
+      "idsec24009_24004"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:28:59.348598-06:00"
+}

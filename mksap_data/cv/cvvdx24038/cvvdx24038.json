@@ -1,0 +1,59 @@
+{
+  "category": "cv",
+  "critique": "This ECG shows Mobitz type 2 second-degree atrioventricular block (Option C), which is characterized by regularly occurring nonconducted P waves. In this ECG, two nonconducted P waves are seen after the third QRS complex on the rhythm strip. In Mobitz type 2 block, the PR intervals for conducted beats are constant. In contrast, in Mobitz type 1 second-degree atrioventricular block, the PR intervals are increasingly longer before a nonconducted or blocked P wave. The findings on this ECG do not represent complete (third-degree) heart block, as there is still intermittent conduction of the P waves to the ventricles. However, Mobitz type 2 block is nearly as significant; it typically represents infra-Hisian conduction disease, a much less benign manifestation compared with Mobitz type 1 block, which usually occurs at the nodal level. This ECG also demonstrates high-grade atrioventricular block, which is defined as the absence of conduction of more than one successive P wave.",
+  "educational_objective": "Identify Mobitz type 2 second-degree atrioventricular block on ECG.",
+  "extracted_at": "2025-12-23T14:08:40.453014-06:00",
+  "key_points": [],
+  "media": {
+    "images": [
+      "figures/cvfig24645.ce78fe95beb1d77e44d9bb60b1deaf4a.jpg"
+    ],
+    "svgs": [],
+    "tables": [],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/23/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Complete heart block"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Mobitz type 1 second-degree atrioventricular block"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Mobitz type 2 second-degree atrioventricular block"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Sick sinus syndrome"
+    }
+  ],
+  "question_id": "cvvdx24038",
+  "question_stem": "Which of the following abnormalities is seen on this patient's ECG?",
+  "question_text": "A 68-year-old man with stable chronic angina is evaluated for an irregular pulse discovered during a routine evaluation.ECG is shown.",
+  "references": "",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "cvsec24006_24006"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

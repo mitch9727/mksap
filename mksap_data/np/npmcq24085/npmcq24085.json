@@ -1,0 +1,62 @@
+{
+  "category": "np",
+  "critique": "The most appropriate pain management option for this patient with advanced chronic kidney disease (CKD) and acute, severe pain is hydromorphone (Option A). Pain management in patients with CKD should consider the pharmacology and risk profile of the proposed medication as well as the nature and severity of the patient's pain. Options for treating moderate to severe pain in patients with CKD include oxycodone, tramadol, and hydromorphone; longer-acting medications such as fentanyl, methadone, and buprenorphine can also be considered but may be more appropriate for patients with chronic pain. Of these, hydromorphone, which is primarily metabolized by the liver, is often preferred, as it is short acting and relatively well tolerated. It should be started at a low dose and titrated slowly; the lowest possible dosage that controls symptoms should be used.Ketorolac (Option B), an NSAID, is inappropriate for this patient with advanced CKD. By blocking intrarenal prostaglandin production, NSAIDs inhibit afferent arteriole vasodilation and thus may precipitate AKI due to glomerular hypoperfusion, particularly among patients with preexisting kidney dysfunction. For patients with CKD, the American Society of Nephrology recommends avoidance of NSAIDs, including cyclooxygenase-2 inhibitors, due to the risk of worsening kidney function.Morphine (Option C) is not recommended in patients with CKD because its active metabolite can quickly accumulate and may precipitate central nervous system and respiratory depression.Tramadol (Option D), an opioid analgesic, is metabolized in the liver and can be considered for the treatment of moderate pain in patients with CKD. However, there is an increased risk for serotonin syndrome in patients who are concurrently receiving certain antidepressants, including selective serotonin reuptake inhibitors, such as sertraline. This patient has severe pain and is taking sertraline, and therefore tramadol would not be the most appropriate pain management option.",
+  "educational_objective": "Treat severe pain in a patient with advanced chronic kidney disease.",
+  "extracted_at": "2025-12-22T20:07:08.941239-06:00",
+  "key_points": [
+    "Pain management in patients with chronic kidney disease (CKD) should consider pharmacology as well as the nature and severity of pain.",
+    "Options for treating moderate to severe pain in patients with CKD include oxycodone, tramadol, hydromorphone, fentanyl, methadone, and buprenorphine; of these, hydromorphone is often preferred for acute pain."
+  ],
+  "media": {
+    "images": [],
+    "svgs": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/22/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Hydromorphone"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Ketorolac"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Morphine"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Tramadol"
+    }
+  ],
+  "question_id": "npmcq24085",
+  "question_stem": "Which of the following is the most appropriate for pain management?",
+  "question_text": "A 53-year-old woman is evaluated in the emergency department for a lumbar compression fracture after a fall. She describes severe pain over the lumbar spine. She has stage G4 chronic kidney disease due to type 2 diabetes mellitus; she also has hypertension and depression. Medications are amlodipine, hydrochlorothiazide, finerenone, dapagliflozin, atorvastatin, sertraline, and acetaminophen.On physical examination, vital signs are normal. There is point tenderness on the lumbar spine.",
+  "references": "Metzger M, Abdel-Rahman EM, Boykin H, et al. A narrative review of management strategies for common symptoms in advanced CKD. Kidney Int Rep. 2021;6:894-904. PMID: 33912741 doi:10.1016/j.ekir.2021.01.038",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "npsec24011_24036"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

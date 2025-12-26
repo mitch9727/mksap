@@ -1,0 +1,62 @@
+{
+  "category": "on",
+  "critique": "The most appropriate treatment is methylprednisolone (Option D). This patient has colitis secondary to immune checkpoint inhibitor therapy. Immune checkpoint inhibitors are now widely used in cancer treatment, including for metastatic melanoma. However, immune dysregulation is a common adverse effect of checkpoint inhibitors and may manifest as colitis, pneumonitis, hepatitis, dermatitis, endocrinopathies (hypophysitis, thyroiditis, and adrenalitis), and neuritis. These toxicities require prompt recognition, consideration of temporary or permanent cessation of immunotherapy, and often glucocorticoid therapy. Endocrinopathies may also require hormone replacement. The severity and treatment of immune-mediated colitis due to checkpoint inhibitor blockade are determined by clinical symptoms. Patients with mild disease have no abdominal pain and fewer than four daily bowel movements without blood or mucus. Treatment with an oral glucocorticoid such as budesonide is sufficient in mild disease. More severe disease is associated with abdominal pain and increased frequency of bowel movements with blood or mucus in the stool. For patients with severe immune disease, intravenous methylprednisolone is indicated. This patient has severe immune-mediated colitis as evidenced by frequency of bowel movements, abdominal pain, mucus in stool, and hypovolemia. Both nivolumab and ipilimumab should be discontinued, and she should be treated with intravenous methylprednisolone.Fidaxomicin (Option A) is not indicated in this patient without Clostridioides difficile infection. Oral fidaxomicin and vancomycin are first-line therapy for both severe and non-severe initial episodes of C. difficile infection. The result of this patient's C. difficile polymerase chain reaction test was negative, making C. difficile infection unlikely, especially because another cause of diarrhea is present. Treatment with fidaxomicin is not indicated.Infliximab (Option B), a tumor necrosis factor inhibitor, is indicated for patients with immune-related colitis who do not respond to glucocorticoid treatment. Because this patient has not yet received the primary treatment of glucocorticoids, infliximab therapy should be considered only if there is no response.The 5-aminosalicylic acid derivative mesalamine (Option C) is not indicated for treating immune-related colitis. Mesalamine is effective in the treatment of inflammatory bowel disease, especially ulcerative colitis. This patient, however, has colitis secondary to checkpoint inhibitor therapy, for which mesalamine has no role in treatment.",
+  "educational_objective": "Treat immune-related colitis caused by immune checkpoint inhibitors.",
+  "extracted_at": "2025-12-22T20:27:15.559082-06:00",
+  "key_points": [
+    "A common adverse effect of treatment with immune checkpoint inhibitors is immune dysregulation, including colitis, pneumonitis, hepatitis, dermatitis, endocrinopathies (hypophysitis, thyroiditis, and adrenalitis), and neuritis.",
+    "Immune-related adverse effects caused by checkpoint inhibitors require prompt recognition, consideration of temporary or permanent cessation of immunotherapy, and often glucocorticoid therapy."
+  ],
+  "media": {
+    "images": [],
+    "svgs": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/22/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Fidaxomicin"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Infliximab"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Mesalamine"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Methylprednisolone"
+    }
+  ],
+  "question_id": "onmcq24031",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "question_text": "A 66-year-old woman is evaluated in the emergency department for a 5-day history of worsening nonbloody diarrhea with mucus. She reports having about 10 to 12 episodes a day. The patient has metastatic melanoma, for which she is currently receiving nivolumab and ipilimumab.On physical examination, temperature is 38.2 °C (100.8 °F), blood pressure is 96/60 mm Hg, pulse rate is 110/min, respiration rate is 14/min, and oxygen saturation is 96% with the patient breathing ambient air. The abdomen is diffusely tender, without rebound or guarding.Result of a polymerase chain reaction test for Clostridioides difficile is negative.CT scan shows diffuse colitis.",
+  "references": "Schneider BJ, Naidoo J, Santomasso BD, et al. Management of immune-related adverse events in patients treated with immune checkpoint inhibitor therapy: ASCO guideline update. J Clin Oncol. 2021;39:4073-26. PMID: 34724392 doi:10.1200/JCO.21.01440",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "onsec24013_24011"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

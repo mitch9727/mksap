@@ -1,0 +1,59 @@
+{
+  "category": "cv",
+  "critique": "This patient's chest radiograph shows cardiomegaly and bilateral perihilar alveolar infiltrates, consistent with a diagnosis of pulmonary edema (Option D) due to heart failure. Fluid in the minor fissure is also present and is also consistent with heart failure. Although cardiomegaly can be seen in tamponade, diffuse alveolar infiltrates are not a feature of this diagnosis. Eosinophilic pneumonia classically causes peripheral pulmonary infiltrates (the “photographic negative” of pulmonary edema), whereas lung cancer more typically causes discrete masses on imaging.",
+  "educational_objective": "Diagnose pulmonary edema on a chest radiograph.",
+  "extracted_at": "2025-12-23T14:08:40.337565-06:00",
+  "key_points": [],
+  "media": {
+    "images": [
+      "figures/cvfig24621.7949de8195af2547812b9b4d2381a280.jpg"
+    ],
+    "svgs": [],
+    "tables": [],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/23/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Cardiac tamponade"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Eosinophilic pneumonia"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Lung cancer"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Pulmonary edema"
+    }
+  ],
+  "question_id": "cvvdx24019",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "question_text": "A 70-year-old man is evaluated in the emergency department for acute dyspnea.Chest radiograph is shown.",
+  "references": "",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "cvsec24005_24005"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

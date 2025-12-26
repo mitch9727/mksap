@@ -1,0 +1,61 @@
+{
+  "category": "np",
+  "critique": "The most likely cause of this patient's urinalysis findings is her medications (Option B). Glucose is normally reabsorbed in the proximal tubules of the kidney; glucosuria is caused by an inability of the kidney to reabsorb glucose or situations in which reabsorption capacity is exceeded. Glucosuria is most commonly seen in patients with diabetes and elevated blood glucose levels. However, glucosuria can also occur in the setting of normal blood glucose levels, such as with Fanconi syndrome, pregnancy, and sodium-glucose cotransporter 2 (SGLT2) inhibitor use. SGLT2 inhibitors such as empagliflozin, dapagliflozin, and canagliflozin cause glucosuria by preventing proximal tubular reabsorption of glucose. This patient's urinalysis shows isolated glucosuria, which is most likely caused by use of empagliflozin.Chronic kidney disease (Option A) is unlikely to be the cause of this patient's urinalysis findings because chronic kidney disease does not commonly lead to isolated glucosuria.Glucosuria typically occurs when the plasma glucose level exceeds 180 mg/dL (10 mmol/L) because at this level the reabsorption capacity of the proximal tubule transporters is exceeded. This patient has prediabetes (Option C) with a hemoglobin A1c of 6.1%, which typically correlates with an average glucose level of 128 mg/dL (7.1 mmol/L), and her measured glucose level is 120 mg/dL (6.7 mmol/L). Prediabetes is unlikely to be the cause of glucosuria in this patient.In type 2 (proximal) renal tubular acidosis (RTA) (Option D), the proximal tubule is unable to adequately absorb filtered bicarbonate. It is characterized by a normal anion gap metabolic acidosis, hypokalemia, glycosuria (without hyperglycemia), low-molecular-weight proteinuria, and renal phosphate wasting. The most common causes of type 2 RTA include myeloma light chains and nephrotoxic medications such as ifosfamide, carbonic anhydrase inhibitors (acetazolamide and topiramate), and tenofovir disoproxil fumarate. This patient does not have risk factors for type 2 RTA. In addition, her bicarbonate and potassium levels are normal, and she does not have proteinuria. A type 2 RTA is unlikely in this case.",
+  "educational_objective": "Diagnose medication-induced glucosuria.",
+  "extracted_at": "2025-12-22T20:06:52.079083-06:00",
+  "key_points": [
+    "Sodium-glucose cotransporter 2 inhibitors such as empagliflozin, dapagliflozin, and canagliflozin block the reabsorption of glucose in the proximal tubule and can lead to isolated glucosuria."
+  ],
+  "media": {
+    "images": [],
+    "svgs": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/22/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Chronic kidney disease"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Medications"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Prediabetes"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Type 2 (proximal) renal tubular acidosis"
+    }
+  ],
+  "question_id": "npmcq24053",
+  "question_stem": "Which of the following is the most likely cause of this patient's urinalysis findings?",
+  "question_text": "A 47-year-old woman is evaluated during a follow-up visit for hypertension, stage G3 chronic kidney disease, prediabetes, and heart failure with preserved ejection fraction. She has no other medical problems. Medications are valsartan, hydrochlorothiazide, and empagliflozin.Physical examination findings, including vital signs, are normal.",
+  "references": "Hitzeman N, Greer D MD, MPH, Carpio E. Office-based urinalysis: a comprehensive review. Am Fam Physician. 2022;106:27-35B. PMID: 35839369",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "npsec24001_24012"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

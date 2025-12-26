@@ -1,0 +1,60 @@
+{
+  "question_id": "nrmcq24016",
+  "category": "nr",
+  "educational_objective": "Diagnose progressive multifocal leukoencephalopathy in a patient taking natalizumab.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 56-year-old woman is evaluated in the emergency department for a 2-week history of confusion and aphasia of several days' duration. Medical history is significant for relapsing-remitting multiple sclerosis. Her previous relapses presented as optic neuritis and transverse myelitis, both of which resolved. Her only medication is natalizumab, which she has been taking for 2 years.On physical examination, vital signs are within normal limits. The patient is not oriented to time or hospital name. Her speech is limited to two- or three-word phrases, and she has trouble naming basic items. Strength and gait are intact.Complete blood cell count and comprehensive metabolic panel are normal. HIV testing is negative.Compared to a brain MRI from 1 year ago, several new multifocal hyperintense demyelinating white matter lesions are seen, with the largest in the left inferior frontal lobe.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Administer high-dose glucocorticoids",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Change natalizumab to ocrelizumab",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Perform brain biopsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Perform cerebrospinal fluid testing for JC virus",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate step is cerebrospinal fluid (CSF) testing for JC (John Cunningham) virus (Option D). Natalizumab is a monoclonal antibody that is a highly effective treatment for multiple sclerosis (MS), resulting in a reduction in relapse rates of 66%, a slowing of disability progression of 40%, and a reduction in MRI activity of 90%. Despite this efficacy, natalizumab is typically limited to use as a second-line agent because of the risk for progressive multifocal leukoencephalopathy (PML), a central nervous system demyelinating infection caused by reactivation of the JC virus. The risk for PML increases with treatment duration, with the greatest increase in risk occurring after 2 years of therapy. PML presents as mental status changes, ataxia, weakness, and visual changes. This patient has a presentation concerning for PML, with evidence of demyelination on MRI. Distinguishing MS relapse from PML on the basis of clinical and radiologic findings may be difficult, and polymerase chain reaction (PCR) testing of CSF for JC virus is required to establish the diagnosis. In patients treated with natalizumab, the drug should be immediately discontinued if PML is suspected.High-dose glucocorticoids (Option A) are standard treatment for MS relapse, but at this point it is unclear whether this patient's presentation represents an MS relapse or PML. High-dose glucocorticoids also have a role in treating the immune reconstitution inflammatory syndrome that can occur after discontinuing natalizumab, but the focus at this time needs to be on establishing the cause of this patient's symptoms.A change in disease-modifying therapy (DMT) for MS should be considered if disease breakthrough or significant treatment-related adverse events occur. However, it is unclear whether this patient's presentation represents disease breakthrough or PML. The immediate focus should be on making this distinction rather than choosing a new DMT, such as ocrelizumab (Option B).Brain biopsy (Option C) is the gold-standard test for PML; however, PCR testing of CSF for JC virus has good test characteristics and is the first-line test in this clinical situation. If the CSF test is negative but suspicion for PML remains high, brain biopsy may be needed.",
+  "key_points": [
+    "The diagnosis of progressive multifocal leukoencephalopathy (PML) can be made with the presence of positive cerebrospinal fluid JC (John Cunningham) virus polymerase chain reaction results in conjunction with typical clinical and imaging findings.",
+    "In patients treated with natalizumab, the drug should be immediately discontinued if PML is suspected."
+  ],
+  "references": "Bernard-Valnet R, Koralnik IJ, Du Pasquier R. Advances in treatment of progressive multifocal leukoencephalopathy. Ann Neurol. 2021;90:865-873. PMID: 34405435 doi:10.1002/ana.26198",
+  "related_content": {
+    "syllabus": [
+      "nrsec24007_24009"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T20:16:52.744182-06:00"
+}

@@ -1,0 +1,62 @@
+{
+  "category": "np",
+  "critique": "The most appropriate treatment is to discontinue intravenous erythropoietin (Option C). Patients with dialysis-dependent end-stage kidney disease (ESKD) may develop anemia due to ongoing blood loss related to the procedure itself and due to anemia of chronic disease from ESKD. Patients receiving hemodialysis frequently require both erythropoietin and intravenous iron supplementation to avoid symptomatic anemia. However, a preponderance of evidence shows that use of erythropoietin does not provide a mortality benefit and may increase the risk for adverse cardiovascular events when used to target a normal hemoglobin and hematocrit. An FDA boxed warning for use of erythropoiesis-stimulating agents (ESAs) includes an increased risk for serious cardiovascular events when ESAs are administered to patients with chronic kidney disease who have hemoglobin levels >11 g/dL (110 g/L). This patient who is receiving intravenous erythropoietin has a hemoglobin level of 14.5 g/dL (145 g/L), which is higher than needed, putting them at increased risk for cardiovascular events. With cessation of the erythropoietin, their hemoglobin level will decrease and they can be restarted on a lower dose when their hemoglobin level reaches the target range of 10 to 11 g/dL (100-110 g/L); the goal is to balance the risk of increased cardiovascular events with the benefit of avoiding symptomatic anemia.Patients receiving maintenance hemodialysis frequently require intravenous iron supplementation such as ferric gluconate (Option A) to maintain normal iron stores. This patient does not need iron supplementation, because they have normal iron stores (120 µg/dL [22 µmol/L]) and a slightly elevated serum ferritin level (695 ng/mL [695 µg/L]) consistent with anemia of chronic disease due to ESKD.This patient receives aspirin as secondary prevention of their known coronary artery disease and shows no adverse effects. Although aspirin has been associated with gastrointestinal bleeding, there is no reason to believe that this patient is bleeding, as evidenced by their high hemoglobin level. Discontinuing aspirin (Option B) would place them at higher risk of adverse cardiovascular events and would be inappropriate.Phlebotomy (Option D) is not indicated. Cessation of the intravenous erythropoietin combined with the small amount of blood lost inherent to hemodialysis will quickly reduce their hemoglobin.",
+  "educational_objective": "Manage erythropoiesis-stimulating agents in patients with anemia and dialysis-dependent end-stage kidney disease.",
+  "extracted_at": "2025-12-22T20:07:04.587279-06:00",
+  "key_points": [
+    "Patients receiving hemodialysis frequently require both erythropoietin and intravenous iron supplementation to avoid symptomatic anemia.",
+    "Erythropoiesis-stimulating agents should be discontinued in patients with chronic kidney disease and hemoglobin levels >11 g/dL (110 g/L) due to an increased risk of serious cardiovascular events."
+  ],
+  "media": {
+    "images": [],
+    "svgs": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/22/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Administer intravenous ferric gluconate"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Discontinue aspirin"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Discontinue intravenous erythropoietin"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Start phlebotomy"
+    }
+  ],
+  "question_id": "npmcq24076",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "question_text": "A 62-year-old patient is evaluated during a follow-up visit for end-stage kidney disease due to hypertension. They have received maintenance hemodialysis for the past 2 years and remain stable. They also have coronary artery disease. Medications are intravenous erythropoietin, amlodipine, metoprolol, lisinopril, clonidine, aspirin, and isosorbide mononitrate.On physical examination, blood pressure is 138/78 mm Hg; other vital signs are normal. The remainder of the physical examination is unremarkable.",
+  "references": "Hanna RM, Streja E, Kalantar-Zadeh K. Burden of anemia in chronic kidney disease: beyond erythropoietin. Adv Ther. 2021;38:52-75. PMID: 33123967 doi:10.1007/s12325-020-01524-6",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "npsec24011_24022"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

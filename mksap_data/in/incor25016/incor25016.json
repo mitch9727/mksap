@@ -1,0 +1,60 @@
+{
+  "question_id": "incor25016",
+  "category": "in",
+  "educational_objective": "Monitor a patient taking antipsychotic medication.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 25-year-old woman is evaluated during a follow-up visit for schizophrenia. She was diagnosed 3 months ago, and olanzapine was started. Her symptoms improved, and she is currently experiencing no hallucinations or delusions. She is otherwise healthy. ECG was normal at the time of olanzapine initiation and after 1 month on her current regimen.On physical examination, vital signs are normal. BMI is 27. She has a flat affect. Speech is normal, and thoughts appear organized.Laboratory studies: Glucose, fasting84 mg/dL (4.7 mmol/L)",
+  "question_stem": "Which of the following should also be measured in this patient?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Complete blood count",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Lipid levels",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Prolactin level",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "QT interval",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient taking the atypical antipsychotic medication olanzapine should have her lipid levels measured (Option B) due to the metabolic adverse effects of this class of medications. Schizophrenia is associated with an increased risk for diabetes mellitus, cardiovascular disease, and obesity, and undertreatment of metabolic risk factors is common in this population. Metabolic effects of antipsychotic therapy also can contribute to these conditions, which significantly increase morbidity and mortality in patients with schizophrenia. The most common adverse effects of second-generation antipsychotic agents are weight gain (and sequelae of weight gain, such as hyperglycemia) and hyperlipidemia. The fasting blood glucose level should be measured upon initial medication initiation and at 3 months. Thereafter, the fasting glucose level should be checked at least annually. More frequent monitoring can be considered in patients with other risk factors for diabetes. Lipid monitoring should be performed at baseline, at 3 months, and at least every 5 years thereafter. This patient has been taking olanzapine for 3 months, so lipids should be measured at this time.Periodic complete blood count (CBC) measurement (Option A) is required for patients who take clozapine owing to its association with agranulocytosis; other antipsychotic medications are not associated with this side effect, so routine CBC monitoring is not necessary for this patient.First-generation (typical) antipsychotic agents have a higher risk for extrapyramidal symptoms (parkinsonism, akathisia), tardive dyskinesia, and hyperprolactinemia than do second-generation (atypical) antipsychotic agents. Regardless of whether the patient is treated with typical or atypical agents, in the absence of clinical indications of hyperprolactinemia, such as nipple discharge, routine monitoring of the prolactin level (Option C) is not indicated.Second-generation antipsychotic agents, including olanzapine, have been associated with a prolonged QT interval. However, the incidence of prolonged QT interval with olanzapine alone is low. In a patient with a previously normal QT interval and no new QT-prolonging medications, routinely measuring the QT interval (Option D) is not required.",
+  "key_points": [
+    "The most common adverse effects of second-generation antipsychotic agents are weight gain (and sequelae of weight gain, such as hyperglycemia) and hyperlipidemia.",
+    "Weight, blood glucose level, and lipid levels should be monitored in patients taking second-generation antipsychotic drugs."
+  ],
+  "references": "Carli M, Kolachalam S, Longoni B, et al. Atypical antipsychotics and metabolic syndrome: from molecular mechanisms to clinical differences. Pharmaceuticals (Basel). 2021;14:238. PMID: 33800403 doi:10.3390/ph14030238",
+  "related_content": {
+    "syllabus": [
+      "insec24007_24036"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:34:51.800964-06:00"
+}

@@ -1,0 +1,59 @@
+{
+  "question_id": "hmcor25031",
+  "category": "hm",
+  "educational_objective": "Manage pulmonary embolism in an older patient at risk of falling.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 78-year-old woman is hospitalized for shortness of breath and pleuritic chest pain of 5 days' duration. She has type 2 diabetes mellitus with associated peripheral neuropathy and a resultant abnormal gait; she has fallen twice in the past year, neither of which required medical evaluation. Medications are metformin, empagliflozin, atorvastatin, and gabapentin.On physical examination, blood pressure is 124/68 mm Hg, pulse rate is 88/min, and respiration rate is 18/min. Oxygen saturation is 92% breathing ambient air. The remainder of the examination is unremarkable.Laboratory studies:Creatinine0.9 mg/dL (79.6 μmol/L)B-type natriuretic peptide98 pg/mL (98 ng/L)High-sensitivity cardiac troponinNormal (<99th percentile upper reference limit)CT angiogram of the chest shows multiple segmental pulmonary emboli.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Alteplase",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Apixaban",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Aspirin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Insertion of an inferior vena cava filter",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Starting apixaban is the most appropriate management for this patient with acute venous thromboembolism (VTE) (Option B). Immediate systemic anticoagulation is indicated for most patients with acute VTE. However, anticoagulation increases the risk of bleeding, and careful consideration of each patient's bleeding risk is necessary. The increased fall risk among older patients and fear that a fall may prove to be catastrophic has resulted in underuse of anticoagulants that may otherwise provide substantial benefit. The true risk of serious bleeding related to a fall while taking an anticoagulant is unclear. Small studies have not shown an increased risk of major bleeding in patients taking oral anticoagulants who were considered at high risk for falls. Although shared decision making with acknowledgement of patient preferences and values should be promoted, anticoagulation should not be automatically withheld from patients who meet clinical criteria for such therapy, regardless of age or fall risk. This patient with VTE experienced several falls that did not result in significant trauma, and the benefit of anticoagulation likely outweighs the risks. Initiation of apixaban is an appropriate management choice.The thrombolytic agent alteplase (Option A) is indicated in patients with pulmonary embolism (PE) and shock. It can also be considered in select patients with PE who are normotensive but have markers of increased risk for complications, including elevated biomarkers (troponin and B-type natriuretic peptide) and evidence of acute right heart strain on imaging (CT angiography, echocardiography). This patient has multiple pulmonary emboli but is hemodynamically stable with normal biomarkers. She should not be treated with thrombolytic agents.Although aspirin (Option C) is an option for VTE prevention in patients following hip arthroplasty and may decrease the risk for recurrent VTE in patients following an initial course of anticoagulation, it has no role in the acute management of VTE.Insertion of an inferior vena cava (IVC) filter (Option D) is not routinely recommended for patients with VTE receiving anticoagulation but may be considered in those with an absolute contraindication to anticoagulation. IVC filters increase the risk of subsequent DVT. If an IVC filter is placed, a temporary filter should be used and removed as soon as the indication for the filter is resolved. This patient has no absolute contraindications to anticoagulation, and systemic anticoagulation should be started.",
+  "key_points": [
+    "Oral anticoagulation may be safely administered to many patients with acute venous thromboembolism who are at an increased fall risk."
+  ],
+  "references": "Zwart L, Germans T, Vogels R, et al. Frail patients who fall and their risk on major bleeding and intracranial haemorrhage. Outcomes from the fall and syncope registry. BMC Geriatr. 2023;23:422. PMID: 37430207 doi:10.1186/s12877-023-04120-9",
+  "related_content": {
+    "syllabus": [
+      "hmsec24009_24021"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:28:09.055583-06:00"
+}

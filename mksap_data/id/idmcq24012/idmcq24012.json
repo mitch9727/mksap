@@ -1,0 +1,62 @@
+{
+  "category": "id",
+  "critique": "The most appropriate next step in management is to transition from ertapenem to oral ciprofloxacin (Option C). This patient has pyelonephritis caused by extended-spectrum β-lactamase (ESBL)–producing Escherichia coli with bacteremia and is ready for conversion from intravenous antibiotic treatment to an oral agent because he has demonstrated clinical improvement. The patient's temperature is less than 38.0 °C (100.4 °F), his leukocyte count and signs and symptoms related to infection are improving, and he is clinically stable. Additionally, he has a functioning gastrointestinal tract, and a suitable oral alternative with good oral bioavailability (ciprofloxacin) is available. Carbapenems, fluoroquinolones (i.e., ciprofloxacin, levofloxacin), and trimethoprim-sulfamethoxazole are the preferred treatment options for patients with ESBL-producing organisms causing complicated urinary tract infection (UTI). If culture results demonstrate susceptibility to ciprofloxacin, levofloxacin, or trimethoprim-sulfamethoxazole, transitioning to one of these agents is preferred to minimize further exposure to a carbapenem and the risk of developing resistance.Meropenem (Option A) is a carbapenem with a spectrum of activity similar to ertapenem and also includes activity against Pseudomonas aeruginosa and Acinetobacter species. This coverage is not necessary in this patient. In addition, the patient is ready to transition to oral therapy, so a different parenteral agent would be inappropriate.Oral nitrofurantoin (Option B) is indicated in the treatment of uncomplicated lower UTI and is effective against ESBL-producing strains of E. coli. However, nitrofurantoin lacks broader tissue distribution and does not achieve adequate concentrations in the renal parenchyma; therefore, it should not be used in the treatment of complicated UTI (including bacteremia) or pyelonephritis.It is not necessary to continue ertapenem (Option D) because the patient meets criteria for conversion to oral therapy. It is important to limit exposure to carbapenems to preserve their activity and minimize the development of resistance.",
+  "educational_objective": "Manage antibiotic de-escalation in a patient improving from an infection caused by an extended-spectrum β-lactamase–producing gram-negative organism.",
+  "extracted_at": "2025-12-22T19:46:39.953442-06:00",
+  "key_points": [
+    "Carbapenems, fluoroquinolones (i.e., ciprofloxacin, levofloxacin), and trimethoprim-sulfamethoxazole are preferred treatment options for patients with extended-spectrum β-lactamase–producing organisms causing complicated urinary tract infections or pyelonephritis.",
+    "In patients who are clinically stable, and if culture results demonstrate susceptibility to ciprofloxacin, levofloxacin, or trimethoprim-sulfamethoxazole, transitioning to one of these agents is preferred to minimize further exposure to a carbapenem and the risk of developing resistance."
+  ],
+  "media": {
+    "images": [],
+    "svgs": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/22/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Change ertapenem to meropenem"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Change ertapenem to oral nitrofurantoin"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Change ertapenem to oral ciprofloxacin"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Continue ertapenem"
+    }
+  ],
+  "question_id": "idmcq24012",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "question_text": "An 87-year-old man is evaluated for bacteremia in the hospital 4 days after being admitted for pyelonephritis. Medical history is notable for benign prostatic hyperplasia and multiple episodes of extended-spectrum β-lactamase (ESBL)–producing Escherichia coli urinary tract infections. Ertapenem was initiated at admission; his only other medication is finasteride. His symptoms of chills and dysuria have resolved.On physical examination, temperature is 37.1 °C (98.8 °F) (at admission, 38.8 °C [101.8 °F]), blood pressure is 118/76 mm Hg (at admission, 100/68 mm Hg), and pulse rate is 90/min. No suprapubic or costovertebral angle tenderness is noted, and bowel sounds are normal.Urine culture and blood cultures are growing E. coli resistant to ceftriaxone and ceftazidime and sensitive to meropenem, ciprofloxacin, and nitrofurantoin.An ECG is normal, with a corrected QT interval of 410 msec.",
+  "references": "Tamma PD, Aitken SL, Bonomo RA, et al. Infectious Diseases Society of America 2022 guidance on the treatment of extended-spectrum β-lactamase producing Enterobacterales (ESBL-E), carbapenem-resistant Enterobacterales (CRE), and Pseudomonas aeruginosa with difficult-to-treat resistance (DTR-P. aeruginosa). Clin Infect Dis. 2022;75:187-212. PMID: 35439291 doi:10.1093/cid/ciac268",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "idsec24021_24002"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

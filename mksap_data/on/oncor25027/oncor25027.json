@@ -1,0 +1,60 @@
+{
+  "question_id": "oncor25027",
+  "category": "on",
+  "educational_objective": "Evaluate a patient with newly diagnosed colon cancer for metastatic disease.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 48-year-old man is evaluated following a diagnosis of colon cancer. A colonoscopy performed for iron deficiency anemia revealed a mismatch repair–proficient adenocarcinoma in the transverse colon. He is asymptomatic and otherwise has no medical problems.On physical examination, vital signs are normal, and the remainder of the examination is noncontributory.Laboratory studies:Hemoglobin9.1 g/dL (91 g/L)LA comprehensive metabolic profile and carcinoembryonic antigen measurement are within normal limits.",
+  "question_stem": "Which of the following imaging studies should be performed next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Contrast-enhanced CT of the chest, abdomen, and pelvis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "MRI of the abdomen",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Whole-body PET/CT",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No additional imaging studies",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Contrast-enhanced CT of the chest, abdomen, and pelvis (Option A) should be performed next. In patients with a new diagnosis of colon cancer, staging with the TNM cancer staging system (considering the characteristics of the primary tumor [T], regional lymph node involvement [N], and metastatic disease [M]) is the first step in treatment planning. Preoperative clinical staging begins with a history to identify localizing symptoms that may represent metastatic disease and physical examination to detect ascites, hepatomegaly, and lymphadenopathy. Laboratory evaluation includes serum carcinoembryonic antigen (CEA) measurement in addition to routine chemical and metabolic studies. An elevated CEA level indicates a worse prognosis for patients at any stage of colon cancer compared with patients with normal levels. In addition, failure of an elevated CEA level to normalize after resection suggests the continued presence of metastatic disease and need for further evaluation. Additional staging evaluation includes a full colonoscopy (if possible) and contrast-enhanced CT of the abdomen and pelvis. Contrast-enhanced CT is the most accurate and useful imaging modality for staging of patients with a new diagnosis of colon cancer. In addition to imaging the abdomen and pelvis, the chest should be imaged to rule out pulmonary metastases and to establish a baseline for surveillance. This patient requires CT of the chest, abdomen, and pelvis to complete the initial staging evaluation.MRI of the abdomen (Option B) is not the most appropriate next step in this patient with a tumor located in the transverse colon. In addition to staging CT, patients with rectal cancer require rectal MRI to assess tumor penetration and lymph node involvement. MRI, however, is not a standard component of colon cancer staging outside of the rectum unless CT is contraindicated or yields equivocal findings.The National Comprehensive Cancer Network guidelines specifically recommend against primary use of whole-body PET/CT (Option C) for either preoperative staging or for postoperative surveillance in colon cancer. Unlike in many other malignancies, PET/CT has higher than often appreciated false-positive and false-negative rates in colon cancer and has not been shown to improve on the accuracy of preoperative staging. In some instances, PET/CT may be useful for evaluating an equivocal finding on a contrast-enhanced CT.Staging before definitive surgical resection is essential to preoperative planning and postoperative care, including the need for adjuvant therapy. Therefore, in nonemergent situations, staging is completed before surgery. To forgo staging before surgery (Option D) may result in suboptimal patient care.",
+  "key_points": [
+    "Staging evaluation of newly diagnosed colon cancer includes serum carcinoembryonic antigen measurement and routine laboratory studies; full colonoscopy (if possible); and contrast-enhanced CT of the chest, abdomen, and pelvis.",
+    "PET/CT is not recommended as a primary test for either preoperative staging or postoperative surveillance in patients with colon cancer."
+  ],
+  "references": "Benson AB, Venook AP, Adam M, et al. Colon cancer, version 3.2024, NCCN clinical practice guidelines in oncology. J Natl Compr Canc Netw. 2024;22. PMID: 38862008 doi:10.6004/jnccn.2024.0029",
+  "related_content": {
+    "syllabus": [
+      "onsec24003_24002"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:31:30.525894-06:00"
+}

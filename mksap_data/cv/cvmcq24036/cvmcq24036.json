@@ -1,0 +1,60 @@
+{
+  "question_id": "cvmcq24036",
+  "category": "cv",
+  "educational_objective": "Manage an adult patient with late complications of congenital heart disease.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 34-year-old patient is evaluated to establish care. The patient reports gradually worsening dyspnea over the past 3 years. At age 5 years, they underwent valvuloplasty of the pulmonary valve and repair of a ventricular septal defect. At age 22 years, the pulmonary valve was replaced with a bioprosthesis. The patient was not adherent to subsequent planned follow-up. They take no medications.On physical examination, vital signs are normal. Estimated central venous pressure is 14 cm H2O. Cardiac examination reveals a palpable parasternal thrill and a grade 4/6 late-peaking crescendo-decrescendo systolic murmur obscuring S2 heard best at the upper left sternal border.Comprehensive metabolic panel and complete blood count are normal.ECG reveals normal sinus rhythm, right bundle branch block, and right ventricular (RV) hypertrophy. Chest radiograph shows clear lung fields. Transthoracic echocardiogram reveals normal left ventricular systolic function, RV hypertrophy, and mild tricuspid regurgitation with estimated RV systolic pressure of 80 mm Hg; the pulmonary valve could not be adequately visualized.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cardiac magnetic resonance imaging",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Referral to an adult congenital heart disease specialist",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Referral to a pulmonologist",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Repeat echocardiography in 6 months",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient should be referred to an adult congenital heart disease specialist (Option B). Patients with congenital heart defects, even if repaired in childhood, require lifelong care by a congenital cardiology specialist. These patients remain at risk for late complications related to their native anatomy, surgical repair(s), residual defects, and presence of other comorbid conditions. Despite the potential late complications, a common misperception is that patients have been cured by childhood surgery, leading to gaps in care and subsequent potentially preventable adverse outcomes. This patient has been out of care for 12 years and presents with changes in exercise tolerance with examination findings consistent with severe pulmonary stenosis (PS). An adult congenital heart specialist can obtain the appropriate imaging to confirm the diagnosis and determine treatment options, including possible surgical or transcatheter pulmonary valve replacement.Cardiac magnetic resonance (CMR) imaging (Option A) is not the best management option. CMR imaging is commonly used to evaluate myocardial disease, pericardial disease, and some forms of valvular heart disease. It may be useful in patients with congenital heart disease, but the decision to perform CMR imaging should be made in conjunction with an expert in congenital heart disease.Referral to a pulmonologist for treatment of pulmonary hypertension (Option C) is not the best option. Although the echocardiogram report notes pulmonary hypertension, this determination can be made only after subtracting the pulmonary gradient from the right ventricular (RV) systolic pressure. The elevated RV systolic pressure in this case is probably the result of severe PS and not pulmonary hypertension. Furthermore, initiation of pulmonary vasodilators in this situation may cause harm.Follow-up of residual congenital heart lesions with echocardiography is often appropriate. However, this patient has exercise intolerance and examination findings consistent with severe PS with RV decompensation. These findings indicate the need for intervention, and waiting 6 months to repeat the echocardiogram (Option D) would result in an inappropriate delay in treatment.",
+  "key_points": [
+    "Patients with congenital heart defects, even if repaired in childhood, require lifelong monitoring and care.",
+    "The development of late complications in an adult with congenital heart disease should be managed in conjunction with a congenital cardiologist."
+  ],
+  "references": "Baumgartner H, De Backer J, Babu-Narayan SV, et al; ESC Scientific Document Group. 2020 ESC guidelines for the management of adult congenital heart disease. Eur Heart J. 2021;42:563-645. PMID: 32860028 doi:10.1093/eurheartj/ehaa554",
+  "related_content": {
+    "syllabus": [
+      "cvsec24010_24019"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T22:48:48.596390-06:00"
+}

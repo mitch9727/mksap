@@ -1,0 +1,59 @@
+{
+  "question_id": "oncor25031",
+  "category": "on",
+  "educational_objective": "Treat hypercalcemia of malignancy.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 58-year-old woman is evaluated in the emergency department for several days of progressive confusion and lethargy accompanied by nausea and vomiting. She has lost 9.1 kg (20 lb) over the past 2 months. Her medical history is otherwise unremarkable, and she takes no medications.On physical examination, blood pressure is 105/60 mm Hg and pulse rate is 112/min; other vital signs are normal. She is somnolent but can be roused. Mucous membranes are dry, and she has decreased skin turgor. Cardiac and pulmonary examinations are notable only for tachycardia.Laboratory studies:Albumin3.2 g/dL (32 g/L)LCalcium15.1 mg/dL (3.8 mmol/L)HCreatinine3.2 mg/dL (283 μmol/L)H",
+  "question_stem": "Which of the following is the most appropriate immediate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Denosumab",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Intravenous isotonic saline and calcitonin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Intravenous isotonic saline and furosemide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Zoledronic acid",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has severe hypercalcemia, almost certainly due to malignancy, and should be treated urgently with aggressive volume repletion using intravenous isotonic saline along with calcitonin (Option B). Hypercalcemia of malignancy occurs in 20% to 30% of patients with advanced cancer. It is most frequent in patients with myeloma or cancer of the lung, breast, kidney, or head and neck. Most patients are asymptomatic. However, serum calcium levels higher than 14 mg/dL (3.5 mmol/L) or a rapid rate of rise can result in nausea, constipation, fatigue, polyuria, polydipsia, altered mental status, muscle weakness, volume depletion, and acute kidney injury. Patients with severe or symptomatic hypercalcemia should receive rapid volume expansion with isotonic saline to increase renal perfusion and urine calcium excretion. Calcitonin increases renal excretion of calcium and decreases bone resorption, and it can rapidly reduce calcium levels, usually within a few hours. It should be given as part of initial management of severe and/or symptomatic hypercalcemia. Tachyphylaxis to calcitonin often appears after 24 to 48 hours, and calcitonin is usually discontinued after this time. This patient with severe symptomatic hypercalcemia and an elevated creatinine level should receive vigorous isotonic saline for volume expansion along with calcitonin.Denosumab (Option A), a receptor activator of nuclear factor kappa B ligand inhibitor, is effective in reducing serum calcium levels secondary to malignancy; however, its effect is slower than isotonic saline and calcitonin, and it would not be the first treatment used in this situation. It has typically been reserved for patients who do not respond to bisphosphonate therapy because it is substantially more expensive than bisphosphonates and has similar efficacy; however, some expert guidelines now recommend it over bisphosphonates for hypercalcemia of malignancy. Denosumab can also be used when bisphosphonates are contraindicated, such as in patients with persistent kidney failure. Patients receiving denosumab should be monitored for subsequent development of hypocalcemia.Furosemide (Option C), a loop diuretic, is not recommended in the treatment of symptomatic hypercalcemia of malignancy unless concomitant volume overload is present.Bisphosphonates, such as zoledronic acid (Option D), are effective medications for correcting hypercalcemia of malignancy and are frequently used as a key part of management. However, their maximum effect occurs in 2 to 4 days; therefore, they would not be an appropriate first intervention for this patient with severe symptomatic hypercalcemia and an elevated creatinine level.",
+  "key_points": [
+    "Patients with severe or symptomatic hypercalcemia should receive rapid volume expansion with intravenous isotonic saline to enhance renal perfusion and promote urinary calcium excretion."
+  ],
+  "references": "El-Hajj Fuleihan G, Clines GA, Hu MI, et al. Treatment of hypercalcemia of malignancy in adults: an Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2023;108:507-528. PMID: 36545746 doi:10.1210/clinem/dgac621",
+  "related_content": {
+    "syllabus": [
+      "onsec24012_24010"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:31:30.530954-06:00"
+}

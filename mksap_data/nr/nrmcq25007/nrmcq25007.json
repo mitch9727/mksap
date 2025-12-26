@@ -1,0 +1,60 @@
+{
+  "question_id": "nrmcq25007",
+  "category": "nr",
+  "educational_objective": "Manage immunizations in a patient with multiple sclerosis.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 26-year-old man is evaluated after recently starting his medical residency. Medical history is significant for multiple sclerosis. Symptoms are mostly controlled except for occasional fatigue and mild residual weakness and numbness in his legs that sometimes worsen with exercise. His only medication is ocrelizumab. He reports that he had all of his childhood vaccines as well as the recombinant zoster vaccine earlier this year.On physical examination, vital signs are within normal limits. Sensation in his legs is slightly diminished bilaterally.Measles titer is low. Antibodies to hepatitis B surface antigen are present.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Inactivated influenza and measles, mumps, and rubella (MMR) vaccines",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Inactivated influenza vaccine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "MMR vaccine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No immunizations",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient should receive the inactivated influenza vaccine (Option B). Measures to prevent infection are necessary for patients receiving specific immunosuppressive and immunomodulating multiple sclerosis (MS) treatments, especially given the increased risk for MS relapse during a systemic infection and the immunosuppressive effects of therapy. In its 2019 MS treatment guidelines, the American Academy of Neurology recommends maintaining standard immunizations, annual vaccination against influenza (with inactivated vaccine), and complete COVID-19 immunization, with additional boosters as necessary based on the specific MS treatment. However, live virus vaccines, including those for measles, mumps, and rubella (MMR); varicella (chickenpox); and yellow fever, are contraindicated in patients taking anti-CD20 immunosuppressive therapy, including ocrelizumab, rituximab, and ofatumumab. Unlike the live varicella vaccine, a recombinant zoster vaccine is recommended for patients younger than 50 years who are taking anti-CD20 immunosuppressive therapy. A study of the effects of ocrelizumab on immune response in B-cell–depleted patients with MS (the VELOCE study) showed that recipients mounted an attenuated, but potentially protective, humoral response, making annual influenza vaccination a reasonable recommendation. This patient should receive an inactivated influenza vaccine.The MMR vaccine (Options A, C), which is a live vaccine, is contraindicated in patients taking anti-CD20 immunosuppressive therapy, such as ocrelizumab. Although this patient has a low measles titer, the risks of the live virus vaccine outweigh the potential benefits. Patients taking anti-CD20 immunosuppressive therapy may receive inactivated and recombinant vaccines, such as the inactivated influenza vaccine, but not live vaccines.It is important to continue regular immunizations, such as the inactivated influenza vaccine, in patients with MS; administering no immunizations (Option D) would be incorrect. Hepatitis B virus vaccination, for example, is a standard immunization for health care workers without serologic evidence of previous immunity. Hepatitis B vaccines are recombinant, adjuvanted vaccines that are safe for patients taking immunosuppressive medications. However, the hepatitis B booster is unnecessary in this patient with antibodies to hepatitis B surface antigen.",
+  "key_points": [
+    "Multiple sclerosis treatment guidelines recommend maintaining standard immunizations, annual vaccination against influenza (with inactivated vaccine), and complete COVID-19 immunization, with additional boosters as necessary based on the specific multiple sclerosis treatment.",
+    "Live virus vaccines, including the measles, mumps, and rubella; varicella (chickenpox); and yellow fever vaccines, are contraindicated in patients taking anti-CD20 immunosuppressive medications, including rituximab, ocrelizumab, and ofatumumab."
+  ],
+  "references": "Farez MF, Correale J, Armstrong MJ, et al. Practice guideline update summary: vaccine-preventable infections and immunization in multiple sclerosis: report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology. Neurology. 2019;93:584-594. PMID: 31462584 doi:10.1212/WNL.0000000000008157",
+  "related_content": {
+    "syllabus": [
+      "nrsec24007_24007"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T20:17:28.143151-06:00"
+}

@@ -1,0 +1,59 @@
+{
+  "question_id": "idmcq24106",
+  "category": "id",
+  "educational_objective": "Diagnose coccidioidomycosis.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 41-year-old woman is evaluated for a 3-week history of fever, dyspnea on exertion, and dry cough. These symptoms have persisted despite an initial empiric course of amoxicillin; additionally, levofloxacin was initiated 4 days ago without improvement. She works as a landscaper, and she relocated to Arizona from the Midwest approximately 3 months ago.On physical examination, temperature is 38.8 °C (101.8 °F), pulse rate is 113/min, and respiration rate is 17/min. On lung examination, crackles are heard in the left upper chest.Blood and sputum cultures are negative.Chest radiograph demonstrates an infiltrate in the left upper lobe and hilar lymphadenopathy.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Coccidioides serology",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Legionella sputum culture",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Pneumococcal urinary antigen",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pneumocystis polymerase chain reaction on respiratory sample",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate diagnostic test to perform next is Coccidioides serology (Option A). Coccidioides is a dimorphic fungus endemic to desert regions of the Western United States. Infection is usually acquired by inhalation of aerosolized arthroconidia; the fungus then transitions to the yeast form in the body. Most infections have minimal or no associated symptoms. The most common clinical presentation is pneumonia with symptoms of cough, fever, and chest pain, and is often difficult to distinguish from bacterial community-acquired pneumonia. Serologic testing for Coccidioides antibodies is recommended for initial evaluation; however, patients with early infection may have false-negative results, so serologic testing may need to be repeated if clinical suspicion is high. This patient most likely has coccidioidomycosis based on her geographic and occupational history (she recently relocated to Arizona and works in landscaping) and nonresponse to antibiotic treatment of community-acquired pneumonia; the next step in her evaluation should be Coccidioides serology.Pneumonia caused by Legionella is less likely because the patient has already received antibiotics with presumed coverage against Legionella (levofloxacin). In addition, Legionella is difficult to grow in culture; the preferred diagnostic tests are polymerase chain reaction (PCR) for Legionella on a respiratory specimen or a Legionella urinary antigen test. Thus, sputum culture for Legionella (Option B) is not necessary.Pneumonia caused by Streptococcus pneumoniae is unlikely based on the patient's clinical history (dry cough and subacute illness atypical for this infection). Moreover, the patient has already received empiric antibiotics active against Pneumococcus without any improvement. Pneumococcal urinary antigen (Option C) is therefore unlikely to be diagnostic.Pneumocystis pneumonia is unlikely because the patient is not immunocompromised, and her radiograph shows focal infiltrates rather than the bilateral patchy opacities associated with Pneumocystis infection. In addition, Pneumocystis species are known to colonize the respiratory tract of healthy individuals, and results of PCR testing may be positive in the absence of true infection. Therefore, PCR for Pneumocystis on a respiratory sample (Option D) is not recommended.",
+  "key_points": [
+    "When coccidioidomycosis is suspected, serologic testing for Coccidioides antibodies is recommended for initial evaluation; results can be negative in early illness, requiring subsequent retesting."
+  ],
+  "references": "Williams SL, Chiller T. Update on the epidemiology, diagnosis, and treatment of coccidioidomycosis. J Fungi (Basel). 2022;8. PMID: 35887423 doi:10.3390/jof8070666",
+  "related_content": {
+    "syllabus": [
+      "idsec24011_24005"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-23T15:17:18.210323-06:00"
+}

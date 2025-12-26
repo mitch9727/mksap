@@ -1,0 +1,60 @@
+{
+  "question_id": "onmcq24032",
+  "category": "on",
+  "educational_objective": "Manage immune-related pneumonitis from immune checkpoint inhibitors.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 66-year-old woman is evaluated in the emergency department for a 2-week history of new-onset and progressive shortness of breath. She has metastatic renal cell carcinoma that is treated with nivolumab; her last treatment was 1 week ago. Her medical history is otherwise unremarkable. She is a nonsmoker.On physical examination, temperature is 38.2 °C (100.8 °F), blood pressure is 120/70 mm Hg, pulse rate is 110/min, and respiration rate is 22/min. Oxygen saturation is 88% with the patient breathing ambient air and improves to 92% when she receives oxygen, 4 L/min by nasal cannula. Pulmonary examination reveals bilateral diffuse rhonchi.Laboratory study results, including complete blood count, are within normal limits. COVID-19 and influenza test results are negative.Chest CT scan shows bilateral diffuse ground-glass opacities.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bronchoscopy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Ceftriaxone and azithromycin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Intravenous methylprednisolone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "PET/CT",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This most appropriate management is starting methylprednisolone (Option C) for immune pneumonitis caused by checkpoint inhibitor therapy. Nivolumab is an immune checkpoint inhibitor that functions by binding to the PD-1 receptor, which usually serves to inhibit the cellular immune response. By blocking inhibition of the immune response, nivolumab can cause immune-related toxicities, including pneumonitis, colitis, hepatitis, dermatitis, endocrinopathies, and neuritis. Management of these immune-related toxicities includes discontinuation of the checkpoint inhibitors, glucocorticoids, and hormone replacement if an endocrinopathy is present. Patients with immune-related pneumonitis usually present with cough and shortness of breath within several months of starting a checkpoint inhibitor. Chest imaging, usually with CT, is necessary, especially to assess for other causes of symptoms; the radiographic appearance of immune-related pneumonitis is variable. Glucocorticoids should be initiated in most patients, with intravenous methylprednisolone for severe disease. For patients whose symptoms are not severe, a rechallenge with checkpoint blockade therapy can be attempted once symptoms resolve. However, treatment with immune checkpoint blockade should be permanently discontinued in those with more severe disease. This patient is hypoxic and tachypneic and requires supplemental oxygen. She has severe immune-mediated pneumonitis, and intravenous methylprednisolone should be started.Bronchoscopy (Option A) would not be an appropriate initial management of pneumonitis due to immune checkpoint inhibitors. Bronchoscopy with biopsy and sampling may be indicated if pulmonary symptoms do not improve with glucocorticoid therapy in order to rule out other causes.Ceftriaxone and azithromycin (Option B) are not indicated. Treatment with antibiotics in patients with immune-mediated pneumonitis may be required if concomitant infection is suspected. This patient's presentation, including CT findings, is most consistent with immune-mediated pneumonitis, and antibiotics are not necessary.PET/CT (Option D) would not be an appropriate choice for this patient. PET/CT can be useful for assessing metastatic disease and response to therapy for many malignancies. However, it is not recommended for diagnosing or staging renal cell carcinoma. Additionally, PET/CT has no role in diagnosing or managing immune-mediated pneumonitis.",
+  "key_points": [
+    "Immune checkpoint inhibitors can cause immune-related toxicities, including pneumonitis, colitis, hepatitis, dermatitis, endocrinopathies, and neuritis, which require prompt recognition, cessation of immunotherapy (either temporary or permanent), and often glucocorticoid therapy.",
+    "In mild immune-related checkpoint inhibitor toxicity, rechallenge with checkpoint blockade therapy can be attempted once symptoms resolve, but severe disease requires permanently discontinuing checkpoint inhibitors."
+  ],
+  "references": "Schneider BJ, Naidoo J, Santomasso BD, et al. Management of immune-related adverse events in patients treated with immune checkpoint inhibitor therapy: ASCO guideline update. J Clin Oncol. 2021;39:4073-26. PMID: 34724392 doi:10.1200/JCO.21.01440",
+  "related_content": {
+    "syllabus": [
+      "onsec24013_24011"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T20:27:16.102287-06:00"
+}

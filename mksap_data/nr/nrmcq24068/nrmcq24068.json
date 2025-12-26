@@ -1,0 +1,60 @@
+{
+  "question_id": "nrmcq24068",
+  "category": "nr",
+  "educational_objective": "Treat transient ischemic attack with dual antiplatelet therapy.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 64-year-old woman is evaluated in the emergency department for a 15-minute episode of left-sided weakness that occurred 4 hours ago. She had no other symptoms, and her weakness resolved spontaneously. Medical history is significant for dyslipidemia and type 2 diabetes mellitus. Medications are atorvastatin and semaglutide.On physical examination, blood pressure is 157/80 mm Hg, and pulse rate is 72/min. Results of a neurologic examination are normal.CT scan of the head, carotid duplex ultrasound, and ECG are normal.",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Aspirin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Aspirin and clopidogrel",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Aspirin and rivaroxaban",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Clopidogrel",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Dual antiplatelet therapy with aspirin and clopidogrel (Option B) is indicated in this patient with a high-risk transient ischemic attack (TIA) within 72 hours of symptom onset. Antiplatelet therapy is crucial in the secondary prevention of recurrent stroke in patients with TIA and stroke. Two clinical trials in patients with high-risk TIA or minor stroke (generally, an ABCD2 score ≥4, National Institutes of Health Stroke Scale [NIHSS] score ≤5, or evidence of large artery atherosclerosis) have established the superiority of dual antiplatelet agents for risk reduction compared with a single antiplatelet agent. The CHANCE trial compared clopidogrel monotherapy for 90 days to clopidogrel and aspirin for 21 days followed by clopidogrel monotherapy until day 90. The POINT clinical trial compared aspirin monotherapy for 90 days with aspirin and clopidogrel for 90 days. Both trials showed a reduced risk for recurrent stroke, TIA, or myocardial infarction with aspirin and clopidogrel. The optimal duration of dual antiplatelet therapy is less established. Guidelines indicate that treatment for between 21 and 90 days is reasonable in most patients, with dual therapy for up to 90 days mostly reserved for patients with intracranial atherosclerotic disease. This patient has had a high-risk TIA (ABCD2 score of 6), and she is at high risk for recurrent stroke or TIA over the next 90 days. She should receive dual antiplatelet therapy.Aspirin monotherapy (Option A) effectively reduces the risk for stroke when administered within 48 hours after an ischemic stroke. However, aspirin monotherapy is inferior to the combination of aspirin and clopidogrel in high-risk TIA and minor stroke; dual antiplatelet therapy is indicated for secondary prevention in this patient.Aspirin combined with rivaroxaban (Option C) was studied in the COMPASS trial for cardiovascular disease prevention, but the trial did not enroll patients with a high-risk TIA or minor stroke. Data has not established whether aspirin and rivaroxaban would be appropriate for this patient.Clopidogrel monotherapy (Option D) is not the preferred treatment option. The CHANCE trial demonstrated clopidogrel monotherapy was inferior to dual antiplatelet therapy in patients with a TIA or minor stroke. This patient should receive aspirin and clopidogrel.",
+  "key_points": [
+    "Dual antiplatelet therapy with aspirin and clopidogrel has been shown to be effective at reducing the risk for recurrent stroke, transient ischemic attack (TIA), or myocardial infarction in patients with a high-risk TIA or minor stroke.",
+    "In patients with a minor stroke or high-risk TIA, dual antiplatelet therapy is recommended for up to 90 days in patients with intracranial atherosclerotic disease and between 21 and 90 days in other patients."
+  ],
+  "references": "Kleindorfer DO, Towfighi A, Chaturvedi S, et al. 2021 Guideline for the prevention of stroke in patients with stroke and transient ischemic attack: a guideline from the American Heart Association/American Stroke Association. Stroke. 2021;52:e364-e467. PMID: 34024117 doi:10.1161/STR.0000000000000375",
+  "related_content": {
+    "syllabus": [
+      "nrsec24004_24013"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T20:17:19.980899-06:00"
+}

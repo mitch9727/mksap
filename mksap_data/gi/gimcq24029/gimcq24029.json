@@ -1,0 +1,64 @@
+{
+  "question_id": "gimcq24029",
+  "category": "gi",
+  "educational_objective": "Screen for pancreatic cancer in a patient at increased risk.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 54-year-old woman is evaluated during a routine visit. She is asymptomatic. Her sister was diagnosed with pancreatic cancer at age 60 years. Her father died of pancreatic cancer at age 67 years.On physical examination, vital signs and other findings are normal.",
+  "question_stem": "Which of the following is the most appropriate screening test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Abdominal CT",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "CA 19-9 measurment",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Endoscopic ultrasonography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Transabdominal ultrasonography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "No testing is indicated",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate screening test to perform next is endoscopic ultrasonography (Option C). Clinicians should not screen persons at average risk for pancreatic cancer; however, pancreatic cancer surveillance is recommended for select high-risk patients. Patients with pathogenic germline variants in BRCA1, BRCA2, ATM, or PALB2 or those with Lynch syndrome and a family history of pancreatic cancer are candidates at age 50 years (or 5-10 years earlier than earliest pancreatic cancer diagnosis in the family). Surveillance is also recommended in those with a strong family history of pancreatic cancer or in persons with familial atypical multiple-mole melanoma, Peutz-Jeghers syndrome, or hereditary pancreatitis. Typically, endoscopic ultrasonography alternating annually with MRI with magnetic resonance cholangiopancreatography (MRCP) is recommended. Some studies have suggested that MRCP may have improved sensitivity for cystic lesions in the pancreas, whereas endoscopic ultrasonography may have improved test characteristics for detecting solid lesions. MRCP is noninvasive and does not require radiation exposure, but it may be limited by patient tolerance. Endoscopic ultrasonography is an invasive procedure that usually requires anesthesia but provides the opportunity to sample tissue during the examination if abnormalities are present. MRCP or endoscopic ultrasonography may be offered to high-risk patients after consideration of local availability and expertise. This patient's family meets the criteria for familial pancreatic cancer, which is typically defined as persons with at least two affected first-degree relatives, and she should be offered pancreatic cancer surveillance testing.Abdominal CT (Option A) may be used in pancreatic cancer evaluation, including liver and abdominal vasculature visualization for disease stage assessment and surgical resection feasibility. However, abdominal CT does not provide adequate resolution of the pancreas and is not recommended for routine screening. Furthermore, CT increases patient radiation exposure, which should be minimized in patients at increased risk for malignancy, such as this patient.Measurement of CA 19-9 (Option B) is not typically recommended for high-risk pancreatic cancer screening. CA 19-9 levels can be elevated in patients without pancreatic cancer and can even be normal in some patients with pancreatic cancer. Because the test is neither sensitive nor specific for early pancreatic cancer detection, it is not recommended for this patient.Transabdominal ultrasonography (Option D) is often used in acute pancreatitis to evaluate for biliary disease. However, transabdominal ultrasonography often cannot visualize the entire pancreas because of overlying bowel gas. It is not a recommended modality for pancreatic cancer screening.Performing no testing (Option E) would be inappropriate given this patient's family history of pancreatic cancer in two first-degree relatives.",
+  "key_points": [
+    "Clinicians should not screen persons at average risk for pancreatic cancer; however, surveillance is recommended for select high-risk patients (e.g., those with a family history of pancreatic cancer in at least two first-degree relatives), preferably in a high-volume center."
+  ],
+  "references": "Goggins M, Overbeek KA, Brand R, et al; International Cancer of the Pancreas Screening (CAPS) consortium. Management of patients with increased risk for familial pancreatic cancer: updated recommendations from the International Cancer of the Pancreas Screening (CAPS) Consortium. Gut. 2020;69:7-17. PMID: 31672839 doi:10.1136/gutjnl-2019-319352",
+  "related_content": {
+    "syllabus": [
+      "gisec24003_24013"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-23T14:14:30.922892-06:00"
+}

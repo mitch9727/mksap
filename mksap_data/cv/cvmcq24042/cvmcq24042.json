@@ -1,0 +1,60 @@
+{
+  "question_id": "cvmcq24042",
+  "category": "cv",
+  "educational_objective": "Prevent long-term cardiac injury in a patient receiving trastuzumab treatment.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 52-year-old woman is evaluated for follow-up of breast cancer. After neoadjuvant chemotherapy with concomitant trastuzumab and pertuzumab, she underwent a right mastectomy and postoperative irradiation therapy for HER2-positive breast cancer. She has been receiving adjuvant therapy with trastuzumab for 3 months. She remains physically active, playing tennis weekly. She takes no other medications.On physical examination, vital signs are normal. The surgical site has healed. Pulmonary and cardiac examinations are normal. There is no edema.Results of routine laboratory testing are normal.ECG shows normal sinus rhythm. Cardiac echocardiography shows an ejection fraction of 40%. The ejection fraction on a previous postoperative echocardiogram was 58%.Guideline-directed medical therapy for heart failure is initiated.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Discontinue trastuzumab permanently",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hold trastuzumab and reassess",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Perform cardiac catheterization",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Repeat echocardiography in 3 months",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step is to hold trastuzumab and reassess (Option B). Reversible cardiac injury is commonly associated with targeted molecular therapies, including trastuzumab. Trastuzumab toxicity causes left ventricular (LV) systolic dysfunction, with symptoms of heart failure in 3% to 7% of patients. It is more common in patients older than 50 years and those with concomitant anthracycline use. The frequency of echocardiographic surveillance in patients receiving trastuzumab who are at high risk for cardiac dysfunction is based on clinical judgment. When LV dysfunction is found, trastuzumab is discontinued temporarily if the LV ejection fraction (LVEF) drops by more than 15% or drops 10% to below 50%. Patients whose LV function normalizes after trastuzumab discontinuation, however, may resume trastuzumab therapy. Retrospective data show that patients whose LVEF remains greater than 50% may continue treatment without long-term cardiac effects. This patient has had a drop in LVEF by 18% and to below 50%. Trastuzumab should be discontinued, and follow-up echocardiography should be performed after the drug has been withdrawn.Discontinuing trastuzumab permanently (Option A) may not be necessary. Patients who have a decrease in LVEF of more than 15% on echocardiographic surveillance may not have to stop trastuzumab treatment permanently. The decrease in LV function is usually temporary and reversible, and reinitiation of trastuzumab may be possible in the future.Cardiac catheterization (Option C) is not needed to monitor for trastuzumab cardiac toxicity. Transthoracic echocardiography is usually adequate as both the initial screening test and a means of assessing potential recovery in function.The significant decline in this patient's LVEF suggests trastuzumab cardiotoxicity. Although the injury may be reversible, it would be inappropriate to continue trastuzumab, even with more frequent monitoring (Option D).",
+  "key_points": [
+    "Patients receiving trastuzumab should be routinely monitored with transthoracic echocardiography to detect early asymptomatic signs of potentially reversible cardiac toxicity.",
+    "Trastuzumab is stopped temporarily if the left ventricular ejection fraction drops by more than 15% or drops 10% to 15% and below 50%."
+  ],
+  "references": "Plana JC, Galderisi M, Barac A, et al. Expert consensus for multimodality imaging evaluation of adult patients during and after cancer therapy: a report from the American Society of Echocardiography and the European Association of Cardiovascular Imaging. J Am Soc Echocardiogr. 2014;27:911-39. PMID: 25172399 doi:10.1016/j.echo.2014.07.012",
+  "related_content": {
+    "syllabus": [
+      "cvsec24013_24002"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T22:48:51.866027-06:00"
+}

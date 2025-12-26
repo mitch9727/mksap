@@ -1,0 +1,59 @@
+{
+  "question_id": "encor25025",
+  "category": "en",
+  "educational_objective": "Treat type 2 diabetes mellitus in a patient with heart failure.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 50-year-old woman is evaluated in the hospital for newly diagnosed type 2 diabetes mellitus following admission for heart failure with reduced ejection fraction and hypertension. She had not sought medical evaluation in many years. Medications initiated in the hospital are furosemide, losartan, carvedilol, spironolactone, and atorvastatin.On physical examination, vital signs are normal. She has 1+ bilateral lower extremity edema.Laboratory studies:Creatinine0.9 mg/dL (79.6 μmol/L)Hemoglobin A1c7.4%H",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Dapagliflozin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Glipizide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Pioglitazone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Saxagliptin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment for this patient is dapagliflozin (Option A), a sodium-glucose cotransporter 2 (SGLT2) inhibitor that is approved for patients with heart failure to reduce the risk for cardiovascular death, progressive heart failure, and heart failure hospitalizations. Several trials have demonstrated significant benefits of SGLT2 inhibitors on both atherosclerotic cardiovascular disease (ASCVD) and diabetic kidney disease (DKD) outcomes, with reductions in major adverse cardiovascular events, hospitalizations for heart failure, and progression of end-stage kidney disease. Given this patient's heart failure and type 2 diabetes mellitus, dapagliflozin is the best treatment option. Notably, even if this patient's hemoglobin A1c level were less than 7% or she did not have type 2 diabetes, an SGLT2 inhibitor would still be indicated because of her heart failure.The American Diabetes Association recommends considering comorbid conditions when making treatment decisions for patients with type 2 diabetes. Glipizide (Option B), a sulfonylurea, is not associated with heart failure benefits. An SGLT2 inhibitor is a more appropriate treatment for this patient because of its associated benefits. Additionally, sulfonylureas pose a higher risk for hypoglycemia compared with other agents and cause weight gain, potentially contributing to further insulin resistance.Thiazolidinediones, such as pioglitazone (Option C), may reduce the risk for stroke or myocardial infarction in persons with a history of stroke. However, thiazolidinediones are associated with an increased risk for heart failure; therefore, they should not be used in patients with a history of heart failure or evidence of fluid overload, such as this patient.Dipeptidyl peptidase-4 (DPP-4) inhibitors do not have associated cardiovascular benefits. Saxagliptin (Option D), in particular, should not be used in patients with heart failure because of its potential to exacerbate myocardial dysfunction.",
+  "key_points": [
+    "In patients with type 2 diabetes mellitus and heart failure, a sodium-glucose cotransporter 2 inhibitor is recommended to reduce the risk for progressive heart failure, heart failure hospitalizations, and cardiovascular death."
+  ],
+  "references": "McMurray JJV, Solomon SD, Inzucchi SE, et al; DAPA-HF Trial Committees and Investigators. Dapagliflozin in patients with heart failure and reduced ejection fraction. N Engl J Med. 2019;381:1995-2008. PMID: 31535829 doi:10.1056/NEJMoa1911303",
+  "related_content": {
+    "syllabus": [
+      "ensec24002_24029"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:27:18.736240-06:00"
+}

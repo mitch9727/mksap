@@ -1,0 +1,59 @@
+{
+  "question_id": "cvcor25028",
+  "category": "cv",
+  "educational_objective": "Diagnose atrioventricular nodal reentrant tachycardia.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "An 18-year-old man is evaluated in the emergency department for abrupt-onset palpitations. For the past year, he has been having similar episodes with increasing frequency. He has been able to stop these previous episodes by coughing or bearing down. He reports no syncopal episodes.On physical examination, blood pressure is 95/68 mm Hg, pulse rate is 200/min, and respiration rate is 16/min. The remainder of the physical examination is normal.ECG is shown. A previous ECG showed sinus rhythm with a heart rate of 72/min without any abnormalities.",
+  "question_stem": "Which of the following is the most likely rhythm diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Atrial flutter",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Atrioventricular nodal reentrant tachycardia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Multifocal atrial tachycardia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Ventricular tachycardia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient's presentation is typical for atrioventricular nodal reentrant tachycardia (AVNRT) (Option B), the most common form of supraventricular tachycardia (SVT). SVTs are rapid heart rhythms that arise from the atrium or require conduction through the atrioventricular node. SVTs usually occur in the absence of structural heart disease, although echocardiography should be performed to exclude underlying cardiac dysfunction or structural defects. Patients often have repeated episodes of tachycardia and may report palpitations, a sensation of pounding in the neck, fatigue, lightheadedness, chest discomfort, dyspnea, presyncope, and, less commonly, syncope. AVNRT accounts for approximately two thirds of all cases of SVT. It frequently occurs in women and is often terminated by performing vagal maneuvers. The ECG typically demonstrates a narrow QRS complex. AVNRT is characterized by a short RP interval with a retrograde P wave (arrows) inscribed very close to the QRS complex, which is best seen in lead V1 (appearing as a pseudo R wave). In the emergency department, adenosine is commonly used for acute termination. Cardioversion is rarely required. Ultimately, catheter ablation may be curative and is often first-line therapy.This patient has recurrent palpitations that sometimes respond to vagal maneuvers, and he now has a narrow QRS tachycardia with retrograde P waves apparent in V1, indicating that the most likely diagnosis is AVNRT.Atrial flutter (Option A) is a narrow-complex regular or irregular tachycardia characterized by inverted “sawtooth” P waves in leads II, III, and aVF and positive flutter waves in lead V1. Retrograde P waves, present on this patient's ECG, are not consistent with atrial flutter.Multifocal atrial tachycardia (Option C) is usually seen in patients with severe pulmonary disease. It is typified by discrete P waves with three or more morphologies, which are not present in this patient.Ventricular tachycardia (Option D) is a wide-complex tachycardia. In contrast, this patient presents with a narrow-complex tachycardia. Additionally, ventricular tachycardia is unlikely in this young, healthy patient without known structural cardiac abnormalities.",
+  "key_points": [
+    "Atrioventricular nodal reentrant tachycardia is characterized electrocardiographically by a short RP interval with a retrograde P wave inscribed very close to the QRS complex, which is best seen in lead V1, appearing as a pseudo R wave."
+  ],
+  "references": "Kotadia ID, Williams SE, O'Neill M. Supraventricular tachycardia: An overview of diagnosis and management. Clin Med (Lond). 2020;20:43-47. PMID: 31941731 doi:10.7861/clinmed.cme.20.1.3",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24014"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:26:28.498569-06:00"
+}

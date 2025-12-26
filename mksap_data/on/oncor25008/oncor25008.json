@@ -1,0 +1,60 @@
+{
+  "question_id": "oncor25008",
+  "category": "on",
+  "educational_objective": "Diagnose renal cell cancer in a patient with secondary erythrocytosis.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 60-year-old woman is evaluated for right-sided mid back pain of 2 months' duration, accompanied by frequent nocturnal awakening with soaking night sweats. She has hypertension treated with hydrochlorothiazide.On physical examination, vital signs are normal. Oxygen saturation is 99% with the patient breathing ambient air. The remainder of the examination is normal.Laboratory studies:Erythropoietin180 mU/mL (180 U/L)HHemoglobin20 g/dL (200 g/L)HLeukocyte count7200/µL (7.2 × 109/L)Platelet count295,000/µL (295 × 109/L)Urinalysis with microscopy3+ blood; no protein; 30 erythrocytes/hpf; no casts or dysmorphic erythrocytesPlain radiography of the thoracic and lumbar spine shows no abnormalities.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Myelodysplastic syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Polycythemia vera",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Renal cell carcinoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sleep apnea",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis in this patient with back pain, night sweats, hematuria, and secondary erythrocytosis is renal cell carcinoma (Option C). This patient has secondary erythrocytosis, defined by the presence of erythrocytosis and an elevated erythropoietin level. Secondary erythrocytosis may be due to various conditions, including systemic hypoxia, high altitude, chronic carbon monoxide exposure, and renal artery stenosis. It may also be caused by autonomous production of erythropoietin independent of hypoxemia, such as a paraneoplastic syndrome. Many different paraneoplastic syndromes can be seen in patients with renal cell carcinoma, including the following:AnemiaHepatic dysfunction in the absence of liver metastases (known as Stauffer syndrome)FeverHypercalcemiaAlterations in glucose metabolismErythrocytosisAA amyloidosisThrombocytosisPolymyalgia rheumaticaMany of these conditions can improve with resection of the primary tumor, metastatic sites, or both. Abdominal imaging should be performed in this patient with likely renal cell carcinoma. Ultrasonography can differentiate simple cysts from solid masses, whereas dedicated renal CT or MRI may reveal findings specific enough for renal cell cancer to avoid the need for a confirmatory biopsy.Myelodysplastic syndrome (Option A) is a stem cell disorder that results in ineffective hematopoiesis and various cytopenias, the most common of which is anemia, often macrocytic. Myelodysplastic syndrome is not a cause of erythrocytosis.Polycythemia vera (Option B) is a myeloproliferative disorder that is caused by a variant in the JAK2 gene. This disorder results in unregulated blood cell production. Although erythrocytosis may be most striking, leukocytosis and thrombocytosis are often seen as well. Physical findings include hepatosplenomegaly. The dysregulated erythrocyte production and erythrocytosis cause a marked reduction in erythropoietin secretion. Hematuria would not be expected.Sleep apnea (Option D) may cause secondary erythrocytosis, but it would not cause hematuria, pain, or constitutional symptoms, as seen in this patient. Sleep apnea with hypoxemia severe enough to stimulate erythropoietin production might also be associated with daytime hypoxemia, which is not present in this patient.",
+  "key_points": [
+    "Secondary polycythemia is the defined by the presence of erythrocytosis and an elevated erythropoietin level.",
+    "Secondary polycythemia is commonly caused by hypoxemia but may be due to autonomous erythropoietin production associated with a paraneoplastic syndrome, as in renal cell carcinoma."
+  ],
+  "references": "Gangat N, Szuber N, Tefferi A. JAK2 unmutated erythrocytosis: 2023 update on diagnosis and management. Am J Hematol. 2023;98:965-981. PMID: 36966432 doi:10.1002/ajh.26920",
+  "related_content": {
+    "syllabus": [
+      "onsec24006_24008"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:31:30.485334-06:00"
+}

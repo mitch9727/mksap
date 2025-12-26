@@ -1,0 +1,63 @@
+{
+  "category": "on",
+  "critique": "This patient should receive external-beam radiation therapy (EBRT) plus androgen-deprivation therapy (ADT), such as leuprolide (Option D). Treatment for men with localized prostate cancer is based on risk stratification. Options include active surveillance for lower-risk disease, prostatectomy, and radiation therapy delivered through EBRT or brachytherapy. A combination of EBRT and ADT with either a gonadotropin-releasing hormone agonist or antagonist is a validated standard approach for the initial treatment of men diagnosed with high-risk and very high-risk disease. This approach has shown improved overall survival compared with radiation therapy alone. This patient has high-risk prostate cancer based on his Gleason score, extent of cancer, and prostate-specific antigen level greater than 20 ng/mL (20 µg/L) at diagnosis (). EBRT plus ADT is the most appropriate initial treatment for this patient. Prostatectomy would be another reasonable option, but he prefers radiation therapy.ADT alone (Option A) is a standard treatment for metastatic prostate cancer. However, it is not a standard treatment in men with high-risk localized prostate cancer. This group of patients requires a definitive local treatment, such as EBRT with ADT or prostatectomy.Brachytherapy (Option B) is not an appropriate treatment for those with diffuse or high-risk prostate cancer, such as this patient. Brachytherapy involves implanting a radiation source directly into the cancer for men who have cancer localized to one area or region of the prostate gland. It is an option for men with more limited involvement of the prostate with lower-risk disease. This patient has high-grade prostate cancer based on the extensive involvement of the prostate gland, high Gleason score, and markedly elevated prostate-specific antigen level.EBRT alone (Option C) would not be sufficient treatment for this patient. As noted, EBRT alone is inferior to the combination of EBRT plus ADT in men with high-risk prostate cancer, such as this patient.",
+  "educational_objective": "Treat high-risk prostate cancer with androgen-deprivation therapy plus radiation therapy.",
+  "extracted_at": "2025-12-22T20:27:05.730830-06:00",
+  "key_points": [
+    "Treatment for men with localized prostate cancer is based on risk stratification; options include active surveillance, prostatectomy, and radiation therapy through external-beam radiation or brachytherapy.",
+    "The addition of a gonadotropin-releasing hormone agonist or antagonist for men undergoing external-beam radiation therapy for high-risk and very high-risk localized prostate cancer has been shown to improve overall survival."
+  ],
+  "media": {
+    "images": [],
+    "svgs": [],
+    "tables": [
+      "tables/inline_table_1.html",
+      "tables/inline_table_2.html"
+    ],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/22/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Androgen-deprivation therapy (ADT)"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Brachytherapy"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "External-beam radiation therapy (EBRT)"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "EBRT plus ADT"
+    }
+  ],
+  "question_id": "onmcq24011",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "question_text": "A 68-year-old man is evaluated for lower urinary tract symptoms, which have been present for years but have worsened over the past 3 to 4 months.On physical examination, vital signs are normal. A small prostate nodule is noted on digital rectal examination.MRI of the prostate reveals suspicious foci in both the right and left prostatic lobes. Transrectal ultrasonography-guided biopsy reveals adenocarcinoma in multiple cores from both the right and left lobes with a Gleason score of 8. CT and bone scans are negative for metastatic disease.After a discussion of treatment options, the patient prefers nonsurgical treatment.",
+  "references": "Moris L, Cumberbatch MG, Van den Broeck T, et al. Benefits and risks of primary treatments for high-risk localized and locally advanced prostate cancer: an international multidisciplinary systematic review. Eur Urol. 2020;77:614-27. PMID: 32146018 doi:10.1016/j.eururo.2020.01.033",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "onsec24006_24004"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

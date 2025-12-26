@@ -1,0 +1,65 @@
+{
+  "question_id": "cvcor25016",
+  "category": "cv",
+  "educational_objective": "Prevent stroke in a patient with atrial fibrillation.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "An 82-year-old man is evaluated for heart palpitations that began 2 days ago. He has no chest pain, dyspnea, or light-headedness. He has a history of diabetes, hypertension, and coronary artery disease. Medications are metformin, empagliflozin, metoprolol, lisinopril, atorvastatin, and low-dose aspirin.On physical examination, blood pressure is 126/70 mm Hg and pulse rate is 84/min and irregular; other vital signs are normal. Cardiac examination confirms the irregular heart rate and is otherwise unremarkable.Laboratory studies:Creatinine0.9 mg/dL (79.6 µmol/L)Thyroid-stimulating hormoneNormalECG shows atrial fibrillation at a heart rate of 72/min. Echocardiogram reveals a dilated left atrium, normal left ventricular size and contractility with an ejection fraction of 55%, and no significant valvular disease.",
+  "question_stem": "Which of the following is the most appropriate management with respect to this patient's stroke risk?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Add apixaban",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Discontinue aspirin and initiate rivaroxaban",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Increase aspirin dosage",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Perform catheter ablation of atrial fibrillation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "Perform left atrial appendage occlusion",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment approach in this patient with atrial fibrillation (AF) and increased risk for stroke is to discontinue aspirin and initiate rivaroxaban (Option B). Patients with AF are at a heightened risk for stroke. Guidelines recommend using the CHA2DS2-VASc score to stratify this risk and determine the need for oral anticoagulant therapy. Variables in the score include age, sex, hypertension, diabetes mellitus, heart failure, vascular disease, and previous transient ischemic event/stroke. Guidelines vary as to the thresholds for initiating anticoagulation, although all recommend oral anticoagulation in patients with nonvalvular AF who have a CHA2DS2-VASc score of 2 or greater in men or 3 or greater in women. This patient with AF is at high risk for stroke owing to a CHA2DS2-VASc score of 4 based on his age, hypertension, and diabetes. He should receive anticoagulation therapy with a direct-acting oral anticoagulant such as rivaroxaban.The decision to continue antiplatelet therapy in patients with AF on oral anticoagulation depends on the strength of the underlying indication for antiplatelet therapy. Although this patient has coronary artery disease, he has no history of acute cardiovascular events or the presence of a coronary stent as a strong indication for antiplatelet therapy. The risk for bleeding with aspirin combined with oral anticoagulation likely outweighs the benefit in this patient; adding apixaban (Option A) is incorrect.Multiple trials have demonstrated that aspirin, at any dosage (Option C), provides inadequate protection against systemic thromboembolism in AF and should not be used as monotherapy, especially in patients with high risk.Catheter ablation (Option D) is not indicated as a means of mitigating stroke risk in AF. Patients who undergo ablation still require anticoagulation based on their individual risk, which is high in this patient.Left atrial appendage occlusion (Option E) is reserved primarily for patients who have bleeding or a very high risk for bleeding and are poor candidates for oral anticoagulation. This patient has no history of bleeding and should receive oral anticoagulation.",
+  "key_points": [
+    "Patients with atrial fibrillation (AF) and a high risk for systemic thromboembolism should receive oral anticoagulation therapy.",
+    "The decision to continue antiplatelet therapy in patients with AF on oral anticoagulation depends on the strength of the underlying indication for antiplatelet therapy."
+  ],
+  "references": "January CT, Wann LS, Calkins H, et al. 2019 AHA/ACC/HRS focused update of the 2014 AHA/ACC/HRS guideline for the management of patients with atrial fibrillation: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. J Am Coll Cardiol. 2019;74:104-132. PMID: 30703431 doi:10.1016/j.jacc.2019.01.011",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24023"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:26:28.460797-06:00"
+}

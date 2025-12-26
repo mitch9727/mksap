@@ -1,0 +1,62 @@
+{
+  "category": "pm",
+  "critique": "The most likely diagnosis in this patient is COPD (Option B). The diagnosis of COPD requires documentation of airflow obstruction on spirometry, as demonstrated by a decreased FEV1/FVC ratio. The Global Initiative for Chronic Obstructive Lung Disease (GOLD) defines COPD as being present with an FEV1/FVC ratio less than 0.70 and an absent bronchodilator effect. This differs from the findings in patients with asthma, who have bronchodilator responsiveness, defined as an increase from baseline in FEV1, FVC, or both of at least 10% relative to the predicted value. In COPD, the severity of air flow obstruction is determined by the measured FEV1 as a percentage of the predicted value (). Measuring lung volumes and diffusing capacity is not required for diagnosis; however, when completed, the total lung capacity (TLC) and residual volume can be normal or increased. Increased TLC and residual volume (≥120% of predicted) indicate hyperinflation and air trapping. The Dlco may be normal in COPD but is often decreased when emphysema is present. Similarly, chest radiographs are frequently normal in early disease. This patient is presenting with dyspnea in the setting of remote but significant tobacco use. Spirometry demonstrates a postbronchodilator FEV1/FVC ratio of 0.62 and an FEV1 of 66% of predicted, consistent with moderate COPD.Asthma (Option A) is not the most likely diagnosis in this patient. Asthma is characterized by a reduced FEV1/FVC ratio coupled with a significant bronchodilator response. This patient has a reduced FEV1/FVC ratio, indicating air flow obstruction, but shows no improvement with a bronchodilator. This pattern is more suggestive of COPD than asthma.Restrictive lung disease is characterized by a reduced FEV1 or FVC with a preserved FEV1/FVC ratio of 0.70 or greater. Measurement of lung volumes with demonstration of a TLC below 80% of predicted is additionally necessary to confirm the diagnosis. Desquamative interstitial pneumonia (Option C), a smoking-related form of diffuse parenchymal lung disease, is characterized by diffuse ground-glass opacification with lower-zone predominance and a restrictive pattern on spirometry. This patient's normal imaging results, lack of current smoking, and obstructive pattern of spirometry make desquamative interstitial pneumonia an unlikely diagnosis.Primary pulmonary hypertension (Option D) may cause gradual onset of dyspnea, but spirometry typically does not show significant airflow obstruction. Pulmonary function testing in patients with pulmonary vascular disease is most likely to show normal spirometry results with a decreased diffusion capacity. This patient has significant airflow obstruction on spirometry, making COPD a more likely diagnosis than pulmonary hypertension.",
+  "educational_objective": "Diagnose COPD using spirometry.",
+  "extracted_at": "2025-12-23T14:15:53.016497-06:00",
+  "key_points": [
+    "Spirometry in COPD shows a decreased FEV1/FVC ratio (<0.70) and an absent bronchodilator effect; the severity of airflow obstruction is determined by the measured FEV1 as a percentage of the predicted value."
+  ],
+  "media": {
+    "images": [],
+    "svgs": [],
+    "tables": [
+      "tables/inline_table_1.html",
+      "tables/inline_table_2.html"
+    ],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/23/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Asthma"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "COPD"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Desquamative interstitial pneumonia"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Primary pulmonary hypertension"
+    }
+  ],
+  "question_id": "pmmcq24039",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "question_text": "A 62-year-old woman is evaluated for a 6-month history of progressive shortness of breath. She now becomes dyspneic when climbing one flight of stairs. She has no cough, weight loss, or chest pain. She has a 35-pack-year smoking history and quit smoking 20 years ago. Her medical history is significant for hypertension and depression. Medications are enalapril-hydrochlorothiazide and escitalopram.On physical examination, vital signs and other findings are normal.Laboratory studies show a normal complete blood cell count.Chest radiograph is normal.",
+  "references": "Neder JA, Berton DC, O'Donnell DE. The lung function laboratory to assist clinical decision-making in pulmonology: evolving challenges to an old issue. Chest. 2020;158:1629-43. PMID: 32428514 doi:10.1016/j.chest.2020.04.064",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "pmsec24001_24005"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

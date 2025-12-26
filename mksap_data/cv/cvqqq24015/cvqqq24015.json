@@ -1,0 +1,59 @@
+{
+  "question_id": "cvqqq24015",
+  "category": "cv",
+  "educational_objective": "Prevent heart failure readmission with early physician follow-up.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 66-year-old woman is evaluated before hospital discharge. She was hospitalized for decompensated heart failure with reduced ejection fraction (HFrEF). She underwent diuresis and currently feels well. Medical history is significant for atrial fibrillation and HFrEF secondary to hypertensive cardiomyopathy. She had not been taking her medications for the past month. Medications are furosemide, digoxin, warfarin, carvedilol, valsartan-sacubitril, and empagliflozin.On physical examination, vital signs are normal. Other than an irregularly irregular rhythm, there are no abnormal findings.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Add ivabradine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Repeat echocardiography in 4 weeks",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Replace warfarin with aspirin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Schedule follow-up appointment within 1 week",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is to schedule a follow-up appointment within 1 week of discharge (Option D). In patients hospitalized with acute heart failure, the reason for the heart failure exacerbation should be identified. Often, it is impossible to determine a cause; however, addressing the reasons for this patient's nonadherence might prevent readmission. Before discharge, patients should undergo diuresis to euvolemia, with optimized electrolyte levels and kidney function, and should receive optimal doses of evidence-based medications. Finally, appropriate follow-up should be scheduled. Studies have shown that patients seen within 1 week of a heart failure discharge have reduced admissions compared with those with later outpatient contact. An early follow-up visit for this patient allows review of the medication list, assessment of volume status and adherence to diet and medications, and reinforcement of patient education.Ivabradine (Option A) reduces heart failure–associated hospitalizations in patients with chronic symptomatic heart failure with left ventricular ejection fraction less than or equal to 35% who are in sinus rhythm and taking guideline-directed medical therapy. Ivabradine is associated with worsening of atrial fibrillation, so it is not indicated for this patient.Echocardiography is indicated in patients with new-onset heart failure and in those with an established diagnosis and suspected change in cardiac function. Current guidelines recommend against routine surveillance echocardiography (Option B) in patients with chronic heart failure in the absence of a change in clinical status or planned intervention. This patient has an established diagnosis of HFrEF and a clear cause for her decompensation (medication nonadherence); therefore, there is no indication to schedule follow-up echocardiography at the time of discharge.This patient's CHA2DS2-VASc score is 4 (age, female sex, history of heart failure, hypertension), which indicates an elevated stroke risk for which anticoagulation (either with warfarin or a direct oral anticoagulant) is recommended. There is no indication to replace warfarin with aspirin (Option C).",
+  "key_points": [
+    "Following heart failure hospitalization, early follow-up (within 1 week) should be scheduled to reinforce heart failure education, ensure proper medication use, evaluate volume status, and initiate or increase medications as needed."
+  ],
+  "references": "Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA guideline for the management of heart failure: A report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. J Am Coll Cardiol. 2022;79:e263-e421. PMID: 35379503 doi:10.1016/j.jacc.2021.12.012",
+  "related_content": {
+    "syllabus": [
+      "cvsec24005_24036"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-23T14:08:40.307811-06:00"
+}

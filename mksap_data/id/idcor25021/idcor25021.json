@@ -1,0 +1,59 @@
+{
+  "question_id": "idcor25021",
+  "category": "id",
+  "educational_objective": "Treat herpes simplex virus encephalitis.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 73-year-old man is evaluated in the emergency department for a 1-week history of fever, confusion, and altered speech. Medical history is otherwise unremarkable.On physical examination, temperature is 39.5 °C (102.3 °F); other vital signs are normal. The patient is difficult to rouse, is disoriented, and cannot follow commands. The neurologic examination has no focal abnormalities, and the remainder of the physical examination is normal.Empiric intravenous vancomycin, ampicillin, ceftriaxone, acyclovir, and dexamethasone are initiated.Cerebrospinal fluid studies:Leukocyte count60/µL (60 × 106/L) with 88% lymphocytesHGlucose42 mg/dL (2.3 mmol/L)LProtein113 mg/dL (1130 mg/L)HGram stain and culture are negative. Multiplex polymerase chain reaction assay of the cerebrospinal fluid for viruses and bacteria is negative.MRI of the brain is shown.",
+  "question_stem": "Which of the following is the most appropriate intravenous treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Continue antibiotics and acyclovir",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Continue antibiotics and discontinue acyclovir",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Discontinue antibiotics and continue acyclovir",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Discontinue current medications and start intravenous immune globulin and glucocorticoids",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Acyclovir should be continued and antibiotics discontinued (Option C) because of strong clinical suspicion for herpes simplex virus (HSV) encephalitis; additionally, polymerase chain reaction (PCR) should be repeated for HSV type 1 within 1 week. This patient has the typical cerebrospinal fluid (CSF) findings of HSV encephalitis, including lymphocytic pleocytosis, an elevated protein level, and a normal glucose level. This patient also has the classic imaging findings of unilateral temporal lobe enhancement. HSV PCR of the CSF confirms the diagnosis; however, false-negative results have been reported. If HSV is suspected, a repeat PCR should be obtained within 1 week while continuing acyclovir therapy.Antibiotic treatment (Options A, B) should be discontinued because the CSF profile is not consistent with acute bacterial meningitis, and CSF Gram stain, culture, and multiplex PCR for bacteria are negative. Bacterial meningitis usually presents acutely (within 1-2 days of symptom initiation) with headache, stiff neck, and altered mental status; laboratory findings include a CSF leukocyte count greater than 1000/µL (1000 × 106/L) with a neutrophilic predominance in 90% of patients, a very high CSF protein level (100-500 mg/dL [1000-5000 mg/L]), and severe hypoglycorrhachia (glucose level <40 mg/dL [2.2 mmol/L]). This patient's findings are not compatible with bacterial meningitis.Starting empiric intravenous immune globulin and glucocorticoids (Option D) is appropriate for patients with a classic presentation for autoimmune encephalitis if the initial evaluation is negative for a viral cause. Repeat HSV PCR has not yet been performed for this patient, and the clinical presentation and imaging findings are not consistent with autoimmune encephalitis. The benefit of glucocorticoids in viral encephalitis has not been documented, but some experts recommend their use if significant brain edema or mass effect is present, which are not seen in this patient.",
+  "key_points": [
+    "When clinical suspicion is high for herpes simplex virus encephalitis but initial polymerase chain reaction result is negative, patients should undergo repeat lumbar puncture within 7 days; antiviral therapy should be continued until repeat results are available."
+  ],
+  "references": "Bloch KC, Glaser C, Gaston D, Venkatesan A. State of the art: acute encephalitis. Clin Infect Dis. 2023;77:e14-e33. PMID: 37485952 doi:10.1093/cid/ciad306",
+  "related_content": {
+    "syllabus": [
+      "idsec24001_24016"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:28:59.304268-06:00"
+}

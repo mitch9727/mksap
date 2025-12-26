@@ -1,0 +1,59 @@
+{
+  "question_id": "npcor25027",
+  "category": "np",
+  "educational_objective": "Treat diabetic kidney disease with a sodium-glucose cotransporter-2 inhibitor.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 59-year-old woman is evaluated during a follow-up visit for hypertension, hyperlipidemia, and type 2 diabetes mellitus. Medications are losartan, atorvastatin, liraglutide, and metformin.On physical examination, blood pressure is 118/76 mm Hg; the remainder of the examination is normal.Laboratory studies:Hemoglobin11.1 g/dL (111 g/L)LHemoglobin A1c6.8%HPotassium4.3 mEq/L (4.3 mmol/L)Albumin-creatinine ratio310 mg/gHEstimated glomerular filtration rate45 mL/min/1.73 m2",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Add canagliflozin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Add erythropoetin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Discontinue metformin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No change in pharmacotherapy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "A sodium-glucose cotransporter-2 (SGLT2) inhibitor, such as canagliflozin (Option A), should be added to this patient's medication regimen. Diabetic kidney disease, defined as clinical evidence of kidney injury in response to chronic, long-standing hyperglycemia, has a 25-year incidence of 10% among patients with type 1 diabetes mellitus (DM) and 12% among patients with type 2 DM. Medications known to slow the progression of diabetic kidney disease are those that inhibit the renin-angiotensin system (e.g., ACE inhibitors, angiotensin receptor blockers), glucagon-like peptide-1 receptor agonists (e.g., liraglutide), mineralocorticoid receptor antagonists (MRAs) (e.g., spironolactone, eplerenone, finerenone), and SGLT2 inhibitors. SGLT2 inhibitors reduce renal tubular glucose reabsorption, body weight, systemic blood pressure, intraglomerular pressure, and albuminuria; they also slow progression of chronic kidney disease (CKD) through mechanisms that appear to be independent of glycemic control. Both American Diabetes Association and Kidney Disease: Improving Global Outcomes guidelines recommend use of an SGLT2 inhibitor in patients with diabetic kidney disease who have an estimated glomerular filtration rate >20 mL/min/1.73 m2, regardless of urine albumin-creatinine ratio, to reduce the risks for CKD progression and cardiovascular events. This patient already takes medications to slow diabetic kidney disease (losartan and liraglutide). She would benefit from adding canagliflozin to her regimen, with additional consideration of an MRA given that her potassium level is normal.Erythropoiesis-stimulating agents (ESAs), such as erythropoetin (Option B), should not be used in most patients who have CKD and a hemoglobin level >11 g/dL (110 g/L) because of increased risk for serious cardiovascular events and stroke. In selected patients, ESAs result in modest improvements in fatigue but not in slowing of CKD progression.Metformin, the backbone of pharmacotherapy for type 2 diabetes mellitus, can be safely used in patients with an estimated glomerular filtration rate >30 mL/min/1.73 m2. Metformin should not be discontinued (Option C) in this patient with adequate renal function.SGLT2 inhibitors have renoprotective benefits beyond those from glycemic control, so canagliflozin is indicated in this patient even though her hemoglobin A1c level is below 7% on her current regimen. Making no change to her medication regimen (Option D) is not appropriate.",
+  "key_points": [
+    "In patients who have diabetic kidney disease and an estimated glomerular filtration rate >20 mL/min/1.73 m2, regardless of urine albumin-creatinine ratio or adequacy of glycemic control, the use of a sodium-glucose cotransporter-2 inhibitor reduces the risks for chronic kidney disease progression and cardiovascular events."
+  ],
+  "references": "American Diabetes Association Professional Practice Committee. 11. Chronic Kidney Disease and Risk Management: Standards of Care in Diabetes-2025. Diabetes Care. 2025;48:S239-S251. [PMID: 39651975; PMCID: PMC11635029] doi:10.2337/dc25-S011",
+  "related_content": {
+    "syllabus": [
+      "npsec24008_24010"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:29:49.361857-06:00"
+}

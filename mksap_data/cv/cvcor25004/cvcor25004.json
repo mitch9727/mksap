@@ -1,0 +1,60 @@
+{
+  "question_id": "cvcor25004",
+  "category": "cv",
+  "educational_objective": "Evaluate stable chest pain in a patient with left bundle branch block.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 66-year-old woman is evaluated during a follow-up visit 6 months after she began having intermittent chest pain. She describes the pain as left-sided and dull, but occasionally it has a sharp quality. It sometimes occurs during her daily 1-mile walk. She has no associated symptoms, and the episodes last 5 to 10 minutes. She has one or two episodes per week, and the pattern has not changed since onset. She has hypertension, diabetes mellitus, and chronic kidney disease. Medications are losartan, amlodipine, empagliflozin, and sitagliptin.On physical examination, vital signs are normal. Cardiovascular examination is normal.Laboratory studies:Creatinine2.4 mg/dL (212.2 μmol/L)HEstimated glomerular filtration rate22 mL/min/1.73 m2 ECG is shown. It is unchanged from a tracing 2 years ago.",
+  "question_stem": "Which of the following is the most appropriate initial diagnostic test?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Coronary CT angiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Exercise ECG",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Exercise single-photon emission CT myocardial perfusion imaging",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Exercise stress echocardiography",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Exercise stress echocardiography (Option D) is the most appropriate initial diagnostic test to evaluate this patient with chest pain in the setting of left bundle branch block (LBBB). Stress testing to evaluate patients with stable chest pain for coronary artery disease (CAD) should be performed with exercise unless the patient is unable to exercise or has contraindications to exercise-based testing. In patients with LBBB or a ventricular paced rhythm, exercise ECG is uninterpretable, whereas exercise single-photon emission CT (SPECT) myocardial perfusion imaging (MPI) may show false-positive abnormalities due to conduction delay in the septum. Vasodilator-induced stress, however, improves the accuracy of perfusion imaging and is an acceptable study to evaluate stable chest pain in a patient with LBBB, especially one who cannot exercise. Dobutamine echocardiography, like exercise MPI studies, is prone to false-positive abnormalities in patients with LBBB, but exercise stress echocardiography is not prone to this shortcoming. This patient has LBBB and can exercise; therefore, exercise stress echocardiography is the best test to evaluate her stable chest pain.Coronary CT angiography (CCTA) (Option A) is a reasonable option to assess the possibility of CAD in patients presenting with stable chest pain. It is most useful in patients younger than 65 years and those with a lower likelihood of obstructive coronary disease. This patient, however, has chronic kidney disease, and it would be preferable to avoid the radiographic contrast exposure incurred with CCTA.Exercise ECG (Option B) is a reasonable test in patients who are able to exercise and have a normal baseline ECG. If baseline ECG abnormalities are present (e.g., ST-segment depression >1 mm, LBBB, left ventricular hypertrophy, paced rhythm, or preexcitation), exercise-induced ST-segment changes are not specific for CAD, and stress testing with adjunctive imaging or anatomic assessment with CCTA is indicated. This patient has LBBB, and exercise ECG is contraindicated.Exercise SPECT MPI (Option C) is not an appropriate option for patients with LBBB or ventricular pacing on ECG. These underlying electrocardiographic abnormalities cause conduction delay in the septum with resultant false-positive abnormalities with exercise MPI studies.",
+  "key_points": [
+    "Exercise stress echocardiography and vasodilator single-photon emission CT myocardial perfusion imaging are preferred tests to evaluate patients with stable chest pain and left bundle branch block or ventricular pacing on ECG.",
+    "Stress testing to evaluate patients with stable chest pain for coronary artery disease should be performed with exercise unless the patient is unable to exercise or has contraindications to exercise-based testing."
+  ],
+  "references": "Gulati M, Levy PD, Mukherjee D, et al. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR Guideline for the evaluation and diagnosis of chest pain: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2021;144:e368-e454. PMID: 34709879 doi:10.1161/CIR.0000000000001029",
+  "related_content": {
+    "syllabus": [
+      "cvsec24003_24003"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:26:28.454976-06:00"
+}

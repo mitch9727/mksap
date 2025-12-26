@@ -1,0 +1,59 @@
+{
+  "question_id": "cvmcq24114",
+  "category": "cv",
+  "educational_objective": "Recognize contraindications to propafenone therapy.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 62-year-old man is evaluated in the hospital after presenting with chest pain. An ECG showed an acute inferior wall ST-segment elevation myocardial infarction. He underwent emergent cardiac catheterization and successful stent placement in an acutely occluded right coronary artery. His symptoms have resolved. Medications are aspirin, clopidogrel, lisinopril, metoprolol, and atorvastatin. Other medical history includes paroxysmal atrial fibrillation, for which he takes propafenone.On physical examination, blood pressure is 123/76 mm Hg and pulse is 62/min and regular. The remainder of the examination is normal.ECG reveals sinus rhythm with Q waves in leads II, III, and aVF. Transthoracic echocardiogram shows mild inferior wall hypokinesis, an ejection fraction of 55%, and no significant valvular abnormalities.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Discontinue propafenone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Start apixaban",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Start verapamil",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Continue current medication regimen",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment strategy is to discontinue propafenone (Option A). Propafenone and flecainide are class IC antiarrhythmic drugs. Although useful as part of a rhythm control strategy in patients with atrial fibrillation, propafenone and flecainide are contraindicated in patients with structural heart disease and ischemic heart disease because they may increase the risk for life-threatening ventricular arrhythmias. Other contraindications to the use of these agents include sinus node dysfunction, second- or third-degree atrioventricular block, or bundle branch disease without a pacemaker. This patient has been taking propafenone as part of a rhythm control strategy in symptomatic paroxysmal atrial fibrillation. He now has a new diagnosis of coronary artery disease (CAD), and the propafenone should be discontinued. If a rhythm control strategy is to be pursued, an alternate antiarrhythmic agent that is safe to administer to patients with underlying CAD or catheter ablation may be considered.The addition of apixaban (Option B) would subject this patient to “triple therapy” of dual antiplatelet therapy (DAPT) and oral anticoagulation, dramatically increasing his risk for bleeding. Furthermore, his CHA2DS2-VASc score is 1 based on the CAD, and oral anticoagulation is not widely recommended because of his low risk for thromboembolic disease. DAPT should be continued, and he should not start taking apixaban.Verapamil (Option C) is not currently indicated for this patient. Verapamil is useful as a rate control agent in atrial fibrillation, but he is already taking metoprolol and it is not clear that he will need another rate control agent. Furthermore, his resting heart rate is already slow, and adding another negative chronotropic agent may result in symptomatic bradycardia.This patient's propafenone should be withdrawn; therefore, continuing his current medication regimen (Option D) would not be appropriate.",
+  "key_points": [
+    "Class IC antiarrhythmic drugs, such as propafenone and flecainide, increase the risk for life-threatening ventricular arrhythmias among patients with underlying coronary ischemia and structural heart disease."
+  ],
+  "references": "January CT, Wann LS, Calkins H, et al. 2019 AHA/ACC/HRS focused update of the 2014 AHA/ACC/HRS guideline for the management of patients with atrial fibrillation: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. J Am Coll Cardiol. 2019;74:104-132. PMID: 30703431 doi:10.1016/j.jacc.2019.01.011",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24010"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T22:49:30.776453-06:00"
+}

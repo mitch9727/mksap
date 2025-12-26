@@ -1,0 +1,68 @@
+{
+  "category": "id",
+  "critique": "This patient most likely has hemolytic uremic syndrome (HUS) resulting from enterohemorrhagic Escherichia coli (EHEC) infection and should receive supportive care (Option E). Supportive care typically consists of nutritional support, electrolyte and fluid management, blood products (including erythrocytes and platelets as indicated), and dialysis if needed. EHEC strains, most commonly O157:H7 (although other strains exist), produce a Shiga toxin (i.e., Shiga toxin–producing E. coli, or STEC) that can cause bloody diarrhea with associated HUS, characterized by the triad of microangiopathic hemolytic anemia, thrombocytopenia, and kidney injury, as in this patient. The presence of schistocytes, as seen on this patient's peripheral blood smear, suggests microangiopathic hemolytic anemia. EHEC infections are typically foodborne, with outbreaks often associated with consumption of undercooked hamburgers or fecally contaminated food and water, including untreated recreational water sites such as lakes. Fecal-oral transmission through exposure to infected animals, such as cows, goats, deer, and sheep, as in a petting zoo, is also possible. The incubation period is approximately 3 days, and patients typically have visibly bloody diarrhea, crampy abdominal pain, and low-grade to no fever, the latter a distinguishing feature from other causes of bloody diarrhea. HUS develops in less than 10% of patients infected with EHEC. Alerting the laboratory is recommended so that appropriate culture media and Shiga toxin assays can be performed when this diagnosis is being considered.Azithromycin (Option A), or a fluroquinolone such as ciprofloxacin (Option C), is used to treat enterotoxigenic E. coli in patients whose symptoms restrict activity. They may also be used to treat Shigella-associated dysentery or Campylobacter infection; ceftriaxone (Option B) is another option for Shigella treatment. These agents are not usually administered to patients with EHEC-associated infections because they do not provide clinical benefit and are potentially associated with increased risk for HUS.Antimotility agents such as loperamide (Option D) are not recommended for EHEC-associated diarrheal infections because their use may increase the risk for developing HUS, and they do not appear to shorten infection duration.",
+  "educational_objective": "Treat enterohemorrhagic <i>Escherichia coli</i> infection with associated hemolytic uremic syndrome.",
+  "extracted_at": "2025-12-22T19:47:28.393831-06:00",
+  "key_points": [
+    "Enterohemorrhagic Escherichia coli strains (most commonly O157:H7) produce a Shiga toxin that can cause bloody diarrhea with associated hemolytic uremic syndrome."
+  ],
+  "media": {
+    "images": [
+      "figures/idfig24209.71ba290376123b49261f91b675a2f1bc.jpg"
+    ],
+    "svgs": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/22/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Azithromycin"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Ceftriaxone"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Ciprofloxacin"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Loperamide"
+    },
+    {
+      "letter": "E",
+      "peer_percentage": 0,
+      "text": "Supportive care"
+    }
+  ],
+  "question_id": "idmcq24101",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "question_text": "A 19-year-old man is hospitalized for a 3-day history of abdominal pain and bloody diarrhea. He reports no fever. He works in a petting zoo that includes goats, cows, rabbits, chickens, ducks, turkeys, horses, and sheep. Medical history is unremarkable, and he takes no medications.On physical examination, temperature is 37.0 °C (98.6 °F), blood pressure is 120/70 mm Hg, and pulse rate is 98/min. Abdominal examination reveals mild diffuse tenderness to palpation; bowel sounds are present, and he has no abdominal distension, guarding, or rebound.A peripheral blood smear is shown.",
+  "references": "Joseph A, Cointe A, Mariani Kurkdjian P, et al. Shiga toxin-associated hemolytic uremic syndrome: a narrative review. Toxins (Basel). 2020;12. PMID: 31973203 doi:10.3390/toxins12020067",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "idsec24016_24005"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "E",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "question_id": "encor25027",
+  "category": "en",
+  "educational_objective": "Evaluate a patient with an incidental adrenal mass.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 58-year-old man is evaluated for an adrenal mass, which was incidentally discovered on an abdominal CT scan performed for nephrolithiasis last week. The small kidney stone has since passed, and he is now asymptomatic. His other medical conditions are type 2 diabetes mellitus and hyperlipidemia. Medications are metformin and atorvastatin.Physical examination findings, including vital signs, are unremarkable.Serum electrolyte and creatinine levels are normal.On the recent CT scan, the adrenal mass was homogeneous and measured 2.3 cm, with an unenhanced attenuation of 5 Hounsfield units.",
+  "question_stem": "Which of the following is the most appropriate test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "8 am serum cortisol measurement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Low-dose dexamethasone suppression test",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Plasma aldosterone concentration/plasma renin activity ratio",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Plasma fractionated metanephrines measurement",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate test to perform next is a low-dose (1-mg) dexamethasone suppression test (LDST) (Option B). The finding of an incidental adrenal mass necessitates an evaluation to determine whether excess hormones (aldosterone, cortisol, catecholamines, or androgens) are being secreted. Every patient with an incidental adrenal mass, regardless of symptoms and comorbidities, should be assessed for mild autonomous cortisol secretion (MACS, previously termed subclinical Cushing syndrome); clinical features and radiologic characteristics of the mass determine whether hormonal evaluation for other conditions is also required (see Table: Functional Assessment of an Incidental Adrenal Mass). The evaluation of MACS begins with an overnight LDST; in this test, dexamethasone is given at 11 pm, and the 8 am serum total cortisol level is measured the following morning. A post-dexamethasone 8 am serum cortisol level greater than 1.8 μg/dL (50 nmol/L) is concerning for cortisol excess, whereas a cortisol level of 1.8 μg/dL (50 nmol/L) or less excludes MACS. Following a positive result on the LDST, adrenocorticotropic hormone independency (adrenocorticotropic hormone is suppressed) should be confirmed. This patient with a newly discovered adrenal mass should be assessed for MACS with an LDST. Although he does not have overt symptoms of hypercortisolism, he has a comorbidity (type 2 diabetes mellitus) that may be attributed to MACS.An 8 am serum cortisol measurement (Option A) is helpful for assessing adrenal insufficiency but has no role in the initial assessment of an incidental adrenal mass. Morning cortisol levels can be low, normal, or elevated in patients with MACS or clinical Cushing syndrome. Measuring 8 am serum cortisol outside of the context of the LDST would not yield useful information for this patient's management.A patient with an incidental adrenal mass should be tested for primary aldosteronism with a plasma aldosterone concentration/plasma renin activity ratio (Option C) if hypertension or hypokalemia is present. This patient does not have hypertension or hypokalemia, so testing is not necessary.Testing for pheochromocytoma with plasma fractionated metanephrines (Option D) or 24-hour urine fractionated metanephrines and catecholamines is indicated in patients with an adrenal mass with an unenhanced CT attenuation greater than 10 Hounsfield units (HU). This patient's adrenal mass has an unenhanced CT attenuation of 5 HU; therefore, he does not require testing for pheochromocytoma.",
+  "key_points": [
+    "Every patient with an incidental adrenal mass should be assessed for mild autonomous cortisol secretion (previously termed subclinical Cushing syndrome) with an overnight low-dose (1-mg) dexamethasone suppression test."
+  ],
+  "references": "Fassnacht M, Tsagarakis S, Terzolo M, et al. European Society of Endocrinology clinical practice guidelines on the management of adrenal incidentalomas, in collaboration with the European Network for the Study of Adrenal Tumors. Eur J Endocrinol. 2023;189:G1-G42. PMID: 37318239 doi:10.1093/ejendo/lvad066",
+  "related_content": {
+    "syllabus": [
+      "ensec24004_24014"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:27:18.739595-06:00"
+}

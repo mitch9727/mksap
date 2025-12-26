@@ -1,0 +1,59 @@
+{
+  "question_id": "cvcor25026",
+  "category": "cv",
+  "educational_objective": "Treat heart failure with preserved ejection fraction with a sodium-glucose cotransporter 2 inhibitor.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 72-year-old woman is evaluated for a new diagnosis of heart failure with preserved ejection fraction. One week ago, she was hospitalized for dyspnea and edema related to volume overload, which was successfully treated with loop diuretic therapy. Since discharge, she has had slight recurrence of ankle edema but no dyspnea or chest discomfort. Medical history is notable for hypertension and obesity. Medications are valsartan and furosemide.On physical examination today, blood pressure is 124/76 mm Hg, pulse rate is 76/min, and oxygen saturation is 96% with the patient breathing ambient air. BMI is 31. No jugular venous distention is noted, and the lung fields are clear. Cardiac examination reveals no murmur or extra heart sounds. Trace edema is seen in the ankles bilaterally.",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Increase furosemide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Increase valsartan",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Start carvedilol",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Start empagliflozin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step for this patient with heart failure with preserved ejection (HFpEF) is to begin treatment with a sodium-glucose cotransporter 2 (SGLT2) inhibitor, such as empagliflozin (Option D). This patient has HFpEF, as demonstrated by volume overload on clinical examination, an elevated B-type natriuretic peptide level, a normal ejection fraction, and elevated right ventricular systolic pressure. Primary therapies for HFpEF are diuretics to control symptoms of volume overload and antihypertensive agents to target a systolic blood pressure of less than 130 mm Hg. In patients with worsened symptoms of heart failure and concomitant atrial fibrillation, restoration of sinus rhythm or rate control may reduce such symptoms. In addition, guidelines recommend that all patients without contraindications be treated with an SGLT2 inhibitor. In the EMPEROR-Preserved trial, empagliflozin reduced the combined risk for cardiovascular death or hospitalization for heart failure in patients with HFpEF, regardless of the presence or absence of diabetes. The outcome was principally driven by a 29% lower risk for hospitalization. In addition to recommending SGLT2 inhibitor therapy, guidelines have less strong recommendations for aldosterone antagonists, angiotensin receptor–neprilysin inhibitors, and angiotensin receptor blockers (ARBs) in some patients with HFpEF. This patient has well-controlled hypertension and is now euvolemic or near euvolemic on examination. The next best step is to initiate an SGLT2 inhibitor.Relief of volume overload with diuretic therapy is a cornerstone of treatment for patients with HFpEF. This patient, however, has undergone adequate diuresis and has no evidence of volume overload based on symptoms or clinical examination. Increasing the furosemide dosage (Option A) is not necessary.ARBs, such as valsartan, are first-line treatment for hypertension in patients with HFpEF and may also be beneficial in those with HFpEF without hypertension. This patient, however, has already reached the systolic blood pressure target of 130 mm Hg, so increasing valsartan (Option B) is not indicated.Although a β-blocker such as carvedilol (Option C) is strongly indicated in heart failure with reduced ejection fraction, it is not indicated in HFpEF unless it is required for rate control in the setting of concurrent atrial fibrillation.",
+  "key_points": [
+    "Therapy for heart failure with preserved ejection fraction should include control of hypertension, relief of volume overload, and treatment with sodium-glucose cotransporter 2 inhibitors."
+  ],
+  "references": "Redfield MM, Borlaug BA. Heart failure with preserved ejection fraction: A review. JAMA. 2023;329:827-838. PMID: 36917048 doi:10.1001/jama.2023.2020",
+  "related_content": {
+    "syllabus": [
+      "cvsec24005_24033"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:26:28.498740-06:00"
+}

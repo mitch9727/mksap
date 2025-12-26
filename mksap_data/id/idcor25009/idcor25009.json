@@ -1,0 +1,60 @@
+{
+  "question_id": "idcor25009",
+  "category": "id",
+  "educational_objective": "Prevent opportunistic infection in a patient with AIDS.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 40-year-old man seeks treatment following a positive HIV test. Medical history is otherwise noncontributory. He has no known allergies and takes no medications.On physical examination, vital signs and other examination findings are normal.Laboratory studies:HIV quantitative RNA500,000 copies/mLCD4 cell count45/µL",
+  "question_stem": "In addition to antiretroviral therapy initiation, which of the following is the most appropriate prophylactic treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Atovaquone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Azithromycin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Trimethoprim-sulfamethoxazole",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No additional treatment",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate additional treatment is antimicrobial prophylaxis with daily trimethoprim-sulfamethoxazole (Option C). This patient has advanced HIV with a CD4 cell count of 45/µL, which is classified as AIDS (AIDS diagnostic criteria include either the presence of an AIDS-defining condition or a CD4 cell count <200/µL). His risk for Pneumocystis jirovecii pneumonia is high, and he would benefit from Pneumocystis prophylaxis. Starting immediate antiretroviral therapy (ART) will address his immunosuppression; a high viral load is one of the key factors that influences the incidence of opportunistic infections in advanced HIV infection. However, guidelines recommend Pneumocystis prophylaxis initiation concomitant with ART initiation. Treatment with trimethoprim-sulfamethoxazole will also provide protection against toxoplasmosis in patients with positive serology and a CD4 cell count less than 100/µL.Atovaquone (Option A) is an alternative regimen for Pneumocystis prophylaxis. However, daily trimethoprim-sulfamethoxazole is the preferred regimen, and atovaquone should only be used in those patients who are unable to take trimethoprim-sulfamethoxazole. This patient has no contraindication to using trimethoprim-sulfamethoxazole.Previously, prophylaxis for Mycobacterium avium complex (MAC) with weekly azithromycin (Option B) was recommended in patients with CD4 cell counts less than 50/µL. However, newer evidence suggests the risk for MAC is low among these patients taking ART. Therefore, primary MAC prophylaxis is no longer recommended in newly diagnosed patients prescribed ART and would not be necessary in this patient.Offering no additional therapy (Option D) would be inappropriate in this patient with a very low CD4 cell count and high risk for infection. Guidelines suggest that Pneumocystis prophylaxis be continued until the CD4 cell count responds to ongoing ART, increases to more than 200/µL, and stays above 200/µL for more than 3 months. Some studies have shown that Pneumocystis infection risk decreases dramatically when patients achieve virologic suppression despite the CD4 cell count being less than 200/µL, so guidelines suggest that primary prophylaxis for Pneumocystis could be stopped in patients with CD4 cell counts greater than 100/µL if consistent virologic suppression continues for more than 3 months.",
+  "key_points": [
+    "Patients with advanced HIV infection and CD4 cell counts less than 200/µL should start prophylaxis for Pneumocystis jirovecii.",
+    "Primary prophylaxis for Pneumocystis in patients with HIV can be discontinued when the CD4 cell count exceeds 200/µL for at least 3 months or if the CD4 cell count exceeds 100/µL and consistent virologic suppression continues for more than 3 months."
+  ],
+  "references": "Panel on Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults and Adolescents With HIV. Guidelines for the prevention and treatment of opportunistic infections in adults and adolescents with HIV. National Institutes of Health, Centers for Disease Control and Prevention, HIV Medicine Association, and Infectious Diseases Society of America. Updated December 16, 2024. Available at https://clinicalinfo.hiv.gov/en/guidelines/adult-and-adolescent-opportunistic-infection. Accessed January 28, 2025.",
+  "related_content": {
+    "syllabus": [
+      "idsec24019_24004"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:28:59.291495-06:00"
+}

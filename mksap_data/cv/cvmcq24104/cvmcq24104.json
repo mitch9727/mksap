@@ -1,0 +1,59 @@
+{
+  "question_id": "cvmcq24104",
+  "category": "cv",
+  "educational_objective": "Manage a drug-drug interaction in a patient with atrial fibrillation.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 69-year-old man is evaluated while hospitalized for an unintentional opioid overdose. He was found unresponsive and required several doses of naloxone. His course has been complicated by aspiration pneumonia. He has opioid use disorder and has not responded to several trials of buprenorphine-naloxone–based medication-assisted treatment. He expresses an interest in medication-assisted treatment for opioid use disorder and wishes to be started on methadone. He also has hypertension, paroxysmal atrial fibrillation, and diabetes. Inpatient medications are ceftriaxone, lisinopril, metoprolol, rivaroxaban, dofetilide, and insulin.On physical examination, vital signs are normal. Cardiopulmonary examination reveals right basilar crackles but is otherwise normal.ECG reveals sinus bradycardia with a heart rate of 56/min and a QT interval of 510 ms (corrected QT, 493 ms). Echocardiogram shows normal left ventricular function, mild left atrial dilation, and no significant valvular disease.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Discontinue dofetilide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Discontinue dofetilide and start sotalol",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Discontinue metoprolol",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Continue current management",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is discontinuing dofetilide (Option A). Dofetilide is a class III antiarrhythmic used to treat atrial and ventricular arrhythmias. It is particularly notorious for common and dangerous drug-drug interactions and causes QT prolongation. Class III antiarrhythmics are typically initiated in an inpatient setting, with regular assessment of the corrected QT interval. Adding any medication to the regimens of patients on these agents requires careful screening for drug-drug interactions and the potential to cause QT prolongation and torsades de pointes. Other commonly used drugs that may cause QT prolongation include antiarrhythmic agents, antibiotics (including some macrolides and fluoroquinolones), antipsychotic drugs, methadone, and some antidepressants. This patient is already demonstrating a prolonged QT interval while taking dofetilide, and adding a medication such as methadone is contraindicated because it may cause QT prolongation and increase the risk for torsades de pointes. Because the patient has life-threatening opioid use disorder and methadone is the best treatment option, the dofetilide should be discontinued. Other means of controlling this patient's atrial fibrillation, including catheter ablation or shift to a rate control strategy, should also be considered.Discontinuing dofetilide and starting sotalol (Option B) is not a good option. Like dofetilide, sotalol is a class III antiarrhythmic and may cause QT prolongation. It should not be administered concurrently with methadone.Although this patient has borderline bradycardia, and bradycardia may exacerbate underlying repolarization danger (i.e., QT prolongation), the bradycardia is not the most pressing issue. Other than its propensity to cause bradycardia, metoprolol (Option C) does not have a significant effect on the QT interval, and discontinuing the dofetilide is far more important. In addition, when assessing the QT when bradycardia is present, it is important to recognize that the Bazett formula (QTc = QT / √RR) tends to undercorrect the QT at rates less than 60/min.Continuing current management and specifically continuing the dofetilide (Option D) would be inappropriate given the already prolonged QT interval on dofetilide and the possibility of worsening QT prolongation with the addition of methadone. Dofetilide should not be administered with other drugs that prolong the QT syndrome. Other means of addressing the patient's atrial fibrillation that do not include the use of an antiarrhythmic that prolongs the QT interval should be pursued.",
+  "key_points": [
+    "Use of class III antiarrhythmics (e.g., dofetilide) exposes patients to significant risk for QT prolongation and subsequent ventricular arrhythmias; other medications that prolong the QT interval should not be coadministered with class III antiarrhythmics."
+  ],
+  "references": "January CT, Wann LS, Calkins H, et al. 2019 AHA/ACC/HRS focused update of the 2014 AHA/ACC/HRS guideline for the management of patients with atrial fibrillation: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. J Am Coll Cardiol. 2019;74:104-132. PMID: 30703431 doi:10.1016/j.jacc.2019.01.011",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24010"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T22:49:25.308993-06:00"
+}

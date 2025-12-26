@@ -1,0 +1,60 @@
+{
+  "question_id": "npcor25026",
+  "category": "np",
+  "educational_objective": "Diagnose ANCA-associated glomerulonephritis.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 79-year-old woman is hospitalized for acute kidney injury. She has a 2-week history of malaise, fatigue, and anorexia. She has a history of hypertension for which she takes amlodipine.On physical examination, blood pressure is 145/88 mm Hg. No rash or edema is noted. The remainder of the examination is unremarkable.Laboratory studies:Albumin3.8 g/dL (38 g/L) C3 complement NormalCreatinine2.9 mg/dL (256.4 µmol/L)H1 month ago1.1 mg/dL (97.2 µmol/L)Myeloperoxidase antibodiesPositiveProteinase-3 antibodiesNegativeAntinuclear antibodies1:40Anti–glomerular basement membrane antibodiesNegativeUrinalysis with microscopyHematuria, proteinuria, numerous erythrocytes, rare erythrocyte castsKidney ultrasonography results are normal.Kidney biopsy shows necrotizing and pauci-immune crescentic glomerulonephritis on light microscopy and negative staining on immunofluorescence.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "ANCA-associated glomerulonephritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Infection-related glomerulonephritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Lupus nephritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Membranous nephropathy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis in this patient with rapidly progressive glomerulonephritis (RPGN) is ANCA-associated glomerulonephritis (Option A). RPGN is a clinical entity that manifests with at least a 50% decline in glomerular filtration rate within days to months, hematuria and proteinuria, and pathology findings of extensive glomerular crescents. ANCA-associated glomerulonephritis accounts for >50% of all cases of RPGN, with a particularly high prevalence in patients aged ≥65 years. Most patients with ANCA-associated glomerulonephritis report a vasculitic prodrome of malaise, arthralgia, myalgia, and flu-like symptoms that can include fever. Kidney involvement can produce dark brown urine, and laboratory studies will confirm the presence of hematuria, proteinuria, and acute kidney injury. Lung and sinus involvement often occurs in ANCA-associated glomerulonephritis, with patients reporting hemoptysis and/or epistaxis. Patients exhibit either myeloperoxidase (MPO) or proteinase-3 positivity, and many patients with drug-induced ANCA disease have positive titers of both antibodies. Light microscopy of the kidney biopsy shows a crescentic glomerulonephritis, but immunofluorescence shows a paucity or absence of immune-type deposits. This elderly patient with a typical disease prodrome, RPGN, MPO positivity, and a compatible biopsy can be diagnosed with ANCA-associated vasculitis.Infection-related glomerulonephritis (IRGN) (Option B) results from an ongoing or recently resolved infection. Complement levels are usually low in this condition. This patient lacks hypocomplementemia and evidence of current or recent infection. Furthermore, MPO antibodies are not elevated in IRGN, and microscopy shows a proliferating glomerulonephritis with infiltrating neutrophils.Lupus nephritis (Option C) can also present as an RPGN, but patients with lupus nephritis typically have low complement levels, and the kidney biopsy would show immunofluorescence staining for IgG in addition to co-deposits of IgA, IgM, C3, and C1q (i.e., the \"full house\" immunofluorescence pattern). This patient's low-titer antinuclear antibody positivity is nonspecific and does not indicate lupus; her advanced age at disease onset also makes lupus nephritis unlikely.Membranous nephropathy (Option D) typically manifests with progressive edema, proteinuria, hypoalbuminemia, and hyperlipidemia, most often with preserved kidney function. This patient presents with an active urine sediment and kidney injury, consistent with RPGN rather than the nephrotic syndrome of membranous nephropathy.",
+  "key_points": [
+    "ANCA-associated glomerulonephritis accounts for >50% of all cases of rapidly progressive glomerulonephritis.",
+    "ANCA-associated glomerulonephritis is characterized by an autoimmune prodrome, clinical glomerulonephritis, myeloperoxidase and/or proteinase-3 positivity, and histologic pauci-immune glomerulonephritis with negative immunofluorescence staining."
+  ],
+  "references": "Geetha D, Jefferson JA. ANCA-associated vasculitis: core curriculum 2020. Am J Kidney Dis. 2020;75:124-137. PMID: 31358311 doi:10.1053/j.ajkd.2019.04.031",
+  "related_content": {
+    "syllabus": [
+      "npsec24008_24040"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:29:49.362170-06:00"
+}

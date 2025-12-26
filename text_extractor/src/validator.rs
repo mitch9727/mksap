@@ -98,7 +98,7 @@ impl DataValidator {
                     system_id: system_id.clone(),
                     system_name: system_config.as_ref().map(|s| s.name.clone()).unwrap_or_default(),
                     found_count: 0,
-                    expected_count: system_config.as_ref().map(|s| s.total_questions).unwrap_or(0),
+                    expected_count: system_config.as_ref().map(|s| s.baseline_2024_count).unwrap_or(0),
                     valid_count: 0,
                     issues: Vec::new(),
                 }
@@ -333,16 +333,16 @@ impl DataValidator {
                 .map(|s| s.found_count)
                 .unwrap_or(0);
 
-            total_expected += system.total_questions;
+            total_expected += system.baseline_2024_count;
             total_found += found;
 
-            let percentage = if system.total_questions > 0 {
-                (found as f64 / system.total_questions as f64) * 100.0
+            let percentage = if system.baseline_2024_count > 0 {
+                (found as f64 / system.baseline_2024_count as f64) * 100.0
             } else {
                 0.0
             };
 
-            let status = if found >= system.total_questions as usize {
+            let status = if found >= system.baseline_2024_count as usize {
                 "✓"
             } else if found > 0 {
                 "⚠"
@@ -356,7 +356,7 @@ impl DataValidator {
                 display_id,
                 system.name,
                 found,
-                system.total_questions,
+                system.baseline_2024_count,
                 percentage
             ));
         }

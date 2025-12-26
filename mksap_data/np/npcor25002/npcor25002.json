@@ -1,0 +1,64 @@
+{
+  "question_id": "npcor25002",
+  "category": "np",
+  "educational_objective": "Evaluate a patient with hyponatremia due to the syndrome of inappropriate antidiuretic hormone secretion.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 65-year-old man is evaluated for hyponatremia that was discovered on recent laboratory studies. He is asymptomatic. He has a history of COPD, hypertension, and heart failure with preserved ejection fraction. He drinks alcohol in moderation daily. He quit smoking 10 years ago. Medications are furosemide, metoprolol, losartan, dapagliflozin, and inhaled tiotropium and salmeterol.On physical examination, vital signs are normal. Cardiac examination is unremarkable. Pulmonary examination reveals a prolonged expiratory phase without wheezing. Abdomen is soft, nontender, and nondistended. No peripheral edema is present.Laboratory studies:Blood urea nitrogen15 mg/dL (5.4 mmol/L)Creatinine1.1 mg/dL (97.2 µmol/L)Electrolytes:Sodium125 mEq/L (125 mmol/L)LPotassium3.8 mEq/L (3.8 mmol/L)Chloride95 mEq/L (95 mmol/L)LBicarbonate23 mEq/L (23 mmol/L)Glucose90 mg/dL (5.0 mmol/L)Serum osmolality260 mOsm/kg H2OUrine sodium36 mEq/L (36 mmol/L)Urine osmolality420 mOsm/LThyroid-stimulating hormone2.5 mµ/mL",
+  "question_stem": "Which of the following is the most appropriate next step in the management of this patient's hyponatremia?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Chest CT scan",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Discontinue furosemide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Liver ultrasonography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Recommend alcohol cessation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "Transthoracic echocardiography",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in managing this patient with hyponatremia that is most likely due to the syndrome of inappropriate antidiuretic hormone secretion (SIADH) is a chest CT scan (Option A). The first steps in evaluating hyponatremia include measurement of serum osmolality and volume status assessment (see Figure: Algorithm for the Evaluation of Hyponatremia). This patient's serum osmolality is <275 mOsm/L and he shows no signs of volume depletion or overload, indicating isovolemic hypotonic hyponatremia. Isovolemic hypotonic hyponatremia is secondary either to impaired dilution of urine or to water intake that exceeds the kidney's ability to excrete dilute urine. Urine osmolality measurement aids in assessing ADH activity and distinguishes between these causes. The patient's urine osmolality is >100 mOsm/L despite hyponatremia, and this finding is suggestive of SIADH secretion. The next step is to evaluate for causes of SIADH secretion (see Table: Causes of SIADH Secretion). Lung cancer, particularly small-cell lung carcinoma, should be considered a potential cause of SIADH secretion in this older man with a former smoking history, warranting a chest CT scan. Adrenal insufficiency and hypothyroidism are other potential causes of isovolemic hypotonic hyponatremia, but this patient has no features of adrenal insufficiency and has a normal thyroid-stimulating hormone level.Furosemide is not a cause of hyponatremia unless its use results in volume depletion. In contrast, thiazide diuretics may lead to hyponatremia. This patient has no signs of volume depletion, so discontinuing furosemide (Option B) is not warranted.Liver cirrhosis with portal hypertension can cause hyponatremia owing to systemic vasodilation with compensatory neurohumoral adaptations. This patient has no signs of cirrhosis, such as ascites. Therefore, liver ultrasonography (Option C) is not necessary.In beer potomania or a low-solute diet, urine osmolality would be <100 mOsm/L if kidney function is normal, as it is in this patient. Therefore, recommending that he discontinue alcohol use (Option D) would not address his underlying pathology: SIADH secretion.Decompensated heart failure may result in hyponatremia owing to a low effective arterial blood volume sensed by the carotid and aortic arch baroreceptors, stimulating ADH release. However, this patient has no signs of decompensated heart failure, making transthoracic echocardiography (Option E) unnecessary.",
+  "key_points": [
+    "The diagnosis of syndrome of inappropriate antidiuretic hormone secretion is characterized by hypotonic hyponatremia with urine osmolality that is inappropriately high in a euvolemic patient."
+  ],
+  "references": "Adrogué HJ, Tucker BM, Madias NE. Diagnosis and management of hyponatremia: a review. JAMA. 2022;328:280-291. PMID: 35852524 doi:10.1001/jama.2022.11176",
+  "related_content": {
+    "syllabus": [
+      "npsec24002_24007"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:29:49.304167-06:00"
+}

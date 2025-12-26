@@ -1,0 +1,60 @@
+{
+  "question_id": "cvmcq24100",
+  "category": "cv",
+  "educational_objective": "Treat a patient with acute decompensated heart failure and diuresis-resistant volume overload.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 54-year-old man is evaluated in the emergency department for dyspnea. He has a history of heart failure with reduced ejection fraction (ejection fraction 25%). Over the past 2 weeks, he has had progressive dyspnea that has not responded to escalating doses of furosemide. He now has dyspnea with minimal exertion. He has orthopnea but no chest pain. Three years ago, he had an implantable cardioverter-defibrillator placed. The rest of his medical history is unremarkable. Medications are furosemide, carvedilol, spironolactone, valsartan-sacubitril, and dapagliflozin.On physical examination, blood pressure is 106/72 mm Hg and pulse rate is 88/min. Jugular venous distention is present 10 cm above the clavicle. Cardiopulmonary examination reveals bibasilar crackles one third above the lung bases and an S3. Lower extremity edema is noted extending above the knees.",
+  "question_stem": "Which of the following is the most appropriate next step in treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Start dopamine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Start intravenous furosemide at twice the daily outpatient oral dosage",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Start metolazone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Switch valsartan-sacubitril to enalapril",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in the treatment of this patient with decompensated heart failure is intravenous furosemide at twice the outpatient oral dosage (Option B). In patients with decompensated heart failure with fluid overload, effective diuresis, usually with loop diuretics, is essential. Guidelines suggest doubling the oral outpatient diuretic dosage as the initial intravenous diuretic dose. If there is an inadequate response to this initial dose, an additional doubling is recommended. A urine sodium level greater than 50 to 70 mEq/L (50-70 mmol/L) 2 hours after a diuretic dose and urinary output of greater than 100 mL/h for the next 6 hours can be used as markers of adequate diuresis. This patient presents with acute decompensated heart failure and findings consistent with volume overload, including elevated central venous pressure, pulmonary crackles, an S3, and edema. Intravenous furosemide at twice the outpatient oral dosage should be started.The use of dopamine (Option A) or other inotropic agents has not been shown to improve outcomes in patients hospitalized with acute heart failure. The ROSE trial compared low-dose dopamine versus nesiritide (no longer available) versus placebo in patients hospitalized with acute heart failure. No difference was observed in the primary end point of 72-hour urine volume or change in cystatin C level. In addition, no changes were noted in the end points of decongestion, renal function, and clinical events.In patients with decompensated heart failure and fluid overload who do not achieve adequate diuresis with appropriately dosed loop diuretics, adding a thiazide diuretic such as metolazone may be considered. In this patient, however, an adequate trial of an intravenous loop diuretic has not yet failed and starting metolazone (Option C) would be premature.Valsartan-sacubitril has been shown to reduce mortality and heart failure hospitalizations compared with enalapril and should be used instead of ACE inhibitors or angiotensin receptor blockers (ARBs). Occasionally, patients cannot tolerate this agent because of hypotension, and conversion to an ACE inhibitor or ARB without the neprilysin component sacubitril is indicated. However, this patient's blood pressure is adequate and he is currently tolerating valsartan-sacubitril, so switching to enalapril (Option D) is not warranted. In general, a patient's outpatient medical regimen should be continued during a heart failure hospitalization and not discontinued or decreased in dosage if possible. Occasionally, β-blockers must be discontinued because of their negative inotropic effect, but once the patient undergoes diuresis and is near euvolemic, restarting β-blocker therapy should be attempted.",
+  "key_points": [
+    "In patients with decompensated heart failure and volume overload, the most appropriate initial dose of intravenous loop diuretics is twice the usual outpatient oral dosage.",
+    "The addition of a thiazide diuretic such as metolazone may be considered in patients with decompensated heart failure and fluid overload who do not achieve adequate diuresis with appropriately dosed loop diuretics."
+  ],
+  "references": "Mauro C, Chianese S, Cocchia R, et al. Acute heart failure: diagnostic-therapeutic pathways and preventive strategies-a real-world clinician's guide. J Clin Med. 2023;12. PMID: 36769495 doi:10.3390/jcm12030846",
+  "related_content": {
+    "syllabus": [
+      "cvsec24005_24034"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T22:49:23.139436-06:00"
+}

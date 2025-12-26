@@ -1,0 +1,64 @@
+{
+  "category": "pm",
+  "critique": "The most likely diagnosis in this patient with exertional dyspnea and an abnormal flow-volume loop is tracheal stenosis (Option D). Flow-volume loops plot air flow against volume during maximal inspiration and expiration. The pattern seen on the flow limbs can suggest the underlying cause of pulmonary symptoms. Flattened inspiratory and expiratory limbs suggest a fixed airway obstruction, as can occur with tumor or tracheal stenosis. Tracheal stenosis occurs in up to 10% of patients following tracheostomy and often presents with exertional dyspnea. Pulmonary function tests show variable results, but the flow-volume loop shows the characteristic changes of the inspiratory and expiratory limbs. This patient underwent previous tracheostomy and now has significant exertional dyspnea; the flow-volume loop demonstrates flattening of the inspiratory and expiratory limbs. A fixed obstruction, such as tracheal stenosis, is the most likely diagnosis.Spirometry in asthma (Option A) demonstrates a decrease in FEV1 and the FEV1/FVC ratio, with improvement in FEV1 and/or FVC after administration of an inhaled bronchodilator. In some patients with asthma, spirometry results are normal and a methacholine challenge test is necessary to make the diagnosis. The flow-volume loop in asthma typically shows a concave expiratory limb rather than the flattened limb seen in this patient, making asthma an unlikely diagnosis.Inducible laryngeal obstruction (ILO) (Option B) is not the most likely diagnosis in this patient. ILO is a transient inappropriate narrowing of the larynx in response to triggers, which may include asthma, exercise, and stress. Symptoms include dyspnea and cough. Spirometry may show flattening of the inspiratory loop of the flow-volume curve, but laryngoscopy is required for diagnosis. This patient's flow-volume loop shows flattening of both the inspiratory and expiratory limbs, which is inconsistent with ILO.Neuromuscular weakness (Option C) is common after critical illness. The flow-volume loop in neuromuscular disease is characterized by a narrow flow-volume plot and a reduction in all lung volumes. Although this patient is at risk for post-ICU weakness, they are increasing their physical activity and have flattening of both limbs of the flow volume loops, neither of which suggests neuromuscular weakness.",
+  "educational_objective": "Diagnose tracheal stenosis using spirometry.",
+  "extracted_at": "2025-12-23T14:15:53.025402-06:00",
+  "key_points": [
+    "A flow-volume loop showing flattening of both the inspiratory and expiratory limbs suggests a fixed airway obstruction, such as may occur with tumor or tracheal stenosis."
+  ],
+  "media": {
+    "images": [
+      "figures/pmfig24209.dd8d163c3bcafe32223a9be2255ba275.svg",
+      "figures/pmfig24208.dd26858f6391511067f229d911cac144.svg"
+    ],
+    "svgs": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/23/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Asthma"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Inducible laryngeal obstruction"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Neuromuscular disease"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Tracheal stenosis"
+    }
+  ],
+  "question_id": "pmmcq24042",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "question_text": "A 32-year-old patient is evaluated for shortness of breath. Ten days ago, they were discharged after an extended hospitalization following a motorcycle collision 2 months ago. Injuries included a subarachnoid hemorrhage, multiple fractured ribs, and a fractured femur. During the hospitalization, the patient underwent tracheostomy and prolonged mechanical ventilation. They improved during the hospital stay and have been off mechanical ventilation for 4 weeks. Since discharge, they have noted shortness of breath with exertion as they have increased their level of activity. They have no chest pain or wheezing. Other notable medical history consists of childhood asthma that has been quiescent for more than a decade. They take no medications.On physical examination, vital signs are normal. The tracheostomy scar is healed.Flow-volume loop is shown.",
+  "references": "Stanojevic S, Kaminsky DA, Miller MR, et al. ERS/ATS technical standard on interpretive strategies for routine lung function tests. Eur Respir J. 2022;60. PMID: 34949706 doi:10.1183/13993003.01499-2021",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "pmsec24001_24005"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

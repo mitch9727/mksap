@@ -1,0 +1,61 @@
+{
+  "category": "id",
+  "critique": "The most appropriate management for this patient with community-acquired pneumonia (CAP) is to de-escalate antibiotics to ceftriaxone and azithromycin (Option A). His previous hospitalization and parenteral antibiotic treatment places him at risk for infection with methicillin-resistant Staphylococcus aureus (MRSA) and Pseudomonas. Therefore, vancomycin, cefepime, and azithromycin were initiated at admission (). However, blood and sputum cultures have not grown Pseudomonas in the past 48 hours and the nasal swab for MRSA at admission was negative. Antibiotics can be de-escalated to standard CAP treatment for hospitalized patients, which includes an intravenous β-lactam plus a macrolide (ceftriaxone and azithromycin).Because sputum and blood cultures have not grown MRSA or Pseudomonas after 48 hours, continuing the current regimen of vancomycin, cefepime, and azithromycin (Option B) would expose the patient to unnecessarily broad antibiotic treatment.Clinical data that support repeating chest imaging (Option C) in adults with CAP are limited. Repeat chest radiography in a patient whose symptoms are improving is unlikely to change clinical management, and radiographic features often lag behind clinical improvement. In those whose symptoms have resolved within 5 to 7 days, routine follow-up chest imaging is typically not necessary. However, readmission rates among hospitalized patients approach 20%, and close outpatient follow-up to ensure clinical stability after therapy completion is necessary.Evidence from 2023 studies has shown a survival benefit among patients with severe CAP (i.e., patients admitted to the ICU and those at high risk for respiratory failure with the initiation of at least high-flow oxygen) treated with hydrocortisone. However, glucocorticoid therapy should be avoided in patients with influenza pneumonia and in those with suspected fungal or mycobacterial infection. This patient does not require solumedrol (Option D).",
+  "educational_objective": "Treat community-acquired pneumonia.",
+  "extracted_at": "2025-12-22T19:46:53.012016-06:00",
+  "key_points": [
+    "In patients with community-acquired pneumonia at high risk for methicillin-resistant Staphylococcus aureus or Pseudomonas, antibiotic therapy can be de-escalated if testing is negative for these organisms."
+  ],
+  "media": {
+    "images": [],
+    "svgs": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/22/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Change antibiotics to ceftriaxone and azithromycin"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Continue current treatment for a total duration of 7 days"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Repeat chest radiography"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Start intravenous solumedrol"
+    }
+  ],
+  "question_id": "idmcq24036",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "question_text": "A 67-year-old man undergoes follow-up evaluation in the hospital. He was admitted 3 days ago for fever, cough, and shortness of breath. A chest radiograph showed a right lower lobe infiltrate and hyperexpanded lung fields throughout. Testing for influenza and SARS-CoV-2 was negative. Vancomycin, cefepime, and azithromycin were initiated. He has now been afebrile for 24 hours. Medical history is significant for a hospitalization 1 month ago for lower extremity cellulitis; he received intravenous antibiotics and was discharged with oral antibiotic therapy.On physical examination, temperature is 37.3 °C (99.1 °F), blood pressure is 110/68 mm Hg, pulse rate is 85/min, and respiration rate is 16/min. Oxygen saturation is 94% breathing 1 L of oxygen by nasal cannula. Crackles are heard in the right lower lung field.Sputum and blood cultures are negative at 48 hours; a nasal swab polymerase chain reaction test from admission is negative for methicillin-resistant Staphylococcus aureus.",
+  "references": "File TM Jr, Ramirez JA. Community-acquired pneumonia. N Engl J Med. 2023;389:632-641. PMID: 37585629 doi:10.1056/NEJMcp2303286",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "idsec24006_24006"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "question_id": "idmcq24085",
+  "category": "id",
+  "educational_objective": "Choose the appropriate diagnostic test for a first episode of <i>Clostridioides difficile</i> infection.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 33-year-old woman is evaluated for abdominal pain, a 2-day history of watery diarrhea five times daily, and a suspected Clostridioides difficile infection. She is completing treatment for pyelonephritis with ciprofloxacin; her medical history is otherwise unremarkable. She reports no laxative use and takes no additional medications.On physical examination, vital signs are normal. Abdominal examination reveals mild tenderness to palpation, with no guarding or rebound.",
+  "question_stem": "Which of the following tests would be most appropriate in establishing the diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Colonoscopy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Stool enzyme immunoassay for C. difficile toxin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Stool enzyme immunoassay for glutamate dehydrogenase",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Stool nucleic acid amplification testing for C. difficile toxin genes",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Nucleic acid amplification testing (NAAT) of stool should be performed for Clostridioides difficile toxin genes (Option D). This patient has diarrhea, abdominal pain, and suspected C. difficile infection (CDI) following antibiotic treatment. C. difficile produces an enterotoxin (toxin A) and a cytotoxin (toxin B) that cause clinical illness. Diagnostic testing for CDI is indicated in patients with new onset of more than three unformed stools in 24 hours that is not explained by an alternative condition, such as laxative use. NAAT for C. difficile toxin genes is sensitive and specific if appropriate institutional stool submission criteria are strictly met (no laxative use; more than three new-onset, unformed, and unexplained stools in 24 hours). In this setting, NAAT alone is sufficient. A multistep diagnostic approach for stool enzyme immunoassay (EIA) toxin testing using glutamate dehydrogenase (GDH) plus toxin (discordant results require NAAT testing); GDH plus toxin; or NAAT plus toxin can alternatively be pursued, particularly in settings not adherent to the aforementioned specified criteria for stool submission.Colonoscopy (Option A) is not routinely pursued in suspected CDI and is not appropriate for this patient. It may be helpful in evaluating a patient with a suspected alternative diagnosis that requires endoscopic visualization and biopsy or in patients with falsely negative C. difficile stool studies by visualizing mucosal pseudomembranous plaques. However, pseudomembranous plaques are not present in all patients with CDI, so their absence cannot rule out CDI. Colonoscopy may be contraindicated in patients with more severe presentations because of the risk of colonic perforation.Although highly specific and rapid, EIA testing for toxins A and B (Option B) lacks sensitivity and is not recommended as a standalone test for CDI diagnosis. It is used in combination with more sensitive tests (EIA for GDH or NAAT) as part of multistep testing algorithms.EIA testing for GDH (Option C), an antigenic enzymatic protein present in all C. difficile isolates, is sensitive but lacks specificity because it is detected in both toxigenic and nontoxigenic strains. It is not recommended as a standalone test for CDI diagnosis but can be combined with more specific tests (EIA for toxin) as part of multiple-step testing algorithms.",
+  "key_points": [
+    "Nucleic acid amplification testing for Clostridioides difficile toxin genes is sensitive and specific if stool submission criteria (no laxative use; new onset of more than three unformed and unexplained stools in 24 hours) are strictly met."
+  ],
+  "references": "McDonald LC, Gerding DN, Johnson S, et al. Clinical practice guidelines for Clostridium difficile infection in adults and children: 2017 update by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA). Clin Infect Dis. 2018;66:e1-e48. PMID: 29462280 doi:10.1093/cid/cix1085",
+  "related_content": {
+    "syllabus": [
+      "idsec24016_24008"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-23T15:17:18.163515-06:00"
+}

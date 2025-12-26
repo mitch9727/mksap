@@ -1,0 +1,60 @@
+{
+  "question_id": "encor25008",
+  "category": "en",
+  "educational_objective": "Treat diabetic ketoacidosis.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 19-year-old man is evaluated in the emergency department for lethargy and vomiting. He has type 1 diabetes mellitus. His roommate, who accompanies him, explains that, for financial reasons, he has been using less insulin than prescribed for the past 2 weeks.On physical examination, blood pressure is 100/60 mm Hg, pulse rate is 110/min, respiration rate is 20/min, and oxygen saturation is 98% with the patient breathing ambient air. His mucous membranes are dry, and he has mild abdominal discomfort to palpation. Other than tachycardia, the remainder of the physical examination is normal.Laboratory studies:Anion gap22 mEq/L (22 mmol/L)HpH7.2LSodium138 mEq/L (138 mmol/L)Potassium3.2 mEq/L (3.2 mmol/L)LBicarbonate10 mEq/L (10 mmol/L)LGlucose500 mg/dL (27.8 mmol/L)HPhosphorus3 mg/dL (0.97 mmol/L)Serum β-hydroxybutyrate level is elevated.Fluid resuscitation with 0.9% saline is initiated.",
+  "question_stem": "Intravenous administration of which of the following is the most appropriate next step in treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Insulin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Phosphorus",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Potassium chloride",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sodium bicarbonate",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in the treatment of this patient with diabetic ketoacidosis (DKA) is to administer potassium chloride (Option C). DKA typically occurs in patients with type 1 diabetes mellitus who are younger than 65 years. Severe hyperglycemia results from insufficient insulin levels coupled with an increase in counterregulatory hormones. This condition impairs efficient glucose use and subsequently stimulates glycogenolysis and gluconeogenesis. DKA must be treated early and aggressively to avoid life-threatening consequences from dehydration and electrolyte abnormalities. Glucosuria in DKA causes an osmotic diuresis and severe volume depletion; therefore, aggressive intravenous volume replacement with crystalloid solution is immediately indicated. The osmotic diuresis may also cause significant electrolyte derangements, including urinary potassium losses, depleting total body potassium stores. Additionally, insulin deficiency induces shifts in potassium from the intracellular to extracellular compartments. As a result, administering insulin to correct hyperglycemia can precipitate severe hypokalemia. To avoid cardiac complications, serum potassium levels must be greater than 3.5 mEq/L (3.5 mmol/L) before initiating intravenous insulin. Intravenous potassium chloride should be administered at a rate of 10 to 20 mEq/L/h until the serum potassium level is greater than 3.5 mEq/L (3.5 mmol/L); more aggressive replacement requires central venous access. When the potassium level is greater than 3.5 mEq/L (3.5 mmol/L), insulin should be started and 10 to 20 mEq of potassium chloride added to each liter of intravenous fluids to maintain a potassium level of 4.0 to 5.0 mEq/L (4.0-5.0 mmol/L). This patient's potassium level is 3.2 mEq/L (3.2 mmol/L), and the first step in managing his DKA is to administer intravenous potassium.Initiating insulin (Option A) before potassium replacement could cause life-threatening hypokalemia because insulin shifts potassium into the intracellular space. Therefore, potassium should be replaced before initiating insulin.Because DKA is often associated with hypophosphatemia, phosphorus levels should be monitored. However, routine phosphorus replacement (Option B) is not indicated because no therapeutic benefit is evident, except in severe hypophosphatemia (<1 mg/dL [0.32 mmol/L]). After DKA correction, hypophosphatemia can generally be treated with phosphorus-rich foods, such as dairy products.Sodium bicarbonate (Option D) is only considered in patients with severe acidosis (pH <7.0) because it is associated with adverse effects such as hypokalemia, cerebral edema, and development of paradoxical central nervous system acidosis.",
+  "key_points": [
+    "In diabetic ketoacidosis (DKA), total body potassium stores are depleted.",
+    "In patients with DKA, initiating insulin before potassium replacement when potassium is less than 3.5 mEq/L (3.5 mmol/L) may result in life-threatening hypokalemia."
+  ],
+  "references": "Umpierrez GE, Davis GM, ElSayed NA, et al. Hyperglycaemic crises in adults with diabetes: a consensus report. Diabetologia. 2024;67:1455-1479. PMID: 38907161 doi:10.1007/s00125-024-06183-8",
+  "related_content": {
+    "syllabus": [
+      "ensec24002_24036"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:27:18.681225-06:00"
+}

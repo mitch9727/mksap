@@ -1,0 +1,59 @@
+{
+  "category": "cv",
+  "critique": "This ECG shows a prior lateral myocardial infarction (Option C), with initial deep Q waves in leads I, aVL, and V6. There are no such changes in the anterior and posterior precordial leads (V1 through V3) or in the inferior leads (II, III, aVF), nor are there findings consistent with acute ischemia (e.g., dynamic ST-segment and/or T-wave changes, depressions, or elevations).",
+  "educational_objective": "Identify a prior lateral myocardial infarction on ECG.",
+  "extracted_at": "2025-12-23T14:08:40.429999-06:00",
+  "key_points": [],
+  "media": {
+    "images": [
+      "figures/cvfig24643.e25e979ef578e6b7bf3db8b6f440993b.jpg"
+    ],
+    "svgs": [],
+    "tables": [],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/23/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Prior anterior myocardial infarction"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Prior inferior myocardial infarction"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Prior lateral myocardial infarction"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Prior posterior myocardial infarction"
+    }
+  ],
+  "question_id": "cvvdx24036",
+  "question_stem": "Which of the following abnormalities best describes the findings on this patient's ECG?",
+  "question_text": "A 65-year-old woman is evaluated for a 6-week history of persistent fatigue and exertional dyspnea.ECG is shown.",
+  "references": "",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "cvsec24004_24015"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

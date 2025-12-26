@@ -1,0 +1,59 @@
+{
+  "question_id": "onqqq24009",
+  "category": "on",
+  "educational_objective": "Treat non–small cell lung cancer that responds to first-line chemotherapy with maintenance therapy.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 70-year-old woman undergoes follow-up evaluation for metastatic non–small cell lung cancer. At diagnosis, CT scan of the chest, abdomen, and pelvis revealed a 4-cm left upper lobe mass, ipsilateral mediastinal lymphadenopathy, and a 4-cm adrenal mass. Brain MRI showed no metastatic disease. Biopsy revealed adenocarcinoma. Tumor genomic profiling revealed no alterations; PD-L1 expression was 30%. She underwent four cycles of carboplatin, pemetrexed, and pembrolizumab. Her performance status has remained normal.Vital signs and physical examination, including pulmonary examination, are normal.CT scan reveals a reduction in size of the lung mass and adrenal mass.",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Carboplatin and gemcitabine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Osimertinib",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Pemetrexed plus pembrolizumab",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Radiation to the lung mass",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "For this patient, the most appropriate maintenance treatment is pemetrexed plus pembrolizumab (Option C). In the absence of a driver alteration, the standard management for patients with metastatic non–small cell lung cancer (NSCLC) and good performance status is platinum-based chemotherapy plus immunotherapy. Many combinations can be used, including carboplatin, pemetrexed, and pembrolizumab, which was used for this patient. Treatment is given for four to six cycles depending on response. No evidence supports continuation of platinum-based chemoimmunotherapy after this initial course. However, maintenance therapy with pemetrexed plus pembrolizumab has been shown to improve progression-free survival and overall survival. For tumors that respond to initial treatment, it is standard to continue some treatments as maintenance therapy, specifically the targeted therapies, immunotherapies, bevacizumab, and select chemotherapies (pemetrexed, gemcitabine).Continuation of platinum-based chemotherapy with a different partner agent, such as gemcitabine (Option A), is not indicated for this patient. No evidence supports the use of carboplatin beyond six cycles in patients with metastatic NSCLC. In addition, this patient has been diagnosed with adenocarcinoma, and available evidence indicates that gemcitabine is less effective for treatment of adenocarcinoma.Because this patient did not have an epidermal growth factor receptor mutation, osimertinib (Option B) has no role in treatment.For patients with metastatic disease, radiation therapy (Option D) is generally reserved for palliation of cancer-related symptoms, most commonly pain. In patients with very limited residual disease after systemic therapy, stereotactic body radiation therapy can be used to treat residual metastatic sites. This improves progression-free survival compared with maintenance chemotherapy alone. It can also be used to treat isolated or limited areas of disease progression in patients receiving otherwise active systemic therapy.",
+  "key_points": [
+    "Maintenance chemoimmunotherapy is an appropriate option for patients with metastatic non–small cell lung cancer who respond to first-line platinum-based chemotherapy with immunotherapy."
+  ],
+  "references": "Garassino MC, Gadgeel S, Speranza G, et al. Pembrolizumab plus pemetrexed and platinum in nonsquamous non-small-cell lung cancer: 5-year outcomes from the phase 3 KEYNOTE-189 study. J Clin Oncol. 2023;41:1992-1998. PMID: 36809080 doi:10.1200/JCO.22.01989",
+  "related_content": {
+    "syllabus": [
+      "onsec24004_24006"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-23T14:12:25.079244-06:00"
+}

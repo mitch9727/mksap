@@ -1,0 +1,60 @@
+{
+  "question_id": "idmcq24077",
+  "category": "id",
+  "educational_objective": "Diagnose acute HIV infection.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 22-year-old man is evaluated for fever, headache, and sore throat. He has had no sick contacts. He reports having multiple male sexual partners. HIV testing 1 year ago was negative. He takes no medications.On physical examination, temperature is 38.3 °C (100.9 °F). The oropharynx is erythematous but without exudate. Cervical lymphadenopathy is palpated. An erythematous maculopapular rash is present over the upper chest.HIV-1/2 antigen/antibody combination immunoassay is positive. HIV-1/2 antibody differentiation immunoassay is negative. HIV nucleic acid amplification testing is positive.",
+  "question_stem": "Which of the following is the most appropriate interpretation of the results?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute HIV-1 infection",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "False-positive test result",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "HIV elite controller",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "HIV-2 infection",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Considering this patient's risk factors for HIV acquisition and his symptoms of acute viral illness, acute HIV-1 infection (Option A) is the most likely interpretation of his test results. The fourth-generation HIV antigen/antibody combination immunoassay assesses the presence of the HIV p24 antigen and HIV-1 and HIV-2 antibodies. The detection of p24 antigen is an advance over previous HIV tests; p24 antigen is present before development of HIV antibodies. If this initial test is negative, the patient does not have HIV infection. If the initial test is positive, a confirmatory HIV-1/2 antibody differentiation immunoassay test is reflexively ordered, which confirms the first test was accurate and detects the presence of HIV-1 or HIV-2 antibodies. A confirmatory test that is indeterminate or negative could mean the first test was a false positive or the patient has early HIV infection without detectable antibodies. HIV RNA testing, which can detect the virus as early as 6 to 8 days after infection, can distinguish between a false-positive result and early HIV infection. The HIV testing algorithm is outlined in Figure: HIV Laboratory Testing Algorithm.False-positive HIV-1/2 antigen/antibody combination immunoassay results (Option B) can occur rarely, particularly in low prevalence settings, and may be explained by cross-reactive antibodies. In the setting of a false-positive test, the confirmatory HIV-1/2 antibody differentiation immunoassay and nucleic acid amplification testing should be negative. This patient has detectable HIV nucleic acid, which, together with his symptoms of an acute viral illness and risk factors for HIV, supports a diagnosis of acute HIV infection.A few persons with HIV maintain low or undetectable levels of HIV RNA, accompanied by well-preserved CD4 cell counts, in the absence of antiretroviral therapy; these patients are considered to be “HIV controllers” (Option C), “non-viremic controllers”, or “HIV elite controllers”. A confirmatory HIV-1/2 antibody differentiation immunoassay detecting the presence of HIV antibodies and serial quantitative HIV RNA detecting very low or undetectable viral loads would be necessary to confirm this diagnosis.HIV-2 (Option D) is a less progressive infection that is associated with a lower risk of immunocompromise. HIV-1/2 antibody differentiation assay detects the presence of HIV-1, HIV-2, or both antibodies. This patient's differentiation assay was negative, indicating no HIV-2 antibodies. HIV-2 infection primarily occurs in parts of Africa and is rare in the United States. This patient's symptoms and results are more likely to result from HIV-1 infection.",
+  "key_points": [
+    "The fourth-generation HIV antigen/antibody combination immunoassay assesses the presence of the HIV p24 antigen and HIV-1 and HIV-2 antibodies.",
+    "The HIV p24 antigen develops before HIV antibodies and can be used to detect early infection."
+  ],
+  "references": "Saag MS. HIV infection - screening, diagnosis, and treatment. N Engl J Med. 2021;384:2131-2143. PMID: 34077645 doi:10.1056/NEJMcp1915826",
+  "related_content": {
+    "syllabus": [
+      "idsec24019_24001"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T19:47:15.338802-06:00"
+}

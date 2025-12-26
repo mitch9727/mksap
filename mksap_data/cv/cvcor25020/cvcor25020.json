@@ -1,0 +1,65 @@
+{
+  "question_id": "cvcor25020",
+  "category": "cv",
+  "educational_objective": "Initiate statin therapy for secondary prevention of myocardial infarction.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 61-year-old man is evaluated during a new patient visit. He is asymptomatic. He has not received medical care since a myocardial infarction 7 months ago. He has no history of liver disease. He does not exercise and quit smoking 5 years ago.On physical examination, blood pressure is 138/82 mm Hg. BMI is 28. Other physical examination findings are normal.Hospital records are requested. Counseling on lifestyle modification is provided. Baseline laboratory tests are ordered. Metoprolol and aspirin are initiated, and a follow-up appointment is scheduled.",
+  "question_stem": "Which of the following is the most appropriate additional treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Ezetimibe",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "High-intensity rosuvastatin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Moderate-intensity simvastatin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Proprotein convertase subtilisin/kexin type 9 monoclonal antibody",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "Wait for LDL cholesterol level, then determine treatment",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment is high-intensity rosuvastatin (Option B). According to the American Heart Association/American College of Cardiology, patients aged 75 years or younger with a history of atherosclerotic cardiovascular disease (ASCVD) should be prescribed high-intensity statin therapy (rosuvastatin or atorvastatin) as secondary prevention (see Table: High- and Moderate-Intensity Statin Therapy). Clinical ASCVD is defined as acute coronary syndrome, myocardial infarction, stable or unstable angina, coronary artery revascularization, stroke, transient ischemic attack, or peripheral artery disease. The 2020 U.S. Department of Veterans Affairs and U.S. Department of Defense cholesterol guideline also recommends high-intensity statin therapy in higher-risk patients, such as those with myocardial infarction or acute coronary syndrome in the past 12 months. Therapy in this patient population should be started regardless of initial LDL cholesterol level. The goal of drug therapy is to decrease the LDL cholesterol level by 50% or more. LDL cholesterol should be measured again in approximately 6 to 8 weeks to ensure adherence to the medication regimen and successful lowering of cholesterol levels. If the patient does not tolerate high-intensity statin therapy, moderate-intensity statin therapy should be initiated.In patients with clinical ASCVD who do not achieve a 50% or greater reduction in LDL cholesterol level or who continue to have an elevated LDL cholesterol level (>70 mg/dL [1.81 mmol/L]) despite maximally tolerated statin therapy, ezetimibe (Option A) may be considered as an addition to the statin medication. Because this patient has not yet begun receiving statin therapy, ezetimibe would not be the most appropriate additional treatment.Moderate-intensity statin therapy, such as with simvastatin (Option C), is not the most appropriate management for secondary prevention of ASCVD in patients at high risk, who should first be offered high-intensity treatment. However, in patients for whom high-intensity statin therapy is contraindicated or not tolerated, moderate-intensity statin therapy should be initiated to achieve a reduction in LDL cholesterol of 30% to 49%.If LDL cholesterol goals are still unmet after treatment with a high-intensity statin and the addition of ezetimibe, addition of a proprotein convertase subtilisin/kexin type 9 (PCSK9) monoclonal antibody (Option D) may be considered.Patients with ASCVD should be prescribed statin therapy as secondary prevention. Furthermore, this patient meets criteria for high-intensity statin therapy based on his recent myocardial infarction. Therefore, waiting for LDL cholesterol level results before determining treatment (Option E) would not be appropriate.",
+  "key_points": [
+    "Patients aged 75 years or younger with clinical atherosclerotic cardiovascular disease (ASCVD) should be prescribed a high-intensity statin as secondary prevention.",
+    "If patients with clinical ASCVD continue to have an elevated LDL cholesterol level despite maximally tolerated statin therapy, addition of ezetimibe may be considered."
+  ],
+  "references": "Grundy SM, Stone NJ, Bailey AL, et al. 2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA guideline on the management of blood cholesterol: A report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. Circulation. 2019;139:e1082-e1143. PMID: 30586774 doi:10.1161/CIR.0000000000000625",
+  "related_content": {
+    "syllabus": [
+      "cvsec24002_24014"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:26:28.455490-06:00"
+}

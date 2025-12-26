@@ -1,0 +1,59 @@
+{
+  "question_id": "npmcq24050",
+  "category": "np",
+  "educational_objective": "Screen for chronic kidney disease in a patient with type 2 diabetes mellitus.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 50-year-old man is evaluated during a routine health examination. He has type 2 diabetes mellitus. Medications are metformin and semaglutide.Physical examination findings, including vital signs, are normal.Serum electrolyte levels and kidney function are normal.",
+  "question_stem": "Which of the following is the most appropriate screening test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "24-Hour urine protein excretion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Spot urine albumin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Urinalysis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Urine albumin-creatinine ratio",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate screening test to perform next is a urine albumin-creatinine ratio (UACR) (Option D). The American Diabetes Association and Kidney Disease: Improving Global Outcomes recommend screening patients with type 2 diabetes mellitus for chronic kidney disease (CKD) yearly, beginning at the time of diabetes diagnosis. A “spot,” or “random,” UACR is the recommended screening test. Random and timed collections correlate relatively well and are accurate enough for screening and monitoring. Urine albumin, when present at high levels, indicates glomerular injury; conversely, the absence of albuminuria essentially excludes most glomerular diseases. A UACR less than 30 mg/g is considered normal, 30 to 300 mg/g moderately increased, and greater than 300 mg/g severely increased. Patients who are found to have a moderately or severely increased UACR should have repeat testing within a 3- to 6-month period for confirmation; if the UACR is still elevated, patients should be treated for CKD.A 24-hour urine protein excretion (Option A) can be used to accurately quantify urinary protein. However, this test can be burdensome to patients, and it is not recommended as the preferred test to screen for CKD in patients with diabetes. For patients with a stable serum creatinine level, quantification with a UACR is preferred.Measurement of spot, or random, urine albumin (Option B) without a concurrent urine creatinine may result in false-negative or false-positive results because of urine concentration variations. Additionally, if testing for urine albumin is positive, confirmatory testing with a UACR is still required. Therefore, urine albumin measurement is not recommended as a screening test.Proteinuria may be detected on urinalysis (Option C), but it is less sensitive than a UACR, and lower concentrations of albuminuria may not be detected. Because kidney disease–modifying therapies (e.g., renin-angiotensin system inhibition, sodium-glucose cotransporter 2 inhibitor) may be indicated in patients with albuminuria, a UACR is preferred over urinalysis for screening.",
+  "key_points": [
+    "The American Diabetes Association and Kidney Disease: Improving Global Outcomes recommend a yearly urine albumin-creatine ratio in patients with type 2 diabetes mellitus to screen for chronic kidney disease."
+  ],
+  "references": "American Diabetes Association Professional Practice Committee. 11. Chronic kidney disease and risk management: standards of care in diabetes-2025. Diabetes Care. 2025;48:S239-S251. PMID: 39651975 doi:10.2337/dc25-S011",
+  "related_content": {
+    "syllabus": [
+      "npsec24001_24024"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T20:06:50.448852-06:00"
+}

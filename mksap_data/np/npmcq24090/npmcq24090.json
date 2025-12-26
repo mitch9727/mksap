@@ -1,0 +1,66 @@
+{
+  "category": "np",
+  "critique": "The most likely cause of this patient's anion gap metabolic acidosis is pyroglutamic acidosis (Option D). This patient has an anion gap metabolic acidosis, which is determined as follows:[Serum Sodium – (Serum Chloride + Serum Bicarbonate)] + [2.5 (4.0 – Serum Albumin)]Or, in this case,[138 mEq/L – (102 mEq/L + 18 mEq/L)] + [2.5 (4.0 − 2.0 g/dL)] = 23 mEq/LThe causes of an anion gap metabolic acidosis can be remembered using the mnemonic GOLDMARK (Glycols, 5-Oxoproline, L-lactate, D-lactate, Methanol, Aspirin, Renal failure, Ketosis). Pyroglutamic (5-oxoproline) acidosis most often occurs in malnourished female patients who have been chronically taking acetaminophen, such as in this case. In the context of malnutrition, glutathione deficiency caused by acetaminophen causes an increase in 5-oxoproline (pyroglutamic acid); notably, this can occur in the setting of therapeutic acetaminophen levels. Other causes of an anion gap acidosis are unlikely in this patient. Poisoning with ethylene glycol (Option C) or methanol will also cause an anion gap metabolic acidosis; however, these causes can be differentiated from pyroglutamic acidosis by calculation of an osmolal gap, which is determined as follows:Plasma Osmolality (mOsm/kg H2O) = (2 × Serum Sodium [mEq/L]) + Plasma Glucose (mg/dL)/18 + Blood Urea Nitrogen (mg/dL)/2.8 + Ethanol (mg/dL)/4.6A high osmolal gap (>10 mOsm/kg H2O) indicates the presence of unmeasured osmoles such as methanol or ethylene glycol. This patient's osmolal gap is 8 mOsm/kg H2O, and thus ethylene glycol or methanol poisoning is unlikely. Additional causes of an anion gap acidosis are also unlikely in this patient; L-lactate, ketosis, kidney failure, and aspirin toxicity are unlikely given her laboratory findings, and D-lactate is most common in patients with short bowel syndrome, which this patient does not have.A urine dipstick negative for ketones, which measures only acetoacetate, does not definitively rule out diabetic ketoacidosis (DKA) (Option A); therefore, in cases of suspected DKA, it is important to measure β-hydroxybutyrate. However, it would be unusual for a patient such as this one to have DKA with a glucose level of 110 mg/dL (6.1 mmol/L).The most common causes of an acquired distal renal tubular acidosis (RTA) (Option B) are Sjögren disease and medications such as amphotericin, ifosfamide, and lithium; a distal RTA causes a non-anion gap acidosis, which is not present in this patient. Similarly, large quantities of 0.9% saline (Option E) can cause dilutional acidosis but not an anion gap acidosis.",
+  "educational_objective": "Diagnose the cause of an anion gap metabolic acidosis.",
+  "extracted_at": "2025-12-22T20:07:11.671296-06:00",
+  "key_points": [
+    "Pyroglutamic (5-oxoproline) acidosis typically occurs in malnourished female patients who chronically take acetaminophen and results in an anion gap metabolic acidosis."
+  ],
+  "media": {
+    "images": [],
+    "svgs": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/22/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Diabetic ketoacidosis"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Distal renal tubular acidosis"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Ethylene glycol poisoning"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Pyroglutamic acidosis"
+    },
+    {
+      "letter": "E",
+      "peer_percentage": 0,
+      "text": "0.9% Saline"
+    }
+  ],
+  "question_id": "npmcq24090",
+  "question_stem": "Which of the following is the most likely cause of this patient's metabolic acidosis?",
+  "question_text": "A 70-year-old woman is evaluated in the emergency department for a 4-day history of nausea, vomiting, and progressive confusion. Intravenous 0.9% saline was initiated on arrival. She has osteoarthritis, depression, and diet-controlled type 2 diabetes mellitus. Medications are acetaminophen and sertraline.On physical examination, blood pressure is 96/64 mm Hg, pulse rate is 104/min, and respiration rate is 20/min. BMI is 17. She is confused. Mild cachexia is noted. The remainder of the examination is unremarkable.An acetaminophen level is within the therapeutic range.",
+  "references": "Emmett M. Review of clinical disorders causing metabolic acidosis. Adv Chronic Kidney Dis. 2022;29:355-63. PMID: 36175073 doi:10.1053/j.ackd.2022.07.004",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "npsec24003_24004"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

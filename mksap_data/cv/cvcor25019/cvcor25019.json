@@ -1,0 +1,59 @@
+{
+  "question_id": "cvcor25019",
+  "category": "cv",
+  "educational_objective": "Treat iron deficiency in heart failure.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 58-year-old woman is evaluated in the hospital for decompensated heart failure (volume overload, weight gain, and shortness of breath) after she ran out of medications while traveling. After diuresis, she is back to her original weight, with symptoms returning to baseline (dyspnea with mild activity, New York Heart Association class III). She does not have light-headedness. Medical history is significant for nonischemic cardiomyopathy and placement of an implanted cardioverter-defibrillator for secondary prevention after cardiac arrest 1 year ago. Medications are amiodarone, valsartan-sacubitril, carvedilol, spironolactone, empagliflozin, and bumetanide.On physical examination, blood pressure is 98/76 mm Hg and pulse rate is 64/min. Jugular venous pulse is present at the level of the clavicle. The lungs are clear. No edema is noted.Laboratory studies:Hemoglobin11 g/dL (110 g/L)LLiver chemistry testsNormalCreatinineNormalSodium132 mEq/L (132 mmol/L)LFerritin15 ng/mL (15 µg/L)Transferrin saturation8%LThyroid-stimulating hormone5.0 µU/mL (5.0 mU/L)Thyroxine (T4), freeNormalEchocardiogram shows a left ventricular ejection fraction of 20% and mild mitral regurgitation (unchanged from 1 year ago).",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Intravenous iron",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Intravenous sodium chloride",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Oral levothyroxine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Oral midodrine",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment is intravenous iron (Option A). Iron deficiency is common in heart failure and results from the disruption of normal iron hemostasis in the setting of the proinflammatory state of heart failure. Iron repletion improves quality of life and functional status and reduces combined end points, including hospitalizations and mortality, in patients with heart failure. Heart failure clinical trials have generally defined iron deficiency as a ferritin level less than 100 ng/mL (100 µg/L) or transferrin saturation less than 20% with a ferritin level of 100 to 300 ng/mL (100-300 µg/L). This patient has iron deficiency as evidenced by a ferritin level of 15 ng/mL (15 g/L) and a transferrin saturation of 8%. Intravenous iron should be used for repletion because studies using oral iron supplementation have not consistently demonstrated clinical benefit, likely because of poor absorption and prolonged time to full repletion.Hyponatremia is common in heart failure, is generally present in more advanced or acute heart failure, and is associated with poor prognosis. Hyponatremia results from neurohormonal activation, including increased secretion of arginine vasopressin and increased activity of the renin-angiotensin-aldosterone system, resulting in overall fluid retention. Because the hyponatremia is caused by free water excess, intravenous sodium chloride (Option B) would not treat the hyponatremia associated with heart failure, as in this patient, and may worsen overall volume overload.This patient has an elevated thyroid-stimulating hormone (TSH) level, likely as a result of amiodarone therapy. However, because the TSH elevation is marginal and the free thyroxine level is normal, continued monitoring is sufficient at this time and replacement with levothyroxine (Option C) is not indicated. Routine surveillance with thyroid function studies every 6 months is recommended for patients taking amiodarone.Midodrine (Option D) is an α-adrenergic agonist frequently used to treat orthostatic hypotension. Although this patient has relatively low blood pressure compared with what would be expected for a healthy individual, this blood pressure is reasonable for someone with moderate systolic heart failure, especially if they are not demonstrating any evidence of hypoperfusion, such as light-headedness, presyncope, or syncope, or laboratory evidence of end-organ dysfunction.",
+  "key_points": [
+    "Iron replacement therapy in heart failure results in improvement in functional capacity and quality of life."
+  ],
+  "references": "Beavers CJ, Ambrosy AP, Butler J, et al. Iron deficiency in heart failure: a scientific statement from the Heart Failure Society of America. J Card Fail. 2023;29:1059-1077. PMID: 37137386 doi:10.1016/j.cardfail.2023.03.025",
+  "related_content": {
+    "syllabus": [
+      "cvsec24005_24023"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:26:28.456367-06:00"
+}

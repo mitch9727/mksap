@@ -1,0 +1,60 @@
+{
+  "question_id": "encor25011",
+  "category": "en",
+  "educational_objective": "Diagnose primary aldosteronism in a patient taking an angiotensin receptor blocker.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 55-year-old man is evaluated for resistant hypertension. He has no other medical concerns. Medications are hydrochlorothiazide, amlodipine, losartan, and potassium chloride.On physical examination, blood pressure is 178/98 mm Hg and pulse rate is 72/min. The remainder of the vital signs and physical examination are unremarkable.Laboratory studies:Plasma renin activity<0.1 ng/mL/h (normal range, 0.2-5.8 ng/mL/h)LSerum electrolyte levels are normal.",
+  "question_stem": "Which of the following is the most appropriate test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Measure plasma aldosterone level after oral salt loading",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Perform CT of the adrenal glands",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Repeat plasma renin activity measurement with plasma aldosterone concentration",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Stop losartan and repeat plasma renin activity measurement",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate test to perform next in this patient with suspected primary aldosteronism is measurement of plasma renin activity (PRA) and plasma aldosterone concentration (PAC) (Option C) to calculate a PAC/PRA ratio. Primary aldosteronism is a common cause of secondary hypertension. Screening for primary aldosteronism in patients with hypertension is recommended in several clinical scenarios (see Table: Case Detection Indications for Primary Aldosteronism). The most reliable case-detection test is calculating the PAC/PRA ratio on a midmorning seated sample. Many medications affect the PAC/PRA ratio, causing false-negative or false-positive results (see Table: Effects of Medications on PAC/PRA Measurements). Often the most salient interfering medications are antihypertensives, but taking physiology into account, screening can be done in most patients without stopping antihypertensive medications. However, mineralocorticoid receptor antagonists should be discontinued 4 to 6 weeks before evaluation if possible. In the normal physiologic state, patients taking an ACE inhibitor or angiotensin receptor blocker (ARB) will have an elevated PRA owing to biochemical feedback. Therefore, a calculation of the PAC/PRA ratio may yield a false-negative result; however, if the PRA is suppressed in patients taking such treatments, the likelihood of primary aldosteronism is high. PAC/PRA can then be calculated to support the diagnosis. This patient has a suppressed PRA while taking an ARB, so the next step is to calculate the PAC/PRA ratio.Because the PAC/PRA ratio has low specificity, confirmatory testing is usually required before conducting invasive localization procedures. The diagnosis of primary aldosteronism may be confirmed by measuring the PAC after oral sodium loading (Option A) or an intravenous saline infusion test. The failure of sodium loading to suppress elevated aldosterone levels confirms the diagnosis of primary aldosteronism. Salt loading should not precede appropriate screening with PAC/PRA ratio calculation, however.Once the diagnosis of primary aldosteronism is established, the localization study of choice is dedicated adrenal CT (Option B). Findings may include normal adrenal glands or unilateral or bilateral adenomas or hyperplasia. However, adrenal CT is not indicated in this patient before biochemical hyperaldosteronism is confirmed.Because this patient has a suppressed PRA while taking an ARB, stopping his antihypertensive regimen to screen for primary aldosteronism (Option D) is not necessary or appropriate, especially because his blood pressure is very elevated.",
+  "key_points": [
+    "The most reliable case-detection test for primary aldosteronism is calculating the plasma renin activity (PRA) to plasma aldosterone concentration (PAC) ratio on a midmorning seated sample; however, many antihypertensive medications affect the PAC/PRA ratio, potentially causing false-negative or false-positive results.",
+    "In patients taking an ACE inhibitor or an angiotensin receptor blocker, suppressed PRA is a strong predictor of primary aldosteronism."
+  ],
+  "references": "Reincke M, Bancos I, Mulatero P, et al. Diagnosis and treatment of primary aldosteronism. Lancet Diabetes Endocrinol. 2021;9:876-892. PMID: 34798068 doi:10.1016/S2213-8587(21)00210-2",
+  "related_content": {
+    "syllabus": [
+      "ensec24004_24004"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:27:18.739070-06:00"
+}

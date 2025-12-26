@@ -1,0 +1,60 @@
+{
+  "question_id": "cvcor25005",
+  "category": "cv",
+  "educational_objective": "Evaluate a patient with a murmur.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 72-year-old man is evaluated during a follow-up examination for an 8-month history of shortness of breath when walking up two flights of stairs. He has no other symptoms and continues to mall walk three times per week. He has a history of carpal tunnel syndrome, hypertension, dyslipidemia, and atrial fibrillation. Medications are lisinopril, rosuvastatin, and metoprolol tartrate. He has declined anticoagulation in the past.On physical examination, vital signs are normal. Cardiac examination reveals a 3/6 late-peaking systolic murmur heard best at the right upper sternal border. Mild pedal edema is noted.ECG shows atrial fibrillation at a rate of 95/min.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Clinical observation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "99m-Technetium pyrophosphate scintigraphy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Transesophageal echocardiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Transthoracic echocardiography",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Transthoracic echocardiography (TTE) (Option D) is the most appropriate management in this patient with likely valvular heart disease. Diagnostic testing for structural heart disease should be considered in patients with a cardiac murmur when findings suggest significant valvular disease, such as a grade 3/6 or higher systolic murmur, a late or holosystolic murmur, a diastolic or continuous murmur, or a murmur with accompanying symptoms. TTE is commonly the first test used to evaluate suspected structural heart abnormalities, including infiltrative disorders such as cardiac amyloidosis. It provides information on chamber size, thickness, and function, including wall motion, and can also assess valvular pathology, diastolic function, hemodynamics, and the pericardium. In this patient, the presence of symptoms as well as the intensity and late-peaking nature of the murmur all individually mandate further evaluation with TTE for likely aortic stenosis.Clinical observation (Option A) is not an appropriate option in this patient, because the characteristics of the murmur suggest significant underlying valvular disease. Clinical observation would be appropriate for a murmur that meets none of the criteria for further evaluation, such as a soft systolic flow murmur.99m-Technetium pyrophosphate scintigraphy (99mTc-PYP) (Option B) specifically identifies cardiac amyloidosis due to misfolded transthyretin proteins (ATTR). It is not the most appropriate diagnostic test for evaluating suspected valvular heart disease. Patients with ATTR commonly have a history of carpal tunnel syndrome; however, the presence of carpal tunnel syndrome in the absence of other findings suggestive of ATTR is insufficient to warrant 99mTc-PYP scanning.Transesophageal echocardiography (TEE) (Option C) provides detailed images of cardiac structures, often with improved image resolution compared with TTE. When evaluating suspected valvular heart disease, TEE is reserved for patients with inconclusive transthoracic imaging views or for specific scenarios, such as infective endocarditis and its complications (e.g., abscess), the presence of a prosthetic heart valve or intracardiac device, or to better visualize valvular pathology, particularly if surgical or percutaneous intervention is planned. None of these is present in this patient, and TTE is the best first test.",
+  "key_points": [
+    "Diagnostic testing for structural heart disease should be considered in patients with findings suggestive of significant disease, including a grade 3/6 or higher systolic murmur, a late or holosystolic murmur, a diastolic or continuous murmur, or a murmur with accompanying symptoms.",
+    "Transthoracic echocardiography provides information on chamber size, thickness, and function, including wall motion, and can also assess valvular pathology, diastolic function, hemodynamics, and the pericardium."
+  ],
+  "references": "Doherty JU, Kort S, Mehran R, et al; Writing Group Members. ACC/AATS/AHA/ASE/ASNC/HRS/SCAI/SCCT/SCMR/STS 2019 appropriate use criteria for multimodality imaging in the assessment of cardiac structure and function in nonvalvular heart disease: a report of the American College of Cardiology Appropriate Use Criteria Task Force, American Association for Thoracic Surgery, American Heart Association, American Society of Echocardiography, American Society of Nuclear Cardiology, Heart Rhythm Society, Society for Cardiovascular Angiography and Interventions, Society of Cardiovascular Computed Tomography, Society for Cardiovascular Magnetic Resonance, and the Society of Thoracic Surgeons. J Am Soc Echocardiogr. 2019;32:553-579. PMID: 30744922 doi:10.1016/j.echo.2019.01.008",
+  "related_content": {
+    "syllabus": [
+      "cvsec24003_24012"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:26:28.452328-06:00"
+}

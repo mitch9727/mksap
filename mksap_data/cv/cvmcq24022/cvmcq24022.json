@@ -1,0 +1,62 @@
+{
+  "category": "cv",
+  "critique": "This patient should undergo invasive coronary angiography (ICA) (Option C). The 2021 American Heart Association/American College of Cardiology guidelines for evaluating and diagnosing chest pain outline management approaches for patients with chest pain in the emergency department. The guidelines suggest risk stratifying patients into low-, intermediate-, and high-risk categories, using risk stratification tools such as the HEART (History, ECG, Age, Risk factors, and initial Troponin) Pathway or the GRACE (Global Registry of Acute Coronary Events) or TIMI (Thrombolysis in Myocardial Infarction) score. Patients identified as high risk should undergo immediate ICA. Based on age, ongoing chest pain, elevated cardiac enzymes, Killip class, signs of heart failure, and ECG changes, this patient with suspected acute coronary syndrome and non–ST-elevation myocardial infarction (NSTEMI) is at high risk, and ICA is recommended.Functional testing, such as with an adenosine cardiac magnetic resonance stress test (Option A), is inappropriate for patients with high-risk NSTEMI with evidence of ongoing ischemia (i.e., ongoing chest pain, ischemic ECG changes, elevated cardiac enzymes). Both the risk for inducing vasodilatation in a high-risk patient and the delays in providing immediately necessary clinical interventions such as revascularization make functional testing an inappropriate choice for this patient.Fractional flow reserve (FFR)-CT is a noninvasive method to measure the hemodynamic significance of a coronary artery lesion and help determine the need for intervention. Compared with using functional testing with subsequent ICA, FFR-CT plus coronary CT angiography (Option B) results in fewer false-negative and false-positive results and a higher yield of subsequent ICA leading to revascularization. This approach, however, has not been studied in patients with acute chest pain and would be inappropriate in this patient with evidence of ongoing ischemia.In patients with NSTEMI who are not undergoing an early invasive strategy, transthoracic echocardiography (TTE) (Option D) plays an important role in evaluating the left ventricular ejection fraction and regional wall motion abnormalities. Although TTE should be performed during this index hospitalization, it is not the most appropriate initial management strategy in this patient with high-risk features and a need for urgent ICA.",
+  "educational_objective": "Evaluate non–ST-elevation myocardial infarction with invasive coronary angiography.",
+  "extracted_at": "2025-12-22T22:48:40.842228-06:00",
+  "key_points": [
+    "For patients with acute coronary syndrome (ACS) who are designated as high risk, urgent invasive coronary angiography (ICA) is recommended.",
+    "High-risk features that warrant consideration of urgent ICA in patients with ACS include older age, ECG abnormalities, ongoing chest pain, signs of heart failure, and elevated cardiac enzymes."
+  ],
+  "media": {
+    "images": [],
+    "svgs": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "videos": []
+  },
+  "metadata": {
+    "care_types": [],
+    "high_value_care": false,
+    "patient_types": [],
+    "question_updated": "12/22/2025"
+  },
+  "options": [
+    {
+      "letter": "A",
+      "peer_percentage": 0,
+      "text": "Adenosine cardiac magnetic resonance stress test"
+    },
+    {
+      "letter": "B",
+      "peer_percentage": 0,
+      "text": "Coronary CT angiography with fractional flow reserve"
+    },
+    {
+      "letter": "C",
+      "peer_percentage": 0,
+      "text": "Invasive coronary angiography"
+    },
+    {
+      "letter": "D",
+      "peer_percentage": 0,
+      "text": "Transthoracic echocardiography"
+    }
+  ],
+  "question_id": "cvmcq24022",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "question_text": "A 73-year-old patient is evaluated in the emergency department for two episodes of dull substernal chest pain over the past 2 days. Although the patient has had chest pain while exercising for many months, the two recent episodes occurred at rest. The patient was given sublingual nitroglycerin and aspirin during ambulance transport. Their chest pain improved from 9 to 4 on a 10-point pain scale. The patient has type 2 diabetes mellitus and hypertension. Medications are metformin, pravastatin, semaglutide, and lisinopril.On physical examination, blood pressure is 146/94 mm Hg and pulse rate is 109/min; other vital signs are normal. On pulmonary examination, crackles are heard almost halfway up both lung fields. Cardiac examination reveals an S3 gallop.ECG shows sinus tachycardia at 109/min and 1-mm ST-segment depressions in leads V5 and V6.Intravenous heparin is initiated.",
+  "references": "Gulati M, Levy PD, Mukherjee D, et al. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR guideline for the evaluation and diagnosis of chest pain: executive summary: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2021;144:e368-e454. PMID: 34709928 doi:10.1161/CIR.0000000000001030",
+  "related_content": {
+    "learning_plan_topic": "",
+    "syllabus": [
+      "cvsec24003_24009"
+    ]
+  },
+  "user_performance": {
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null,
+    "user_answer": null
+  }
+}

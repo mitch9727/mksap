@@ -1,0 +1,60 @@
+{
+  "question_id": "cvmcq24043",
+  "category": "cv",
+  "educational_objective": "Diagnose cardiomyopathy due to anthracycline toxicity.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 43-year-old woman is evaluated for gradually increasing dyspnea with activity. For the past 6 months, she has noticed shortness of breath while climbing stairs or walking quickly. At age 15 years, she underwent treatment for Hodgkin disease with doxorubicin, vincristine, etoposide, prednisone, and cyclophosphamide. She has been in complete remission since completing treatment. She has no other medical problems and takes no medications.On physical examination, vital signs are normal. The lungs are clear to auscultation. Cardiac examination reveals a diffuse and sustained beat at the apex lateral to the mid-axillary line and an S3 gallop. No peripheral edema is noted.Complete blood cell count and comprehensive metabolic panel are normal.ECG shows normal sinus rhythm, a nonspecific intraventricular conduction delay, and a QRS interval of 110 ms.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cardiac magnetic resonance imaging",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Echocardiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "High-resolution CT scan of chest",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Stress electrocardiography",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate test to perform next is echocardiography (Option B) in this patient with possible dilated cardiomyopathy related to her prior exposure to doxorubicin. Anthracyclines may cause both acute and chronic cardiac toxicity. Acute anthracycline toxicity may present as heart block, arrhythmias, heart failure, myocarditis, or pericarditis. It occurs in fewer than 1% of patients and may be reversible. In contrast, chronic progressive anthracycline toxicity usually presents as dilated cardiomyopathy and is typically irreversible. It is most closely linked to doxorubicin but may occur with epirubicin and idarubicin. Chronic progressive toxicity has an early onset (within 1 year of treatment) in up to 2.1% of patients and a late onset (after 1 year) in up to 5% of patients. Toxicity may not become clinically evident until 10 to 20 years after treatment. Late-onset chronic progressive toxicity is related to total cumulative anthracycline dose. In patients with a cumulative dose of 550 mg/m2, the incidence of heart failure is up to 26%. In patients with clinical signs or symptoms of cardiac dysfunction, measurement of cardiac biomarkers and echocardiography including global longitudinal strain are recommended to identify early toxicity and guide individual therapy. This patient received doxorubicin as a teenager and presents now with exercise intolerance and an S3 on examination. Possible late progressive anthracycline toxicity should be investigated with echocardiography.Cardiac magnetic resonance (CMR) imaging (Option A) is not indicated in this patient. CMR imaging may be used to evaluate myocardial and pericardial disease, especially hypertrophic cardiomyopathy. It is not a first-line test, however, in evaluating possible heart failure and anthracycline toxicity.High-resolution CT scan of the chest (Option C) is a useful test in evaluating lung injury caused by chemotherapeutic agents such as bleomycin. This patient, however, has a normal lung examination and chest radiograph, making lung disease a less likely cause of her dyspnea than anthracycline cardiotoxicity.Patients who received thoracic radiation are at risk for coronary artery disease, and stress electrocardiography (Option D) would be an appropriate option in such a patient with a normal resting ECG. Stress testing would not be useful, however, as an initial test in evaluating suspected anthracycline-associated cardiomyopathy.",
+  "key_points": [
+    "Echocardiography is the preferred test in evaluating suspected anthracycline-associated cardiomyopathy.",
+    "Chronic progressive anthracycline toxicity, typically related to total cumulative dose, most often presents as dilated cardiomyopathy and is usually irreversible."
+  ],
+  "references": "Armenian SH, Lacchetti C, Lenihan D. Prevention and monitoring of cardiac dysfunction in survivors of adult cancers: American Society of Clinical Oncology clinical practice guideline summary. J Oncol Pract. 2017;13:270-275. PMID: 27922796 doi:10.1200/JOP.2016.018770",
+  "related_content": {
+    "syllabus": [
+      "cvsec24013_24002"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T22:48:52.409321-06:00"
+}

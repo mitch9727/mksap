@@ -1,0 +1,60 @@
+{
+  "question_id": "hmcor25016",
+  "category": "hm",
+  "educational_objective": "Diagnose transfusion-associated circulatory overload.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 78-year-old woman is transferred to the hospital from an outpatient infusion center for acute shortness of breath following transfusion of one unit of blood. She reports chest heaviness but no pain, cough, dizziness, or palpitations. She receives blood transfusions approximately every 3 weeks for symptomatic anemia from myelodysplastic syndrome. Additional medical history is notable for hypertension, coronary artery disease, and heart failure with reduced ejection fraction. Medications are low-dose aspirin, carvedilol, sacubitril-valsartan, empagliflozin, simvastatin, and azacytidine.On physical examination, temperature is 36.7 °C (98.0 °F), blood pressure is 153/76 mm Hg (pretransfusion, 123/71 mm Hg), pulse rate is 94/min (pretransfusion, 65/min), and respiration rate is 32/min (pretransfusion, 20/min). Oxygen saturation is 85% breathing ambient air. Jugular venous pressure is 10 cm H2O. An S3 and crackles are heard on cardiopulmonary examination.A chest radiograph shows moderate pulmonary vascular congestion with a small left pleural effusion.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute hemolytic transfusion reaction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Febrile nonhemolytic transfusion reaction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Transfusion-associated circulatory overload",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Transfusion-related acute lung injury",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis in this patient with evidence of hypervolemia is transfusion-associated circulatory overload (TACO) (Option C). TACO is an underrecognized and underreported transfusion reaction affecting 1% to 8% of transfusion recipients. Risk factors include older age, preexisting cardiac or kidney disease, receipt of multiple blood components, and rapid administration rate. TACO is characterized by respiratory distress within 6 hours of transfusion, positive fluid balance, elevated central venous pressure, elevated B-type natriuretic peptide level, and radiographic findings of pulmonary edema. Management consists of transfusion discontinuation, diuretic therapy, and supportive care. Prevention includes a slower infusion rate (1 mL/kg/hour) and diuretic therapy between transfusions to maintain euvolemia for those at risk. This patient is at risk for TACO given her age and heart failure. She experienced the rapid onset of dyspnea and accompanying signs of volume overload following a blood transfusion. Therefore, the most likely diagnosis is TACO.Acute hemolytic transfusion reactions (Option A) are characterized by the immediate destruction of donor erythrocytes by recipient antibodies, usually resulting from clerical errors at the time of specimen collection or blood administration. Signs and symptoms include fever, chills, dyspnea, red urine, flank pain, kidney injury, disseminated intravascular coagulation, and hypotension or shock. Furthermore, unlike in this patient, signs of circulatory overload are absent.Febrile nonhemolytic transfusion reaction (FNHTR) (Option B) is common, occurring in about 1% of transfusions, and is mediated by proinflammatory cytokines elaborated by donor leukocytes during storage. Symptoms include a temperature increase within 4 hours of transfusion, or chills and rigors even in the absence of a fever. This patient does not have a fever, and FNHTR is not accompanied by volume overload, present in this patient.Transfusion-related acute lung injury (TRALI) (Option D) is characterized by the development of acute lung injury within 6 hours of transfusion. TRALI is mediated by priming and activation of neutrophils in the recipient's lung parenchyma by anti-HLA and antineutrophil antibodies present in donor plasma. Signs and symptoms escalate quickly and include dyspnea, hypoxia, fever, chills, and hypotension. The chest radiograph shows diffuse bilateral pulmonary infiltrates. The presence of circulatory overload is not consistent with TRALI.",
+  "key_points": [
+    "Signs of transfusion-associated circulatory overload (TACO) include respiratory distress within 6 hours of transfusion, positive fluid balance, elevated central venous pressure, elevated B-type natriuretic peptide, and radiographic findings of pulmonary edema.",
+    "Treatment of TACO includes supportive care and diuresis."
+  ],
+  "references": "Wang Y, Rao Q, Li X. Adverse transfusion reactions and what we can do. Expert Rev Hematol. 2022;15:711-726. PMID: 35950450 doi:10.1080/17474086.2022.2112564",
+  "related_content": {
+    "syllabus": [
+      "hmsec24008_24015"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:28:08.997523-06:00"
+}

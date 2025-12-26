@@ -1,0 +1,60 @@
+{
+  "question_id": "cvmcq24102",
+  "category": "cv",
+  "educational_objective": "Treat high-risk atrioventricular block.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 79-year-old man is evaluated for several days of fatigue and light-headedness and an episode of syncope this morning. An ECG 2 years ago showed right bundle branch block (RBBB) and left anterior fascicular block (LAFB). He has hypertension and diabetes mellitus. Medications are lisinopril, low-dose metoprolol, and metformin.On physical examination, blood pressure is 89/52 mm Hg and pulse rate is 40/min. The lungs are clear to auscultation, and no edema is noted.ECG shows sinus rhythm with 2:1 atrioventricular conduction and RBBB with LAFB.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Ambulatory ECG monitoring",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Atropine administration",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Discontinuation of metoprolol and reevaluation in 1 week",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Referral for urgent pacemaker placement",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient with symptomatic, high-grade atrioventricular (AV) block requires urgent evaluation and likely permanent pacemaker implantation (Option D). AV block may occur at the nodal level or in the infranodal anatomy, specifically within the bundle of His (intra-Hisian), or below the bundle of His (infra-Hisian). Infranodal disease carries a significantly higher risk for progression to complete heart block than block at the level of the AV node itself. Patients who have infranodal conduction disturbances with a high risk for progression, such as Mobitz type 2 second-degree AV block or alternating bundle branch block, should receive a permanent pacemaker. This patient shows evidence of a progressive infranodal conduction abnormality. Previously, given the baseline block in the right bundle and left anterior fascicle, he primarily had conduction down the left posterior fascicle. Now, the left posterior fascicle is compromised and demonstrates intermittent block (2:1). Although he does not have complete AV block at this time, he is highly symptomatic and at high risk for progression to complete heart block. There are no other clear and likely reversible causes, and urgent referral for pacemaker placement is indicated.This patient has high-degree AV block with significant symptoms, including syncope. Although ambulatory ECG monitoring (Option A) such as Holter, event, or mobile continuous telemetry monitoring may yield even more profound conduction disease (e.g., complete AV block), he meets criteria for pacemaker implantation and further evaluation is not necessary. Furthermore, given the high likelihood of developing complete heart block, he should not be discharged with the current rhythm.Atropine (Option B) may be helpful for symptomatic sinus bradycardia and for heart block in which the mechanism is autonomic (e.g., vagal) in nature. It is unlikely, however, to improve the patient's infra-Hisian conduction; in fact, it may increase the underlying sinus rate and worsen conduction through a diseased left posterior fascicle. For example, currently his sinus rate is 80/min with 2:1 conduction, yielding an effective pulse rate of 40/min. If his sinus rate increases to 90/min, overloading the diseased posterior fascicle, conduction at 3:1 would yield an effective pulse rate of 30/min.The patient's low-dose metoprolol is unlikely to have a significant effect on his infra-Hisian conduction. Furthermore, he is highly symptomatic with syncope; therefore, even if a conservative approach is taken in which the metoprolol is discontinued (Option C), he should be observed in an inpatient setting and not discharged home.",
+  "key_points": [
+    "Permanent pacing is indicated for symptomatic bradycardia without reversible cause.",
+    "Patients who have atrioventricular (AV) and infranodal conduction disturbances with a high risk for progression, such as alternating bundle branch block or Mobitz type 2 second-degree AV block, should receive a permanent pacemaker."
+  ],
+  "references": "Kusumoto FM, Schoenfeld MH, Barrett C, et al. 2018 ACC/AHA/HRS guideline on the evaluation and management of patients with bradycardia and cardiac conduction delay: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. Circulation. 2019;140:e382-e482. PMID: 30586772 doi:10.1161/CIR.0000000000000628",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24007"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T22:49:24.222470-06:00"
+}

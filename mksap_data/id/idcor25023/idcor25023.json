@@ -1,0 +1,60 @@
+{
+  "question_id": "idcor25023",
+  "category": "id",
+  "educational_objective": "Evaluate for osteomyelitis in a patient with a diabetic foot infection.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 62-year-old man is evaluated in the emergency department for a chronic, nonpainful ulcer on the plantar aspect of his right foot that has recently begun to drain foul-smelling pus. Medical history is notable for type 2 diabetes mellitus and hypertension. Medications are metformin, canagliflozin, and lisinopril.On physical examination, temperature is 37.1 °C (98.8 °F); other vital signs are normal. A 5- × 3-cm plantar ulcer draining pus is present on the right foot at the base of the third metatarsal with associated warmth, edema, and erythema. Right dorsalis pedis pulse is palpable. Bone cannot be visualized, and a metal probe cannot palpate bone.Laboratory studies:Erythrocyte sedimentation rate100 mm/hHLeukocyte count9500/µL (9.5 × 109/L)A plain radiograph of the foot is normal.",
+  "question_stem": "Which of the following is the most appropriate imaging test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "CT with intravenous contrast",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Labeled leukocyte scan",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "MRI with and without intravenous contrast",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Triple-phase bone scan",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "MRI with and without contrast (Option C) should be performed to evaluate the extent of infection, including possible bone involvement. Plain radiography is recommended for all patients with diabetes mellitus with new foot infections to assess for soft tissue gas, foreign body, and bony involvement. However, bony abnormalities may not appear for 2 or more weeks after onset of infection. In this patient, no bone is visible in the ulcer base, and the metal probe-to-bone test is negative (positive predictive value of nearly 90% for osteomyelitis in individuals with high pretest probability); however, the probe-to-bone test has a negative predictive value of only about 60% (although this approaches 95% in individuals with low pretest probability). Erythrocyte sedimentation rates greater than 70 mm/h and ulcers larger than 2 × 2 cm are associated with an increased likelihood of osteomyelitis. Leukocytosis may be seen in this scenario; however, this patient has a normal leukocyte count; up to two thirds of patients with osteomyelitis may have a normal leukocyte count. In patients with strongly suspected osteomyelitis and a normal radiograph, MRI with and without intravenous contrast is the most accurate imaging study for evaluating diabetic foot osteomyelitis. In addition, it can better delineate the soft tissue involvement, including evidence of necrosis, abscess, and sinus tracts, allowing for better decision making regarding potential surgical intervention.If MRI cannot be performed, then CT with intravenous contrast (Option A) is an alternative. However, CT is neither as sensitive nor as specific as MRI for diagnosing acute osteomyelitis.If neither MRI nor CT can be performed (e.g., presence of metal hardware), a nuclear medicine study, such as a tagged leukocyte scan (Option B) or three-phase bone scan (Option D), may be helpful. Combining a labeled leukocyte scan with a three-phase bone scan can improve accuracy of the nuclear medicine testing in diagnosing osteomyelitis, but it is time consuming, is expensive, and has lower specificity than MRI, which makes it less preferrable.",
+  "key_points": [
+    "Plain radiography is recommended for all patients with diabetes and new foot infections.",
+    "In patients with suspected osteomyelitis and a normal plain radiograph, MRI with and without intravenous contrast is recommended in evaluating diabetic foot osteomyelitis."
+  ],
+  "references": "Senneville É, Albalawi Z, van Asten SA, et al. IWGDF/IDSA guidelines on the diagnosis and treatment of diabetes-related foot infections (IWGDF/IDSA 2023). Clin Infect Dis. 2023. PMID: 37779457 doi:10.1093/cid/ciad527",
+  "related_content": {
+    "syllabus": [
+      "idsec24002_24012"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:28:59.347722-06:00"
+}

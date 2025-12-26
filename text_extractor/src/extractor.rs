@@ -242,7 +242,7 @@ impl MKSAPExtractor {
         let valid_ids = if !refresh {
             match self.load_checkpoint_ids(&category.code)? {
                 Some(ids) if !ids.is_empty() => {
-                    info!("✓ Loaded {} valid question IDs from checkpoint", ids.len());
+                    info!("✓ Loaded {} valid question IDs", ids.len());
                     ids
                 }
                 _ => {

@@ -1,0 +1,59 @@
+{
+  "question_id": "csmcq24052",
+  "category": "cs",
+  "educational_objective": "Evaluate low-risk chest pain.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 42-year-old man is evaluated in the emergency department for chest pain. He describes the pain as pressure-like and moderate (5/10) in severity. The pain had onset at rest, lasted 5 hours, and abated spontaneously 60 minutes before presentation. The pain did not radiate or worsen with exertion. He has not had dyspnea, cough, hemoptysis, or lower extremity swelling. He was evaluated twice previously for identical symptoms. Stress echocardiography completed 2 years ago was normal, and exercise myocardial perfusion scanning performed 6 months ago showed low risk. He has hypertension treated with lisinopril.Physical examination findings, including vital signs, are normal.D-dimer and high-sensitivity cardiac troponin levels are normal.Chest radiograph is normal.ECG is shown.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "CT pulmonary angiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Repeat exercise stress testing",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Repeat high-sensitivity cardiac troponin measurement in 1 hour",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Reassurance and outpatient follow-up",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management for this patient with recurrent chest pain is reassurance with arrangement of outpatient follow-up (Option D). The differential diagnosis for chest pain is broad, but careful consideration should always be given to myocardial ischemia and acute coronary syndrome (ACS). Initial testing in patients at risk for ACS should include high-sensitivity cardiac troponin measurement and ECG. Guidelines for Reasonable and Appropriate Care in the Emergency department (GRACE) address recurrent chest pain in individuals who have undergone extensive previous evaluation and emphasize strategies to avoid hospitalization when appropriate. Recommendations include use of a single high-sensitivity cardiac troponin measurement to exclude ACS for patients who have had chest pain for 3 hours or more and not repeating stress testing in patients with a normal test result in the preceding year. This patient presents with a resolved 5-hour episode of chest discomfort. Given the combination of a normal ECG, normal high-sensitivity cardiac troponin level, and a recent cardiac stress test that showed low risk, he can be safely discharged from the emergency department with reassurance and outpatient follow-up.Although pulmonary embolism (PE) should always be considered in the differential diagnosis of a patient presenting with chest pain, the combination of a low clinical probability of PE and a negative D-dimer makes the diagnosis of PE very unlikely in this patient. CT pulmonary angiography (Option A) is not indicated.Exercise stress testing using either myocardial perfusion imaging or echocardiography is a core test in the evaluation of patients with possible coronary artery disease. This patient has undergone recent exercise stress testing with a low-risk result. Repeat exercise stress testing (Option B) is unlikely to provide useful information in this patient and is not indicated.Repeat high-sensitivity cardiac troponin measurement in 1 hour (Option C) is not indicated. Although the traditional testing paradigm with troponin involves assessing change in troponin levels over time, a single high-sensitivity cardiac troponin measurement is sufficient to exclude ACS in patients with recurrent low-risk chest pain who have had chest pain for 3 hours or longer.",
+  "key_points": [
+    "For low-risk patients with recurrent chest pain, a single high-sensitivity cardiac troponin level can exclude acute coronary syndrome for patients who have had chest pain for 3 hours or longer."
+  ],
+  "references": "Musey PI Jr, Bellolio F, Upadhye S, et al. Guidelines for Reasonable and Appropriate Care in the Emergency department (GRACE): recurrent, low-risk chest pain in the emergency department. Acad Emerg Med. 2021;28:718-744. PMID: 34228849 doi:10.1111/acem.14296",
+  "related_content": {
+    "syllabus": [
+      "cssec24004_24008"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T19:48:10.671942-06:00"
+}

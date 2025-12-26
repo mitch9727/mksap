@@ -1,57 +1,70 @@
 {
   "version": "1.0.0",
-  "last_updated": "2025-12-26T01:56:05.493636+00:00",
+  "last_updated": "2025-12-26T07:03:58.458250+00:00",
   "systems": [
+    {
+      "system_code": "cv",
+      "discovered_count": 240,
+      "discovery_timestamp": "2025-12-26T06:59:31.516359+00:00",
+      "candidates_tested": 23976,
+      "hit_rate": 0.01001001001001001,
+      "question_types_found": [
+        "mcq",
+        "qqq",
+        "cor",
+        "vdx"
+      ]
+    },
+    {
+      "system_code": "en",
+      "discovered_count": 160,
+      "discovery_timestamp": "2025-12-26T07:00:39.563983+00:00",
+      "candidates_tested": 23976,
+      "hit_rate": 0.00667334000667334,
+      "question_types_found": [
+        "mcq",
+        "qqq",
+        "cor",
+        "vdx"
+      ]
+    },
     {
       "system_code": "cs",
       "discovered_count": 98,
-      "discovery_timestamp": "2025-12-26T01:48:10.507385+00:00",
-      "candidates_tested": 41958,
-      "hit_rate": 0.002335669002335669,
+      "discovery_timestamp": "2025-12-26T07:01:45.616693+00:00",
+      "candidates_tested": 23976,
+      "hit_rate": 0.004087420754087421,
       "question_types_found": [
         "qqq",
-        "vdx",
+        "cor",
         "mcq",
-        "cor"
+        "vdx"
+      ]
+    },
+    {
+      "system_code": "gi",
+      "discovered_count": 125,
+      "discovery_timestamp": "2025-12-26T07:02:51.402334+00:00",
+      "candidates_tested": 23976,
+      "hit_rate": 0.0052135468802135465,
+      "question_types_found": [
+        "mcq",
+        "cor",
+        "vdx",
+        "qqq"
       ]
     },
     {
       "system_code": "hp",
       "discovered_count": 53,
-      "discovery_timestamp": "2025-12-26T01:50:07.754403+00:00",
-      "candidates_tested": 41958,
-      "hit_rate": 0.0012631679298345964,
+      "discovery_timestamp": "2025-12-26T07:03:58.457945+00:00",
+      "candidates_tested": 23976,
+      "hit_rate": 0.002210543877210544,
       "question_types_found": [
-        "qqq",
-        "mcq",
-        "cor",
-        "vdx"
-      ]
-    },
-    {
-      "system_code": "dm",
-      "discovered_count": 113,
-      "discovery_timestamp": "2025-12-26T01:53:47.675633+00:00",
-      "candidates_tested": 41958,
-      "hit_rate": 0.0026931693598360265,
-      "question_types_found": [
-        "cor",
         "qqq",
         "vdx",
-        "mcq"
-      ]
-    },
-    {
-      "system_code": "cc",
-      "discovered_count": 55,
-      "discovery_timestamp": "2025-12-26T01:56:05.493393+00:00",
-      "candidates_tested": 41958,
-      "hit_rate": 0.0013108346441679775,
-      "question_types_found": [
-        "qqq",
         "mcq",
-        "cor",
-        "vdx"
+        "cor"
       ]
     }
   ]

@@ -1,0 +1,59 @@
+{
+  "question_id": "hpmcq24017",
+  "category": "hp",
+  "educational_objective": "Prevent hepatitis B virus reactivation in a patient who will receive immunosuppressive therapy.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 62-year-old man is evaluated in the office. He was recently diagnosed with diffuse large B-cell lymphoma and is about to begin therapy with rituximab, cyclophosphamide, doxorubicin, vincristine, and prednisone (R-CHOP).On physical examination, temperature is 37.8 °C (100.1 °F). Bulky axillary, cervical, and inguinal lymphadenopathy is noted. There are no stigmata of advanced liver disease.Laboratory studies:Albumin3.7 g/dL (37 g/L)Alkaline phosphatase91 U/LAlanine aminotransferase31 U/LAspartate aminotransferase28 U/LTotal bilirubin1.1 mg/dL (18.8 μmol/L)Hepatitis B surface antigenNegativeHepatitis B surface antibodyPositiveHepatitis B total core antibodyPositiveHepatitis B virus DNAUndetectable",
+  "question_stem": "Which of the following is the most appropriate next step?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Begin entecavir",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Begin high-dose hepatitis B virus (HBV) vaccination series",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Monitor alanine aminotransferase level monthly",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No HBV-specific management is needed",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient is at risk for hepatitis B virus (HBV) reactivation, and the most appropriate management is to begin antiviral prophylaxis with entecavir (Option A). Patients with chronic HBV infection (hepatitis B surface antigen [HBsAg] positive) or resolved HBV infection (HBsAg negative and anti–hepatitis B core [anti-HBc] antibody positive) may experience reactivation with significant immunosuppression. Reactivation is characterized by a rise in HBV DNA and seroconversion to HBsAg positivity in HBsAg-negative/anti-HBc–positive patients. Reactivation can still occur in those who are anti–HBs antibody positive; thus, anti–HBs antibody status should not be considered when deciding whether to administer antiviral prophylaxis. Patients considered to be at high risk for reactivation (>10%) include those with anti–HBc (IgG) antibody positivity and HBsAg negativity receiving B-cell–depleting therapy (e.g., rituximab) and HBsAg-positive patients receiving a range of immunomodulating therapies (Figure: Clinical Decision Support Tool for Hepatitis B Virus Reactivation). This group should receive prophylactic oral antiviral therapy (tenofovir or entecavir). American Gastroenterological Association guidelines suggest prophylactic antiviral therapy for patients at moderate risk for reactivation as well, although monitoring could be considered as an alternative strategy. Antiviral prophylaxis should be continued for at least 6 months after the completion of immunosuppressive therapy (and at least 12 months for B-cell–depleting agents) in high-risk patients and could be considered for moderate-risk patients. This patient has serologic evidence of resolved HBV infection based on positivity for anti-HBc antibody and negative HBsAg test result. In addition, he will be receiving immunosuppressive therapy associated with a high risk for HBV reactivation. Prophylaxis with entecavir or tenofovir is indicated.Beginning a high-dose HBV vaccination series (Option B) is not indicated because the patient has already tested positive for anti-HBs antibody. Vaccination of individuals with chronic HBV infection or resolved HBV infection does not reduce the risk for HBV reactivation in the context of immunosuppression.Monitoring alanine aminotransferase (ALT) levels monthly (Option C), with initiation of entecavir or tenofovir if elevated, is inappropriate. If a monitoring strategy is chosen rather than the more commonly used approach of prophylactic therapy, both HBV DNA and ALT levels should be monitored. However, there is no consensus on the optimal frequency of monitoring or the threshold to begin antiviral therapy. Adherence to monitoring is a concern, and on-demand antiviral therapy is less effective than prophylaxis in preventing reactivation.Providing no HBV-specific management (Option D) is inappropriate because this patient is at high risk for HBV reactivation, and a strategy to prevent or treat reactivation is needed.",
+  "key_points": [
+    "Patients with chronic or resolved hepatitis B virus infection may experience reactivation upon significant immunosuppression; in patients at high risk for reactivation, antiviral prophylaxis should be administered with entecavir or tenofovir."
+  ],
+  "references": "Ali FS, Nguyen MH, Hernaez R, et al. AGA clinical practice guideline on the prevention and treatment of hepatitis B virus reactivation in at-risk individuals. Gastroenterology. 2025;168:267-284. PMID: 39863345 doi:10.1053/j.gastro.2024.11.008",
+  "related_content": {
+    "syllabus": [
+      "hpsec24005_24003"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T19:50:07.848797-06:00"
+}

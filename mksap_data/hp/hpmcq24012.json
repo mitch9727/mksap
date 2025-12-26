@@ -1,0 +1,59 @@
+{
+  "question_id": "hpmcq24012",
+  "category": "hp",
+  "educational_objective": "Treat acute cholecystitis.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 42-year-old woman is evaluated in the emergency department for severe epigastric pain radiating to the back, associated with nausea and vomiting, that has not improved over the past 8 hours.On physical examination, temperature is 38.2 °C (100.8 °F), blood pressure is 156/90 mm Hg, pulse rate is 96/min, and respiration rate is 18/min. Oxygen saturation is 100% with the patient breathing ambient air. Palpation of the right upper quadrant elicits tenderness and inspiratory arrest.Laboratory studies:Leukocyte count14,000 μ/L (14 × 109/L)HAlkaline phosphatase100 U/LHAlanine aminotransferase24 U/LAspartate aminotransferase21 U/LAmylase62 U/LTotal bilirubin1.0 mg/dL (17.1 μmol/L)Lipase22 U/LAn upper abdominal ultrasound shows cholelithiasis, pericholecystic fluid, normal gallbladder wall thickness, common bile duct diameter of 6 mm, and arrest of inspiration with compression by the ultrasonography probe.Piperacillin-tazobactam and ketorolac are initiated.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Abdominal CT",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Cholecystectomy before hospital discharge",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Endoscopic retrograde cholangiopancreatography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Outpatient cholecystectomy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is cholecystectomy before hospital discharge (Option B). Acute calculous cholecystitis can cause epigastric and right-upper-quadrant abdominal pain, pain that radiates to the back or right shoulder, and nausea and vomiting. It may be precipitated by a fatty meal and can last longer than 4 hours (unlike biliary colic). Right-upper-quadrant pain with a positive Murphy sign (arrest on inspiration with palpation of the right upper quadrant) is predictive of acute cholecystitis. Ultrasound findings include gallbladder wall thickness greater than 3.5 mm, a distended gallbladder, and hydrops or pericholecystic fluid. Patients may present with fever and leukocytosis, but bilirubin level, amylase level, and liver function test results are usually normal unless choledocholithiasis and pancreatitis are also noted. Treatment includes analgesia, intravenous antibiotics with gram-negative and anaerobic coverage, and cholecystectomy. Most patients should undergo cholecystectomy during initial hospitalization and ideally during the first 3 days. This patient has a presentation consistent with acute cholecystitis, and cholecystectomy should be performed before her hospital discharge in order to treat her symptoms and prevent further complications.Abdominal CT (Option A) is indicated in patients with abdominal pain in whom ultrasound was not diagnostic or if associated complications of acute cholecystitis are suspected. This patient presented with classic symptoms and findings of acute cholecystitis, which were confirmed by ultrasound. Thus, abdominal CT is not indicated in this patient.In patients with a high suspicion of choledocholithiasis, endoscopic retrograde cholangiopancreatography (ERCP) (Option C) is considered for the purpose of stone extraction. The criteria for ERCP are total bilirubin level greater than 4.0 mg/dL (68.4 μmol/L) and common bile duct diameter greater than 6 mm. This patient does not meet these criteria, so ERCP is not indicated.For patients with acute cholecystitis, surgery should generally be performed during the initial hospitalization; early surgery is associated with fewer adverse events, decreased hospital stays, and lower costs compared with delayed or outpatient cholecystectomy (Option D). Surgery should be done during the same hospitalization unless the patient is a poor surgical candidate or too unstable, in which case reevaluation when clinical status improves is warranted. Other measures in such patients, such as cholecystostomy, may also be considered.",
+  "key_points": [
+    "Patients with acute cholecystitis should undergo cholecystectomy during their initial hospitalization."
+  ],
+  "references": "Gallaher JR, Charles A. Acute cholecystitis: a review. JAMA. 2022;327:965-975. PMID: 35258527 doi:10.1001/jama.2022.2350",
+  "related_content": {
+    "syllabus": [
+      "hpsec24002_24003"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T19:50:07.811021-06:00"
+}

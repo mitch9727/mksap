@@ -1,0 +1,59 @@
+{
+  "question_id": "giqqq24013",
+  "category": "gi",
+  "educational_objective": "Evaluate a patient for Lynch syndrome.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 37-year-old man is evaluated during a follow-up appointment after resection of a well-differentiated adenocarcinoma of the ascending colon diagnosed 1 month earlier. Family history is significant for endometrial cancer diagnosed in his mother at age 50 years and colon cancer diagnosed in his maternal grandfather at age 49 years. The patient reports that he has been feeling well and takes no medication.Physical examination findings, including vital signs, are normal.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Colonoscopy in 3 years",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Fecal immunochemical testing in 1 year",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Genetic counseling and testing",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Upper endoscopy and capsule endoscopy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient should be referred to a genetic counselor for genetic testing (Option C). The patient could have Lynch syndrome based on his personal history of colon cancer diagnosed before age 50 years and his family history of cancers (colon and endometrial) associated with Lynch syndrome. His family history meets the Amsterdam II criteria for Lynch syndrome (the “3-2-1-1” pattern):Three or more individuals in the family are affected with a Lynch syndrome–associated cancerAt least two successive generations are affectedOne affected family member is a first-degree relative of the other two affected family membersAt least one cancer was diagnosed in a family member younger than 50 yearsGuidelines recommend tumor testing (microsatellite instability testing or immunohistochemistry) to screen for Lynch syndrome in all colon cancers. Lynch syndrome diagnosis will inform colonoscopy surveillance recommendations for this patient. Identification of a Lynch syndrome mutation will also affect the recommendation for screening for other cancers (gastric, skin, urinary tract, and, in women, ovarian and endometrial cancers). In addition, if he has an identifiable mutation associated with Lynch syndrome, genetic testing should be offered to his first-degree relatives.Performing colonoscopy in 3 years (Option A) cannot be recommended until the results of the genetic evaluation are available. If Lynch syndrome is confirmed, the screening interval is every 1 to 2 years, not every 3 years.Fecal immunochemical testing (Option B) is a screening option for patients at average risk. Colonoscopy is preferred for screening patients at high risk for colon cancer, such as those with a previous colorectal cancer. Therefore, screening using fecal immunochemical testing, other fecal-based testing, or colonic imaging is not appropriate.In patients with Lynch syndrome, screening with upper endoscopy and capsule endoscopy (Option D) can be considered because these patients are at increased risk for stomach and small-bowel cancers. Testing for Helicobacter pylori infection and treatment if positive are also recommended. This patient should have genetic testing to confirm the diagnosis of Lynch syndrome before other screening is considered.",
+  "key_points": [
+    "Patients with a family history suggesting Lynch syndrome (three or more family members affected with a Lynch syndrome–associated cancer, at least two successive generations affected, one affected family member is a first-degree relative of the other two affected family members, and at least one cancer diagnosed in a family member <50 years) should be referred for genetic counseling and testing."
+  ],
+  "references": "Sinicrope FA. Lynch syndrome-associated colorectal cancer. N Engl J Med. 2018;379:764-773. PMID: 30134129 doi:10.1056/NEJMcp1714533",
+  "related_content": {
+    "syllabus": [
+      "gisec24004_24010"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-23T14:14:31.047749-06:00"
+}

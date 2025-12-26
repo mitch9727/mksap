@@ -1,0 +1,60 @@
+{
+  "question_id": "gicor25028",
+  "category": "gi",
+  "educational_objective": "Manage low-risk upper gastrointestinal bleeding.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 46-year-old man is hospitalized for a 1-day history of epigastric pain and melenic stools. He is taking ibuprofen daily to prevent migraine headaches. His medical history is otherwise unremarkable, and he takes no other medications.On physical examination, vital signs are normal. He has mild tenderness to palpation of his abdomen in the epigastric region.Laboratory studies:Hemoglobin11.2 g/dL (112 g/L)LUpper endoscopy shows a 1.5-cm, clean-based, superficial duodenal ulcer. Findings from gastric biopsy specimens for assessment of Helicobacter pylori infection are pending.Ibuprofen is stopped.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Intravenous proton pump inhibitor (PPI) and hospital observation for 72 hours",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Once-daily oral PPI, feeding, and hospital discharge",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Once-daily oral PPI, no feeding, and hospital observation for 72 hours",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Upper endoscopy repeated in 24 hours",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management for this patient with upper gastrointestinal bleeding caused by a low-risk duodenal ulcer is a once-daily oral proton pump inhibitor (PPI), initiation of oral intake of food, and early planning for hospital discharge (Option B). In patients with bleeding peptic ulcer disease (PUD), factors that increase the risk for recurrent bleeding and death include tachycardia, hypotension, age older than 60 years, hemoglobin level less than 7 g/dL (70 g/L) (8 g/dL [80 g/L] in patients with cardiovascular disease), and comorbid illness. This patient is 46 years old and otherwise healthy, has a hemoglobin level greater than 7 g/dL (70 g/L), and is hemodynamically stable. Upper endoscopy for risk stratification revealed a clean-based ulcer, which is a predictor of low risk for recurrent hemorrhage. Another lesion with low risk for rebleeding is an ulcer with a pigmented spot; these low-risk lesions do not require endoscopic therapy. Patients with PUD and low-risk stigmata can start oral feeding within 24 hours of endoscopy, receive once-daily oral PPI therapy, and be discharged from the hospital. NSAIDs should be discontinued in patients with NSAID-induced bleeding PUD, such as in this patient. If NSAIDs cannot be discontinued, a selective cyclooxygenase-2 inhibitor plus a once-daily PPI should be used.Intravenous PPI therapy and hospital observation for 72 hours (Option A) would be appropriate for patients with high-risk lesions. Lesions at high risk for recurrent bleeding that require endoscopic treatment include actively bleeding peptic ulcers, ulcers with nonbleeding visible vessels, and ulcers with adherent clots. An adherent clot should be irrigated with the intention of removing the clot; if clot removal is successful, the underlying stigmata are addressed. In this patient, intravenous PPI therapy plus hospital observation for 72 hours is not an appropriate management strategy given the low risk for rebleeding from a clean-based ulcer.Once-daily oral PPI, no feeding, and hospital observation for 72 hours (Option C) is insufficient therapy for high-risk lesions and is unnecessary for low-risk lesions, such as the duodenal ulcer seen in this patient.If bleeding recurs, endoscopic therapy should be repeated, but routine second-look endoscopy (Option D) is not recommended.",
+  "key_points": [
+    "NSAIDs should be discontinued in patients with NSAID-induced bleeding peptic ulcer disease (PUD); if treatment must be continued, a selective cyclooxygenase-2 inhibitor plus a once-daily proton pump inhibitor (PPI) should be used.",
+    "Patients with PUD and low risk for rebleeding (clean-based ulcer, ulcers with pigmented spots) can start oral feeding within 24 hours of endoscopy, receive once-daily oral PPI therapy, and be discharged from the hospital."
+  ],
+  "references": "Laine L, Barkun AN, Saltzman JR, et al. ACG clinical guideline: upper gastrointestinal and ulcer bleeding. Am J Gastroenterol. 2021;116:899-917. PMID: 33929377 doi:10.14309/ajg.0000000000001245",
+  "related_content": {
+    "syllabus": [
+      "gisec24005_24008"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T11:34:01.233752-06:00"
+}

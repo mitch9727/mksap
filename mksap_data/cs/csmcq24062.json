@@ -1,0 +1,59 @@
+{
+  "question_id": "csmcq24062",
+  "category": "cs",
+  "educational_objective": "Evaluate a patient with hemoptysis.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 66-year-old man is evaluated for a 3-month history of cough with blood-streaked sputum. He has no fever, orthopnea, or dyspnea. He reports a 4.5-kg (10-lb) weight loss and has a diminished appetite. He has a 50-pack-year history of cigarette smoking. He has no other medical problems and takes no medications.On physical examination, vital signs are normal. Oxygen saturation is 93% with the patient breathing ambient air. BMI is 24. There is no cervical lymphadenopathy. Scattered wheezing is heard on lung auscultation. The remainder of the examination is normal.Chest radiograph shows hyperinflated lung fields and no other abnormalities.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Azithromycin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Chest CT",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Follow-up chest radiography in 3 months",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sputum Gram stain and culture",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in management of this patient with hemoptysis is chest CT (Option B). Hemoptysis is most frequently caused by infections, malignancy, and cardiac disease. Acute bronchitis is a common cause of mild and self-limited hemoptysis, but evaluation of the patient with even minor hemoptysis should always focus on determining the likelihood of more serious causes. Other causes to consider include bronchiectasis, pneumonia, chronic infections (such as tuberculosis), malignancy, pulmonary embolism, mitral stenosis, and heart failure. Rare causes include anti–glomerular basement membrane disease (Goodpasture syndrome) and granulomatosis with polyangiitis. The history and physical examination should focus on assessment for evidence of infection (fever, purulent sputum, tuberculosis risk factors), malignancy (tobacco use, weight loss), bronchiectasis (cystic fibrosis or previous pulmonary infections), pulmonary embolism (dyspnea, pleuritic chest pain), and cardiac disease. Bronchogenic carcinoma accounts for nearly 25% of hemoptysis events and is caused by bleeding within a tumor or, less often, by erosion into a pulmonary vessel. Chest radiographs are nondiagnostic in approximately 25% of patients with hemoptysis secondary to pulmonary malignancy, and further evaluation with chest CT should be pursued in patients with risk factors for malignancy. This patient with hemoptysis has several red flags concerning for malignancy, including older age, tobacco use, and weight loss. Although his chest radiograph is unremarkable, the likelihood of malignancy is high enough such that the most appropriate next step is chest CT.Azithromycin (Option A) is not appropriate management. Bacterial pneumonia is unlikely in this patient given the chronicity of symptoms and lack of associated findings, such as purulent sputum and fever, as well as consolidative findings on physical examination and chest radiography. Antibiotics are not indicated for most patients with bronchitis.This patient's presentation is worrisome for a bronchogenic carcinoma, and follow-up chest radiography in 3 months (Option C) is not the most appropriate next step. Chest radiographs are nondiagnostic in approximately 25% of patients with a pulmonary malignancy and hemoptysis, and potentially delaying the diagnosis until a tumor becomes evident on chest radiography is inappropriate. In this patient with a reasonable likelihood of malignancy, chest CT is a more appropriate management option.Sputum Gram stain and culture (Option D) is unlikely to provide helpful information. Although bacterial bronchitis and pneumonia can cause hemoptysis, this patient's presentation is inconsistent with these acute diagnoses. Furthermore, sputum Gram stain and culture to identify a causative organism is not routinely indicated in outpatients with community-acquired pneumonia.",
+  "key_points": [
+    "Chest radiographs are nondiagnostic in 25% of patients with hemoptysis secondary to pulmonary malignancy; chest CT should be pursued in patients with hemoptysis and risk factors for malignancy."
+  ],
+  "references": "Gershman E, Guthrie R, Swiatek K, et al. Management of hemoptysis in patients with lung cancer. Ann Transl Med. 2019;7:358. PMID: 31516904 doi:10.21037/atm.2019.04.91",
+  "related_content": {
+    "syllabus": [
+      "cssec24002_24005"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T19:48:10.689832-06:00"
+}

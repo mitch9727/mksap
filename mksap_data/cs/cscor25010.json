@@ -1,0 +1,60 @@
+{
+  "question_id": "cscor25010",
+  "category": "cs",
+  "educational_objective": "Diagnose COPD in a patient with dyspnea who does not smoke tobacco.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 67-year-old patient is evaluated for a 5-month history of dyspnea on exertion with associated cough productive of sputum. They have no chest pain, hemoptysis, orthopnea, or paroxysmal nocturnal dyspnea. They have no previous history of dyspnea. The patient is a nonsmoker. They grew up in an urban city known for poor air quality. Medical history is significant for hypertension and dyslipidemia. Medications are amlodipine, hydrochlorothiazide, and simvastatin.Physical examination findings, including vital signs, are normal.A complete blood count and complete metabolic panel are normal.Chest radiograph, ECG, and exercise stress test are normal.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "D-dimer",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "High-resolution chest CT",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Spirometry",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Transthoracic echocardiography",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate test to perform next in this patient with possible COPD is spirometry (Option C). The history and physical examination are the most important components of the evaluation of a patient with dyspnea. In the absence of an obvious cause, the initial evaluation in most patients should also include measurement of hemoglobin, ECG, and chest radiography. Further testing should be driven by the results of this initial evaluation. COPD is a very common cause of dyspnea, and, although many cases are secondary to tobacco use, the Global Initiative for Chronic Obstructive Lung Disease (GOLD) guidelines emphasize that COPD may occur in patients with nontraditional risk factors, such as exposure to environmental factors (e.g., pollution, volatile biomass). In patients in whom COPD is possible, spirometry is necessary to establish the diagnosis. COPD is confirmed by a postbronchodilator FEV1/FVC ratio of less than 0.70, with the severity of obstruction being informed by the degree of degradation of FEV1. This patient has had an insidious onset of symptoms, chronic productive cough, and a history of living in an area with increased environmental exposures known to increase risk for chronic lung disease. Despite the lack of tobacco smoke exposure, COPD is a likely diagnosis and spirometry is indicated.D-dimer testing (Option A) is not the most appropriate next test. D-dimer testing is indicated when there is a low clinical probability of pulmonary embolism but the likelihood is still above the threshold to test. This patient with insidious onset of symptoms is very unlikely to have venous thromboembolic disease, and testing with D-dimer is unnecessary.High-resolution chest CT (HRCT) (Option B) is an appropriate diagnostic test when diffuse parenchymal lung disease (DPLD) is suspected. However, this patient has no risk factors for DPLD and has a clear chest radiograph, making this diagnosis unlikely. However, if the pulmonary function studies showed evidence of restrictive disease, DPLD could be evaluated further with HRCT.Although heart failure (HF) is part of the differential diagnosis, it is not the most likely diagnosis given the lack of historical (paroxysmal nocturnal dyspnea, orthopnea) or examination findings (elevated jugular venous pressure, crackles, extra heart sounds, edema) suggesting HF. However, because the distinction between HF and COPD can be challenging, further evaluation for HF with transthoracic echocardiography (Option D) would be reasonable if spirometry is not diagnostic of COPD.",
+  "key_points": [
+    "Spirometry is the diagnostic test of choice when COPD is suspected.",
+    "The Global Initiative for Chronic Obstructive Lung Disease (GOLD) guidelines emphasize that COPD may occur in the absence of tobacco use in patients with nontraditional risk factors, such as exposure to environmental factors (e.g., pollution, volatile biomass)."
+  ],
+  "references": "Global Initiative for Chronic Obstructive Lung Disease. Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease. 2024 Gold Report. Available at www.goldcopd.org/2024-gold-report. Accessed March 25, 2025.",
+  "related_content": {
+    "syllabus": [
+      "cssec24003_24002"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T19:48:10.807651-06:00"
+}

@@ -428,7 +428,7 @@ async fn main() -> Result<()> {
                     category.code, count, already_extracted);
             }
             Err(e) => {
-                error!("✗ Failed to extract {}: {}", category.name, e);
+                error!("✗ Extraction failed: {}", e);
             }
         }
     }

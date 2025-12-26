@@ -242,11 +242,7 @@ impl MKSAPExtractor {
         let valid_ids = if !refresh {
             match self.load_checkpoint_ids(&category.code)? {
                 Some(ids) if !ids.is_empty() => {
-                    info!(
-                        "✓ Loaded {} valid question IDs from checkpoint for {}",
-                        ids.len(),
-                        category.name
-                    );
+                    info!("✓ Loaded {} valid question IDs from checkpoint", ids.len());
                     ids
                 }
                 _ => {
@@ -260,7 +256,7 @@ impl MKSAPExtractor {
             self.save_checkpoint_ids(&category.code, &ids)?;
             ids
         };
-        info!("✓ Found {} valid questions in {}", valid_ids.len(), category.name);
+        info!("✓ Found {} valid questions", valid_ids.len());
 
         // Phase 2: Setup - create folders for valid questions
         debug!("Phase 2: Creating directories for {} questions...", valid_ids.len());

@@ -7,7 +7,7 @@ The Rust MKSAP Extractor is the primary tool for extracting medical education qu
 ## Current Status
 
 - **Questions Extracted**: 754 / 2,233 (34% of target)
-- **Systems with Data**: 8 of 16 organ systems (partial)
+- **Systems with Data**: 8 of 16 system codes (partial)
 - **Question Types**: 1 of 6 types fully supported (mcq, cor, vdx, qqq, mqq, sq needed)
 - **Implementation Status**: Phase 1 - Data Extraction (see [PHASE_1_PLAN.md](../project/PHASE_1_PLAN.md))
 - **Last Updated**: December 25, 2025

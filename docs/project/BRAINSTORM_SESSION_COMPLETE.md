@@ -184,7 +184,7 @@ Supporting Documentation
 ## Question Count Resolution
 
 **Resolved discrepancy:**
-- Old count: 1,810 questions (12 systems, mcq only)
+- Old count: 1,810 questions (16 system codes, mcq only)
 - New count: 2,233 questions (16 systems, 6 question types)
 - Explanation: Previous extraction missed 5 question types (cor, vdx, qqq, mqq, sq) and 4 systems
 

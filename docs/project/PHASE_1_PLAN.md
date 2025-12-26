@@ -74,7 +74,7 @@ grep "total_questions" text_extractor/src/config.rs | awk '{sum+=$NF} END {print
 **Action Items:**
 
 1. Open `text_extractor/src/config.rs`
-   - Locate the `ORGAN_SYSTEMS` array (should be 12 systems)
+   - Locate the `ORGAN_SYSTEMS` array (should be 16 system codes)
    - Each system has: `id`, `name`, `url_slug`, `api_code`, `total_questions`
 
 2. Update `total_questions` for each system

@@ -7,7 +7,7 @@
 
 ## Summary
 
-Four organ systems show incomplete extraction:
+Four system codes show incomplete extraction:
 - **CC (Clinical Practice)**: 55/206 = 26.7% ⚠️ CRITICAL
 - **GI (Gastroenterology)**: 125/154 = 81.2% ⚠️ NEEDS WORK
 - **PM (Pulmonary/CCM)**: 131/162 = 80.9% ⚠️ NEEDS WORK
@@ -235,7 +235,7 @@ The "expected" counts (206, 154, 162, 199) are from an older MKSAP version with 
 ## Recommendations
 
 ### Short Term
-1. ✅ Current state is acceptable for 10/12 systems
+1. ✅ Current state is acceptable for 10/16 system codes
 2. Run a diagnostic extraction for incomplete systems with detailed logging
 3. Document actual question availability per system
 
@@ -367,7 +367,7 @@ The validator also flags data integrity warnings when extracted > discovered:
 
 With the new discovery-based metrics:
 - **Overall Completion**: 100.7% (1,802 extracted / 1,790 discovered)
-- **All 12 systems are ≥100% complete** based on API discovery
+- **All 16 system codes are ≥100% complete** based on API discovery
 - **No data integrity issues** detected
 - **Extraction system is working correctly**
 
@@ -375,7 +375,7 @@ This confirms the original gap analysis conclusion: the "gaps" were actually ret
 
 ### Recommendations Going Forward
 
-1. ✅ Accept extraction system as complete for all 12 systems
+1. ✅ Accept extraction system as complete for all 16 system codes
 2. ✅ Use `cargo run -- discovery-stats` to monitor API changes
 3. ✅ Validate with `cargo run -- validate` to get accurate completion metrics
 4. Monitor discovery hit rate to detect API changes
@@ -536,7 +536,7 @@ The existing `generate_question_ids()` method generates IDs for a single prefix,
 ### System Count Summary
 
 **Before**: 13 systems (including incorrect pm/cc merge)
-**After**: 15 systems (proper separation of all "AND" content areas)
+**After**: 16 system codes (proper separation of all "AND" content areas)
 
 Breakdown:
 - 9 straightforward single-prefix systems
@@ -560,7 +560,7 @@ The increase comes from:
 ### How the System Works
 
 **Discovery Phase:**
-1. For each of 15 systems, generates all candidate question IDs
+1. For each of 16 system codes, generates all candidate question IDs
 2. Tests each ID with HTTP HEAD request
 3. Collects discovered IDs in checkpoint files
 4. Saves discovery metadata (timestamp, count, hit rate)
@@ -634,13 +634,13 @@ mksap_data/
    ```bash
    cargo run --release -- discovery-stats
    ```
-   Expected to show all 15 systems with accurate discovery counts.
+   Expected to show all 16 system codes with accurate discovery counts.
 
 5. **Validate extraction:**
    ```bash
    cargo run --release -- validate
    ```
-   Expected to show ~100% completion across all 15 systems.
+   Expected to show ~100% completion across all 16 system codes.
 
 ### Architecture Benefits
 

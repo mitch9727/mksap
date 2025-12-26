@@ -112,7 +112,7 @@ All dependencies are automatically downloaded during build.
 /Users/Mitchell/coding/projects/MKSAP/
 ├── src/
 │   ├── main.rs          # Entry point, orchestration
-│   ├── config.rs        # System definitions (12 organ systems)
+│   ├── config.rs        # System definitions (12 system codes)
 │   ├── extractor.rs     # Core extraction logic
 │   ├── validator.rs     # Data quality validation
 │   ├── models.rs        # Data structures

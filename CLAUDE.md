@@ -13,6 +13,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 **Validation**: Discovery-based extraction using API HEAD requests
 **Check Progress**: Run `./target/release/mksap-extractor validate` for current metrics
 
+## Important: System Codes vs Browser Organization
+
+This codebase works with **16 two-letter system codes** (cv, en, fc, cs, gi, hp, hm, id, in, dm, np, nr, on, pm, cc, rm) that appear in question IDs and API endpoints. These are NOT the same as the 12 content area groupings visible in the MKSAP browser interface.
+
+The browser shows 12 content areas, but some content areas contain multiple system codes:
+- **"Gastroenterology AND Hepatology"** → gi (Gastroenterology) + hp (Hepatology)
+- **"Pulmonary AND Critical Care"** → pm (Pulmonary Medicine) + cc (Critical Care Medicine)
+- **"General Internal Medicine"** → in (Interdisciplinary Medicine) + dm (Dermatology)
+- **"Foundations of Clinical Practice"** → fc (Foundations of Clinical Practice) + cs (Common Symptoms)
+
+All extraction, validation, and reporting in this codebase is organized by these 16 system codes, not the 12 browser groupings.
+
 ## Common Commands
 
 ### Building
@@ -104,53 +116,56 @@ This project uses **two separate Rust binaries** working in sequence:
 - **extractor.rs** (1,062 lines) - Core extraction logic: discovery → download → media
 - **validator.rs** (376 lines) - Data quality validation and reporting
 - **models.rs** (311 lines) - Data structures (QuestionData, ApiQuestionResponse, etc.)
-- **config.rs** (81 lines) - **12 organ systems** with codes and expected question counts
+- **config.rs** (81 lines) - **16 question system codes** with API codes and baseline counts
 - **browser.rs** (107 lines) - Browser-based authentication fallback
 - **media.rs** (83 lines) - Media asset downloading
 - **utils.rs** (87 lines) - Text processing and HTML parsing
 
-### Organ System Configuration
+### Question System Codes
 
-The extractor targets **15 medical organ systems** defined in [text_extractor/src/config.rs](text_extractor/src/config.rs):
+The extractor targets **16 question system codes** defined in [text_extractor/src/config.rs](text_extractor/src/config.rs:57-93):
 
 ```rust
 pub struct OrganSystem {
-    pub id: String,                    // Filesystem code (cv, en, cs, etc.)
-    pub name: String,                  // Full name
-    pub question_prefixes: Vec<String>, // Question ID prefixes
+    pub id: String,                    // Two-letter system code (cv, en, fc, cs, etc.)
+    pub name: String,                  // Display name
     pub baseline_2024_count: u32,      // Historical baseline (informational only)
 }
 ```
 
-**Configured System Prefixes** (15 total):
-- **cv** - Cardiovascular Medicine
-- **en** - Endocrinology and Metabolism
-- **cs** - Foundations of Clinical Practice and Common Symptoms
-- **gi** - Gastroenterology
-- **hp** - Hepatology
-- **hm** - Hematology
-- **id** - Infectious Disease
-- **in** - Interdisciplinary Medicine
-- **dm** - Dermatology
-- **np** - Nephrology
-- **nr** - Neurology
-- **on** - Oncology
-- **pm** - Pulmonary Medicine
-- **cc** - Critical Care Medicine
-- **rm** - Rheumatology
+**System Code Inventory** (16 codes):
+
+- **cv** - Cardiovascular Medicine (216 baseline)
+- **en** - Endocrinology and Metabolism (136 baseline)
+- **fc** - Foundations of Clinical Practice (0 baseline, to be discovered)
+- **cs** - Common Symptoms (98 discovered)
+- **gi** - Gastroenterology (77 baseline)
+- **hp** - Hepatology (77 baseline)
+- **hm** - Hematology (125 baseline)
+- **id** - Infectious Disease (205 baseline)
+- **in** - Interdisciplinary Medicine (100 baseline)
+- **dm** - Dermatology (99 baseline)
+- **np** - Nephrology (155 baseline)
+- **nr** - Neurology (118 baseline)
+- **on** - Oncology (103 baseline)
+- **pm** - Pulmonary Medicine (131 baseline)
+- **cc** - Critical Care Medicine (55 baseline)
+- **rm** - Rheumatology (131 baseline)
 
 **Note**: Baseline counts are informational only. Actual question availability is determined via API discovery (HTTP HEAD requests), stored in `.checkpoints/discovery_metadata.json`.
 
 ### Question ID Pattern
 
-Question IDs follow a deterministic pattern:
+Question IDs follow a deterministic pattern using system codes:
 ```
-{api_code}{type}{year}{sequential_number}
+{system_code}{type}{year}{sequential_number}
 
 Examples:
-- cvmcq24001  (Cardiovascular, MCQ, 2024, #1)
-- enmcq25042  (Endocrinology, MCQ, 2025, #42)
-- idvdx24003  (Infectious Disease, Video Diagnosis, 2024, #3)
+- cvmcq24001  (cv = Cardiovascular Medicine, MCQ, 2024, #1)
+- enmcq25042  (en = Endocrinology, MCQ, 2025, #42)
+- idvdx24003  (id = Infectious Disease, Video Diagnosis, 2024, #3)
+- fcmcq24001  (fc = Foundations of Clinical Practice, MCQ, 2024, #1)
+- cscor25001  (cs = Common Symptoms, Correlation, 2025, #1)
 ```
 
 **Supported question types**: mcq, qqq, vdx, cor, mqq, sq

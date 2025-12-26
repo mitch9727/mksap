@@ -47,7 +47,7 @@ The validator performs these checks on all extracted questions:
 
 5. **Specification Compliance**
    - Question ID format correct
-   - Category matches organ system
+   - Category matches system code
    - Data matches API schema
    - Coverage compared to specification
 
@@ -132,7 +132,7 @@ Missing Systems (0%):
 
 ### 2. Incomplete System Extraction
 
-**Issue**: 4 organ systems have 0 questions extracted
+**Issue**: 4 system codes have 0 questions extracted
 
 **Systems**:
 - Clinical Practice (cc)

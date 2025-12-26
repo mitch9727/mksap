@@ -26,7 +26,7 @@ MKSAP/
 │   └── src/
 │       ├── main.rs            # Entry point and orchestration
 │       ├── extractor.rs       # Core extraction logic (3-phase pipeline)
-│       ├── config.rs          # System definitions (12 organ systems)
+│       ├── config.rs          # System definitions (12 system codes)
 │       ├── validator.rs       # Data quality validation
 │       ├── models.rs          # Data structures (QuestionData, etc.)
 │       ├── media.rs           # Media asset downloading
@@ -40,7 +40,7 @@ MKSAP/
 │
 ├── mksap_data/               # Phase 1 Output: Extracted question data
 │   ├── .checkpoints/         # Extraction progress checkpoints
-│   ├── cv/, en/, hm/, ...    # Questions organized by organ system
+│   ├── cv/, en/, hm/, ...    # Questions organized by system code
 │   │   └── {question_id}/
 │   │       ├── {question_id}.json        # Complete question data
 │   │       ├── {question_id}_metadata.txt # Human-readable summary

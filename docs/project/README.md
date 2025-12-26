@@ -16,7 +16,7 @@ Extract the full MKSAP question bank into structured JSON using the Rust API-bas
 
 ## System Architecture
 
-The extractor is configured to handle **15 medical organ systems** (see [config.rs](../../text_extractor/src/config.rs)):
+The extractor is configured to handle **16 question system codes** (see [config.rs](../../text_extractor/src/config.rs)):
 
 **System Prefixes**:
 - cv (Cardiovascular), en (Endocrinology), cs (Clinical Practice)

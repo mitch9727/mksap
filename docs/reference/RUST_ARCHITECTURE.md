@@ -23,7 +23,7 @@ The Rust MKSAP Extractor follows a modular, async-first architecture optimized f
 ### Configuration (`config.rs` - 162 lines)
 
 **Responsibilities**:
-- Define all 12 organ systems
+- Define all 16 system codes
 - Map system IDs, codes, and metadata
 - Provide system lookup functions
 
@@ -39,7 +39,7 @@ pub struct OrganSystem {
 ```
 
 **Key Functions**:
-- `init_organ_systems()` - Returns all 12 systems
+- `init_organ_systems()` - Returns all 16 system codes
 - `get_organ_system_by_id()` - Lookup by ID
 - `get_organ_system_by_api_code()` - Lookup by API code
 

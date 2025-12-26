@@ -22,7 +22,7 @@ This directory contains historical reports documenting extraction progress, data
 - Duplicate removal and deduplication process
 - Data validation and quality assurance
 - System-by-system extraction status
-- Final question counts per organ system
+- Final question counts per system code
 
 ---
 
@@ -31,7 +31,7 @@ This directory contains historical reports documenting extraction progress, data
 **Summary**: Reconciliation of extraction data and cleanup activities
 
 **Key Metrics**:
-- 12 organ systems with complete extraction
+- 12 system codes with complete extraction
 - Resolution of duplicates and failed extractions
 - Checkpoint system validation
 

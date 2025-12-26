@@ -42,7 +42,7 @@ Sessions are cached, so subsequent runs authenticate automatically:
 
 ### Directory Organization
 
-Extracted questions are organized by organ system:
+Extracted questions are organized by system code:
 
 ```
 mksap_data/

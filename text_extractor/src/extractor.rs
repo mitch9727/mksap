@@ -1006,6 +1006,38 @@ impl MKSAPExtractor {
         }
     }
 
+    /// Save extracted question data to nested folder structure.
+    ///
+    /// # Directory Structure
+    ///
+    /// Creates a nested folder hierarchy for organized question storage:
+    /// ```text
+    /// mksap_data/
+    /// ├── {category_code}/          # e.g., cv, en, cs, gi, etc.
+    /// │   ├── {question_id}/        # e.g., cvmcq24001, cvmcq24002
+    /// │   │   ├── {question_id}.json     # JSON data only - no metadata files
+    /// │   │   ├── figures/          # Downloaded images, SVGs, tables
+    /// │   │   ├── videos/           # Downloaded video files
+    /// │   │   └── ...               # Other media types
+    /// │   └── {question_id}/
+    /// │       └── {question_id}.json
+    /// ```
+    ///
+    /// # Rationale
+    ///
+    /// - **One JSON file per question**: Contains all extracted structured data
+    /// - **No metadata.txt files**: All metadata is included in the JSON file
+    /// - **Nested directories**: Each question in its own folder for media organization
+    /// - **Media co-location**: Images, videos, tables stored alongside question data
+    ///
+    /// # Arguments
+    ///
+    /// * `category_code` - The organ system code (e.g., "cv", "en")
+    /// * `question` - The extracted question data to save
+    ///
+    /// # Errors
+    ///
+    /// Returns error if folder creation or file writing fails.
     pub fn save_question_data(&self, category_code: &str, question: &QuestionData) -> Result<()> {
         let question_folder = Path::new(&self.output_dir)
             .join(category_code)
@@ -1013,37 +1045,12 @@ impl MKSAPExtractor {
 
         fs::create_dir_all(&question_folder).context("Failed to create question folder")?;
 
-        // Save JSON
+        // Save JSON - only JSON file, no metadata.txt
         let json_path = question_folder.join(format!("{}.json", question.question_id));
         let json_content = serde_json::to_string_pretty(&question)?;
         fs::write(&json_path, json_content).context("Failed to write JSON file")?;
 
-        // Save metadata
-        self.save_metadata(&question_folder, question)?;
-
         info!("Saved question data for {}", question.question_id);
-        Ok(())
-    }
-
-    fn save_metadata(&self, folder: &Path, question: &QuestionData) -> Result<()> {
-        let metadata_path = folder.join(format!("{}_metadata.txt", question.question_id));
-
-        let content = format!(
-            "Question ID: {}\nCategory: {}\nEducational Objective: {}\nUser Performance: {}\nTime Taken: {}\nExtracted At: {}\n\nMedia Files:\n  Tables: {}\n  Images: {}\n  SVGs: {}\n  Videos: {}\n",
-            question.question_id,
-            question.category,
-            question.educational_objective,
-            question.user_performance.result.as_ref().unwrap_or(&"Unknown".to_string()),
-            question.user_performance.time_taken.as_ref().unwrap_or(&"Unknown".to_string()),
-            question.extracted_at,
-            question.media.tables.len(),
-            question.media.images.len(),
-            question.media.svgs.len(),
-            question.media.videos.len(),
-        );
-
-        fs::write(metadata_path, content).context("Failed to write metadata file")?;
-
         Ok(())
     }
 

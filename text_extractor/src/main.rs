@@ -433,9 +433,24 @@ async fn main() -> Result<()> {
         }
     }
 
+    // Calculate total questions across all systems
+    let mut total_questions = 0;
+    let mut total_already_extracted = 0;
+
+    for category in &categories {
+        let checkpoint_path = format!("mksap_data/.checkpoints/{}_ids.txt", category.code);
+        if let Ok(content) = std::fs::read_to_string(&checkpoint_path) {
+            let discovered = content.lines().count();
+            total_questions += discovered;
+            total_already_extracted += discovered.saturating_sub(total_extracted.min(discovered) as usize);
+        }
+    }
+
     let elapsed = start_time.elapsed();
     info!("\n=== EXTRACTION COMPLETE ===");
-    info!("Total questions extracted: {}", total_extracted);
+    info!("Total questions available: {}", total_questions);
+    info!("  New extracted: {}", total_extracted);
+    info!("  Already extracted: {}", total_questions.saturating_sub(total_extracted as usize));
     info!("Time elapsed: {:.2} minutes", elapsed.as_secs_f64() / 60.0);
     info!("Output directory: {}", output_dir);
 

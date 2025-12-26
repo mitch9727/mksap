@@ -380,3 +380,90 @@ This confirms the original gap analysis conclusion: the "gaps" were actually ret
 3. ✅ Validate with `cargo run -- validate` to get accurate completion metrics
 4. Monitor discovery hit rate to detect API changes
 5. Rerun discovery phase quarterly to track API evolution
+
+---
+
+## CRITICAL UPDATE (December 25, 2025 - Evening): Question ID Prefix Mismatch Discovery
+
+### The Problem
+
+Investigation revealed a **critical configuration error**: The "Foundations of Clinical Practice and Common Symptoms" section was configured to use the question ID prefix **"cc"**, but the API actually uses **"cs"**.
+
+**Evidence**:
+- User discovered that the section uses `fccs` as the content area identifier
+- Actual question IDs in the API use format: `cs[type][year][number]`
+  - Example: `csvdx24009`, `csmcq24001`, etc.
+- Configuration showed: `id: "cc"` (incorrect)
+- Extracted data shows: `cccor25002`, `ccmcq24001` (using wrong prefix)
+
+### Impact
+
+This explains why the "cc" system appeared incomplete:
+- Discovery phase generated IDs with pattern: `cc[type][year][number]`
+- These IDs don't exist in the API (API uses "cs" prefix)
+- Discovery found only 54 questions instead of the actual ~206
+- Extraction was limited to whatever could be found with wrong prefix
+
+### The Fix
+
+**File Modified**: `text_extractor/src/config.rs`
+
+Changed:
+```rust
+// BEFORE (incorrect)
+OrganSystem {
+    id: "cc".to_string(),
+    name: "Foundations of Clinical Practice and Common Symptoms".to_string(),
+    baseline_2024_count: 206,
+}
+
+// AFTER (correct)
+OrganSystem {
+    id: "cs".to_string(),
+    name: "Foundations of Clinical Practice and Common Symptoms".to_string(),
+    baseline_2024_count: 206,
+}
+```
+
+**Backup**: Old extracted data with "cc" prefix moved to `mksap_data/cc_old_prefix/` for reference
+
+**Cleared Checkpoint**: Removed `mksap_data/.checkpoints/cc_ids.txt` so discovery will re-run with correct prefix
+
+### Expected Improvement
+
+**Before**: 55 questions extracted (with wrong "cc" prefix)
+**After**: Expected ~206 questions when discovery runs with correct "cs" prefix
+
+### Verification Needed
+
+On next extraction run with `MKSAP_SESSION` set:
+1. Discovery phase will test all `cs[type][year][number]` patterns
+2. Should find ~206 actual questions (or similar based on current API state)
+3. Discovery metadata will show hit rate for "cs" system
+4. Validation report will show accurate completion percentage
+
+### Next Steps
+
+1. Run extraction with session: `MKSAP_SESSION=<token> cargo run --release`
+2. Monitor discovery phase output for "cs" system
+3. Verify discovery metadata in `.checkpoints/cs_ids.txt` shows 206+ questions
+4. Confirm validation report shows cs system at ~100% completion
+5. Compare discovery statistics between "cc_old_prefix" and new "cs" extraction
+
+### Root Cause Analysis
+
+Why this error existed:
+- The configuration appears to use a simple shorthand system code (cc, cv, en, etc.)
+- However, the API actually uses different prefixes for question IDs
+- This wasn't caught during initial development because discovery just tried what was configured
+- The limited results (55 questions) were accepted without verification against API patterns
+
+### Implications for Other Systems
+
+Investigation confirmed all other 11 systems use correct prefixes:
+- cv → cvcor25002, cvmcq24001 ✓ (correct)
+- en → encor25001, enmcq24001 ✓ (correct)
+- gi → gicor25001, gimcq24001 ✓ (correct)
+- ... (all others verified correct)
+
+Only the "cc" → "cs" mismatch was found.

@@ -9,6 +9,7 @@ use std::path::Path;
 use tracing::{warn, error};
 use anyhow::Result;
 use crate::config;
+use crate::models::DiscoveryMetadataCollection;
 
 #[derive(Debug, Clone, serde::Serialize)]
 pub struct ValidationResult {
@@ -28,6 +29,12 @@ pub struct SystemValidation {
     pub system_id: String,
     pub system_name: String,
     pub found_count: usize,
+
+    // NEW: Discovery-based metrics (source of truth)
+    pub discovered_count: Option<usize>,  // From checkpoint metadata
+    pub discovery_timestamp: Option<String>,
+
+    // DEPRECATED: Hardcoded baseline (informational only)
     pub expected_count: u32,
     pub valid_count: usize,
     pub issues: Vec<String>,
@@ -73,6 +80,19 @@ impl DataValidator {
             return Ok(result);
         }
 
+        // NEW: Load discovery metadata
+        let metadata_path = Path::new(mksap_data_dir)
+            .join(".checkpoints")
+            .join("discovery_metadata.json");
+
+        let discovery_metadata = if metadata_path.exists() {
+            let contents = fs::read_to_string(&metadata_path)?;
+            Some(serde_json::from_str::<DiscoveryMetadataCollection>(&contents)?)
+        } else {
+            warn!("No discovery metadata found - completion percentages will use baseline counts");
+            None
+        };
+
         // Iterate through all organ systems
         for entry in fs::read_dir(path)? {
             let entry = entry?;
@@ -93,11 +113,20 @@ impl DataValidator {
 
             let system_config = config::get_organ_system_by_id(&system_id);
 
+            // Get discovered count from discovery metadata if available
+            let (discovered_count, discovery_timestamp) = discovery_metadata
+                .as_ref()
+                .and_then(|m| m.systems.iter().find(|s| s.system_code == system_id))
+                .map(|s| (Some(s.discovered_count), Some(s.discovery_timestamp.clone())))
+                .unwrap_or((None, None));
+
             let system_validation = system_map.entry(system_id.clone()).or_insert_with(|| {
                 SystemValidation {
                     system_id: system_id.clone(),
                     system_name: system_config.as_ref().map(|s| s.name.clone()).unwrap_or_default(),
                     found_count: 0,
+                    discovered_count,
+                    discovery_timestamp,
                     expected_count: system_config.as_ref().map(|s| s.baseline_2024_count).unwrap_or(0),
                     valid_count: 0,
                     issues: Vec::new(),
@@ -162,12 +191,29 @@ impl DataValidator {
         let mut systems: Vec<SystemValidation> = system_map.into_values().collect();
         systems.sort_by(|a, b| a.system_id.cmp(&b.system_id));
         for system_validation in systems.iter_mut() {
-            if system_validation.found_count != system_validation.expected_count as usize {
+            // NEW: Use discovered count if available, otherwise fall back to expected (baseline)
+            let check_against = system_validation.discovered_count.unwrap_or(system_validation.expected_count as usize);
+
+            // Check for data integrity issues
+            if let Some(discovered) = system_validation.discovered_count {
+                if system_validation.found_count > discovered {
+                    let msg = format!(
+                        "⚠ Data Integrity Warning: {} extracted > {} discovered (possible stale checkpoint or manual additions)",
+                        system_validation.found_count,
+                        discovered
+                    );
+                    system_validation.issues.push(msg);
+                }
+            }
+
+            // Check for incomplete extraction (only if using discovered count)
+            if system_validation.discovered_count.is_some() && system_validation.found_count < check_against {
                 let msg = format!(
-                    "System {} found {} questions, expected {}",
+                    "System {} extracted {} / {} discovered ({:.1}%)",
                     system_validation.system_id,
                     system_validation.found_count,
-                    system_validation.expected_count
+                    check_against,
+                    (system_validation.found_count as f64 / check_against as f64) * 100.0
                 );
                 system_validation.issues.push(msg);
             }
@@ -286,14 +332,27 @@ impl DataValidator {
         report.push_str("=== PER-SYSTEM SUMMARY ===\n");
         for system in &result.systems_verified {
             let display_id = Self::display_system_id(&system.system_id);
+
+            // NEW: Use discovered count if available
+            let check_against = system.discovered_count.unwrap_or(system.expected_count as usize);
+            let percentage = if check_against > 0 {
+                (system.found_count as f64 / check_against as f64) * 100.0
+            } else {
+                0.0
+            };
+
             let status = if system.issues.is_empty() { "✓ OK" } else { "✗ ISSUES" };
+            let metadata_label = if system.discovered_count.is_some() { "discovered" } else { "expected" };
+
             report.push_str(&format!(
-                "{} {}: {}/{} questions ({} valid)\n",
+                "{} {}: {}/{} questions ({} valid, {:.1}% of {})\n",
                 status,
                 display_id,
                 system.found_count,
-                system.expected_count,
-                system.valid_count
+                check_against,
+                system.valid_count,
+                percentage,
+                metadata_label
             ));
 
             if !system.issues.is_empty() {
@@ -316,6 +375,133 @@ impl DataValidator {
         report
     }
 
+    /// Generate detailed discovery-aware validation report with metadata
+    pub fn generate_discovery_report(result: &ValidationResult, discovery_metadata: &Option<DiscoveryMetadataCollection>) -> String {
+        let mut report = String::new();
+
+        report.push_str("# MKSAP Extraction Validation Report (Discovery-Based)\n\n");
+        report.push_str(&format!("Generated: {}\n\n", chrono::Local::now().to_rfc2822()));
+
+        // Overall statistics
+        report.push_str("## Overall Statistics\n\n");
+
+        if let Some(ref metadata) = discovery_metadata {
+            let total_discovered: usize = metadata.systems.iter()
+                .map(|s| s.discovered_count)
+                .sum();
+
+            let total_extracted = result.valid_questions;
+            let overall_pct = if total_discovered > 0 {
+                (total_extracted as f64 / total_discovered as f64) * 100.0
+            } else {
+                0.0
+            };
+
+            report.push_str(&format!("- **Total Discovered** (via API): {} questions\n", total_discovered));
+            report.push_str(&format!("- **Total Extracted**: {} questions\n", total_extracted));
+            report.push_str(&format!("- **Overall Completion**: {:.1}%\n\n", overall_pct));
+            report.push_str(&format!("- **Discovery Last Updated**: {}\n\n", metadata.last_updated));
+        } else {
+            report.push_str("- **Discovery Metadata**: Not available (no discovery has been performed)\n");
+            report.push_str(&format!("- **Total Extracted**: {} questions\n\n", result.valid_questions));
+        }
+
+        // Historical baseline (informational)
+        let total_baseline: u32 = config::init_organ_systems().iter()
+            .map(|s| s.baseline_2024_count)
+            .sum();
+        report.push_str(&format!(
+            "- **Historical Baseline** (MKSAP 2024 initial release): {} questions (informational only)\n\n",
+            total_baseline
+        ));
+
+        // Per-system breakdown
+        report.push_str("## System Breakdown\n\n");
+        report.push_str("| System | Extracted | Discovered | Baseline | % Complete | Status |\n");
+        report.push_str("|--------|-----------|------------|----------|------------|--------|\n");
+
+        for system_val in &result.systems_verified {
+            let discovered_str = system_val.discovered_count
+                .map(|d| d.to_string())
+                .unwrap_or_else(|| "?".to_string());
+
+            let percentage = if let Some(discovered) = system_val.discovered_count {
+                if discovered > 0 {
+                    (system_val.found_count as f64 / discovered as f64) * 100.0
+                } else {
+                    0.0
+                }
+            } else {
+                0.0
+            };
+
+            let status = if system_val.found_count > system_val.discovered_count.unwrap_or(0) {
+                "⚠ Over-extracted"
+            } else if percentage >= 100.0 {
+                "✓ Complete"
+            } else if percentage >= 90.0 {
+                "◐ 90%+"
+            } else {
+                "○ Incomplete"
+            };
+
+            report.push_str(&format!(
+                "| {} | {} | {} | {} | {:.1}% | {} |\n",
+                system_val.system_id,
+                system_val.found_count,
+                discovered_str,
+                system_val.expected_count,
+                percentage,
+                status
+            ));
+        }
+
+        // Data integrity warnings
+        report.push_str("\n## Data Integrity Checks\n\n");
+
+        let mut warnings_found = false;
+        for system_val in &result.systems_verified {
+            if let Some(discovered) = system_val.discovered_count {
+                if system_val.found_count > discovered {
+                    if !warnings_found {
+                        warnings_found = true;
+                    }
+                    report.push_str(&format!(
+                        "⚠ **WARNING**: System `{}` has {} extracted but only {} discovered.\n",
+                        system_val.system_id,
+                        system_val.found_count,
+                        discovered
+                    ));
+                    report.push_str("  - Possible causes: Stale discovery checkpoint, manual additions, or extraction errors.\n");
+                    report.push_str(&format!(
+                        "  - Recommendation: Re-run discovery phase for system `{}`.\n\n",
+                        system_val.system_id
+                    ));
+                }
+            }
+        }
+
+        if !warnings_found {
+            report.push_str("✓ No data integrity warnings detected.\n\n");
+        }
+
+        // Discovery statistics
+        if let Some(ref metadata) = discovery_metadata {
+            report.push_str("## Discovery Statistics\n\n");
+
+            for sys_meta in &metadata.systems {
+                report.push_str(&format!("### System: {}\n\n", sys_meta.system_code));
+                report.push_str(&format!("- Discovered: {} questions\n", sys_meta.discovered_count));
+                report.push_str(&format!("- Candidates Tested: {}\n", sys_meta.candidates_tested));
+                report.push_str(&format!("- Hit Rate: {:.2}%\n", sys_meta.hit_rate * 100.0));
+                report.push_str(&format!("- Question Types Found: {}\n", sys_meta.question_types_found.join(", ")));
+                report.push_str(&format!("- Last Discovery: {}\n\n", sys_meta.discovery_timestamp));
+            }
+        }
+
+        report
+    }
+
     /// Compare extracted data with specification expectations
     pub fn compare_with_specification(result: &ValidationResult) -> String {
         let organ_systems = config::init_organ_systems();
@@ -324,49 +510,92 @@ impl DataValidator {
         comparison.push_str("=== SPECIFICATION COMPLIANCE REPORT ===\n\n");
 
         let mut total_expected = 0;
+        let mut total_discovered = 0;
         let mut total_found = 0;
+        let has_discovery_metadata = result.systems_verified.iter().any(|s| s.discovered_count.is_some());
 
         for system in organ_systems {
             let display_id = Self::display_system_id(&system.id);
-            let found = result.systems_verified.iter()
-                .find(|s| s.system_id == system.id)
-                .map(|s| s.found_count)
-                .unwrap_or(0);
+            let system_val = result.systems_verified.iter()
+                .find(|s| s.system_id == system.id);
+
+            let found = system_val.map(|s| s.found_count).unwrap_or(0);
+
+            // NEW: Use discovered count if available, otherwise use baseline
+            let check_against = system_val
+                .and_then(|s| s.discovered_count)
+                .unwrap_or(system.baseline_2024_count as usize);
 
             total_expected += system.baseline_2024_count;
+            if let Some(sys) = system_val {
+                if let Some(discovered) = sys.discovered_count {
+                    total_discovered += discovered;
+                }
+            }
             total_found += found;
 
-            let percentage = if system.baseline_2024_count > 0 {
-                (found as f64 / system.baseline_2024_count as f64) * 100.0
+            let percentage = if check_against > 0 {
+                (found as f64 / check_against as f64) * 100.0
             } else {
                 0.0
             };
 
-            let status = if found >= system.baseline_2024_count as usize {
-                "✓"
-            } else if found > 0 {
-                "⚠"
+            let status = if let Some(discovered) = system_val.and_then(|s| s.discovered_count) {
+                // Use discovered count for status
+                if found >= discovered {
+                    "✓"
+                } else if found > 0 && found >= (discovered as f64 * 0.9) as usize {
+                    "◐"
+                } else if found > 0 {
+                    "⚠"
+                } else {
+                    "✗"
+                }
             } else {
-                "✗"
+                // Fallback to baseline
+                if found >= system.baseline_2024_count as usize {
+                    "✓"
+                } else if found > 0 {
+                    "⚠"
+                } else {
+                    "✗"
+                }
+            };
+
+            let denominator_label = if system_val.and_then(|s| s.discovered_count).is_some() {
+                "discovered"
+            } else {
+                "baseline"
             };
 
             comparison.push_str(&format!(
-                "{} {} ({}): {}/{} questions ({:.1}%)\n",
+                "{} {} ({}): {}/{} questions ({:.1}% of {})\n",
                 status,
                 display_id,
                 system.name,
                 found,
-                system.baseline_2024_count,
-                percentage
+                check_against,
+                percentage,
+                denominator_label
             ));
         }
 
-        comparison.push_str(&format!(
-            "\n=== OVERALL ===\n{}/{} questions extracted ({:.1}%)\n",
-            total_found,
-            total_expected,
-            (total_found as f64 / total_expected as f64) * 100.0
-        ));
+        // NEW: Show overall statistics with discovery-based totals if available
+        if has_discovery_metadata && total_discovered > 0 {
+            comparison.push_str(&format!(
+                "\n=== OVERALL (DISCOVERY-BASED) ===\n{}/{} questions extracted ({:.1}%)\n",
+                total_found,
+                total_discovered,
+                (total_found as f64 / total_discovered as f64) * 100.0
+            ));
+        } else {
+            comparison.push_str(&format!(
+                "\n=== OVERALL (BASELINE) ===\n{}/{} questions extracted ({:.1}%)\n",
+                total_found,
+                total_expected,
+                (total_found as f64 / total_expected as f64) * 100.0
+            ));
+        }
 
         comparison
     }

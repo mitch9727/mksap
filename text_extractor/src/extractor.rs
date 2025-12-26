@@ -853,7 +853,7 @@ impl MKSAPExtractor {
         let year_start = env::var("MKSAP_YEAR_START")
             .ok()
             .and_then(|value| value.parse::<u32>().ok())
-            .unwrap_or(20);
+            .unwrap_or(23);
         let year_end = env::var("MKSAP_YEAR_END")
             .ok()
             .and_then(|value| value.parse::<u32>().ok())
@@ -867,7 +867,8 @@ impl MKSAPExtractor {
             .filter(|value| !value.is_empty())
             .collect();
 
-        // Try a broader year range by default (2022-2026) and allow overrides via env vars.
+        // Year range 2023-2026 by default (skip deprecated 2020-2022 questions).
+        // Override with MKSAP_YEAR_START and MKSAP_YEAR_END environment variables.
         for type_code in type_codes {
             for year in year_start..=year_end {
                 for num in 1..=999 {

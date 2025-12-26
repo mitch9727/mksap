@@ -1,0 +1,59 @@
+{
+  "question_id": "hpmcq24026",
+  "category": "hp",
+  "educational_objective": "Evaluate a patient with metabolic dysfunction–associated steatotic liver disease for advanced fibrosis.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 49-year-old patient is evaluated for abnormal liver test results. They are asymptomatic. They drink two beers weekly. The patient has no personal or family history of liver disease. They have type 2 diabetes mellitus, dyslipidemia, and hypertension. Medications are semaglutide, atorvastatin, and lisinopril.On physical examination, vital signs are normal. BMI is 29. The abdomen is soft, nontender, and nondistended. The liver edge is palpable 1 cm below the inferior costal margin. There are no stigmata of advanced liver disease.Laboratory studies:INR0.9Platelet count232,000/µL (232 × 109/L)Albumin4.2 g/dL (42 g/L)Alkaline phosphatase90 U/LAlanine aminotransferase72 U/LHAspartate aminotransferase83 U/LHBilirubinTotal0.9 mg/dL (15.3 µmol/L)Direct0.6 mg/dL (10.2 µmol/L)HIron studiesNormalResults of viral hepatitis, autoimmune hepatitis, and Wilson disease testing are negative. A Fibrosis-4 (FIB-4) score is 2.07 (indeterminate).Abdominal ultrasound shows mild hepatomegaly and increased liver echogenicity consistent with fatty infiltration.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Multiphase liver MRI",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Repeat FIB-4 measurement in 1 to 2 years",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Transient elastography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No further diagnostic testing",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate diagnostic test to perform next in this patient with metabolic dysfunction–associated steatotic liver disease (MASLD, formerly known as nonalcoholic fatty liver disease [NALFD]) and an indeterminate Fibrosis-4 (FIB-4) score is transient elastography (Option C). Because MASLD can result in metabolic dysfunction–associated steatohepatitis (MASH; formerly called nonalcoholic steatohepatitis [NASH]), all patients with MASLD should be assessed for risk for advanced liver fibrosis. Assessing the FIB-4 or other noninvasive score is reasonable if there is no clinical evidence of advanced liver disease. In patients with indeterminate FIB-4 scores, such as this patient, liver stiffness should be measured with vibration-controlled transient elastography, which can help determine whether significant hepatic fibrosis has developed. Liver biopsy can be considered in patients with contraindications to elastography, including the following:Body habitusSignificant liver inflammation (e.g., alanine aminotransferase level >100 U/L)Congestion due to right-sided volume overloadHeavy alcohol useThis patient has mildly elevated liver test results in a hepatocellular pattern of injury. They have risk factors for MASLD, with evidence of liver steatosis on ultrasound. Other possible diagnoses (e.g., chronic hepatitis B or C virus infection, drug-induced liver injury, autoimmune hepatitis, and hereditary hemochromatosis) are less likely given the patient's findings. Because their FIB-4 score is indeterminate, liver stiffness should be measured next to further assess for fibrosis.Multiphase liver MRI (Option A) is not indicated because liver imaging does not have sufficient sensitivity or specificity to diagnose advanced liver fibrosis. The presence of morphologic features of cirrhosis and/or portal hypertension may suggest cirrhosis, but the absence of these features does not effectively exclude advanced liver fibrosis.Repeating the FIB-4 measurement in 1 to 2 years (Option B) is not the most appropriate test to perform next because the patient's FIB-4 score is indeterminate. If the FIB-4 score is low, the patient is unlikely to have advanced liver fibrosis, and repeat measurement of a FIB-4 score in 1 to 2 years is a reasonable approach.Performing no further diagnostic testing (Option D) is inappropriate because the patient has an indeterminate FIB-4 score, which does not exclude advanced liver fibrosis. Further assessment of liver fibrosis is recommended.",
+  "key_points": [
+    "In patients with metabolic dysfunction–associated steatotic liver disease and an indeterminate Fibrosis-4 score, further evaluation for fibrosis should be performed with liver stiffness measurement."
+  ],
+  "references": "Kanwal F, Shubrook JH, Adams LA, et al. Clinical care pathway for the risk stratification and management of patients with nonalcoholic fatty liver disease. Gastroenterology. 2021;161:1657-1669. PMID: 34602251 doi:10.1053/j.gastro.2021.07.049",
+  "related_content": {
+    "syllabus": [
+      "hpsec24004_24001"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T19:50:07.851423-06:00"
+}

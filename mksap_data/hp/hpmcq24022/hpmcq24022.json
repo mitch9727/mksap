@@ -1,0 +1,60 @@
+{
+  "question_id": "hpmcq24022",
+  "category": "hp",
+  "educational_objective": "Diagnose cirrhosis in a patient with alcoholic liver disease.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 59-year-old woman is evaluated during a follow-up visit 6 months after she was hospitalized with alcoholic hepatitis complicated by ascites. She has a longstanding history of alcohol use disorder but has stopped drinking alcohol since her hospitalization. Ascites has resolved and she is now asymptomatic. However, she is concerned that she may have cirrhosis.Physical examination findings, including vital signs, are normal.Laboratory studies:TodayAt discharge 6 months agoPlatelet count162,000/µL (162 × 109/L)–INR0.9–Albumin4.3 g/dL (43 g/L)–Alkaline phosphatase98 U/LH–Alanine aminotransferase34 U/L189 U/LHAspartate aminotransferase58 U/LH381 U/LHTotal bilirubin1.2 mg/dL (20.5 µmol/L)6.2 mg/dL (106 µmol/L)HDoppler ultrasound of the abdomen shows diffusely increased hepatic echogenicity consistent with hepatic steatosis or chronic hepatocellular disease. There is no intrahepatic or extrahepatic biliary ductal dilation, ascites, or splenomegaly. Portal and hepatic veins are patent.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Artificial Intelligence-Cirrhosis-ECG (ACE) score",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Liver biopsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Transient elastography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No additional evaluation",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate diagnostic test to perform next is transient elastography (Option C). Evaluating whether a patient with alcoholic liver disease has cirrhosis can be challenging because patients with acute alcoholic hepatitis may develop significant portal hypertension with ascites, even in the absence of significant fibrosis. Therefore, assessment of cirrhosis should not be performed during an episode of alcoholic hepatitis. Once alcoholic hepatitis has resolved, the presence of ongoing portal hypertension (e.g., continued ascites and portosystemic collaterals, such as gastroesophageal varices) and/or liver synthetic dysfunction may enable the clinical diagnosis of cirrhosis. Transient elastography may aid in the evaluation; it is noninvasive, and liver stiffness measurements have been shown to be predictive of liver-related outcomes, such as risk for variceal bleeding and decompensation. However, transient elastography should not be used in the presence of significant liver inflammation (alanine aminotransferase or aspartate aminotransferase levels >100 U/L) because inflammation will increase liver stiffness and can lead to a false-positive result. This patient no longer has signs of portal hypertension but is at risk for cirrhosis because of her long history of alcohol use disorder.Artificial intelligence has been studied as a diagnostic tool to discriminate between patients with and without cirrhosis via ECG abnormalities. A study that evaluated an Artificial Intelligence-Cirrhosis-ECG (ACE) score (Option A) showed a sensitivity of 85% and specificity of 83%. However, this diagnostic tool remains experimental and is not the most appropriate next step for this patient.Liver biopsy (Option B) is not the most appropriate test to evaluate for cirrhosis at this time. In comparison with transient elastography, biopsy is invasive, is more susceptible to sampling variation, has potential for interobserver variation of fibrosis staging, and is less useful for risk stratification. However, in patients with significant liver inflammation, liver biopsy will likely be more reliable than transient elastography for assessment of liver fibrosis.No additional evaluation (Option D) is inappropriate because the patient may have cirrhosis without overt findings of decompensation. Resolution of ascites with alcohol cessation does not rule out the possibility of underlying cirrhosis.",
+  "key_points": [
+    "Patients with acute alcoholic hepatitis may often develop significant portal hypertension with ascites, even in the absence of significant fibrosis, which can make the diagnosis of cirrhosis uncertain; further assessment may be necessary in cases with diagnostic ambiguity.",
+    "Transient elastography is a noninvasive method to evaluate for fibrosis and cirrhosis but should not be used in the presence of significant liver inflammation, which can elicit a false-positive result."
+  ],
+  "references": "Jophlin LL, Singal AK, Bataller R, et al. ACG clinical guideline: alcohol-associated liver disease. Am J Gastroenterol. 2024;119:30-54. PMID: 38174913 doi:10.14309/ajg.0000000000002572",
+  "related_content": {
+    "syllabus": [
+      "hpsec24007_24002"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T19:50:07.849743-06:00"
+}

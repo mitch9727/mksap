@@ -1,0 +1,60 @@
+{
+  "question_id": "hpmcq24002",
+  "category": "hp",
+  "educational_objective": "Refer a patient with a Model for End-Stage Liver Disease 3.0 score of 15 or greater for liver transplant evaluation.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 65-year-old woman is evaluated in the office for ascites. She has a 10-year history of autoimmune hepatitis with cirrhosis. Ascites developed 2 years ago and until recently was controlled with a low-sodium diet and progressively increasing dosages of diuretics. Hepatic encephalopathy was diagnosed 1 year ago. She also has hypothyroidism. Her medications are furosemide, spironolactone, lactulose, levothyroxine, and prednisone.On physical examination, vital signs are normal. Temporal wasting is present. There is no asterixis. The abdomen is distended, and a fluid wave is observed.Laboratory studies:Albumin3.2 g/dL (32 g/L)LCreatinine1.3 mg/dL (114.9 µmol/L)Sodium130 mEq/L (130 mmol/L)LHer calculated Model for End-stage Liver Disease (MELD) 3.0 score is 19.Paracentesis is performed, and 4.5 L of ascitic fluid is removed. Results of testing for peritonitis are negative.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Increase diuretics",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Place a peritoneal drain",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Refer for liver transplant evaluation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No change in management",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in management is to refer the patient for liver transplant evaluation (Option C). Liver transplant evaluation is recommended for patients who have a Model for End-Stage Liver Disease (MELD) 3.0 score of 15 or higher because transplantation provides a survival advantage in these patients. Liver transplant evaluation is also recommended for those who have progressed from Child-Turcotte-Pugh class A to B or C cirrhosis, which is a hallmark of decompensation (see Table: Child-Turcotte-Pugh Score), and for patients with refractory ascites. The MELD 3.0 formula includes patient's gender, bilirubin level, INR, serum sodium level, serum albumin level, and serum creatinine level. The current version of the MELD score has been the basis for liver transplant allocation since 2023, and it accounts for the inclusion of gender and serum albumin to predict short-term mortality and address gender disparity. This patient has an elevated MELD 3.0 score of 19 and has decompensated cirrhosis (based on the refractory ascites); referral for liver transplant evaluation is indicated.Despite increased dosages of furosemide and spironolactone, this patient continues to have increasing and refractory ascites. In addition, laboratory studies show signs of kidney insufficiency and hyponatremia. Increasing diuretics (Option A) is unlikely to resolve the ascites and may further exacerbate kidney insufficiency and hyponatremia.A peritoneal drain (Option B) is an indwelling catheter associated with a high risk for infection and hypoalbuminemia. Drain placement is generally reserved for palliative management. In this patient, who may otherwise benefit from liver transplant, a peritoneal drain would not be recommended at this time but could be considered in the future if she is not a suitable candidate for transplantation.Not changing the current management (Option D) is inappropriate because this patient has a MELD 3.0 score greater than 15 and should be referred for liver transplant evaluation.",
+  "key_points": [
+    "The Model for End-Stage Liver Disease (MELD) 3.0 formula includes gender, bilirubin level, INR, serum sodium, serum albumin, and serum creatinine levels and is the basis for liver transplant allocation.",
+    "Evaluation for a liver transplant should be considered when a patient's Model for End-Stage Liver Disease (MELD) 3.0 score is 15 or higher."
+  ],
+  "references": "Kim WR, Mannalithara A, Heimbach JK, et al. MELD 3.0: The Model for End-Stage Liver Disease updated for the modern era. Gastroenterology. 2021;161:1887-1895.e4. PMID: 34481845 doi:10.1053/j.gastro.2021.08.050.",
+  "related_content": {
+    "syllabus": [
+      "hpsec24009_24014"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T19:50:07.839269-06:00"
+}

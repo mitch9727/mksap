@@ -1,14 +1,16 @@
 # MKSAP Project Overview
 
-## ⚠️ MAJOR ARCHITECTURE UPDATE (December 25, 2025)
+## ⚠️ MAJOR ARCHITECTURE UPDATE (December 25-26, 2025)
 
-**Multi-Prefix Architecture Implemented**:
+**Multi-Prefix Architecture Implemented & Validated**:
 - Fixed question ID prefix for "Foundations of Clinical Practice" from "cc" to "cs"
 - Expanded system count from 12 to 15 to properly handle "AND" content areas
 - Separated 3 mixed content areas into 6 distinct systems with correct prefixes
 - Architecture now supports all 15 medical specialties with proper question ID prefix mapping
+- **Re-extraction complete**: 2,066 questions extracted (exceeded 2,000+ target)
+- Optimized year range from 2020-2026 to 2023-2026 (skip deprecated questions)
 
-See [EXTRACTION_GAPS_ANALYSIS.md](../../EXTRACTION_GAPS_ANALYSIS.md#implementation-complete-december-25-2025---evening-multi-prefix-architecture) for full implementation details. Expected ~2,000+ questions after re-extraction with complete prefix coverage.
+See [EXTRACTION_GAPS_ANALYSIS.md](../../EXTRACTION_GAPS_ANALYSIS.md#implementation-complete-december-25-2025---evening-multi-prefix-architecture) for full implementation details.
 
 ## Project Goal
 
@@ -18,13 +20,13 @@ Extract the full MKSAP question bank into structured JSON using the Rust API-bas
 
 - Rust extractor is the primary and only supported extraction method.
 - **Architecture**: Updated to support 15 medical systems (up from 12)
-- **Current extraction**: 1,802 questions across 15 systems (with correct multi-prefix configuration)
+- **Current extraction**: 2,066 questions across 15 systems ✓ Complete
 - **Multi-prefix architecture**: Properly separates 3 "AND" content areas into 6 distinct systems
-  - Pulmonary AND Critical Care → pm + cc (separate systems)
-  - Gastroenterology AND Hepatology → gi + hp (separate systems)
-  - Interdisciplinary AND Dermatology → in + dm (separate systems)
-- **Expected after re-extraction**: ~2,000+ questions
-- **Completion metric**: API-discovered baseline (1,790+ questions) - will update after re-extraction with full prefix coverage
+  - Pulmonary AND Critical Care → pm (131) + cc (55) = 186 total
+  - Gastroenterology AND Hepatology → gi (125) + hp (53) = 178 total
+  - Interdisciplinary AND Dermatology → in (110) + dm (113) = 223 total
+- **New systems discovered**: cs (98), hp (53), dm (113) - total 264 new questions
+- **Year range optimization**: Constrained to 2023-2026 (skip deprecated 2020-2022 questions)
 
 ## Completion Metrics (December 2025 Update)
 

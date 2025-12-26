@@ -1,0 +1,59 @@
+{
+  "question_id": "hpmcq24020",
+  "category": "hp",
+  "educational_objective": "Diagnose hepatitis D virus coinfection in a patient with chronic hepatitis B virus infection.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 38-year-old woman is evaluated during a follow-up visit. One year ago, she was diagnosed with chronic, immune-active, hepatitis B e antigen–positive hepatitis B virus (HBV) infection after emigrating from Italy. At that time, transient elastography demonstrated no significant hepatic fibrosis. Tenofovir was initiated. She is currently asymptomatic. She does not drink alcohol and takes no other medications.On physical examination, vital signs are normal. No signs of advanced liver disease are present.Laboratory studies:Today1 year agoAlkaline phosphatase58 U/L68 U/LAlanine aminotransferase160 U/LH181 U/LHAspartate aminotransferase143 U/LH173 U/LHTotal bilirubin0.8 mg/dL (13.6 µmol/L)0.9 mg/dL (15.4 µmol/L)Hepatitis B e antigenPositivePositiveHepatitis B e antibodyNegativeNegativeHepatitis B surface antigenPositivePositiveHepatitis B virus DNAUndetectable1.8 × 106 IU/mLHHepatitis C virus antibody–NegativeTransferrin saturation–37%Ferritin–183 ng/mL (183 μg/L)Antinuclear antibodies–NegativeAnti–smooth muscle antibody–NegativeTotal IgG –991 mg/dL (9.9 g/L)Abdominal Doppler ultrasound shows a normal-appearing liver with patent portal and hepatic veins. No splenomegaly or ascites is noted.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Perform liver biopsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Perform liver MRI",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Switch from tenofovir to entecavir",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Test for hepatitis D virus antibody",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is to test for hepatitis D virus (HDV) antibody (Option D). HDV is a defective RNA virus that requires concurrent hepatitis B virus (HBV) infection for its propagation. It is relatively uncommon in North America, but there are areas of higher prevalence in Eastern Europe, Southern Europe, the Mediterranean region, the Middle East, West and Central Africa, East Asia, and the Amazon Basin. Similar to those with acute HBV infection, infection will spontaneously resolve in about 90% of adults with HBV and HDV coinfection. However, in patients with chronic HBV and HDV infection, the concurrent HDV infection often worsens liver inflammation and progression to fibrosis and cirrhosis. Chronic HDV infection should be considered in individuals with positivity for hepatitis B surface antigen who are from endemic areas or in those being treated for chronic HBV infection with evidence of persistent inflammation despite adequate HBV suppression. This patient's HBV is suppressed by tenofovir (undetectable HBV DNA), but she has persistent liver inflammation based on elevated alanine aminotransferase (ALT) and aspartate aminotransferase (AST) levels. Other relatively common causes of hepatocellular injury (e.g., chronic hepatitis C virus infection, metabolic dysfunction–associated steatotic liver disease [formerly called nonalcoholic fatty liver disease (NAFLD)], alcoholic liver disease, drug-induced liver injury, iron overload, autoimmune hepatitis) are unlikely in this patient, and testing for HDV antibody is appropriate.A liver biopsy (Option A) is not the most appropriate management. The pattern of liver inflammation or injury might narrow the differential diagnosis; however, the histopathologic findings would not be sufficiently specific to diagnose chronic HDV infection. If this patient were negative for HDV antibody, a liver biopsy might be the next test to consider.Liver MRI (Option B) is not indicated. Liver imaging is of limited utility in patients with hepatocellular injury (predominant elevation of aminotransferase levels) following a normal ultrasound, such as this patient.Switching from tenofovir to entecavir (Option C) is not indicated because this patient demonstrates adequate HBV suppression based on undetectable HBV DNA. Therefore, her elevated ALT level is not due to insufficient control of HBV replication. Switching to another HBV antiviral will not address the underlying problem.",
+  "key_points": [
+    "Chronic hepatitis D virus infection should be considered in individuals from endemic areas who have positivity for hepatitis B surface antigen or those being treated for chronic hepatitis B virus (HBV) with evidence of persistent inflammation despite adequate HBV suppression."
+  ],
+  "references": "Rizzetto M, Hamid S, Negro F. The changing context of hepatitis D. J Hepatol. 2021;74:1200-1211. PMID: 33484770 doi:10.1016/j.jhep.2021.01.014",
+  "related_content": {
+    "syllabus": [
+      "hpsec24005_24005"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T19:50:07.853078-06:00"
+}

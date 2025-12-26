@@ -1,11 +1,13 @@
 # MKSAP Question Bank Extractor
 
-System for extracting medical education questions from the ACP MKSAP (Medical Knowledge Self-Assessment Program) online question bank.
+> **Last updated: December 26, 2025**
+
+System for extracting medical education questions from the ACP MKSAP (Medical Knowledge Self-Assessment Program) online question bank into structured JSON format.
 
 ## Current Status
 
-- **754 questions extracted** (34% of 2,233 target)
-- **8 of 16 systems** have partial data
+- **1,802+ questions extracted** (87.3% of 2,065 target)
+- **12 organ systems** with data
 - **Primary Tool**: Rust MKSAP Extractor (API-based, active)
 - **Phase**: Phase 1 - Data Extraction (See [PHASE_1_PLAN.md](docs/project/PHASE_1_PLAN.md) for complete roadmap)
 
@@ -55,21 +57,20 @@ MKSAP_SESSION=... ./target/release/media-extractor
 
 ### Critical - Start Here
 
-- **[PHASE_1_PLAN.md](docs/project/PHASE_1_PLAN.md)** - Complete Phase 1 roadmap (2,233 question extraction)
-- **[Question ID Discovery](docs/Question%20ID%20Discovery.md)** - Understanding the 2,233 question count
+- **[PHASE_1_PLAN.md](docs/project/PHASE_1_PLAN.md)** - Complete Phase 1 roadmap
+- **[Question ID Discovery](docs/reference/QUESTION_ID_DISCOVERY.md)** - Understanding question discovery
 - **[Project Index](docs/project/INDEX.md)** - Navigation guide for all documentation
 
 ### Getting Started with Extraction
 
-- [Rust Extractor Overview](docs/rust/overview.md) - What it does and current status
-- [Setup Guide](docs/rust/setup.md) - Installation and configuration
-- [Usage Guide](docs/rust/usage.md) - How to run extraction
+- [Rust Extractor Setup](docs/reference/RUST_SETUP.md) - Installation and configuration
+- [Usage Guide](docs/reference/RUST_ARCHITECTURE.md) - How extraction works
 
 ### Deep Dives
 
-- [Validation Guide](docs/rust/validation.md) - Data quality checks
-- [Architecture](docs/rust/architecture.md) - Technical implementation
-- [Troubleshooting](docs/rust/troubleshooting.md) - Common issues and solutions
+- [Validation Guide](docs/reference/VALIDATION.md) - Data quality checks
+- [Architecture](docs/reference/RUST_ARCHITECTURE.md) - Technical implementation
+- [Troubleshooting](docs/reference/TROUBLESHOOTING.md) - Common issues and solutions
 
 ### Project Planning & Specifications
 
@@ -81,20 +82,24 @@ MKSAP_SESSION=... ./target/release/media-extractor
 
 Extracted questions are organized by organ system. Target: 2,233 questions across 16 systems and 6 question types (mcq, cor, vdx, qqq, mqq, sq).
 
-Current partial data (754 questions):
+Current extracted data (1,802+ questions across 12 systems):
 ```
 mksap_data/
-├── cv/   (132 questions) - Cardiovascular Medicine
-├── en/   (101 questions) - Endocrinology & Metabolism
-├── hm/   (72 questions)  - Hematology
-├── id/   (114 questions) - Infectious Disease
-├── np/   (107 questions) - Nephrology
-├── nr/   (78 questions)  - Neurology
-├── on/   (72 questions)  - Oncology
-└── rm/   (78 questions)  - Rheumatology
+├── cv/   - Cardiovascular Medicine
+├── cc/   - Foundations of Clinical Practice
+├── en/   - Endocrinology & Metabolism
+├── gi/   - Gastroenterology & Hepatology
+├── hm/   - Hematology
+├── id/   - Infectious Disease
+├── in/   - Interdisciplinary Medicine
+├── np/   - Nephrology
+├── nr/   - Neurology
+├── on/   - Oncology
+├── pm/   - Pulmonary & Critical Care
+└── rm/   - Rheumatology
 ```
 
-See [PHASE_1_PLAN.md](docs/project/PHASE_1_PLAN.md) for complete target breakdown across all 16 systems and 6 question types.
+See [docs/project/README.md](docs/project/README.md) for detailed status and extraction progress.
 
 ## Features
 
@@ -141,7 +146,7 @@ Primary tool for API-based extraction:
 This project is actively maintained. To contribute:
 
 1. Review [Architecture Guide](docs/architecture/PROJECT_ORGANIZATION.md)
-2. Check [Rust Architecture](docs/rust/architecture.md)
+2. Check [Rust Architecture](docs/reference/RUST_ARCHITECTURE.md)
 3. Follow existing code patterns
 4. Test changes before submitting
 
@@ -159,21 +164,20 @@ The project includes Claude Code integration:
 
 ### For New Users
 
-1. Read [Rust Overview](docs/rust/overview.md)
-2. Follow [Setup Guide](docs/rust/setup.md)
-3. Run [Usage Guide](docs/rust/usage.md)
-4. Check [Validation Guide](docs/rust/validation.md)
+1. Follow [Setup Guide](docs/reference/RUST_SETUP.md)
+2. Check [Usage Guide](docs/reference/RUST_ARCHITECTURE.md)
+3. Review [Validation Guide](docs/reference/VALIDATION.md)
 
 ### For Extraction
 
-1. Build project: `cargo build --release`
+1. Build project: `cd text_extractor && cargo build --release`
 2. Run extraction: `./target/release/mksap-extractor`
 3. Validate results: `./target/release/mksap-extractor validate`
-4. Check [Troubleshooting](docs/rust/troubleshooting.md) if issues
+4. Check [Troubleshooting](docs/reference/TROUBLESHOOTING.md) if issues
 
 ### For Development
 
-1. Review [Architecture](docs/rust/architecture.md)
+1. Review [Architecture](docs/reference/RUST_ARCHITECTURE.md)
 2. Understand [Project Structure](docs/architecture/PROJECT_ORGANIZATION.md)
 3. Follow code patterns in existing modules
 4. Write tests for new features
@@ -188,7 +192,7 @@ The project includes Claude Code integration:
 
 ### Troubleshooting
 
-See [Troubleshooting Guide](docs/rust/troubleshooting.md) for:
+See [Troubleshooting Guide](docs/reference/TROUBLESHOOTING.md) for:
 - Authentication issues
 - Network problems
 - Data quality checks
@@ -196,18 +200,18 @@ See [Troubleshooting Guide](docs/rust/troubleshooting.md) for:
 
 ### Project Status
 
-**Last Updated**: December 25, 2025
+**Last Updated**: December 26, 2025
 **Current Phase**: Phase 1 - Data Extraction
-**Extraction Coverage**: 34% (754/2,233 questions)
+**Extraction Coverage**: 87.3% (1,802+/2,065 questions)
 **Data Quality**: 100% validity
-**Target**: 2,233 questions (16 systems, 6 question types)
+**Systems Extracted**: 12 of 12 organ systems
 
 **Active Development**:
-- Implementing Question ID discovery algorithm (6 question types)
-- Extracting all 16 systems (currently 8/16 with partial data)
+- Finalizing remaining questions across all 12 systems
+- Data validation and quality assurance
 - Preparing Phase 2 (Intelligent Fact Extraction via Claude)
 
-See [PHASE_1_PLAN.md](docs/project/PHASE_1_PLAN.md) for detailed roadmap with timelines and success criteria.
+See [docs/project/README.md](docs/project/README.md) for detailed status and [PHASE_1_PLAN.md](docs/project/PHASE_1_PLAN.md) for roadmap.
 
 ## License
 
@@ -216,6 +220,6 @@ Medical education question extraction for personal study purposes.
 ## Questions?
 
 Refer to documentation:
-- [Quick Start](docs/rust/setup.md)
-- [Common Issues](docs/rust/troubleshooting.md)
-- [Architecture](docs/rust/architecture.md)
+- [Quick Start](docs/reference/RUST_SETUP.md)
+- [Common Issues](docs/reference/TROUBLESHOOTING.md)
+- [Architecture](docs/reference/RUST_ARCHITECTURE.md)

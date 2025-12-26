@@ -45,7 +45,7 @@
 ## 📊 Output Specifications
 
 - **[MCQ_FORMAT.md](../specifications/MCQ_FORMAT.md)** - Anki card output format specification
-- **[CVMCQ24041.md](../specifications/examples/CVMCQ24041.md)** - Example MCQ card demonstrating format
+- **[CVMCQ24041.md](../specifications/CVMCQ24041.md)** - Example MCQ card demonstrating format
 
 ---
 

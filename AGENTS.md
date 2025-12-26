@@ -7,7 +7,7 @@
 - `docs/`: Project, architecture, and Rust usage documentation.
 - `mksap_data/`: Extracted question output organized by system code (e.g., `mksap_data/cv/`).
 - `mksap_data_failed/`: Quarantined or failed extraction artifacts.
-- `syllubus_extractor/`: Reserved for future work (currently empty).
+- `syllabus_extractor/`: Reserved for future work (currently empty).
 
 ## Build, Test, and Development Commands
 

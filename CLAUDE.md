@@ -1,12 +1,14 @@
 # CLAUDE.md
 
+> **Last Updated**: December 26, 2025
+
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Repository Overview
 
 **MKSAP Question Bank Extractor** - CLI data extraction tool for downloading medical education questions from the ACP MKSAP (Medical Knowledge Self-Assessment Program) online question bank into structured JSON format.
 
-**Current Status**: 754 of 1,810 questions extracted (41.7% complete)
+**Current Status**: 1,802+ of 2,065 questions extracted (87.3% complete)
 **Primary Language**: Rust 2021 Edition with Tokio async runtime
 **Architecture**: Dual-extractor system (text + media post-processing)
 
@@ -15,13 +17,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### Building
 
 ```bash
-# Build both extractors (workspace-aware)
-cd /Users/Mitchell/coding/projects/MKSAP
+# Build text extractor (main tool)
+cd /Users/Mitchell/coding/projects/MKSAP/text_extractor
 cargo build --release
 
-# Build specific extractor
-cd text_extractor && cargo build --release
-cd media_extractor && cargo build --release
+# Build media extractor (post-processing)
+cd /Users/Mitchell/coding/projects/MKSAP/media_extractor
+cargo build --release
+
+# Note: Extractors are independent crates, not a workspace
+# Each must be built separately from its own directory
 ```
 
 ### Running Extraction
@@ -147,7 +152,7 @@ Examples:
 
 ### Extraction Pipeline
 
-The extraction follows a **three-phase** async pipeline (see [docs/rust/ARCHITECTURE.md](docs/rust/ARCHITECTURE.md:139-176)):
+The extraction follows a **three-phase** async pipeline (see [docs/reference/RUST_ARCHITECTURE.md](docs/reference/RUST_ARCHITECTURE.md)):
 
 ```
 1. AUTHENTICATE
@@ -294,7 +299,7 @@ Extracted JSON is designed for conversion to **Anki-ready Markdown flashcards** 
 - Supplemental materials (figures, videos, HTML tables)
 - Hierarchical tagging for Anki deck organization
 
-**Example output**: [docs/specifications/examples/CVMCQ24041.md](docs/specifications/examples/CVMCQ24041.md)
+**Example output**: [docs/specifications/CVMCQ24041.md](docs/specifications/CVMCQ24041.md)
 
 ## Common Issues
 
@@ -358,11 +363,10 @@ Review `mksap_data/validation_report.txt` and `mksap_data_failed/` after changes
 
 - **Project Overview**: [docs/project/README.md](docs/project/README.md)
 - **Quick Start**: [docs/project/QUICKSTART.md](docs/project/QUICKSTART.md)
-- **Rust Setup**: [docs/rust/setup.md](docs/rust/setup.md)
-- **Usage Guide**: [docs/rust/usage.md](docs/rust/usage.md)
-- **Architecture**: [docs/rust/ARCHITECTURE.md](docs/rust/ARCHITECTURE.md)
-- **Validation**: [docs/rust/validation.md](docs/rust/validation.md)
-- **Troubleshooting**: [docs/rust/TROUBLESHOOTING.md](docs/rust/TROUBLESHOOTING.md)
+- **Rust Setup**: [docs/reference/RUST_SETUP.md](docs/reference/RUST_SETUP.md)
+- **Architecture**: [docs/reference/RUST_ARCHITECTURE.md](docs/reference/RUST_ARCHITECTURE.md)
+- **Validation**: [docs/reference/VALIDATION.md](docs/reference/VALIDATION.md)
+- **Troubleshooting**: [docs/reference/TROUBLESHOOTING.md](docs/reference/TROUBLESHOOTING.md)
 - **MCQ Format**: [docs/specifications/MCQ_FORMAT.md](docs/specifications/MCQ_FORMAT.md)
 
 ## Development Workflow
@@ -405,13 +409,13 @@ This project follows **Conventional Commits**:
 
 ## Next Steps for Contributors
 
-1. Review [docs/rust/ARCHITECTURE.md](docs/rust/ARCHITECTURE.md) for technical details
+1. Review [docs/reference/RUST_ARCHITECTURE.md](docs/reference/RUST_ARCHITECTURE.md) for technical details
 2. Understand the [MCQ Format Specification](docs/specifications/MCQ_FORMAT.md) for output format
-3. Check [docs/project/PROJECT_STATUS.md](docs/project/PROJECT_STATUS.md) for current extraction progress
-4. See [docs/rust/TROUBLESHOOTING.md](docs/rust/TROUBLESHOOTING.md) for common issues
+3. Check [docs/project/README.md](docs/project/README.md) for current extraction progress and status
+4. See [docs/reference/TROUBLESHOOTING.md](docs/reference/TROUBLESHOOTING.md) for common issues
 
 ---
 
-**Last Updated**: December 2025
-**Project Status**: Active development (41.7% complete)
+**Last Updated**: December 26, 2025
+**Project Status**: Active development (87.3% complete - 1,802+ of 2,065 questions)
 **Repository**: git@github.com:mitch9727/mksap.git

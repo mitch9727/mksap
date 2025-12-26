@@ -1,42 +1,44 @@
 # MKSAP Project Overview
 
-## ⚠️ MAJOR ARCHITECTURE UPDATE (December 25-26, 2025)
+## Overview
 
-**Multi-Prefix Architecture Implemented & Validated**:
-- Fixed question ID prefix for "Foundations of Clinical Practice" from "cc" to "cs"
-- Expanded system count from 12 to 15 to properly handle "AND" content areas
-- Separated 3 mixed content areas into 6 distinct systems with correct prefixes
-- Architecture now supports all 15 medical specialties with proper question ID prefix mapping
-- **Re-extraction complete**: 2,066 questions extracted (exceeded 2,000+ target)
-- Optimized year range from 2020-2026 to 2023-2026 (skip deprecated questions)
+The MKSAP Question Bank Extractor uses a Rust-based API extraction system to download medical education questions from the ACP MKSAP online question bank into structured JSON format.
 
-See [EXTRACTION_GAPS_ANALYSIS.md](../../EXTRACTION_GAPS_ANALYSIS.md#implementation-complete-december-25-2025---evening-multi-prefix-architecture) for full implementation details.
+**Architecture**: Dual-extractor system with discovery-based validation
+- **text_extractor**: Main extraction tool using direct API calls
+- **media_extractor**: Post-processing for embedded media assets
+
+For historical extraction metrics, see [reports/](reports/) directory.
 
 ## Project Goal
 
 Extract the full MKSAP question bank into structured JSON using the Rust API-based extractor, then use that data for downstream processing (Markdown/Anki generation).
 
-## Current Status
+## System Architecture
 
-- Rust extractor is the primary and only supported extraction method.
-- **Architecture**: Updated to support 15 medical systems (up from 12)
-- **Current extraction**: 2,066 questions across 15 systems ✓ Complete
-- **Multi-prefix architecture**: Properly separates 3 "AND" content areas into 6 distinct systems
-  - Pulmonary AND Critical Care → pm (131) + cc (55) = 186 total
-  - Gastroenterology AND Hepatology → gi (125) + hp (53) = 178 total
-  - Interdisciplinary AND Dermatology → in (110) + dm (113) = 223 total
-- **New systems discovered**: cs (98), hp (53), dm (113) - total 264 new questions
-- **Year range optimization**: Constrained to 2023-2026 (skip deprecated 2020-2022 questions)
+The extractor is configured to handle **15 medical organ systems** (see [config.rs](../../text_extractor/src/config.rs)):
 
-## Completion Metrics (December 2025 Update)
+**System Prefixes**:
+- cv (Cardiovascular), en (Endocrinology), cs (Clinical Practice)
+- gi (Gastroenterology), hp (Hepatology), hm (Hematology)
+- id (Infectious Disease), in (Interdisciplinary), dm (Dermatology)
+- np (Nephrology), nr (Neurology), on (Oncology)
+- pm (Pulmonary), cc (Critical Care), rm (Rheumatology)
 
-The system now uses **API-discovered question counts** as the source of truth instead of hardcoded expectations. This means:
+**Multi-Prefix Design**: Some ACP content areas combine multiple specialties (e.g., "Gastroenterology AND Hepatology"). The extractor separates these into individual systems with distinct prefixes (gi, hp) for accurate question ID discovery.
 
-- **Accurate completion reporting**: Based on what actually exists in the API via discovery, not historical baselines
-- **Dynamic adaptation**: Automatically accounts for retired/invalidated questions and new 2025 content
-- **Data integrity checking**: Warns when extracted > discovered (possible checkpoint issues)
+**Year Range**: Targets questions from 2023-2026 (excludes deprecated 2020-2022 content)
 
-For detailed information, see [Discovery-Based Completion Tracking](#discovery-based-completion-tracking) below.
+## Discovery-Based Extraction
+
+The extractor uses **API HEAD request discovery** to determine which questions exist:
+
+- **No hardcoded counts**: Discovers actual available questions via HTTP HEAD requests
+- **Adapts to API changes**: Automatically accounts for retired/invalidated questions and new content
+- **Metadata tracking**: Stores discovery statistics in `.checkpoints/discovery_metadata.json`
+- **Validation**: Compares extracted count vs discovered count per system
+
+This approach ensures extraction targets reflect the current API state, not outdated historical baselines.
 
 ## Primary Tool
 

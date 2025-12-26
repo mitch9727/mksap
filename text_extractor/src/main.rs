@@ -1,6 +1,7 @@
 use anyhow::{Result, Context};
 use serde::{Deserialize, Serialize};
 use std::fs;
+use std::path::Path;
 use tracing::{info, error, warn};
 use tracing_subscriber;
 
@@ -13,6 +14,7 @@ mod validator;
 
 use extractor::MKSAPExtractor;
 use validator::DataValidator;
+use models::DiscoveryMetadataCollection;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct Category {
@@ -42,6 +44,58 @@ async fn validate_extraction(output_dir: &str) -> Result<()> {
 
     info!("Validation report saved to {}", report_path);
 
+    Ok(())
+}
+
+async fn show_discovery_stats(output_dir: &str) -> Result<()> {
+    let metadata_path = Path::new(output_dir)
+        .join(".checkpoints")
+        .join("discovery_metadata.json");
+
+    if !metadata_path.exists() {
+        println!("\n❌ No discovery metadata found.");
+        println!("Run extraction first to generate discovery data.\n");
+        return Ok(());
+    }
+
+    let contents = fs::read_to_string(&metadata_path)?;
+    let metadata: DiscoveryMetadataCollection = serde_json::from_str(&contents)?;
+
+    println!("\n=== MKSAP Discovery Statistics ===\n");
+    println!("Last Updated: {}\n", metadata.last_updated);
+
+    let total_discovered: usize = metadata.systems.iter()
+        .map(|s| s.discovered_count)
+        .sum();
+    let total_candidates: usize = metadata.systems.iter()
+        .map(|s| s.candidates_tested)
+        .sum();
+    let overall_hit_rate = if total_candidates > 0 {
+        (total_discovered as f64 / total_candidates as f64) * 100.0
+    } else {
+        0.0
+    };
+
+    println!("Overall:");
+    println!("  Total Discovered: {} questions", total_discovered);
+    println!("  Total Candidates Tested: {}", total_candidates);
+    println!("  Overall Hit Rate: {:.2}%\n", overall_hit_rate);
+
+    println!("Per-System Breakdown:");
+    println!("{:<6} {:>10} {:>15} {:>10} {}", "System", "Discovered", "Candidates", "Hit Rate", "Types Found");
+    println!("{}", "-".repeat(70));
+
+    for sys in &metadata.systems {
+        println!("{:<6} {:>10} {:>15} {:>9.2}% {}",
+            sys.system_code,
+            sys.discovered_count,
+            sys.candidates_tested,
+            sys.hit_rate * 100.0,
+            sys.question_types_found.join(",")
+        );
+    }
+
+    println!();
     Ok(())
 }
 
@@ -104,6 +158,9 @@ async fn main() -> Result<()> {
         let moved = extractor.cleanup_retired_questions().await?;
         info!("\n✓ Cleanup complete: {} retired questions moved to mksap_data_failed/retired/", moved);
         return Ok(());
+    }
+    if args.len() > 1 && args[1] == "discovery-stats" {
+        return show_discovery_stats(output_dir).await;
     }
     if args.len() > 1 && args[1] == "retry-missing" {
         // Continue through authentication, then re-fetch missing JSON entries.

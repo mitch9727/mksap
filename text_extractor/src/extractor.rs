@@ -766,6 +766,7 @@ impl MKSAPExtractor {
     }
 
     /// Get metadata for a specific system
+    #[allow(dead_code)]
     fn get_system_discovery_metadata(&self, system_code: &str) -> Result<Option<DiscoveryMetadata>> {
         let collection = self.load_discovery_metadata()?;
         Ok(collection.and_then(|c| {

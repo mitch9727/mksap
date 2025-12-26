@@ -1,0 +1,60 @@
+{
+  "question_id": "csmcq24061",
+  "category": "cs",
+  "educational_objective": "Diagnose subacute cough caused by <i>Bordetella pertussis.</i>",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 35-year-old woman is evaluated for a 3-week history of repeated paroxysms of sustained coughing accompanied by vomiting. She has tried over-the-counter cough suppressants with minimal benefit. One week before onset of her current symptoms, she experienced 3 to 4 days of mild upper airway congestion and malaise, which resolved without treatment. She reports no fever, headache, dyspnea, or rhinitis. She works in a daycare center. She does not use tobacco products. Medical history is otherwise unremarkable, and she takes no medications.Physical examination findings, including vital signs, are normal.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Chest CT",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Chlorpheniramine and pseudoephedrine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Polymerase chain reaction testing for pertussis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Prednisone",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Polymerase chain reaction (PCR) testing for pertussis (Option C) is the most appropriate next step in management for this patient with subacute cough and possible pertussis. Subacute cough is defined by symptoms that persist for 3 to 8 weeks without resolution. It typically occurs as part of a resolving acute viral respiratory tract infection but can also be associated with infections, such as with Mycoplasma or Bordetella pertussis. Pertussis outbreaks are frequently seen in daycare or other childcare centers, even when children and staff have been immunized. Pertussis may go unrecognized because of mild symptoms suggestive of a typical viral respiratory tract infection. Patients with pertussis typically progress through three stages marked first by rhinitis (catarrhal phase); followed by episodes of paroxysmal coughing with a dramatic audible inhalation described as “whooping,” often with posttussive emesis (paroxysmal phase); and lastly an extended period of coughing that gradually improves with time (convalescent phase). Testing for pertussis with PCR and sputum culture should be considered in patients with the characteristic clinical presentation regardless of vaccination status, especially in the setting of possible exposure. This patient who works in a daycare center has an extended history of paroxysmal coughing episodes and posttussive emesis and should be tested for pertussis.Chest CT (Option A) is currently not necessary in this patient. Chest CT would be appropriate in a patient with subacute cough with an abnormal chest radiograph or clinical suspicion for parenchymal lung disease or malignancy. This patient is otherwise healthy and has no clinical findings or risk factors for pulmonary disease. CT is not indicated at present.The combination of chlorpheniramine and pseudoephedrine (Option B), a first-generation antihistamine and a decongestant, is first-line therapy for upper airway cough syndrome (UACS) caused by nonallergic rhinitis. This patient's symptoms of coughing paroxysms and posttussive emesis are inconsistent with UACS, which usually presents with a less severe chronic cough.Prednisone (Option D) would be indicated if an exacerbation of underlying asthma or COPD was likely. However, it is not indicated in the absence of a history or signs or symptoms suggestive of obstructive lung disease, as is the case with this patient.",
+  "key_points": [
+    "In patients with subacute cough, findings that suggest Bordetella pertussis infection include posttussive emesis and paroxysmal coughing followed by a dramatic audible inhalation.",
+    "Testing for pertussis with polymerase chain reaction and sputum culture should be considered in patients with subacute cough, especially in the setting of possible pertussis exposure and regardless of vaccination status."
+  ],
+  "references": "Ebell MH, Marchello C, Callahan M. Clinical diagnosis of Bordetella pertussis infection: a systematic review. J Am Board Fam Med. 2017;30:308-319. PMID: 28484063 doi:10.3122/jabfm.2017.03.160330",
+  "related_content": {
+    "syllabus": [
+      "cssec24002_24003"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T19:48:10.694857-06:00"
+}

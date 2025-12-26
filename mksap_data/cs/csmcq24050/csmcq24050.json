@@ -1,0 +1,60 @@
+{
+  "question_id": "csmcq24050",
+  "category": "cs",
+  "educational_objective": "Diagnose heart failure.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 67-year-old woman is evaluated for mild dyspnea on exertion that began insidiously 4 weeks ago. She reports that she occasionally uses two pillows instead of one to sleep comfortably at night but has no chest pain or paroxysmal nocturnal dyspnea. She has a 35-pack-year history of tobacco use and quit smoking 20 years ago. She has hypertension treated with hydrochlorothiazide.On physical examination, blood pressure is 143/86 mm Hg, and oxygen saturation is 99% breathing ambient air; other vital signs are normal. Pulmonary examination reveals decreased breath sounds in the lung bases bilaterally. The remainder of the examination is normal.Laboratory studies:Hemoglobin9.5 g/dL (95 g/L)LCreatinine0.8 mg/dL (70.7 µmol/L)Chest radiography and ECG are normal.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "B-type natriuretic peptide measurement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Cardiac troponin measurement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Erythrocyte transfusion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Exercise myocardial perfusion imaging",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Measurement of the B-type natriuretic peptide (BNP) level (Option A) is the most appropriate diagnostic test to perform next in this patient with dyspnea. Dyspnea is a common symptom with a wide differential diagnosis, and evaluation is guided by history and physical examination. Without an obvious cause, the initial evaluation of dyspnea additionally includes measurement of oxygen saturation and hemoglobin level as well as ECG and chest radiography. In the appropriate clinical scenario, BNP or N-terminal pro–B-type natriuretic peptide (NT-proBNP) level is useful for assessing the likelihood of heart failure (HF) and differentiating cardiac from pulmonary causes of dyspnea. BNP levels are elevated in HF (typically >400 pg/mL [400 ng/L]) but may be low to normal in pulmonary disease (typically <100 pg/mL [100 ng/L]). A normal BNP level is strong evidence against the presence of HF. Levels between 100 pg/mL (100 ng/L) and 400 pg/mL (400 ng/L) are not particularly helpful in diagnosing or excluding HF. NT-proBNP performs in a similar manner to BNP. This patient has dyspnea of unclear cause and several risk factors for HF, including hypertension, previous tobacco use, and older age. Although most of the classic findings associated with HF are not present in this patient, there is at least a reasonable likelihood that HF is present. Obtaining a BNP level is a reasonable next step.Cardiac troponin measurement (Option B) is not the most appropriate diagnostic test to perform next. Although acute coronary syndrome (ACS) frequently has an atypical presentation, this patient's presentation of a 1-month history of symptoms and a normal ECG makes ACS an unlikely diagnosis and obviates the need for cardiac troponin testing.An erythrocyte transfusion (Option C) is appropriate in patients with a hemoglobin level of less than 7 g/dL (70 g/L), acute hemorrhage, or symptomatic anemia. Although this patient has anemia, it is not sufficiently low to be the primary cause of her dyspnea. Although this patient should undergo evaluation for the anemia, an erythrocyte transfusion is not indicated.In patients presenting with dyspnea, an exercise stress test, such as an exercise myocardial perfusion imaging study (Option D), is appropriate when myocardial ischemia is suspected as the cause of the dyspnea. It can also be used in evaluating the cause of HF. Although this patient may eventually require testing for coronary artery disease, an evaluation for HF with a BNP measurement should be prioritized.",
+  "key_points": [
+    "The initial evaluation of dyspnea without an obvious cause includes measurement of oxygen saturation and hemoglobin as well as ECG and chest radiography.",
+    "B-type natriuretic peptide and N-terminal pro–B-type natriuretic peptide levels are useful for ruling out heart failure."
+  ],
+  "references": "DeVos E, Jacobson L. Approach to adult patients with acute dyspnea. Emerg Med Clin North Am. 2016;34:129-49. PMID: 26614245 doi:10.1016/j.emc.2015.08.008",
+  "related_content": {
+    "syllabus": [
+      "cssec24003_24002"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T19:48:10.664070-06:00"
+}

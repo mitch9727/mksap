@@ -376,6 +376,7 @@ impl DataValidator {
     }
 
     /// Generate detailed discovery-aware validation report with metadata
+    #[allow(dead_code)]
     pub fn generate_discovery_report(result: &ValidationResult, discovery_metadata: &Option<DiscoveryMetadataCollection>) -> String {
         let mut report = String::new();
 

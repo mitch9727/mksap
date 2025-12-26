@@ -20,6 +20,7 @@ pub struct OrganSystem {
     /// - "Critical Care Medicine" (part of Pulmonary AND Critical Care): ["cc"]
     /// - "Gastroenterology" (part of Gastroenterology AND Hepatology): ["gi"]
     /// - "Hepatology" (part of Gastroenterology AND Hepatology): ["hp"]
+    #[allow(dead_code)]
     pub question_prefixes: Vec<String>,
 
     /// Historical baseline question count from MKSAP 2024 initial release.

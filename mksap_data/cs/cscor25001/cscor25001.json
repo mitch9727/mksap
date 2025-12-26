@@ -1,0 +1,60 @@
+{
+  "question_id": "cscor25001",
+  "category": "cs",
+  "educational_objective": "Evaluate chronic cough in a stepwise fashion.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/25/2025"
+  },
+  "question_text": "A 34-year-old woman is evaluated for a 3-month history of dry cough. The patient has a history of seasonal rhinitis. She uses fluticasone nasal spray and loratadine daily during allergy season, and she began taking both of these medications 3 weeks ago. Her nasal congestion has improved, but she has not had any improvement in her cough. She has no other symptoms. She takes no other medications, and she does not smoke.Physical examination findings, including vital signs, are normal.Chest radiograph is normal.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Ambulatory pH monitoring",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Omeprazole",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Spirometry",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sputum eosinophil evaluation",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Spirometry (Option C) is the most appropriate next step in evaluating this patient's chronic cough. Initial evaluation of persistent cough consists of a thorough history, physical examination, and chest radiography. If no specific cause is suggested by this evaluation, the patient and physician should begin an empiric, stepwise approach to diagnosis and management. The first step is to discontinue ACE inhibitors and support tobacco cessation, if applicable. Next, the patient should be treated for 2 weeks for upper airway cough syndrome (UACS). UACS may be associated with allergic rhinitis (involving sneezing, congestion, and rhinorrhea often linked to a seasonal allergen or other exposure and frequently co-occurring with red or watery eyes), or it may be a result of nonallergic rhinitis (occurring in response to nonallergic stimuli such as hot foods and irritants). Intranasal glucocorticoid therapy is first-line treatment for allergic rhinitis–associated UACS; nonallergic rhinitis–associated UACS is treated with first-generation antihistamines and decongestants. If the patient does not respond to this therapy, the next step is evaluation for asthma via spirometry. If cough-variant asthma is diagnosed, the patient should begin standard therapy for asthma. Empiric treatment for asthma also is reasonable, especially if spirometry is normal but bronchial hyperresponsiveness testing is unavailable. Because this patient's cough did not respond to adequate treatment for UACS, the next step is spirometry to evaluate for asthma.Ambulatory pH monitoring (Option A) measures acid exposure in the esophagus and is helpful in confirming gastroesophageal reflux disease (GERD) in patients unresponsive to acid-reducing therapy. In this patient, it should be considered only after more common causes of chronic cough have been excluded.An empiric trial of a proton pump inhibitor such as omeprazole (Option B) to treat GERD is the next step for patients who have persistent cough, have negative evaluation findings, and/or have not responded to empiric treatment of UACS, asthma, and nonasthmatic eosinophilic bronchitis (NAEB).In patients with normal findings on initial evaluation, failed empiric treatment for UACS, and a negative evaluation and/or failed empiric therapeutic trial for asthma, the next step is to evaluate for NAEB with sputum analysis for eosinophils (Option D) or exhaled nitric oxide testing. Empiric therapy for NAEB with inhaled glucocorticoids is also reasonable.",
+  "key_points": [
+    "The initial management of chronic cough includes tobacco cessation and discontinuation of ACE inhibitor therapy.",
+    "In patients with negative findings on chest radiograph and persistence of cough after discontinuation of ACE inhibitor therapy and tobacco, additional evaluation proceeds in a stepwise fashion: (1) empiric treatment for upper airway cough syndrome, (2) spirometry or empiric treatment for asthma, (3) sputum analysis for eosinophils or empiric treatment with inhaled glucocorticoids, and (4) empiric treatment for gastroesophageal reflux disease."
+  ],
+  "references": "Irwin RS, French CL, Chang AB, et al; CHEST Expert Cough Panel. Classification of cough as a symptom in adults and management algorithms: CHEST guideline and expert panel report. Chest. 2018;153:196-209. PMID: 29080708 doi:10.1016/j.chest.2017.10.016",
+  "related_content": {
+    "syllabus": [
+      "cssec24002_24003"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-25T19:48:10.793030-06:00"
+}

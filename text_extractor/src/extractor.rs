@@ -325,6 +325,18 @@ impl MKSAPExtractor {
         Ok(questions_extracted)
     }
 
+    /// Log a consolidated discovery result line
+    pub fn log_discovery_result(category_code: &str, discovered_count: usize, question_types: &[&str]) {
+        if discovered_count > 0 {
+            let types_str = if question_types.is_empty() {
+                "0 types".to_string()
+            } else {
+                format!("{} types", question_types.len())
+            };
+            info!("✓ {}: Discovered {} questions ({})", category_code, discovered_count, types_str);
+        }
+    }
+
     pub async fn retry_missing_json(&self) -> Result<usize> {
         let missing = self.find_missing_json_ids()?;
         let failed = self.find_failed_deserialize_ids()?;

@@ -1,21 +1,22 @@
-use anyhow::{Result, Context};
-use reqwest::Client;
-use std::fs;
-use std::path::Path;
-use std::collections::HashSet;
-use std::env;
-use std::sync::Arc;
-use tokio::time::sleep;
-use std::time::Duration;
-use tracing::{info, error, warn, debug};
-use serde_json::json;
+use anyhow::{Context, Result};
+use chrono::Utc;
 use futures::stream::{self, StreamExt};
 use rand::seq::SliceRandom;
 use rand::thread_rng;
-use chrono::Utc;
+use reqwest::Client;
+use serde_json::json;
+use std::collections::HashSet;
+use std::env;
+use std::fs;
+use std::path::Path;
+use std::sync::Arc;
+use std::time::Duration;
+use tokio::time::sleep;
+use tracing::{debug, error, info, warn};
 
-use crate::models::{QuestionData, ApiQuestionResponse, DiscoveryMetadata, DiscoveryMetadataCollection};
-use crate::media::MediaExtractor;
+use crate::models::{
+    ApiQuestionResponse, DiscoveryMetadata, DiscoveryMetadataCollection, QuestionData,
+};
 use crate::validator::DataValidator;
 
 const QUESTION_TYPE_CODES: [&str; 6] = ["mcq", "qqq", "vdx", "cor", "mqq", "sq"];
@@ -31,8 +32,7 @@ pub struct MKSAPExtractor {
 
 impl MKSAPExtractor {
     pub fn new(base_url: &str, output_dir: &str) -> Result<Self> {
-        fs::create_dir_all(output_dir)
-            .context("Failed to create output directory")?;
+        fs::create_dir_all(output_dir).context("Failed to create output directory")?;
 
         Ok(Self {
             base_url: base_url.to_string(),
@@ -79,12 +79,7 @@ impl MKSAPExtractor {
         for endpoint in endpoints {
             info!("Trying authentication endpoint: {}", endpoint);
 
-            match self.client
-                .post(&endpoint)
-                .json(&credentials)
-                .send()
-                .await
-            {
+            match self.client.post(&endpoint).json(&credentials).send().await {
                 Ok(response) => {
                     let status = response.status();
 
@@ -97,7 +92,10 @@ impl MKSAPExtractor {
                         continue;
                     } else {
                         let error_text = response.text().await.unwrap_or_default();
-                        warn!("Authentication endpoint {} returned {}: {}", endpoint, status, error_text);
+                        warn!(
+                            "Authentication endpoint {} returned {}: {}",
+                            endpoint, status, error_text
+                        );
                     }
                 }
                 Err(e) => {
@@ -121,7 +119,10 @@ impl MKSAPExtractor {
     }
 
     pub async fn is_already_authenticated(&self) -> Result<bool> {
-        let url = format!("{}/app/question-bank/content-areas/cv/answered-questions", self.base_url);
+        let url = format!(
+            "{}/app/question-bank/content-areas/cv/answered-questions",
+            self.base_url
+        );
 
         match self.client.get(&url).send().await {
             Ok(response) => {
@@ -129,7 +130,10 @@ impl MKSAPExtractor {
                 if is_auth {
                     info!("✓ Already authenticated (received 200 from question bank page)");
                 } else {
-                    info!("Not yet authenticated (received {} from question bank page)", response.status());
+                    info!(
+                        "Not yet authenticated (received {} from question bank page)",
+                        response.status()
+                    );
                 }
                 Ok(is_auth)
             }
@@ -140,7 +144,7 @@ impl MKSAPExtractor {
         }
     }
 
-    pub async fn browser_login(&mut self) -> Result<()> {
+    pub async fn browser_login(&mut self, username: &str, password: &str) -> Result<()> {
         use crate::browser::BrowserLogin;
         info!("Falling back to interactive browser login...");
 
@@ -149,14 +153,18 @@ impl MKSAPExtractor {
         let client = self.client.clone();
 
         let detection_fn = || async {
-            let url = format!("{}/app/question-bank/content-areas/cv/answered-questions", base_url);
+            let url = format!(
+                "{}/app/question-bank/content-areas/cv/answered-questions",
+                base_url
+            );
             match client.get(&url).send().await {
                 Ok(response) => Ok(response.status() == 200),
                 Err(_) => Ok(false),
             }
         };
 
-        BrowserLogin::interactive_login(&self.base_url, Some(detection_fn)).await?;
+        BrowserLogin::interactive_login(&self.base_url, username, password, Some(detection_fn))
+            .await?;
         self.authenticated = true;
         Ok(())
     }
@@ -187,45 +195,52 @@ impl MKSAPExtractor {
                     continue;
                 }
 
-                let question_id = match question_path.file_name() {
-                    Some(name) => match name.to_str() {
-                        Some(id) => id.to_string(),
-                        None => continue,
-                    },
+                let question_id = match question_path.file_name().and_then(|n| n.to_str()) {
+                    Some(id) => id.to_string(),
                     None => continue,
                 };
 
-                // Re-fetch from API to check invalidated status
-                let api_url = format!("{}/api/questions/{}.json", self.base_url, question_id);
-                match tokio::time::timeout(
-                    Duration::from_secs(10),
-                    self.client.get(&api_url).send()
-                ).await {
-                    Ok(Ok(response)) if response.status().is_success() => {
-                        match response.text().await {
-                            Ok(json_text) => {
-                                if let Ok(api_response) = serde_json::from_str::<ApiQuestionResponse>(&json_text) {
-                                    if api_response.invalidated {
-                                        // Move to retired directory
-                                        let dest = Path::new(&retired_dir).join(&question_id);
-                                        if let Err(e) = fs::rename(&question_path, &dest) {
-                                            warn!("Failed to move retired question {}: {}", question_id, e);
-                                        } else {
-                                            info!("Moved retired question: {}", question_id);
-                                            moved_count += 1;
-                                        }
-                                    }
-                                }
-                            }
-                            Err(_) => continue,
+                // Check if question is retired via API
+                if let Ok(true) = self.is_question_retired(&question_id).await {
+                    // Move to retired directory
+                    let dest = Path::new(&retired_dir).join(&question_id);
+                    match fs::rename(&question_path, &dest) {
+                        Ok(()) => {
+                            info!("Moved retired question: {}", question_id);
+                            moved_count += 1;
+                        }
+                        Err(e) => {
+                            warn!("Failed to move retired question {}: {}", question_id, e);
                         }
                     }
-                    _ => continue,
                 }
             }
         }
 
         Ok(moved_count)
+    }
+
+    /// Check if a question is marked as retired/invalidated via API.
+    async fn is_question_retired(&self, question_id: &str) -> Result<bool> {
+        let api_url = format!("{}/api/questions/{}.json", self.base_url, question_id);
+
+        let response =
+            match tokio::time::timeout(Duration::from_secs(10), self.client.get(&api_url).send())
+                .await
+            {
+                Ok(Ok(resp)) if resp.status().is_success() => resp,
+                _ => return Ok(false),
+            };
+
+        let json_text = match response.text().await {
+            Ok(text) => text,
+            Err(_) => return Ok(false),
+        };
+
+        match serde_json::from_str::<ApiQuestionResponse>(&json_text) {
+            Ok(api_response) => Ok(api_response.invalidated),
+            Err(_) => Ok(false),
+        }
     }
 
     pub async fn extract_category(&self, category: &crate::Category) -> Result<usize> {
@@ -235,7 +250,10 @@ impl MKSAPExtractor {
         let concurrency = Self::concurrency_limit();
 
         // Phase 1: Discovery - find all valid questions
-        debug!("Phase 1: Discovering valid questions for {}...", category.name);
+        debug!(
+            "Phase 1: Discovering valid questions for {}...",
+            category.name
+        );
         let refresh = env::var("MKSAP_REFRESH_DISCOVERY")
             .map(|value| value == "1" || value.eq_ignore_ascii_case("true"))
             .unwrap_or(false);
@@ -246,26 +264,32 @@ impl MKSAPExtractor {
                     ids
                 }
                 _ => {
-                    let ids = self.discover_questions(&category.question_prefix, &existing_ids).await?;
+                    let ids = self
+                        .discover_questions(&category.question_prefix, &existing_ids)
+                        .await?;
                     self.save_checkpoint_ids(&category.code, &ids)?;
                     ids
                 }
             }
         } else {
-            let ids = self.discover_questions(&category.question_prefix, &existing_ids).await?;
+            let ids = self
+                .discover_questions(&category.question_prefix, &existing_ids)
+                .await?;
             self.save_checkpoint_ids(&category.code, &ids)?;
             ids
         };
         info!("✓ Found {} valid questions", valid_ids.len());
 
         // Phase 2: Setup - create folders for valid questions
-        debug!("Phase 2: Creating directories for {} questions...", valid_ids.len());
+        debug!(
+            "Phase 2: Creating directories for {} questions...",
+            valid_ids.len()
+        );
         for question_id in &valid_ids {
             let question_folder = Path::new(&self.output_dir)
                 .join(&category.code)
                 .join(question_id);
-            fs::create_dir_all(&question_folder)
-                .context("Failed to create question folder")?;
+            fs::create_dir_all(&question_folder).context("Failed to create question folder")?;
         }
         debug!("✓ Directories created");
 
@@ -294,13 +318,21 @@ impl MKSAPExtractor {
         let mut processed = 0usize;
 
         let mut stream = stream::iter(targets.into_iter())
-            .map(|question_id| async move { (question_id.clone(), self.extract_question(&category.code, &question_id).await) })
+            .map(|question_id| async move {
+                (
+                    question_id.clone(),
+                    self.extract_question(&category.code, &question_id).await,
+                )
+            })
             .buffer_unordered(concurrency);
 
         while let Some((question_id, result)) = stream.next().await {
             processed += 1;
             if processed % 10 == 0 || processed == total_to_process {
-                info!("Progress: {}/{} questions processed", processed, total_to_process);
+                info!(
+                    "Progress: {}/{} questions processed",
+                    processed, total_to_process
+                );
             }
 
             match result {
@@ -308,7 +340,10 @@ impl MKSAPExtractor {
                     questions_extracted += 1;
                 }
                 Ok(false) => {
-                    warn!("Question {} returned 404 despite being in discovery list", question_id);
+                    warn!(
+                        "Question {} returned 404 despite being in discovery list",
+                        question_id
+                    );
                 }
                 Err(e) => {
                     error!("Error extracting {}: {}", question_id, e);
@@ -323,14 +358,21 @@ impl MKSAPExtractor {
 
     /// Log a consolidated discovery result line
     #[allow(dead_code)]
-    pub fn log_discovery_result(category_code: &str, discovered_count: usize, question_types: &[&str]) {
+    pub fn log_discovery_result(
+        category_code: &str,
+        discovered_count: usize,
+        question_types: &[&str],
+    ) {
         if discovered_count > 0 {
             let types_str = if question_types.is_empty() {
                 "0 types".to_string()
             } else {
                 format!("{} types", question_types.len())
             };
-            info!("✓ {}: Discovered {} questions ({})", category_code, discovered_count, types_str);
+            info!(
+                "✓ {}: Discovered {} questions ({})",
+                category_code, discovered_count, types_str
+            );
         }
     }
 
@@ -344,7 +386,9 @@ impl MKSAPExtractor {
         targets.extend(checkpoint_missing);
 
         let mut unique = HashSet::new();
-        targets.retain(|(category, question_id)| unique.insert(format!("{}::{}", category, question_id)));
+        targets.retain(|(category, question_id)| {
+            unique.insert(format!("{}::{}", category, question_id))
+        });
 
         if targets.is_empty() {
             info!("No missing, failed-deserialize, or checkpoint-missing entries found.");
@@ -374,7 +418,10 @@ impl MKSAPExtractor {
         while let Some((question_id, result)) = stream.next().await {
             processed += 1;
             if processed % 10 == 0 || processed == total_to_process {
-                info!("Progress: {}/{} missing questions retried", processed, total_to_process);
+                info!(
+                    "Progress: {}/{} missing questions retried",
+                    processed, total_to_process
+                );
             }
 
             match result {
@@ -384,7 +431,10 @@ impl MKSAPExtractor {
             }
         }
 
-        info!("Recovered {}/{} missing/failed entries", recovered, total_to_process);
+        info!(
+            "Recovered {}/{} missing/failed entries",
+            recovered, total_to_process
+        );
         Ok(recovered)
     }
 
@@ -494,7 +544,8 @@ impl MKSAPExtractor {
         }
 
         // Track discovered question types
-        let mut question_types_found: std::collections::HashSet<String> = std::collections::HashSet::new();
+        let mut question_types_found: std::collections::HashSet<String> =
+            std::collections::HashSet::new();
         for id in &valid_ids {
             if let Some(type_code) = self.extract_question_type(id) {
                 question_types_found.insert(type_code);
@@ -519,16 +570,18 @@ impl MKSAPExtractor {
         };
 
         // Update or create metadata collection
-        let mut collection = self.load_discovery_metadata()?.unwrap_or_else(|| {
-            DiscoveryMetadataCollection {
-                version: "1.0.0".to_string(),
-                last_updated: Utc::now().to_rfc3339(),
-                systems: Vec::new(),
-            }
-        });
+        let mut collection =
+            self.load_discovery_metadata()?
+                .unwrap_or_else(|| DiscoveryMetadataCollection {
+                    version: "1.0.0".to_string(),
+                    last_updated: Utc::now().to_rfc3339(),
+                    systems: Vec::new(),
+                });
 
         // Replace or add system metadata
-        collection.systems.retain(|s| s.system_code != question_prefix);
+        collection
+            .systems
+            .retain(|s| s.system_code != question_prefix);
         collection.systems.push(metadata);
         collection.last_updated = Utc::now().to_rfc3339();
 
@@ -573,32 +626,51 @@ impl MKSAPExtractor {
             .join(format!("{}_ids.txt", category_code))
     }
 
-    fn find_missing_json_ids(&self) -> Result<Vec<(String, String)>> {
-        let mut missing = Vec::new();
-        let root = Path::new(&self.output_dir);
+    /// Generic directory scanner that collects question IDs matching a predicate.
+    ///
+    /// Reduces 5-level nesting to 2-3 level by handling common directory iteration pattern.
+    /// Iterates through system directories, then question directories within each system.
+    ///
+    /// # Arguments
+    /// * `root_path` - Root directory to scan (e.g., output_dir or failed_root/deserialize)
+    /// * `skip_dirs` - Set of directory names to skip (e.g., ".checkpoints")
+    /// * `predicate` - Function returning true for (system_id, question_path, question_id) to include
+    fn scan_question_directories<F>(
+        &self,
+        root_path: &Path,
+        skip_dirs: &std::collections::HashSet<&str>,
+        predicate: F,
+    ) -> Result<Vec<(String, String)>>
+    where
+        F: Fn(&str, &Path, &str) -> bool,
+    {
+        let mut results = Vec::new();
 
-        if !root.exists() {
-            return Ok(missing);
+        if !root_path.exists() {
+            return Ok(results);
         }
 
-        for entry in fs::read_dir(root).context("Failed to read output directory")? {
-            let entry = entry.context("Failed to read output directory entry")?;
-            let system_path = entry.path();
+        // Iterate through system directories
+        for system_entry in fs::read_dir(root_path).context("Failed to read root directory")? {
+            let system_entry = system_entry.context("Failed to read system entry")?;
+            let system_path = system_entry.path();
 
             if !system_path.is_dir() {
                 continue;
             }
 
             let system_id = match system_path.file_name().and_then(|n| n.to_str()) {
-                Some(name) if name != CHECKPOINT_DIR_NAME => name.to_string(),
+                Some(name) if !skip_dirs.contains(name) => name.to_string(),
                 _ => continue,
             };
 
-            for question_entry in fs::read_dir(&system_path)
-                .context("Failed to read system directory")?
+            // Iterate through question directories within system
+            for question_entry in
+                fs::read_dir(&system_path).context("Failed to read system directory")?
             {
-                let question_entry = question_entry.context("Failed to read question directory")?;
+                let question_entry = question_entry.context("Failed to read question entry")?;
                 let question_path = question_entry.path();
+
                 if !question_path.is_dir() {
                     continue;
                 }
@@ -608,95 +680,70 @@ impl MKSAPExtractor {
                     None => continue,
                 };
 
-                let json_path = question_path.join(format!("{}.json", question_id));
-                if !json_path.exists() {
-                    missing.push((system_id.clone(), question_id));
+                // Apply user-provided predicate to filter
+                if predicate(&system_id, &question_path, &question_id) {
+                    results.push((system_id.clone(), question_id));
                 }
             }
         }
 
-        Ok(missing)
+        Ok(results)
+    }
+
+    fn find_missing_json_ids(&self) -> Result<Vec<(String, String)>> {
+        let root = Path::new(&self.output_dir);
+        let mut skip_dirs = std::collections::HashSet::new();
+        skip_dirs.insert(CHECKPOINT_DIR_NAME);
+
+        self.scan_question_directories(
+            root,
+            &skip_dirs,
+            |_system_id, question_path, question_id| {
+                let json_path = question_path.join(format!("{}.json", question_id));
+                !json_path.exists()
+            },
+        )
     }
 
     fn find_failed_deserialize_ids(&self) -> Result<Vec<(String, String)>> {
-        let mut failed = Vec::new();
         let failed_root = self.failed_root().join("deserialize");
-        if !failed_root.exists() {
-            return Ok(failed);
-        }
+        let skip_dirs = std::collections::HashSet::new();
 
-        for system_entry in fs::read_dir(&failed_root)
-            .context("Failed to read failed deserialize directory")?
-        {
-            let system_entry = system_entry.context("Failed to read failed system entry")?;
-            let system_path = system_entry.path();
-            if !system_path.is_dir() {
-                continue;
-            }
-
-            let system_id = match system_path.file_name().and_then(|n| n.to_str()) {
-                Some(name) => name.to_string(),
-                None => continue,
-            };
-
-            for question_entry in fs::read_dir(&system_path)
-                .context("Failed to read failed question directory")?
-            {
-                let question_entry = question_entry.context("Failed to read failed question entry")?;
-                let question_path = question_entry.path();
-                if !question_path.is_dir() {
-                    continue;
-                }
-
-                let question_id = match question_path.file_name().and_then(|n| n.to_str()) {
-                    Some(name) => name.to_string(),
-                    None => continue,
-                };
-
-                failed.push((system_id.clone(), question_id));
-            }
-        }
-
-        Ok(failed)
+        // Predicate always returns true (collect all failed deserialize entries)
+        self.scan_question_directories(
+            &failed_root,
+            &skip_dirs,
+            |_system_id, _question_path, _question_id| true,
+        )
     }
 
     fn find_missing_checkpoint_ids(&self) -> Result<Vec<(String, String)>> {
-        let mut missing = Vec::new();
         let checkpoint_dir = Path::new(&self.output_dir).join(CHECKPOINT_DIR_NAME);
         if !checkpoint_dir.exists() {
-            return Ok(missing);
+            return Ok(Vec::new());
         }
 
-        for entry in fs::read_dir(&checkpoint_dir)
-            .context("Failed to read checkpoint directory")?
-        {
+        let mut missing = Vec::new();
+
+        for entry in fs::read_dir(&checkpoint_dir).context("Failed to read checkpoint directory")? {
             let entry = entry.context("Failed to read checkpoint entry")?;
             let path = entry.path();
+
             if !path.is_file() {
                 continue;
             }
 
-            let filename = match path.file_name().and_then(|n| n.to_str()) {
-                Some(name) => name,
-                None => continue,
-            };
+            let (system_id, content) = self.read_checkpoint_file(&path)?;
+            if system_id.is_empty() {
+                continue;
+            }
 
-            let system_id = match filename.strip_suffix("_ids.txt") {
-                Some(prefix) => prefix.to_string(),
-                None => continue,
-            };
-
-            let content = fs::read_to_string(&path).context("Failed to read checkpoint file")?;
-            for line in content.lines() {
-                let question_id = line.trim();
-                if question_id.is_empty() {
-                    continue;
-                }
-
-                let question_path = Path::new(&self.output_dir)
+            for question_id in content.lines().map(str::trim).filter(|q| !q.is_empty()) {
+                let json_path = Path::new(&self.output_dir)
                     .join(&system_id)
-                    .join(question_id);
-                let json_path = question_path.join(format!("{}.json", question_id));
+                    .join(question_id)
+                    .join(format!("{}.json", question_id));
+
                 if !json_path.exists() {
                     missing.push((system_id.clone(), question_id.to_string()));
                 }
@@ -704,6 +751,15 @@ impl MKSAPExtractor {
         }
 
         Ok(missing)
+    }
+
+    /// Helper to read a checkpoint file and extract system ID.
+    /// Returns (system_id, content) tuple. system_id will be empty if filename doesn't match pattern.
+    fn read_checkpoint_file(&self, path: &Path) -> Result<(String, String)> {
+        let filename = path.file_name().and_then(|n| n.to_str()).unwrap_or("");
+        let system_id = filename.strip_suffix("_ids.txt").unwrap_or("").to_string();
+        let content = fs::read_to_string(path).context("Failed to read checkpoint file")?;
+        Ok((system_id, content))
     }
 
     fn load_checkpoint_ids(&self, category_code: &str) -> Result<Option<Vec<String>>> {
@@ -728,8 +784,7 @@ impl MKSAPExtractor {
 
     fn save_checkpoint_ids(&self, category_code: &str, ids: &[String]) -> Result<()> {
         let checkpoint_dir = Path::new(&self.output_dir).join(CHECKPOINT_DIR_NAME);
-        fs::create_dir_all(&checkpoint_dir)
-            .context("Failed to create checkpoint directory")?;
+        fs::create_dir_all(&checkpoint_dir).context("Failed to create checkpoint directory")?;
 
         let path = self.checkpoint_path(category_code);
         let mut unique_ids: Vec<String> = ids.to_vec();
@@ -751,35 +806,33 @@ impl MKSAPExtractor {
             return Ok(None);
         }
 
-        let contents = fs::read_to_string(&metadata_path)
-            .context("Failed to read discovery metadata file")?;
-        let metadata = serde_json::from_str(&contents)
-            .context("Failed to parse discovery metadata JSON")?;
+        let contents =
+            fs::read_to_string(&metadata_path).context("Failed to read discovery metadata file")?;
+        let metadata =
+            serde_json::from_str(&contents).context("Failed to parse discovery metadata JSON")?;
         Ok(Some(metadata))
     }
 
     /// Save discovery metadata to JSON file
     fn save_discovery_metadata(&self, metadata: &DiscoveryMetadataCollection) -> Result<()> {
         let checkpoint_dir = Path::new(&self.output_dir).join(CHECKPOINT_DIR_NAME);
-        fs::create_dir_all(&checkpoint_dir)
-            .context("Failed to create checkpoint directory")?;
+        fs::create_dir_all(&checkpoint_dir).context("Failed to create checkpoint directory")?;
 
         let metadata_path = checkpoint_dir.join("discovery_metadata.json");
         let json = serde_json::to_string_pretty(metadata)
             .context("Failed to serialize discovery metadata")?;
-        fs::write(&metadata_path, json)
-            .context("Failed to write discovery metadata file")?;
+        fs::write(&metadata_path, json).context("Failed to write discovery metadata file")?;
         Ok(())
     }
 
     /// Get metadata for a specific system
     #[allow(dead_code)]
-    fn get_system_discovery_metadata(&self, system_code: &str) -> Result<Option<DiscoveryMetadata>> {
+    fn get_system_discovery_metadata(
+        &self,
+        system_code: &str,
+    ) -> Result<Option<DiscoveryMetadata>> {
         let collection = self.load_discovery_metadata()?;
-        Ok(collection.and_then(|c| {
-            c.systems.into_iter()
-                .find(|s| s.system_code == system_code)
-        }))
+        Ok(collection.and_then(|c| c.systems.into_iter().find(|s| s.system_code == system_code)))
     }
 
     /// Extract question type from a question ID
@@ -811,38 +864,35 @@ impl MKSAPExtractor {
 
         loop {
             attempt += 1;
-            match tokio::time::timeout(
-                Duration::from_secs(10),
-                self.client.head(&api_url).send()
-            ).await {
-                Ok(Ok(response)) => {
-                    match response.status() {
-                        status if status.is_success() => return Ok(true),
-                        reqwest::StatusCode::NOT_FOUND => return Ok(false),
-                        reqwest::StatusCode::UNAUTHORIZED | reqwest::StatusCode::FORBIDDEN => {
-                            return Err(anyhow::anyhow!("Authentication expired"));
-                        }
-                        reqwest::StatusCode::TOO_MANY_REQUESTS => {
-                            rate_limit_attempt += 1;
-                            if rate_limit_attempt <= max_429_retries {
-                                let backoff = 2u64.saturating_pow(rate_limit_attempt.saturating_sub(1));
-                                sleep(Duration::from_secs(backoff)).await;
-                                continue;
-                            }
-                            return Err(anyhow::anyhow!(
-                                "Rate limited after {} retries during discovery",
-                                max_429_retries
-                            ));
-                        }
-                        _status => {
-                            if attempt <= max_retries {
-                                sleep(Duration::from_millis(200)).await;
-                                continue;
-                            }
-                            return Ok(false);
-                        }
+            match tokio::time::timeout(Duration::from_secs(10), self.client.head(&api_url).send())
+                .await
+            {
+                Ok(Ok(response)) => match response.status() {
+                    status if status.is_success() => return Ok(true),
+                    reqwest::StatusCode::NOT_FOUND => return Ok(false),
+                    reqwest::StatusCode::UNAUTHORIZED | reqwest::StatusCode::FORBIDDEN => {
+                        return Err(anyhow::anyhow!("Authentication expired"));
                     }
-                }
+                    reqwest::StatusCode::TOO_MANY_REQUESTS => {
+                        rate_limit_attempt += 1;
+                        if rate_limit_attempt <= max_429_retries {
+                            let backoff = 2u64.saturating_pow(rate_limit_attempt.saturating_sub(1));
+                            sleep(Duration::from_secs(backoff)).await;
+                            continue;
+                        }
+                        return Err(anyhow::anyhow!(
+                            "Rate limited after {} retries during discovery",
+                            max_429_retries
+                        ));
+                    }
+                    _status => {
+                        if attempt <= max_retries {
+                            sleep(Duration::from_millis(200)).await;
+                            continue;
+                        }
+                        return Ok(false);
+                    }
+                },
                 Ok(Err(_)) | Err(_) => {
                     if attempt <= max_retries {
                         sleep(Duration::from_millis(200)).await;
@@ -865,9 +915,8 @@ impl MKSAPExtractor {
             .ok()
             .and_then(|value| value.parse::<u32>().ok())
             .unwrap_or(26);
-        let type_codes_env = env::var("MKSAP_QUESTION_TYPES").unwrap_or_else(|_| {
-            QUESTION_TYPE_CODES.join(",")
-        });
+        let type_codes_env =
+            env::var("MKSAP_QUESTION_TYPES").unwrap_or_else(|_| QUESTION_TYPE_CODES.join(","));
         let type_codes: Vec<String> = type_codes_env
             .split(',')
             .map(|value| value.trim().to_lowercase())
@@ -879,7 +928,10 @@ impl MKSAPExtractor {
         for type_code in type_codes {
             for year in year_start..=year_end {
                 for num in 1..=999 {
-                    ids.push(format!("{}{}{:02}{:03}", category_code, type_code, year, num));
+                    ids.push(format!(
+                        "{}{}{:02}{:03}",
+                        category_code, type_code, year, num
+                    ));
                 }
             }
         }
@@ -892,12 +944,11 @@ impl MKSAPExtractor {
 
         let api_url = format!("{}/api/questions/{}.json", self.base_url, question_id);
 
-        let response = tokio::time::timeout(
-            Duration::from_secs(30),
-            self.client.get(&api_url).send()
-        ).await
-            .context("Request timeout")?
-            .context("Network error")?;
+        let response =
+            tokio::time::timeout(Duration::from_secs(30), self.client.get(&api_url).send())
+                .await
+                .context("Request timeout")?
+                .context("Network error")?;
 
         match response.status() {
             status if status.is_success() => {
@@ -906,8 +957,20 @@ impl MKSAPExtractor {
                 let api_response: ApiQuestionResponse = match serde_json::from_str(&json_text) {
                     Ok(response) => response,
                     Err(e) => {
-                        self.save_failed_payload(category_code, question_id, &json_text, &e.to_string()).ok();
-                        self.save_raw_question_json(category_code, question_id, &json_text, &e.to_string()).ok();
+                        self.save_failed_payload(
+                            category_code,
+                            question_id,
+                            &json_text,
+                            &e.to_string(),
+                        )
+                        .ok();
+                        self.save_raw_question_json(
+                            category_code,
+                            question_id,
+                            &json_text,
+                            &e.to_string(),
+                        )
+                        .ok();
                         return Ok(true);
                     }
                 };
@@ -920,9 +983,9 @@ impl MKSAPExtractor {
 
                 let question = api_response.into_question_data(category_code.to_string());
 
-                self.download_media(&question).await.ok();
                 self.save_question_data(category_code, &question)?;
-                self.quarantine_if_invalid(category_code, &question.question_id).ok();
+                self.quarantine_if_invalid(category_code, &question.question_id)
+                    .ok();
 
                 Ok(true)
             }
@@ -939,66 +1002,8 @@ impl MKSAPExtractor {
                 sleep(Duration::from_secs(60)).await;
                 Err(anyhow::anyhow!("Rate limited"))
             }
-            status => {
-                Err(anyhow::anyhow!("API error {}", status))
-            }
+            status => Err(anyhow::anyhow!("API error {}", status)),
         }
-    }
-
-    async fn download_media(&self, question: &QuestionData) -> Result<()> {
-        let question_folder = std::path::Path::new(&self.output_dir)
-            .join(&question.category)
-            .join(&question.question_id);
-
-        fs::create_dir_all(&question_folder)?;
-
-        // Download images
-        for (i, img_url) in question.media.images.iter().enumerate() {
-            let full_url = if img_url.starts_with("http") {
-                img_url.clone()
-            } else {
-                format!("{}{}", self.base_url, img_url)
-            };
-
-            match MediaExtractor::extract_images(
-                &self.client,
-                vec![&full_url],
-                &question.question_id,
-                &question_folder
-            ).await {
-                Ok(_) => {
-                    info!("Downloaded image {}/{}", i+1, question.media.images.len());
-                }
-                Err(e) => {
-                    warn!("Failed to download image: {}", e);
-                }
-            }
-        }
-
-        // Download videos
-        for (i, video_url) in question.media.videos.iter().enumerate() {
-            let full_url = if video_url.starts_with("http") {
-                video_url.clone()
-            } else {
-                format!("{}{}", self.base_url, video_url)
-            };
-
-            match MediaExtractor::extract_videos(
-                &self.client,
-                vec![&full_url],
-                &question.question_id,
-                &question_folder
-            ).await {
-                Ok(_) => {
-                    info!("Downloaded video {}/{}", i+1, question.media.videos.len());
-                }
-                Err(e) => {
-                    warn!("Failed to download video: {}", e);
-                }
-            }
-        }
-
-        Ok(())
     }
 
     pub fn save_question_data(&self, category_code: &str, question: &QuestionData) -> Result<()> {
@@ -1006,14 +1011,12 @@ impl MKSAPExtractor {
             .join(category_code)
             .join(&question.question_id);
 
-        fs::create_dir_all(&question_folder)
-            .context("Failed to create question folder")?;
+        fs::create_dir_all(&question_folder).context("Failed to create question folder")?;
 
         // Save JSON
         let json_path = question_folder.join(format!("{}.json", question.question_id));
         let json_content = serde_json::to_string_pretty(&question)?;
-        fs::write(&json_path, json_content)
-            .context("Failed to write JSON file")?;
+        fs::write(&json_path, json_content).context("Failed to write JSON file")?;
 
         // Save metadata
         self.save_metadata(&question_folder, question)?;
@@ -1039,8 +1042,7 @@ impl MKSAPExtractor {
             question.media.videos.len(),
         );
 
-        fs::write(metadata_path, content)
-            .context("Failed to write metadata file")?;
+        fs::write(metadata_path, content).context("Failed to write metadata file")?;
 
         Ok(())
     }
@@ -1056,24 +1058,20 @@ impl MKSAPExtractor {
             .join(category_code)
             .join(question_id);
 
-        fs::create_dir_all(&question_folder)
-            .context("Failed to create raw question folder")?;
+        fs::create_dir_all(&question_folder).context("Failed to create raw question folder")?;
 
         let json_path = question_folder.join(format!("{}.json", question_id));
         let error_path = question_folder.join(format!("{}_error.txt", question_id));
 
         if let Ok(value) = serde_json::from_str::<serde_json::Value>(raw_json) {
             let pretty = serde_json::to_string_pretty(&value)?;
-            fs::write(&json_path, pretty)
-                .context("Failed to write raw JSON file")?;
+            fs::write(&json_path, pretty).context("Failed to write raw JSON file")?;
         } else {
             let raw_path = question_folder.join(format!("{}_raw.txt", question_id));
-            fs::write(&raw_path, raw_json)
-                .context("Failed to write raw response file")?;
+            fs::write(&raw_path, raw_json).context("Failed to write raw response file")?;
         }
 
-        fs::write(&error_path, error_message)
-            .context("Failed to write raw JSON error file")?;
+        fs::write(&error_path, error_message).context("Failed to write raw JSON error file")?;
 
         Ok(())
     }
@@ -1095,8 +1093,7 @@ impl MKSAPExtractor {
             .join(category_code)
             .join(question_id);
 
-        fs::create_dir_all(&failed_dir)
-            .context("Failed to create failed payload directory")?;
+        fs::create_dir_all(&failed_dir).context("Failed to create failed payload directory")?;
 
         let json_path = failed_dir.join(format!("{}.json", question_id));
         let error_path = failed_dir.join(format!("{}_error.txt", question_id));
@@ -1134,8 +1131,7 @@ impl MKSAPExtractor {
             .join(question_id);
 
         if let Some(parent) = failed_dir.parent() {
-            fs::create_dir_all(parent)
-                .context("Failed to create invalid quarantine directory")?;
+            fs::create_dir_all(parent).context("Failed to create invalid quarantine directory")?;
         }
 
         if failed_dir.exists() {

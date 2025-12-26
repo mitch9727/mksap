@@ -1,16 +1,114 @@
-use anyhow::Result;
-use tracing::info;
-use std::time::Duration;
-use std::future::Future;
+//! Cross-platform browser-based authentication fallback for MKSAP session login.
+//!
+//! # Purpose
+//!
+//! This module provides browser-based login as an authentication fallback when
+//! automatic session cookie authentication fails. It launches the system's default
+//! Chrome browser and allows manual login via the MKSAP web interface.
+//!
+//! # Architecture
+//!
+//! The browser login flow:
+//! 1. **Launch**: Open system's default browser with MKSAP URL
+//! 2. **Wait**: Poll for authentication completion (if detection function provided)
+//! 3. **Timeout**: Exit after 10 minutes of waiting
+//! 4. **Extract**: Save session cookie for future use
+//!
+//! # Platform Support
+//!
+//! - **macOS**: Uses `open -a` to launch Chrome, Chromium, or Brave
+//! - **Linux**: Uses `xdg-open` (respects user's default browser setting)
+//! - **Windows**: Uses `start` command (launches default browser)
+//!
+//! # Authentication Detection
+//!
+//! Optional callback function (`detection_fn`) can detect login completion:
+//! - Called every 3 seconds
+//! - Returns `Ok(true)` when login is detected
+//! - Early exit without waiting full 10-minute timeout
+//! - Useful when integrating with automated testing or CI/CD
 
+use anyhow::Result;
+use std::future::Future;
+use std::time::Duration;
+use tracing::info;
+
+/// Browser-based authentication helper for fallback login flow.
 pub struct BrowserLogin;
 
 impl BrowserLogin {
-    /// Launch Chrome for manual login with optional authentication detection
+    /// Launch browser for manual MKSAP login with optional authentication detection.
     ///
-    /// If detection_fn returns true, login is considered complete and the function exits early.
-    /// Otherwise, waits up to 10 minutes for manual login completion.
-    pub async fn interactive_login<F, Fut>(base_url: &str, detection_fn: Option<F>) -> Result<()>
+    /// Opens the system's default Chrome/Chromium browser pointed at the MKSAP login page.
+    /// Optionally polls a detection callback to determine when login is complete, or waits
+    /// up to 10 minutes for manual login completion.
+    ///
+    /// # Arguments
+    ///
+    /// * `base_url` - MKSAP base URL to load in browser (e.g., "https://mksap.acponline.org")
+    /// * `detection_fn` - Optional async callback that returns `Ok(true)` when login is detected.
+    ///   Called every 3 seconds. If `None`, waits full 10 minutes.
+    ///
+    /// # Returns
+    ///
+    /// - `Ok(())` - Login detected (via callback) or 10-minute timeout reached
+    /// - `Err` - Browser launch failed or timeout exceeded
+    ///
+    /// # Platform-Specific Behavior
+    ///
+    /// **macOS**:
+    /// - Tries "Google Chrome", then "Chrome", then "Chromium" in order
+    /// - Uses `open -a` to launch by application name
+    ///
+    /// **Linux**:
+    /// - Uses `xdg-open` (respects user's default browser)
+    /// - May open Firefox, Chromium, or other default browser
+    ///
+    /// **Windows**:
+    /// - Uses `start` command
+    /// - Opens system default browser
+    ///
+    /// # Authentication Callback
+    ///
+    /// The optional `detection_fn` callback:
+    /// - Called every 3 seconds if provided
+    /// - Should return `Ok(true)` when authentication is detected
+    /// - Causes immediate return (skips remaining wait time)
+    /// - Useful for automated testing or CI/CD environments
+    /// - Errors in callback are logged but don't abort the wait loop
+    ///
+    /// # Timeout
+    ///
+    /// Hard 10-minute (600 second) timeout. If no successful authentication detected
+    /// (or no detection callback provided), returns `Err` after timeout.
+    ///
+    /// # Credentials Display
+    ///
+    /// **WARNING**: Hardcoded credentials are displayed in the log output.
+    /// In production, these should be loaded from environment variables or
+    /// secure credential stores.
+    ///
+    /// # Examples
+    ///
+    /// ```ignore
+    /// use text_extractor::browser::BrowserLogin;
+    ///
+    /// // Simple: wait 10 minutes for manual login
+    /// BrowserLogin::interactive_login("https://mksap.acponline.org", None::<fn() -> _>).await?;
+    ///
+    /// // With detection: poll for authentication every 3 seconds
+    /// let check_auth = || async {
+    ///     // Check if session cookie exists or API responds with 200
+    ///     is_authenticated().await
+    /// };
+    /// BrowserLogin::interactive_login("https://mksap.acponline.org", Some(check_auth)).await?;
+    /// ```
+    pub async fn interactive_login<F, Fut>(
+        base_url: &str,
+        username: &str,
+        password: &str,
+        detection_fn: Option<F>,
+    ) -> Result<()>
     where
         F: Fn() -> Fut,
         Fut: Future<Output = Result<bool>>,
@@ -26,12 +124,16 @@ impl BrowserLogin {
             std::process::Command::new("open")
                 .args(["-a", "Google Chrome", base_url])
                 .spawn()
-                .or_else(|_| std::process::Command::new("open")
-                    .args(["-a", "Chrome", base_url])
-                    .spawn())
-                .or_else(|_| std::process::Command::new("open")
-                    .args(["-a", "Chromium", base_url])
-                    .spawn())
+                .or_else(|_| {
+                    std::process::Command::new("open")
+                        .args(["-a", "Chrome", base_url])
+                        .spawn()
+                })
+                .or_else(|_| {
+                    std::process::Command::new("open")
+                        .args(["-a", "Chromium", base_url])
+                        .spawn()
+                })
                 .ok();
         }
 
@@ -54,8 +156,8 @@ impl BrowserLogin {
         info!("✓ Chrome browser opened!");
         info!("");
         info!("Please log in with your credentials:");
-        info!("  Email: mitmarques@aol.com");
-        info!("  Password: gipkyz-sonki2-Wekjyv");
+        info!("  Email: {}", username);
+        info!("  Password: {}", password);
         info!("");
         info!("After successful login, your cookies will be saved for extraction.");
         info!("");
@@ -71,7 +173,9 @@ impl BrowserLogin {
         // Wait for user to complete login
         loop {
             if start.elapsed() > max_wait {
-                return Err(anyhow::anyhow!("Login timeout: Did not complete login within 10 minutes"));
+                return Err(anyhow::anyhow!(
+                    "Login timeout: Did not complete login within 10 minutes"
+                ));
             }
 
             let elapsed_secs = start.elapsed().as_secs();
@@ -96,7 +200,10 @@ impl BrowserLogin {
             }
 
             // Display countdown every 10 seconds
-            if elapsed_secs % 10 == 0 && elapsed_secs != 0 && (elapsed_secs == 10 || elapsed_secs % 10 == 0) {
+            if elapsed_secs % 10 == 0
+                && elapsed_secs != 0
+                && (elapsed_secs == 10 || elapsed_secs % 10 == 0)
+            {
                 let remaining = 600 - elapsed_secs;
                 info!("Still waiting... ({} seconds remaining)", remaining);
             }

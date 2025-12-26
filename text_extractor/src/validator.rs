@@ -1,15 +1,14 @@
+use crate::config;
+use crate::models::DiscoveryMetadataCollection;
+use anyhow::Result;
 /// Validation module for verifying extracted MKSAP data
 /// This module scans the mksap_data folder and verifies that extracted questions
 /// match the specification structure and contain required fields
-
 use serde_json::Value;
 use std::collections::HashMap;
 use std::fs;
 use std::path::Path;
-use tracing::{warn, error};
-use anyhow::Result;
-use crate::config;
-use crate::models::DiscoveryMetadataCollection;
+use tracing::{error, warn};
 
 #[derive(Debug, Clone, serde::Serialize)]
 pub struct ValidationResult {
@@ -31,7 +30,7 @@ pub struct SystemValidation {
     pub found_count: usize,
 
     // NEW: Discovery-based metrics (source of truth)
-    pub discovered_count: Option<usize>,  // From checkpoint metadata
+    pub discovered_count: Option<usize>, // From checkpoint metadata
     pub discovery_timestamp: Option<String>,
 
     // DEPRECATED: Hardcoded baseline (informational only)
@@ -87,7 +86,9 @@ impl DataValidator {
 
         let discovery_metadata = if metadata_path.exists() {
             let contents = fs::read_to_string(&metadata_path)?;
-            Some(serde_json::from_str::<DiscoveryMetadataCollection>(&contents)?)
+            Some(serde_json::from_str::<DiscoveryMetadataCollection>(
+                &contents,
+            )?)
         } else {
             warn!("No discovery metadata found - completion percentages will use baseline counts");
             None
@@ -102,7 +103,8 @@ impl DataValidator {
                 continue;
             }
 
-            let system_id = system_path.file_name()
+            let system_id = system_path
+                .file_name()
                 .and_then(|n| n.to_str())
                 .unwrap_or("unknown")
                 .to_string();
@@ -117,21 +119,33 @@ impl DataValidator {
             let (discovered_count, discovery_timestamp) = discovery_metadata
                 .as_ref()
                 .and_then(|m| m.systems.iter().find(|s| s.system_code == system_id))
-                .map(|s| (Some(s.discovered_count), Some(s.discovery_timestamp.clone())))
+                .map(|s| {
+                    (
+                        Some(s.discovered_count),
+                        Some(s.discovery_timestamp.clone()),
+                    )
+                })
                 .unwrap_or((None, None));
 
-            let system_validation = system_map.entry(system_id.clone()).or_insert_with(|| {
-                SystemValidation {
-                    system_id: system_id.clone(),
-                    system_name: system_config.as_ref().map(|s| s.name.clone()).unwrap_or_default(),
-                    found_count: 0,
-                    discovered_count,
-                    discovery_timestamp,
-                    expected_count: system_config.as_ref().map(|s| s.baseline_2024_count).unwrap_or(0),
-                    valid_count: 0,
-                    issues: Vec::new(),
-                }
-            });
+            let system_validation =
+                system_map
+                    .entry(system_id.clone())
+                    .or_insert_with(|| SystemValidation {
+                        system_id: system_id.clone(),
+                        system_name: system_config
+                            .as_ref()
+                            .map(|s| s.name.clone())
+                            .unwrap_or_default(),
+                        found_count: 0,
+                        discovered_count,
+                        discovery_timestamp,
+                        expected_count: system_config
+                            .as_ref()
+                            .map(|s| s.baseline_2024_count)
+                            .unwrap_or(0),
+                        valid_count: 0,
+                        issues: Vec::new(),
+                    });
 
             // Scan all questions in this system
             for question_entry in fs::read_dir(&system_path)? {
@@ -142,7 +156,8 @@ impl DataValidator {
                     continue;
                 }
 
-                let question_id = question_path.file_name()
+                let question_id = question_path
+                    .file_name()
                     .and_then(|n| n.to_str())
                     .unwrap_or("unknown")
                     .to_string();
@@ -159,7 +174,10 @@ impl DataValidator {
                     ValidationOutcome::SchemaInvalid => {
                         result.invalid_questions.push(question_id.clone());
                         result.schema_invalid.push(question_id.clone());
-                        system_validation.issues.push(format!("Question {} has missing or invalid fields", question_id));
+                        system_validation.issues.push(format!(
+                            "Question {} has missing or invalid fields",
+                            question_id
+                        ));
                     }
                     ValidationOutcome::MissingJson => {
                         result.invalid_questions.push(question_id.clone());
@@ -167,7 +185,9 @@ impl DataValidator {
                         system_validation.issues.push(format!(
                             "Question {}: Missing JSON file: {}",
                             question_id,
-                            question_path.join(format!("{}.json", question_id)).display()
+                            question_path
+                                .join(format!("{}.json", question_id))
+                                .display()
                         ));
                     }
                     ValidationOutcome::MissingMetadata => {
@@ -176,13 +196,17 @@ impl DataValidator {
                         system_validation.issues.push(format!(
                             "Question {}: Missing metadata file: {}",
                             question_id,
-                            question_path.join(format!("{}_metadata.txt", question_id)).display()
+                            question_path
+                                .join(format!("{}_metadata.txt", question_id))
+                                .display()
                         ));
                     }
                     ValidationOutcome::ParseError(error) => {
                         result.invalid_questions.push(question_id.clone());
                         result.parse_errors.push(question_id.clone());
-                        system_validation.issues.push(format!("Question {}: {}", question_id, error));
+                        system_validation
+                            .issues
+                            .push(format!("Question {}: {}", question_id, error));
                     }
                 }
             }
@@ -192,7 +216,9 @@ impl DataValidator {
         systems.sort_by(|a, b| a.system_id.cmp(&b.system_id));
         for system_validation in systems.iter_mut() {
             // NEW: Use discovered count if available, otherwise fall back to expected (baseline)
-            let check_against = system_validation.discovered_count.unwrap_or(system_validation.expected_count as usize);
+            let check_against = system_validation
+                .discovered_count
+                .unwrap_or(system_validation.expected_count as usize);
 
             // Check for data integrity issues
             if let Some(discovered) = system_validation.discovered_count {
@@ -207,7 +233,9 @@ impl DataValidator {
             }
 
             // Check for incomplete extraction (only if using discovered count)
-            if system_validation.discovered_count.is_some() && system_validation.found_count < check_against {
+            if system_validation.discovered_count.is_some()
+                && system_validation.found_count < check_against
+            {
                 let msg = format!(
                     "System {} extracted {} / {} discovered ({:.1}%)",
                     system_validation.system_id,
@@ -230,11 +258,15 @@ impl DataValidator {
             ValidationOutcome::SchemaInvalid => Ok(false),
             ValidationOutcome::MissingJson => Err(anyhow::anyhow!(
                 "Missing JSON file: {}",
-                question_path.join(format!("{}.json", question_id)).display()
+                question_path
+                    .join(format!("{}.json", question_id))
+                    .display()
             )),
             ValidationOutcome::MissingMetadata => Err(anyhow::anyhow!(
                 "Missing metadata file: {}",
-                question_path.join(format!("{}_metadata.txt", question_id)).display()
+                question_path
+                    .join(format!("{}_metadata.txt", question_id))
+                    .display()
             )),
             ValidationOutcome::ParseError(error) => Err(anyhow::anyhow!(error)),
         }
@@ -293,7 +325,10 @@ impl DataValidator {
         if let Some(options) = value.get("options").and_then(|o| o.as_array()) {
             for (idx, option) in options.iter().enumerate() {
                 if option.get("letter").is_none() || option.get("text").is_none() {
-                    warn!("Question {} option {} missing letter or text", question_id, idx);
+                    warn!(
+                        "Question {} option {} missing letter or text",
+                        question_id, idx
+                    );
                     all_valid = false;
                 }
             }
@@ -302,7 +337,10 @@ impl DataValidator {
         // Validate user_performance structure
         if let Some(perf) = value.get("user_performance") {
             if perf.get("correct_answer").is_none() {
-                warn!("Question {} missing correct_answer in user_performance", question_id);
+                warn!(
+                    "Question {} missing correct_answer in user_performance",
+                    question_id
+                );
                 all_valid = false;
             }
         }
@@ -319,30 +357,55 @@ impl DataValidator {
         let mut report = String::new();
 
         report.push_str("=== MKSAP DATA VALIDATION REPORT ===\n\n");
-        report.push_str(&format!("Total Questions Found: {}\n", result.total_questions));
-        report.push_str(&format!("Total Valid Questions: {}\n", result.valid_questions));
-        report.push_str(&format!("Total Invalid Questions: {}\n\n", result.invalid_questions.len()));
+        report.push_str(&format!(
+            "Total Questions Found: {}\n",
+            result.total_questions
+        ));
+        report.push_str(&format!(
+            "Total Valid Questions: {}\n",
+            result.valid_questions
+        ));
+        report.push_str(&format!(
+            "Total Invalid Questions: {}\n\n",
+            result.invalid_questions.len()
+        ));
 
         report.push_str("=== INVALID BREAKDOWN ===\n");
         report.push_str(&format!("Missing JSON: {}\n", result.missing_json.len()));
-        report.push_str(&format!("Missing Metadata: {}\n", result.missing_metadata.len()));
+        report.push_str(&format!(
+            "Missing Metadata: {}\n",
+            result.missing_metadata.len()
+        ));
         report.push_str(&format!("Parse Errors: {}\n", result.parse_errors.len()));
-        report.push_str(&format!("Schema Invalid: {}\n\n", result.schema_invalid.len()));
+        report.push_str(&format!(
+            "Schema Invalid: {}\n\n",
+            result.schema_invalid.len()
+        ));
 
         report.push_str("=== PER-SYSTEM SUMMARY ===\n");
         for system in &result.systems_verified {
             let display_id = Self::display_system_id(&system.system_id);
 
             // NEW: Use discovered count if available
-            let check_against = system.discovered_count.unwrap_or(system.expected_count as usize);
+            let check_against = system
+                .discovered_count
+                .unwrap_or(system.expected_count as usize);
             let percentage = if check_against > 0 {
                 (system.found_count as f64 / check_against as f64) * 100.0
             } else {
                 0.0
             };
 
-            let status = if system.issues.is_empty() { "✓ OK" } else { "✗ ISSUES" };
-            let metadata_label = if system.discovered_count.is_some() { "discovered" } else { "expected" };
+            let status = if system.issues.is_empty() {
+                "✓ OK"
+            } else {
+                "✗ ISSUES"
+            };
+            let metadata_label = if system.discovered_count.is_some() {
+                "discovered"
+            } else {
+                "expected"
+            };
 
             report.push_str(&format!(
                 "{} {}: {}/{} questions ({} valid, {:.1}% of {})\n",
@@ -368,7 +431,10 @@ impl DataValidator {
                 report.push_str(&format!("- {}\n", question));
             }
             if result.invalid_questions.len() > 20 {
-                report.push_str(&format!("... and {} more\n", result.invalid_questions.len() - 20));
+                report.push_str(&format!(
+                    "... and {} more\n",
+                    result.invalid_questions.len() - 20
+                ));
             }
         }
 
@@ -377,19 +443,23 @@ impl DataValidator {
 
     /// Generate detailed discovery-aware validation report with metadata
     #[allow(dead_code)]
-    pub fn generate_discovery_report(result: &ValidationResult, discovery_metadata: &Option<DiscoveryMetadataCollection>) -> String {
+    pub fn generate_discovery_report(
+        result: &ValidationResult,
+        discovery_metadata: &Option<DiscoveryMetadataCollection>,
+    ) -> String {
         let mut report = String::new();
 
         report.push_str("# MKSAP Extraction Validation Report (Discovery-Based)\n\n");
-        report.push_str(&format!("Generated: {}\n\n", chrono::Local::now().to_rfc2822()));
+        report.push_str(&format!(
+            "Generated: {}\n\n",
+            chrono::Local::now().to_rfc2822()
+        ));
 
         // Overall statistics
         report.push_str("## Overall Statistics\n\n");
 
         if let Some(ref metadata) = discovery_metadata {
-            let total_discovered: usize = metadata.systems.iter()
-                .map(|s| s.discovered_count)
-                .sum();
+            let total_discovered: usize = metadata.systems.iter().map(|s| s.discovered_count).sum();
 
             let total_extracted = result.valid_questions;
             let overall_pct = if total_discovered > 0 {
@@ -398,17 +468,35 @@ impl DataValidator {
                 0.0
             };
 
-            report.push_str(&format!("- **Total Discovered** (via API): {} questions\n", total_discovered));
-            report.push_str(&format!("- **Total Extracted**: {} questions\n", total_extracted));
-            report.push_str(&format!("- **Overall Completion**: {:.1}%\n\n", overall_pct));
-            report.push_str(&format!("- **Discovery Last Updated**: {}\n\n", metadata.last_updated));
+            report.push_str(&format!(
+                "- **Total Discovered** (via API): {} questions\n",
+                total_discovered
+            ));
+            report.push_str(&format!(
+                "- **Total Extracted**: {} questions\n",
+                total_extracted
+            ));
+            report.push_str(&format!(
+                "- **Overall Completion**: {:.1}%\n\n",
+                overall_pct
+            ));
+            report.push_str(&format!(
+                "- **Discovery Last Updated**: {}\n\n",
+                metadata.last_updated
+            ));
         } else {
-            report.push_str("- **Discovery Metadata**: Not available (no discovery has been performed)\n");
-            report.push_str(&format!("- **Total Extracted**: {} questions\n\n", result.valid_questions));
+            report.push_str(
+                "- **Discovery Metadata**: Not available (no discovery has been performed)\n",
+            );
+            report.push_str(&format!(
+                "- **Total Extracted**: {} questions\n\n",
+                result.valid_questions
+            ));
         }
 
         // Historical baseline (informational)
-        let total_baseline: u32 = config::init_organ_systems().iter()
+        let total_baseline: u32 = config::init_organ_systems()
+            .iter()
             .map(|s| s.baseline_2024_count)
             .sum();
         report.push_str(&format!(
@@ -422,7 +510,8 @@ impl DataValidator {
         report.push_str("|--------|-----------|------------|----------|------------|--------|\n");
 
         for system_val in &result.systems_verified {
-            let discovered_str = system_val.discovered_count
+            let discovered_str = system_val
+                .discovered_count
                 .map(|d| d.to_string())
                 .unwrap_or_else(|| "?".to_string());
 
@@ -469,9 +558,7 @@ impl DataValidator {
                     }
                     report.push_str(&format!(
                         "⚠ **WARNING**: System `{}` has {} extracted but only {} discovered.\n",
-                        system_val.system_id,
-                        system_val.found_count,
-                        discovered
+                        system_val.system_id, system_val.found_count, discovered
                     ));
                     report.push_str("  - Possible causes: Stale discovery checkpoint, manual additions, or extraction errors.\n");
                     report.push_str(&format!(
@@ -492,11 +579,23 @@ impl DataValidator {
 
             for sys_meta in &metadata.systems {
                 report.push_str(&format!("### System: {}\n\n", sys_meta.system_code));
-                report.push_str(&format!("- Discovered: {} questions\n", sys_meta.discovered_count));
-                report.push_str(&format!("- Candidates Tested: {}\n", sys_meta.candidates_tested));
+                report.push_str(&format!(
+                    "- Discovered: {} questions\n",
+                    sys_meta.discovered_count
+                ));
+                report.push_str(&format!(
+                    "- Candidates Tested: {}\n",
+                    sys_meta.candidates_tested
+                ));
                 report.push_str(&format!("- Hit Rate: {:.2}%\n", sys_meta.hit_rate * 100.0));
-                report.push_str(&format!("- Question Types Found: {}\n", sys_meta.question_types_found.join(", ")));
-                report.push_str(&format!("- Last Discovery: {}\n\n", sys_meta.discovery_timestamp));
+                report.push_str(&format!(
+                    "- Question Types Found: {}\n",
+                    sys_meta.question_types_found.join(", ")
+                ));
+                report.push_str(&format!(
+                    "- Last Discovery: {}\n\n",
+                    sys_meta.discovery_timestamp
+                ));
             }
         }
 
@@ -513,11 +612,16 @@ impl DataValidator {
         let mut total_expected = 0;
         let mut total_discovered = 0;
         let mut total_found = 0;
-        let has_discovery_metadata = result.systems_verified.iter().any(|s| s.discovered_count.is_some());
+        let has_discovery_metadata = result
+            .systems_verified
+            .iter()
+            .any(|s| s.discovered_count.is_some());
 
         for system in organ_systems {
             let display_id = Self::display_system_id(&system.id);
-            let system_val = result.systems_verified.iter()
+            let system_val = result
+                .systems_verified
+                .iter()
                 .find(|s| s.system_id == system.id);
 
             let found = system_val.map(|s| s.found_count).unwrap_or(0);

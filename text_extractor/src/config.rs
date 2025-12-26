@@ -1,38 +1,102 @@
-/// Configuration for MKSAP organ systems
-/// This module defines all organ systems with their question ID prefixes.
-///
-/// Note: Some content areas contain AND (e.g., "Pulmonary AND Critical Care Medicine")
-/// and use multiple question ID prefixes. These are configured as separate systems
-/// in this structure but come from the same content area in the web UI.
+//! Configuration for MKSAP organ systems.
+//!
+//! # Purpose
+//!
+//! This module defines all 15 organ systems within the MKSAP question bank,
+//! their system codes, human-readable names, and historical question counts
+//! from MKSAP 2024.
+//!
+//! # Architecture
+//!
+//! Note: Some ACP content areas contain multiple organ systems (e.g.,
+//! "Pulmonary AND Critical Care Medicine"). These are configured as separate
+//! systems in this structure but come from the same content area in the MKSAP web UI.
+//!
+//! **Separate systems from AND content areas**:
+//! - **Gastroenterology** ("gi") & **Hepatology** ("hp") - Split from "Gastroenterology AND Hepatology"
+//! - **Pulmonary Medicine** ("pm") & **Critical Care Medicine** ("cc") - Split from "Pulmonary AND Critical Care"
+//! - **Interdisciplinary Medicine** ("in") & **Dermatology** ("dm") - Split from joint category
+//!
+//! # Question ID Pattern
+//!
+//! Question IDs are constructed as: `{prefix}{type}{year}{number}`
+//!
+//! Example: `cvmcq24001`
+//! - Prefix: `cv` (Cardiovascular)
+//! - Type: `mcq` (Multiple Choice Question)
+//! - Year: `24` (2024)
+//! - Number: `001` (first question)
 
+/// Represents a single organ system within MKSAP.
 #[derive(Debug, Clone)]
 pub struct OrganSystem {
-    /// System identifier (used in filesystem and checkpoint files)
+    /// System identifier - used in filesystem directory names and checkpoint files.
+    /// Examples: "cv", "en", "cs", "gi", "hm", etc.
     pub id: String,
 
-    /// Display name of this system
+    /// Display name of this system (human-readable).
+    /// Examples: "Cardiovascular Medicine", "Endocrinology and Metabolism"
     pub name: String,
 
     /// Question ID prefixes to search for this system.
-    /// Examples:
-    /// - "Foundations of Clinical Practice": ["cs"]
-    /// - "Pulmonary Medicine" (part of Pulmonary AND Critical Care): ["pm"]
-    /// - "Critical Care Medicine" (part of Pulmonary AND Critical Care): ["cc"]
-    /// - "Gastroenterology" (part of Gastroenterology AND Hepatology): ["gi"]
-    /// - "Hepatology" (part of Gastroenterology AND Hepatology): ["hp"]
+    /// Currently each system has exactly one prefix, but this is `Vec` to support
+    /// future systems that might have multiple prefixes.
+    ///
+    /// # Examples
+    ///
+    /// - Cardiovascular ("cv"): `["cv"]`
+    /// - Gastroenterology ("gi"): `["gi"]`
+    /// - Pulmonary ("pm"): `["pm"]`
     #[allow(dead_code)]
     pub question_prefixes: Vec<String>,
 
     /// Historical baseline question count from MKSAP 2024 initial release.
-    /// This is INFORMATIONAL ONLY and should NOT be used for validation.
-    /// Use discovery metadata (from .checkpoints/discovery_metadata.json) for accurate completion tracking.
+    ///
+    /// **IMPORTANT**: This is INFORMATIONAL ONLY and should NOT be used for validation.
     /// The discovery phase determines the actual available questions via API HEAD requests.
+    /// See `discovery_metadata.json` in the `.checkpoints/` directory for accurate counts.
     pub baseline_2024_count: u32,
 }
 
 impl OrganSystem {
+    // Intentionally empty - struct is pure configuration data
 }
 
+/// Initialize all MKSAP organ systems (15 total).
+///
+/// # Returns
+///
+/// Vector of all 15 organ system definitions.
+///
+/// # System List
+///
+/// | Code | Name | Questions (2024 baseline) |
+/// |------|------|------------------------|
+/// | cv | Cardiovascular Medicine | 216 |
+/// | en | Endocrinology and Metabolism | 136 |
+/// | cs | Foundations of Clinical Practice | 206 |
+/// | gi | Gastroenterology | 77 |
+/// | hp | Hepatology | 77 |
+/// | hm | Hematology | 125 |
+/// | id | Infectious Disease | 205 |
+/// | in | Interdisciplinary Medicine | 100 |
+/// | dm | Dermatology | 99 |
+/// | np | Nephrology | 155 |
+/// | nr | Neurology | 118 |
+/// | on | Oncology | 103 |
+/// | pm | Pulmonary Medicine | 131 |
+/// | cc | Critical Care Medicine | 55 |
+/// | rm | Rheumatology | 131 |
+///
+/// # Examples
+///
+/// ```ignore
+/// use text_extractor::config::init_organ_systems;
+///
+/// let systems = init_organ_systems();
+/// assert_eq!(systems.len(), 15);
+/// assert_eq!(systems[0].id, "cv");
+/// ```
 pub fn init_organ_systems() -> Vec<OrganSystem> {
     vec![
         OrganSystem {
@@ -57,13 +121,13 @@ pub fn init_organ_systems() -> Vec<OrganSystem> {
             id: "gi".to_string(),
             name: "Gastroenterology".to_string(),
             question_prefixes: vec!["gi".to_string()],
-            baseline_2024_count: 77,  // Estimated split from original 154
+            baseline_2024_count: 77, // Estimated split from original 154
         },
         OrganSystem {
             id: "hp".to_string(),
             name: "Hepatology".to_string(),
             question_prefixes: vec!["hp".to_string()],
-            baseline_2024_count: 77,  // Estimated split from original 154
+            baseline_2024_count: 77, // Estimated split from original 154
         },
         OrganSystem {
             id: "hm".to_string(),
@@ -81,13 +145,13 @@ pub fn init_organ_systems() -> Vec<OrganSystem> {
             id: "in".to_string(),
             name: "Interdisciplinary Medicine".to_string(),
             question_prefixes: vec!["in".to_string()],
-            baseline_2024_count: 100,  // Estimated split from original 199
+            baseline_2024_count: 100, // Estimated split from original 199
         },
         OrganSystem {
             id: "dm".to_string(),
             name: "Dermatology".to_string(),
             question_prefixes: vec!["dm".to_string()],
-            baseline_2024_count: 99,  // Estimated split from original 199
+            baseline_2024_count: 99, // Estimated split from original 199
         },
         OrganSystem {
             id: "np".to_string(),
@@ -128,6 +192,26 @@ pub fn init_organ_systems() -> Vec<OrganSystem> {
     ]
 }
 
+/// Look up an organ system by its unique identifier.
+///
+/// # Arguments
+///
+/// * `id` - The system code (e.g., "cv", "en", "cs")
+///
+/// # Returns
+///
+/// `Some(OrganSystem)` if the system exists, `None` otherwise.
+///
+/// # Examples
+///
+/// ```ignore
+/// use text_extractor::config::get_organ_system_by_id;
+///
+/// let cv = get_organ_system_by_id("cv").unwrap();
+/// assert_eq!(cv.name, "Cardiovascular Medicine");
+///
+/// assert!(get_organ_system_by_id("invalid").is_none());
+/// ```
 pub fn get_organ_system_by_id(id: &str) -> Option<OrganSystem> {
     init_organ_systems().into_iter().find(|s| s.id == id)
 }

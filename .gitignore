@@ -45,3 +45,8 @@ Desktop.ini
 *.tmp
 *.temp
 .cache/
+
+# Environment variables (credentials)
+.env
+.env.local
+.env.*.local

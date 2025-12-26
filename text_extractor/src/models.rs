@@ -1,5 +1,5 @@
-use serde::{Deserialize, Serialize};
 use serde::de::Deserializer;
+use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct QuestionData {
@@ -116,7 +116,10 @@ pub struct ApiQuestionResponse {
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(untagged)]
 pub enum ApiObjective {
-    Html { #[serde(rename = "__html")] html: String },
+    Html {
+        #[serde(rename = "__html")]
+        html: String,
+    },
     Text(String),
 }
 
@@ -165,11 +168,15 @@ impl ApiQuestionResponse {
             },
             question_text: stimulus_text,
             question_stem: prompt_text,
-            options: self.options.into_iter().map(|o| AnswerOption {
-                letter: o.letter,
-                text: extract_text_from_value(&o.text),
-                peer_percentage: 0,
-            }).collect(),
+            options: self
+                .options
+                .into_iter()
+                .map(|o| AnswerOption {
+                    letter: o.letter,
+                    text: extract_text_from_value(&o.text),
+                    peer_percentage: 0,
+                })
+                .collect(),
             user_performance: UserPerformance {
                 user_answer: None,
                 correct_answer: Some(self.correct_answer),
@@ -247,23 +254,22 @@ fn extract_text_from_json(node: &serde_json::Value) -> String {
 
 /// Helper function to extract keypoints from the keypoints array
 fn extract_keypoints(nodes: &[serde_json::Value]) -> Vec<String> {
-    nodes.iter()
+    nodes
+        .iter()
         .filter_map(|node| {
             if let Some(obj) = node.as_object() {
                 if let Some(children) = obj.get("children").and_then(|c| c.as_array()) {
-                    let text = children.iter()
-                        .filter_map(|child| {
-                            match child {
-                                serde_json::Value::String(s) => Some(s.clone()),
-                                serde_json::Value::Object(o) => {
-                                    o.get("children")
-                                        .and_then(|c| c.as_array())
-                                        .and_then(|a| a.first())
-                                        .and_then(|v| v.as_str())
-                                        .map(|s| s.to_string())
-                                }
-                                _ => None,
-                            }
+                    let text = children
+                        .iter()
+                        .filter_map(|child| match child {
+                            serde_json::Value::String(s) => Some(s.clone()),
+                            serde_json::Value::Object(o) => o
+                                .get("children")
+                                .and_then(|c| c.as_array())
+                                .and_then(|a| a.first())
+                                .and_then(|v| v.as_str())
+                                .map(|s| s.to_string()),
+                            _ => None,
                         })
                         .collect::<Vec<_>>()
                         .join("");
@@ -283,19 +289,17 @@ fn extract_references(refs: &[serde_json::Value]) -> String {
     refs.iter()
         .filter_map(|r| {
             if let Some(arr) = r.as_array() {
-                let ref_text = arr.iter()
-                    .filter_map(|item| {
-                        match item {
-                            serde_json::Value::String(s) => Some(s.clone()),
-                            serde_json::Value::Object(o) => {
-                                o.get("children")
-                                    .and_then(|c| c.as_array())
-                                    .and_then(|a| a.first())
-                                    .and_then(|v| v.as_str())
-                                    .map(|s| s.to_string())
-                            }
-                            _ => None,
-                        }
+                let ref_text = arr
+                    .iter()
+                    .filter_map(|item| match item {
+                        serde_json::Value::String(s) => Some(s.clone()),
+                        serde_json::Value::Object(o) => o
+                            .get("children")
+                            .and_then(|c| c.as_array())
+                            .and_then(|a| a.first())
+                            .and_then(|v| v.as_str())
+                            .map(|s| s.to_string()),
+                        _ => None,
                     })
                     .collect::<Vec<_>>()
                     .join("");

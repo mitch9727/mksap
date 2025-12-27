@@ -40,6 +40,7 @@
 ## 🔍 Analysis & Discovery
 
 - **[QUESTION_ID_DISCOVERY.md](../reference/QUESTION_ID_DISCOVERY.md)** - Why 2,198 valid questions (invalidated excluded)
+- **[EXTRACTOR_CODE_AUDIT.md](EXTRACTOR_CODE_AUDIT.md)** - Code usage audit and cleanup targets
 
 ---
 

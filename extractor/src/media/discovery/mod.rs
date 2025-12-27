@@ -21,7 +21,7 @@ use super::media_ids::{
     classify_content_id, count_inline_tables, extract_content_ids,
     extract_table_ids_from_tables_content, inline_table_id, ContentIdKind,
 };
-use super::metadata::{extract_html_text, for_each_metadata_item};
+use super::metadata::{extract_html_text, extract_image_info, for_each_metadata_item};
 
 // ============================================================================
 // Discovery Configuration
@@ -383,26 +383,15 @@ fn insert_figure_reference(
         .or(fallback_id)
         .unwrap_or("unknown");
 
-    let extension = figure
-        .get("imageInfo")
-        .and_then(|info| info.get("extension"))
-        .and_then(|ext| ext.as_str())
-        .map(|ext| ext.to_ascii_lowercase())
+    let image_info = extract_image_info(figure);
+    let extension = image_info
+        .extension
         .unwrap_or_else(|| "unknown".to_string());
 
     let title = extract_html_text(figure.get("title"));
 
-    let width = figure
-        .get("imageInfo")
-        .and_then(|info| info.get("width"))
-        .and_then(|val| val.as_u64())
-        .unwrap_or(0) as u32;
-
-    let height = figure
-        .get("imageInfo")
-        .and_then(|info| info.get("height"))
-        .and_then(|val| val.as_u64())
-        .unwrap_or(0) as u32;
+    let width = image_info.width.unwrap_or(0);
+    let height = image_info.height.unwrap_or(0);
 
     figures_by_id.insert(
         figure_id.to_string(),

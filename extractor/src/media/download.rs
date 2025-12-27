@@ -14,7 +14,7 @@ use super::media_ids::{
     classify_content_id, collect_inline_table_nodes, extract_content_ids,
     extract_table_ids_from_tables_content, inline_table_id, ContentIdKind,
 };
-use super::metadata::{extract_html_text, for_each_metadata_item};
+use super::metadata::{extract_html_text, extract_image_info, for_each_metadata_item};
 use super::render::{pretty_format_html, render_node};
 
 pub async fn run_media_download(
@@ -263,11 +263,8 @@ fn insert_figure_metadata(
         .or(fallback_id)
         .unwrap_or("unknown");
 
-    let extension = figure
-        .get("imageInfo")
-        .and_then(|info| info.get("extension"))
-        .and_then(|ext| ext.as_str())
-        .map(|ext| ext.to_ascii_lowercase());
+    let image_info = extract_image_info(figure);
+    let extension = image_info.extension;
 
     let title = extract_html_text(figure.get("title"));
     let short_title = extract_html_text(figure.get("shortTitle"));
@@ -277,17 +274,8 @@ fn insert_figure_metadata(
         .map(|val| val.to_string());
     let footnotes = extract_footnotes(figure.get("footnotes"));
 
-    let width = figure
-        .get("imageInfo")
-        .and_then(|info| info.get("width"))
-        .and_then(|val| val.as_u64())
-        .map(|val| val as u32);
-
-    let height = figure
-        .get("imageInfo")
-        .and_then(|info| info.get("height"))
-        .and_then(|val| val.as_u64())
-        .map(|val| val as u32);
+    let width = image_info.width;
+    let height = image_info.height;
 
     figures_by_id.insert(
         figure_id.to_string(),

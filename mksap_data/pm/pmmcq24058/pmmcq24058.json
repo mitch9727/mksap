@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 58-year-old man is evaluated after a recent hospitalization for a COPD exacerbation. His baseline symptoms are wheezing and shortness of breath when walking across the room. He also has a rare nonproductive cough. He has had three COPD exacerbations over the past 12 months and has participated regularly in pulmonary rehabilitation. He has no medical problems other than COPD, and his only medication is inhaled fluticasone-umeclidinium-vilanterol. At home he uses 2 L/min of supplemental oxygen.On physical examination, vital signs are normal. Oxygen saturation is 92% with the patient breathing supplemental oxygen, 2 L/min by nasal cannula. Lung examination reveals decreased breath sounds with faint scattered wheezing.",
+  "question_text": "A 58-year-old man is evaluated after a recent hospitalization for a COPD exacerbation. His baseline symptoms are wheezing and shortness of breath when walking across the room. He also has a rare nonproductive cough. He has had three COPD exacerbations over the past 12 months and has participated regularly in pulmonary rehabilitation. He has no medical problems other than COPD, and his only medication is inhaled fluticasone-umeclidinium-vilanterol. At home he uses 2 L/min of supplemental oxygen.On physical examination, vital signs are normal. Oxygen saturation is 92% with the patient breathing supplemental oxygen, 2 L/min by nasal cannula. Lung examination reveals decreased breath sounds with faint scattered wheezing.Laboratory studies:Arterial blood gases (oxygen, 2 L/min):pH7.38Pco244 mm Hg (5.9 kPa)Po256 mm Hg (7.4 kPa)LBicarbonate25 mEq/L (25 mmol/L)α1-Antitrypsin levelNormal (PI*MM genotype)Pulmonary function tests:FEV127% of predictedL FEV1/FVC ratio0.50LDlco Low (18% of predicted)L",
   "question_stem": "Which of the following is the most appropriate next step in treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in treatment of this patient with COPD and frequent exacerbations is the addition of long-term azithromycin (Option A). Macrolide antibiotics have both anti-inflammatory and antimicrobial effects. When administered to patients with severe COPD and a history of frequent exacerbations, long-term macrolide therapy may reduce the frequency of exacerbations. Because of the potential for azithromycin to cause QTc prolongation, patients should undergo ECG screening before starting the drug; azithromycin should be avoided if a baseline prolonged QTc is present. The QTc should also be periodically monitored after azithromycin therapy begins. Other medications that prolong the QTc should be avoided when possible, including the respiratory fluoroquinolones. Other risks of long-term macrolide use include antibiotic resistance and hearing loss, but the benefits outweigh the risks in qualifying patients. This patient has emphysema with frequent exacerbations, as evidenced by having three exacerbations within the past year. He would benefit from long-term azithromycin to reduce the frequency of exacerbations.Nocturnal noninvasive positive-pressure ventilation (NPPV) can be used for both acute and chronic respiratory failure in COPD. For chronic hypercapnic respiratory failure (Pco2 ≥52 mm Hg [6.9 kPa]) after an acute exacerbation of COPD, the addition of nocturnal NPPV (Option B) to supplemental oxygen prolongs the time to readmission and death. This patient does not have significant chronic hypercapnia, and starting nocturnal NPPV is not indicated.Lung volume reduction surgery (Option C) can improve quality of life, exercise tolerance, pulmonary function, and mortality in carefully selected patients with severe COPD. Appropriate candidates for surgery have upper lobe–predominant disease, significant exercise limitations despite participation in pulmonary rehabilitation, and an FEV1 and diffusing capacity of at least 20% of predicted. This patient is not an appropriate candidate for surgery because he has a Dlco less than 20% of predicted.Roflumilast (Option D) is a selective phosphodiesterase-4 inhibitor that reduces the frequency of exacerbations in patients with severe COPD (FEV1 <50% of predicted) and symptoms of chronic bronchitis. Although this patient does have frequent exacerbations, he has an emphysematous subtype of COPD with minimal cough and no sputum production. He would not likely benefit from roflumilast.",
+  "critique_links": [],
   "key_points": [
     "Long-term macrolide therapy may reduce the frequency of exacerbations in patients with severe COPD and frequent exacerbations, whether they have an emphysematous or chronic bronchitis phenotype."
   ],
@@ -58,5 +59,28 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.065731-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      },
+      {
+        "table_id": "inline_table_2",
+        "file": "tables/inline_table_2.html",
+        "title": "Pulmonary function tests:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.161128-06:00"
 }

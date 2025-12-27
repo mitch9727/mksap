@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 75-year-old man is evaluated for a 5-year history of subclinical hypothyroidism that is monitored with yearly testing. He reports a 3.63-kg (8-lb) weight gain over the past year as well as fatigue and constipation. Medical history is significant for coronary artery disease treated with percutaneous coronary intervention at age 70 years, hypertension, heart failure with preserved ejection fraction, and hyperlipidemia. Medications are lisinopril, metoprolol, furosemide, aspirin, rosuvastatin, and a vitamin D3 supplement.Physical examination findings, including vital signs, are normal. BMI is 23. Weight is 70 kg (154 lb).",
+  "question_text": "A 75-year-old man is evaluated for a 5-year history of subclinical hypothyroidism that is monitored with yearly testing. He reports a 3.63-kg (8-lb) weight gain over the past year as well as fatigue and constipation. Medical history is significant for coronary artery disease treated with percutaneous coronary intervention at age 70 years, hypertension, heart failure with preserved ejection fraction, and hyperlipidemia. Medications are lisinopril, metoprolol, furosemide, aspirin, rosuvastatin, and a vitamin D3 supplement.Physical examination findings, including vital signs, are normal. BMI is 23. Weight is 70 kg (154 lb).Laboratory studies:Thyroid-stimulating hormone12.3 μU/mL (12.3 mU/L)HFree thyroxine0.7 ng/dL (9 pmol/L)L",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient with primary hypothyroidism is to initiate therapy with levothyroxine, 50 μg/d (Option A). Overt hypothyroidism is indicated by high thyroid-stimulating hormone (TSH) levels and low free thyroxine (T4) levels. Levothyroxine is the recommended treatment for thyroid hormone deficiency. A full replacement dose (1.6 μg/kg lean body weight) is appropriate for most patients with overt hypothyroidism. Notably, thyroid hormone can increase myocardial oxygen demand, and overreplacement may result in arrythmias or angina. Therefore, hypothyroidism treatment in older patients (older than 65 years) and those with cardiac disease should be more conservative. For these patients, it is recommended to start with a levothyroxine dosage of 25 to 50 μg/d and increase the dosage by 12 to 25 μg/d every 6 weeks until the target TSH level is reached. Normal TSH levels shift upwards in older patients, with the upper limit of normal around 7.5 μU/mL (7.5 mU/L). This older patient with hypothyroidism, coronary artery disease, and heart failure should be treated with a relatively low dosage of levothyroxine; starting treatment with levothyroxine, 50 μg/d, is reasonable.Full weight-based dosing of levothyroxine (Option B) may result in adverse cardiac effects in older patients and those with cardiac conditions. Therefore, this dosing is not appropriate for this patient.Total triiodothyronine measurement (Option C) is not necessary to diagnose primary hypothyroidism, which is the most likely diagnosis in this patient with symptoms of hypothyroidism and high TSH and low free T4 levels.Monitoring alone (Option D) would not be appropriate because this patient's TSH level is greater than 10 μU/mL (10 mU/L), his free T4 levels are low, and he has symptoms of hypothyroidism.",
+  "critique_links": [],
   "key_points": [
     "In patients older than 65 years and patients with cardiac disease, treatment of hypothyroidism should start with a levothyroxine dosage of 25 to 50 μg/d, and the dosage should be increased by 12 to 25 μg/d every 6 weeks until the target thyroid-stimulating hormone level is reached."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:57.040447-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.260894-06:00"
 }

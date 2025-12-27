@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 66-year-old woman is evaluated during a follow-up visit 6 months after she began having intermittent chest pain. She describes the pain as left-sided and dull, but occasionally it has a sharp quality. It sometimes occurs during her daily 1-mile walk. She has no associated symptoms, and the episodes last 5 to 10 minutes. She has one or two episodes per week, and the pattern has not changed since onset. She has hypertension, diabetes mellitus, and chronic kidney disease. Medications are losartan, amlodipine, empagliflozin, and sitagliptin.On physical examination, vital signs are normal. Cardiovascular examination is normal.Laboratory studies:Creatinine2.4 mg/dL (212.2 μmol/L)HEstimated glomerular filtration rate22 mL/min/1.73 m2 ECG is shown. It is unchanged from a tracing 2 years ago.",
   "question_stem": "Which of the following is the most appropriate initial diagnostic test?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Exercise stress echocardiography (Option D) is the most appropriate initial diagnostic test to evaluate this patient with chest pain in the setting of left bundle branch block (LBBB). Stress testing to evaluate patients with stable chest pain for coronary artery disease (CAD) should be performed with exercise unless the patient is unable to exercise or has contraindications to exercise-based testing. In patients with LBBB or a ventricular paced rhythm, exercise ECG is uninterpretable, whereas exercise single-photon emission CT (SPECT) myocardial perfusion imaging (MPI) may show false-positive abnormalities due to conduction delay in the septum. Vasodilator-induced stress, however, improves the accuracy of perfusion imaging and is an acceptable study to evaluate stable chest pain in a patient with LBBB, especially one who cannot exercise. Dobutamine echocardiography, like exercise MPI studies, is prone to false-positive abnormalities in patients with LBBB, but exercise stress echocardiography is not prone to this shortcoming. This patient has LBBB and can exercise; therefore, exercise stress echocardiography is the best test to evaluate her stable chest pain.Coronary CT angiography (CCTA) (Option A) is a reasonable option to assess the possibility of CAD in patients presenting with stable chest pain. It is most useful in patients younger than 65 years and those with a lower likelihood of obstructive coronary disease. This patient, however, has chronic kidney disease, and it would be preferable to avoid the radiographic contrast exposure incurred with CCTA.Exercise ECG (Option B) is a reasonable test in patients who are able to exercise and have a normal baseline ECG. If baseline ECG abnormalities are present (e.g., ST-segment depression >1 mm, LBBB, left ventricular hypertrophy, paced rhythm, or preexcitation), exercise-induced ST-segment changes are not specific for CAD, and stress testing with adjunctive imaging or anatomic assessment with CCTA is indicated. This patient has LBBB, and exercise ECG is contraindicated.Exercise SPECT MPI (Option C) is not an appropriate option for patients with LBBB or ventricular pacing on ECG. These underlying electrocardiographic abnormalities cause conduction delay in the septum with resultant false-positive abnormalities with exercise MPI studies.",
+  "critique_links": [],
   "key_points": [
     "Exercise stress echocardiography and vasodilator single-photon emission CT myocardial perfusion imaging are preferred tests to evaluate patients with stable chest pain and left bundle branch block or ventricular pacing on ECG.",
     "Stress testing to evaluate patients with stable chest pain for coronary artery disease should be performed with exercise unless the patient is unable to exercise or has contraindications to exercise-based testing."
@@ -51,10 +52,41 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
-    "images": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [
+      "figures/cvfig25703.0393227eee1c00607243a8e6a15b7bad.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.814615-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig25703",
+        "file": "figures/cvfig25703.0393227eee1c00607243a8e6a15b7bad.jpg",
+        "title": "ECG in a Patient With Left Bundle Branch",
+        "short_title": "ECG in a Patient With Left Bundle Branch",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 406
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.391722-06:00"
 }

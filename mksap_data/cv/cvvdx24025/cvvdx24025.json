@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 48-year-old woman is evaluated for dyspnea associated with nausea and diaphoresis.ECG is shown.",
   "question_stem": "Which of the following abnormalities is demonstrated on this patient's ECG?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This ECG shows an acute inferior myocardial infarction (Option B), with ST-segment elevations in the inferior leads (II, III, and aVF) and reciprocal changes (ST-segment depressions) in lead aVL. There is also subtle ST-segment elevation in leads V5 and V6.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.385142-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24630",
+        "file": "figures/cvfig24630.989538aa3cb7a265dbee515d37c3b0de.jpg",
+        "title": "ECG Showing an Acute Inferior Myocardial Infarction",
+        "short_title": "stem ECG Showing an Acute Inferior Myocardial Infarction",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 496
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.892994-06:00"
 }

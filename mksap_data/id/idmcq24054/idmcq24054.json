@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 29-year-old patient is evaluated in the emergency department in early September with a 3-day history of headache, stiff neck, and rash. They report no recent tick bites or outdoor activities. Their two young children have had a recent diarrheal and respiratory illness. Medical history is unremarkable.On physical examination, temperature is 38.1 °C (100.6 °F), blood pressure is 125/75 mm Hg, pulse rate is 84/min, and respiration rate is 16/min. The patient is alert and oriented. The neck is stiff. Skin examination shows a faint maculopapular rash on the chest, back, and extremities. The remainder of the examination is normal.Cerebrospinal fluid studies:Leukocyte count235/µL (235 × 106/L) with 90% lymphocytesHGlucose57 mg/dL (3.2 mmol/L)Protein95 mg/dL (950 mg/L)HGram stain of the cerebrospinal fluid is negative. HIV antigen/antibody immunoassay is negative.",
   "question_stem": "Which of the following pathogens is the most likely cause of this patient's illness?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Enterovirus (Option B) is the most likely cause of this patient's viral meningitis. Enteroviruses are the most common cause of viral meningitis, with the highest prevalence between May and November in North America. Symptoms include headache, fever, nuchal rigidity, photophobia, nausea, vomiting, myalgia, pharyngitis, maculopapular rash, and cough; the typical duration before presentation is approximately 3 days. A key clinical clue is proximity to young children with gastrointestinal or respiratory illness. A cerebrospinal fluid (CSF) lymphocytic pleocytosis with normal glucose and mildly elevated protein levels is typical, as seen in this patient. Enterovirus polymerase chain reaction of the CSF confirms the diagnosis. The illness is typically self-limited with a benign clinical course; treatment is supportive.Borrelia burgdorferi (Option A), the causative agent of Lyme disease, is unlikely in this patient. Lyme meningitis typically occurs within the first few weeks to months after a tick bite (2-10 weeks after erythema migrans, the characteristic rash of Lyme disease, develops). It can present with meningeal symptoms alone or concurrently with cranial neuropathy. This patient does not report outdoor exposure or tick bites. Their rash is atypical for Lyme disease and Lyme meningitis because it is maculopapular and presented simultaneously with meningeal symptoms.Bacterial meningitis caused by Neisseria meningitidis (Option C) usually presents with fever, acute meningeal signs (meningismus or nuchal rigidity), and altered mental status. Patients with meningococcal meningitis typically present within 24 hours of symptom onset and tend to be much sicker at presentation with hypotension. The associated rash is petechial or purpuric in nature. The CSF profile includes a higher leukocyte count with neutrophilic predominance, hypoglycorrhachia, and high protein level. This patient does not have a clinical presentation or CSF profile typical of meningococcal meningitis.Varicella-zoster virus (VZV) (Option D) is an unlikely cause of this patient's findings. Immunocompromised and older adult patients are at higher risk for VZV central nervous system infection, which may present as encephalitis, aseptic meningitis, myelitis, or vasculitis presenting as a stroke. When a rash is present in VZV infection, it is typically vesicular, not maculopapular. This patient is only 29 years old, does not have immunosuppression, and has a maculopapular rash that is more characteristic of enteroviral infection.",
+  "critique_links": [],
   "key_points": [
     "Enteroviruses are the most common cause of viral meningitis, usually presenting with symptoms of headache, fever, nuchal rigidity, photophobia, nausea, vomiting, myalgia, pharyngitis, maculopapular rash, and cough."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.120943-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Cerebrospinal fluid studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.425059-06:00"
 }

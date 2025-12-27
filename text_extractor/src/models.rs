@@ -1,5 +1,6 @@
 use serde::de::Deserializer;
 use serde::{Deserialize, Serialize};
+use std::collections::HashSet;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct QuestionData {
@@ -12,11 +13,24 @@ pub struct QuestionData {
     pub options: Vec<AnswerOption>,
     pub user_performance: UserPerformance,
     pub critique: String,
+    #[serde(default)]
+    pub critique_links: Vec<CritiqueLink>,
     pub key_points: Vec<String>,
     pub references: String,
     pub related_content: RelatedContent,
     pub media: MediaFiles,
+    #[serde(default)]
+    pub media_metadata: Option<serde_json::Value>,
     pub extracted_at: String,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct CritiqueLink {
+    pub href: String,
+    pub text: String,
+    pub target: Option<String>,
+    pub title: Option<String>,
+    pub rel: Option<String>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -153,6 +167,7 @@ impl ApiQuestionResponse {
         let stimulus_text = extract_text_from_nodes(&self.stimulus);
         let prompt_text = extract_text_from_nodes(&self.prompt);
         let exposition_text = extract_text_from_nodes(&self.exposition);
+        let critique_links = extract_links_from_nodes(&self.exposition);
         let keypoints_list = extract_keypoints(&self.keypoints);
         let references_text = extract_references(&self.references);
 
@@ -184,6 +199,7 @@ impl ApiQuestionResponse {
                 time_taken: None,
             },
             critique: exposition_text,
+            critique_links,
             key_points: keypoints_list,
             references: references_text,
             related_content: RelatedContent {
@@ -191,6 +207,7 @@ impl ApiQuestionResponse {
                 learning_plan_topic: String::new(),
             },
             media: MediaFiles::default(),
+            media_metadata: None,
             extracted_at: chrono::Local::now().to_rfc3339(),
         }
     }
@@ -250,6 +267,143 @@ fn extract_text_from_json(node: &serde_json::Value) -> String {
     }
 
     text
+}
+
+fn extract_links_from_nodes(nodes: &[serde_json::Value]) -> Vec<CritiqueLink> {
+    let mut links = Vec::new();
+    let mut seen = HashSet::new();
+
+    for node in nodes {
+        extract_links_from_value(node, &mut links, &mut seen);
+    }
+
+    links
+}
+
+fn extract_links_from_value(
+    value: &serde_json::Value,
+    links: &mut Vec<CritiqueLink>,
+    seen: &mut HashSet<(String, String, Option<String>, Option<String>, Option<String>)>,
+) {
+    match value {
+        serde_json::Value::Object(obj) => {
+            if is_anchor_tag(obj) {
+                if let Some(attrs) = obj.get("attrs") {
+                    if let Some(href) = extract_attr_string(attrs, "href") {
+                        let text = extract_link_text(
+                            obj.get("children"),
+                            attrs,
+                            &href,
+                        );
+                        let target = extract_attr_string(attrs, "target");
+                        let title = extract_attr_string(attrs, "title");
+                        let rel = extract_attr_string(attrs, "rel");
+                        let key = (
+                            href.clone(),
+                            text.clone(),
+                            target.clone(),
+                            title.clone(),
+                            rel.clone(),
+                        );
+                        if seen.insert(key) {
+                            links.push(CritiqueLink {
+                                href,
+                                text,
+                                target,
+                                title,
+                                rel,
+                            });
+                        }
+                    }
+                }
+            }
+
+            for child in obj.values() {
+                extract_links_from_value(child, links, seen);
+            }
+        }
+        serde_json::Value::Array(items) => {
+            for item in items {
+                extract_links_from_value(item, links, seen);
+            }
+        }
+        _ => {}
+    }
+}
+
+fn is_anchor_tag(obj: &serde_json::Map<String, serde_json::Value>) -> bool {
+    if let Some(tag) = obj.get("tagName").and_then(|t| t.as_str()) {
+        if tag.eq_ignore_ascii_case("a") {
+            return true;
+        }
+    }
+    if let Some(tag) = obj.get("tag").and_then(|t| t.as_str()) {
+        if tag.eq_ignore_ascii_case("a") {
+            return true;
+        }
+    }
+    if let Some(tag) = obj.get("type").and_then(|t| t.as_str()) {
+        if tag.eq_ignore_ascii_case("a") {
+            return true;
+        }
+    }
+    false
+}
+
+fn extract_attr_string(attrs: &serde_json::Value, key: &str) -> Option<String> {
+    let value = attrs.get(key)?;
+    match value {
+        serde_json::Value::String(text) => Some(text.clone()),
+        serde_json::Value::Object(obj) => obj
+            .get("__html")
+            .and_then(|val| val.as_str())
+            .map(|text| text.to_string()),
+        _ => None,
+    }
+}
+
+fn extract_link_text(
+    children: Option<&serde_json::Value>,
+    attrs: &serde_json::Value,
+    href: &str,
+) -> String {
+    let mut text = match children {
+        Some(serde_json::Value::Array(items)) => items
+            .iter()
+            .map(extract_text_from_json)
+            .collect::<Vec<_>>()
+            .join(""),
+        Some(serde_json::Value::String(text)) => text.clone(),
+        Some(other) => extract_text_from_json(other),
+        None => String::new(),
+    };
+
+    text = compact_text(&text);
+    if !text.is_empty() {
+        return text;
+    }
+
+    if let Some(label) = extract_attr_string(attrs, "aria-label")
+        .or_else(|| extract_attr_string(attrs, "ariaLabel"))
+    {
+        let label = compact_text(&label);
+        if !label.is_empty() {
+            return label;
+        }
+    }
+
+    if let Some(title) = extract_attr_string(attrs, "title") {
+        let title = compact_text(&title);
+        if !title.is_empty() {
+            return title;
+        }
+    }
+
+    href.to_string()
+}
+
+fn compact_text(text: &str) -> String {
+    text.split_whitespace().collect::<Vec<_>>().join(" ")
 }
 
 /// Helper function to extract keypoints from the keypoints array

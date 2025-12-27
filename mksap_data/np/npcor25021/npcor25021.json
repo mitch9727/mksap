@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old man is evaluated for one episode of visible blood in his urine. He reports no flank pain and no associated trauma or exertion. He has no chronic medical conditions and takes no medications. He smoked one pack of cigarettes daily for 15 years but quit 5 years ago.Physical examination findings, including vital signs, are normal.Serum creatinine is normal.Urine studies:Urinalysis with microscopy1+ blood, no protein, no nitrites, leukocyte esterase; 11-25 isomorphic erythrocytes/hpf, 0-2 leukocytes/hpf, no castsA contrast-enhanced CT urogram shows no kidney stones, masses, or cysts.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Cystoscopy (Option A) is the most appropriate diagnostic test to perform next in this patient with nonglomerular hematuria and elevated risk for urothelial cancer. Hematuria is defined as the presence of ≥3 erythrocytes/hpf in the urine sediment and may be microscopic (detectable only on urine testing) or macroscopic (grossly visible). Hematuria is most often of nonglomerular origin. A glomerular origin is suggested by concurrent proteinuria, presence of acanthocytes, increased serum creatinine or decrease in estimated glomerular filtration rate, or systemic signs and symptoms; however, most causes of hematuria are nonglomerular. Benign causes of nonglomerular hematuria include kidney stones and infection; the patient's clinical presentation should guide evaluation for those diagnoses. In patients without symptoms of urinary infection or stones, American Urological Association guidelines recommend stratifying patients with hematuria as high, intermediate, or low/negligible risk for urothelial cancer, with subsequent management guided by the risk classification (see Table: Risk Stratification for Urothelial Malignancy). Low-risk patients can be reevaluated with urinalysis within 6 months, and no additional follow up is needed if the subsequent urinalysis is normal. Intermediate-risk patients require cystoscopy and kidney ultrasonography. High-risk patients require cystoscopy and CT urography, if there are no contraindications, or MR urography. Use of antiplatelet agents or anticoagulants does not influence the diagnostic algorithm. This patient with gross hematuria has an elevated risk for urothelial cancer, so in addition to a CT urography, cystoscopy is indicated.Patients with microscopic hematuria at low risk for urothelial malignancy should undergo repeat urinalysis within 6 months (Option B). However, this patient has both gross hematuria and risk factors for malignancy, so he requires more extensive evaluation.Serum ANCA (Option C) has a role in the evaluation of glomerular hematuria. This patient does not have proteinuria, dysmorphic erythrocytes, or cellular casts, so a glomerular cause of hematuria is not likely.The presence of blood on point-of-care urine testing, in the absence of erythrocytes on microscopic urinalysis, suggests myoglobinuria, a feature of rhabdomyolysis. When this condition is suspected, measuring serum creatine kinase (Option D) is an appropriate part of the evaluation. This patient does not have discordant point-of-care and microscopic urine testing, nor any symptoms of or risk factors for rhabdomyolysis, so measuring serum creatine kinase would not be useful.",
+  "critique_links": [],
   "key_points": [
     "The evaluation of nonglomerular hematuria is guided by the patient's underlying level of risk for urothelial cancer.",
     "Patients with elevated risk for urothelial cancer who have hematuria, even if self-limited, require both imaging of the urogenital tract and cystoscopy."
@@ -51,10 +52,43 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/nptab25001.html",
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:48:56.291896-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nptab25001",
+        "file": "tables/nptab25001.html",
+        "title": "Microhematuria: Stratification of Risk for Underlying Urothelial Malignancy",
+        "short_title": "Risk Stratification for Urothelial Malignancy",
+        "footnotes": [
+          "<sup>a</sup>Additional risk factors include irritative lower tract symptoms, past pelvic radiation therapy, past chemotherapy with cyclophosphamide or ifosfamide, family history of urothelial cancer or Lynch syndrome, occupational exposure to benzene chemicals or aromatic amines, chronic indwelling foreign body in the urothelial tract.",
+          "Recommendations from Barocas DA, Lotan Y, Matulewicz RS, et al. Updates to microhematuria: AUA/SUFU guideline (2025). J Urol. 2025;213:547-557. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/40013563\" target=\"_blank\">PMID: 40013563</a> doi:10.1097/JU.0000000000004490"
+        ],
+        "headers": [
+          "Low/Negligible Risk",
+          "Intermediate Risk",
+          "High Risk"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Urine studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.587201-06:00"
 }

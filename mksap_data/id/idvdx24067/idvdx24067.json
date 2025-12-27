@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 42-year-old man with newly diagnosed HIV presents with a painful rash on his upper chest and arm.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is herpes zoster infection (Option C). Varicella-zoster virus (VZV) is a herpesvirus infection that initially causes primary varicella infection (chickenpox) before entering latency in the sensory nerve ganglia. Under stress or immunosuppression, VZV can reactivate as herpes zoster (shingles), a painful dermatomal eruption. Lesions characteristically begin as tender papules on an erythematous base that eventually form fluid-filled vesicles. Vesicles ultimately rupture and crust over as the virus re-enters its latent state. Diagnosis usually is made clinically. When lesions are atypical, as is commonly seen in disseminated infection in patients with severely impaired adaptive immunity, herpes zoster can be confirmed by VZV polymerase chain reaction obtained on fluid from the vesicle base.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:10:29.455153-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "idfig24677",
+        "file": "figures/idfig24677.382a4d8651fb6c964bcc3a1aca44f52c.jpg",
+        "title": "Shingles Rash",
+        "short_title": "Shingles Rash",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 675
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.823029-06:00"
 }

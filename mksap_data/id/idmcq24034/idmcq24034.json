@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 62-year-old man is evaluated in the emergency department for a 4-day history of fever, chills, cough productive of yellow sputum, increasing shortness of breath, and sharp left-sided chest pain with deep breaths. His family indicates he was out of breath and confused earlier today. He has a 30-pack-year smoking history. Medical history is significant for COPD and hypertension. He has never been hospitalized and has not recently received antibiotics or oral glucocorticoids. Medications are a umeclidinium-vilanterol inhaler and hydrochlorothiazide.On physical examination, temperature is 35.7 °C (96.3 °F), blood pressure is 95/64 mm Hg, pulse rate is 115/min, and respiration rate is 24/min. Oxygen saturation is 90% breathing ambient air. He is oriented only to person and place. The neck is supple. Tachypnea is noted. Diffuse wheezing and decreased breath sounds are heard in the left lower lobe.A chest radiograph shows hyperexpanded lungs bilaterally and a left lower lobe consolidation with pleural effusion.",
+  "question_text": "A 62-year-old man is evaluated in the emergency department for a 4-day history of fever, chills, cough productive of yellow sputum, increasing shortness of breath, and sharp left-sided chest pain with deep breaths. His family indicates he was out of breath and confused earlier today. He has a 30-pack-year smoking history. Medical history is significant for COPD and hypertension. He has never been hospitalized and has not recently received antibiotics or oral glucocorticoids. Medications are a umeclidinium-vilanterol inhaler and hydrochlorothiazide.On physical examination, temperature is 35.7 °C (96.3 °F), blood pressure is 95/64 mm Hg, pulse rate is 115/min, and respiration rate is 24/min. Oxygen saturation is 90% breathing ambient air. He is oriented only to person and place. The neck is supple. Tachypnea is noted. Diffuse wheezing and decreased breath sounds are heard in the left lower lobe.Laboratory studies:Leukocyte count21,000/µL (21 × 109/L)HBlood urea nitrogen43 mg/dL (15.4 mmol/L)HCreatinine2.1 mg/dL (186 µmol/L)HSodium125 mEq/L (125 mmol/L)LA chest radiograph shows hyperexpanded lungs bilaterally and a left lower lobe consolidation with pleural effusion.",
   "question_stem": "Which of the following are the most appropriate next steps in management?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "This patient should be admitted to the ICU and therapy initiated with ceftriaxone and azithromycin (Option C) for severe community-acquired pneumonia (CAP). Clinical prediction models aid in clinical decisions regarding the most appropriate site of care for a patient with CAP. The Pneumonia Severity Index is a validated predictor of 30-day mortality from CAP; the Infectious Diseases Society of America (IDSA) and American Thoracic Society (ATS) have also defined major and minor criteria used to identify patients with severe CAP (). Patients with one major or three minor criteria are best managed in the ICU. Based on this patient's altered mental status and clinical findings, he should be admitted to the ICU rather than the general medical ward (Option A, Option B).For patients hospitalized with severe CAP without risk factors for methicillin-resistant Staphylococcus aureus (MRSA) or Pseudomonas aeruginosa, an intravenous β-lactam plus a macrolide (e.g., ceftriaxone plus azithromycin) is recommended. IDSA/ATS guidelines reflect the increasing incidence of multidrug-resistant organisms causing CAP and provide guidance for when broader coverage of MRSA or P. aeruginosa is indicated. Patients at risk for MRSA or Pseudomonas include those who have had the organism previously isolated from sputum cultures, those recently hospitalized who received intravenous antibiotics, and those with a pulmonary comorbidity for which they have received recent courses of oral glucocorticoids or antibiotics (e.g., COPD exacerbations or bronchiectasis). This patient has no risk factors for infection with MRSA or Pseudomonas, so treatment with vancomycin and cefepime is unnecessary (Option B, Option D). Additionally, this antibiotic regimen does not include coverage of Legionella.",
+  "critique": "This patient should be admitted to the ICU and therapy initiated with ceftriaxone and azithromycin (Option C) for severe community-acquired pneumonia (CAP). Clinical prediction models aid in clinical decisions regarding the most appropriate site of care for a patient with CAP. The Pneumonia Severity Index is a validated predictor of 30-day mortality from CAP; the Infectious Diseases Society of America (IDSA) and American Thoracic Society (ATS) have also defined major and minor criteria used to identify patients with severe CAP (Table: CAP Clinical Decision Support Scoring Systems). Patients with one major or three minor criteria are best managed in the ICU. Based on this patient's altered mental status and clinical findings, he should be admitted to the ICU rather than the general medical ward (Option A, Option B).For patients hospitalized with severe CAP without risk factors for methicillin-resistant Staphylococcus aureus (MRSA) or Pseudomonas aeruginosa, an intravenous β-lactam plus a macrolide (e.g., ceftriaxone plus azithromycin) is recommended. IDSA/ATS guidelines reflect the increasing incidence of multidrug-resistant organisms causing CAP and provide guidance for when broader coverage of MRSA or P. aeruginosa is indicated. Patients at risk for MRSA or Pseudomonas include those who have had the organism previously isolated from sputum cultures, those recently hospitalized who received intravenous antibiotics, and those with a pulmonary comorbidity for which they have received recent courses of oral glucocorticoids or antibiotics (e.g., COPD exacerbations or bronchiectasis). This patient has no risk factors for infection with MRSA or Pseudomonas, so treatment with vancomycin and cefepime is unnecessary (Option B, Option D). Additionally, this antibiotic regimen does not include coverage of Legionella.",
+  "critique_links": [],
   "key_points": [
     "A clinical prediction model (the Pneumonia Severity Index or Infectious Diseases Society of America/American Thoracic Society criteria) can be used to identify patients with community-acquired pneumonia (CAP) who may require hospital or ICU admission.",
     "For patients hospitalized with severe CAP without risk factors for methicillin-resistant Staphylococcus aureus or Pseudomonas aeruginosa, an intravenous β-lactam plus a macrolide is recommended."
@@ -52,12 +53,42 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/idtab24024.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:46:51.922842-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "idtab24024",
+        "file": "tables/idtab24024.html",
+        "title": "Community-Acquired Pneumonia Clinical Decision Support Scoring Systems for Site of Care",
+        "short_title": "CAP Clinical Decision Support Scoring Systems",
+        "footnotes": [
+          "ATS = American Thoracic Society; BUN = blood urea nitrogen; IDSA = Infectious Diseases Society of America; PSI = Pneumonia Severity Index.",
+          "<sup>a</sup>PSI Step 1 Screen: If no factors are present, patient is assigned risk class I and can likely be managed as an outpatient. Patients with at least one risk factor are stratified by a more complex Step 2 scale (not shown) into risk class II-V.",
+          "<sup>b</sup>IDSA/ATS Criteria for Defining Severe CAP: Patients with one major criterion have severe CAP and are best managed in the ICU. Consideration of minor criteria plus clinical judgment are recommended to guide the need for higher levels of care."
+        ],
+        "headers": [
+          "PSIa",
+          "IDSA/ATSb"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.368321-06:00"
 }

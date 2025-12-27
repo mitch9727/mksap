@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 68-year-old woman is evaluated for chronic back pain and progressive lower extremity weakness.MRI of the lumbar spine is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Spinal stenosis (Option D) is the most likely cause of this patient's symptoms. The MRI shows degenerative changes at multiple levels in the lumbar spine with anterolisthesis (red arrow), irregularity of the endplates (green arrow), and loss of disc height with posterior bulging of the discs (blue arrow), resulting in spinal stenosis with compromise of the spinal canal (circle). MRI is the preferred imaging modality for evaluating suspected compressive myelopathy. However, findings on neuroimaging must be carefully interpreted in the context of the clinical history and examination, because asymptomatic spinal stenosis may be radiographically identified in up to 10% of patients who undergo spinal imaging. CT myelography can show compressive myelopathy when MRI is not feasible, but it often does not reveal the cause of compression.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/nrfig24622.4413803e15112a3cdc4fb7dedda58e68.jpg",
-      "figures/nrfig24621.ae4f9ae66061435d5638311a4cc2eb30.jpg"
+      "figures/nrfig24621.ae4f9ae66061435d5638311a4cc2eb30.jpg",
+      "figures/nrfig24622.4413803e15112a3cdc4fb7dedda58e68.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:42.607856-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "nrfig24621",
+        "file": "figures/nrfig24621.ae4f9ae66061435d5638311a4cc2eb30.jpg",
+        "title": "MRI Showing Spinal Stenosis",
+        "short_title": "stem MRI Showing Spinal Stenosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 598,
+        "height": 753
+      },
+      {
+        "figure_id": "nrfig24622",
+        "file": "figures/nrfig24622.4413803e15112a3cdc4fb7dedda58e68.jpg",
+        "title": "MRI Showing Spinal Stenosis",
+        "short_title": "critique MRI Showing Spinal Stenosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 598,
+        "height": 753
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.546167-06:00"
 }

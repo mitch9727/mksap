@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 65-year-old man is evaluated for persistent dyspepsia, weight loss, and epigastric abdominal pain.Upper endoscopy findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is gastric lymphoma (Option C). The endoscopic view of the stomach shows a gastric lymphoma presenting as a polypoid lesion without ulceration. Mucosa-associated lymphoid tissue (MALT) lines the digestive tract and provides immunologic surveillance and response to foreign antigens. Malignant transformation of these cells results in MALT lymphomas, which are of B-cell origin (CD20-positive). MALT lymphomas account for 50% of all gastric lymphomas. These lymphomas have a specific clinical presentation because they are isolated to a single organ and follow an indolent course. Repetitive immune stimulation, caused by an underlying chronic infection with Helicobacter pylori or an autoimmune process, likely plays role in the pathogenesis of this tumor.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:12:25.130448-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "onfig24619",
+        "file": "figures/onfig24619.3073f267e44c2d8d3ada201fdfc539a1.jpg",
+        "title": "Endoscopy Showing Gastric Lymphoma",
+        "short_title": "stem Endoscopy Showing Gastric Lymphoma",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 365,
+        "height": 378
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.921812-06:00"
 }

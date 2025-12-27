@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 79-year-old woman is evaluated in the emergency department for right hip pain after she tripped on a rug and fell at home. She has not had chest pain, shortness of breath, or decreased exercise tolerance. Medical conditions include osteopenia, hypertension, stage G3a chronic kidney disease, heart failure with preserved ejection fraction, dyslipidemia, and hypothyroidism. Medications are lisinopril, metoprolol, furosemide, atorvastatin, levothyroxine, and a vitamin D supplement.On physical examination, blood pressure is 156/90 mm Hg and pulse rate is 106/min. She is unable to bear weight on the right leg, which is externally rotated and shortened. The remainder of the examination is normal.Laboratory studies:Creatinine1.3 mg/dL (115 µmol/L)Complete blood count, the remainder of the basic metabolic panel, and thyroid-stimulating hormone level are normal.ECG shows sinus tachycardia.Plain radiographs reveal an intertrochanteric hip fracture.",
   "question_stem": "Which of the following is the most appropriate management strategy?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management strategy is operative management within 24 hours (Option C). The incidence of hip fracture in the geriatric population is increasing, with 300,000 fractures occurring annually in the United States. Because this population has many comorbid conditions, including cardiac disease, the use of an evidence-based protocol for management and preoperative optimization is essential. Orthopedic consultation for early surgery should occur even for patients with multiple comorbid conditions. Early operative management (ideally within 24 hours) results in improved outcomes, including reduced pain, shorter length of stay, and decreased mortality. Waiting longer than 24 hours before surgery is associated with increased complications, and hip fracture surgery delays longer than 48 hours are associated with increased 30-day and 1-year mortality. Therefore, time between admission and surgery for this patient should be minimized.According to the American Heart Association/American College of Cardiology (AHA/ACC) perioperative clinical practice guidelines for patients undergoing noncardiac surgery, cardiology assessment should be obtained for active cardiac conditions (e.g., severe valvular disease, significant arrhythmias, new or decompensated heart failure, unstable coronary syndromes). Unnecessary testing or consultation in patients presenting with a hip fracture has been shown to delay surgery without providing clinical benefit. This patient does not have an active or decompensated cardiac condition, and she does not require a cardiology consultation before surgery (Option A). Operative management should proceed without delay.Nonoperative management (Option B) is considered only for patients with advanced comorbid conditions or at high risk for interoperative death, neither of which is present in this case.According to AHA/ACC guidelines, transthoracic echocardiography (TTE) before surgery (Option D) is indicated for signs or symptoms of decompensated heart failure; a history of heart failure or valvular disease without TTE in the past year; or worsening symptoms, dyspnea of unknown origin, or suspicion of moderate to severe valvular disease. However, TTE should be performed judiciously and only if results are likely to change management or perioperative monitoring; studies have shown that TTE significantly delays time to surgery and is ordered more than clinically indicated. This patient has no indications for TTE before surgery.",
+  "critique_links": [],
   "key_points": [
     "Early operative management (ideally within 24 hours) is the mainstay of treatment for most patients with a hip fracture and results in improved outcomes, including reduced pain, shorter length of stay, and decreased mortality."
   ],
@@ -50,10 +51,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:34.122161-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.816817-06:00"
 }

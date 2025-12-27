@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 65-year-old man is evaluated for anticoagulation management before undergoing elective inguinal hernia repair. He has nonvalvular atrial fibrillation, hypertension, stage G3a chronic kidney disease, and dyslipidemia. His CHA2DS2-VASc score is 2. The risk for bleeding from the planned procedure is low. Medications are metoprolol, apixaban, lisinopril, and rosuvastatin.Physical examination findings, including vital signs, are normal.Laboratory studies:Creatinine1.6 mg/dL (141.4 µmol/L)HCreatinine clearance57 mL/minL",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is to stop apixaban 24 hours before the planned elective surgery (Option B). Patients who take oral anticoagulants are at risk for perioperative bleeding (see Table: Suggested Risk Stratification for Procedural Bleed Risk). Anticoagulant management decisions depend on the perioperative risk for thromboembolism (posed by the primary indication for anticoagulation), the bleeding risk associated with the surgery, and the pharmacokinetics of the oral anticoagulant being used. A three-tiered system classifies surgeries based on the risk for bleeding. Minimal-risk surgeries (e.g., cataract surgery, minor dental procedures) have a negligible (approximately 0%) rate of major bleeding; low- to moderate-risk surgeries (e.g., hernia repair, arthroscopy, colonoscopy) have a less than 2% rate of major bleeding; and high-risk surgeries (e.g., cardiac surgery, kidney biopsy, surgeries lasting >45 minutes) have a greater than 2% rate of postoperative bleeding. Patients undergoing low- to moderate- and high-risk procedures require preoperative withholding of oral anticoagulants. Most direct oral anticoagulants (DOACs) can be stopped 24 hours before low- to moderate-risk procedures and 48 hours before high-risk surgeries in patients with sufficient kidney function. All DOACs are usually resumed 24 hours (postoperative day 1) after low- to moderate-risk procedures and 48 to 72 hours after high-risk surgeries. In this patient with nonvalvular atrial fibrillation and a CHA2DS2-VASc score of 2 who is undergoing a low–bleeding risk procedure, the most appropriate management is to stop apixaban 24 hours before surgery; it can then be restarted 24 hours after surgery.Patients undergoing minimal-risk procedures have a negligible risk for bleeding, and continuing apixaban throughout the perioperative period (Option A) may be reasonable in that circumstance, especially in cases in which the risk for perioperative thromboembolism is high. This patient's planned surgery poses a low but not negligible risk for significant perioperative bleeding, and continuing apixaban would be inappropriate.In this patient, apixaban does not require discontinuation 72 hours before surgery (Option C). Dabigatran, which depends heavily on renal clearance, may need to be stopped 2 to 4 days before surgery in patients with a creatinine clearance below 50 mL/min. Other DOACs, such as apixaban, are not as dependent on renal clearance; however, for patients with a creatinine clearance less than 30 mL/min, a longer duration of DOAC interruption (e.g., discontinuing 48-72 hours before surgery) may be reasonable depending on bleeding risk.Because of its pharmacokinetics, warfarin is typically stopped 5 days before surgery. Stopping apixaban 5 days before surgery (Option D) is unnecessary in this patient and would increase his thromboembolic risk.",
+  "critique_links": [],
   "key_points": [
     "Perioperative management of oral anticoagulants depends on the risk for thromboembolism, the bleeding risk from the surgery, and the pharmacokinetics of the oral anticoagulant being used.",
     "Most direct oral anticoagulants can be stopped 24 hours before procedures with low to moderate bleeding risk and 48 hours before those with high bleeding risk in patients with sufficient kidney function."
@@ -51,10 +52,47 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/fctab24046.html",
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:34.009114-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "fctab24046",
+        "file": "tables/fctab24046.html",
+        "title": "Suggested Risk Stratification for Procedural Bleed Risk, Based on ISTH Guidance Statements",
+        "short_title": "Suggested Risk Stratification for Procedural Bleed Risk",
+        "footnotes": [
+          "GI = gastrointestinal; ISTH = International Society on Thrombosis and Haemostasis.",
+          "<sup>a</sup>Minimal to no residual anticoagulant effect at time of procedure (i.e., four to five drug half-life interruptions pre-procedure).",
+          "<sup>b</sup>Includes spinal and epidural anesthesia or any other neuraxial (e.g., pain management) intervention; consider not only absolute risk for major bleeding but potentially devastating consequences of epidural bleeding and associated lower limb paralysis.",
+          "<sup>c</sup>Some residual anticoagulant effect allowed (i.e., two to three drug half-life interruptions pre-procedure).",
+          "<sup>d</sup>Radial approach may be considered minimal-bleed-risk compared with femoral approach.",
+          "<sup>e</sup>Procedure can be safely done under full-dose anticoagulation (may consider holding direct oral anticoagulant dose day of procedure to avoid peak anticoagulant effects).",
+          "Reprinted from Douketis JD, Spyropoulos AC, Murad MH, et al. Perioperative management of antithrombotic therapy: an American College of Chest Physicians clinical practice guideline. Chest. 2022;162:e207-e243. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/35964704\" target=\"_blank\">PMID: 35964704</a> doi:10.1016/j.chest.2022.07.025 ©2022, with permission from Elsevier."
+        ],
+        "headers": [
+          "Bleeding Risk",
+          "Type of Surgery/Procedure"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.681528-06:00"
 }

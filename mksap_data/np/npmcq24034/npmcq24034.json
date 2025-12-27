@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 27-year-old woman is evaluated in the emergency department for protracted diarrhea, nausea, and inability to tolerate liquids or solid food, all of which began 5 days ago when she returned from vacation. She reports she nearly fainted getting out of bed this morning. Her only medication is loperamide.On physical examination, blood pressure is 86/58 mm Hg, and pulse rate is 114/min. The patient is alert and oriented. Mucous membranes are dry. There is poor skin turgor. Axillary sweat is absent.",
+  "question_text": "A 27-year-old woman is evaluated in the emergency department for protracted diarrhea, nausea, and inability to tolerate liquids or solid food, all of which began 5 days ago when she returned from vacation. She reports she nearly fainted getting out of bed this morning. Her only medication is loperamide.On physical examination, blood pressure is 86/58 mm Hg, and pulse rate is 114/min. The patient is alert and oriented. Mucous membranes are dry. There is poor skin turgor. Axillary sweat is absent.Laboratory studies:Blood urea nitrogen30 mg/dL (10.7 mmol/L)HCreatinine1.1 mg/dL (97.2 µmol/L)ElectrolytesSodium128 mEq/L (128 mmol/L)LPotassium3.4 mEq/L (3.4 mmol/L)LChloride98 mEq/L (98 mmol/L)Bicarbonate18 mEq/L (18 mmol/L)LUrine sodium5.0 mEq/L (5.0 mmol/L)LUrine osmolality600 mOsm/kg H2O",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is intravenous lactated Ringer solution (Option A) in this patient who presents with hypovolemic hyponatremia due to gastrointestinal illness. Hypovolemia leads to renal sodium and water reabsorption stimulated by sympathetic outflow, angiotensin, aldosterone, and antidiuretic hormone (ADH), resulting in urine sodium concentration <20 mEq/L (20 mmol/L) and urine osmolality >300 mOsm/kg H2O, as seen in this patient. Isotonic fluid, such as lactated Ringer solution, and subsequent volume resuscitation will remove the stimulus for ADH secretion and allow for free water excretion, thus correcting the hyponatremia. Use of 0.9% saline in this patient's setting is also appropriate and would likely require potassium supplementation.This patient requires fluid resuscitation with isotonic fluids; use of 0.45% saline (Option B), a hypotonic fluid, would not address the underlying pathophysiology (volume depletion resulting in increased ADH) in a timely and appropriate manner and will worsen hyponatremia.Treatment with intravenous 3% saline (Option C) to increase the serum sodium by 2.0 to 3.0 mEq/L (2.0-3.0 mmol/L) is reserved for symptomatic patients with hypotonic hyponatremia (serum sodium level typically <120 mEq/L [120 mmol/L]) that occurred acutely (within <48 hours). This patient's hyponatremia has occurred over the past 5 days, and she does not have acute symptoms attributable to hyponatremia; her nausea is more likely explained by the gastrointestinal illness.Oral salt tablets (Option D), typically administered alongside a loop diuretic, are part of the chronic management of hyponatremia due to the syndrome of inappropriate ADH secretion (SIADH). This patient's presentation is not consistent with SIADH, as the volume depletion is appropriately stimulating ADH secretion. Oral salt tablets would be minimally effective in repleting volume compared with administering an intravenous isotonic solution.",
+  "critique_links": [],
   "key_points": [
     "In hypovolemia, volume expansion with isotonic fluids will suppress antidiuretic hormone, thereby increasing free water excretion with correction of the hyponatremia.",
     "Symptomatic patients with acute hypotonic hyponatremia (serum sodium level typically <120 mEq/L [120 mmol/L]) can be treated with intravenous 3% saline to increase the serum sodium by 2.0 to 3.0 mEq/L (2.0-3.0 mmol/L)."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:41.752299-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.697510-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 23-year-old man is seen for evaluation of newly diagnosed HIV infection. He is asymptomatic.Vital signs are normal, and physical examination findings are unremarkable.CD4 cell count is 49/µL, and HIV viral load is 32,517 copies/mL.Hepatitis A IgG and hepatitis B surface antibody are reactive; hepatitis C antibody is negative. He is immune to varicella-zoster virus, mumps, and rubella, but not measles. A Toxoplasma IgG is negative.",
+  "question_text": "A 23-year-old man is seen for evaluation of newly diagnosed HIV infection. He is asymptomatic.Vital signs are normal, and physical examination findings are unremarkable.Laboratory studies:Creatinine0.7 mg/dL (61.9 µmol/L)CD4 cell count is 49/µL, and HIV viral load is 32,517 copies/mL.Hepatitis A IgG and hepatitis B surface antibody are reactive; hepatitis C antibody is negative. He is immune to varicella-zoster virus, mumps, and rubella, but not measles. A Toxoplasma IgG is negative.",
   "question_stem": "In addition to starting antiretroviral therapy, which of the following is the most appropriate preventive measure?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate preventive measure for this patient is trimethoprim-sulfamethoxazole (Option D), which should be prescribed to prevent Pneumocystis jirovecii pneumonia (PCP). Pneumocystis jirovecii is a ubiquitous fungus that spreads through the airborne route and causes pneumonia. Before antiretroviral therapy (ART) and opportunistic infection prophylaxis were widely available, PCP occurred in up to 80% of persons with AIDS and was associated with significant mortality. It occurs most often in persons with CD4 cell counts less than 200/µL, and PCP primary prophylaxis is recommended in persons with HIV and CD4 cell count less than 100/µL or less than 200/µL with a detectable viral load. Once daily double-strength trimethoprim-sulfamethoxazole is the preferred prophylactic agent. This regimen is also preferred to prevent Toxoplasma reactivation. Alternative agents for PCP prophylaxis are atovaquone and dapsone. This patient has a CD4 cell count of 49/µL and should receive PCP prophylaxis with trimethoprim-sulfamethoxazole.Azithromycin (Option A) has been used for MAC prophylaxis for many years in persons with HIV and a CD4 cell count of 50/µL or less. However, the risk of MAC is low in the setting of ART initiation, and HIV guidelines no longer recommend azithromycin prophylaxis for persons with a CD4 cell count of 50/µL or less if they are taking ART.Hepatitis A vaccination (Option B) is not indicated in this patient. IgG reactivity on hepatitis A testing indicates that he is already immune.Although this patient is not immune to measles, measles-mumps-rubella (MMR) vaccination (Option C) should not be performed at this time because MMR is a live vaccine and has the potential to cause symptomatic illness. Live vaccines should be deferred in persons with HIV infection until the CD4 cell count is at least 200/µL and 15% or greater.Primary prophylaxis for cytomegalovirus is not recommended in persons with HIV. Screening for previous cytomegalovirus is also not warranted because many patients will have detectable antibody that does not require management. Therefore, valganciclovir (Option E) is not the most appropriate preventive measure for this patient.",
+  "critique_links": [],
   "key_points": [
     "Pneumocystis jirovecii primary prophylaxis is recommended in persons with HIV and CD4 cell count less than 100/µL or less than 200/µL with a detectable viral load.",
     "Once daily double-strength trimethoprim-sulfamethoxazole is the preferred prophylactic agent for Pneumocystis jirovecii pneumonia; alternative agents are atovaquone and dapsone."
@@ -63,5 +64,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:47:18.588230-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.501181-06:00"
 }

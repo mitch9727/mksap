@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 72-year-old man is evaluated in the hospital for acute kidney injury. He was admitted 4 days ago for decompensated heart failure. On admission, intravenous furosemide was initiated. On hospital day 3, intravenous chlorothiazide was administered. Today, both medications are withheld. Medical history is significant for hypertension, hyperlipidemia, and heart failure with reduced ejection fraction. Other medications are carvedilol, hydralazine, isosorbide dinitrate, atorvastatin, and empagliflozin.On physical examination, blood pressure is 110/70 mm Hg, pulse rate is 98/min, respiration rate is 20/min, and oxygen saturation is 96% with the patient breathing 2 L/min of oxygen by nasal cannula. Jugular venous pressure is elevated. Cardiopulmonary examination reveals an S3 gallop and crackles over the lower lung fields. There is pitting edema of the lower extremities.Today, an echocardiogram shows a left ventricular ejection fraction of 35% and less than 50% collapse of the inferior vena cava with inspiration.",
+  "question_text": "A 72-year-old man is evaluated in the hospital for acute kidney injury. He was admitted 4 days ago for decompensated heart failure. On admission, intravenous furosemide was initiated. On hospital day 3, intravenous chlorothiazide was administered. Today, both medications are withheld. Medical history is significant for hypertension, hyperlipidemia, and heart failure with reduced ejection fraction. Other medications are carvedilol, hydralazine, isosorbide dinitrate, atorvastatin, and empagliflozin.On physical examination, blood pressure is 110/70 mm Hg, pulse rate is 98/min, respiration rate is 20/min, and oxygen saturation is 96% with the patient breathing 2 L/min of oxygen by nasal cannula. Jugular venous pressure is elevated. Cardiopulmonary examination reveals an S3 gallop and crackles over the lower lung fields. There is pitting edema of the lower extremities.Laboratory studies on hospital day 4:B-type natriuretic peptide level1300 pg/mL (1300 ng/L)Creatinine1.9 mg/dL (168.0 µmol/L)HHospital day 21.5 mg/dL (132.6 µmol/L)H3 months ago0.9 mg/dL (79.6 µmol/L)Sodium128 mEq/L (128 mmol/L)LPotassium5.2 mEq/L (5.2 mmol/L)HUrinalysisSpecific gravity 1.030; 1+ proteinUrine output800 mL/24 hUrine sodium<20 mEq/L (20 mmol/L)LToday, an echocardiogram shows a left ventricular ejection fraction of 35% and less than 50% collapse of the inferior vena cava with inspiration.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has acute kidney injury (AKI) due to cardiorenal syndrome (CRS), and the most appropriate management is to restart furosemide and chlorothiazide at higher doses (Option C). CRS is a disorder of the heart and kidneys whereby acute or long-term dysfunction in one organ induces acute or long-term dysfunction in the other. CRS is characterized by the following triad:Concomitant decreased kidney functionDiuretic-resistant heart failure with congestionWorsening kidney function during heart failure therapyCRS is seen primarily in heart failure with reduced ejection fraction. The decreased kidney function in CRS is thought to be caused by neurohumoral activation, venous congestion and increased renal venous pressure, reduced renal perfusion, and right ventricular dysfunction. Management is challenging because treatment directed toward improving cardiac function can sometimes worsen kidney function. This patient has acute heart failure, as evidenced by signs of volume overload on physical examination and less than 50% collapse of the inferior vena cava with inspiration, a surrogate for elevated central venous pressure. This patient's urine sodium is very low, which signifies renal sodium retention, diuretic resistance, and the need for continued diuresis. Therefore, intravenous diuretics should be restarted at a higher dose than previously for more effective diuresis.Infusing 0.9% saline (Option A) would be indicated if prerenal azotemia from volume depletion were suspected. This patient's low urine sodium indicates renal sodium retention owing to the activation of the renin-angiotensin-aldosterone system in the setting of acute heart failure rather than a prerenal state caused by volume depletion resulting from overdiuresis. Infusion of 0.9% saline is therefore inappropriate.Evidence does not support the use of ultrafiltration (Option B) over intensive diuretic management for patients with cardiorenal syndrome; in fact, ultrafiltration may lead to more adverse events. Additionally, intensive intravenous diuretic treatment regimen has not yet failed.This patient's increasing serum creatinine level is due to cardiorenal syndrome, and diuretic medications should be restarted at higher doses. Continuing current management by withholding furosemide and chlorothiazide (Option D) would worsen his condition.",
+  "critique_links": [],
   "key_points": [
     "High-dose intravenous diuretics may be needed to treat acute kidney injury caused by cardiorenal syndrome."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:58.610696-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies on hospital day 4:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.776360-06:00"
 }

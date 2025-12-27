@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 67-year-old man is evaluated in the hospital for acute kidney injury that developed 2 days after admission for a left hip fracture. Medical history is significant for hypertension, hyperlipidemia, heart failure with preserved ejection fraction, and benign prostatic hyperplasia. Medications are amlodipine, carvedilol, losartan, atorvastatin, empagliflozin, enoxaparin, and acetaminophen-hydrocodone.On physical examination, blood pressure is 170/60 mm Hg; other vital signs are normal. Mucosa is moist. There is no jugular venous distention. Cardiopulmonary examination is normal. There is moderate suprapubic tenderness. The left hip has decreased range of motion and pain upon internal rotation. There is no peripheral edema.",
+  "question_text": "A 67-year-old man is evaluated in the hospital for acute kidney injury that developed 2 days after admission for a left hip fracture. Medical history is significant for hypertension, hyperlipidemia, heart failure with preserved ejection fraction, and benign prostatic hyperplasia. Medications are amlodipine, carvedilol, losartan, atorvastatin, empagliflozin, enoxaparin, and acetaminophen-hydrocodone.On physical examination, blood pressure is 170/60 mm Hg; other vital signs are normal. Mucosa is moist. There is no jugular venous distention. Cardiopulmonary examination is normal. There is moderate suprapubic tenderness. The left hip has decreased range of motion and pain upon internal rotation. There is no peripheral edema.Laboratory studies:Creatine kinase20 U/LLCreatinine3.0 mg/dL (265.2 µmol/L)HHospital admission0.9 mg/dL (79.6 μmol/L)ElectrolytesSodium136 mEq/L (136 mmol/L)Potassium5.6 mEq/L (5.6 mmol/L)HChloride107 mEq/L (107 mmol/L)HBicarbonate17 mEq/L (17 mmol/L)LUrinalysisSpecific gravity 1.010; 1+ protein; no blood, leukocyte esterase, or nitrites; 0-2 erythrocytes/hpf; 1-5 leukocytes/hpf",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate diagnostic test to perform next is ultrasonography of the kidneys and bladder (Option C) to assess for a postrenal cause of acute kidney injury (AKI). Postrenal AKI should be suspected in patients with a history of benign prostatic hyperplasia (BPH), neurogenic bladder, nephrolithiasis, pelvic malignancies, previous radiation therapy, abdominal or pelvic surgeries, or retroperitoneal adenopathy. Medications, such as narcotics, can result in acute urinary retention and exacerbate urinary tract obstruction. Postrenal AKI can occur from obstruction anywhere from the renal pelvis to the external urethral meatus (). Urinary symptoms may include frequency, urgency, hesitancy, nocturia, incontinence, and incomplete voiding. Patients may report abdominal fullness or pain and have hypertension and a distended palpable bladder. In patients with postrenal AKI, normal urine output or polyuria does not exclude the possibility of obstructive uropathy. Patients with postrenal AKI usually have a bland urinary sediment. Hyperkalemia and features of distal renal tubular acidosis may also be present. Ultrasonography of the kidneys and bladder should be obtained to exclude urinary tract obstruction when the underlying cause of AKI is unclear or pretest probability is high. This patient has a history of BPH, suprapubic tenderness, and no other clear cause for AKI. He likely has postrenal AKI due to lower urinary tract obstruction from an enlarged prostate, and he should undergo ultrasonography.Kidney biopsy (Option A) may be needed in select cases of AKI to diagnose intrinsic kidney disease. This patient does not require a kidney biopsy; reversible causes of AKI, such as urinary tract obstruction, should be excluded first.Transthoracic echocardiography (Option B) would be appropriate if the underlying cause of this patient's AKI was heart failure. Although the patient has a history of heart failure and is hypertensive on examination, there are no symptoms or signs of volume overload to indicate acute heart failure.Urine myoglobin (Option D) may help evaluate for rhabdomyolysis as the cause of the AKI. However, rhabdomyolysis is unlikely in this case, as the patient does not have an elevated serum creatine kinase level. In addition, a urinalysis negative for blood indicates the absence of myoglobin.",
+  "critique": "The most appropriate diagnostic test to perform next is ultrasonography of the kidneys and bladder (Option C) to assess for a postrenal cause of acute kidney injury (AKI). Postrenal AKI should be suspected in patients with a history of benign prostatic hyperplasia (BPH), neurogenic bladder, nephrolithiasis, pelvic malignancies, previous radiation therapy, abdominal or pelvic surgeries, or retroperitoneal adenopathy. Medications, such as narcotics, can result in acute urinary retention and exacerbate urinary tract obstruction. Postrenal AKI can occur from obstruction anywhere from the renal pelvis to the external urethral meatus (Table: Nonpharmacologic Causes of Acute Kidney Injury). Urinary symptoms may include frequency, urgency, hesitancy, nocturia, incontinence, and incomplete voiding. Patients may report abdominal fullness or pain and have hypertension and a distended palpable bladder. In patients with postrenal AKI, normal urine output or polyuria does not exclude the possibility of obstructive uropathy. Patients with postrenal AKI usually have a bland urinary sediment. Hyperkalemia and features of distal renal tubular acidosis may also be present. Ultrasonography of the kidneys and bladder should be obtained to exclude urinary tract obstruction when the underlying cause of AKI is unclear or pretest probability is high. This patient has a history of BPH, suprapubic tenderness, and no other clear cause for AKI. He likely has postrenal AKI due to lower urinary tract obstruction from an enlarged prostate, and he should undergo ultrasonography.Kidney biopsy (Option A) may be needed in select cases of AKI to diagnose intrinsic kidney disease. This patient does not require a kidney biopsy; reversible causes of AKI, such as urinary tract obstruction, should be excluded first.Transthoracic echocardiography (Option B) would be appropriate if the underlying cause of this patient's AKI was heart failure. Although the patient has a history of heart failure and is hypertensive on examination, there are no symptoms or signs of volume overload to indicate acute heart failure.Urine myoglobin (Option D) may help evaluate for rhabdomyolysis as the cause of the AKI. However, rhabdomyolysis is unlikely in this case, as the patient does not have an elevated serum creatine kinase level. In addition, a urinalysis negative for blood indicates the absence of myoglobin.",
+  "critique_links": [],
   "key_points": [
     "Postrenal acute kidney injury can occur from obstruction anywhere from the renal pelvis to the external urethral meatus; diagnosis can be made by ultrasonography or noncontrast CT."
   ],
@@ -51,12 +52,44 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/nptab24027.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:58.065608-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nptab24027",
+        "file": "tables/nptab24027.html",
+        "title": "Nonpharmacologic Causes of Acute Kidney Injury",
+        "short_title": "Nonpharmacologic Causes of Acute Kidney Injury",
+        "footnotes": [
+          "AKI = acute kidney injury; BPH = benign prostatic hyperplasia; GBM = glomerular basement membrane; GI = gastrointestinal; HELLP = hemolysis, elevated liver enzymes, and low platelets; HUS = hemolytic uremic syndrome; TLS = tumor lysis syndrome; TMA = thrombotic microangiopathy; TTP = thrombotic thrombocytopenic purpura.",
+          "<sup>a</sup>See Table: Nonpharmacologic Causes of Tubulointerstitial Nephritis."
+        ],
+        "headers": [
+          "Cause",
+          "Examples",
+          "Prerenal",
+          "Intrinsic",
+          "Postrenal"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.782397-06:00"
 }

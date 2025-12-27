@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 56-year-old man is evaluated in the emergency department for jaundice. He has cirrhosis and alcohol use disorder. Medications are furosemide, spironolactone, and a multivitamin.On physical examination, temperature is 36.8 °C (98.2 °F), blood pressure is 100/62 mm Hg, pulse rate is 96/min, and respiration rate is 20/min. Sclerae are icteric. The abdomen is distended.Serum is not lipemic.",
+  "question_text": "A 56-year-old man is evaluated in the emergency department for jaundice. He has cirrhosis and alcohol use disorder. Medications are furosemide, spironolactone, and a multivitamin.On physical examination, temperature is 36.8 °C (98.2 °F), blood pressure is 100/62 mm Hg, pulse rate is 96/min, and respiration rate is 20/min. Sclerae are icteric. The abdomen is distended.Laboratory studies:Albumin2.1 g/dL (21 g/L)LTotal bilirubin16 mg/dL (273.6 µmol/L)HCreatinine1.1 mg/dL (97.2 µmol/L)ElectrolytesSodium130 mEq/L (130 mmol/L)LPotassium3.6 mEq/L (3.6 mmol/L)Chloride94 mEq/L (94 mmol/L)LBicarbonate22 mEq/L (22 mmol/L)LEthanol40 mg/dL (8.6 mmol/L)Glucose90 mg/dL (5.0 mmol/L)Total protein6.4 g/dL (64 g/L)Serum osmolality285 mOsm/kg H2OUrine osmolality284 mOsm/kg H2OUrine sodium40 mEq/L (40 mmol/L)Serum is not lipemic.",
   "question_stem": "Which of the following is the most likely cause of this patient's hyponatremia?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most likely cause of this patient's hyponatremia is lipoprotein X (Option E). Isotonic hyponatremia (pseudohyponatremia) can occur if there is an increase in proteins, as occurs in myeloma, severe hypertriglyceridemia, or, as in this patient, with elevated levels of lipoprotein X. Lipoprotein X is an abnormal vesicle produced during cholestasis and occurs with obstructive jaundice. Unlike patients with severe hypertriglyceridemia, lipoprotein X does not cause lipemic serum. Lipoprotein X is often mistaken for LDL cholesterol on laboratory analysis. Measurement of lipoprotein X requires lipoprotein electrophoresis. Plasma consists of a solid phase comprised of lipids and proteins and a water phase; sodium resides in the water phase. Substances that increase the solid phase, such as lipoprotein X, decrease the water phase and thus the amount of sodium per volume of plasma. Measuring the sodium using a point-of-care instrument, which measures sodium in the water phase, will provide the correct value and should be used in all patients with hyponatremia and a normal serum osmolality. Despite hyponatremia, this patient's serum osmolality is normal; he has isotonic hyponatremia secondary to obstructive jaundice and elevated levels of lipoprotein X.This patient's alcohol use disorder is not a likely cause of his hyponatremia (Option A). Alcohol, which moves freely between the extracellular and intracellular space, is not an effective osmole and therefore has no effect on sodium concentration.Loop diuretics such as furosemide (Option B) block the ability to concentrate the urine and are more likely to cause hypernatremia rather than hyponatremia. Furosemide is not the cause of this patient's hyponatremia.Although hypertriglyceridemia (Option C) (extremely elevated triglycerides usually >1000 mg/dL) can cause pseudohyponatremia, extremely high levels are always associated with lipemic serum, which is not seen in this patient.Cirrhosis with ascites can cause hypervolemic hypotonic hyponatremia (Option D), which is secondary to decreased effective arterial blood volume (despite total volume overload) caused by splanchnic/mesenteric vasodilation with activation of antidiuretic hormone and effectors of sodium reabsorption. In those cases, both serum osmolality and urine sodium would be low (<20 mEq/L [20 mmol/L]), neither of which is present in this patient.",
+  "critique_links": [],
   "key_points": [
     "Isotonic hyponatremia, also known as pseudohyponatremia, can be caused by elevated levels of lipoprotein X and can occur secondary to obstructive jaundice."
   ],
@@ -62,5 +63,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:13.310805-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.845944-06:00"
 }

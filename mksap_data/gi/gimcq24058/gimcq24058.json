@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 31-year-old man is evaluated for a 7-month history of rash and intermittent abdominal pain that began after he moved in with new roommates. He was diagnosed with celiac disease as a child and has avoided wheat since then.Physical examination reveals an excoriated rash with papules and blisters over the knees; other findings and vital signs are normal.Laboratory studies:Hemoglobin12.3 g/dL (123 g/L)LMean corpuscular volume72 fLLIgA tissue transglutaminase antibodies40 U/mL (normal, 0-3 U/mL)H",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in the evaluation of this patient is to ask about gluten exposure (Option A). For patients with celiac disease, monitoring includes clinical assessment of symptoms and signs, assessment of dietary adherence, and confirmation of normalized antibody levels. The most likely cause of new symptoms associated with elevated IgA tissue transglutaminase antibodies (as in this case) is surreptitious or accidental gluten exposure. Patients who share food preparation areas and containers that are exposed to wheat may be ingesting gluten accidentally. Small adjustments to food preparation practices may alleviate symptoms. Recommendations include separate food storage and preparation vessels or, if this is not possible, thoroughly wiping them down before their use. Precautions for dining out, including bringing prepared food to eat if needed, should also be undertaken. This patient has known celiac disease and now has abdominal pain and a rash that suggests dermatitis herpetiformis, which is a cutaneous manifestation of celiac disease. A discussion clarifying his adherence to a gluten-free diet and potential gluten exposure is important, including whether he shares utensils, can afford gluten-free products, prepares his own food, and dines out frequently.The patient's anemia is likely an iron deficiency anemia associated with celiac disease given the low mean corpuscular volume (MCV); a low vitamin B12 level would result in an increased MCV. In addition, although patients with celiac disease may have micronutrient deficiencies, measuring a vitamin B12 level (Option B) will not help in the immediate evaluation of this patient.HLA-DQ genetic testing (Option C) is useful for evaluating patients suspected of having celiac disease who are already avoiding wheat; the absence of alleles associated with celiac disease has a high negative predictive value. This patient already has confirmed celiac disease, and HLA-DQ testing would not advance his clinical management.If, after avoidance of gluten, the rash does not improve or his abdominal pain persists, a skin biopsy (Option D) and upper endoscopy with biopsy (Option E) could be considered. However, if these procedures were performed currently, findings on both would likely suggest celiac disease due to gluten ingestion. Clarifying the patient's avoidance of gluten is a less invasive and more appropriate initial step.",
+  "critique_links": [],
   "key_points": [
     "Monitoring of patients with celiac disease includes clinical assessment of symptoms and signs, assessment of dietary adherence, and confirmation of normalized antibody levels."
   ],
@@ -62,5 +63,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.068324-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.406308-06:00"
 }

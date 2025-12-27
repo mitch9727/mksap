@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 42-year-old man is evaluated for a 3-week history of daily fever, chills, headache, fatigue, and malaise. He reports no nausea, vomiting, abdominal pain, cough, or dyspnea. He is a health care worker and returned to the United States 2 months ago from a trip to Pakistan where he provided medical care in rural clinics. Before leaving Pakistan, he developed similar symptoms. At that time, he was evaluated and prescribed empiric malaria treatment with artemether-lumefantrine for 3 days, leading to symptom resolution in 4 days. Results of laboratory testing were pending at the time of departure to the United States.On physical examination, temperature is 38.7 °C (101.7 °F), blood pressure is 110/70 mm Hg, and pulse rate is 110/min; respiration rate is normal. Mild scleral icterus is noted. Abdominal examination reveals hepatosplenomegaly. No rash is present.Laboratory studies:Hemoglobin8 g/dL (80 g/L)LPlatelet count90,000/µL (90 × 109/L)LAlanine aminotransferase75 U/LHAspartate aminotransferase86 U/LHBilirubin, total3.1 mg/dL (53.0 µmol/L)H",
   "question_stem": "Which of the following is the most likely cause of this patient's illness?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely cause of this patient's illness is Plasmodium vivax (Option C). He received treatment for the erythrocytic, symptomatic stage of malarial infection, but he did not receive additional treatment to eradicate the liver hypnozoites that can cause relapse. P. vivax is the most common non-falciparum Plasmodium species. It is transmitted by the Aedes aegypti mosquito, and more than 80% of the infections occur in India, Pakistan, Ethiopia, and Sudan. The incubation period ranges from 9 to 14 days, after which patients develop fever, chills, headache, fatigue, and myalgia. Physical findings include jaundice and hepatosplenomegaly. Laboratory findings include anemia, thrombocytopenia, and elevated aminotransferase levels. It is necessary to treat the erythrocytic phase, which causes symptomatic disease, as well as the liver hypnozoites, which cause relapse of latent infection if untreated. Chloroquine or an artemisinin-based combination therapy (e.g., artemether-lumefantrine) is used to treat the erythrocytic phase; the treatment choice depends on the geographic area where infection was acquired. Subsequently, treatment with primaquine is recommended for antirelapse therapy. Patients should be screened for glucose-6-phosphate dehydrogenase deficiency before treatment initiation because primaquine can cause acute hemolysis if deficiency is present.Chikungunya virus (Option A) is a mosquito-borne virus that predominantly presents with severe myalgia and arthralgia. Although thrombocytopenia and elevated aminotransferase levels also occur in chikungunya, severe disease is uncommon, and illness typically resolves spontaneously in 7 to 10 days. In addition, anemia is not a major feature of chikungunya.Dengue virus (Option B) is a mosquito-borne hemorrhagic virus. Patients may present with fever, frontal headache, retro-orbital pain, and myalgia. As the fever abates, a scarlatiniform rash, which spares the palms and soles, may evolve into areas of petechiae on extensor surfaces. A few patients may develop organ dysfunction and shock. In most cases, dengue fever resolves within 1 week. This patient has been ill for several weeks with no evidence of hemorrhage or hemodynamic instability and no appearance of a rash; his clinical course is not compatible with dengue fever.Salmonella enterica serotype Typhi (Option D) is the causative agent of enteric or typhoid fever. Patients have high fever, chills, abdominal pain, nausea, and vomiting; occasionally, a rash is present with blanching 1- to 4-mm salmon-colored macules (“rose spots”). Hemolytic anemia is not a typical presentation of typhoid fever, and this patient reports no gastrointestinal symptoms.",
+  "critique_links": [],
   "key_points": [
     "Malaria treatment must address the erythrocytic phase, which causes symptomatic disease, and the liver hypnozoite phase.",
     "Treatment of the erythrocytic phase of malaria should use chloroquine or an artemisinin-based combination therapy; therapy with primaquine is recommended to eliminate liver hypnozoites."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.205594-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.344950-06:00"
 }

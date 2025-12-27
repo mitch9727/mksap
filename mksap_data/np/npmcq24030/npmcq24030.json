@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 48-year-old man is evaluated in the hospital for abnormal kidney function and hypertension. His emergency room visit was prompted by a blood pressure of 180/110 mm Hg measured at a work-based screening. He has a history of hypertension diagnosed 15 years ago, but he has not received regular medical care since that time. He has no other known medical conditions and does not take any medications.On physical examination, blood pressure is 166/102 mm Hg. Other vital signs and the remainder of the examination are normal.Kidney ultrasound shows normal-sized kidneys with increased echogenicity bilaterally.Kidney biopsy shows IgA nephropathy with little to no activity and moderate chronicity.Lisinopril is initiated.",
+  "question_text": "A 48-year-old man is evaluated in the hospital for abnormal kidney function and hypertension. His emergency room visit was prompted by a blood pressure of 180/110 mm Hg measured at a work-based screening. He has a history of hypertension diagnosed 15 years ago, but he has not received regular medical care since that time. He has no other known medical conditions and does not take any medications.On physical examination, blood pressure is 166/102 mm Hg. Other vital signs and the remainder of the examination are normal.Laboratory studies: C3 complementNormal C4 complementNormalCreatinine2.5 mg/dL (221 µmol/L)HUrinalysis3+ blood, 2+ proteinUrine protein-creatinine ratio1200 mg/gHKidney ultrasound shows normal-sized kidneys with increased echogenicity bilaterally.Kidney biopsy shows IgA nephropathy with little to no activity and moderate chronicity.Lisinopril is initiated.",
   "question_stem": "Which of the following is the most appropriate additional treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate additional treatment for this patient with advanced IgA nephropathy (IgAN) is a sodium-glucose cotransporter 2 (SGLT2) inhibitor, such as dapagliflozin (Option B). This patient has advanced IgAN, as evidenced by a kidney biopsy showing minimal activity and moderate to severe chronicity; these findings corroborate with laboratory findings (serum creatinine level of 2.5 mg/dL [221 µmol/L]) and the increased echogenicity on kidney ultrasonography. All patients with IgAN and proteinuria should receive antiproteinuric therapy with an ACE inhibitor or angiotensin receptor blocker as well as an SGLT2 inhibitor. In the DAPA-CKD trial, dapagliflozin reduced the risk of kidney failure and prolonged survival in participants with chronic kidney disease with and without type 2 diabetes mellitus, including those with IgAN. In patients who do not respond to 3 to 6 months of conservative therapy, immunosuppressive treatment is considered. However, treatment of advanced-stage IgAN is conservative and nonimmunomodulatory because immunosuppressive regimens are unlikely to be effective and may lead to adverse events.Cyclophosphamide (Option A) is generally reserved for rapidly progressive glomerulonephritis variants of IgAN and would not be used in this setting of chronic, advanced disease.A glucocorticoid, such as prednisone (Option D), is considered for patients who have not responded to supportive care. In patients who are unable to use glucocorticoids, mycophenolate mofetil (Option C) can be substituted. However, neither glucocorticoids nor mycophenolate mofetil is recommended in patients who have advanced disease because in this patient's case, as they are unlikely to be of benefit.",
+  "critique_links": [],
   "key_points": [
     "Treatment of advanced-stage IgA nephropathy is conservative and includes blockade of the renin-angiotensin-aldosterone system with the use of an ACE inhibitor or angiotensin receptor blocker as well as a sodium-glucose cotransporter 2 inhibitor."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:39.559455-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.675965-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 68-year-old man is evaluated in the emergency department for headaches and blurred vision of 1 week's duration. He also reports progressive fatigue of 2 months' duration. Medical history is significant for hypertension, and his only medication is amlodipine.On physical examination, blood pressure is 150/90 mm Hg and pulse rate is 105/min. Funduscopic examination reveals retinal hemorrhages. Generalized lymphadenopathy and hepatosplenomegaly are present. Neurologic examination is normal.Laboratory studies:Hemoglobin10.5 g/dL (105 g/L)LLeukocyte count7200/μL (7.2 × 109/L)Platelet count200,000/μL (200 × 109/L)Albumin2.9 g/dL (29 g/L)LCalcium9.2 mg/dL (2.3 mmol/L)Creatinine0.8 mg/dL (70.7 μmol/L)IgG750 mg/dL (7.5 g/L)IgA120 mg/dL (1.2 g/L)IgM7500 mg/dL (75 g/L)HSerum protein electrophoresis and immunofixation show an IgM kappa monoclonal protein spike.CT scan reveals diffuse lymphadenopathy. MRI of the brain is normal.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient with hyperviscosity syndrome and Waldenström macroglobulinemia (WM) is therapeutic apheresis (Option D) with the purpose of removing excess IgM. WM is a plasma cell dyscrasia characterized by an IgM monoclonal gammopathy and clinical features suggestive of non-Hodgkin lymphoma. WM may be indolent and asymptomatic or associated with classic “B symptoms” such as fever, night sweats, and weight loss, as well as symptoms of cytopenias. Tissue infiltration may cause hepatosplenomegaly, lymphadenopathy, and gastrointestinal dysfunction. Peripheral sensorimotor neuropathy is seen in approximately 20% of patients. Unlike multiple myeloma, kidney injury is uncommon because the IgM monoclonal protein does not usually cause tubular damage. However, very high levels of the circulating IgM (typically >4000 mg/dL [40 g/L]) can lead to increased serum viscosity and hyperviscosity syndrome. Symptoms include headache, delirium, altered vision and hearing, and ataxia. Mucosal bleeding from acquired von Willebrand syndrome and dysfibrinogenemia may also occur. Serum viscosity should be directly measured, although treatment is initiated based on symptoms. Asymptomatic patients may not require immediate therapy. Symptomatic patients with hyperviscosity syndrome require urgent apheresis to remove the IgM paraprotein and reduce serum viscosity; treatment should not be delayed while awaiting results of confirmatory serum viscosity testing. This patient has headaches and blurred vision in the setting of a very high IgM kappa monoclonal protein spike, representing likely hyperviscosity syndrome. Therapeutic apheresis should be initiated immediately.Although patients with central nervous system thrombosis (e.g., cerebral venous thrombosis) may require anticoagulation (Option A), it has no role in the management of hyperviscosity syndrome. Patients with hyperviscosity syndrome also have an increased bleeding risk, as the excess monoclonal immunoglobulin inhibits platelet and fibrinogen function, and anticoagulation would exacerbate this risk.Lumbar puncture (Option B) would be indicated if a central nervous system infection or leptomeningeal carcinomatosis were suspected, but it plays no role in the diagnosis or management of hyperviscosity syndrome. In addition, the altered hemostasis caused by the IgM tetramer increases the risk of bleeding complications with lumbar puncture.Lymph node biopsy (Option C) would not be the most appropriate immediate management. After hyperviscosity has been successfully managed, lymph node biopsy may be considered. This patient has symptomatic hyperviscosity syndrome, and urgent therapeutic apheresis is necessary.",
+  "critique_links": [],
   "key_points": [
     "Hyperviscosity syndrome in Waldenström macroglobulinemia is characterized by variable symptoms, including headache, changes in vision and hearing, and ataxia; mucosal bleeding from abnormal platelet and fibrinogen function may also occur.",
     "Symptomatic patients with hyperviscosity syndrome require urgent therapeutic apheresis to remove the IgM paraprotein and reduce serum viscosity."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:44:24.284767-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.825703-06:00"
 }

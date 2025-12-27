@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 54-year-old woman is evaluated during a new patient visit for osteoporosis. Medical conditions include stage G3a chronic kidney disease, hypertension, and osteoporosis, which was diagnosed 2 years ago following a wrist fracture. At that time, alendronate was started. A recent dual-energy x-ray absorptiometry scan showed improvement in bone density. Her other medications are losartan, dapagliflozin, and vitamin D3. She exercises regularly.Physical examination findings, including vital signs, are normal.",
+  "question_text": "A 54-year-old woman is evaluated during a new patient visit for osteoporosis. Medical conditions include stage G3a chronic kidney disease, hypertension, and osteoporosis, which was diagnosed 2 years ago following a wrist fracture. At that time, alendronate was started. A recent dual-energy x-ray absorptiometry scan showed improvement in bone density. Her other medications are losartan, dapagliflozin, and vitamin D3. She exercises regularly.Physical examination findings, including vital signs, are normal.Laboratory studies:Calcium8.9 mg/dL (2.2 mmol/L)Creatinine1.3 mg/dL (114.9 µmol/L)Phosphorus4.6 mg/dL (1.49 mmol/L)HParathyroid hormone85 pg/mL (85 ng/L)H25-Hydroxyvitamin D42 ng/mL (105 nmol/L)Estimated glomerular filtration rate49 mL/min/1.73 m2",
   "question_stem": "Which of the following is the most appropriate management for this patient's osteoporosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "In this patient, it is appropriate to continue the current management (Option D). Kidney Disease: Improving Global Outcomes guidelines suggest bone mineral density testing to assess fracture risk in patients with chronic kidney disease (CKD) stages G3a to G5 who have evidence of CKD-mineral and bone disorder (CKD-MBD) and/or risk factors for osteoporosis if testing results will affect treatment decisions for patients. Treatment for osteoporosis in patients with CKD stages G1 to G3 with an estimated glomerular filtration rate >30 mL/min/1.73 m2 is the same as for the general population, including use of bisphosphonates. This postmenopausal patient with stage G3a CKD has osteoporosis confirmed by dual-energy x-ray absorptiometry (DEXA). She is tolerating and responding to bisphosphonate treatment appropriately, and a change in management is not currently needed.Addition of calcitriol (Option A), which increases gastrointestinal absorption of calcium and phosphate, is not indicated. Although this patient has secondary hyperparathyroidism, her serum calcium and phosphate levels remain in target range, with only mild elevation in parathyroid hormone (PTH) level. Initiation of activated vitamin D agents is reserved for patients with more advanced stage G4 to G5 CKD with increasing PTH levels or CKD requiring dialysis; risk for hypercalcemia and adverse vascular calcifications are associated with these agents.Calcium-sensing receptor agonists such as cinacalcet (Option B) are approved by the FDA for patients with CKD requiring dialysis who have elevated PTH levels despite phosphate control and activated vitamin D use. Cinacalcet would not be indicated for this patient with stage G3a CKD.Denosumab, a monoclonal antibody that inhibits osteoclast activation, is generally considered a second-line agent for postmenopausal women and men with primary osteoporosis who have contraindications to or experience adverse effects from bisphosphonate therapy. Because this patient's DEXA scan shows improvement and she is tolerating alendronate, there is no indication to switch to denosumab (Option C).",
+  "critique_links": [],
   "key_points": [
     "Treatment for osteoporosis in patients with chronic kidney disease stages G1 to G3 is the same as for the general population, including the use of bisphosphonates."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:10.036342-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.837536-06:00"
 }

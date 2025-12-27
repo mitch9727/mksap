@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 48-year-old man is evaluated for 3 months of persistent mild discomfort and all-day stiffness in his metacarpophalangeal (MCP) joints. Rheumatoid arthritis was diagnosed 4 years ago; at that time his laboratory test results were positive for both rheumatoid factor and anti–cyclic citrullinated peptide antibodies. His current regimen of methotrexate, hydroxychloroquine, and sulfasalazine was initiated 3 years ago and substantially improved his initial joint pain, swelling, and morning stiffness. He also takes folic acid daily.On physical examination, vital signs are normal. Mild soft-tissue enlargement of the second through fourth MCP joints, with minimal tenderness, is seen bilaterally. The MCPs and other joints are not warm or erythematous.Complete blood count, serum chemistries, and liver function test results are normal. Results of hepatitis B and C virus serologic tests and interferon-gamma release assay are negative.Radiographs of the hands reveal marginal erosions at the first and second MCP joints bilaterally, unchanged from previous studies.",
+  "question_text": "A 48-year-old man is evaluated for 3 months of persistent mild discomfort and all-day stiffness in his metacarpophalangeal (MCP) joints. Rheumatoid arthritis was diagnosed 4 years ago; at that time his laboratory test results were positive for both rheumatoid factor and anti–cyclic citrullinated peptide antibodies. His current regimen of methotrexate, hydroxychloroquine, and sulfasalazine was initiated 3 years ago and substantially improved his initial joint pain, swelling, and morning stiffness. He also takes folic acid daily.On physical examination, vital signs are normal. Mild soft-tissue enlargement of the second through fourth MCP joints, with minimal tenderness, is seen bilaterally. The MCPs and other joints are not warm or erythematous.Laboratory studies:Erythrocyte sedimentation rate22 mm/hHC-reactive protein1 mg/dL (10 mg/L)HComplete blood count, serum chemistries, and liver function test results are normal. Results of hepatitis B and C virus serologic tests and interferon-gamma release assay are negative.Radiographs of the hands reveal marginal erosions at the first and second MCP joints bilaterally, unchanged from previous studies.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management of this patient with rheumatoid arthritis (RA) and joint symptoms despite treatment is to perform musculoskeletal ultrasonography of the metacarpophalangeal joints (Option C). Before advancing to additional treatments with potential adverse effects, it is important to determine whether symptoms represent active RA or persistent residual pain from chronic damage. Musculoskeletal ultrasonography can be useful to distinguish chronic changes of RA from active synovitis, which can be most characteristically identified using power Doppler technology as increased vascularity and blood flow. The presence of active synovitis on ultrasound would support, and the absence of synovitis would argue against, increasing therapy. Other features that might support the presence of active synovitis include morning stiffness and elevated inflammatory markers. This patient with established, long-standing RA has mild pain and stiffness that appears noninflammatory (i.e., not restricted to the morning). The patient's erythrocyte sedimentation rate and C-reactive protein level are only mildly elevated and nonspecific. His joint examination, with only mild swelling and tenderness, could be consistent with active synovitis or residual damage. Because his radiographs are unchanged, they do not provide insight into disease activity. Thus, ultrasonography should be performed before further treatment is considered.Initiating infliximab (Option A), an anti–tumor necrosis factor antibody, would be warranted after failure of standard therapy (e.g., with methotrexate, hydroxychloroquine, and sulfasalazine, as in this patient). However, infliximab is expensive, is immunosuppressive, and raises the risk for infection. It should not be started in patients such as this one, whose disease activity is uncertain.Prednisone (Option B) has the potential to alleviate rheumatoid synovitis and may reduce disease progression. However, it has many adverse effects and should be used at the lowest effective dose for the shortest possible time, typically as a bridge to safer long-term therapy. Initiating prednisone is inadvisable when disease activity is uncertain.Anti–cyclic citrullinated peptide (CCP) antibodies are highly specific for RA. However, this patient's diagnosis of RA is well established, and anti-CCP antibodies do not fluctuate in a manner that reflects disease activity. Thus, remeasurement of anti-CCP antibodies (Option D) is of no benefit.Even if the patient has no disease activity, his musculoskeletal pain must still be addressed. Additional evaluation is needed to determine the next approach, and no change in management (Option E) is inappropriate.",
+  "critique_links": [],
   "key_points": [
     "Musculoskeletal ultrasonography can be useful to distinguish chronic changes of rheumatoid arthritis from active synovitis, which can be identified using power Doppler technology as increased vascularity and blood flow."
   ],
@@ -62,5 +63,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:47:14.421242-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.781021-06:00"
 }

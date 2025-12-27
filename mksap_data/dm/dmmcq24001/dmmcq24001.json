@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 64-year-old man is evaluated for a lesion on the neck that began developing 6 months ago, has slowly enlarged, and occasionally bleeds. Medical history is otherwise unremarkable, and he takes no medications.On physical examination, vital signs are normal.Skin findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is pigmented basal cell carcinoma (Option A). Basal cell carcinoma is the most common type of skin cancer and arises from the basal layer of the epidermis. It tends to spread locally and can cause significant local tissue destruction. The most common presentation is with a new bleeding or nonhealing papule. There are different histologic subtypes, including superficial, pigmented, sclerotic, and nodular, that result in varying clinical appearance. Pigmented basal cell carcinoma is characterized by shiny, translucent blue-black papules, nodules, or plaques with blue-black pigmented speckles within the lesion. It often has a rolled border and overlying telangiectasias. It is more common in patients with darker skin. Pigmented basal cell carcinoma typically increases in size gradually over several months to years and can bleed easily when irritated. The diagnosis is confirmed histologically with a shave or punch biopsy. This patient has translucent blue-black nodule with a rolled border and overlying telangiectasia, consistent with a pigmented basal cell carcinoma.A dermatofibroma (Option B) is a benign lesion most commonly found on the extremities. It often presents as a firm, brown papule with a classic “dimple sign” when the lesion is pinched. The clinical findings of a dermatofibroma are absent in this patient's lesion.Keratoacanthoma (Option C) is believed to be a variant of squamous cell carcinoma that presents as a pink nodule with a keratin-filled crater, giving it a “volcaniform” appearance. It typically grows rapidly over 4 to 6 weeks. This patient's lesion grew slowly over 6 months and lacks the keratin-filled crater and thus is not consistent with keratoacanthoma.Lentigo maligna (Option D) is a subtype of malignant melanoma that occurs in older patients. It presents as an ill-defined, asymmetric patch, unlike the translucent nodule seen in this patient. Pigmented basal cell carcinomas share some features with melanoma, such as irregularity and pigmentation, but the clinical findings in this patient are not characteristic of lentigo maligna.Seborrheic keratosis (Option E) is a common benign neoplasm seen in older patients that typically presents as a tan to black “stuck-on” papule, most commonly on the trunk. The classic “stuck-on” appearance of a seborrheic keratosis is not present in this patient's lesion, and seborrheic keratosis is not a likely diagnosis.",
+  "critique_links": [],
   "key_points": [
     "Pigmented basal cell carcinoma, a subtype of basal cell carcinoma, is characterized by shiny, translucent blue-black papules, nodules, or plaques with blue-black pigmented speckles within the lesion."
   ],
@@ -56,9 +57,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24200.9fb35459629a132362cc2dbc4f72fd19.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.687900-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24200",
+        "file": "figures/dmfig24200.9fb35459629a132362cc2dbc4f72fd19.jpg",
+        "title": "Pigmented Basal Cell Carcinoma",
+        "short_title": "stem Pigmented Basal Cell Carcinoma",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 851,
+        "height": 940
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.201914-06:00"
 }

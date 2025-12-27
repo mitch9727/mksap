@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 55-year-old man is evaluated in the emergency department for a 14-hour history of acute-onset epigastric pain radiating to the back. He drinks six cans of beer several times weekly.On physical examination, temperature is 37.5 °C (99.5 °F), blood pressure is 105/64 mm Hg, pulse rate is 117/min, and respiration rate is 18/min. Oxygen saturation is 95% with the patient breathing ambient air. Abdominal palpation elicits epigastric pain without rebound or guarding.",
+  "question_text": "A 55-year-old man is evaluated in the emergency department for a 14-hour history of acute-onset epigastric pain radiating to the back. He drinks six cans of beer several times weekly.On physical examination, temperature is 37.5 °C (99.5 °F), blood pressure is 105/64 mm Hg, pulse rate is 117/min, and respiration rate is 18/min. Oxygen saturation is 95% with the patient breathing ambient air. Abdominal palpation elicits epigastric pain without rebound or guarding.Laboratory studies:Hemoglobin15 g/dL (150 g/L)Leukocyte count15,300/μL (15.3 × 109/L)HAlanine aminotransferase90 U/LHAspartate aminotransferase155 U/LHBilirubinTotal0.8 mg/dL (13.7 μmol/L)Direct0.2 mg/dL (3.4 μmol/L)Blood urea nitrogen12 mg/dL (4.3 mmol/L)Creatinine1.0 mg/dL (88.4 μmol/L)Lipase108 U/LH",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate next step in management is abdominal CT (Option A) to evaluate for acute pancreatitis. Acute pancreatitis is an inflammatory process involving the pancreas and extrapancreatic organs. The most common causes are biliary disease, including gallstones, biliary sludge, and biliary crystals (microlithiasis), and alcohol use (see ). A diagnosis of acute pancreatitis requires at least two of the following three criteria:Acute-onset abdominal pain characteristic of pancreatitisSerum amylase or lipase levels at least three times the upper limit of normalCharacteristic CT or MRI findings (Figure: Acute pancreatitis), which may include peri-pancreatic edema, inflammation, and/or fat strandingThis patient meets the first criterion, but his lipase level of 108 U/L is less than twice the upper limit of normal. His serum aspartate aminotransferase level (155 U/L) is greater than his alanine aminotransferase (ALT) level (90 U/L), suggesting alcohol-associated liver disease (especially considering his alcohol use). In patients with pancreatitis due to gallstone disease, an ALT level greater than 150 U/L and elevations in bilirubin level are suggestive. Although CT is less useful for assessing the biliary system than transabdominal ultrasonography, it has higher sensitivity for diagnosing acute pancreatitis. In this patient, the diagnosis of acute pancreatitis must be confirmed, and CT should be pursued.Aggressive fluid resuscitation (Option B) is not recommended for acute pancreatitis. Previously, an aggressive treatment strategy with 250 to 500 mL/h of lactated Ringer solution was recommended. However, trials have demonstrated that a more moderate strategy of fluid resuscitation may avoid adverse outcomes, such as fluid overload.Intravenous antibiotics (Option C) are not warranted in acute pancreatitis unless there is concern for extrapancreatic infection, such as ascending cholangitis, bacteremia, urinary tract infection, or pneumonia. In addition, use of prophylactic antibiotics in patients with sterile pancreatic necrosis to prevent infected necrosis is not recommended. This patient does not have signs of infection and does not require antibiotics.Transabdominal ultrasonography (Option D) is less sensitive than CT in diagnosing pancreatitis because up to 35% of patients may have bowel gas that inhibits ultrasonographic visualization of the pancreas. However, once a clinical diagnosis of acute pancreatitis has been made, the cause should be sought. Transabdominal ultrasonography is recommended after pancreatitis has been diagnosed to assess for gallstones and biliary duct dilation.",
+  "critique": "The most appropriate next step in management is abdominal CT (Option A) to evaluate for acute pancreatitis. Acute pancreatitis is an inflammatory process involving the pancreas and extrapancreatic organs. The most common causes are biliary disease, including gallstones, biliary sludge, and biliary crystals (microlithiasis), and alcohol use (see Table: Causes of Acute Pancreatitis). A diagnosis of acute pancreatitis requires at least two of the following three criteria:Acute-onset abdominal pain characteristic of pancreatitisSerum amylase or lipase levels at least three times the upper limit of normalCharacteristic CT or MRI findings (Figure: Acute pancreatitis), which may include peri-pancreatic edema, inflammation, and/or fat strandingThis patient meets the first criterion, but his lipase level of 108 U/L is less than twice the upper limit of normal. His serum aspartate aminotransferase level (155 U/L) is greater than his alanine aminotransferase (ALT) level (90 U/L), suggesting alcohol-associated liver disease (especially considering his alcohol use). In patients with pancreatitis due to gallstone disease, an ALT level greater than 150 U/L and elevations in bilirubin level are suggestive. Although CT is less useful for assessing the biliary system than transabdominal ultrasonography, it has higher sensitivity for diagnosing acute pancreatitis. In this patient, the diagnosis of acute pancreatitis must be confirmed, and CT should be pursued.Aggressive fluid resuscitation (Option B) is not recommended for acute pancreatitis. Previously, an aggressive treatment strategy with 250 to 500 mL/h of lactated Ringer solution was recommended. However, trials have demonstrated that a more moderate strategy of fluid resuscitation may avoid adverse outcomes, such as fluid overload.Intravenous antibiotics (Option C) are not warranted in acute pancreatitis unless there is concern for extrapancreatic infection, such as ascending cholangitis, bacteremia, urinary tract infection, or pneumonia. In addition, use of prophylactic antibiotics in patients with sterile pancreatic necrosis to prevent infected necrosis is not recommended. This patient does not have signs of infection and does not require antibiotics.Transabdominal ultrasonography (Option D) is less sensitive than CT in diagnosing pancreatitis because up to 35% of patients may have bowel gas that inhibits ultrasonographic visualization of the pancreas. However, once a clinical diagnosis of acute pancreatitis has been made, the cause should be sought. Transabdominal ultrasonography is recommended after pancreatitis has been diagnosed to assess for gallstones and biliary duct dilation.",
+  "critique_links": [],
   "key_points": [
     "The diagnosis of acute pancreatitis requires at least two of the following: acute-onset abdominal pain characteristic of pancreatitis; serum amylase or lipase levels at least two to three times the upper limit of normal; and characteristic CT or MRI findings, which may include peri-pancreatic edema, inflammation, and/or fat stranding."
   ],
@@ -51,12 +52,41 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/gitab24017.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:30.881393-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "gitab24017",
+        "file": "tables/gitab24017.html",
+        "title": "Causes of Acute Pancreatitis",
+        "short_title": "Causes of Acute Pancreatitis",
+        "footnotes": [
+          "<sup>a</sup>Multiple medications have been linked to acute pancreatitis. A partial list of other suspect medications includes metronidazole, pentamidine, stibogluconate, tetracycline, sulfasalazine, l-asparaginase, valproic acid, sulindac, salicylates, estrogen, and calcium."
+        ],
+        "headers": [
+          "Common",
+          "Occasional",
+          "Rare"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.303318-06:00"
 }

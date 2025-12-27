@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 28-year-old woman is evaluated for dry eyes and mouth that have lasted for several months. She is found to have hypokalemia. She has a history of irritable bowel syndrome with predominant constipation. Medications are artificial tears, polyethylene glycol, and an oral contraceptive.On physical examination, vital signs are normal. There is no conjunctival injection. No dental decay or oral lesions are present, but the oral mucosa is dry. The remainder of the examination is unremarkable.Laboratory studies:Creatinine0.8 mg/dL (70.7 µmol/L)Electrolytes:Sodium138 mEq/L (138 mmol/L)Potassium3.2 mEq/L (3.2 mmol/L)LChloride112 mEq/L (112 mmol/L)HBicarbonate18 mEq/L (18 mmol/L)LUrinalysispH 7.0; no blood, glucose, protein, erythrocytes, or leukocytesUrine potassium-creatinine ratio20 mEq/g",
   "question_stem": "Which of the following is the most likely cause of this patient's hypokalemia?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Type 1 (hypokalemic distal) renal tubular acidosis (RTA) is the most likely cause of this patient's hypokalemia (Option D). The cause of hypokalemia can often be determined by history and laboratory evaluation. Most cases of chronic hypokalemia are due to increased excretion of potassium, related to either renal or gastrointestinal losses. A concomitant acid-base disorder may provide a diagnostic clue (see Figure: Classification of the Causes of Hypokalemia). This patient has a metabolic acidosis with a normal anion gap of 8.0 mEq/L (8.0 mmol/L). Causes of a hypokalemic normal anion gap metabolic acidosis include diarrhea (with or without laxative use), or type 1 (distal) or 2 (proximal) RTA. A spot urine potassium-creatinine ratio can be used to determine whether potassium losses stem from gastrointestinal or renal losses; a ratio <13 mEq/g is consistent with gastrointestinal potassium losses whereas higher values are consistent with renal losses. This patient's laboratory findings are suggestive of type 1 RTA, which results from impaired excretion of hydrogen ions. Patients with type 1 RTA cannot excrete hydrogen ions and, therefore, are unable to acidify the urine below a pH of 5.5, even after an acid load. This patient's history of dry eyes and mouth suggests Sjögren disease, which is a cause of type 1 RTA.Hyperaldosteronism (Option A) is associated with hypokalemia, metabolic alkalosis, and hypertension. This patient does not have hypertension or metabolic alkalosis, so hyperaldosteronism is unlikely.Laxative use (Option B) and related diarrhea can cause hypokalemia and a hyperchloremic metabolic acidosis owing to loss of stool, which is rich in bicarbonate potassium. However, the urine potassium-creatinine ratio would be <13 mEq/g.Surreptitious vomiting (Option C) would be accompanied by a metabolic alkalosis related to the loss of hydrogen ions in gastric secretions. This patient has a metabolic acidosis, which excludes vomiting as an explanation for her hypokalemia.",
+  "critique_links": [],
   "key_points": [
     "Hypokalemia with a normal anion gap metabolic acidosis is due to lower gastrointestinal losses (such as that caused by diarrhea) or type 1 (distal) or type 2 (proximal) renal tubular acidosis.",
     "A spot urine potassium-creatinine ratio can be used to distinguish between renal and extrarenal causes of total-body potassium depletion; a value <13 mEq/g suggests a nonrenal origin."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:48:56.286739-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.553309-06:00"
 }

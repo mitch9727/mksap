@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old patient is evaluated for a 2-week history of nocturnal fever with drenching sweats, malaise, and nonproductive cough. They have generalized arthralgia of the small and large joints of the arms and legs. Over-the-counter ibuprofen and acetaminophen have not improved their symptoms.On physical examination, temperature is 37.8 °C (100.0 °F) and blood pressure is 110/80 mm Hg. They ambulate with a modest limp. The patient has an intermittent cough, but heart and lung examinations are otherwise unremarkable. There is mild to moderate synovitis of both ankles. Skin findings are shown; the lesions are tender.Chest radiograph reveals bilateral hilar adenopathy.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is sarcoidosis (Option C). Sarcoidosis is an inflammatory disease characterized by granuloma formation, which can affect any organ. Most commonly, affected persons present with pulmonary symptoms, including cough and shortness of breath. Joint symptoms, including arthralgia and arthritis, are observed in approximately 15% of persons. One third of patients with sarcoidosis have cutaneous evidence of disease. Erythema nodosum, characterized by red, tender nodules over the shins, may be observed in association with cough, fever, arthralgia/arthritis, and malaise. A subtype of sarcoidosis, known as Löfgren syndrome, consists of the triad of hilar adenopathy, joint symptoms (particularly ankle joint arthralgia/arthritis), and erythema nodosum. The diagnosis of sarcoidosis is typically confirmed through tissue biopsy specimens showing noncaseating granulomas. However, the diagnostic specificity for sarcoidosis is 95% when all three components of Löfgren syndrome are present, precluding the need for biopsy in these patients. Löfgren syndrome has a good prognosis, with usual disease remission within 2 to 16 weeks. Treatment is supportive, with a focus on symptom management; NSAIDs are typically used. The classic Löfgren triad of hilar adenopathy, arthritis, and erythema nodosum in this patient strongly supports the diagnosis of sarcoidosis.Polyarteritis nodosa (Option A) is a rare necrotizing medium-vessel vasculitis. It typically affects the skin, peripheral nervous system, gastrointestinal tract, and kidneys. Although it can cause red tender nodules in association with fever and polyarthralgia, cough and lung involvement, as seen in this patient, are an uncharacteristic organ system manifestation.Pyoderma gangrenosum (Option B) typically presents with an exquisitely tender papule, pustule, or nodule that rapidly develops into an exudative ulcer with undermined and violaceous borders. It is a common dermatologic manifestation of inflammatory bowel disease. There is no evidence of skin ulceration in this case. Furthermore, this patient does not have abdominal pain or gastrointestinal involvement to suggest inflammatory bowel disease.Sweet syndrome, or acute febrile neutropenia dermatosis (Option D), presents with painful, edematous, and erythematous papules, plaques, or nodules. In addition to the dermatologic manifestations, patients typically have high fevers, malaise, and muscle or joint pain. Pulmonary manifestations are rare. It is typically observed with underlying myeloproliferative disorders, inflammatory bowel disease, autoimmune diseases, and drug exposures, none of which are present in this patient.",
+  "critique_links": [],
   "key_points": [
     "Löfgren syndrome is a subset of sarcoidosis consisting of the triad of hilar adenopathy, joint symptoms (particularly ankle joint arthralgia/arthritis), and erythema nodosum."
   ],
@@ -57,5 +58,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:46:52.051745-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "rmfig24201",
+        "file": "figures/rmfig24201.6b6f84acfde32ce43f801ad22471d133.jpg",
+        "title": "Erythema Nodosum in a Patient With Sarcoidosis",
+        "short_title": "stem Erythema Nodosum in Sarcoidosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 375
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.675184-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 45-year-old man is evaluated for a 1-week history of epigastric abdominal pain radiating to the back. He has a 10-year history of ulcerative colitis that is well-controlled with infliximab, and he had two earlier emergency department visits for pancreatitis. He drinks two to three alcoholic beverages weekly.On physical examination, vital signs are normal. He has tenderness to palpation of his epigastric region but no rebound or guarding.A CT scan of the abdomen shows a sausage-shaped pancreas and no masses. The pancreatic duct is not visualized.",
+  "question_text": "A 45-year-old man is evaluated for a 1-week history of epigastric abdominal pain radiating to the back. He has a 10-year history of ulcerative colitis that is well-controlled with infliximab, and he had two earlier emergency department visits for pancreatitis. He drinks two to three alcoholic beverages weekly.On physical examination, vital signs are normal. He has tenderness to palpation of his epigastric region but no rebound or guarding.Laboratory studies:Total bilirubin2.1 mg/dL (35.9 μmol/L)HIgG481 mg/dL (0.81 g/L) (normal, ≤135 mg/dL)Lipase432 U/LHA CT scan of the abdomen shows a sausage-shaped pancreas and no masses. The pancreatic duct is not visualized.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -43,7 +43,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most likely diagnosis is type 2 autoimmune pancreatitis (Option E). Type 2 autoimmune pancreatitis is limited to the pancreas and is not associated with elevations in serum IgG4 level. It can also be associated with inflammatory bowel disease, as in this patient. Patients with autoimmune pancreatitis may present with epigastric abdominal pain or obstructive jaundice. Imaging results in patients with autoimmune pancreatitis differ from those in patients with acute pancreatitis due to other causes. In autoimmune pancreatitis, the pancreatic parenchyma is swollen, with a classic “sausage-shaped” appearance (). In addition, the pancreatic duct may be narrowed or poorly visualized on imaging. Pathologic results typically show idiopathic duct-centric neutrophil infiltration and few IgG4-positive cells in the pancreas. This patient has imaging results suggesting autoimmune pancreatitis, normal IgG4 levels, and a history of ulcerative colitis; the most likely diagnosis is type 2 autoimmune pancreatitis.Alcohol-associated pancreatitis (Option A) is not suggested in this patient because he does not report a significant alcohol use history. Persons who consume more than five drinks per day (or 35 drinks per week) may be more susceptible to alcohol-associated pancreatitis.In patients with chronic pancreatitis (Option B), imaging may show parenchymal atrophy, a dilated pancreatic duct, and calcifications. This patient's imaging findings are not consistent with chronic pancreatitis.For patients presenting with jaundice and a pancreatic mass, pancreatic cancer (Option C) must be included in the differential diagnosis. However, this patient does not present with a mass or jaundice, and pancreatic cancer is less likely.Type 1 autoimmune pancreatitis (Option D) is characterized by elevations of IgG4-positive cells in the pancreatic tissue and elevated serum IgG4 levels. Some patients may also present with IgG4-related retroperitoneal fibrosis, sclerosing cholangitis, or sclerosing sialadenitis. This patient's serum IgG4 levels are normal; therefore, type 2 autoimmune pancreatitis is more likely.",
+  "critique": "The most likely diagnosis is type 2 autoimmune pancreatitis (Option E). Type 2 autoimmune pancreatitis is limited to the pancreas and is not associated with elevations in serum IgG4 level. It can also be associated with inflammatory bowel disease, as in this patient. Patients with autoimmune pancreatitis may present with epigastric abdominal pain or obstructive jaundice. Imaging results in patients with autoimmune pancreatitis differ from those in patients with acute pancreatitis due to other causes. In autoimmune pancreatitis, the pancreatic parenchyma is swollen, with a classic “sausage-shaped” appearance (Figure: CT Scan Showing Autoimmune Pancreatitis). In addition, the pancreatic duct may be narrowed or poorly visualized on imaging. Pathologic results typically show idiopathic duct-centric neutrophil infiltration and few IgG4-positive cells in the pancreas. This patient has imaging results suggesting autoimmune pancreatitis, normal IgG4 levels, and a history of ulcerative colitis; the most likely diagnosis is type 2 autoimmune pancreatitis.Alcohol-associated pancreatitis (Option A) is not suggested in this patient because he does not report a significant alcohol use history. Persons who consume more than five drinks per day (or 35 drinks per week) may be more susceptible to alcohol-associated pancreatitis.In patients with chronic pancreatitis (Option B), imaging may show parenchymal atrophy, a dilated pancreatic duct, and calcifications. This patient's imaging findings are not consistent with chronic pancreatitis.For patients presenting with jaundice and a pancreatic mass, pancreatic cancer (Option C) must be included in the differential diagnosis. However, this patient does not present with a mass or jaundice, and pancreatic cancer is less likely.Type 1 autoimmune pancreatitis (Option D) is characterized by elevations of IgG4-positive cells in the pancreatic tissue and elevated serum IgG4 levels. Some patients may also present with IgG4-related retroperitoneal fibrosis, sclerosing cholangitis, or sclerosing sialadenitis. This patient's serum IgG4 levels are normal; therefore, type 2 autoimmune pancreatitis is more likely.",
+  "critique_links": [],
   "key_points": [
     "Type 2 autoimmune pancreatitis is a pancreas-specific disease occasionally associated with inflammatory bowel disease; IgG4 levels are usually normal.",
     "On CT, patients with autoimmune pancreatitis may have a narrowed main pancreatic duct or parenchymal swelling (“sausage-shaped” pancreas)."
@@ -63,5 +64,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:30.877817-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.332082-06:00"
 }

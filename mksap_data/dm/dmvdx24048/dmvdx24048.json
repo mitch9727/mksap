@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 29-year-old man is evaluated for the progressive development of painless papules on his penis.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is molluscum contagiosum (Option D). Caused by the poxvirus, molluscum contagiosum is characterized by small, dome-shaped, smooth-surfaced papules that are skin colored, white-yellow, or pink and that may have a central umbilication (shown). On close inspection, small, white inclusions may be seen. Although most patients with molluscum contagiosum are children, adults may acquire the disease through sexual contact, resulting in genital and pubic lesions. Molluscum contagiosum usually resolves spontaneously in a few months but may persist and require destructive modalities or topical treatments. Immunosuppressed patients or patients with active atopic dermatitis may experience widespread, treatment-resistant disease.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,41 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24655.b20366b09bea904af8a785d7090d03a2.jpg",
+      "figures/dmfig24656.788f5604842f19c47f3201b788891215.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.911410-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24655",
+        "file": "figures/dmfig24655.b20366b09bea904af8a785d7090d03a2.jpg",
+        "title": "Molluscum Contagiosum",
+        "short_title": "stem Molluscum Contagiosum",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 462,
+        "height": 700
+      },
+      {
+        "figure_id": "dmfig24656",
+        "file": "figures/dmfig24656.788f5604842f19c47f3201b788891215.jpg",
+        "title": "Molluscum Contagiosum",
+        "short_title": "critique Molluscum Contagiosum",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 676
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.451277-06:00"
 }

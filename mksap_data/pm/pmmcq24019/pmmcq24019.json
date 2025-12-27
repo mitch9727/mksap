@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 67-year-old man is evaluated for a 1-year history of persistent shortness of breath and dry cough. One year ago, he had COVID-19 pneumonia complicated by hypoxemic respiratory failure. He was hospitalized for 5 weeks and since discharge has required oxygen, 2 L/min, with exertion. He has a remote 20-pack-year smoking history and quit smoking 30 years ago. He also has coronary artery disease, hypertension, and dyslipidemia. Medications are metoprolol, aspirin, atorvastatin, and lisinopril.On physical examination, vital signs are normal. Oxygen saturation is 94% with the patient breathing ambient air at rest. Jugular venous pressure is normal. Lung examination reveals coarse crackles in both interscapular and infrascapular regions. Cardiac examination is normal. No lower extremity edema is noted.Chest radiograph shows bilateral mid- and lower-zone interstitial infiltrates. CT scan of the chest shows mild lower lung–predominant bronchiectasis and parenchymal bands.",
+  "question_text": "A 67-year-old man is evaluated for a 1-year history of persistent shortness of breath and dry cough. One year ago, he had COVID-19 pneumonia complicated by hypoxemic respiratory failure. He was hospitalized for 5 weeks and since discharge has required oxygen, 2 L/min, with exertion. He has a remote 20-pack-year smoking history and quit smoking 30 years ago. He also has coronary artery disease, hypertension, and dyslipidemia. Medications are metoprolol, aspirin, atorvastatin, and lisinopril.On physical examination, vital signs are normal. Oxygen saturation is 94% with the patient breathing ambient air at rest. Jugular venous pressure is normal. Lung examination reveals coarse crackles in both interscapular and infrascapular regions. Cardiac examination is normal. No lower extremity edema is noted.Pulmonary function tests:FVC65% of predictedL FEV1/FVC ratio0.90DlcoLowLChest radiograph shows bilateral mid- and lower-zone interstitial infiltrates. CT scan of the chest shows mild lower lung–predominant bronchiectasis and parenchymal bands.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most likely diagnosis in this patient is post-COVID pulmonary fibrosis (Option C). Typically seen in survivors of severe COVID-19 pneumonia, post-COVID pulmonary fibrosis may manifest with chronic respiratory symptoms, imaging abnormalities, and functional limitation. Many patients with COVID-19 pneumonia may have residual lung parenchymal abnormalities; however, lung fibrosis manifesting as reticulation, parenchymal bands, bronchial dilation, and architectural distortion is uncommon except as a sequela of severe disease. The longitudinal course of post–COVID-19 pulmonary fibrosis is uncertain, with reports suggesting that it may plateau or even improve in some patients. In rare cases, the fibrosis may be severe enough to warrant consideration for lung transplantation. This patient's need for prolonged hospitalization because of hypoxemic respiratory failure suggests that he had severe COVID-19 pneumonia. The temporal relationship of his symptoms to COVID-19 pneumonia, as well as the suggestive radiologic findings, makes post-COVID pulmonary fibrosis the most likely diagnosis.Many medications have been implicated in the development of diffuse parenchymal lung disease (DPLD) (). Although ACE inhibitors, including lisinopril, often cause a chronic dry cough, they are not associated with drug-induced DPLD (Option A). None of this patient's medications are classically linked to DPLD, and drug-induced DPLD is an unlikely diagnosis.Idiopathic pulmonary fibrosis (IPF) (Option B) is a chronic fibrosing interstitial pneumonia of unknown cause. IPF is histopathologically and radiologically characterized by usual interstitial pneumonia, with honeycombing, traction bronchiectasis, and peripheral alveolar septal thickening. Clinical and radiologic findings of post-COVID fibrosis may mimic those of IPF; however, this patient's history of severe COVID-19 pneumonia immediately before the onset of respiratory symptoms makes post-COVID fibrosis the more likely diagnosis.Smoking-related DPLD (Option D) occurs almost exclusively in patients who smoke. The spectrum of smoking-related DPLD includes respiratory bronchiolitis–associated interstitial lung disease; desquamative interstitial pneumonia, a more severe form of smoking-related DPLD; pulmonary Langerhans cell histiocytosis; and smoking-related interstitial fibrosis. This patient has not smoked for 30 years, which makes smoking-related DPLD unlikely.",
+  "critique": "The most likely diagnosis in this patient is post-COVID pulmonary fibrosis (Option C). Typically seen in survivors of severe COVID-19 pneumonia, post-COVID pulmonary fibrosis may manifest with chronic respiratory symptoms, imaging abnormalities, and functional limitation. Many patients with COVID-19 pneumonia may have residual lung parenchymal abnormalities; however, lung fibrosis manifesting as reticulation, parenchymal bands, bronchial dilation, and architectural distortion is uncommon except as a sequela of severe disease. The longitudinal course of post–COVID-19 pulmonary fibrosis is uncertain, with reports suggesting that it may plateau or even improve in some patients. In rare cases, the fibrosis may be severe enough to warrant consideration for lung transplantation. This patient's need for prolonged hospitalization because of hypoxemic respiratory failure suggests that he had severe COVID-19 pneumonia. The temporal relationship of his symptoms to COVID-19 pneumonia, as well as the suggestive radiologic findings, makes post-COVID pulmonary fibrosis the most likely diagnosis.Many medications have been implicated in the development of diffuse parenchymal lung disease (DPLD) (Table: Selected Drug-Induced DPLDs). Although ACE inhibitors, including lisinopril, often cause a chronic dry cough, they are not associated with drug-induced DPLD (Option A). None of this patient's medications are classically linked to DPLD, and drug-induced DPLD is an unlikely diagnosis.Idiopathic pulmonary fibrosis (IPF) (Option B) is a chronic fibrosing interstitial pneumonia of unknown cause. IPF is histopathologically and radiologically characterized by usual interstitial pneumonia, with honeycombing, traction bronchiectasis, and peripheral alveolar septal thickening. Clinical and radiologic findings of post-COVID fibrosis may mimic those of IPF; however, this patient's history of severe COVID-19 pneumonia immediately before the onset of respiratory symptoms makes post-COVID fibrosis the more likely diagnosis.Smoking-related DPLD (Option D) occurs almost exclusively in patients who smoke. The spectrum of smoking-related DPLD includes respiratory bronchiolitis–associated interstitial lung disease; desquamative interstitial pneumonia, a more severe form of smoking-related DPLD; pulmonary Langerhans cell histiocytosis; and smoking-related interstitial fibrosis. This patient has not smoked for 30 years, which makes smoking-related DPLD unlikely.",
+  "critique_links": [],
   "key_points": [
     "Patients with COVID-19 pneumonia may develop post-COVID pulmonary fibrosis, characterized by imaging abnormalities, such as reticulation, parenchymal bands, bronchial dilation, and architectural distortion.",
     "Post-COVID pulmonary fibrosis typically occurs in patients with severe COVID-19 pneumonia."
@@ -52,12 +53,41 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/pmtab24023.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:52.973318-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "pmtab24023",
+        "file": "tables/pmtab24023.html",
+        "title": "Characteristics of Drug-Induced Parenchymal Lung Diseases",
+        "short_title": "Selected Drug-Induced DPLDs",
+        "footnotes": [
+          "DPLD = diffuse parenchymal lung disease; ICI = immune checkpoint inhibitor."
+        ],
+        "headers": [
+          "Drug",
+          "Clinical Points",
+          "Radiographic Findings and Treatment"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Pulmonary function tests:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.052767-06:00"
 }

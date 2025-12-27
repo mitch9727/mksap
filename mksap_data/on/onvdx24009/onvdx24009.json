@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 62-year-old woman is evaluated for an incidental finding of leukocytosis. She is asymptomatic.Peripheral blood smear is shown.",
+  "question_text": "A 62-year-old woman is evaluated for an incidental finding of leukocytosis. She is asymptomatic.Laboratory studies:Leukocyte count31,750/µL (31.75 × 109/L) with 93% lymphocytes, 4% neutrophils, 2% monocytes, and 1% bandsHPeripheral blood smear is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is chronic lymphocytic leukemia (CLL) (Option A). The key to diagnosis of CLL is recognition of an increased blood leukocyte count resulting from increased numbers of mature lymphocytes and “smudge cells” on peripheral blood smear. Smudge cells, as demonstrated in this image (upper left of center and bottom left of center) are caused by mature-appearing peripheral lymphocytes that are abnormally fragile and become damaged during slide preparation.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -57,5 +58,32 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:12:25.118239-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "onfig24610",
+        "file": "figures/onfig24610.c868e054ddfa789c845f9a9237c984a1.jpg",
+        "title": "Peripheral Blood Smear Showing Mature Lymphocytes and Smudge Cells",
+        "short_title": "stem PBS Showing Mature Lymphocytes and Smudge Cells",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 400,
+        "height": 300
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.909870-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 52-year-old woman is evaluated for an unsteady gait. She reports no antecedent trauma, weakness, changes in vision, or other symptoms. Medical history is significant for hypothyroidism. Medications are levothyroxine and a multivitamin.On physical examination, pulse rate is 102/min. Remaining vital signs are normal. BMI is 28. The patient's gait is ataxic, and vibratory and position sense are impaired in the lower extremities. Neurologic examination is otherwise normal.Laboratory studies:Hemoglobin10.5 g/dL (105 g/L)LMean corpuscular volume112 fLHLeukocyte count3200/μL (3.2 × 109/L)LPlatelet count120,000/μL (120 × 109/L)LOral finding is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is vitamin B12 deficiency (Option D). Vitamin B12 is necessary for DNA synthesis and is found in animal meats, shellfish, and dairy products. Humans cannot synthesize vitamin B12 and rely on dietary intake. Uptake of vitamin B12 occurs in the terminal ileum and is greatly facilitated by the presence of intrinsic factor, which is produced in the gastric parietal cells. Dietary deficiency of vitamin B12 may occur because of restrictive diets, bariatric surgery, and malabsorption states, such as inflammatory bowel disease, pancreatic insufficiency, and bacterial overgrowth. Pernicious anemia, which is associated with autoimmune inflammation of the gastric parietal cells with achlorhydria, decreased intrinsic factor production, and anti-intrinsic factor antibodies, is another common cause. Patients with vitamin B12 deficiency can present with weight loss, glossitis (painful, red, inflamed tongue), and \"lemon yellow\" skin because of pallor and jaundice resulting from ineffective erythropoiesis. Patients can also have neurologic symptoms, most classically a loss of vibratory sense and proprioception with spastic ataxia (subacute combined degeneration). Neurologic findings may precede hematologic changes. Laboratory testing demonstrates macrocytic anemia, hypersegmented neutrophils, reduced serum vitamin B12 levels, and elevated methylmalonic acid and homocysteine levels. This patient has macrocytic anemia and neurologic findings in the dorsal column; in the absence of other causes of malabsorption, the most likely diagnosis is vitamin B12 deficiency.Vitamin B12 and folate deficiencies (Option A) can cause macrocytic anemia and other hematologic findings of megaloblastic anemia. Clinical features may help differentiate between folate and vitamin B12 deficiencies; malnutrition or alcohol use disorder suggests folate deficiency, whereas overt malabsorption suggests vitamin B12 deficiency. More importantly, folate deficiency does not cause neurologic symptoms and would not explain this patient's ataxia and sensory findings.Chronic lead intoxication (Option B) in adults leads to multiorgan injury, including anemia, chronic kidney disease, neurocognitive deficits, and peripheral neuropathy. However, anemia in patients with lead poisoning is usually microcytic, and the dorsal column findings in this patient would not be explained by peripheral neuropathy of lead poisoning.Myelodysplastic syndromes (Option C) are clonal stem cell disorders with ineffective hematopoiesis that commonly present with a macrocytic anemia and other cytopenias. However, myelodysplastic syndromes are not usually associated with the neurologic or the tongue findings seen in this patient.",
+  "critique_links": [],
   "key_points": [
     "Vitamin B12 deficiency is usually the result of malabsorption states such as inflammatory bowel disease, pancreatic insufficiency, bacterial overgrowth, and bariatric surgery; pernicious anemia with loss of intrinsic factor is another common cause.",
     "Clinical features of vitamin B12 deficiency include macrocytic anemia and ataxia with loss of position and vibratory sensation from dorsal column injury."
@@ -60,5 +61,32 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:17.957218-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hmfig24201",
+        "file": "figures/hmfig24201.37c94dfa1d00be996b755e102ed06b2c.png",
+        "title": "Glossitis",
+        "short_title": "Glossitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "png",
+        "width": 472,
+        "height": 315
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.850396-06:00"
 }

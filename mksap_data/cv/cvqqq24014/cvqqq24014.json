@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 72-year-old woman is hospitalized for a 2-week history of increasing exertional dyspnea and weight gain. She has nonischemic cardiomyopathy and hypertension. Her last echocardiogram showed a left ventricular ejection fraction of 25%. Medications are valsartan-sacubitril, metoprolol succinate, furosemide, spironolactone, and empagliflozin.On physical examination, blood pressure is 158/68 mm Hg, and pulse rate is 96/min. Jugular venous distention is present. Cardiopulmonary auscultation reveals an S3 and occasional bibasilar crackles. The extremities are warm. Peripheral edema is noted.",
+  "question_text": "A 72-year-old woman is hospitalized for a 2-week history of increasing exertional dyspnea and weight gain. She has nonischemic cardiomyopathy and hypertension. Her last echocardiogram showed a left ventricular ejection fraction of 25%. Medications are valsartan-sacubitril, metoprolol succinate, furosemide, spironolactone, and empagliflozin.On physical examination, blood pressure is 158/68 mm Hg, and pulse rate is 96/min. Jugular venous distention is present. Cardiopulmonary auscultation reveals an S3 and occasional bibasilar crackles. The extremities are warm. Peripheral edema is noted.Laboratory studies:Creatinine1.9 mg/dL (168 µmol/L)HSodium135 mEq/L (139 mmol/L)L",
   "question_stem": "Which of the following is the most appropriate intravenous treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment for this patient is intravenous furosemide (Option B). In patients with decompensated heart failure with fluid overload, effective diuresis with loop diuretics is the principal therapy. High-dose diuretics (2.5 times the outpatient oral daily dosage) are associated with increased diuresis. If the patient does not respond appropriately, rapid up-titration should be performed to assist in fluid removal. A study assessing different diuretic strategies (normal versus high dose, bolus versus continuous infusion) in patients with acute decompensated heart failure showed no difference in the outcomes of length of stay, readmission, or kidney function between groups. This patient has signs and symptoms of acute exacerbation with volume overload, so intravenous furosemide therapy is indicated.Low-dose dopamine (Option A) plus diuretic therapy was studied in the ROSE trial to determine whether dopamine improves diuresis and preserves kidney function in patients with acute heart failure. Compared with placebo, no difference was seen in patient symptoms, urine output at 72 hours, or kidney function. Intravenous dopamine would not benefit this patient.Intravenous inotropes, such as milrinone (Option C) or dobutamine, should be considered in patients with signs of poor perfusion to improve cardiac function; however, this patient has no signs of hypoperfusion to suggest that this exacerbation is related to low cardiac output. Additionally, the PROMISE study showed no benefit of routine inotropic therapy in patients admitted with a heart failure exacerbation.Nitroprusside (Option D) is a vasodilator that causes arterial and venous dilatation, thereby decreasing left ventricular filling pressures. Close hemodynamic monitoring (generally via an intra-arterial catheter) is required. The role of direct vasodilators in the management of acute decompensated heart failure is uncertain, and there are no data that use improves outcomes.",
+  "critique_links": [],
   "key_points": [
     "The mainstay of therapy for acute decompensated heart failure is intravenous diuretics."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.296053-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.799133-06:00"
 }

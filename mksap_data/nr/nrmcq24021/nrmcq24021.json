@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "An 18-year-old man is evaluated in the hospital for a new-onset generalized seizure. The seizure lasted 5 minutes, and he was treated with levetiracetam on arrival. He remains confused several hours later and is unable to provide a clear history. He recently had COVID-19, with symptoms resolving 1 week ago. He has no other medical problems and takes no medications.On physical examination, temperature is 38.1 °C (100.5 °F); other vital signs are normal. The patient is drowsy but can be roused and answers questions. He knows he is in the hospital but incorrectly states his age and the month. He seems distracted and tries to get out of bed while being examined. Strength and reflexes are normal.Results of cerebrospinal fluid testing for herpes simplex virus, varicella-zoster virus, enterovirus, and cytomegalovirus polymerase chain reaction are negative. Oligoclonal band testing is negative.Continuous electroencephalogram shows left frontal slowing and rare sharp waves but no seizures. Brain MRI reveals multifocal fluffy-appearing nonenhancing white matter lesions, mostly in the periventricular space, with the largest lesion in the left frontal lobe.",
+  "question_text": "An 18-year-old man is evaluated in the hospital for a new-onset generalized seizure. The seizure lasted 5 minutes, and he was treated with levetiracetam on arrival. He remains confused several hours later and is unable to provide a clear history. He recently had COVID-19, with symptoms resolving 1 week ago. He has no other medical problems and takes no medications.On physical examination, temperature is 38.1 °C (100.5 °F); other vital signs are normal. The patient is drowsy but can be roused and answers questions. He knows he is in the hospital but incorrectly states his age and the month. He seems distracted and tries to get out of bed while being examined. Strength and reflexes are normal.Cerebrospinal fluid studies:Leukocyte count12/μL (12 × 106/L) (93% lymphocytes, 7% monocytes)HGlucose73 mg/dL (4.1 mmol/L)Protein27 mg/dL (270 mg/L)Results of cerebrospinal fluid testing for herpes simplex virus, varicella-zoster virus, enterovirus, and cytomegalovirus polymerase chain reaction are negative. Oligoclonal band testing is negative.Continuous electroencephalogram shows left frontal slowing and rare sharp waves but no seizures. Brain MRI reveals multifocal fluffy-appearing nonenhancing white matter lesions, mostly in the periventricular space, with the largest lesion in the left frontal lobe.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is acute disseminated encephalomyelitis (ADEM) (Option A). ADEM is a monophasic multifocal demyelinating disease of the central nervous system (CNS) that typically occurs days to weeks after an infection or vaccination. It is characterized by rapid onset of multifocal neurologic signs and symptoms along with fever and encephalopathy. Brain MRI demonstrates multifocal large inflammatory demyelinating lesions with a fluffy appearance (shown). Cerebrospinal fluid studies may show a pleocytosis, but oligoclonal bands are usually absent. ADEM is considered a diagnosis of exclusion; mimics, including multiple sclerosis (MS) and viral infections, such as herpes simplex virus, varicella-zoster virus, and West Nile virus, must be ruled out. Treatment is intravenous methylprednisolone and, if that is unsuccessful, a trial of plasmapheresis. This patient's acute onset of fever, encephalopathy, and characteristic MRI findings without evidence of viral encephalitis make ADEM the most likely diagnosis. While ADEM is more common in children, it can occur in adults.An important differential diagnostic consideration of ADEM in adults is MS (Option B). This patient's fever and encephalopathy, however, are more consistent with ADEM than MS.Posterior reversible encephalopathy syndrome (PRES) (Option C) is a neurologic condition that can present similarly to ADEM, with seizures, encephalopathy, and white matter edema (hyperintense signal on T2-weighted MRI). Unlike this patient, patients with PRES typically have risk factors, including hypertension, preeclampsia, kidney or liver disease, exposure to cytotoxic medications or immunosuppressants, or sepsis. Additionally, recent infection or vaccination are not typical risk factors for PRES.Primary CNS lymphoma (PCNSL) (Option D) typically presents with an avidly enhancing brain mass, usually in patients older than 50 years. This patient's MRI findings are not consistent with PCNSL.",
+  "critique_links": [],
   "key_points": [
     "Acute disseminated encephalomyelitis (ADEM) is a monophasic multifocal demyelinating disease of the central nervous system (CNS) that is characterized by rapid onset of multifocal neurologic signs and symptoms along with fever and encephalopathy.",
     "In patients presenting with acute neurologic symptoms with CNS demyelination, the presence of fever and encephalopathy helps differentiate ADEM from multiple sclerosis."
@@ -60,5 +61,32 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:16:54.919597-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "nrfig24200",
+        "file": "figures/nrfig24200.c34029b2fe814bed7b9c7cf7f17f78cb.jpg",
+        "title": "Brain MRI Showing ADEM",
+        "short_title": "Brain MRI Showing ADEM",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 728,
+        "height": 858
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Cerebrospinal fluid studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.163629-06:00"
 }

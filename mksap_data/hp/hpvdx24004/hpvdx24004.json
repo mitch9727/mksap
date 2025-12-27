@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 56-year-old woman with alcohol use disorder is evaluated for an episode of large-volume hematemesis. Upper endoscopy is performed.",
   "question_stem": "Which of the following is the most likely source of this patient's bleeding?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is a bleeding esophageal varix (Option B). Esophageal varices, a complication of advanced liver disease, are enlarged vessels within the lumen of the lower esophagus that provide extrahepatic pathways of blood flow from the portal circulation to the systemic circulation. Over time, esophageal varices enlarge and may spontaneously rupture, leading to bleeding and possible death.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/hpfig24603.d0d38b7d90d6e753c9feb8341d91ad24.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.607724-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hpfig24603",
+        "file": "figures/hpfig24603.d0d38b7d90d6e753c9feb8341d91ad24.jpg",
+        "title": "Endoscopic View of an Esophageal Varix",
+        "short_title": "Endoscopic View of an Esophageal Varix",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 484,
+        "height": 357
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.731251-06:00"
 }

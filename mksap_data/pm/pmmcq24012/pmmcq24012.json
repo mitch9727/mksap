@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 48-year-old woman is evaluated for dyspnea. Mild dyspnea first noted 6 months ago has gradually progressed. She has no cough, chest pain, orthopnea, or edema. She has gastroesophageal reflux disease and Raynaud phenomenon. Her only medication is omeprazole.On physical examination, pulse rate is 92/min. Lungs are clear, and cardiac examination reveals an accentuated pulmonic closure sound. Telangiectasias are present on the patient's face, chest, and palms. Skin on her fingers is slightly thickened.Results of anticentromere antibody testing are positive.Pulmonary function tests:FEV1108% of predictedFVC102% of predicted FEV1/FVC ratio0.88Total lung capacity110% of predictedDlco LowLEchocardiogram shows an estimated right ventricular (RV) systolic pressure of 66 mm Hg and moderate RV dilation with mildly decreased function. The left ventricle is normal.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management in this patient with probable pulmonary arterial hypertension (PAH) is pulmonary artery (PA) catheterization (Option D). In patients suspected of having PAH, transthoracic echocardiography is the first-line test and can stratify the likelihood of PAH as low, moderate, or high. However, transthoracic echocardiography only estimates PA pressures and should not be used to confirm a diagnosis of PAH. PA catheterization should be performed in patients with an intermediate or high risk for PAH because it provides accurate hemodynamic data and can also help determine the primary cause of elevated PA pressures (Table: Updated Hemodynamic Parameters to Define PH). This patient's clinical findings, including Raynaud phenomenon, esophageal dysmotility, sclerodactyly, and telangiectasias, are consistent with limited cutaneous systemic sclerosis (LcSSc). Approximately 10% of patients with LcSSc develop PAH, and this patient has both examination findings (an accentuated pulmonic closure) and echocardiogram findings suggesting PAH. She requires PA catheterization for confirmation of PAH.Genetic testing for the bone morphogenetic protein receptor type 2 gene (BMPR2) variant (Option A) would not be the best next step. Heritable forms of pulmonary hypertension account for up to 10% of cases of PAH, with BMPR2 being the most common. Genetic testing should be deferred, however, until PAH is diagnosed. In addition, in this patient, the pulmonary hypertension is most likely due to LcSSc.Coronary angiography (Option B) is not the best management option in this patient. Although cardiac manifestations of disease (microvascular vasospasm, pericardial or valvular disease, and fibrosis of the conducting system) are seen in patients with LcSSc, the prevalence of atherosclerotic coronary disease in this population is unclear. This patient has no other risk factors for coronary artery disease and reports no chest pain or other symptoms of anginal equivalence; therefore, coronary angiography is not the best next test.A 6-minute walk test (Option C) may be used to assess functional status in patients diagnosed with PAH. It provides prognostic information and a baseline for assessment of therapeutic response but would not be the best next test in establishing the diagnosis of PAH.",
+  "critique_links": [],
   "key_points": [
     "Echocardiography provides only estimated pulmonary artery pressure measurements and should not be used to confirm a diagnosis of pulmonary arterial hypertension.",
     "Pulmonary artery catheterization is essential to confirm a diagnosis of pulmonary arterial hypertension because it provides accurate hemodynamic data and helps distinguish the primary cause of an elevated pulmonary artery pressure."
@@ -52,12 +53,43 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/pmtab24036.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:17.981895-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "pmtab24036",
+        "file": "tables/pmtab24036.html",
+        "title": "Updated Hemodynamic Parameters to Define Pulmonary Hypertension",
+        "short_title": "Updated Hemodynamic Parameters to Define PH",
+        "footnotes": [
+          "ERS = European Respiratory Society; ESC = European Society of Cardiology; mPAP = mean pulmonary artery pressure; PAWP = pulmonary artery wedge pressure; PH = pulmonary hypertension; PVR = pulmonary vascular resistance; WU = Wood units.",
+          "<sup>a</sup>Changes in ESC/ERS guidelines from 2015 to 2022 are shown in bold.",
+          "Information from Humbert M, Kovacs G, Hoeper MM, et al; ESC/ERS Scientific Document Group. 2022 ESC/ERS guidelines for the diagnosis and treatment of pulmonary hypertension. Eur Respir J. 2023;61. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/36028254\" target=\"_blank\">PMID: 36028254</a> doi:10.1183/13993003.00879-2022"
+        ],
+        "headers": [
+          "ESC/ERS 2015 Definition",
+          "ESC/ERS 2022 Definitiona",
+          "PH Classification"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Pulmonary function tests:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.019928-06:00"
 }

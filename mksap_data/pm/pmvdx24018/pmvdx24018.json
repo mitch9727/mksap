@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 19-year-old woman is evaluated for the incidentally found 3-cm lung nodule shown. She does not smoke cigarettes.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is an arteriovenous malformation (Option A). The 3-cm nodular lesion seen at the base of the right lung is smooth, sharply circumscribed, and homogeneous in density; it is not associated with notable hilar or mediastinal lymphadenopathy. Nodular lung lesions are often caused by bronchogenic carcinoma or metastatic cancer. However, given this patient's age and nonsmoking status, a congenital or developmental lesion, such as an arteriovenous malformation, is more likely. In this case, a contrast-enhanced CT of the chest demonstrated the presence of an arteriovenous malformation.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.307760-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24630",
+        "file": "figures/pmfig24630.7a72fc073f0a963144199201667bc287.jpg",
+        "title": "Radiograph Showing Arteriovenous Malformation",
+        "short_title": "Radiograph Showing Arteriovenous Malformation",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1142
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.252151-06:00"
 }

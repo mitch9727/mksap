@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 57-year-old woman is evaluated for palpitations, heat intolerance, diplopia, and proptosis.The neck is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is Graves disease (Option B), a common autoimmune thyroid disorder and the most common cause of hyperthyroidism. The patient in this image has a goiter, or enlarged thyroid gland. Patients with goiter should be questioned about compressive symptoms, such as dyspnea, cough, dysphagia, and voice changes, which are evident in 10% to 20% of patients with goiter. The presence of hyperthyroid symptoms, eye findings, and goiter in this patient most strongly suggest the diagnosis of Graves disease.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:16.937395-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "enfig24614",
+        "file": "figures/enfig24614.3b812456a02108d75ee0b81aa94eceba.jpg",
+        "title": "Goiter",
+        "short_title": "Goiter",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 852
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.436787-06:00"
 }

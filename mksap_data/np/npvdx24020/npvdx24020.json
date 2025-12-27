@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 33-year-old woman with type 1 diabetes mellitus and diabetic kidney disease is evaluated in the emergency department for diabetic ketoacidosis.ECG is shown.",
   "question_stem": "Which of the following ECG findings is shown?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Hyperkalemia (Option B) is responsible for the changes seen on this patient's ECG. This ECG demonstrates tall, peaked T waves and flat P waves, which are characteristic of hyperkalemia. Initial ECG manifestations of hyperkalemia include peaked precordial T waves and a shortened QT interval. With progression, lengthening of the PR interval, loss of the P wave, widening of the QRS complex, a sine wave pattern, and asystole may occur. However, the correlation between ECG findings and degree of hyperkalemia may be variable, and ECG findings do not necessarily progress in an orderly fashion.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.559718-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "npfig24624",
+        "file": "figures/npfig24624.a97f00e25a4e6300567a3046de017795.jpg",
+        "title": "ECG Showing Hyperkalemia",
+        "short_title": "ECG Showing Hyperkalemia",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 542,
+        "height": 382
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.011919-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 35-year-old woman is scheduled for a dental extraction to be performed with local anesthesia. She is physically active and feels well. She has primary adrenal insufficiency, for which she takes hydrocortisone and fludrocortisone.On physical examination, vital signs and other findings are unremarkable.Results of a basic chemistry panel and kidney function tests are normal.",
   "question_stem": "Which of the following is the most appropriate management of this patient's glucocorticoid therapy on the day of surgery?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management on the morning of surgery is to administer double the patient's current hydrocortisone dose (Option B). Patients at high risk for adrenal insufficiency, such as those with established primary or secondary adrenal insufficiency, those with cushingoid features, and those taking more than 20 mg/d of prednisone for more than 3 weeks, require stress doses of glucocorticoids perioperatively (see Table: Glucocorticoid Stress Dosing Strategies). Patients with adrenal insufficiency cannot mount an appropriate increase in cortisol with surgery or illness; therefore, stress dosing is essential to prevent adrenal crisis. When perioperative stress dosing is indicated, glucocorticoid dosing recommendations are tailored to the stress of the planned procedure. For minor procedures using only local anesthesia, patients with primary adrenal insufficiency should take twice their usual dose of glucocorticoids on the day of surgery and for 1 to 2 days after. This patient with primary adrenal insufficiency is scheduled for a minor procedure (dental extraction); therefore, she should be instructed to take twice her usual hydrocortisone dose on the morning of the procedure and for the next day or two.For patients with adrenal insufficiency who are undergoing non-minor surgical procedures, the Association of Anaesthetists recommends giving 100 mg of intravenous hydrocortisone with induction of anesthesia followed by continuous infusion of 200 mg/d of intravenous hydrocortisone until the patient can resume oral glucocorticoids. This patient is scheduled for a minor procedure and does not require a continuous hydrocortisone infusion (Option B).This patient's hydrocortisone should not be withheld (Option C) under any circumstances; doing so might precipitate adrenal crisis.Continuing the patient's current hydrocortisone dosage (Option D) might precipitate adrenal crisis; patients with adrenal insufficiency require glucocorticoid stress dosing periprocedurally. Patients who are at low risk for adrenal insufficiency (e.g., those without established adrenal insufficiency, those taking less than 5 mg/d of prednisone, those who have taken glucocorticoids for less than 3 weeks, and those taking low-dose inhaled or topical glucocorticoid therapy) do not require glucocorticoid stress dosing.",
+  "critique_links": [],
   "key_points": [
     "Patients at high risk for adrenal insufficiency, such as those with established primary or secondary adrenal insufficiency, those with cushingoid features, and those taking more than 20 mg/d of prednisone for more than 3 weeks, require stress doses of glucocorticoids perioperatively.",
     "For minor surgical procedures using only local anesthesia, patients with primary adrenal insufficiency should take twice their usual dose of glucocorticoids on the day of surgery and for 1 to 2 days after."
@@ -51,10 +52,33 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/fctab24048.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:33.999827-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "fctab24048",
+        "file": "tables/fctab24048.html",
+        "title": "Glucocorticoid Stress Dosing Strategies in Patients at Risk for Adrenal Insufficiency",
+        "short_title": "Glucocorticoid Stress Dosing Strategies",
+        "footnotes": [
+          "Adapted from Liu MM, Reidy AB, Saatee S, et al. Perioperative steroid management: approaches based on current evidence. Anesthesiology. 2017;127:166-172. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/28452806\" target=\"_blank\">PMID: 28452806</a> doi:10.1097/ALN.0000000000001659 <i>and</i> Woodcock T, Barker P, Daniel S, et al. Guidelines for the management of glucocorticoids during the peri-operative period for patients with adrenal insufficiency: guidelines from the Association of Anaesthetists, the Royal College of Physicians and the Society for Endocrinology UK. Anaesthesia. 2020;75:654-663. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/32017012\" target=\"_blank\">PMID: 32017012</a> doi:10.1111/anae.14963"
+        ],
+        "headers": [
+          "Patient Risk",
+          "Patient Characteristics",
+          "Glucocorticoid Management"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.691879-06:00"
 }

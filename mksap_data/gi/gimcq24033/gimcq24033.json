@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 71-year-old woman is evaluated in the emergency department for severe epigastric pain that developed suddenly 1 hour ago. She reports no nausea, vomiting, melena, or hematochezia. She has osteoarthritis, type 2 diabetes mellitus, and hypertension. Medications are ibuprofen, metformin, and nifedipine.On physical examination, blood pressure is 156/96 mm Hg, pulse rate is 102/min, and respiration rate is 22/min. Abdominal examination shows diffuse tenderness, board-like rigidity, and positive rebound tenderness.Upright chest radiograph is normal.",
+  "question_text": "A 71-year-old woman is evaluated in the emergency department for severe epigastric pain that developed suddenly 1 hour ago. She reports no nausea, vomiting, melena, or hematochezia. She has osteoarthritis, type 2 diabetes mellitus, and hypertension. Medications are ibuprofen, metformin, and nifedipine.On physical examination, blood pressure is 156/96 mm Hg, pulse rate is 102/min, and respiration rate is 22/min. Abdominal examination shows diffuse tenderness, board-like rigidity, and positive rebound tenderness.Laboratory studies:Hemoglobin10.9 g/dL (109 g/L)LFecal occult blood testPositiveUpright chest radiograph is normal.",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate test to perform next is contrast-enhanced CT of the abdomen (Option B) to evaluate for perforating peptic ulcer disease (PUD). NSAIDs and Helicobacter pylori infection are the most common causes of PUD. Complications of PUD include bleeding, perforation, and obstruction. Perforation is a surgical emergency that typically presents with the classic triad of sudden-severe epigastric pain, tachycardia, and abdominal rigidity, as is present in this case. The pain is initially localized to the epigastric area but may become more generalized in location. Mortality rates may be as high as 30%; therefore, rapid diagnosis is critical. In a patient with perforated PUD, upright chest radiography may show free air under the diaphragm, but this finding may not always be seen and may be absent in 10% to 20% of patients. Contrast-enhanced CT is the diagnostic procedure of choice to confirm a gastrointestinal tract perforation, including a perforating PUD, and has a sensitivity of 98%. CT findings may include pneumoperitoneum (free air under the diaphragm), intramural gas, and free fluid; the site of perforation may also be visible. Urgent surgical repair is required in most cases.Abdominal ultrasonography (Option A) may detect signs of perforation, such as pneumoperitoneum, but is less sensitive and specific than contrast-enhanced abdominal CT.Upper endoscopy (Option C) should be avoided if perforation due to PUD is suspected. However, endoscopy should be considered after surgical repair to exclude gastric cancer.Upright abdominal radiography (Option D) may also show pneumoperitoneum. However, if an initial chest radiograph is normal, as it was in this patient, or if the diagnosis is uncertain, contrast-enhanced abdominal CT is preferred as the next diagnostic test.",
+  "critique_links": [],
   "key_points": [
     "Perforation in a patient with peptic ulcer disease is a surgical emergency that typically presents with sudden onset of severe epigastric pain.",
     "Contrast-enhanced CT is the diagnostic test of choice to confirm perforating peptic ulcer disease."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:30.913909-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.349940-06:00"
 }

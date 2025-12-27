@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 56-year-old man undergoes low-dose CT lung cancer screening secondary to a 55-pack-year history of tobacco use. No suspicious nodules are noted, but a moderate pericardial effusion is seen. He reports no medical problems and is up to date on age-appropriate cancer screenings. He has no family history of cancer. He takes no medications.Physical examination findings, including vital signs, are normal.Results of laboratory studies, including antinuclear antibodies and thyroid-stimulating hormone level, are normal.ECG shows low-voltage QRS. Echocardiogram reveals a small to moderate-sized circumferential pericardial effusion with a normal-appearing pericardium and no evidence of tamponade. Chamber size and function are normal. There are no valvular abnormalities. CT scan shows no adenopathy or pericardial thickening.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate management is repeat echocardiography in 6 to 12 months (Option C). Many pericardial effusions are asymptomatic and found incidentally on cardiopulmonary imaging. Most effusions in patients without symptoms are idiopathic; however, malignancy, infections, autoimmune disease, hypothyroidism, and iatrogenic causes (medications, anticoagulation therapy) should be considered (see ). In countries where tuberculosis is endemic, tuberculosis causes more than 60% of effusions. Evaluation of an asymptomatic effusion should include a targeted assessment of potential causes, especially malignancy and infection. If no cause is found in an asymptomatic patient with no signs of tamponade and a small to moderate-sized effusion, monitoring with periodic echocardiography is reasonable to determine whether the effusion is growing or becoming hemodynamically significant. This patient has an asymptomatic, incidentally found, small to moderate-sized effusion with no signs of tamponade and no clear cause identified after an appropriate evaluation for the cause. Clinical observation with surveillance echocardiography is the best management strategy.Pericardial window surgery (Option A) is not indicated for a small to moderate-sized asymptomatic, idiopathic effusion.Pericardiocentesis (Option B) may be performed as a diagnostic maneuver, especially if malignancy or bacterial infection is suspected. It is also therapeutic in the case of pericardial tamponade. This patient is asymptomatic with a small to moderate-sized effusion. He has undergone a thorough noninvasive evaluation, and there is no evidence suggesting underlying malignancy or bacterial infection. Pericardiocentesis is not currently needed for diagnostic or therapeutic purposes.Right heart catheterization (Option D) can help determine hemodynamics in patients with suspected tamponade if a diagnosis cannot be made noninvasively. However, this patient is asymptomatic with no signs of tamponade on examination or imaging and does not need right heart catheterization.",
+  "critique": "The most appropriate management is repeat echocardiography in 6 to 12 months (Option C). Many pericardial effusions are asymptomatic and found incidentally on cardiopulmonary imaging. Most effusions in patients without symptoms are idiopathic; however, malignancy, infections, autoimmune disease, hypothyroidism, and iatrogenic causes (medications, anticoagulation therapy) should be considered (see Table: Causes of Pericardial Disease). In countries where tuberculosis is endemic, tuberculosis causes more than 60% of effusions. Evaluation of an asymptomatic effusion should include a targeted assessment of potential causes, especially malignancy and infection. If no cause is found in an asymptomatic patient with no signs of tamponade and a small to moderate-sized effusion, monitoring with periodic echocardiography is reasonable to determine whether the effusion is growing or becoming hemodynamically significant. This patient has an asymptomatic, incidentally found, small to moderate-sized effusion with no signs of tamponade and no clear cause identified after an appropriate evaluation for the cause. Clinical observation with surveillance echocardiography is the best management strategy.Pericardial window surgery (Option A) is not indicated for a small to moderate-sized asymptomatic, idiopathic effusion.Pericardiocentesis (Option B) may be performed as a diagnostic maneuver, especially if malignancy or bacterial infection is suspected. It is also therapeutic in the case of pericardial tamponade. This patient is asymptomatic with a small to moderate-sized effusion. He has undergone a thorough noninvasive evaluation, and there is no evidence suggesting underlying malignancy or bacterial infection. Pericardiocentesis is not currently needed for diagnostic or therapeutic purposes.Right heart catheterization (Option D) can help determine hemodynamics in patients with suspected tamponade if a diagnosis cannot be made noninvasively. However, this patient is asymptomatic with no signs of tamponade on examination or imaging and does not need right heart catheterization.",
+  "critique_links": [],
   "key_points": [
     "Many pericardial effusions are asymptomatic and found incidentally on cardiopulmonary imaging.",
     "In an asymptomatic patient with a small to moderate-sized idiopathic pericardial effusion with no signs of tamponade, clinical observation with periodic echocardiographic monitoring is reasonable."
@@ -52,11 +53,31 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/cvtab24041.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:49:14.348643-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "cvtab24041",
+        "file": "tables/cvtab24041.html",
+        "title": "Causes of Pericardial Disease",
+        "short_title": "Causes of Pericardial Disease",
+        "footnotes": [],
+        "headers": [
+          "Category",
+          "Cause",
+          "Infectious",
+          "Noninfectious"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.632815-06:00"
 }

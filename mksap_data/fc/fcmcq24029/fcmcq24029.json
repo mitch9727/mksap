@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 55-year-old man is evaluated during a routine visit. His last visit was 5 years ago. His close friend was diagnosed with prostate cancer, and the patient is wondering whether he should be screened for this disease. He is asymptomatic.Physical examination findings, including vital signs, are normal.The physician tells the patient that screening for prostate cancer is not straightforward and explains the options. The patient asks, “What would you recommend if you were me?”",
   "question_stem": "What is the most appropriate response?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The patient should first be asked what is important to him (Option D) as part of shared decision making. Shared decision making occurs when health care providers and patients collaborate to make health care decisions that draw on the provider's knowledge, experience, and medical evidence and considers the needs, preferences, desires, and values of the patient. Shared decision making can reduce decisional conflict, increase patients' knowledge of their options, and help them reach decisions consistent with their values. This process allows the clinician to present treatment or management options in a manner that allows the patient to have a say in decisions that affect their own health. The SHARE framework, which outlines the steps for shared decision making, is described in Table: SHARE Steps for Shared Decision Making. Guidelines recommend that the decision for prostate cancer screening be individualized and that patients be given the chance to make an informed decision with their provider (see Table: Recommendations for Prostate Cancer Screening). This patient is seeking advice from his physician before expressing his preferences and needs and reviewing the risks and benefits of screening. Therefore, the most appropriate answer is to elicit what is important to the patient as he evaluates his options before proceeding.Reassuring the patient by ordering a prostate-specific antigen test (Option A) is not the most appropriate response. In answering the patient's question this way, the physician is making a recommendation based on an inference that the patient wants to be screened, rather than determining what his actual wishes are, and is not giving him the opportunity to discuss his values and preferences regarding screening options.It is appropriate for clinicians to refrain from giving patients their recommendations before eliciting patients' preferences and values. However, responding this way without providing patients with information regarding their options or eliciting their preferences and values (Option B) is inappropriate.It is not appropriate for a physician to offer guidance (Option C) without first giving the patient information about risks and benefits and eliciting the patient's values and concerns. After shared decision-making discussions, physicians can help patients come to decisions that are most consistent with their values.",
+  "critique_links": [],
   "key_points": [
     "Shared decision making occurs when health care providers and patients collaborate to make health care decisions that draw on the provider's knowledge, experience, and medical evidence and considers the needs, preferences, desires, and values of the patient.",
     "Shared decision making can reduce decisional conflict, increase patients' knowledge of their options, and help them reach decisions consistent with their values."
@@ -51,10 +52,47 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/fctab24017.html",
+      "tables/ontab24027.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:33.942766-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "fctab24017",
+        "file": "tables/fctab24017.html",
+        "title": "SHARE Steps for Shared Decision Making",
+        "short_title": "SHARE Steps for Shared Decision Making",
+        "footnotes": [
+          "Adapted from Agency for Healthcare Research and Quality. The SHARE approach. Accessed November 14, 2024. <a href=\"http://www.ahrq.gov/health-literacy/professional-training/shared-decision/index.html\" target=\"_blank\">www.ahrq.gov/health-literacy/professional-training/shared-decision/index.html</a>"
+        ],
+        "headers": [
+          "Step",
+          "Purpose",
+          "Sample statement"
+        ]
+      },
+      {
+        "table_id": "ontab24027",
+        "file": "tables/ontab24027.html",
+        "title": "Recommendations for Prostate Cancer Screening",
+        "short_title": "Recommendations for Prostate Cancer Screening",
+        "footnotes": [
+          "PSA = prostate-specific antigen."
+        ],
+        "headers": [
+          "Expert Group",
+          "Recommendation"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.613517-06:00"
 }

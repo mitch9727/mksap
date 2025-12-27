@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 75-year-old woman undergoes follow-up evaluation for a chronic cough. She has had a nonproductive cough for several years, which over the past year has become intermittently productive of sputum. She reports no hemoptysis. She has lost 2.3 kg (5.1 lb) in the past year and has occasional night sweats; she also notes significant fatigue. The patient has no other medical conditions and takes no medications.On physical examination, vital signs are normal. BMI is 19. Pulmonary examination reveals bibasilar crackles.Two sputum cultures are growing Mycobacterium avium complex.A CT scan of the chest is shown.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -43,7 +43,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate management for this patient is to begin antibiotic treatment (Option A). Pulmonary disease with Mycobacterium avium complex (MAC) is the most common cause of nontuberculous mycobacteria lung infection worldwide and typically occurs in older adults. Cough is the most common symptom; other symptoms such as fatigue, weight loss, fever, and night sweats may also be present. Cavitary disease and nodular lung disease with bronchiectasis are the two major types of MAC pulmonary disease. Cavitary disease is seen classically in men, especially those with underlying lung disease who smoke cigarettes. Nodular disease with bronchiectasis, as seen in this patient, more often occurs in nonsmoking women without previous pulmonary disease; bronchiectasis with surrounding small nodules (tree-in-bud opacities) are commonly seen on pulmonary imaging. The American Thoracic Society and Infectious Diseases Society of America criteria for diagnosis of MAC infection requires all of the following:Pulmonary symptomsMicrobiologic results ( isolated from more than one sputum culture)Characteristic radiologic findingsExclusion of other diagnosesThis patient fulfills these criteria. Specific antibiotic treatment should be initiated and would include azithromycin, rifampin, and ethambutol three times weekly.A bronchoscopy (Option B) is not required because this patient already has two sputum cultures positive for M. avium. If a patient is unable to produce sputum for culture, inducing a deep cough with hypertonic saline or performing a bronchoscopy would be appropriate.Surgical lung resection (Option C) is an adjuvant treatment option reserved for select patients who have not responded to medical management. This patient has not yet initiated antibiotic treatment, so surgical resection is not indicated.An association between aspiration and pulmonary infection with nontuberculous mycobacteria (specifically Mycobacterium fortuitum) has been reported, although rare. However, a swallow study (Option D) is not necessary currently because this patient does not have dysphagia.This patient has symptoms of cough, fatigue, and weight loss. Additionally, she meets microbiologic criteria for diagnosis of MAC infection. Therefore, observation would not be appropriate (Option E).",
+  "critique": "The most appropriate management for this patient is to begin antibiotic treatment (Option A). Pulmonary disease with Mycobacterium avium complex (MAC) is the most common cause of nontuberculous mycobacteria lung infection worldwide and typically occurs in older adults. Cough is the most common symptom; other symptoms such as fatigue, weight loss, fever, and night sweats may also be present. Cavitary disease and nodular lung disease with bronchiectasis are the two major types of MAC pulmonary disease. Cavitary disease is seen classically in men, especially those with underlying lung disease who smoke cigarettes. Nodular disease with bronchiectasis, as seen in this patient, more often occurs in nonsmoking women without previous pulmonary disease; bronchiectasis with surrounding small nodules (tree-in-bud opacities) are commonly seen on pulmonary imaging. The American Thoracic Society and Infectious Diseases Society of America criteria for diagnosis of MAC infection requires all of the following:Pulmonary symptomsMicrobiologic results (M. avium isolated from more than one sputum culture)Characteristic radiologic findingsExclusion of other diagnosesThis patient fulfills these criteria. Specific antibiotic treatment should be initiated and would include azithromycin, rifampin, and ethambutol three times weekly.A bronchoscopy (Option B) is not required because this patient already has two sputum cultures positive for M. avium. If a patient is unable to produce sputum for culture, inducing a deep cough with hypertonic saline or performing a bronchoscopy would be appropriate.Surgical lung resection (Option C) is an adjuvant treatment option reserved for select patients who have not responded to medical management. This patient has not yet initiated antibiotic treatment, so surgical resection is not indicated.An association between aspiration and pulmonary infection with nontuberculous mycobacteria (specifically Mycobacterium fortuitum) has been reported, although rare. However, a swallow study (Option D) is not necessary currently because this patient does not have dysphagia.This patient has symptoms of cough, fatigue, and weight loss. Additionally, she meets microbiologic criteria for diagnosis of MAC infection. Therefore, observation would not be appropriate (Option E).",
+  "critique_links": [],
   "key_points": [
     "Diagnosis of Mycobacterium avium complex (MAC) infection requires all of the following criteria be met: pulmonary symptoms, microbiologic results (M. avium isolated from more than one sputum culture), characteristic radiologic findings such as nodular or cavitary opacities or tree-in-bud opacities, and exclusion of other diagnoses.",
     "Treatment for MAC infection is specific antibiotic therapy; treatment should be continued for at least 12 months after culture conversion."
@@ -63,5 +64,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:46:44.839603-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "idfig24201",
+        "file": "figures/idfig24201.334f95f0dc585f35eb05b638fe8e0251.png",
+        "title": "Chest CT Showing MAC Infection",
+        "short_title": "MAC Chest CT",
+        "number": null,
+        "footnotes": [],
+        "extension": "png",
+        "width": 624,
+        "height": 468
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.333689-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 52-year-old patient is evaluated in the emergency department for nausea, vomiting, and abdominal discomfort that have been progressively worsening over the course of the past 5 days. The patient has well-controlled type 2 diabetes mellitus. Their fasting blood glucose values have been in the range of 100 to 130 mg/dL (5.6-7.2 mmol/L), and random blood glucose values have been less than 220 mg/dL (12.2 mmol/L). The patient's last hemoglobin A1c measurement was 6.9%. They report no fever, chills, or respiratory symptoms. They also have hypertension and obesity. Medications are metformin, empagliflozin, sitagliptin, and lisinopril.On physical examination, temperature is 36.6 °C (97.8 °F), blood pressure is 110/78 mm Hg, pulse rate is 102/min, and respiration rate is 18/min. BMI is 35. Lethargy, decreased skin turgor, and dry mucous membranes are observed. Mild generalized abdominal tenderness without guarding is present.",
+  "question_text": "A 52-year-old patient is evaluated in the emergency department for nausea, vomiting, and abdominal discomfort that have been progressively worsening over the course of the past 5 days. The patient has well-controlled type 2 diabetes mellitus. Their fasting blood glucose values have been in the range of 100 to 130 mg/dL (5.6-7.2 mmol/L), and random blood glucose values have been less than 220 mg/dL (12.2 mmol/L). The patient's last hemoglobin A1c measurement was 6.9%. They report no fever, chills, or respiratory symptoms. They also have hypertension and obesity. Medications are metformin, empagliflozin, sitagliptin, and lisinopril.On physical examination, temperature is 36.6 °C (97.8 °F), blood pressure is 110/78 mm Hg, pulse rate is 102/min, and respiration rate is 18/min. BMI is 35. Lethargy, decreased skin turgor, and dry mucous membranes are observed. Mild generalized abdominal tenderness without guarding is present.Laboratory studies:Creatinine1.2 mg/dL (106 μmol/L)ElectrolytesSodium140 mEq/L (140 mmol/L)Potassium4.0 mEq/L (4.0 mmol/L)Chloride104 mEq/L (104 mmol/L)Bicarbonate14 mEq/L (14 mmol/L)LGlucose190 mg/dL (10.5 mmol/L)H",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Measuring this patient's serum β-hydroxybutyrate level (Option C) is the most appropriate diagnostic test to perform next. This patient's symptoms of nausea, vomiting, and abdominal discomfort, along with an elevated anion gap acidosis (22 mEq/L [22 mmol/L]), are highly suggestive of diabetic ketoacidosis (DKA). Euglycemic DKA is a well-documented complication in patients with type 2 diabetes mellitus who are taking sodium-glucose cotransporter 2 (SGLT2) inhibitors, and clinicians should have a high level of suspicion for euglycemic DKA in such patients who present with nausea, emesis, and malaise. SGLT2 inhibitors can mask hyperglycemia by lowering blood glucose levels while the underlying insulin deficiency persists and leads to ketone production. Euglycemic DKA is more likely to occur in patients with decreased oral intake, vomiting, dehydration, infection, or major illness. Serum β-hydroxybutyrate measurement is the gold standard for diagnosing and monitoring the severity of ketosis in DKA. This patient is taking empagliflozin, an SGLT2 inhibitor, and is presenting with symptoms and laboratory findings suggestive of euglycemic DKA.This patient's clinical presentation, especially in the context of their type 2 diabetes and SGLT2 inhibitor use, strongly suggests DKA, and serum ketone levels should be assessed. Blood cultures (Option A) may be helpful if an underlying infection is suspected but would not be diagnostic for DKA.A complete blood count (Option B) will not be diagnostic for euglycemic DKA for this patient. Although it may help assess for infection or other blood-related abnormalities, it does not directly evaluate the patient's metabolic status or ketone levels.Although urinalysis (Option D) can help detect the presence of ketones in the urine, it is less reliable than measuring serum β-hydroxybutyrate, especially in patients with euglycemic DKA. Urine dipstick detects acetone and acetoacetate but not β-hydroxybutyrate; therefore, in diabetic ketoacidosis in which β-hydroxybutyrate is the primary ketone, the dipstick underestimates ketone excretion.",
+  "critique_links": [],
   "key_points": [
     "In patients with type 2 diabetes mellitus who are taking sodium-glucose cotransporter 2 inhibitors, euglycemic diabetic ketoacidosis (DKA) is a well-documented complication, and clinicians should have a high level of suspicion for euglycemic DKA when such patients present with nausea, emesis, and malaise.",
     "Serum β-hydroxybutyrate measurement is the gold standard for diagnosing and monitoring the severity of ketosis in diabetic ketoacidosis."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:23.574111-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.101822-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 59-year-old man is hospitalized for headaches, confusion, and unsteady gait that have worsened during the past 2 weeks. He has end-stage liver disease, esophageal varices, and a history of spontaneous bacterial peritonitis. Medications are ciprofloxacin, spironolactone, and furosemide.On physical examination, temperature is 37.8 °C (100.1 °F), blood pressure is 97/58 mm Hg, pulse rate is 101/min, and respiration rate is 18/min. Oxygen saturation is 95% with the patient breathing ambient air. The patient is oriented to self but not time or place. Jaundice and scleral icterus are noted. His abdomen is distended because of ascites and is nontender to palpation.Cerebrospinal fluid studies:Opening pressure240 mm H2OHLeukocyte count54/μL (54 × 106/L); 20% polymorphonuclear cells, 78% lymphocytes, and 2% monocytesHGlucose40 mg/dL (2.2 mmol/L)LProtein80 mg/dL (800 mg/L)HA Gram stain of cerebrospinal fluid reveals yeast forms.CT scan of the head is normal.",
   "question_stem": "Which of the following is the most likely cause of this patient's infection?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Infection with Cryptococcus neoformans (Option C) is the most likely diagnosis. Cryptococcus is an encapsulated yeast that is ubiquitous in the environment. Patients with immunocompromising conditions, such as advanced HIV infection, malignancy, cirrhosis, organ transplantation, and prolonged glucocorticoid use, are most affected, but infection can also occur in healthy persons. C. neoformans is the most commonly identified species. This organism is also the most common cause of fungal meningitis, which presents as lymphocytic, subacute meningitis. Signs and symptoms include fever, headache, nausea/vomiting, meningism, and altered mental status. Cerebrospinal fluid (CSF) analysis is essential to diagnose central nervous system (CNS) involvement. In addition to elevated opening pressure on lumbar puncture, classic CSF findings include the following:Increased leukocyte count (mainly lymphocytes)Increased protein levelLow to normal glucose levelYeast on Gram stain or culturePresence of cryptococcal antigenThis patient's history of end-stage liver disease, symptoms, and CSF laboratory findings are consistent with cryptococcal meningitis.Patients at the highest risk for candidemia are those who are immunocompromised, who have had recent abdominal surgery or trauma, or who are in the ICU. Candida albicans (Option A) is not a common cause of meningitis, especially in the absence of instrumentation of the CNS or indwelling hardware, such as a ventricular shunt.Coccidioides immitis and Histoplasma capsulatum (Options B, D) are dimorphic fungi and therefore found in yeast form on direct clinical samples. Dimorphics are difficult to cultivate from clinical specimens but are found in mycelial (mold) form when isolated through fungal cultures. Although disseminated infection resulting from coccidioidomycosis and histoplasmosis increase the risk for meningitis, the frequency of CNS involvement is much lower than with Cryptococcus species. CSF analysis most commonly demonstrates lymphocytic pleocytosis, although eosinophilic meningitis can also occur in coccidioidomycosis, and these organisms are rarely seen on direct microscopy of CSF.",
+  "critique_links": [],
   "key_points": [
     "Cryptococcus neoformans is the most common cause of fungal meningitis, and the patients most affected are those with immunocompromising conditions such as advanced HIV infection, malignancy, cirrhosis, organ transplantation, and prolonged glucocorticoid use."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.121331-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Cerebrospinal fluid studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.562531-06:00"
 }

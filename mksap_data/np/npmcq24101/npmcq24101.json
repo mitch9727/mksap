@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 34-year-old woman is evaluated in the hospital 3 days after admission for lupus nephritis. Today she reports nausea with poor oral intake, polydipsia, and polyuria. Since admission, she has been treated with daily intravenous methylprednisolone and twice-daily mycophenolate mofetil. Medical history is notable for recently diagnosed systemic lupus erythematosus and type 2 diabetes mellitus, for which she had been taking metformin.On physical examination, temperature is 37.2 °C (99.0 °F), blood pressure is 140/88 mm Hg, pulse rate is 94/min, and respiration rate is 18/min. Oxygen saturation is 98% with the patient breathing ambient air. The remainder of the examination is normal.",
+  "question_text": "A 34-year-old woman is evaluated in the hospital 3 days after admission for lupus nephritis. Today she reports nausea with poor oral intake, polydipsia, and polyuria. Since admission, she has been treated with daily intravenous methylprednisolone and twice-daily mycophenolate mofetil. Medical history is notable for recently diagnosed systemic lupus erythematosus and type 2 diabetes mellitus, for which she had been taking metformin.On physical examination, temperature is 37.2 °C (99.0 °F), blood pressure is 140/88 mm Hg, pulse rate is 94/min, and respiration rate is 18/min. Oxygen saturation is 98% with the patient breathing ambient air. The remainder of the examination is normal.Laboratory studies:Blood urea nitrogen84 mg/dL (30.0 mmol/L)HCreatinine1.8 mg/dL (159.1 µmol/L)HElectrolytesHSodium148 mEq/L (148 mmol/L)HPotassium5.0 mEq/L (5.0 mmol/L)HChloride114 mEq/L (114 mmol/L)HBicarbonate24 mEq/L (24 mmol/L)HGlucose204 mg/dL (11.3 mmol/L)HUrine osmolality600 mOsm/kg H2OHUrine sodium30 mEq/L (30 mmol/L)HUrine potassium18 mEq/L (18 mmol/L)H24-Hour urine volume3200 mL/dH",
   "question_stem": "Which of the following is the most likely cause of this patient's hypernatremia?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely cause of this patient's hypernatremia is osmotic diuresis (Option C) due to high urea and glucose concentrations from methylprednisolone administration and compounded by nausea and poor oral intake. Polyuria is defined as a urine volume >3 L/d, as seen in this patient, and can be categorized as a water diuresis (large amounts of dilute urine are excreted) or an osmotic diuresis (increased urination due to the presence of a solute). Urine osmolality is used to distinguish between the two types: A water diuresis has a urine osmolality of <100 mOsm/kg H2O, whereas an osmotic diuresis has a urine osmolality >300 mOsm/kg H2O, as seen here. Osmotic diuresis can be further categorized as electrolyte or nonelectrolyte (urea and glucose) diuresis. A nonelectrolyte diuresis is associated with a high-normal or elevated serum sodium concentration due to the loss of electrolyte free water in the urine. This patient has a nonelectrolyte osmotic diuresis; she has high blood urea nitrogen and glucose levels caused by methylprednisolone, and the majority of her urine osmolality is comprised of urea and glucose. It is possible to determine the amount of electrolyte free water that a patient is losing through the following formula:Volume[1-([Urine Sodium + Urine Potassium]/Serum Sodium)]Or, in this case,3.2 L[1-([30 mEq/L + 18 mEq/L]/148 mEq/L)] = 2.16This patient has an electrolyte free water loss of 2.16 L daily. To maintain a normal serum sodium concentration, she would need to drink >2.16 L of water to replace the water being lost and account for insensible water loss in perspiration and respiration. If the patient has access to water and intact thirst, hypernatremia can be avoided. In this case, her nausea is likely preventing adequate water intake.This patient is able to concentrate urine, as evidenced by her urine osmolality of 600 mOsm/kg H2O, and thus arginine vasopressin deficiency (central diabetes insipidus) (Option A) is not the cause of her hypernatremia.Although hypokalemia can be associated with polyuria and salt wasting, hyperkalemia (Option B) is not. This patient has a high-normal serum potassium level.Salt-wasting nephropathy (Option D) is a rare disorder that occurs in several inherited tubulopathies or occasionally after tubular injury. In salt-wasting nephropathy, sodium excretion is greater than sodium intake and thus salt wasting is associated with decreased intravascular volume and hypotension. This patient has a high-normal blood pressure, making salt-wasting nephropathy an unlikely cause of her hypernatremia.",
+  "critique_links": [],
   "key_points": [
     "Polyuria due to an osmotic diuresis is characterized by a urine volume of >3 L/day and a urine osmolality >300 mOsm/kg H2O.",
     "A nonelectrolyte osmotic diuresis caused by elevated urea and/or glucose is associated with a high-normal or elevated serum sodium concentration due to urinary loss of electrolyte free water."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:17.662468-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.867046-06:00"
 }

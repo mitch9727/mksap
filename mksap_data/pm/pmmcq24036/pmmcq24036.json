@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 52-year-old woman is evaluated before a planned mountain-climbing trip to Mount Kilimanjaro (elevation, 5895 meters [19,341 feet]). She has been training for 2 months, frequently works out at the gym, and recently ran in a 10K race without difficulty. Two years ago, she developed a headache with nausea while skiing in Colorado (elevation, 2900 meters [9514 feet]); at that time, symptoms took several days to resolve. She would like to avoid a similar episode on her upcoming trip. She has no other medical history.On physical examination, vital signs and other findings are unremarkable.She is counseled regarding the need for a gradual ascent and the symptoms of high-altitude cerebral and pulmonary edema.",
   "question_stem": "Which of the following is the most appropriate prophylaxis to prevent acute mountain sickness in this patient?",
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate prophylaxis to prevent acute mountain sickness (AMS) in this patient is acetazolamide (Option A). AMS occurs with ascent to altitude secondary to the lower barometric pressure with resultant hypobaric hypoxemia. The presentation of AMS is nonspecific and can include headache, fatigue, nausea, and sleep disruption; symptoms typically resolve over 24 to 48 hours. Symptoms of mental status changes and dyspnea are not seen in AMS and should prompt consideration of high-altitude cerebral edema and pulmonary edema (). AMS is estimated to affect as many as 25% of visitors to elevations greater than 2000 meters (6562 feet), the elevation of many western U.S. towns. Gradual ascent and avoidance of heavy exertion and alcohol consumption may decrease the incidence and severity of symptoms. Acetazolamide is effective in the prevention of AMS, although the mechanisms by which it helps accelerate the acclimatization process are unclear. Adverse effects include paresthesia and inability to sense carbonation in carbonated beverages. Persons who have had AMS before and are ascending to elevations above 2500 meters (8202 feet) should be offered prophylaxis with acetazolamide, especially if rapid ascent is planned. This patient had an episode of AMS 2 years ago and should be offered acetazolamide.Hydrochlorothiazide (Option B) is a diuretic medication used to treat hypertension. It has never been studied in AMS and is not indicated in this patient.Ibuprofen (Option C) and aspirin have been used to treat the headache that accompanies AMS; however, their role in prevention of AMS is less clear. Studies have shown no benefit in high-risk scenarios, such as a rapid ascent to a high altitude. Ibuprofen should thus not be used for prophylaxis in this patient.Nifedipine (Option D) use can be considered in patients at high risk for high-altitude pulmonary edema, which is caused by pulmonary vascular constriction in response to hypoxemia. High-altitude pulmonary edema occurs at altitudes greater than 2500 meters (8202 feet) and presents with cough, exertional intolerance, and dyspnea at rest. It usually occurs 2 to 4 days after arrival at the high altitude; this is a critical difference from AMS, which occurs within hours of arrival at altitude. Nifedipine is not indicated for prevention of AMS, however, and is unnecessary in this patient.",
+  "critique": "The most appropriate prophylaxis to prevent acute mountain sickness (AMS) in this patient is acetazolamide (Option A). AMS occurs with ascent to altitude secondary to the lower barometric pressure with resultant hypobaric hypoxemia. The presentation of AMS is nonspecific and can include headache, fatigue, nausea, and sleep disruption; symptoms typically resolve over 24 to 48 hours. Symptoms of mental status changes and dyspnea are not seen in AMS and should prompt consideration of high-altitude cerebral edema and pulmonary edema (Table: Spectrum of High Altitude–Related Illness Syndromes). AMS is estimated to affect as many as 25% of visitors to elevations greater than 2000 meters (6562 feet), the elevation of many western U.S. towns. Gradual ascent and avoidance of heavy exertion and alcohol consumption may decrease the incidence and severity of symptoms. Acetazolamide is effective in the prevention of AMS, although the mechanisms by which it helps accelerate the acclimatization process are unclear. Adverse effects include paresthesia and inability to sense carbonation in carbonated beverages. Persons who have had AMS before and are ascending to elevations above 2500 meters (8202 feet) should be offered prophylaxis with acetazolamide, especially if rapid ascent is planned. This patient had an episode of AMS 2 years ago and should be offered acetazolamide.Hydrochlorothiazide (Option B) is a diuretic medication used to treat hypertension. It has never been studied in AMS and is not indicated in this patient.Ibuprofen (Option C) and aspirin have been used to treat the headache that accompanies AMS; however, their role in prevention of AMS is less clear. Studies have shown no benefit in high-risk scenarios, such as a rapid ascent to a high altitude. Ibuprofen should thus not be used for prophylaxis in this patient.Nifedipine (Option D) use can be considered in patients at high risk for high-altitude pulmonary edema, which is caused by pulmonary vascular constriction in response to hypoxemia. High-altitude pulmonary edema occurs at altitudes greater than 2500 meters (8202 feet) and presents with cough, exertional intolerance, and dyspnea at rest. It usually occurs 2 to 4 days after arrival at the high altitude; this is a critical difference from AMS, which occurs within hours of arrival at altitude. Nifedipine is not indicated for prevention of AMS, however, and is unnecessary in this patient.",
+  "critique_links": [],
   "key_points": [
     "The symptoms of acute mountain sickness include headache, fatigue, nausea, and sleep disruption; symptoms typically resolve over 24 to 48 hours.",
     "In a patient with a previous episode of acute mountain sickness, prophylaxis with acetazolamide is appropriate before another ascent to a high elevation (>2500 meters [8202 feet])."
@@ -52,11 +53,32 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/pmtab24046.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.014579-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "pmtab24046",
+        "file": "tables/pmtab24046.html",
+        "title": "Characteristics of High Altitude–Related Illness Syndromes",
+        "short_title": "Spectrum of High Altitude–Related Illness Syndromes",
+        "footnotes": [],
+        "headers": [
+          "Illness",
+          "Elevation Level",
+          "Symptoms",
+          "Treatment",
+          "Prevention"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.092468-06:00"
 }

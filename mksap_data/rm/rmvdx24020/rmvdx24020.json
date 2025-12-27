@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 26-year-old man is evaluated for longstanding pain in the low back and buttocks that awakens him at night. Radiographs of the sacroiliac joints and lumbar spine are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is ankylosing spondylitis (Option A). The initial radiographic findings of ankylosing spondylitis include irregularities along the margins of the sacroiliac joints, leading to eventual ankylosis and fusion. Inflammation of the ligamentous attachments erodes the corners of the vertebral bodies, which produces a squared-off appearance (arrow). Syndesmophytes (arrowheads) represent bony growth of spinal ligaments and can be distinguished from osteophytes by their predominantly vertical orientation; osteophytes usually are oriented horizontally. Over time, ossification of the spinal ligaments leads to the development of a rigid bamboo spine, named because the shape of the vertebrae resembles bamboo on radiography.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/rmfig24624.f7f22cc2d36991c1fcc1b29416e4f048.jpg",
-      "figures/rmfig24623.f932c8295974eb101bbfe777cc53bc79.jpg"
+      "figures/rmfig24623.f932c8295974eb101bbfe777cc53bc79.jpg",
+      "figures/rmfig24624.f7f22cc2d36991c1fcc1b29416e4f048.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:05.969113-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "rmfig24623",
+        "file": "figures/rmfig24623.f932c8295974eb101bbfe777cc53bc79.jpg",
+        "title": "Radiographs Showing Ankylosing Spondylitis",
+        "short_title": "stem Radiographs Showing Ankylosing Spondylitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 650
+      },
+      {
+        "figure_id": "rmfig24624",
+        "file": "figures/rmfig24624.f7f22cc2d36991c1fcc1b29416e4f048.jpg",
+        "title": "Radiograph Showing Ankylosing Spondylitis",
+        "short_title": "crit Radiograph Showing Ankylosing Spondylitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 644,
+        "height": 1029
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.911828-06:00"
 }

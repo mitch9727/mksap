@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 33-year-old woman is evaluated for progressive left arm weakness and dizziness for the past few months that are both exacerbated by arm elevation. She is also experiencing fatigue and headaches but reports no other symptoms. She takes no medications.On physical examination, blood pressure is 90/70 mm Hg on the left and 150/95 mm Hg on the right. The left radial pulse is diminished. A bruit is heard on auscultation over the left subclavicular area.",
+  "question_text": "A 33-year-old woman is evaluated for progressive left arm weakness and dizziness for the past few months that are both exacerbated by arm elevation. She is also experiencing fatigue and headaches but reports no other symptoms. She takes no medications.On physical examination, blood pressure is 90/70 mm Hg on the left and 150/95 mm Hg on the right. The left radial pulse is diminished. A bruit is heard on auscultation over the left subclavicular area.Laboratory studies:Hemoglobin11.6 g/dL (116 g/L)LPlatelet count498,000/µL (498 × 109/L)HC-reactive protein13.5 mg/dL (135 mg/L)H",
   "question_stem": "Which of the following is the best next step in management for this patient?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Magnetic resonance angiography (Option D) is the best next step in management because it could potentially provide a definitive diagnosis in this patient, who most likely has Takayasu arteritis (TA). TA causes inflammation of the large vessels, most commonly the aorta followed by the subclavian, common carotid, and renal arteries; the pulmonary arteries may also be involved. TA manifestations include new-onset hypertension, lightheadedness, constitutional symptoms, limb claudication, tenderness over the carotid arteries, reduced pulses, arterial bruits, and blood pressure discrepancies between the arms. Although any branch of the aorta can be involved with TA, the most common pattern is left subclavian artery involvement (approximately 95%), followed by bilateral subclavian artery (approximately 60%) and carotid artery (approximately 40%) involvement. Involvement of the subclavian artery can make blood pressure readings unreliable in one or both arms, masking the true blood pressure, which may be elevated. Unilateral/bilateral renal artery involvement (approximately 25%) is common, as is suprarenal abdominal aortic involvement (approximately 80%), which commonly lead to hypertension in these patients. This patient's clinical presentation suggests a subclavian steal syndrome, with symptoms occurring with use of the left arm; a high index of suspicion for a large-vessel vasculitis is needed based on her other symptoms and signs. Vessel imaging using magnetic resonance angiography (preferred), fluorodeoxyglucose PET, and CT angiography is recommended and frequently diagnostic. Thus, this patient should undergo magnetic resonance angiography.ANCA-associated vasculitis is a small-vessel vasculitis. This patient has no clinical features to suggest a small-vessel vasculitis; therefore, ANCA testing (Option A) is not indicated.Giant cell arteritis is a large-vessel vasculitis that typically affects patients older than 50 years. Clinical manifestations include headache and scalp tenderness over the temporal artery. Considering this patient's age and lack of consistent scalp tenderness, giant cell arteritis is unlikely, and a temporal artery biopsy (Option B) would provide low diagnostic yield.Starting antihypertensive therapy, such as lisinopril (Option C), may be indicated in this patient, but it would not help to make a diagnosis. Hypertension is likely a secondary symptom in younger patients, and diagnosing and treating the underlying primary disorder is indicated.",
+  "critique_links": [],
   "key_points": [
     "Vessel imaging using magnetic resonance angiography (preferred), fluorodeoxyglucose PET, and CT angiography is recommended in patients with suspected Takayasu arteritis and is frequently diagnostic."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:05.847115-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.859417-06:00"
 }

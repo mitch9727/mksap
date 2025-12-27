@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 55-year-old woman is evaluated for cough and shortness of breath with exertion for the past 2 months, accompanied by a 4.5-kg (10-lb) weight loss. She is otherwise healthy and takes no medications.On physical examination, vital signs are normal. Examination reveals decreased breath sounds in the lower right lung field.Chest radiograph reveals right lower lobe opacity, and CT scan of the chest reveals a large right lower lobe mass, mediastinal lymphadenopathy, and a right adrenal mass. PET/CT scan demonstrates foci of fluorodeoxyglucose avidity consistent with metastases in the liver and right adrenal gland.CT-guided biopsy of a liver mass reveals adenocarcinoma. Testing for driver alterations is negative.",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient with metastatic non–small cell lung cancer (NSCLC) without a driver alteration should be tested for PD-L1 expression (Option B) to predict responsiveness to immunotherapy. Metastatic NSCLC (stage IV) is defined as disease that has spread to distant sites, such as the liver, bone, or brain. Treatment of metastatic NSCLC is directed by the patient's performance status, cancer subtype, the presence of driver alterations (epidermal growth factor receptor, ALK, ROS1), and PD-L1 expression. If an actionable genomic alteration is present, targeted therapy is preferred because of its higher efficacy and lower toxicity than chemo-immunotherapy. In patients without a driver alteration, preferred therapy consists of an immune checkpoint inhibitor either alone or in combination with chemotherapy and/or a second immune checkpoint inhibitor. Tumor expression of PD-L1 activity predicts response to immunotherapy, although immunotherapy improves survival regardless of PD-L1 status. In patients without driver alterations and high PD-L1 activity, immunotherapy is an effective single-agent treatment. Immunotherapy is combined with chemotherapy in those with lower PD-L1 activity. This patient with metastatic NSCLC lacking driver alterations should be tested for PD-L1 activity to determine whether the initial treatment should be immunotherapy alone or in combination with chemotherapy.Mediastinal node sampling (Option A), employed in the staging of early NSCLC, is not necessary in patients with evident distant metastatic disease, such as this patient.Pulmonary function testing (Option C) is indicated in patients who are being considered for surgery for early-stage disease, but it has no role in the management of patients with metastatic disease.Measurement of urinary metanephrines and catecholamines (Option D) is an appropriate test to evaluate for a pheochromocytoma, but this patient's adrenal mass is consistent with metastatic NSCLC, and testing for a rare second cancer in this setting would be low yield.",
+  "critique_links": [],
   "key_points": [
     "PD-L1 expression predicts response to immunotherapy in patients with metastatic non–small cell lung cancer without driver alterations."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:51:14.778213-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:31.590534-06:00"
 }

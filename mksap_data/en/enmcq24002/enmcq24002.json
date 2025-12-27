@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 64-year-old man is evaluated for recurrent hypoglycemia that occurs three to four times per week. During these episodes, he feels sweaty and tremulous. A fingerstick blood glucose measurement during one such episode yesterday was 54 mg/dL (3.0 mmol/L). After ingestion of glucose, his blood glucose level and symptoms improve. Medical conditions are type 2 diabetes mellitus, stage G2 chronic kidney disease, hypertension, obesity, and hyperlipidemia. Medications are metformin, semaglutide, glipizide, dapagliflozin, lisinopril, and atorvastatin.On physical examination, vital signs and other findings are unremarkable. BMI is 31.",
+  "question_text": "A 64-year-old man is evaluated for recurrent hypoglycemia that occurs three to four times per week. During these episodes, he feels sweaty and tremulous. A fingerstick blood glucose measurement during one such episode yesterday was 54 mg/dL (3.0 mmol/L). After ingestion of glucose, his blood glucose level and symptoms improve. Medical conditions are type 2 diabetes mellitus, stage G2 chronic kidney disease, hypertension, obesity, and hyperlipidemia. Medications are metformin, semaglutide, glipizide, dapagliflozin, lisinopril, and atorvastatin.On physical examination, vital signs and other findings are unremarkable. BMI is 31.Laboratory studies:Creatinine1.3 mg/dL (115 μmol/L)Hemoglobin A1c6.5%H",
   "question_stem": "Which of the following medications should be discontinued?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Glipizide should be discontinued in this patient (Option B). Glipizide is a sulfonylurea used to treat type 2 diabetes mellitus. Sulfonylureas stimulate the pancreas to release more insulin, which can cause plasma glucose levels to drop. Although this mechanism accounts for the initial efficacy of sulfonylureas in treating type 2 diabetes, hypoglycemia can occur, especially if the dosage is too high or the patient does not eat enough after taking the medication. Sulfonylureas pose a higher risk for hypoglycemia compared with other agents. They also cause weight gain, potentially contributing to further insulin resistance. Sulfonylureas are not associated with improved cardiovascular, kidney, or weight outcomes, and they are not considered a first-line treatment for type 2 diabetes. These agents should be used with caution in patients with kidney impairment. This patient's type 2 diabetes is well controlled, but he is experiencing frequent episodes of hypoglycemia. In addition to the acute risks associated with hypoglycemia, severe recurrent hypoglycemia is associated with greater risk for cognitive impairment, dementia, and mortality. Discontinuing glipizide should help resolve this patient's recurrent hypoglycemia.Dapagliflozin (Option A), a sodium-glucose cotransporter 2 (SGLT2) inhibitor, stimulates renal excretion of glucose and effectively lowers serum glucose independent of insulin. For this reason, there is a low risk for hypoglycemia with SGLT2 inhibitors. Trials have demonstrated significant benefit of SGLT2 inhibitors in both cardiovascular and kidney disease outcomes. SGLT2 inhibitors are also associated with modest weight loss. Therefore, dapagliflozin would not be the most appropriate medication to discontinue in this patient.Metformin (Option C) is not known to cause hypoglycemia. Its primary mechanisms of action are reducing hepatic glucose production and increasing insulin sensitivity in the peripheral tissues. Unlike sulfonylureas, metformin does not stimulate insulin release from the pancreas. Metformin can be safely used in patients with stage G2 chronic kidney disease, such as this patient, but is contraindicated in patients with an estimated glomerular filtration rate lower than 30 mL/min/1.73 m2 (stages G4 and G5).Semaglutide (Option D), a glucagon-like peptide 1 receptor agonist (GLP-1 RA), would not be the most appropriate medication to discontinue in this patient. GLP-1 RAs are associated with a relatively low risk for hypoglycemia and have demonstrated significant risk reductions in atherosclerotic cardiovascular disease and diabetic kidney disease. GLP-1 RAs are also associated with weight loss.",
+  "critique_links": [],
   "key_points": [
     "Sulfonylureas stimulate the pancreas to release more insulin; although this mechanism of action accounts for their initial efficacy in treating type 2 diabetes mellitus, they can also cause hypoglycemia.",
     "Sulfonylureas pose a higher risk for hypoglycemia compared with other antidiabetic agents, and they also cause weight gain, potentially contributing to further insulin resistance."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:18.024679-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.068731-06:00"
 }

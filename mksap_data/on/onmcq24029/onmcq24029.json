@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 65-year-old woman is evaluated in the emergency department for a 1-day history of fever, chills, and diarrhea. Medical history is significant for diffuse large B-cell lymphoma, for which she is currently receiving chemotherapy. Her last dose was 1 week ago. She also has type 2 diabetes mellitus and takes metformin and atorvastatin.On physical examination, temperature is 39.2 °C (102.6 °F), blood pressure is 110/74 mm Hg, pulse rate is 120/min, and respiration rate is 14/min. Oxygen saturation is 95% with the patient breathing ambient air. There is slight diffuse tenderness in the abdomen, with no rebound or guarding.Chest radiograph shows no abnormalities.Blood cultures, urinalysis, and urine cultures are obtained. Treatment is initiated with intravenous fluids.",
+  "question_text": "A 65-year-old woman is evaluated in the emergency department for a 1-day history of fever, chills, and diarrhea. Medical history is significant for diffuse large B-cell lymphoma, for which she is currently receiving chemotherapy. Her last dose was 1 week ago. She also has type 2 diabetes mellitus and takes metformin and atorvastatin.On physical examination, temperature is 39.2 °C (102.6 °F), blood pressure is 110/74 mm Hg, pulse rate is 120/min, and respiration rate is 14/min. Oxygen saturation is 95% with the patient breathing ambient air. There is slight diffuse tenderness in the abdomen, with no rebound or guarding.Laboratory studies:Absolute neutrophil count400/μL (0.4 × 109/L)LHemoglobin8 g/dL (80 g/L)LLeukocyte count1100/μL (1.1 × 109/L)LPlatelet count100,000/μL (100 × 109/L)LChest radiograph shows no abnormalities.Blood cultures, urinalysis, and urine cultures are obtained. Treatment is initiated with intravenous fluids.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient with neutropenic fever is to begin piperacillin-tazobactam (Option B). Febrile neutropenia is defined as neutropenia accompanied by a single temperature of 101.0 °F (38.3 °C) or a sustained (for ≥1 hour) temperature of 100.4 °F (38.0 °C). It typically occurs 5 to 15 days after chemotherapy administration. Serious infectious complications are more likely with increasing severity (absolute neutrophil count <500/µL [0.5 × 109/L]) and longer duration of neutropenia. Immediate institution of antibiotic therapy after obtaining blood cultures is crucial. Therapy consists of an intravenous antipseudomonal β-lactam agent such as cefepime or piperacillin/tazobactam. Other antimicrobials, such as fluoroquinolones or vancomycin, can be added if antimicrobial resistance is suspected or for managing patients with shock or pneumonia. Specific anaerobic therapy (clindamycin or metronidazole) is not generally needed unless an anaerobic source is suspected. This patient has high-risk febrile neutropenia because her absolute neutrophil count is less than 500/μL (0.5 × 109/L). If there are no signs of antibiotic resistance, sepsis, pneumonia, or anaerobic infection, piperacillin-tazobactam is an appropriate choice for empiric antimicrobial coverage.Granulocyte colony-stimulating factor (Option A) is inappropriate initial management for a patient with febrile neutropenia due to chemotherapy. Immediate initiation of appropriate antimicrobial therapy is mandatory to prevent worsening infection and sepsis. Granulocyte colony-stimulating factor is not routinely used to treat patients with neutropenic fever but can be considered for those at high risk, including patients who have an expected prolonged and profound neutropenia; are age 65 years and older; are hospitalized at the time of fever occurrence; have uncontrolled primary disease; or have comorbidities, such as pneumonia, sepsis, or invasive fungal infection.The addition of vancomycin to cefepime (Option C) would be appropriate to manage neutropenic fever if there is concern for antibiotic resistance, sepsis, pneumonia, or a catheter-associated infection. A skin or soft-tissue infection should also prompt consideration of adding vancomycin. This patient, however, has no clear evidence of these conditions, and empiric vancomycin is not indicated.Discharge home with levofloxacin and amoxicillin-clavulanate (Option D) is inappropriate in this patient. Empiric outpatient treatment with a fluoroquinolone plus amoxicillin-clavulanate is possible in select low-risk patients. Patients with low-risk neutropenia who have ready access to care, have no significant comorbidities, are stable, and have a short anticipated duration of neutropenia may be considered for outpatient management. This patient has high-risk neutropenic fever and tachycardia and should be hospitalized.",
+  "critique_links": [],
   "key_points": [
     "Prompt initiation of an intravenous broad-spectrum antibiotic, such as cefepime or piperacillin-tazobactam, is required for patients with high-risk neutropenic fever.",
     "Empiric use of vancomycin in febrile neutropenia is limited to patients with hemodynamic instability or suspected antibiotic resistance, catheter-associated infection, skin or soft-tissue infection, or pneumonia."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:27:14.461310-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.723311-06:00"
 }

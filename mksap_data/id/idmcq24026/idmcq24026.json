@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 56-year-old woman is evaluated in the emergency department for nausea, vomiting, and abdominal pain of 3 days' duration. She also reports fever and chills; over the past 24 hours, she has noted dark urine and clay-colored stool. One week ago, she returned from a 3-week trip to Nepal where she spent time backpacking and staying in local villages; she did not seek preventative care before travel.On physical examination, temperature is 38.6 °C (101.5 °F), blood pressure is 120/70 mm Hg, and pulse rate is 102/min; respiration rate is normal. Scleral icterus is noted. Abdominal examination reveals hepatomegaly and right upper quadrant tenderness to palpation but no rebound or guarding.",
+  "question_text": "A 56-year-old woman is evaluated in the emergency department for nausea, vomiting, and abdominal pain of 3 days' duration. She also reports fever and chills; over the past 24 hours, she has noted dark urine and clay-colored stool. One week ago, she returned from a 3-week trip to Nepal where she spent time backpacking and staying in local villages; she did not seek preventative care before travel.On physical examination, temperature is 38.6 °C (101.5 °F), blood pressure is 120/70 mm Hg, and pulse rate is 102/min; respiration rate is normal. Scleral icterus is noted. Abdominal examination reveals hepatomegaly and right upper quadrant tenderness to palpation but no rebound or guarding.Laboratory studies:Hemoglobin13 g/dL (130 g/L)Platelet count350,000/µL (350 × 109/L)Alkaline phosphatase250 U/LHAlanine aminotransferase1840 U/LHAspartate aminotransferase1400 U/LHBilirubin, total6.1 mg/dL (104.3 µmol/L)H",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is acute hepatitis A virus infection (Option B). Hepatitis A is transmitted by the fecal-oral route through person-to-person contact or consumption of contaminated food or water. Infection occurs worldwide. Patients experience abrupt onset of nausea, vomiting, anorexia, and abdominal pain, frequently in the right upper quadrant. On physical examination, patients have fever, noticeable scleral icterus, jaundice, and hepatomegaly; the jaundice can last for several weeks. Laboratory abnormalities include elevated serum aminotransferase levels, usually greater than 1000 U/L, with the alanine aminotransferase level usually greater than aspartate aminotransferase, as well as elevated bilirubin and alkaline phosphatase levels. Most patients will fully recover within 2 to 3 months. Fulminant liver failure occurs in less than 1% of individuals and is more common in older persons and those with underlying liver disease, particularly chronic hepatitis C. Treatment consists of supportive care. Hepatitis A vaccination is recommended for nonimmune persons who are traveling to countries with high or intermediate endemicity.Epstein-Barr virus (Option A) presents as an acute mononucleosis syndrome with fever, sore throat, cervical and axillary lymphadenopathy, and splenomegaly. Elevated aminotransferase levels can be seen, but acute hepatitis with jaundice is rarely observed.Malaria (Option C) is a mosquito-borne illness that manifests with fever, headache, myalgia, and gastrointestinal symptoms. Laboratory abnormalities include anemia, thrombocytopenia, and elevated aminotransferase levels. This patient has a normal hemoglobin level and platelet count.Yellow fever (Option D) is a mosquito-borne viral hemorrhagic fever that manifests with liver dysfunction, kidney injury, coagulopathy, and shock. Yellow fever is transmitted by mosquitoes in South America and sub-Saharan Africa; it is not seen in those returning from Nepal.",
+  "critique_links": [],
   "key_points": [
     "Hepatitis A virus is transmitted by the fecal-oral route through person-to-person contact or consumption of contaminated food or water; patients experience abrupt onset of nausea, vomiting, anorexia, and abdominal pain, frequently in the right upper quadrant, followed by jaundice and hepatomegaly."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:46:47.553999-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.347945-06:00"
 }

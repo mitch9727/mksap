@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 52-year-old man is evaluated in the emergency department for heart palpitations that started 1 week ago. He has had no light-headedness, syncope, dyspnea, or chest pain. He has hypertrophic cardiomyopathy treated with metoprolol. He takes no other medications.On physical examination, blood pressure is 130/80 mm Hg, pulse rate is 88/min and irregularly irregular, and oxygen saturation is 98% breathing room air. The lungs are clear to auscultation. Cardiac examination reveals an irregular rhythm with no murmurs or extra sounds. No edema is noted.Laboratory studies, including thyroid-stimulating hormone level, are normal.An ECG shows atrial fibrillation with a rate of 82/min and left ventricular (LV) hypertrophy with repolarization abnormality. Echocardiogram, unchanged from a previous study, shows asymmetric LV hypertrophy with interventricular septal thickening and preserved LV function.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment for this patient with hypertrophic cardiomyopathy (HCM) and atrial fibrillation is apixaban (Option B). Atrial fibrillation is common in patients with HCM and should be managed with rate control and anticoagulation with early consideration of a rhythm control strategy. Rate control is important because during atrial fibrillation with rapid ventricular response, diastolic filling periods shorten, worsening diastolic dysfunction; the resultant reduced left ventricular (LV) filling may exacerbate the outflow tract gradient and worsen symptoms. In addition to rate control, patients with HCM and atrial fibrillation should receive anticoagulant therapy to prevent thromboembolic complications regardless of their CHA2DS2-VASc score. The 2020 American College of Cardiology/American Heart Association guidelines for the treatment of HCM recommend starting a direct oral anticoagulant such as apixaban or rivaroxaban as a first-line option and vitamin K antagonists as a second-line option. This patient with HCM has atrial fibrillation and should receive apixaban regardless of CHA2DS2-VASc score.Because of the risk for cardioversion and resultant thromboembolism, amiodarone (Option A) should not be started in a stable patient with atrial fibrillation who has not received anticoagulant therapy. Once appropriate anticoagulation has been achieved, consideration should be given to a rhythm control strategy because patients with HCM and atrial fibrillation often remain symptomatic despite rate control.Systemic anticoagulation to prevent thromboembolic complications is required in patients with underlying HCM and atrial fibrillation regardless of CHA2DS2-VASc score. Aspirin (Option C) does not provide adequate protection and should not be used in this setting.This patient has rate-controlled atrial fibrillation with metoprolol, and there is no need to add another atrioventricular nodal blocking agent, such as diltiazem (Option D), at this time. Metoprolol may be uptitrated if additional rate control is required in the short term; however, symptoms may persist despite rate control, and rhythm control along with anticoagulation should be considered.",
+  "critique_links": [],
   "key_points": [
     "Patients with hypertrophic cardiomyopathy (HCM) and atrial fibrillation should receive a direct oral anticoagulant such as apixaban or rivaroxaban to prevent thromboembolic complications regardless of their CHA2DS2-VASc score.",
     "Patients with atrial fibrillation in the setting of HCM often remain symptomatic despite rate control, and early consideration of a rhythm control strategy is warranted."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.661184-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:26.592186-06:00"
 }

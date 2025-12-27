@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 19-year-old man is evaluated for intermittent jaundice and scleral icterus. No associated symptoms occur during these episodes. He has no other medical conditions and takes no medications, nutritional supplements, or herbal medications.On physical examination, vital signs are normal. Mild scleral icterus and jaundice are noted. Abdominal examination is normal. There are no stigmata of advanced liver disease.Laboratory studies:Albumin4.3 g/dL (43 g/L)Alkaline phosphatase70 U/LAlanine aminotransferase22 U/LAspartate aminotransferase29 U/LBilirubinTotal3.8 mg/dL (65 µmol/L)H1 year ago: 2.3 mg/dL (39.3 µmol/L)HDirect0.4 mg/dL (6.8 µmol/L)H1 year ago: 0.3 mg/dL (5.1 µmol/L)Lactate dehydrogenase78 U/LHaptoglobin91 mg/dL (910 mg/L)Results of a complete blood count and peripheral blood smear are normal.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is reassurance (Option E). This patient has Gilbert syndrome, which is a common and benign disorder of bilirubin metabolism arising from variants in the promoter of the UGT1A1 gene. Gilbert syndrome most often presents in adolescence with episodes of mild jaundice precipitated by fasting, physical exertion, or stress and is otherwise asymptomatic. The diagnosis is usually based on clinical recognition of persistent unconjugated hyperbilirubinemia with otherwise normal liver test results. The total bilirubin level generally does not exceed 5 mg/dL (85.5 µmol/L). The differential diagnosis includes drug-induced hyperbilirubinemia and hemolysis. These should be excluded by a careful medication history and testing for hemolysis (complete blood count, haptoglobin, lactate dehydrogenase level, and a peripheral blood smear), as was done in this patient. Although genetic testing for UGT1A1 variants is available, it is usually not required unless the diagnosis is uncertain. No specific therapy is required other than reassurance; long-term outcomes are similar to those for the general population.Antimitochondrial antibody testing (Option A) is used to assess for primary biliary cholangitis (PBC). Like Gilbert syndrome, PBC is also often asymptomatic; however, it is instead associated with cholestasis. This patient's normal alkaline phosphatase level indicates that cholestasis is not present; therefore, antimitochondrial antibody testing is not indicated.Liver biopsy (Option B) can be performed to evaluate for a variety of disorders associated with intrahepatic cholestasis (e.g., antimitochondrial antibody–negative PBC, sarcoidosis, amyloidosis, disseminated fungal infection, mycobacterial infection) if serologic evaluation does not reveal the cause of cholestasis. The patient's normal alkaline phosphatase level indicates that he does not have cholestasis. A diagnosis of Gilbert syndrome is highly suggested by clinical history and laboratory evaluation, so a liver biopsy is not indicated.Magnetic resonance cholangiopancreatography (MRCP) (Option C) can be used in a patient with a new diagnosis of cholestatic liver injury to evaluate for large-duct (extrahepatic) biliary obstruction. This patient does not have cholestasis, as evidenced by his normal alkaline phosphatase level, and does not require MRCP.Ursodeoxycholic acid (Option D) is used to treat some conditions associated with cholestasis, such as PBC; it is not necessary for treatment of Gilbert syndrome.",
+  "critique_links": [],
   "key_points": [
     "Gilbert syndrome is a benign disorder of bilirubin metabolism that is associated with episodes of mild jaundice and unconjugated hyperbilirubinemia with otherwise normal liver test results."
   ],
@@ -55,10 +56,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.512789-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.654366-06:00"
 }

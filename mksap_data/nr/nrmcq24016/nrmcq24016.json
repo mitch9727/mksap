@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 56-year-old woman is evaluated in the emergency department for a 2-week history of confusion and aphasia of several days' duration. Medical history is significant for relapsing-remitting multiple sclerosis. Her previous relapses presented as optic neuritis and transverse myelitis, both of which resolved. Her only medication is natalizumab, which she has been taking for 2 years.On physical examination, vital signs are within normal limits. The patient is not oriented to time or hospital name. Her speech is limited to two- or three-word phrases, and she has trouble naming basic items. Strength and gait are intact.Complete blood cell count and comprehensive metabolic panel are normal. HIV testing is negative.Compared to a brain MRI from 1 year ago, several new multifocal hyperintense demyelinating white matter lesions are seen, with the largest in the left inferior frontal lobe.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate step is cerebrospinal fluid (CSF) testing for JC (John Cunningham) virus (Option D). Natalizumab is a monoclonal antibody that is a highly effective treatment for multiple sclerosis (MS), resulting in a reduction in relapse rates of 66%, a slowing of disability progression of 40%, and a reduction in MRI activity of 90%. Despite this efficacy, natalizumab is typically limited to use as a second-line agent because of the risk for progressive multifocal leukoencephalopathy (PML), a central nervous system demyelinating infection caused by reactivation of the JC virus. The risk for PML increases with treatment duration, with the greatest increase in risk occurring after 2 years of therapy. PML presents as mental status changes, ataxia, weakness, and visual changes. This patient has a presentation concerning for PML, with evidence of demyelination on MRI. Distinguishing MS relapse from PML on the basis of clinical and radiologic findings may be difficult, and polymerase chain reaction (PCR) testing of CSF for JC virus is required to establish the diagnosis. In patients treated with natalizumab, the drug should be immediately discontinued if PML is suspected.High-dose glucocorticoids (Option A) are standard treatment for MS relapse, but at this point it is unclear whether this patient's presentation represents an MS relapse or PML. High-dose glucocorticoids also have a role in treating the immune reconstitution inflammatory syndrome that can occur after discontinuing natalizumab, but the focus at this time needs to be on establishing the cause of this patient's symptoms.A change in disease-modifying therapy (DMT) for MS should be considered if disease breakthrough or significant treatment-related adverse events occur. However, it is unclear whether this patient's presentation represents disease breakthrough or PML. The immediate focus should be on making this distinction rather than choosing a new DMT, such as ocrelizumab (Option B).Brain biopsy (Option C) is the gold-standard test for PML; however, PCR testing of CSF for JC virus has good test characteristics and is the first-line test in this clinical situation. If the CSF test is negative but suspicion for PML remains high, brain biopsy may be needed.",
+  "critique_links": [],
   "key_points": [
     "The diagnosis of progressive multifocal leukoencephalopathy (PML) can be made with the presence of positive cerebrospinal fluid JC (John Cunningham) virus polymerase chain reaction results in conjunction with typical clinical and imaging findings.",
     "In patients treated with natalizumab, the drug should be immediately discontinued if PML is suspected."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:50:05.206422-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:31.168245-06:00"
 }

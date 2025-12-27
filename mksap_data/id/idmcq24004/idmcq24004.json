@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 55-year-old man is evaluated in the hospital 2 days after being admitted for fever and chills. At admission, a transthoracic echocardiogram showed an aortic valve with a 0.5-cm mobile vegetation; an ECG did not show evidence of conduction abnormalities. Empiric vancomycin and ceftriaxone were initiated. Medical history is otherwise unremarkable.On physical examination, the patient is improved. Temperature is 38.0 °C (100.4 °F), blood pressure is 110/68 mm Hg, and pulse rate is 95/min. Cardiac auscultation reveals a grade 3/6 systolic murmur over the right upper sternal border. The remainder of the examination is unremarkable.Two sets of blood cultures obtained on admission are growing Streptococcus gallolyticus.Vancomycin is discontinued.",
   "question_stem": "Which of the following is the most appropriate additional diagnostic test?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate additional diagnostic test is a colonoscopy (Option A). Streptococcus gallolyticus (previously Streptococcus bovis) is part of the normal gut flora. However, isolation of S. gallolyticus from blood cultures is associated with colon cancer in 60% to 80% of patients and can be associated with other gastrointestinal malignancies as well, such as hepatobiliary and pancreatic cancer. For this reason, S. gallolyticus bacteremia or endocarditis should prompt evaluation with colonoscopy to assess for colorectal cancer. Studies have shown tumors may develop several years after bacteremia; therefore, patients with a normal colonoscopy should be considered high risk and have close follow-up with serial evaluations.Dental panoramic radiography should be obtained in patients with viridans group streptococci (VGS) bacteremia or endocarditis (Option B). VGS, the most common cause of streptococcal endocarditis, are important commensal organisms of the oropharynx but may also be found in the upper respiratory tract, female genital tract, and the gastrointestinal tract. S. gallolyticus is not a VGS or part of the normal oral flora, so dental radiography would not be necessary.PET CT may be useful for staging metastatic disease but does not have a role in the initial evaluation of S. gallolyticus bacteremia (Option C). Thus, it would not be the most appropriate diagnostic test to obtain in this patient.Transesophageal echocardiography (TEE) is indicated for infective endocarditis when transthoracic echocardiography (TTE) is not diagnostic, especially in the setting of a prosthetic valve, intracardiac device, or myocardial abscess, which in turn is suggested by new conduction abnormalities on ECG or persistent bacteremia despite antibiotic therapy. This patient's initial TTE was diagnostic, so he has no indication for a TEE (Option D).",
+  "critique_links": [],
   "key_points": [
     "Streptococcus gallolyticus is part of the normal enteric flora, and bloodstream infection has been associated with gastrointestinal malignancy; therefore, colonoscopy is indicated when this organism is identified."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:45:33.675723-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:29.272056-06:00"
 }

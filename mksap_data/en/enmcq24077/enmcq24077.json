@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 54-year-old woman is evaluated for abnormal thyroid function test results. She was recently diagnosed with triple-negative breast cancer, and she began neoadjuvant chemotherapy with paclitaxel, carboplatin, and pembrolizumab 8 weeks ago. Two weeks ago, she began to experience mild tremors, increased anxiety, and diarrhea. These symptoms have improved slightly over the past couple of days. She reports no palpitations, heat intolerance, or weight loss.On physical examination, vital signs are normal. BMI is 21. Thyroid examination is normal. The patient exhibits bilateral hand tremors. The remainder of the examination is unremarkable.",
+  "question_text": "A 54-year-old woman is evaluated for abnormal thyroid function test results. She was recently diagnosed with triple-negative breast cancer, and she began neoadjuvant chemotherapy with paclitaxel, carboplatin, and pembrolizumab 8 weeks ago. Two weeks ago, she began to experience mild tremors, increased anxiety, and diarrhea. These symptoms have improved slightly over the past couple of days. She reports no palpitations, heat intolerance, or weight loss.On physical examination, vital signs are normal. BMI is 21. Thyroid examination is normal. The patient exhibits bilateral hand tremors. The remainder of the examination is unremarkable.Laboratory studies:Thyroid-stimulating hormone0.02 μU/mL (0.02 mU/L)LFree thyroxine2.6 ng/dL (34 pmol/L)HTotal triiodothyronine150 ng/dL (2.3 nmol/L)Thyrotropin receptor antibodyNegative",
   "question_stem": "In addition to starting atenolol, which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step is to monitor this patient with repeat thyroid function testing in 2 to 3 weeks (Option C). It is estimated that 10% of patients treated with immune checkpoint inhibitors (e.g., pembrolizumab, ipilimumab, nivolumab, atezolizumab) may develop an endocrinopathy, such as thyroid dysfunction, hypophysitis, adrenal insufficiency, or diabetes mellitus. The most common thyroid adverse event is hypothyroidism, and the median time to onset of thyroid dysfunction is about 6 weeks after starting the immune checkpoint inhibitor. Typically, patients first develop transient destructive thyroiditis, which generally resolves in approximately 6 weeks, followed by hypothyroidism. Patients in the thyroiditis phase with mild symptoms, such as this patient, are treated with supportive therapy, including β-blockers for symptomatic relief. Thyroid function should be measured every 2 to 3 weeks to monitor for the development of hypothyroidism, which is then treated with levothyroxine. This patient presented with symptoms of thyrotoxicosis 6 weeks after starting pembrolizumab, her biochemical evaluation is consistent with destructive thyroiditis, and she is clinically stable. Therefore, supportive care with repeat thyroid function testing in 2 to 3 weeks is appropriate.Immune checkpoint inhibitors may require temporary discontinuation in patients with thyrotoxicosis and moderate to severe symptoms until the thyrotoxicosis phase and associated symptoms improve. This patient has only mild symptoms that have already begun to resolve; therefore, pembrolizumab does not need to be held (Option A).Total thyroidectomy (Option B) is not indicated in patients with thyrotoxicosis related to immune checkpoint inhibitors given that thyrotoxicosis is transient and most patients subsequently develop hypothyroidism. Thyroidectomy would be indicated if the patient had underlying Graves disease, depending on the response to medical therapy and patient preference.In the majority of patients with thyrotoxicosis due to immune checkpoint inhibitors, thyrotoxicosis is caused by the destruction of thyroid follicular cells, leading to transient increases in thyroid hormone levels and subsequent progression to hypothyroidism. Therefore, methimazole (Option D) would not be indicated. Additionally, this patient had a negative thyrotropin receptor antibody level, indicating that she does not have Graves disease.",
+  "critique_links": [],
   "key_points": [
     "The most common thyroid adverse event in patients treated with immune checkpoint inhibitors is hypothyroidism, which is often preceded by destructive thyroiditis."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:58.146068-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.265479-06:00"
 }

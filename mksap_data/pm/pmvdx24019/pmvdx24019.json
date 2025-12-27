@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 77-year-old man is evaluated for worsening cough, hemoptysis, and weight loss. He smokes one pack of cigarettes per day.Chest radiographs are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The abnormality shown in these chest radiographs is most likely caused by right upper lobe endobronchial carcinoma (Option C). A homogeneous, sharply demarcated opacification is visible in the right upper chest on the frontal radiograph, accompanied by elevation of the right hemidiaphragm. Also seen is a modest superior and lateral displacement of the right hilum. The lateral chest film reveals opacification at the upper lung field. These findings are consistent with right upper lobe atelectasis. Lobar atelectasis is frequently caused by the obstruction of a bronchus by tumor, mucus plug, or aspirated material.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -56,5 +57,34 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.283511-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24631",
+        "file": "figures/pmfig24631.0717f7111e50f47b1f24531a327b263c.jpg",
+        "title": "Radiograph Showing Endobronchial Carcinoma",
+        "short_title": "stem 1 Radiograph Showing Endobronchial Carcinoma",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1015
+      },
+      {
+        "figure_id": "pmfig24632",
+        "file": "figures/pmfig24632.18033b907f3cecd808c3d2427b5aaf3a.jpg",
+        "title": "Radiograph Showing Endobronchial Carcinoma",
+        "short_title": "stem 2 Radiograph Showing Endobronchial Carcinoma",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1076
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.248549-06:00"
 }

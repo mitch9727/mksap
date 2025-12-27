@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 75-year-old woman is evaluated during a routine visit. She is asymptomatic. Medical history is significant for hypertension and coronary artery disease, treated with stent placement in the mid right coronary artery 5 years ago. Medications are metoprolol succinate, lisinopril, aspirin, and atorvastatin.On physical examination, vital signs are normal. On auscultation, the heart rhythm is irregularly irregular. The remainder of the examination is unremarkable.Serum liver chemistry test results and serum creatinine level are normal.An ECG shows atrial fibrillation.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment for this patient is to discontinue aspirin and begin apixaban (Option C). Patients with coronary artery disease (CAD) and atrial fibrillation who are at moderate to high risk for stroke (CHA2DS2-VASc score ≥2 in men and ≥3 in women) should be treated with oral anticoagulation to reduce the risk for thromboembolism. Direct oral anticoagulants (DOACs), such as dabigatran, rivaroxaban, edoxaban, and apixaban, are recommended over warfarin for nonvalvular atrial fibrillation. Although dose-adjusted warfarin is an effective low-cost option for stroke prevention in patients with atrial fibrillation, its chief limitations are the need for frequent INR monitoring and adjustment and numerous food and drug interactions. For these reasons, DOAC therapy is preferred. In this patient with a CHA2DS2-VASc score of 5 (1 point each for female sex, hypertension, and vascular disease; 2 points for age ≥75 years), aspirin should be discontinued, and apixaban should be initiated.Dual antiplatelet therapy, such as clopidogrel (Option A) plus aspirin, is often indicated in patients with CAD; however, it is insufficient for stroke prevention in patients at high risk.Combination therapy with oral anticoagulation and antiplatelet therapy, such as dabigatran (Option B) plus aspirin, is associated with significantly increased risk for bleeding and no apparent incremental benefit. In patients with atrial fibrillation and CAD, it is recommended that antiplatelet therapy be discontinued unless the patient has recent active CAD, defined as acute coronary syndrome or revascularization in the past 12 months. Because this patient's coronary intervention occurred 5 years ago, she has no indication for antiplatelet therapy plus oral anticoagulation.Aspirin alone (Option D) is insufficient management for stroke prevention in patients at high risk.",
+  "critique_links": [],
   "key_points": [
     "Patients with atrial fibrillation and a moderate to high risk for stroke (CHA2DS2-VASc score ≥2 in men and ≥3 in women) should be treated with oral anticoagulation rather than antiplatelet or dual antiplatelet therapy for stroke prevention."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.773997-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:26.808956-06:00"
 }

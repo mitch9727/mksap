@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 56-year-old patient is evaluated for weight management. For the past 6 months, the patient has been trying to lose weight through exercise and calorie reduction. They have lost 4.5 kg (9.9 lb), but their weight loss has now plateaued. Medical history includes obesity; irritable bowel syndrome with predominant diarrhea; and a history of a seizure, for which an evaluation was unremarkable. Their only medication is as-needed loperamide. Family history is notable for medullary thyroid cancer in their sister.On physical examination, vital signs are normal. BMI is 33, and waist circumference is 105 cm (41 in). The remainder of the physical examination is unremarkable.",
   "question_stem": "Which of the following is the most appropriate pharmacologic treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate pharmacologic treatment is phentermine-topiramate (Option C). Pharmacologic management should be considered for patients with obesity (BMI of 30 or greater) who have been unable to meet weight loss goals despite lifestyle modifications for 3 to 6 months. Examples of weight loss drugs are listed in Table: Medications for Weight Loss. Adverse effects and contraindications must be considered when starting a medication for weight loss. Because of contraindications and adverse effects of other recommended medications, phentermine-topiramate is the most appropriate option for weight loss in this patient. Phentermine-topiramate is a noradrenergic/gamma-aminobutyric acid (also called GABA) receptor activator and α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (also called AMPA) glutamate receptor inhibitor; it results in weight loss by suppressing appetite. Because of noradrenergic activation associated with phentermine, it is contraindicated in patients with a history of cardiovascular disease (e.g., poorly controlled blood pressure, heart failure, or a history of coronary artery disease). Similarly, phentermine-topiramate can exacerbate symptoms in patients with untreated hyperthyroidism. It is also contraindicated in the first trimester of pregnancy because of its teratogenic effects. Topiramate can cause acute angle-closure glaucoma, so it should not be used in patients with preexisting glaucoma. This patient does not have a contraindication to phentermine-topiramate.Naltrexone-bupropion (Option A) is an opioid antagonist plus norepinephrine-dopamine uptake inhibitor and helps to suppress appetite. Bupropion can lower the seizure threshold; therefore, naltrexone-bupropion is contraindicated in patients with a history of seizures, such as this patient.Orlistat (Option B) inhibits lipase activity in the stomach and pancreas. This, in turn, limits absorption of free fatty acids in the intestines, which can help with weight loss. Adverse effects include oily stools and increased defecation. Fecal incontinence can also occur. Orlistat would not be the most appropriate treatment for this patient with a history of irritable bowel syndrome with predominant diarrhea because this medication may worsen their symptoms. Additionally, the American Gastroenterological Association (AGA) recommends against the use of orlistat in most patients because of the low weight loss benefit.Semaglutide (Option D) slows gastrointestinal motility, increases insulin release after eating, and modulates hunger through the hypothalamus. Medullary thyroid cancer has been observed in rodents exposed to semaglutide, and its use is contraindicated in patients with a personal or family history of medullary thyroid cancer or multiple endocrine neoplasia type 2. Given this patient's family history, semaglutide is contraindicated.",
+  "critique_links": [],
   "key_points": [
     "Pharmacologic therapy should be considered for patients with obesity who have been unable to meet weight loss goals despite lifestyle modification for 3 to 6 months.",
     "Adverse effects and contraindications must be considered when starting a medication for weight loss."
@@ -52,11 +53,48 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/entab24004.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:26.855040-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "entab24004",
+        "file": "tables/entab24004.html",
+        "title": "Medications for Weight Loss",
+        "short_title": "Medications for Weight Loss",
+        "footnotes": [
+          "AMPA = α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid; ER = extended release; GABA = gamma-aminobutyric acid; GIP = glucose-dependent insulinotropic polypeptide; GLP-1 = glucagon-like peptide 1; MEN2 = multiple endocrine neoplasia type 2; MTC = medullary thyroid carcinoma.",
+          "<sup>a</sup>Total body weight loss compared with placebo",
+          "<sup>b</sup>Risk for treatment discontinuation because of adverse effect compared with placebo",
+          "<sup>c</sup>Eight randomized controlled trials with follow-up of 52 to 72 weeks",
+          "<sup>d</sup>Eight randomized controlled trials with follow-up of at least 52 weeks",
+          "<sup>e</sup>Two randomized controlled trials with follow-up of 36 to 72 weeks",
+          "<sup>f</sup>Three randomized controlled trials with follow-up of 52 to 56 weeks",
+          "<sup>g</sup>Five randomized controlled trials with follow-up of 56 weeks",
+          "<sup>h</sup>Mean weight loss at 52 weeks",
+          "<sup>i</sup>One randomized controlled trial with follow-up of 6 months",
+          "<sup>j</sup>Three randomized controlled trials with follow-up of 17 to 28 weeks",
+          "Data from Khera R, Murad MH, Chandar AK, et al. Association of pharmacological treatments for obesity with weight loss and adverse events: a systematic review and meta-analysis. JAMA. 2016;315:2424-34. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/27299618\" target=\"_blank\">PMID: 27299618</a> doi:10.1001/jama.2016.7602",
+          "Data from Cercato C, Roizenblatt VA, Leança CC, et al. A randomized double-blind placebo-controlled study of the long-term efficacy and safety of diethylpropion in the treatment of obese subjects. Int J Obes (Lond). 2009;33:857-65. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19564877\" target=\"_blank\">PMID: 19564877</a> doi:10.1038/ijo.2009.124",
+          "Data from Grunvald E, Shah R, Hernaez R, et al; AGA Clinical Guidelines Committee. AGA clinical practice guideline on pharmacological interventions for adults with obesity. Gastroenterology. 2022;163:1198-1225. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/36273831\" target=\"_blank\">PMID: 36273831</a> doi:10.1053/j.gastro.2022.08.045",
+          "Data from Jastreboff AM, Aronne LJ, Ahmad NN, et al; SURMOUNT-1 Investigators. Tirzepatide once weekly for the treatment of obesity. N Engl J Med. 2022;387:205-216. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/35658024\" target=\"_blank\">PMID: 35658024</a> doi:10.1056/NEJMoa2206038"
+        ],
+        "headers": [
+          "Medication",
+          "Mechanism of Action",
+          "Total Body Weight Lossa (%) or Actual Weight Loss (kg)",
+          "Common Adverse Effectsb",
+          "Contraindications"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.117728-06:00"
 }

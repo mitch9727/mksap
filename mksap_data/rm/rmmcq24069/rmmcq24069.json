@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 42-year-old man is evaluated for follow-up of long-standing gout, including established gout of the knees, ankles, hands, and wrists, with tophi that impair his ability to walk and multiple flares per year. Despite maximal allopurinol therapy, serum urate level remains above 8.5 mg/dL (0.50 mmol/L) and gout flares continue. He is not currently experiencing a flare. He also has chronic kidney disease. His medications are lisinopril and allopurinol, to which he has been adherent.On physical examination, vital signs are normal. Tophi are observed over the metacarpophalangeal (MCP), proximal interphalangeal (PIP), and metatarsophalangeal (MTP) joints. There is fluctuant bursal enlargement over the elbows, with palpable nodules within.Complete blood count and comprehensive metabolic panel are normal. Results of screening for hepatitis B and C virus infections are negative.Radiographs show several punched-out subchondral lesions in the bones of the MTP, MCP, and PIP joints, some with overhanging edges; additional bony cortical erosions are present. Soft-tissue masses are visible, some with calcification.Allopurinol is discontinued and colchicine is started.",
+  "question_text": "A 42-year-old man is evaluated for follow-up of long-standing gout, including established gout of the knees, ankles, hands, and wrists, with tophi that impair his ability to walk and multiple flares per year. Despite maximal allopurinol therapy, serum urate level remains above 8.5 mg/dL (0.50 mmol/L) and gout flares continue. He is not currently experiencing a flare. He also has chronic kidney disease. His medications are lisinopril and allopurinol, to which he has been adherent.On physical examination, vital signs are normal. Tophi are observed over the metacarpophalangeal (MCP), proximal interphalangeal (PIP), and metatarsophalangeal (MTP) joints. There is fluctuant bursal enlargement over the elbows, with palpable nodules within.Laboratory studies:C-reactive protein9 mg/dL (90 mg/L)HUrate12.6 mg/dL (0.74 mmol/L)HEstimated glomerular filtration rate34 mL/min/1.73 m2 Glucose-6-phosphate dehydrogenaseNormalComplete blood count and comprehensive metabolic panel are normal. Results of screening for hepatitis B and C virus infections are negative.Radiographs show several punched-out subchondral lesions in the bones of the MTP, MCP, and PIP joints, some with overhanging edges; additional bony cortical erosions are present. Soft-tissue masses are visible, some with calcification.Allopurinol is discontinued and colchicine is started.",
   "question_stem": "Which of the following is the most appropriate additional treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment in this patient with severe tophaceous gout is pegloticase (Option C). American College of Rheumatology guidelines recommend pegloticase, an extremely potent urate-lowering therapy, for patients with gout in whom oral therapy has failed and who continue to have frequent flares or nonresolving tophi. It is administered intravenously every 2 weeks. However, pegloticase is highly immunogenic, with about 40% of patients developing antibodies to the drug, rendering it ineffective and increasing the likelihood of infusion reactions. Methotrexate is FDA approved as an adjunct to pegloticase based on studies showing it reduces the anti-pegloticase immune response, reducing tachyphylaxis and risk for infusion reactions and doubling successful pegloticase treatment response. Before methotrexate administration, complete blood count, kidney function, liver function, and screening for hepatitis B and C virus infections should be assessed. Pegloticase is contraindicated in patients with glucose-6-phosphate dehydrogenase (G6PD) deficiency. Screening for G6PD deficiency should therefore be considered, particularly in persons of African, Mediterranean, or Southern Asian descent, because these groups are more likely to have G6PD deficiency. This patient has tophaceous gout that impairs motion, recurrent flares, and bony destruction. Maximal allopurinol therapy has failed. Thus, alternate urate-lowering therapy is indicated to prevent progression and, ideally, resolve tophaceous deposits.Canakinumab (Option A) is a highly potent anti–interleukin-1β agent. Phase 3 studies have shown that it is effective as prophylaxis against gout flares during initiation of urate-lowering therapy. However, canakinumab is not approved for this indication. The patient's newly prescribed colchicine therapy is approved for prophylaxis, and canakinumab should not be used for prophylaxis at this time.Febuxostat (Option B) is a noncompetitive xanthine oxidase inhibitor. Allopurinol is not inferior to febuxostat as urate-lowering therapy. This patient's high baseline serum urate level suggests that more potent therapy is needed, making pegloticase a more appropriate choice.Probenecid (Option D), a uricosuric agent, is infrequently used as monotherapy because it is less effective than xanthine oxidase inhibitors. In addition, probenecid should be avoided in patients with chronic kidney disease (estimated glomerular filtration rate <50 mL/min/1.73 m2).",
+  "critique_links": [],
   "key_points": [
     "Pegloticase, an extremely potent urate-lowering therapy, is recommended for patients with gout in whom oral therapy has failed and who continue to have frequent flares or nonresolving tophi."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:47:11.683304-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.781153-06:00"
 }

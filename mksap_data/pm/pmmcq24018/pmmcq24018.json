@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 40-year-old man is evaluated at a follow-up visit after bronchoscopy. He initially presented with a 6-week history of progressively worsening dry cough and shortness of breath. He reports no weight loss or hemoptysis. Chest radiograph revealed bilateral symmetric hilar prominence and diffuse bilateral lung infiltrates. CT scan of the chest showed right paratracheal and bilateral symmetric hilar lymphadenopathy along with bilateral upper lobe predominant reticulonodular pulmonary infiltrates. He has gastroesophageal reflux disease, and his only medication is famotidine.On physical examination, vital signs are normal. Oxygen saturation is 93% with the patient breathing ambient air at rest and 91% with ambulation. Lung examination reveals bilateral scattered crackles.Bronchoscopic needle aspiration from the hilar lymph node reveals noncaseating granulomas. Results of microbiology studies from the bronchoscopy specimen are negative.",
+  "question_text": "A 40-year-old man is evaluated at a follow-up visit after bronchoscopy. He initially presented with a 6-week history of progressively worsening dry cough and shortness of breath. He reports no weight loss or hemoptysis. Chest radiograph revealed bilateral symmetric hilar prominence and diffuse bilateral lung infiltrates. CT scan of the chest showed right paratracheal and bilateral symmetric hilar lymphadenopathy along with bilateral upper lobe predominant reticulonodular pulmonary infiltrates. He has gastroesophageal reflux disease, and his only medication is famotidine.On physical examination, vital signs are normal. Oxygen saturation is 93% with the patient breathing ambient air at rest and 91% with ambulation. Lung examination reveals bilateral scattered crackles.Pulmonary function tests:FEV168% of predictedLFVC60% of predictedL FEV1/FVC ratio0.65LDlcoLowLBronchoscopic needle aspiration from the hilar lymph node reveals noncaseating granulomas. Results of microbiology studies from the bronchoscopy specimen are negative.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate management in this patient with pulmonary sarcoidosis is prednisone (Option B). Sarcoidosis is a granulomatous disease of unknown cause that can affect any organ system, but more than 90% of patients have lung involvement. Pulmonary sarcoidosis is classified into four stages based on appearance on chest radiograph (). Treatment decisions are based on symptoms and degree of organ dysfunction rather than radiographic findings. Glucocorticoids, such as prednisone, are the primary treatment for symptomatic pulmonary sarcoidosis. For patients who cannot tolerate the adverse effects of glucocorticoids or have disabling symptoms despite treatment with glucocorticoids, adjunctive glucocorticoid-sparing therapies are often used. This patient has symptomatic stage II pulmonary sarcoidosis with bilateral symmetric hilar and right paratracheal lymphadenopathy and parenchymal involvement. Glucocorticoid therapy is the most appropriate treatment.The tyrosine kinase inhibitor nintedanib (Option A) is an antifibrotic agent. Initially approved for treating idiopathic pulmonary fibrosis, nintedanib may also slow the decline in lung function in progressive fibrotic connective tissue disease–associated interstitial lung disease. Nintedanib, however, does not have a role in treating pulmonary sarcoidosis and is not indicated in this patient.Surgical lung biopsy (Option C) is reserved for situations in which the combination of clinical and imaging data are not diagnostic in a patient with diffuse parenchymal lung disease and when the biopsy results are expected to influence management decisions. Bronchoscopic sampling with tissue obtained from a lymph node or the pulmonary parenchyma, as in this patient, has a high diagnostic yield in patients with pulmonary sarcoidosis, and surgical biopsy is rarely warranted in suspected sarcoidosis.Clinical observation (Option D) would not be appropriate for this patient. Observation is appropriate for patients with pulmonary sarcoidosis who do not have symptoms or organ dysfunction. Spontaneous resolution without treatment is common, and its likelihood is related to the radiographic stage of the disease (see ). In this patient with symptomatic stage II sarcoidosis, clinical observation alone is inadequate.",
+  "critique": "The most appropriate management in this patient with pulmonary sarcoidosis is prednisone (Option B). Sarcoidosis is a granulomatous disease of unknown cause that can affect any organ system, but more than 90% of patients have lung involvement. Pulmonary sarcoidosis is classified into four stages based on appearance on chest radiograph (Table: Chest Radiograph Staging of Pulmonary Sarcoidosis). Treatment decisions are based on symptoms and degree of organ dysfunction rather than radiographic findings. Glucocorticoids, such as prednisone, are the primary treatment for symptomatic pulmonary sarcoidosis. For patients who cannot tolerate the adverse effects of glucocorticoids or have disabling symptoms despite treatment with glucocorticoids, adjunctive glucocorticoid-sparing therapies are often used. This patient has symptomatic stage II pulmonary sarcoidosis with bilateral symmetric hilar and right paratracheal lymphadenopathy and parenchymal involvement. Glucocorticoid therapy is the most appropriate treatment.The tyrosine kinase inhibitor nintedanib (Option A) is an antifibrotic agent. Initially approved for treating idiopathic pulmonary fibrosis, nintedanib may also slow the decline in lung function in progressive fibrotic connective tissue disease–associated interstitial lung disease. Nintedanib, however, does not have a role in treating pulmonary sarcoidosis and is not indicated in this patient.Surgical lung biopsy (Option C) is reserved for situations in which the combination of clinical and imaging data are not diagnostic in a patient with diffuse parenchymal lung disease and when the biopsy results are expected to influence management decisions. Bronchoscopic sampling with tissue obtained from a lymph node or the pulmonary parenchyma, as in this patient, has a high diagnostic yield in patients with pulmonary sarcoidosis, and surgical biopsy is rarely warranted in suspected sarcoidosis.Clinical observation (Option D) would not be appropriate for this patient. Observation is appropriate for patients with pulmonary sarcoidosis who do not have symptoms or organ dysfunction. Spontaneous resolution without treatment is common, and its likelihood is related to the radiographic stage of the disease (see Table: Chest Radiograph Staging of Pulmonary Sarcoidosis). In this patient with symptomatic stage II sarcoidosis, clinical observation alone is inadequate.",
+  "critique_links": [],
   "key_points": [
     "For patients with pulmonary sarcoidosis who do not have symptoms or organ dysfunction, observation is appropriate.",
     "The primary treatment of sarcoidosis is glucocorticoids, although many patients do not require treatment."
@@ -52,12 +53,39 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/pmtab24024.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:52.982175-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "pmtab24024",
+        "file": "tables/pmtab24024.html",
+        "title": "Radiographic Characteristics and Staging in Pulmonary Sarcoidosis",
+        "short_title": "Chest Radiograph Staging of Pulmonary Sarcoidosis",
+        "footnotes": [],
+        "headers": [
+          "Stage",
+          "Radiographic Pattern",
+          "Clinical Course and Comments"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Pulmonary function tests:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.049701-06:00"
 }

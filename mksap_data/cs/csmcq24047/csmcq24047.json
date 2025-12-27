@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 37-year-old man is evaluated in the emergency department for sharp left-sided chest pain that started earlier in the day. He reports the pain worsens with deep inspiration but does not radiate. He has no other symptoms and has had no previous chest pain. He has hypertension and dyslipidemia. Medications are lisinopril, hydrochlorothiazide, and simvastatin.On physical examination, temperature is 37.2 °C (99.0 °F), blood pressure is 136/86 mm Hg, pulse rate is 101/min, and respiration rate is 16/min. Oxygen saturation is 95% breathing ambient air. The remainder of the examination is unremarkable.Laboratory studies:High-sensitivity troponinNegativeECG is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is pericarditis (Option C). Acute pericarditis results from inflammation of the pericardium and is often idiopathic, but infections, malignancy, and autoimmune disease (especially rheumatoid arthritis and systemic lupus erythematosus) may be causative. It typically affects young and middle-aged adults and is more common in men than women (see Acute Pericarditis in Cardiovascular Medicine). Pericarditis classically presents with nonexertional pleuritic chest pain that worsens with recumbency and is relieved with sitting forward. The examination may be normal; a pericardial rub is present in only 50% of patients. The classic ECG findings include diffuse ST-segment elevations not confined to the anatomic distribution of a single coronary artery, along with PR-interval depressions. The ECG changes in pericarditis may also be transient and differentiation from acute coronary syndrome (ACS) is difficult, especially in older patients. Troponin levels are usually normal in pericarditis unless there is concomitant myocardial involvement. A pericardial effusion is present in a slight majority of patients on transthoracic echocardiogram. This patient has pleuritic chest discomfort with diffuse ST-segment elevation and PR-interval depression on ECG, making pericarditis the most likely diagnosis.Although this patient has risk factors for vascular disease, including hypertension and dyslipidemia, the ECG changes seen in this patient are consistent with acute pericarditis rather than ACS (Option A). Whereas pericarditis causes diffuse ST-elevation, the ECG changes with ACS are typically confined to the myocardial distribution of the affected coronary artery. This patient has diffuse ST changes along with PR depression, making acute pericarditis a far more likely diagnosis than ACS.Musculoskeletal pain (Option B) is a common cause of chest pain. The pain is often pleuritic, and an inability to take a deep breath may be interpreted as dyspnea. Causes include costochondritis, rib fracture, and muscle strains. Because evaluation and imaging are often nonspecific unless a fracture is present, a musculoskeletal cause of chest discomfort is often a diagnosis of exclusion. This patient has a convincing presentation for acute pericarditis, and a musculoskeletal cause is unlikely.Pulmonary embolism (PE) (Option D) is an important consideration for patients who present with acute chest pain, particularly if the pain is pleuritic. One of the most important determinants of the likelihood of PE is whether there is an alternative diagnosis for a patient's presentation. This patient has a classic presentation for acute pericarditis with confirmatory ECG changes, making PE an unlikely diagnosis.",
+  "critique_links": [],
   "key_points": [
     "Pericarditis typically presents with pleuritic chest pain that is unaffected by exercise, worsens with recumbency, and is relieved with sitting forward; a pericardial rub may be present.",
     "Classic ECG findings of pericarditis are diffuse ST-segment elevation and PR-interval depression."
@@ -51,10 +52,41 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
-    "images": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [
+      "figures/csfig24200.732b463c68a577ddd5daa337f43e3767.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:01:45.795131-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "csfig24200",
+        "file": "figures/csfig24200.732b463c68a577ddd5daa337f43e3767.jpg",
+        "title": "ECG Showing Pericarditis",
+        "short_title": "stem ECG Showing Pericarditis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 533
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.045624-06:00"
 }

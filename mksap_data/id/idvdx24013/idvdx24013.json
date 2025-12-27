@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 25-year-old woman is evaluated for altered mentation, fever, and new-onset seizures for the past 48 hours.Brain MRI is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is herpes simplex encephalitis (Option C), which is the most common cause of fatal sporadic encephalitis in the developed world. This patient's MRI reveals hyperintense areas in the left temporal lobe and insular area. Temporal lobe lesions suggest herpes simplex encephalitis; lesions are predominantly unilateral and may have associated mass effects. MRI is the most sensitive and specific imaging method for diagnosing herpes simplex encephalitis, especially early in the disease course, although normal MRI findings have also been reported.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.117965-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "idfig24615",
+        "file": "figures/idfig24615.f5e866f08e0243d3012bffbe69bb30b8.jpg",
+        "title": "MRI Findings Consistent with Herpes Simplex Encephalitis",
+        "short_title": "MRI of Herpes Simplex Encephalitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 598,
+        "height": 713
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.686588-06:00"
 }

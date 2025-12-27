@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 48-year-old woman undergoes a routine evaluation for chronic kidney disease due to tubulointerstitial nephritis. She is asymptomatic, takes no medications, and does not smoke.Physical examination findings, including vital signs, are normal.Repeat laboratory studies are unchanged and reveal a normal anion gap metabolic acidosis.",
+  "question_text": "A 48-year-old woman undergoes a routine evaluation for chronic kidney disease due to tubulointerstitial nephritis. She is asymptomatic, takes no medications, and does not smoke.Physical examination findings, including vital signs, are normal.Laboratory studies:Potassium5.4 mEq/L (5.4 mmol/L)HBicarbonate15 mEq/L (15 mmol/L)LRepeat laboratory studies are unchanged and reveal a normal anion gap metabolic acidosis.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Treating metabolic acidosis with oral sodium bicarbonate (Option D) minimizes some of the metabolic complications of chronic kidney disease (CKD), and meta-analysis of randomized trials of alkali therapy supports delayed progression of CKD. Metabolic acidosis frequently occurs in patients with CKD due to defective acid excretion (resulting in reduced bicarbonate generation), most commonly due to impaired ammoniagenesis. Untreated metabolic acidosis can lead to muscle loss (due to increased muscle proteolysis) and bone loss (due to increased bone resorption and impaired bone formation). The Kidney Disease: Improving Global Outcomes (KDIGO) 2024 clinical practice guidelines for CKD recommend initiation of alkali therapy with or without dietary intervention when serum bicarbonate is chronically <18 mEq/L (18 mmol/L) in adults. This patient with CKD has normal anion gap metabolic acidosis. Typical starting dosages of alkali for metabolic acidosis due to CKD, the cause suggested by this patient's history, are 0.5 to 1.0 mEq/kg/d, aiming for a serum bicarbonate level between 18 mEq/L (18 mmol/L) and the upper limit of the normal range.A potassium-binding agent such as patiromer (Option A) is unnecessary in this patient. Hyperkalemia with a serum potassium level <6.0 mEq/L (6.0 mmol/L), in the absence of signs of cardiac toxicity, does not warrant emergent intervention. Limiting potassium intake may be beneficial, and correcting the metabolic acidosis with sodium bicarbonate will assist in lowering the patient's serum potassium level.In animal models, protein-restricted diets (Option B) slow CKD progression by reducing glomerular filtration pressure. However, in the Modification of Diet in Renal Disease study, no definitive benefit was seen in kidney outcomes in patients randomly assigned to the low protein (0.6 g/kg/d) group. In addition, a low protein diet risks causing malnutrition in some patients.Statins (Option C) reduce cardiovascular and all-cause mortality in patients with CKD, although large trials have not demonstrated a mortality benefit in patients with dialysis-dependent end-stage kidney disease (unless initiated predialysis). KDIGO guidelines recommend statin therapy in all patients aged 50 years or older with non–dialysis-dependent CKD and in adults aged 18 to 49 years with non–dialysis-dependent CKD and any one of the following: coronary disease, diabetes mellitus, previous ischemic stroke, or a greater than 10% estimated risk for coronary death or nonfatal myocardial infarction. The patient does not possess any of these characteristics.",
+  "critique_links": [],
   "key_points": [
     "Treatment of metabolic acidosis with oral sodium bicarbonate minimizes the nutritional, bone, and other complications of chronic kidney disease (CKD).",
     "Statins reduce cardiovascular and all-cause mortality in patients with non–dialysis-dependent CKD."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.423347-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.902471-06:00"
 }

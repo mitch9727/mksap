@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old man is evaluated in follow-up for a 6-week history of cough, low-grade fever, and malaise. His symptoms have persisted despite two courses of antibiotics (amoxicillin and doxycycline followed by levofloxacin). He has no other medical problems. He has not traveled recently and works as a financial advisor. He has no pets or other animal exposures. He takes no medications since completing the antibiotics 2 weeks ago.On physical examination, temperature is 37.9 °C (100.2 °F) and pulse rate is 96/min; other vital signs are normal. Oxygen saturation is 94% with the patient breathing ambient air at rest. Lung examination reveals coarse bronchial breath sounds in the right mammary region.Results of an HIV antibody test, as well as those of a connective tissue disease panel, are negative.CT scan of the chest is shown.Bronchoscopy with bronchoalveolar lavage and biopsies from the right middle lobe are performed. Results of all microbiologic studies are negative. Histopathology reveals intraluminal fibroblastic plugs in the alveolar sacs, alveolar ducts, and bronchiolar lumen.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis in this patient is cryptogenic organizing pneumonia (COP) (Option B). Patients with COP typically have a subacute presentation with cough, fever, and malaise over weeks to months. Initial chest radiographs demonstrate patchy opacities that mimic pneumonia, and as a result, patients may be diagnosed with pneumonia and treated with antibiotics. However, persistence of symptoms despite appropriate therapy for pneumonia should raise suspicion for COP. High-resolution chest CT (HRCT) scan can show changes ranging from ground-glass opacities to areas of alveolar consolidation resembling infectious pneumonia as in this patient. Diagnosis rests on exclusion of a discrete infectious or noninfectious cause and consistent radiographic changes. Biopsy may be performed but may not be necessary in all patients; a pathologic pattern of granulation tissue forming intraluminal fibroblastic plugs in alveolar sacs, ducts, and bronchiolar lumen (organizing pneumonia) establishes the diagnosis of COP. This patient has a classic clinical, radiologic, and histopathologic picture of COP.Community-acquired pneumonia (CAP) can have a very similar presentation to that of COP, and many patients with COP are initially diagnosed with CAP. This patient's lack of clinical response to antibiotics, prolonged course, and negative evaluation for infectious causes make CAP (Option A) a less likely diagnosis than COP.Hypersensitivity pneumonitis (HP) (Option C) is a diffuse parenchymal lung disease (DPLD) that typically develops after repetitive exposure to specific inhaled antigens in a sensitized individual. In the subacute form of HP, HRCT scan reveals centrilobular nodules and ground-glass opacities, whereas progressive disease can result in traction bronchiectasis and honeycomb changes. The absence of a discrete inhaled antigenic exposure and the imaging findings seen in this patient are not consistent with HP.Nonspecific interstitial pneumonia (NSIP) is a common variant in connective tissue disease–associated DPLD but can also occur as NSIP. Typically affecting relatively younger adults, NSIP demonstrates bilateral lower-lobe reticular changes and scattered ground-glass opacities on HRCT scan. This patient's clinical presentation and radiologic features are not consistent with NSIP (Option D).",
+  "critique_links": [],
   "key_points": [
     "The clinical presentation of cryptogenic organizing pneumonia with subacute cough, fever, and malaise and chest radiograph demonstrating patchy opacities is often mistaken for pneumonia."
   ],
@@ -57,5 +58,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:52.972876-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24204",
+        "file": "figures/pmfig24204.6639e42f0eed7044440d8c0acf31b79a.jpg",
+        "title": "CT Scan of the Chest",
+        "short_title": "stem CT Scan of the Chest",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 771,
+        "height": 587
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.051527-06:00"
 }

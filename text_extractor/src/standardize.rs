@@ -124,8 +124,8 @@ fn process_question_json(
     validate_media_files(&question, question_dir, stats)?;
 
     // 5. Re-serialize (automatically uses current struct field order)
-    let standardized_content = serde_json::to_string_pretty(&question)
-        .context("Failed to serialize standardized JSON")?;
+    let standardized_content =
+        serde_json::to_string_pretty(&question).context("Failed to serialize standardized JSON")?;
 
     // 6. Detect if field order changed
     let ordering_changed = !fields_match_order(&original_content, &standardized_content);

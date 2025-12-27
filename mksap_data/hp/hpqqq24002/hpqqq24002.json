@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 64-year-old woman is evaluated for confusion and abdominal pain. She has alcoholic cirrhosis with portal hypertension and ascites. Medications are carvedilol, spironolactone, and furosemide.Temperature is 37.8 °C (100.0 °F), and pulse rate is 78/min. Her abdomen is distended with ascites and tender to palpation. Diagnostic paracentesis shows an ascitic-fluid neutrophil count of 262/µL (0.262 × 109/L) and a total protein level of 0.9 g/dL (9.0 g/L). Gram stain is negative.",
   "question_stem": "Which of the following is the most appropriate initial management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate initial management for this patient with spontaneous bacterial peritonitis (SBP) is ceftriaxone plus albumin (Option B). SBP requires treatment with antibiotics (usually a third-generation cephalosporin such as ceftriaxone) for 5 days and intravenous albumin, 1.5 g/kg body weight on day 1 and 1 g/kg on day 3. SBP is an infection of the ascitic fluid resulting from bacterial translocation from the intestinal lumen; it is usually seen in patients with advanced cirrhosis. The organisms most commonly responsible for community-acquired SBP are gram-negative enteric bacilli such as Escherichia coli and Klebsiella species, streptococci, enterococci, and staphylococci. Risk factors include low total protein levels in ascitic fluid (<1.0 g/dL [10.0 g/L]), kidney dysfunction, and decompensated cirrhosis. SBP typically presents with abdominal pain, confusion, or significant clinical decline or decline in liver function. Fever or hypothermia may be present. The diagnosis should be suspected when ascitic fluid analysis reveals a neutrophil count of 250/µL (0.250 × 109/L) or greater. Bacterial culture of ascitic fluid, obtained after direct inoculation of at least 10 mL of fluid into culture bottles at the bedside, should also be performed but is often negative. In this patient whose ascitic fluid neutrophil count is 262/µL (0.262 × 109/L), antibiotic therapy should be initiated promptly. After treatment for SBP, patients should then receive indefinite secondary antibiotic prophylaxis against recurrent episodes with a fluoroquinolone or trimethoprim-sulfamethoxazole.Ceftriaxone alone (Option A) is inappropriate because this patient with SBP will require albumin infusion to decrease the risk for kidney injury and death. Patients with kidney dysfunction or significant liver dysfunction (serum bilirubin level >5 mg/dL [85.5 μmoL]) are more likely to have a survival benefit with albumin therapy.The diagnosis of SBP should be suspected when peritoneal fluid analysis reveals an absolute neutrophil count of greater than 250/µL (0.250 × 109/L). Antibiotic therapy should be started promptly and not be delayed pending culture and sensitivity results (Option C).If the local prevalence of antimicrobial resistance is high, empiric piperacillin-tazobactam (Option D) or a carbapenem can be considered. If local resistance patterns suggested the need for piperacillin-tazobactam, this patient would also require albumin infusion in addition to antibiotic therapy.",
+  "critique_links": [],
   "key_points": [
     "Spontaneous bacterial peritonitis (SBP) is usually treated with a third-generation cephalosporin followed by indefinite antibiotic prophylaxis against recurrent episodes with a fluoroquinolone or trimethoprim-sulfamethoxazole.",
     "Intravenous albumin, in addition to antibiotics, is recommended for patients with SBP to decrease the risk for kidney injury and death."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.600119-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:28.699489-06:00"
 }

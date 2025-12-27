@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 64-year-old woman is evaluated in the emergency department following an episode of syncope.ECG is shown.",
   "question_stem": "Which of the following abnormalities is demonstrated on this patient's ECG?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The ECG shown demonstrates a junctional (or atrioventricular nodal) rhythm (Option C). Junctional rhythms are regular supraventricular rhythms in which the P wave in lead II is negative, preceding or following the QRS complex (arrows), or is absent. An atrioventricular nodal escape rhythm occurs when the junctional rate is between 40/min and 60/min and the sinoatrial node is delayed or fails to function as the pacemaker. An accelerated junctional rhythm occurs when the junctional rate is between 61/min and 99/min and the junctional rate takes over the pacemaker function. Junctional tachycardia occurs when the junctional rate is faster than 99/min and takes over the pacemaker function.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/cvfig24626.98cb4d87c1e5a1a265bec97ed3c06e02.jpg",
-      "figures/cvfig24625.c252fa8406d6ce1e815a9ec9e1fd398d.jpg"
+      "figures/cvfig24625.c252fa8406d6ce1e815a9ec9e1fd398d.jpg",
+      "figures/cvfig24626.98cb4d87c1e5a1a265bec97ed3c06e02.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.375967-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24625",
+        "file": "figures/cvfig24625.c252fa8406d6ce1e815a9ec9e1fd398d.jpg",
+        "title": "ECG Showing Junctional Rhythm",
+        "short_title": "stem ECG Showing Junctional Rhythm",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 475
+      },
+      {
+        "figure_id": "cvfig24626",
+        "file": "figures/cvfig24626.98cb4d87c1e5a1a265bec97ed3c06e02.jpg",
+        "title": "ECG Showing Junctional Rhythm With Arrows",
+        "short_title": "critique ECG Showing Junctional Rhythm With Arrows",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 475
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.880595-06:00"
 }

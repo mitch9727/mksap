@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 64-year-old woman is evaluated following a diagnosis of breast cancer. A PET/CT scan showed multiple metabolically active lesions in the skeleton. Biopsy of a femoral lesion confirmed metastatic disease. The patient is currently asymptomatic. Medical history is unremarkable, and she takes no medications.Physical examination findings, including vital signs, are normal.Results of complete blood count and comprehensive metabolic panel are normal.Systemic therapy for metastatic breast cancer is planned.",
   "question_stem": "Which of the following is the most appropriate additional treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient should receive zoledronic acid (Option D) for treatment of bone metastases. A bone-modifying agent is administered routinely to all patients with metastatic breast cancer with bone metastases to prevent the development of skeletal-related events, including bone pain, cord compression, hypercalcemia, and the need for palliative radiation therapy. Appropriate agents include zoledronic acid (a bisphosphonate) or denosumab (a receptor activator of nuclear factor kappa B ligand inhibitor). Zoledronic acid and denosumab are generally administered every 3 months because of similar efficacy to monthly dosing. Zoledronic acid is cleared through the kidneys and is contraindicated in patients with a creatinine clearance of less than 30 mL/min. Dose adjustment is not recommended for denosumab in patients with renal insufficiency. Both agents may cause symptomatic hypocalcemia. Additionally, both agents are associated with a small risk of osteonecrosis of the jaw, and treatment should generally be held for patients who have active dental issues for which extractions or other dental work is needed. Zoledronic acid is substantially less costly than denosumab, and, considering its similar efficacy, it is the preferred option for most patients. Therefore, zoledronic acid would be the most appropriate treatment for this patient's bone metastases.Calcitonin (Option A) has a role in the treatment of hypercalcemia of malignancy, but that condition is not present in this patient. Calcitonin has not been shown to prevent complications from metastatic disease.Radiation therapy (Option B) can be used for palliation of painful bone metastases or other sites of tumor-related pain or obstruction, or in some patients with brain metastases. This patient, however, has asymptomatic bone metastases and should not receive spine radiation therapy.Teriparatide (Option C) is an anabolic agent that promotes bone formation for the treatment of osteoporosis. It is not used to treat bone metastases from solid tumors.",
+  "critique_links": [],
   "key_points": [
     "For patients who have breast cancer with bone metastases, bone-modifying agents, such as zoledronic acid or denosumab, are recommended to prevent bone-related events, such as bone pain, cord compression, hypercalcemia, and the need for palliative radiation therapy."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:51:14.771949-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:31.593186-06:00"
 }

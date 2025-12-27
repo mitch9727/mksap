@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 30-year-old woman develops fever and the skin rash shown following an erythrocyte transfusion of packed red blood cells. She is receiving chemotherapy for Hodgkin disease.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is transfusion-associated graft-versus-host disease (GVHD) (Option D). Transfusion-associated GVHD is a rare but usually fatal complication in which donor lymphocytes in a transfused cellular blood product (erythrocytes or platelets) engraft in an immunocompromised recipient and cause toxic effects in the bone marrow, skin, liver, and gastrointestinal tract. Patients at risk include those receiving chemotherapy for autoimmune disorders or malignancy, recipients of blood components from first-degree relatives (due to HLA matching), premature infants, and some with congenital or acquired immunodeficiencies. The first and most common clinical manifestation of acute GVHD is a maculopapular exanthem that can progress to bullae formation. The rash first appears at the nape of the neck and on the ears, shoulders, palms of the hands, and soles of the feet and may be pruritic or painful. To prevent this complication, blood given to immunocompromised patients should be irradiated.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.908246-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hmfig24620",
+        "file": "figures/hmfig24620.929a7df098f1c6f85a8ea93e5064cfdb.jpg",
+        "title": "Skin Rash of Transfusion-Associated Graft-Versus-Host Disease",
+        "short_title": "Skin Rash of Transfusion-Associated GVHD",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 313,
+        "height": 416
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.110744-06:00"
 }

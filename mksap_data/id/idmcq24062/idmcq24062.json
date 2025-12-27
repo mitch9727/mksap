@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 68-year-old man is evaluated in the emergency department for a 3-day history of dry cough, sore throat, low-grade fever, and shortness of breath. He has not been vaccinated against SARS-CoV-2 and has not recently been admitted to the hospital. He has COPD. Medications are tiotropium and an as-needed albuterol inhaler.On physical examination, temperature is 39.0 °C (102.2 °F), blood pressure is 140/85 mm Hg, pulse rate is 112/min, and respiration rate is 24/min. Oxygen saturation is 88% breathing ambient air. He is alert and oriented. Bibasilar crackles are heard on lung examination.Procalcitonin level is normal. A SARS-CoV-2 polymerase chain reaction test is positive.Chest radiograph shows bibasilar ground-glass opacities.",
+  "question_text": "A 68-year-old man is evaluated in the emergency department for a 3-day history of dry cough, sore throat, low-grade fever, and shortness of breath. He has not been vaccinated against SARS-CoV-2 and has not recently been admitted to the hospital. He has COPD. Medications are tiotropium and an as-needed albuterol inhaler.On physical examination, temperature is 39.0 °C (102.2 °F), blood pressure is 140/85 mm Hg, pulse rate is 112/min, and respiration rate is 24/min. Oxygen saturation is 88% breathing ambient air. He is alert and oriented. Bibasilar crackles are heard on lung examination.Laboratory studies:Leukocyte count6500/μL (6.5 × 109/L)Procalcitonin level is normal. A SARS-CoV-2 polymerase chain reaction test is positive.Chest radiograph shows bibasilar ground-glass opacities.",
   "question_stem": "Which of the following is the most appropriate therapy?",
   "options": [
     {
@@ -39,6 +39,15 @@
     "time_taken": null
   },
   "critique": "The most appropriate therapy is intravenous remdesivir and dexamethasone (Option B). Symptomatic COVID-19 is characterized by fever, fatigue, dry cough, gastrointestinal symptoms, and loss of taste and smell; severe respiratory disease leading to death can occur, but most infections are mild or asymptomatic. Because all types of coronaviruses may spread from human to human, contact and respiratory precautions should be implemented for hospitalized patients with suspected infection. Effective therapies include antiviral agents and adjunctive dexamethasone (if the patient has hypoxia). The most important preventive tool is vaccination, and all adults and eligible children should receive the COVID-19 vaccine and appropriate boosters (including variant boosters). Because of the rapidity of emerging data, consultation of Infectious Diseases Society of America guidance is encouraged. In a patient with upper and lower respiratory tract symptoms, a positive COVID-19 result, and no history of COVID-19 vaccination who is at high risk for progression (age and underlying COPD in this patient), an antiviral agent (such as remdesivir) and dexamethasone are indicated to prevent progression to respiratory failure and death.Intravenous ceftriaxone and azithromycin (Option A) are indicated for the treatment of severe community-acquired bacterial pneumonia. Because this patient has a normal leukocyte count and serum procalcitonin level in addition to a positive COVID-19 result, bacterial pneumonia is unlikely to be the primary diagnosis and ceftriaxone and azithromycin are not indicated.Intravenous vancomycin and cefepime (Option C) are a possible treatment regimen for hospital-acquired bacterial pneumonia. This patient has not recently been hospitalized and has another clear explanation for his pulmonary symptoms; thus, this treatment is not appropriate.Oral nirmatrelvir and ritonavir (Option D) are indicated for the treatment of mild-to-moderate COVID-19 disease to prevent progression to pneumonia. Because this patient has already developed pneumonia and has hypoxia, oral nirmatrelvir and ritonavir is not the most appropriate treatment.",
+  "critique_links": [
+    {
+      "href": "https://www.idsociety.org/COVID19guidelines",
+      "text": "Infectious Diseases Society of America guidance",
+      "target": "_blank",
+      "title": null,
+      "rel": null
+    }
+  ],
   "key_points": [
     "In a patient with upper and lower respiratory tract symptoms, hypoxia, positive COVID-19 result, and no history of COVID-19 vaccination who is at high risk for progression, an antiviral agent (such as remdesivir) and dexamethasone are indicated to prevent progression to respiratory failure and death."
   ],
@@ -57,5 +66,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:47:07.157955-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.443985-06:00"
 }

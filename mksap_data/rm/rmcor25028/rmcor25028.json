@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 35-year-old woman is evaluated for a 3-year history of pain in the metacarpophalangeal joints, wrists, and knees. She also has an 8-week history of fatigue and difficulty raising her arms above her head. She had a single oral aphthous ulcer 3 months ago. She has hypothyroidism, Raynaud phenomenon, and gastroesophageal reflux disease. Medications are levothyroxine and pantoprazole.On physical examination, vital signs are normal. Fingers are puffy, swollen, and tender. No digital ulcers, sclerodactyly, skin thickening, or rashes are observed. Proximal upper extremity strength is 4/5 bilaterally.Laboratory studies:Erythrocyte sedimentation rate42 mm/hHCreatine kinase1200 U/LHAldolase17.3 U/L (0.03 µkat/L) (normal range, 1.0-7.5 U/L [0.02-0.13 µkat/L])HAntinuclear antibody titer1:2560Anti–U1-ribonucleoproteinHigh titerAnti-Ro/SSA antibodiesNegativeAnti-La/SSB antibodiesNegativeAnti–Scl-70 antibodiesNegativeAnticentromere antibodiesNegativeAnti-Smith antibodiesNegativeAnti–double-stranded DNA antibodiesNegativeRheumatoid factorNegativeAnti–cyclic citrullinated peptide antibodiesNegativeComplement levels, c-reactive protein level, and results of complete blood count and comprehensive metabolic panel are normal.Radiographs of the hands are normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is mixed connective tissue disease (MCTD) (Option B). MCTD is an overlap rheumatic syndrome that fulfills diagnostic criteria for at least two of the following: systemic sclerosis, systemic lupus erythematosus, rheumatoid arthritis, and/or inflammatory myositis. Characteristic clinical features include puffy fingers (swollen “sausage-like” fingers without restriction of movement) and Raynaud phenomenon, along with high-titer anti–U1-ribonucleoprotein (RNP) antibodies. Inflammatory arthritis is common and may be erosive. Patients may also have proximal muscle weakness and elevated muscle enzyme levels, consistent with inflammatory myositis. As in systemic sclerosis, gastroesophageal reflux disease (GERD) is common, likely due to esophageal dysmotility. This patient's inflammatory arthritis, puffy fingers, proximal muscle weakness, and history of Raynaud phenomenon, along with abnormal laboratory results and positivity for antinuclear antibodies (ANA) and anti–U1-RNP antibodies, are consistent with MCTD.Behçet syndrome (Option A) is a systemic vasculitis with characteristic clinical signs and symptoms: recurrent oral and genital aphthous ulcers, skin rashes, and inflammatory eye disease. Results of serologic testing are frequently negative. This patient has had only one oral aphthous ulcer. Behçet syndrome may involve inflammatory arthritis, but this patient does not have other clinical features of this condition. In addition, the patient's puffy fingers, GERD, and myositis are uncommon in Behçet syndrome.Rheumatoid arthritis (Option C) is an inflammatory arthritis that typically involves the metacarpophalangeal (MCP) joints and wrists. Often, rheumatoid factor and anti–cyclic citrullinated peptide antibodies are positive and anti–U1-RNP antibodies are negative. Although this patient has inflammatory arthritis of the MCP joints and wrists, she does not have other features of rheumatoid arthritis. Moreover, puffy fingers and myositis are not associated with rheumatoid arthritis.Systemic lupus erythematosus (SLE) (Option D) is associated with photosensitive rashes, inflammatory arthritis, and kidney disease, along with positivity for ANA, cytopenia, and low complement levels. This patient's myositis and inflammatory arthritis can be seen in SLE, but she lacks the other clinical features. Her laboratory findings also make SLE unlikely: ANA positivity is nonspecific, and she is negative for SLE-specific antibodies (anti-Smith and anti–double-stranded DNA antibodies) and positive for anti–U1 RNP antibodies.",
+  "critique_links": [],
   "key_points": [
     "Mixed connective tissue disease includes clinical manifestations of systemic sclerosis, systemic lupus erythematosus, rheumatoid arthritis, and/or inflammatory myositis; anti–U1-ribonucleoprotein antibodies are typically present."
   ],
@@ -50,10 +51,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:54:42.345531-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.593308-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 48-year-old patient is evaluated for ongoing chills, fatigue, fever, and sweats 2 days after completing a 10-day course of doxycycline for Lyme disease. They live in Wisconsin. At the initial evaluation, they had an erythematous rash over the area of a tick bite with associated chills and fatigue.On physical examination, temperature is 38.5 °C (101.3 °F). The other vital signs and examination findings are unremarkable. The rash has resolved.Lyme IgM and IgG serum antibody tests and Babesia microti polymerase chain reaction (PCR) testing are positive. Serum Anaplasma phagocytophilum PCR and a thin blood smear examined for parasites are negative.",
+  "question_text": "A 48-year-old patient is evaluated for ongoing chills, fatigue, fever, and sweats 2 days after completing a 10-day course of doxycycline for Lyme disease. They live in Wisconsin. At the initial evaluation, they had an erythematous rash over the area of a tick bite with associated chills and fatigue.On physical examination, temperature is 38.5 °C (101.3 °F). The other vital signs and examination findings are unremarkable. The rash has resolved.Laboratory studies:Hematocrit40%LLeukocyte count6800/µL (6.8 × 109/L)Platelet count234,000/µL (234 × 109/L)Lyme IgM and IgG serum antibody tests and Babesia microti polymerase chain reaction (PCR) testing are positive. Serum Anaplasma phagocytophilum PCR and a thin blood smear examined for parasites are negative.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has babesiosis and should be treated with a 10-day course of atovaquone and azithromycin (Option A). The Ixodes scapularis tick that transmits Borrelia burgdorferi, the pathogen that causes Lyme disease, also transmits Babesia microti and Anaplasma phagocytophilum. Clinical manifestations of babesiosis develop 1 to 4 weeks following a tick bite, and symptoms range from nonexistent to severe. Symptoms are nonspecific and include fever, fatigue, chills, headache, myalgia, and cough. The hallmark of babesiosis is hemolysis, with anemia almost invariably present. Severe disease may include multiorgan involvement, including thrombocytopenia, elevated serum aminotransferase levels, acute kidney injury, acute respiratory distress syndrome, and congestive heart failure. Babesiosis can be diagnosed by performing a thin blood smear examination for parasites or serum polymerase chain reaction (PCR). Serum PCR is more sensitive than blood smear and is particularly useful in the setting of low parasite burden. Babesiosis is treated with a combination of atovaquone and azithromycin for 7 to 10 days. In this patient, the erythematous rash following a tick bite in a Lyme-endemic region aligns with erythema migrans and a diagnosis of Lyme disease; they were appropriately treated with a 10-day course of doxycycline. Their continued symptoms and mild anemia despite treatment suggest coinfection with babesiosis. The positive Babesia PCR and negative blood smear in the context of mild symptoms is most likely explained by a low Babesia parasite burden. For mild disease, they should be prescribed atovaquone and azithromycin for 10 days.This patient has already been treated for early Lyme disease with 10 days of doxycycline. Lyme serum antibodies often persist indefinitely, even after treatment; therefore, treatment with ceftriaxone or an additional course of doxycycline is not warranted (Option B, Option C). Intravenous ceftriaxone can be used to treat Lyme myocarditis or meningitis, but this patient shows no evidence of these conditions.Erythrocyte exchange transfusion is used as adjunctive treatment, together with atovaquone and azithromycin, for severe babesiosis, which may manifest with hemolytic anemia and multiorgan failure (Option D). This patient has only mild symptoms; therefore, treatment with atovaquone and azithromycin alone is sufficient.",
+  "critique_links": [],
   "key_points": [
     "The Ixodes scapularis tick transmits Babesia microti, Anaplasma phagocytophilum, and Borrelia burgdorferi; coinfection with a combination of these pathogens can occur.",
     "Babesiosis is treated with a combination of atovaquone and azithromycin for 7 to 10 days."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:47:13.167431-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.469395-06:00"
 }

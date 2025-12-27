@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 55-year-old woman is evaluated for a 5-month history of fatigue and constipation. More recently, she has experienced polydipsia and polyuria. She has no other medical problems.Physical examination findings, including vital signs, are normal.Laboratory studies:Albumin4.5 g/dL (45 g/L)Calcium11.4 mg/dL (2.8 mmol/L)HPhosphorus2.2 mg/dL (0.71 mmol/L)LComplete blood count, anion gap, and kidney function tests are normal.",
   "question_stem": "In addition to repeating a serum calcium measurement, which of the following should be measured next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The first step in the evaluation of confirmed hypercalcemia is to repeat the serum calcium measurement along with a serum parathyroid hormone (PTH) measurement (Option C). Hypercalcemia is categorized as PTH-mediated or non–PTH-mediated, and measuring the PTH and calcium levels simultaneously is the first step in determining the cause of hypercalcemia. If the PTH level is suppressed or low-normal in hypercalcemia, causes such as malignancy, vitamin D intoxication, chronic granulomatous diseases, and medications should be considered. If PTH is elevated or within the upper half of the reference range (nonsuppressed), the hypercalcemic process is PTH mediated. Because PTH enhances kidney phosphate excretion, low or low-normal serum phosphorus concentrations support the diagnosis of PTH-mediated hypercalcemia in patients with normal kidney function. PTH-mediated hypercalcemia is caused by primary hyperparathyroidism, tertiary hyperparathyroidism in the setting of advanced chronic kidney disease, or familial hypocalciuric hypercalcemia. The most common cause of hypercalcemia in the outpatient setting is primary hyperparathyroidism, usually due to a solitary parathyroid adenoma. This patient with symptomatic hypercalcemia should have her PTH level measured to determine whether the process is PTH mediated.Ionized calcium measurement (Option A) is not necessary if the serum albumin or corrected total calcium levels are normal; no acute acid-base disorders are present; and there is no evidence of paraproteinemia, such as multiple myeloma (anemia, kidney injury, low anion gap). In most clinical situations, measured calcium levels depend on the amount bound to albumin, which may be affected by nutrition and acid-base status. When the albumin concentration is abnormal, ionized calcium measurement or corrected total calcium calculation is required to assess calcium levels accurately. This patient's albumin level is normal, so ionized calcium does not need to be measured.Calcitonin is secreted by thyroid parafollicular cells (also called C cells) and is elevated in patients with medullary thyroid cancer or C-cell hyperplasia. Calcitonin tends to lower rather than raise the calcium level. Measuring the serum calcitonin level (Option B) is not indicated in a patient with hypercalcemia.If the PTH level is elevated or in the upper half of the reference range in the setting of hypercalcemia, the 24-hour urine calcium excretion (Option D) should be measured to evaluate for familial hypocalciuric hypercalcemia (FHH). FHH is a benign genetic condition resulting in an elevated PTH level due to an inactivating variant of the calcium-sensing receptor (CaSR) gene. Simultaneously, the variant CaSR in the kidney increases kidney resorption of calcium, leading to paradoxical hypocalciuria. FHH must be distinguished from primary hyperparathyroidism because the former requires no treatment; however, such evaluation is not indicated until PTH-mediated hypercalcemia is confirmed.",
+  "critique_links": [],
   "key_points": [
     "Hypercalcemia is parathyroid hormone (PTH)–mediated or non–PTH-mediated; measuring the PTH and calcium levels simultaneously is the first step in determining the cause of hypercalcemia.",
     "In patients with hypercalcemia, an elevated or high-normal PTH measurement indicates PTH-mediated hypercalcemia, the most common cause of which is primary hyperparathyroidism."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:00:39.689985-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.021527-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 45-year-old man is evaluated for recurrent episodes of ear redness and swelling, painful joints, and hoarseness for the past 6 months.Physical examination reveals inflammation of the pinnae (sparing the ear lobules) and a saddle nose deformity. Tenderness of the bilateral wrists and the metacarpophalangeal and proximal interphalangeal joints is noted.CT scan of the chest demonstrates tracheal thickening that spares the posterior membrane with a few tracheal calcifications.",
+  "question_text": "A 45-year-old man is evaluated for recurrent episodes of ear redness and swelling, painful joints, and hoarseness for the past 6 months.Physical examination reveals inflammation of the pinnae (sparing the ear lobules) and a saddle nose deformity. Tenderness of the bilateral wrists and the metacarpophalangeal and proximal interphalangeal joints is noted.Laboratory studies:Erythrocyte sedimentation rate56 mm/hHC-reactive protein3.8 mg/dL (38 mg/L)HCT scan of the chest demonstrates tracheal thickening that spares the posterior membrane with a few tracheal calcifications.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Relapsing polychondritis (Option C) is the most likely diagnosis. Relapsing polychondritis is a rare disorder characterized by cartilage inflammation in various locations (nose, ear, trachea), systemic symptoms, joint pain, ocular inflammation, sensorineural hearing loss, cutaneous manifestations (subcutaneous nodules), aortitis, and glomerulonephritis. Relapsing polychondritis may be associated with various disorders, ranging from myelodysplastic syndrome to type 1 diabetes mellitus, systemic lupus erythematosus, rheumatoid arthritis, and Behçet syndrome among many others. Relapsing polychondritis is categorized based on organ involvement, with the most common presentation involving recurrent nasal and aural chondritis with low frequency of tracheobronchial involvement or associated hematologic disease. The typical tracheal involvement in relapsing polychondritis is anterior and sometimes associated with calcification, as in this patient. Treatment varies and includes high-dose glucocorticoids; steroid-sparing medications such as methotrexate, mycophenolate, and azathioprine; biologic therapies such as tumor necrosis factor inhibitors, abatacept, and tocilizumab; and intravenous immune globulin therapy.Behçet syndrome (Option A) is a systemic vasculitis that consists of a constellation of characteristic signs and symptoms, most commonly including mucocutaneous ulcers, skin lesions, and inflammatory eye disease. Arthritis and enthesitis may be present. Cartilage inflammation is not a typical feature of Behçet syndrome, making this an unlikely diagnosis in this patient.Granulomatosis with polyangiitis (GPA) (Option B) is associated with chronic, severe, and damaging sinusitis; pulmonary nodules and alveolar hemorrhage; subglottic stenosis; circumferential tracheal involvement; purpura; mononeuritis multiplex; and pauci-immune glomerulonephritis. The pattern of tracheal involvement and the lack of the other clinical features makes GPA unlikely in this patient.VEXAS (vacuoles, E1 enzyme, X-linked, autoinflammatory, somatic) syndrome (Option D) is a newly recognized adult-onset autoinflammatory disorder caused by myeloid lineage–restricted somatic missense variants in UBA1, a gene encoding the ubiquitin-activating enzyme 1. VEXAS syndrome has an estimated prevalence of 1 in 13,591 adults and occurs almost exclusively in men, with disease prevalence rising with advancing age. It is characterized by recurrent fever, chondritis, vasculitis, dysplastic bone marrow, and characteristic vacuoles in myeloid and erythroid precursor cells. The absence of these other features makes VEXAS unlikely in this patient.",
+  "critique_links": [],
   "key_points": [
     "Relapsing polychondritis is a rare disorder characterized by cartilage inflammation in various locations (nose, ear, trachea), systemic symptoms, joint pain, ocular inflammation, sensorineural hearing loss, cutaneous manifestations (subcutaneous nodules), aortitis, and glomerulonephritis."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:05.848533-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.857345-06:00"
 }

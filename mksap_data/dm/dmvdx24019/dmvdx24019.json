@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 70-year-old man is evaluated for a slowly growing lesion on his chin.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is basal cell carcinoma (BCC), of which the most common type is nodular BCC (Option B). Nodular BCC lesions are pearly and pink with telangiectatic vessels and may have a central depression; ulceration and crusting can occur. Flecks of melanin pigment may be present.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24621.32b9868cdde0011d251e60ceb3951cd5.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.840766-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24621",
+        "file": "figures/dmfig24621.32b9868cdde0011d251e60ceb3951cd5.jpg",
+        "title": "Basal Cell Carcinoma",
+        "short_title": "stem Basal Cell Carcinoma",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1200
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.384663-06:00"
 }

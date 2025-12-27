@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 20-year-old man is evaluated in the hospital for a rash. He was admitted 2 days ago for a 1-week history of fever, myalgia, and arthralgia involving his extremities. His pet rat bit him 5 days before symptom onset. Arthrocentesis of the right knee on admission suggested septic arthritis and intravenous vancomycin and ceftriaxone were started; his symptoms have improved. He takes no other medications. His last tetanus immunization was 1 year ago.On physical examination, temperature is 37.5 °C (99.5 °F); remaining vital signs are normal. A tender, erythematous, maculopapular rash with scattered hemorrhagic vesicles is present, primarily over the hands and feet, including the palms and soles, with scattered excoriations. The bilateral wrists, ankles, and right knee are tender and warm. There is decreased range of motion and effusion in the right knee.Laboratory studies:Leukocyte count12,900/µL (12.9 × 109/L) with 90% neutrophilsHBlood and synovial fluid cultures from admission now reveal growth of gram-negative bacilli.",
   "question_stem": "Which of the following is the most likely infectious agent?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient most likely has a Streptobacillus moniliformis infection (Option C). S. moniliformis is a filamentous gram-negative bacillus with lateral bulbar swellings that is classically associated with a scratch or bite from a rat (also carried by mice, squirrels, gerbils, and guinea pigs). Signs and symptoms usually develop within 3 to 10 days after exposure. Initially, fever, chills, vomiting, headache, myalgia, and polyarthralgia can develop, typically followed by an extremity-associated maculopapular, hemorrhagic vesicular, purpuric, or petechial rash and polyarticular arthritis (particularly knees and ankles, but also wrists and small joints of the hand, elbows, and shoulders). In addition to bacteremia and septic arthritis, as in this patient, endocarditis is potential complication. The organism is difficult to culture, and the microbiology laboratory should be notified to assist with diagnosis. In addition to local wound care, intravenous penicillin or ceftriaxone is typically administered.Capnocytophaga canimorsus (Option A) is a gram-negative bacillus that can cause cellulitis, septic arthritis, meningitis, and overwhelming sepsis in patients with hyposplenism who have been bitten or scratched by a dog or cat or who have had contact with their saliva. This patient's history and symptoms do not indicate C. canimorsus infection.Erysipelothrix rhusiopathiae (Option B), a gram-positive bacillus, can infect animals, including swine and poultry, and is a saprophyte associated with fish, mollusks, and crustaceans. Occupational exposures (e.g., by fishermen, shellfish handlers, butchers, veterinarians) to these animals or their secretions may result in infection. A painful localized violaceous skin lesion (known as erysipeloid) typically develops at the site of trauma or pre-existing wound. Fever is not usually present.Vibrio vulnificus (Option D). is a gram-negative bacillus that can cause monomicrobial necrotizing fasciitis Infection typically occurs after consumption of raw or undercooked shellfish (often oysters), which may result in primary septicemia, or after skin trauma sustained in warm seawater or brackish water where the organism is found. Violaceous hemorrhagic bullae are classically seen.",
+  "critique_links": [],
   "key_points": [
     "Streptobacillus moniliformis infection is typically associated with scratches or bites from rodents, with signs and symptoms developing 3 to 10 days after exposure; intravenous penicillin or ceftriaxone is typically administered."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.164829-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.522413-06:00"
 }

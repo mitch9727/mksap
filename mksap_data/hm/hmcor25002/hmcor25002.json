@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 70-year-old man undergoes follow-up evaluation of erythrocytosis. Other than daytime sleepiness, he feels well. He has a 50-pack-year history of smoking and continues to smoke. He also has obesity, hypertension, and a recent diagnosis of obstructive sleep apnea. He has not yet initiated continuous positive airway pressure (CPAP) ventilation. His only medication is lisinopril.On physical examination, vital signs are normal. BMI is 35. Oxygen saturation is 98% breathing ambient air. The examination is unremarkable.Laboratory studies:Erythropoietin33 mU/mL (33 U/L)Hematocrit52%HHemoglobin17.7 g/dL (177 g/L)HLeukocyte count8000/μL (8 × 109/L)Platelet count185,000/μL (185 × 109/L)Genetic testing is negative for the JAK2 V617F mutation.He receives brief behavioral intervention for smoking cessation, and varenicline is initiated.",
   "question_stem": "In addition to initiating CPAP, which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Besides smoking cessation and initiation of continuous positive airway pressure (CPAP) ventilation in this patient with obstructive sleep apnea, no further management is needed at this time (Option D). Testing for the JAK2 V617F mutation and measurement of erythropoietin levels are appropriate initial laboratory evaluation for isolated erythrocytosis. Primary polycythemia vera (PV) is often characterized by an elevated erythrocyte mass and a low serum erythropoietin level, and approximately 95% of patients have the JAK2 mutation, resulting in overproduction of erythrocytes, granulocytes, and platelets. Although elevated hemoglobin and hematocrit levels should raise suspicion for PV, especially with concomitant elevated leukocyte and platelet counts, secondary causes of erythrocytosis are much more common. Secondary causes arise through chronic or intermittent hypoxia with an adaptive increase in erythropoietin level and erythrocyte mass, or through ectopic production of erythropoietin, most commonly from a renal neoplasm. A careful history and physical examination will often reveal an underlying process contributing to hemoglobin elevation, so smoking history, sleep patterns, cardiopulmonary symptoms, and medications should be reviewed. Evaluation for underlying hypoxemic conditions, such as sleep apnea and heart failure, is guided by this initial clinical assessment. An elevated erythrocyte count can be an appropriate physiologic response in the setting of chronic hypoxemia, so management of these patients focuses on treating the underlying condition rather than reducing the erythrocyte count by other means. This patient has a high-normal erythropoietin level and is negative for the JAK2 V617F mutation, indicating a secondary cause of erythrocytosis. His erythrocytosis is likely to resolve with smoking cessation and treatment of his sleep apnea alone.Bone marrow biopsy (Option A) is rarely indicated in evaluating secondary erythrocytosis. Even if suspected, PV may be confirmed without the need for bone marrow evaluation if other criteria are met. In secondary erythrocytosis, the marrow will show a reactive increase in erythroid precursors but will not be helpful in establishing the cause.Medications such as hydroxyurea (Option B) and ruxolitinib are treatment options for primary PV but are not indicated for secondary erythrocytosis.Maintaining a hematocrit less than 45% reduces the risk for adverse cardiovascular and thrombotic events in PV. However, because the increase in erythrocyte mass in secondary erythrocytosis is a compensatory response to tissue hypoxia, reducing the number of erythrocytes through phlebotomy (Option C) may worsen outcomes. Phlebotomy in reactive situations is considered on a case-by-case basis and is often limited to patients with extreme hematocrit elevations (>54%) and who have symptoms attributable to hyperviscosity.",
+  "critique_links": [],
   "key_points": [
     "Secondary causes of erythrocytosis arise through chronic or intermittent hypoxia, and correcting these underlying causes (e.g., cigarette smoking, obstructive sleep apnea) is the mainstay of management."
   ],
@@ -50,10 +51,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:44:24.214442-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.777639-06:00"
 }

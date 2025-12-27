@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 59-year-old man is evaluated for an increased serum creatinine level. He has hypertension. He reports no changes to his medication regimen (lisinopril) during the past year.On physical examination, the patient is afebrile, blood pressure is 145/92 mm Hg, and pulse rate is 84/min. He has no alopecia, rash, or joint abnormalities. Cardiopulmonary examination is unremarkable.Results of a complete blood count are normal.Ultrasound reveals normal-sized kidneys with increased echogenicity but no hydronephrosis.",
+  "question_text": "A 59-year-old man is evaluated for an increased serum creatinine level. He has hypertension. He reports no changes to his medication regimen (lisinopril) during the past year.On physical examination, the patient is afebrile, blood pressure is 145/92 mm Hg, and pulse rate is 84/min. He has no alopecia, rash, or joint abnormalities. Cardiopulmonary examination is unremarkable.Laboratory studies: Creatinine (repeat specimen)1.5 mg/dL (133 µmol/L)HYesterday1.3 mg/dL (115 µmol/L)6 months ago0.9 mg/dL (79.6 µmol/L)Urinalysis1+ proteinResults of a complete blood count are normal.Ultrasound reveals normal-sized kidneys with increased echogenicity but no hydronephrosis.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "A kidney biopsy (Option D) is appropriate for this patient with a decline in kidney function. Clinical and laboratory features are often insufficient for definitive diagnosis of kidney disease. Kidney biopsy may therefore be essential for diagnosis and management. Indications include glomerular hematuria, severely increased albuminuria, acute or chronic kidney disease of unclear cause, and kidney transplant dysfunction or monitoring. This patient has an elevated serum creatinine level without clear cause. Although serologic testing should be performed to guide diagnosis, a kidney biopsy is needed to provide a definitive diagnosis.Due to preferential dilation of the efferent arteriole, the ACE inhibitor lisinopril may reduce the glomerular filtration rate (GFR) and hence increase the serum creatinine level; however, this change in the creatinine level would occur within days of drug initiation or dose change and then stabilize. This patient's creatinine level increased without a change in dose, suggesting an unrelated cause. Discontinuing lisinopril and repeating the serum creatinine measurement (Option A) would not provide additional diagnostic information.A 24-hour creatinine clearance (Option B) may be helpful in estimating kidney function but will not change the evaluation at this time. Most studies show that the Chronic Kidney Disease Epidemiology (CKD-EPI) Collaboration creatinine equation or the Modification of Diet in Renal Disease (MDRD) study equation provides a more accurate estimated GFR compared with creatinine clearance.This patient's increased serum creatinine level and 1+ protein on urinalysis indicate kidney damage, and obtaining a true measure of GFR (iothalamate) in this patient is not necessary (Option C). The cause of the kidney damage needs to be determined by kidney biopsy.",
+  "critique_links": [],
   "key_points": [
     "Indications for kidney biopsy include glomerular hematuria, severely increased albuminuria, acute or chronic kidney disease of unclear cause, and kidney transplant dysfunction or monitoring."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.468256-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.939777-06:00"
 }

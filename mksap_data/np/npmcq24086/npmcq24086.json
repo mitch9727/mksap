@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 58-year-old woman is evaluated during a follow-up visit for hypertension and stage G4 chronic kidney disease due to type 2 diabetes mellitus. She reports a 2.3-kg (5.0-lb) weight loss after adhering to a low-sodium diet over the last 3 months. Medications are nifedipine, lisinopril, finerenone, dapagliflozin, semaglutide, and atorvastatin.On physical examination, blood pressure is 148/78 mm Hg, and pulse rate is 62/min. BMI is 35. There is trace pretibial edema bilaterally.",
+  "question_text": "A 58-year-old woman is evaluated during a follow-up visit for hypertension and stage G4 chronic kidney disease due to type 2 diabetes mellitus. She reports a 2.3-kg (5.0-lb) weight loss after adhering to a low-sodium diet over the last 3 months. Medications are nifedipine, lisinopril, finerenone, dapagliflozin, semaglutide, and atorvastatin.On physical examination, blood pressure is 148/78 mm Hg, and pulse rate is 62/min. BMI is 35. There is trace pretibial edema bilaterally.Laboratory studies:Bicarbonate23 mEq/L (23 mmol/L)Creatinine2.1 mg/dL (185.6 µmol/L)HEstimated glomerular filtration rate27 mL/min/1.73 m2",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment is addition of chlorthalidone (Option B). This patient has stage G4 chronic kidney disease (CKD) with uncontrolled hypertension and volume overload based on the examination finding of edema. As sodium retention and volume overload are major contributory factors in the hypertension of CKD, dietary sodium restriction to <2000 mg/d and diuretic therapy are both essential for blood pressure (BP) control, especially in advanced CKD. It was previously thought that thiazide diuretics did not work in advanced CKD, but data show that thiazide diuretics maintain efficacy for management of salt and water retention, even late into CKD progression. The 2021 Chlorthalidone in Chronic Kidney Disease (CLICK) trial suggests that, in patients with an estimated glomerular filtration rate (eGFR) <30 mL/min/1.73 m2 and poorly controlled hypertension, chlorthalidone may effectively improve BP. This patient's hypertension and edema are due to impaired water clearance with reduced glomerular filtration rate. Her change in lifestyle by following a low-sodium diet was useful; however, her systolic BP has not yet reached a target goal of <130/80 mm Hg per American College of Cardiology/American Heart Association guidelines or systolic BP <120 mm Hg per Kidney Disease: Improving Global Outcomes guidelines, and she remains edematous. Therefore, the most appropriate next intervention is to add a thiazide diuretic such as chlorthalidone to treat her volume-mediated hypertension. If chlorthalidone does not help this patient achieve euvolemia and improved BP control, the next step would be conversion to a loop diuretic.Acetazolamide (Option A) acts through the inhibition of carbonic anhydrase in the proximal tubule. Given its function in the proximal tubule, it is a weak diuretic because the loop of Henle and distal tubule will reabsorb the excess filtered sodium, thus negating the natriuretic action. For this reason, acetazolamide is rarely used for its diuretic function. Acetazolamide may be used for management of patients with elevated bicarbonate levels in the setting of metabolic alkalosis. Addition of acetazolamide would not be efficacious for treating this patient's hypertension, would add to her pill burden, and could potentially adversely lower her serum bicarbonate level.Addition of spironolactone (Option C) is not indicated because the patient is already receiving the nonsteroidal mineralocorticoid antagonist finerenone.This patient's medical regimen includes a kidney-protective ACE inhibitor (lisinopril) and a nonsteroidal mineralocorticoid antagonist (finerenone). Addition of an angiotensin receptor blocker such as valsartan (Option D) is contraindicated because dual therapy with an ACE inhibitor and angiotensin receptor blocker increases risk for hyperkalemia and acute kidney injury without providing kidney or mortality benefit.",
+  "critique_links": [],
   "key_points": [
     "Sodium retention and volume overload are major contributory factors in the hypertension of chronic kidney disease (CKD); dietary sodium restriction to <2000 mg/d and diuretics are essential for blood pressure control, especially in advanced CKD."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:09.489700-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.831964-06:00"
 }

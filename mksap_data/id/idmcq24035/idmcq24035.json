@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 36-year-old woman is evaluated in the emergency department for a 4-day history of fever, chills, sharp right-sided chest pain on inspiration, worsening dyspnea on exertion, and cough productive of yellow sputum with intermittent blood streaks.On physical examination, temperature is 39.0 °C (102.2 °F), blood pressure is 94/52 mm Hg, pulse rate is 115/min, and respiration rate is 20/min. Oxygen saturation is 91% breathing ambient air. Cardiac examination reveals regular tachycardia. Breath sounds are decreased over the right lung base.Rapid nucleic acid amplification testing is positive for influenza B and negative for SARS-CoV-2.A chest radiograph shows consolidation in the right lower lobe with associated pleural effusion.",
+  "question_text": "A 36-year-old woman is evaluated in the emergency department for a 4-day history of fever, chills, sharp right-sided chest pain on inspiration, worsening dyspnea on exertion, and cough productive of yellow sputum with intermittent blood streaks.On physical examination, temperature is 39.0 °C (102.2 °F), blood pressure is 94/52 mm Hg, pulse rate is 115/min, and respiration rate is 20/min. Oxygen saturation is 91% breathing ambient air. Cardiac examination reveals regular tachycardia. Breath sounds are decreased over the right lung base.Laboratory studies:Leukocyte count24,000/µL (24 × 109/L) with 95% neutrophilsHBlood urea nitrogen35 mg/dL (12.5 mmol/L)HCreatinine1.6 mg/dL (141 µmol/L)HRapid nucleic acid amplification testing is positive for influenza B and negative for SARS-CoV-2.A chest radiograph shows consolidation in the right lower lobe with associated pleural effusion.",
   "question_stem": "In addition to starting oseltamivir, which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "This patient has community-acquired pneumonia (CAP) and influenza requiring hospitalization and empiric treatment with vancomycin, ceftriaxone, and azithromycin (Option C). Up to 40% of patients with CAP have positive tests for respiratory viruses, which may reflect concurrent illness or antecedent infection. In addition to guiding treatment, testing for respiratory viruses may also affect infection prevention decisions. Infectious Diseases Society of America (IDSA) and American Thoracic Society (ATS) guidelines recommend rapid nucleic acid amplification tests for influenza and COVID-19 if these viruses are circulating in the community. Patients with CAP who test positive for influenza should be treated with an antiviral agent such as oseltamivir regardless of symptom duration. Although respiratory viruses may cause severe CAP, identification of a viral organism does not exclude a bacterial coinfection. Staphylococcus aureus, Streptococcus pneumoniae, and Streptococcus pyogenes have all been associated with postinfluenza necrotizing CAP. Therefore, the IDSA/ATS guidelines recommend prescribing antibiotics for CAP even when a viral pathogen is identified. Risk factors for CAP caused by methicillin-resistant S. aureus (MRSA) include preceding influenza infection, hospitalization or parenteral antibiotics in the past 90 days, previous respiratory culture positive for MRSA, and injection drug use. Empiric treatment for suspected MRSA pneumonia includes standard antibiotic treatment plus vancomycin or linezolid (). Antibiotic treatment should be tailored to sputum and blood culture results.Ceftriaxone and azithromycin alone (Option A) are standard therapy for CAP. However, this patient has a concurrent influenza infection, which is a risk factor for CAP caused by MRSA, so MRSA coverage with vancomycin or linezolid should be included.This patient does not meet criteria for antimicrobial coverage of Pseudomonas with vancomycin, cefepime, and azithromycin (Option B). Pseudomonas should be considered in immunocompromised patients and those with structural lung disease (e.g., cystic fibrosis or bronchiectasis). Other risk factors include a history of infection or positive sputum culture with Pseudomonas and medical conditions requiring repeated courses of antibiotics.Anaerobic infections are uncommon causes of CAP. CAP treatment that includes metronidazole (Option D) is not indicated because the patient's history does not suggest an aspiration event.",
+  "critique": "This patient has community-acquired pneumonia (CAP) and influenza requiring hospitalization and empiric treatment with vancomycin, ceftriaxone, and azithromycin (Option C). Up to 40% of patients with CAP have positive tests for respiratory viruses, which may reflect concurrent illness or antecedent infection. In addition to guiding treatment, testing for respiratory viruses may also affect infection prevention decisions. Infectious Diseases Society of America (IDSA) and American Thoracic Society (ATS) guidelines recommend rapid nucleic acid amplification tests for influenza and COVID-19 if these viruses are circulating in the community. Patients with CAP who test positive for influenza should be treated with an antiviral agent such as oseltamivir regardless of symptom duration. Although respiratory viruses may cause severe CAP, identification of a viral organism does not exclude a bacterial coinfection. Staphylococcus aureus, Streptococcus pneumoniae, and Streptococcus pyogenes have all been associated with postinfluenza necrotizing CAP. Therefore, the IDSA/ATS guidelines recommend prescribing antibiotics for CAP even when a viral pathogen is identified. Risk factors for CAP caused by methicillin-resistant S. aureus (MRSA) include preceding influenza infection, hospitalization or parenteral antibiotics in the past 90 days, previous respiratory culture positive for MRSA, and injection drug use. Empiric treatment for suspected MRSA pneumonia includes standard antibiotic treatment plus vancomycin or linezolid (Table: Empiric Antibiotics for CAP). Antibiotic treatment should be tailored to sputum and blood culture results.Ceftriaxone and azithromycin alone (Option A) are standard therapy for CAP. However, this patient has a concurrent influenza infection, which is a risk factor for CAP caused by MRSA, so MRSA coverage with vancomycin or linezolid should be included.This patient does not meet criteria for antimicrobial coverage of Pseudomonas with vancomycin, cefepime, and azithromycin (Option B). Pseudomonas should be considered in immunocompromised patients and those with structural lung disease (e.g., cystic fibrosis or bronchiectasis). Other risk factors include a history of infection or positive sputum culture with Pseudomonas and medical conditions requiring repeated courses of antibiotics.Anaerobic infections are uncommon causes of CAP. CAP treatment that includes metronidazole (Option D) is not indicated because the patient's history does not suggest an aspiration event.",
+  "critique_links": [],
   "key_points": [
     "Treatment of community-acquired pneumonia in a patient with risk factors for methicillin-resistant Staphylococcus aureus pneumonia includes standard antibiotic treatment plus vancomycin or linezolid."
   ],
@@ -51,12 +52,48 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/idtab24025.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:46:52.466210-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "idtab24025",
+        "file": "tables/idtab24025.html",
+        "title": "IDSA/ATS Recommendations for Empiric Antibiotics in Community-Acquired Pneumonia",
+        "short_title": "Empiric Antibiotics for CAP",
+        "footnotes": [
+          "ATS = American Thoracic Society; CA-MRSA = community-acquired methicillin-resistant <i>Staphylococcus aureus</i>; IDSA = Infectious Diseases Society of America.",
+          "<sup>a</sup>Comorbidities include chronic heart, lung, liver, or kidney disease; diabetes mellitus; alcoholism; asplenia; malignancies; and immunosuppression.",
+          "<sup>b</sup>Respiratory fluoroquinolones include levofloxacin and moxifloxacin; ciprofloxacin is not a respiratory quinolone because its activity against streptococcal species is limited.",
+          "<sup>c</sup>Recommended oral β-lactams include amoxicillin-clavulanate, cefuroxime, and cefpodoxime.",
+          "<sup>d</sup>Recommended parenteral β-lactams include ampicillin-sulbactam, ceftriaxone, cefotaxime (not currently available in the United States), and ceftaroline.",
+          "<sup>e</sup>Early glucocorticoid administration may be beneficial in immunocompetent patients with severe hypoxemia or those requiring mechanical ventilation. Glucocorticoids may exacerbate certain infections (fungal, tuberculous) and should be avoided in patients with these infections.",
+          "Data from Metlay JP, Waterer GW, Long AC, et al. Diagnosis and treatment of adults with community-acquired pneumonia. An official clinical practice guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med. 2019;200:e45-e67. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/31573350\" target=\"_blank\">PMID: 31573350</a> doi:10.1164/rccm.201908-1581ST"
+        ],
+        "headers": [
+          "Site of Treatment",
+          "Patient or Epidemiologic Considerations",
+          "Most Common Organisms",
+          "Regimens(s)"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.375606-06:00"
 }

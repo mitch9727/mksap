@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 22-year-old previously well woman is evaluated for the acute onset of painful sores on her right leg, as shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is ecthyma (Option A). Superficial, saucer-shaped ulcers with overlying crusts are the classic findings of classic ecthyma, which is a variant of impetigo. They almost always occur on the legs or feet and are usually caused by streptococci.The term ecthyma may be confused with ecthyma gangrenosum, which is a more severe infection usually resulting from hematogenous spread and skin seeding of gram-negative rods, in particular Pseudomonas, in an immunocompromised host. Ecthyma gangrenosum (shown) is characterized by single or multiple painless nodular lesions, with surrounding erythema, progressing to ulcers with central hemorrhage, ulceration, and necrosis.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,41 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24657.e0f0e32cc7e1bd9031ac99f713960656.jpg",
+      "figures/dmfig24658.afc81553f5e74cbf8cea543118b83c7c.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.916196-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24657",
+        "file": "figures/dmfig24657.e0f0e32cc7e1bd9031ac99f713960656.jpg",
+        "title": "Ecthyma",
+        "short_title": "stem Ecthyma",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 572
+      },
+      {
+        "figure_id": "dmfig24658",
+        "file": "figures/dmfig24658.afc81553f5e74cbf8cea543118b83c7c.jpg",
+        "title": "Ecthyma",
+        "short_title": "critique Ecthyma",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 327,
+        "height": 365
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.454376-06:00"
 }

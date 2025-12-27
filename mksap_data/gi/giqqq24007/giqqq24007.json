@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 26-year-old woman is evaluated for a 2-week history of worsening abdominal pain in the right lower quadrant. She has Crohn disease and has required three courses of prednisone for disease flares over the past year. Her only medication is azathioprine.Physical examination is unremarkable except for tenderness in the right lower quadrant.Leukocyte count and liver chemistry tests are normal.CT enterography shows asymmetric mural thickening and mucosal inflammation of a long segment of distal ileum without luminal narrowing.",
+  "question_text": "A 26-year-old woman is evaluated for a 2-week history of worsening abdominal pain in the right lower quadrant. She has Crohn disease and has required three courses of prednisone for disease flares over the past year. Her only medication is azathioprine.Physical examination is unremarkable except for tenderness in the right lower quadrant.Laboratory studies:Hemoglobin10.5 g/dL (105 g/L)LC-reactive protein32 mg/dL (320 mg/L)HLeukocyte count and liver chemistry tests are normal.CT enterography shows asymmetric mural thickening and mucosal inflammation of a long segment of distal ileum without luminal narrowing.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Infliximab (Option B) is the most appropriate treatment for this patient who has moderate to severe ileal Crohn disease that has required multiple prednisone tapers for disease flares over the last year despite treatment with the immunomodulator azathioprine. Infliximab is an anti–tumor necrosis factor (TNF)-α antagonist effective in inducing and maintaining remission in moderate to severe Crohn disease. Other FDA-approved anti-TNF agents include adalimumab and certolizumab pegol. Evidence indicates that efficacy is better when an anti-TNF agent is used together with an immunomodulator. In addition, the risk for developing antibodies against the anti-TNF agent is lower with combination therapy.Budesonide (Option A) is a potent glucocorticoid with high first-pass metabolism in the liver, which limits systemic adverse effects related to conventional glucocorticoids. Budesonide can be an effective therapy for treating mild flares of ileal Crohn disease, but it is unlikely to induce remission in more severe Crohn disease and cannot be used to maintain remission.Mesalamine (Option C) agents are mainly used to treat ulcerative colitis of mild to moderate severity. However, mesalamine is not effective in treating small-bowel Crohn disease.Reinitiating prednisone (Option D) may induce remission of the patient's current disease flare, but it would not be helpful in maintaining remission. Because this patient has required three separate glucocorticoid tapers over the past year, she requires a medication such as infliximab that can induce and maintain remission in Crohn disease.",
+  "critique_links": [],
   "key_points": [
     "Anti–tumor necrosis factor agents, such as infliximab, are effective in inducing and maintaining remission in moderate to severe Crohn disease; these agents are more effective when used together with an immunomodulatory agent."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:31.041959-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.476640-06:00"
 }

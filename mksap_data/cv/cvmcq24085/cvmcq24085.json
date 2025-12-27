@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 67-year-old woman undergoes follow-up evaluation 1 month after she was hospitalized with acute dyspnea and diagnosed with heart failure with reduced ejection fraction (20%). Coronary angiography at that time revealed no significant coronary artery disease. Treatment was initiated with metoprolol succinate, losartan, spironolactone, and furosemide. The patient now reports significant improvement but has dyspnea when walking short distances. She also has occasional light-headedness on rising from a sitting position. She has no other medical problems and takes no other medications.On physical examination, blood pressure is 96/68 mm Hg and pulse rate is 68/min. Jugular venous distention is noted just above the clavicle. The lungs are clear, and there is no S3 on cardiac examination.",
+  "question_text": "A 67-year-old woman undergoes follow-up evaluation 1 month after she was hospitalized with acute dyspnea and diagnosed with heart failure with reduced ejection fraction (20%). Coronary angiography at that time revealed no significant coronary artery disease. Treatment was initiated with metoprolol succinate, losartan, spironolactone, and furosemide. The patient now reports significant improvement but has dyspnea when walking short distances. She also has occasional light-headedness on rising from a sitting position. She has no other medical problems and takes no other medications.On physical examination, blood pressure is 96/68 mm Hg and pulse rate is 68/min. Jugular venous distention is noted just above the clavicle. The lungs are clear, and there is no S3 on cardiac examination.Laboratory studies:Creatinine0.9 mg/dL (79.6 µmol/L)",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient with heart failure with reduced ejection fraction (HFrEF) is dapagliflozin (Option A). Sodium-glucose cotransporter 2 (SGLT2) inhibitors reduce the incidence of death from cardiovascular causes and heart failure–related hospitalizations in patients who have heart failure independent of ejection fraction and regardless of whether they have diabetes. The SGLT2 inhibitors dapagliflozin and empagliflozin are now standard therapy for all patients with symptomatic heart failure. Contraindications include type 1 diabetes, prior ketoacidosis, and chronic kidney disease (estimated glomerular filtration rate <30 mL/min/1.73 m2 for dapagliflozin, 20 mL/min/1.73 m2 for empagliflozin). These medications should be used with caution in patients with frequent urinary tract infections and a history of foot ulcers. Patients also may experience diuresis, so volume status must be monitored, a decrease in diuretic dosage must be considered, and laboratory studies must be performed after initiation. This patient has no contraindications to SGLT2 inhibitors, and treatment with dapagliflozin or empagliflozin is indicated.Ivabradine is a sinoatrial node modulator that selectively decreases heart rate. It is indicated in patients with HFrEF on maximally tolerated doses of β-blockers and a heart rate greater than 70/min. This patient has a heart rate of 68/min, and adding ivabradine (Option B) is unnecessary.Changing losartan to valsartan-sacubitril (Option C) is not the most appropriate management. Guidelines emphasize the superiority of valsartan-sacubitril over either ACE inhibitors or angiotensin receptor blockers in patients with heart failure. Its primary adverse effect, however, is hypotension; in the initial trial demonstrating the superiority of valsartan-sacubitril over enalapril, a systolic blood pressure less than 100 mm Hg was an exclusion criterion and more than 10% of patients were excluded during the run-in phase because of symptomatic hypotension. This patient already has symptomatic hypotension on losartan and is unlikely to tolerate valsartan-sacubitril; adding dapagliflozin is a better option.Changing metoprolol succinate to carvedilol (Option D) is not indicated. Metoprolol succinate, carvedilol, and bisoprolol are the only β-blockers approved for patients with HFrEF, and there are no data suggesting that one is superior to another. Carvedilol has some α-blocking activity and, in theory, might cause more hypotension than metoprolol succinate, but this has not been proven.",
+  "critique_links": [],
   "key_points": [
     "In patients with heart failure, sodium-glucose cotransporter 2 (SGLT2) inhibitors reduce the incidence of death from cardiovascular causes and heart failure–related hospitalizations regardless of ejection fraction and the presence of diabetes.",
     "SGLT2 inhibitors are contraindicated in patients with type 1 diabetes or prior diabetic ketoacidosis."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:49:15.448355-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.631478-06:00"
 }

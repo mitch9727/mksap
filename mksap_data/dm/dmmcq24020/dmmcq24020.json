@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 75-year-old man is evaluated for a 5-year history of persistent rash on his face and arms. The rash is not pruritic or painful but has slowly progressed in areas of involvement over the years. Medical history is significant for hypertension and a 25-pack-year smoking history; he continues to smoke. His only medication is losartan.On physical examination, vital signs are normal.Skin findings on the temple and forearm are shown.The upper arms, chest, and back are not involved.",
   "question_stem": "Which of the following is the best next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The best next step in management of this patient with multiple actinic keratoses is 5-fluorouracil cream (Option B). Actinic keratoses present as ill-defined, rough, scaly macules or papules. They develop on chronically sun-damaged skin, such as the face, scalp, and forearms, and are precancerous, as shown.The risk of progression for each individual actinic keratosis to squamous cell carcinoma is low, but risk is increased with multiple actinic keratoses. Individual lesions can be treated with cryotherapy. In patients with diffuse actinic damage, several field therapy options, including topical 5-fluorouracil cream, topical imiquimod, topical diclofenac, and photodynamic therapy, are available. When used as topical field treatment for actinic keratoses, 5-fluorouracil cream is applied to the affected area twice daily for 2 to 3 weeks. Patients should be thoroughly counseled on the common adverse effects of erythema, edema, and crusting associated with this treatment. This patient has scattered actinic keratoses on his forearm, forehead, and temple; field therapy with 5-fluorouracil to treat both the subclinical and visible actinic keratoses is indicated.Clindamycin lotion (Option A) is a topical antibiotic often used to treat acne or bacterial folliculitis. Topical antibiotics such as clindamycin, however, have no role in the treatment of actinic keratosis. This patient does not have the pustules or nodules characteristic of acne or folliculitis, and clindamycin is not indicated.Topical tretinoin (Option C) is used to treat many dermatologic conditions, including acne and facial rhytids. Although topical tretinoin has been used off-label to treat actinic keratoses, it is not a first-line option for field treatment, and 5-fluorouracil cream is a more appropriate choice.Topical triamcinolone cream (Option D) is a glucocorticoid often used for inflammatory conditions, such as atopic dermatitis or psoriasis. However, topical glucocorticoids have no indication in the treatment of actinic keratoses. This patient's clinical findings are most consistent with actinic keratoses, and topical glucocorticoids are not indicated.",
+  "critique_links": [],
   "key_points": [
     "Actinic keratoses are characterized by ill-defined, rough, scaly macules or papules that most commonly appear on chronically sun-damaged skin of the face, scalp, and forearms.",
     "Field treatment options for extensive actinic keratoses include topical 5-fluorouracil cream, topical imiquimod, topical diclofenac, and photodynamic therapy."
@@ -52,9 +53,65 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24220.7d1cfa0beb48def1f2564144f97b19cd.jpg",
+      "figures/dmfig24221.eb4fbde8646b919338cd074f2c0e455c.jpg",
+      "figures/dmfig24222.4e106a73ad30f875239e903c2cb1885d.jpg",
+      "figures/dmfig24223.aef912be4e8d2590ca207244a084b765.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.731247-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24220",
+        "file": "figures/dmfig24220.7d1cfa0beb48def1f2564144f97b19cd.jpg",
+        "title": "Actinic Keratoses on Scalp",
+        "short_title": "stem Actinic Keratoses on Scalp",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 889,
+        "height": 1266
+      },
+      {
+        "figure_id": "dmfig24221",
+        "file": "figures/dmfig24221.eb4fbde8646b919338cd074f2c0e455c.jpg",
+        "title": "Actinic Keratoses on Forearm",
+        "short_title": "stem Actinic Keratoses on Forearm",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 765,
+        "height": 1899
+      },
+      {
+        "figure_id": "dmfig24222",
+        "file": "figures/dmfig24222.4e106a73ad30f875239e903c2cb1885d.jpg",
+        "title": "Actinic Keratoses on Scalp",
+        "short_title": "critique Actinic Keratoses on Scalp",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1220
+      },
+      {
+        "figure_id": "dmfig24223",
+        "file": "figures/dmfig24223.aef912be4e8d2590ca207244a084b765.jpg",
+        "title": "Actinic Keratoses on Forearm",
+        "short_title": "critique Actinic Keratoses on Forearm",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 634,
+        "height": 1477
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.250854-06:00"
 }

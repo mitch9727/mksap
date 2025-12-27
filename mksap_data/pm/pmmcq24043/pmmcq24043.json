@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 52-year-old man is evaluated during follow-up for asthma. Over the past month, he has been awakening an average of one night per week needing rescue therapy, at which time he uses inhaled fluticasone-formoterol. His wife has not noticed snoring or gasping during sleep. He has had one exacerbation requiring systemic glucocorticoids over the past 6 months. He has no other medical problems, and his only other medication is inhaled fluticasone-formoterol for which he demonstrates proper technique.On physical examination, vital signs are normal. BMI is 21. Neck circumference is normal at 37 cm (14.6 in). Lung examination reveals clear breath sounds.",
+  "question_text": "A 52-year-old man is evaluated during follow-up for asthma. Over the past month, he has been awakening an average of one night per week needing rescue therapy, at which time he uses inhaled fluticasone-formoterol. His wife has not noticed snoring or gasping during sleep. He has had one exacerbation requiring systemic glucocorticoids over the past 6 months. He has no other medical problems, and his only other medication is inhaled fluticasone-formoterol for which he demonstrates proper technique.On physical examination, vital signs are normal. BMI is 21. Neck circumference is normal at 37 cm (14.6 in). Lung examination reveals clear breath sounds.Laboratory studies:Absolute eosinophil count80/µL (0.08 × 109/L)IgE18 U/mL (18 kU/L)",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management in this patient with chronic asthma that is uncontrolled with high-dose inhaled glucocorticoid–long-acting β2-agonist (LABA) therapy is the addition of long-acting muscarinic antagonist (LAMA) therapy, such as tiotropium (Option D). Inhaled glucocorticoids are the most effective class of asthma controller medications and should be prescribed in most patients with asthma. Although not first-line therapy in asthma, LAMAs provide sustained airway dilation, and tiotropium has been shown to improve lung function and reduce exacerbations when added to therapy in patients not controlled with inhaled glucocorticoid–LABA therapy. A LAMA should be added to the treatment regimen when high-dose inhaled glucocorticoid–LABA therapy inadequately relieves symptoms. Combination inhaled glucocorticoid, LABA, and LAMA inhaler therapy (“triple therapy”) is effective in asthma regardless of blood eosinophil count, and it is not necessary to assess for eosinophilia before adding on a LAMA. This patient has inadequate symptom control with weekly nocturnal symptoms despite high-dose inhaled glucocorticoid–LABA therapy. The most appropriate next step is to add a LAMA, such as tiotropium.Leukotriene receptor antagonists, such as montelukast (Option A), have a modest bronchodilation effect and are most effective in patients with aspirin-exacerbated respiratory disease. They are useful as add-on therapy in asthma management but are not recommended as primary step-up management in patients whose asthma is poorly controlled, such as this patient.Evaluation for biologic therapy, such as omalizumab (Option B), is recommended when asthma is difficult to control with maximal medical therapy. Effective biologic agents are primarily directed against type 2 inflammation and target pathways involved in the activation of eosinophils (e.g., mepolizumab, reslizumab) and IgE (e.g., omalizumab). The degree of eosinophilia and IgE levels help determine the best biologic option in an individual patient. Omalizumab, for example, is most effective in patients with an elevated IgE level. Although biologic therapy may be an appropriate future option in this patient, maximal medical therapy should be implemented before adding a biologic agent, and adding a LAMA is the best option. Omalizumab is unlikely to be beneficial in this patient with a low IgE level. Biologic therapy targeting eosinophils (e.g., mepolizumab) is also unlikely to be beneficial in this patient with an absolute eosinophil count less than 150/µL (0.15 × 109/L).In all patients with asthma, evaluation and treatment of comorbid conditions, such as obstructive sleep apnea (OSA), are important. This patient does not snore, has had no witnessed apneas, and has a normal neck circumference, making OSA unlikely. His nocturnal awakenings are likely from inadequate control of his asthma and should resolve with more intensive asthma therapy. Polysomnography (Option C) is unnecessary.",
+  "critique_links": [],
   "key_points": [
     "The addition of a long-acting muscarinic antagonist in patients with poor asthma control despite high-dose inhaled glucocorticoid–long-acting β2-agonist therapy improves symptom control and lung function and reduces the rate of exacerbation."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.021894-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.132056-06:00"
 }

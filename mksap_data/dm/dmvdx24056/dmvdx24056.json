@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 23-year-old woman is evaluated for a tender and painful burn sustained after touching her arm with a hot curling iron, as shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient most likely has a first-degree burn (Option A). Thermal burns are assessed based on the amount of body surface area involvement, the depth of burn, and the specific area involved. First-degree burns involve the epidermis and result in painful, red, and tender skin, as seen in this patient. Second-degree burns destroy the epidermis; there is partial involvement of the dermis resulting in blisters, weeping, and sloughed skin that is painful to air and touch. Third-degree burns involve the epidermis and fat and may involve muscle and bone; the burn surface is white or black with minimal associated pain.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24666.23a57ff2aa36f7128902626d68fc170f.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.938388-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24666",
+        "file": "figures/dmfig24666.23a57ff2aa36f7128902626d68fc170f.jpg",
+        "title": "Burn",
+        "short_title": "stem Burn",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 640
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.467943-06:00"
 }

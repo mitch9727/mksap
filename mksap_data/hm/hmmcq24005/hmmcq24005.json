@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 65-year-old man is evaluated for cervical lymphadenopathy, weight loss, and fatigue. Medical history is unremarkable, and he takes no medications.On physical examination, vital signs are normal. Cervical lymphadenopathy is noted bilaterally.Serum protein electrophoresis and immunofixation assay show an IgM kappa monoclonal band.PET/CT scan shows diffuse lymph node enlargement. Bone marrow biopsy shows lymphoplasmacytic infiltrates with MYD88 mutation.",
+  "question_text": "A 65-year-old man is evaluated for cervical lymphadenopathy, weight loss, and fatigue. Medical history is unremarkable, and he takes no medications.On physical examination, vital signs are normal. Cervical lymphadenopathy is noted bilaterally.Laboratory studies:Hemoglobin10 g/dL (100 g/L)LMean corpuscular volume95 fLLeukocyte count6700/μL (6.7 × 109/L)Platelet count225,000/μL (225 × 109/L)Albumin3.9 g/dL (39 g/L)Calcium9.2 mg/dL (2.3 mmol/L)Creatinine0.8 mg/dL (70.7 µmol/L)IgG800 mg/dL (8 g/L)IgA100 mg/dL (1 g/L)IgM3000 mg/dL (30 g/L)HSerum protein electrophoresis and immunofixation assay show an IgM kappa monoclonal band.PET/CT scan shows diffuse lymph node enlargement. Bone marrow biopsy shows lymphoplasmacytic infiltrates with MYD88 mutation.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is Waldenström macroglobulinemia (WM) (Option E). WM is an indolent B-cell lymphoma with clonal lymphoplasmacytic cells in the bone marrow and/or lymph nodes that produce IgM. WM demonstrates an indolent course; however, patients may present with classic “B symptoms” of drenching night sweats, fever, and weight loss. Elevated circulating IgM may result in hyperviscosity syndrome, and peripheral sensorimotor neuropathy is seen in 20% of patients and can be associated with anti–myelin-associated glycoprotein antibodies. Diagnosis of WM includes assessing IgM levels, serum protein electrophoresis and immunofixation, serum viscosity testing, and bone marrow and lymph node biopsies. Presence of MYD88 mutations is significant because it is generally associated with favorable response to Bruton tyrosine kinase inhibitors. This patient likely has WM based on the lymphadenopathy, an IgM kappa monoclonal band, and nodal lymphoplasmacytic infiltrates.Patients with diffuse large B-cell lymphoma (Option A) may present with lymphadenopathy and anemia. However, findings on biopsy of involved tissue would show large B cells rather than lymphoplasmacytic cells.Monoclonal gammopathy of undetermined significance (MGUS) (Option B) is characterized by an M protein level less than 3 g/dL (or less than 500 mg/24 h of urine monoclonal free light chains), clonal plasma cells comprising less than 10% of the bone marrow cellularity, and the absence of related signs and symptoms of end-organ damage. Patients with MGUS are asymptomatic without anemia, thrombocytopenia, bone lesions, hypercalcemia, or kidney disease. This patient has systemic symptoms, anemia, and lymphadenopathy, excluding the diagnosis of MGUS.Multiple myeloma (MM) (Option C) can present with an IgM monoclonal protein and anemia. However, lymphadenopathy is not frequently seen in MM; similarly, bone marrow biopsy findings would show plasma cells rather than the lymphoplasmacytic infiltrates seen in this patient.Myelodysplastic syndrome (MDS) (Option D) can present with a macrocytic anemia; however, MDS does not present with monoclonal gammopathy or lymphadenopathy. Additionally, the bone marrow biopsy in MDS would show evidence of hypercellularity and dysplasia.",
+  "critique_links": [],
   "key_points": [
     "Waldenström macroglobulinemia may present with classic “B symptoms” of drenching night sweats, fever, and weight loss; peripheral sensorimotor neuropathy and hyperviscosity syndrome may also occur."
   ],
@@ -62,5 +63,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:36:34.101467-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.850910-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 48-year-old man is evaluated in the emergency department 30 minutes after receiving intravenous alteplase for a 2-hour history of dysarthria, vertigo, and difficulty walking. At presentation, the National Institutes of Health Stroke Scale score was 6, and a noncontrast head CT scan was normal. His symptoms remain unchanged, and he has no new concerns. Medical history is significant for hypertension and dyslipidemia. Medications are hydrochlorothiazide and rosuvastatin.On physical examination, blood pressure is 188/100 mm Hg, and pulse rate is 86/min. The remainder of the physical examination is unchanged from before thrombolysis.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The patient's blood pressure has risen above 180/105 mm Hg after treatment with alteplase, and he should receive intravenous labetalol (Option A). Hypertension management is a critical element of administering thrombolytic therapy for acute ischemic stroke. Before intravenous thrombolysis is administered to an otherwise eligible patient, the patient's blood pressure must be below 185/110 mm Hg. After thrombolysis, blood pressure must be monitored frequently: every 15 minutes for the first 2 hours, every 30 minutes for the next 6 hours, and every 60 minutes thereafter until 24 hours have passed. If at any point blood pressure is higher than 180/105 mm Hg, treatment should be initiated to reduce the risk for symptomatic intracerebral hemorrhage (ICH). Medications that are rapidly titratable and fast acting are the preferred options. Intravenous labetalol can be administered as individual boluses, and, if blood pressure does not decrease, the patient can then be transitioned to nicardipine, which is administered as a continuous infusion. Alternatively, nicardipine can be used as the initial drug of choice. This patient presented with an acute ischemic stroke within 3 hours of symptom onset and was appropriately treated with thrombolytic therapy. With his blood pressure now above the target of 180/105 mm Hg, use of labetalol to decrease his blood pressure to reduce the risk for ICH is necessary.Intravenous nitroprusside (Option B) or nitroglycerin can increase intracranial pressure and should be avoided in patients with acute ischemic stroke. Intravenous labetalol or nicardipine are more appropriate choices.Administering oral hydrochlorothiazide (Option C) would not lower blood pressure quickly enough, potentially leading to a longer period of higher values that increase the risk for symptomatic ICH. In addition, because this patient presented with dysphagia, a formal dysphagia evaluation is required before oral intake.Head CT (Option D) is indicated after administering intravenous thrombolysis if there is concern for symptomatic ICH and at 24 hours to determine the safety of starting antithrombotic agents. Symptoms that suggest ICH include headache, nausea, or vomiting and decreased level of alertness; suspicious signs include worsening neurologic examination. None of these are present in this patient.Clinical observation alone (Option E) is inappropriate. This patient's blood pressure is above the goal, and treatment is necessary to decrease the risk for ICH.",
+  "critique_links": [],
   "key_points": [
     "If a patient's blood pressure rises above 180/105 mm Hg after receiving thrombolysis for stroke, treatment is required to reduce the risk for symptomatic intracerebral hemorrhage; fast-acting, rapidly titratable medications are preferred.",
     "Head CT is indicated after receipt of intravenous thrombolysis for stroke if signs or symptoms concerning for intracerebral hemorrhage are present and at 24 hours after administration."
@@ -61,5 +62,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:50:05.316066-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:31.310859-06:00"
 }

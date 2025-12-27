@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 30-year-old woman is evaluated for the new onset of red-colored urine. Two weeks ago, she began rifampin for treatment of latent tuberculosis. She has no other medical problems and takes no other medications or vitamins.On physical examination, vital signs are normal. The remainder of the examination is unremarkable.",
+  "question_text": "A 30-year-old woman is evaluated for the new onset of red-colored urine. Two weeks ago, she began rifampin for treatment of latent tuberculosis. She has no other medical problems and takes no other medications or vitamins.On physical examination, vital signs are normal. The remainder of the examination is unremarkable.Laboratory studies:UrinalysisRed color; specific gravity 1.020; pH 7.0; no protein, blood, glucose, ketones, bilirubin, leukocyte esterase, or nitrites",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "No additional management is needed for this patient's change in urine color (Option E), which is caused by rifampin. For patients who report red- or dark-colored urine, urinalysis should be performed. A urinalysis includes components of gross appearance, dipstick analysis, and microscopic analysis of the urinary sediment. “Blood” or “heme” on dipstick can detect peroxidase activity of erythrocytes as well as free heme pigments (hemoglobin and myoglobin). As few as three erythrocytes will result in a positive dipstick test (1+ blood). A positive test in the absence of erythrocytes in the urine sediment may indicate myoglobinuria (caused by rhabdomyolysis) or hemoglobinuria (caused by intravascular hemolysis following transfusion, or shear stress related to mechanical heart valve and perivalvular leak). False-positive tests may occur with other substances with peroxidase activity, including peroxidase-expressing bacteria and drugs such as chloroquine. Ascorbic acid (vitamin C) can cause a false-negative result. Medications (such as rifampin or phenytoin) or food (such as beets) can cause heme-negative (no blood on dipstick), red-colored urine. In this patient, the most likely cause of red-colored urine is recent initiation of rifampin, which is a benign finding.In the evaluation of hematuria, cystoscopy and imaging (such as kidney ultrasonography, CT urography, or magnetic resonance urography) are indicated based on the patient's risk for urothelial cancer (Options A, C). This patient does not have hematuria because her dipstick urinalysis is negative for blood. Therefore, she does not require invasive testing or imaging.A known side effect of rifampin is that it can cause a reddish-orange/brown discoloration of urine, saliva, sputum, sweat, teeth, and tears (Option B). Urine discoloration is an expected and benign side effect of this medication. This patient is tolerating the medication, and stopping it could result in inadequate treatment of her latent tuberculosis. Therefore, rifampin discontinuation is not necessary.A microscopic urinalysis reports the presence of erythrocytes in the urinary sediment (Option D). Because this patient had negative blood on dipstick urinalysis, indicating the absence of erythrocytes, free hemoglobin, or myoglobin, additional testing with a microscopic urinalysis is not needed.",
+  "critique_links": [],
   "key_points": [
     "Medications (rifampin, phenytoin) or food (beets) can cause heme-negative, red-colored urine; no additional evaluation is needed in these cases."
   ],
@@ -62,5 +63,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:51.533454-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.738488-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 61-year-old man is evaluated for progressive weakness, fatigue, and myalgia over the past 6 months. He lives alone after the death of his partner 4 years ago.On physical examination, vital signs are normal. He has diffuse tenderness to palpation of the upper and lower extremities and the spine. He has mild proximal muscle weakness in the upper and lower extremities. The remainder of the examination is normal.Laboratory studies:Albumin3.9 g/dL (39 g/L)Alkaline phosphatase190 U/LHCalcium8.4 mg/dL (2.1 mmol/L)LPhosphorus2.4 mg/dL (0.78 mmol/L)LA complete blood count, a serum magnesium level, and the remainder of the comprehensive metabolic panel are normal.",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next diagnostic test in this patient with hypocalcemia, hypophosphatemia, and an elevated serum alkaline phosphatase level is to measure his serum 25-hydroxyvitamin D level (Option D). Vitamin D deficiency can cause osteomalacia, which is characterized by diffuse bone pain, bone tenderness to palpation, and proximal muscle weakness; however, early osteomalacia may present only with low bone mass on dual-energy x-ray absorptiometry (DXA) and may be indistinguishable from osteoporosis without further testing. Laboratory features of osteomalacia include hypocalcemia, hypophosphatemia, increased serum alkaline phosphatase and parathyroid hormone levels, and a decreased serum 25-hydroxyvitamin D level. Vitamin D deficiency causes hypocalcemia and stimulates parathyroid hormone (PTH) secretion. PTH stimulates calcium resorption from bone, raising alkaline phosphatase levels. PTH also stimulates renal conversion of 25-hydroxyvitamin D to 1,25-dihydroxyvitamin D; therefore, in the evaluation of most patients with hypocalcemia, serum 25-hydroxyvitamin D measurement is more informative than serum 1,25-dihydroxyvitamin D measurement. This patient has nonspecific symptoms that are nonetheless consistent with osteomalacia, and his hypocalcemia, hypophosphatemia, and increased alkaline phosphatase levels support a diagnosis of vitamin D deficiency. The next step in evaluation should be measurement of his 25-hydroxyvitamin D level.Low bone mineral density (BMD) on DXA scan (Option A) would support a diagnosis of osteomalacia but would not be specific for vitamin D deficiency. If the patient has confirmed vitamin D deficiency, the treatment is supplemental vitamin D and calcium regardless of the DXA scan result. Therefore, DXA is not the most informative next step.The most commonly reported radiographic findings of osteomalacia due to vitamin D deficiency are reduced BMD and thinning of the cortex, but these findings are not diagnostic. 25-hydroxyvitamin D measurement is the most direct method to diagnose vitamin D deficiency and is preferred to radiographic surveys (Option B) in the diagnosis of vitamin D deficiency.A 24-hour urine calcium (Option C) measurement alone will not be diagnostic for vitamin D deficiency. In patients with hypocalcemia because of vitamin D deficiency, 24-hour urine calcium levels are expected to be low. However, in patients with osteomalacia because of vitamin D deficiency, 24-hour urine calcium levels may be utilized to monitor response to treatment.",
+  "critique_links": [],
   "key_points": [
     "Vitamin D deficiency can cause osteomalacia, which is characterized by diffuse bone pain and tenderness and proximal muscle weakness; however, early osteomalacia may present only with low bone mass on dual-energy x-ray absorptiometry and may be indistinguishable from osteoporosis.",
     "Laboratory features of osteomalacia owing to vitamin D deficiency include hypocalcemia, hypophosphatemia, increased serum alkaline phosphatase and parathyroid hormone levels, and a decreased serum 25-hydroxyvitamin D level."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:00:39.668729-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.057956-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 27-year-old woman is evaluated in the emergency department for chest and abdominal pain following a motor vehicle collision. Medical history is unremarkable, and she takes no medications.On physical examination, the patient appears anxious. Temperature is 37.3 °C (99.1 °F), blood pressure is 70/35 mm Hg, and pulse rate is 125/min. Breath sounds in the left lung base are decreased. Abdominal examination reveals no bruising but diffuse tenderness to palpation with guarding.A point-of-care ultrasound using the Focused Assessment with Sonography in Trauma protocol reveals free peritoneal fluid and a moderate-sized left pleural effusion.The patient is prepared for surgery.",
+  "question_text": "A 27-year-old woman is evaluated in the emergency department for chest and abdominal pain following a motor vehicle collision. Medical history is unremarkable, and she takes no medications.On physical examination, the patient appears anxious. Temperature is 37.3 °C (99.1 °F), blood pressure is 70/35 mm Hg, and pulse rate is 125/min. Breath sounds in the left lung base are decreased. Abdominal examination reveals no bruising but diffuse tenderness to palpation with guarding.Laboratory studies:Hemoglobin8.2 g/dL (82 g/L)LLeukocyte count10,000/μL (10 × 109/L)Platelet count160,000/μL (160 × 109/L)A point-of-care ultrasound using the Focused Assessment with Sonography in Trauma protocol reveals free peritoneal fluid and a moderate-sized left pleural effusion.The patient is prepared for surgery.",
   "question_stem": "Which of the following is the most appropriate immediate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate immediate management in this patient with hemorrhagic shock is initiation of a massive transfusion protocol and urgent transfusion of uncrossmatched type O, Rh-negative erythrocytes (Option A). In patients experiencing ongoing or life-threatening bleeding, Rh-negative blood may be transfused without crossmatching as part of a massive transfusion protocol. Type O blood may be transfused to any patient without ABO crossmatching because it carries no risk of a potentially lethal transfusion reaction from ABO incompatibility. Additionally, women of childbearing age or younger who are Rh negative must receive Rh-negative blood because the development of Rh antibodies may complicate a subsequent pregnancy. Patients previously sensitized to Rh antigens must also receive Rh-negative blood to prevent a transfusion reaction. Type O, Rh-negative blood is the universal donor blood type when using uncrossmatched blood. This patient is experiencing life-threatening bleeding, and she requires an immediate transfusion of erythrocytes. Transfusion should not be delayed while awaiting the usual typing and crossmatching of blood, and she should be transfused with uncrossmatched type O, Rh-negative erythrocytes.This patient should not receive Rh-positive blood (Option B). Exposure to the Rh antigen in a woman who is Rh negative may lead to the production of anti-Rh antibodies. Rh discordance between the mother and fetus may cause hemolytic disease of the newborn in a subsequent pregnancy.It is reasonable to type and crossmatch blood (Option C) in a patient with bleeding on arrival to the emergency department, but preparing crossmatched blood is time consuming. This patient is actively bleeding and requires immediate transfusion of uncrossmatched blood.A type and screen (Option D) is not appropriate in this patient with a life-threatening hemorrhage. A type and screen includes ABO/Rh blood group determination and a screening test for unexpected (non-ABO) antibodies. Afterward, blood can be quickly crossmatched when and if the decision to transfuse is made. A type and screen would be appropriate for a patient undergoing an invasive procedure or surgery with a potential but small risk of requiring transfusion, but not in a patient requiring immediate transfusion of erythrocytes.",
+  "critique_links": [],
   "key_points": [
     "In patients experiencing life-threatening bleeding, transfusion of type O, Rh-negative blood may be required without crossmatching.",
     "Women of childbearing age or younger who are Rh negative and require transfusion must receive Rh-negative blood because the development of Rh antibodies may complicate a subsequent pregnancy."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:36:52.095392-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.942552-06:00"
 }

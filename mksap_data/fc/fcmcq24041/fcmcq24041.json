@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 52-year-old patient is evaluated for trigeminal neuralgia. Recently, attacks have become more frequent, occurring several times each day with severe left-sided pain lasting for a few seconds each time. Medical history is otherwise unremarkable. The patient is of Chinese descent.Physical examination findings, including vital signs, are normal.Carbamazepine treatment is considered.",
   "question_stem": "Genetic testing for which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Before carbamazepine therapy is initiated, this patient of Asian descent should be tested for the HLA-B*15:02 allele (Option C). Although predictive pharmacogenomic testing is mostly investigational, the FDA and other organizations have described a role for genetic testing when certain medications are prescribed in routine practice, focusing on situations in which serious adverse effects or treatment failures may occur. Persons with HLA-B*15:02 have an increased risk for severe cutaneous hypersensitivity reactions (e.g., Stevens-Johnson syndrome and toxic epidermal necrolysis) during treatment with carbamazepine. The FDA recommends that testing be performed in persons of Asian descent in whom carbamazepine therapy is planned, because HLA-B*15:02 is prevalent in this population. Patients who test positive should not be treated with carbamazepine.Testing for CYP2C19 (Option A) is not indicated before carbamazepine is initiated. Persons with CYP2C19 variants may be hypermetabolizers of medications such as pantoprazole, leading to ineffective therapy with this medication. CYP2C19 is also known to affect the metabolism of clopidogrel, leading to an increased risk for treatment failure in patients who are poor metabolizers.Carbamazepine is not metabolized by CYP2D6 (Option B). Allelic variants of CYP2D6 are associated with altered codeine metabolism; in ultrarapid metabolizers, toxicity may occur as a result of the rapid conversion of codeine to morphine. Poor metabolizers have a more muted effect of codeine because of the slow conversion to morphine.Testing for the HLA-B*57:01 allele (Option D) is not indicated for this patient. Persons with HLA-B*57:01 are at increased risk for a severe hypersensitivity reaction to abacavir, and the FDA recommends testing for the allele before therapy with abacavir is initiated.",
+  "critique_links": [],
   "key_points": [
     "Individuals with HLA-B*15:02 are at increased risk for a severe hypersensitivity reaction to carbamazepine, and the FDA recommends testing patients of Asian descent for the allele before therapy is initiated."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:33.955768-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:27.653723-06:00"
 }

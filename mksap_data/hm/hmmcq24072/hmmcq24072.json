@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 42-year-old woman is evaluated in the hospital for swelling of the left leg 2 days after undergoing resection of a glioblastoma multiforme. She reports a mild headache and left-sided weakness. Following resection, a small area of hemorrhage in the operative bed was detected on CT. Medical history is otherwise unremarkable, and her only medication is oxycodone for postoperative pain.On physical examination, vital signs are normal. The craniotomy scar is clean and dry. The left lower extremity is swollen. Neurologic examination reveals mild left-sided weakness but is otherwise normal.Ultrasound of the left lower extremity shows femoral vein thrombosis.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient is insertion of an inferior vena cava (IVC) filter (Option C). IVC filters serve to prevent the migration of deep venous thrombi to the pulmonary bed and decrease the likelihood of pulmonary embolism (PE). IVC filter placement is indicated in patients with acute venous thromboembolism (VTE) and absolute contraindications to anticoagulation. Although they may decrease the risk of PE, IVC filters are also known to increase the risk of subsequent deep venous thrombosis (DVT). If an IVC filter is placed, a temporary filter should be used and removed as soon as is feasible (e.g., if the contraindication to anticoagulation is resolved). If an IVC filter is placed and cannot be removed, concomitant anticoagulation should be considered. This patient has acute proximal DVT with an absolute contraindication to anticoagulation and postoperative hemorrhage. Placement of a retrievable IVC filter is indicated.Apixaban (Option A) is a direct oral anticoagulant (DOAC) approved for the treatment of acute VTE as monotherapy. It is not appropriate treatment for this patient with intracranial bleeding following a recent neurosurgical procedure.Enoxaparin (Option B) is not the most appropriate treatment for this patient with known intracranial bleeding after surgery because anticoagulation should not be given in this setting. Similar to DOACs, enoxaparin would be indicated as initial therapy for patients with acute VTE and no contraindications to anticoagulation.Intravenous unfractionated heparin (UFH) (Option D) is often a reasonable choice in patients with relative contraindications to anticoagulation. UFH is short-acting and has a rapidly effective reversal agent available in protamine. However, this patient has an absolute contraindication to systemic anticoagulation with recent neurosurgery and evidence of intracranial hemorrhage. UFH should not be administered.",
+  "critique_links": [],
   "key_points": [
     "Inferior vena cava filters are recommended for patients with acute venous thromboembolic disease with a contraindication to anticoagulation.",
     "Inferior vena cava filters increase the risk of subsequent deep venous thrombosis and should be removed as soon as possible; if the filter cannot be removed, anticoagulation should be considered if the previous contraindication is no longer present."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:44:24.210950-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:29.029536-06:00"
 }

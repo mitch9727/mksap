@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 52-year-old man is evaluated for ongoing management of gout. Symptoms began 3 years ago, and the patient self-treated flares with ibuprofen. Six months ago, he was seen in the office, and allopurinol and colchicine were started. He had one gout flare in the first month of treatment and has since been asymptomatic. Other medical conditions are hypertension and chronic kidney disease. Medications are allopurinol, 300 mg/d; colchicine, 0.3 mg/d; and lisinopril.On physical examination, vital signs and other findings are normal.",
+  "question_text": "A 52-year-old man is evaluated for ongoing management of gout. Symptoms began 3 years ago, and the patient self-treated flares with ibuprofen. Six months ago, he was seen in the office, and allopurinol and colchicine were started. He had one gout flare in the first month of treatment and has since been asymptomatic. Other medical conditions are hypertension and chronic kidney disease. Medications are allopurinol, 300 mg/d; colchicine, 0.3 mg/d; and lisinopril.On physical examination, vital signs and other findings are normal.Laboratory studies:Hemoglobin12.2 g/dL (120 g/L)LLeukocyte count6200/µL (6.2 × 109/L)Platelet count160,000/µL (160 × 109/L)Erythrocyte sedimentation rate22 mm/hHUrate7.3 mg/dL (0.43 mmol/L)6 months ago: 8.9 mg/dL (0.52 mmol/L)HCreatinine2.6 mg/dL (229.8 mmol/L)HEstimated glomerular filtration rate28 mL/min/1.73 m2",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment is to increase allopurinol (Option C). Urate-lowering therapy is recommended for patients with gout and any of the following: two or more gout flares annually, one or more subcutaneous tophi, or evidence of radiographic damage attributable to gout. This patient has established gout with multiple flares, and initiation of allopurinol as first-line urate-lowering treatment was appropriate. The 2020 American College of Rheumatology (ACR) and 2016 European League Against Rheumatism (EULAR) recommendations support a “treat-to-target” approach, reducing serum urate level to less than 6.0 mg/dL (0.35 mmol/L). Although a “treat–to–avoid symptoms” approach may be pursued in some patients, treatment to a serum urate level goal at least below the saturation point of 6.8 mg/dL (0.40 mmol/L) is prudent. The maximal dose of allopurinol is 800 mg/d, and severe chronic kidney disease (CKD) is not a contraindication to gradual dose escalation. This patient is tolerating treatment, but his serum urate level is still above the saturation point and the ACR/EULAR-recommended target. An increase in the allopurinol dose will reduce his urate level and risk for flares. Because of CKD, his dose should be titrated cautiously (no more than 50-100 mg at each dose increase).Pegloticase (Option A) is a recombinant form of uricase, administered intravenously. It can dramatically reduce serum urate levels for patients who do not respond to or cannot tolerate other urate-lowering agents, but development of antibodies to the drug can render it ineffective and result in infusion reactions. Pegloticase should never be added to oral urate-lowering agents because their effects can obscure whether pegloticase is ceasing to work, masking development of such antibodies.Adding the uricosuric agent probenecid (Option B) to a xanthine oxidase inhibitor is rarely necessary to achieve treatment goals. Moreover, probenecid is ineffective in patients with poor kidney function (estimated glomerular filtration rate <50 mL/min/1.73 m2), such as this patient.Because of potential cardiovascular risk with febuxostat (Option D), the FDA has recommended limiting its use to patients who are unresponsive to or cannot tolerate allopurinol. Although some later studies suggest that febuxostat may not confer cardiovascular risk, allopurinol is noninferior to febuxostat in terms of ability to achieve serum urate target. This patient needs only an increase in allopurinol to achieve target.",
+  "critique_links": [],
   "key_points": [
     "Urate-lowering therapy is recommended for patients with gout and any of the following: two or more gout flares annually, one or more subcutaneous tophi, or evidence of radiographic damage attributable to gout.",
     "Allopurinol may be increased to a maximum dose of 800 mg/d as needed to achieve a urate treatment target of less than 6.0 mg/dL (0.35 mmol/L), and severe chronic kidney disease is not a contraindication to dose escalation."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:47:10.592035-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.754868-06:00"
 }

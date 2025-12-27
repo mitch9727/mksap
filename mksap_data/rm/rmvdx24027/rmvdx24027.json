@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 48-year-old man is evaluated for a 3-week history of cough, joint pain, and muscle weakness.Skin findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is antisynthetase syndrome (Option B), an autoimmune disease characterized by some combination of the following manifestations: inflammatory myopathy, interstitial lung disease, Raynaud phenomenon, nonerosive inflammatory arthritis, fever, or mechanic's hands, as illustrated in this patient. Mechanic's hands are a dermatologic manifestation unique to antisynthetase syndrome and are characterized by hyperkeratotic, fissured skin on the palmar and lateral aspects of the fingers. Unlike in eczema, there is no pruritus, vesicles, or hand dominance. Antisynthetase syndrome occurs in approximately 30% of patients with dermatomyositis or polymyositis.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:05.970376-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "rmfig24631",
+        "file": "figures/rmfig24631.24fd57e9c55889374a22422ba720b26f.jpg",
+        "title": "Skin Findings in Antisynthetase Syndrome",
+        "short_title": "stem Skin Findings in Antisynthetase Syndrome",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 675
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.940300-06:00"
 }

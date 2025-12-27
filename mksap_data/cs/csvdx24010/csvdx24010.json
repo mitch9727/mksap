@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old man is evaluated for superior shoulder pain that is aggravated when he fastens his seat belt or when holding his arms outstretched. He is otherwise well.A plain radiograph of the left shoulder is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is acromioclavicular degenerative arthritis (Option A). The radiograph of this patient's left shoulder shows evidence of degenerative changes of the left acromioclavicular joint consistent with acromioclavicular arthritis. As a synovial joint, the acromioclavicular joint may show the typical findings of osteoarthritis, including joint-space narrowing (solid arrow), subchondral sclerosis (dashed arrow), and osteophyte formation, as seen in this patient (left panel). A comparison of a normal acromioclavicular joint (right panel) is shown.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,41 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/csfig24612.8db141b6b2ad55395bed0df92af7f87e.jpg",
+      "figures/csfig24613.f11bf496f1ace32ed82ad28f195d0b2b.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:01:45.901077-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "csfig24612",
+        "file": "figures/csfig24612.8db141b6b2ad55395bed0df92af7f87e.jpg",
+        "title": "Radiograph Showing Acromioclavicular Degenerative Arthritis",
+        "short_title": "stem Radiograph Showing AC Degenerative Arthritis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 403,
+        "height": 446
+      },
+      {
+        "figure_id": "csfig24613",
+        "file": "figures/csfig24613.f11bf496f1ace32ed82ad28f195d0b2b.jpg",
+        "title": "Radiograph Showing Acromioclavicular Degenerative Arthritis",
+        "short_title": "critique Radiograph Showing AC Degenerative Arthritis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 746,
+        "height": 446
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.168156-06:00"
 }

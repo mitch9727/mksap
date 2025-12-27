@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 48-year-old patient is evaluated for follow-up of alcoholic cirrhosis. Cirrhosis complicated by nonbleeding small esophageal varices was diagnosed 2 years ago. The patient's last drink of alcohol was 6 months ago. Their only medication is carvedilol.Physical examination findings, including vital signs, are normal.Laboratory studies:Platelet count65,000/µL (65 × 109/L)LAlbumin3.1 g/dL (31 g/L)LTotal bilirubin1.5 mg/dL (25.7 µmol/L)HINR1.5Ultrasound shows a cirrhotic-appearing liver and moderate splenomegaly.",
   "question_stem": "Which of the following conditions is the patient most at risk for developing?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Of the conditions listed, this patient is most at risk for developing ascites (Option A). In the setting of advanced cirrhosis, portal hypertension can result from obstruction of blood flow caused by the following: intrahepatic fibrosis, increased intrahepatic vascular resistance, and an overall increase in flow through the portal vein. As a result of portal hypertension, complications such as gastroesophageal varices, ascites, and spontaneous bacterial peritonitis may develop. Ascites develops in 50% of patients within 10 years of their cirrhosis diagnosis and is the most common manifestation of decompensated cirrhosis. Ascites can cause increased abdominal girth and weight gain, so patients should be counseled to monitor for these signs. This patient has cirrhosis due to previous alcohol use and has evidence of portal hypertension, as manifested by esophageal varices. They are at risk for other complications of portal hypertension, with ascites occurring most commonly.Kidney disease (Option B) can occur secondary to cirrhosis but is a less common complication than ascites. Hepatorenal syndrome occurs in the setting of portal hypertension and is caused by reduced renal blood flow during simultaneous dilatation of the splanchnic vasculature. The likelihood of developing kidney disease in this patient is not as significant as the risk for developing ascites.Patients with ascites can develop pleural effusions (hepatic hydrothorax) (Option C) because of permeability of the diaphragm and negative intrathoracic pressure. These effusions tend to be right-sided. Pleural effusion is a less common complication than ascites in decompensated cirrhosis.Esophageal varices are dilated vessels within the lumen of the esophagus that provide extrahepatic pathways of blood flow from the portal circulation to the systemic circulation. If pressure in the lumen of a varix increases, esophageal varices enlarge and may spontaneously rupture, leading to variceal bleeding (Option D). During a 3-year period, the risk for new varices is approximately 30%; however, the risk for hemorrhage is lower and correlates to the size and location of varices, the presence of high-risk bleeding stigmata, and degree of hepatic decompensation. In this patient, varices are small and their liver disease remains compensated (Child-Turcotte-Pugh class A); they are less likely to experience variceal bleeding than develop new-onset ascites.",
+  "critique_links": [],
   "key_points": [
     "Portal hypertension can lead to the development of ascites in up to 50% of patients within 10 years of the development of cirrhosis."
   ],
@@ -50,10 +51,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.510170-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.612792-06:00"
 }

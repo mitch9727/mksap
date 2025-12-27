@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 50-year-old man with alcohol use disorder is evaluated for the skin findings shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This image shows perifollicular petechiae of the skin caused by a vitamin C deficiency, also known as scurvy (Option C). Perifollicular petechiae of the skin occur around the skin's hair follicles and represent small (≤2 mm) hemorrhages, which occur due to the frailty of the capillary walls. Other signs of vitamin C deficiency include coiled (corkscrew) hairs, bruising, and impaired wound healing. Patients commonly develop gingivitis (shown), as well as gingival hemorrhages, also caused by capillary frailty.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,41 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24648.f66b8988631347cf6933f8abd5149dd7.jpg",
+      "figures/dmfig24649.9530f1623f4c970f64b9819985409ee0.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.916417-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24648",
+        "file": "figures/dmfig24648.f66b8988631347cf6933f8abd5149dd7.jpg",
+        "title": "Vitamin C Deficiency",
+        "short_title": "stem Vitamin C Deficiency",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 581
+      },
+      {
+        "figure_id": "dmfig24649",
+        "file": "figures/dmfig24649.9530f1623f4c970f64b9819985409ee0.jpg",
+        "title": "Vitamin C Deficiency",
+        "short_title": "critique Vitamin C Deficiency",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 593
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.432913-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 38-year-old woman is evaluated for a 10-week history of fever and dyspnea and infiltrates on chest radiography. She has received two courses of antibiotics with no improvement. She does not smoke cigarettes.CT scan of the chest is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is cryptogenic organizing pneumonia (COP) (Option A). Patients with COP typically present with history of cough lasting weeks to months, fever, and malaise. Initial chest radiographs will demonstrate patchy opacities that mimic pneumonia and, as a result, patients are often initially misdiagnosed with community-acquired pneumonia and treated with antibiotics. However, unresolving symptoms and failure to respond to antibiotics should raise suspicion for COP. COP is of unknown etiology, whereas secondary OP can be seen in association with malignancy, drugs, and connective tissue diseases. High-resolution CT imaging will demonstrate ground-glass opacities (red arrow) and/or areas of alveolar consolidation (black arrow) resembling an infectious pneumonia, but findings can include peripheral nodules and nodules along the bronchovascular bundle.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/pmfig24604.04cae67b77fa46881eee02bec1ac8fec.jpg",
-      "figures/pmfig24603.f324785b8e0a8bbbb04b8935116be96b.jpg"
+      "figures/pmfig24603.f324785b8e0a8bbbb04b8935116be96b.jpg",
+      "figures/pmfig24604.04cae67b77fa46881eee02bec1ac8fec.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.254145-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24603",
+        "file": "figures/pmfig24603.f324785b8e0a8bbbb04b8935116be96b.jpg",
+        "title": "CT Scan Showing Cryptogenic Organizing Pneumonia",
+        "short_title": "stem CT Scan Showing Cryptogenic Organizing Pneumonia",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 402,
+        "height": 449
+      },
+      {
+        "figure_id": "pmfig24604",
+        "file": "figures/pmfig24604.04cae67b77fa46881eee02bec1ac8fec.jpg",
+        "title": "CT Scan Showing Cryptogenic Organizing Pneumonia",
+        "short_title": "critique CT Scan of Cryptogenic Organizing Pneumonia",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 402,
+        "height": 449
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.212169-06:00"
 }

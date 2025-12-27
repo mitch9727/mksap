@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 48-year-old woman is evaluated for a 3-month history of episodic substernal chest heaviness without pain or radiation. Episodes often begin early during her thrice-weekly walk, last for 5 to 10 minutes, and improve as she continues walking. She has no other medical problems and takes no medications.Physical examination findings, including vital signs, are normal.ECG shows normal sinus rhythm with no ischemic changes.",
   "question_stem": "Which of the following is the most appropriate classification of this patient's chest discomfort?",
@@ -43,7 +43,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "This patient's chest discomfort is most appropriately classified as possibly cardiac chest pain (Option D). The structured evaluation of patients with chest pain includes a focused history regarding duration, type, and associated characteristics of discomfort. Stable angina pectoris, defined as reproducible discomfort of the chest, neck, or arms of at least 2 months' duration, can be further classified as cardiac, possibly cardiac, or noncardiac on the basis of three components:Quality and duration of discomfortExertional or emotional provocationRelief with rest or nitroglycerin (see The degree to which a patient's symptoms align with these components reflects the pretest likelihood that coronary artery disease is the underlying cause. This determination has important implications regarding the direction of the diagnostic evaluation and is an important initial step in evaluating patients with chest pain. This patient describes some characteristics consistent with cardiac chest pain (pressure-like quality, onset during the exertion of walking, and duration [5-10 minutes]), whereas other features are less consistent with a cardiac cause (symptoms resolve as she continues walking without need to rest), resulting in a classification of possibly cardiac chest discomfort.The terms typical and atypical (Option A) are discouraged as chest pain descriptors because of imprecision and lack of prognostic or therapeutic implications. Guidelines from the American College of Cardiology and American Heart Association specifically discourage the use of these terms.The label of cardiac chest pain (Option B) is reserved for presentations without the inconsistent features seen in this patient, such as the pain improving with exertion. A label of possibly cardiac chest pain is most appropriate in this patient.This patient's chest pain has several characteristics that are consistent with a cardiac etiology, including the duration, central location, heaviness quality, and exertional nature, rendering the label of noncardiac chest pain (Option C) inappropriate. Pain that is fleeting, pleuritic, sharp, or positional may better meet criteria for noncardiac chest pain.This patient's unvarying exertional symptoms are not consistent with a classification of unstable angina (Option E), which is characterized by angina that is new in onset, occurs at rest or with little exertion, or is worsening in severity or frequency. Unstable angina is within the spectrum of acute coronary syndromes and is associated with an increased short-term risk for acute myocardial infarction.",
+  "critique": "This patient's chest discomfort is most appropriately classified as possibly cardiac chest pain (Option D). The structured evaluation of patients with chest pain includes a focused history regarding duration, type, and associated characteristics of discomfort. Stable angina pectoris, defined as reproducible discomfort of the chest, neck, or arms of at least 2 months' duration, can be further classified as cardiac, possibly cardiac, or noncardiac on the basis of three components:Quality and duration of discomfortExertional or emotional provocationRelief with rest or nitroglycerin (see Table: Characteristics Associated With Chest Pain Classification)The degree to which a patient's symptoms align with these components reflects the pretest likelihood that coronary artery disease is the underlying cause. This determination has important implications regarding the direction of the diagnostic evaluation and is an important initial step in evaluating patients with chest pain. This patient describes some characteristics consistent with cardiac chest pain (pressure-like quality, onset during the exertion of walking, and duration [5-10 minutes]), whereas other features are less consistent with a cardiac cause (symptoms resolve as she continues walking without need to rest), resulting in a classification of possibly cardiac chest discomfort.The terms typical and atypical (Option A) are discouraged as chest pain descriptors because of imprecision and lack of prognostic or therapeutic implications. Guidelines from the American College of Cardiology and American Heart Association specifically discourage the use of these terms.The label of cardiac chest pain (Option B) is reserved for presentations without the inconsistent features seen in this patient, such as the pain improving with exertion. A label of possibly cardiac chest pain is most appropriate in this patient.This patient's chest pain has several characteristics that are consistent with a cardiac etiology, including the duration, central location, heaviness quality, and exertional nature, rendering the label of noncardiac chest pain (Option C) inappropriate. Pain that is fleeting, pleuritic, sharp, or positional may better meet criteria for noncardiac chest pain.This patient's unvarying exertional symptoms are not consistent with a classification of unstable angina (Option E), which is characterized by angina that is new in onset, occurs at rest or with little exertion, or is worsening in severity or frequency. Unstable angina is within the spectrum of acute coronary syndromes and is associated with an increased short-term risk for acute myocardial infarction.",
+  "critique_links": [],
   "key_points": [
     "Stable angina pectoris is defined as reproducible discomfort of the chest, neck, or arms of at least 2 months' duration.",
     "Chest discomfort can be classified as cardiac, possibly cardiac, or noncardiac based on three components: quality and duration of discomfort, exertional or emotional provocation, and relief with rest or nitroglycerin."
@@ -57,11 +58,31 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/cvtab24012.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:48:30.464543-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "cvtab24012",
+        "file": "tables/cvtab24012.html",
+        "title": "Characteristics Associated With Cardiac, Possibly Cardiac, and Noncardiac Chest Pain Classification",
+        "short_title": "Characteristics Associated With Chest Pain Classification",
+        "footnotes": [],
+        "headers": [
+          "Characteristic",
+          "Cardiac",
+          "Possibly Cardiac",
+          "Noncardiac"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.389619-06:00"
 }

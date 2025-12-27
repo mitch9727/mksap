@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 44-year-old woman is evaluated in the emergency department for 4 days of increasing diarrhea. It has escalated to eight to nine large-volume, watery stools per day. She has Lynch syndrome, and 3 months ago, she was diagnosed with mismatch repair–deficient colon cancer with metastases to lung and liver. Pembrolizumab was started 10 weeks ago; she has received three doses, the most recent one 1 week ago. She has no other medical history and takes no other medications.On physical examination, temperature is 37.1 °C (98.8 °F), blood pressure is 90/60 mm Hg, and pulse rate is 110/min. The abdomen is slightly tender and distended without peritoneal signs.Results of complete blood count and metabolic panel and thyroid-stimulating hormone level are normal. Stool studies, including testing for Clostridioides difficile, are negative. Fecal calprotectin and fecal lactoferrin levels are elevated.CT scan of the abdomen and pelvis shows diffuse thickening of the colon wall without perforation or extracolonic fluid collection.",
   "question_stem": "In addition to discontinuing the pembrolizumab, which of the following is the most appropriate treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment for this patient with likely immunotherapy-induced colitis is intravenous methylprednisolone (Option D). Immune checkpoint inhibitors are often tolerated well without significant adverse effects; however, immune dysregulation is a common adverse effect and may manifest as colitis, pneumonitis, hepatitis, dermatitis, endocrinopathies (hypophysitis, thyroiditis, and adrenalitis), and neuritis. Immunotoxicities can occur with single-agent treatment but are more common when two agents are used, such as the combination of a cytotoxic T-lymphocyte antigen-4 antibody (e.g., ipilimumab or telimomab) and a PD-1 antibody (e.g., pembrolizumab, nivolumab, or dostarlimab). Colitis is a relatively common complication with immunotherapy; it can present any time after immunotherapy, with symptoms ranging from mild to severe, life-threatening diarrhea. Prompt recognition, discontinuation of immunotherapy, and initiation of high-dose intravenous glucocorticoid therapy (e.g., methylprednisolone) are crucial for moderate or severe cases. Infections with enteric pathogens and Clostridioides difficile should be ruled out. Stool testing for lactoferrin and calprotectin suggest bowel inflammation and can be used to monitor disease activity. Endoscopy with biopsy can confirm the diagnosis but is not necessary before initiation of treatment. In this patient with likely immunotherapy-induced colitis, intravenous methylprednisolone and discontinuation of pembrolizumab is the most appropriate treatment.Oral budesonide (Option A) might be considered in patients with mild immunotherapy-induced colitis, such as those with minor diarrhea (three or fewer stools daily without large volume loss). However, it is inadequate therapy for symptomatic patients with moderate to severe diarrhea, such as this one.For patients with immunotherapy-induced colitis who do not respond to intravenous glucocorticoids within the first 3 days of therapy, the tumor necrosis factor inhibitor infliximab (Option B) or the integrin inhibitor vedolizumab should be added. However, high-dose glucocorticoids are the initial therapy of choice, and it would be premature to add infliximab at this time.Symptomatic treatment with antidiarrheal agents, such as loperamide (Option C), may be appropriate in the management of selected patients with mild checkpoint inhibitor–related colitis. This patient, however, has significant disease and should receive glucocorticoid therapy.",
+  "critique_links": [],
   "key_points": [
     "Common immunotherapy-related adverse events include dermatitis/mucositis, autoimmune endocrinopathies (thyroiditis, adrenalitis, hypophysitis), colitis, pneumonitis, and hepatotoxicity.",
     "The most appropriate treatment for moderate to severe immunotherapy-induced adverse effects is stopping the checkpoint inhibitor and beginning high-dose glucocorticoid therapy."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:51:14.823001-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:31.634051-06:00"
 }

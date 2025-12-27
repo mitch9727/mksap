@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 48-year-old patient comes to the office after a new cuffless blood pressure–measuring application on their mobile phone alerted them that their blood pressure was elevated. They are asymptomatic. Their medical history includes tension headaches for which they use ibuprofen a few times weekly. They have a 10-pack-year history of smoking but quit 5 years ago. Family history is significant for hypertension in their father, which developed in his 60s.On physical examination, blood pressure is 132/84 mm Hg, and pulse rate is 86/min. The remainder of the examination is unremarkable.Laboratory studies show normal serum creatinine and electrolyte levels.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate management is to discontinue ibuprofen and recheck blood pressure (BP) in 1 month (Option B). An initial step in the evaluation of a patient with an elevated BP is to assess for use of any prescription and nonprescription medications, including complementary and alternative medications (herbal supplements) and nonprescribed substances, that may result in reversible BP elevations (). Common drugs that can result in elevated BP include NSAIDs (as in this patient), contraceptives, antidepressants, decongestants, stimulants, caffeine, and ethanol. NSAIDs can increase BP via several possible mechanisms, including sodium retention and expansion of intravascular volume due to cyclooxygenase 2 inhibition in the kidneys and increased intrarenal concentrations of aldosterone. This patient has an elevated BP, and they may indeed have a diagnosis of hypertension. However, a diagnosis should be made on an average of two or more BP measurements obtained on two or more occasions with a reliable and validated instrument. In addition, before a diagnosis is established, they should discontinue any medications such as NSAIDs that may raise their BP; this should be followed by BP recheck.Cuffless BP devices such as mobile phone applications (Option A) have not been adequately validated for clinical use and are not recommended. Cuffless BP devices use pulse transit time, pulse arrival time, tonometry, and/or pulse wave analysis to estimate BP. The device algorithms must assume particular vascular characteristics to estimate BP, which may make them more susceptible to inaccuracies due to vascular stiffness and other vascular abnormalities than current automated devices. Measuring the patient's ambulatory BP with a validated device is more appropriate.Ambulatory BP monitoring (Option C) without first discontinuing medications that may be contributing to elevated BP would be inappropriate. If this patient's BP remains elevated after discontinuing the ibuprofen, it would be reasonable to confirm the diagnosis of hypertension with ambulatory BP monitoring.Starting hydrochlorothiazide (Option D) would be premature in this patient without first stopping medications that could be contributing to reversible BP elevation and subsequently confirming the diagnosis of hypertension.",
+  "critique": "The most appropriate management is to discontinue ibuprofen and recheck blood pressure (BP) in 1 month (Option B). An initial step in the evaluation of a patient with an elevated BP is to assess for use of any prescription and nonprescription medications, including complementary and alternative medications (herbal supplements) and nonprescribed substances, that may result in reversible BP elevations (Table: Drugs That Can Raise Blood Pressure). Common drugs that can result in elevated BP include NSAIDs (as in this patient), contraceptives, antidepressants, decongestants, stimulants, caffeine, and ethanol. NSAIDs can increase BP via several possible mechanisms, including sodium retention and expansion of intravascular volume due to cyclooxygenase 2 inhibition in the kidneys and increased intrarenal concentrations of aldosterone. This patient has an elevated BP, and they may indeed have a diagnosis of hypertension. However, a diagnosis should be made on an average of two or more BP measurements obtained on two or more occasions with a reliable and validated instrument. In addition, before a diagnosis is established, they should discontinue any medications such as NSAIDs that may raise their BP; this should be followed by BP recheck.Cuffless BP devices such as mobile phone applications (Option A) have not been adequately validated for clinical use and are not recommended. Cuffless BP devices use pulse transit time, pulse arrival time, tonometry, and/or pulse wave analysis to estimate BP. The device algorithms must assume particular vascular characteristics to estimate BP, which may make them more susceptible to inaccuracies due to vascular stiffness and other vascular abnormalities than current automated devices. Measuring the patient's ambulatory BP with a validated device is more appropriate.Ambulatory BP monitoring (Option C) without first discontinuing medications that may be contributing to elevated BP would be inappropriate. If this patient's BP remains elevated after discontinuing the ibuprofen, it would be reasonable to confirm the diagnosis of hypertension with ambulatory BP monitoring.Starting hydrochlorothiazide (Option D) would be premature in this patient without first stopping medications that could be contributing to reversible BP elevation and subsequently confirming the diagnosis of hypertension.",
+  "critique_links": [],
   "key_points": [
     "When evaluating a patient for elevated blood pressure (BP), obtaining a complete list of prescription and nonprescription medications is required, as many medications can result in reversible BP elevations; if the patient is taking any drugs that may result in BP elevation, the drug should be discontinued if possible and BP remeasured in 1 month."
   ],
@@ -51,11 +52,31 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/nptab24017.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:24.823029-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nptab24017",
+        "file": "tables/nptab24017.html",
+        "title": "Drugs That Can Raise Blood Pressure",
+        "short_title": "Drugs That Can Raise Blood Pressure",
+        "footnotes": [],
+        "headers": [
+          "Drug/Drug Class",
+          "Potential Mechanisms",
+          "Prescription Drugs",
+          "Nonprescription Drugs"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.603381-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 20-year-old patient is evaluated in the emergency department for mild global headache and dizziness of 4 hours' duration. The patient is a collegiate soccer player, and the symptoms occurred following a head-to-head collision with loss of consciousness of less than 15 seconds. The patient was immediately removed from play. They have full memory of the surrounding events and have not experienced any vomiting, visual symptoms, or focal neurologic symptoms. Medical history is otherwise unremarkable, and the patient takes no medications.Physical examination findings, including vital signs, are normal.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient had a mild traumatic brain injury (TBI), and no further testing is required (Option D). Mild TBI may be associated with no or brief loss of consciousness and Glasgow Coma Scale (GCS) scores of 13 to 15. Symptoms after a mild TBI may be divided into physical, cognitive, psychological, and sleep-associated domains. Headache and dizziness are among the most common symptoms. In most patients, physical examination findings are normal, and further diagnostic investigation is unnecessary. Indications for imaging are listed in Table: Indications for Head CT in Mild Traumatic Brain Injury. Most symptoms resolve spontaneously within 7 to 10 days. Although complete physical and cognitive rest was previously recommended after mild TBI, early symptom-limited activity improves outcomes. Patients should be advised to begin escalating physical activities after 1 to 2 days of rest and mental activities after 3 to 5 days of cognitive rest as tolerated. This patient lost consciousness for less than 15 seconds, has a GCS score of 15, and has a normal neurologic examination. They do not require neuroimaging or other further testing.Carotid ultrasonography (Option A) may be considered in the setting of suspected traumatic arterial dissection but is not typically performed in patients with mild TBI. Given the absence of any specific symptoms or signs of carotid or vertebral artery dissection in this patient, the level of suspicion for vascular trauma is low.Criteria for imaging of the head in mild TBI include older age (>60-65 years), a GCS score below 15, vomiting or severe headaches, persistent drowsiness, focal neurologic signs, substance intoxication, and coagulopathy. Additional indications are listed in Table: Indications for Head CT in Mild Traumatic Brain Injury. None of these indications apply to this patient, and CT of the head (Option B) is unnecessary.Brain MRI (Option C) is not recommended in the setting of acute head trauma. When imaging is indicated, noncontrast CT of the head is the modality of choice given its high sensitivity for acute hemorrhage or skull fractures, wide availability, rapid acquisition time, and relatively low expense.",
+  "critique_links": [],
   "key_points": [
     "Mild traumatic brain injury may be associated with no or brief loss of consciousness and Glasgow Coma Scale scores of 13 to 15; in most patients, the physical examination is normal, and further diagnostic investigation is unnecessary.",
     "When imaging is indicated for acute head trauma, noncontrast CT of the head is the modality of choice given its high sensitivity for acute hemorrhage or skull fractures, wide availability, rapid acquisition time, and relatively low expense."
@@ -52,11 +53,30 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/nrtab24018.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:17:11.265568-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nrtab24018",
+        "file": "tables/nrtab24018.html",
+        "title": "Indications for Head CT in Mild Traumatic Brain Injury",
+        "short_title": "Indications for Head CT in Mild Traumatic Brain Injury",
+        "footnotes": [
+          "Data from Centers for Disease Control and Prevention and American College of Emergency Physicians. Mild TBI pocket guide: guideline for adult patients: a part of CDC's “Heads Up” series. Available at: <a href=\"https://stacks.cdc.gov/view/cdc/130138\" target=\"_blank\">https://stacks.cdc.gov/view/cdc/130138</a>. Accessed January 17, 2025."
+        ],
+        "headers": [
+          "Head CT should be obtained if any of the following are present:"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.255519-06:00"
 }

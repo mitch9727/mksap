@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 66-year-old woman is evaluated for anemia.Peripheral blood smear is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This peripheral blood smear is compatible with megaloblastic anemia (Option C). A hypersegmented neutrophil (more than five distinct lobes) is present and supports the diagnosis of megaloblastic anemia. The presence of oval-shaped enlarged erythrocytes (macro-ovalocytes) further suggests megaloblastic anemia. Causes include folate deficiency, vitamin B12 deficiency, and exposure to drugs affecting folate metabolism and/or DNA synthesis. Because megaloblastic causes of anemia affect trilineage hematopoiesis, leukopenia and thrombocytopenia may accompany anemia.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.949396-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hmfig24645",
+        "file": "figures/hmfig24645.cd096baedb33b8af121b1cce08d8540e.jpg",
+        "title": "Peripheral Blood Smear Showing a Hypersegmented Neutrophil",
+        "short_title": "PBS Showing a Hypersegmented Neutrophil",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 670
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.154874-06:00"
 }

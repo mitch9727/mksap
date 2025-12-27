@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 62-year-old man is evaluated in the hospital after presenting with chest pain. An ECG showed an acute inferior wall ST-segment elevation myocardial infarction. He underwent emergent cardiac catheterization and successful stent placement in an acutely occluded right coronary artery. His symptoms have resolved. Medications are aspirin, clopidogrel, lisinopril, metoprolol, and atorvastatin. Other medical history includes paroxysmal atrial fibrillation, for which he takes propafenone.On physical examination, blood pressure is 123/76 mm Hg and pulse is 62/min and regular. The remainder of the examination is normal.ECG reveals sinus rhythm with Q waves in leads II, III, and aVF. Transthoracic echocardiogram shows mild inferior wall hypokinesis, an ejection fraction of 55%, and no significant valvular abnormalities.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment strategy is to discontinue propafenone (Option A). Propafenone and flecainide are class IC antiarrhythmic drugs. Although useful as part of a rhythm control strategy in patients with atrial fibrillation, propafenone and flecainide are contraindicated in patients with structural heart disease and ischemic heart disease because they may increase the risk for life-threatening ventricular arrhythmias. Other contraindications to the use of these agents include sinus node dysfunction, second- or third-degree atrioventricular block, or bundle branch disease without a pacemaker. This patient has been taking propafenone as part of a rhythm control strategy in symptomatic paroxysmal atrial fibrillation. He now has a new diagnosis of coronary artery disease (CAD), and the propafenone should be discontinued. If a rhythm control strategy is to be pursued, an alternate antiarrhythmic agent that is safe to administer to patients with underlying CAD or catheter ablation may be considered.The addition of apixaban (Option B) would subject this patient to “triple therapy” of dual antiplatelet therapy (DAPT) and oral anticoagulation, dramatically increasing his risk for bleeding. Furthermore, his CHA2DS2-VASc score is 1 based on the CAD, and oral anticoagulation is not widely recommended because of his low risk for thromboembolic disease. DAPT should be continued, and he should not start taking apixaban.Verapamil (Option C) is not currently indicated for this patient. Verapamil is useful as a rate control agent in atrial fibrillation, but he is already taking metoprolol and it is not clear that he will need another rate control agent. Furthermore, his resting heart rate is already slow, and adding another negative chronotropic agent may result in symptomatic bradycardia.This patient's propafenone should be withdrawn; therefore, continuing his current medication regimen (Option D) would not be appropriate.",
+  "critique_links": [],
   "key_points": [
     "Class IC antiarrhythmic drugs, such as propafenone and flecainide, increase the risk for life-threatening ventricular arrhythmias among patients with underlying coronary ischemia and structural heart disease."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.695990-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:26.705754-06:00"
 }

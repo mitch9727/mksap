@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 62-year-old woman is evaluated for a 1-week history of vaginal discharge and odor. She does not have vaginal bleeding, pelvic pain, pruritus, or urinary symptoms. She is sexually active with her husband. She has hypertension and her only medication is lisinopril.On physical examination, vital signs are normal. Gynecologic examination shows normal external genitalia. A thin, gray discharge with a fishy odor is noted in the vaginal vault. The cervix appears normal. Bimanual examination is normal without any cervical motion, fundal, or adnexal tenderness.Vaginal pH is 5.5. Wet mount is shown.Image reproduced from the CDC Public Health Image Library.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has bacterial vaginosis, which can be treated with oral or vaginal metronidazole (Option C). Bacterial vaginosis is the most common cause of vaginitis. It results from the loss of the normal hydrogen peroxide–producing lactobacilli in the vagina with a subsequent increase in the vaginal pH that contributes to an overgrowth of Gardnerella vaginalis and other anaerobes. Although half of patients with bacterial vaginosis are asymptomatic, others may report vaginal discharge and a fishy odor, which is caused by the amines produced by the bacteria. Meeting at least three of the four Amsel criteria is classically used for diagnosis:Vaginal pH >4.5Thin, homogenous dischargePositive potassium hydroxide (KOH) amine whiff test resultSaline wet mount with >20% clue cells (vaginal epithelial cells that have surfaces studded with adherent coccobacilli bacteria [arrows])Alternatively, a nucleic acid amplification test can be used for diagnosis. Treatment options in symptomatic patients (pregnant or nonpregnant) include oral or vaginal metronidazole or vaginal clindamycin. Asymptomatic nonpregnant patients do not require treatment. Studies of treatment in asymptomatic pregnant patients have yielded mixed results. Because vaginosis is not an sexually transmitted infection, sexual partners do not require treatment, although patients should avoid sexual activity during treatment. This patient has symptomatic bacterial vaginosis, meeting three of four Amsel criteria; treatment with oral or vaginal metronidazole or oral clindamycin is indicated.Oral doxycycline (Option A) is not the most appropriate treatment for this patient but would be appropriate for treating cervicitis secondary to chlamydial infection. However, this patient has no evidence of cervicitis on examination, and her presentation is consistent with bacterial vaginosis.Oral fluconazole (Option B) would be an appropriate treatment for vulvovaginal candidiasis but is not indicated for bacterial vaginosis. Vulvovaginal candidiasis typically presents with vaginal pruritus, irritation, discharge, and dysuria. Examination will demonstrate excoriations and thick, white vaginal discharge. Vaginal pH is typically normal (≤4.5), and KOH wet mount will demonstrate hyphae, pseudohyphae, or budding yeast.Vaginal estrogen (Option D) would not be the most appropriate treatment. It is appropriate for treating genitourinary syndrome of menopause (GSM), particularly in patients with significant atrophy or urinary symptoms. Given this patient's age, GSM is a consideration, but the acuity of her symptoms and presence of three Amsel criteria make bacterial vaginosis the more likely diagnosis.",
+  "critique_links": [],
   "key_points": [
     "Patients (pregnant or nonpregnant) with symptomatic bacterial vaginosis can be treated with oral or vaginal metronidazole or with vaginal clindamycin; asymptomatic nonpregnant patients do not require treatment.",
     "Bacterial vaginosis may be diagnosed clinically using the Amsel criteria or via nucleic acid amplification testing."
@@ -53,11 +54,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/infig24204.ecd07c6d7cd35bd15a06f86245fd5057.jpg",
-      "figures/infig24201.c1337385f4d0c59a60c2de0f7e270cf9.jpg"
+      "figures/infig24201.c1337385f4d0c59a60c2de0f7e270cf9.jpg",
+      "figures/infig24204.ecd07c6d7cd35bd15a06f86245fd5057.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:28:36.580850-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "infig24201",
+        "file": "figures/infig24201.c1337385f4d0c59a60c2de0f7e270cf9.jpg",
+        "title": "Wet Mount Showing Clue Cells",
+        "short_title": "MK25IMFark012 stem Wet Mount Showing Clue Cells",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 321,
+        "height": 330
+      },
+      {
+        "figure_id": "infig24204",
+        "file": "figures/infig24204.ecd07c6d7cd35bd15a06f86245fd5057.jpg",
+        "title": "Wet Mount Showing Clue Cells With Arrows",
+        "short_title": "MK24IMFark012 critique Wet Mount Showing Clue Cells (With Arrows)",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 666,
+        "height": 685
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.920257-06:00"
 }

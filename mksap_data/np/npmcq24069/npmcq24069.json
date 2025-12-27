@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 65-year-old man is evaluated during a routine follow-up visit 1 month after starting empagliflozin. He reports lower back pain, for which he has been taking celecoxib. Medical history is significant for well-controlled type 2 diabetes mellitus, hypertension, heart failure with reduced ejection fraction, and hyperlipidemia. Other medications are insulin glargine, insulin lispro, carvedilol, valsartan-sacubitril, and atorvastatin.Physical examination findings, including vital signs, are unremarkable.",
+  "question_text": "A 65-year-old man is evaluated during a routine follow-up visit 1 month after starting empagliflozin. He reports lower back pain, for which he has been taking celecoxib. Medical history is significant for well-controlled type 2 diabetes mellitus, hypertension, heart failure with reduced ejection fraction, and hyperlipidemia. Other medications are insulin glargine, insulin lispro, carvedilol, valsartan-sacubitril, and atorvastatin.Physical examination findings, including vital signs, are unremarkable.Laboratory studies:Creatinine1.4 mg/dL (123.8 µmol/L)H3 months ago0.9 mg/dL (79.6 µmol/L)Potassium5.0 mEq/L (5.0 mmol/L)UrinalysisSpecific gravity 1.010; 2+ protein; no blood, leukocyte esterase, or nitrites",
   "question_stem": "Which of the following medications should be discontinued first?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate medication to discontinue first is celecoxib (Option B). Drug-induced prerenal acute kidney injury (AKI) typically results from decreased blood flow to the kidney or intraglomerular hemodynamic alterations. Patients with impaired autoregulation or decreased effective arterial circulation (such as heart failure in this patient) have a greater risk of drug-induced prerenal AKI. There are several medications in this case that can lead to prerenal AKI: Valsartan-sacubitril, an angiotensin receptor-neprilysin inhibitor, causes vasodilation of the efferent renal arterioles; empagliflozin, a sodium-glucose cotransporter 2 (SGLT2), causes osmotic diuresis and relative volume depletion; and celecoxib impairs prostaglandin-associated vasodilation of the afferent renal arterioles. Management includes discontinuing nephrotoxins and increasing renal perfusion by treating the underlying cause, such as correcting volume deficits if present. This patient likely has drug-induced AKI caused by a combination of medications that have resulted in intraglomerular hemodynamic alterations, leading to a decrease in glomerular filtration rate without necessarily decreasing blood pressure. For this patient with mild AKI, a stepwise approach to discontinuing the potentially offending medications would be prudent, beginning with NSAIDs that are also otherwise nephrotoxic, with a plan to attempt to spare discontinuation of his other evidence-based heart failure medications (valsartan-sacubitril and empagliflozin) unless AKI does not improve or progresses with the discontinuation of NSAIDs. Prerenal AKI caused by NSAIDs is common and typically reversible with a favorable prognosis after discontinuation. Avoidance of NSAID exposure is important among high-risk patients, such as this patient with heart failure.It is unlikely that atorvastatin (Option A) is contributing to this patient's AKI, and it should not be discontinued. Although statins can cause rhabdomyolysis resulting in AKI, this patient has no suggestive symptoms or signs. In addition, his urinalysis would be positive for blood due to myoglobinuria in that setting.Empagliflozin (Option C) should not be discontinued first because randomized clinical trials have revealed both cardiovascular and renal benefits from SGLT2 inhibitors. Other nephrotoxic medications that could be contributing to his AKI and that are not associated with improved cardiovascular outcomes (such as NSAIDs) should be discontinued first.Valsartan-sacubitril (Option D) should not be discontinued first. Randomized clinical trials have shown benefit from this agent in improving cardiovascular outcomes in patients with heart failure. Furthermore, this patient has type 2 diabetes with albuminuria, as evidenced by the presence of protein on urinalysis. Several trials have shown improvement in renal outcomes with the use of an ACE inhibitor or angiotensin receptor blocker in patients with diabetes mellitus.",
+  "critique_links": [],
   "key_points": [
     "Sodium-glucose cotransporter 2 inhibitors, diuretics, NSAIDs, ACE inhibitors, and angiotensin receptor blockers can cause drug-induced prerenal acute kidney injury (AKI).",
     "Management of drug-induced prerenal AKI includes discontinuing nephrotoxins and increasing renal perfusion by treating the underlying cause."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:00.787090-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.789618-06:00"
 }

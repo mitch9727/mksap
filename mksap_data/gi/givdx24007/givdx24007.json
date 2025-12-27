@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 29-year-old woman is evaluated for acute epigastric pain associated with nausea and vomiting.A contrast-enhanced abdominal CT scan is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient most likely has acute pancreatitis (Option A). This CT scan shows enlargement of the gland, with contour irregularities and edema. The diagnosis of acute pancreatitis requires two of the following three criteria: acute-onset abdominal pain characteristic of pancreatitis, serum lipase or amylase levels elevated to at least three times the upper limit of normal, and characteristic imaging findings. Typical imaging findings of acute pancreatitis include pancreatic edema and peripancreatic stranding.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:31.082549-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "gifig24610",
+        "file": "figures/gifig24610.df13b40d5e7f74768d8c4d3197bf0be1.png",
+        "title": "CT Scan Showing Interstitial Pancreatitis",
+        "short_title": "CT Scan Showing Interstitial Pancreatitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "png",
+        "width": 510,
+        "height": 510
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.524115-06:00"
 }

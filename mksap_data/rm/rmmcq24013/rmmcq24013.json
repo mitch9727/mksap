@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 45-year-old woman is evaluated for a 1-year history of increasingly frequent asthma flares. The flares have required multiple courses of glucocorticoids and increased inhaler use. Despite nasal polypectomy 6 months ago, she continues to have ongoing sinus congestion. She also reports intermittent worsening pain and stiffness in the hands, as well as paresthesia of the fourth and fifth fingers of the right hand. Medical history includes asthma and nasal polyps. Her only medication is inhaled budesonide plus formoterol.On physical examination, vital signs are normal. Pulmonary examination reveals diffuse wheezing. There is mild weakness with dorsiflexion of the left foot.ECG is unremarkable. Chest radiograph shows patchy opacities in both lungs.Peripheral nerve biopsy is performed, with pathology results pending.",
+  "question_text": "A 45-year-old woman is evaluated for a 1-year history of increasingly frequent asthma flares. The flares have required multiple courses of glucocorticoids and increased inhaler use. Despite nasal polypectomy 6 months ago, she continues to have ongoing sinus congestion. She also reports intermittent worsening pain and stiffness in the hands, as well as paresthesia of the fourth and fifth fingers of the right hand. Medical history includes asthma and nasal polyps. Her only medication is inhaled budesonide plus formoterol.On physical examination, vital signs are normal. Pulmonary examination reveals diffuse wheezing. There is mild weakness with dorsiflexion of the left foot.Laboratory studies:Leukocyte count7300/μL (7.3 × 109/L) (20% eosinophils)Total blood eosinophil count2000/μL (2.0 × 109/L) (reference range, 50-500/µL [0.05-0.50 × 109/L])HCreatinine1.2 mg/dL (106.1 μmol/L)ANCAPositive (p-ANCA)ECG is unremarkable. Chest radiograph shows patchy opacities in both lungs.Peripheral nerve biopsy is performed, with pathology results pending.",
   "question_stem": "For which of the following conditions is this patient most at risk?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient is most at risk for myocarditis (Option B). Clinical features of eosinophilic granulomatosis with polyangiitis (EGPA), a rare ANCA-associated small-vessel vasculitis, include asthma (often refractory to treatment), nasal polyposis, chronic rhinosinusitis, atopy, skin rashes, and mononeuritis multiplex. Cardiac, gastrointestinal, and kidney manifestations may also be present. Diagnostic criteria for EGPA include typical clinical findings, eosinophilia, and/or biopsy specimens demonstrating fibrinoid necrosis and eosinophilic infiltration of vessel walls, as well as extravascular granuloma formation. ANCA positivity (typically p-ANCA) is suggestive but may be present in only 40% to 60% of patients. Because cardiac disease is the leading cause of death in patients with EGPA, the American College of Rheumatology conditionally recommends that all patients diagnosed with EGPA undergo baseline screening echocardiography. Cardiac involvement is a result of vasculitis-related ischemia and eosinophilic infiltration of the myocardium and can manifest as myocarditis, arrhythmia, valvular defects, heart failure, myocardial infarction, or pericardial effusion. This patient has multiple features of EGPA (refractory asthma, chronic rhinosinusitis, mononeuritis multiplex, high peripheral eosinophilia, p-ANCA positivity) and should undergo further cardiac testing.Ocular manifestations, such as episcleritis (Option A), are associated with granulomatosis with polyangiitis, another type of ANCA-associated vasculitis, but are not typically associated with EGPA.Amyloidosis is a disorder caused by the deposition of insoluble amyloid proteins that form β-pleated sheets. Renal amyloidosis (Option C) is most commonly caused by AL amyloid in the setting of light chain deposition or AA amyloid in the setting of inflammatory diseases, such as rheumatoid arthritis or inflammatory bowel disease. EGPA is not associated with the development of renal amyloidosis.Neurologic involvement of EGPA most commonly presents as peripheral neuropathy or mononeuritis multiplex, which is seen in 70% of patients with EGPA. Central nervous system manifestations are rare (approximately 3%-5% of cases) and include hemorrhage, stroke (Option D), cranial nerve palsies, and cortical blindness. Although stroke can occur in patients with EGPA, it is exceedingly rare compared with myocarditis.",
+  "critique_links": [],
   "key_points": [
     "Cardiac involvement, which may manifest as myocarditis, arrhythmia, valvular defects, heart failure, myocardial infarction, or pericardial effusion, is common in eosinophilic granulomatosis with polyangiitis, and cardiac disease is the major driver of morbidity in affected patients."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:46:44.986441-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.631909-06:00"
 }

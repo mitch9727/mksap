@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 37-year-old patient is evaluated during a new patient visit. They feel well and have no major medical conditions. They exercise at the gym most days of the week. They do not smoke cigarettes. They drink one glass of wine with dinner most nights. Their mother has hypertension and type 2 diabetes mellitus.On physical examination, vital signs are normal. BMI is 27. Other findings are unremarkable.",
   "question_stem": "What is the most appropriate management to screen for diabetes mellitus in this patient?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management to screen for diabetes mellitus is measurement of hemoglobin A1c now (Option C). Screening guidelines for type 2 diabetes mellitus are outlined in Table: Screening Guidelines for Prediabetes or Type 2 Diabetes Mellitus. The U.S. Preventive Services Task Forces (USPSTF) recommends screening for type 2 diabetes mellitus in adults aged 35 to 70 years who have overweight or obesity (grade B). BMI thresholds for overweight and obesity are 25 and above and 30 and above, respectively (≥23 in Asian American persons). In contrast to the USPSTF, the American Diabetes Association (ADA) recommends that screening be performed in patients of any age who have overweight or obesity and have one or more risk factors for diabetes (Table: Screening Guidelines for Prediabetes or Type 2 Diabetes Mellitus). The ADA also recommends screening all adults beginning at age 35 years, regardless of risk factors, and repeating screening at 3-year intervals. Testing options include hemoglobin A1c and fasting plasma glucose; another option, a 75-g oral glucose tolerance test, is used less often because of its inconvenience. This patient meets both USPSTF and ADA criteria for diabetes screening and should undergo testing now.This patient meets criteria for type 2 diabetes mellitus screening now. Delaying screening can put patients at risk for microvascular and macrovascular complications of type 2 diabetes, because these complications may develop without overt symptoms of hyperglycemia. Therefore, although fasting plasma glucose (Option A) and 75-g oral glucose tolerance (Option D) tests are appropriate, screening should not be delayed until age 40 years.Glutamic acid decarboxylase antibody measurement (Option B) is a diagnostic test for patients in whom type 1 diabetes mellitus is suspected. Screening for presymptomatic type 1 diabetes is not routinely recommended but may be considered in patients with a family history of type 1 diabetes mellitus. This patient does not require testing for type 1 diabetes mellitus.",
+  "critique_links": [],
   "key_points": [
     "The U.S. Preventive Services Task Force recommends screening for type 2 diabetes mellitus in persons with obesity or overweight starting at age 35 years.",
     "The American Diabetes Association recommends screening for type 2 diabetes mellitus in patients of any age who have overweight or obesity and have one or more risk factors for diabetes; in the absence of risk factors, screening should begin at age 35 years for all adults."
@@ -51,10 +52,33 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/entab24008.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:33.873446-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "entab24008",
+        "file": "tables/entab24008.html",
+        "title": "Screening Guidelines for Prediabetes or Type 2 Diabetes Mellitus in Asymptomatic Adults",
+        "short_title": "Screening Guidelines for Prediabetes or Type 2 Diabetes Mellitus",
+        "footnotes": [
+          "ADA = American Diabetes Association; CVD = cardiovascular disease; USPSTF = U.S. Preventive Services Task Force.",
+          "Recommendations from Davidson KW, Barry MJ, Mangione CM, et al; U.S. Preventive Services Task Force. Screening for prediabetes and type 2 diabetes: U.S. Preventive Services Task Force recommendation statement. JAMA. 2021;326:736-743. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34427594\" target=\"_blank\">PMID: 34427594</a> doi:10.1001/jama.2021.12531; American Diabetes Association Professional Practice Committee. 2. Diagnosis and classification of diabetes: Standards of Care in Diabetes—2025. Diabetes Care. 2025;48:S27-S49. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/39651986\" target=\"_blank\">PMID: 39651986</a> doi:10.2337/dc25-S002"
+        ],
+        "headers": [
+          "ADA (2025)",
+          "USPSTF (2021)"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.574515-06:00"
 }

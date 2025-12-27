@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 43-year-old woman is evaluated for severe persistent asthma. She was hospitalized three times during the past year for asthma exacerbations, most recently 2 weeks ago. She adheres to maintenance therapy, has proper inhaler technique, and avoids triggers. Medical history is otherwise significant for obstructive sleep apnea and depression. Medications are high-dose inhaled budesonide-formoterol, tiotropium, montelukast, prednisone, and citalopram.On physical examination, vital signs and other findings are normal.Fractional exhaled nitric oxide level is 12 ppb (normal, <25 ppb). Results of allergy testing are negative.",
+  "question_text": "A 43-year-old woman is evaluated for severe persistent asthma. She was hospitalized three times during the past year for asthma exacerbations, most recently 2 weeks ago. She adheres to maintenance therapy, has proper inhaler technique, and avoids triggers. Medical history is otherwise significant for obstructive sleep apnea and depression. Medications are high-dose inhaled budesonide-formoterol, tiotropium, montelukast, prednisone, and citalopram.On physical examination, vital signs and other findings are normal.Laboratory studies:Absolute eosinophil count110/μL (0.11 × 109/L)IgE18 U/mL (18 kU/L)Fractional exhaled nitric oxide level is 12 ppb (normal, <25 ppb). Results of allergy testing are negative.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate treatment for this patient with severe, difficult-to-control asthma is tezepelumab (Option D). Severe asthma is characterized by frequent exacerbations that may require emergency department visits or hospitalizations. Treatment includes a high-dose inhaled glucocorticoid-formoterol combination and long-acting inhaled muscarinic antagonists; long-term oral glucocorticoid treatment is also sometimes necessary. Newer therapies directed against specific mediators of the asthmatic response have significantly expanded the treatment options for patients with severe asthma not adequately controlled on standard therapy. These include agents targeted against IgE (omalizumab) and various interleukins (e.g., mepolizumab, reslizumab). Choice among these agents is driven by the specific asthma phenotype, which is determined by clinical characteristics and biomarkers, such as IgE levels and blood eosinophil counts (). Tezepelumab is a humanized monoclonal antibody that blocks the activity of thymic stromal lymphopoietin, an epithelial cytokine. Unlike other biologic treatments, its use is not limited to a specific asthma phenotype, and it improves asthma control and reduces exacerbations independent of phenotype. This patient has severe asthma that remains uncontrolled despite adherence to maximal optimized therapy. The absence of an elevated IgE level or blood eosinophil count limits the use of other biologic therapies and makes her an ideal candidate for tezepelumab.Macrolide antibiotics, such as azithromycin, have both anti-inflammatory and antimicrobial effects. Daily azithromycin (Option A) can be useful in selected patients with COPD and bronchiectasis to decrease the frequency of exacerbations. It does not, however, have a role in the long-term treatment of asthma.The interleukin (IL)-4 and IL-13 inhibitor dupilumab (Option B) is approved for treatment of asthma and has shown the greatest efficacy in patients with an absolute eosinophil count greater than 150/μL (0.15 × 109/L) and an elevated fractional exhaled nitric oxide (FeNO) level. This patient has an absolute eosinophil count below this threshold and a low FeNO level, making dupilumab a suboptimal option.Omalizumab (Option C) is a monoclonal antibody that binds to free serum IgE. It is indicated in patients with severe asthma inadequately controlled with standard therapy who have elevated IgE levels and sensitivity to multiple allergens. This patient does not have an elevated IgE level or any allergies; treatment with omalizumab is not the best option.",
+  "critique": "The most appropriate treatment for this patient with severe, difficult-to-control asthma is tezepelumab (Option D). Severe asthma is characterized by frequent exacerbations that may require emergency department visits or hospitalizations. Treatment includes a high-dose inhaled glucocorticoid-formoterol combination and long-acting inhaled muscarinic antagonists; long-term oral glucocorticoid treatment is also sometimes necessary. Newer therapies directed against specific mediators of the asthmatic response have significantly expanded the treatment options for patients with severe asthma not adequately controlled on standard therapy. These include agents targeted against IgE (omalizumab) and various interleukins (e.g., mepolizumab, reslizumab). Choice among these agents is driven by the specific asthma phenotype, which is determined by clinical characteristics and biomarkers, such as IgE levels and blood eosinophil counts (Table: Biologics Indicated to Treat Severe Asthma). Tezepelumab is a humanized monoclonal antibody that blocks the activity of thymic stromal lymphopoietin, an epithelial cytokine. Unlike other biologic treatments, its use is not limited to a specific asthma phenotype, and it improves asthma control and reduces exacerbations independent of phenotype. This patient has severe asthma that remains uncontrolled despite adherence to maximal optimized therapy. The absence of an elevated IgE level or blood eosinophil count limits the use of other biologic therapies and makes her an ideal candidate for tezepelumab.Macrolide antibiotics, such as azithromycin, have both anti-inflammatory and antimicrobial effects. Daily azithromycin (Option A) can be useful in selected patients with COPD and bronchiectasis to decrease the frequency of exacerbations. It does not, however, have a role in the long-term treatment of asthma.The interleukin (IL)-4 and IL-13 inhibitor dupilumab (Option B) is approved for treatment of asthma and has shown the greatest efficacy in patients with an absolute eosinophil count greater than 150/μL (0.15 × 109/L) and an elevated fractional exhaled nitric oxide (FeNO) level. This patient has an absolute eosinophil count below this threshold and a low FeNO level, making dupilumab a suboptimal option.Omalizumab (Option C) is a monoclonal antibody that binds to free serum IgE. It is indicated in patients with severe asthma inadequately controlled with standard therapy who have elevated IgE levels and sensitivity to multiple allergens. This patient does not have an elevated IgE level or any allergies; treatment with omalizumab is not the best option.",
+  "critique_links": [],
   "key_points": [
     "Patients with severe asthma that remains difficult to control despite optimal therapy should be considered for biologic therapy with agents that block the effects of IgE and interleukins.",
     "When biologic therapy is indicated in asthma, the asthma phenotype should guide selection of therapy; tezepelumab is a biologic therapy whose use is not limited to a specific asthma phenotype."
@@ -52,12 +53,46 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/pmtab24009.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.083479-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "pmtab24009",
+        "file": "tables/pmtab24009.html",
+        "title": "Characteristics of Biologic Agents Indicated to Treat Severe Asthma",
+        "short_title": "Biologics Indicated to Treat Severe Asthma",
+        "footnotes": [
+          "IL = interleukin; TSLP = thymic stromal lymphopoietin.",
+          "<sup>a</sup>Specialty referral recommended.",
+          "<sup>b</sup>Patients with severe asthma not adequately controlled on standard therapy."
+        ],
+        "headers": [
+          "Biologic Agenta",
+          "Target",
+          "Guidelinesb",
+          "Formulation",
+          "Home Use",
+          "Adverse Effects"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.131943-06:00"
 }

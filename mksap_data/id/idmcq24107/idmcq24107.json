@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 45-year-old man is hospitalized for malaise, a 2-week history of low-grade fever, and 10 to 12 episodes per day of watery diarrhea that has worsened over the past 5 to 7 days. Medical history is notable for IgA nephropathy, for which he underwent living donor kidney transplantation 9 months ago. Pretransplant testing demonstrated donor cytomegalovirus seropositivity; the recipient was seronegative. The patient experienced acute cellular rejection approximately 4 weeks ago and was treated with antithymocyte globulin. Medications are tacrolimus, mycophenolate mofetil, and prednisone; he also received trimethoprim-sulfamethoxazole and valganciclovir for 6 months following transplantation.On physical examination, temperature is 38.2 °C (100.8 °F), blood pressure is 90/60 mm Hg, pulse rate is 110/min, and respiration rate is 14/min. On abdominal examination, he has mild diffuse tenderness to palpation without rebound.Multiplex polymerase chain reaction (PCR) panel for gastrointestinal pathogens and testing for Clostridioides difficile are negative.The patient receives intravenous fluids, which leads to normalization of his pulse rate and blood pressure.",
+  "question_text": "A 45-year-old man is hospitalized for malaise, a 2-week history of low-grade fever, and 10 to 12 episodes per day of watery diarrhea that has worsened over the past 5 to 7 days. Medical history is notable for IgA nephropathy, for which he underwent living donor kidney transplantation 9 months ago. Pretransplant testing demonstrated donor cytomegalovirus seropositivity; the recipient was seronegative. The patient experienced acute cellular rejection approximately 4 weeks ago and was treated with antithymocyte globulin. Medications are tacrolimus, mycophenolate mofetil, and prednisone; he also received trimethoprim-sulfamethoxazole and valganciclovir for 6 months following transplantation.On physical examination, temperature is 38.2 °C (100.8 °F), blood pressure is 90/60 mm Hg, pulse rate is 110/min, and respiration rate is 14/min. On abdominal examination, he has mild diffuse tenderness to palpation without rebound.Laboratory studies:Leukocyte count2000/μL (2 × 109/L)LPlatelet count88,000/μL (88 × 109/L)LMultiplex polymerase chain reaction (PCR) panel for gastrointestinal pathogens and testing for Clostridioides difficile are negative.The patient receives intravenous fluids, which leads to normalization of his pulse rate and blood pressure.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient is colonoscopy with biopsy (Option A). This patient is at high risk for primary cytomegalovirus infection and disease because of donor-derived infection. Before the use of cytomegalovirus preventive therapy, the time period approximately 3 months following transplantation was a high-risk period for opportunistic infections, and cytomegalovirus was the most significant viral infection after transplantation, with risk highest (>50%) for donor-positive/recipient-negative (D+/R−) transplantation. Although widespread adoption of cytomegalovirus prevention strategies has changed the epidemiology of infection after kidney transplantation, cytomegalovirus disease remains common among transplant recipients but typically occurs after preventive therapy is stopped. Colitis is the most common manifestation of cytomegalovirus disease and should always be considered in transplant recipients with unexplained diarrhea. The diagnostic test of choice for cytomegalovirus disease is biopsy of the affected organ with immunohistochemistry for cytomegalovirus performed on tissue. This patient recently received antithymocyte globulin, which depletes T cells and places patients at increased risk for opportunistic infections, particularly cytomegalovirus; the leukopenia and thrombocytopenia also suggest cytomegalovirus infection.Even at 9 months after transplantation, discontinuing all immunosuppressive medications (Option B) would place this patient at high risk for rejection of the transplanted kidney, especially considering a recent history of acute rejection.Polymerase chain reaction (PCR) testing of stool for cytomegalovirus (Option C) is not routinely performed, and it cannot confirm or exclude the diagnosis of cytomegalovirus colitis. Cytomegalovirus viremia is determined through PCR performed on blood. Viremia is often high in the setting of cytomegalovirus disease, but infection can occur with low viral loads or without viremia.Posttransplant lymphoproliferative disorder (PTLD), often related to Epstein-Barr virus (EBV), can involve the gastrointestinal tract and cause diarrhea. However, EBV is much less common than cytomegalovirus colitis. High EBV viral loads on PCR may suggest PTLD, but serology for EBV (Option D) is not very helpful in diagnosing EBV infection in transplant recipients. Biopsy of affected tissue would also be needed to diagnose PTLD.",
+  "critique_links": [],
   "key_points": [
     "Cytomegalovirus is the most significant viral infection following solid organ transplantation, with risk highest (>50%) for donor-positive/recipient-negative (D+/R−) transplantation."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:47:31.655442-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.566343-06:00"
 }

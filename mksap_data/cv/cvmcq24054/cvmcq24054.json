@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 75-year-old man is evaluated for bilateral lower leg pain that has been progressively worsening during the past 2 months. His symptoms occur at rest and improve when he hangs his feet off his recliner. He is unable to sleep because of the pain. He is a current smoker. He has coronary artery disease, type 2 diabetes mellitus, hypertension, and dyslipidemia. Medications are aspirin, metformin, dapagliflozin, lisinopril, and atorvastatin.On physical examination, blood pressure is 148/89 mm Hg and pulse rate is 94/min and regular. A lower abdominal bruit is present. There is no hair on the lower legs, and there are no palpable femoral, popliteal, or pedal pulses bilaterally. A 2-cm round ulcer is present on the medial aspect of the right great toe.The ankle-brachial index is 0.49 on the right and 0.52 on the left.",
+  "question_text": "A 75-year-old man is evaluated for bilateral lower leg pain that has been progressively worsening during the past 2 months. His symptoms occur at rest and improve when he hangs his feet off his recliner. He is unable to sleep because of the pain. He is a current smoker. He has coronary artery disease, type 2 diabetes mellitus, hypertension, and dyslipidemia. Medications are aspirin, metformin, dapagliflozin, lisinopril, and atorvastatin.On physical examination, blood pressure is 148/89 mm Hg and pulse rate is 94/min and regular. A lower abdominal bruit is present. There is no hair on the lower legs, and there are no palpable femoral, popliteal, or pedal pulses bilaterally. A 2-cm round ulcer is present on the medial aspect of the right great toe.The ankle-brachial index is 0.49 on the right and 0.52 on the left.Laboratory studies:Creatinine0.9 mg/dL (79.6 µmol/L)",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step is CT angiography (CTA) of the abdomen with runoff (Option A). In patients with peripheral artery disease (PAD) and intermittent claudication or chronic limb-threatening ischemia (CLTI), endovascular or surgical revascularization is effective in improving symptoms, functional capacity, and wound healing. Referral for revascularization is indicated in patients with rest pain, ulceration, gangrene, or life-limiting claudication, especially if they have had an inadequate response to exercise training, antiplatelet medication, cilostazol, and/or wound treatment. Anatomic testing, such as CTA of the abdomen with runoff, is a necessary next step in considering whether revascularization is possible and determining the best revascularization technique (endovascular or surgical). This patient has progressively worsening claudication, rest pain, and tissue ulceration, indicating the presence of CLTI and the likely need for revascularization. He probably has an occluded aorta at the junction of the iliac artery bifurcation, a condition often referred to as Leriche syndrome. CT angiography of the abdomen with runoff is the next best step.This patient has symptoms that have been progressively worsening over 2 months and has chronic ischemia. Although the disease is clearly severe and CLTI is present, there is no clear indication for intravenous heparin (Option B), such as with acute limb ischemia.Although this patient is clearly at risk for limb loss given the severe PAD and CLTI, revascularization may restore blood flow and allow healing of the toe ulcer that is probably secondary to chronic ischemia. Below-the-knee amputation (Option C) would be premature.Toe-brachial index testing (Option D) typically is reserved for patients with noncompressible vessels on ankle-brachial index (ABI) testing or those with lower extremity ulceration/gangrene as an indicator of wound healing potential. This patient has low resting ABIs, which confirm the presence of PAD, and toe-brachial index testing is unnecessary.",
+  "critique_links": [],
   "key_points": [
     "Patients with chronic limb-threatening ischemia should undergo anatomic testing, such as CT angiography of the abdomen with runoff, to determine whether revascularization is possible and to aid in planning of revascularization procedures."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:48:58.419039-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.552500-06:00"
 }

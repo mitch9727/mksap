@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 62-year-old man is evaluated during follow-up for metastatic non–small cell lung cancer. He initially presented with dyspnea and weight loss. Evaluation revealed a right upper lobe mass and hilar adenopathy. PET/CT scan revealed hypermetabolic uptake in two liver lesions consistent with metastases, which were confirmed by liver biopsy. Molecular panel testing was negative. He received six cycles of chemotherapy plus immune checkpoint inhibitor therapy. Imaging revealed significant improvement in the lung mass, hilar and mediastinal adenopathy, and liver lesions, and he has completed six cycles of maintenance chemotherapy. The patient has no other medical problems and takes no medications.Physical examination findings, including vital signs, are normal.CT scan of the chest, abdomen, and pelvis identifies a 2.3-cm right adrenal mass, which was not present on previous imaging.",
+  "question_text": "A 62-year-old man is evaluated during follow-up for metastatic non–small cell lung cancer. He initially presented with dyspnea and weight loss. Evaluation revealed a right upper lobe mass and hilar adenopathy. PET/CT scan revealed hypermetabolic uptake in two liver lesions consistent with metastases, which were confirmed by liver biopsy. Molecular panel testing was negative. He received six cycles of chemotherapy plus immune checkpoint inhibitor therapy. Imaging revealed significant improvement in the lung mass, hilar and mediastinal adenopathy, and liver lesions, and he has completed six cycles of maintenance chemotherapy. The patient has no other medical problems and takes no medications.Physical examination findings, including vital signs, are normal.Laboratory studies:Hemoglobin10.2 g/dL (102 g/L)LCT scan of the chest, abdomen, and pelvis identifies a 2.3-cm right adrenal mass, which was not present on previous imaging.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient is stereotactic radiation therapy and continuing maintenance chemotherapy (Option B). The management of metastatic non–small cell lung cancer (NSCLC) has become increasingly complex over the past several years. Recent evidence has shown that stereotactic radiation therapy is an effective treatment option after response to systemic therapy. This specific type of radiation treatment targets lesions with a high level of precision, allowing for higher doses of radiation to be given per fraction, effectively killing isolated sites of cancer. This form of treatment can be used safely and effectively to treat oligometastatic disease in patients with a large variety of tumor types and has been shown to improve survival and allow for continuation of otherwise effective systemic therapy. This patient has an isolated adrenal metastatic lesion based on imaging and has previous biopsy-proven metastatic disease. In this setting, stereotactic radiation therapy followed by continuation of maintenance chemotherapy is indicated.Intensifying maintenance therapy (Option A) has not been shown to improve outcomes and is not a standard option. Stereotactic radiation therapy is proven effective in this setting and is the preferred treatment.Circulating tumor DNA testing (Option C) at the time of diagnosis can be considered if tissue-based testing cannot be done. No evidence shows that circulating tumor DNA testing to assess for actionable molecular alterations can improve outcomes in patients with progressive metastatic NSCLC after initial treatment. This test is not indicated based on lack of evidence for its effectiveness.Surgical resection of metastatic sites (Option D) has no proven role in treating patients with metastatic NSCLC. Additionally, given its ease and effectiveness, stereotactic radiation therapy is preferred over surgery, which would be associated with a higher risk for adverse effects and complications.",
+  "critique_links": [],
   "key_points": [
     "Stereotactic radiation therapy can be used safely and effectively to treat oligometastatic disease in patients with non–small cell lung cancer and has been shown to improve progression-free survival and allow for continuation of otherwise effective systemic therapy."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:27:04.097054-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.681157-06:00"
 }

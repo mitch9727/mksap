@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 64-year-old patient is evaluated for hypocalcemia. They are asymptomatic. They have no pertinent family history. They had papillary thyroid cancer treated with thyroidectomy 5 years ago. Their only medication is levothyroxine.Physical examination findings, including vital signs, are normal.",
+  "question_text": "A 64-year-old patient is evaluated for hypocalcemia. They are asymptomatic. They have no pertinent family history. They had papillary thyroid cancer treated with thyroidectomy 5 years ago. Their only medication is levothyroxine.Physical examination findings, including vital signs, are normal.Laboratory studies:Albumin4 g/dL (40 g/L)Calcium8.2 mg/dL (2.1 mmol/L)LCreatinine1.2 mg/dL (106 μmol/L)Magnesium2.0 mg/dL (0.83 mmol/L)Phosphorus4.4 mg/dL (1.42 mmol/L)Parathyroid hormone32 pg/mL (32 ng/L)25-Hydroxyvitamin D25 ng/mL (62 nmol/L)L",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is hypoparathyroidism (Option B). This patient's serum parathyroid hormone (PTH) level is within the normal range, yet their serum calcium levels are low. This failure of the parathyroid glands to produce enough parathyroid hormone to raise calcium levels to normal is diagnostic of hypoparathyroidism. A history of thyroid or other central neck surgery increases the likelihood that hypoparathyroidism is a result of loss of parathyroid tissue; typically, hypocalcemia occurs soon after surgery, but, rarely, it may present years later. Inappropriately normal serum PTH levels with concurrent hypocalcemia represent partial hypoparathyroidism (i.e., some parathyroid tissue remains), whereas complete hypoparathyroidism is associated with undetectable serum PTH levels. Although residual PTH production is insufficient to maintain normal serum calcium levels, in partial hypoparathyroidism it limits the tendency toward hyperphosphatemia and hypercalciuria, which are more common complications in complete hypoparathyroidism. Notably, care must be taken to avoid situations that may induce severe hypocalcemia in patients with partial hypoparathyroidism, such as when taking antiresorptive drugs or in the setting of profound vitamin D deficiency.Hypocalcemia in hungry bone syndrome (Option A) is caused by calcium moving from the extracellular space into the bone. Illness, medications, or surgery for primary hyperparathyroidism are readily identifiable causes of hungry bone syndrome. Hypocalcemia in this setting tends to be severe and transient rather than mild and chronic. Additionally, assuming that the parathyroid glands are intact, PTH levels are elevated. This patient‘s mild, asymptomatic hypocalcemia and inappropriately normal PTH level are inconsistent with hungry bone syndrome.PTH resistance syndromes (Option C) are present from birth and are usually diagnosed in childhood. Given that parathyroid gland function remains intact, resistance to PTH action results in a compensatory increase in PTH levels. This patient's PTH level is not elevated.Vitamin D deficiency (Option D) causing reduced calcium absorption results in a decline in serum calcium levels. Under normal circumstances, even a small decline in the serum calcium level results in a robust increase in the PTH level. Because vitamin D deficiency reduces phosphorus absorption and hyperparathyroidism increases phosphorus excretion, lower serum phosphorus levels occur when hypocalcemia is caused by vitamin D deficiency. Although this patient has mild vitamin D deficiency, the absence of secondary hyperparathyroidism excludes this deficiency as the primary cause of their hypocalcemia.",
+  "critique_links": [],
   "key_points": [
     "Hypocalcemia in a patient with a history of thyroid or central neck surgery may be a result of loss of parathyroid tissue and resultant hypoparathyroidism.",
     "Inappropriately normal serum parathyroid hormone levels with concurrent hypocalcemia represent partial hypoparathyroidism, whereas complete hypoparathyroidism is associated with undetectable serum parathyroid hormone levels and a higher prevalence of hyperphosphatemia and hypercalciuria."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:36.675082-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.171243-06:00"
 }

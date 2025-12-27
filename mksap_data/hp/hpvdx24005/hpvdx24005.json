@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 59-year-old man with chronic hepatitis B virus infection is evaluated for a recently discovered hepatic mass. The CT scan shown represents the arterial phase of contrast administration.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Hepatocellular carcinoma (Option D) is typically diagnosed noninvasively with multiphasic contrast-enhanced CT or MRI. The arterial phase is best for imaging hypervascular lesions, which appear as areas of increased enhancement relative to the unenhanced liver parenchyma, as in this image. There will be washout during the venous or delayed phase.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/hpfig24604.beace4a27169a5ed0df24d8d9dfeba63.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.609345-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hpfig24604",
+        "file": "figures/hpfig24604.beace4a27169a5ed0df24d8d9dfeba63.jpg",
+        "title": "CT Scan Showing Hepatocellular Carcinoma",
+        "short_title": "CT Scan Showing Hepatocellular Carcinoma",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 512,
+        "height": 512
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.731509-06:00"
 }

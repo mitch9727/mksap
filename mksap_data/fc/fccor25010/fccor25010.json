@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "An 81-year-old man is evaluated after a hospitalization 1 week ago for expressive aphasia. He has a distant history of resected melanoma. Brain imaging in the hospital showed bleeding into a lesion in the left frontal region. A chest CT scan showed several pulmonary nodules concerning for metastases. The patient's oncologist is starting chemotherapy but noted that the patient's prognosis is poor. The patient also has atrial fibrillation; warfarin was recently discontinued. His other medication is metoprolol.Today the patient feels well, with improved speech. He states that he is “going to beat this disease.”",
   "question_stem": "Which of the following is the most appropriate response?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The physician should assess the patient's understanding of his illness by asking him what he has been told so far (Option D). Leading discussions about topics related to serious illness may be challenging for clinicians because they often have to balance patients' hopes for a cure with realistic goals. Clinicians may not feel adequately trained to navigate these difficult discussions, but structured guides on how to discuss serious illness, such as the Serious Illness Conversation Guide (see Table: Serious Illness Conversation Guide), have been shown to be beneficial. The conversation begins by eliciting the patient's understanding of their illness and what and how much information they are able and ready to hear. For this patient, it is unclear how much information was conveyed to him in the hospital and how much he absorbed, so it is important to ascertain what he was told and what he understands. This discussion will determine how to structure the rest of the conversation.Although eliciting advance directives is an important responsibility of the clinician, going directly to the practical question of intubation (Option A) misses the opportunity for the patient to talk about his values. An understanding of the patient's values and preferences can align the practical decisions regarding cardiopulmonary resuscitation and intubation in a manner that is concordant with his wishes.Partnering with the patient in his hope (Option B) is not wrong but should be balanced with realistic expectations. For example, this response might be expressed as “I also hope for the best. Would you be willing to talk about what to prepare for if things don't go as we wish?”Affirming the positive aspects of the patient's situation and informing him about realistic expectations (Option C) is important, but this response would not be the best way to initially address his statement. It is more important to determine what he knows about his illness first to be able to understand the context within which he has made this statement.",
+  "critique_links": [],
   "key_points": [
     "Clinicians may not feel adequately trained to navigate difficult discussions about serious illness, but structured guides such as the Serious Illness Conversation Guide have been shown to be beneficial.",
     "The conversation begins by eliciting the patient's understanding of their illness and what and how much information they are able and ready to hear."
@@ -51,10 +52,32 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/fctab24054.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:34.223904-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "fctab24054",
+        "file": "tables/fctab24054.html",
+        "title": "Serious Illness Conversation Guide",
+        "short_title": "Serious Illness Conversation Guide",
+        "footnotes": [
+          "Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\" target=\"_blank\">https://creativecommons.org/licenses/by-nc-sa/4.0/</a>). Ariadne Labs licenses the original content as-is and as-available, and makes no representations or warranties of any kind concerning the original content or concerning this material, which Ariadne Labs has not reviewed or endorsed. © 2015, Ariadne Labs: A Joint Center for Health Systems Innovation (<a href=\"http://www.ariadnelabs.org\" target=\"_blank\">www.ariadnelabs.org</a>) and Dana-Farber Cancer Institute."
+        ],
+        "headers": [
+          "Conversation Flow",
+          "Patient-Tested Language"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.524597-06:00"
 }

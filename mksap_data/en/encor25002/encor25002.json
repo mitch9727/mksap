@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 38-year-old woman is evaluated to discuss pharmacotherapy for obesity. She has not lost significant weight over the past 6 months despite dietary counseling, commercial weight loss programs, behavioral therapy, and regular exercise. Medical history is significant for hypertension and opioid use disorder in sustained remission with medication-assisted therapy. Medications are losartan and methadone.On physical examination, vital signs are normal. BMI is 32. The remainder of the examination is normal.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient with obesity refractory to lifestyle modifications is an effective pharmacologic therapy, such as tirzepatide (Option C). Tirzepatide is a glucose-dependent insulinotropic polypeptide/glucagon-like peptide 1 receptor agonist and is one of the medications recommended to treat obesity. Pharmacologic therapy is an option for patients with a BMI of 30 or greater and for those with a BMI of 27 or greater and at least one obesity-associated comorbid condition (e.g., type 2 diabetes mellitus, hypertension, or obstructive sleep apnea) who have not achieved weight loss goals after 3 to 6 months of lifestyle modifications. Patients should be monitored regularly, and medications should be stopped if a patient does not have weight reduction after 12 weeks. Weight is typically regained when pharmacologic therapy is discontinued, which underscores the importance of concomitant lifestyle changes. The choice of pharmacologic therapy (see Table: Medications for Weight Loss) is guided by comorbid conditions as well as the adverse effect profiles and contraindications of each medication. Because this patient has not had weight loss after 6 months of lifestyle interventions, pharmacotherapy is indicated, and tirzepatide would be an appropriate choice.Naltrexone-bupropion (Option A) is approved for weight loss, but it is contraindicated in this patient taking methadone for opioid use disorder because naltrexone would precipitate opioid withdrawal.Guidelines recommend consideration of bariatric surgery (Option B) for patients with a BMI of 35 or greater, regardless of comorbidities, and in patients with a BMI between 30 and 34.9 who do not achieve weight loss goals or comorbidity improvement with nonsurgical treatments. The risks associated with bariatric surgery exceed those of nonsurgical treatments, so surgery is not an appropriate next step for this patient with a BMI of 32 who has not yet tried pharmacologic weight loss therapy.This patient has not responded to nonpharmacologic therapy, so it should not be continued as the sole treatment (Option D). It would be inappropriate to delay the initiation of pharmacotherapy beyond a 3- to 6-month trial of lifestyle modifications.",
+  "critique_links": [],
   "key_points": [
     "Pharmacologic therapy for the treatment of obesity and overweight is an option for patients with a BMI of 30 or greater and for those with a BMI of 27 or greater and at least one obesity-associated comorbid condition who have not achieved weight loss goals after 3 to 6 months of lifestyle modifications.",
     "The choice of pharmacologic therapy for obesity is guided by comorbid conditions as well as the adverse effect profiles and contraindications of each medication."
@@ -51,10 +52,49 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/entab24004.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:00:39.656889-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "entab24004",
+        "file": "tables/entab24004.html",
+        "title": "Medications for Weight Loss",
+        "short_title": "Medications for Weight Loss",
+        "footnotes": [
+          "AMPA = α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid; ER = extended release; GABA = gamma-aminobutyric acid; GIP = glucose-dependent insulinotropic polypeptide; GLP-1 = glucagon-like peptide 1; MEN2 = multiple endocrine neoplasia type 2; MTC = medullary thyroid carcinoma.",
+          "<sup>a</sup>Total body weight loss compared with placebo",
+          "<sup>b</sup>Risk for treatment discontinuation because of adverse effect compared with placebo",
+          "<sup>c</sup>Eight randomized controlled trials with follow-up of 52 to 72 weeks",
+          "<sup>d</sup>Eight randomized controlled trials with follow-up of at least 52 weeks",
+          "<sup>e</sup>Two randomized controlled trials with follow-up of 36 to 72 weeks",
+          "<sup>f</sup>Three randomized controlled trials with follow-up of 52 to 56 weeks",
+          "<sup>g</sup>Five randomized controlled trials with follow-up of 56 weeks",
+          "<sup>h</sup>Mean weight loss at 52 weeks",
+          "<sup>i</sup>One randomized controlled trial with follow-up of 6 months",
+          "<sup>j</sup>Three randomized controlled trials with follow-up of 17 to 28 weeks",
+          "Data from Khera R, Murad MH, Chandar AK, et al. Association of pharmacological treatments for obesity with weight loss and adverse events: a systematic review and meta-analysis. JAMA. 2016;315:2424-34. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/27299618\" target=\"_blank\">PMID: 27299618</a> doi:10.1001/jama.2016.7602",
+          "Data from Cercato C, Roizenblatt VA, Leança CC, et al. A randomized double-blind placebo-controlled study of the long-term efficacy and safety of diethylpropion in the treatment of obese subjects. Int J Obes (Lond). 2009;33:857-65. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19564877\" target=\"_blank\">PMID: 19564877</a> doi:10.1038/ijo.2009.124",
+          "Data from Grunvald E, Shah R, Hernaez R, et al; AGA Clinical Guidelines Committee. AGA clinical practice guideline on pharmacological interventions for adults with obesity. Gastroenterology. 2022;163:1198-1225. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/36273831\" target=\"_blank\">PMID: 36273831</a> doi:10.1053/j.gastro.2022.08.045",
+          "Data from Jastreboff AM, Aronne LJ, Ahmad NN, et al; SURMOUNT-1 Investigators. Tirzepatide once weekly for the treatment of obesity. N Engl J Med. 2022;387:205-216. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/35658024\" target=\"_blank\">PMID: 35658024</a> doi:10.1056/NEJMoa2206038"
+        ],
+        "headers": [
+          "Medication",
+          "Mechanism of Action",
+          "Total Body Weight Lossa (%) or Actual Weight Loss (kg)",
+          "Common Adverse Effectsb",
+          "Contraindications"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.031960-06:00"
 }

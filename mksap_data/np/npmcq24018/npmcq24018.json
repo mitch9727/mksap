@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 28-year-old woman is evaluated for persistent microscopic hematuria without proteinuria. Family history is significant for end-stage kidney disease in her older brother, who underwent kidney transplantation at age 32 years, and in a maternal uncle, who started dialysis at age 30 years and underwent kidney transplantation. Her mother has microscopic hematuria but normal kidney function. Her younger brother and older sister have no known kidney abnormalities. The patient has no other symptoms or medical conditions and takes no medications.Physical examination findings, including vital signs, are normal.Kidney ultrasound shows normal-sized, echogenic kidneys with no cysts, masses, or stones.",
+  "question_text": "A 28-year-old woman is evaluated for persistent microscopic hematuria without proteinuria. Family history is significant for end-stage kidney disease in her older brother, who underwent kidney transplantation at age 32 years, and in a maternal uncle, who started dialysis at age 30 years and underwent kidney transplantation. Her mother has microscopic hematuria but normal kidney function. Her younger brother and older sister have no known kidney abnormalities. The patient has no other symptoms or medical conditions and takes no medications.Physical examination findings, including vital signs, are normal.Laboratory studies:Creatinine0.7 mg/dL (61.9 µmol/L)Urinalysis2+ blood; no protein, leukocytes, or leukocyte esterase; and 10-20 erythrocytes/hpfKidney ultrasound shows normal-sized, echogenic kidneys with no cysts, masses, or stones.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate diagnostic test to perform next is genetic testing (Option A). There are three genetic variants of hereditary nephritis (Alport syndrome):X-linked (80%)Autosomal recessive (15%)Autosomal dominant (5%)This patient's family history is highly suggestive of X-linked hereditary nephritis, a familial form of glomerulonephritis that affects approximately 0.4% of U.S. adults. Given widespread access to genetic testing, in patients with a well-documented family history and persistent glomerular hematuria, the diagnosis of hereditary nephritis is now routinely made by the noninvasive route of genetic testing. This patient and her mother are heterozygous for the X-linked disease, as was the patient's maternal grandmother, presumably. Heterozygous females have a 50% chance of passing the affected gene to male offspring (in this family, the patient's older brother and maternal uncle), and their daughters likewise have a 50% chance of carrying the gene. Females with the X-linked heterozygous variant commonly have microscopic hematuria and may develop kidney disease depending on activity of the X chromosome in somatic renal cells, but they are typically less severely affected than males. The earliest presentation of hereditary nephritis is microscopic hematuria with or without proteinuria. Heavier proteinuria, hypertension, and chronic kidney disease usually develop over time, with end-stage kidney disease occurring between the late teenage years and the fourth decade of life; these complications are more common in males. Patients with hereditary nephritis, including patients with the X-linked heterozygous variant, may develop sensorineural hearing loss, which can be subtle and diagnosed with audiometry.If there is no proteinuria detected on urinalysis, a 24-hour urine collection (Option B) to quantify proteinuria is unnecessary in a heterozygous patient.Hereditary nephritis can be diagnosed in affected patients by the more invasive method of kidney biopsy (Option C), with electron microscopy showing the hallmark finding of prominent thickening and lamellation of the glomerular basement membrane (“basket-weave” appearance). Genetic testing has replaced this procedure for patients who have persistent hematuria and a family history suggestive of hereditary nephritis.A diagnostic skin biopsy (Option D) can be performed when X-linked hereditary nephritis is suspected but is not as sensitive as kidney biopsy; type IV collagen alpha-5 chain (COL4A5) is normally present in the skin, and approximately 60% to 80% of patients with X-linked hereditary nephritis will show abnormal staining for COL4A5 in the skin biopsy. If suspected, a positive genetic test can obviate the need for kidney or skin biopsies in affected patients and has replaced these procedures for many patients. Genetic testing is also the most reliable way to identify patients who are heterozygous for type IV collagen mutations.",
+  "critique_links": [],
   "key_points": [
     "Hereditary nephritis (Alport syndrome) is routinely diagnosed by noninvasive genetic testing in patients with a well-documented family history of the disease and abnormal urinary findings.",
     "Hereditary nephritis presents with microscopic hematuria with or without proteinuria; heavier proteinuria, hypertension, and chronic kidney disease develop over time, and these complications are more common in X-linked affected males."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:33.017537-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.641370-06:00"
 }

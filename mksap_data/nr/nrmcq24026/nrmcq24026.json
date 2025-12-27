@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 42-year-old woman is evaluated in the emergency department for right-hand weakness of 3 weeks' duration. She has numbness and tingling in her posterior upper arm and fingers as well as radiating pains from her neck to her right elbow. Medical history is significant for stage IV Hodgkin lymphoma diagnosed 9 months ago, for which she was treated with six cycles of chemotherapy and radiation therapy. A recent PET scan revealed a partial response to treatment, with new masses in the mediastinum and spine.On physical examination, vital signs are within normal limits. Muscle strength is normal other than 4/5 strength with finger extension and in the interossei on the right. Sensation is decreased to light touch and vibration in the right hand. Reflexes are 3+ diffusely, with bilateral knee and ankle clonus. The remainder of the neurologic examination is normal.MRI of the cervical, thoracic, and lumbar spine with contrast shows an epidural tumor from C7 to T2 that is causing mass effect on the spinal cord.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management is high-dose dexamethasone (Option B). Neoplastic epidural spinal cord compression (ESCC) develops in approximately 2.5% of patients with metastatic cancer, most commonly lung, breast, and prostate cancer; myeloma; and lymphoma (MRI shown). ESCC secondary to malignancy requires emergent administration of high-dose glucocorticoids and urgent consideration of surgery and radiation therapy. Glucocorticoids decrease edema and begin to work immediately, which is of great importance, as neurologic status at time of definitive therapy is an important predictor of outcome. Surgical decompression followed by radiotherapy is most beneficial for patients younger than 65 years who have a single area of compression, paraplegia with a duration of less than 48 hours, and a predicted survival of greater than 6 to 12 months. In patients not meeting these criteria or in those with radiosensitive tumors, surgery may not be necessary, and radiotherapy alone may be used. This 48-year-old patient with progressive lymphoma and ESCC will require definitive therapy with surgery, chemotherapy, and/or radiation, but administration of high-dose dexamethasone is the most important immediate step.This patient has widespread Hodgkin lymphoma, as demonstrated by the partial remission and new lesions on PET scan. She will require systemic chemotherapy (Option A) on an urgent basis, but immediate high-dose glucocorticoids are the first treatment priority.ESCC secondary to radiosensitive tumors like leukemia, lymphoma, myeloma, and germ cell tumors may be treated urgently with radiotherapy (Option C). Surgery (Option D) may be the best option in tumors that have previously been irradiated or if spinal instability is present; it is most beneficial in younger patients with disease limited to a single segment. Regardless of whether radiation or surgery is appropriate, however, high-dose glucocorticoids should first be administered immediately to all patients with suspected neoplastic ESCC.",
+  "critique_links": [],
   "key_points": [
     "High-dose glucocorticoids should be administered immediately in patients with malignant epidural spinal cord compression.",
     "Some patients with epidural cord compression from radiosensitive tumors like leukemia, lymphoma, myeloma, and germ cell tumors can be treated successfully with radiotherapy; surgery may be required for those with spinal instability or previous radiotherapy."
@@ -58,5 +59,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:16:57.655178-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "nrfig24202",
+        "file": "figures/nrfig24202.6b229b670e7a895915dfb26ac8d709e5.jpg",
+        "title": "MRI of Spinal Cord Compression Due to Tumor",
+        "short_title": "MRI of Spinal Cord Compression Due to Tumor",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 684,
+        "height": 981
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.202484-06:00"
 }

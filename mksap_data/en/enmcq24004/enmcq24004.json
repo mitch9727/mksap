@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 27-year-old woman is evaluated during a follow-up visit for prediabetes. She exercises at least 150 minutes/week and follows recommended dietary interventions but has only lost 2 kg (4.4 lb) in the past 6 months. She has no other medical conditions and takes no medications.On physical examination, vital signs are normal. BMI is 36. Examination of the posterior neck reveals velvety brown thickening of the skin.She is concerned about her risk for progressing to type 2 diabetes mellitus and is interested in additional interventions.",
+  "question_text": "A 27-year-old woman is evaluated during a follow-up visit for prediabetes. She exercises at least 150 minutes/week and follows recommended dietary interventions but has only lost 2 kg (4.4 lb) in the past 6 months. She has no other medical conditions and takes no medications.On physical examination, vital signs are normal. BMI is 36. Examination of the posterior neck reveals velvety brown thickening of the skin.Laboratory studies:Hemoglobin A1c6.2%HShe is concerned about her risk for progressing to type 2 diabetes mellitus and is interested in additional interventions.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Metformin (Option B) is the most appropriate treatment for this patient with prediabetes. The Diabetes Prevention Program trial, which evaluated interventions for preventing type 2 diabetes mellitus in persons at high risk, revealed that lifestyle modifications (i.e., diet, exercise) decreased incidence of prediabetes by 58%. It also found that metformin was effective in reducing the risk for developing type 2 diabetes in participants with impaired glucose tolerance by 31%. Studies have shown that metformin can delay type 2 diabetes onset by up to 10 years. Therefore, the American Diabetes Association (ADA) recommends considering metformin for type 2 diabetes prevention in persons with prediabetes, particularly those at high risk, including individuals aged 25 to 59 years with a BMI of 35 or greater, higher fasting plasma glucose levels (≥110 mg/dL [6.1 mmol/L]), and hemoglobin A1c values of 6% or greater, as well as in patients with a history of gestational diabetes. This patient's hemoglobin A1c and BMI remain high despite lifestyle interventions; metformin is an appropriate intervention to reduce her risk for developing type 2 diabetes. Additionally, the Endocrine Society suggests empiric vitamin D supplementation for persons with high-risk prediabetes because it may reduce progression to diabetes, and vitamin D supplementation could therefore be considered for this patient. More intensive interventions for obesity should also be considered in this patient (e.g., a glucagon-like peptide 1 receptor agonist (GLP-1 RA) or glucose-dependent insulinotropic polypeptide/GLP-1 RA).Acarbose (Option A), an α-glucosidase inhibitor, is used primarily to manage plasma glucose levels in persons with type 2 diabetes. Acarbose can potentially delay type 2 diabetes onset in persons with prediabetes by 3 years; however, its use is limited by adverse effects (e.g., flatulence and diarrhea). The ADA does not recommend this medication for diabetes prevention.Orlistat (Option C) inhibits dietary fat absorption in the gastrointestinal tract. Although primarily used for weight management, it can indirectly contribute to type 2 diabetes prevention by promoting weight loss. It may delay the onset of type 2 diabetes for up to 4 years. However, because of gastrointestinal adverse effects, it is not well tolerated and is not recommended for diabetes prevention.Pioglitazone (Option D), a thiazolidinedione, acts as an insulin sensitizer. It has been shown to delay the onset of type 2 diabetes by up to 3 years. Thiazolidinediones are generally considered second-line medications owing to their potential adverse effects, such as weight gain and fluid retention.",
+  "critique_links": [],
   "key_points": [
     "The American Diabetes Association recommends considering metformin to prevent the development of type 2 diabetes mellitus in persons with prediabetes, particularly those aged 25 to 59 years with a BMI of 35 or greater, higher fasting plasma glucose levels (≥110 mg/dL [6.1 mmol/L]), and hemoglobin A1c values of 6% or greater, as well as in patients with a history of gestational diabetes."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:19.217461-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.082811-06:00"
 }

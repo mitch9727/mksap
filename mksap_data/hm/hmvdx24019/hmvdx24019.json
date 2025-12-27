@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "An 18-year-old woman is diagnosed with anemia.Peripheral blood smear is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is iron deficiency anemia (Option B). Erythrocytes are normally the size of the nucleus of a small lymphocyte (red arrow). In this smear, they are significantly smaller, indicating microcytosis. In addition to the microcytosis, this peripheral blood smear illustrates the other most common findings associated with iron deficiency anemia: hypochromia (increase in the central pallor of cells, black arrow), poikilocytosis (changes in erythrocyte shape, blue arrows), and anisocytosis (changes in erythrocyte size).",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,11 +56,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/hmfig24631.0cf0b6a38d9fbbebdf343d27d4cdd306.jpg",
-      "figures/hmfig24630.b99fe841cc6b813231d2967784a6cda7.jpg"
+      "figures/hmfig24630.b99fe841cc6b813231d2967784a6cda7.jpg",
+      "figures/hmfig24631.0cf0b6a38d9fbbebdf343d27d4cdd306.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.951617-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hmfig24630",
+        "file": "figures/hmfig24630.b99fe841cc6b813231d2967784a6cda7.jpg",
+        "title": "Stem Peripheral Blood Smear Showing Microcytosis, Hypochromia, Poikilocytosis, and Anisocytosis",
+        "short_title": "PBS in Iron Deficiency Anemia Stem",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 800,
+        "height": 639
+      },
+      {
+        "figure_id": "hmfig24631",
+        "file": "figures/hmfig24631.0cf0b6a38d9fbbebdf343d27d4cdd306.jpg",
+        "title": "Critique Peripheral Blood Smear Showing Microcytosis, Hypochromia, Poikilocytosis, and Anisocytosis",
+        "short_title": "PBS in Iron Deficiency Anemia Critique",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 800,
+        "height": 639
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.123751-06:00"
 }

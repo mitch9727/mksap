@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old man is evaluated in the ICU 5 days after being involved in a motor vehicle collision in which he sustained multiple rib fractures and pulmonary contusions. On arrival at the emergency department, he aspirated, developed hypoxemic respiratory failure, and was intubated. The patient remains on mechanical ventilation, with improving gas exchange and pulmonary mechanics. Medications are piperacillin-tazobactam, subcutaneous heparin, pantoprazole, propofol, and intravenous fentanyl as needed.On physical examination, temperature is 36.8 °C (98.4 °F), blood pressure is 110/70 mm Hg, and pulse rate is 90/min. Oxygen saturation is 94% on an Fio2 of 0.40. He is unresponsive to voice or physical stimulation. Scattered crackles are present over the bilateral lower lung fields. Bruising is seen over the right chest wall. Neurologic examination shows no focal abnormalities.Chest radiograph shows bilateral alveolar infiltrates in the mid- and lower-lung zones. CT scan of the head on presentation was unremarkable.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management of this patient who is likely oversedated is to interrupt sedation by discontinuing propofol (Option A). Critically ill patients often require sedation to facilitate tolerance for invasive procedures and mechanical ventilation. However, guidelines favor using the minimum amount of sedation possible to keep patients comfortable and safe. Propofol or dexmedetomidine are preferred to benzodiazepines, which are associated with increased delirium. For light sedation, dexmedetomidine may be associated with less delirium compared with propofol; for deeper sedation or for patients at risk for bradycardia, propofol may be more appropriate. In patients requiring continuous sedation, daily protocolized interruption of sedation is associated with decreased length of mechanical ventilation, ICU stay, and incidence of delirium. An evidence-based practice for correction of oversedation is to stop the sedating drugs until the level of sedation is appropriate and then restart at half the previous dose. This patient with no response to voice or physical stimulation is most likely oversedated, and propofol should be discontinued.Electroencephalography (EEG) (Option B) is indicated in the evaluation of possible seizures. Critically ill patients can develop nonconvulsive status epilepticus (episodes of electrical seizure activity without clinically evident seizures), which can present with altered mental status and episodes of unconsciousness. Although nonconvulsive status epilepticus is a consideration, oversedation is far more likely in this patient who is receiving propofol. EEG could be reconsidered if his mental status does not improve after the correction of oversedation.Repeat head CT (Option C) may be appropriate if a structural neurologic cause of symptoms is suspected. It is not warranted in this patient who is likely oversedated unless his mental status does not improve after discontinuation of the sedating medications.Spontaneous breathing trials (Option D) are used to assess readiness for extubation. When used concurrently with lighter sedation or daily sedation interruption protocols, spontaneous breathing trials reduce mechanical ventilation time and mortality. Although this patient's pulmonary mechanics are improving, his deep sedation is a barrier to proceeding with a spontaneous breathing trial.",
+  "critique_links": [],
   "key_points": [
     "In critically ill patients requiring continuous sedation for mechanical ventilation, discontinuation of the sedating medication is appropriate when evidence of oversedation is present.",
     "An evidence-based practice for correction of oversedation in critically ill patients is to stop the drug until the level of sedation is appropriate and then restart it at half the previous dose."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:53:33.610228-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:32.355302-06:00"
 }

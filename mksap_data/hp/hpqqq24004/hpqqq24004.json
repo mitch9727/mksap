@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 55-year-old man is evaluated in the hospital for new-onset ascites. He has hepatitis C–associated cirrhosis. His only medication is propranolol.On physical examination, pulse rate is 58/min; other vital signs are normal. Abdominal examination reveals evidence of tense ascites, confirmed by point-of-care ultrasound.Laboratory studies:Albumin2.5 g/dL (25 g/L)LBilirubin, total3.6 mg/dL (61.6 µmol/L)HCreatinine1.4 mg/dL (124 µmol/L)HParacentesis is performed.Ascitic fluid studies:Leukocyte count200/µL (200 × 109/L) with 30% neutrophilsAlbumin0.4 g/dL (4.0 g/L)Protein0.9 g/dL (9.0 g/L)",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient should receive ciprofloxacin (Option D). In patients with cirrhosis and ascites, long-term prophylactic antibiotic therapy, typically with a fluoroquinolone such as ciprofloxacin, is recommended to prevent spontaneous bacterial peritonitis (SBP) if the ascitic fluid protein level is less than 1.5 g/dL (15 g/L) and is associated with one of the following:Serum sodium level less than 130 mEq/L (130 mmol/L)Serum creatinine level greater than 1.2 mg/dL (106 µmol/L)Blood urea nitrogen level greater than 25 mg/dL (8.9 mmol/L)Liver failure (defined as serum total bilirubin level >3 mg/dL [51.3 µmol/L] and Child-Turcotte-Pugh score >9)Long-term primary antibiotic prophylaxis may reduce mortality in patients at high risk for SBP. In addition, all patients who have had an episode of SBP should receive secondary antibiotic prophylaxis to reduce the risk for recurrence. In the setting of variceal hemorrhage, a limited 7-day course of antibiotics initiated at the time of bleeding is indicated to prevent infectious complications from intestinal bacterial translocation.Increasing this patient's propranolol (Option A) is not indicated because, although β-blocker therapy reduces the risk for variceal bleeding, the patient already has a pulse rate of less than 60/min.Albumin infusion (Option B) may decrease the frequency of hepatorenal syndrome and improves survival in patients with SBP, but its role in primary prevention of SBP is undefined and its use for primary prevention is not recommended.Ceftriaxone (Option C) is the antibiotic of choice for treatment of suspected SBP. Although the clinical presentation of SBP can be subtle, this patient's ascitic fluid values are not consistent with infection. SBP should be suspected when the ascitic fluid analysis reveals a neutrophil count of 250/µL (0.250 × 109/L) or greater.",
+  "critique_links": [],
   "key_points": [
     "Primary prophylactic antibiotic therapy is indicated for patients at high risk for the development of spontaneous bacterial peritonitis, including patients with very low ascitic fluid protein levels associated with serum sodium level less than 130 mEq/L (130 mmol/L), serum creatinine level greater than 1.2 mg/dL (106 µmol/L), or blood urea nitrogen level greater than 25 mg/dL (8.9 mmol/L) and those with advanced liver failure."
   ],
@@ -50,10 +51,36 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html",
+      "tables/inline_table_2.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.605002-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      },
+      {
+        "table_id": "inline_table_2",
+        "file": "tables/inline_table_2.html",
+        "title": "Ascitic fluid studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.728279-06:00"
 }

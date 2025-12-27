@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 53-year-old man is evaluated for a 2-year history of abdominal pain and bloating, particularly after eating meals, as well as intermittent diarrhea. He underwent Roux-en-Y gastric bypass for weight loss 11 years ago. He is up to date on assessments for micronutrient deficiencies. He recently regained some weight and was diagnosed with type 2 diabetes mellitus. Medications are semaglutide and vitamin supplements.Physical examination findings, including vital signs, are normal.Abdominal radiograph and upper endoscopy findings are normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is small intestinal bacterial overgrowth (SIBO) (Option C). SIBO represents a syndrome of gastrointestinal symptoms caused by excessive bacteria within the small intestine. Gastric bypass can alter the gastrointestinal microbiome; dysbiosis and SIBO can occur in the setting of anatomic rearrangement of the digestive tract in patients undergoing Roux-en-Y gastric bypass (see also Table: Risk Factors for Small Intestinal Bacterial Overgrowth). Common symptoms of SIBO include abdominal discomfort, flatulence, gas, distention, bloating, and diarrhea. SIBO should be considered in patients with typical symptoms and predisposing risk factors. Testing with small-bowel aspirate culture or carbohydrate substrate–based breath testing using glucose or lactulose can support the diagnosis. However, in patients with a high probability of SIBO and lack of access to objective testing, empiric antibiotic therapy with subsequent monitoring for symptom relief is a reasonable approach. This patient's history of Roux-en-Y gastric bypass, type 2 diabetes mellitus, and typical SIBO symptoms (including abdominal pain, bloating, and diarrhea) make SIBO the most likely diagnosis.Clostridioides difficile–associated diarrhea (Option A) usually occurs in settings such as hospitalization or antibiotic exposure, which are not factors in this case. Although community-acquired C. difficile–associated diarrhea can occur, the duration of this patient's symptoms (2 years) argues against this diagnosis. SIBO is a more likely diagnosis in this patient given his risk factors.Exocrine pancreatic insufficiency (Option B) is unlikely in this patient because gastric bypass should not affect pancreatic function. Additionally, this patient does not have risk factors for pancreatic insufficiency (such as previous/repetitive bouts of acute pancreatitis, alcohol use disorder, calculous gallbladder disease, or congenital malformation).Ulcers at the gastric bypass anastomosis site (anastomotic ulcers) (Option D) could cause abdominal pain but would not likely explain diarrhea. In addition, this patient's normal upper endoscopy result makes an ulcer less likely.",
+  "critique_links": [],
   "key_points": [
     "Common symptoms of small intestinal bacterial overgrowth include abdominal discomfort, flatulence, gas, distention, bloating, and diarrhea.",
     "Gastric surgery is a risk factor for small intestinal bacterial overgrowth."
@@ -52,11 +53,26 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/gitab24035.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.071932-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "gitab24035",
+        "file": "tables/gitab24035.html",
+        "title": "Risk Factors for Small Intestinal Bacterial Overgrowth",
+        "short_title": "Risk Factors for Small Intestinal Bacterial Overgrowth",
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.422526-06:00"
 }

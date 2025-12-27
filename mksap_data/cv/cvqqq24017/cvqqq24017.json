@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 42-year-old man is evaluated in the emergency department for a 3-hour history of severe chest pain that radiates to the back. The pain is sharp and tearing in character. Medical history is significant for hypertension. Medications are amlodipine and lisinopril.On physical examination, blood pressure is 128/78 mm Hg in the right arm and 162/99 mm Hg in the left arm, and pulse rate is 110/min. Cardiopulmonary examination is normal except for tachycardia. Right radial and brachial pulses are diminished.A chest CT scan is shown.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in the management of this patient with an acute type A aortic dissection is emergent open surgical aortic repair (Option C). This patient's CT scan (shown) reveals a dissection plane extending through the aortic arch (arrow). Stanford type A aortic dissections (those which originate in the ascending aorta) confer a high risk for death and complications. Acute aortic dissection classically manifests as sudden-onset chest, back, or abdominal pain that has a tearing or ripping quality; patients may present with hypertension, syncope, a murmur of aortic regurgitation, or heart failure in the setting of sudden aortic insufficiency. Unequal blood pressures in the upper extremities and asymmetric pulses further raise the suspicion for acute aortic dissection. The early mortality rate is approximately 1% per hour after symptom onset; therefore, patients with acute type A aortic dissection should be evaluated emergently for open surgical repair.Performing coronary angiography (Option A) before aortic repair has not been shown to alter in-hospital survival or the need for coronary artery bypass surgery at the time of aortic repair and may delay surgery.Medical therapy (Option B) for acute aortic dissection includes β-blockers, intravenous nitroprusside, and opioid analgesia. Surgery provides a survival benefit over medical therapy alone and is the definitive treatment.Emergency surgery is recommended for all patients with type A aortic dissection. Concomitant aortic arch reconstruction, coronary artery reimplantation, aortic valve repair or replacement, or branch vessel repair may be required depending on the anatomy and pathology of the lesion. This patient has evidence of compromise of his right innominate artery with diminished right arm blood pressure and pulses and requires branch vessel repair, not endovascular stenting (Option D).",
+  "critique_links": [],
   "key_points": [
     "Patients with acute type A aortic dissection should be treated emergently with open surgical repair."
   ],
@@ -52,11 +53,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/cvfig24503.d0c46ea57ea6f6d7e5e4205ec4de50d3.jpg",
-      "figures/cvfig24502.813f64500d74b09ca3c5bdccf5707928.jpg"
+      "figures/cvfig24502.813f64500d74b09ca3c5bdccf5707928.jpg",
+      "figures/cvfig24503.d0c46ea57ea6f6d7e5e4205ec4de50d3.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.296741-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24502",
+        "file": "figures/cvfig24502.813f64500d74b09ca3c5bdccf5707928.jpg",
+        "title": "CT Showing Type A Aortic Dissection",
+        "short_title": "stem CT Showing Type A Aortic Dissection",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 512,
+        "height": 418
+      },
+      {
+        "figure_id": "cvfig24503",
+        "file": "figures/cvfig24503.d0c46ea57ea6f6d7e5e4205ec4de50d3.jpg",
+        "title": "CT Showing Type A Aortic Dissection With Arrow",
+        "short_title": "critique CT Showing Type A Aortic Dissection With Arrow",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 512,
+        "height": 418
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.802459-06:00"
 }

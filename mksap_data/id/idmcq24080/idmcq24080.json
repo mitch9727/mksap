@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 52-year-old woman undergoes routine monitoring. She has HIV-1 infection diagnosed 10 years ago and has been taking antiretroviral therapy for several years. Medications are rilpivirine, abacavir, and lamivudine.Vital signs and physical examination findings are normal.CD4 cell count is 298/µL (423/µL 6 months ago) and HIV viral load is 5179 copies/mL (88 copies/mL 6 months ago).",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is to perform HIV genotype testing (Option A). This patient is taking a nonnucleoside reverse transcriptase inhibitor (NNRTI)–based regimen (rilpivirine). NNRTIs have a lower barrier to resistance compared with integrase strand transfer inhibitor–based regimens or boosted protease inhibitor–based regimens. In the event of virologic failure or suboptimal viral load suppression, resistance testing will evaluate the virus for drug resistance mutations, and results will guide adjustments to the antiretroviral regimen. Drug resistance testing should be performed while the patient is taking the failing regimen or within 4 weeks of discontinuing antiretrovirals. If resistance testing is performed more than 4 weeks after stopping antiretrovirals, the absence of drug-selective pressure facilitates the predominance of wild-type virus over drug-resistant mutants, thereby making it less likely that drug resistance mutations will be detected. The patient's detectable HIV RNA level 6 months ago paired with the current increase in viral load indicates likely drug resistance. Other considerations may be poor adherence and drug or food interactions that may limit drug absorption.The p24 antigen is an HIV viral core protein that is detected as early as approximately 14 days after acute HIV infection. The p24 antigen is used to help confirm the diagnosis of HIV because it is detectable earlier than HIV-1 or HIV-2 antibodies. Fourth-generation HIV antigen/antibody tests detect the presence of p24 antigen and HIV antibodies. This patient already has diagnosed HIV-1 infection, and testing for p24 antigen (Option B) provides no additional information after HIV infection is confirmed.This patient has confirmed HIV-1 infection. Testing for HIV-2 antibodies (Option C) is unlikely to guide management of the increasing HIV-1 viral load. Most infections with HIV-2 originate in West Africa. HIV-2 is associated with slower disease progression and is resistant to NNRTIs. Dual HIV-1 and HIV-2 infection can occur but is rare.HLA-B*57:01 testing (Option D) is indicated before initiating treatment with abacavir. Persons who are positive for this allele are at increased risk for hypersensitivity reaction to abacavir, which manifests as a multisystem illness typically including fever; constitutional symptoms; and gastrointestinal, respiratory, and dermatologic symptoms. This patient's current regimen includes abacavir, so HLA-B*57:01 testing is not necessary.The patient's increasing HIV viral load over the past 6 months raises concern for drug resistance. Therefore, rechecking the CD4 cell count and HIV viral load in 1 month (Option E) risks ongoing virologic failure because of drug resistance. HIV genotyping should be performed now to make a timely diagnosis of drug resistance and identify an antiretroviral regimen likely to achieve viral suppression.",
+  "critique_links": [],
   "key_points": [
     "In the event of virologic failure or suboptimal viral load suppression, resistance testing will evaluate the virus for drug resistance mutations, and results will guide adjustments to the antiretroviral regimen."
   ],
@@ -60,5 +61,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:45:33.760789-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:29.499884-06:00"
 }

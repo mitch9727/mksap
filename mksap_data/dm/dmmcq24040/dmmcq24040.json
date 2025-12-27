@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 39-year-old man is evaluated for a 6-month history of an itchy rash on the scalp. He also reports joint pain and stiffness in his hands and fingers that began around the same time. The joint stiffness is worse in the morning, and it takes about 1 hour to “work the stiffness out.” Medical history is otherwise unremarkable, and he takes no medications.On physical examination, vital signs are normal.Skin findings on the scalp are shown.No other skin findings are noted. Palpation of the metacarpophalangeal joints and the proximal and distal interphalangeal joints elicits tenderness.Radiograph of the hands shows small amounts of erosion and bone proliferation distally in the digits.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is psoriasis with concomitant psoriatic arthritis (Option A). Psoriasis in the skin presents as red, sharply marginated plaques with silvery lamellar (flat or sheet-like) scale. Although the rash is often accentuated on extensor surfaces, such as hands, elbows, and knees, it may occur in other areas of the body, including the scalp. Scalp psoriasis does not typically cause scarring hair loss or pigmentary change. Psoriasis is a systemic disease, and approximately 30% of patients develop psoriatic arthritis. Although skin disease precedes articular manifestations in most patients, in up to 15% of patients, psoriatic arthritis precedes the skin disease or appears concurrently. Psoriatic arthritis may affect both the axial and appendicular skeleton, and five subtypes are possible (see Psoriatic Arthritis in Rheumatology). Symmetric polyarthritis is the second most common presentation of psoriatic arthritis following asymmetric oligoarticular arthritis. Radiographic findings in peripheral psoriatic arthritis include erosions of the distal head of the proximal joint and juxta-articular new bone formation at the proximal head of the distal joint, leading to a \"pencil-in-cup\" appearance across the joint (see Figure: Radiograph Showing “Pencil-in-Cup” Deformity). This patient has scalp psoriasis and a symmetrical peripheral polyarticular arthritis involving the hands with bony erosions on radiography, all consistent with psoriasis with concomitant psoriatic arthritis.Rheumatoid arthritis with concurrent rheumatoid neutrophilic dermatosis is not the most likely diagnosis in this patient (Option B). Rheumatoid neutrophilic dermatosis is a dermal inflammatory process presenting as dermal papules and nodules without scale. It often features intense postinflammatory pigmentary changes. The scaling rash seen in this patient is inconsistent with rheumatoid neutrophilic dermatosis. In addition, rheumatoid arthritis does not typically involve the distal interphalangeal joints as in this patient.Cutaneous and systemic sarcoidosis (Option C) has a wide range of findings, but as a dermal granulomatous process it tends to present as dermal papules and nodules with a yellowish-pink hue. The skin findings of sarcoidosis do not have scaling, which is present in this patient.Systemic lupus erythematosus is strongly associated with inflammatory arthritis and skin disease, and the most common lupus-specific skin eruption is discoid lupus erythematosus (DLE) (Option D). DLE appears preferentially on the scalp, conchal bowls, and face. However, DLE is a destructive process, and patients present with scarring hair loss and pigmentary alteration, neither of which is present in this patient.",
+  "critique_links": [],
   "key_points": [
     "Psoriasis is a systemic disease, and approximately 30% of patients with psoriasis develop psoriatic arthritis; in up to 15% of these patients, psoriatic arthritis precedes skin disease or occurs concurrently."
   ],
@@ -51,9 +52,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24236.c3a585dd7f39599502c2d405cbb62e46.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.767027-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24236",
+        "file": "figures/dmfig24236.c3a585dd7f39599502c2d405cbb62e46.jpg",
+        "title": "Psoriasis on the Scalp",
+        "short_title": "stem Psoriasis on the Scalp",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 675
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.303795-06:00"
 }

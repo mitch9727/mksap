@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 23-year-old patient is evaluated in the emergency department for a 5-day history of progressively worsening fever, chills, and cough productive of purulent sputum. They had influenza approximately 2 weeks ago, which nearly resolved with oseltamivir. Medical history is significant for acute myeloid leukemia, for which allogeneic hematopoietic stem cell transplantation was performed 1.5 years ago. Immunosuppression was stopped almost 1 year ago, and antimicrobial prophylaxis was stopped 6 months ago. They have remained in remission and completed standard posttransplant vaccinations.On physical examination, the patient appears ill. Temperature is 38.7 °C (101.7 °F), blood pressure is 93/54 mm Hg, pulse rate is 112/min, and respiration rate is 22/min. Oxygen saturation is 94% breathing ambient air. Cardiopulmonary auscultation reveals crackles in the left lower lobe and tachycardia with a regular rhythm.Laboratory studies:Leukocyte count19,000/μL (19 × 109/L)HChest radiograph reveals an infiltrate in the left lower lobe.",
   "question_stem": "Which of the following is the most likely cause of this patient's pneumonia?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient most likely has pneumonia caused by Streptococcus pneumoniae (Option D). In patients who have received a transplant, infection risk varies depending on the time after transplantation. Figure: Phases of Opportunistic Infections After Allogeneic HSCT lists the typical timeline of risk for specific infections after hematopoietic stem cell transplantation (HSCT). The late period following HSCT begins at 3 months after transplantation. This is a lower risk period for infections like cytomegalovirus, Aspergillus and other molds, Cryptococcus, and Pneumocystis pneumonia. However, patients generally have prolonged humoral deficits following HSCT and are at high risk for infection with encapsulated bacteria (S. pneumoniae, Haemophilus influenzae, and Neisseria meningitidis). Following HSCT, patients should be revaccinated against vaccine-preventable infections, including receiving pneumococcal vaccination; however, risk for infection remains. This patient's HSCT was approximately 1.5 years ago, and they stopped taking all immunosuppressive therapy nearly 12 months ago. Additionally, their recent influenza infection increased their risk for secondary bacterial infections, including S. pneumoniae (the leading bacterial cause of community-acquired pneumonia), Staphylococcus aureus, and H. influenzae.Aspergillosis (Option A) is most common in the middle period (1-3 months) following HSCT. This patient's transplant occurred more than 1 year ago, they are no longer taking immunosuppressive medication, and they have had no neutropenia or relapse of acute myeloid leukemia.This patient is no longer at high risk for cytomegalovirus pneumonitis (Option B) because their transplantation was more than 1 year ago, and they are no longer taking immunosuppressive medication. Cytomegalovirus pneumonitis is uncommon in HSCT recipients, but it typically occurs within the first 3 to 6 months after transplantation in the setting of high-level immunosuppression for graft-versus-host disease. It most commonly appears as bilateral diffuse interstitial infiltrates on chest radiograph.Although Nocardia infections (Option C) can occur in the late period following transplantation, regardless of immunosuppression, it is much less common than S. pneumoniae; in addition, acute onset with significant leukocytosis would be unlikely. Nocardiosis typically has a subacute onset of respiratory symptoms, and it may or may not cause leukocytosis or fever.",
+  "critique_links": [],
   "key_points": [
     "Patients generally have prolonged humoral deficits following hematopoietic stem cell transplantation and remain at high risk for infections with encapsulated bacteria (Streptococcus pneumoniae, Haemophilus influenzae, and Neisseria meningitidis)."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.212566-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.573752-06:00"
 }

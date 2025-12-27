@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 57-year-old woman with systemic lupus erythematosus is evaluated for dyspnea on exertion and left-sided chest pain.Chest radiograph is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is a left pleural effusion (Option D). The chest radiograph shows diffuse, dense opacification of the left lower hemithorax. In pleural effusions, a meniscus is often seen on frontal films with gentle upsloping medially and a concave line (red) obscuring the costophrenic angle and part or all of the hemidiaphragm. If large enough, a left-sided effusion can cause rightward displacement of mediastinal structures. In this patient, the trachea is deviated slightly to the right (blue arrow).An elevated hemidiaphragm due to eventration or paralysis of the diaphragm would appear as a dome shape with no disruption to the diaphragmatic continuity. Atelectasis is the loss of gas within the lung, which reduces volume; if this patient had atelectasis of left lung, it would have caused a leftward shift of the mediastinum and trachea. Lobar pneumonia would be characterized by the presence of air bronchograms without meniscus lines.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/pmfig24678.e7e7326900f60fef020a462bcb9abbde.jpg",
-      "figures/pmfig24677.0ad8a288b23722d2c7db1fa881c66cd2.jpg"
+      "figures/pmfig24677.0ad8a288b23722d2c7db1fa881c66cd2.jpg",
+      "figures/pmfig24678.e7e7326900f60fef020a462bcb9abbde.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.434840-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24677",
+        "file": "figures/pmfig24677.0ad8a288b23722d2c7db1fa881c66cd2.jpg",
+        "title": "Radiograph Showing Pleural Effusion",
+        "short_title": "stem Radiograph Showing Pleural Effusion",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 784
+      },
+      {
+        "figure_id": "pmfig24678",
+        "file": "figures/pmfig24678.e7e7326900f60fef020a462bcb9abbde.jpg",
+        "title": "Radiograph Showing Pleural Effusion",
+        "short_title": "critique Radiograph Showing Pleural Effusion",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 784
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.314997-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 72-year-old woman is evaluated in the hospital for acute kidney injury after being admitted for a fall. She reports that she had not taken her medications for 2 weeks while on vacation but restarted them 1 week ago. Two liters of 0.9% saline administered on admission have not improved her serum creatinine level. Medical history is significant for hypertension, hyperlipidemia, and heart failure with reduced ejection fraction. Medications are losartan, carvedilol, spironolactone, hydralazine, isosorbide dinitrate, atorvastatin, and empagliflozin.On physical examination, vital signs are normal. Lungs are clear to auscultation. There is a large ecchymosis on the patient's left upper thigh. There is no lower extremity edema.",
+  "question_text": "A 72-year-old woman is evaluated in the hospital for acute kidney injury after being admitted for a fall. She reports that she had not taken her medications for 2 weeks while on vacation but restarted them 1 week ago. Two liters of 0.9% saline administered on admission have not improved her serum creatinine level. Medical history is significant for hypertension, hyperlipidemia, and heart failure with reduced ejection fraction. Medications are losartan, carvedilol, spironolactone, hydralazine, isosorbide dinitrate, atorvastatin, and empagliflozin.On physical examination, vital signs are normal. Lungs are clear to auscultation. There is a large ecchymosis on the patient's left upper thigh. There is no lower extremity edema.Laboratory studies:Creatine kinase800 U/LHCreatinine2.8 mg/dL (247.5 µmol/L)H2 months ago0.7 mg/dL (61.9 µmol/L)Urine sodium56 mEq/L (56 mmol/L)Fractional excretion of sodium1.6%Urinalysis with microscopySpecific gravity 1.010; 1+ protein; no blood or leukocyte esterase; few granular casts/lpf; 1-2 renal tubular epithelial cells/hpf",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Acute tubular necrosis (ATN) (Option A) is the most likely diagnosis. Severe ischemia due to prolonged hypotension, protracted prerenal state, nephrotoxins, or sepsis can cause ATN. Normotensive ischemic ATN can occur without overt hypotension but with blood pressure decreased to a value lower than what the patient is accustomed to, as in this patient. This scenario occurs when there is underlying impairment in renal autoregulation, such as that in older age, presence of chronic kidney disease, renovascular disease, systolic heart failure, or liver cirrhosis. Urine sediment usually reveals renal tubular epithelial cells and casts as well as coarse granular or muddy brown casts. Unlike prerenal acute kidney injury (AKI), ATN does not rapidly improve with restoration of intravascular volume and adequate renal perfusion; diagnostic findings that differentiate prerenal AKI from ATN are listed in Table: Prerenal Acute Kidney Injury Versus Acute Tubular Necrosis. Treatment is supportive because no efficacious pharmacologic therapies exist. This patient's AKI is due to ATN caused by the abrupt lowering of blood pressure upon restarting her antihypertensive medications. Evidence for ATN in this case includes a urine sodium >40 mEq/L (40 mmol/L), fractional excretion of sodium (FENa) >1%, presence of granular casts on urine microscopy, and no decrease in serum creatinine levels following isotonic fluid infusion.Although this patient has a history of heart failure and is at risk for AKI from cardiorenal syndrome (Option B), the lack of symptoms and signs of acute decompensated heart failure makes this diagnosis unlikely.Prerenal AKI (Option C) is an unlikely diagnosis based on the patient's urine studies. In prerenal AKI, urinary sediment would be bland, urine sodium would be low, and FENa would be <1%. However, ATN in this case may have been preceded by a prerenal state caused by relatively reduced blood pressures.Rhabdomyolysis-induced AKI (Option D) occurs when heme pigment released from myoglobin causes kidney injury. Serum creatine kinase levels are often >5000 U/L, and urine dipstick will be positive for \"blood\" (myoglobin heme pigment) with the absence of erythrocytes on urine microscopy. This patient's serum creatine kinase level is 800 U/L, and there is no blood present on urinalysis.",
+  "critique_links": [],
   "key_points": [
     "Normotensive ischemic acute tubular necrosis can occur without overt hypotension, but with blood pressure decreased relative to baseline, in conditions with impaired renal autoregulation, including older age, hypertension, atherosclerotic or renovascular disease, heart failure with reduced ejection fraction, liver cirrhosis with portal hypertension, and chronic kidney disease."
   ],
@@ -51,12 +52,50 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/nptab24028.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:59.150323-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nptab24028",
+        "file": "tables/nptab24028.html",
+        "title": "Diagnostic Findings Differentiating Prerenal Acute Kidney Injury from Acute Tubular Necrosis",
+        "short_title": "Prerenal Acute Kidney Injury Versus Acute Tubular Necrosis",
+        "footnotes": [
+          "BUN = blood urea nitrogen; FE<sub>Na</sub> = fractional excretion of sodium; FE<sub>Urea</sub> = fractional excretion of urea.a",
+          "<sup>a</sup>Urine sediment findings are more sensitive and specific than BUN-creatinine ratios.",
+          "<sup>b</sup>FE<sub>Na</sub> = (Urine sodium concentration × Plasma creatinine concentration)/(Urine creatinine concentration × Plasma sodium concentration) × 100.",
+          "<sup>c</sup>FE<sub>Urea</sub> = (Urine urea concentration × Plasma creatinine concentration)/(Urine creatinine concentration × Plasma urea concentration) × 100.",
+          "<sup>d</sup>FE<sub>Na</sub> can be high in prerenal states with diuretic use, adrenal insufficiency, or metabolic alkalosis.",
+          "<sup>e</sup>FE<sub>Na</sub> can be low in acute tubular necrosis due to contrast-associated nephropathy, pigment nephropathy, glomerulonephritis, or early obstruction."
+        ],
+        "headers": [
+          "Condition",
+          "BUN-Creatinine Ratioa",
+          "Urine Osmolality (mOsm/kg H2O)",
+          "Urine Sodium (mEq/L [mmol/L])",
+          "FENab",
+          "FEUreac",
+          "Urinalysis and Microscopya"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.776084-06:00"
 }

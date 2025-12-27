@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 50-year-old man is evaluated for a 2-day history of fever, rash, and generalized malaise. He has stage 3 chronic kidney disease, hypertension, and gout. He started allopurinol 1 week ago; he also takes lisinopril.On physical examination, temperature is 38.3 °C (100.9 °F), blood pressure is 130/90 mm Hg, and heart rate is 110/min. A diffuse maculopapular rash is present.",
+  "question_text": "A 50-year-old man is evaluated for a 2-day history of fever, rash, and generalized malaise. He has stage 3 chronic kidney disease, hypertension, and gout. He started allopurinol 1 week ago; he also takes lisinopril.On physical examination, temperature is 38.3 °C (100.9 °F), blood pressure is 130/90 mm Hg, and heart rate is 110/min. A diffuse maculopapular rash is present.Laboratory studies:Leukocyte count10,400/µL (10.4 × 109/L) (8% eosinophils, 72% lymphocytes, 20% polymorphonuclear cells)HAlanine aminotransferase112 U/LHAspartate aminotransferase123 U/LHCreatinine2.1 mg/dL (187 µmol/L)H",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Stopping allopurinol (Option D) is the most appropriate next step in management of this patient who most likely has drug-induced hypersensitivity syndrome (DIHS; also called DRESS [drug reaction with eosinophilia and systemic symptoms] syndrome) caused by allopurinol; this condition is a rare but serious complication of allopurinol therapy. Risk factors for DIHS include starting high-dose allopurinol, especially in patients with chronic kidney disease (CKD) and the presence of the HLA-B*58:01 allele. This allele is associated with an 80- to 580-fold increased likelihood of DIHS and has the highest prevalence in patients of southeast Asian and African descent, although it is also found in other ethnicities. Genetic testing for this allele is conditionally recommended where available before initiating allopurinol in patients identifying as an at-risk ethnicity to offset the risk for developing DIHS. To minimize the risk for DIHS, allopurinol should be started at a dose of 100 mg/d and titrated in 100-mg increments every few weeks until a serum uric acid level less than 6.0 mg/dL (0.35 mmol/L) is achieved (or lower as needed to control flares or resolve tophi). For patients with stage G4 or G5 CKD, allopurinol should be initiated at 50 mg/d and the dosage titrated in 50- to 100-mg increments until the serum uric acid target is achieved. In addition to stopping the allopurinol, which is the most important aspect of treatment, DIHS is treated with high-dose glucocorticoids and supportive care depending on the extent of severity. This patient's presentation of diffuse maculopapular rash, worsening kidney function, elevated aminotransferase levels, and eosinophilia, which developed following allopurinol initiation, is consistent with DIHS and allopurinol should be immediately stopped.Starting colchicine (Option A) is indicated only in the treatment or prevention of a gout flare. This patient is not experiencing a gout flare, so colchicine is not indicated. Additionally, starting colchicine would not address the hypersensitivity reaction to allopurinol that the patient is experiencing, which requires immediate cessation of allopurinol therapy.Although glucocorticoids are typically given as part of the treatment regimen for DIHS, the most important step in management of this patient's DIHS is the discontinuation of allopurinol. Therefore, starting prednisone (Option B) alone would not be the most appropriate step in management.Starting vancomycin (Option C) would not be the best next step in management for this patient because he has no clear evidence of infection, and his presentation is most consistent with DIHS. His symptoms of fever, maculopapular rash, and generalized malaise began within 1 week of starting allopurinol, and his laboratory studies, including peripheral eosinophilia, transaminitis, and elevated serum creatinine, all support a hypersensitivity reaction to allopurinol as the most likely cause rather than infection.",
+  "critique_links": [],
   "key_points": [
     "An uncommon but serious complication of allopurinol is a hypersensitivity reaction indicated by a rash; allopurinol should be discontinued in patients who develop a rash.",
     "Risk factors for allopurinol hypersensitivity include chronic kidney disease and presence of the HLA-B*58:01 allele."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:05.813819-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.850501-06:00"
 }

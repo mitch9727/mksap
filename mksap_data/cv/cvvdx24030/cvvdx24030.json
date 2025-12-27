@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 79-year-old woman is evaluated for fatigue and bradycardia.ECG is shown.",
   "question_stem": "Which of the following abnormalities is seen on this patient's ECG?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This ECG demonstrates third-degree heart block (Option D), which is characterized electrocardiographically by dissociation between the P waves and the QRS complexes. The P waves discharge at their inherent rate but are not conducted to the ventricles. If the QRS complexes are narrow, the heart block is usually at the level of the His bundle. If the QRS complexes are wide, the heart block is lower (below the His bundle), and the rate will be between 30/min and 40/min.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.422210-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24636",
+        "file": "figures/cvfig24636.077a4ce22cb621613eb5497418f20c71.jpg",
+        "title": "ECG Showing Third-Degree Heart Block",
+        "short_title": "stem ECG Showing Third-Degree Heart Block",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 322
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.893334-06:00"
 }

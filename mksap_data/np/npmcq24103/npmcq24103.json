@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 46-year-old patient is evaluated in the emergency department for a 2-day history of confusion and multiple episodes of loose stools daily. They have Crohn disease and have undergone previous abdominal surgeries, including resection of portions of their small intestine. Medications are azathioprine, adalimumab, vitamin D, and ferrous sulfate.On physical examination, temperature is 37.2 °C (99.0 °F), blood pressure is 104/76 mm Hg, pulse rate is 98/min, and respiration rate is 20/min. Oxygen saturation is 96% with the patient breathing ambient air. Multiple abdominal surgical scars are noted. They have slurred speech and are confused.",
+  "question_text": "A 46-year-old patient is evaluated in the emergency department for a 2-day history of confusion and multiple episodes of loose stools daily. They have Crohn disease and have undergone previous abdominal surgeries, including resection of portions of their small intestine. Medications are azathioprine, adalimumab, vitamin D, and ferrous sulfate.On physical examination, temperature is 37.2 °C (99.0 °F), blood pressure is 104/76 mm Hg, pulse rate is 98/min, and respiration rate is 20/min. Oxygen saturation is 96% with the patient breathing ambient air. Multiple abdominal surgical scars are noted. They have slurred speech and are confused.Laboratory studies:Arterial blood gasespH7.28LPco230 mm Hg (4.0 kPa)LAlbumin3.0 g/dL (30 g/L)LBlood urea nitrogen28 mg/dL (10.0 mmol/L)HCreatinine0.9 mg/dL (79.6 µmol/L)ElectrolytesSodium138 mEq/L (138 mmol/L)Potassium3.6 mEq/L (3.6 mmol/L)Chloride106 mEq/L (106 mmol/L)Bicarbonate14 mEq/L (14 mmol/L)LGlucose104 mg/dL (5.8 mmol/L)HLactate1.4 mEq/L (1.4 mmol/L)Serum osmolality290 mOsm/kg H2O",
   "question_stem": "Which of the following tests is the most likely to establish the diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate diagnostic test to perform next is measurement of D-lactate level (Option B). This patient likely has short bowel syndrome secondary to their history of Crohn disease, with multiple previous abdominal surgeries; short bowel syndrome can precipitate D-lactate accumulation. An isomer of lactate, D-lactate is one of the causes of an elevated anion gap, as seen in this case. In addition to short bowel syndrome, D-lactate accumulation can be caused by infusion of propylene glycol, which is a common carrier for many intravenous medications and is metabolized to both L- and D-lactate, and diabetic ketoacidosis. Importantly, D-lactate is not detected by the same laboratory test as that used to measure L-lactate. Therefore, measurement of D-lactate needs to be specifically ordered to identify the presence of this anion. In patients with short bowel syndrome, overgrowth of gut bacteria can produce both D- and L-lactate and, combined with increased carbohydrate delivery to the colon, can produce large quantities of D-lactate, which is then absorbed by the colon. The metabolism of D-lactate in humans is slow, and toxic levels can accumulate. In addition to anion gap acidosis, patients with D-lactic acidosis frequently present with neurologic symptoms, including confusion, slurred speech, and ataxia, as in this patient. Limiting carbohydrate intake can be helpful in preventing this disorder for patients with short bowel syndrome. The use of antimicrobials may also be beneficial.Measuring β-hydroxybutyrate (Option A) is not indicated. This patient has a normal glucose level and no evidence of alcohol intake; therefore, neither diabetic ketoacidosis nor alcoholic ketoacidosis is plausible. Starvation can cause ketoacidosis but does not cause the degree of acidosis seen in this patient.Measuring volatile alcohols, including methanol (Option C) or ethylene glycol, is an important adjunctive diagnostic test in patients presenting with an anion gap acidosis who also have an elevated osmolal gap. The presence of a volatile alcohol will increase the serum osmolal gap. The serum osmolal gap is the difference between the measured and calculated osmolality, where the calculated plasma osmolality is as follows:(2 × Serum Sodium [mEq/L]) + Plasma Glucose (mg/dL)/18 + Blood Urea Nitrogen (mg/dL)/2.8 + Ethanol (mg/dL)/4.6This patient's calculated plasma osmolality is 292 mOsm/kg H2O, and the osmolal gap is 2. Thus, although this patient has an anion gap acidosis, they do not have an osmolal gap, so measuring methanol or ethylene glycol levels is not indicated.The urine anion gap (Option D) can be helpful in distinguishing the cause of a normal gap acidosis (e.g., renal tubular acidosis versus an extrarenal cause) because it is used as a surrogate to assess kidney acid excretion. However, it is not useful in diagnosing the cause of an anion gap acidosis, as seen in this patient.",
+  "critique_links": [],
   "key_points": [
     "D-lactic acidosis is a cause of anion gap acidosis and can occur in patients with short bowel syndrome when undigested carbohydrates in the colon are metabolized to D-lactate by bacteria.",
     "If D-lactic acidosis is suspected, measurement of D-lactate must be specifically ordered because routine lactic acid evaluation measures only the L-lactate isomer."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:18.757391-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.877545-06:00"
 }

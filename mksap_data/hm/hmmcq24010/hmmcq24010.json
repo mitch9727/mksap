@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 32-year-old woman is evaluated for fatigue. She is at 20 weeks' gestation and reports no previous prenatal or primary care. She is otherwise healthy and reports no previous pregnancies.On physical examination, vital signs and other findings are normal.Peripheral blood smear is shown.",
+  "question_text": "A 32-year-old woman is evaluated for fatigue. She is at 20 weeks' gestation and reports no previous prenatal or primary care. She is otherwise healthy and reports no previous pregnancies.On physical examination, vital signs and other findings are normal.Laboratory studies:Hemoglobin9.2 g/dL (92 g/L)LMean corpuscular volume102 fLHLeukocyte count7700/μL (7.7 × 109/L)Platelet count250,000/μL (250 × 109/L)Ferritin50 ng/mL (50 ug/L)Thyroid-stimulating hormone4.0 μU/mL (4.0 mU/L)Peripheral blood smear is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis in this pregnant patient with anemia is folate deficiency (Option B). Folate is found in a variety of fruits and vegetables and is a common component of most diets. Supplemental folate has also been added to grains in the United States for years. As a result, folate deficiency is uncommon but may still be seen in patients with food insecurity, malnutrition, or severe malabsorption. Folate deficiency may also occur in the setting of antiseizure medication use (especially phenytoin and carbamazepine) as these medications impair folate absorption and metabolism. Additionally, patients with disease states characterized by rapid cell turnover, such as pregnancy, hemolysis, or psoriasis, may experience folate deficiency because of increased requirements. As a result, all patients with these conditions should receive folate supplementation. The most common clinical manifestation of folate deficiency is megaloblastic anemia. The diagnosis is established by a low serum folate level. When folate deficiency is suspected despite a normal serum folate level, measurement of serum homocysteine is the most appropriate next step; an elevated serum homocysteine level is more than 90% sensitive and specific in diagnosing folate deficiency. Vitamin B12 deficiency causes an identical hematologic picture and must be excluded before starting folate supplementation. This pregnant patient has not received folate supplementation, and she has many findings consistent with folate deficiency, including a macrocytic anemia and hypersegmented neutrophils.Anemia of inflammation (Option A) usually shows a normochromic, normocytic anemia on the peripheral blood smear that may eventually progress to microcytosis. The characteristic iron study pattern shows an increased serum ferritin level, a low serum iron level, and a reduced serum total iron-binding capacity. This patient has a macrocytic anemia, a normal serum ferritin level, and no underlying inflammatory process, making anemia of inflammation an unlikely diagnosis.Gestational anemia (Option C) is a physiologic decrease in measured hemoglobin concentration because of an increase in plasma volume greater than the increase in erythrocyte mass. Although gestational anemia is common among pregnant patients, the hemoglobin level is usually greater than 10.5 g/dL (105 g/L), and macrocytosis and hypersegmented neutrophils are not seen.Iron deficiency (Option D) is also common in pregnancy because the increased iron demands of the developing placenta and fetus outweigh the absence of menstrual blood loss. Although this patient's serum ferritin level is borderline low, the macrocytosis and hypersegmented neutrophils are much more supportive of megaloblastic anemia as the primary process.",
+  "critique_links": [],
   "key_points": [
     "Although dietary folate deficiency is uncommon, the prevalence increases during pregnancy because of increased folate demands by the placenta and developing fetus.",
     "The hematologic features of folate deficiency include macrocytosis and dysplastic leukocyte maturation, with hypersegmented polymorphonuclear leukocytes seen on the peripheral blood smear."
@@ -60,5 +61,32 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:36:36.816596-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hmfig24203",
+        "file": "figures/hmfig24203.2d10eeb423f1f18e844c8ee0013c6a09.jpg",
+        "title": "Hypersegmented Neutrophil in Folate Deficiency",
+        "short_title": "hmmcqB24010 Hypersegmented Neutrophil",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 900
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.862623-06:00"
 }

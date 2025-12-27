@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 59-year-old woman is evaluated for a 2-day history of lower extremity weakness. She reports no diarrhea. History is significant for moderate alcohol use disorder and hypertension treated with amlodipine.On physical examination, vital signs are normal. On neurologic examination, lower extremity strength is 4/5.",
+  "question_text": "A 59-year-old woman is evaluated for a 2-day history of lower extremity weakness. She reports no diarrhea. History is significant for moderate alcohol use disorder and hypertension treated with amlodipine.On physical examination, vital signs are normal. On neurologic examination, lower extremity strength is 4/5.Laboratory studies:Albumin3.0 g/dL (30 g/L)LCalcium8.4 mg/dL (2.1 mmol/L)LCreatinine0.7 mg/dL (61.9 µmol/L) Electrolytes:Sodium136 mEq/L (136 mmol/L)Potassium2.1 mEq/L (2.1 mmol/L)LChloride104 mEq/L (104 mmol/L)Bicarbonate26 mEq/L (26 mmol/L)Magnesium1.4 mg/dL (0.58 mmol/L)LUrine potassium-creatinine ratio15 mEq/g (1.7 mEq/mmol)",
   "question_stem": "Which of the following is the most likely cause of this patient's hypokalemia?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely cause of this patient's hypokalemia is hypomagnesemia (Option C). Symptoms of hypokalemia include weakness or paralysis; decreased gastrointestinal motility or ileus with nausea; and cardiac arrhythmias. This patient has symptomatic hypokalemia, presenting with lower extremity weakness. Hypokalemia can be caused by renal losses or nonrenal losses. Assessment of urine potassium excretion is critical to establish renal potassium wasting. Urine potassium loss of 30 mEq/24 h (30 mmol/d) or higher, a spot urine potassium greater than 20 mEq/L (20 mmol/L), or a spot urine potassium-creatinine ratio greater than 13 mEq/g (1.5 mEq/mmol) suggests excessive urinary losses. Conversely, lower urine potassium loss suggests cellular shift, decreased intake, or extrarenal losses of potassium. This patient's spot urine potassium-creatinine ratio is inappropriately high, pointing toward renal potassium wasting. Renal losses of potassium can occur with tubular defects and renal tubular acidosis; renal excretion of non-reabsorbable anions such as bicarbonate, hippurate, and ketones; drugs such as diuretics, aminoglycosides, or cisplatin; Liddle, Gitelman, and Bartter syndromes; aldosterone excess; or hypomagnesemia. Hypomagnesemia is common, occurring in up to 12% of hospitalized patients. Chronic alcohol use, as seen in this patient, results in excessive urinary excretion of magnesium and appears to reflect reversible alcohol-induced tubular dysfunction. Intracellular magnesium modulates excretion of potassium through the potassium channel in the cortical collecting tubule. Hypomagnesemia results in loss of potassium through this channel. Importantly, the hypokalemia will be refractory to therapy until magnesium is repleted. Target levels for magnesium replacement are at least 2 mg/dL (0.83 mmol/L).Unlike calcium and magnesium, which have substantial binding to albumin, serum potassium levels are not affected by the serum albumin concentration (Option A).Low serum magnesium levels (due to alcohol use disorder or malnutrition) activate G-proteins that stimulate calcium-sensing receptors, decrease parathyroid hormone (PTH) secretion, and cause hypocalcemia. Low magnesium levels are also associated with resistance to PTH activity at the level of the bone, further contributing to hypocalcemia. Hypocalcemia and hypokalemia in this patient are a direct result of chronic magnesium loss due to the patient's alcohol use disorder. Hypocalcemia (Option B) has no significant effect on potassium concentration.Because the kidneys can reduce urine potassium excretion to lower than 20 mEq/24 h (20 mmol/d), hypokalemia from inadequate intake is uncommon. Urinary or gastrointestinal losses of potassium are most common. This patient's high urine potassium suggests urinary loss rather than poor nutrition (Option D) as the cause of hypokalemia.",
+  "critique_links": [],
   "key_points": [
     "Hypomagnesemia can cause symptomatic hypokalemia via renal losses of potassium; importantly, the hypokalemia will be refractory to therapy until magnesium is repleted."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.476624-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.955099-06:00"
 }

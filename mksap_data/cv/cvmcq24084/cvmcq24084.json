@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 73-year-old patient is evaluated for a 2-week history of increasing exertional dyspnea. Two years ago, the patient had a left ventricular assist device placed for ischemic cardiomyopathy. They have not had any recent pump alarms or any changes in their pump readings. Medications are valsartan-sacubitril, bisoprolol, furosemide, aspirin, and warfarin.On physical examination, mean arterial pressure is 88 mm Hg, pulse rate is 108/min, and oxygen saturation is 96% with the patient breathing room air. Weight is unchanged from 3 months ago. The jugular vein is distended just above the clavicle. The lungs are clear to auscultation. Heart sounds are inaudible, but there is a normal hum from the pump. The driveline exit site is without erythema. There is no edema.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate test is hemoglobin measurement (Option C). Common complications after left ventricular assist device (LVAD) placement include heart failure, gastrointestinal (GI) bleeding, driveline infections, arrhythmias, stroke, and hemolysis. GI bleeding after LVAD placement is often associated with arteriovenous malformations in the small bowel. This is most likely related to a combination of reduced pulsatility with the LVAD, anticoagulation, impaired function of von Willebrand factor and platelets, and endothelial dysfunction. Patients with LVAD-associated GI bleeding may present with overt bleeding, fatigue, or exertional dyspnea. Although this patient is at risk for a cardiac cause of dyspnea, they have no evidence of fluid overload, such as jugular venous distention, peripheral edema, or weight change. Hemoglobin assessment for GI bleeding is the best next test in this patient.B-type natriuretic peptide (BNP) testing (Option A) can help differentiate cardiac from pulmonary causes of dyspnea. This patient, however, is taking valsartan-sacubitril, and sacubitril inhibits neprilysin, which breaks down natriuretic peptides. Patients receiving valsartan-sacubitril should have N-terminal pro-BNP rather than BNP testing, because the N-terminal fragment is cleaved off early and would not be altered by the presence of a neprilysin inhibitor preventing degradation of BNP. In addition, this patient has no evidence of volume overload to suggest a cardiac cause of the dyspnea, and assessment of hemoglobin is the best initial test.Echocardiography (Option B) may be helpful in assessing pump function and possible pump thrombosis. Other findings that suggest pump thrombosis include the presence of hemolysis and decreasing pump function. Although echocardiography may be indicated if another cause of dyspnea is not found, assessment of possible anemia is the best first test in this patient.Lactate dehydrogenase (Option D), haptoglobin, and plasma free hemoglobin measurement can be used to assess for hemolysis in a patient with an LVAD. With newer pump designs, however, the incidence of pump-associated hemolysis is low. In addition, although patients with hemolysis may present with dyspnea, evaluation for hemolysis should be initiated only after the presence of anemia has been established.",
+  "critique_links": [],
   "key_points": [
     "Exertional dyspnea in patients with a left ventricular assist device and no signs of fluid overload should be evaluated by hemoglobin testing to look for gastrointestinal bleeding."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.646976-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:26.631179-06:00"
 }

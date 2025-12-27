@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 68-year-old man is evaluated because of abdominal pain, night sweats, and decreased appetite persisting for several weeks. He is unable to engage in strenuous activities but continues doing light housework and office tasks for his job. He does not use tobacco or report second-hand smoke exposure. He has no other medical problems and takes no medications.On physical examination, vital signs are normal. The patient appears well-nourished. The abdomen is moderately distended, and the liver edge is palpable 3 cm below the mid-costal line.Contrast-enhanced CT of the chest, abdomen, and pelvis is performed. Scans show numerous hypodense lesions in the liver and enlarged retroperitoneal lymph nodes. A core-needle biopsy specimen from a liver lesion shows poorly differentiated small cell neuroendocrine carcinoma.",
+  "question_text": "A 68-year-old man is evaluated because of abdominal pain, night sweats, and decreased appetite persisting for several weeks. He is unable to engage in strenuous activities but continues doing light housework and office tasks for his job. He does not use tobacco or report second-hand smoke exposure. He has no other medical problems and takes no medications.On physical examination, vital signs are normal. The patient appears well-nourished. The abdomen is moderately distended, and the liver edge is palpable 3 cm below the mid-costal line.Laboratory studies:Complete blood countNormalAlkaline phosphatase383 U/LHTotal bilirubin1.2 mg/dL (20.5 µmol/L)CreatinineNormalContrast-enhanced CT of the chest, abdomen, and pelvis is performed. Scans show numerous hypodense lesions in the liver and enlarged retroperitoneal lymph nodes. A core-needle biopsy specimen from a liver lesion shows poorly differentiated small cell neuroendocrine carcinoma.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient is chemotherapy with a platinum-containing small cell lung cancer (SCLC) regimen (Option C). Poorly differentiated neuroendocrine tumors (NETs) are frequently morphologically and immunohistochemically similar to SCLC. They also have similarities to SCLCs both in their pattern of metastatic spread and their high response rate to platinum-based chemotherapy, such as cisplatin plus etoposide or carboplatin plus etoposide. Although this patient has no sign of a primary lung tumor or the tobacco exposure that is typical of patients with SCLC, he has a tumor that is similar to SCLC and is likely to benefit from platinum-based chemotherapy.Supportive care and hospice referral (Option A) would not be appropriate for this patient. He is medically fit with a good performance status, continuing at his office job, and able to do light housework (Eastern Cooperative Oncology Group performance status is 1). He has no clear contraindication to chemotherapy and has a considerable chance of tolerating and benefiting from it.Chemotherapy with a gastrointestinal, 5-fluorouracil–based regimen (Option B) would be a consideration for an adenocarcinoma of unknown primary with this presentation of disease below the diaphragm. However, this patient's cancer is morphologically similar to SCLC rather than adenocarcinoma, and he should be treated with platinum-based chemotherapy.Hepatic artery embolization (Option D) can provide good control for liver metastases of well-differentiated NETs but would not be expected to be effective in poorly differentiated NETs, which grow quickly and have a strong tendency for multiorgan metastases.Stereotactic radiation to the liver (Option E) is not the most appropriate treatment for this patient. This therapy can be used on isolated liver metastases of relatively small volume but would not be practical in a patient with numerous liver metastases and extrahepatic disease.",
+  "critique_links": [],
   "key_points": [
     "Patients with poorly differentiated neuroendocrine cancer of unknown primary frequently respond to chemotherapy targeted at small cell lung cancer."
   ],
@@ -62,5 +63,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:27:23.217705-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.764478-06:00"
 }

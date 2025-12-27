@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 55-year-old patient is evaluated for 3 years of progressive left hip pain that has a boring character and is associated with activity. They also have mild pain in the bilateral first carpometacarpal (CMC) joints. There is no joint swelling, spinal symptoms, or history of trauma. The patient has obesity. Medical history is noncontributory.On physical examination, vital signs are normal. BMI is 30. Tenderness to palpation is noted over the mid-anterior left groin, just below the inguinal ligament, and left hip pain worsens with internal rotation. Tenderness and bony hypertrophy of the bilateral first CMC joints are noted. Joints are not warm or swollen. Neurologic examination is normal.Radiograph of the left hip is shown.Radiographs of the sacroiliac joints are normal. Radiographs of the hands show joint-space narrowing of the bilateral CMC joints without erosions.",
   "question_stem": "Which of the following is the most likely cause of this patient's hip pain?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Osteoarthritis (OA) (Option C) is the most likely cause of this patient's hip pain. Patients with OA are typically older than 50 years and describe an insidious onset of symptoms. OA may affect almost any joint but most commonly affects the small joints of the hands (distal interphalangeal, proximal interphalangeal, first carpometacarpal [CMC]) and feet (first metatarsophalangeal, midfoot) and the spine (cervical and lumbar regions), hips, and knees. Joint pain is typically worse with activity. Morning stiffness usually lasts less than 30 minutes. Joint-line tenderness, crepitus, decreased range of motion, bony enlargement without synovitis, and sometimes effusion (typically the knees) may be present. Hip involvement often manifests as anterior groin pain and decreased range of motion, especially with internal rotation. Radiographic features, when present, include asymmetric joint-space narrowing, subchondral sclerosis, osteophytes, and bone cysts. This patient has symptoms and findings consistent with OA, including pain in commonly affected joints, bony hypertrophy and tenderness, tenderness to palpation of the anterior groin, and pain on internal rotation of the hip. The patient also lacks signs or symptoms of inflammatory arthritis (e.g., swelling, warmth, redness). OA of the hip is confirmed by joint-space narrowing, sclerosis of the superior iliac margin, and secondary cyst formation on radiography.Ankylosing spondylitis (Option A) is a chronic inflammatory disease affecting the axial skeleton (including sacroiliac joints), entheses, and peripheral joints and typically begins before age 45 years. Ankylosing spondylitis is unlikely in this patient because they do not have inflammatory back pain, inflammatory hip or knee arthritis, or evidence of erosions on radiographs of the sacroiliac joints.Meralgia paresthetica (Option B) is characterized by tingling, numbness, and burning pain in the outer side of the thigh. It occurs when the lateral femoral cutaneous nerve is compressed. It may be associated with obesity, tight-fitting clothes, and diabetes mellitus. The patient has an elevated BMI but does not display meralgia paresthetica symptoms.Rheumatoid arthritis (RA) (Option D) is an inflammatory arthritis that typically involves the metacarpophalangeal joints, metatarsophalangeal joints, and proximal interphalangeal joints of the hands and feet; the knees and hips may also be affected. RA usually spares the first CMC joints, which are almost exclusively affected by OA. Additionally, RA-affected joints have signs of inflammation, which this patient lacks.",
+  "critique_links": [],
   "key_points": [
     "Hip osteoarthritis often manifests as anterior groin pain and decreased range of motion, especially internal rotation."
   ],
@@ -57,5 +58,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:46:56.411583-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "rmfig24210",
+        "file": "figures/rmfig24210.cb3152d9f05d8f47f222953d13ebf673.jpg",
+        "title": "Radiograph of Hip in a Patient with Osteoarthritis",
+        "short_title": "stem Radiograph of Hip in Osteoarthritis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 676
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.701316-06:00"
 }

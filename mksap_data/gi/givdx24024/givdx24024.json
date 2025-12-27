@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 33-year-old man is hospitalized for acute abdominal pain that radiates to his back, associated with nausea and vomiting. He appears severely ill. A contrast-enhanced CT is performed.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is necrotizing pancreatitis (Option C). On contrast-enhanced abdominal CT, pancreatic necrosis is recognized as areas without contrast enhancement, reflecting lack of blood flow to devitalized tissue. Thickening of fascial planes can also be seen, as can hyperdense areas secondary to hemorrhage in patients with hemorrhagic pancreatitis. This severe form of acute pancreatitis is associated with proteolytic destruction of the pancreatic parenchyma.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:31.125200-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "gifig24629",
+        "file": "figures/gifig24629.b8ad2802a09529fd2ab174996d3a74e6.jpg",
+        "title": "CT Scan Showing Necrotizing Pancreatitis",
+        "short_title": "CT Scan Showing Necrotizing Pancreatitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 544,
+        "height": 561
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.563146-06:00"
 }

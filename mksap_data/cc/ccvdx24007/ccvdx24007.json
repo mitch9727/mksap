@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 50-year-old man is evaluated in the hospital for persistent left lower lobe crackles and low-grade fever following a hemicolectomy.Chest radiographs are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "These chest radiographs reveal left lower lobe atelectasis (Option B). Radiographic changes of left lower lobe atelectasis on the frontal chest radiograph include an opacification behind the heart obscuring the left hemidiaphragm (arrowheads) and leftward displacement of the mediastinum. The loss of volume of the left lower lobe also results in the medial movement and radiographic appearance of the left interlobar fissure (arrows). On the lateral radiograph, a subtle increase in density is seen overlying the lumbar vertebrae inferiorly (arrow), as opposed to the normal increased lucency over the lower vertebrae.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,12 +51,52 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/ccfig24615.2bf4f947a43209226486696cb625d023.jpg",
       "figures/ccfig24613.8650287fd97b0840bf18d9d7045212b0.jpg",
-      "figures/ccfig24614.213ab726e078d47a205e0a3695930a2c.jpg"
+      "figures/ccfig24614.213ab726e078d47a205e0a3695930a2c.jpg",
+      "figures/ccfig24615.2bf4f947a43209226486696cb625d023.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:48.470368-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "ccfig24613",
+        "file": "figures/ccfig24613.8650287fd97b0840bf18d9d7045212b0.jpg",
+        "title": "Radiograph Showing Lower Lobe Atelectasis",
+        "short_title": "stem 1 Radiograph Showing Lower Lobe Atelectasis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 808
+      },
+      {
+        "figure_id": "ccfig24614",
+        "file": "figures/ccfig24614.213ab726e078d47a205e0a3695930a2c.jpg",
+        "title": "Radiograph Showing Lower Lobe Atelectasis",
+        "short_title": "stem 2 Radiograph Showing Lower Lobe Atelectasis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1092
+      },
+      {
+        "figure_id": "ccfig24615",
+        "file": "figures/ccfig24615.2bf4f947a43209226486696cb625d023.jpg",
+        "title": "Radiograph Showing Lower Lobe Atelectasis",
+        "short_title": "critique Radiograph Showing Lower Lobe Atelectasis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 435
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.501068-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 66-year-old woman is evaluated during a new-patient visit. She does not drink alcohol and quit smoking 15 years ago. She takes a brisk 15-minute walk two nights a week. She has no medical problems and takes no medications. Her mother had a heart attack at age 68 years, and her maternal grandmother had a stroke at age 72 years.On physical examination, blood pressure is 118/69 mm Hg. All other findings are unremarkable.",
+  "question_text": "A 66-year-old woman is evaluated during a new-patient visit. She does not drink alcohol and quit smoking 15 years ago. She takes a brisk 15-minute walk two nights a week. She has no medical problems and takes no medications. Her mother had a heart attack at age 68 years, and her maternal grandmother had a stroke at age 72 years.On physical examination, blood pressure is 118/69 mm Hg. All other findings are unremarkable.Laboratory studies:Total cholesterol142 mg/dL (3.68 mmol/L)LDL cholesterol86 mg/dL (2.23mmol/L)HDL cholesterol38 mg/dL (0.98 mmol/L)Triglycerides88 mg/dL (0.99 mmol/L)Hemoglobin A1c5.7%",
   "question_stem": "Which of the following is the most appropriate management for this patient's cardiovascular disease risk?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Calculation of 10-year risk for atherosclerotic cardiovascular disease (ASCVD) (Option B) is the most appropriate next step in managing this patient's risk for ASCVD. The U.S. Preventive Services Task Force (USPSTF) recommends universal lipid screening in adults aged 40 to 75 years to assess for dyslipidemia and to calculate the 10-year risk for ASCVD using the American Heart Association/American College of Cardiology Pooled Cohort Equations. This calculation should be completed even if the LDL and HDL cholesterol levels are normal or in a desirable range. In patients who have a high (≥20%) calculated risk for ASCVD events, statin therapy is indicated. Patients with diabetes or an LDL cholesterol level greater than 190 mg/dL (4.92 mmol/L) should also receive statin treatment. Statin therapy may also be considered in patients with borderline (5% to <7.5%) or intermediate (≥7.5% to <20%) risk, with individualized decision making based on the presence of other risk-enhancing factors. Although this patient has a favorable lipid panel, she should have her 10-year risk for ASCVD calculated.Ankle-brachial index testing (ABI) (Option A) is a key diagnostic step in evaluating patients for peripheral vascular disease and is indicated in those with symptoms that suggest peripheral artery disease. The USPSTF, however, found insufficient evidence to support adding the ABI to ASCVD risk assessment. If measured, ABI may be used as a risk-enhancing factor when considering statin therapy in patients with a borderline or intermediate level of risk.The USPSTF recommends against low-dose aspirin (Option C) for the primary prevention of ASCVD in patients aged 60 years and older. Preventive aspirin may be considered in patients aged 40 to 59 years with a 10% or greater 10-year risk for ASCVD, but the benefit is likely to be small. This patient is 66 years old and should not be placed on preventive aspirin.A repeat lipid panel in 3 years (Option D) would be a suboptimal approach because the patient's 10-year risk for ASCVD has not yet been calculated. In patients found to have a low risk for ASCVD, the best timing of repeat screening is unclear, although 3 to 5 years is probably a reasonable interval.",
+  "critique_links": [],
   "key_points": [
     "All adults aged 40 to 75 years should undergo lipid screening to calculate the 10-year risk for atherosclerotic cardiovascular disease; this calculation should be completed even if the LDL and HDL cholesterol levels are normal or in a desirable range."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:48:44.224611-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.469840-06:00"
 }

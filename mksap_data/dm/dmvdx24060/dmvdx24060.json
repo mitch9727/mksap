@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 62-year-old patient presents with redness, pain, and itching of the lower legs that began 1 week ago. The patient has a history of heart failure.Skin findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has stasis dermatitis (Option D). This common condition is a result of chronic lower extremity edema from any cause (e.g., heart failure, venous insufficiency, lymphedema). Increased tissue hydrostatic pressure causes capillary leak and release of inflammatory mediators. Patients present with bright red plaques that become scaly with chronicity and which may weep serous fluid or feature blisters. The eruption is often tender and pruritic. Other features supporting the diagnosis include pitting edema, hyperpigmentation, hemosiderin deposition, tapering sclerosis of the lower portion of the leg (an inverted \"champagne bottle\" appearance termed lipodermatosclerosis), and history of edema. The bilateral nature of most cases of stasis dermatitis make cellulitis unlikely. In the presence of unilateral stasis dermatitis, deep venous thrombosis must be ruled out. Treatment includes management of the underlying cause of edema, compression with graded compression stockings, elevation, and topical glucocorticoids.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24670.6a517d1afb02644f45e38769aef626ec.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.941283-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24670",
+        "file": "figures/dmfig24670.6a517d1afb02644f45e38769aef626ec.jpg",
+        "title": "Stasis Dermatitis",
+        "short_title": "stem Stasis Dermatitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1124
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.486608-06:00"
 }

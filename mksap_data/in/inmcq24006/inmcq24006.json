@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 46-year-old woman is evaluated for irregular menstrual periods. She reports that her periods became unpredictable 1 year ago; she sometimes misses one to two periods followed by heavy and prolonged periods. She has currently been bleeding for the past 10 days. She has no other personal or family history of bleeding disorders. She has obesity. She takes no medications.On physical examination, vital signs are normal. BMI is 32. Gynecologic examination shows normal external genitalia and a small amount of blood in the vaginal vault. Bimanual examination is normal.Results of complete blood count, serum thyroid-stimulating hormone level, and serum ferritin level are normal. Pregnancy test result is negative.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient should undergo endometrial biopsy (Option C) to rule out endometrial cancer. Abnormal uterine bleeding is defined as excessive bleeding in terms of flow volume, frequency, or duration; it can be classified as ovulatory or anovulatory (see Table: Classification of AUB in Nonpregnant Women of Reproductive Age). In anovulatory bleeding, the lack of cyclic progesterone can cause endometrial hyperplasia and an increased risk for endometrial cancer. The evaluation of abnormal uterine bleeding depends on patient age, menopausal status, and presence of risk factors for endometrial cancer. All postmenopausal women with abnormal uterine bleeding should be evaluated, usually with transvaginal ultrasonography with measurement of endometrial stripe and possible endometrial biopsy. Endometrial biopsy should be performed in premenopausal women aged 45 years or older and in those younger than 45 years who are at increased risk for endometrial cancer secondary to a history of unopposed estrogen (polycystic ovary syndrome, obesity); tamoxifen use; Lynch or Cowden syndrome; or reproductive factors, such as early menarche or nulliparity. This premenopausal patient has abnormal uterine bleeding. Her age and obesity increase her risk for endometrial cancer, and she should undergo endometrial biopsy.Cervical cancer screening (Obtain A) would not be the most appropriate management for this patient. It is appropriate when a patient is being checked for cervical cancer, often in conjunction with human papillomavirus testing, but does not have a role in the evaluation of abnormal uterine bleeding.Along with oral contraceptive pills containing estrogen and progesterone and the levonorgestrel intrauterine device, depot medroxyprogesterone (Option B) is a treatment option for patients with anovulatory bleeding who desire contraception. Medroxyprogesterone acetate during the second half of the menstrual cycle is an option in those who wish to preserve fertility. In either case, however, endometrial biopsy must be performed before treatment in patients (such as this one) who are older than age 45 years or have risk factors for endometrial cancer.Although transvaginal ultrasonography (Option D) with assessment of the endometrial stripe can help evaluate abnormal uterine bleeding in postmenopausal patients, the variability of the stripe in premenopausal patients limits its utility in these patients. Only an endometrial biopsy can definitively evaluate this patient for endometrial hyperplasia and endometrial cancer. Ultrasonography can also be helpful when structural abnormalities, such as fibroids, are suspected. Structural abnormalities, however, usually present with ovulatory bleeding and an abnormal examination, neither of which is present in this patient.",
+  "critique_links": [],
   "key_points": [
     "Premenopausal women aged 45 years or older with abnormal uterine bleeding should undergo endometrial biopsy.",
     "Patients with abnormal uterine bleeding who are younger than age 45 years with increased risk for endometrial cancer secondary to a history of unopposed estrogen (polycystic ovary syndrome, obesity); tamoxifen use; Lynch or Cowden syndrome; or reproductive factors, such as early menarche or nulliparity, should undergo endometrial biopsy."
@@ -52,11 +53,30 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/intab24025.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:28:36.588994-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "intab24025",
+        "file": "tables/intab24025.html",
+        "title": "Classification of Abnormal Uterine Bleeding in Nonpregnant Women of Reproductive Age",
+        "short_title": "Classification of AUB in Nonpregnant Women of Reproductive Age",
+        "footnotes": [],
+        "headers": [
+          "Type",
+          "Description",
+          "Associated Causes"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.911870-06:00"
 }

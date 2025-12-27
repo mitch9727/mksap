@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 79-year-old woman is evaluated during a follow-up visit 3 months after undergoing catheter ablation for paroxysmal atrial fibrillation. She has no symptoms. She has hypertension, dyslipidemia, and diabetes mellitus. Medications are apixaban, lisinopril, atorvastatin, and metformin.Physical examination findings, including vital signs, are normal.Routine laboratory studies are normal.ECG shows sinus rhythm. Previous echocardiogram showed mild left atrial enlargement with normal left ventricular function (ejection fraction of 55%) and no significant valvular disease.",
   "question_stem": "Which of the following is the most appropriate management of this patient's risk for stroke?",
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate preventive measure is for the patient to continue her current regimen, including apixaban (Option D). The decision to use oral anticoagulation for stroke prevention in atrial fibrillation depends on the patient's thromboembolic risk balanced by the risk for bleeding. The CHA2DS2-VASc score is used to risk stratify patients with nonvalvular atrial fibrillation and determine the appropriateness of oral anticoagulation (see ). Guidelines vary regarding the threshold for initiation of oral anticoagulation. The American College of Cardiology/American Heart Association/Heart Rhythm Society recommend anticoagulation for a score of 2 or greater in men or 3 or greater in women; however, greater leeway is now acknowledged to include other factors in the decision (e.g., chronic kidney disease, arrhythmia burden). The American College of Chest Physicians recommends anticoagulation with one or more non-sex stroke risk factors (i.e., a score of ≥1 in men or ≥2 in women). Catheter ablation of atrial fibrillation, although effective in maintaining sinus rhythm and reducing symptoms, has not been definitively shown to obviate the need for anticoagulation when otherwise indicated. This patient has a CHA2DS2-VASc score of 5, suggesting a high risk for stroke and a continued need for anticoagulation with apixaban.Adding aspirin to oral anticoagulation (Option A) significantly increases the risk for bleeding. Patients with strong indications for antiplatelet therapy, such as recent cardiovascular or cerebrovascular events or the presence of a coronary stent, should receive antiplatelet therapy; otherwise, the combination of antiplatelet therapy and oral anticoagulation is avoided. This patient has no indication for the addition of aspirin.This patient has a high risk for stroke, with a CHA2DS2-VASc score of 5: 2 points for age 75 years and older and 1 point each for female sex, hypertension, and diabetes. Catheter ablation does not decrease her risk for stroke, and discontinuing apixaban (Option B) at this time would be inappropriate.Left atrial appendage occlusion (LAAO) (Option C) may be considered to prevent stroke in patients with at least a moderate risk for stroke (CHA2DS2-VASc score ≥3) if anticoagulation is not feasible. This patient does not have bleeding or other contraindications to oral anticoagulation, and LAAO is not appropriate at this time.",
+  "critique": "The most appropriate preventive measure is for the patient to continue her current regimen, including apixaban (Option D). The decision to use oral anticoagulation for stroke prevention in atrial fibrillation depends on the patient's thromboembolic risk balanced by the risk for bleeding. The CHA2DS2-VASc score is used to risk stratify patients with nonvalvular atrial fibrillation and determine the appropriateness of oral anticoagulation (see Table: Recommendations for Nonvalvular Atrial Fibrillation and Flutter). Guidelines vary regarding the threshold for initiation of oral anticoagulation. The American College of Cardiology/American Heart Association/Heart Rhythm Society recommend anticoagulation for a score of 2 or greater in men or 3 or greater in women; however, greater leeway is now acknowledged to include other factors in the decision (e.g., chronic kidney disease, arrhythmia burden). The American College of Chest Physicians recommends anticoagulation with one or more non-sex stroke risk factors (i.e., a score of ≥1 in men or ≥2 in women). Catheter ablation of atrial fibrillation, although effective in maintaining sinus rhythm and reducing symptoms, has not been definitively shown to obviate the need for anticoagulation when otherwise indicated. This patient has a CHA2DS2-VASc score of 5, suggesting a high risk for stroke and a continued need for anticoagulation with apixaban.Adding aspirin to oral anticoagulation (Option A) significantly increases the risk for bleeding. Patients with strong indications for antiplatelet therapy, such as recent cardiovascular or cerebrovascular events or the presence of a coronary stent, should receive antiplatelet therapy; otherwise, the combination of antiplatelet therapy and oral anticoagulation is avoided. This patient has no indication for the addition of aspirin.This patient has a high risk for stroke, with a CHA2DS2-VASc score of 5: 2 points for age 75 years and older and 1 point each for female sex, hypertension, and diabetes. Catheter ablation does not decrease her risk for stroke, and discontinuing apixaban (Option B) at this time would be inappropriate.Left atrial appendage occlusion (LAAO) (Option C) may be considered to prevent stroke in patients with at least a moderate risk for stroke (CHA2DS2-VASc score ≥3) if anticoagulation is not feasible. This patient does not have bleeding or other contraindications to oral anticoagulation, and LAAO is not appropriate at this time.",
+  "critique_links": [],
   "key_points": [
     "Although catheter ablation in atrial fibrillation reduces symptoms, it has not been definitively demonstrated to decrease stroke risk, particularly among patients with high baseline risk.",
     "Left atrial appendage occlusion may be considered to prevent stroke in patients with at least a moderate risk for stroke (CHA2DS2-VASc score ≥3) if anticoagulation is not feasible."
@@ -52,11 +53,37 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/cvtab24028.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:49:31.869879-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "cvtab24028",
+        "file": "tables/cvtab24028.html",
+        "title": "CHA<sub>2</sub>DS<sub>2</sub>-VASc Score, Adjusted Stroke Rates, and Stroke Prevention Therapy Recommendations for Nonvalvular Atrial Fibrillation and Flutter",
+        "short_title": "Recommendations for Nonvalvular Atrial Fibrillation and Flutter",
+        "footnotes": [
+          "N/A = not applicable; OAC = oral anticoagulation.",
+          "<sup>a</sup>CHA<sub>2</sub>DS<sub>2</sub>-VASc scoring (maximum 9 points): One point each is given for heart failure, hypertension, diabetes mellitus, vascular disease (prior myocardial infarction, peripheral artery disease, aortic plaque), female sex, and age 65 to 74 years. Two points each are given for previous stroke/transient ischemic attack/thromboembolic disease and age ≥75 years.",
+          "<sup>b</sup>Data from Friberg L, Rosenqvist M, Lip GY. Evaluation of risk stratification schemes for ischaemic stroke and bleeding in 182 678 patients with atrial fibrillation: the Swedish Atrial Fibrillation cohort study. Eur Heart J. 2012;33:1500-10. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/22246443\" target=\"_blank\">PMID: 22246443</a> doi:10.1093/eurheartj/ehr488",
+          "<sup>c</sup>Recommendations from Joglar JA, Chung MK, Armbruster AL, et al. 2023 ACC/AHA/ACCP/HRS guideline for the diagnosis and management of atrial fibrillation: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2024;149:e1-e156. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/38033089\" target=\"_blank\">PMID: 38033089</a> doi:10.1161/CIR.0000000000001193"
+        ],
+        "headers": [
+          "CHA2DS2-VASc Scorea",
+          "Incidence of Ischemic Stroke/100 Patient-Yearsb",
+          "Stroke Prevention Therapyc",
+          "Men",
+          "Women"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.712186-06:00"
 }

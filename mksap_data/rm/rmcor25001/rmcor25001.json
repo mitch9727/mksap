@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 40-year-old woman is evaluated for a 6-month history of bilateral hand and wrist pain and swelling. She also has morning stiffness of the bilateral hands and wrists lasting for 1 hour each day. She has no other medical problems and takes no medications.On physical examination, vital signs are normal. There is tissue swelling, warmth, and tenderness of the second through fourth metacarpophalangeal joints and wrists bilaterally. Range of motion of these joints is normal but painful.",
   "question_stem": "Measurement of which of the following will be most helpful in establishing the diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Measurement of anti–cyclic citrullinated peptide (CCP) antibodies and rheumatoid factor (RF) (Option A) will be most helpful in establishing the diagnosis in this patient with clinical features of rheumatoid arthritis (RA). Typical clinical manifestations of RA include pain, swelling, and prolonged morning stiffness in a symmetric pattern, particularly in the joints of the hands and feet. Anti-CCP antibodies are closely associated with the pathogenesis of RA and are highly specific (95%) for the condition. In addition, anti-CCP antibodies may be positive in patients with RA who are negative for RF. RF is less specific for RA, is present in only about 70% of patients with RA, and may be seen in other diseases (e.g., hepatitis C virus infection, endocarditis, systemic lupus erythematosus). However, a few patients, particularly early in the course of the disease, may be negative for anti-CCP antibodies but positive for RF; therefore, both anti-CCP antibodies and RF, rather than either alone, should be measured to increase the diagnostic specificity and sensitivity of testing. When test results are positive for both anti-CCP antibodies and RF, their specificity is further increased. Both antibodies are included in the classification criteria for RA (see Table: Classification Criteria for Rheumatoid Arthritis). This patient's persistent polyarticular, inflammatory arthritis is highly suggestive of RA, and measurement of both antibodies is most likely to support the diagnosis.Erythrocyte sedimentation rate and C-reactive protein level (Option B) are nonspecific inflammatory markers, which may be elevated in RA. However, they are not diagnostic for this condition.Two-tiered testing for Lyme disease with enzyme-linked immunosorbent assay (ELISA) and IgG Western blot (Option C) is appropriate when late-disseminated Lyme disease is suspected. Lyme arthritis is typically monoarticular, migratory, and most commonly involves the knee. Serologic test results for Lyme disease may be positive, even in the absence of active Lyme infection. This patient's pattern of joint inflammation is not characteristic of Lyme arthritis, so ELISA and Western blot testing are inappropriate.Measurement of serum C3 and C4 complement levels (Option D) would not be the most helpful option for establishing this patient's diagnosis. Complement components, such as C3 and C4, are acute phase reactants that are synthesized in the liver. Complement cascades are activated in response to diseases that lead to immune complex formation (e.g., systemic lupus erythematosus, cryoglobulinemic and urticarial vasculitis) and other states, such as infections (e.g., bacterial endocarditis, sepsis, viremia) and glomerulonephritis. This leads to complement consumption and decreased C3 and C4 levels. By contrast, C3 and C4 levels may be elevated in RA and many other inflammatory conditions. This finding, however, is nonspecific and will not be helpful in establishing the diagnosis of RA.",
+  "critique_links": [],
   "key_points": [
     "The presence of both anti–cyclic citrullinated peptide antibodies and rheumatoid factor increases the diagnostic likelihood of rheumatoid arthritis."
   ],
@@ -50,10 +51,40 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/rmtab24015.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:54:42.287052-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "rmtab24015",
+        "file": "tables/rmtab24015.html",
+        "title": "2010 ACR/EULAR Classification Criteria for Rheumatoid Arthritis",
+        "short_title": "Classification Criteria for Rheumatoid Arthritis",
+        "footnotes": [
+          "ACR = American College of Rheumatology; CCP = cyclic citrullinated peptide; CRP = C-reactive protein; ESR = erythrocyte sedimentation rate; EULAR = European League Against Rheumatism (now known as the European Alliance of Associations for Rheumatology); MCP = metacarpophalangeal; MTP = metatarsophalangeal; PIP = proximal interphalangeal; RF = rheumatoid factor.",
+          "<sup>a</sup>Six points needed for classification as rheumatoid arthritis.",
+          "<sup>b</sup>At least one joint with definite clinical synovitis that is not better explained by another disease. Joints excluded from this classification schema: first carpometacarpal, distal interphalangeal, and first metatarsophalangeal.",
+          "<sup>c</sup>A duration of ≥6 weeks is less often seen with crystalline or viral causes.",
+          "From Aletaha D, Neogi T, Silman AJ, et al. 2010 Rheumatoid arthritis classification criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative. Arthritis Rheum. 2010 Sep;62(9):2569-81. doi:10.1002/art.27584. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20872595\" target=\"_blank\">PMID: 20872595</a> Copyright 2010, American College of Rheumatology. Adapted with permission from John Wiley &amp; Sons, Inc."
+        ],
+        "headers": [
+          "Criteria",
+          "Scorea",
+          "Joint Involvementb",
+          "Serology",
+          "Acute Phase Reactants",
+          "Durationc"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.549616-06:00"
 }

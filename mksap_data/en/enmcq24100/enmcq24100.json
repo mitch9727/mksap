@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 30-year-old woman is evaluated for ongoing management of polycystic ovary syndrome, which was diagnosed 6 months ago. At that time, a combined oral contraceptive was started, and lifestyle modifications were advised. She now has monthly withdrawal vaginal bleeding and has lost 9.1 kg (20.0 lb) with diet and exercise. However, she is bothered by persistent facial and body hair. She has obesity, and she takes no other medications.On physical examination, vital signs are normal. BMI is 32. She has dark, coarse terminal hair growth on the face, back, chest, and abdomen. No male pattern baldness, voice deepening, clitoromegaly, or severe acne are present.",
+  "question_text": "A 30-year-old woman is evaluated for ongoing management of polycystic ovary syndrome, which was diagnosed 6 months ago. At that time, a combined oral contraceptive was started, and lifestyle modifications were advised. She now has monthly withdrawal vaginal bleeding and has lost 9.1 kg (20.0 lb) with diet and exercise. However, she is bothered by persistent facial and body hair. She has obesity, and she takes no other medications.On physical examination, vital signs are normal. BMI is 32. She has dark, coarse terminal hair growth on the face, back, chest, and abdomen. No male pattern baldness, voice deepening, clitoromegaly, or severe acne are present.Laboratory studies:Hemoglobin A1c5.6%H",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step is to add spironolactone (Option B). Polycystic ovary syndrome (PCOS) is a disorder characterized by hyperandrogenism and ovulatory dysfunction. In PCOS, weight loss is a first-line intervention in patients with a BMI of 25 or greater because sustained weight loss of 5% to 10% improves androgen levels and menstrual function. Combined (estrogen-progestin) oral contraceptive agents are first-line pharmacologic therapy for hirsutism and menstrual dysfunction unless fertility is desired. An antiandrogen agent is added after 6 months if cosmesis is suboptimal with oral contraceptive agents. This patient with PCOS has evidence of ongoing hirsutism (i.e., dark, coarse terminal hair growth) despite 6 months of oral contraceptive therapy. The next step in treatment is to add an antiandrogen agent. Spironolactone is the most commonly used antiandrogen agent and is generally safe and well tolerated. Potential adverse effects include hyperkalemia (rare in patients with normal kidney function), gastrointestinal discomfort, and irregular menstrual bleeding. In women prescribed spironolactone, concomitant contraception is mandatory because of teratogenesis in male fetuses; therefore, stopping oral contraceptive therapy and starting spironolactone is inappropriate (Option E).In patients with PCOS, metformin (Option A) reduces hyperinsulinemia and androgen levels but has minimal effect on hirsutism and ovulation. This patient has a normal hemoglobin A1c level and is most bothered by hirsutism; therefore, metformin would not be the most appropriate next step.Rapid onset of hirsutism or virilization (voice deepening, clitoromegaly, male pattern baldness, severe acne) occurs only in severe hyperandrogenism and raises concern for ovarian hyperthecosis or an androgen-producing ovarian or adrenal tumor. This patient does not have features of virilization or rapid-onset hirsutism. Because an adrenal or ovarian tumor is unlikely, neither an adrenal CT (Option C) nor pelvic ultrasonography (Option D) is indicated.",
+  "critique_links": [],
   "key_points": [
     "In women with polycystic ovary syndrome (PCOS) and hirsutism, an antiandrogen agent such as spironolactone should be added after 6 months if cosmesis is suboptimal with oral contraceptive agents alone.",
     "Antiandrogen agents may adversely affect development of the male fetus and therefore should not be used in PCOS treatment without concomitant contraception."
@@ -63,5 +64,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T23:00:10.319555-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.339933-06:00"
 }

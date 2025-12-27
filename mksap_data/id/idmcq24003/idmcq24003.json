@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 33-year-old patient is evaluated on hospital day 6 for persistent fever. On hospital day 2, cefazolin was initiated after four sets of admission blood cultures returned positive for methicillin-sensitive Staphylococcus aureus (MSSA). The patient reports use of intravenous heroin, which they last injected 10 days ago.On physical examination, temperature is 39.3 °C (102.7 °F); other vital signs are normal. No skin lesions are present. No spinal tenderness is noted.Repeat blood cultures drawn on hospital days 3 and 5 remain positive for MSSA.A transthoracic echocardiogram is negative for valvular abnormality.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -43,7 +43,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "Transesophageal echocardiography (TEE) is the most appropriate management in this patient who has sustained, high-grade Staphylococcus aureus bacteremia despite optimal antibiotic therapy (Option C). The most likely explanation for the continued bacteremia is endocarditis, which should always be suspected in community-acquired S. aureus bacteremia. Initial evaluation with transthoracic echocardiography (TTE) is reasonable to avoid an invasive study; however, in patients with a VIRSTA score of 3 or greater (see ), TEE is appropriate when TTE is negative. Because of the duration of this patient's bacteremia, TEE is indicated to confirm the diagnosis of endocarditis and to exclude an indication for surgery, such as a myocardial or valve ring abscess.Combination therapy with cefazolin, gentamicin, and rifampin is standard treatment for methicillin-sensitive S. aureus (MSSA) prosthetic valve endocarditis (Option A). However, the addition of aminoglycosides in the treatment of native valve S. aureus endocarditis does not improve outcomes and is associated with an increased risk for kidney dysfunction, so synergistic gentamicin is not recommended.PET scan has a role in identifying occult sites of infection in patients with prolonged fever or bacteremia (Option B). In this patient, the most likely explanation of sustained MSSA bacteremia is endocarditis not detected by TTE. PET scan can be considered as an alternative imaging modality for prosthetic valve endocarditis but is only recommended for patients who are not a candidate for TEE.Daptomycin and ceftaroline are frequently used as salvage therapy for prolonged methicillin-resistant S. aureus bacteremia; this regimen is not indicated for MSSA bacteremia (Option D). For patients with prolonged S. aureus bacteremia despite optimal therapy, the effectiveness of the antibiotic agent is not typically the culprit. Therefore, further evaluation to identify a source of ongoing infection is indicated.Cefazolin or a penicillinase-resistant semisynthetic penicillin, such as nafcillin or oxacillin, are recommended first-line therapy for MSSA bacteremia and native valve endocarditis. Vancomycin is an inferior choice for MSSA bacteremia because of higher rates of relapse and treatment failure compared with β-lactam agents (Option E) and should only be used when the patient has a history of a serious drug allergy to first-line agents for MSSA infection.",
+  "critique": "Transesophageal echocardiography (TEE) is the most appropriate management in this patient who has sustained, high-grade Staphylococcus aureus bacteremia despite optimal antibiotic therapy (Option C). The most likely explanation for the continued bacteremia is endocarditis, which should always be suspected in community-acquired S. aureus bacteremia. Initial evaluation with transthoracic echocardiography (TTE) is reasonable to avoid an invasive study; however, in patients with a VIRSTA score of 3 or greater (see Table: Prognostic Scores for Endocarditis Risk Assessment), TEE is appropriate when TTE is negative. Because of the duration of this patient's bacteremia, TEE is indicated to confirm the diagnosis of endocarditis and to exclude an indication for surgery, such as a myocardial or valve ring abscess.Combination therapy with cefazolin, gentamicin, and rifampin is standard treatment for methicillin-sensitive S. aureus (MSSA) prosthetic valve endocarditis (Option A). However, the addition of aminoglycosides in the treatment of native valve S. aureus endocarditis does not improve outcomes and is associated with an increased risk for kidney dysfunction, so synergistic gentamicin is not recommended.PET scan has a role in identifying occult sites of infection in patients with prolonged fever or bacteremia (Option B). In this patient, the most likely explanation of sustained MSSA bacteremia is endocarditis not detected by TTE. PET scan can be considered as an alternative imaging modality for prosthetic valve endocarditis but is only recommended for patients who are not a candidate for TEE.Daptomycin and ceftaroline are frequently used as salvage therapy for prolonged methicillin-resistant S. aureus bacteremia; this regimen is not indicated for MSSA bacteremia (Option D). For patients with prolonged S. aureus bacteremia despite optimal therapy, the effectiveness of the antibiotic agent is not typically the culprit. Therefore, further evaluation to identify a source of ongoing infection is indicated.Cefazolin or a penicillinase-resistant semisynthetic penicillin, such as nafcillin or oxacillin, are recommended first-line therapy for MSSA bacteremia and native valve endocarditis. Vancomycin is an inferior choice for MSSA bacteremia because of higher rates of relapse and treatment failure compared with β-lactam agents (Option E) and should only be used when the patient has a history of a serious drug allergy to first-line agents for MSSA infection.",
+  "critique_links": [],
   "key_points": [
     "In patients with prolonged Staphylococcus aureus bacteremia and a high likelihood of endocarditis, transesophageal echocardiography is necessary to confirm the diagnosis in those with a negative transthoracic echocardiography."
   ],
@@ -56,11 +57,33 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/idtab24014.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:46:35.076625-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "idtab24014",
+        "file": "tables/idtab24014.html",
+        "title": "Prognostic Scores for Risk Assessment of Endocarditis in Patients with <i>Staphylococcus aureus</i> or Enterococcal Bacteremia",
+        "short_title": "Prognostic Scores for Endocarditis Risk Assessment",
+        "footnotes": [
+          "<sup>a</sup>Patients with a score of 2 or less have low risk of endocarditis, and transesophageal echocardiography is unlikely to change management.",
+          "Data from Tubiana S, Duval X, Alla F, et al; VIRSTA/AEPEI Study Group. The VIRSTA score, a prediction score to estimate risk of infective endocarditis and determine priority for echocardiography in patients with Staphylococcus aureus bacteremia. J Infect. 2016;72:544-53. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/26916042\" target=\"_blank\">PMID: 26916042</a> doi:10.1016/j.jinf.2016.02.003; and Berge A, Krantz A, Östlund H, et al. The DENOVA score efficiently identifies patients with monomicrobial Enterococcus faecalis bacteremia where echocardiography is not necessary. Infection. 2019;47:45-50. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/30178077\" target=\"_blank\">PMID: 30178077</a> doi:10.1007/s15010-018-1208-3"
+        ],
+        "headers": [
+          "Variable",
+          "VIRSTA Score Pointsa: for Patients with Staphylococcus aureus Bacteremia",
+          "DENOVA Score Pointsa: for Patients with Enterococcal Bacteremia"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.270608-06:00"
 }

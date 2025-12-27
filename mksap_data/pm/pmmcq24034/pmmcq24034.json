@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old woman is evaluated for a 6-month history of cough. The cough has not been productive of sputum or blood, but she has noted wheezing and mild exertional dyspnea when ascending stairs. She reports no chest discomfort, palpitations, weight loss, leg edema, or fatigue. She has no other medical history and takes no medications. She has never smoked.Physical examination findings, including vital signs, are normal. The patient is in no distress but coughs intermittently. Lung auscultation reveals wheezing limited to the sternal area.Expiratory flow-volume loop is shown. All other spirometry findings are normal.Chest radiograph is normal.",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate test to perform next in this patient with flattening of the expiratory flow curve suggestive of intrathoracic airway obstruction is chest CT (Option A). Although asthma and COPD are common causes of wheezing, any process that causes airway obstruction may cause wheezing. Variable extrathoracic airway obstruction may be caused by tracheomalacia, tumors, and vocal fold paralysis, whereas causes of variable intrathoracic airway obstruction include intrathoracic tumors and tracheomalacia. Fixed obstruction usually results from tracheal stenosis or tumor. Flow-volume loops can help localize anatomic sites of airway obstruction. A flattened expiratory flow limb suggests an intrathoracic obstruction, whereas a flattened inspiratory flow limb suggests an extrathoracic obstruction. Fixed obstruction results in flattening of both flow limbs. In addition to obtaining flow-volume loops, any patient with a focal wheeze should undergo chest CT to rule out an endobronchial lesion. This patient has focal wheezing and a flattened expiratory flow limb, suggesting an intrathoracic airway obstruction. Chest CT is the most appropriate next test.Fractional exhaled nitric oxide (Option B) testing relies on the principle that nitric oxide is produced in increased amounts in patients with airway inflammation. It is used in the assessment of the degree of airway inflammation in asthma and for the diagnosis of nonasthmatic eosinophilic bronchitis. Given that this patient's presentation, especially the flattened expiratory flow limb and focal wheezing on examination, is not consistent with asthma or nonasthmatic eosinophilic bronchitis, fractional exhaled nitric oxide testing is not indicated.Laryngoscopy (Option C) is the test of choice if there is a concern for inducible laryngeal obstruction (ILO), previously known as vocal cord dysfunction. ILO is an asthma mimicker and should be considered in patients who do not respond to asthma treatment. Patients with ILO, however, have a variable extrathoracic airway obstruction that results in a flattening of the inspiratory flow limb rather than expiratory flow limb. This patient has flattening of the expiratory flow limb, suggesting an intrathoracic airway obstruction and not ILO. Laryngoscopy is not indicated in this patient.This patient has focal wheezing on examination and flattening of the expiratory flow loop, both of which suggest an intrathoracic airway obstruction. Therefore, performing no further testing (Option D) in this patient would not be appropriate.",
+  "critique_links": [],
   "key_points": [
     "Flow-volume loops can localize anatomic sites of airway obstruction; a flattened expiratory flow limb suggests an intrathoracic obstruction, whereas a flattened inspiratory flow limb suggests an extrathoracic obstruction.",
     "Chest CT is the most appropriate test to confirm an intrathoracic airway obstruction because it allows visualization of the airways."
@@ -58,5 +59,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.021707-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24207",
+        "file": "figures/pmfig24207.a1054c9634e3f56d1008ad99780310d1.jpg",
+        "title": "Expiratory Flow-Volume Loop",
+        "short_title": "stem Expiratory Flow-Volume Loop",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1122
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.092172-06:00"
 }

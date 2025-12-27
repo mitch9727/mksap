@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 73-year-old woman is evaluated for diminished vision in her right eye. She also describes a 2-month history of fatigue and bitemporal headaches.Funduscopic findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is optic disc atrophy (Option C), which is characterized by pallor and flatness of the optic disc. Optic disc atrophy results from damage to the nerve fiber layer of the retina, optic nerve, optic chiasm, or optic tracts. With progressive loss of neurons, the optic disc becomes pale; with extensive damage, the optic disc becomes white. A normal-appearing optic disc is pink in color, as shown. In younger patients, the most common cause of optic nerve atrophy is optic neuritis; in older patients, ischemic optic neuropathy is the most common cause. This older patient with a history compatible with giant cell arteritis most likely has ischemic optic atrophy.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/infig24602.35fc87945c17569547d7c8333e4b82b5.jpg",
-      "figures/infig24601.eb6ab1582a4281837ec26b46778645ae.jpg"
+      "figures/infig24601.eb6ab1582a4281837ec26b46778645ae.jpg",
+      "figures/infig24602.35fc87945c17569547d7c8333e4b82b5.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:28:36.780029-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "infig24601",
+        "file": "figures/infig24601.eb6ab1582a4281837ec26b46778645ae.jpg",
+        "title": "Stem Funduscopic Image Showing Findings of Optic Disc Atrophy",
+        "short_title": "Optic Disc Atrophy Stem",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 643
+      },
+      {
+        "figure_id": "infig24602",
+        "file": "figures/infig24602.35fc87945c17569547d7c8333e4b82b5.jpg",
+        "title": "Critique Funduscopic Image Showing Normal-Appearing Optic Disc",
+        "short_title": "Normal Optic Disc Critique",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 853,
+        "height": 855
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.100635-06:00"
 }

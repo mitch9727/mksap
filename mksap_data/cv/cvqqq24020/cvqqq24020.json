@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "An 88-year-old man is evaluated for an 8-month history of exertional chest tightness and dyspnea. Medical history is significant for hypertension, chronic kidney disease, and a transient ischemic attack that occurred 4 years ago. Medications are atorvastatin, lisinopril, and low-dose aspirin.On physical examination, vital signs are normal. A grade 3/6 late-peaking systolic murmur at the cardiac base radiates to the carotid arteries. The remainder of the examination is normal.Echocardiogram demonstrates severe aortic stenosis.Cardiac surgery assessment estimates the surgical risk to be high (estimated mortality risk, 10%; estimated major morbidity plus mortality risk, 28%).",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -39,6 +39,15 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in treatment is transcatheter aortic valve implantation (TAVI) (Option D). TAVI is indicated for symptomatic patients with aortic stenosis and intermediate or high surgical risk, as determined through comprehensive multidisciplinary assessment. Online tools, which are derived and regularly updated from national surgical databases, are available to assist with estimating surgical risk (for example, the Society of Thoracic Surgeons Adult Cardiac Surgery Risk Calculator [https://acsdriskcalc.research.sts.org/]). Frailty as well as some other important patient and procedural characteristics are not part of the online assessment tools. Therefore, a comprehensive, holistic approach is required for determining patient surgical risk and candidacy for the various procedures to treat aortic stenosis. Frailty can be assessed with an examination of the patient's activities of daily living, independence in ambulation (for example, 6-minute walk distance), and various other geriatric tools.Balloon aortic valvuloplasty (Option A) may be considered as a bridge to transcatheter or surgical aortic valve replacement, but it does not improve the long-term prognosis of patients with aortic stenosis.Medical therapy (Option B) is not effective in slowing disease progression in patients with aortic stenosis. Medical therapy would be pursued only if this patient declined aortic valve replacement or had comorbid conditions that would preclude benefit from such surgery, such as a reduced life expectancy unrelated to valvular disease.Surgical aortic valve replacement (Option C) is not appropriate for this patient because his surgical risk was estimated to be high.",
+  "critique_links": [
+    {
+      "href": "https://acsdriskcalc.research.sts.org/",
+      "text": "https://acsdriskcalc.research.sts.org/",
+      "target": "_blank",
+      "title": null,
+      "rel": null
+    }
+  ],
   "key_points": [
     "Transcatheter aortic valve implantation is comparable to surgical intervention and is indicated for symptomatic patients with aortic stenosis and intermediate or high surgical risk, as determined through comprehensive multidisciplinary assessment."
   ],
@@ -55,5 +64,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.776701-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:26.818134-06:00"
 }

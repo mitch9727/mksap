@@ -61,7 +61,7 @@ impl DiscoveryStatistics {
             for fig in &question.figures {
                 match fig.extension.as_str() {
                     "svg" => self.svg_figures += 1,
-                    "jpg" => self.jpg_figures += 1,
+                    "jpg" | "jpeg" => self.jpg_figures += 1,
                     "png" => self.png_figures += 1,
                     _ => {}
                 }
@@ -142,7 +142,10 @@ impl DiscoveryStatistics {
             "- Questions without media: {}\n",
             self.total_questions_without_media
         ));
-        report.push_str(&format!("- Skipped (invalidated): {}\n", self.skipped_questions));
+        report.push_str(&format!(
+            "- Skipped (invalidated): {}\n",
+            self.skipped_questions
+        ));
         report.push_str(&format!("- Failed: {}\n", self.failed_requests));
         report.push_str("\n");
 

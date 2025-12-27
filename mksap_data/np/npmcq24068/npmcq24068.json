@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 42-year-old woman with liver cirrhosis is evaluated in the ICU for increasing serum creatinine and oliguria. She was admitted 1 day ago with hypotension and bleeding esophageal varices, for which she underwent endoscopic ligation; her outpatient diuretic medications were held. Following the procedure, despite intravenous albumin infusion, urine output remains <20 mL/h. Medications are intravenous octreotide and ceftriaxone.On physical examination, temperature is 35.5 °C (95.9 °F), blood pressure is 88/60 mm Hg, pulse rate is 120/min. The abdomen is protuberant and tense. There is moderate lower extremity edema bilaterally. Ankle myoclonus is present.",
+  "question_text": "A 42-year-old woman with liver cirrhosis is evaluated in the ICU for increasing serum creatinine and oliguria. She was admitted 1 day ago with hypotension and bleeding esophageal varices, for which she underwent endoscopic ligation; her outpatient diuretic medications were held. Following the procedure, despite intravenous albumin infusion, urine output remains <20 mL/h. Medications are intravenous octreotide and ceftriaxone.On physical examination, temperature is 35.5 °C (95.9 °F), blood pressure is 88/60 mm Hg, pulse rate is 120/min. The abdomen is protuberant and tense. There is moderate lower extremity edema bilaterally. Ankle myoclonus is present.Laboratory studies:Hemoglobin6.9 g/dL (69 g/L)L1 day ago12 g/dL (120 g/L)1 month ago7.8 g/dL (78 g/L)LBlood urea nitrogen66 mg/dL (23.6 mmol/L)HCreatinine3.0 mg/dL (265.2 µmol/L)H1 day ago2.4 mg/dL (212.2 µmol/L)H1 month ago0.5 mg/dL (44.2 µmol/L)LElectrolytesSodium126 mEq/L (126 mmol/L)LPotassium6.8 mEq/L (6.8 mmol/L)HChloride98 mEq/L (98 mmol/L)Bicarbonate12 mEq/L (12 mmol/L)LUrinalysis with microscopySpecific gravity 1.011; trace protein; 1+ blood; positive leukocyte esterase; few renal tubular epithelial cells, leukocytes, and erythrocytes; numerous muddy brown casts",
   "question_stem": "In addition to managing this patient's ongoing bleeding, which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment is continuous kidney replacement therapy (CKRT) (Option A). Kidney replacement therapy (KRT) may be necessary to treat patients with acute kidney injury (AKI) who have complications such as hyperkalemia, metabolic acidosis, or volume overload refractory to medical management or with uremic manifestations such as altered mental status, asterixis (myoclonus in this patient), uremic pericarditis, or bleeding. CKRT removes solutes and fluid more slowly than intermittent hemodialysis, resulting in better hemodynamic tolerance; it is preferred in patients who are hypotensive. This patient has variceal bleeding complicated by AKI due to acute tubular necrosis (ATN), as evidenced by muddy brown casts and renal tubular epithelial cells seen on microscopic urinalysis. Because the risk of rebleeding in the setting of ongoing AKI and uremia is high, KRT is indicated.Intravenous furosemide (Option B) is not indicated for several reasons. This patient is hypotensive due to a gastrointestinal bleed; furosemide may lower her blood pressure further. Additionally, increasing urine output using intravenous diuretics in patients with oliguric AKI does not improve outcomes. Finally, the patient has ATN, which is unlikely to respond to diuretics.In patients who develop AKI in the setting of liver cirrhosis, the first step in management is discontinuation of diuretic medications, followed by at least 48 hours of volume expansion with intravenous albumin. Albumin is more effective than crystalloids such as 0.9% saline or isotonic sodium bicarbonate (Option C), which would result in third spacing of fluid and would worsen the ascites and lower extremity edema.Patiromer (Option D) is a gastrointestinal cation exchanger administered orally for the treatment of hyperkalemia. However, oral medications should be avoided in patients with variceal bleeding, such as this patient. KRT is the preferred treatment in this patient with variceal bleeding, AKI, ATN, and severe hyperkalemia.",
+  "critique_links": [],
   "key_points": [
     "Kidney replacement therapy is used to manage the urgent complications of severe acute kidney injury, including hyperkalemia, metabolic acidosis, volume overload refractory to diuretics, uremic manifestations, and dialyzable toxins."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:00.240223-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.789915-06:00"
 }

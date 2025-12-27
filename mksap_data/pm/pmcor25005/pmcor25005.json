@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 55-year-old woman is evaluated for a 7-month history of gradually progressive shortness of breath and cough. She had been an avid hiker, but for the past 3 months her dyspnea has been too severe for her to enjoy this activity. Medical history is otherwise unremarkable, and she takes no medications.On physical examination, vital signs are normal. Oxygen saturation is 97% with the patient breathing ambient air at rest and 93% with ambulation. Auscultation reveals fine end-inspiratory bibasilar crackles. Clubbing is present. No rashes or edema is seen. Cardiac examination is unremarkable.Pulmonary function tests:FVC62% of predictedL FEV1/FVC ratio0.87Dlco 55% of predictedLChest radiograph reveals small lung volumes and reticular opacities at the lung bases.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate diagnostic test to perform next in this patient with likely diffuse parenchymal lung disease (DPLD) is high-resolution chest CT (HRCT) (Option C). DPLDs, also called interstitial lung diseases, are a diverse group of nonmalignant disorders resulting in the inflammation and scarring of alveolar structures. These disorders tend to mimic each other clinically and radiographically. The most common presentation of a DPLD is subacute to chronic exertional dyspnea and nonproductive cough. Lung examination findings can range from a normal auscultatory examination to the presence of inspiratory Velcro-like crackles or an inspiratory squeak suggestive of fibrosis. Patients often have normal resting pulse oximetry but may desaturate with exertion; this finding is consistent with a diffusion limitation, a hallmark of DPLD. Patients suspected of having DPLD should undergo complete pulmonary function testing, including lung volume testing and Dlco measurement. Most DPLDs have decreased diffusion capacity and restrictive physiology, with decreased FEV1 and FVC, preserved FEV1/FVC ratio, and decreased total lung capacity. Radiographically, bilateral diffuse reticular and reticulonodular patterns suggest DPLD; however, chest radiographs can be normal in patients with minimal disease. HRCT of the chest is the imaging test of choice for evaluation of DPLD and should be performed in all patients. Distribution of disease and pattern of pulmonary parenchymal involvement may suggest the underlying diagnosis. This patient has symptoms and clinical findings consistent with a DPLD, including a restrictive pattern on spirometry, impaired gas exchange, and reticular findings on radiograph. HRCT will help confirm and narrow the diagnosis of DPLD. In an appropriate clinical setting, typical HRCT findings may even obviate the need for lung biopsy.Lung biopsy, either bronchoscopic (Option A) or surgical, may be considered when pulmonary function tests and HRCT are insufficient to make a specific diagnosis. In this patient, the findings on HRCT highly correlate with histopathology; consequently, bronchoscopic lung biopsy is not uniformly required to establish a diagnosis.In the evaluation of dyspnea, cardiopulmonary exercise testing (Option B) can be helpful if the initial evaluation is unrevealing, deconditioning is a possibility, or multiple problems may be contributing to dyspnea. However, this patient's symptoms, chest radiograph, and spirometry are all strongly consistent with DPLD. Cardiopulmonary exercise testing will not add to the diagnostic yield.Transthoracic echocardiogram (Option D) can be used either to exclude left-sided heart failure as a cause of dyspnea or as an initial assessment for pulmonary hypertension. This patient, however, does not have clinical or radiologic signs of heart failure or pulmonary hypertension. Conversely, there are strong indicators of parenchymal lung disease, so high-resolution CT is a more appropriate choice.",
+  "critique_links": [],
   "key_points": [
     "In patients with a clinical picture suggestive of diffuse parenchymal lung disease, high-resolution CT is the most appropriate diagnostic test."
   ],
@@ -50,10 +51,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:52:23.693285-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Pulmonary function tests:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.973135-06:00"
 }

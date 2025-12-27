@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 50-year-old man is evaluated in the emergency department for a fever and a 3-day history of nonbloody diarrhea occurring approximately five times daily. He is completing a course of amoxicillin-clavulanate for acute bacterial rhinosinusitis, which has improved. Medical history is otherwise unremarkable. He takes no other medications.On physical examination, the patient appears in distress. Temperature is 38.9 °C (102.0 °F), blood pressure is 80/50 mm Hg, pulse rate 120/min, and respiration rate is 25/min. Abdominal examination reveals decreased bowel sounds and diffuse tenderness to palpation without rebound.Stool studies confirm Clostridioides difficile infection.Abdominal CT scan reveals bowel wall thickening and mucosal edema but no evidence of perforation.",
+  "question_text": "A 50-year-old man is evaluated in the emergency department for a fever and a 3-day history of nonbloody diarrhea occurring approximately five times daily. He is completing a course of amoxicillin-clavulanate for acute bacterial rhinosinusitis, which has improved. Medical history is otherwise unremarkable. He takes no other medications.On physical examination, the patient appears in distress. Temperature is 38.9 °C (102.0 °F), blood pressure is 80/50 mm Hg, pulse rate 120/min, and respiration rate is 25/min. Abdominal examination reveals decreased bowel sounds and diffuse tenderness to palpation without rebound.Laboratory studies:Leukocyte count35,000/µL (35 × 109/L) with 85% neutrophils, 5% bands, and 10% lymphocytesHAlbumin2.3 g/dL (23 g/L)LCreatinine2.7 mg/dL (239 μmol/L)HLactate3 mEq/L (3 mmol/L)HStool studies confirm Clostridioides difficile infection.Abdominal CT scan reveals bowel wall thickening and mucosal edema but no evidence of perforation.",
   "question_stem": "In addition to supportive care, which of the following is the most appropriate treatment for this patient?",
   "options": [
     {
@@ -43,7 +43,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "This patient has fulminant Clostridioides difficile infection (CDI), and the most appropriate treatment is combination therapy with oral vancomycin and intravenous metronidazole (Option D). When ileus is present, vancomycin enema should also be considered. Treatment of CDI should be stratified according to severity, which is classified as nonsevere, severe, and fulminant (see ). Fulminant disease is typically associated with shock, hypotension (as in this patient), toxic megacolon, or ileus.Intravenous vancomycin (Option A) is not recommended for treatment of CDI because it is not secreted into the large intestine. Consequently, it has no role in the treatment of CDI.The Infectious Diseases Society of America (IDSA) and the Society for Healthcare Epidemiology of America (SHEA) recommend oral fidaxomicin (Option B) as the preferred initial therapy, rather than oral vancomycin, for an initial episode of nonsevere or severe CDI, although oral vancomycin remains an acceptable alternative. Nonsevere CDI is defined by a leukocyte count of less than 15,000/µL (15 × 109/L) and a serum creatinine level of less than 1.5 mg/dL (133 µmol/L). Severe CDI is defined by a leukocyte count of 15,000/µL (15 × 109/L) or greater and a serum creatinine level of 1.5 mg/dL (133 µmol/L) or greater. This patient has fulminant CDI, and oral fidaxomicin is not recommended.Historically, oral metronidazole (Option C) was recommended for treatment of mild CDI, but updated guidelines from the IDSA and SHEA recommend its use for an initial episode of nonsevere CDI only when oral fidaxomicin and oral vancomycin are unavailable or contraindicated.Oral vancomycin followed by oral rifaximin (Option E) is one of the recommended regimens for second or subsequent recurrence of CDI, but it is not a recommended regimen for treatment of fulminant CDI.",
+  "critique": "This patient has fulminant Clostridioides difficile infection (CDI), and the most appropriate treatment is combination therapy with oral vancomycin and intravenous metronidazole (Option D). When ileus is present, vancomycin enema should also be considered. Treatment of CDI should be stratified according to severity, which is classified as nonsevere, severe, and fulminant (see Table: Initial Clostridioides difficile Infection Treatment). Fulminant disease is typically associated with shock, hypotension (as in this patient), toxic megacolon, or ileus.Intravenous vancomycin (Option A) is not recommended for treatment of CDI because it is not secreted into the large intestine. Consequently, it has no role in the treatment of CDI.The Infectious Diseases Society of America (IDSA) and the Society for Healthcare Epidemiology of America (SHEA) recommend oral fidaxomicin (Option B) as the preferred initial therapy, rather than oral vancomycin, for an initial episode of nonsevere or severe CDI, although oral vancomycin remains an acceptable alternative. Nonsevere CDI is defined by a leukocyte count of less than 15,000/µL (15 × 109/L) and a serum creatinine level of less than 1.5 mg/dL (133 µmol/L). Severe CDI is defined by a leukocyte count of 15,000/µL (15 × 109/L) or greater and a serum creatinine level of 1.5 mg/dL (133 µmol/L) or greater. This patient has fulminant CDI, and oral fidaxomicin is not recommended.Historically, oral metronidazole (Option C) was recommended for treatment of mild CDI, but updated guidelines from the IDSA and SHEA recommend its use for an initial episode of nonsevere CDI only when oral fidaxomicin and oral vancomycin are unavailable or contraindicated.Oral vancomycin followed by oral rifaximin (Option E) is one of the recommended regimens for second or subsequent recurrence of CDI, but it is not a recommended regimen for treatment of fulminant CDI.",
+  "critique_links": [],
   "key_points": [
     "Treatment of Clostridioides difficile infection (CDI) is stratified according to severity (nonsevere, severe, or fulminant); the most appropriate treatment for fulminant CDI is a combination of oral vancomycin and intravenous metronidazole."
   ],
@@ -56,12 +57,42 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/idtab24066.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:47:24.583659-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "idtab24066",
+        "file": "tables/idtab24066.html",
+        "title": "Treatment of Initial <i>Clostridioides difficile</i> Infection",
+        "short_title": "Initial <i>Clostridioides difficile</i> Infection Treatment",
+        "footnotes": [
+          "IV = intravenously; NGT = nasogastric tube; PO = by mouth; PR = per rectum.",
+          "<sup>a</sup>Nonsevere: leukocyte count &lt;15,000/µL (15 × 10<sup>9</sup>/L) and serum creatinine level &lt;1.5 mg/dL (133 µmol/L); severe: leukocyte count ≥15,000/µL (15 × 10<sup>9</sup>/L) or serum creatinine level ≥1.5 mg/dL (133 µmol/L); fulminant: criteria for severe infection plus associated shock, hypotension, toxic megacolon, or ileus.",
+          "Based on Johnson S, Lavergne V, Skinner AM, et al. Clinical practice guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 focused update guidelines on management of Clostridioides difficile infection in adults. Clin Infect Dis. 2021;73:755-757. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34492699\" target=\"_blank\">PMID: 34492699</a> doi:10.1093/cid/ciab718"
+        ],
+        "headers": [
+          "Severity of Diseasea",
+          "Treatmentb"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.533377-06:00"
 }

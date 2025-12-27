@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 23-year-old woman has a 7-month history of a pruritic rash on the flexural surfaces of her wrists, arms, and legs. The patient was recently diagnosed with hepatitis C virus infection.The rash on her thigh is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has lichen planus (LP), an inflammatory skin disorder that can affect the skin, mucous membranes, scalp, and/or nails (Option B). The hallmark lesion of LP is a pruritic, purple, polygonal papule; these papules are usually distributed symmetrically on the wrists, flexural aspects of the arms and legs, lower back, and genitals. The face, palms, and soles are usually spared; however, mucous membranes, including the lips, mouth, and vulva, are commonly involved. The papules are small and may be isolated or grouped together; they often develop along lines of previous trauma. A reticulated network of white lines (Wickham striae) may be visible on the surface of the papules, particularly if moistened (shown in a different patient). LP occurs with increased frequency in patients with liver disease, particularly hepatitis C virus infection, although the reasons for this are unclear.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,41 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24630.47ae110d8f3eef4e8578be981643372b.jpg",
+      "figures/dmfig24631.c2e9e1eb86c1e3815aa188986e93d40d.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.854603-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24630",
+        "file": "figures/dmfig24630.47ae110d8f3eef4e8578be981643372b.jpg",
+        "title": "Lichen Planus",
+        "short_title": "stem Lichen Planus",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1356
+      },
+      {
+        "figure_id": "dmfig24631",
+        "file": "figures/dmfig24631.c2e9e1eb86c1e3815aa188986e93d40d.jpg",
+        "title": "Lichen Planus",
+        "short_title": "critique Lichen Planus",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 500,
+        "height": 757
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.389490-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 78-year-old woman is evaluated in the hospital after being admitted with new-onset edema that began 1 week ago in her feet; progressed to her thighs; and is associated with difficulty walking, dyspnea on exertion, and a 4.5-kg (10.0-lb) weight gain. She has a history of hypertension, for which she takes amlodipine.On physical examination, vital signs are normal. Periorbital edema is noted. The upper extremities are swollen. There is 3-mm pitting edema to the thighs.Kidney biopsy shows acute tubular necrosis on light microscopy and negative staining on immunofluorescence. Electron microscopy shows no electron-dense deposits but near-complete foot process effacement, consistent with minimal change glomerulopathy with superimposed acute tubular necrosis.",
+  "question_text": "A 78-year-old woman is evaluated in the hospital after being admitted with new-onset edema that began 1 week ago in her feet; progressed to her thighs; and is associated with difficulty walking, dyspnea on exertion, and a 4.5-kg (10.0-lb) weight gain. She has a history of hypertension, for which she takes amlodipine.On physical examination, vital signs are normal. Periorbital edema is noted. The upper extremities are swollen. There is 3-mm pitting edema to the thighs.Laboratory studies:Albumin1.9 g/dL (19 g/L)LCreatinine1.4 mg/dL (124 µmol/L)HUrine protein-creatinine ratio10,500 mg/gHKidney biopsy shows acute tubular necrosis on light microscopy and negative staining on immunofluorescence. Electron microscopy shows no electron-dense deposits but near-complete foot process effacement, consistent with minimal change glomerulopathy with superimposed acute tubular necrosis.",
   "question_stem": "In addition to starting furosemide, which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate additional treatment is prednisone (Option C), which is the first-line therapy for minimal change glomerulopathy (MCG). The classic presentation of MCG is acute-onset nephrotic syndrome with edema, as seen in this patient. Microscopic hematuria may be present in 10% to 30% of adult cases. Up to 25% of adults with MCG may also have acute kidney injury (AKI), occurring more commonly in older patients with hypertension, low serum albumin levels, and heavy proteinuria, as in this case. The 2021 Kidney Disease: Improving Global Outcomes guideline for glomerulonephritis recommends glucocorticoids as first-line therapy for children and adults with MCG; remission is achieved in 80% to 90% of adults. Time to response is prolonged in adults compared with children, and adults are not considered to have glucocorticoid-resistant disease until they have not responded to 16 weeks of glucocorticoid therapy. Prednisone is typically initiated at 1 mg/kg/d or 2 mg/kg every other day for 8 to 12 weeks, followed by a taper. A retrospective cohort study of MCG in adults found no difference between these regimens in terms of response rates (>90%), relapse rates, and adverse events. The concomitant acute tubular necrosis in this patient's case makes treatment even more imperative because primary MCG with AKI has been shown to be a treatment-responsive lesion if it is treated in a timely manner.Cyclophosphamide (Option A) and cyclosporine (Option B) are generally reserved for glucocorticoid-resistant or -dependent cases of MCG and, with the exception of a clear contraindication to glucocorticoids, are not used as first-line therapy. The use of a calcineurin inhibitor such as cyclosporine in AKI may in particular cause further elevation of serum creatinine levels.Providing no further treatment in addition to diuretics (Option D) would help this patient's edema but is not expected to improve her nephrosis or AKI.",
+  "critique_links": [],
   "key_points": [
     "The 2021 Kidney Disease: Improving Global Outcomes clinical practice guideline for glomerulonephritis recommends glucocorticoids as first-line therapy for minimal change glomerulopathy."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:38.467707-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.674661-06:00"
 }

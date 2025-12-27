@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 62-year-old man is evaluated for acute-onset nonproductive cough, malaise, and myalgia that began 72 hours ago. He reports a positive result on a home SARS-CoV-2 antigen test. He has hypertension and dyslipidemia. His medications are losartan and rosuvastatin.On physical examination, temperature is 99.7 °F (37.6 °C), blood pressure is 128/82 mm Hg, pulse rate is 92/min, and respiration rate is 16/min. Oxygen saturation is 97% with the patient breathing ambient air. BMI is 29. Mild cervical lymphadenopathy is noted. Pulmonary examination indicates good airflow bilaterally without wheezing.Influenza and respiratory syncytial virus antigen tests are negative.A chest radiograph is clear.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment for this patient is nirmatrelvir-ritonavir (Option A). SARS-CoV-2 is a novel coronavirus that causes clinical syndromes of widely varying severity. Symptomatic disease is characterized by fever, fatigue, dry cough, gastrointestinal symptoms such as diarrhea, loss of taste and smell, and respiratory distress. Patients with suspected infection should be tested with a nucleic acid amplification test or antigen test. Antigen testing has a rapid turn-around time and can be used at home. Because of inferior sensitivity, a negative antigen test result in a patient with symptoms consistent with SARS-CoV-2 or recent exposure to the virus warrants confirmation with additional testing. Evaluation for disease severity, assessment of risk factors for progression to severe disease, and consideration of antiviral treatment are warranted. Risk factors for progression to severe disease include age older than 60 years, diabetes mellitus, BMI >25, chronic kidney disease, chronic lung disease (including asthma), current smoking status, immunosuppressive diseases, immunosuppressive pharmacotherapy, hypertension, sickle cell disease, neurodevelopmental disorders, active cancer, and dependence on medically related technology. For those who have confirmed SARS-CoV-2 infection, are at risk for progression to severe disease, and have been symptomatic for 5 days or less, nirmatrelvir-ritonavir is recommended for 5 days to decrease SARS-CoV-2–related hospitalization and death. Nirmatrelvir is a SARS-CoV-2 main protease inhibitor that prevents viral replication, and ritonavir is a protease inhibitor that boosts blood levels of nirmatrelvir. Because ritonavir is a potent cytochrome P-450 3A4 inhibitor, it is important to check for drug interactions. Nonessential medications, such as statins, can be temporarily stopped while antiviral therapy is administered.Prednisone (Option B) and other glucocorticoids (specifically, dexamethasone) are indicated for hospitalized patients who require supplemental oxygen therapy. Mortality benefit was seen only in those requiring additional oxygen. This patient has no hypoxia, has a normal lung examination and chest radiograph, and has no indications for hospitalization. Therefore, use of prednisone is not indicated.Remdesivir (Option C) is an intravenous medication that is given to hospitalized patients with SARS-CoV-2. This patient has a normal radiograph and vital signs and does not require hospitalization, so treatment with remdesivir is not appropriate.This patient has multiple risk factors for progression to severe disease. Therefore, it would be inappropriate to offer no treatment (Option D).",
+  "critique_links": [],
   "key_points": [
     "Oral nirmatrelvir-ritonavir is indicated for outpatients with confirmed SARS-CoV-2 infection who are at risk for progression to severe disease; therapy is recommended for 5 days and should be initiated within 5 days of symptom onset.",
     "Risk factors for progression to severe COVID-19 include lung disease, age 60 years or older, diabetes mellitus, BMI >25, chronic kidney disease, current smoking status, cardiovascular disease, hypertension, immunosuppressive diseases, immunosuppressive treatment, and active cancer."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:45:33.896192-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:29.260263-06:00"
 }

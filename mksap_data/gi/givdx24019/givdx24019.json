@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 50-year-old woman is evaluated for slowly progressive esophageal dysphagia over several years. A barium esophagram is performed.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is a Schatzki ring (Option D), which is characterized by an isolated ring occurring in the distal esophagus that causes intermittent dysphagia. Esophageal dysphagia is the result of one of two underlying causes: mechanical obstruction or a motility disorder. Dysphagia occurring with solid food alone suggests a mechanical obstruction, whereas dysphagia with either liquids alone or the combination of liquids and solids favors a motility disorder. Mechanical esophageal obstruction may be benign or malignant and may be caused by an esophageal ring (e.g., Schatzki ring), webs, strictures, or masses. Upper endoscopy allows for diagnosis (biopsy and inspection) and therapeutic intervention (dilation).",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:31.107296-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "gifig24624",
+        "file": "figures/gifig24624.7ab82b1539873d4ec4457f2afcdc1246.jpg",
+        "title": "Barium Esophagram Showing Schatzki Ring",
+        "short_title": "Barium Esophagram Showing Schatzki Ring",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 126,
+        "height": 258
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.559922-06:00"
 }

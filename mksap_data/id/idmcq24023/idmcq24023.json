@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 35-year-old patient is evaluated in the emergency department for fever, abdominal pain, and diarrhea of 2 days' duration. They recently returned from a 2-week trip to China, where they ate at local restaurants. They did not seek preventive care before the trip. They did not consistently apply bug spray and did not use a bed net at night.On physical examination, temperature is 40 °C (104 °F), blood pressure is 110/60 mm Hg, and pulse rate is 75/min; respiration rate is normal. Abdominal examination reveals mild distension but no rebound or guarding. No rash is seen.Laboratory studies:Leukocyte count15,000/µL (15 × 109/L)HPlatelet count250,000/µL (250 × 109/L)Alanine aminotransferase325 U/LHAspartate aminotransferase490 U/LH",
   "question_stem": "Which of the following is the most appropriate test to establish the diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "A blood culture (Option A) is the most appropriate test to perform in this patient. Fever, abdominal pain, and diarrhea following a trip to Southeast Asia suggest typhoid, or enteric, fever caused by Salmonella enterica serotype Typhi. Blood culture remains the diagnostic test of choice, with a sensitivity between 50% to 70%; higher blood sample volumes are preferred to increase the yield. Culture of stool, urine, skin (biopsy and culture of “rose spots”, discrete, blanching, 1- to 4-mm salmon-colored macules), and duodenal aspirate can also be used for diagnosis. Bone marrow culture is positive in more than 90% of patients but is rarely performed because of the invasive nature of the test. Cultures may require 2 to 3 days for incubation. Antimicrobial susceptibility testing can also be performed when Salmonella is isolated in culture.Serology for IgG or IgM is used to diagnose dengue, a viral hemorrhagic fever. Patients usually have leukopenia and thrombocytopenia as well as significant joint pain, headache, and retro-orbital pain with eye movement. This patient's symptoms are inconsistent with dengue fever; therefore, serologic testing for dengue would not be useful (Option B).A peripheral blood smear (Option C) would be appropriate to look for malarial parasites. Persons with malaria are likely to have leukopenia and thrombocytopenia. A relative bradycardia (relative low heart rate compared with the degree of temperature elevation) is not observed with malaria, and gastrointestinal symptoms do not usually predominate.Although serologic testing for S. enterica (Option D) is available, it is not recommended for diagnosis of acute disease. A rapid antibody test was not sufficiently accurate to replace blood cultures in a meta-analysis.",
+  "critique_links": [],
   "key_points": [
     "Blood culture (as well as culture of stool and bone marrow) remains the test of choice for diagnosing Salmonella enterica serotype Typhi."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.142438-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.337493-06:00"
 }

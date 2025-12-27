@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 40-year-old woman is evaluated for a 6-month history of palpitations and increased sweating, sleep disturbances, and a lump on her neck. Medical history is unremarkable, and she takes no medications.On physical examination, blood pressure is 142/70 mm Hg and pulse rate is 105/min; other vital signs are normal. No exophthalmos or lid lag is seen. A right thyroid nodule is palpable; the left thyroid gland is not enlarged. Aside from tachycardia, cardiopulmonary examination is unremarkable. The patient exhibits mild bilateral hand tremors. No edema is noted.",
+  "question_text": "A 40-year-old woman is evaluated for a 6-month history of palpitations and increased sweating, sleep disturbances, and a lump on her neck. Medical history is unremarkable, and she takes no medications.On physical examination, blood pressure is 142/70 mm Hg and pulse rate is 105/min; other vital signs are normal. No exophthalmos or lid lag is seen. A right thyroid nodule is palpable; the left thyroid gland is not enlarged. Aside from tachycardia, cardiopulmonary examination is unremarkable. The patient exhibits mild bilateral hand tremors. No edema is noted.Laboratory studies:Thyroid-stimulating hormone0.1 μU/mL (0.1 mU/L)LFree thyroxine3.1 ng/dL (40 pmol/L)HTotal triiodothyronine210 ng/dL (3.2 nmol/L)HThyrotropin receptor antibodyNegative",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate diagnostic test to perform next in this patient with thyrotoxicosis is thyroid scintigraphy with radioactive iodine uptake (RAIU) (Option C). Thyrotoxicosis is diagnosed in patients with low thyroid-stimulating hormone levels and elevated free thyroxine (T4) and/or serum total triiodothyronine (T3) levels. Once the diagnosis of thyrotoxicosis has been established, the cause should be determined. If diagnosis is not definitive on the basis of clinical presentation (e.g., a diffuse goiter and thyroid eye disease suggesting Graves disease), additional evaluation is required (). Thyroid scintigraphy with RAIU can determine the cause of thyrotoxicosis and is especially recommended in patients with nodular thyroid disease. This patient with a thyroid nodule exhibits clinical manifestations of hyperthyroidism without overt findings of Graves disease. Thyroid-stimulating immunoglobulin and thyrotropin receptor antibody levels were not elevated, making a diagnosis of Graves disease less likely. RAIU helps to distinguish between different causes of hyperthyroidism ( ); elevated or inappropriately normal uptake may represent Graves disease (diffuse uptake), toxic adenoma (focal uptake), or toxic multinodular goiter (patchy uptake).When RAIU is unavailable or unreliable because of exposure to lithium or iodine (amiodarone, iodinated contrast) or when scintigraphy is contraindicated (in pregnancy and breastfeeding), thyroid Doppler ultrasonography (Option A) may be helpful to determine the cause of thyrotoxicosis. This test may show increased vascularity in Graves disease or hyperfunctioning nodules and decreased blood flow in patients with destructive thyroiditis.Thyroid peroxidase antibodies (Option B) are present in most patients with Hashimoto thyroiditis. Thyroid peroxidase antibodies may also be elevated in patients with Graves disease, but a positive result is not diagnostic because these antibodies can also be seen in up to 27% of the general population and in nonthyroid diseases. Measurement of thyroid peroxidase antibodies would not help to determine the cause of this patient's thyrotoxicosis.Serum total T4 measurement (Option D) is helpful for calculating the ratio of serum total T3 to serum total T4, which is more than 20 ng/μg in patients with thyrotoxicosis due to hyperthyroidism. In this patient, measuring total T4 will not help to differentiate between causes of hyperthyroidism.",
+  "critique": "The most appropriate diagnostic test to perform next in this patient with thyrotoxicosis is thyroid scintigraphy with radioactive iodine uptake (RAIU) (Option C). Thyrotoxicosis is diagnosed in patients with low thyroid-stimulating hormone levels and elevated free thyroxine (T4) and/or serum total triiodothyronine (T3) levels. Once the diagnosis of thyrotoxicosis has been established, the cause should be determined. If diagnosis is not definitive on the basis of clinical presentation (e.g., a diffuse goiter and thyroid eye disease suggesting Graves disease), additional evaluation is required (Figure: Algorithm for Evaluating Thyrotoxicosis). Thyroid scintigraphy with RAIU can determine the cause of thyrotoxicosis and is especially recommended in patients with nodular thyroid disease. This patient with a thyroid nodule exhibits clinical manifestations of hyperthyroidism without overt findings of Graves disease. Thyroid-stimulating immunoglobulin and thyrotropin receptor antibody levels were not elevated, making a diagnosis of Graves disease less likely. RAIU helps to distinguish between different causes of hyperthyroidism ( Figure: Iodine 123 Scans Showing Hyperthyroidism); elevated or inappropriately normal uptake may represent Graves disease (diffuse uptake), toxic adenoma (focal uptake), or toxic multinodular goiter (patchy uptake).When RAIU is unavailable or unreliable because of exposure to lithium or iodine (amiodarone, iodinated contrast) or when scintigraphy is contraindicated (in pregnancy and breastfeeding), thyroid Doppler ultrasonography (Option A) may be helpful to determine the cause of thyrotoxicosis. This test may show increased vascularity in Graves disease or hyperfunctioning nodules and decreased blood flow in patients with destructive thyroiditis.Thyroid peroxidase antibodies (Option B) are present in most patients with Hashimoto thyroiditis. Thyroid peroxidase antibodies may also be elevated in patients with Graves disease, but a positive result is not diagnostic because these antibodies can also be seen in up to 27% of the general population and in nonthyroid diseases. Measurement of thyroid peroxidase antibodies would not help to determine the cause of this patient's thyrotoxicosis.Serum total T4 measurement (Option D) is helpful for calculating the ratio of serum total T3 to serum total T4, which is more than 20 ng/μg in patients with thyrotoxicosis due to hyperthyroidism. In this patient, measuring total T4 will not help to differentiate between causes of hyperthyroidism.",
+  "critique_links": [],
   "key_points": [
     "Thyroid scintigraphy with radioactive iodine uptake can determine the cause of thyrotoxicosis and is especially recommended in patients with nodular thyroid disease; elevated or inappropriately normal uptake may represent Graves disease (diffuse uptake), toxic adenoma (focal uptake), or toxic multinodular goiter (patchy uptake)."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:53.742165-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.249417-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 49-year-old man undergoes ECG following reperfusion therapy for an acute myocardial infarction.",
   "question_stem": "Which of the following abnormalities is demonstrated on this patient's ECG?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This ECG demonstrates an accelerated idioventricular rhythm (Option A). Idioventricular rhythm is an escape rhythm arising from the ventricular myocardium. The QRS complexes are wide (as in all ventricular arrhythmias) and fairly regular. The rate in idioventricular rhythm is typically between 30/min and 40/min but is considered accelerated when the rate is more than 50/min but less than 100/min; the heart rate on this tracing is approximately 90/min. Accelerated idioventricular rhythm commonly arises after reperfusion, such as in this patient, and is generally benign and transient.The QRS complexes in this ECG are not typical of left bundle branch block (i.e., an upright monophasic QRS complex in leads I and V6), and the slow rate is a major differentiating factor between accelerated idioventricular rhythm and ventricular tachycardia. Torsades de pointes is a form of polymorphic ventricular tachycardia marked by varying QRS morphology and is not present in this ECG.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.339090-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24618",
+        "file": "figures/cvfig24618.c0c478b8413c3b5dae483ab5cd5e6b75.jpg",
+        "title": "ECG Showing Accelerated Idioventricular Rhythm",
+        "short_title": "stem ECG Showing Accelerated Idioventricular Rhythm",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 333
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.861429-06:00"
 }

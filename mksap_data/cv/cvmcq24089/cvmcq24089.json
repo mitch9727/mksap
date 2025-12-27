@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 74-year-old man is evaluated during follow-up. He has a history of inferior myocardial infarction (MI) and had a right coronary artery stent placed 3 years ago. He has no heart failure symptoms and has had a normal ejection fraction (EF) since his MI. He remains active and walks 1 mile a day. He does not have chest pain, exertional dyspnea, or any cardiorespiratory symptoms. Medications are metoprolol succinate, aspirin, clopidogrel, and atorvastatin.On physical examination, blood pressure is 134/78 mm Hg and pulse rate is 56/min. No jugular venous distention is noted. Cardiac examination reveals a grade 1/6 to 2/6 holosystolic murmur best heart at the apex. There is no edema.Echocardiogram obtained to assess the murmur reveals normal left ventricle size with mild inferior wall akinesis. EF is 40%. Mild mitral regurgitation is noted.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Lisinopril (Option B) is the most appropriate treatment for this patient who has heart failure with reduced ejection fraction (HFrEF) but no heart failure symptoms (stage B heart failure). Whereas heart failure stages C (symptomatic heart failure) and D (advanced heart failure) include patients with symptoms, stage B disease includes those with evidence of structural or hemodynamic abnormalities but no symptoms. Across stages B through D, treatment of HFrEF focuses on long-term therapy to relieve symptoms and decrease morbidity and mortality. Current American Heart Association/American College of Cardiology heart failure guidelines suggest treatment with β-blockers and either ACE inhibitors or angiotensin receptor blockers in patients with reduced ejection fraction (≤40%) but no heart failure symptoms (see treatment of pre-HF [stage B] in the figure below). Similarly, after a myocardial infarction (MI), patients are at risk for progression of heart failure, and preventive therapy is warranted, even in those without symptoms. ACE inhibitors have been well-studied in patients with reduced EF after MI and have been shown to reduce mortality, heart failure hospitalizations, and worsening of heart failure. This patient has stage B heart failure with no symptoms but an EF of 40% after an MI. He is already taking a β-blocker, so adding an ACE inhibitor such as lisinopril is appropriate.Diltiazem (Option A) is not the most appropriate treatment for this patient. Nondihydropyridine calcium channel blockers such as diltiazem and verapamil have negative inotropic effects and generally should not be used in patients with reduced EF.Valsartan-sacubitril (Option C) has not been studied in patients without heart failure symptoms, so its benefits for these patients are unclear. Although patients with symptomatic HFrEF should receive valsartan-sacubitril rather than an ACE inhibitor or angiotensin receptor blocker, current guidelines do not support their use in patients with stage B (asymptomatic) heart failure.Continuing current therapy (Option D) is not the best option in this patient. Guideline-directed therapy in patients with stage B heart failure with an EF of 40% or less suggests both β-blocker and ACE inhibitor therapy. Lisinopril should be added to this patient's medical regimen.",
+  "critique_links": [],
   "key_points": [
     "Patients with heart failure with reduced ejection fraction but no symptoms should be treated with ACE inhibitors or angiotensin receptor blockers and β-blockers.",
     "Valsartan-sacubitril has not been studied for use in patients with stage B (asymptomatic) heart failure."
@@ -58,5 +59,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:49:17.107702-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24222",
+        "file": "figures/cvfig24222.69bfc4e47cc8fc7e66a35218cf1a23a5.svg",
+        "title": "ACC/AHA 2022 Heart Failure Guidelines for Stage B Heart Failure (Reduced Ejection Fraction but No Symptoms)",
+        "short_title": "ACC/AHA Guidelines for Stage B Heart Failure",
+        "number": null,
+        "footnotes": [],
+        "extension": "svg",
+        "width": 656,
+        "height": 566
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.645437-06:00"
 }

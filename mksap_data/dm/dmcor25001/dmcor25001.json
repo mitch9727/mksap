@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 28-year-old woman is evaluated in the emergency department 3 hours after sustaining a burn on the left arm while burning leaves in her backyard.On physical examination, vital signs are normal. Skin findings on the left arm are shown.The affected area blanches with pressure. Pain is present without application of pressure.",
   "question_stem": "In addition to analgesia, which of the following is the most appropriate therapy?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "In addition to analgesia, the most appropriate therapy for this patient's second-degree, superficial partial-thickness burn is application of specialized wound dressing to maintain a moist, antiseptic environment (Option D). Management of thermal injury depends on initial burn classification. A first-degree burn does not penetrate through the epidermis and presents with red, tender skin but no blistering or weeping. Treatment of first-degree burns only requires appropriate dressing to the area. There are many topical options and dressing materials, but all wound care should provide a moist, antibacterial environment (such as with mupirocin or silver sulfadiazine) and keep the wound clean without restricting movement. Second-degree burns involve the epidermis and dermis; these are divided into superficial (partial-thickness) and deep (full-thickness) subcategories. A superficial second-degree burn penetrates into, but not through, the dermis. Because the epidermal layer is lost, the wound forms a blister or weeps interstitial fluid. The wound blanches with pressure and is painful to air, temperature, and pressure because the vessels and nerve of the dermis are still intact. These burns heal through re-epithelialization. Wound care for second-degree, partial-thickness burns includes cleaning the wound with soap and water and applying appropriate topical therapy to prevent infection and promote a moist environment for healing. Second-degree, deep full-thickness burns involve the entire dermis, may appear wet or dry, and are sensitive to pressure only. These burns are less likely to heal by re-epithelialization and may eventually require surgical management. Third-degree burns destroy the subcutaneous fat, and fourth-degree burns involve the underlying muscle and/or bone. Third- and fourth-degree burns are dry and often black in color and cause minimal pain because the nerves of the dermis have been destroyed. These burns always require surgical management. A third-degree, full-thickness burn is shown.This patient has a blistering thermal burn sensitive to air, indicating a second-degree, superficial partial-thickness burn, for which the appropriate therapy is a topical antibiotic ointment and a nonstick, sterile dressing.Minimal emollient therapy as needed (Option A) or no treatment is all that is required for a first-degree burn involving only the epidermis. However, this patient has blistering, indicating that her burn involves the dermis, so she requires more extensive topical therapy.Full-thickness burns require excision and grafting (Option B), but this patient's burn is highly likely to heal by re-epithelialization.Although sepsis is a feared complication of extensive burn injuries, prophylactic systemic antibiotic therapy such as oral cephalexin (Option C) is not required in the management of thermal burns, regardless of their depth.",
+  "critique_links": [],
   "key_points": [
     "Second-degree, superficial partial-thickness burns present as blisters or weeping wounds that blanch with pressure and are painful to air, temperature, and pressure.",
     "Wound care for second-degree, partial-thickness burns involves cleaning the wound with soap and water and applying a topical antibiotic ointment, followed by an appropriate dressing to maintain a moist healing environment."
@@ -52,9 +53,41 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig25700.6351eccd25a3834afb02c80499a3a3e9.jpg",
+      "figures/dmfig25701.ed4257ac6e30cd146aa73bf16077a443.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.964411-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig25700",
+        "file": "figures/dmfig25700.6351eccd25a3834afb02c80499a3a3e9.jpg",
+        "title": "Second-Degree, Superficial Partial-Thickness Burn",
+        "short_title": "stem Second-Degree Burn",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 650,
+        "height": 506
+      },
+      {
+        "figure_id": "dmfig25701",
+        "file": "figures/dmfig25701.ed4257ac6e30cd146aa73bf16077a443.jpg",
+        "title": "Third-Degree, Full-Thickness Burn",
+        "short_title": "critique Third-Degree, Full-Thickness Burn",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 650,
+        "height": 506
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.209422-06:00"
 }

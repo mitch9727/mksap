@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 38-year-old patient is evaluated in the emergency department for palpitations and dyspnea that developed abruptly 1 hour ago while they were tying their shoes. The patient has no medical history and takes no medications.On physical examination, blood pressure is 123/84 mm Hg and pulse rate is 180/min. Cardiac examination reveals tachycardia.ECG is shown.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is to instruct the patient to complete the Valsalva maneuver by bearing down or coughing (Option C). The patient most likely has atrioventricular nodal reentrant tachycardia (AVNRT). AVNRT is the most common form of supraventricular tachycardia (SVT) exclusive of atrial fibrillation and atrial flutter, representing two thirds of all cases of SVT. It is caused by a reentrant circuit within the AV node and is characterized by a short RP interval with a retrograde P wave inscribed very close to the QRS complex. AVNRT may be terminated with vagal maneuvers, such as coughing or bearing down, which are first-line therapy. If vagal maneuvers are unsuccessful, adenosine is usually effective. This patient presents with an ECG showing typical signs of AVNRT, including a regular tachycardia and rSr’ pattern in lead V1. They are symptomatic but stable, and the best next step is to attempt vagal maneuvers to terminate the tachycardia.Anticoagulation (Option A) with consideration of subsequent cardioversion would be indicated if atrial fibrillation or atrial flutter were present. Although atrial flutter can be a regular, narrow-complex tachycardia, this patient has no risk factors for such an arrhythmia and their ECG is not described as having a “sawtooth” pattern. In addition, 2:1 atrial flutter is more frequently (but not always) present at a heart rate of 150/min. This patient most likely has AVNRT, and anticoagulation is not indicated.Although intravenous AV nodal blockers such as metoprolol (Option B) may be used to treat acute SVT, they would not be the initial choice, owing to low effectiveness at termination. Vagal maneuvers followed by adenosine should be tried first. Oral metoprolol may be used for long-term management, especially among patients who cannot or prefer not to undergo catheter ablation. However, catheter ablation of AVNRT has a high success rate and may be offered as first-line therapy, although it is associated with a 1% risk for injury to the AV node, necessitating pacemaker implantation.Direct current cardioversion (Option D) is indicated in hemodynamically unstable patients with AVNRT but is rarely necessary. In addition, synchronized cardioversion or AV blocking agents such as verapamil may be used in stable patients with AVNRT if vagal maneuvers and adenosine fail to terminate the tachycardia.",
+  "critique_links": [],
   "key_points": [
     "Vagal maneuvers are first-line therapy for termination of acute symptomatic supraventricular tachycardia (SVT).",
     "In acute symptomatic SVT that persists despite vagal maneuvers, intravenous adenosine is indicated; synchronized cardioversion or atrioventricular blocking agents such as verapamil may be used if vagal maneuvers and adenosine fail."
@@ -58,5 +59,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:49:26.952215-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24225",
+        "file": "figures/cvfig24225.bcf3d6072c063f74fd802097e1c0ce1c.jpg",
+        "title": "ECG in a Patient With Supraventricular Tachycardia",
+        "short_title": "stem ECG in Patient With SVT",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 862,
+        "height": 398
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.686773-06:00"
 }

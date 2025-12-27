@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 61-year-old man is evaluated for a rising prostate-specific antigen (PSA) level. Five years ago, he was diagnosed with early-stage prostate cancer and treated with radical prostatectomy, after which his PSA level became undetectable. A rising PSA level was identified 4 years after surgery. He has no other medical problems and takes no medications.Physical examination findings, including vital signs, are normal.CT and bone scans show no evidence of metastatic disease.",
+  "question_text": "A 61-year-old man is evaluated for a rising prostate-specific antigen (PSA) level. Five years ago, he was diagnosed with early-stage prostate cancer and treated with radical prostatectomy, after which his PSA level became undetectable. A rising PSA level was identified 4 years after surgery. He has no other medical problems and takes no medications.Physical examination findings, including vital signs, are normal.Laboratory studies:Prostate-specific antigenToday0.4 ng/mL (0.4 µg/L)H6 months ago0.17 ng/mL (0.17 μg/L)1 year ago0.09 ng/mL (0.09 μg/L)CT and bone scans show no evidence of metastatic disease.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "In this patient with nonmetastatic (M0) recurrent prostate cancer, radiation to the prostate resection bed (Option D) is the most appropriate treatment. Standard treatment options for M0 recurrent prostate cancer include salvage radiation to the prostate resection bed and androgen-deprivation therapy (ADT). Multiple studies have shown that radiation therapy can improve outcomes as an initial treatment, with ADT typically added for men with higher prostate-specific antigen (PSA) levels. For example, in one study by the Radiation Therapy Oncology Group, the benefit of ADT was confined to men with PSA levels over 0.6 ng/mL. The benefit of ADT in men with PSA levels less than 0.6 ng/mL is unclear. This patient has M0 recurrent prostate cancer marked by a progressively increasing PSA level following prostatectomy without evidence of overt metastatic disease. The PSA doubling time is rapid (<6 months), and he clearly requires treatment. Radiation to the prostate resection bed is the most appropriate option for this patient. The addition of ADT to radiation could also be considered, given the rapid doubling time.Abiraterone plus prednisone (Option A) is a standard treatment for metastatic (M1) prostate cancer. However, it has not been shown to be an effective treatment for those with M0 recurrent prostate cancer, such as this patient.Chemotherapy with docetaxel (Option B) would not be the most appropriate treatment for this patient. Docetaxel is standard treatment for castration-resistant metastatic prostate cancer. It can also be used as a treatment component for men with high-volume castration-sensitive metastatic disease. It is not a standard treatment for M0 recurrent prostate cancer.Observation with serial PSA measurement (Option C) is a viable option for selected men with M0 recurrent prostate cancer. It is appropriate for patients with a slow PSA doubling time (>10 months) because those with more indolent prostate cancer can remain free of clinical metastatic disease for several years without treatment. However, for men with rapid PSA doubling times, like this patient, the risk for developing clinical metastatic disease is much higher, and treatment is indicated.",
+  "critique_links": [],
   "key_points": [
     "Patients with nonmetastatic recurrent prostate cancer can be treated with salvage radiation to the prostate resection bed, with androgen-deprivation therapy added for those with higher prostate-specific antigen (PSA) levels or rapid PSA doubling times.",
     "Observation with serial PSA measurements is a viable option for selected men with nonmetastatic recurrent prostate cancer with a slow PSA doubling time (>10 months)."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:27:06.277909-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.680700-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 41-year-old woman is evaluated for an expanding slightly pruritic rash with scaling, as shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is tinea corporis (Option D). Tinea (dermatophytosis) is classified based on the body site that is involved: tinea pedis (“athlete's foot”), tinea manuum (hand), tinea cruris (perineum), tinea capitis (scalp), tinea faciei (face), and tinea corporis (the body, excluding the genital area or inguinal folds). Tinea corporis manifests with the characteristic annular lesion with a slight scale; an erythematous, advancing edge; and central clearing. Erythema migrans is characterized by an expanding area of erythema, sometimes with central clearing, but does not have associated scaling. Granuloma annulare may have a similar appearance to tinea corporis, but scaling is not present. Pityriasis versicolor presents with oval macules with minimal scaling that may be hypo- or hyperpigmented.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24607.6fd91a8451cff0e608485b7c3c9a8a3a.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.807689-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24607",
+        "file": "figures/dmfig24607.6fd91a8451cff0e608485b7c3c9a8a3a.jpg",
+        "title": "Tinea Corporis",
+        "short_title": "stem Tinea Corporis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 795
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.343921-06:00"
 }

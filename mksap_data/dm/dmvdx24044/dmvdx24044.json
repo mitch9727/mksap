@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 39-year-old man is evaluated for a chronic pruritic skin condition involving the flexural surfaces of his wrist, arms, and legs.Representative skin findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is atopic dermatitis (Option C). Adult atopic dermatitis characteristically involves the antecubital and popliteal fossae and flexural wrists. When atopic dermatitis is acute, the skin is pruritic and red with poorly demarcated, eczematous, crusted, papulovesicular plaques and excoriations. As the dermatitis becomes chronic, skin becomes lichenified with accentuated skin lines (lichen simplex chronicus) and, particularly in dark skin, hyperpigmented. In contrast, psoriasis most commonly presents as plaques on the extensor surfaces. Allergic contact dermatitis commonly presents with intensely pruritic, often linear, vesicular papules, and plaques at the site of contact. Asteototic (xerotic) eczema is seen as fissured and dry skin, usually on the lower extremities of older patients.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24650.a4bffd70d901237705a6c43b13f18038.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.894339-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24650",
+        "file": "figures/dmfig24650.a4bffd70d901237705a6c43b13f18038.jpg",
+        "title": "Atopic Dermatitis",
+        "short_title": "stem Atopic Dermatitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 833
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.444353-06:00"
 }

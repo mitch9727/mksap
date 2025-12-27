@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 63-year-old patient is evaluated after hospitalization for a COPD exacerbation, which was their second exacerbation within the past year. The patient completed pulmonary rehabilitation and experienced some improvement but continues to have dyspnea with minimal exertion. They have no other medical problems. Medications are inhaled budesonide-glycopyrrolate-formoterol and low-dose daily azithromycin.On physical examination, vital signs are normal. Oxygen saturation is 92% with the patient breathing ambient air at rest. Dyspnea increases when the patient moves from the chair to the examination table. Lung examination reveals scattered expiratory wheezing and a prolonged expiratory phase.CT scan of the chest shows emphysematous changes predominantly in the upper lobes.",
+  "question_text": "A 63-year-old patient is evaluated after hospitalization for a COPD exacerbation, which was their second exacerbation within the past year. The patient completed pulmonary rehabilitation and experienced some improvement but continues to have dyspnea with minimal exertion. They have no other medical problems. Medications are inhaled budesonide-glycopyrrolate-formoterol and low-dose daily azithromycin.On physical examination, vital signs are normal. Oxygen saturation is 92% with the patient breathing ambient air at rest. Dyspnea increases when the patient moves from the chair to the examination table. Lung examination reveals scattered expiratory wheezing and a prolonged expiratory phase.Laboratory studies:Arterial blood gases:pH7.36LPco245 mm Hg (6.0 kPa)Po267 mm Hg (8.9 kPa)LBicarbonate26 mEq/L (26 mmol/L)α1-Antitrypsin levelNormal (PI*MM genotype)Pulmonary function tests:FEV132% of predictedL FEV1/FVC ratio0.55LDlco LowLTotal lung capacity130% of predictedCT scan of the chest shows emphysematous changes predominantly in the upper lobes.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment in this patient with upper lobe–predominant emphysema and significant exercise limitation is referral for lung volume reduction surgery (Option A). The National Emphysema Treatment Trial demonstrated that patients with upper lobe–predominant emphysema and significant exercise limitations despite participation in a pulmonary rehabilitation program had improved quality of life, exercise tolerance, pulmonary function, and survival with lung volume reduction surgery. Careful selection of patients is crucial; those with an FEV1 or diffusing capacity less than 20% of predicted or non–upper lobe–predominant disease should not be offered this surgery because of high operative mortality. Endobronchial valve therapy is a nonsurgical option for some patients and has less restrictive criteria. This patient has upper lobe–predominant emphysema and significant dyspnea despite completion of a pulmonary rehabilitation program. Their FEV1 and diffusing capacity are both substantially higher than 20% of predicted, and they should be referred for lung volume reduction surgery.Leukotriene-receptor antagonists, such as montelukast (Option B), have a modest bronchodilation effect and can be effective adjunct therapy in patients with aspirin-exacerbated respiratory disease, including asthma. Leukotriene-receptor antagonists, however, have no role in the treatment of COPD.When used in acute exacerbations of COPD, short courses of glucocorticoids, such as prednisone (Option C), decrease the likelihood of treatment failure, length of stay, and time to subsequent exacerbations while improving FEV1 and hypoxemia. They should not be used, however, as long-term therapy because of the lack of benefit and substantial adverse effects. Prednisone is not an appropriate treatment in this patient without an acute exacerbation.In patients with COPD and resting hypoxemia (defined as an arterial Po2 ≤55 mm Hg [7.3 kPa] or an oxygen saturation ≤88%), supplemental oxygen (Option D) improves quality of life and decreases mortality. This patient does not have resting hypoxemia to the required level, and supplemental oxygen is not indicated.",
+  "critique_links": [],
   "key_points": [
     "In carefully selected patients with COPD, lung volume reduction surgery is associated with improved quality of life, exercise tolerance, pulmonary function, and survival.",
     "Patients with severe upper lobe–predominant emphysema and significant exercise limitations should be considered for lung volume reduction surgery unless the FEV1 or diffusing capacity is less than 20% of predicted."
@@ -59,5 +60,28 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.070943-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      },
+      {
+        "table_id": "inline_table_2",
+        "file": "tables/inline_table_2.html",
+        "title": "Pulmonary function tests:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.165244-06:00"
 }

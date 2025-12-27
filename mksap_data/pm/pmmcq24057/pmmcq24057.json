@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 68-year-old man is evaluated before discharge during a hospitalization for an exacerbation of COPD. He initially presented 7 days ago with acute hypercapnic hypoxemic respiratory failure. He required noninvasive bilevel positive airway pressure ventilation for 12 hours but has responded well to treatment with prednisone, levofloxacin, and bronchodilators. His oxygen requirement has resolved, and his breathing, cough, and sputum production have returned to baseline. He has no other medical problems. His only medication is a daily umeclidinium-vilanterol inhaler.On physical examination, vital signs are normal. Oxygen saturation is 92% with the patient breathing ambient air. Lung examination reveals mildly decreased air movement throughout the lung fields.",
+  "question_text": "A 68-year-old man is evaluated before discharge during a hospitalization for an exacerbation of COPD. He initially presented 7 days ago with acute hypercapnic hypoxemic respiratory failure. He required noninvasive bilevel positive airway pressure ventilation for 12 hours but has responded well to treatment with prednisone, levofloxacin, and bronchodilators. His oxygen requirement has resolved, and his breathing, cough, and sputum production have returned to baseline. He has no other medical problems. His only medication is a daily umeclidinium-vilanterol inhaler.On physical examination, vital signs are normal. Oxygen saturation is 92% with the patient breathing ambient air. Lung examination reveals mildly decreased air movement throughout the lung fields.Laboratory studies:Leukocyte count6300/µL (6.3 × 109/L), with 75% neutrophils, 23% lymphocytes, 2% monocytesArterial blood gases:pH7.37LPco261 mm Hg (8.1 kPa)HPo269 mm Hg (9.2 kPa)LBicarbonate29 mEq/L (29 mmol/L)H",
   "question_stem": "Which of the following is the most appropriate next step in treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in treatment in this patient with COPD and chronic hypercapnia is to start nocturnal noninvasive positive-pressure ventilation (NPPV) (Option B). NPPV, also termed positive-pressure mechanical ventilation, has utility in COPD for both acute and chronic respiratory failure. For patients with a COPD exacerbation and acute hypercapnic respiratory failure with acidosis, NPPV improves symptoms and reduces intubation rates, length of hospitalization, and mortality. Similarly, in patients with persistent hypercapnia (Pco2 ≥52 mm Hg [6.9 kPa]) after an acute exacerbation of COPD, adding long-term nocturnal NPPV delivered at home prolongs the time to readmission and death. This patient has persistent hypercapnia following a hospitalization for acute exacerbation of COPD and should undergo a trial of nocturnal NPPV.The addition of an inhaled glucocorticoid, such as fluticasone (Option A), to long-acting bronchodilators improves lung function and reduce symptoms and exacerbations in patients with moderate to severe COPD but is associated with an increased risk for pneumonia. Inhaled glucocorticoids are most likely to benefit patients with a peripheral eosinophil count greater than 300/μL (0.30 × 109/L). Although this patient has severe underlying disease, he does not have peripheral eosinophilia, and an inhaled glucocorticoid, such as fluticasone, is unlikely to be of benefit.Oral glucocorticoids, such as prednisone (Option C), are recommended for short-duration treatment of acute exacerbations of COPD. However, long-term use of oral glucocorticoids should be avoided in COPD because of the risk for significant adverse effects. This patient has completed a short course of prednisone in the setting of an acute exacerbation, and there is no indication to extend this course.The use of supplemental oxygen (Option D) decreases mortality and improves quality of life in patients with COPD and resting hypoxemia with an arterial Po2 of 55 mm Hg (7.3 kPa) or less or an oxygen saturation (as measured by pulse oximetry) of 88% or less. This patient's Po2 of 69 mm Hg (9.2 kPa) and oxygen saturation of 92% while he breathes ambient air are above the levels at which supplemental oxygen is recommended.",
+  "critique_links": [],
   "key_points": [
     "Use of long-term nocturnal noninvasive positive-pressure ventilation in patients with persistent hypercapnia after an acute exacerbation of COPD prolongs the time to readmission and death."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.065939-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.164876-06:00"
 }

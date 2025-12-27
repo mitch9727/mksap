@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 26-year-old woman is evaluated for abdominal swelling. She has noted progressive abdominal distention over the past several months. She has had no abdominal pain, fever, or dyspnea. At age 14 years, she underwent chest irradiation and chemotherapy for Hodgkin lymphoma. She takes no medications.On physical examination, blood pressure is 88/58 mm Hg and pulse rate is 90/min; other vital signs are normal. BMI is 21. Central venous pressure is elevated with the patient sitting upright and increases with inspiration. The lungs are clear to auscultation. Cardiac examination reveals a grade 2/6 holosystolic murmur audible at the apex. The abdomen is distended, and a fluid wave is noted. There is slight peripheral edema.ECG shows normal sinus rhythm and nonspecific T-wave inversions inferiorly and anterolaterally. Chest radiograph is normal. Abdominal ultrasound reveals hepatomegaly and moderate ascites.Paracentesis reveals an albumin-ascites gradient of 2.1 g/L and an elevated total protein level of 2.9 g/L.",
+  "question_text": "A 26-year-old woman is evaluated for abdominal swelling. She has noted progressive abdominal distention over the past several months. She has had no abdominal pain, fever, or dyspnea. At age 14 years, she underwent chest irradiation and chemotherapy for Hodgkin lymphoma. She takes no medications.On physical examination, blood pressure is 88/58 mm Hg and pulse rate is 90/min; other vital signs are normal. BMI is 21. Central venous pressure is elevated with the patient sitting upright and increases with inspiration. The lungs are clear to auscultation. Cardiac examination reveals a grade 2/6 holosystolic murmur audible at the apex. The abdomen is distended, and a fluid wave is noted. There is slight peripheral edema.Laboratory studies:Albumin3.5 g/dL (35.0 g/L)Alanine aminotransferase71 U/LHAspartate aminotransferase62 U/LHTotal bilirubin1.1 mg/dL (18.8 μmol/L)INR1.1ECG shows normal sinus rhythm and nonspecific T-wave inversions inferiorly and anterolaterally. Chest radiograph is normal. Abdominal ultrasound reveals hepatomegaly and moderate ascites.Paracentesis reveals an albumin-ascites gradient of 2.1 g/L and an elevated total protein level of 2.9 g/L.",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate test to perform next is echocardiography (Option A) to identify possible constrictive pericarditis. Constrictive pericarditis is characterized by pericardial thickening that impairs diastolic filling and limits total cardiac volume. Causes include cardiac surgery, chest irradiation, autoimmune disease, and tuberculosis, although in many cases, no cause is identified. It most commonly presents as indolent progression of right-sided heart failure symptoms, including abdominal distention from ascites and peripheral edema. Central venous pressure (CVP) is elevated with prominent x and y descents; CVP may increase during inspiration (Kussmaul sign). A pericardial knock may also be present. Echocardiography is the preferred initial test in the evaluation of possible constrictive pericarditis. This patient with elevated CVP with the Kussmaul sign and ascites likely has constrictive pericarditis as a complication of chest irradiation therapy. An echocardiogram will likely show the typical findings of constrictive pericarditis, including exaggerated ventricular interdependence resulting from limitation of total cardiac volume by the rigid pericardium.Hemodynamic cardiac catheterization (Option B) would confirm the findings of constrictive pericarditis, but it is an invasive study. Echocardiography would be the best initial test for this patient and is likely to make the diagnosis. Invasive determination of hemodynamics would be useful if the diagnosis remained in question after noninvasive studies.Liver biopsy (Option C) is not indicated in this patient. In patients with possible cirrhosis, biopsy may be indicated to establish the presence of cirrhosis or, in some cases, to help establish the underlying cause. This patient, however, has several findings that point toward cardiac disease, including elevated CVP and an ascitic fluid with a high serum albumin-ascites gradient and total protein level. Echocardiography is the best test to perform next.Ultrasound elastography (Option D) assesses liver stiffness as a measure of fibrosis and is an alternative to liver biopsy in assessing the likelihood of cirrhosis. This patient probably has cardiac disease, and diagnostic testing should focus on the heart rather than the liver.",
+  "critique_links": [],
   "key_points": [
     "Echocardiography is the preferred initial test in the evaluation of possible constrictive pericarditis.",
     "Signs of constrictive pericarditis include an elevated central venous pressure (CVP) with prominent x and y descents, Kussmaul sign (paradoxical inspiratory increase in CVP), and a pericardial knock."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:48:51.311841-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.512417-06:00"
 }

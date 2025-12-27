@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 50-year-old woman is evaluated for a 6-month history of fatigue; malaise; difficulty concentrating; and myalgia of the neck, upper shoulders, and upper legs that persists throughout the day. Ibuprofen has not improved symptoms. She has a longstanding history of intermittent sensitivity to cold, with color changes of her fingers. Medical conditions include hypothyroidism and migraines. Medications are levothyroxine and sumatriptan.On physical examination, vital signs are normal. There is widespread soft tissue tenderness. Joint examination reveals no swelling and normal range of motion. Muscle strength is normal. There are no rashes, digital ulcers, or cyanosis. The remainder of the examination is unremarkable.Laboratory studies:Erythrocyte sedimentation rate15 mm/hC-reactive protein0.5 mg/dL (5.0 mg/L)Creatine kinase55 U/LAntinuclear antibody titer1:160Complete blood count, comprehensive metabolic panel, thyroid-stimulating hormone level, complement C3 and C4 levels, and urinalysis findings are normal. Anti–double-stranded DNA antibody is negative.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is fibromyalgia (Option A). Fibromyalgia is characterized by widespread chronic pain, fatigue, disturbed sleep, and mental fogginess. Patients frequently have other coexistent painful conditions, including chronic headaches, temporomandibular joint disorder, irritable bowel syndrome, interstitial cystitis, and chronic pelvic pain. Central sensitization, including amplification of pain signaling within the central nervous system, is thought to contribute to symptoms. Two instruments are available to aid in the diagnosis of fibromyalgia (see Table: Diagnostic Criteria for Fibromyalgia), and these tools rely on patient reporting of symptoms. Extensive laboratory studies are generally unnecessary unless other specific diagnoses are suspected. The distribution of pain throughout multiple areas in this patient, with symptoms lasting more than 3 months, is consistent with a diagnosis of fibromyalgia. This patient's longstanding Raynaud phenomenon is likely primary, rather than a sign of an underlying autoimmune rheumatic disease.Polymyositis (Option B) is characterized by progressive, symmetric, proximal muscle weakness. Although this patient has myalgia and tenderness, the lack of weakness and normal creatine kinase level do not support the diagnosis of polymyositis.Although this patient has Raynaud phenomenon and a weakly positive antinuclear antibody (ANA) titer, these features are nonspecific for systemic lupus erythematosus (SLE) (Option C). Positive ANA titers are prevalent in the general population, so care must be taken to avoid incorrectly diagnosing patients with fibromyalgia and positive ANA results with a connective tissue disease because this may lead to inappropriate and harmful prescribing. Furthermore, SLE is associated with findings in multiple organ systems; in addition to ANA positivity, features of SLE may include malar rash, photosensitivity, inflammatory arthritis, weight loss, fever, and presence of lupus-specific antibodies. This patient's presentation is better attributed to fibromyalgia; her ANA positivity is more likely related to autoimmune thyroid disease.Although Raynaud phenomenon is highly prevalent in systemic sclerosis (SSc) (Option D), skin findings are typically universally present in this disease. This patient has a long-standing history of Raynaud phenomenon without SSc skin findings, making SSc an unlikely diagnosis.",
+  "critique_links": [],
   "key_points": [
     "Fibromyalgia is a disorder of pain perception and processing, and patients with fibromyalgia often have diffuse pain symptoms.",
     "Positive antinuclear antibody (ANA) titers are prevalent in the general population and often a nonspecific finding, so care must be taken to avoid incorrectly diagnosing patients with fibromyalgia and positive ANA results with a connective tissue disease."
@@ -51,10 +52,44 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/rmtab24020.html",
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:54:42.346198-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "rmtab24020",
+        "file": "tables/rmtab24020.html",
+        "title": "Comparison of ACR Diagnostic Criteria and ACTTION-APS Pain Taxonomy Diagnostic Criteria for Fibromyalgia<sup>a</sup>",
+        "short_title": "Diagnostic Criteria for Fibromyalgia",
+        "footnotes": [
+          "ACR = American College of Rheumatology; ACTTION = Analgesic, Anesthetic, and Addiction Clinical Trial Translations Innovations Opportunities and Networks; APS = American Pain Society.",
+          "<sup>a</sup>A diagnosis of fibromyalgia does not exclude the presence of other clinically important illnesses.",
+          "<sup>b</sup>Fibromyalgia is diagnosed in the setting of Widespread Pain Index ≥7 plus Symptom Severity Scale score ≥5, or Widespread Pain Index ≥3 plus Symptom Severity Scale score ≥9.",
+          "<sup>c</sup>Widespread Pain Index and Symptom Severity Scale are available in <a href=\"https://www.umassmed.edu/globalassets/office-of-continuing-medical-education/pdfs/cme-primary-care-days/c1-handout-fibromyalgia.pdf\" target=\"_blank\">PDF format</a>."
+        ],
+        "headers": [
+          "2010 ACR Preliminary Diagnostic Criteria (2016 Revision)",
+          "ACTTION-APS Pain Taxonomy Criteria (2019)"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.587382-06:00"
 }

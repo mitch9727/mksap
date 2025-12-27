@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 23-year-old patient is evaluated in the emergency department for a 4-day history of progressive weakness and numbness. The numbness started in their right foot and spread to their right hip over 2 days, then to their left leg on the third day. Today, the patient developed a new right foot drop and urinary retention, which prompted evaluation. The patient reports no recent illness, rash, vaccines, or trauma. They have no history of previous neurologic symptoms. Medical history is notable for hypothyroidism. Their only medication is levothyroxine.On physical examination, vital signs are normal. A neurologic examination reveals 4/5 strength with right ankle dorsiflexion and knee flexion. The patient has diminished sensation to light touch and vibration up to the umbilicus.MRI of the thoracic spine reveals an enhancing lesion in the dorsal spinal cord at T10.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "MRI of the brain (Option B) should be performed next to look for demyelinating lesions suggestive of multiple sclerosis (MS). The diagnosis of MS requires the presence of signs or symptoms of central nervous system demyelination disseminated in time and space. Time refers to separate clinical relapses, whereas space refers to separate MRI lesions. Based on the McDonald criteria, patients can be diagnosed with MS with their first episode if they have an acute MRI-enhancing lesion along with evidence of previous inflammatory activity as demonstrated by the presence of concomitant nonenhancing lesions (representing episodes separated in space and time). The criteria for dissemination in space is fulfilled by the presence of lesions in at least two of the following regions: periventricular, juxtacortical, infratentorial (brainstem or cerebellum), spinal cord, and optic nerve. See Table: Multiple Sclerosis Diagnostic Criteria. This patient has a single enhancing lesion on spinal MRI, which would meet criteria for clinically isolated syndrome but not MS. A brain MRI under MS protocol is the easiest way to investigate the possibility of MS. If the MRI shows evidence for a previous nonenhancing lesion, then this patient would meet both time and space criteria for relapsing-remitting MS.Lumbar puncture (Option A) can assess for the presence of cerebrospinal fluid oligoclonal bands and kappa free light chains, which can be substituted for the requirement for dissemination of findings in time in diagnosing MS. The presence of oligoclonal bands or kappa free light chains, however, is not necessary for the diagnosis of MS, and MRI of the brain represents an easier and noninvasive way to confirm the diagnosis.Demyelinating lesions of the optic nerve can be electrophysiologically confirmed with visual evoked potentials (Option C). They are most useful when optic nerve involvement is suspected and other criteria for MS are not satisfied. Brain MRI, however, is an easier next test to assess the likelihood of MS.It is important to establish an MS diagnosis early because prompt initiation of treatment may alter the disease course. No further diagnostic testing (Option D) is not an appropriate option.",
+  "critique_links": [],
   "key_points": [
     "Patients presenting with a central nervous system demyelinating event can be diagnosed with multiple sclerosis if they have evidence of previous inflammatory activity, demonstrated by the presence of MRI-enhancing lesions with concomitant nonenhancing lesions (representing previous episodes separated in space and time).",
     "MRI in multiple sclerosis may show demyelinating lesions in the juxtacortical, periventricular, infratentorial (brainstem or cerebellum), or spinal regions or in the optic nerve."
@@ -52,11 +53,36 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/nrtab25001.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:16:52.198888-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nrtab25001",
+        "file": "tables/nrtab25001.html",
+        "title": "Multiple Sclerosis Diagnostic Criteria",
+        "short_title": "Multiple Sclerosis Diagnostic Criteria",
+        "footnotes": [
+          "CNS = central nervous system; CSF = cerebrospinal fluid; CVS = central vein sign; MS = multiple sclerosis; PRL = paramagnetic rim lesion",
+          "<sup>a</sup>Central nervous system lesions that can fulfill a multiple sclerosis diagnosis are those appearing in periventricular, juxtacortical (or cortical), infratentorial, or spinal locations as well as those in the optic nerve.",
+          "<sup>b</sup>Cerebrospinal fluid positivity is indicated by the presence of oligoclonal bands, kappa free light chains, or both.",
+          "<sup>c</sup>Central vein sign is a small-diameter (&lt;2 mm) hypointense dot or line that runs through a lesion.",
+          "<sup>d</sup>The dissemination in time criterion is fulfilled with the presence of one or more new T2 lesions compared with a previous MRI, a new clinical episode (with different symptoms from previous episodes to distinguish it from pseudoexacerbation), or the presence of new contrast-enhancing lesions.",
+          "<sup>e</sup>A paramagnetic rim lesion is a hypointense rim around at least 2/3 of a lesion on a susceptibility sequence MRI (susceptibility-weighted angiography [SWAN], gradient echo [GRE], T2), indicating chronic inflammation and iron accumulation.",
+          "Information from Montalban X, Lebrun-Frénay C, Oh J, et al. Diagnosis of multiple sclerosis: 2024 revisions of the McDonald criteria. Lancet Neurol. 2025;24:850-865. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/40975101\" target=\"_blank\">PMID: 40975101</a> doi:10.1016/S1474-4422(25)00270-4"
+        ],
+        "headers": [
+          "In the presence of a suggestive clinical presentation with exclusion of other better explanations, MS may be diagnosed with:"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.161913-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 62-year-old woman is evaluated for 1 year of constant, progressive pain and swelling in the hands bilaterally. She experiences 30 minutes of increased stiffness in the morning. Ibuprofen has provided minimal relief. She cannot engage in previously enjoyable hobbies, such as gardening, and she notes increasing difficulty with basic activities, such as buttoning her clothes. She is otherwise healthy and takes no other medications.On physical examination, vital signs are normal. Hand findings are shown. The remainder of the physical examination, including the skin and nails, is normal.Radiograph of the hands shows joint-space narrowing with osteophyte formation and central erosions involving the proximal interphalangeal and distal interphalangeal joints. No evidence of periostitis is present.",
+  "question_text": "A 62-year-old woman is evaluated for 1 year of constant, progressive pain and swelling in the hands bilaterally. She experiences 30 minutes of increased stiffness in the morning. Ibuprofen has provided minimal relief. She cannot engage in previously enjoyable hobbies, such as gardening, and she notes increasing difficulty with basic activities, such as buttoning her clothes. She is otherwise healthy and takes no other medications.On physical examination, vital signs are normal. Hand findings are shown. The remainder of the physical examination, including the skin and nails, is normal.Laboratory studies:C-reactive protein0.3 mg/dL (3.0 g/dL)Rheumatoid factorNegativeAntinuclear antibody titer1:80 (speckled pattern)Anti–cyclic citrullinated peptide antibodiesNegativeRadiograph of the hands shows joint-space narrowing with osteophyte formation and central erosions involving the proximal interphalangeal and distal interphalangeal joints. No evidence of periostitis is present.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most likely diagnosis is erosive osteoarthritis (OA) (Option A). Erosive (inflammatory) OA is sometimes characterized as a subset of primary hand OA, but there is controversy regarding whether it may be a separate disease entity. Like primary OA, erosive OA prominently affects the distal interphalangeal (DIP) and proximal interphalangeal (PIP) joints and is frequently accompanied by morning stiffness; however, it leads to more joint erythema and swelling, and it is typically more painful, disabling, and deforming than primary hand OA. Erosive OA is more common in women. Although there may be modest elevations in inflammatory markers, no specific laboratory tests for erosive OA are available. Radiographs offer the most specific diagnostic findings, revealing disease-defining central erosions with a “seagull” or “gull-wing” appearance in the interphalangeal joints (see ). Joint ankylosis (bony fusion) may also occur. There are no disease-modifying therapies for erosive OA; treatment is focused on analgesia and preservation of function. The characteristic radiographic central erosions in this patient with severe, progressive distal polyarticular hand arthritis confirm the diagnosis of erosive hand OA.Psoriatic arthritis (PsA) (Option B) may also involve the PIP and DIP joints, but PsA causes distal cortical bone erosions rather than the central erosions characteristic of erosive OA. Most patients with PsA also have evidence of psoriasis involving the skin and nails; these findings are absent in this patient.Rheumatoid arthritis (RA) (Option C) can cause polyarticular hand arthritis, but it typically spares the DIP joints, unlike the pattern of joint involvement in this patient. Furthermore, the erosions in RA are marginal rather than central, and RA is usually associated with elevations in rheumatoid factor and anti–cyclic citrullinated peptide antibodies, which are negative in this patient.Systemic lupus erythematosus (Option D) can cause inflammatory arthritis of the hands, but this disease typically spares the DIP joints and is not associated with central erosions on radiography. This patient has no other signs of lupus, and her low antinuclear antibody titer is a nonspecific finding.",
+  "critique": "The most likely diagnosis is erosive osteoarthritis (OA) (Option A). Erosive (inflammatory) OA is sometimes characterized as a subset of primary hand OA, but there is controversy regarding whether it may be a separate disease entity. Like primary OA, erosive OA prominently affects the distal interphalangeal (DIP) and proximal interphalangeal (PIP) joints and is frequently accompanied by morning stiffness; however, it leads to more joint erythema and swelling, and it is typically more painful, disabling, and deforming than primary hand OA. Erosive OA is more common in women. Although there may be modest elevations in inflammatory markers, no specific laboratory tests for erosive OA are available. Radiographs offer the most specific diagnostic findings, revealing disease-defining central erosions with a “seagull” or “gull-wing” appearance in the interphalangeal joints (see Figure: Radiographs Showing Erosive Hand OA). Joint ankylosis (bony fusion) may also occur. There are no disease-modifying therapies for erosive OA; treatment is focused on analgesia and preservation of function. The characteristic radiographic central erosions in this patient with severe, progressive distal polyarticular hand arthritis confirm the diagnosis of erosive hand OA.Psoriatic arthritis (PsA) (Option B) may also involve the PIP and DIP joints, but PsA causes distal cortical bone erosions rather than the central erosions characteristic of erosive OA. Most patients with PsA also have evidence of psoriasis involving the skin and nails; these findings are absent in this patient.Rheumatoid arthritis (RA) (Option C) can cause polyarticular hand arthritis, but it typically spares the DIP joints, unlike the pattern of joint involvement in this patient. Furthermore, the erosions in RA are marginal rather than central, and RA is usually associated with elevations in rheumatoid factor and anti–cyclic citrullinated peptide antibodies, which are negative in this patient.Systemic lupus erythematosus (Option D) can cause inflammatory arthritis of the hands, but this disease typically spares the DIP joints and is not associated with central erosions on radiography. This patient has no other signs of lupus, and her low antinuclear antibody titer is a nonspecific finding.",
+  "critique_links": [],
   "key_points": [
     "Erosive osteoarthritis prominently affects the distal interphalangeal and proximal interphalangeal joints, leads to more joint erythema and swelling than primary hand osteoarthritis, and is characterized by central erosions on radiography."
   ],
@@ -59,5 +60,32 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:47:06.765465-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "rmfig24206",
+        "file": "figures/rmfig24206.d9f85e4cbd85f869e5ee423ea83d10cd.jpg",
+        "title": "Erosive Hand Osteoarthritis",
+        "short_title": "stem Erosive Hand Osteoarthritis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 506
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.748054-06:00"
 }

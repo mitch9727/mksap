@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 54-year-old patient is evaluated for a 1-month history of reduced appetite, mild headache, weight loss, and fatigue. They have metastatic melanoma treated with nivolumab and ipilimumab.On physical examination, blood pressure is 100/70 mm Hg and pulse rate is 101/min. BMI is 18. Visual field testing is normal. No focal neurologic findings are present.MRI shows a mildly enlarged pituitary gland with homogeneous enhancement and thickening of the pituitary stalk. There is no compression of the optic chiasm.",
+  "question_text": "A 54-year-old patient is evaluated for a 1-month history of reduced appetite, mild headache, weight loss, and fatigue. They have metastatic melanoma treated with nivolumab and ipilimumab.On physical examination, blood pressure is 100/70 mm Hg and pulse rate is 101/min. BMI is 18. Visual field testing is normal. No focal neurologic findings are present.Laboratory studies:8 am adrenocorticotropic hormone 9 pg/mL (2.0 pmol/L)8 am cortisol 2 µg/dL (55.2 nmol/L)LLuteinizing hormone2 mU/mL (2 U/L)LThyroid-stimulating hormone0.5 µU/mL (0.5 mU/L)Free thyroxine0.6 ng/dL (7.7 pmol/L)LMRI shows a mildly enlarged pituitary gland with homogeneous enhancement and thickening of the pituitary stalk. There is no compression of the optic chiasm.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has hypophysitis related to immune checkpoint inhibitor therapy, and the most appropriate next step in management is to start hydrocortisone (Option B). Ten percent of patients receiving anti–cytotoxic T-lymphocyte–associated protein-4 (anti–CTL-4) agents (e.g., ipilimumab) and a smaller number of patients receiving anti–programmed cell death protein-1 (anti–PD-1) agents (e.g., nivolumab) or anti–programmed cell death ligand protein-1 (anti–PD-L1) agents will develop hypophysitis. Patients often present with fatigue and headache. Compressive symptoms, including visual deficits, may be present in patients with severe disease. Deficiencies of adrenocorticotropic hormone, luteinizing hormone, thyroid-stimulating hormone (TSH), and growth hormone are common. Arginine vasopressin deficiency (formerly central diabetes insipidus) is uncommon. Imaging reveals pituitary gland enhancement or enlargement with a thickened stalk. Although metastases to the pituitary gland may occur, they usually present as a rapidly enlarging mass with evidence of anterior and posterior pituitary hormone deficiencies. Management of hypophysitis includes treatment of pituitary hormone deficiencies. Importantly, cortisol deficiency should always be treated first. Hydrocortisone (15-25 mg/d) is typically recommended. However, in patients with hypophysitis that causes compressive symptoms, high-dose glucocorticoids (1-2 mg/kg per day for 1-2 weeks) should be initiated. This patient is receiving combination immune checkpoint inhibitor therapy and has developed hypopituitarism as a result of that treatment; hydrocortisone should be administered promptly to treat secondary adrenal insufficiency.Discontinuation of immune checkpoint inhibitor therapy is not necessary in mild cases of hypophysitis. In severe cases, with compression of surrounding structures from pituitary enlargement or visual symptoms, the immune checkpoint inhibitor should be discontinued until symptoms resolve. This patient has mild disease that can be managed with pituitary hormone replacement therapy; therefore, discontinuing ipilimumab (Option A) is unnecessary.This patient has secondary hypothyroidism as evidenced by a low free thyroxine level and an inappropriately normal TSH level. However, starting levothyroxine (Option C) before treating adrenal insufficiency would be inappropriate because it might worsen adrenal insufficiency and potentially precipitate adrenal crisis. Adrenal insufficiency should always be treated before initiating levothyroxine therapy.Pituitary biopsy (Option D) is not necessary in this patient because their clinical presentation, laboratory findings, and imaging characteristics are consistent with hypophysitis. If the patient had an atypical presentation, such as symptoms suggestive of an arginine vasopressin disorder and/or a rapidly enlarging mass, biopsy might be considered to rule out metastasis.",
+  "critique_links": [],
   "key_points": [
     "Immune checkpoint inhibitors are associated with hypophysitis; deficiencies of adrenocorticotropic hormone, luteinizing hormone, thyroid-stimulating hormone, and growth hormone are common.",
     "In patients with hypophysitis, adrenal insufficiency should always be treated before initiating levothyroxine therapy."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:46.021842-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.219108-06:00"
 }

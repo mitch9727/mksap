@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 72-year-old man is evaluated for COPD. He was recently hospitalized for a COPD exacerbation and treated with oral glucocorticoids and doxycycline. He has had one other exacerbation in the past 12 months. He continues to experience shortness of breath with exertion, including while grocery shopping. He also has a nonproductive cough and occasional wheezing. He has a 40-pack-year smoking history and quit smoking 2 years ago. His only medications are inhaled fluticasone-umeclidinium-vilanterol.On physical examination, vital signs are normal. Oxygen saturation is 90% with the patient breathing ambient air. He is short of breath when moving from the chair to the examination table. Lung examination reveals faint scattered wheezing with decreased air movement throughout the lung fields.",
+  "question_text": "A 72-year-old man is evaluated for COPD. He was recently hospitalized for a COPD exacerbation and treated with oral glucocorticoids and doxycycline. He has had one other exacerbation in the past 12 months. He continues to experience shortness of breath with exertion, including while grocery shopping. He also has a nonproductive cough and occasional wheezing. He has a 40-pack-year smoking history and quit smoking 2 years ago. His only medications are inhaled fluticasone-umeclidinium-vilanterol.On physical examination, vital signs are normal. Oxygen saturation is 90% with the patient breathing ambient air. He is short of breath when moving from the chair to the examination table. Lung examination reveals faint scattered wheezing with decreased air movement throughout the lung fields.Laboratory studies:Arterial blood gases:pH7.38Pco248 mm Hg (6.4 kPa)HPo261 mm Hg (8.1 kPa)LBicarbonate27 mEq/L (27 mmol/L)",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate treatment in this patient with COPD and frequent exacerbations is referral for pulmonary rehabilitation (Option B). Pulmonary rehabilitation combines exercise training, nutritional support, education, and social support for patients with chronic lung conditions. It has been shown to relieve symptoms, improve quality of life, and decrease frequency of hospitalizations in patients with COPD. Referral for pulmonary rehabilitation should be considered in all patients in Global Initiative for Chronic Obstructive Lung Disease (GOLD) severity group B or E, particularly those recently hospitalized for a COPD exacerbation. This patient has GOLD group E COPD because of his frequent exacerbations and recent hospitalization for an exacerbation; therefore, he should be referred for pulmonary rehabilitation.In patients with persistent hypercapnia (Pco2 ≥52 mm Hg [6.9 kPa]) after an acute exacerbation of COPD, the addition of noninvasive positive-pressure ventilation (NPPV) (Option A) to oxygen therapy prolongs the time to readmission and death. Although this patient has mild hypercapnia, it is not to a level that qualifies him for the addition of NPPV.Supplemental oxygen (Option C) is indicated to decrease mortality and improve quality of life in patients with COPD and a resting arterial Po of 55 mm Hg (7.3 kPa) or less or an oxygen saturation of 88% or less. It is also appropriate with a resting arterial Po of 59 mm Hg (7.8 kPa) or less or an oxygen saturation of 89% or less if cor pulmonale or erythrocytosis is present. This patient's level of hypoxemia does not qualify him for supplemental home oxygen therapy.The methylxanthines (aminophylline and theophylline [Option D]) are no longer routinely used for COPD treatment. Although theophylline can improve functional capacity and reduce exacerbation rates, it has a narrow therapeutic window; other treatment options are preferred. Methylxanthines should also not be used in patients taking roflumilast because of potential increased likelihood of toxicity. Theophylline is not an appropriate treatment option in this patient.",
+  "critique": "The most appropriate treatment in this patient with COPD and frequent exacerbations is referral for pulmonary rehabilitation (Option B). Pulmonary rehabilitation combines exercise training, nutritional support, education, and social support for patients with chronic lung conditions. It has been shown to relieve symptoms, improve quality of life, and decrease frequency of hospitalizations in patients with COPD. Referral for pulmonary rehabilitation should be considered in all patients in Global Initiative for Chronic Obstructive Lung Disease (GOLD) severity group B or E, particularly those recently hospitalized for a COPD exacerbation. This patient has GOLD group E COPD because of his frequent exacerbations and recent hospitalization for an exacerbation; therefore, he should be referred for pulmonary rehabilitation.In patients with persistent hypercapnia (Pco2 ≥52 mm Hg [6.9 kPa]) after an acute exacerbation of COPD, the addition of noninvasive positive-pressure ventilation (NPPV) (Option A) to oxygen therapy prolongs the time to readmission and death. Although this patient has mild hypercapnia, it is not to a level that qualifies him for the addition of NPPV.Supplemental oxygen (Option C) is indicated to decrease mortality and improve quality of life in patients with COPD and a resting arterial Po2 of 55 mm Hg (7.3 kPa) or less or an oxygen saturation of 88% or less. It is also appropriate with a resting arterial Po2 of 59 mm Hg (7.8 kPa) or less or an oxygen saturation of 89% or less if cor pulmonale or erythrocytosis is present. This patient's level of hypoxemia does not qualify him for supplemental home oxygen therapy.The methylxanthines (aminophylline and theophylline [Option D]) are no longer routinely used for COPD treatment. Although theophylline can improve functional capacity and reduce exacerbation rates, it has a narrow therapeutic window; other treatment options are preferred. Methylxanthines should also not be used in patients taking roflumilast because of potential increased likelihood of toxicity. Theophylline is not an appropriate treatment option in this patient.",
+  "critique_links": [],
   "key_points": [
     "Pulmonary rehabilitation has been shown to relieve symptoms, improve quality of life, and decrease frequency of hospitalizations in patients with COPD.",
     "Referral for pulmonary rehabilitation should be considered in all patients in Global Initiative for Chronic Obstructive Lung Disease severity group B or E, particularly those with a recent exacerbation requiring hospitalization."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.065516-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.137053-06:00"
 }

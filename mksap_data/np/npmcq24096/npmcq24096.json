@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 54-year-old woman is evaluated in the emergency department for confusion, weight loss, and poor appetite. She has COPD and tobacco use disorder. Medications are olodaterol-tiotropium and an albuterol inhaler.On physical examination, the patient is confused. Temperature is 36.9 °C (98.4 °F), blood pressure is 132/76 mm Hg, pulse rate is 72/min, and respiration rate is 20/min. BMI is 18. On pulmonary auscultation, there is a prolonged expiratory phase.",
+  "question_text": "A 54-year-old woman is evaluated in the emergency department for confusion, weight loss, and poor appetite. She has COPD and tobacco use disorder. Medications are olodaterol-tiotropium and an albuterol inhaler.On physical examination, the patient is confused. Temperature is 36.9 °C (98.4 °F), blood pressure is 132/76 mm Hg, pulse rate is 72/min, and respiration rate is 20/min. BMI is 18. On pulmonary auscultation, there is a prolonged expiratory phase.Laboratory studies:Blood urea nitrogen6.0 mg/dL (2.1 mmol/L)LCreatinine0.9 mg/dL (79.6 µmol/L)ElectrolytesSodium116 mEq/L (116 mmol/L)LPotassium3.8 mEq/L (3.8 mmol/L)Chloride84 mEq/L (84 mmol/L)LBicarbonate22 mEq/L (22 mmol/L)LGlucose90 mg/dL (5.0 mmol/L)Serum osmolality240 mOsm/kg H2OLUrine osmolality580 mOsm/kg H2OUrine sodium60 mEq/L (60 mmol/L)",
   "question_stem": "Which of the following is the most appropriate treatment of this patient's hyponatremia?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment is intravenous 3% saline infusion (Option B). This patient has symptomatic severe hyponatremia of unknown duration that is likely due to the syndrome of inappropriate antidiuretic hormone (SIADH). This patient's low serum osmolality indicates hypotonic hyponatremia. The elevated urine osmolality indicates the presence of increased antidiuretic hormone, and urine sodium concentration >40 mEq/L (40 mmol/L) suggests that the patient is not volume depleted; therefore, the increased antidiuretic hormone (ADH) is inappropriate. If the time course of hyponatremia is unknown, as in this case, it should be treated as chronic hyponatremia. Because movement of water between the extracellular and intracellular space is determined by extracellular osmolality, changes in extracellular osmolality will cause water to move in or out of cells, resulting in cellular swelling or shrinkage. To prevent changes in cellular volume, brain cells have adapted to the osmotic stress induced by hyponatremia by secreting osmotically active solutes to prevent swelling in the face of hyponatremia. This volume regulatory response is complete in 48 hours. Thus, if serum sodium is increased too quickly, water will move out of brain cells causing shrinkage, eventual demyelination, and potentially catastrophic neurologic changes. To avoid osmotic demyelination, the goal of treatment is to increase the serum sodium level by only 4.0 to 6.0 mEq/L (4.0-6.0 mmol/L) over 24 hours. If there is significant neurologic impairment, as in this patient's case, sodium can be acutely increased 2.0 to 4.0 mEq/L (2.0-4.0 mmol/L), but not more than 6.0 mEq/L (6.0 mmol/L), in 24 hours using either a bolus or a continuous 30-mL/h infusion of 3% saline, with frequent monitoring of the urine volume and serum sodium. To avoid overcorrection, some experts advise the concomitant use of desmopressin.This patient has an inappropriate release of ADH with an elevation of urine osmolality. Intravenous 0.9% saline (Option A) may further lower serum sodium, as the infused sodium will be excreted in a urine volume lower than the volume administered and therefore should be avoided.Oral tolvaptan (Option C) is not recommended for symptomatic patients with severe hyponatremia, such as this patient. Although tolvaptan blocks ADH action and increases serum sodium, the rate of response is unpredictable and would be inappropriate in this case.Although water restriction (Option D) can increase serum sodium and is the treatment of choice in patients with hyponatremia without significant symptoms, the process is slow. It is inappropriate for this patient with neurologic symptoms.",
+  "critique_links": [],
   "key_points": [
     "For patients with hyponatremia with neurologic symptoms, continuous or bolus infusions of 3% saline can be administered while closely monitoring urine output and serum sodium; serum sodium should only be increased by 4.0 to 6.0 mEq/L (4.0-6.0 mmol/L) over 24 hours to avoid osmotic demyelination."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:14.943091-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.863805-06:00"
 }

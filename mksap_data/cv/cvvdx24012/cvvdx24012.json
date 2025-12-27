@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 40-year-old woman is evaluated for hypotension and dyspnea. She is currently being treated for breast cancer. Blood pressure is 100/70 mm Hg, and pulse rate is 170/min. Heart sounds are distant. Jugular venous pressure is elevated.ECG is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is cardiac tamponade (Option B). On ECG, electrical alternans (a shifting of the QRS axis with each beat related to a swinging motion of the heart within the pericardial fluid) and low voltage are suggestive of cardiac tamponade. Clinical signs of tamponade include tachycardia, hypotension, muffled heart sounds, and elevation of the jugular venous pulse. The y descent of the jugular venous pulse may be absent because passive filling of the ventricles is impeded by the intrapericardial pressure. The cardiac silhouette is typically enlarged on chest radiograph if the accumulation of fluid has occurred slowly. In this patient, the ECG demonstrates electrical alternans, which is most clearly seen in leads I and II and the precordial leads, making cardiac tamponade a likely diagnosis.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.382316-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24613",
+        "file": "figures/cvfig24613.a666b330b2aaa66bc5ff89a0342004ca.jpg",
+        "title": "ECG Showing Electrical Alternans",
+        "short_title": "stem ECG Showing Electrical Alternans",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 510
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.853835-06:00"
 }

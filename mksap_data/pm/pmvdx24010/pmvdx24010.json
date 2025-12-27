@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 27-year-old asymptomatic woman is evaluated for incidentally discovered hilar enlargement on chest radiography. CT of the chest is performed.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is stage I pulmonary sarcoidosis (hilar lymphadenopathy with normal lung parenchyma) (Option C). This chest CT scan shows lymphadenopathy. The scan is at a level just below the carina. It shows marked enlargement of lymph nodes in both hila (white arrows) and enlargement of a subcarinal lymph node (black arrow). Stage I pulmonary sarcoidosis is generally asymptomatic. Approximately 50% of all patients with pulmonary sarcoidosis are asymptomatic, with the disease incidentally detected on chest imaging performed for unrelated indications. (AAo = ascending aorta; DAo = descending aorta; LMB = left mainstem bronchus; RMB = right mainstem bronchus; RPA = right pulmonary artery.)",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/pmfig24615.5fef548411d2c5ea66ff2044f0bc2de0.jpg",
-      "figures/pmfig24614.e0d68a6757694779b6ac9547f894d86c.jpg"
+      "figures/pmfig24614.e0d68a6757694779b6ac9547f894d86c.jpg",
+      "figures/pmfig24615.5fef548411d2c5ea66ff2044f0bc2de0.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.246389-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24614",
+        "file": "figures/pmfig24614.e0d68a6757694779b6ac9547f894d86c.jpg",
+        "title": "CT Scan Showing Sarcoidosis-Related Hilar Lymphadenopathy",
+        "short_title": "stem CT Scan Showing Hilar Lymphadenopathy",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "figure_id": "pmfig24615",
+        "file": "figures/pmfig24615.5fef548411d2c5ea66ff2044f0bc2de0.jpg",
+        "title": "CT Scan Showing Sarcoidosis-Related Hilar Lymphadenopathy",
+        "short_title": "critique CT Scan Showing Hilar Lymphadenopathy",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 724
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.243152-06:00"
 }

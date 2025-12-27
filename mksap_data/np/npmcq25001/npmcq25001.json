@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 62-year-old man with primary hypertension is evaluated in the emergency department for a 24-hour history of headache. He has no other symptoms. Medications are amlodipine, hydrochlorothiazide, and losartan; he reports frequently missing doses.On physical examination, blood pressure is 210/112 mm Hg, and pulse rate is 108/min. There is 1+ edema of the lower extremities. The remainder of the examination is normal.A 12-lead ECG shows sinus tachycardia but is otherwise normal.",
+  "question_text": "A 62-year-old man with primary hypertension is evaluated in the emergency department for a 24-hour history of headache. He has no other symptoms. Medications are amlodipine, hydrochlorothiazide, and losartan; he reports frequently missing doses.On physical examination, blood pressure is 210/112 mm Hg, and pulse rate is 108/min. There is 1+ edema of the lower extremities. The remainder of the examination is normal.Laboratory studies:Creatinine2.3 mg/dL (203.3 µmol/L)HBaseline0.8 mg/dL (70.7 µmol/L)UrinalysisSpecific gravity 1.010; 1+ blood; 1+ proteinA 12-lead ECG shows sinus tachycardia but is otherwise normal.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate treatment in this patient with hypertensive emergency and acute kidney injury (AKI) is intravenous nicardipine (Option A). Hypertensive emergency refers to elevated blood pressure (BP) causing acute organ damage or dysfunction, such as ischemic or hemorrhagic stroke, encephalopathy, AKI, retinopathy, preeclampsia/eclampsia, acute myocardial infarction, aortic dissection, or acute heart failure. The BP threshold associated with hypertensive emergency is SBP/DBP >180/110-120 mm Hg; however, this threshold is not an absolute criterion for diagnosis because target-organ damage may also occur at lower BP levels. Hypertensive emergency should be treated by lowering the BP, typically by using intravenous short-acting agents in the ICU setting. Antihypertensive drug selection is based on the patient's presenting diagnosis and comorbidities as well as the pharmacologic profile of the drug itself ( and ). In patients presenting with hypertensive emergency and AKI (such as this patient), nicardipine or clevidipine is preferred. The 2017 American College of Cardiology/American Heart Association BP guideline recommends that for adults with severe preeclampsia, eclampsia, or pheochromocytoma, systolic BP should be reduced to <140 mm Hg during the first hour; it should be reduced to <120 mm Hg in cases of aortic dissection. In patients without these conditions, BP should be reduced by a maximum of 25% over the first hour, then to 160/100-110 mm Hg over the next 2 to 6 hours, and cautiously to normal over the subsequent 24 to 48 hours. This patent has hypertensive emergency with evidence of end-organ damage manifested by AKI; treatment with intravenous nicardipine should be initiated.Intravenous nitroprusside (Option B), a vasodilator, can cause cyanide toxicity, especially with prolonged use or in patients with kidney disease or injury. Therefore, it is not the most appropriate option for this patient.Oral clonidine (Option C) and oral hydralazine (Option D) are not recommended for patients with hypertensive emergency, as they lower BP more slowly and unpredictably than a rapid-acting intravenous medication that can be more easily titrated. In addition, intravenous hydralazine is recommended in patients who present with eclampsia or preeclampsia but is not first line for patients with hypertensive emergency and AKI.",
+  "critique": "The most appropriate treatment in this patient with hypertensive emergency and acute kidney injury (AKI) is intravenous nicardipine (Option A). Hypertensive emergency refers to elevated blood pressure (BP) causing acute organ damage or dysfunction, such as ischemic or hemorrhagic stroke, encephalopathy, AKI, retinopathy, preeclampsia/eclampsia, acute myocardial infarction, aortic dissection, or acute heart failure. The BP threshold associated with hypertensive emergency is SBP/DBP >180/110-120 mm Hg; however, this threshold is not an absolute criterion for diagnosis because target-organ damage may also occur at lower BP levels. Hypertensive emergency should be treated by lowering the BP, typically by using intravenous short-acting agents in the ICU setting. Antihypertensive drug selection is based on the patient's presenting diagnosis and comorbidities as well as the pharmacologic profile of the drug itself (Table: Intravenous Antihypertensive Drugs for Hypertensive Emergencies and Table: Antihypertensives for Hypertensive Emergencies with Comorbidities). In patients presenting with hypertensive emergency and AKI (such as this patient), nicardipine or clevidipine is preferred. The 2017 American College of Cardiology/American Heart Association BP guideline recommends that for adults with severe preeclampsia, eclampsia, or pheochromocytoma, systolic BP should be reduced to <140 mm Hg during the first hour; it should be reduced to <120 mm Hg in cases of aortic dissection. In patients without these conditions, BP should be reduced by a maximum of 25% over the first hour, then to 160/100-110 mm Hg over the next 2 to 6 hours, and cautiously to normal over the subsequent 24 to 48 hours. This patent has hypertensive emergency with evidence of end-organ damage manifested by AKI; treatment with intravenous nicardipine should be initiated.Intravenous nitroprusside (Option B), a vasodilator, can cause cyanide toxicity, especially with prolonged use or in patients with kidney disease or injury. Therefore, it is not the most appropriate option for this patient.Oral clonidine (Option C) and oral hydralazine (Option D) are not recommended for patients with hypertensive emergency, as they lower BP more slowly and unpredictably than a rapid-acting intravenous medication that can be more easily titrated. In addition, intravenous hydralazine is recommended in patients who present with eclampsia or preeclampsia but is not first line for patients with hypertensive emergency and AKI.",
+  "critique_links": [],
   "key_points": [
     "In patients with hypertensive emergency and acute kidney injury, the preferred initial treatment is intravenous nicardipine or clevidipine.",
     "In patients with hypertensive emergency without aortic dissection, preeclampsia or eclampsia, or pheochromocytoma, blood pressure should be reduced by a maximum of 25% over the first hour, then to 160/100-110 mm Hg over the next 2 to 6 hours, and cautiously to normal over the subsequent 24 to 48 hours."
@@ -52,13 +53,59 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html",
-      "tables/inline_table_3.html"
+      "tables/nptab24023.html",
+      "tables/nptab24024.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:22.024103-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nptab24023",
+        "file": "tables/nptab24023.html",
+        "title": "Intravenous Antihypertensive Drugs for Treatment of Hypertensive Emergencies",
+        "short_title": "Intravenous Antihypertensive Drugs for Hypertensive Emergencies",
+        "footnotes": [
+          "PDE = phosphodiesterase.",
+          "Data from Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: A report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. J Am Coll Cardiol. 2018;71:e127-e248. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/29146535\" target=\"_blank\">PMID: 29146535</a> doi:10.1016/j.jacc.2017.11.006"
+        ],
+        "headers": [
+          "Class",
+          "Examples",
+          "Comments"
+        ]
+      },
+      {
+        "table_id": "nptab24024",
+        "file": "tables/nptab24024.html",
+        "title": "Intravenous Antihypertensive Drugs for Treatment of Hypertensive Emergencies with Selected Comorbidities",
+        "short_title": "Antihypertensives for Hypertensive Emergencies with Comorbidities",
+        "footnotes": [
+          "ARB = angiotensin receptor blocker; BP = blood pressure.",
+          "<sup>a</sup>See Table: Frequently Used Antihypertensive Medications for specific drug contraindications.",
+          "Data from Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: A report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. J Am Coll Cardiol. 2018;71:e127-e248. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/29146535\" target=\"_blank\">PMID: 29146535</a> doi:10.1016/j.jacc.2017.11.006"
+        ],
+        "headers": [
+          "Comorbidity",
+          "Preferred Drugsa",
+          "Comments"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.902647-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 32-year-old woman is evaluated for a 6-month history of loose stools, bloating, and a 3.2-kg (7-lb) weight loss. Medical history is otherwise unremarkable. Her brother has type 1 diabetes mellitus, and her mother has autoimmune thyroid disease. She reports no other symptoms and takes no medication.On physical examination, vital signs and other findings are normal; BMI is 19.Laboratory studies:Hemoglobin11 g/dL (110 g/L)LAlanine aminotransferase60 U/LHAspartate aminotransferase42 U/LHBilirubin, total0.9 mg/dL (15.4 µmol/L)Ferritin6 ng/mL (6 µg/L)L",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Testing for anti–tissue transglutaminase (tTG) IgA antibody (Option D) is the most appropriate next test for this patient who has symptoms of celiac disease, including diarrhea, bloating, and weight loss. She is underweight, likely because of malabsorption related to immune destruction of small intestinal villi, and she has laboratory abnormalities associated with celiac disease, including iron deficiency anemia and elevated liver aminotransferase levels. Her family history of autoimmune diseases is also consistent with celiac disease because of common genetic predisposition (HLA-DQ2 and DQ8). The best initial test for suspected celiac disease is anti–tTg IgA antibody testing. Given increased prevalence of IgA deficiency in celiac disease, total IgA levels may need to be measured concurrently to avoid false-negative results. In patients with IgA deficiency, testing for anti–deamidated gliadin peptide IgG antibodies or tissue transglutaminase IgG antibodies can be used for diagnosis. Positive antibody testing for celiac disease should prompt upper endoscopy and biopsies of the duodenum for definitive diagnosis. Treatment is a lifelong, strict gluten-free diet.Anti–gliadin IgA antibodies (Option A) are no longer recommended for the evaluation of celiac disease. Anti-gliadin antibodies (both IgA and IgG) have low sensitivity and specificity for the diagnosis; therefore, they should not be part of the diagnostic evaluation. Anti–deamidated gliadin peptide antibodies are a more specific marker for celiac disease as they target a modified form of gliadin that is more readily recognized by the immune system in patients with celiac disease. Testing for anti–deamidated gliadin peptide IgG antibodies can be used in patients with IgA deficiency and suspected celiac disease.Anti–Saccharomyces cerevisiae IgA antibodies (Option B) have been proposed as a serologic method for differentiating Crohn disease from ulcerative colitis, but they are neither adequately sensitive nor specific and can lead to false-positive results if used as part of the initial assessment for gastrointestinal symptoms.Anti–smooth muscle antibody testing (Option C) can be helpful in diagnosing autoimmune hepatitis. Autoimmune hepatitis is a chronic inflammatory liver disease that can be associated with other autoimmune diseases (most commonly autoimmune thyroiditis, synovitis, or ulcerative colitis).",
+  "critique_links": [],
   "key_points": [
     "Anti–tissue transglutaminase IgA antibody testing is the best initial diagnostic test for celiac disease."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.038891-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.481070-06:00"
 }

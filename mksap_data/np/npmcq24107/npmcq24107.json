@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 36-year-old man is evaluated in the emergency department after being found on the street confused. Previous history is unknown.On physical examination, the patient is disheveled. Temperature is 36.4 °C (97.5 °F), blood pressure is 128/80 mm Hg, pulse rate is 104/min, and respiration rate is 20/min. Oxygen saturation is 96% with the patient breathing ambient air. He is oriented only to person. The remainder of the examination is normal.",
+  "question_text": "A 36-year-old man is evaluated in the emergency department after being found on the street confused. Previous history is unknown.On physical examination, the patient is disheveled. Temperature is 36.4 °C (97.5 °F), blood pressure is 128/80 mm Hg, pulse rate is 104/min, and respiration rate is 20/min. Oxygen saturation is 96% with the patient breathing ambient air. He is oriented only to person. The remainder of the examination is normal.Laboratory studies:Arterial blood gasespH7.28LPco230 mm Hg (4.0 kPa)LBlood urea nitrogen20 mg/dL (7.1 mmol/L)Creatinine1.4 mg/dL (123.8 µmol/L)HElectrolytesSodium138 mEq/L (138 mmol/L)Potassium3.9 mEq/L (3.9 mmol/L)Chloride96 mEq/L (96 mmol/L)LBicarbonate14 mEq/L (14 mmol/L)LEthanol115 mg/dL (24.8 mmol/L)Glucose126 mg/dL (7.0 mmol/L)HSerum osmolality345 mOsm/kg H2OHLactate2.0 mEq/L (2.0 mmol/L)H",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most like diagnosis is ethylene glycol toxicity (Option B). This patient has an anion gap, which is calculated as follows:Serum Sodium (mEq/L) − (Serum Chloride [mEq/L] + Serum Bicarbonate [mEq/L])Or, as in this case,[138 mEq/L − (14 mEq/L + 96 mEq/L)] = 28Therefore, he has an anion gap acidosis, which can be caused by lactic acidosis, ketoacidosis, acute or chronic kidney injury, or poisoning. This patient also has an osmolal gap (measured osmol – calculated osmol). The calculated osmolality (mOsm/kg H2O) is determined by the following equation:(2 × Serum Sodium [mEq/L]) + Plasma Glucose (mg/dL)/18 + Blood Urea Nitrogen (mg/dL)/2.8 + Ethanol (mg/dL)/4.6In this patient, serum osmolality is calculated as follows:276 mEq/L + 7 mg/dL + 7 mg/dL + 25 mg/dL = 315Therefore, his osmolal gap is calculated as follows:345 mOsm/kg H2O – 315 mOsm/kg H2O = 30The existence of an osmolal gap suggests the presence of low-molecular-weight molecules, usually alcohols. If a patient presents with an anion gap acidosis and an osmolal gap, ingestion of ethylene glycol, methanol, propylene glycol, or diethylene glycol must be considered. When these substances are ingested, they increase serum osmolality of the serum. They metabolize into toxic acids, which increase the anion gap. Initially, there will be an osmolal gap without acidosis. As the alcohols are metabolized, the osmolal gap decreases and the anion gap increases. Ethylene glycol is metabolized to glycolic acid and oxalic acid. Ethylene glycol presents with inebriation, acute kidney injury, and frequently the presence of calcium oxalate crystals in the urine. Toxic alcohol ingestion is typically confirmed by drug level measurements, which can take hours to days, so treatment should not be delayed while awaiting results. Treatment consists of fomepizole to block metabolism and removal of the alcohol through urine excretion or dialysis.Acute acetaminophen toxicity (Option A) can cause liver and kidney failure, both of which can cause an acidosis. Chronic acetaminophen use, especially in malnourished females, is associated with 5-oxyproline accumulation (pyroglutamic acid). Although chronic use of acetaminophen is a rare cause of high anion gap metabolic acidosis, neither the acute nor chronic toxicity is associated with a high osmolal gap.Although isopropyl alcohol (Option C) will increase the osmolal gap, it is not metabolized to an acid. Therefore, an anion gap acidosis, which this patient has, does not occur.It is unlikely that this patient has lactic acidosis (Option D). An anion gap of 28 mEq/L (28 mmol/L) would correlate with a markedly elevated serum lactate level. This patient's lactate level is only mildly increased, and the osmolal gap is better explained by toxicity.",
+  "critique_links": [],
   "key_points": [
     "Metabolic acidosis with an elevated anion gap and osmolal gap should prompt an evaluation for methanol, ethylene glycol, and propylene glycol."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:20.926648-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.884108-06:00"
 }

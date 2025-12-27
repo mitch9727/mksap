@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 55-year-old man is evaluated at a new patient visit. He feels well and has no concerns. Medical history is significant for hypothyroidism, for which he takes levothyroxine, and obesity.On physical examination, vital signs are normal. BMI is 35. Waist circumference is 107 cm (42 in). The remainder of the examination is unremarkable.His 10-year cardiovascular event risk is 7% based on lipid levels measured last month.",
+  "question_text": "A 55-year-old man is evaluated at a new patient visit. He feels well and has no concerns. Medical history is significant for hypothyroidism, for which he takes levothyroxine, and obesity.On physical examination, vital signs are normal. BMI is 35. Waist circumference is 107 cm (42 in). The remainder of the examination is unremarkable.Laboratory studies from his previous physician, 1 month ago:Hemoglobin16 g/dL (160 g/L)Platelet count210,000/μL (210 × 109/L)Hemoglobin A1c6.0%HThyroid-stimulating hormone3.5 μU/mL (3.5 mU/L)His 10-year cardiovascular event risk is 7% based on lipid levels measured last month.",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
   "options": [
     {
@@ -43,7 +43,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate test to perform next is liver chemistry testing (Option D). Obesity increases the risk for mortality, type 2 diabetes mellitus, cardiovascular disease, obstructive sleep apnea, mental health disorders, dementia, liver disease, and many cancers. The evaluation of obesity includes cardiorespiratory, thyroid, and skin examinations (to detect hirsutism, acanthosis nigricans, and striae). Laboratory evaluation should include screening for diabetes, lipid levels, thyroid function testing, and a complete blood count. Liver chemistry testing should also be performed to screen for metabolic dysfunction–associated steatotic liver disease (MASLD). Other laboratory testing should be based on patient-specific signs, symptoms, and risk factors. This patient with obesity and prediabetes should undergo further assessment for comorbid conditions, such as MASLD; therefore, no additional testing (Option E) is inappropriate. Additionally, the American Diabetes Association recommends that patients with prediabetes or type 2 diabetes undergo fibrosis-4 score calculation, using liver transaminase measurements, the platelet count, and the patient's age, to estimate the risk for advanced liver fibrosis (see Metabolic Dysfunction–Associated Steatotic Liver Disease in Hepatology and Biliary Tract Disease).The U.S. Preventive Services Task Force does not recommend screening for coronary artery disease with an ECG (Option A) in asymptomatic low-risk patients, as defined by a 10-year cardiovascular event risk of less than 10% based on the Framingham Risk Score or less than 7.5% based on the Pooled Cohort Equations. The American College of Physicians makes a similar recommendation. This patient does not require an ECG.Hypothyroidism is associated with weight gain; however, the prevalence of an endocrine cause of obesity is low. Management of primary hypothyroidism aims to normalize thyroid-stimulating hormone (TSH) levels. This patient does not have symptoms of hypothyroidism and has well-controlled hypothyroidism as indicated by his normal TSH level. He does not require free thyroxine measurement (Option B).Risk for obstructive sleep apnea is increased among patients with overweight or obesity. Patients should be referred for polysomnography if symptoms of the disorder are present or if screening questionnaires (e.g., Epworth Sleepiness Scale or STOP-BANG score) are suggestive. This patient should be asked about sleep apnea–related symptoms before a home sleep study test (Option C) is recommended.",
+  "critique": "The most appropriate test to perform next is liver chemistry testing (Option D). Obesity increases the risk for mortality, type 2 diabetes mellitus, cardiovascular disease, obstructive sleep apnea, mental health disorders, dementia, liver disease, and many cancers. The evaluation of obesity includes cardiorespiratory, thyroid, and skin examinations (to detect hirsutism, acanthosis nigricans, and striae). Laboratory evaluation should include screening for diabetes, lipid levels, thyroid function testing, and a complete blood count. Liver chemistry testing should also be performed to screen for metabolic dysfunction–associated steatotic liver disease (MASLD). Other laboratory testing should be based on patient-specific signs, symptoms, and risk factors. This patient with obesity and prediabetes should undergo further assessment for comorbid conditions, such as MASLD; therefore, no additional testing (Option E) is inappropriate. Additionally, the American Diabetes Association recommends that patients with prediabetes or type 2 diabetes undergo fibrosis-4 score calculation, using liver transaminase measurements, the platelet count, and the patient's age, to estimate the risk for advanced liver fibrosis (see  Metabolic Dysfunction–Associated Steatotic Liver Disease in Hepatology and Biliary Tract Disease).The U.S. Preventive Services Task Force does not recommend screening for coronary artery disease with an ECG (Option A) in asymptomatic low-risk patients, as defined by a 10-year cardiovascular event risk of less than 10% based on the Framingham Risk Score or less than 7.5% based on the Pooled Cohort Equations. The American College of Physicians makes a similar recommendation. This patient does not require an ECG.Hypothyroidism is associated with weight gain; however, the prevalence of an endocrine cause of obesity is low. Management of primary hypothyroidism aims to normalize thyroid-stimulating hormone (TSH) levels. This patient does not have symptoms of hypothyroidism and has well-controlled hypothyroidism as indicated by his normal TSH level. He does not require free thyroxine measurement (Option B).Risk for obstructive sleep apnea is increased among patients with overweight or obesity. Patients should be referred for polysomnography if symptoms of the disorder are present or if screening questionnaires (e.g., Epworth Sleepiness Scale or STOP-BANG score) are suggestive. This patient should be asked about sleep apnea–related symptoms before a home sleep study test (Option C) is recommended.",
+  "critique_links": [],
   "key_points": [
     "Obesity increases the risk for mortality, type 2 diabetes mellitus, cardiovascular disease, obstructive sleep apnea, mental health disorders, dementia, liver disease, and many cancers.",
     "Laboratory evaluation of obesity should include screening for diabetes, lipid levels, thyroid function testing, a complete blood count, and liver chemistry testing."
@@ -63,5 +64,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:26.312703-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies from his previous physician, 1 month ago:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.110054-06:00"
 }

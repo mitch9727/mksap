@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 37-year-old man is evaluated during a follow-up visit for asthma. He has difficult-to-control disease that has required progressively aggressive therapy. During the past year, he has had two exacerbations requiring systemic glucocorticoids, the most recent of which required hospitalization 1 month ago. He is now back to baseline with a chronic cough that is productive of mucus plugs. Medications are high-dose inhaled budesonide-formoterol and tiotropium. He is adherent to his inhaler regimen and demonstrates good technique.On physical examination, vital signs are normal. The nasal mucosa is congested.Laboratory studies:Absolute eosinophil count110/µL (0.11 × 109/L)IgE1150 U/mL (1150 kU/L)HChest radiograph reveals patchy infiltrates in the left upper and right lower lobes. CT scan of the chest demonstrates perihilar bronchiectasis.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis in this patient is allergic bronchopulmonary aspergillosis (ABPA) (Option A). ABPA is a chronic immunologic response to inhaled Aspergillus species causing persistent eosinophilic airway inflammation. The disease is characterized by refractory asthma and a cough that is often productive of mucus plugs. Chest CT scan typically demonstrates bronchiectasis (Figure: Bronchiectasis on Chest CT Scan), most commonly central airways in the upper and middle lobes. Diagnostic criteria vary, but findings supportive of the diagnosis of ABPA include the presence of asthma, elevated IgE levels (which may be very high, including >1000 U/mL [1000 kU/L]), increased Aspergillus-specific IgE and IgG levels, positive skin tests to Aspergillus antigens, and characteristic radiographic findings. Several months of systemic glucocorticoids with or without antifungal therapy are necessary for disease control. Biologic therapy with agents such as omalizumab can be considered in patients with refractory symptoms and dependence on systemic glucocorticoids. This patient's difficult-to-control asthma, elevated IgE level, and central bronchiectasis support the diagnosis of ABPA.Aspirin-exacerbated respiratory disease (Option B) is characterized by adult onset of persistent and often severe asthma, airway and peripheral eosinophilia, and inflammatory sinusitis with polyposis. Exposure to triggering substances, such as aspirin and NSAIDs, can result in acute onset of life-threatening bronchospasm. This patient has no sinus disease, eosinophilia, or intolerance of NSAIDs, making aspirin-exacerbated respiratory disease an unlikely diagnosis.Cryptogenic organizing pneumonia (Option C) is a form of interstitial lung disease that presents with subacute (weeks to months) symptoms of dyspnea, cough, and malaise. Chest radiograph demonstrates patchy opacities, and high-resolution CT scan may show ground-glass opacities or alveolar consolidation. This patient's chronic course, asthma, and central bronchiectasis are more consistent with ABPA than cryptogenic organizing pneumonia.Cystic fibrosis (Option D) is an autosomal recessive disease that results in abnormally thick respiratory secretions with bacterial colonization of airways, chronic infection, and inflammation. Gastrointestinal manifestations are common and include pancreatic insufficiency and malabsorption. Cystic fibrosis often results in bronchiectasis, which is usually widespread or has an upper lobe predominance. In this patient with underlying asthma, an elevated IgE level, and central bronchiectasis, ABPA is a more likely diagnosis than cystic fibrosis.",
+  "critique_links": [],
   "key_points": [
     "Allergic bronchopulmonary aspergillosis a chronic immunologic response to inhaled Aspergillus species that is characterized by difficult-to-control asthma, cough productive of mucus plugs, and perihilar (central) bronchiectasis."
   ],
@@ -50,10 +51,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:52:23.706963-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.976653-06:00"
 }

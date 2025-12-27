@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 61-year-old man is evaluated during a follow-up visit 3 weeks after he was treated for metastatic melanoma with ipilimumab and nivolumab. He reports decreased oral intake and early morning nausea over the past 2 weeks. He has hypertension, hyperlipidemia, benign prostatic hyperplasia, and type 2 diabetes mellitus. Medications are amlodipine, atorvastatin, losartan, and metformin.Physical examination findings, including vital signs, are normal.Kidney ultrasound shows normal-sized kidneys without hydronephrosis.",
+  "question_text": "A 61-year-old man is evaluated during a follow-up visit 3 weeks after he was treated for metastatic melanoma with ipilimumab and nivolumab. He reports decreased oral intake and early morning nausea over the past 2 weeks. He has hypertension, hyperlipidemia, benign prostatic hyperplasia, and type 2 diabetes mellitus. Medications are amlodipine, atorvastatin, losartan, and metformin.Physical examination findings, including vital signs, are normal.Laboratory studies:Creatinine3.2 mg/dL (282.9 µmol/L)H1 month ago0.9 mg/dL (79.6 μmol/L)Urate5.0 mg/dL (0.30 mmol/L)Urinalysis with microscopySpecific gravity 1.010; 1+ protein; 1+ blood; 2+ leukocyte esterase; 6-10 leukocytes/hpf; 1-3 erythrocytes/hpf; few leukocyte casts/lpfKidney ultrasound shows normal-sized kidneys without hydronephrosis.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "This most likely diagnosis in this patient is acute interstitial nephritis (AIN) (Option A) due to immune checkpoint inhibitors (ipilimumab and nivolumab). Drug-induced AIN is the most common cause of AIN and is often caused by antibiotics, proton pump inhibitors, or NSAIDs; however, chemotherapeutic agents, including ifosfamide, immune checkpoint inhibitors, and pemetrexed, are an underrecognized cause. Only 10% to 30% of patients have the classic clinical presentation, which includes fever, rash, and peripheral eosinophilia. Typically, the serum creatinine level gradually increases 7 to 10 days after drug exposure. Urinary findings can include leukocytes, erythrocytes, and leukocyte casts. In this patient, the increase in serum creatinine level after exposure to ipilimumab and nivolumab and the presence of leukocytes and leukocyte casts in the urine sediment make drug-induced AIN a likely diagnosis.Acute tubular necrosis (Option B) is associated with renal tubular epithelial cells and casts and coarse granular or muddy brown casts on urine microscopy, all of which are not seen in this patient's urine microscopy findings.Crystal-induced AKI (Option C) secondary to uric acid crystals can occur in the setting of tumor lysis syndrome after chemotherapy due to precipitation of uric acid crystals in the renal tubules with subsequent tubular injury. Usually, serum uric acid levels are elevated, and uric acid crystals are present in the urine sediment; this patient does not have either of those findings, and crystal-induced AKI is an unlikely diagnosis.Postrenal AKI (Option D) should be suspected in patients with a history of benign prostatic hyperplasia (BPH) who present with AKI. Hydronephrosis on kidney ultrasound is present in most cases of postrenal AKI. Although this patient has BPH, his kidney ultrasound did not show signs of obstruction.In prerenal AKI (Option E), the urine sediment is bland. Although this patient presents with nausea and decreased oral intake and is at risk for prerenal AKI, his clinical history and urine findings are more consistent with drug-induced AIN.",
+  "critique_links": [],
   "key_points": [
     "Drug-induced acute interstitial nephritis (AIN) is the most common cause of AIN and should be considered in any patient with acute kidney injury, a characteristic urinalysis (leukocytes, erythrocytes, and leukocyte casts), and history of any drug exposure; chemotherapeutic agents, including ifosfamide, immune checkpoint inhibitors, and pemetrexed, are an underrecognized cause."
   ],
@@ -62,5 +63,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:56.981340-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.773441-06:00"
 }

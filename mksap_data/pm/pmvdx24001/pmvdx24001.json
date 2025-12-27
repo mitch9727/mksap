@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 42-year-old woman with systemic sclerosis is evaluated for progressive dyspnea and exertional chest pain.An apical four-chamber echocardiogram is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -38,7 +38,23 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most likely diagnosis is pulmonary hypertension (Option B). The apical four-chamber echocardiogram view shows dilation of both the right atrium (RA) and right ventricle (RV). On a normal apical four-chamber view, the RV should be smaller than the left ventricle, but in this image, the RV is significantly larger than the left. The RA also dwarfs the left atrium. Other echocardiographic findings in patients with pulmonary hypertension may include RV hypokinesis, septal flattening or bowing toward the left ventricle, tricuspid regurgitation, pulmonary insufficiency, and mid-systolic closure of the pulmonary valve.Image in the stem reproduced with permission from Poch D, Mandel J. Pulmonary hypertension. . 2021;174:ITC49-64. . Copyright 2021, American College of Physicians.",
+  "critique": "The most likely diagnosis is pulmonary hypertension (Option B). The apical four-chamber echocardiogram view shows dilation of both the right atrium (RA) and right ventricle (RV). On a normal apical four-chamber view, the RV should be smaller than the left ventricle, but in this image, the RV is significantly larger than the left. The RA also dwarfs the left atrium. Other echocardiographic findings in patients with pulmonary hypertension may include RV hypokinesis, septal flattening or bowing toward the left ventricle, tricuspid regurgitation, pulmonary insufficiency, and mid-systolic closure of the pulmonary valve.Image in the stem reproduced with permission from Poch D, Mandel J. Pulmonary hypertension. Ann Intern Med. 2021;174:ITC49-64. PMID: 33844574. Copyright 2021, American College of Physicians.",
+  "critique_links": [
+    {
+      "href": "https://www.acpjournals.org/doi/10.7326/AITC202104200",
+      "text": "Ann Intern Med",
+      "target": "_blank",
+      "title": null,
+      "rel": null
+    },
+    {
+      "href": "http://www.ncbi.nlm.nih.gov/pubmed/33844574",
+      "text": "PMID: 33844574",
+      "target": "_blank",
+      "title": null,
+      "rel": null
+    }
+  ],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +71,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.242936-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24600",
+        "file": "figures/pmfig24600.a97089d6e2a56a3bf0d3a31802157d9a.jpg",
+        "title": "Echocardiogram Showing Right Atrial and Ventricular Dilation",
+        "short_title": "stem Echocardiogram of Atrial and Ventricular Dilation",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 432,
+        "height": 388
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.207158-06:00"
 }

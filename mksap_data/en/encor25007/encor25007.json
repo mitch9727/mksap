@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 22-year-old man is evaluated in the ICU 8 hours after hospitalization for treatment of diabetic ketoacidosis after presenting with nausea, vomiting, and lethargy. He is receiving intravenous 0.9% saline with potassium and an insulin drip. His lethargy and vomiting have improved, but he remains nauseated and is unable to eat.On physical examination, vital signs are normal. He is alert and oriented; the remainder of the physical examination is unremarkable.Laboratory studies:ElectrolytesSodium141 mEq/L (141 mmol/L)Potassium4.0 mEq/L (4.0 mmol/L)Chloride104 mEq/L (104 mmol/L)Bicarbonate17 mEq/L (17 mmol/L)LGlucose240 mg/dL (13.3 mmol/L)HpH7.28L",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient with diabetic ketoacidosis (DKA) and a glucose level less than 250 mg/dL (13.3 mmol/L) is to add intravenous dextrose (Option A). A multipronged approach is required to treat DKA (see Table: Management of Hyperglycemic Crisis). Intravenous hydration is necessary for volume repletion. Potassium deficits should be repleted before insulin is administered. Hyperglycemia should then be corrected, preferably with intravenous insulin and hourly plasma glucose measurements to guide dose adjustments. Frequent electrolyte measurements are necessary to guide repletion as hydration and insulin therapy continue. Because of the complexity of the necessary care, most patients with DKA are treated in the ICU. Conditions that contributed to DKA development, such as infection or myocardial infarction, should be identified and treated. Intravenous insulin should be continued until DKA resolves (pH >7.3 or bicarbonate >18 mEq/L [18 mmol/L] and plasma ketones <0.6 mmol/L). When the blood glucose level decreases to less than 250 mg/dL (13.9 mmol/L), intravenous dextrose is required to prevent hypoglycemia in the context of ongoing intravenous insulin administration. This patient's symptoms have improved, but his DKA has not resolved, as evidenced by the ongoing acidosis. Insulin infusion is therefore still required to suppress ketogenesis. Now that the patient's glucose level has decreased to less than 250 mg/dL (13.9 mmol/L), intravenous dextrose should be added to mitigate the risk for hypoglycemia.Alkali therapy is not associated with an increased rate of DKA recovery and is associated with adverse effects such as increased risk for hypokalemia and cerebral edema. Therefore, sodium bicarbonate (Option B) is only considered in patients with severe acidosis (pH <7.0).As hyperglycemia is corrected with insulin, intracellular shifts continue to deplete serum potassium. Patients with DKA have depleted total body potassium stores; therefore, they require ongoing potassium repletion to maintain a serum potassium level of 4.0 to 5.0 mEq/L (4.0-5.0 mmol/L). Discontinuing potassium at this time (Option C) is likely to precipitate hypokalemia in this patient.Continuing current therapy without the addition of intravenous dextrose (Option D) would put this patient at risk for developing hypoglycemia in the context of ongoing intravenous insulin administration.",
+  "critique_links": [],
   "key_points": [
     "In patients with diabetic ketoacidosis, intravenous insulin therapy should be continued until resolution of diabetic ketoacidosis (pH >7.3 or bicarbonate >18 mEq/L [18 mmol/L] and plasma ketones <0.6 mmol/L); when the blood glucose level decreases to less than 250 mg/dL (13.9 mmol/L), intravenous dextrose is required to prevent hypoglycemia."
   ],
@@ -50,10 +51,48 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/entab24020.html",
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:00:39.684975-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "entab24020",
+        "file": "tables/entab24020.html",
+        "title": "Management of Hyperglycemic Crisis: Diabetic Ketoacidosis and Hyperglycemic Hyperosmolar Syndrome",
+        "short_title": "Management of Hyperglycemic Crisis",
+        "footnotes": [
+          "DKA = diabetic ketoacidosis; HHS = hyperglycemic hyperosmolar syndrome; IV = intravenous.",
+          "<sup>a</sup>Intravenous insulin is preferred. For patients with mild DKA, subcutaneous insulin can be considered as an alternative to intravenous insulin: start with 0.1 U/kg of rapid-acting insulin as a bolus administered subcutaneously, followed by subcutaneous administration of 0.1 U/kg rapid-acting insulin every hour or 0.2 U/kg every 2 hours. When the plasma glucose level is &lt;250 mg/dL (13.9 mmol/L), reduce dosage to 0.05 U/kg every hour or 0.1 U/kg every 2 hours subcutaneously.",
+          "<sup>b</sup>If the continuous infusion cannot be started immediately, consider giving 0.1 U/kg regular insulin as an IV bolus first.",
+          "<sup>c</sup>Central venous access is required for more aggressive potassium replacement.",
+          "<sup>d</sup>Resolution of DKA is defined as pH &gt;7.3 or bicarbonate &gt;18 mmol/L and plasma ketones &lt;0.6 mmol/L. HHS resolution is defined as calculated serum osmolality &lt;300 mOsm/kg, urine output &gt;0.5 mL/kg/h, and glucose &lt;250 mg/dL (13.9 mmol/L).",
+          "Recommendations from Umpierrez GE, Davis GM, ElSayed NA, et al. Hyperglycaemic crises in adults with diabetes: a consensus report. Diabetologia. 2024;67:1455-1479. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/38907161\" target=\"_blank\">PMID: 38907161</a> doi:10.1007/s00125-024-06183-8"
+        ],
+        "headers": [
+          "Fluids",
+          "Insulin (Regular)",
+          "Potassium",
+          "Correction of Acidosis"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.021826-06:00"
 }

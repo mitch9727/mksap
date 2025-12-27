@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 67-year-old man is evaluated during a follow-up visit after a recent hospitalization. Fourteen days ago, he had an ST-elevation myocardial infarction and underwent coronary angiography and multivessel percutaneous coronary intervention; he was discharged 4 days later. Other medical conditions are hypertension and hyperlipidemia. Medications are carvedilol, furosemide, aspirin, clopidogrel, and atorvastatin.On physical examination, blood pressure is 150/98 mm Hg, and pulse rate is 72/min. He weighs 82 kg (180.8 lb). Baseline weight is 76 kg (167.6 lb). Lower extremity examination reveals 1+ pitting edema and a bilateral distal purplish reticular rash. The first and second distal phalanges of the left foot show blue discoloration.",
+  "question_text": "A 67-year-old man is evaluated during a follow-up visit after a recent hospitalization. Fourteen days ago, he had an ST-elevation myocardial infarction and underwent coronary angiography and multivessel percutaneous coronary intervention; he was discharged 4 days later. Other medical conditions are hypertension and hyperlipidemia. Medications are carvedilol, furosemide, aspirin, clopidogrel, and atorvastatin.On physical examination, blood pressure is 150/98 mm Hg, and pulse rate is 72/min. He weighs 82 kg (180.8 lb). Baseline weight is 76 kg (167.6 lb). Lower extremity examination reveals 1+ pitting edema and a bilateral distal purplish reticular rash. The first and second distal phalanges of the left foot show blue discoloration.Laboratory studies:Creatinine3.2 mg/dL (282.9 µmol/L)HHospital day 4 before discharge0.9 mg/dL (79.6 µmol/L)Hospital day 10.9 mg/dL (79.6 µmol/L)UrinalysisSpecific gravity 1.010; trace protein; 1+ blood; 2+ leukocyte esterase; no nitrites; 1-5 erythrocytes/hpf, 10-15 leukocytes/hpf",
   "question_stem": "Which of the following is the most likely cause of this patient's acute kidney injury?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely cause of this patient's acute kidney injury (AKI) is atheroembolism (Option B), or cholesterol emboli. Patients with atherosclerotic disease who undergo an invasive vascular procedure such as vascular surgery or angiography are at increased risk for this condition. It can occur spontaneously or several days to weeks after artery manipulation. Plaque rupture causes cholesterol embolization to distal small- and medium-sized arteries, resulting in ischemia with end-organ damage in the kidney and other organs. Although kidney biopsy demonstrating cholesterol crystal emboli is diagnostic, a triad of acute to subacute AKI with skin findings (such as livedo reticularis, a lacy network of bluish-red blood vessels typically seen on the legs) in the setting of recent angiography would raise suspicion for cholesterol emboli. Other findings may include Hollenhorst plaques on funduscopic examination (a yellow refractile body within the arteriole), ulcerations, and blue toes. Laboratory findings can include low serum complement levels, peripheral eosinophilia, and eosinophiluria; urinalysis findings may be unremarkable or may show proteinuria; hematuria; leukocyturia; or granular, leukocyte, or erythrocyte casts. This patient's skin and laboratory findings 10 days after his vascular procedure support the diagnosis of atheroembolic-induced AKI.Ischemic acute tubular necrosis (ATN) (Option A) is a common cause of AKI in hospitalized patients. However, urine microscopy findings include renal tubular epithelial cells and casts and/or coarse granular or muddy brown casts, which are not present in this patient. Additionally, his serum creatinine level would have increased rapidly (within 24 hours) in the setting of AKI caused by ATN; this patient's serum creatinine level remained stable during his 4-day hospitalization.Contrast-associated AKI (Option C) manifests as an increase in serum creatinine within 24 to 48 hours of iodinated contrast exposure. This patient's serum creatinine level was at baseline before discharge, which was 4 days after receiving contrast, making contrast-associated AKI unlikely.In prerenal AKI (Option D), urine microscopy is usually bland and does not contain erythrocytes or leukocytes (unlike in this patient). Furthermore, this patient is hypertensive, has gained weight since discharge, and has evidence of volume overload on physical examination; these findings are not consistent with a prerenal state.",
+  "critique_links": [],
   "key_points": [
     "Patients with atherosclerotic disease who undergo an invasive vascular procedure such as vascular surgery or angiography are at increased risk for atheroembolic-induced acute kidney injury, which can occur spontaneously or several days to weeks after manipulation of arteries."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:54.801947-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.758532-06:00"
 }

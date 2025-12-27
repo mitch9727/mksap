@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 21-year-old woman is evaluated for a 6-month history of fatigue, arthralgia, and myalgia. She has a history of urinary tract infections. Medications are an oral contraceptive pill and as-needed naproxen for pain.On physical examination, temperature is 38.2 °C (100.8 °F), blood pressure is 142/90 mm Hg, and pulse rate is 90/min. Cardiac, lung, and abdominal examinations are normal.Urine microscopy is shown.",
+  "question_text": "A 21-year-old woman is evaluated for a 6-month history of fatigue, arthralgia, and myalgia. She has a history of urinary tract infections. Medications are an oral contraceptive pill and as-needed naproxen for pain.On physical examination, temperature is 38.2 °C (100.8 °F), blood pressure is 142/90 mm Hg, and pulse rate is 90/min. Cardiac, lung, and abdominal examinations are normal.Laboratory studies:Creatinine1.4 mg/dL (124 µmol/L)HUrinalysis with microscopy2+ blood; 3+ protein; positive leukocyte esterase; 10-15 erythrocytes/hpf; 5-10 leukocytes/hpf; no nitrites; no crystalsUrine microscopy is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient with the nephritic syndrome most likely has glomerulonephritis (Option B). Glomerular hematuria typically features brown- or tea-colored urine with dysmorphic erythrocytes (or acanthocytes) or erythrocyte casts on urine sediment examination. Dysmorphic erythrocytes have varying sizes and shapes. Acanthocytes, a specific form of dysmorphic erythrocytes, are characterized by vesicle-shaped protrusions. Erythrocyte casts are recognized by their cylindrical or tubular structure and inclusion of small, anuclear, agranular spherocytes; when present, they strongly suggest hematuria of glomerular origin. Injury to the glomerular filter may result from primary kidney disease or systemic disease; erythrocytes leaked proximally are formed into casts when they are encased in a protein matrix in the distal tubular lumen. This patient's urine microscopy reveals both dysmorphic erythrocytes and erythrocyte casts, and the systemic symptoms are suggestive of a systemic cause of glomerulonephritis.Isomorphic erythrocytes are of the same size and shape and usually arise from an extraglomerular urologic process causing bleeding into the genitourinary tract, such as a tumor, stone, or infection. Acanthocytes and erythrocyte casts in this patient are highly specific for glomerulonephritis and exclude an extraglomerular cause of bleeding such as bladder cancer (Option A).Sterile pyuria and leukocyte casts are hallmarks of tubulointerstitial nephritis (Option C), which can present acutely or as chronic kidney disease. Mild subnephrotic proteinuria can also be seen with interstitial nephritis. Leukocyte cast cells are larger than erythrocytes, have bilobed or multi-lobed nuclei, and appear more granular.Although this patient is febrile and has some leukocytes on urinalysis and positive leukocyte esterase on dipstick analysis, urinary tract infection (Option D) does not explain the presence of glomerulonephritis with erythrocyte casts. This patient has the nephritic syndrome, which is associated with glomerular inflammation resulting in hematuria, proteinuria, and leukocytes in the urine sediment.",
+  "critique_links": [],
   "key_points": [
     "Glomerular hematuria typically features brown- or tea-colored urine with dysmorphic erythrocytes (or acanthocytes) or erythrocyte casts on urine sediment examination."
   ],
@@ -59,5 +60,32 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.424784-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "npfig24500",
+        "file": "figures/npfig24500.13083334f7155d5c3d63d7ed9c0a1884.jpg",
+        "title": "Urine Microscopy Showing Dysmorphic Erythrocytes and Erythrocyte Casts",
+        "short_title": "Urine Microscopy in Glomerulonephritis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 720,
+        "height": 960
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.934096-06:00"
 }

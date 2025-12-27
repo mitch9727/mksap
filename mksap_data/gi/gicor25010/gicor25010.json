@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 43-year-old man is evaluated for colon cancer risk assessment. He has never had a colonoscopy. His father was diagnosed with colon cancer at age 54 years.On physical examination, vital signs and other findings are normal.",
   "question_stem": "Which of the following is the most appropriate screening test to perform next?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "In this patient at increased risk for colorectal cancer, the most appropriate screening test to perform next is a colonoscopy now (Option B). For patients with a first-degree relative (e.g., parent, sibling, or child) with colorectal cancer diagnosed before age 60 years, screening colonoscopy is recommended to begin at age 40 years or 10 years earlier than the age at diagnosis in the youngest first-degree relative with colon cancer, whichever comes first (Table: Colorectal Cancer Screening in Individuals at Elevated Risk). This patient is considered at increased risk for colorectal cancer because of a family history of colorectal cancer in a first-degree relative younger than age 60 years. Because he is 43 years old, colonoscopy is recommended now. Thereafter, repeat screening colonoscopy is recommended every 5 years if the baseline examination is normal.In patients who have a first-degree relative who was diagnosed with colon cancer before age 60 years, colonoscopy is the preferred method of colorectal cancer screening. Stool-based colorectal cancer screening tests, including annual fecal occult blood testing (Option A) and multitarget stool DNA testing (Option E), are not recommended in this setting. Colonoscopy would still be warranted in this patient even if a stool-based colorectal cancer screening test showed a negative result.Colonoscopy in 1 year (Option C), when the patient is age 44 years, would be 10 years before the age at which colorectal cancer was diagnosed in his father. However, screening initiation at age 40 years takes precedence over this criterion when the affected first-degree relative is older than 50 years at the time of diagnosis. Thus, this 43-year-old patient who has never had a colonoscopy should undergo screening colonoscopy now.For patients at average risk for colorectal cancer, some organizations, such as the U.S. Preventive Services Task Force, recommend initiating screening at age 45 years, whereas ACP recommends initiating screening at age 50 years. However, because this patient is at increased risk, he should not wait until age 50 years (Option D) to undergo colonoscopy.",
+  "critique_links": [],
   "key_points": [
     "In patients with a history of colorectal cancer in a first-degree relative, screening colonoscopy should begin at age 40 years or 10 years earlier than the age of the youngest first-degree relative diagnosed with colorectal cancer, whichever comes first."
   ],
@@ -55,10 +56,35 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/gitab24021.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:02:51.591968-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "gitab24021",
+        "file": "tables/gitab24021.html",
+        "title": "Screening for Colorectal Cancer in Individuals at Elevated Risk",
+        "short_title": "Colorectal Cancer Screening in Individuals at Elevated Risk",
+        "footnotes": [
+          "CRC = colorectal cancer; FDR = first-degree relative (parent, sibling, or child).",
+          "<sup>a</sup>Family history of an advanced polyp includes adenomas or sessile serrated lesions ≥1 cm, ≥3 adenomas/sessile serrated lesions, villous histology, or high-grade dysplasia or submucosal cancer in a colonic polyp or a traditional serrated adenoma.",
+          "<sup>b</sup>If baseline examination is normal.",
+          "Data from Rex DK, Boland CR, Dominitz JA, et al. Colorectal cancer screening: recommendations for physicians and patients from the U.S. Multi-society Task Force on Colorectal Cancer. Gastroenterology. 2017;153:307-323. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/28600072\" target=\"_blank\">PMID: 28600072</a> doi:10.1053/j.gastro.2017.05.013; Syngal S, Brand RE, Church JM, et al; American College of Gastroenterology. ACG clinical guideline: genetic testing and management of hereditary gastrointestinal cancer syndromes. Am J Gastroenterol. 2015;110:223-62; quiz 263. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/25645574\" target=\"_blank\">PMID: 25645574</a>; Rubin DT, Ananthakrishnan AN, Siegel CA, et al. ACG clinical guideline: ulcerative colitis in adults. Am J Gastroenterol. 2019;114:384-413. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/30840605\" target=\"_blank\">PMID: 30840605</a> doi:10.14309/ajg.0000000000000152; Shaukat A, Kahi CJ, Burke CA, et al. ACG clinical guidelines: colorectal cancer screening 2021. Am J Gastroenterol. 2021;116:458-479. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/33657038\" target=\"_blank\">PMID: 33657038</a> doi:10.14309/ajg.0000000000001122."
+        ],
+        "headers": [
+          "Risk Category and Criteria",
+          "Screening Recommendations (Age; Modality; Interval)"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.218209-06:00"
 }

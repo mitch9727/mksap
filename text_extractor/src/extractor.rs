@@ -1,8 +1,12 @@
 use anyhow::{Context, Result};
-use reqwest::Client;
+use reqwest::{
+    header::{HeaderMap, HeaderValue, COOKIE},
+    Client,
+};
 use std::env;
 use std::fs;
 use std::path::Path;
+use tracing::warn;
 
 #[path = "auth.rs"]
 mod auth;
@@ -42,18 +46,27 @@ impl MKSAPExtractor {
 
     pub fn with_session_cookie(mut self, session_cookie_value: &str) -> Self {
         // Create a new client with the session cookie in the default headers
-        let mut headers = reqwest::header::HeaderMap::new();
-        headers.insert(
-            reqwest::header::COOKIE,
-            format!("_mksap19_session={}", session_cookie_value)
-                .parse()
-                .unwrap(),
-        );
+        let mut headers = HeaderMap::new();
+        let cookie_value = format!("_mksap19_session={}", session_cookie_value);
+        let cookie_header = match HeaderValue::from_str(&cookie_value) {
+            Ok(value) => value,
+            Err(err) => {
+                warn!(
+                    "Invalid session cookie value; skipping cookie header: {}",
+                    err
+                );
+                return self;
+            }
+        };
 
-        self.client = Client::builder()
-            .default_headers(headers)
-            .build()
-            .unwrap_or_else(|_| Client::new());
+        headers.insert(COOKIE, cookie_header);
+
+        match Client::builder().default_headers(headers).build() {
+            Ok(client) => self.client = client,
+            Err(err) => {
+                warn!("Failed to build client with session cookie: {}", err);
+            }
+        }
 
         self
     }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 60-year-old man is evaluated in the hospital for a pressure injury. The pressure injury developed during a prolonged hospitalization after a motor vehicle collision that resulted in a closed head injury and pelvic and spinal fractures. Medications are heparin, oxycodone, and ibuprofen or acetaminophen as needed.A painful 4-cm sacral ulcer with partial-thickness skin loss and exposed dermis is present (stage 2). The ulcer has no purulence or surrounding induration.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Stage 2 pressure injuries are best managed with hydrocolloid or foam dressings (Option A). Pressure injuries (also known as pressure ulcers) are characterized by localized injury to the skin or soft tissue because of pressure and shear forces. They may be classified by use of a staging system (see Table: Classification of Pressure Injuries), with each stage distinguished by the amount of tissue loss. Hydrocolloid dressings consist of a mixture of adhesive absorbent polymers and a gelling agent with a film covering to make them water and gas permeable. The dressing interacts with the wound fluid to form a gel. Hydrocolloids may promote wound healing by enhancing fibrinolytic activity and growth of granulation tissue and inhibiting bacterial overgrowth through their physical barrier properties. Hydrocolloids are convenient to use because they require infrequent dressing changes and are easy to apply. Foam dressings are sheets of foam polymers and are used primarily for heavily exudative wounds. For stage 1 injury, aggressive implementation of prevention strategies may be successful. Successful treatment of stage 3 and 4 pressure injuries requires interdisciplinary management, including wound care, surgical debridement, surgical repair, vacuum-assisted closure, treatment of infection, and adequate nutrition. For patients with a stage 2 injury, additional treatment measures can include protein supplements and management of the condition that caused the injury.Evidence is insufficient to recommend for or against platelet-derived growth factor dressings (Option B) in the treatment of pressure injuries.Hydrocolloid or foam dressings have been found to be superior to standard gauze dressings (Option C) for reducing ulcer size in low-quality studies.No studies have explored the benefits of vitamin- or mineral-infused dressings (such as a zinc-infused dressing [Option D]).",
+  "critique_links": [],
   "key_points": [
     "Hydrocolloid or foam dressings are superior to standard gauze dressings in the treatment of pressure injuries."
   ],
@@ -50,10 +51,32 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/fctab24052.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:34.155148-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "fctab24052",
+        "file": "tables/fctab24052.html",
+        "title": "Classification of Pressure Injuries",
+        "short_title": "Classification of Pressure Injuries",
+        "footnotes": [
+          "Information from Edsberg LE, Black JM, Goldberg M, et al. Revised National Pressure Ulcer Advisory Panel pressure injury staging system: revised pressure injury staging system. J Wound Ostomy Continence Nurs. 2016;43:585-597. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/27749790\" target=\"_blank\">PMID: 27749790</a> doi:10.1097/WON.0000000000000281"
+        ],
+        "headers": [
+          "Stage",
+          "Description"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.852180-06:00"
 }

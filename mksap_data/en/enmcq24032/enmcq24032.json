@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 59-year-old woman is evaluated at a follow-up visit after sustaining a right distal radius fracture 6 weeks ago. The fracture was caused by a fall from standing height and was treated with open reduction and internal fixation. Menopause occurred at age 54 years. Her only medication is a daily multivitamin with minerals.Physical examination findings, including vital signs, are normal.A radiograph of her right forearm shows a healing fracture of the distal radius and appropriately positioned orthopedic hardware.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient with a fragility fracture is to perform dual-energy x-ray absorptiometry of the spine and hip (Option A). Guidelines recommend screening postmenopausal women with average risk for osteoporosis with bone mineral density (BMD) measurement beginning at age 65 years. However, patients with fragility fractures (those occurring with the equivalent of a fall from a standing height or less) of the femur, vertebra, pelvis, humerus, or radius should undergo BMD testing earlier. In these patients, BMD testing is useful to determine severity of metabolic bone disease and assess risk for future fractures. Other indications for early BMD testing include risk factors for low bone mass or osteoporosis, height loss of 4 cm (1.5 in) or more, or kyphosis (Table: Recommendations for BMD Measurement). In postmenopausal women, osteoporosis can be diagnosed clinically on the basis of the presence of a fragility fracture or a BMD T-score of –2.5 or less, provided no other explanation for low bone mass with skeletal fragility is suspected (e.g., osteomalacia). This postmenopausal woman experienced a fragility fracture; as such, bone density should be assessed now rather than at age 65 years.In patients with low BMD, especially very low BMD for age, an elevated serum alkaline phosphatase level can represent a disorder of mineral metabolism causing bone demineralization (i.e., osteomalacia). However, it can also be mildly elevated because of increased bone remodeling associated with fracture healing in patients without metabolic bone disease. Therefore, alkaline phosphatase measurement (Option B) is neither necessary nor well timed for this patient.BMD testing is not required to diagnose osteoporosis in patients with fragility fractures, but it is helpful to determine the severity of metabolic bone disease and whether additional testing is needed. In patients suspected of having a secondary cause of osteoporosis (e.g., because of malabsorption or hypercalciuria), a 24-hour urine calcium measurement (Option C) may be useful. Before an evaluation for secondary causes is initiated, the patient should first have her BMD assessed.Vitamin D deficiency is common, especially in patients being evaluated for bone and calcium disorders. However, in patients with a fracture who may have osteoporosis, vitamin D supplementation alone (Option D) is insufficient to reduce the risk for subsequent fractures. Additionally, this patient is unlikely to have vitamin D deficiency, as she takes a multivitamin with minerals.",
+  "critique_links": [],
   "key_points": [
     "Fragility fractures are those occurring with the equivalent of a fall from a standing height or less.",
     "Patients with fragility fractures of the femur, vertebra, pelvis, humerus, or radius should have bone mineral density testing earlier than standard screening recommendations."
@@ -52,11 +53,33 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/entab24063.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.255508-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "entab24063",
+        "file": "tables/entab24063.html",
+        "title": "Recommendations for Measurement of Bone Mineral Density",
+        "short_title": "Recommendations for BMD Measurement",
+        "footnotes": [
+          "<sup>a</sup>Recommendations for bone mineral density testing vary by group. Recommendations in this table are adapted from the U.S. Preventive Services Task Force, Bone Health and Osteoporosis Foundation, Endocrine Society, the American College of Rheumatology, and the International Society for Clinical Densitometry.",
+          "<sup>b</sup>Bone mineral density testing should be performed at dual-energy x-ray absorptiometry facilities using accepted quality assurance measures.",
+          "<sup>c</sup>The U.S. Preventive Services Task Force states that evidence is insufficient to assess the benefits or harms of routine screening in men. The Bone Health and Osteoporosis Foundation and the International Society for Clinical Densitometry recommend screening men aged ≥70 years; the Endocrine Society recommends screening men aged ≥70 years and men aged 50 to 69 years who have risk factors such as low body weight, hypogonadism, hyperthyroidism, fracture after age 50 years, or smoking.",
+          "<sup>d</sup>Bone mineral density should be measured in the one-third radius in addition to the hip and spine."
+        ],
+        "headers": [
+          "Bone Mineral Density Testinga,b"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.152973-06:00"
 }

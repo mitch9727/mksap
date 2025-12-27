@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 52-year-old woman is evaluated before beginning treatment for recently diagnosed lung adenocarcinoma. She has an 80-pack-year smoking history. She takes no medications.On physical examination, temporal wasting is noted. The remainder of the examination is unremarkable.A peripheral blood smear is normal. Chest CT scan shows a right upper lung mass and bilateral hilar and mediastinal lymphadenopathy.",
+  "question_text": "A 52-year-old woman is evaluated before beginning treatment for recently diagnosed lung adenocarcinoma. She has an 80-pack-year smoking history. She takes no medications.On physical examination, temporal wasting is noted. The remainder of the examination is unremarkable.Laboratory studies:Hemoglobin10.6 g/dL (106 g/L)LMean corpuscular volume87 fLIron studiesFerritin430 ng/mL (430 µg/L)HIron30 µg/dL (5 µmol/L)LTotal iron-binding capacity200 µg/dL (36 µmol/L)LTransferrin saturation15%LA peripheral blood smear is normal. Chest CT scan shows a right upper lung mass and bilateral hilar and mediastinal lymphadenopathy.",
   "question_stem": "Which of the following is the most appropriate treatment for this patient's anemia?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment for this patient's anemia is to begin lung adenocarcinoma treatment (Option A). This patient has findings typical of anemia of inflammation; these patients typically have a hemoglobin level of approximately 8 to 10 g/dL (80-100 g/L) with normocytic or mildly microcytic indices. Characteristically, the serum iron level is low, the total iron-binding capacity (TIBC) is often low, and the serum ferritin level is elevated. In contrast, patients with iron deficiency have a low serum ferritin level and an elevated TIBC. Anemia of inflammation occurs in response to the inflammatory cytokine interleukin-6 that leads to hepatic synthesis of hepcidin, which in turn causes proteolysis of the membrane protein ferroportin. As a result, iron absorption from the gut is diminished, as is iron release from macrophages. Anemia of inflammation can develop in patients with chronic infections, such as tuberculosis or osteomyelitis; malignancy, as is the case for this patient; or other chronic inflammatory conditions, such as rheumatologic diseases. Therefore, treatment of this patient's anemia should focus on treating her underlying lung adenocarcinoma.Erythropoiesis-stimulating agents, such as erythropoietin (Option B) or longer-acting darbepoetin, should not be used to treat anemia of inflammation in most patients with cancer because of the lack of benefit and accompanying risks, including hypertension, stroke, and tumor progression. Thus, erythropoietin should be avoided in this patient.Patients with anemia of inflammation do not respond to oral or parenteral iron supplementation (Options C, D) unless they have concomitant iron deficiency. Therefore, iron supplementation should be avoided in this patient who does not have any evidence of iron deficiency.",
+  "critique_links": [],
   "key_points": [
     "Anemia of inflammation is characterized by a low serum iron level, a total iron-binding capacity that is often low, and an elevated serum ferritin level, typically mild to moderate in severity, and usually improves with treatment of the underlying condition(s) causing it."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.808545-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.041023-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 56-year-old man is evaluated for hypertension and diabetes mellitus.His profile is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is Cushing syndrome (Option A). This patient with hypertension and diabetes mellitus demonstrates many of the physical findings associated with Cushing syndrome, including facial plethora, abdominal striae (especially if reddish purple and >1 cm in width), abdominal obesity, dorsocervical fat pad, supraclavicular fat pads (which may obscure visualization of the clavicles), and ecchymoses, most easily seen on the right arm in this frontal view.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/enfig24616.febb83d81eb76012d047fd056d47f637.jpg",
-      "figures/enfig24615.bcedaf136d84d928c04bacce12e10c81.jpg"
+      "figures/enfig24615.bcedaf136d84d928c04bacce12e10c81.jpg",
+      "figures/enfig24616.febb83d81eb76012d047fd056d47f637.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:16.937142-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "enfig24615",
+        "file": "figures/enfig24615.bcedaf136d84d928c04bacce12e10c81.jpg",
+        "title": "Lateral View of Patient With Cushing Syndrome",
+        "short_title": "stem Lateral View of Patient With Cushing Syndrome",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 529,
+        "height": 1127
+      },
+      {
+        "figure_id": "enfig24616",
+        "file": "figures/enfig24616.febb83d81eb76012d047fd056d47f637.jpg",
+        "title": "Frontal View of Patient With Cushing Syndrome",
+        "short_title": "critique Frontal View of Patient With Cushing Syndrome",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 622,
+        "height": 949
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.420069-06:00"
 }

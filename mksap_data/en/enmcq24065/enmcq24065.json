@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 75-year-old man is evaluated for several months of burning pain in the toes and feet that is worse at night and interferes with his sleep. Medical history is relevant for type 2 diabetes mellitus, diagnosed 20 years ago; hypertension; dyslipidemia; and chronic kidney disease. Medications are insulin glargine, insulin lispro, metformin, dapagliflozin, lisinopril, rosuvastatin, and a vitamin D3 supplement.On physical examination, vital signs are normal. Sensation in the feet is reduced to 10-g monofilament and absent to vibration.",
+  "question_text": "A 75-year-old man is evaluated for several months of burning pain in the toes and feet that is worse at night and interferes with his sleep. Medical history is relevant for type 2 diabetes mellitus, diagnosed 20 years ago; hypertension; dyslipidemia; and chronic kidney disease. Medications are insulin glargine, insulin lispro, metformin, dapagliflozin, lisinopril, rosuvastatin, and a vitamin D3 supplement.On physical examination, vital signs are normal. Sensation in the feet is reduced to 10-g monofilament and absent to vibration.Laboratory studies:Creatinine1.3 mg/dL (115 µmol/L)Vitamin B12550 pg/mL (405.9 pmol/L)Hemoglobin A1c7.5%HThyroid-stimulating hormone3.0 µU/mL (3.0 mU/L)",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has signs and symptoms of diabetic peripheral neuropathy, and the most appropriate management is pregabalin (Option B). Diabetic peripheral neuropathy, also called distal symmetric polyneuropathy, typically has an ascending presentation with a “stocking and glove” distribution. This neuropathy may involve damage to both small and large nerve fibers. Symptoms from small nerve fiber damage include pain, burning, and tingling. Small nerve fiber abnormalities can be detected by assessing temperature sensation and pinprick testing. When large nerve fibers are involved, protective sensation is lost. Reduced lower extremity reflexes, loss of vibration perception, and loss of sensation to 10-g monofilament indicate large fiber dysfunction and predict future risk for foot ulcerations. Gabapentinoids (e.g., gabapentin, pregabalin), serotonin-norepinephrine reuptake inhibitors (e.g., duloxetine), tricyclic antidepressants, and certain sodium channel blockers (valproic acid, oxcarbazepine, lamotrigine, and lacosamide) are the most appropriate treatments to reduce pain in diabetic neuropathy. Of the aforementioned agents, only pregabalin and duloxetine are FDA approved for treating diabetic neuropathy. The capsaicin (8%) patch is another option to treat painful neuropathy of the feet. Opioids, tramadol (Option D), and tapentadol are not recommended. For this patient, of the options provided, pregabalin is the most appropriate management to reduce painful neuropathy symptoms and improve quality of life. Notably, pregabalin requires dose adjustment in patients with kidney disease.Evaluation with electromyography (Option A) for diabetic peripheral neuropathy is not necessary when the clinical presentation is clear. If the presentation were atypical or other causes were suspected, then electromyography or referral to a neurologist might be appropriate. This patient's presentation is highly suggestive of diabetic peripheral neuropathy, and he does not require further evaluation.Topiramate (Option C), a sodium channel blocker, has not been shown to be effective for the treatment of diabetic peripheral neuropathy and is therefore not an appropriate treatment for this patient.",
+  "critique_links": [],
   "key_points": [
     "Gabapentinoids, serotonin-norepinephrine reuptake inhibitors, tricyclic antidepressants, and certain sodium channel blockers are the most appropriate treatments to reduce pain in diabetic neuropathy; the capsaicin (8%) patch is an option to treat painful diabetic neuropathy of the feet."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:51.566470-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.241231-06:00"
 }

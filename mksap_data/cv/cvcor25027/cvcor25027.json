@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 68-year-old man is evaluated during posthospitalization follow-up. One week ago, he was seen in the emergency department for sudden onset of palpitations and dyspnea, at which time ECG showed a narrow complex, regular tachycardia. He underwent cardioversion, which was initially successful. However, 1 day ago, his palpitations recurred. He does not have dyspnea or chest pain. Medical history is notable for hypertension. Medications are apixaban, losartan, carvedilol, and chlorthalidone.On physical examination, pulse rate is 73/min and irregular. Other vital signs and findings on physical examination are normal.Laboratory studies are significant for normal serum thyroid-stimulating hormone and serum N-terminal pro–B-type natriuretic peptide levels.An ECG from today's visit is shown.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The appropriate treatment for this patient with typical atrial flutter is catheter ablation (Option C). Atrial flutter is an organized macro-reentrant tachycardia with discrete regular atrial activity on ECG, usually with an atrial rate of 250 to 300/min. Typical atrial flutter, the dominant form in patients without previous cardiac disease, is the result of counterclockwise reentry around the tricuspid annulus. It is characterized electrocardiographically by a sawtooth pattern with inverted flutter waves in leads II, III, and aVF and positive flutter waves in lead V1. Management of anticoagulation in the setting of chronic atrial flutter is similar to that for atrial fibrillation; however, a rhythm control strategy is strongly favored in atrial flutter because rate control may be difficult and often requires high doses of more than one atrioventricular nodal blocker. Catheter ablation is the definitive treatment for typical atrial flutter because of a very high success rate (>95%) and low complication rate. Following initial cardioversion for his atrial flutter with rapid ventricular rate, this patient has had a predictable recurrence of the underlying arrhythmia, as evidenced by his palpitations, irregular rhythm, and ECG findings. The best management strategy for him is catheter ablation.This patient has a normal heart rate and blood pressure on his current medication regimen, and additional rate control is not indicated. Increasing his carvedilol (Option A) will not improve his symptoms or treat his underlying arrhythmia.Antiarrhythmic therapy with a drug such as amiodarone (Option B) carries a high risk for recurrent atrial flutter and is therefore not the best option for this patient. Additionally, amiodarone is associated with substantial risk for end-organ toxicity, including thyroid dysfunction, neurologic side effects (e.g., tremor), liver dysfunction, and pulmonary toxicity.Cardioversion (Option D) to restore sinus rhythm could be considered, but this patient is hemodynamically stable and already has experienced a recurrence of atrial flutter after previous cardioversion. Cardioversion is likely to be ineffective for long-term control and is not emergently indicated at this time.",
+  "critique_links": [],
   "key_points": [
     "Catheter ablation is the definitive treatment for typical atrial flutter, owing to a very high success rate (>95%) and low complication rate."
   ],
@@ -51,9 +52,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/cvfig25706.987896726a95f1c96ad56f0b63f7bb1c.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.852994-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig25706",
+        "file": "figures/cvfig25706.987896726a95f1c96ad56f0b63f7bb1c.jpg",
+        "title": "ECG in a Patient With Atrial Flutter",
+        "short_title": "ECG in a Patient With Atrial Flutter",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 421
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.379658-06:00"
 }

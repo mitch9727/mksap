@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 55-year-old man with cirrhosis is evaluated in the hospital 2 days after being admitted for lethargy, confusion, and acute kidney injury. Upon admission, diuretics were discontinued and lactulose was initiated. A diagnostic paracentesis revealed no evidence of peritonitis. Today, urine output is less than 400 mL/24 h. Other medications are ciprofloxacin, pantoprazole, and subcutaneous heparin.On physical examination, vital signs are normal. The patient is somnolent and disoriented. The abdomen is protuberant but not tense. There is mild lower extremity edema. Asterixis is present.An ECG is normal.Kidney ultrasound is normal.",
+  "question_text": "A 55-year-old man with cirrhosis is evaluated in the hospital 2 days after being admitted for lethargy, confusion, and acute kidney injury. Upon admission, diuretics were discontinued and lactulose was initiated. A diagnostic paracentesis revealed no evidence of peritonitis. Today, urine output is less than 400 mL/24 h. Other medications are ciprofloxacin, pantoprazole, and subcutaneous heparin.On physical examination, vital signs are normal. The patient is somnolent and disoriented. The abdomen is protuberant but not tense. There is mild lower extremity edema. Asterixis is present.Laboratory studies:Hemoglobin8.0 g/dL (80 g/L)L1 month ago7.6 g/dL (76 g/L)LBlood urea nitrogen50 mg/dL (17.9 mmol/L)HCreatinine3.0 mg/dL (265.2 µmol/L)H1 day ago2.4 mg/dL (212.2 µmol/L)H1 month ago0.5 mg/dL (44.2 µmol/L)LElectrolytesSodium128 mEq/L (128 mmol/L)LPotassium5.8 mEq/L (5.8 mmol/L)HChloride98 mEq/L (98 mmol/L)Bicarbonate16 mEq/L (16 mmol/L)LUrinalysis with microscopySpecific gravity 1.020; trace protein; no blood, leukocyte esterase, or nitrites; no cells or castsAn ECG is normal.Kidney ultrasound is normal.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Intravenous albumin (Option B) is the most appropriate next step in the management of this patient's acute kidney injury (AKI). Hepatorenal syndrome (HRS) is a potentially reversible kidney impairment that occurs in the setting of portal hypertension due to liver cirrhosis, severe alcoholic hepatitis, or acute liver failure. HRS-AKI is a diagnosis of exclusion and is characterized by the following:Increase in serum creatinine of at least 0.3 mg/dL (26.5 μmol/L) and/or ≥50% from baseline within 48 hoursBland urinalysis (ensuring that acute tubular necrosis or other renal intrinsic causes are not present)Normal findings on kidney ultrasound (ensuring postrenal cause is not present)Exclusion of other causes of AKI (especially volume depletion)In patients who develop AKI in the setting of cirrhosis, the first step is discontinuation of diuretics, followed by at least 48 hours of volume expansion with intravenous albumin to monitor for serum creatinine improvement. An improvement supports the diagnosis of prerenal AKI, which is common in patients with cirrhosis treated with diuretics. Lack of improvement supports a diagnosis of HRS-AKI. This patient has a bland urine sediment and likely does not have intrinsic AKI. A negative kidney ultrasound rules out postrenal AKI. Therefore, discontinuing diuretics and administering intravenous albumin are indicated to differentiate prerenal AKI due to diuretic use from HRS-AKI.Hemodialysis (Option A) may be necessary for patients with AKI with complications such as hyperkalemia, metabolic acidosis, or volume overload refractory to medical management, or with uremic manifestations such as altered mental status, asterixis, or uremic pericarditis. In this patient, medical management has not yet been proven to be ineffective for hyperkalemia and metabolic acidosis. Although he has confusion and asterixis, these symptoms could be due to hepatic encephalopathy, which is being treated with lactulose. Therefore, initiation of hemodialysis would be a premature next step.Albumin is the volume expander of choice in the setting of AKI and cirrhosis. It is more effective than crystalloids such as intravenous 0.9% saline (Option C), which would result in worsening of ascites and lower extremity edema. This patient should not receive 0.9% saline.Treatment with vasoconstrictors, such as midodrine, octreotide (Option D), terlipressin, or norepinephrine, in combination with albumin is reserved for patients with AKI secondary to HRS. The American Association for the Study of Liver Diseases recommends intravenous terlipressin as the preferred vasopressor. An initial trial of albumin with oral midodrine and octreotide can be provided if terlipressin is not available. For patients who are treated in an intensive care setting in which terlipressin is not available, norepinephrine may be substituted as the vasoconstrictor. In this patient, a reversible prerenal AKI has not been ruled out; therefore, midodrine and octreotide are not yet indicated.",
+  "critique_links": [],
   "key_points": [
     "Hepatorenal syndrome-acute kidney injury is a diagnosis of exclusion; lack of improvement in kidney function after withdrawal of diuretics and 48 hours of volume expansion with intravenous albumin (1 g/kg/d divided dosing) supports the diagnosis."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:55.349003-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.758395-06:00"
 }

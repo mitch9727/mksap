@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 33-year-old man is evaluated for fatigue, loss of appetite, and nausea of 6 months' duration. He has unintentionally lost 9.1 kg (20 lb). Medical history is unremarkable, and he takes no medications.On physical examination, blood pressure is 118/70 mm Hg sitting and 98/68 mm Hg standing, and pulse rate is 88/min sitting and 106/min standing. BMI is 19.Fludrocortisone and hydrocortisone are initiated.",
+  "question_text": "A 33-year-old man is evaluated for fatigue, loss of appetite, and nausea of 6 months' duration. He has unintentionally lost 9.1 kg (20 lb). Medical history is unremarkable, and he takes no medications.On physical examination, blood pressure is 118/70 mm Hg sitting and 98/68 mm Hg standing, and pulse rate is 88/min sitting and 106/min standing. BMI is 19.Laboratory studies:Sodium136 mEq/L (136 mmol/L)Potassium5.6 mEq/L (5.6 mmol/L)HAdrenocorticotropic hormone450 pg/mL (99 pmol/L)H8 am cortisol 2.6 µg/dL (71.8 nmol/L)LFludrocortisone and hydrocortisone are initiated.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate diagnostic test to perform next is measurement of 21-hydroxylase antibodies (Option D). This patient has primary adrenal insufficiency (AI), as confirmed by the combination of low serum cortisol and elevated serum adrenocorticotropic hormone (ACTH) levels. The most common cause of primary AI in the United States is autoimmune adrenalitis, and positive 21-hydroxylase antibodies are found in approximately 90% of those patients. If 21-hydroxylase antibody measurement is negative, abdominal CT should be performed. In autoimmune disease, the adrenal glands often appear atrophic, although normal-sized adrenal glands do not rule out this diagnosis.ACTH stimulation testing (Option A) is used to diagnose AI, but it would not help determine the underlying cause. In this patient, the diagnosis of primary AI is confirmed by the presence of a serum cortisol level of less than 3 µg/dL (82.8 nmol/L) in combination with an elevated serum ACTH level. Hence, ACTH stimulation testing will not add further to his diagnosis or management and would not be the most appropriate diagnostic test.Pituitary MRI (Option B) is not indicated in this patient with primary AI, but it is the imaging modality of choice for investigating secondary AI. The latter is characterized by low serum cortisol in the setting of low or inappropriately normal serum ACTH levels. Because this patient has primary AI, pituitary MRI would not be helpful.Plasma aldosterone measurement (Option C) would not help determine the underlying cause of this patient's primary AI. Low or inappropriately normal aldosterone levels (associated with elevated plasma renin activity) are present in most patients with primary AI because of destruction of the layers of the adrenal cortex by the underlying disease process. Aldosterone deficiency results in hyperkalemia, as noted in this patient, and hyponatremia may also be present.",
+  "critique_links": [],
   "key_points": [
     "The most common cause of primary adrenal insufficiency in the United States is autoimmune adrenalitis, and positive 21-hydroxylase antibodies are found in approximately 90% of those patients."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:16.842696-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.357932-06:00"
 }

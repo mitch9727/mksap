@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 22-year-old woman has a chronic pruritic skin condition on the trunk and legs.Skin findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Nummular dermatitis (Option C) is characterized by extremely pruritic round or oval patches of eczematous dermatitis consisting of papules, scaling, crusting, and often serous oozing. Most lesions appear on the trunk and legs and are 2 to 10 cm in diameter. In contrast, discoid lupus erythematosus (DLE) tends to appear on sun-exposed areas rather than the trunk. In addition, DLE typically presents as hypo- or hyperpigmented patches or plaques, with erythema during active disease, which may be variably atrophic or hyperkeratotic. Similarly, pityriasis versicolor is characterized by minimally scaly, hyper- or hypopigmented oval macules on the trunk and arms. Guttate psoriasis usually occurs in children and is typified by the rapid appearance of erythematous papules, most commonly on the trunk with extension into the arms and legs.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24615.6ed1767c67262b30a88623777338340f.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.835763-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24615",
+        "file": "figures/dmfig24615.6ed1767c67262b30a88623777338340f.jpg",
+        "title": "Nummular Eczema",
+        "short_title": "stem Nummular Eczema",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 627,
+        "height": 415
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.367907-06:00"
 }

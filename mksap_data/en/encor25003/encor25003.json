@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 62-year-old woman with a 15-year history of type 2 diabetes mellitus is evaluated for the recent onset of pain in both feet. She describes the pain as \"burning,\" and it is present with activity and at rest. Medical history is notable for diabetic retinopathy, first-degree atrioventricular block, and a myocardial infarction 5 years ago. Medications are metformin, liraglutide, aspirin, rosuvastatin, losartan, and metoprolol.On examination, vital signs are normal. Deep tendon reflexes are absent in the ankles. Pedal pulses are normal. Sensation is absent to monofilament distal to the ankles bilaterally. Sensation to vibration is reduced in the first metatarsophalangeal joints bilaterally. The remainder of the examination is normal.Laboratory studies:Hemoglobin A1c8.1%HSerum vitamin B12 and thyroid-stimulating hormone levels are normal.",
   "question_stem": "In addition to improving glycemic control, which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The serotonin-norepinephrine reuptake inhibitor (SNRI) duloxetine (Option C) is a good initial treatment for this patient's painful diabetic peripheral neuropathy (distal symmetric polyneuropathy). The typical presentation of diabetic peripheral neuropathy is an ascending bilateral “stocking and glove” distribution. Damage to the small nerve fibers may cause pain, burning, and tingling. Damage to the large nerve fibers causes abnormal vibration sensation, proprioception, and light touch. Ankle reflexes are commonly diminished or absent early in the disease. Motor weakness may occur as the neuropathy progresses. Treatment focuses on glycemic control and symptom management. The American Diabetes Association and American Academy of Neurology recommend gabapentinoids, SNRIs, tricyclic antidepressants, and certain sodium channel blockers as first-line pharmacologic therapy for patients with diabetic peripheral neuropathy. Of these agents, only pregabalin and duloxetine are FDA approved for the treatment of diabetic neuropathy. The 8% capsaicin patch is FDA approved for the treatment of painful diabetic neuropathy of the feet. Few head-to-head comparison trials of these drugs exist for diabetic peripheral neuropathy; thus, the potential risks and benefits associated with each drug must be considered when selecting a treatment for a specific patient. The most common adverse effect of SNRIs is gastrointestinal distress, but there are few strong contraindications to these agents. Duloxetine is an appropriate choice in this patient with diabetic peripheral neuropathy.Tricyclic antidepressants, such as amitriptyline (Option A), should be used cautiously in patients with known cardiac disease because of an association with arrhythmias, heart block, and sudden death. The patient's history of cardiac disease may increase her risk for adverse effects from amitriptyline.Ankle-brachial indices (ABIs) (Option B) are an appropriate step in the evaluation of suspected peripheral artery disease (PAD), which would be suggested by exertional pain and an abnormal vascular examination. Despite this patient's risk factors for PAD, she has no signs or symptoms of vascular claudication; ABIs are not indicated.Electromyography/nerve conduction studies (Option D) are not routinely required for the diagnosis of patients with a typical presentation of diabetic peripheral neuropathy. Atypical clinical features should prompt additional evaluation, including electrophysiologic testing, but this patient does not have any history or examination findings suggestive of an alternative cause.",
+  "critique_links": [],
   "key_points": [
     "The typical presentation of diabetic peripheral neuropathy (distal symmetric polyneuropathy) is an ascending bilateral “stocking and glove” distribution of pain, numbness, burning, and tingling.",
     "Gabapentinoids, serotonin-norepinephrine reuptake inhibitors, tricyclic antidepressants, certain sodium channel blockers, and topical capsaicin (for painful diabetic neuropathy of the feet) are appropriate first-line therapies for diabetic peripheral neuropathy."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:00:39.664765-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.022365-06:00"
 }

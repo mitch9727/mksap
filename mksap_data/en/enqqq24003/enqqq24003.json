@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 55-year-old woman undergoes screening for type 2 diabetes mellitus. She was last screened 3 years ago, with negative results, but has since gained weight. She is otherwise asymptomatic.Physical examination findings, including vital signs, are normal. BMI is 31.Laboratory studies: Glucose, fasting128 mg/dL (7.1 mmol/L)HHemoglobin A1c6.0%H",
   "question_stem": "Which of the following is the most appropriate next diagnostic step?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "A repeat fasting plasma glucose measurement (Option B) is the most appropriate diagnostic test for this patient. The American Diabetes Association (ADA) recommends screening for type 2 diabetes mellitus in patients of any age with overweight or obesity and one or more risk factors for type 2 diabetes. The ADA also recommends screening all adults beginning at age 35 years, regardless of risk factors, and recommends repeating screening at least every 3 years if tests are normal. Unless unequivocal symptomatic hyperglycemia and a random plasma glucose level of 200 mg/dL (11.1 mmol/L) or greater are present, a diagnosis of type 2 diabetes requires two abnormal test results from the same sample, such as simultaneous abnormal hemoglobin A1c and fasting plasma glucose measurements, or abnormal results from one screening test performed on two separate occasions. When discrepant results occur between different screening tests, the ADA recommends repeating the abnormal screening test. If the repeat fasting plasma glucose measurement is abnormal, the diagnosis of diabetes is confirmed. Although this patient's hemoglobin A1c is less than the level necessary for the diagnosis of type 2 diabetes (≥6.5%), her fasting plasma glucose level is elevated above the diagnostic range (≥126 mg/dL [7.0 mmol/L]), and this measurement should be repeated.A 2-hour 75-g oral glucose tolerance test (Option A) can be used to screen for diabetes. However, because this test was not initially used for screening in this patient, repeating the abnormal screening test (fasting plasma glucose) is more appropriate.This patient's hemoglobin A1c value is less than 6.5% and does not warrant repeat measurement (Option C) as the next diagnostic test in this scenario.If screening results are normal, the ADA recommends that testing be repeated at least every 3 years, with consideration of more frequent testing depending on initial results and risk status. Patients with prediabetes should be tested annually. This patient has a single screening test result that is diagnostic of diabetes; rather than repeating screening in 3 years (Option D), the abnormal test should be repeated now.",
+  "critique_links": [],
   "key_points": [
     "Unless unequivocal symptomatic hyperglycemia and a random plasma glucose level of 200 mg/dL (11.1 mmol/L) or greater are present, a diagnosis of type 2 diabetes mellitus requires two abnormal test results from the same sample or abnormal results from one screening test performed on two separate occasions.",
     "When discrepant results occur between different screening tests for diabetes, the American Diabetes Association recommends repeating the abnormal screening test."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.256528-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.345438-06:00"
 }

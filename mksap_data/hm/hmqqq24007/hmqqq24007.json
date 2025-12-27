@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 55-year-old man is evaluated for hematemesis. He has no medical problems and takes no medication.On physical examination, blood pressure is 112/76 mmHg and pulse rate is 100/min, without orthostatic changes. He has epigastric tenderness to palpation without rebound or guarding. The remainder of the examination is normal.Crystalloid resuscitation is initiated, and the patient undergoes upper endoscopy, which reveals an 8-mm duodenal ulcer with a clean ulcer base without active arterial bleeding.",
+  "question_text": "A 55-year-old man is evaluated for hematemesis. He has no medical problems and takes no medication.On physical examination, blood pressure is 112/76 mmHg and pulse rate is 100/min, without orthostatic changes. He has epigastric tenderness to palpation without rebound or guarding. The remainder of the examination is normal.Laboratory studies:Hemoglobin8.0 g/dL (80 g/L)LPlatelet count130,000/µL (130 × 109/L)LProthrombin time10 sLCrystalloid resuscitation is initiated, and the patient undergoes upper endoscopy, which reveals an 8-mm duodenal ulcer with a clean ulcer base without active arterial bleeding.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient is to continue crystalloid resuscitation (Option A). He is hemodynamically stable (lack of orthostatic changes in blood pressure and pulse rate) with no evidence of active bleeding on upper endoscopy. A randomized controlled trial of 900 patients with acute upper gastrointestinal bleeding and a hemoglobin level less than 12 g/dL (120 g/L) compared a restrictive transfusion strategy (hemoglobin transfusion threshold of 7.0 g/dL [70 g/L]) to a liberal strategy (hemoglobin transfusion threshold of 9 g/dL [90 g/L]). Half of the patients had peptic ulcer disease as the source of bleeding. Mortality was lower in the restrictive group compared with the liberal transfusion group (5% versus 9%). Half of the patients in the restrictive group did not receive transfusion at all. Therefore, continued crystalloid volume resuscitation is most appropriate in this patient.In the absence of symptoms of anemia, hemodynamic instability, or massive bleeding, patients with upper gastrointestinal bleeding do not require packed red blood cell (PRBC) transfusion (Option B). PRBC transfusion may be necessary if he becomes hemodynamically unstable.Plasma transfusion (Option C) is not indicated in the absence of coagulopathy. Fresh frozen plasma (FFP) use is excessive in the United States and other countries despite published guidelines regarding its use. FFP contains all the coagulation factors but is ineffective at treating mild coagulopathies. Indications for the use of FFP and other plasma-based products include treatment or prevention of coagulopathy from massive transfusion, bleeding associated with multiple acquired clotting factor deficiencies (liver disease, disseminated intravascular coagulation), and major warfarin-associated hemorrhage when a four-factor prothrombin complex concentrate is not available. This patient's presentation provides no reason to suspect he has a coagulopathy requiring clotting factor replacement.Platelet counts greater than 50,000/µL (50 × 109/L) do not warrant platelet transfusion (Option D) in most situations when thrombocytopenia is the only hemostatic defect. The exception is in neurosurgical patients, in whom platelet counts of approximately 100,000/µL (100 × 109/L) should be maintained. Therefore, platelet transfusion is not necessary in this patient.",
+  "critique_links": [],
   "key_points": [
     "In patients with upper gastrointestinal bleeding who are hemodynamically stable, a hemoglobin transfusion threshold of less than 7.0 g/dL (70 g/L) is associated with less blood use and lower mortality compared with a more liberal hemoglobin transfusion threshold."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.854115-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.057653-06:00"
 }

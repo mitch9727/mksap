@@ -42,7 +42,8 @@ impl MKSAPExtractor {
             .map(|(category_code, question_id)| async move {
                 (
                     question_id.clone(),
-                    self.extract_question(&category_code, &question_id).await,
+                    self.extract_question(&category_code, &question_id, false)
+                        .await,
                 )
             })
             .buffer_unordered(concurrency);

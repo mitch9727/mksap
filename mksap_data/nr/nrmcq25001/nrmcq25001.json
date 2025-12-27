@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 31-year-old man is evaluated for a 6-week history of episodes of difficulty speaking, which occur once or twice a week. His mother reports that he suddenly stops speaking in the middle of a sentence and has rhythmic twitching of the right side of his face. During these episodes, he cannot answer questions but is able to follow commands, such as being asked to sit. The episodes last about 30 to 90 seconds each. Afterward, he regains the ability to respond and reports that he remembers the entire event, including anything asked of him. He sometimes has slurred speech and right facial droop for about 20 minutes after these events. Medical history is otherwise unremarkable, and he takes no medications.Physical examination findings, including vital signs, are normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most likely diagnosis is focal preserved consciousness seizures (formerly known as simple partial seizures or focal aware seizures) (Option B). Focal preserved consciousness seizures are typically characterized by a symptom specific to the area of seizure onset in the brain, such as temporal lobe seizures that manifest as aphasia and frontal lobe seizures with unilateral clonic activity (rhythmic twitching). Other potential symptoms include contralateral homonymous vision loss (occipital lobe), focal contralateral numbness or paresthesia (parietal lobe), and feelings of nausea or fear (temporal lobe) (). The patient's awareness, by definition, is not altered during a focal preserved consciousness seizure, and patients have full recall of the event. Focal preserved consciousness seizures are, however, typically followed by a postictal state. This patient has events characteristic of temporal lobe focal preserved consciousness seizures, with expressive aphasia and right facial twitching. Although he cannot respond to questions because of his language impairment, he remembers the entire event and can follow commands, indicating preserved awareness throughout the seizure. The subsequent slurred speech and right facial droop likely represent a postictal state.Focal impaired consciousness seizures (formerly focal unaware/impaired awareness seizures or complex partial seizures) (Option A) could have features similar to this patient's seizures but are characterized by altered or lost awareness. Typically, a patient with a focal impaired consciousness seizure would exhibit staring and decreased responsiveness to commands as well as loss of memory of at least part of the episode.This patient's events are inconsistent with generalized absence seizures (Option C). Patients with generalized absence seizures may suddenly lose the ability to communicate for a relatively short duration, similar to this patient. The duration of these seizures, however, is typically even shorter than that of focal seizures, as generalized absence seizures typically last less than 15 seconds. Patients with absence seizures also exhibit no impairment after an event, unlike this patient, who has postictal facial weakness.Although this patient exhibits clonic activity (rhythmic twitching), a diagnosis of generalized tonic-clonic seizures (GTCSs) (Option D) would be incorrect. Clonic activity in GTCSs involves the entire body (bilateral); this patient's clonic activity is focal (unilateral).",
+  "critique": "The most likely diagnosis is focal preserved consciousness seizures (formerly known as simple partial seizures or focal aware seizures) (Option B). Focal preserved consciousness seizures are typically characterized by a symptom specific to the area of seizure onset in the brain, such as temporal lobe seizures that manifest as aphasia and frontal lobe seizures with unilateral clonic activity (rhythmic twitching). Other potential symptoms include contralateral homonymous vision loss (occipital lobe), focal contralateral numbness or paresthesia (parietal lobe), and feelings of nausea or fear (temporal lobe) (Table: Examples of Focal Preserved Consciousness Seizures). The patient's awareness, by definition, is not altered during a focal preserved consciousness seizure, and patients have full recall of the event. Focal preserved consciousness seizures are, however, typically followed by a postictal state. This patient has events characteristic of temporal lobe focal preserved consciousness seizures, with expressive aphasia and right facial twitching. Although he cannot respond to questions because of his language impairment, he remembers the entire event and can follow commands, indicating preserved awareness throughout the seizure. The subsequent slurred speech and right facial droop likely represent a postictal state.Focal impaired consciousness seizures (formerly focal unaware/impaired awareness seizures or complex partial seizures) (Option A) could have features similar to this patient's seizures but are characterized by altered or lost awareness. Typically, a patient with a focal impaired consciousness seizure would exhibit staring and decreased responsiveness to commands as well as loss of memory of at least part of the episode.This patient's events are inconsistent with generalized absence seizures (Option C). Patients with generalized absence seizures may suddenly lose the ability to communicate for a relatively short duration, similar to this patient. The duration of these seizures, however, is typically even shorter than that of focal seizures, as generalized absence seizures typically last less than 15 seconds. Patients with absence seizures also exhibit no impairment after an event, unlike this patient, who has postictal facial weakness.Although this patient exhibits clonic activity (rhythmic twitching), a diagnosis of generalized tonic-clonic seizures (GTCSs) (Option D) would be incorrect. Clonic activity in GTCSs involves the entire body (bilateral); this patient's clonic activity is focal (unilateral).",
+  "critique_links": [],
   "key_points": [
     "Focal preserved consciousness seizures are typically characterized by a symptom specific to the area of seizure onset in the brain.",
     "Patients with focal preserved consciousness seizures maintain normal awareness during the event, whereas focal impaired consciousness seizures are characterized by altered or lost awareness."
@@ -52,11 +53,31 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/nrtab24020.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:17:24.877545-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nrtab24020",
+        "file": "tables/nrtab24020.html",
+        "title": "Examples of Focal Preserved Consciousness Seizures<sup>a</sup>",
+        "short_title": "Examples of Focal Preserved Consciousness Seizures",
+        "footnotes": [
+          "<sup>a</sup>Also known as simple partial seizures or focal aware seizures (which include auras)."
+        ],
+        "headers": [
+          "Lobe",
+          "Clinical Presentation"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.363210-06:00"
 }

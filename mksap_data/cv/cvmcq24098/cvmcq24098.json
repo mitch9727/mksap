@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 58-year-old woman is evaluated for dyspnea with minimal exertion and orthopnea. She was treated for breast cancer with chemotherapy 22 years ago and has had heart failure with reduced ejection fraction for 11 years. She has been hospitalized for heart failure three times in the past year. Losartan was recently discontinued because of hypotension. Medications are carvedilol, spironolactone, empagliflozin, and high-dose furosemide.On physical examination, the patient's breathing is labored when she talks. Blood pressure is 96/72 mm Hg and pulse rate is 88/min. Jugular venous distention is present just above the clavicle. Cardiac examination reveals an S3 and a grade 2/6 holosystolic murmur at the lower left sternal border.ECG shows normal sinus rhythm and a QRS duration of 110 ms. Echocardiogram from 8 months ago reveals an ejection fraction of 15% and moderate to severe mitral regurgitation.",
+  "question_text": "A 58-year-old woman is evaluated for dyspnea with minimal exertion and orthopnea. She was treated for breast cancer with chemotherapy 22 years ago and has had heart failure with reduced ejection fraction for 11 years. She has been hospitalized for heart failure three times in the past year. Losartan was recently discontinued because of hypotension. Medications are carvedilol, spironolactone, empagliflozin, and high-dose furosemide.On physical examination, the patient's breathing is labored when she talks. Blood pressure is 96/72 mm Hg and pulse rate is 88/min. Jugular venous distention is present just above the clavicle. Cardiac examination reveals an S3 and a grade 2/6 holosystolic murmur at the lower left sternal border.Laboratory studies:CreatinineCurrent1.9 mg/dL (168.0 μmol/L)H1 Year ago1.2 mg/dL (106.1 μmol/L)Sodium128.0 mEq/L (128.0 mmol/L)LECG shows normal sinus rhythm and a QRS duration of 110 ms. Echocardiogram from 8 months ago reveals an ejection fraction of 15% and moderate to severe mitral regurgitation.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is evaluation for heart transplantation (Option A). Assessment of prognosis should be completed in all patients with heart failure. Heart failure hospitalization is associated with a mortality rate of up to 20% during the ensuing 6 months. Indicators associated with worse outcomes in the 1 to 2 years after a heart failure diagnosis include the following:Multiple hospitalizationsPoor exercise toleranceNew York Heart Association class III to IVRecurrent ventricular arrhythmias/implantable cardioverter-defibrillator dischargesHyponatremiaWorsening kidney/liver functionCardiac cachexiaRequired loop diuretic doses of more than 1 mg/kg or addition of metolazoneSymptomatic hypotension necessitating reduced dosage of heart failure medicationsRight ventricular dysfunctionPulmonary hypertensionPatients with poor prognosis should be engaged in a discussion of advanced therapies, such as heart transplantation or left ventricular assist device placement. A history of cancer (>5 years ago) that is considered cured is not a contraindication to heart transplantation. This patient with remote and likely cured breast cancer has several signs of advanced heart failure, including repeat hospitalizations, poor functional capacity, hyponatremia, worsening kidney function, high diuretic dosage, and medication intolerance; consideration of advanced therapies, including transplantation, is appropriate.Although echocardiography (Option B) might show progression of disease, this patient has a known low ejection fraction (EF), and it is unlikely that an echocardiogram will provide further information that would result in a change in therapy.Transcatheter edge-to-edge mitral valve repair (Option C) for moderate to severe mitral regurgitation was compared with surgical repair in the EVEREST II trial and showed similar mortality outcomes. Benefits of valve repair or replacement in patients with secondary mitral regurgitation are less certain than in primary disease, although studies have demonstrated favorable left ventricular remodeling. The effect of transcatheter valve repair on mortality and heart failure hospitalization in this population has varied in studies, but this procedure may be indicated in patients with an EF of 20% to 50% and a left ventricular diastolic diameter less than 7.5 cm. This patient's EF is 15%, so she is not a candidate for transcatheter mitral valve repair.Valsartan-sacubitril (Option D) is first-line therapy for heart failure with reduced ejection fraction (HFrEF) and should be started in new-onset HFrEF or replace ACE inhibitors/angiotensin receptor blockers in chronic symptomatic HFrEF. The major drawback to valsartan-sacubitril, however, is hypotension. This patient was intolerant of losartan and remains hypotensive and is unlikely to tolerate valsartan-sacubitril.",
+  "critique_links": [],
   "key_points": [
     "Patients with advanced heart failure and poor prognostic markers should be considered for advanced therapies, including heart transplantation or left ventricular assist device placement.",
     "Markers of poor prognosis in heart failure include multiple hospitalizations, severe symptoms, recurrent ventricular arrhythmias, hyponatremia, worsening kidney/liver function, high-dose diuretic therapy, hypotension necessitating reduced dosage of heart failure medication, and right ventricular dysfunction/pulmonary hypertension."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:49:22.047208-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.667236-06:00"
 }

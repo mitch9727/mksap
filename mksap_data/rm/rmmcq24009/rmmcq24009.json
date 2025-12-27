@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 28-year-old man is evaluated for follow-up of systemic lupus erythematosus diagnosed 3 years ago. At diagnosis, he presented with oral ulcerations, a photosensitive malar rash, and pericarditis as well as positive antinuclear antibody and anti–double-stranded DNA antibody titers and low complement levels. During the past 4 months, he reports increasing fatigue, generalized achiness, and nonrestorative sleep. He has no other medical conditions. His only medication is hydroxychloroquine.On physical examination, vital signs and other findings are normal.Complete blood count and comprehensive metabolic panel are also normal.",
+  "question_text": "A 28-year-old man is evaluated for follow-up of systemic lupus erythematosus diagnosed 3 years ago. At diagnosis, he presented with oral ulcerations, a photosensitive malar rash, and pericarditis as well as positive antinuclear antibody and anti–double-stranded DNA antibody titers and low complement levels. During the past 4 months, he reports increasing fatigue, generalized achiness, and nonrestorative sleep. He has no other medical conditions. His only medication is hydroxychloroquine.On physical examination, vital signs and other findings are normal.Laboratory studies:Erythrocyte sedimentation rateNormal C3 complementNormal C4 complementNormalC-reactive proteinNormalAnti–double-stranded DNA antibody titerNormalUrinalysisNormalComplete blood count and comprehensive metabolic panel are also normal.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient with symptoms of fibromyalgia is aerobic exercise (Option C). Patients with systemic lupus erythematosus (SLE) or other rheumatologic conditions have a higher risk for comorbid fibromyalgia compared with the general population. Nonpharmacologic interventions, including exercise, are the cornerstone of fibromyalgia management. Aerobic exercise has been shown to improve the clinical symptoms of fibromyalgia, including reduction in pain, increased range of motion, and improved strength and stamina. Low-impact exercises, such as aquatherapy and tai-chi, may be helpful. Patients should be encouraged to introduce exercise gradually because initial postexercise pain may occur. Other nonpharmacologic interventions that are effective include mind-body modalities, stress management, and sleep hygiene. This patient is presenting with symptoms of fibromyalgia without evidence of an SLE flare. Aerobic exercise can improve well-being and functioning as well as reduce pain.Adding azathioprine (Option A) would be a reasonable option if this patient were experiencing an active SLE flare despite treatment with hydroxychloroquine. This patient's presentation is not consistent with worsening or active SLE. Therefore, increasing immunosuppression would not be advised.Although this patient has SLE, he is presenting with symptoms consistent with fibromyalgia (achiness, fatigue, and nonrestorative sleep). This patient does not have worsening malar rash, oral ulcers, or other clinical signs of active SLE. Additionally, his laboratory study results reveal normal complement levels, normal urinalysis, a normal anti–double-stranded DNA antibody titer, and no cytopenias. If he had an SLE flare, adjusting the dose of hydroxychloroquine (Option B) could be considered, but he does not require adjustment at this time.Massage (Option D) and other manual therapies, such as chiropractic manipulation and myofascial release, may have some benefit in treating fibromyalgia symptoms, but evidence of their efficacy is limited. These modalities could be considered for patients who have refractory symptoms.",
+  "critique_links": [],
   "key_points": [
     "Patients with rheumatologic conditions have a higher risk for comorbid fibromyalgia compared with the general population.",
     "Nonpharmacologic interventions, including aerobic exercise, are the cornerstone of fibromyalgia management."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:46:42.808870-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.627116-06:00"
 }

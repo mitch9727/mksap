@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "An 82-year-old woman is evaluated for chronic discomfort and stiffness in her hands, wrists, and shoulders of several years' duration. She has hypertension and stage G3 chronic kidney disease. Medications are amlodipine and losartan.On physical examination, decreased range of motion of the wrists and shoulders bilaterally with swelling and tenderness of the left wrist is observed; the wrist is aspirated.Radiographs show chondrocalcinosis in the shoulders and wrists without erosions.",
+  "question_text": "An 82-year-old woman is evaluated for chronic discomfort and stiffness in her hands, wrists, and shoulders of several years' duration. She has hypertension and stage G3 chronic kidney disease. Medications are amlodipine and losartan.On physical examination, decreased range of motion of the wrists and shoulders bilaterally with swelling and tenderness of the left wrist is observed; the wrist is aspirated.Synovial fluid studies:Leukocyte count20,000/µL (20 × 109/L)HGram stainNegativeRadiographs show chondrocalcinosis in the shoulders and wrists without erosions.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Low-dose prednisone (Option C) is the most appropriate treatment for this patient with chronic calcium pyrophosphate (CPP) arthropathy. Chronic CPP arthropathy can present in various ways:Asymptomatic (lanthanic)Mimicking seronegative rheumatoid arthritis (pseudo–rheumatoid arthritis)Mimicking gout (pseudogout)Mimicking osteoarthritisMimicking infectious arthritis (pseudo-infectious arthritis)Mimicking neuropathic arthropathy (pseudo-Charcot arthropathy)Osteoarthritis with CPP deposition (CPPD) manifests with typical osteoarthritis findings but involving joints not commonly associated with osteoarthritis (such as shoulders or patellofemoral or metacarpophalangeal joints). Radiographic findings of osteoarthritis with CPPD (subchondral bone cysts, osteophytes, and subchondral sclerosis, consistent with osteoarthritis) often precede the onset of osteoarthritis. Synovial fluid may reveal weakly positive birefringent CPP crystals, but these crystals may be challenging to find. Treatment of CPPD arthropathy can be difficult. Options include low-dose glucocorticoids, low-dose colchicine, and NSAIDs to treat acute flares. For this patient with chronic kidney disease, low-dose daily prednisone is the most appropriate choice. Anakinra (interleukin-1 inhibitor), tocilizumab (interleukin-6 inhibitor), synthetic adrenocorticotropic hormone, and radiation synovectomy have been considered in patients for whom usual treatments are contraindicated or ineffective. Metabolic associations of CPPD disease, such as hemochromatosis, hyperparathyroidism, hypothyroidism, hypomagnesemia, and hyperphosphatemia, should be screened for and corrected.Tumor necrosis factor (TNF) inhibitors, such as adalimumab (Option A), have not been adequately investigated for chronic CPPD arthropathy, so beginning a TNF inhibitor is not indicated.Allopurinol (Option B) is a uric acid–lowering therapy used as a first-line therapy in the treatment of gout. Allopurinol has no role in the management of CPPD arthropathy and is not indicated in this patient whose radiographs show chondrocalcinosis.Although daily NSAIDs (Option D) can be used to treat CPPD arthropathy, this is an older patient with hypertension and stage G3 chronic kidney disease, making NSAIDs relatively contraindicated and not the best treatment option.",
+  "critique_links": [],
   "key_points": [
     "Treatment options for chronic calcium pyrophosphate arthropathy include low-dose glucocorticoids, low-dose colchicine, and NSAIDs to prevent inflammatory manifestations of the disease."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:05.907585-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Synovial fluid studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.819864-06:00"
 }

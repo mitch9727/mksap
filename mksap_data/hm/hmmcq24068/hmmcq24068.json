@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 69-year-old woman is evaluated for pain in the right calf of 2 days' duration. She reports no recent trauma, surgery, or periods of immobility. She has no pulmonary symptoms. Medical and family history are unremarkable. She takes no medications.On physical examination, vital signs are normal. Mild swelling of the distal right lower extremity is noted, and the right calf is 1 cm larger than the left calf. No pitting edema or erythema is present.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate diagnostic test to perform next is a D-dimer measurement (Option B). In patients with possible deep venous thrombosis (DVT), the clinical probability of disease guides the choice of the most appropriate initial testing method. The Wells score for diagnosis of DVT is a validated prediction tool that stratifies the likelihood of DVT based on 9 to 10 variables (). A Wells score of 0 or 1 using dichotomous scoring indicates that DVT is unlikely, whereas a score of greater than or equal to 2 indicates that DVT is likely. In patients in whom DVT is unlikely according to the dichotomous Wells score, D-dimer testing should be performed; a negative D-dimer effectively excludes the diagnosis of DVT in these patients. However, in patients with a score of 2 or greater using dichotomous scoring, a negative D-dimer is insufficient to exclude DVT, and ultrasonography should be performed. This patient has an unlikely pretest probability of DVT based on a Wells score of zero, and D-dimer testing should be performed. If the D-dimer result is negative, no additional testing for DVT is needed. A positive D-dimer result should prompt lower extremity ultrasonography.Contrast venography (Option A) is virtually never used as an initial diagnostic tool for lower extremity DVT because it is invasive, costly, and associated with the toxicity of the contrast and risk of venous injury. Ultrasonography has excellent sensitivity and specificity for DVT and is a better first-line test.An MRI of the right lower extremity (Option C) is an excellent means of assessing the soft tissues of the lower extremities and may be performed when assessing the possibilities of muscle, ligament, tendon, or bursal injury. However, it is not the most appropriate imaging modality to evaluate for lower extremity DVT. D-dimer testing should be performed first in patients with low pretest probability of DVT.Although ultrasonography (Option D) is an excellent imaging modality to evaluate for lower extremity DVT, it is not an appropriate initial test for patients unlikely to have a DVT because it may not be necessary if the D-dimer is normal. This patient has an unlikely probability of DVT and should undergo D-dimer testing, with ultrasonography being performed next if the D-dimer is elevated.",
+  "critique": "The most appropriate diagnostic test to perform next is a D-dimer measurement (Option B). In patients with possible deep venous thrombosis (DVT), the clinical probability of disease guides the choice of the most appropriate initial testing method. The Wells score for diagnosis of DVT is a validated prediction tool that stratifies the likelihood of DVT based on 9 to 10 variables (Table: Wells Criteria for DVT). A Wells score of 0 or 1 using dichotomous scoring indicates that DVT is unlikely, whereas a score of greater than or equal to 2 indicates that DVT is likely. In patients in whom DVT is unlikely according to the dichotomous Wells score, D-dimer testing should be performed; a negative D-dimer effectively excludes the diagnosis of DVT in these patients. However, in patients with a score of 2 or greater using dichotomous scoring, a negative D-dimer is insufficient to exclude DVT, and ultrasonography should be performed. This patient has an unlikely pretest probability of DVT based on a Wells score of zero, and D-dimer testing should be performed. If the D-dimer result is negative, no additional testing for DVT is needed. A positive D-dimer result should prompt lower extremity ultrasonography.Contrast venography (Option A) is virtually never used as an initial diagnostic tool for lower extremity DVT because it is invasive, costly, and associated with the toxicity of the contrast and risk of venous injury. Ultrasonography has excellent sensitivity and specificity for DVT and is a better first-line test.An MRI of the right lower extremity (Option C) is an excellent means of assessing the soft tissues of the lower extremities and may be performed when assessing the possibilities of muscle, ligament, tendon, or bursal injury. However, it is not the most appropriate imaging modality to evaluate for lower extremity DVT. D-dimer testing should be performed first in patients with low pretest probability of DVT.Although ultrasonography (Option D) is an excellent imaging modality to evaluate for lower extremity DVT, it is not an appropriate initial test for patients unlikely to have a DVT because it may not be necessary if the D-dimer is normal. This patient has an unlikely probability of DVT and should undergo D-dimer testing, with ultrasonography being performed next if the D-dimer is elevated.",
+  "critique_links": [],
   "key_points": [
     "In patients with an unlikely pretest probability of deep venous thrombosis (DVT), D-dimer testing should be performed as initial diagnostic testing.",
     "Patients with an unlikely clinical probability of DVT and negative D-dimer require no further testing for DVT."
@@ -52,11 +53,34 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/hmtab24043.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:37:08.418276-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "hmtab24043",
+        "file": "tables/hmtab24043.html",
+        "title": "Wells Criteria for Deep Venous Thrombosis",
+        "short_title": "Wells Criteria for DVT",
+        "footnotes": [
+          "Scoring systems:",
+          "Dichotomous scoring: 0-1 points = deep venous thrombosis (DVT) unlikely; ≥2 points = DVT likely.",
+          "Three-level scoring: -2 to 0 points = low probability; 1-2 points = intermediate probability; ≥3 points = high probability.",
+          "Reprinted from Wells PS, Anderson DR, Rodger M, Forgie M, Kearon C, Dreyer J, et al. Evaluation of D-dimer in the diagnosis of suspected deep-vein thrombosis. N Engl J Med. 2003;349:1227-35. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/14507948\" target=\"_blank\">PMID: 14507948</a> doi:10.1056/NEJMoa023153. Copyright © 2003 Massachusetts Medical Society. Reprinted with permission from Massachusetts Medical Society."
+        ],
+        "headers": [
+          "Clinical Characteristic",
+          "Points"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.020594-06:00"
 }

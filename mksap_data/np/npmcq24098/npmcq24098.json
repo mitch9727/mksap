@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 64-year-old man is evaluated in the emergency department for nausea. Six hours ago, he ingested two bottles of magnesium citrate for constipation. He has stage G3b chronic kidney disease, type 2 diabetes mellitus, and hypertension. Medications are metformin, dapagliflozin, atorvastatin, and losartan.On physical examination, blood pressure is 110/70 mm Hg, and pulse rate is 80/min. There is mild abdominal discomfort on palpation. Deep tendon reflexes of the ankle are 1+.",
+  "question_text": "A 64-year-old man is evaluated in the emergency department for nausea. Six hours ago, he ingested two bottles of magnesium citrate for constipation. He has stage G3b chronic kidney disease, type 2 diabetes mellitus, and hypertension. Medications are metformin, dapagliflozin, atorvastatin, and losartan.On physical examination, blood pressure is 110/70 mm Hg, and pulse rate is 80/min. There is mild abdominal discomfort on palpation. Deep tendon reflexes of the ankle are 1+.Laboratory studies:Blood urea nitrogen32 mg/dL (11.4 mmol/L)HCalcium8 mg/dL (2 mmol/L)LCreatinine1.9 mg/dL (167.9 µmol/L)HElectrolytesSodium135 mEq/L (135 mmol/L)LPotassium4.9 mEq/L (4.9 mmol/L)Chloride102 mEq/L (102 mmol/L)Bicarbonate23 mEq/L (23 mmol/L)Glucose124 mg/dL (6.9 mmol/L)HMagnesium5.0 mg/dL (2.07 mmol/L)H",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment is intravenous 0.9% saline and furosemide (Option C) for this patient with hypermagnesemia. Because the kidney efficiently handles excess magnesium, hypermagnesemia is uncommon except in patients with chronic kidney disease (CKD) who ingest a large amount of magnesium-containing products or when intravenous magnesium is used during pregnancy for management of preterm labor. Hypermagnesemia, defined by a serum magnesium level >2.4 mg/dL (0.99 mmol/L) does not usually cause symptoms until serum magnesium levels reach 4.8 mg/dL (1.98 mmol/L). Early symptoms include diminished tendon reflexes progressing to flaccid paralysis at higher levels. Hypermagnesemia may also cause bradycardia and hypotension from loss of vascular tone. Laboratory analysis often shows concomitant hypocalcemia. Normally, 50% to 70% of plasma magnesium is freely filtered by the glomerulus, most of which is reabsorbed in the thick ascending limb of Henle (TALH). Increases in plasma magnesium are sensed by the calcium-sensing receptor in the TALH, which then downregulates electrolyte reabsorption, appropriately preventing magnesium reabsorption. However, in patients with advanced CKD, the filtered load of magnesium is decreased, which can cause hypermagnesemia if excess magnesium is ingested. The goal of treatment of moderate hypermagnesemia is to decrease magnesium reabsorption and thereby increase urinary excretion. Isotonic fluid, such as 0.9% saline, increases glomerular filtration rate, and a loop diuretic, such as furosemide, improves the renal clearance of magnesium in the ascending loop of Henle. In addition, to prevent recurrence, magnesium-containing agents should be limited or avoided in individuals with kidney disease.Hemodialysis (Option A) as a treatment for hypermagnesemia is reserved for patients with who have end-stage kidney disease or oliguric acute kidney injury. As this patient has neither, hemodialysis is not indicated.In cases of severe hypermagnesemia (serum magnesium levels >6.0 mg/dL [2.48 mmol/L]), intravenous calcium gluconate (Option B) can be used to antagonize the magnesium effects on the cardiac and neuromuscular system. This patient has only moderate hypermagnesemia and does not have severe symptoms.Zirconium cyclosilicate (Option D) selectively entraps potassium and ammonium in the gastrointestinal tract and has no effect on serum magnesium. It is used to bind potassium in the intestines and decrease the absorption of potassium for patients with chronic kidney disease who are at risk for hyperkalemia. Zirconium cyclosilicate is not indicated for this patient.",
+  "critique_links": [],
   "key_points": [
     "Intravenous 0.9% saline and a loop diuretic such as furosemide are used to treat moderate hypermagnesemia, with the goal of increasing magnesium urinary excretion."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:16.032545-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.871917-06:00"
 }

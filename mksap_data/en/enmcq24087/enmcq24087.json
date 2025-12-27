@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 47-year-old woman attends a follow-up visit to discuss the results of her recent hospitalization for a 72-hour fast. The test was initiated because she had experienced multiple episodes of fasting hypoglycemia accompanied by altered mental status; the episodes resolved with food intake. The 72-hour fast was stopped at 30 hours because she developed altered mental status and a plasma glucose level of 40 mg/dL (2.2 mmol/L). With intravenous glucagon, the patient improved.During the 72-hour fast, insulin antibody testing and sulfonylurea and meglitinide screening results were negative.",
+  "question_text": "A 47-year-old woman attends a follow-up visit to discuss the results of her recent hospitalization for a 72-hour fast. The test was initiated because she had experienced multiple episodes of fasting hypoglycemia accompanied by altered mental status; the episodes resolved with food intake. The 72-hour fast was stopped at 30 hours because she developed altered mental status and a plasma glucose level of 40 mg/dL (2.2 mmol/L). With intravenous glucagon, the patient improved.Laboratory studies (during hospitalization):At 30 HoursAt 30.5 HoursGlucose40 mg/dL (2.2 mmol/L)L70 mg/dL (3.9 mmol/L), 30 minutes after intravenous glucagon administrationC-peptide0.5 nmol/L (normal range, <0.2 nmol/L)Hβ-Hydroxybutyrate0.1 mmol/L (normal range, >2.7 mmol/L after a prolonged fast)LInsulin5.9 μU/mL (normal range, <3 μU/mL)HProinsulin8.1 pmol/L (normal range, <5 pmol/L)HDuring the 72-hour fast, insulin antibody testing and sulfonylurea and meglitinide screening results were negative.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The results of this patient's 72-hour fast are consistent with an insulinoma (Option C). A 72-hour supervised fast should be conducted in patients with fasting hypoglycemia and a strong clinical suspicion for a hypoglycemic disorder. During the fast, plasma glucose is drawn every 6 hours and immediately sent to the laboratory. If the glucose level is less than 60 mg/dL (3.3 mmol/L), four tests are performed: C-peptide, insulin, proinsulin, and β-hydroxybutyrate. Testing is considered complete when one of the following parameters is met: a plasma glucose level of 45 mg/dL (2.5 mmol/L) or a plasma glucose level below 55 mg/dL (3.1 mmol/L) with signs or symptoms of hypoglycemia. Interpretation of testing results is outlined in Table: Differential Diagnosis of Spontaneous Fasting Hypoglycemia. In healthy persons, insulin production decreases and ketogenesis occurs in response to hypoglycemia. However, in patients with insulinoma, the insulin, C-peptide, and proinsulin levels are inappropriately elevated in the setting of hypoglycemia, indicating excess endogenous insulin production. Patients with insulinoma also demonstrate suppressed ketogenesis due to excess insulin; this is evidenced by a low serum β-hydroxybutyrate level. At the end of the fast, intravenous glucagon is administered to evaluate hepatic glycogen stores. In healthy persons, a prolonged fast will deplete hepatic glycogen stores. Because insulin inhibits glycogenolysis, a patient with insulinoma will retain hepatic glycogen stores even after prolonged fasting. Therefore, administering glucagon (a glycogenolytic agent) will cause the plasma glucose level to rise more than 25 mg/dL (1.4 mmol/L). This patient's glucose level rose from 40 mg/dL (2.2 mmol/L) to 70 mg/dL (3.9 mmol/L) and is consistent with the diagnosis of insulinoma. Once the biochemical diagnosis is made, imaging for tumor localization can be pursued.Exogeneous insulin intake (Option A) would also result in hypoglycemia, elevated insulin levels, and suppressed ketogenesis, but markers of endogenous insulin production (C-peptide and proinsulin levels) would be suppressed. Instead, levels of these markers were elevated in this patient.Notably, the same fasting laboratory results seen with insulinomas are seen with insulin autoimmune hypoglycemia and ingestion of oral hypoglycemic agents (sulfonylureas and meglitinides) (Options B, D). However, screening tests for insulin antibodies or the aforementioned agents, respectively, would be positive in such scenarios.",
+  "critique_links": [],
   "key_points": [
     "In patients with insulinoma, the insulin, C-peptide, and proinsulin levels are inappropriately elevated and ketogenesis inappropriately suppressed (as evidenced by a low serum β-hydroxybutyrate level) in the setting of hypoglycemia."
   ],
@@ -51,12 +52,52 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/entab24023.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T23:00:03.704003-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "entab24023",
+        "file": "tables/entab24023.html",
+        "title": "Differential Diagnosis of Spontaneous Fasting Hypoglycemia<sup>a</sup> in a Person Without Diabetes Mellitus",
+        "short_title": "Differential Diagnosis of Spontaneous Fasting Hypoglycemia",
+        "footnotes": [
+          "IGF = insulin-like growth factor.",
+          "<sup>a</sup>Symptomatic hypoglycemia, fasting plasma glucose level of 55 mg/dL (3.1 mmol/L) or lower, and prompt symptomatic relief with correction of hypoglycemia (Whipple triad).",
+          "<sup>b</sup>Plasma C-peptide and proinsulin indicate endogenous insulin production.",
+          "<sup>c</sup>Serum β-hydroxybutyrate will be suppressed in the presence of insulin but elevated with hypoglycemia that is not mediated by insulin.",
+          "<sup>d</sup>Blood specimens should be collected at the end of testing, and glucagon should be administered followed by serial plasma glucose measurements over the course of 30 minutes. Insulin suppresses glycogenolysis and preserves glycogen stores. In the setting of an insulinoma, plasma glucose will increase in response to glucagon as the glycogen stores are used.",
+          "<sup>e</sup>Similar results can also be seen with noninsulinoma pancreatogenous hypoglycemia syndrome or post–gastric bypass hypoglycemia.",
+          "<sup>f</sup>Insulin-like growth factor (IGF)-2 or its precursors may be produced by tumors and induce hypoglycemia by stimulating the insulin receptors with subsequent increases in glucose use.",
+          "Data from Cryer PE, Axelrod L, Grossman AB, et al; Endocrine Society. Evaluation and management of adult hypoglycemic disorders: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2009;94:709-28. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19088155\" target=\"_blank\">PMID: 19088155</a> doi:10.1210/jc.2008-1410"
+        ],
+        "headers": [
+          "Diagnosis",
+          "Serum Insulin",
+          "Plasma C-Peptideb",
+          "Plasma Proinsulinb",
+          "Serum β-Hydroxybutyratec",
+          "Serum Insulin Antibodies",
+          "Urine or Blood Metabolites of Sulfonylureas or Meglitinides"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies (during hospitalization):",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.296431-06:00"
 }

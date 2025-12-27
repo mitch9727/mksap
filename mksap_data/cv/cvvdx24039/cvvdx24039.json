@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 48-year-old woman is evaluated for exertional dyspnea. S1 is diminished, and a holosystolic murmur obscures S2.ECG is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is chronic mitral regurgitation (Option B). The diminished S1 and the holosystolic murmur that obscures S2 are consistent with mitral regurgitation. In addition, the ECG demonstrates left atrial enlargement, which may occur in mitral regurgitation. Features of left atrial enlargement include a widened (≥120 ms), M-shaped (notched) P wave in one or more of the “mitral leads” (I, II, or aVL) or a deep negative component to the P wave in V1. This ECG shows the widened M-shaped P wave in lead II and a deep negative component to the P wave in lead V1. The ECG also shows evidence of left ventricular hypertrophy by Sokolow-Lyon criteria (S wave in V1 and R in V5 >35 mm), which suggests chronic volume overload. These findings all support the diagnosis of chronic mitral regurgitation, which should be confirmed with echocardiography.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.430309-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24646",
+        "file": "figures/cvfig24646.68499d27a93c6867a0f81cfab951d42b.jpg",
+        "title": "ECG Showing Left Atrial Enlargement",
+        "short_title": "stem ECG Showing Left Atrial Enlargement",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 509
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.929183-06:00"
 }

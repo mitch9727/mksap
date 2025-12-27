@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 58-year-old woman is evaluated for a 1-year history of progressive anhedonia, fatigue, and polyuria. Medical history is otherwise unremarkable, and she takes no medications.On physical examination, vital signs are normal. She has a depressed affect.A parathyroid sestamibi scan does not localize a parathyroid adenoma.",
+  "question_text": "A 58-year-old woman is evaluated for a 1-year history of progressive anhedonia, fatigue, and polyuria. Medical history is otherwise unremarkable, and she takes no medications.On physical examination, vital signs are normal. She has a depressed affect.Laboratory studies:Albumin4.5 g/dL (45 g/L)Calcium11.4 mg/dL (2.8 mmol/L)HTwo weeks ago11.3 mg/dL (2.8 mmol/L)HCreatinine1.3 mg/dL (115 μmol/L)Parathyroid hormone89 pg/mL (89 ng/L)H24-Hour urine calcium440 mg/24 h (11 mmol/24 h)HA parathyroid sestamibi scan does not localize a parathyroid adenoma.",
   "question_stem": "Which of the following is the most appropriate next step in treatment?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "This patient with symptomatic primary hyperparathyroidism should be treated with parathyroidectomy (Option B). Patients whose symptoms are caused by hypercalcemia have the strongest evidence of improved outcomes after parathyroidectomy. Other indications for surgery include the following:Age younger than 50 yearsSerum calcium level greater than 1 mg/dL (0.25 mmol/L) above the upper limit of normalChanges in kidney function (eGFR <60 mL/min/1.73 m, urine calcium level >250 mg/24 h in women or >300 mg/24 h in men, or clinical or imaging evidence of a kidney stone)T-score of −2.5 or less at any siteVertebral fracture on imagingLocalization imaging (e.g., parathyroid sestamibi scan) for the purposes of surgical planning may be negative even when the diagnosis and indications for surgery are certain, and a negative scan does not negate the need for surgery. Parathyroidectomy is indicated for this patient with symptomatic hyperparathyroidism and hypercalciuria. Surgery results in a 95% cure rate; the rate of complications is less than 1% with an experienced surgeon.Thiazide diuretics, such as hydrochlorothiazide (Option A), may reduce urine calcium excretion in patients with primary hyperparathyroidism, but their impact on the risk for nephrolithiasis is unknown. Although they are generally avoided in primary hyperparathyroidism to avoid exacerbating hypercalcemia, some studies have shown that calcium levels in these patients are not increased with thiazide therapy. Regardless, thiazide diuretics would not improve symptoms caused by hypercalcemia and would not be the most appropriate management for this patient.Antiresorptive medications, such as zoledronate (Option C), prevent bone loss in primary hyperparathyroidism but are not equivalent to parathyroidectomy in restoring normal bone metabolism and structure. Potent antiresorptive medications can also transiently lower serum calcium in primary hyperparathyroidism. However, these temporizing effects are inferior to the enduring effects achieved by surgical correction of hyperparathyroidism.In most circumstances, parathyroidectomy is an elective surgery. A short period of observation could be employed when other medical problems are more pressing or the contribution of primary hyperparathyroidism to symptoms of concern is ambiguous. However, observation alone (Option D) is inappropriate for this patient who has indications for parathyroidectomy.",
+  "critique": "This patient with symptomatic primary hyperparathyroidism should be treated with parathyroidectomy (Option B). Patients whose symptoms are caused by hypercalcemia have the strongest evidence of improved outcomes after parathyroidectomy. Other indications for surgery include the following:Age younger than 50 yearsSerum calcium level greater than 1 mg/dL (0.25 mmol/L) above the upper limit of normalChanges in kidney function (eGFR <60 mL/min/1.73 m2, urine calcium level >250 mg/24 h in women or >300 mg/24 h in men, or clinical or imaging evidence of a kidney stone)T-score of −2.5 or less at any siteVertebral fracture on imagingLocalization imaging (e.g., parathyroid sestamibi scan) for the purposes of surgical planning may be negative even when the diagnosis and indications for surgery are certain, and a negative scan does not negate the need for surgery. Parathyroidectomy is indicated for this patient with symptomatic hyperparathyroidism and hypercalciuria. Surgery results in a 95% cure rate; the rate of complications is less than 1% with an experienced surgeon.Thiazide diuretics, such as hydrochlorothiazide (Option A), may reduce urine calcium excretion in patients with primary hyperparathyroidism, but their impact on the risk for nephrolithiasis is unknown. Although they are generally avoided in primary hyperparathyroidism to avoid exacerbating hypercalcemia, some studies have shown that calcium levels in these patients are not increased with thiazide therapy. Regardless, thiazide diuretics would not improve symptoms caused by hypercalcemia and would not be the most appropriate management for this patient.Antiresorptive medications, such as zoledronate (Option C), prevent bone loss in primary hyperparathyroidism but are not equivalent to parathyroidectomy in restoring normal bone metabolism and structure. Potent antiresorptive medications can also transiently lower serum calcium in primary hyperparathyroidism. However, these temporizing effects are inferior to the enduring effects achieved by surgical correction of hyperparathyroidism.In most circumstances, parathyroidectomy is an elective surgery. A short period of observation could be employed when other medical problems are more pressing or the contribution of primary hyperparathyroidism to symptoms of concern is ambiguous. However, observation alone (Option D) is inappropriate for this patient who has indications for parathyroidectomy.",
+  "critique_links": [],
   "key_points": [
     "Patients with primary hyperparathyroidism whose symptoms are caused by hypercalcemia have the strongest evidence of improved outcomes after parathyroidectomy.",
     "In patients with primary hyperparathyroidism, negative localization studies do not obviate the need for surgery if it is otherwise indicated."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:43.808755-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.204908-06:00"
 }

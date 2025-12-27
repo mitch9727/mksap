@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 58-year-old man is evaluated in the hospital for left-sided weakness that began 18 hours ago. Medical history is significant for hypertension, dyslipidemia, and type 2 diabetes mellitus; he has a 25-pack-year history of smoking. Medications are candesartan, rosuvastatin, metformin, empagliflozin, and aspirin.On physical examination, blood pressure is 148/78 mm Hg, and pulse rate is 78/min. He exhibits left facial weakness and left arm and leg drift. National Institutes of Health Stroke Scale score is 3. He shows no dysarthria and passes a bedside dysphagia evaluation.Head CT scan shows no acute infarct, but brain MRI shows two small right frontal infarcts involving subcortical white matter without mass effect or hemorrhagic conversion. CT angiography shows 80% stenosis of the right middle cerebral artery.Oral aspirin is administered.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in this patient with a minor ischemic stroke secondary to intracranial atherosclerosis is adding oral clopidogrel to aspirin (Option C). Dual antiplatelet therapy (DAPT) significantly reduces the risk for recurrent ischemic stroke in patients with high-risk transient ischemic attack or minor noncardioembolic ischemic stroke and may be particularly effective in patients with intracranial atherosclerosis. Clopidogrel combined with aspirin is effective when administered within 24 hours of ischemic stroke onset and is likely to be effective when started after this time window as well. The total recommended treatment duration for DAPT is between 30 and 90 days, with the longer duration typically used in patients with intracranial atherosclerosis. Additional long-term strategies to further reduce the risk for stroke include blood pressure control, use of a high-intensity statin, tobacco cessation, and daily exercise. This patient has had a minor stroke, defined as a stroke with a National Institutes of Health Stroke Scale score of 5 or less, with evidence of infarction on MRI (shown). The infarcts are most likely secondary to intracranial atherosclerosis based on the high-grade stenosis of the middle cerebral artery, and this patient should receive DAPT.Intra-arterial verapamil (Option A) is not indicated in this patient; cerebral arterial vasospasm is unlikely to be the cause of his stroke, given his cardiovascular disease risk factors and the middle cerebral artery stenosis seen on angiogram. This treatment is sometimes indicated in other conditions, such as symptomatic intracranial arterial vasospasm after aneurysmal subarachnoid hemorrhage.Intracranial stenting (Option B) is not recommended to reduce the risk for ischemic stroke in patients with intracranial atherosclerosis. Intracranial stenting does not reduce the risk for recurrence and is associated with a high risk for perioperative stroke. Intracranial stenting can be considered on a case-by-case basis in patients who have not benefited from best medical therapy or as a rescue measure during acute stroke endovascular therapy if reocclusion occurs.Oral prasugrel (Option D) is not indicated in patients with stroke. In trials of patients with coronary artery disease, prasugrel was associated with a high risk for hemorrhagic complications when used in patients with a previous stroke; it should be avoided in this patient population.",
+  "critique_links": [],
   "key_points": [
     "Short-term dual antiplatelet therapy, typically with aspirin and clopidogrel, significantly reduces the risk for recurrent ischemic stroke in patients with high-risk transient ischemic attack or minor noncardioembolic ischemic stroke.",
     "Intracranial stenting is not recommended to reduce the risk for ischemic stroke in patients with intracranial atherosclerosis."
@@ -58,5 +59,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:17:22.702672-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "nrfig24206",
+        "file": "figures/nrfig24206.30b44bc8db1572e4fdfbbae76accba5a.jpg",
+        "title": "Brain MRI in Stroke Secondary to Intracranial Atherosclerosis",
+        "short_title": "MRI in Stroke from Intracranial Atherosclerosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 987
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.368467-06:00"
 }

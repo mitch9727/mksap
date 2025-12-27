@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 36-year-old woman is evaluated for fatigue of 3 months' duration. Her medical history is notable for menorrhagia due to uterine fibroids, treated successfully with myomectomy 1 month ago. She had a urinary tract infection 2 weeks ago, for which she took nitrofurantoin. She has no other medical problems and currently takes no medications.On physical examination, vital signs are normal. Pallor is noted. No scleral icterus is seen. The remainder of the examination is normal.Laboratory studies:Hemoglobin7.9 g/dL (79 g/L)L6 Months ago11.1 g/dL (111 g/L)LLeukocyte count6800/μL (6.8 × 109/L)Mean corpuscular volume70 fLL6 Months ago80 fLPlatelet count414,000/μL (414 × 109/L)Reticulocyte count1% of erythrocytesRed-cell distribution width is elevated.The peripheral blood smear is shown.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Beginning oral iron replacement therapy every other day (Option D) is the most appropriate management option for this patient with iron deficiency. A low mean corpuscular volume, elevated red-cell distribution width, and peripheral blood smear (PBS) showing microcytosis and anisopoikilocytosis are virtually diagnostic of iron deficiency, especially in patients who are menstruating; these findings may obviate the need for additional laboratory testing provided that a follow-up blood count is performed to assess response to iron therapy. Iron deficiency may result from decreased intake or absorption, blood loss (especially menstrual and gastrointestinal losses), hemolysis, or increased demand (e.g., pregnancy and lactation). Common symptoms of iron deficiency include fatigue, lack of a sense of well-being, irritability, headache, decreased exertional tolerance, or pica; however, patients are frequently asymptomatic. The physical examination may be normal in mild disease, but in more advanced stages it may demonstrate conjunctival pallor, tachycardia, glossitis, stomatitis, or koilonychia. Iron deficiency is typically treated with oral iron salts. Frequent dosing (two or three times daily) of oral iron can lead to increased hepcidin production, which reduces iron absorption. Therefore, dosing should be limited to daily or every other day. This patient with recent heavy menstrual blood loss and a PBS characteristic of iron deficiency should be treated with oral iron, and an every-other-day regimen is an appropriate choice.Folate deficiency causes macrocytic anemia with hypersegmented neutrophils on PBS. In addition to folate deficient states, folic acid supplementation (Option A) is indicated in patients experiencing rapid cell turnover, such as pregnancy, hemolysis, or desquamating skin disorders (psoriasis). This patient has no indication for folic acid supplementation.Glucose-6-phosphate dehydrogenase (G6PD) deficiency can lead to an acute hemolytic anemia in the setting of oxidative stress due to infection or certain medications, including nitrofurantoin. Hemolytic anemia, however, is associated with an increase in erythrocytosis, and the PBS may show “bite cells” caused by splenic removal of denatured hemoglobin. These findings are absent in this patient, so testing for G6PD enzyme function (Option B) is not indicated.Microcytosis with or without anemia is a manifestation of thalassemia, which is diagnosed by hemoglobin electrophoresis (Option C). However, thalassemia is not the most likely explanation of this patient's anemia; the history of heavy menstrual blood loss and prominent anisopoikilocytosis more strongly suggest iron deficiency.",
+  "critique_links": [],
   "key_points": [
     "Hypochromic and microcytic anemia, low reticulocyte count, and anisopoikilocytosis are characteristic of iron deficiency anemia.",
     "Frequent dosing (two or three times daily) of oral iron can lead to increased hepcidin production, which reduces iron absorption; a single daily or every-other-day dose may be the best strategy."
@@ -51,10 +52,41 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
-    "images": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [
+      "figures/hmfig25701.4ef02a0ec9590e4bfb72773303551912.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:44:24.252584-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hmfig25701",
+        "file": "figures/hmfig25701.4ef02a0ec9590e4bfb72773303551912.jpg",
+        "title": "Peripheral Blood Smear Findings in Iron Deficiency Anemia",
+        "short_title": "Blood Smear Findings in Iron Deficiency Anemia",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 727,
+        "height": 492
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.782727-06:00"
 }

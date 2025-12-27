@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 71-year-old man is evaluated in the emergency department for a new-onset generalized tonic-clonic seizure. The seizure lasted 3 minutes and spontaneously resolved 30 minutes ago; the patient has regained full awareness by the time he is evaluated in the emergency department. Medical history is significant for small cell lung cancer. He completed six cycles of cisplatin and etoposide 6 months ago and had prophylactic whole-brain radiation 3 months ago. He takes no medications.Physical examination findings, including vital signs, are within normal limits.MRI of the brain with contrast reveals enhancing lesions in the right and left frontal lobes at the gray-white junction, which were not present on an MRI performed 3 months ago. No hemorrhage or mass effect is seen.",
+  "question_text": "A 71-year-old man is evaluated in the emergency department for a new-onset generalized tonic-clonic seizure. The seizure lasted 3 minutes and spontaneously resolved 30 minutes ago; the patient has regained full awareness by the time he is evaluated in the emergency department. Medical history is significant for small cell lung cancer. He completed six cycles of cisplatin and etoposide 6 months ago and had prophylactic whole-brain radiation 3 months ago. He takes no medications.Physical examination findings, including vital signs, are within normal limits.Laboratory studies:Sodium131 mEq/L (131 mmol/L) (unchanged from previous values)LMRI of the brain with contrast reveals enhancing lesions in the right and left frontal lobes at the gray-white junction, which were not present on an MRI performed 3 months ago. No hemorrhage or mass effect is seen.",
   "question_stem": "Which of the following is the most appropriate treatment for this patient's seizure?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Lacosamide (Option A) is the most appropriate treatment of seizures in this patient with metastatic brain disease. Seizures secondary to central nervous system (CNS) tumors are more common in low-grade than high-grade tumors. Tumors near the cortex, especially the temporal lobe or primary motor cortex, are especially associated with seizures. White matter and posterior fossa tumors, on the other hand, typically do not cause seizures. Additionally, seizures may not be caused directly by the CNS tumor but by associated conditions or treatment, such as electrolyte disturbances, infection, chemotherapy, or paraneoplastic encephalitis. Lacosamide and levetiracetam are the preferred antiseizure drugs (ASDs) in CNS tumors because of their lack of drug-drug interactions and the very low likelihood of agranulocytosis, both of which would be potentially problematic in patients with cancer who are receiving (or being considered for) chemotherapy. Moreover, their ability to be given intravenously and titrated rapidly are advantageous in the acute setting. This patient has new seizures in the setting of CNS metastatic disease, and lacosamide is an appropriate ASD in this setting.Oxcarbazepine (Option B) is generally used to treat focal seizures (with or without secondary generalization). However, it may cause or exacerbate hyponatremia; hyponatremia is a relative contraindication to its use, especially in older adults, who are at higher risk for hyponatremia. Oxcarbazepine should be avoided or used with caution in patients susceptible to hyponatremia (e.g., those with paraneoplastic or endocrine disorders or those using medications such as diuretics).In patients with CNS tumors and seizures, older ASDs like valproate (Option C) should be avoided because of drug interactions and adverse effects. Other ASDs that should be avoided for the same reason include phenobarbital, phenytoin, and carbamazepine. Levetiracetam and lacosamide are better options.The seizure recurrence risk in this patient with brain metastases is high (about 60%), and no further treatment (Option D) would be inappropriate.",
+  "critique_links": [],
   "key_points": [
     "Lacosamide and levetiracetam are the preferred antiseizure drugs for treating seizures associated with central nervous system tumors because of their lack of drug-drug interactions, very low likelihood of agranulocytosis, and their ability to be given intravenously and titrated rapidly.",
     "Oxcarbazepine may cause or exacerbate hyponatremia, and its use should be avoided in patients susceptible to hyponatremia, including those receiving diuretic therapy."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:16:50.572482-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.158602-06:00"
 }

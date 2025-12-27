@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 58-year-old woman is evaluated after polysomnography documented an apnea-hypopnea index of 6 and 38% of sleep time with an oxygen saturation of less than 90%. She has type 2 diabetes mellitus and hypertension. Medications are metformin and lisinopril.Vital signs are normal. Oxygen saturation is 91% with the patient breathing ambient air. BMI is 44. The remainder of the physical examination is unremarkable.Chest radiograph demonstrates clear lungs.",
+  "question_text": "A 58-year-old woman is evaluated after polysomnography documented an apnea-hypopnea index of 6 and 38% of sleep time with an oxygen saturation of less than 90%. She has type 2 diabetes mellitus and hypertension. Medications are metformin and lisinopril.Vital signs are normal. Oxygen saturation is 91% with the patient breathing ambient air. BMI is 44. The remainder of the physical examination is unremarkable.Laboratory studies:Hemoglobin16.9 g/dL (169 g/L)H Arterial blood gases (ambient air):pH7.36LPco258 mm Hg (7.7 kPa)HPo259 mm Hg (7.8 kPa)LChest radiograph demonstrates clear lungs.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is obesity hypoventilation syndrome (OHS) (Option C). OHS is characterized by daytime hypercapnia (arterial Pco2 >45 mm Hg [6.0 kPa]) that is thought to result from diminished ventilatory drive and capacity related to extreme obesity. Persons with a BMI of 30 or higher are considered at risk for OHS; it is estimated that more than half of patients with a BMI of 50 or higher have this condition. This patient's BMI of 44, compensated hypercapnic respiratory failure, hypoxemia during wakefulness but more pronounced during sleep, and polycythemia are all consistent with OHS. Positive airway pressure therapy (continuous positive airway pressure or bilevel positive airway pressure), sometimes with supplemental oxygen, is first-line therapy.Neuromuscular diseases that can affect the respiratory system must be considered in the differential diagnosis of hypoventilation syndromes. Amyotrophic lateral sclerosis (ALS) (Option A) often leads to hypercapnic respiratory failure. However, this patient has an unremarkable neurologic examination and none of the typical features of ALS, such as muscle weakness, fasciculations, and hyperactive deep tendon reflexes. Therefore, ALS is an unlikely diagnosis.Central sleep apnea (CSA) (Option B) is defined by intermittent reduced central drive to breathe but is not a hypoventilation syndrome. In fact, the tendency to hyperventilate, as seen with the cyclic ventilatory pattern of Cheyne-Stokes breathing, is a key underlying mechanism of CSA. Patients with CSA are generally normocapnic or slightly hypocapnic on blood gas testing, which is not the case in this patient.An apnea-hypopnea index (AHI) of 5 to 14 events per hour indicates mild obstructive sleep apnea (OSA). This patient has mild OSA based on an AHI of 6 events per hour. OSA is typically encountered on sleep testing in patients with OHS, with upper airway collapse superimposed on obesity-related hypoventilation. Severe OSA (Option D) is defined as an AHI of more than 30 events per hour.",
+  "critique_links": [],
   "key_points": [
     "Obesity hypoventilation syndrome is characterized by daytime hypercapnia, defined as an arterial Pco2 greater than 45 mm Hg (6.0 kPa) that is thought to result from diminished ventilatory drive and capacity related to obesity."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.129510-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.227058-06:00"
 }

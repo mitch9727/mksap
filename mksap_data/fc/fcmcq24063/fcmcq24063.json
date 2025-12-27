@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 63-year-old woman is hospitalized for an exacerbation of newly diagnosed COPD. In handing off the patient to the nocturnist, the admitting physician reports that the patient is moderately ill, with COPD exacerbation diagnosed after increased dyspnea and cough during the past 3 days. He notes that a repeat arterial blood gas test is scheduled for 9 pm, and the results will need to be followed. The admitting physician suggests that noninvasive positive pressure ventilation be initiated for a decline in respiratory status. Then, the nocturnist summarizes the patient's case and asks a clarifying question.",
   "question_stem": "Which communication strategy was used during this encounter?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "In this scenario, the admitting physician used the I-PASS method (Option C). Patient transitions in care are associated with increased risk for harm due to factors such as inadequate transfer of information or inadequate patient education. Handoffs are defined as the transfer and acceptance of patient care responsibilities between clinicians or between care teams. Effective handoff communication is integral to mitigating the risk for harm associated with transitions and enhancing patient safety. Structured communication strategies exist to aid in this process (see Table: Structured Communication Strategies). Used during handoffs between clinicians in the hospital setting, I-PASS is designed to enhance and standardize information exchange. I-PASS is a validated tool that was developed from best handoff practices and is a mnemonic forIllness severityPatient summaryAction listSituation awareness and contingency planningSynthesis by receiverConsistent with the components of I-PASS, the clinician in this scenario indicated the severity of the patient's illness (moderate), provided a patient summary (details of COPD exacerbation), gave a list of actions to be done (follow arterial blood gas test results), and provided contingency planning (noninvasive positive pressure ventilation for worsening respiratory status). The nocturnist then synthesized the handoff by summarizing the information provided by the admitting physician and asking a clarifying question.Call-outs (Option A) are used in emergency settings, such as code blues and rapid responses, to communicate important or critical information verbally, which informs all team members simultaneously. During call-outs, questions and answers are made out loud so that all team members hear valuable information.Closed loop (Option B) is a form of communication in which the person receiving an instruction repeats it back to the sender. The sender confirms that the message was understood correctly, thus closing the loop.The SBAR (Situation, Background, Assessment, and Recommendation) technique (Option D; see Table: Structured Communication Strategies) was developed to improve team communication, especially between nurses and physicians, and is also used for handoffs. A systematic review in 2018 found moderate evidence for improved patient safety with SBAR. However, in this situation, the handoff that was used was most consistent with the I-PASS technique.",
+  "critique_links": [],
   "key_points": [
     "Effective handoff communication between clinicians or between care teams is integral to mitigating the risk for harm associated with transitions and to enhancing patient safety.",
     "Used during handoffs in the hospital setting, I-PASS is a tool designed to enhance information exchange during transitions of care."
@@ -51,10 +52,35 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/fctab24018.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:34.013285-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "fctab24018",
+        "file": "tables/fctab24018.html",
+        "title": "Structured Communication Strategies",
+        "short_title": "Structured Communication Strategies",
+        "footnotes": [
+          "BP = blood pressure; IV = intravenous; NS = normal (0.9%) saline; O<sub>2</sub> sat = O<sub>2</sub> saturation; postop = postoperative; SBP = systolic blood pressure.",
+          "Adapted from TeamSTEPPS curriculum materials. Agency for Healthcare Research and Quality, Rockville, MD. Content last reviewed October 2019. <a href=\"http://www.ahrq.gov/teamstepps/curriculum-materials.html\" target=\"_blank\">www.ahrq.gov/teamstepps/curriculum-materials.html</a>. Accessed November 14, 2024."
+        ],
+        "headers": [
+          "Communication Strategy",
+          "Description",
+          "Setting/Overview",
+          "Example"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.707991-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 64-year-old woman is evaluated in the hospital for a fever she developed following coronary artery bypass graft surgery 4 days ago. She has an indwelling urinary catheter that was inserted in the operating room before surgery. A single episode of fever occurred 2 days ago, with a temperature of 38.4 °C (101.1 °F), and a urine specimen was sent for urinalysis and culture. Medications are aspirin, clopidogrel, metoprolol, and atorvastatin.On physical examination, temperature is 37.3 °C (99.1 °F). Minimal erythema is seen from the sternal incision site, without drainage. No suprapubic tenderness or flank pain is noted.Urine culture grows 103 colony-forming units/mL of pan-sensitive Escherichia coli.",
+  "question_text": "A 64-year-old woman is evaluated in the hospital for a fever she developed following coronary artery bypass graft surgery 4 days ago. She has an indwelling urinary catheter that was inserted in the operating room before surgery. A single episode of fever occurred 2 days ago, with a temperature of 38.4 °C (101.1 °F), and a urine specimen was sent for urinalysis and culture. Medications are aspirin, clopidogrel, metoprolol, and atorvastatin.On physical examination, temperature is 37.3 °C (99.1 °F). Minimal erythema is seen from the sternal incision site, without drainage. No suprapubic tenderness or flank pain is noted.Laboratory studies:Leukocyte count8700/µL (8.7 × 109/L)Urinalysis with microscopyPositive for leukocyte esterase and nitrites; 21 leukocytes/hpfUrine culture grows 103 colony-forming units/mL of pan-sensitive Escherichia coli.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has catheter-associated bacteriuria without associated urinary tract symptoms, so the catheter should be removed without further management at this time (Option A). Each day a urinary catheter remains in place, the risk of developing catheter-associated bacteriuria increases by 3% to 7%. This bacteriuria is more common in women and older adults. After 30 days or more of catheterization, 100% of patients will have bacteriuria. Catheter-associated urinary tract infection (CAUTI) can be challenging to diagnose and is usually one of exclusion. Fever in a patient with a urinary catheter and bacteriuria (≥103 colony-forming units [CFU]/mL) may be attributable to a source other than the urinary tract, which is likely in this patient with a single postoperative fever without associated urinary symptoms. Patients with a CAUTI may have suprapubic and costovertebral tenderness on examination. Urinary catheters should only be used for approved indications, for the shortest duration possible, and when alternatives are not feasible. Urinary catheters may be considered for prolonged surgery but should be removed as soon as possible after surgery if no other indication or ongoing need is identified.If signs or symptoms suggest CAUTI, the catheter should be removed (especially if in place for >7 days). A midstream urine sample for urinalysis and culture should only be obtained if symptoms persist or if a catheter is still needed; the urine specimen should be obtained after the new catheter has been inserted (Option B).If symptoms persist and the urine culture grows 105 CFU/mL or more of an organism, antibiotic treatment should then be initiated (Option C). Initiating antibiotic treatment pending results of the urinalysis and culture taken after removal of the catheter may be considered in patients with hemodynamic instability.Catheter-associated bacteriuria without associated urinary tract symptoms does not require treatment, so it would not be appropriate to initiate antibiotic therapy with amoxicillin (Option D). This patient does not have a CAUTI; she had a single postoperative fever and bacteriuria with no symptoms referable to the urinary tract.",
+  "critique_links": [],
   "key_points": [
     "Catheter-associated bacteriuria without associated urinary tract signs or symptoms does not generally require treatment.",
     "Urinary catheters may be considered for prolonged surgery but should be removed as soon as possible after surgery if no other indication or ongoing need is identified."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:46:41.038928-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.305363-06:00"
 }

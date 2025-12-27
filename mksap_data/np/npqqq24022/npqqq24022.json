@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 37-year-old woman is evaluated for arthralgia, dry eyes, and dry mouth of several weeks' duration. She has taken naproxen and acetaminophen daily for 1 week.On physical examination, vital signs are normal. Mucous membranes and conjunctivae are dry. The parotid glands are enlarged bilaterally.Kidney ultrasound shows normal-sized kidneys without cysts or stones.",
+  "question_text": "A 37-year-old woman is evaluated for arthralgia, dry eyes, and dry mouth of several weeks' duration. She has taken naproxen and acetaminophen daily for 1 week.On physical examination, vital signs are normal. Mucous membranes and conjunctivae are dry. The parotid glands are enlarged bilaterally.Laboratory studies:Creatinine0.9 mg/dL (79.6 µmol/L) Electrolytes:Sodium138 mEq/L (138 mmol/L)Potassium3.1 mEq/L (3.1 mmol/L)LChloride118 mEq/L (118 mmol/L)HBicarbonate12 mEq/L (12 mmol/L)LGlucose74 mg/dL (4.1 mmol/L)UrinalysispH 7.0; no blood, protein, glucose, erythrocytes, or leukocytesKidney ultrasound shows normal-sized kidneys without cysts or stones.",
   "question_stem": "Which of the following is the most likely cause of the patient's laboratory findings?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely cause of this patient's laboratory findings is type 1 (hypokalemic distal) renal tubular acidosis (RTA) (Option C). This condition occurs because of a defect in urine acidification in the distal nephron. It is most commonly caused by decreased proton pump activity in collecting duct α-intercalated cells. Because of the inability to excrete hydrogen ions, patients develop a metabolic acidosis with compensatory hyperchloremia, resulting in a normal anion gap (8.0 to 10 mEq/L ± 2.0 mEq/L [8-10 mmol/L ± 2.0 mmol/L]) and the inability to acidify urine below a pH of 5.5, even in the context of an acidemia. The urine anion gap (using the equation: [Urine Sodium + Urine Potassium] – Urine Chloride) would be positive in this case, reflecting decreased acid excretion in the form of ammonium and chloride. The same defects also cause potassium wasting, and the increased proximal resorption of citrate that occurs with metabolic acidosis leads to hypocitraturia and increased risk for calcium phosphate kidney stones and nephrocalcinosis. This patient has a hyperchloremic normal anion gap (8 mEq/L [8 mmol/L]) metabolic acidosis. Her arthralgia, sicca, and parotid gland enlargement indicate that she most likely has Sjögren disease with concomitant interstitial nephritis, one of the most common diseases associated with a type 1 RTA.Chronic tubulointerstitial nephritis (Option A) is characterized by declining kidney function with progression to chronic kidney disease and echogenic kidneys. This patient has neither of these findings.Naproxen (Option B), and other NSAIDs, can cause acute interstitial nephritis usually accompanied by acute kidney injury along with proteinuria due to minimal change disease or membranous nephropathy. Neither decline of kidney function nor proteinuria are seen in this patient.Type 2 (proximal) RTA (Option D) involves a proximal tubular defect in reclaiming bicarbonate and is characterized by a normal anion gap metabolic acidosis. Proximal tubule dysfunction may also result in Fanconi syndrome, in which other solutes are also excessively excreted, resulting in hypokalemia, hypouricemia, glycosuria (without hyperglycemia), low-molecular-weight proteinuria, and renal phosphate wasting. Because distal urine acidification remains intact, the urine pH is usually less than 5.5 without alkali therapy, and the urine anion gap should be negative, reflecting increased acid excretion in the form of ammonium and chloride. This patient's high urine pH and absence of other characteristic features make type 2 (proximal) RTA unlikely.",
+  "critique_links": [],
   "key_points": [
     "Type 1 (hypokalemic distal) renal tubular acidosis is caused by a defect in urine acidification in the distal nephron and is characterized by a normal anion gap metabolic acidosis, positive urine anion gap, inability to acidify urine below a pH of 5.5, and potassium wasting."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.486672-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.954149-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 50-year-old man is evaluated in the emergency department for nausea, vomiting, and fatigue. Three months ago, he was diagnosed with type 2 diabetes mellitus with diabetic kidney disease and peripheral neuropathy. He began treatment with metformin and empagliflozin, but he discontinued metformin because of diarrhea 1 month ago. He also has a history of alcohol use disorder in partial remission. He drinks 8 alcoholic drinks on weekends only; his last drink was 12 hours ago. Medications are empagliflozin, duloxetine, rosuvastatin, and naltrexone.On physical examination, blood pressure is 90/60 mm Hg, pulse rate is 120/min, and respiration rate is 22/min. He is alert and oriented. Neck veins are flat. Tachycardia is noted. There is diffuse abdominal tenderness to palpation without guarding. The remainder of the examination is normal.Laboratory studies:Anion gap17 mEq/L (17 mmol/L)HSodium133 mEq/L (133 mmol/L)LBicarbonate10 mEq/L (10 mmol/L)LGlucose150 mg/dL (8.3 mmol/L)HSerum β-hydroxybutyrate level is elevated.",
   "question_stem": "Which of the following is the most likely cause of the patient's findings?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely cause of this patient's findings is euglycemic diabetic ketoacidosis (EDKA) due to the sodium-glucose cotransporter 2 (SGLT2) inhibitor empagliflozin (Option D). SGLT2 inhibitors promote renal glucose excretion by blocking the SGLT2 receptor in the proximal tubule. The increased glucosuria effectively lowers plasma glucose independent of insulin. SGLT2 inhibitor monotherapy carries a low risk for hypoglycemia, and certain agents in this class have shown significant benefits in atherosclerotic cardiovascular disease and diabetic kidney disease. However, SGLT2 inhibitors can also cause DKA because of inhibited glucose reabsorption leading to decreased insulin secretion, increased glucagon secretion, lipolysis, and, ultimately, ketogenesis. Despite their ketotic state, patients with SGLT2 inhibitor–induced DKA have normal or relatively normal (<250 mg/dL [13.9 mmol/L]) blood glucose levels. EDKA is more likely to occur in patients with low-glucose states, including starvation, alcohol use, gastrointestinal losses, dehydration, infection, and pregnancy. Clinicians should have a high level of suspicion for EDKA in patients presenting with nausea, vomiting, or malaise while taking SGLT2 inhibitors. Initial assessment should include measurements of serum electrolytes, glucose, kidney and liver function, venous blood gas, and serum ketones. EDKA is managed with intravenous crystalloids, insulin, potassium when needed, and dextrose to prevent hypoglycemia and stop ketosis. SGLT2 inhibitors should be discontinued permanently in all patients who develop EDKA while taking these agents. This patient taking empagliflozin has gastrointestinal and constitutional symptoms, euglycemia, an anion gap metabolic acidosis, and elevated serum ketones in the setting of recent alcohol use. The most likely diagnosis is EDKA due to empagliflozin therapy.Alcohol withdrawal (Option A) is unlikely in this patient who does not drink daily. Additionally, alcohol withdrawal is characterized by hypertension rather than hypotension.Metformin may be associated with lactic acidosis in some patients, but its discontinuation (Option B) does not precipitate ketoacidosis.Duloxetine (Option C) has serotonergic activity and may be implicated in serotonin syndrome, which is characterized by hyperthermia, agitation, myoclonus, and hyperreflexia. Neither duloxetine use nor serotonin syndrome is associated with ketoacidosis.",
+  "critique_links": [],
   "key_points": [
     "Sodium-glucose cotransporter 2 (SGLT2) inhibitors can cause euglycemic diabetic ketoacidosis (EDKA) because of inhibited glucose reabsorption leading to decreased insulin secretion, increased glucagon secretion, lipolysis, and ketogenesis.",
     "Clinicians should suspect EDKA in patients taking SGLT2 inhibitors who present with abdominal symptoms, ketoacidosis, and normal or near-normal blood glucose levels."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:00:39.670431-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.019871-06:00"
 }

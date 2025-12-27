@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 71-year-old woman is evaluated for dark facial spots she reports having for several years. She reports that some of the growths have become quite large.Skin findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has seborrheic keratoses (Option D), which are benign epidermal growths with an unclear cause. They present clinically as brown, black, yellow, tan, or even pink plaques with a sharp border. They have a waxy consistency and may appear “stuck-on” or resemble drops of melted wax. The surface of these keratoses is often warty in texture. When viewed via a dermatoscope, they do not have the true pigment networks seen in melanocytic lesions. There are many variants of seborrheic keratoses, including dermatosis papulosa nigra (DPN), which occur as small and often pedunculated dark brown papules in patients with darker skin. This patient has DPNs around the eyes as well as traditional seborrheic keratoses.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24675.e65db24bdba663ab9fed2a5a6bf7b8a5.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.954332-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24675",
+        "file": "figures/dmfig24675.e65db24bdba663ab9fed2a5a6bf7b8a5.jpg",
+        "title": "Seborrheic Keratosis",
+        "short_title": "stem Seborrheic Keratosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1200
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.496893-06:00"
 }

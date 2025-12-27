@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 71-year-old woman is evaluated in the hospital for palpitations and shortness of breath that began 3 days ago. She does not have concomitant chest pain, orthopnea, edema, or light-headedness. Six months ago, she underwent cardioversion for atrial flutter. She has hypertension and type 2 diabetes mellitus. Medications are apixaban, metoprolol, lisinopril, metformin, and sitagliptin.On physical examination, blood pressure is 125/85 mm Hg and pulse rate is 149/min. Central venous pressure is normal. The lungs are clear. Cardiac examination reveals tachycardia with a regular rhythm and no murmurs.Results of laboratory studies, including thyroid-stimulating hormone level, are normal.ECG is shown.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management for this patient with recurrent atrial flutter is catheter ablation (Option B). Typical atrial flutter is characterized by highly organized reentry around the tricuspid annulus. Initial treatment is similar to that for atrial fibrillation with rate control and, if indicated, anticoagulation. A rhythm control strategy, however, is favored in atrial flutter because rate control may be difficult and often requires high doses of more than one atrioventricular nodal blocker. Furthermore, catheter ablation for atrial flutter has a very high success rate (>95%) and an excellent safety profile. It is often curative and is the preferred method of rhythm control for typical atrial flutter, even as the initial therapy. This patient has atrial flutter and previously underwent direct current cardioversion with recurrence of arrhythmia. Catheter ablation is indicated.Amiodarone (Option A) is often ineffective in maintaining sinus rhythm in patients with atrial flutter and is less effective than catheter ablation. It is also associated with several adverse effects, including thyroid, hepatic, and pulmonary toxicity, especially with long-term administration.This patient has already undergone direct current cardioversion (Option C) followed by a recurrence of atrial flutter symptoms. Undergoing another conversion is unlikely to be helpful because the recurrence rate for her symptomatic atrial flutter would be high.Dofetilide (Option D) is a class III antiarrhythmic agent that may be useful in maintaining sinus rhythm in patients with atrial fibrillation. However, it may cause significant QT prolongation and is subject to several drug-drug interactions. For this patient with recurrent atrial flutter, catheter ablation is a much better option.",
+  "critique_links": [],
   "key_points": [
     "A rhythm control strategy is favored in atrial flutter because rate control may be difficult and often requires high doses of more than one atrioventricular nodal blocker.",
     "Catheter ablation is routinely curative for patients with typical atrial flutter and has a very acceptable safety profile."
@@ -58,5 +59,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:49:32.415614-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24230",
+        "file": "figures/cvfig24230.98b24ad5dc4a8d61cc536d53c17cbfae.jpg",
+        "title": "ECG in a Patient With Atrial Flutter",
+        "short_title": "ECG Showing Atrial Flutter",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 483
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.714690-06:00"
 }

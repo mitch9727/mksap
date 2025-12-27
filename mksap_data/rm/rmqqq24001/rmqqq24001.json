@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "An 82-year-old woman is evaluated for severe left wrist pain of 3 days' duration. She reports no preceding trauma. She has hypertension treated with lisinopril and stage G3 chronic kidney disease.Vital signs are normal. The left wrist is swollen and tender with decreased range of motion without erythema or warmth.Left wrist synovial fluid analysis reveals a leukocyte count of 20,000/µL (20 × 109/L) (90% neutrophils) and rhomboid-shaped, weakly positively birefringent crystals within macrophages. Gram stain is negative.",
+  "question_text": "An 82-year-old woman is evaluated for severe left wrist pain of 3 days' duration. She reports no preceding trauma. She has hypertension treated with lisinopril and stage G3 chronic kidney disease.Vital signs are normal. The left wrist is swollen and tender with decreased range of motion without erythema or warmth.Laboratory studies:Rheumatoid factor15 U/mL (15 kU/L)Urate4.3 mg/dL (0.25 mmol/L)Anti–cyclic citrullinated peptide antibodiesNegativeLeft wrist synovial fluid analysis reveals a leukocyte count of 20,000/µL (20 × 109/L) (90% neutrophils) and rhomboid-shaped, weakly positively birefringent crystals within macrophages. Gram stain is negative.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Prednisone (Option D) is the most appropriate treatment for this patient with acute calcium pyrophosphate (CPP) crystal arthritis. Acute CPP crystal arthritis (pseudogout) typically presents as monoarticular inflammatory arthritis, characterized by sudden onset of swelling, pain, loss of function, tenderness, and warmth of the affected joint (commonly a knee or wrist). Like gout flares, CPP flares may be provoked by systemic insults, such as major surgery or acute illness. Flares are typically milder than gout flares and less commonly affect the metatarsophalangeal joint but, if untreated, can persist for weeks or months. Definitive diagnosis requires identification of rhomboid-shaped positively birefringent crystals in synovial fluid. This patient has an acute, monoarticular inflammatory arthritis with rhomboid-shaped, weakly positively birefringent crystals within macrophages. Thus, she has acute CPP crystal arthritis. Compared with gout, no mechanism is known for dissolving articular CPP crystals or preventing their formation. Instead, treatment aims at reducing the inflammatory manifestations of the disease, and oral prednisone would be a reasonable option.Allopurinol (Option A) is a uric acid–lowering therapy used as a first-line therapy in the treatment of gout; however, this patient's serum uric acid level is normal. Allopurinol has no role in the management of acute CPP crystal arthritis and is not indicated in this patient.Although NSAIDs, such as ibuprofen (Option B), can be used to treat the inflammatory manifestations of acute CPP crystal arthritis, this older patient has hypertension and stage G3 chronic kidney disease, so ibuprofen would be not be the best option in this patient.Methotrexate (Option C) was found to be no better than placebo in a randomized crossover trial for chronic CPP arthropathy. It also has no role in the treatment of acute CPP crystal arthritis.",
+  "critique_links": [],
   "key_points": [
     "Compared with gout, no mechanism is known for dissolving articular calcium pyrophosphate crystals or preventing their formation; instead, treatment aims at reducing inflammatory manifestations of crystal-induced arthropathies."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:05.908726-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.817846-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 40-year-old woman is evaluated for progressive changes in the skin pigmentation of her face, as shown. Her only medication is an oral contraceptive.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is melasma (Option D), also known as chloasma, or “the mask of pregnancy.” Melasma is a common acquired condition resulting in patchy hyperpigmentation with ill-defined, tan to dark brown, reticulated patches. It most commonly occurs bilaterally on the sun-exposed areas of the face (malar, mandibular, and centrofacial regions) but can also be seen on the upper extremities. Melasma can worsen with further sun exposure.In this condition, melanocytes overproduce melanin due to factors including ultraviolet radiation exposure, genetic predisposition, and hormonal influence (pregnancy, use of oral contraceptives). Melasma often fades during the postpartum period, with sun protection, and upon discontinuation of oral contraceptives; however, it may take months to years for pigmentation to normalize. It occurs more commonly in women and individuals with darker skin.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24623.2e5963d8831182129f3f987bb422e731.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.846996-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24623",
+        "file": "figures/dmfig24623.2e5963d8831182129f3f987bb422e731.jpg",
+        "title": "Melasma",
+        "short_title": "stem Melasma",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1354
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.384776-06:00"
 }

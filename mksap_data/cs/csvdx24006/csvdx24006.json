@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 26-year-old man is evaluated for hindfoot pain that occurs with taking his first few steps in the morning. Point tenderness to palpation is present at the site shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is plantar fasciitis (Option C). Plantar fasciitis presents as sharp, medial-inferior heel pain with the first morning steps and after prolonged rest. The pain typically improves with continued walking but may persist in more severe cases. Diagnosis is based on demonstrating palpable tenderness at the anterior base of the calcaneus (medial calcaneal tubercle), as indicated in the image. In addition, the windlass test assesses pain in the plantar fascia by simulating the motion of a step. With the patient's foot bearing weight, the toes are dorsiflexed by the examiner, maximally stretching the plantar fascia. In contrast, a calcaneal stress fracture would be suggested by pain that is more posterior on the calcaneus and which does not improve with walking. Tarsal tunnel syndrome may be associated with a positive Tinel sign with tapping on the tunnel posterior to the medial malleolus.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/csfig24606.37f7275b65d2e2602655d8ba7cdd0dcb.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:01:45.884273-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "csfig24606",
+        "file": "figures/csfig24606.37f7275b65d2e2602655d8ba7cdd0dcb.jpg",
+        "title": "Site of Hindfoot Pain",
+        "short_title": "Site of Hindfoot Pain",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 600
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.165135-06:00"
 }

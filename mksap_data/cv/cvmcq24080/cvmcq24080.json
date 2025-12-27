@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 55-year-old woman is evaluated in the emergency department for a 3-month history of progressively worsening shortness of breath. She has systemic lupus erythematosus. Current medications are hydroxychloroquine and prednisone, which was recently tapered down.On physical examination, the patient is afebrile. Blood pressure is 85/60 mm Hg, pulse rate is 118/min, respiration rate is 23/min, and oxygen saturation is 96% breathing room air. Central venous pressure is elevated. The y descent of the jugular venous pulse is absent. Systolic blood pressure during inspiration decreases by 30 mm Hg. The lungs are clear to auscultation. The S1 and S2 are distant. Pulses are symmetric and thready. The extremities are cool to the touch. No edema is noted.ECG is shown.Intravenous fluids are started.",
+  "question_text": "A 55-year-old woman is evaluated in the emergency department for a 3-month history of progressively worsening shortness of breath. She has systemic lupus erythematosus. Current medications are hydroxychloroquine and prednisone, which was recently tapered down.On physical examination, the patient is afebrile. Blood pressure is 85/60 mm Hg, pulse rate is 118/min, respiration rate is 23/min, and oxygen saturation is 96% breathing room air. Central venous pressure is elevated. The y descent of the jugular venous pulse is absent. Systolic blood pressure during inspiration decreases by 30 mm Hg. The lungs are clear to auscultation. The S1 and S2 are distant. Pulses are symmetric and thready. The extremities are cool to the touch. No edema is noted.Laboratory studies:D-dimer1.5 μg/mL (8.2 nmol/L)HC-reactive protein127 mg/dL (1270 mg/L)HECG is shown.Intravenous fluids are started.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate test to perform next in this patient with likely pericardial tamponade is transthoracic echocardiography (TTE) (Option D). Cardiac tamponade occurs when fluid accumulation within the pericardial space compresses the heart and impedes diastolic filling. When the increased intrapericardial pressure constrains cardiac filling enough to reduce stroke volume and cardiac output, it may be life threatening. Causes include malignancy, uremia, and inflammatory diseases such as systemic lupus erythematosus (SLE). Clinical signs of tamponade include tachycardia, muffled heart sounds, and elevated central venous pressure with an absent y descent. Pulsus paradoxus representing exaggerated ventricular interdependence is a key clinical feature. ECG may show low voltage or electrical alternans (circled below), although these changes are indicative of a pericardial effusion and not necessarily tamponade. TTE is a readily available bedside study that is the best first-line test for cardiac tamponade. Signs of tamponade on echocardiogram include early right ventricular diastolic collapse, late diastolic right atrial collapse, dilated noncollapsing inferior vena cava, and increased respiratory variation in mitral and tricuspid inflows. This patient has several clinical findings consistent with cardiac tamponade as well as an underlying disorder (SLE) that is associated with pericardial effusion. She should undergo immediate TTE.Immediate coronary angiography (Option A) is unnecessary. Patients with ST-elevation myocardial infarction and some with high-risk non–ST-elevation myocardial infarction should undergo immediate coronary angiography and percutaneous coronary intervention, if indicated. Coronary angiography, however, is not indicated in patients with cardiac tamponade, which is the likely diagnosis in this patient.CT scan to rule out pulmonary embolism (Option B) is not the right choice for this patient who has radiographic and ECG evidence of a pericardial effusion. The subacute onset, lack of chest discomfort, and normal oxygenation all argue against the presence of pulmonary embolism. In addition, CT scan in a hemodynamically unstable patient should be avoided if possible.Right heart catheterization (Option C) is not the most appropriate test for this patient. Catheterization is rarely needed to diagnose tamponade unless there is concern for constrictive pericarditis or effusive-constrictive pericarditis.",
+  "critique_links": [],
   "key_points": [
     "Transthoracic echocardiography is a readily available bedside study that is the first-line test for suspected cardiac tamponade.",
     "Signs of tamponade on echocardiogram include early right ventricular diastolic collapse, late diastolic right atrial collapse, dilated noncollapsing inferior vena cava, and increased respiratory variation in mitral and tricuspid inflows."
@@ -55,11 +56,49 @@
       "tables/inline_table_1.html"
     ],
     "images": [
-      "figures/cvfig24231.77092f633feee648079b3f5cb26e5ddb.jpg",
-      "figures/cvfig24221.89c34652b716cecbcf415bae37e0c557.jpg"
+      "figures/cvfig24221.89c34652b716cecbcf415bae37e0c557.jpg",
+      "figures/cvfig24231.77092f633feee648079b3f5cb26e5ddb.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:49:12.713375-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24221",
+        "file": "figures/cvfig24221.89c34652b716cecbcf415bae37e0c557.jpg",
+        "title": "ECG in a Patient With Progressively Worsening Shortness of Breath",
+        "short_title": "stem ECG in Patient With Worsening Dyspnea",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 503
+      },
+      {
+        "figure_id": "cvfig24231",
+        "file": "figures/cvfig24231.77092f633feee648079b3f5cb26e5ddb.jpg",
+        "title": "ECG Showing Electrical Alternans",
+        "short_title": "critique ECG Showing Electrical Alternans",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 503
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.621140-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 38-year-old woman is evaluated after passing her second kidney stone. She was unable to retrieve the stone for analysis. Her medical history is significant for Crohn disease, which has been difficult to control, and vitamin D deficiency. She typically has three to four loose bowel movements each day. Her current medications are infliximab and vitamin D.Vital signs are normal. BMI is 19. She has mild diffuse tenderness to palpation of the lower abdomen. The remainder of the examination is unremarkable.Laboratory studies:Calcium8.5 mg/dL (2.1 mmol/L)LCreatinine0.7 mg/dL (61.9 µmol/L)Electrolytes:Sodium137 mEq/L (137 mmol/L)Potassium3.5 mEq/L (3.5 mmol/L)Chloride104 mEq/L (104 mmol/L)Bicarbonate20 mEq/L (21 mmol/L)L25-Hydroxyvitamin D35 ng/mL (87.4 nmol/L)UrinalysispH 5.0; otherwise normal24-Hour urine studies:Volume2100 mLCalciumElevatedCitrateDecreasedOxalateElevated",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "In this patient with hypocitraturia and acidic urine, adding potassium citrate (Option A) is appropriate for preventing the formation of more calcium oxalate stones. Patients with malabsorption and chronic diarrhea are at increased risk for calcium oxalate stones for three reasons. First, volume depletion from diarrhea reduces urine volume and thus increases the concentration of calcium and oxalate in the urine. Next, because of fat malabsorption, enteric calcium binds to fat rather than oxalate, leaving oxalate free to be absorbed and then excreted in the urine. Finally, because of the diarrhea-related metabolic acidosis, urine citrate, an inhibitor of crystallization, is reduced. This patient's low urine pH and low serum bicarbonate level indicate metabolic acidosis. As expected, she has reduced urinary citrate as well as increased urinary calcium and oxalate, related to volume contraction and increased oxalate absorption from the gut. The likely composition of her renal stones is calcium oxalate. All patients with renal stones should take in enough fluids to excrete 2 to 3 liters of urine per day. In addition, supplementation with citrate as a base equivalent in this patient will help correct the acidosis, increase urine citrate, bind urinary calcium, and limit the formation of calcium oxalate stones.Vitamin C (Option B) should not be added. It increases urine oxalate excretion and would increase, rather than decrease, the likelihood of calcium oxalate stone formation.Restricting dietary calcium intake (Option C) in patients with hypercalciuria may paradoxically increase the risk for kidney stone formation by causing decreased binding of calcium with oxalate in the gut; this process leads to increased absorption and urinary excretion of oxalate. Maintaining adequate calcium intake is important in preventing calcium oxalate stones.Hypervitaminosis D may result in hypercalciuria and nephrolithiasis; however, this patient's vitamin D and serum calcium levels are within normal limits. She needs vitamin D supplementation because of malabsorption, so discontinuing it (Option D) is inappropriate.",
+  "critique_links": [],
   "key_points": [
     "Patients with diarrhea and malabsorption are at risk for calcium oxalate stone formation.",
     "In the setting of low urine pH and hypocitraturia, supplementation with potassium citrate can help prevent calcium oxalate stones."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:48:56.327004-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.592693-06:00"
 }

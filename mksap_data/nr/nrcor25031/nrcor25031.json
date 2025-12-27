@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 65-year-old man is evaluated in the emergency department for acute right-sided weakness that began 30 minutes ago. He has type 2 diabetes mellitus, hypertension, and peripheral artery disease. Medications are metformin, dapagliflozin, lisinopril, and clopidogrel.On physical examination, blood pressure is 205/100 mm Hg; other vital signs are normal. Neurologic examination demonstrates right lower facial weakness, slurred speech, and paralysis of the right arm and leg.Laboratory studies:Platelet count180,000/µL (180 × 109/L)INR1.2CT scan reveals a 1-cm intracerebral hemorrhage in the left pons, without intraventricular extension.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "This patient with an acute intracerebral hemorrhage (ICH) and hypertension should receive intravenous nicardipine (Option B). For patients with ICH and a systolic blood pressure (SBP) between 150 and 220 mm Hg, acute lowering of SBP to a range of 130 to 140 mm Hg is safe and may improve functional outcomes. Initiating treatment within 2 hours of ICH onset and reaching the target BP within 1 additional hour reduces the risk for hemorrhagic expansion. Although patients with SBP greater than 220 mm Hg were not included in most trials, a similar target is commonly pursued for these patients. Sustained and even BP control, avoiding peaks and hypotension, is crucial because lowering the SBP below 130 mm Hg may result in neurologic and kidney harm. Intravenous nicardipine can be rapidly titrated and thus achieve the target SBP without causing hypotension. This patient has an acute pontine ICH and an SBP of 205 mm Hg; intravenous nicardipine is the most appropriate treatment.Four-factor prothrombin complex concentrate (PCC) (Option A) is used to reverse coagulopathy secondary to warfarin and direct oral anticoagulants. Four-factor PCCs, however, increase the risk for thrombotic complications, such as pulmonary embolism. This patient has no evidence of coagulopathy, and administration of a four-factor PCC is not indicated.Although an effective antihypertensive, intravenous nitroprusside (Option C) can increase intracranial pressure (ICP) by causing intracerebral vasodilation. Patients with ICH are already at risk for elevated ICP, and nitroprusside is an inappropriate antihypertensive agent in these patients.Oral antihypertensive medications such as lisinopril (Option D) are not the most effective means of rapidly and evenly titrating blood pressure following ICH. Additionally, patients with stroke symptoms require dysphagia screening before initiation of oral medications, which would further delay BP management.No evidence suggests that platelet transfusions reverse the coagulopathy associated with antiplatelet agents or prevent hematoma expansion in patients with ICH. Additionally, such transfusions increase the risk for coronary stent thrombosis, volume overload, and transfusion reactions. Platelet transfusion is appropriate in patients with thrombocytopenia and may be considered in patients for whom neurosurgical intervention is anticipated. This patient has a normal platelet count and neurosurgical intervention is unlikely in an awake patient with a small hemorrhage volume, making platelet transfusion (Option E) unnecessary.",
+  "critique_links": [],
   "key_points": [
     "For patients with intracerebral hemorrhage (ICH) and a systolic blood pressure (SBP) between 150 and 220 mm Hg, acute lowering of SBP to a range of 130 to 140 mm Hg is indicated.",
     "Intravenous nitroprusside is not appropriate for lowering BP in patients with ICH because it may increase intracranial pressure."
@@ -56,10 +57,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:50:05.492881-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.118542-06:00"
 }

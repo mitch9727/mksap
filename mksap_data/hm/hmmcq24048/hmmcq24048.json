@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 32-year-old man is evaluated for fatigue, malaise, and easy bruising of 2 weeks' duration.On physical examination, vital signs are normal. The patient is pale. Petechiae and ecchymoses with modest generalized lymphadenopathy are noted.Bone marrow aspirate and biopsy confirm the diagnosis of acute lymphoblastic leukemia.Peripheral blood smear demonstrates circulating lymphoblasts.",
+  "question_text": "A 32-year-old man is evaluated for fatigue, malaise, and easy bruising of 2 weeks' duration.On physical examination, vital signs are normal. The patient is pale. Petechiae and ecchymoses with modest generalized lymphadenopathy are noted.Laboratory studies:Hemoglobin8.3 g/dL (83 g/L)LLeukocyte count800/µL (0.8 × 109/L)LAbsolute neutrophil count100/μL (0.1 × 109/L)LPlatelet count55,000/µL (55 × 109/L)LBone marrow aspirate and biopsy confirm the diagnosis of acute lymphoblastic leukemia.Peripheral blood smear demonstrates circulating lymphoblasts.",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate staging test to perform in this patient with newly diagnosed acute lymphoblastic leukemia (ALL) is a lumbar puncture (Option A). ALL is more commonly diagnosed in children and adolescents, and survival in adult patients older than 18 years is inferior to that of younger patients. A few patients (<10%) with ALL have central nervous system (CNS) involvement at diagnosis, and many of these patients are asymptomatic. Lumbar puncture is usually diagnostic of CNS involvement (with samples sent for cell count and differential as well as the more sensitive flow cytometry testing) and therapeutic, with administration of intrathecal chemotherapy (usually cytarabine or methotrexate). Treatment of the CNS with intrathecal chemotherapy is routinely employed in all patients with ALL, and most patients receive one to two doses of prophylactic intrathecal chemotherapy with each cycle of systemic chemotherapy. Patients with ALL are also at an increased risk of isolated CNS relapse if appropriate prophylaxis is not administered. This patient with ALL should undergo lumbar puncture to assess the presence of CNS involvement.PET/CT (Option B) is not commonly indicated for staging of newly diagnosed ALL. Combination systemic chemotherapy is effective in targeting most sites of disease. However, no clinically useful information is typically gained from PET/CT in ALL.Scrotal ultrasonography (Option C) is not the most appropriate diagnostic test to perform next. In adults, 75% of ALL is of B-cell lineage and can manifest as extramedullary disease, including gastrointestinal and testicular involvement. All patients with newly diagnosed ALL should undergo a testicular examination with scrotal ultrasonography if a mass or equivocal finding is found. Ultrasonography is not needed if the examination is normal.A slit lamp examination (Option D) may be performed for the evaluation of ocular complications, but it is only necessary if ocular symptoms are present. Patients with acute leukemia are at risk for disorders such as retinal hemorrhage, leukemic retinopathy, and leukemic hypopyon. This patient does not present with ocular involvement.",
+  "critique_links": [],
   "key_points": [
     "All patients with acute lymphoblastic leukemia (ALL) should undergo lumbar puncture at the time of diagnosis.",
     "A small subset (<10%) of patients with ALL have symptomatic central nervous system involvement, and treatment with intrathecal chemotherapy is routinely employed in all patients with ALL."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:36:57.531033-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.962577-06:00"
 }

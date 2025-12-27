@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 60-year-old man is evaluated following an abnormal urinalysis.Urine microscopy results are shown, and findings are highlighted with red circles.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Glomerulonephritis (Option B) is most compatible with the urine microscopy finding in this patient. Acanthocytes, as seen in the image, are one type of dysmorphic erythrocytes and are characterized by vesicle-shaped protrusions; they are associated with glomerular bleeding. In patients with renal bleeding, erythrocytes are dysmorphic, as manifested by blebs, budding, and notching of the cell surface. Urine erythrocytes from extrarenal sources are isomorphic and mostly appear as round or biconcave cells with a smooth surface.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.553359-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "npfig24628",
+        "file": "figures/npfig24628.90a8e40b505cfcb4a1928a3262c82999.jpg",
+        "title": "Urine Microscopic Findings in Glomerulonephritis",
+        "short_title": "Urine Microscopic Findings in Glomerulonephritis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 667
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.014593-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 75-year-old man is evaluated for an elevated serum cortisol level shortly after being hospitalized for pyelonephritis. He felt well until 2 days ago, when he started to experience back pain and fever. He has benign prostatic hyperplasia, for which he takes tamsulosin, and he has knee osteoarthritis, for which he recently had an intra-articular glucocorticoid injection.On physical examination, temperature is 39.0 °C (102.2 °F), blood pressure is 95/78 mm Hg, pulse rate is 120/min, and respiration rate is 18/min. Oxygen saturation is 95% with the patient breathing ambient air. Mucous membranes are dry. Right costovertebral angle tenderness is present. No facial plethora, supraclavicular or dorsocervical fat pads, or central adiposity is observed.Serum sodium and potassium levels are normal.Antibiotics and intravenous fluids are initiated, with improvement in hemodynamics.",
+  "question_text": "A 75-year-old man is evaluated for an elevated serum cortisol level shortly after being hospitalized for pyelonephritis. He felt well until 2 days ago, when he started to experience back pain and fever. He has benign prostatic hyperplasia, for which he takes tamsulosin, and he has knee osteoarthritis, for which he recently had an intra-articular glucocorticoid injection.On physical examination, temperature is 39.0 °C (102.2 °F), blood pressure is 95/78 mm Hg, pulse rate is 120/min, and respiration rate is 18/min. Oxygen saturation is 95% with the patient breathing ambient air. Mucous membranes are dry. Right costovertebral angle tenderness is present. No facial plethora, supraclavicular or dorsocervical fat pads, or central adiposity is observed.Laboratory studies:Leukocyte count19,000/μL (19 × 109/L)HCreatinine1.5 mg/dL (133 μmol/L)HRandom cortisol 26 μg/dL (718 nmol/L)HSerum sodium and potassium levels are normal.Antibiotics and intravenous fluids are initiated, with improvement in hemodynamics.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "No additional hormonal testing (Option D) is needed for this patient who is demonstrating an appropriate stress response to severe illness. Cortisol is essential in illness to support normal blood pressure and immune response. The hypothalamic-pituitary-adrenal axis naturally upregulates in times of physiologic stress (e.g., illness, motor vehicle collision); therefore, higher serum cortisol levels are expected in such situations. In some patients, the increase in cortisol secretion is thought to be suboptimal and termed relative adrenal insufficiency (AI) or critical illness–related corticosteroid insufficiency. However, whether the entity of relative AI is a true disease is debated. This patient's random cortisol level is elevated, which is an appropriate response to his illness, and his hemodynamics are responding appropriately to intravenous fluids. Therefore, no further testing is indicated to evaluate his high cortisol level.The risk for AI increases in patients with recent glucocorticoid exposure, including patients with repeated intra-articular joint injections. Symptoms of AI can include hypotension, nausea, vomiting, fatigue, and muscle weakness. The diagnosis of AI begins with a morning serum cortisol level, followed by an ACTH stimulation test (Option A) if the cortisol level is not diagnostic. In critically ill patients, a random cortisol level can be used to screen for AI. This patient's cortisol level is appropriately elevated, well above 18 μg/dL (496.8 nmol/L), making AI unlikely.A plasma aldosterone concentration/plasma renin activity (PAC/PRA) ratio (Option B) is helpful in the diagnosis of primary aldosteronism, a common cause of secondary hypertension. Patients may also have low potassium, fatigue, headaches, and muscle weakness. Given this patient's presentation, testing for hyperaldosteronism is inappropriate.A 24-hour urine free cortisol measurement (Option C) to assess for clinical Cushing syndrome is not indicated in this patient who has an elevated cortisol level in response to an acute illness. Because elevations in cortisol levels are appropriate in critically ill patients, assessment for clinical Cushing syndrome is generally avoided in the inpatient setting. Additionally, this patient displays no examination findings to suggest Cushing syndrome.",
+  "critique_links": [],
   "key_points": [
     "Cortisol is essential in illness to support normal blood pressure and immune response; therefore, higher serum cortisol levels are expected in times of physiologic stress and do not generally warrant further hormonal investigation in the absence of other signs or symptoms."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:33.398709-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.142693-06:00"
 }

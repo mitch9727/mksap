@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 45-year-old man is evaluated for slowly progressive myalgia, arthralgia, abdominal pain, constipation, and a mild headache of 1 month's duration. The abdominal pain is crampy and episodic without associated nausea, vomiting, or diarrhea. He reports no fevers, weight loss, or neurologic symptoms. He is a demolition worker. Medical history is unremarkable, and he takes no medications.On physical examination, vital signs are normal. Mild periumbilical abdominal tenderness is noted with no guarding or rebound tenderness. The remainder of the examination is unremarkable.CT scan of the abdomen and pelvis with contrast is normal.Peripheral blood smear is shown.",
+  "question_text": "A 45-year-old man is evaluated for slowly progressive myalgia, arthralgia, abdominal pain, constipation, and a mild headache of 1 month's duration. The abdominal pain is crampy and episodic without associated nausea, vomiting, or diarrhea. He reports no fevers, weight loss, or neurologic symptoms. He is a demolition worker. Medical history is unremarkable, and he takes no medications.On physical examination, vital signs are normal. Mild periumbilical abdominal tenderness is noted with no guarding or rebound tenderness. The remainder of the examination is unremarkable.Laboratory studies:Hemoglobin9.4 g/dL (94 g/L)LMean corpuscular volume78 fLLLeukocyte count7700/μL (7.7 × 109/L)Platelet count250,000 (250 × 109/L)Ferritin110 ng/mL (110 μg/L)CT scan of the abdomen and pelvis with contrast is normal.Peripheral blood smear is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is lead intoxication (Option B). Lead poisoning is an uncommon disorder that requires a high index of suspicion for diagnosis. Occupational exposure is the primary cause of lead intoxication in adults, although contaminated supplements or water supply and home exposure to lead paint may also occur. Lead is primarily absorbed in the lungs, gastrointestinal tract, or skin. Increased blood levels can cause arthralgia, myalgia, headache, abdominal pain, and neurocognitive changes. Lead exposure can also result in renal tubular dysfunction and chronic tubulointerstitial nephritis; cardiovascular mortality is additionally increased. Laboratory studies often demonstrate a microcytic anemia with basophilic stippling evident on peripheral blood smear. Diagnosis is challenging given the nonspecific presentation and often requires a careful history uncovering potential lead exposure. An elevated blood level confirms the diagnosis. This patient is a demolition worker, which can include exposure to lead. His clinical presentation and laboratory findings, which include microcytic anemia and basophilic stippling, are all consistent with lead poisoning.Iron deficiency (Option A) anemia shares similar laboratory features with lead intoxication, including microcytosis, a decreased reticulocyte count, and, occasionally, basophilic stippling. Abdominal pain would not be typically noted in patients with iron deficiency in the absence of concomitant gastrointestinal pathology. Additionally, this patient has a serum ferritin level greater than 100 ng/mL (100 μg/L), which decreases the likelihood of iron deficiency.Hematologic malignancies such as myelodysplastic syndrome (MDS) (Option C) are a common cause of anemia in older adults and manifest with abnormal erythrocyte forms, such as ringed sideroblasts. However, patients with MDS are typically older, often present with additional cytopenias, and have macrocytic indices, rather than the microcytosis seen in this patient.Primary myelofibrosis (PMF) (Option D) is a clonal stem cell disorder characterized by marrow fibrosis and abnormalities in all three cell lines. Laboratory results vary considerably, but an elevated leukocyte count, anemia, and thrombocytopenia are common. It may present with nonspecific symptoms, including fatigue and weight loss, as well as abdominal pain secondary to splenomegaly. This patient does not have splenomegaly on imaging and has normal leukocyte and platelet counts, making PMF unlikely.",
+  "critique_links": [],
   "key_points": [
     "Chronic lead intoxication can cause headache and neurocognitive problems, abdominal pain, chronic tubulointerstitial kidney disease, and microcytic anemia with basophilic stippling."
   ],
@@ -59,5 +60,32 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:36:36.275225-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hmfig24202",
+        "file": "figures/hmfig24202.dbb00d2f995958a4b8c06770795826b8.jpg",
+        "title": "Basophilic Stippling",
+        "short_title": "Basophilic Stippling",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 583
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.875419-06:00"
 }

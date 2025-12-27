@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 22-year-old woman is evaluated at a follow-up visit for type 1 diabetes mellitus, which was recently diagnosed 1 month ago during a hospitalization for diabetic ketoacidosis. Medical history is otherwise unremarkable. Medications are insulin glargine and insulin lispro.On physical examination, blood pressure is 120/80 mm Hg; other vital signs and findings are normal.",
+  "question_text": "A 22-year-old woman is evaluated at a follow-up visit for type 1 diabetes mellitus, which was recently diagnosed 1 month ago during a hospitalization for diabetic ketoacidosis. Medical history is otherwise unremarkable. Medications are insulin glargine and insulin lispro.On physical examination, blood pressure is 120/80 mm Hg; other vital signs and findings are normal.Laboratory studies:Hemoglobin A1c8.0%HLDL cholesterol90 mg/dL (2.33 mmol/L)Triglycerides170 mg/dL (1.92 mmol/L)H",
   "question_stem": "In addition to glycemic control, which of the following is the most appropriate preventive measure for this patient?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "A dilated and comprehensive eye examination should be performed within 5 years of diagnosis (Option B) and then annually thereafter in this patient with type 1 diabetes mellitus. Retinopathy is the leading cause of preventable blindness among persons with diabetes between ages 20 and 74 years in developed countries. Given the preventive effects of therapy and the fact that patients with proliferative diabetic retinopathy or macular edema may be asymptomatic, screening guidelines were developed for early detection. Diabetic retinopathy takes about 5 years after the onset of hyperglycemia to develop. The onset of hyperglycemia in patients with type 1 diabetes is usually known; therefore, performing a dilated and comprehensive eye examination within 5 years of diagnosis is appropriate. Conversely, the onset of hyperglycemia in patients with type 2 diabetes is not always known; in patients with type 2 diabetes, a dilated and comprehensive eye examination should be performed at the time of diagnosis. After the initial screening eye examination, all patients should receive annual screening. In addition to appropriate screening and ophthalmologic follow-up, controlling lipid parameters and blood pressure may help prevent the progression of retinopathy. This patient was diagnosed with type 1 diabetes only recently and should be screened for diabetic retinopathy within 5 years.Measuring the urine albumin-creatinine ratio now (Option A) is not necessary in patients with type 1 diabetes because diabetic kidney disease usually takes at least 5 years after the onset of hyperglycemia to develop.Starting atorvastatin (Option C) is not currently necessary in this young patient. Although patients with type 1 diabetes have increased cardiovascular risk, this patient is younger than 40 years, has an LDL cholesterol level that is less than 100 mg/dL (2.59 mmol/L), and is of childbearing age. Therefore, a statin is not appropriate for this patient.Although blood pressure control helps prevent the progression of diabetes complications, starting lisinopril (Option D) is not necessary in a patient without hypertension or kidney disease.",
+  "critique_links": [],
   "key_points": [
     "For patients with type 1 diabetes mellitus, a dilated and comprehensive eye examination should be performed within 5 years of diagnosis and annually thereafter.",
     "For patients with type 2 diabetes, a dilated and comprehensive eye examination should be performed at diagnosis and each year afterwards."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:51.013479-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.240103-06:00"
 }

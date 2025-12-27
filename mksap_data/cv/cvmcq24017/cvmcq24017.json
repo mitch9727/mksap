@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 69-year-old man is evaluated in the hospital 3 days after presenting with chest pain due to an acute inferior wall ST-elevation myocardial infarction. He underwent urgent coronary angiography and successful drug-eluting stent placement to a thrombotic lesion in the right coronary artery. His subsequent course has been uncomplicated, and he is nearing discharge. Medical history is significant for type 2 diabetes mellitus, hypertension, and atrial fibrillation. Outpatient medications are atorvastatin, metformin, ramipril, metoprolol, and apixaban. Aspirin and clopidogrel have been added during the hospitalization.On physical examination, blood pressure is 116/80 mm Hg and pulse rate is 68/min and irregular. BMI is 32. The remainder of the examination is normal.ECG shows atrial fibrillation with resolution of the ST-segment elevations and new inferior Q waves.",
   "question_stem": "Which of the following is the most appropriate antithrombotic treatment strategy?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment strategy for this patient after percutaneous coronary intervention (PCI) is aspirin for 1 week, clopidogrel for 1 year, and apixaban for life (Option B). Patients with cardiac disease often have concomitant indications for oral anticoagulation and antiplatelet therapy. After PCI, the overall goal of therapy is to balance the risks for stent thrombosis and ischemic events while limiting the bleeding risk associated with prolonged double or triple antithrombotic therapy. For patients undergoing PCI who were previously taking a direct oral anticoagulant (DOAC) for venous thromboembolic disease and/or atrial fibrillation, the same DOAC should be reinstituted in addition to dual antiplatelet therapy (DAPT). Aspirin may then be discontinued after 1 to 4 weeks, with continuation of clopidogrel for 12 months along with a DOAC. Current consensus and guidelines recommend discontinuing clopidogrel after 12 months, with lifelong continuation of the DOAC as a single antithrombotic agent. This patient underwent PCI and has atrial fibrillation with a CHA2DS2-VASc score of 4, indicating a heightened thromboembolic risk. He should continue taking apixaban supplemented by 1 to 4 weeks of aspirin and 1 year of clopidogrel.Waiting 6 months to discontinue triple therapy (Option A) is unnecessary. Aspirin may be stopped as soon as 1 week after PCI, whereas clopidogrel is continued for 1 year. Continuing triple therapy for 6 months would subject this patient to an unnecessary bleeding risk.Although both antiplatelet agents can eventually be discontinued safely in this patient with atrial fibrillation and recent PCI, the anticoagulant should not be stopped (Option C). DAPT is insufficient in stroke prevention in patients with atrial fibrillation, and lifelong DOAC therapy is indicated.Lifelong triple therapy (Option D) would expose the patient to unnecessary bleeding risk. Although lifelong apixaban will be needed for stroke prevention, the antiplatelet agents may be safely discontinued—aspirin after 1 week and clopidogrel after 1 year—without increasing the risk for stent thrombosis.",
+  "critique_links": [],
   "key_points": [
     "Patients receiving long-term anticoagulation therapy who also require antiplatelet treatment after percutaneous coronary intervention with a drug-eluting stent can safely discontinue aspirin after 1 to 4 weeks and clopidogrel after 1 year."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.565303-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:26.443780-06:00"
 }

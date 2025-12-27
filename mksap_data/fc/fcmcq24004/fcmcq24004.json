@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A study evaluates a new medication for its effect on reducing the progression of chronic kidney disease in patients with established kidney disease. Over a 24-month study period, 10% of patients taking the new medication reached the target threshold of a 50% or greater decline in estimated glomerular filtration rate compared with 15% of patients not receiving the new therapy.",
   "question_stem": "Which of the following represents the number of patients needed to treat for one patient to benefit from the new medication?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The number needed to treat (NNT) to prevent one person from developing the primary end point is 20 (Option C). The NNT is the number of participants who must receive a treatment in order for one additional patient to receive benefit. It is often a good estimation of the effect size of a particular intervention. The NNT is determined by calculating the inverse of the absolute risk reduction (ARR), which in turn is defined as the difference between the experimental event rate (EER) and the control event rate (CER).NNT = 1/ARR = 1/|EER − CER|The EER in this example is 10%, and the CER is 15%. Therefore, the NNT is 1/|0.10 − 0.15| = 1/0.05 = 20.The number 5 (expressed as a percentage) (Option A) represents the absolute risk reduction (ARR), which is the absolute difference between the EER and CER. In this instance, the ARR = 15% − 10% = 5%.The number 10 (expressed as a percentage) (Option B) is the EER for the study group that received the new medication. The EER is the number of participants in the experimental arm divided by the total number of participants in that arm; in this case, it is 10%.The number 33 (expressed as a percentage) (Option D) represents the relative risk reduction (RRR). The RRR is calculated using the EER and CER and is the ratio of the ARR to the event rate in the control group.RRR = |EER − CER|/CER = |10 − 15|/15 = 5/15 = 33%.",
+  "critique_links": [],
   "key_points": [
     "The number needed to treat (NNT) is the number of patients who must receive a treatment in order for one additional patient to receive benefit.",
     "The NNT is determined by calculating the inverse of the absolute risk reduction, which in turn is defined as the difference between the experimental event rate (EER) and the control event rate (CER): NNT = 1/|EER – CER|."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:33.875604-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:27.572939-06:00"
 }

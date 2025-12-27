@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 50-year-old woman is evaluated for palpitations.ECG is shown.",
   "question_stem": "Which of the following abnormalities is demonstrated on this patient's ECG?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This ECG demonstrates atrial flutter (Option B), which is characterized by a sawtooth pattern and a regular atrial rate often close to 300/min. Flutter waves are most easily seen in the inferior leads (II, III, and aVF). Most commonly, there is 2:1 conduction to the ventricles, resulting in a ventricular rate of approximately 150/min, as seen in the first part of this tracing. A 4:1 conduction pattern with a rate of 75/min is also seen later in the tracing. The change in conduction pattern results in an irregular rhythm.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.350730-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24606",
+        "file": "figures/cvfig24606.86aeb7b9f1cc47240ad72b6eaebcafd2.jpg",
+        "title": "ECG Showing Atrial Flutter",
+        "short_title": "stem ECG Showing Atrial Flutter",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 476
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.837950-06:00"
 }

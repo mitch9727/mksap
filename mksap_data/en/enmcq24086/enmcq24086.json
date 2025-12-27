@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 73-year-old woman is evaluated at a follow-up visit after being hospitalized for hypoglycemia. She has a longstanding history of type 2 diabetes mellitus, which is treated with multiple daily injections of insulin. Over the course of the past few months, she has experienced frequent hypoglycemic episodes. Her recent hospitalization occurred after her husband found her unresponsive. Emergency medical services found her point-of-care blood glucose level to be 45 mg/dL (2.5 mmol/L). She was treated with intramuscular glucagon and intravenous dextrose; in the hospital, her insulin doses were reduced by 20%. Medications are insulin glargine at bedtime and insulin aspart, three times daily with meals.Physical examination findings, including vital signs, are normal.",
+  "question_text": "A 73-year-old woman is evaluated at a follow-up visit after being hospitalized for hypoglycemia. She has a longstanding history of type 2 diabetes mellitus, which is treated with multiple daily injections of insulin. Over the course of the past few months, she has experienced frequent hypoglycemic episodes. Her recent hospitalization occurred after her husband found her unresponsive. Emergency medical services found her point-of-care blood glucose level to be 45 mg/dL (2.5 mmol/L). She was treated with intramuscular glucagon and intravenous dextrose; in the hospital, her insulin doses were reduced by 20%. Medications are insulin glargine at bedtime and insulin aspart, three times daily with meals.Physical examination findings, including vital signs, are normal.Laboratory studies: Glucose, 2 hours after eating205 mg/dL (11.4 mmol/L)HHemoglobin A1c9.1%H",
   "question_stem": "Which of the following is the most appropriate preventive measure?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate measure to prevent hypoglycemia in this patient is to prescribe a continuous glucose monitoring (CGM) system (Option C). Severe recurrent hypoglycemia is associated with greater risk for cognitive impairment, dementia, and mortality. Close blood glucose monitoring, individualized glycemic goals, patient education, modification of diet and exercise regimens, and use of diabetes technologies are recommended to eliminate hypoglycemia. CGM systems have been shown to reduce hypoglycemia in patients with diabetes mellitus and should be considered in patients at risk for hypoglycemia or with recurrent hypoglycemia. This patient has experienced severe and recurrent episodes of hypoglycemia; preventing these episodes is critical to mitigating hypoglycemia-related adverse effects. A CGM system will help to prevent hypoglycemic episodes and determine daily glycemic trends so that the patient's insulin regimen can be more accurately adjusted.Increasing the mealtime insulin aspart dose (Option A) may improve the patient's postprandial hyperglycemia, which is demonstrated by her elevated blood glucose level 2 hours after eating. Similarly, increasing her nighttime insulin glargine dose (Option B) may address her elevated hemoglobin A1c. However, each of these interventions could worsen her hypoglycemia and would not prevent future hypoglycemic episodes. At this time, her frequent and severe episodes of hypoglycemia are more concerning than postprandial hyperglycemia or an elevated hemoglobin A1c and must be addressed first.All patients with diabetes who are taking insulin should be prescribed glucagon (nasal or intramuscular) as a rescue treatment for hypoglycemia, and caretakers or close contacts should be instructed on proper administration. Additionally, supplies should be assessed frequently to ensure that products are not expired. Although glucagon (Option D) is an appropriate treatment for severe hypoglycemia, it is not used to prevent hypoglycemic episodes and thus would not be the best preventive measure.Reducing all insulin doses by 50% (Option E) may reduce hypoglycemia but may also lead to severe hyperglycemia in this patient with poorly controlled type 2 diabetes and would not be recommended. It would be more prudent to measure more blood glucose levels with a CGM system and adjust insulin doses based on trends in glucose levels.",
+  "critique_links": [],
   "key_points": [
     "Continuous glucose monitoring systems have been shown to reduce hypoglycemia in patients with diabetes mellitus and should be considered in patients at risk for hypoglycemia or with recurrent hypoglycemia."
   ],
@@ -62,5 +63,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T23:00:03.162876-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.298410-06:00"
 }

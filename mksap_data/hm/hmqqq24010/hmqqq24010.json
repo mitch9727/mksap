@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 62-year-old woman is evaluated for new-onset heart failure, eczema, and diarrhea.On physical examination, vital signs are normal. Eczema is present on the flexural surfaces. Central venous pressure is elevated, and an S3 and pulmonary crackles are heard.Peripheral blood smear shows increased mature eosinophils.ECG shows low QRS voltage. Echocardiogram shows restrictive left ventricular filling and increased endomyocardial echogenicity.",
+  "question_text": "A 62-year-old woman is evaluated for new-onset heart failure, eczema, and diarrhea.On physical examination, vital signs are normal. Eczema is present on the flexural surfaces. Central venous pressure is elevated, and an S3 and pulmonary crackles are heard.Laboratory studies:Hemoglobin13.5 g/dL (135 g/L)Leukocyte count14,000/μL (14 × 109/L) with 20% lymphocytes, 30% eosinophils, and 50% neutrophilsHPeripheral blood smear shows increased mature eosinophils.ECG shows low QRS voltage. Echocardiogram shows restrictive left ventricular filling and increased endomyocardial echogenicity.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is hypereosinophilic syndrome (HES) (Option D). The major causes of eosinophilia are recalled in the CHINA mnemonic:Collagen vascular diseaseHelminthic infectionIdiopathic HESNeoplasiaAllergy, atopy, or asthmaThe most common organs affected by HES include the skin, lungs, gastrointestinal tract, and heart. Diagnosis of hypereosinophilia requires sustained elevation of the absolute eosinophil count in the peripheral blood on two readings at least 1 month apart and/or tissue infiltration by eosinophils. Initial evaluation for end-organ damage in these patients usually includes ECG, measurement of troponin levels, pulmonary function tests, and other imaging studies. The underlying cause of the hypereosinophilia should also be investigated to guide treatment. This patient presents with an elevated absolute eosinophil count (>1500/μL [1.5 × 109/L]) and echocardiogram findings concerning for eosinophilic infiltration of the myocardium (increased endomyocardial echogenicity); she also has dermatologic (eczema) and gastrointestinal (diarrhea) manifestations. These findings are consistent with HES.Acute eosinophilic leukemia (Option A) is characterized by increases in immature eosinophils in blood and bone marrow and infiltration of immature eosinophils into tissues. As in HES, cardiac dysfunction may develop, but findings of an acute leukemic syndrome are pronounced and include anemia, thrombocytopenia, and infection. This patient has mature, not immature, eosinophilia on her peripheral blood smear, which makes eosinophilic leukemia unlikely.Chronic myeloid leukemia (CML) (Option B) is a clonal hematopoietic stem cell disorder characterized by myeloid proliferation. Chronic-phase CML usually presents with an increase in neutrophils and neutrophil precursors. CML may be associated with an absolute eosinophilia, but tissue or organ dysfunction is not common. Detection of the (9;22) translocation by routine cytogenetics or fluorescence in situ hybridization, or of the BCR-ABL fusion transcript by reverse transcriptase polymerase chain reaction, is diagnostic. This patient lacks an increase in neutrophils and neutrophil precursors and has evidence of cardiac dysfunction, which makes CML unlikely.Eosinophilic fasciitis (Option C) is associated with transient eosinophilia. It is characterized by skin that is closely adhered to the underlying thickened fascia, sparing the hands and feet. This patient's constellation of signs and symptoms do not match those associated with eosinophilic fasciitis.",
+  "critique_links": [],
   "key_points": [
     "Diagnosis of hypereosinophilia requires sustained elevation of the absolute eosinophil count in the peripheral blood on two readings at least 1 month apart and/or tissue infiltration by eosinophils; the most common organs involved include skin, lungs, gastrointestinal tract, and heart.",
     "The causes of eosinophilia are recalled in the CHINA mnemonic: Collagen vascular disease, Helminthic infection, Idiopathic hypereosinophilic syndrome, Neoplasia, and Allergy/Atopy/Asthma."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.855006-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.065478-06:00"
 }

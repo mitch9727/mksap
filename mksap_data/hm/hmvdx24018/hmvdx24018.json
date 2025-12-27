@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 53-year-old man is evaluated after an abnormality was found on a routine complete blood count. He is asymptomatic.Peripheral blood smear is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is essential thrombocythemia (Option B). On peripheral smear, platelets normally appear as small, purplish cells without a nucleus (white arrow). As a rule of thumb, there are normally approximately 8 to 15 platelets per 100-power field. This peripheral blood smear contains many more than this number of platelets, suggesting a very high platelet count and the possible diagnosis of essential thrombocythemia. Other clues to the diagnosis of essential thrombocythemia are the presence of large platelets (yellow arrow) and platelet fragments. Most patients with essential thrombocythemia are asymptomatic and present with an elevated platelet count found on routine laboratory testing. Patients may also present with vasomotor symptoms, such as headache, visual disturbances, dysesthesia of the palms and soles, syncope, and livedo reticularis. Complications of essential thrombocythemia include thrombosis and hemorrhage.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/hmfig24629.445dbfb415119086fd5f1af601b49370.jpg",
-      "figures/hmfig24628.9ed83c284eedb09a77e80748f6bd9cdf.jpg"
+      "figures/hmfig24628.9ed83c284eedb09a77e80748f6bd9cdf.jpg",
+      "figures/hmfig24629.445dbfb415119086fd5f1af601b49370.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.952128-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hmfig24628",
+        "file": "figures/hmfig24628.9ed83c284eedb09a77e80748f6bd9cdf.jpg",
+        "title": "Stem Peripheral Blood Smear Findings in Essential Thrombocythemia",
+        "short_title": "PBS in Essential Thrombocythemia Stem",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "figure_id": "hmfig24629",
+        "file": "figures/hmfig24629.445dbfb415119086fd5f1af601b49370.jpg",
+        "title": "Critique Peripheral Blood Smear Findings in Essential Thrombocythemia",
+        "short_title": "PBS in Essential Thrombocythemia Critique",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 800,
+        "height": 533
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.122384-06:00"
 }

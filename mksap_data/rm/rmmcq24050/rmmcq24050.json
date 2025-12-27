@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 20-year-old man is evaluated for a 1-year history of pain and stiffness in his lower back and buttock area. The pain prevents him from playing basketball and awakens him at night. It lasts for an hour in the morning and improves with stretching. He reports no injuries. Physical therapy and NSAIDs provide partial relief. His only other medication is diclofenac.On physical examination, vital signs are normal. There is tenderness over the lower lumbar spine and bilateral sacroiliac joints. Results of the FABER (Flexion, ABduction, and External Rotation) test are positive bilaterally and result of a straight-leg-raise test is negative. Internal and external rotation of bilateral hip joints elicits no pain.Radiographs of the lumbar spine and sacroiliac joints are normal. MRI of the sacroiliac joints shows bilateral subchondral bone marrow edema.",
+  "question_text": "A 20-year-old man is evaluated for a 1-year history of pain and stiffness in his lower back and buttock area. The pain prevents him from playing basketball and awakens him at night. It lasts for an hour in the morning and improves with stretching. He reports no injuries. Physical therapy and NSAIDs provide partial relief. His only other medication is diclofenac.On physical examination, vital signs are normal. There is tenderness over the lower lumbar spine and bilateral sacroiliac joints. Results of the FABER (Flexion, ABduction, and External Rotation) test are positive bilaterally and result of a straight-leg-raise test is negative. Internal and external rotation of bilateral hip joints elicits no pain.Laboratory studies:Erythrocyte sedimentation rate54 mm/hHC-reactive protein1.2 mg/dL (12 mg/L)HHLA-B27 antigenPositiveRadiographs of the lumbar spine and sacroiliac joints are normal. MRI of the sacroiliac joints shows bilateral subchondral bone marrow edema.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is nonradiographic axial spondyloarthritis (nr-axSpA) (Option C). The axial spondyloarthritides are characterized by inflammatory back pain, peripheral inflammatory symptoms, and sometimes extra-articular manifestations, usually presenting before age 45 years. Patients with ankylosing spondylitis (also called radiographic axial spondyloarthritis) have sacroiliitis apparent on plain radiographs, whereas patients with nr-axSpA have no radiographic findings but may have early signs of sacroiliitis on MRI, a more sensitive imaging modality for sacroiliac inflammation. In patients with suggestive findings of axial spondyloarthritis but no sacroiliitis on radiographs, MRI should be performed, as was done in this case. The diagnosis of nr-axSpA is made by clinical features, positivity for HLA-B27 antigen, and/or definitive MRI findings of sacroiliac joint inflammation. Early diagnosis of nr-axSpA has implications for treatment, which may include biologic therapy. This patient has inflammatory back pain with prolonged morning stiffness, improvement with activity, and pain that wakes him up at night. His physical findings, high erythrocyte sedimentation rate, and positivity for HLA-B27 antigen suggest axial spondyloarthritis. Although radiographs are normal, MRI shows bone marrow edema of the sacroiliac joints. Together, these findings are diagnostic of nr-axSpA.Diffuse idiopathic skeletal hyperostosis (DISH) (Option A) is a noninflammatory condition that causes back pain and stiffness without sacroiliac pain, typically in men aged 45 years and older. Radiographs show flowing linear calcification and ossification along the anterolateral aspects of the vertebral bodies. This patient's age, sacroiliac involvement, and radiographic findings are not suggestive of DISH.Patients with lumbar spinal stenosis (Option B) present with cramping pain in the leg, calf, or buttocks and may also have sensory loss and weakness. Symptoms may be alleviated with sitting or leaning forward. Radiographs of the spine typically show degenerative changes, and MRI of the lumbar spine is the gold standard for diagnosis. In this patient, the absence of signs and symptoms along with a normal radiograph of the lumbar spine makes lumbar spinal stenosis less likely.Reactive arthritis (Option D) is a rare spondyloarthropathy occurring after specific bacterial infections, most commonly Chlamydia trachomatis. Reactive arthritis develops within 2 to 3 weeks of the inciting infection, and the typical course is 6 weeks to 6 months. It is generally pauciarticular and involves large peripheral joints; involvement of the spine and sacroiliac joints is atypical. The duration and location of this patient's arthritis are not consistent with reactive arthritis.",
+  "critique_links": [],
   "key_points": [
     "Patients with axial spondyloarthritis present with inflammatory back pain, peripheral inflammatory symptoms, and possible extra-articular manifestations; some patients with clinical findings suggestive of axial spondyloarthritis present with normal plain radiographs and require additional imaging with MRI.",
     "Nonradiographic axial spondylitis is diagnosed by suggestive clinical features, positivity for HLA-B27, and/or definitive MRI findings of sacroiliac joint inflammation."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:47:01.865017-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.720018-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 28-year-old patient is evaluated in the emergency department for a 5-day history of fever, chills, and diffuse joint pain. Pain began bilaterally in the ankles and the wrists and has progressed to involve both knees and elbows. The patient also reports development of a rash over their trunk within the past 24 hours. They returned 7 days ago from a trip to Jamaica.On physical examination, temperature is 39.5 °C (103.1 °F), blood pressure is 135/90 mm Hg, and pulse rate is 110/min; respiration rate is normal. Synovitis is noted bilaterally in the ankles and wrists. A patchy macular rash is present over the trunk.",
+  "question_text": "A 28-year-old patient is evaluated in the emergency department for a 5-day history of fever, chills, and diffuse joint pain. Pain began bilaterally in the ankles and the wrists and has progressed to involve both knees and elbows. The patient also reports development of a rash over their trunk within the past 24 hours. They returned 7 days ago from a trip to Jamaica.On physical examination, temperature is 39.5 °C (103.1 °F), blood pressure is 135/90 mm Hg, and pulse rate is 110/min; respiration rate is normal. Synovitis is noted bilaterally in the ankles and wrists. A patchy macular rash is present over the trunk.Laboratory studies:Leukocyte count2800/µL (2.8 × 109/L)LPlatelet count90,000/µL (90 × 109/L)LAlanine aminotransferase235 U/LHAspartate aminotransferase190 U/LH",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is chikungunya virus infection (Option A). Chikungunya is transmitted by the mosquito vectors Aedes aegypti and Aedes albopictus. Outbreaks of infection have occurred in Africa, Asia, the Indian and Pacific Ocean islands, and the Caribbean. A live-attenuated chikungunya vaccine is available and is recommended for patients aged 18 years and older traveling to an area with a chikungunya outbreak. The incubation period is between 3 and 7 days, and primary symptoms include fever, malaise, and joint pain. Arthralgia is a predominant feature of chikungunya and is usually bilateral and symmetric, more often involving the distal than the proximal joints. Pain may be intense and disabling, and synovitis and joint effusion may be present on examination. Approximately 50% of patients will have a macular or maculopapular rash that usually starts on day 3 of illness, beginning on the limbs and trunk and potentially involving the face. Patients can have leukopenia, thrombocytopenia, and elevated aminotransferase levels. Severe disease is uncommon. Acute disease usually resolves spontaneously within 7 days, but patients can develop chronic arthritis months to years after infection, which can be debilitating.Dengue fever (Option B) is carried by the same mosquitoes as chikungunya, and thus has a similar geographic distribution. Infected patients may be asymptomatic or have an acute febrile illness associated with frontal headache, retro-orbital pain, and myalgia; severe lumbosacral pain is characteristic. A transient maculopapular rash may be present. Arthritis is more severe and synovitis is more likely with chikungunya, whereas dengue can progress to hemorrhagic shock. This patient's symptoms are more consistent with chikungunya.Reactive arthritis (Option C) arises after an infection, usually an enteric or genitourinary infection. Joint pain is usually an acute, asymmetric oligoarthritis, often affecting the knee. Reactive arthritis does not present with fever or rash.Yellow fever (Option D) is an arthropod-borne infection also carried by the same mosquito species as chikungunya and dengue fever. Patients with yellow fever typically have fever, malaise, and headache; over the course of a few days, progression to acute hepatitis with nausea, vomiting, epigastric pain, and jaundice will occur. This patient's primary symptom of joint pain is not consistent with yellow fever, nor is yellow fever present in Jamaica.",
+  "critique_links": [],
   "key_points": [
     "Chikungunya is transmitted by Aedes aegypti and Aedes albopictus mosquitoes throughout Africa, Asia, the Indian and Pacific Ocean islands, and the Caribbean.",
     "Arthralgia is a predominant feature of chikungunya and is usually bilateral and symmetric; patients can develop chronic arthritis months to years after infection, which can be debilitating."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:46:47.009261-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.349600-06:00"
 }

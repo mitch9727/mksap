@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 27-year-old woman is evaluated for malodorous vaginal discharge.Vaginal wet mount findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is bacterial vaginosis (Option A). This image shows clue cells, which are vaginal epithelial cells covered with bacteria that obscure the cell borders (arrow) and which suggest bacterial vaginosis. Bacterial vaginosis is the most common cause of vaginal discharge. It results from the loss of the normal hydrogen peroxide–producing lactobacilli in the vagina with an increase in the vaginal pH that contributes to an overgrowth of Gardnerella vaginalis and other anaerobes. Anaerobic overgrowth results in the production of amines, causing the characteristically malodorous discharge. Clinical diagnosis includes the presence of at least three of four of the following features (Amsel criteria): vaginal pH greater than 4.5; thin and homogeneous vaginal discharge; a positive whiff test result in which application of 10% potassium hydroxide to vaginal secretions results in a fishy odor; and the presence of at least 20% clue cells on saline wet mount preparation.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/infig24613.899fe006da6f962ab1d718f5bdace5d4.jpg",
-      "figures/infig24612.e21b83d0cba9c39d2e473785ea06985e.jpg"
+      "figures/infig24612.e21b83d0cba9c39d2e473785ea06985e.jpg",
+      "figures/infig24613.899fe006da6f962ab1d718f5bdace5d4.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:28:36.797390-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "infig24612",
+        "file": "figures/infig24612.e21b83d0cba9c39d2e473785ea06985e.jpg",
+        "title": "Stem Wet Mount Showing Clue Cells",
+        "short_title": "Clue Cells Stem",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 400,
+        "height": 242
+      },
+      {
+        "figure_id": "infig24613",
+        "file": "figures/infig24613.899fe006da6f962ab1d718f5bdace5d4.jpg",
+        "title": "Critique Wet Mount Showing Clue Cells",
+        "short_title": "Clue Cells Critique",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 400,
+        "height": 242
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.118518-06:00"
 }

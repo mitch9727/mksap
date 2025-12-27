@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 44-year-old man is evaluated for chronic dermatitis, as shown. He is noted to have dandruff and has been treated for blepharitis.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is seborrheic dermatitis (Option C), which is characterized by pink-to-red skin lesions with greasy scales, crusts, and occasionally small pustules. The most common areas of involvement include the scalp (dandruff), nasolabial folds (as seen in this patient), cheeks, and medial eyebrows. The external auditory canals, skin behind the ears, and mid-chest may also be involved. Erythema of the eyelids associated with yellow crusting between the eyelashes (blepharitis) may be the only manifestation of seborrheic dermatitis in some patients.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24641.71fe9d1eb23a5f1a08d4cca4bcc3f5e3.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.882278-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24641",
+        "file": "figures/dmfig24641.71fe9d1eb23a5f1a08d4cca4bcc3f5e3.jpg",
+        "title": "Seborrheic Dermatitis",
+        "short_title": "stem Seborrheic Dermatitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 606
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.423096-06:00"
 }

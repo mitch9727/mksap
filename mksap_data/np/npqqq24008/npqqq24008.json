@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 33-year-old woman seeks preconception counseling. She anticipates pregnancy within 3 to 6 months. She has a 10-year history of type 1 diabetes mellitus and a 3-year history of hypertension. Medications are basal and prandial insulin, losartan, and hydrochlorothiazide.Blood pressure is 110/70 mm Hg, and pulse rate is 70/min. Other physical examination findings are normal.",
+  "question_text": "A 33-year-old woman seeks preconception counseling. She anticipates pregnancy within 3 to 6 months. She has a 10-year history of type 1 diabetes mellitus and a 3-year history of hypertension. Medications are basal and prandial insulin, losartan, and hydrochlorothiazide.Blood pressure is 110/70 mm Hg, and pulse rate is 70/min. Other physical examination findings are normal.Laboratory studies:Urine albumin-creatinine ratio25 mg/g",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Discontinuing the angiotensin receptor blocker (ARB) losartan (Option B) is necessary for this patient who anticipates pregnancy. Renin-angiotensin system agents (ACE inhibitors, ARBs, and direct renin inhibitors) are contraindicated in pregnancy and should be stopped before conception. Exposure during the second and third trimesters of pregnancy has been associated with neonatal kidney failure and death. Although the level of risk for first trimester exposure is controversial, studies have suggested an association with cardiac abnormalities, and the consensus is to stop these drugs before pregnancy. In patients with chronic hypertension, the 2022 American College of Obstetricians and Gynecologists recommendation for goal blood pressure (BP) during pregnancy is <140/90 mm Hg. Results of the Chronic Hypertension and Pregnancy (also called CHAP) trial demonstrated that treatment to a goal BP of <140/90 mm Hg reduced the primary composite outcome of preeclampsia with severe features occurring within 2 weeks postpartum, medically indicated preterm birth, placental abruption, and fetal or neonatal death. This patient's BP is well below this goal of therapy, and her BP would be expected to decline during pregnancy. Therefore, monitoring her BP after discontinuation of losartan is a reasonable approach. If her BP rises, initiation of a drug that is safer during pregnancy is recommended. First-line candidate drugs include methyldopa, nifedipine, and/or labetalol. Recommendations are not based on general therapeutic classes because agents within the same class differ in potential toxicity. In addition to medication management, baseline testing should be completed (serum creatinine, urinalysis, platelets, and liver enzymes) to allow comparison if preeclampsia is subsequently suspected.Diuretics may be continued in pregnancy, particularly if the patient is already taking them before pregnancy. Although diuretic discontinuation (Option A) could be considered if the patient's BP remains at or below the target level, diuretic use is not contraindicated. If BP remains low through the first trimester of pregnancy, the diuretic dose may be lowered.Because all renin-angiotensin system agents (ACE inhibitors, ARBs, and direct renin inhibitors) are contraindicated in pregnancy and carry similar risk, switching losartan to the ACE inhibitor lisinopril (Option C) is not recommended.Although risks are lower during the first trimester, recent data regarding first trimester risks of exposure to renin-angiotensin system agents suggest that the safest approach is to discontinue such agents before conception. Waiting until the patient is pregnant (Option D) is not recommended.",
+  "critique_links": [],
   "key_points": [
     "Renin-angiotensin system agents (ACE inhibitors, angiotensin receptor blockers, and direct renin inhibitors) are contraindicated in pregnancy and should be stopped before conception."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.429641-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.913229-06:00"
 }

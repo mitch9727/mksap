@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 41-year-old man is evaluated for a 6-month history of intermittent paresthesia in his right hand. It is more intense in his fourth and fifth fingers but sometimes involves the second and third fingers. He is a truck driver and reports difficulty changing gears while driving. Medical history is significant for hypertension, type 2 diabetes mellitus, dyslipidemia, and obesity. Medications are losartan, metformin, and simvastatin.On physical examination, vital signs are normal. BMI is 30. Sensation is reduced to pinprick on the fifth finger, and moderate weakness of the finger abductors and adductors is present in the right hand. He exhibits no thenar atrophy. Deep tendon reflexes are intact. He has no sensory loss or weakness in the lower extremities.A complete blood count is normal.Nerve conduction studies with electromyography reveal moderate compression of the right ulnar nerve at the elbow and moderate compression of the median nerve at the wrist.",
+  "question_text": "A 41-year-old man is evaluated for a 6-month history of intermittent paresthesia in his right hand. It is more intense in his fourth and fifth fingers but sometimes involves the second and third fingers. He is a truck driver and reports difficulty changing gears while driving. Medical history is significant for hypertension, type 2 diabetes mellitus, dyslipidemia, and obesity. Medications are losartan, metformin, and simvastatin.On physical examination, vital signs are normal. BMI is 30. Sensation is reduced to pinprick on the fifth finger, and moderate weakness of the finger abductors and adductors is present in the right hand. He exhibits no thenar atrophy. Deep tendon reflexes are intact. He has no sensory loss or weakness in the lower extremities.Laboratory studies:Vitamin B12560 pg/mL (413 pmol/L)Hemoglobin A1c8.1%HA complete blood count is normal.Nerve conduction studies with electromyography reveal moderate compression of the right ulnar nerve at the elbow and moderate compression of the median nerve at the wrist.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has ulnar mononeuropathy with weakness in the ulnar-innervated intrinsic hand muscles and should be referred for surgical decompression of the ulnar nerve (Option C). Ulnar mononeuropathy presents with paresthesia and numbness in the fourth and fifth digits and, when more severe, with weakness and atrophy of intrinsic hand muscles. The most common cause of ulnar mononeuropathy is nerve compression at or around the elbow in the cubital tunnel. Risk factors include prolonged elbow flexion (during sleep or holding onto a steering wheel) and frequent leaning on the elbow. Mild to moderate ulnar mononeuropathy is managed by avoiding precipitating positions, pain control, and using an elbow splint or pad. Weakness of innervated muscles, persistent pain, or active denervation on electromyography (EMG)/nerve conduction studies (NCSs) should prompt referral for nerve decompression. In this patient, despite only intermittent sensory symptoms and moderate findings on EMG/NCSs, the presence of weakness in ulnar-innervated intrinsic hand muscles is an indication for referral for surgical intervention.An elbow splint (Option A) would be appropriate for patients with mild to moderate ulnar mononeuropathy without weakness or atrophy. However, the presence of weakness in this patient with EMG/NCS evidence of ulnar nerve compression makes an elbow splint inappropriate. Additionally, his job entails prolonged flexed elbow positioning, making this option impractical.Symptoms of median mononeuropathy include paresthesia and pain in the first three digits that may radiate to the entire hand or proximally. Patients with mild to moderate median mononeuropathy should be treated with neutral positioning, wrist splints, and pain control. Median nerve decompression (Option B) would be appropriate for patients who have severe median neuropathy (often at the carpal tunnel) or severe weakness in median-innervated muscles and thenar atrophy. In this patient, symptoms are limited to occasional paresthesia in the second and third digits, and he has no weakness in the muscles innervated by the median nerve or thenar atrophy. With these findings and only moderate median neuropathy revealed on EMG/NCSs, median nerve decompression is not indicated.A wrist splint (Option D) would be appropriate in mild to moderate median nerve compression, but this patient's symptoms are localized to the ulnar nerve rather than the median nerve.",
+  "critique_links": [],
   "key_points": [
     "Mild to moderate ulnar mononeuropathy is managed with avoidance of precipitating positions, pain control, and use of an elbow splint or pad; weakness of innervated muscles, persistent pain, or active denervation on electromyography/nerve conduction studies should prompt referral for nerve decompression."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:17:01.470138-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.199807-06:00"
 }

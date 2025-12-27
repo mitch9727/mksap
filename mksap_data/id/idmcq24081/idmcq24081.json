@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 28-year-old man is hospitalized for fever and left-sided neck pain. Medical history is notable for multidrug-resistant HIV infection diagnosed 20 years ago. He has been inconsistent with antiretroviral therapy (ART) for many years but resumed ART approximately 4 weeks ago. Medications are raltegravir, darunavir, cobicistat, emtricitabine, and tenofovir alafenamide.On physical examination, temperature is 38.9 °C (102.0 °F), blood pressure is 109/68 mm Hg, pulse rate is 93/min, and respiration rate is 18/min. An inflamed and tender left cervical lymph node is palpated.Four weeks ago, CD4 cell count was 22/µL and HIV RNA was 23,000 copies/mL.CT scan of the neck reveals an enlarged 2-cm cervical lymph node with surrounding soft tissue thickening and stranding, suggesting inflammation. Lymph node biopsy is performed. An acid-fast stain of the lymph node tissue specimen is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is Mycobacterium avium complex (MAC) infection (Option B). MAC infection can occur in individuals with advanced HIV and AIDS and can present as disseminated or localized disease. Localized disease usually occurs in the setting of immune reconstitution inflammatory syndrome (IRIS); it most often presents as a focal, inflammatory lymphadenitis that occurs approximately 4 weeks after initiating antiretroviral therapy (ART). Risk factors for MAC infection in persons with HIV include CD4 cell count less than 50/µL, HIV-1 RNA level greater than 1000 copies/mL, and ongoing viral replication despite ART. Blood cultures for acid-fast bacilli will often grow MAC in disseminated disease; in localized disease, the organism may be seen on lymph node acid-fast stain, with numerous mycobacteria growing within macrophages, as in this patient. This patient has advanced HIV with a detectable viral load, and he resumed ART 1 month ago. He has likely developed IRIS, which has unmasked a pre-existing MAC infection.Cytomegalovirus (Option A) is a herpesvirus that can cause disseminated or end-organ disease in persons with advanced HIV and CD4 cell count less than 50/µL. Cytomegalovirus retinitis is a common manifestation of end-organ disease. Cytomegalovirus can also affect the gastrointestinal tract and cause colitis. This patient has no visual or gastrointestinal symptoms. In addition, cytomegalovirus is not diagnosed by acid-fast staining.Nocardia (Option C) is a gram-positive branching rod that is variably acid fast. A trained microbiologist is often needed to distinguish Nocardia from mycobacteria because the organisms can appear similar on laboratory staining. Nocardia infections most commonly occur in immunocompromised persons. Nocardia typically presents subacutely, and common clinical syndromes include pneumonia or lung nodules, brain abscess or meningitis, and skin nodules or ulcers. Nocardia does not typically present with lymphadenitis.Pneumocystis jirovecii (Option D) is a ubiquitous fungus that causes pneumonia in persons with HIV and CD4 cell count less than 200/µL. Patients may have gradually worsening shortness of breath over the course of a few weeks as well as dry cough. This patient's symptoms are inconsistent with pneumonia.",
+  "critique_links": [],
   "key_points": [
     "Localized Mycobacterium avium complex infection usually occurs in the setting of immune reconstitution inflammatory syndrome; it most often presents as a focal, inflammatory lymphadenitis that occurs approximately 4 weeks after initiating antiretroviral therapy."
   ],
@@ -57,5 +58,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.219133-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "idfig24206",
+        "file": "figures/idfig24206.054a19cfdf9dcd929cddb79fd9dead78.jpg",
+        "title": null,
+        "short_title": "<i>M. avium</i> Lymphadenopathy Histopathology",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 626
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.496443-06:00"
 }

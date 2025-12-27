@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 49-year-old woman is evaluated during routine follow-up of recently diagnosed type 2 diabetes mellitus without complications. She has no other medical conditions. Her only medication is metformin.On physical examination, vital signs are normal. BMI is 26.Laboratory studies:HDL cholesterol38 mg/dL (0.98 mmol/L)LDL cholesterol149 mg/dL (3.86 mmol/L)Triglycerides285 mg/dL (2.85 mmol/L)HHer 10-year atherosclerotic cardiovascular disease risk is 8.3%. Following a shared decision-making conversation, she indicates she would like to do everything possible to reduce her cardiovascular risk.",
   "question_stem": "In addition to lifestyle interventions, which of the following is the most appropriate treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment for this patient who indicates a preference for maximum cardiovascular risk reduction is moderate-intensity rosuvastatin (Option C). A major cause of morbidity and mortality in persons with diabetes mellitus is atherosclerotic cardiovascular disease (ASCVD). Diabetes is an independent risk factor for ASCVD, along with hypertension, dyslipidemia, tobacco use, family history, and albuminuria. In patients aged 40 to 75 years with diabetes and elevated (>10%) 10-year cardiovascular risk as assessed by a clinical calculator, statin therapy for primary prevention is recommended by the U.S. Preventive Services Task Force (USPSTF); the American Heart Association, American Diabetes Association, and American College of Cardiology guidelines also recommend at least moderate-intensity statin therapy in all patients with diabetes, regardless of calculated risk. High-intensity statins for primary prevention are reserved for patients with diabetes and additional cardiovascular risk factors. The USPSTF takes a more conservative stance, suggesting that clinicians use shared decision making regarding the risks and benefits of statin therapy among patients with diabetes and calculated risk between 7.5% and 10%. This patient has an intermediate 10-year risk and indicates a preference for maximum therapy, so moderate-intensity statin therapy is an appropriate choice.In patients at higher cardiovascular risk whose LDL cholesterol level goals are not achieved with high-intensity or maximally tolerated statin therapy, the addition of ezetimibe (Option A) can be considered. This patient has no indication for ezetimibe.Fenofibrate (Option B) does not offer additional cardiovascular benefit to statin therapy and therefore is not recommended. Fibrates are recommended to treat severe hypertriglyceridemia (≥500 mg/dL [5.65 mmol/L]), which this patient does not have.The benefit of statin therapy decreases as cardiovascular risk decreases, so patients at very low risk should not be offered statin therapy. This patient, however, is at intermediate risk and will realize a modest benefit; because she desires therapy and primary prevention is recommended, it would be inappropriate to withhold therapy (Option D).",
+  "critique_links": [],
   "key_points": [
     "The American Heart Association/American College of Cardiology and American Diabetes Association recommend at least moderate-intensity statin therapy for all adults with diabetes, regardless of calculated ASCVD risk.",
     "The U.S. Preventive Services Task Force recommends shared decision making regarding statin therapy for primary prevention in patients with diabetes and calculated atherosclerotic cardiovascular disease risk between 7.5% and 10%."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.835680-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.342908-06:00"
 }

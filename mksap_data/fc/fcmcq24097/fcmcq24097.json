@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A physician receives a message from a 78-year-old patient's daughter through the electronic health record (EHR) asking for a refill of her father's sertraline prescription. The patient has a history of anxiety, depression, and mild cognitive impairment. His daughter indicates that the sertraline dosage may not be high enough because her father has been experiencing increasing anxiety. She also asks whether alprazolam can be prescribed. The EHR shows no record of the patient giving consent for the physician to talk to family members.",
   "question_stem": "Which of the following is the most appropriate next step?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The physician should schedule a visit with the patient (Option C). Physicians have an ethical and legal obligation to protect the privacy and confidentiality of their patients' medical information; disclosure of medical information outside the patient-physician relationship requires patient consent. Disclosing information without consent or patient knowledge violates confidentiality and may compromise trust in the patient-physician relationship. Communication through electronic health records and patient portals is subject to the same tenets of privacy and confidentiality. In this case, the patient has not given consent for the physician to discuss his medical information with others. The physician should schedule a visit to assess symptoms directly with the patient. During the visit, the physician may also ask whether the patient would like other individuals to have access to his medical information, and the patient may sign paperwork to that effect.A physician must have consent from the patient to discuss medical information with others. In this case, because the physician does not have the patient's consent to discuss his medical information with any family members, calling the daughter to ask for more information (Option A) or replying to the message to explain that alprazolam is not recommended in older patients (Option B) would violate the patient's confidentiality.Adjusting a patient's medication (Option D) based on third-party information without first discussing symptoms and management with the patient is inappropriate. In this instance, the patient has not provided consent for the physician to discuss his medical information with others, and the patient should be contacted directly to discuss his symptoms before any changes are made to his medical regimen.",
+  "critique_links": [],
   "key_points": [
     "Health care providers must have consent from patients to discuss their medical information with others, including family members.",
     "Disclosing a patient's information without their consent or knowledge violates confidentiality and may compromise trust in the patient-physician relationship."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:34.105035-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:27.792343-06:00"
 }

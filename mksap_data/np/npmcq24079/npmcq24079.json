@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 46-year-old woman is evaluated in the emergency department for a 1-day history of acute-onset diffuse abdominal pain, fever, chills, nausea, and vomiting. She has end-stage kidney disease due to focal segmental glomerulosclerosis. She has been receiving peritoneal dialysis for 10 months and has tolerated it well. She has not missed any peritoneal dialysis exchange treatments. She also has hypertension and gastroesophageal reflux disease. Medications are lisinopril, amlodipine, omeprazole, sevelamer, calcitriol, and gentamicin catheter exit-site cream.On physical examination, temperature is 38.4 °C (101.2 °F), blood pressure is 108/74 mm Hg, and pulse rate is 110/min. The abdomen is distended with diffuse abdominal pain, rebound, guarding, and decreased abdominal sounds. A peritoneal catheter is in place with a clean exit site.Peritoneal dialysis fluid is cloudy, with a leukocyte count of 197/µL (0.197 x 109/L). Peritoneal dialysis fluid Gram stain and culture are pending.CT scan of the abdomen shows fluid and scant free air consistent with peritoneal dialysis, a normal-appearing liver and gallbladder, and no bowel wall thickening or masses.",
+  "question_text": "A 46-year-old woman is evaluated in the emergency department for a 1-day history of acute-onset diffuse abdominal pain, fever, chills, nausea, and vomiting. She has end-stage kidney disease due to focal segmental glomerulosclerosis. She has been receiving peritoneal dialysis for 10 months and has tolerated it well. She has not missed any peritoneal dialysis exchange treatments. She also has hypertension and gastroesophageal reflux disease. Medications are lisinopril, amlodipine, omeprazole, sevelamer, calcitriol, and gentamicin catheter exit-site cream.On physical examination, temperature is 38.4 °C (101.2 °F), blood pressure is 108/74 mm Hg, and pulse rate is 110/min. The abdomen is distended with diffuse abdominal pain, rebound, guarding, and decreased abdominal sounds. A peritoneal catheter is in place with a clean exit site.Laboratory studies:Leukocyte count18,000/µL (18 × 109/L)HStool guaiac testingNegativePeritoneal dialysis fluid is cloudy, with a leukocyte count of 197/µL (0.197 x 109/L). Peritoneal dialysis fluid Gram stain and culture are pending.CT scan of the abdomen shows fluid and scant free air consistent with peritoneal dialysis, a normal-appearing liver and gallbladder, and no bowel wall thickening or masses.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is peritonitis (Option D). Recognition of peritoneal dialysis (PD)–associated peritonitis is essential for rapid initiation of treatment of this infectious complication, which increases morbidity and mortality for patients with end-stage kidney disease (ESKD) treated with this modality. Patient training and support through the home dialysis program and use of exit-side antibiotic cream aim to minimize PD-associated peritonitis. Patients with PD-associated peritonitis present with acute-onset of abdominal pain; frequently have systemic symptoms, including fevers, chills, nausea, vomiting, or diarrhea; and have cloudy PD fluid. Of note, patients treated with PD may have a small amount of intra-abdominal free air as a result of the PD procedure, not intra-abdominal pathology. In addition, the PD leukocyte count consistent with infection is different in PD-associated peritonitis (leukocyte count >100/µL [0.1 x 109/L] with >50% polymorphonuclear leukocytes [PMNs]) compared with spontaneous bacterial peritonitis in patients with cirrhosis (PMN count >250/µL [0.25 x 109/L]). This patient has classic signs and symptoms of PD-associated peritonitis, including abdominal pain, fever, and cloudy PD fluid. Initiation of empiric antibiotic therapy is indicated pending results of the PD fluid culture.Biliary disease such as cholangitis is more common in women between the age of 40 and 69 years (Option A). However, this patient's physical examination and CT results are not consistent with an acute biliary disease such as cholangitis.Patients with ESKD are at increased risk of upper gastrointestinal disease such as gastritis. Hypergastrinemia, gastrointestinal dysmotility, and acid secretion alterations are factors in the pathophysiology of gastrointestinal lesions in patients with ESKD (Option B). However, this patient has stable ESKD while receiving dialysis and has more severe symptoms, all of which are not consistent with gastritis.Patients with ESKD are at increased risk for vascular disease leading to mesenteric ischemia (Option C), which can present with pain disproportionate to the physical examination and typically with blood in the stool. This patient's abdominal symptoms, physical examination, and negative stool guaiac test are more consistent with peritoneal inflammation in the setting of peritonitis rather than acute mesenteric ischemia.",
+  "critique_links": [],
   "key_points": [
     "Patients with peritoneal dialysis–associated peritonitis present with acute-onset of abdominal pain; frequently have systemic symptoms, including fevers, chill, nausea, vomiting, or diarrhea; and have cloudy PD fluid with an elevated leukocyte count (>100/µL [0.1 x 109/L])."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:05.675145-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.812591-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "An 82-year-old man is admitted to the ICU for 1 week of fever, cough productive of green sputum, and progressive shortness of breath. Medical history is remarkable for bronchiectasis and polymyalgia rheumatica. His only medication is prednisone.On physical examination, temperature is 38.8 °C (101.8 °F), pulse rate is 115/min, and respiration rate is 25/min. Oxygen saturation is 88% breathing ambient air. Crackles are heard in the right lung base.A sputum Gram stain shows 3+ polymorphonuclear cells and 2+ gram-negative organisms.A chest radiograph is shown.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate empiric treatment regimen for this patient with suspected Pseudomonas pneumonia is cefepime and azithromycin (Option A). Pseudomonas aeruginosa is an uncommon cause of community-acquired pneumonia (CAP), reported in 1% to 8% of patients in various case series. However, it is important to recognize risk factors predisposing patients to this organism because standard treatment regimens for CAP require modification when Pseudomonas is suspected. Risk factors for Pseudomonas infection include immunocompromise, underlying structural lung disease (e.g., bronchiectasis, cystic fibrosis), or medical conditions requiring repeated courses of antibiotics (e.g., frequent COPD exacerbations). Infection with this bacterium in the preceding year, hospitalization, or parenteral antibiotic administration in the preceding 90 days are also recognized risk factors for infection. Initial treatment with an appropriate antibiotic regimen has been shown to decrease mortality in patients with CAP caused by Pseudomonas. Treatment should include an antipseudomonal β-lactam (piperacillin-tazobactam, cefepime, ceftazidime, aztreonam, imipenem, or meropenem) in conjunction with an agent active against atypical organisms (either a macrolide or a respiratory fluoroquinolone). Empiric treatment with a fluoroquinolone is relatively contraindicated in patients who did not respond to a previous course of a drug in this class. De-escalation is appropriate when culture and sensitivity results become available. Even in patients with risk factors for Pseudomonas infection, it is important to continue treatment with a combination that is also active against Streptococcus pneumoniae and Legionella species until culture results are available.Ceftriaxone and azithromycin (Option B) is appropriate initial empiric therapy for CAP in hospitalized patients, including those in the ICU, if the patient has no risk factors for methicillin-resistant Staphylococcus aureus (MRSA) or Pseudomonas. The combination of ceftriaxone and azithromycin is not active against Pseudomonas, and these medications and should not be used when this organism is a concern.Moxifloxacin (Option C) is a respiratory fluroquinolone with excellent activity against S. pneumoniae and Legionella species; however, unlike levofloxacin and ciprofloxacin, it has no activity against Pseudomonas, so it should not be used as empiric therapy when this organism is suspected.Although piperacillin-tazobactam and vancomycin (Option D) would provide coverage for Pseudomonas and S. pneumoniae, this regimen does not provide coverage for Legionella species. In addition, coverage for MRSA with vancomycin is not required unless risk factors are present, including MRSA growth on a previous respiratory culture, a suspicious Gram stain (gram-positive cocci in clusters), conventional therapy failure, pleural-based lung nodules (suggesting septic pulmonary emboli), or cavitary lung lesions.",
+  "critique_links": [],
   "key_points": [
     "In patients with community-acquired pneumonia and risk factors for Pseudomonas aeruginosa infection, treatment should include an antipseudomonal β-lactam (piperacillin-tazobactam, cefepime, ceftazidime, aztreonam, imipenem, or meropenem) in conjunction with an agent active against atypical organisms (either a macrolide or a respiratory fluoroquinolone)."
   ],
@@ -57,5 +58,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:10:29.271994-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "idfig24503",
+        "file": "figures/idfig24503.3d9c85166d7e581f236db819cbd2c88b.jpg",
+        "title": "Chest Radiograph of Community-Acquired Pneumonia",
+        "short_title": "CAP Chest Radiograph",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 772
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.635992-06:00"
 }

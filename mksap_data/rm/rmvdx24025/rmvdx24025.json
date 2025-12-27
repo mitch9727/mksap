@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 55-year-old man is evaluated for the recent onset of muscle weakness and facial rash.Skin findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is dermatomyositis (Option A). This patient's rash is typical of the heliotrope eruption of dermatomyositis, which consists of a violaceous to dusky erythematous rash with or without edema in a symmetric distribution involving periorbital skin. Sometimes this rash is quite subtle and may cause only a mild discoloration along the eyelid margin. In some patients, massive edema may be present.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:05.968654-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "rmfig24629",
+        "file": "figures/rmfig24629.a87f42e785fa965bae5c39a44c64618d.jpg",
+        "title": "Heliotrope Rash in Dermatomyositis",
+        "short_title": "stem Heliotrope Rash in Dermatomyositis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 872,
+        "height": 1344
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.925043-06:00"
 }

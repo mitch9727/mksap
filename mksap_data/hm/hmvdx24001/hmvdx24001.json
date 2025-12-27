@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 54-year-old woman is hospitalized with painful skin lesions involving the breasts, as shown. Warfarin was initiated 2 days ago for atrial fibrillation.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is protein C deficiency (Option B). Protein C is a vitamin K–dependent protein that degrades activated factors V and VIII and has an anticoagulant effect. Protein C deficiency increases the risk of thrombotic events and pregnancy morbidity, often manifesting before age 50 years, particularly in individuals with a strong family history of thrombosis. The half-life of protein C is shorter than many of the other vitamin K–dependent proteins. When warfarin is initiated in patients with protein C deficiency, warfarin-induced thrombotic skin necrosis can result from rapid depletion of protein C, with a subsequent transient hypercoagulable state following the loss of the anticoagulant effect of protein C.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.861935-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hmfig24600",
+        "file": "figures/hmfig24600.22fb782452d735d1b72dd00eec09d9dc.jpg",
+        "title": "Warfarin-Induced Skin Necrosis",
+        "short_title": "Warfarin-Induced Skin Necrosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 626
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.075762-06:00"
 }

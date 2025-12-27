@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 70-year-old woman is admitted to the hospital for acute kidney injury. The patient reports mild fatigue over the past month, a 1.8-kg (4.0-lb) weight gain, and fluid retention in her ankles. She has multiple myeloma with osteolytic lesions treated with dexamethasone, bortezomib, lenalidomide, pamidronate, and low-dose aspirin. She takes oral ibuprofen as needed.On physical examination, blood pressure is 150/82 mm Hg; other vital signs are normal. There is 2-mm pitting edema of the ankles bilaterally.Kidney biopsy shows collapsing variant focal segmental glomerulosclerosis.",
+  "question_text": "A 70-year-old woman is admitted to the hospital for acute kidney injury. The patient reports mild fatigue over the past month, a 1.8-kg (4.0-lb) weight gain, and fluid retention in her ankles. She has multiple myeloma with osteolytic lesions treated with dexamethasone, bortezomib, lenalidomide, pamidronate, and low-dose aspirin. She takes oral ibuprofen as needed.On physical examination, blood pressure is 150/82 mm Hg; other vital signs are normal. There is 2-mm pitting edema of the ankles bilaterally.Laboratory studies:Albumin2.3 g/dL (23 g/L)LCreatinine2.2 mg/dL (194 µmol/L)HBaseline0.8 mg/dL (70.7 µmol/L)Urinalysis3+ protein, no bloodKidney biopsy shows collapsing variant focal segmental glomerulosclerosis.",
   "question_stem": "Which of the following is the most likely cause of this patient's acute kidney injury?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most likely cause of this patient's acute kidney injury is pamidronate (Option E). This patient presents with acute kidney injury and the nephrotic syndrome, and subsequent kidney biopsy shows a collapsing variant focal segmental glomerulosclerosis (FSGS). Although FSGS can be idiopathic, secondary causes may include the following:Viral causes, such as COVID-19 and HIVDrug-induced causes, including pamidronate, interferon, and lithiumGenetic causesDiseases associated with hyperfiltration, such as sickle cell disease, obesity, and congenital anomalies of the genitourinary tractPamidronate toxicity classically manifests as the nephrotic syndrome, with collapsing FSGS as the most common pattern of injury. The mechanism by which pamidronate, a bisphosphonate, produces collapsing FSGS is unknown, although direct or indirect effects of the drug on podocyte integrity is presumed; acute tubular necrosis is the main pattern of injury associated with another bisphosphonate, zoledronic acid. Bisphosphonates such as pamidronate are used to prevent bone resorption. Although oral bisphosphonates are used to treat osteoporosis and are not thought to be nephrotoxic, intravenous doses of bisphosphonates are much higher than oral formulations and have been associated with kidney injury. In the United States, pamidronate and zoledronic acid are the two FDA-approved formulations used to treat metastatic bone disease, hypercalcemia of malignancy, and multiple myeloma, for which this patient is being treated. Withdrawal of the offending drug is often sufficient therapy for drug-induced FSGS.Neither bortezomib (Option A) nor dexamethasone (Option B) has been associated with FSGS. The patient should continue these medications for treatment of her multiple myeloma.The NSAID ibuprofen (Option C) can cause acute kidney injury with a number of kidney lesions on biopsy, including interstitial nephritis, minimal change glomerulopathy, and renal papillary necrosis. However, it has not been associated with collapsing FSGS. Although ibuprofen would be discontinued in this setting because of the acute kidney injury, it is not the cause of the FSGS.Lenalidomide (Option D) is associated with acute kidney injury but has not been associated with FSGS. It requires dosage adjustment when used in patients with kidney impairment.",
+  "critique_links": [],
   "key_points": [
     "Pamidronate toxicity classically manifests as the nephrotic syndrome, with collapsing focal segmental glomerulosclerosis (FSGS) as the most common pattern of injury.",
     "For drug-induced FSGS, withdrawal of the offending drug is often sufficient therapy."
@@ -63,5 +64,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:37.380121-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.681956-06:00"
 }

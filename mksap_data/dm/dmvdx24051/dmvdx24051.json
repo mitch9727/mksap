@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 27-year-old man and his 8-year-old child are evaluated for an intensely pruritic rash on the hands.The adult patient's hands are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is scabies (Sarcoptes scabiei) infestation (Option D). Scabies causes an intensely pruritic papular or vesicular rash, commonly in the interdigital web spaces, as seen in this patient. Burrows are visible as short, serpiginous lines. Location in the interdigital webs, flexural surface of the wrists, penis, axillae, nipples, umbilicus, scrotum, and buttocks is diagnostic. Scabies infestation should be suspected whenever a patient and close contacts experience itching of the typically involved areas.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24660.e39f5bf884b7b61a7a845858ae5e916b.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.918706-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24660",
+        "file": "figures/dmfig24660.e39f5bf884b7b61a7a845858ae5e916b.jpg",
+        "title": "Scabies",
+        "short_title": "stem Scabies",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 675
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.456174-06:00"
 }

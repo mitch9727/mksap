@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 36-year-old man is evaluated for biopsy-confirmed focal segmental glomerulosclerosis. His blood pressure and edema have responded well to medical therapy. Medications are prednisone, lisinopril, chlorthalidone, atorvastatin, and low-dose aspirin.Physical examination findings, including vital signs, are normal.",
+  "question_text": "A 36-year-old man is evaluated for biopsy-confirmed focal segmental glomerulosclerosis. His blood pressure and edema have responded well to medical therapy. Medications are prednisone, lisinopril, chlorthalidone, atorvastatin, and low-dose aspirin.Physical examination findings, including vital signs, are normal.Laboratory studies:Creatinine1.6 mg/dL (141.4 µmol/L)HPotassium4.3 mEq/L (4.3 mmol/L)Urine albumin-creatinine ratio1200 mg/gHEstimated glomerular filtration rate57 mL/min/1.73 m2",
   "question_stem": "Which of the following is the most appropriate additional treatment to slow chronic kidney disease progression?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "In addition to disease-specific treatment, the most appropriate treatment to slow the progression of chronic kidney disease (CKD) is dapagliflozin (Option A), a sodium-glucose cotransporter 2 (SGLT2) inhibitor. SGLT2 inhibitors were developed as antihyperglycemic medications to treat patients with type 2 diabetes mellitus. Clinical trials revealed the additional clinical benefit of slowing progression of CKD in patients with type 2 diabetes. This observation led to studies of the utility of these medications for patients with CKD without type 2 diabetes. The landmark DAPA-CKD trial showed that administration of dapagliflozin to patients with CKD, with or without diabetes, an estimated glomerular filtration rate (eGFR) of 25 to 75 mL/min/1.73 m2, and urine albumin-creatinine ratio of 200 to 5000 mg/g resulted in a significant decrease in the composite endpoint of decline in eGFR, end-stage kidney disease, or death from kidney or cardiovascular causes. Dapagliflozin is approved by the FDA for the indication of slowing kidney disease progression for patients with CKD regardless of type 2 diabetes status.Finerenone (Option B) is a nonsteroidal mineralocorticoid antagonist that has been shown to slow progression of CKD in patients with type 2 diabetes. Because this patient does not have diabetes, finerenone is not indicated.Inhibition of the renin-angiotensin-aldosterone system (RAAS) using an ACE inhibitor or angiotensin receptor blocker (ARB), such as losartan (Option C), is a cornerstone of care for patients with proteinuric kidney disease because it has been demonstrated to slow CKD progression in multiple kidney disease processes. However, the combination of an ACE inhibitor and ARB increases the risk of hyperkalemia and acute kidney injury without providing additional kidney protection benefit; combination use of these two agents should be avoided. This patient currently takes lisinopril, an ACE inhibitor, and thus addition of losartan is not indicated.Patiromer (Option D) is an oral potassium-binding resin. Use of these resins can allow continuation of RAAS blockade medications later in the course of CKD when hyperkalemia would otherwise require discontinuation of these medications. However, this patient has a normal serum potassium level, and there is no role for a potassium-binding resin.The vasopressin V2 receptor antagonist tolvaptan (Option E) was developed for treatment of certain cases of hyponatremia. Use of tolvaptan was explored for patients with autosomal dominant polycystic kidney disease (ADPKD), and it has been shown to have disease-modifying activity to slow progression of kidney function loss for patients with ADPKD at high risk for progression. It is not approved for use as a kidney disease–modifying agent in other kidney diseases.",
+  "critique_links": [],
   "key_points": [
     "In patients with chronic kidney disease, with or without diabetes, use of sodium-glucose cotransporter 2 inhibitors can decrease the decline in estimated glomerular filtration rate, end-stage kidney disease, or death from kidney or cardiovascular causes."
   ],
@@ -62,5 +63,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:02.415568-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.795189-06:00"
 }

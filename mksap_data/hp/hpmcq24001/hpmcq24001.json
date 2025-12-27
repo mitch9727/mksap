@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 65-year-old man is evaluated for follow-up of chronic hepatitis C virus infection, which was diagnosed more than 20 years ago and treated 2 years ago. He is asymptomatic. He also has atrial fibrillation and hypertension. His medications are warfarin and lisinopril.Physical examination findings, including vital signs, are normal. BMI is 24. There is no evidence of spider angiomata or palmar erythema.Laboratory studies:Platelet count130,000/µL (130 × 109/L)LAlanine aminotransferase18 U/LAspartate aminotransferase20 U/LHepatitis C virus RNAUndetectableα-Fetoprotein3.0 ng/mL (3.0 μg/L)The Fibrosis-4 score is 2.36 (intermediate risk for advanced liver disease).Ultrasound of the abdomen reveals a smooth liver contour and normal spleen size.",
   "question_stem": "Which of the following is the most appropriate test to perform next for further evaluation of this patient's liver disease?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate test to perform next is transient elastography (Option C) to assess for hepatic fibrosis. Determination of the degree of hepatic fibrosis allows for risk stratification for future hepatic decompensation, hepatocellular carcinoma risk, and the risk for portal hypertension–related complications. This assessment can be performed noninvasively (see Figure: Algorithm for Noninvasive Assessment of Hepatic Fibrosis). For patients with an intermediate risk for advanced liver disease based on the Fibrosis-4 (FIB-4) score, further assessment with elastography or a commercial serum marker test is recommended. Transient elastography is a noninvasive method of assessment that derives a liver stiffness score based on the speed of mechanically generated shear waves across the liver. This measurement is correlated with the degree of hepatic fibrosis and, in a patient who has been treated for chronic hepatitis C virus (HCV) infection, such as this one, allows for an assessment of residual hepatic fibrosis. Patients with advanced fibrosis require ongoing surveillance for hepatocellular carcinoma even after sustained virologic response of HCV infection. A noninvasive method, such as transient elastography, is particularly appropriate in this patient receiving anticoagulation.The NAFLD (nonalcoholic fatty liver disease) Fibrosis Score (Option A) is a validated noninvasive tool that uses clinical data to assess hepatic fibrosis in patients with steatotic liver disease. This score is not appropriate in this case because the patient has a history of chronic HCV infection and no clear risk factors for steatotic liver disease. In addition, this patient's laboratory assessment already allows for calculation of a FIB-4 score.In the past, hepatic fibrosis was traditionally assessed using percutaneous liver biopsy (Option B). Although this remains a useful tool, it is an invasive option. This patient is being treated with an anticoagulant; therefore, a noninvasive test would be preferred to avoid the risk for procedural complications, including bleeding.Upper endoscopy (Option D) would be recommended in a patient with cirrhosis. This patient does not have clinical evidence of cirrhosis or clinically significant portal hypertension to warrant an endoscopy before further assessment of hepatic fibrosis.",
+  "critique_links": [],
   "key_points": [
     "For patients with an intermediate risk for advanced liver disease based on the Fibrosis-4 (FIB-4) score, further assessment with elastography or a commercial serum marker test is recommended."
   ],
@@ -50,10 +51,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.516249-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.612569-06:00"
 }

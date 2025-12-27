@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 78-year-old man with severe COPD is evaluated for worsening dyspnea.ECG is shown.",
   "question_stem": "Which of the following conditions is demonstrated on this patient's ECG?",
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "This ECG demonstrates right ventricular hypertrophy (Option D). The ECG features suggestive of right ventricular hypertrophy include the following:Tall R wave in lead VPersistent precordial S wavesEvidence of right atrial enlargementRight axis deviation or indeterminate axisrSr′ in lead VRight ventricular strain pattern (ST-T wave changes in the inferior leads)The specific findings in this ECG that support a diagnosis of right ventricular hypertrophy include rSr’ in V1, persistent S waves in V5 through V6, a right ventricular strain pattern, and probable right atrial abnormality. Right ventricular hypertrophy can be caused by pulmonary hypertension, mitral stenosis, chronic lung disease leading to cor pulmonale, and congenital heart disease.",
+  "critique": "This ECG demonstrates right ventricular hypertrophy (Option D). The ECG features suggestive of right ventricular hypertrophy include the following:Tall R wave in lead V1Persistent precordial S wavesEvidence of right atrial enlargementRight axis deviation or indeterminate axisrSr′ in lead V1Right ventricular strain pattern (ST-T wave changes in the inferior leads)The specific findings in this ECG that support a diagnosis of right ventricular hypertrophy include rSr’ in V1, persistent S waves in V5 through V6, a right ventricular strain pattern, and probable right atrial abnormality. Right ventricular hypertrophy can be caused by pulmonary hypertension, mitral stenosis, chronic lung disease leading to cor pulmonale, and congenital heart disease.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.322185-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24662",
+        "file": "figures/pmfig24662.417848fd315d0c023fec3a1131e23d67.jpg",
+        "title": "ECG Showing Right Ventricular Hypertrophy",
+        "short_title": "stem ECG Showing Right Ventricular Hypertrophy",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 486
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.294164-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 71-year-old man reports progressive vision loss over several years.Retinal findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is age-related macular degeneration (AMD) (Option A). This patient has distinct yellow-white lesions (drusen) surrounding the macular area and areas of pigment mottling characteristic of dry (atrophic) AMD. Dry AMD is a progressive chronic disease involving the central retina; it accounts for 80% to 90% of AMD cases with the remainder being wet (neovascular) AMD. Patients with early dry AMD are often asymptomatic, although yellow drusen may be visible underneath retinal pigment epithelium. Patients note slowly progressive vision loss over the course of years. Approximately 10% to 20% of patients with dry AMD progress to wet AMD, which typically presents with more rapid visual loss and may be accompanied by a sudden worsening of central vision associated with straight-line distortion (metamorphopsia), scotoma, or both.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:28:36.785762-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "infig24605",
+        "file": "figures/infig24605.835202514a8fc9a373dd6fe379d0b4c0.jpg",
+        "title": "Funduscopic Image Showing Age-Related Macular Degeneration",
+        "short_title": "Age-Related Macular Degeneration",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 673
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.110526-06:00"
 }

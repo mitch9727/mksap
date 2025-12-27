@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 62-year-old man is evaluated for a 5-day history of painless vision loss in his left eye. Medical history is significant for hypertension and peripheral artery disease; he stopped using tobacco 3 years ago. Medications are valsartan, atorvastatin, and clopidogrel.On physical examination, vital signs, including blood pressure, are normal. His left eye shows an afferent pupillary defect and can only see waving on visual acuity testing. Funduscopic examination shows a pale optic disc with blurred margins. There is no temporal tenderness. Results of neurologic and cardiac examinations are normal.",
+  "question_text": "A 62-year-old man is evaluated for a 5-day history of painless vision loss in his left eye. Medical history is significant for hypertension and peripheral artery disease; he stopped using tobacco 3 years ago. Medications are valsartan, atorvastatin, and clopidogrel.On physical examination, vital signs, including blood pressure, are normal. His left eye shows an afferent pupillary defect and can only see waving on visual acuity testing. Funduscopic examination shows a pale optic disc with blurred margins. There is no temporal tenderness. Results of neurologic and cardiac examinations are normal.Laboratory studies:Erythrocyte sedimentation rate10 mm/hC-reactive protein0.2 mg/dL (2 mg/L)",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -43,7 +43,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "No further treatment (Option E) is indicated in this patient with likely acute nonarteritic anterior ischemic optic neuropathy (AION). AION presents as acute monocular painless loss of vision. Funduscopic examination reveals a pale or swollen optic disc with blurred margins (). AION can be arteritic, which is most typically associated with giant cell arteritis (GCA), or nonarteritic, which is strongly associated with risk factors for small vessel disease, especially hypertension. Patients with arteritic AION secondary to GCA frequently have associated symptoms, such as headache and jaw claudication, as well as elevated inflammatory markers. In contrast, other symptoms usually do not accompany the vision loss in nonarteritic AION. Unlike arteritic AION, nonarteritic AION is typically not an emergency, and no effective treatment is available to reverse the visual impairment; nonarteritic AION is primarily treated by controlling blood pressure and cardiovascular risk factors. In this patient, acute painless monocular vision loss with funduscopic findings of a swollen and pale disc in the absence of systemic symptoms or inflammatory markers makes nonarteritic AION most likely.Aspirin (Option A) is incorrect because this patient is already taking clopidogrel; dual antiplatelet therapy has not been shown to improve outcomes in patients with nonarteritic AION. Control of the underlying risk factors like hypertension and cigarette smoking, on the other hand, may reduce the chances of recurrent AION.Carotid duplex ultrasonography (Option B) is unnecessary as carotid atherosclerosis is unlikely to be the underlying cause of AION. Carotid disease with microemboli may cause transient monocular visual loss (amaurosis fugax) but rarely causes the more sustained vision loss and funduscopic changes seen in this patient.High-dose methylprednisolone (Option C) is incorrect in this patient as he exhibits no clinical evidence of GCA, such as systemic symptoms and elevated inflammatory markers. High-dose glucocorticoids are indicated when there is a high suspicion for GCA and should be started before temporal artery biopsy confirms the diagnosis.Diagnostic testing with transthoracic echocardiography (Option D) is unnecessary in this patient because he has no cardiac symptoms, and AION is very rarely caused by an underlying cardioembolic source.",
+  "critique": "No further treatment (Option E) is indicated in this patient with likely acute nonarteritic anterior ischemic optic neuropathy (AION). AION presents as acute monocular painless loss of vision. Funduscopic examination reveals a pale or swollen optic disc with blurred margins (Figure: Fundus Image Showing Anterior Ischemic Optic Neuropathy). AION can be arteritic, which is most typically associated with giant cell arteritis (GCA), or nonarteritic, which is strongly associated with risk factors for small vessel disease, especially hypertension. Patients with arteritic AION secondary to GCA frequently have associated symptoms, such as headache and jaw claudication, as well as elevated inflammatory markers. In contrast, other symptoms usually do not accompany the vision loss in nonarteritic AION. Unlike arteritic AION, nonarteritic AION is typically not an emergency, and no effective treatment is available to reverse the visual impairment; nonarteritic AION is primarily treated by controlling blood pressure and cardiovascular risk factors. In this patient, acute painless monocular vision loss with funduscopic findings of a swollen and pale disc in the absence of systemic symptoms or inflammatory markers makes nonarteritic AION most likely.Aspirin (Option A) is incorrect because this patient is already taking clopidogrel; dual antiplatelet therapy has not been shown to improve outcomes in patients with nonarteritic AION. Control of the underlying risk factors like hypertension and cigarette smoking, on the other hand, may reduce the chances of recurrent AION.Carotid duplex ultrasonography (Option B) is unnecessary as carotid atherosclerosis is unlikely to be the underlying cause of AION. Carotid disease with microemboli may cause transient monocular visual loss (amaurosis fugax) but rarely causes the more sustained vision loss and funduscopic changes seen in this patient.High-dose methylprednisolone (Option C) is incorrect in this patient as he exhibits no clinical evidence of GCA, such as systemic symptoms and elevated inflammatory markers. High-dose glucocorticoids are indicated when there is a high suspicion for GCA and should be started before temporal artery biopsy confirms the diagnosis.Diagnostic testing with transthoracic echocardiography (Option D) is unnecessary in this patient because he has no cardiac symptoms, and AION is very rarely caused by an underlying cardioembolic source.",
+  "critique_links": [],
   "key_points": [
     "Painless vision loss and funduscopic examination findings of blurred optic disc margins and a pale or swollen optic disc suggest a diagnosis of anterior ischemic optic neuropathy (AION).",
     "Nonarteritic AION is primarily treated by controlling blood pressure and cardiovascular risk factors; no effective treatment exists to reverse visual impairment."
@@ -63,5 +64,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:17:23.785878-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.363812-06:00"
 }

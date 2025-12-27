@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 56-year-old woman is evaluated in a rural outreach clinic for a 6-month history of cough, sputum production, dyspnea on exertion, and chest tightness. She is from Mexico.On physical examination, the patient is afebrile. Blood pressure is 140/90 mm Hg, pulse rate is 85/min, respiration rate is 22/min, and oxygen saturation is 93% breathing room air. Cervical lymphadenopathy is noted. Cardiopulmonary examination reveals coarse breath sounds bilaterally and distant heart sounds.ECG reveals low voltage and electrical alternans. Chest radiograph shows bilateral nodules, hilar lymphadenopathy, and severe enlargement of the cardiac silhouette. Transthoracic echocardiogram shows a large pericardial effusion without evidence of pericardial tamponade.",
+  "question_text": "A 56-year-old woman is evaluated in a rural outreach clinic for a 6-month history of cough, sputum production, dyspnea on exertion, and chest tightness. She is from Mexico.On physical examination, the patient is afebrile. Blood pressure is 140/90 mm Hg, pulse rate is 85/min, respiration rate is 22/min, and oxygen saturation is 93% breathing room air. Cervical lymphadenopathy is noted. Cardiopulmonary examination reveals coarse breath sounds bilaterally and distant heart sounds.Laboratory studies:Hemoglobin10.9 mg/dL (109 g/L)LLeukocyte count7000/µL (7 × 109/L)C-reactive protein0.3 mg/dL (3.0 mg/L)Troponin0 ng/mL (0 µg/L)ECG reveals low voltage and electrical alternans. Chest radiograph shows bilateral nodules, hilar lymphadenopathy, and severe enlargement of the cardiac silhouette. Transthoracic echocardiogram shows a large pericardial effusion without evidence of pericardial tamponade.",
   "question_stem": "Which of the following is the most appropriate next step in diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Pericardiocentesis (Option B) should be performed, with fluid sent for acid-fast bacilli (AFB) stain and culture to diagnose likely tuberculous pericarditis. More than 60% of pericardial effusions are caused by tuberculosis in countries where tuberculosis is endemic. Tuberculous pericarditis should be considered in patients with risk factors for the infection, including prior residence in a high-prevalence area. Pericardiocentesis should be performed in suspected tuberculous pericarditis to establish the diagnosis, and fluid should be sent for AFB stain and culture, nucleic acid amplification tests, and adenosine deaminase levels. Drainage of the pericardial effusion is indicated, even as other diagnostic options, such as sputum analysis for AFB stain and culture, are pursued, because progression of tuberculous pericarditis to cardiac tamponade and constrictive pericarditis is common. This patient has risk factors for tuberculosis and evidence of lung disease, including pulmonary nodules and hilar lymphadenopathy, making a diagnosis of tuberculosis likely. The pericardial effusion is large, and although she does not have overt signs of tamponade, pericardiocentesis should be performed.Drainage by pericardiocentesis is the first step in managing a large, presumed inflammatory pericardial effusion. Open pericardiectomy and creation of a pericardial window (Option A) may be indicated if pericardiocentesis is unsuccessful, if pericardial fluid cannot be accessed safely with pericardiocentesis, or for recurrent effusion, which is often the result of malignant pericardial effusions.There is no indication for right heart catheterization (Option C) for this patient with a pericardial effusion. Transthoracic echocardiography (TTE) is usually adequate in defining hemodynamics and assessing the possibility of cardiac tamponade. Right heart catheterization is rarely necessary for diagnostic purposes in patients with a pericardial effusion.In general, TTE is adequate to assess a pericardial effusion and the possibility of tamponade in a patient with a large pericardial effusion. Transesophageal echocardiography (Option D) usually is not needed unless TTE is an inadequate study.",
+  "critique_links": [],
   "key_points": [
     "More than 60% of pericardial effusions are caused by tuberculosis in countries where tuberculosis is endemic; tuberculous pericarditis should be considered in patients with risk factors for the infection, including prior residence in a high-prevalence area.",
     "Pericardiocentesis should be performed in suspected tuberculous pericardial effusion."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:49:13.801106-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.627249-06:00"
 }

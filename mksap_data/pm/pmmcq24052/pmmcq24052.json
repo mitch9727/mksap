@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 64-year-old woman is evaluated for shortness of breath. She has a history of COPD (FEV1 68% of predicted), which is treated with albuterol on an as-needed basis. Although she previously had infrequent symptoms, over the past 6 months she has had consistent dyspnea while walking uphill but can walk on a level surface without dyspnea. She now uses the albuterol inhaler several times per week. She has never had an exacerbation of COPD. She has a 45-pack-year history of tobacco use and quit smoking 4 years ago. She has no other medical history and takes no other medications.On physical examination, vital signs and oxygen saturation are normal. Scattered expiratory wheezing is noted on lung auscultation.",
   "question_stem": "Which of the following is the most appropriate next step in treatment?",
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate treatment for this patient is a long-acting bronchodilator such as tiotropium, a long-acting muscarinic antagonist (LAMA) (Option A). Appropriate treatment of COPD requires frequent reassessment of disease severity. The Global Initiative for Chronic Obstructive Lung Disease (GOLD) combined assessment () stratifies patients into categories A, B, and E based on symptom severity and history of exacerbations. The GOLD patient category that is determined then directs the appropriate pharmacologic therapy (). For patients in group A, which is characterized by mild symptoms and one or fewer exacerbations not requiring hospitalization per year, appropriate therapy includes a short- or long-acting bronchodilator. A long-acting agent is generally preferred, although patients with very mild or infrequent symptoms can be managed with as-needed use of a short-acting agent. Both long-acting β2-agonists (LABAs) and LAMAs are appropriate choices in this patient group. This patient with mild symptoms ( and ) is in group A and has insufficient symptom control with a short-acting bronchodilator. Prescribing a long-acting bronchodilator, such as tiotropium, is the most appropriate next step.Although GOLD severity groups A and B both indicate low risk, patients in group B demonstrate a greater symptom burden; therefore, combination LABA and LAMA therapy, such as umeclidinium-vilanterol (Option B), is recommended. This patient, however, has only mild symptoms with dyspnea walking uphill and is in group A. Monotherapy with an inhaled LABA or LAMA is the appropriate choice.Patients with two or more exacerbations or one or more exacerbations leading to hospitalization per year are categorized as group E regardless of symptom severity and should receive combination LAMA and LABA therapy. Triple therapy with a LABA; a LAMA; and an inhaled glucocorticoid, such as inhaled umeclidinium-vilanterol-fluticasone (Option C), may be considered if blood eosinophil count is 300/μL (0.30 × 109/L) or higher. This approach would not be the best next step in treatment for this patient with group A COPD.Short-acting bronchodilators, such as albuterol, are appropriate in COPD as a rescue inhaler and for use in patients with mild and infrequent symptoms. However, most patients with COPD require controller therapy rather than as-needed albuterol. This patient, however, has had progression of symptoms and should begin receiving a long-acting bronchodilator rather than continuing as-needed albuterol alone (Option D).",
+  "critique": "The most appropriate treatment for this patient is a long-acting bronchodilator such as tiotropium, a long-acting muscarinic antagonist (LAMA) (Option A). Appropriate treatment of COPD requires frequent reassessment of disease severity. The Global Initiative for Chronic Obstructive Lung Disease (GOLD) combined assessment (Table: GOLD Model for Classifying Severity of Disease in COPD) stratifies patients into categories A, B, and E based on symptom severity and history of exacerbations. The GOLD patient category that is determined then directs the appropriate pharmacologic therapy (Table: Recommended Therapy for COPD by GOLD Patient Group). For patients in group A, which is characterized by mild symptoms and one or fewer exacerbations not requiring hospitalization per year, appropriate therapy includes a short- or long-acting bronchodilator. A long-acting agent is generally preferred, although patients with very mild or infrequent symptoms can be managed with as-needed use of a short-acting agent. Both long-acting β2-agonists (LABAs) and LAMAs are appropriate choices in this patient group. This patient with mild symptoms (Table: Modified Medical Research Council Dyspnea Scale and Table: COPD Assessment Test (CAT)) is in group A and has insufficient symptom control with a short-acting bronchodilator. Prescribing a long-acting bronchodilator, such as tiotropium, is the most appropriate next step.Although GOLD severity groups A and B both indicate low risk, patients in group B demonstrate a greater symptom burden; therefore, combination LABA and LAMA therapy, such as umeclidinium-vilanterol (Option B), is recommended. This patient, however, has only mild symptoms with dyspnea walking uphill and is in group A. Monotherapy with an inhaled LABA or LAMA is the appropriate choice.Patients with two or more exacerbations or one or more exacerbations leading to hospitalization per year are categorized as group E regardless of symptom severity and should receive combination LAMA and LABA therapy. Triple therapy with a LABA; a LAMA; and an inhaled glucocorticoid, such as inhaled umeclidinium-vilanterol-fluticasone (Option C), may be considered if blood eosinophil count is 300/μL (0.30 × 109/L) or higher. This approach would not be the best next step in treatment for this patient with group A COPD.Short-acting bronchodilators, such as albuterol, are appropriate in COPD as a rescue inhaler and for use in patients with mild and infrequent symptoms. However, most patients with COPD require controller therapy rather than as-needed albuterol. This patient, however, has had progression of symptoms and should begin receiving a long-acting bronchodilator rather than continuing as-needed albuterol alone (Option D).",
+  "critique_links": [],
   "key_points": [
     "A long-acting bronchodilator is recommended for patients with COPD who have mild disease with frequent symptoms or in whom a short-acting bronchodilator alone has been ineffective."
   ],
@@ -51,14 +52,86 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html",
-      "tables/inline_table_3.html",
-      "tables/inline_table_4.html"
+      "tables/pmtab24016.html",
+      "tables/pmtab24017.html",
+      "tables/pmtab24012.html",
+      "tables/pmtab24013.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.089139-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "pmtab24016",
+        "file": "tables/pmtab24016.html",
+        "title": "Classification of COPD Severity by GOLD Patient Category",
+        "short_title": "GOLD Model for Classifying Severity of Disease in COPD",
+        "footnotes": [
+          "CAT = COPD Assessment Test; GOLD = Global Initiative for Chronic Obstructive Lung Disease; mMRC = Modified Medical Research Council dyspnea scale.",
+          "Information from Global Initiative for Chronic Obstructive Lung Disease. Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease. 2025 Report. <a href=\"https://goldcopd.org/2025-gold-report/\" target=\"_blank\">https://goldcopd.org/2025-gold-report/</a>. Accessed May 20, 2025."
+        ],
+        "headers": [
+          "Patient Category",
+          "Characteristics",
+          "Exacerbations Per Year",
+          "CAT Score",
+          "mMRC Score"
+        ]
+      },
+      {
+        "table_id": "pmtab24017",
+        "file": "tables/pmtab24017.html",
+        "title": "Recommended Pharmacologic Management of COPD by GOLD Classification",
+        "short_title": "Recommended Therapy for COPD by GOLD Patient Group",
+        "footnotes": [
+          "GOLD = Global Initiative for Chronic Obstructive Lung Disease; ICS = inhaled corticosteroid (glucocorticoid); LABA = long-acting β<sub>2</sub>-agonist; LAMA = long-acting muscarinic antagonist.",
+          "<sup>a</sup>Consider if eosinophil count ≥300/μL (0.30 × 10<sup>9</sup>/L).",
+          "Information from Global Initiative for Chronic Obstructive Lung Disease. Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease. 2025 Report. <a href=\"https://goldcopd.org/2025-gold-report/\" target=\"_blank\">https://goldcopd.org/2025-gold-report/</a>. Accessed May 20, 2025."
+        ],
+        "headers": [
+          "Patient Group",
+          "Recommended Therapy",
+          "Alternative or Additional Therapy",
+          "Other Considerations"
+        ]
+      },
+      {
+        "table_id": "pmtab24012",
+        "file": "tables/pmtab24012.html",
+        "title": "Modified Medical Research Council Dyspnea Scale",
+        "short_title": "Modified Medical Research Council Dyspnea Scale",
+        "footnotes": [
+          "Adapted from Fletcher CM, Elmes PC, Fairbairn AS, et al. The significance of respiratory symptoms and the diagnosis of chronic bronchitis in a working population. Br Med J. 1959;2:257. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/13823475\" target=\"_blank\">PMID: 13823475</a>"
+        ],
+        "headers": [
+          "Score",
+          "Description of Dyspnea",
+          "Severity"
+        ]
+      },
+      {
+        "table_id": "pmtab24013",
+        "file": "tables/pmtab24013.html",
+        "title": "CAT™ Assessment",
+        "short_title": "COPD Assessment Test (CAT)",
+        "footnotes": [
+          "Reference: Jones PW, Harding G, Berry P, et al. Development and first validation of the COPD Assessment Test. Eur Respir J. 2009;34:648-54. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19720809\" target=\"_blank\">PMID: 19720809</a> doi:10.1183/09031936.00102509",
+          "Reproduced with permission of the Global Initiative for Chronic Obstructive Lung Disease. © 2023, 2024, Global Initiative for Chronic Obstructive Lung Disease, available from <a href=\"http://www.goldcopd.org\" target=\"_blank\">www.goldcopd.org</a>, published in Deer Park, IL, USA."
+        ],
+        "headers": [
+          "For each item below, place a mark (x) in the box that best describes you currently. Be sure to only select one response for each question.",
+          "Example: I am very happy",
+          "[0] [1] [2] [3] [4] [5]",
+          "I am very sad",
+          "Score"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.129895-06:00"
 }

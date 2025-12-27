@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "An 85-year-old woman is evaluated at a follow-up visit for a right femur fracture that occurred 6 weeks ago and was treated with open reduction and internal fixation. The fracture occurred because of a ground-level fall. Medical history is significant for stage G4 chronic kidney disease, secondary hyperparathyroidism, and hypertension. Medications are amlodipine, lisinopril, and a vitamin D3 supplement.On physical examination, vital signs are normal. A healing surgical scar is noted on the right lateral hip. She reports no hip pain with passive range of motion. She bears weight without pain.",
+  "question_text": "An 85-year-old woman is evaluated at a follow-up visit for a right femur fracture that occurred 6 weeks ago and was treated with open reduction and internal fixation. The fracture occurred because of a ground-level fall. Medical history is significant for stage G4 chronic kidney disease, secondary hyperparathyroidism, and hypertension. Medications are amlodipine, lisinopril, and a vitamin D3 supplement.On physical examination, vital signs are normal. A healing surgical scar is noted on the right lateral hip. She reports no hip pain with passive range of motion. She bears weight without pain.Laboratory studies:Calcium9.2 mg/dL (2.3 mmol/L)Creatinine1.6 mg/dL (141 μmol/L)HCreatinine clearance28 mL/min (normal range, 88-128 mL/min)LPhosphorus4.3 mg/dL (1.39 mmol/L)Parathyroid hormone75 pg/mL (75 ng/L)H25-Hydroxyvitamin D32 ng/mL (80 nmol/L)",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment for this patient with clinical osteoporosis in the setting of chronic kidney disease (CKD) is denosumab (Option C). Fragility fractures (those occurring with the equivalent of a fall from a standing height or less) after age 50 years indicate low bone strength and define clinical osteoporosis. In patients with CKD, the selection of a pharmacologic agent for osteoporosis treatment must consider the degree of kidney disease because some agents are contraindicated with low creatinine clearance. Denosumab is a monoclonal antibody that inhibits osteoclast activation, suppresses bone resorption, increases bone density, and reduces the incidence of osteoporotic fractures in men and women. It is administered subcutaneously twice yearly. The American College of Physicians suggests denosumab as a second-line agent to be used for treating primary osteoporosis in postmenopausal women and men who have contraindications to bisphosphonates, including CKD. Although denosumab is not nephrotoxic and is preferred in this setting, its potent antiresorptive effects can cause hypocalcemia, especially in older patients with CKD. This risk is further increased by coexisting vitamin D deficiency; therefore, calcium and vitamin D nutrition must be optimized before treatment is started.Abaloparatide (Option A) is an anabolic parathyroid hormone receptor agonist approved for treating postmenopausal women and men with osteoporosis at high risk for fracture. However, treatment with a parathyroid hormone receptor agonist is contraindicated in hyperparathyroidism, which is common in patients with stage G4 CKD, such as this patient.Bisphosphonates, such as oral alendronate (Option B) and intravenous zoledronate (Option D), are first-line therapy for primary osteoporosis in postmenopausal women and men. Zoledronate is administered to patients who have difficulty taking oral bisphosphonates or who experience upper gastrointestinal symptoms. Bisphosphonates should not be given until vitamin D deficiency and hypocalcemia, if present, are treated. Importantly, bisphosphonates are contraindicated in patients, such as this one, with a creatinine clearance of less than 35 mL/min.",
+  "critique_links": [],
   "key_points": [
     "Bisphosphonates are contraindicated in patients with osteoporosis who have a creatinine clearance of less than 35 mL/min; denosumab can be considered in such patients.",
     "The potent antiresorptive effects of denosumab can cause hypocalcemia, especially in older patients with chronic kidney disease, and this risk is further increased by coexisting vitamin D deficiency; therefore, calcium and vitamin D nutrition must be optimized before treatment is started."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:37.768254-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.178423-06:00"
 }

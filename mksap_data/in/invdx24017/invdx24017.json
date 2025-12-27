@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 22-year-old woman is evaluated for acute onset of eye pain associated with tearing and photophobia. She wears contact lenses.Ocular findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is corneal ulcer (Option B), demonstrated by the whitish fluffy opacity at the 1 o'clock position (arrow). Patients with corneal ulceration usually have pain, a prominent foreign body sensation, and excessive blinking and tearing. Although not seen on this image, pus may be visible in the anterior chamber (hypopyon). Anterior uveitis causes pain, redness, and hypopyon but is not associated with the corneal changes seen in this image. Episcleritis and conjunctival hemorrhage cause a red eye but are not painful.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/infig24626.7fdd91e17fe8b2c39ed2572ed43f1ee0.jpg",
-      "figures/infig24625.914fb99b9b6aa871dd0aebf49997d74d.jpg"
+      "figures/infig24625.914fb99b9b6aa871dd0aebf49997d74d.jpg",
+      "figures/infig24626.7fdd91e17fe8b2c39ed2572ed43f1ee0.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:28:36.812860-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "infig24625",
+        "file": "figures/infig24625.914fb99b9b6aa871dd0aebf49997d74d.jpg",
+        "title": "Stem Corneal Ulcer",
+        "short_title": "Corneal Ulcer Stem",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "figure_id": "infig24626",
+        "file": "figures/infig24626.7fdd91e17fe8b2c39ed2572ed43f1ee0.jpg",
+        "title": "Critique Corneal Ulcer",
+        "short_title": "Corneal Ulcer Critique",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 675
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.142053-06:00"
 }

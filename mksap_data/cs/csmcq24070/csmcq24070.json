@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "An 86-year-old woman is brought to the office by her son for a 1-year history of insomnia. She falls asleep readily but awakes throughout the night and does not feel rested during the day. She does not snore, has had no witnessed apneic episodes, and does not have symptoms of restless legs. Sleep hygiene and sleep restriction techniques, melatonin and valerian, and a recently completed trial of cognitive behavioral therapy for insomnia have not resulted in improvement. She and her son are distressed by her symptoms. Medical history is significant for hypothyroidism and hypertension. Medications are levothyroxine and lisinopril.Physical examination findings, including vital signs, are normal.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate treatment for this older patient with insomnia is low-dose doxepin (Option B). Insomnia manifests as poor sleep quality, frustration with sleep quantity, difficulty initiating sleep, or inability to return to sleep after awakening. The prevalence of insomnia increases with age, and women tend to be affected more than men. After exclusion and/or treatment of underlying causes of sleep disturbances, such as restless legs, sleep apnea, or nocturia, first-line treatment is cognitive behavioral therapy. Sleep hygiene measures (optimizing the sleep environment and reducing stimuli) and sleep restriction (limiting time in bed to improve sleep efficiency) may be helpful but are not highly effective as stand-alone interventions. When nonpharmacologic therapies are ineffective, physicians should engage in shared decision making with patients about the use of medications. Pharmacologic therapy confers risk, including daytime drowsiness, increased risk for falls and hip fracture, and hallucinations. Ideally, medication trials should be short (4-5 weeks) and the specific agent selected to target the most problematic phase of sleep (see Table: FDA-Approved Prescription Drug Treatment for Insomnia). Doxepin is a tricyclic antidepressant with antihistamine effects, and low doses are effective for sleep maintenance while being relatively safe for use in older patients. This older patient has chronic insomnia refractory to first-line nonpharmacologic interventions, and a trial of doxepin at the lowest effective dose is appropriate.Diphenhydramine (Option A) is a first-generation antihistamine used in over-the-counter sleep aids. Given its central nervous system and anticholinergic effects, as well as limited data for efficacy, it should be avoided in older patients. Diphenhydramine and other first-generation antihistamines are also included in the 2023 Beers Criteria for Potentially Inappropriate Medication Use in Older Adults (see Medication Management in Foundations of Clinical Practice).Benzodiazepines, such as temazepam (Option C), are also included in the Beers Criteria and should be avoided in older adults. In addition to the risk for oversedation, rebound insomnia, dependence, and misuse in patients of all ages, older adults have an increased risk for falls, fractures, motor vehicle collisions, cognitive impairment, and delirium with use of benzodiazepines.Zolpidem (Option D), a nonbenzodiazepine gamma-aminobutyric acid receptor agonist, is FDA approved for short-term use for insomnia. Zolpidem has a modest effect on sleep latency and quality but carries a risk for oversedation, with resultant falls and accidents. Zolpidem is also included on the Beers Criteria for medications to avoid in older patients.",
+  "critique": "The most appropriate treatment for this older patient with insomnia is low-dose doxepin (Option B). Insomnia manifests as poor sleep quality, frustration with sleep quantity, difficulty initiating sleep, or inability to return to sleep after awakening. The prevalence of insomnia increases with age, and women tend to be affected more than men. After exclusion and/or treatment of underlying causes of sleep disturbances, such as restless legs, sleep apnea, or nocturia, first-line treatment is cognitive behavioral therapy. Sleep hygiene measures (optimizing the sleep environment and reducing stimuli) and sleep restriction (limiting time in bed to improve sleep efficiency) may be helpful but are not highly effective as stand-alone interventions. When nonpharmacologic therapies are ineffective, physicians should engage in shared decision making with patients about the use of medications. Pharmacologic therapy confers risk, including daytime drowsiness, increased risk for falls and hip fracture, and hallucinations. Ideally, medication trials should be short (4-5 weeks) and the specific agent selected to target the most problematic phase of sleep (see Table: FDA-Approved Prescription Drug Treatment for Insomnia). Doxepin is a tricyclic antidepressant with antihistamine effects, and low doses are effective for sleep maintenance while being relatively safe for use in older patients. This older patient has chronic insomnia refractory to first-line nonpharmacologic interventions, and a trial of doxepin at the lowest effective dose is appropriate.Diphenhydramine (Option A) is a first-generation antihistamine used in over-the-counter sleep aids. Given its central nervous system and anticholinergic effects, as well as limited data for efficacy, it should be avoided in older patients. Diphenhydramine and other first-generation antihistamines are also included in the 2023 Beers Criteria for Potentially Inappropriate Medication Use in Older Adults (see  Medication Management in Foundations of Clinical Practice).Benzodiazepines, such as temazepam (Option C), are also included in the Beers Criteria and should be avoided in older adults. In addition to the risk for oversedation, rebound insomnia, dependence, and misuse in patients of all ages, older adults have an increased risk for falls, fractures, motor vehicle collisions, cognitive impairment, and delirium with use of benzodiazepines.Zolpidem (Option D), a nonbenzodiazepine gamma-aminobutyric acid receptor agonist, is FDA approved for short-term use for insomnia. Zolpidem has a modest effect on sleep latency and quality but carries a risk for oversedation, with resultant falls and accidents. Zolpidem is also included on the Beers Criteria for medications to avoid in older patients.",
+  "critique_links": [],
   "key_points": [
     "Doxepin is an effective treatment for insomnia, with a favorable risk-benefit profile in older adults compared with other pharmacotherapies for insomnia.",
     "Pharmacologic treatment for insomnia confers risk for daytime drowsiness, falls and hip fracture, and hallucinations and is not first-line therapy."
@@ -51,10 +52,48 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/cstab24030.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:01:45.838681-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "cstab24030",
+        "file": "tables/cstab24030.html",
+        "title": "FDA-Approved Prescription Drug Treatment for Insomnia",
+        "short_title": "FDA-Approved Prescription Drug Treatment for Insomnia",
+        "footnotes": [
+          "<sup>a</sup>All agents are classified as schedule IV by the Drug Enforcement Agency except doxepin and ramelteon, which are not scheduled.",
+          "<sup>b</sup>Onset of action: rapid = 15-30 minutes; slow = 30-60 minutes.",
+          "<sup>c</sup>Based on elimination half-life and preparation: short = 1-5 hours; intermediate = 5-12 hours; long = &gt;12 hours.",
+          "<sup>d</sup>Recommendations from U.S. Department of Veterans Affairs/U.S. Department of Defense. VA/DoD clinical practice guidelines for the management of chronic insomnia disorder and obstructive sleep apnea (2024). <a href=\"https://www.healthquality.va.gov/guidelines/CD/insomnia/index.asp\" target=\"_blank\">https://www.healthquality.va.gov/guidelines/CD/insomnia/index.asp</a>. Accessed May 21, 2025.",
+          "Adapted with permission from Masters PA. In the clinic. Insomnia. <a href=\"https://www.acpjournals.org/doi/10.7326/0003-4819-161-7-201410070-01004\" target=\"_blank\">Ann Intern Med</a>. 2014;161:ITC9. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/25285559\" target=\"_blank\">PMID: 25285559</a>. © 2014, American College of Physicians."
+        ],
+        "headers": [
+          "Agenta",
+          "Usual Dose",
+          "Onset of Actionb",
+          "Duration of Actionc",
+          "Sleep Phase Targeted",
+          "Notes",
+          "Recommendedd",
+          "Nonbenzodiazepines",
+          "Antidepressant",
+          "Orexin Receptor Antagonists",
+          "Insufficient Evidence to Recommend for or Againstd",
+          "Melatonin Agonist",
+          "Not Recommendedd",
+          "Benzodiazepines (Oral)"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.129926-06:00"
 }

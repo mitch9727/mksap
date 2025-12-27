@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 69-year-old patient is admitted to a rural hospital with a 1-hour history of substernal chest pain. Presenting ECG is shown.The nearest hospital capable of performing percutaneous coronary intervention (PCI) is 3 hours away. Intravenous thrombolytic therapy is administered along with aspirin, clopidogrel, and intravenous unfractionated heparin. The patient is transferred to a PCI-capable hospital and on arrival, 3 hours later, they are symptom-free. Medical history is remarkable only for hypertension, and the patient's only outpatient medication is lisinopril.On physical examination, blood pressure is 108/66 mm Hg, pulse rate is 48/min, and respiration rate is 18/min. Oxygen saturation is 94% with the patient breathing ambient air. Lungs are clear to auscultation.A second ECG is shown.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is coronary angiography before discharge (Option A). Thrombolytic therapy is widely available and is indicated (class I) for patients with ST-elevation myocardial infarction (STEMI) presenting within 12 hours after symptom onset if primary percutaneous coronary intervention (PCI) is unavailable within 2 hours. Thrombolytic therapy has been shown to be most beneficial when incorporated into a hybrid pharmacoinvasive treatment strategy that includes transferring the patient to a PCI-capable hospital for elective angiography and revascularization after administration of thrombolytic therapy. Coronary angiography is optimally performed 3 to 24 hours after successful thrombolysis and allows for definition of coronary anatomy and the potential for complete revascularization, resulting in improved outcomes. In this patient, symptoms have resolved completely after thrombolysis, and follow-up ECG demonstrates significant (>50%) ST-segment resolution in inferior leads, suggesting clinically successful myocardial reperfusion. Elective coronary angiography the day after thrombolytic therapy is appropriate to identify the extent and severity of coronary artery disease with revascularization as appropriate.This patient had an inferior STEMI, and there is no need for noninvasive documentation of coronary artery disease with coronary CT angiography before discharge (Option B). This test would neither provide any additional prognostic information nor alter the need to perform coronary artery angiography.Noninvasive ischemic assessment, such as exercise treadmill testing before discharge (Option C), does not provide important incremental information in this patient scenario, because coronary angiography is recommended for all patients after thrombolytic treatment of STEMI.Immediate coronary angiography and PCI after thrombolytic therapy (Option D) is associated with increased bleeding and thrombotic complications and should be reserved for those patients without evidence of reperfusion or those with clinical instability when the increased procedural risk is outweighed by the potential benefits of early revascularization.",
+  "critique_links": [],
   "key_points": [
     "For patients with an ST-elevation myocardial infarction (STEMI) who present within 12 hours after symptom onset, thrombolytic therapy is indicated if primary percutaneous coronary intervention is unavailable within 2 hours.",
     "For patients with STEMI who are treated with successful thrombolytic therapy, coronary angiography is recommended, preferably 3 to 24 hours after thrombolysis."
@@ -59,5 +60,34 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:48:29.920063-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24203",
+        "file": "figures/cvfig24203.e5d120f537f90b7d6feb52230a7d3b99.jpg",
+        "title": "Presenting ECG in a Patient With Substernal Chest Pain",
+        "short_title": "ECG I in Patient With Chest Pain",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 398
+      },
+      {
+        "figure_id": "cvfig24204",
+        "file": "figures/cvfig24204.39406b02b263173b952c2b1b1fc53d2d.jpg",
+        "title": "Second ECG in a Patient With Substernal Chest Pain",
+        "short_title": "ECG II in Patient With Chest Pain",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 287
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.379916-06:00"
 }

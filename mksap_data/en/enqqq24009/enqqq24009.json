@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 25-year-old woman comes to the office to establish care. She is 5 weeks pregnant. She has hypothyroidism due to Hashimoto thyroiditis that was diagnosed 4 years ago. She is asymptomatic. Her only medications are levothyroxine and folic acid.On physical examination, the patient's thyroid gland is nontender and diffusely enlarged without nodules. Pregnancy test is positive.",
+  "question_text": "A 25-year-old woman comes to the office to establish care. She is 5 weeks pregnant. She has hypothyroidism due to Hashimoto thyroiditis that was diagnosed 4 years ago. She is asymptomatic. Her only medications are levothyroxine and folic acid.On physical examination, the patient's thyroid gland is nontender and diffusely enlarged without nodules. Pregnancy test is positive.Laboratory studies: Thyroid-stimulating hormone (4 months ago)2.2 µU/mL (2.2 mU/L)",
   "question_stem": "Which of the following is the most appropriate management of this patient's hypothyroidism?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "For patients with hypothyroidism adequately treated with levothyroxine before pregnancy, levothyroxine dosing can be empirically increased by 30% (Option B) when pregnancy is confirmed. Levothyroxine is the treatment of choice for the management of hypothyroidism during pregnancy. Patients can be counseled to start taking an additional one to two tablets of their prepregnancy levothyroxine dose per week, with the goal of increasing the total weekly levothyroxine dose by approximately 30%; this increase is necessary due to an increase in estrogen driving a rise in serum thyroxine-binding globulin. In patients without thyroid disease, the total (not free) body triiodothyronine (T3) and thyroxine (T4) pool increases by up to 50% during pregnancy due to increased production. Pregnant patients with hypothyroidism are unable to augment thyroidal production of T4 and T3. Therefore, their levothyroxine dose must be adjusted to maintain a euthyroid state. Because T4 requirements may begin to increase as early as weeks 4 to 6 of pregnancy, patients with hypothyroidism should empirically increase their levothyroxine dose as soon as pregnancy is confirmed. Thyroid-stimulating hormone (TSH) should be measured every 4 weeks for the first half of pregnancy and at approximately 30 weeks of gestation in all patients with or at risk for hypothyroidism. A TSH level in the lower half of the reference range should be targeted (equivalent to a TSH level below 2.5 µU/mL [2.5 mU/L]) in preconception planning and during pregnancy.Decreasing the patient's levothyroxine dose (Option A) or continuing her current dose and checking her TSH level in 2 months (Option C) would be inappropriate management and could precipitate maternal or fetal hypothyroidism. The use of liothyronine (Option D) or T3-containing preparations, including desiccated thyroid, is contraindicated in pregnancy because the fetal central nervous system is relatively impermeable to T3. T4 is essential for normal fetal development and is especially critical for the fetal brain; in contrast, T3 is produced locally in the brain from T4.",
+  "critique_links": [],
   "key_points": [
     "For patients with hypothyroidism adequately treated with levothyroxine before pregnancy, dosing can be empirically increased by 30% when pregnancy is confirmed."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:16.884139-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.384083-06:00"
 }

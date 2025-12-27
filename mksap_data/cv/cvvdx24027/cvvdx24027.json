@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 36-year-old man is evaluated in the emergency department for an irregular heart rhythm. He is otherwise asymptomatic.A representative sample from a rhythm strip is shown.",
   "question_stem": "Which of the following abnormalities is seen on this patient's ECG?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This ECG demonstrates Mobitz type 1 second-degree (Wenckebach) atrioventricular (AV) block (Option C), which is characterized electrocardiographically by a PR interval that progressively prolongs until, eventually, the beat is dropped. In the tracing shown, the PR interval widens over the first six beats, and no ventricular complex follows the seventh atrial beat. The easiest way to identify such prolongation is to compare the PR interval for the beat prior to the block (longest PR) to the PR interval for the beat after the block (shortest PR).In contrast, Mobitz type 2 second-degree AV block is characterized by a constant PR interval preceding the dropped QRS complex. In high-degree AV block, there is more than one successive nonconducted P wave, resulting in several consecutive P waves without QRS complexes. Complete heart block is characterized by a lack of P wave conduction to the ventricles and by AV dissociation.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.387772-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24632",
+        "file": "figures/cvfig24632.407e20ab220e11f1d6e33e32f5795ad3.png",
+        "title": "ECG Showing Mobitz Type 1 Second-Degree Atrioventricular Block",
+        "short_title": "stem ECG Showing Mobitz Type 1 AV Block",
+        "number": null,
+        "footnotes": [],
+        "extension": "png",
+        "width": 504,
+        "height": 78
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.897102-06:00"
 }

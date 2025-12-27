@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 53-year-old woman is evaluated in the ICU for dyspnea. She was admitted 6 hours ago after presenting with several days of melena. She had hypotension on admission, with a blood pressure of 80/42 mm Hg, and her hemoglobin level was 6.2 g/dL (62 g/L). She developed dyspnea after receiving 2 liters of lactated Ringers and 2 units of packed red blood cells. She reports no chest pain. Medical history is significant for hypertension and a recent minor stroke secondary to small vessel disease. Before hospitalization, her medications were losartan, aspirin, and clopidogrel. Pantoprazole was added at the time of admission.On physical examination, the patient is in mild respiratory distress. Temperature is 37.1 °C (98.8 °F), blood pressure is 125/65 mm Hg, respiration rate is 22/min, and pulse rate is 110/min. Oxygen saturation is 85% with the patient breathing ambient air. Jugular venous distention is noted. Lung examination shows scattered rhonchi with scant bibasilar crackles. Cardiac examination reveals tachycardia without extra sounds. Extremities are without edema.ECG shows sinus tachycardia. Chest radiograph shows diffuse infiltrates.",
+  "question_text": "A 53-year-old woman is evaluated in the ICU for dyspnea. She was admitted 6 hours ago after presenting with several days of melena. She had hypotension on admission, with a blood pressure of 80/42 mm Hg, and her hemoglobin level was 6.2 g/dL (62 g/L). She developed dyspnea after receiving 2 liters of lactated Ringers and 2 units of packed red blood cells. She reports no chest pain. Medical history is significant for hypertension and a recent minor stroke secondary to small vessel disease. Before hospitalization, her medications were losartan, aspirin, and clopidogrel. Pantoprazole was added at the time of admission.On physical examination, the patient is in mild respiratory distress. Temperature is 37.1 °C (98.8 °F), blood pressure is 125/65 mm Hg, respiration rate is 22/min, and pulse rate is 110/min. Oxygen saturation is 85% with the patient breathing ambient air. Jugular venous distention is noted. Lung examination shows scattered rhonchi with scant bibasilar crackles. Cardiac examination reveals tachycardia without extra sounds. Extremities are without edema.Repeat laboratory studies:Hemoglobin7.6 g/dL (76 g/L)LECG shows sinus tachycardia. Chest radiograph shows diffuse infiltrates.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is transfusion-associated circulatory overload (TACO) (Option C). TACO is the most common serious complication of blood product administration and is more common in patients with preexisting cardiovascular or kidney disease. TACO is a result of the volume of transfusion rather than a reaction to any blood component. It is characterized by elevated central venous pressure, an S3, an elevated B-type natriuretic peptide level, and compatible radiographic findings of pulmonary edema. Treatment is supportive and often includes diuresis. TACO can be difficult to distinguish from transfusion-related acute lung injury (TRALI), but TRALI usually occurs more immediately and has concurrent symptoms of fever and hypotension without signs of volume overload. This patient has signs of volume overload with elevated jugular venous distention several hours following administration of erythrocytes, a presentation most consistent with TACO.Anaphylaxis (Option A) following blood transfusion is most likely to occur in patients with IgA deficiency and those who have developed IgE antibodies that react with donor IgA in cellular or plasma blood products. Patients with anaphylaxis are often hypotensive and would not have the evidence of volume overload seen in this patient.Febrile nonhemolytic transfusion reactions (Option B) are common, occurring in approximately 1% of transfusion episodes, and are mediated by proinflammatory cytokines elaborated by donor leukocytes during storage. Patients often have fever and rigors, but they are unlikely to have the respiratory distress seen in this patient.TRALI (Option D) is a noncardiogenic pulmonary edema that occurs because of HLA or neutrophil-specific antibodies in donors that bind to and activate recipient leukocytes in the pulmonary vasculature. Although more common in recipients of plasma or platelet products, TRALI can also occur following transfusion with erythrocytes. The time to onset is usually within minutes of transfusion initiation, but it can occur up to 6 hours afterward. Patients present with dyspnea, hypoxemia, fever, and hypotension without signs of volume overload. TRALI occurs in approximately 1 in 5000 transfusions. This patient has signs of volume overload and no fever or hypotension; her presentation is more consistent with TACO than TRALI.",
+  "critique_links": [],
   "key_points": [
     "Transfusion-associated circulatory overload is a common serious complication of blood product administration; it is characterized by elevated central venous pressure, an S3, an elevated B-type natriuretic peptide level, and radiographic findings of pulmonary edema.",
     "Transfusion-related acute lung injury is characterized by noncardiogenic pulmonary edema accompanied by fever and hypotension; it usually occurs within minutes of transfusion initiation."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:36:59.707412-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Repeat laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.976675-06:00"
 }

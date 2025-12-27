@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 67-year-old man is evaluated for fever, dyspnea, cough, and atypical right-sided chest pain. He has stage IIIA squamous cell carcinoma of the right lower lung and underwent chemotherapy and radiation therapy; he completed treatment 5 weeks ago.A CT scan of the chest is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient's chest CT scan shows radiation pneumonitis (Option D). Lung opacities in radiation pneumonitis are delineated by “straight lines” corresponding to the radiation field (as shown, bordered by green lines). These opacities can cross multiple lobes, such as the right middle and lower lobes (red arrows point to the major fissure separating the right middle and lower lobes). This patient's CT scan is reflective of the acute exudative phase of radiation pneumonitis, which occurs 3 to 12 weeks following exposure. The fibrotic phase usually develops much later, from 6 months to years postexposure.In contrast, atelectasis does not cross multiple lobes and is typically lobar, segmental, or subsegmental. Lobar pneumonia also affects one lobe, although multilobar pneumonia is characterized by involvement of multiple lobes. Pulmonary edema is usually bilateral and is not delineated by the nonanatomic “straight lines” of involvement seen in this case.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/pmfig24675.cf6b4882def6028e6f31855e8d702139.jpg",
-      "figures/pmfig24674.42af314da3c77beb517e844689d1c539.jpg"
+      "figures/pmfig24674.42af314da3c77beb517e844689d1c539.jpg",
+      "figures/pmfig24675.cf6b4882def6028e6f31855e8d702139.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.431148-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24674",
+        "file": "figures/pmfig24674.42af314da3c77beb517e844689d1c539.jpg",
+        "title": "CT Scan Showing Radiation Pneumonitis",
+        "short_title": "stem CT Scan Showing Radiation Pneumonitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 488,
+        "height": 488
+      },
+      {
+        "figure_id": "pmfig24675",
+        "file": "figures/pmfig24675.cf6b4882def6028e6f31855e8d702139.jpg",
+        "title": "CT Scan Showing Radiation Pneumonitis",
+        "short_title": "critique CT Scan Showing Radiation Pneumonitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 488,
+        "height": 488
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.303632-06:00"
 }

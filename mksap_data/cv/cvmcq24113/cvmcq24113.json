@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 67-year-old man is evaluated in the emergency department for chest pain. He has hypertension and diabetes mellitus. Medications are lisinopril and metformin.Soon after arriving, the patient loses consciousness. He is unarousable and has no pulse.ECG on presentation revealed sinus tachycardia (rate 109/min) and nonspecific ST-segment changes.Current telemetry strip from an attached automated external defibrillator is shown.",
   "question_stem": "Which of the following is the most appropriate next step?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in this patient with ventricular tachycardia (VT) is prompt defibrillation (Option C). VT is a wide-complex (QRS complex ≥120 ms) and usually monomorphic tachycardia. Other causes of wide-complex tachycardia include supraventricular tachycardia with aberrant conduction, “pre-excited” (antidromic) tachycardia, and ventricular-paced rhythms. In adult patients with known structural heart disease, however, 95% of wide-complex tachycardias are VT, and additional ECG or clinical criteria are often unnecessary. Patients with VT and hemodynamic instability should undergo immediate direct current cardioversion. In patients with cardiac arrest and a shockable rhythm (e.g., VT, ventricular fibrillation), defibrillation should occur as soon as possible because time to defibrillation is an important determinant of likelihood of survival to hospital discharge. Clinical outcome is largely dictated by timing from arrest to resumption of normal sinus rhythm, which is most effectively and efficiently achieved with defibrillation in VT. This patient lost consciousness with a witnessed change in rhythm on telemetry to a wide-complex tachycardia that should be presumed to be VT. The mechanism of the wide-complex tachycardia is additionally irrelevant given that it is unstable, as evidenced by the patient's loss of consciousness. Defibrillation should occur promptly.Amiodarone (Option A) is indicated for refractory ventricular arrhythmias and can be administered by intravenous bolus in the setting of ongoing resuscitation for cardiac arrest. However, it is less effective for the abrupt conversion of VT to sinus rhythm, and time to return of sinus rhythm is the major driver of outcome in this patient. Amiodarone is not the best next step in this scenario.Although chest compressions (Option B) are the first course of action in the setting of an unwitnessed arrest or a witnessed arrest without a shockable rhythm, this patient's arrest was witnessed and he has a shockable rhythm on the monitor; immediate defibrillation is the best next step. If the patient were not already attached to an automated external defibrillator, the most appropriate management would be chest compressions until defibrillation could be performed.The most likely underlying cause of this patient's presentation is acute coronary syndrome, for which cardiac catheterization (Option D) will likely be performed eventually. The timing of such a procedure is generally dictated by patient presentation and the acuity of the event. In patients with out-of-hospital arrest, early cardiac catheterization has particular value in providing early diagnosis of the cause of arrest and facilitating early intervention, if indicated. However, this patient has a more urgent need for defibrillation.",
+  "critique_links": [],
   "key_points": [
     "In a patient with witnessed cardiac arrest and wide-complex tachycardia, defibrillation should occur immediately.",
     "Clinical outcome in cardiac arrest is largely dictated by the time elapsed from arrest to resumption of normal sinus rhythm."
@@ -58,5 +59,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:49:30.233734-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24229",
+        "file": "figures/cvfig24229.e796e65dfab1eddaebd948e21413a6cc.jpg",
+        "title": "Telemetry Strip Showing Sinus Tachycardia",
+        "short_title": "Telemetry Strip Showing Sinus Tachycardia",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 110
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.707385-06:00"
 }

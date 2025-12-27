@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 54-year-old man is evaluated for a 1-month history of progressive dyspnea and pleuritic chest pain. He has rheumatoid arthritis treated with methotrexate.Pulmonary examination reveals left-sided decreased breath sounds and dullness to percussion. Metacarpophalangeal joint deformities with ulnar deviation and subcutaneous nodules along the right ulna are noted.A chest radiograph shows a left-sided pleural effusion.Thoracentesis is performed.",
+  "question_text": "A 54-year-old man is evaluated for a 1-month history of progressive dyspnea and pleuritic chest pain. He has rheumatoid arthritis treated with methotrexate.Pulmonary examination reveals left-sided decreased breath sounds and dullness to percussion. Metacarpophalangeal joint deformities with ulnar deviation and subcutaneous nodules along the right ulna are noted.A chest radiograph shows a left-sided pleural effusion.Thoracentesis is performed.Pleural fluid studies:Leukocyte count1600/µL (1.6 × 109/L) with 98% lymphocytesHpH7.1LGlucose42 mg/dL (2.3 mmol/L)LLactate dehydrogenase2310 U/LHProtein, total5.2 g/dL (52 g/L)HRheumatoid factor1:512Gram stainNegative",
   "question_stem": "Which of the following is the most likely cause of this patient's pleural effusion?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient most likely has a pleural effusion associated with his underlying rheumatoid arthritis (RA) (Option D). An increased number of lymphocytes with a low glucose level and elevated protein level in pleural fluid are consistent with a rheumatoid pleural effusion. Additionally, the presence of an elevated rheumatoid factor within the pleural fluid strongly suggests a rheumatoid pleural effusion. Pleural effusion has been reported in 5% to 20% of patients with RA and typically occurs in middle-aged men with seropositive RA. In the early stages of the effusion, a neutrophilic cell predominance may be seen but is replaced by lymphocytes by days 7 to 11. Proposed mechanisms for rheumatoid pleural effusions include antibody production by pleural mononuclear cells, damage to capillary endothelium and increased capillary permeability, and blockage of lymphatics in inflamed parietal pleura. Small effusions may be asymptomatic, but larger and persistent effusions may require thoracentesis, drainage, intrapleural or oral glucocorticoids, other systemic immunosuppression, and pleurodesis (if recurrent). Thoracentesis is useful to evaluate for other causes such as infection in immunosuppressed patients and malignancy. Secondary infection may occur leading to empyema. Drug-induced lupus erythematosus that may be associated with the use of tumor necrosis factor inhibitors can present with serositis, resulting in pleural effusions. In these cases, lupus antibodies are positive.Patients with RA who are taking methotrexate and other disease-modifying agents are at increased risk for developing infections because of immunosuppression. However, no evidence of pneumonia (Option A) was seen on the chest radiograph, so an infectious cause would be less likely for this patient's pleural effusion than his underlying RA. Additionally, although the glucose level in a pleural effusion caused by a bacterial infection would be expected to be low, a neutrophilic predominance would be expected. The initial Gram stain is also negative, which further decreases the likelihood of an infectious cause.Pleural effusions resulting from heart failure (Option B) are characterized by low protein and cell levels within the pleural fluid. This patient has an elevated protein level and elevated leukocyte count on pleural fluid analysis, both of which argue against heart failure as the cause of this patient's pleural effusion.Pulmonary embolism (Option C) can be associated with development of pleural effusions and can cause a variable presentation in regard to the composition of the pleural effusion but are often associated with an elevated erythrocyte count, which is not seen in this patient. Additionally, the time course of this patient's presentation makes this diagnosis less likely, as does the elevated rheumatoid factor present in the pleural fluid.",
+  "critique_links": [],
   "key_points": [
     "An increased number of lymphocytes with a low glucose level and elevated protein level in the pleural fluid is consistent with a rheumatoid pleural effusion.",
     "The presence of an elevated rheumatoid factor within the pleural fluid strongly suggests a rheumatoid pleural effusion."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:05.909902-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Pleural fluid studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.842079-06:00"
 }

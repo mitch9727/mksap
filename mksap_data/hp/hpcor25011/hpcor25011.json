@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 76-year-old man is hospitalized for aortic valve replacement surgery to treat severe aortic stenosis that had led to heart failure. Surgery was complicated by hypotension. On postoperative day 3, he abruptly develops fever, altered mental status, and right-upper-quadrant pain. The patient's medical history includes coronary artery disease and hypertension. Medications are carvedilol, furosemide, atorvastatin, and aspirin.On physical examination, temperature is 38.8 °C (101.8 °F), blood pressure is 90/60 mm Hg, pulse rate is 108/min, and respiration rate is 22/min. Oxygen saturation is 92% with the patient breathing oxygen, 5 L/min by nasal canula. The patient is not oriented to date or place. On abdominal examination, there is right-upper-quadrant tenderness to palpation but no rebound tenderness or ascites.Laboratory studies:Leukocyte count14,000/μL (14.0 × 109/L)HINR and liver chemistry tests are normal. Blood cultures are pending.Ultrasound of the abdomen shows a dilated gallbladder 10 cm in length; wall thickness of 3.8 mm; and no gallstones, pericholecystic fluid, dilated ducts, or ascites.Piperacillin-tazobactam is initiated.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient is percutaneous cholecystostomy (Option D). Acalculous cholecystitis should be considered in any critically ill patient who has had cardiac surgery, sepsis, burns, or vasculitis. Other risk factors include hypertension, atherosclerosis, stroke, and immunodeficiency. The classic presentation is fever, right-upper-quadrant abdominal pain, leukocytosis, and a positive Murphy sign (inspiratory arrest on right-upper-quadrant palpation); however, patients who are ventilated or nonresponsive may present with only fever and leukocytosis. Morbidity and mortality for acalculous cholecystitis are high, so early diagnosis and treatment are imperative. The ultrasound criteria include the following:Distended gallbladder with length greater than 8 cm and width greater than 5 cmWall thickness greater than 3.5 mmPericholecystic fluidNo gallstonesTreatment includes intravenous antibiotics to cover enteric bacteria as well as cholecystectomy for patients who are stable enough to undergo surgery. However, in unstable patients or patients who are poor surgical candidates, a percutaneous cholecystostomy tube may be needed. Endoscopic drainage and a lateral wall apposing metal stent placed by endoscopic ultrasound guidance may be other options in addition to cholecystostomy. This patient has risk factors for, and findings suggestive of, acalculous cholecystitis. He is hemodynamically unstable; therefore, percutaneous cholecystostomy (or percutaneous transhepatic gallbladder drainage) is the most appropriate management.Hepatobiliary iminodiacetic acid scanning (Option A) is not recommended in critically ill patients because it could take several hours, and this patient needs urgent management. This test is appropriate in the setting of a stable patient with a high clinical likelihood of acute cholecystitis and a nondiagnostic ultrasound. In this unstable, critically ill patient with very high clinical suspicion of acalculous cholecystitis, further testing is not indicated.Laparoscopic cholecystectomy (Option B) would be the procedure of choice in a stable patient, but this patient is critically ill (as are most other patients with acalculous cholecystitis) and the risk of surgery would be too high.This patient's presentation and ultrasonographic findings are consistent with acalculous cholecystitis; further imaging, such as magnetic resonance cholangiopancreatography (Option C), is unnecessary. In addition, he requires urgent gallbladder decompression, and this should not be delayed for additional imaging.",
+  "critique_links": [],
   "key_points": [
     "A percutaneous cholecystostomy tube may be used to treat acalculous cholecystitis in a patient who is unstable or a poor surgical candidate."
   ],
@@ -50,10 +51,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.651985-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.611109-06:00"
 }

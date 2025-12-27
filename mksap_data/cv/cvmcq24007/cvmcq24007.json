@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 67-year-old patient is hospitalized for acute coronary syndrome. They initially had a 6-hour history of severe, sudden-onset chest pain and shortness of breath. ECG demonstrated anterior ST-segment elevation myocardial infarction, and the patient received aspirin, ticagrelor, and intravenous unfractionated heparin. Emergent coronary angiography revealed thrombotic occlusion of the proximal left anterior descending (LAD) artery along with 95% stenosis of the mid right coronary artery. A drug-eluting stent was placed in the LAD, with resolution of chest pain and improvement in ST segments. The patient has no other medical problems and takes no medications.On physical examination 8 hours later, the patient is disoriented. Blood pressure is 90/60 mm Hg, pulse rate is 104/min, and respiration rate is 22/min. Oxygen saturation is 92% on 6 L/min of oxygen by pendant nasal cannula. Cardiac examination reveals regular tachycardia with no murmurs or gallop. Pulmonary examination shows bibasilar crackles. The lower extremities are cool. The patient has had no urine output.",
+  "question_text": "A 67-year-old patient is hospitalized for acute coronary syndrome. They initially had a 6-hour history of severe, sudden-onset chest pain and shortness of breath. ECG demonstrated anterior ST-segment elevation myocardial infarction, and the patient received aspirin, ticagrelor, and intravenous unfractionated heparin. Emergent coronary angiography revealed thrombotic occlusion of the proximal left anterior descending (LAD) artery along with 95% stenosis of the mid right coronary artery. A drug-eluting stent was placed in the LAD, with resolution of chest pain and improvement in ST segments. The patient has no other medical problems and takes no medications.On physical examination 8 hours later, the patient is disoriented. Blood pressure is 90/60 mm Hg, pulse rate is 104/min, and respiration rate is 22/min. Oxygen saturation is 92% on 6 L/min of oxygen by pendant nasal cannula. Cardiac examination reveals regular tachycardia with no murmurs or gallop. Pulmonary examination shows bibasilar crackles. The lower extremities are cool. The patient has had no urine output.Laboratory studies:Lactate3.5 mEq/L (3.5 mmol/L)H",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient in cardiogenic shock is inotrope therapy with dobutamine infusion (Option A). Cardiogenic shock carries a mortality rate of greater than 50% and must be recognized early. The initial treatment strategy for acute myocardial infarction (MI)–associated cardiogenic shock includes prompt reperfusion, usually with percutaneous coronary intervention, which results in a higher rate of survival, particularly in patients younger than 75 years. In low-output states, inotrope therapy, combined with vasopressor support as needed, is used to maintain adequate mean arterial blood pressure and improve systemic perfusion. Mechanical support devices provide temporary hemodynamic support but have not been definitively associated with improved outcomes and are associated with bleeding and thrombotic complications. Careful patient selection and counseling are essential before initiating mechanical support. This patient has features of cardiogenic shock, including pulmonary congestion with hypoxemia, tachycardia, and hypotension; confusion; cool extremities; and poor urine output with an elevated lactate level. The patient has already undergone infarct-related artery reperfusion and now requires hemodynamic support with an inotrope such as dobutamine to improve systemic perfusion.Emergent coronary artery bypass grafting (Option B) is not indicated in this patient because they have already undergone reperfusion of the culprit artery. Indications for other emergent cardiac surgery in acute coronary syndrome (ACS) include acute mitral regurgitation and rupture of the interventricular septum.Unlike patients with ACS who do not have cardiogenic shock, immediate multivessel percutaneous coronary intervention (e.g., emergent right coronary artery stent implantation [Option C]) of non–infarct-related vessels is not advised because of a demonstrated risk for worse outcomes in this patient population.β-Blockade is a key component of care in patients with ACS as well as in chronic heart failure with reduced ejection fraction. β-Blockers such as metoprolol (Option D), however, are contraindicated in patients with cardiogenic shock. In addition, intravenous (as opposed to oral) β-blockade is not indicated in the management of ACS because of an association with adverse outcomes.",
+  "critique_links": [],
   "key_points": [
     "The initial treatment strategy for acute myocardial infarction–associated cardiogenic shock includes prompt reperfusion and inotrope therapy combined with vasopressor support as needed."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:48:32.628978-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.415475-06:00"
 }

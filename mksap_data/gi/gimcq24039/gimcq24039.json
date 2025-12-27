@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 55-year-old woman is evaluated for bloating; soft, foul-smelling stools; and a 4.5-kg (10-lb) weight loss over the past 3 months. She has hypothyroidism and type 2 diabetes mellitus. She is up to date on colorectal cancer screening. Medications are levothyroxine, metformin, and atorvastatin.On physical examination, vital signs are normal. The abdomen is mildly distended.",
+  "question_text": "A 55-year-old woman is evaluated for bloating; soft, foul-smelling stools; and a 4.5-kg (10-lb) weight loss over the past 3 months. She has hypothyroidism and type 2 diabetes mellitus. She is up to date on colorectal cancer screening. Medications are levothyroxine, metformin, and atorvastatin.On physical examination, vital signs are normal. The abdomen is mildly distended.Laboratory studies:Hemoglobin10.5 g/dL (105 g/L)LIron46 µg/dL (8 µmol/L)LVitamin B12150 pg/mL (111 pmol/L)L Helicobacter pylori stool antigenNegative",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most likely diagnosis is autoimmune atrophic gastritis (Option A). Chronic atrophic gastritis may be an autoimmune condition caused by antibodies to the parietal cell or an environmental condition caused by Helicobacter pylori. All patients with suspected or confirmed atrophic gastritis should be screened for H. pylori infection and treated if results are positive. Autoimmune atrophic gastritis may be associated with other autoimmune conditions (such as thyroid disease or type 1 diabetes mellitus) and is often associated with pernicious anemia from the loss of intrinsic factor. Achlorhydria results in iron deficiency anemia (which often occurs earlier than vitamin B12 deficiency), small intestinal bacteria overgrowth, and enteric infections. Autoimmune atrophic gastritis may be associated with hypergastrinemia, which can result in gastric neuroendocrine tumors. Chronic atrophic gastritis may progress to intestinal metaplasia and is a recognized precursor to gastric adenocarcinoma; therefore, the diagnosis of atrophic gastritis must be confirmed by endoscopic biopsy. This patient's symptoms, iron deficiency anemia, low vitamin B12 level, and negative results on serology for H. pylori suggest a diagnosis of autoimmune atrophic gastritis. Endoscopic biopsy should be performed for confirmation.Functional dyspepsia (Option B) would not explain this patient's iron deficiency and low vitamin B12 level. Moreover, the patient does not meet the criteria for diagnosis of functional dyspepsia (one or more of the following: bothersome postprandial fullness, early satiation, epigastric pain, and epigastric burning) (see ).Gastroparesis (Option C) would not explain her microcytic anemia, low vitamin B12 level, and change in stools. Gastroparesis may be characterized by bloating and weight loss, but she does not have the most common symptoms: nausea, vomiting, upper abdominal pain, and early satiety.Irritable bowel syndrome (Option D) would not explain this patient's presentation. Despite her abdominal bloating, this patient's anemia is not explained by irritable bowel syndrome. Rather, it represents an alarm feature necessitating further investigation. In addition, diagnosis requires abdominal pain at least once weekly for 3 months, which she does not report.",
+  "critique": "The most likely diagnosis is autoimmune atrophic gastritis (Option A). Chronic atrophic gastritis may be an autoimmune condition caused by antibodies to the parietal cell or an environmental condition caused by Helicobacter pylori. All patients with suspected or confirmed atrophic gastritis should be screened for H. pylori infection and treated if results are positive. Autoimmune atrophic gastritis may be associated with other autoimmune conditions (such as thyroid disease or type 1 diabetes mellitus) and is often associated with pernicious anemia from the loss of intrinsic factor. Achlorhydria results in iron deficiency anemia (which often occurs earlier than vitamin B12 deficiency), small intestinal bacteria overgrowth, and enteric infections. Autoimmune atrophic gastritis may be associated with hypergastrinemia, which can result in gastric neuroendocrine tumors. Chronic atrophic gastritis may progress to intestinal metaplasia and is a recognized precursor to gastric adenocarcinoma; therefore, the diagnosis of atrophic gastritis must be confirmed by endoscopic biopsy. This patient's symptoms, iron deficiency anemia, low vitamin B12 level, and negative results on serology for H. pylori suggest a diagnosis of autoimmune atrophic gastritis. Endoscopic biopsy should be performed for confirmation.Functional dyspepsia (Option B) would not explain this patient's iron deficiency and low vitamin B12 level. Moreover, the patient does not meet the criteria for diagnosis of functional dyspepsia (one or more of the following: bothersome postprandial fullness, early satiation, epigastric pain, and epigastric burning) (see Table: Rome IV Diagnostic Criteria for Functional Dyspepsia).Gastroparesis (Option C) would not explain her microcytic anemia, low vitamin B12 level, and change in stools. Gastroparesis may be characterized by bloating and weight loss, but she does not have the most common symptoms: nausea, vomiting, upper abdominal pain, and early satiety.Irritable bowel syndrome (Option D) would not explain this patient's presentation. Despite her abdominal bloating, this patient's anemia is not explained by irritable bowel syndrome. Rather, it represents an alarm feature necessitating further investigation. In addition, diagnosis requires abdominal pain at least once weekly for 3 months, which she does not report.",
+  "critique_links": [],
   "key_points": [
     "Autoimmune atrophic gastritis is associated with iron deficiency anemia, pernicious anemia, and a low vitamin B12 level; it can lead to intestinal metaplasia, and endoscopic biopsy is required for diagnosis."
   ],
@@ -51,12 +52,38 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/gitab24008.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:30.923238-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "gitab24008",
+        "file": "tables/gitab24008.html",
+        "title": "Rome IV Diagnostic Criteria for Functional Dyspepsia",
+        "short_title": "Rome IV Diagnostic Criteria for Functional Dyspepsia",
+        "footnotes": [
+          "<sup>a</sup>Criteria fulfilled for the last 3 months, occurring at least once per week, with symptom onset at least 6 months before diagnosis.",
+          "Reproduced with permission from Stanghellini V, Chan FK, Hasler WL, Malagelada JR, Suzuki H, Tack J, et al. Gastroduodenal disorders. Gastroenterology. 2016;150:1380-92. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/27147122\" target=\"_blank\">PMID: 27147122</a> doi:10.1053/j.gastro.2016.02.011. Copyright 2016, The AGA Institute."
+        ],
+        "headers": []
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.348942-06:00"
 }

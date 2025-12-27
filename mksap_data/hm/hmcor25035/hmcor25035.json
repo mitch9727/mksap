@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 38-year-old woman is evaluated in the emergency department for a 2-day history of fatigue, fever, and bruising. She reports no sick contacts or other symptoms. Medical history is noncontributory, and she takes no medication.On physical examination, temperature is 38.6 °C (101.5 °F), and pulse rate is 125/min; other vital signs are normal. Extensive bruising is seen on her extremities.Laboratory studies:Activated partial thromboplastin time26 sHemoglobin7.2 g/dL (72 g/L)LLeukocyte count12,600/μL (12.6 × 10 9/L)HPlatelet count12,000/μL (12 ×10 9/L)LCreatinine1.8 mg/dL (141.44 µmol/L)HHaptoglobinUndetectableLactate dehydrogenase1256 U/LHINR1.0Direct antiglobulin test is negative.A peripheral blood smear is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is thrombotic thrombocytopenic purpura (TTP) (Option D). TTP is caused by an acquired deficiency in ADAMTS13, a metalloprotease that cleaves high-molecular-weight von Willebrand factor (vWF) multimers. In the absence of ADAMTS13 activity, these multimers form platelet-rich microthrombi in vessels and ultimately lead to microangiopathic hemolytic anemia (MAHA) and resultant end-organ damage. Patients with TTP often present with three or more of the classic pentad of fever, MAHA, thrombocytopenia, kidney dysfunction, and neurologic dysfunction; however, TTP is unlikely in the absence of MAHA and thrombocytopenia. An ADAMTS13 level less than 10% supports the diagnosis of TTP, but the PLASMIC score (Table: PLASMIC Score) is useful in guiding diagnosis while awaiting ADAMTS13 level results. The differential diagnosis for TTP most prominently includes hemolytic uremic syndrome, which is suggested by a preceding diarrheal illness and more severe kidney dysfunction. TTP is associated with a high mortality rate, and therapeutic plasma exchange with fresh frozen plasma and empiric glucocorticoids should be started before laboratory confirmation of ADAMTS13 deficiency (completed on pretreatment blood) is available. This patient has MAHA, evidenced by an elevated lactate dehydrogenase level, undetectably low haptoglobin level, a negative direct antiglobulin (Coombs) test result, and schistocytes on peripheral blood smear, as shown. The combination of MAHA, thrombocytopenia, fever, and kidney dysfunction in this patient strongly suggests the diagnosis of TTP.Aplastic anemia (AA) is an acquired hematopoietic stem cell disorder characterized by pancytopenia and reduced bone marrow cellularity (Option A). Although this patient has anemia and thrombocytopenia, the leukocyte count is normal. Furthermore, the anemia of AA is hypoproliferative rather than the MAHA seen in this patient.Classic laboratory findings of disseminated intravascular coagulation (DIC) (Option B) include MAHA, thrombocytopenia, and coagulopathy. The absence of coagulopathy in this patient as evidenced by the normal INR and activated partial thromboplastin time makes DIC unlikely.Immune thrombocytopenic purpura (ITP) (Option C) is caused by autoantibodies to platelet surface membranes, and laboratory findings are typically limited to a low platelet count. ITP may occur concomitantly with autoimmune hemolytic anemia (Evans syndrome), but it does not present with MAHA as seen in this patient.",
+  "critique_links": [],
   "key_points": [
     "The diagnosis of thrombotic thrombocytopenic purpura (TTP) is unlikely in the absence of microangiopathic hemolytic anemia and thrombocytopenia; other findings in TTP include fever, kidney disease, and neurologic dysfunction.",
     "TTP is associated with a high mortality rate, and therapeutic plasma exchange should be started immediately while awaiting laboratory confirmation of ADAMTS13 deficiency."
@@ -51,10 +52,72 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
-    "images": [],
+    "tables": [
+      "tables/hmtab24029.html",
+      "tables/inline_table_1.html"
+    ],
+    "images": [
+      "figures/hmfig25705.0a0d36238dd876d5333fc7a50c9a24f5.jpg",
+      "figures/hmfig25706.eae2002fe84d72c1f0744616a3fef8d9.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:44:24.300290-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hmfig25705",
+        "file": "figures/hmfig25705.0a0d36238dd876d5333fc7a50c9a24f5.jpg",
+        "title": "Peripheral Blood Smear Findings in Thrombotic Thrombocytopenic Purpura",
+        "short_title": "stem Peripheral Blood Smear Findings in TTP",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 503,
+        "height": 316
+      },
+      {
+        "figure_id": "hmfig25706",
+        "file": "figures/hmfig25706.eae2002fe84d72c1f0744616a3fef8d9.jpg",
+        "title": "Peripheral Blood Smear Findings in Thrombotic Thrombocytopenic Purpura",
+        "short_title": "crit Peripheral Blood Smear Findings in TTP",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 503,
+        "height": 316
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "hmtab24029",
+        "file": "tables/hmtab24029.html",
+        "title": "PLASMIC Score<sup>a</sup> to Estimate Probability of Thrombotic Thrombocytopenic Purpura",
+        "short_title": "PLASMIC Score",
+        "footnotes": [
+          "<sup>a</sup>PLASMIC refers to the score's seven components: <b>P</b>latelet count; combined hemo<b>L</b>ysis variable; absence of <b>A</b>ctive cancer; absence of <b>S</b>tem-cell or solid-organ transplant; <b>M</b>CV; <b>I</b>NR; <b>C</b>reatinine.",
+          "<sup>c</sup>Reticulocytes &gt;2.5% of erythrocytes, serum indirect bilirubin level &gt;2 mg/dL (34.2 μmol/L), and serum haptoglobin level &lt;50 mg/dL (500 mg/L).",
+          "Low risk: 0-4 points.",
+          "Intermediate risk: 5 points.",
+          "High risk: 6-7 points."
+        ],
+        "headers": [
+          "Prerequisite: The presence of microangiopathic hemolytic anemia with schistocytes",
+          "Clinical Feature",
+          "Points"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.827234-06:00"
 }

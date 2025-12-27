@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old man is evaluated for a pruritic rash on his arms and neck after gardening.The rash is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is polymorphous light eruption (PMLE) (Option B). PMLE commonly presents as pruritic, pink to red papules or vesicles; less common variants are characterized by plaques and urticaria. Lesions appear within hours of sun exposure on sun-exposed body parts. The rash persists for weeks and resolves without scarring, even with continued exposure to the sun.PMLE is diagnosed clinically, but other photosensitive skin conditions should be considered, such as systemic lupus erythematosus, drug-induced photosensitivity, and porphyria cutanea tarda.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24667.a5fd80da2f80d5501413b90fed2cec25.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.937072-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24667",
+        "file": "figures/dmfig24667.a5fd80da2f80d5501413b90fed2cec25.jpg",
+        "title": "Polymorphous Light Eruption",
+        "short_title": "stem Polymorphous Light Eruption",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 415,
+        "height": 599
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.482113-06:00"
 }

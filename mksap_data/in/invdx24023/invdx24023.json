@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 42-year-old man presents with swelling and pain around his left eye. He reports no pain with eye movement or visual changes.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has preseptal cellulitis (Option D). Preseptal (or periorbital) cellulitis refers to infection of the skin surrounding the eye, including the anterior portion of the eyelids, without involvement of the underlying fat tissue plane or extraocular muscles. Although sometimes dramatic in appearance, it is rarely associated with severe complications. In contrast, orbital cellulitis is a deeper infection involving the underlying fat tissue and/or extraocular muscles; it can be distinguished from preseptal cellulitis by the presence of pain with movement of the eyes (sometimes with ophthalmoplegia), vison loss, and proptosis. CT of the orbit and sinuses and immediate ophthalmology referral is indicated when the diagnosis of orbital cellulitis is suspected clinically.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -56,5 +57,34 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:28:36.826667-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "infig24633",
+        "file": "figures/infig24633.88998ae7c4b1840a7dad9e64d20cdd18.jpg",
+        "title": "Preseptal Cellulitis1",
+        "short_title": "Preseptal Cellulitis1",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 676
+      },
+      {
+        "figure_id": "infig24634",
+        "file": "figures/infig24634.dfb297f2a89f52723aa57f4e548a8b18.jpg",
+        "title": "Preseptal Cellulitis2",
+        "short_title": "Preseptal Cellulitis2",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 626,
+        "height": 490
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.158972-06:00"
 }

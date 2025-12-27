@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 58-year-old man is evaluated for a 1-day history of a swollen and painful right ankle. He has psoriatic arthritis involving the hands and knees that has been well controlled with etanercept for the past 3 years. Medical history is also significant for diabetes mellitus and hypertension. He also has obesity. Medications are insulin glargine, insulin lispro, lisinopril, etanercept, and ibuprofen.On physical examination, vital signs are normal. BMI is 34. A few psoriatic lesions are noted on the scalp and over the elbows. The right ankle is warm, red, exquisitely tender to palpation, and painful to move. No other joints are affected.Arthrocentesis shows a cell count of 14,000/µL (14 × 109/L) with 70% neutrophils. Extracellular and intracellular negatively birefringent, needle-like crystals are present. Gram strain is negative. Bacterial culture is pending.Radiographs of the right ankle and foot are unremarkable.",
+  "question_text": "A 58-year-old man is evaluated for a 1-day history of a swollen and painful right ankle. He has psoriatic arthritis involving the hands and knees that has been well controlled with etanercept for the past 3 years. Medical history is also significant for diabetes mellitus and hypertension. He also has obesity. Medications are insulin glargine, insulin lispro, lisinopril, etanercept, and ibuprofen.On physical examination, vital signs are normal. BMI is 34. A few psoriatic lesions are noted on the scalp and over the elbows. The right ankle is warm, red, exquisitely tender to palpation, and painful to move. No other joints are affected.Laboratory studies:Leukocyte count12,000/µL (12 × 109/L)HArthrocentesis shows a cell count of 14,000/µL (14 × 109/L) with 70% neutrophils. Extracellular and intracellular negatively birefringent, needle-like crystals are present. Gram strain is negative. Bacterial culture is pending.Radiographs of the right ankle and foot are unremarkable.",
   "question_stem": "Which of the following is the most likely cause of this patient's symptoms?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most likely cause of this patient's symptoms is a gout flare (Option B). The risk for gout is higher in patients with psoriasis, and the risk increases further among those with psoriasis and concomitant psoriatic arthritis. This risk has been linked to increased cell turnover in psoriasis, which in turn may increase serum urate levels. In addition, there appear to be overlapping epidemiologic factors and pathophysiologic mechanisms for psoriatic arthritis and gout. Patients with psoriatic arthritis or gout are more likely to have hyperuricemia compared with the general population. Some have suggested that an overlap syndrome between the two entities is possible. This patient with well-controlled psoriatic arthritis is presenting with monoarticular inflammatory arthritis and arthrocentesis findings suggestive of a gout flare (leukocytosis with neutrophil predominance and negatively birefringent, needle-like crystals).Acute calcium pyrophosphate (CPP) crystal arthritis (Option A) is an inflammatory arthritis that primarily affects the knee and wrist joints. Arthrocentesis findings include CPP crystals, which are rhomboid-shaped and positively birefringent. Radiographs of the knees and wrists may show chondrocalcinosis.Infectious arthritis (Option C) should be considered in a patient with monoarticular arthritis receiving an immunosuppressant (etanercept in this case). However, the cell count in infectious arthritis is typically more than 50,000/µL (50 × 109/L); this patient's joint fluid cell count of 14,000/µL (14 × 109/L) and a negative Gram stain make infectious arthritis less likely.Although osteoarthritis (Option D) is the most common form of arthritis in patients with psoriasis, it is less likely in this patient. Osteoarthritis typically affects the small joints of the hands and feet, knees, and hips and is not an inflammatory arthritis. Synovial fluid is typically clear in appearance and noninflammatory (leukocyte count ≤2000/μL [2 × 109/L]).Acute monoarticular arthritis in a patient with well-controlled psoriatic arthritis should prompt consideration of alternative diagnoses, such as crystal arthropathy or infectious arthritis. Psoriatic arthritis flares (Option E) often include more than one joint, and other findings, such as fatigue and skin involvement, may occur. Although differentiating between an acute gout flare and a psoriatic arthritis flare can be difficult, this patient's presentation and arthrocentesis findings are more suggestive of gout.",
+  "critique_links": [],
   "key_points": [
     "The risk for gout is higher in patients with psoriasis, and the risk increases further among those with psoriasis and concomitant psoriatic arthritis."
   ],
@@ -62,5 +63,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:47:05.132227-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.742750-06:00"
 }

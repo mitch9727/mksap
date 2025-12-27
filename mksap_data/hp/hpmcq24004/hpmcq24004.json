@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 58-year-old woman is hospitalized for dyspnea due to recurrent right-sided pleural effusion. She has autoimmune hepatitis with cirrhosis. Findings on previous thoracenteses during the past 3 months were consistent with hepatic hydrothorax. She has received escalating doses of diuretics for the past year and adhered to a sodium-restricted diet. Medications are furosemide, spironolactone, carvedilol, and azathioprine.On physical examination, blood pressure is 100/65 mm Hg, pulse rate is 60/min, and respiration rate is 20/min. Oxygen saturation is 92% with the patient breathing ambient air. She is alert and oriented. There are no signs of asterixis. She has decreased breath sounds on the right side. Her abdomen is soft and nondistended.Laboratory studies:Sodium130 mEq/L (130 mmol/L)LModel for End-Stage Liver Disease (MELD) 3.0 score is 10.Chest radiograph demonstrates a large right-sided pleural effusion.Pleural fluid studies:Absolute neutrophil count100/μL (0.1 × 109/L)CultureNegativeUltrasound shows a nodular liver surface with a round edge and hypoechoic nodules in the liver parenchyma, as well as slight perihepatic ascites. Echocardiogram shows normal cardiac function.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management is to refer for a transjugular intrahepatic portosystemic shunt (TIPS) (Option D). Patients with ascites can develop pleural effusions, known as hepatic hydrothorax, due to the combination of diaphragm permeability and negative intrathoracic pressure. Initial management includes dietary sodium restriction and diuretic therapy. Patients with refractory ascites or hepatic hydrothorax should be referred for consideration for possible TIPS or liver transplantation. The hepatic–venous pressure gradient is reduced after TIPS placement, which will relieve the portal hypertension and, in most cases, address complications of hepatic hydrothorax, ascites, and/or large esophageal varices. For many patients, a TIPS will help resolve the hydrothorax and reduce morbidity and mortality related to this hepatic decompensation, deferring the need for liver transplantation. This patient has exhibited refractory hepatic hydrothorax with medical management and now requires serial thoracentesis. She should be considered for TIPS because of her low Model for End-Stage Liver Disease 3.0 score, absence of heart failure, and absence of hepatic encephalopathy.Fluid restriction (Option A) is not routinely indicated in the management of hepatic hydrothorax and should be avoided in this patient. Fluid restriction can be considered in patients with decompensated cirrhosis complicated by severe hyponatremia (serum sodium <125 mEq/L [125 mmol/L]). In the absence of severe hyponatremia, fluid restriction may worsen intravascular volume depletion and lead to kidney failure.An indwelling chest tube (Option B) should be avoided unless it is used for palliative indications or management of empyema, which this patient does not have. Indwelling chest tubes are also associated with a high risk for complications.Large-volume paracentesis (Option C) is not indicated because of scant perihepatic ascites on imaging and no overt abdominal distention on examination. The ascitic fluid is drawn into the thorax in the setting of hepatic hydrothorax; this patient's main decompensation at present is hydrothorax.",
+  "critique_links": [],
   "key_points": [
     "Refractory hepatic hydrothorax can be treated with a transjugular intrahepatic portosystemic shunt."
   ],
@@ -50,10 +51,36 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html",
+      "tables/inline_table_2.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.514077-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      },
+      {
+        "table_id": "inline_table_2",
+        "file": "tables/inline_table_2.html",
+        "title": "Pleural fluid studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.609147-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 57-year-old woman is evaluated for a 6-month history of progressive dyspnea with frequent nonproductive cough. She becomes dyspneic while walking with friends on a level surface and often needs to stop to catch her breath. She has decreased energy but reports no chest pain, weight loss, or other symptoms. She has a 35-pack-year smoking history and currently smokes 10 cigarettes per day. She has no other medical history and takes no medications.On physical examination, vital signs are normal. Oxygen saturation is 94% with the patient breathing ambient air. Lung examination reveals mildly decreased air movement throughout the lung fields. No peripheral edema is noted.Chest radiograph shows an increased anteroposterior diameter and flat diaphragms.She is enrolled in a smoking cessation program.",
+  "question_text": "A 57-year-old woman is evaluated for a 6-month history of progressive dyspnea with frequent nonproductive cough. She becomes dyspneic while walking with friends on a level surface and often needs to stop to catch her breath. She has decreased energy but reports no chest pain, weight loss, or other symptoms. She has a 35-pack-year smoking history and currently smokes 10 cigarettes per day. She has no other medical history and takes no medications.On physical examination, vital signs are normal. Oxygen saturation is 94% with the patient breathing ambient air. Lung examination reveals mildly decreased air movement throughout the lung fields. No peripheral edema is noted.Pulmonary function tests (postbronchodilator):FEV162% of predictedL FEV1/FVC ratio0.63LChest radiograph shows an increased anteroposterior diameter and flat diaphragms.She is enrolled in a smoking cessation program.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate treatment for this patient with newly diagnosed COPD is combination inhaled long-acting β2-agonist (LABA) and long-acting muscarinic antagonist (LAMA) bronchodilator therapy, such as with salmeterol and tiotropium (Option C). In patients with COPD, assessing the severity of disease is necessary to determine the most appropriate initial treatment strategy. The Global Initiative for Chronic Obstructive Lung Disease (GOLD) combined assessment () categorizes patients into three levels of severity (A, B, and E) based on symptom severity and history of exacerbations. Severity of symptoms are assessed using the COPD Assessment Test score () or the modified Medical Research Council Dyspnea Scale score (), and exacerbation history is graded based on number of exacerbations and need for hospitalization. The GOLD patient category that is determined then directs pharmacologic therapy (). This patient's symptoms and smoking history suggest COPD, and the diagnosis is confirmed by a postbronchodilator FEV1/FVC ratio less than 0.70. Her symptoms correlate to a Modified Medical Research Council score of 2; without any exacerbations in the past year, she is classified as GOLD group B and should be treated with combined inhaled LABA and LAMA bronchodilator therapy.Patients with group A COPD should be treated with a short- or long-acting bronchodilator (β2-agonist or muscarinic antagonist). A long-acting bronchodilator is preferred unless symptoms are very mild, in which case a short-acting agent may be used as needed. An as-needed short-acting β2-agonist, such as albuterol alone (Option A), would be inadequate treatment for this patient with group B COPD.Patients with group E COPD should be treated with combination LABA and LAMA therapy and can be considered for the addition of an inhaled glucocorticoid. The combination of a LABA and an inhaled glucocorticoid, such as salmeterol and fluticasone (Option B), however, is not a preferred regimen in COPD. In addition, this patient is in GOLD category B, for which an inhaled glucocorticoid is not standard therapy.Roflumilast (Option D) is a selective phosphodiesterase-4 inhibitor that can be added to bronchodilators in patients with severe COPD and symptoms of chronic bronchitis to reduce exacerbation frequency. It is not indicated in this patient, who is not receiving bronchodilator therapy and has no recent exacerbations.",
+  "critique": "The most appropriate treatment for this patient with newly diagnosed COPD is combination inhaled long-acting β2-agonist (LABA) and long-acting muscarinic antagonist (LAMA) bronchodilator therapy, such as with salmeterol and tiotropium (Option C). In patients with COPD, assessing the severity of disease is necessary to determine the most appropriate initial treatment strategy. The Global Initiative for Chronic Obstructive Lung Disease (GOLD) combined assessment (Table: GOLD Model for Classifying Severity of Disease in COPD) categorizes patients into three levels of severity (A, B, and E) based on symptom severity and history of exacerbations. Severity of symptoms are assessed using the COPD Assessment Test score (Table: COPD Assessment Test (CAT)) or the modified Medical Research Council Dyspnea Scale score (Table: Modified Medical Research Council Dyspnea Scale), and exacerbation history is graded based on number of exacerbations and need for hospitalization. The GOLD patient category that is determined then directs pharmacologic therapy (Table: Recommended Therapy for COPD by GOLD Patient Group). This patient's symptoms and smoking history suggest COPD, and the diagnosis is confirmed by a postbronchodilator FEV1/FVC ratio less than 0.70. Her symptoms correlate to a Modified Medical Research Council score of 2; without any exacerbations in the past year, she is classified as GOLD group B and should be treated with combined inhaled LABA and LAMA bronchodilator therapy.Patients with group A COPD should be treated with a short- or long-acting bronchodilator (β2-agonist or muscarinic antagonist). A long-acting bronchodilator is preferred unless symptoms are very mild, in which case a short-acting agent may be used as needed. An as-needed short-acting β2-agonist, such as albuterol alone (Option A), would be inadequate treatment for this patient with group B COPD.Patients with group E COPD should be treated with combination LABA and LAMA therapy and can be considered for the addition of an inhaled glucocorticoid. The combination of a LABA and an inhaled glucocorticoid, such as salmeterol and fluticasone (Option B), however, is not a preferred regimen in COPD. In addition, this patient is in GOLD category B, for which an inhaled glucocorticoid is not standard therapy.Roflumilast (Option D) is a selective phosphodiesterase-4 inhibitor that can be added to bronchodilators in patients with severe COPD and symptoms of chronic bronchitis to reduce exacerbation frequency. It is not indicated in this patient, who is not receiving bronchodilator therapy and has no recent exacerbations.",
+  "critique_links": [],
   "key_points": [
     "The most appropriate initial treatment strategy in COPD is determined by disease severity and exacerbation history.",
     "Patients with COPD in Global Initiative for Chronic Obstructive Lung Disease group B should be treated with combination inhaled long-acting β2-agonist and long-acting muscarinic antagonist bronchodilator therapy."
@@ -52,15 +53,95 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html",
-      "tables/inline_table_3.html",
-      "tables/inline_table_4.html",
-      "tables/inline_table_5.html"
+      "tables/pmtab24016.html",
+      "tables/pmtab24013.html",
+      "tables/pmtab24012.html",
+      "tables/pmtab24017.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.115201-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "pmtab24016",
+        "file": "tables/pmtab24016.html",
+        "title": "Classification of COPD Severity by GOLD Patient Category",
+        "short_title": "GOLD Model for Classifying Severity of Disease in COPD",
+        "footnotes": [
+          "CAT = COPD Assessment Test; GOLD = Global Initiative for Chronic Obstructive Lung Disease; mMRC = Modified Medical Research Council dyspnea scale.",
+          "Information from Global Initiative for Chronic Obstructive Lung Disease. Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease. 2025 Report. <a href=\"https://goldcopd.org/2025-gold-report/\" target=\"_blank\">https://goldcopd.org/2025-gold-report/</a>. Accessed May 20, 2025."
+        ],
+        "headers": [
+          "Patient Category",
+          "Characteristics",
+          "Exacerbations Per Year",
+          "CAT Score",
+          "mMRC Score"
+        ]
+      },
+      {
+        "table_id": "pmtab24013",
+        "file": "tables/pmtab24013.html",
+        "title": "CAT™ Assessment",
+        "short_title": "COPD Assessment Test (CAT)",
+        "footnotes": [
+          "Reference: Jones PW, Harding G, Berry P, et al. Development and first validation of the COPD Assessment Test. Eur Respir J. 2009;34:648-54. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19720809\" target=\"_blank\">PMID: 19720809</a> doi:10.1183/09031936.00102509",
+          "Reproduced with permission of the Global Initiative for Chronic Obstructive Lung Disease. © 2023, 2024, Global Initiative for Chronic Obstructive Lung Disease, available from <a href=\"http://www.goldcopd.org\" target=\"_blank\">www.goldcopd.org</a>, published in Deer Park, IL, USA."
+        ],
+        "headers": [
+          "For each item below, place a mark (x) in the box that best describes you currently. Be sure to only select one response for each question.",
+          "Example: I am very happy",
+          "[0] [1] [2] [3] [4] [5]",
+          "I am very sad",
+          "Score"
+        ]
+      },
+      {
+        "table_id": "pmtab24012",
+        "file": "tables/pmtab24012.html",
+        "title": "Modified Medical Research Council Dyspnea Scale",
+        "short_title": "Modified Medical Research Council Dyspnea Scale",
+        "footnotes": [
+          "Adapted from Fletcher CM, Elmes PC, Fairbairn AS, et al. The significance of respiratory symptoms and the diagnosis of chronic bronchitis in a working population. Br Med J. 1959;2:257. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/13823475\" target=\"_blank\">PMID: 13823475</a>"
+        ],
+        "headers": [
+          "Score",
+          "Description of Dyspnea",
+          "Severity"
+        ]
+      },
+      {
+        "table_id": "pmtab24017",
+        "file": "tables/pmtab24017.html",
+        "title": "Recommended Pharmacologic Management of COPD by GOLD Classification",
+        "short_title": "Recommended Therapy for COPD by GOLD Patient Group",
+        "footnotes": [
+          "GOLD = Global Initiative for Chronic Obstructive Lung Disease; ICS = inhaled corticosteroid (glucocorticoid); LABA = long-acting β<sub>2</sub>-agonist; LAMA = long-acting muscarinic antagonist.",
+          "<sup>a</sup>Consider if eosinophil count ≥300/μL (0.30 × 10<sup>9</sup>/L).",
+          "Information from Global Initiative for Chronic Obstructive Lung Disease. Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease. 2025 Report. <a href=\"https://goldcopd.org/2025-gold-report/\" target=\"_blank\">https://goldcopd.org/2025-gold-report/</a>. Accessed May 20, 2025."
+        ],
+        "headers": [
+          "Patient Group",
+          "Recommended Therapy",
+          "Alternative or Additional Therapy",
+          "Other Considerations"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Pulmonary function tests (postbronchodilator):",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.139488-06:00"
 }

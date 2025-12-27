@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 31-year-old woman is evaluated for episodes of palpitations.ECG is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is Wolff-Parkinson-White syndrome (Option D). In Wolff-Parkinson-White pattern, an accessory pathway bypasses the atrioventricular node and causes preexcitation, resulting in a short PR interval and delta wave at the beginning of the QRS complex. In this ECG, positive delta waves (initial upsloping of the QRS complex) with a short PR interval are seen in leads I, II, and aVL and precordial leads V2 through V6. Negative delta waves (an initial negative deflection) are seen in leads III, aVF, and aVR, giving the appearance of an inferior infarct pattern. Patients such as this one with evidence of preexcitation on their resting ECG (Wolff-Parkinson-White pattern) and symptomatic supraventricular tachycardia have Wolff-Parkinson-White syndrome.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.411470-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24638",
+        "file": "figures/cvfig24638.634f39016fdb81a28b728625b40561be.jpg",
+        "title": "ECG Showing Ventricular Preexcitation",
+        "short_title": "stem ECG Showing Ventricular Preexcitation",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 464
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.908618-06:00"
 }

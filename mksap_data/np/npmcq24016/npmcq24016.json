@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old man is evaluated during a follow-up visit for hypertension. At his last office visit 3 months ago, his blood pressure was 136/84 mm Hg. Subsequent 24-hour ambulatory blood pressure monitoring showed an average blood pressure of 129/78 mm Hg. He has hyperlipidemia for which he takes atorvastatin. He is a current smoker with a 15-pack-year history.On physical examination, blood pressure is 138/82 mm Hg, and pulse rate is 82/min. The remainder of the examination is unremarkable.Chemistry panel results are normal, and urine dipstick results show no protein.His calculated 10-year risk for atherosclerotic cardiovascular disease is 13%.Lifestyle modifications and smoking cessation are advised.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -43,7 +43,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate next step in management for this patient with stage 1 hypertension and a 10-year risk for atherosclerotic cardiovascular disease (ASCVD) ≥10% is to begin a first-line antihypertensive such as amlodipine (Option C). This patient's average blood pressure (BP) measurement by 24-hour ambulatory BP monitoring (ABPM) and office BP measurements taken 3 months apart are consistent with a diagnosis of stage 1 hypertension (). The 2017 American College of Cardiology/American Heart Association BP guideline recommends lifestyle modifications in addition to pharmacologic treatment for patients with stage 1 hypertension (BP ≥130/80 mm Hg) and clinical cardiovascular disease or a 10-year risk of ASCVD ≥10%; the target office BP goal is <130/80 mm Hg. Recommended first-line agents include a thiazide diuretic, calcium channel blocker, ACE inhibitor, or angiotensin receptor blocker because these agents have been shown to reduce clinical events. This patient should be started on a first-line antihypertensive such as amlodipine.Observation and rechecking BP in the office in 3 months (Option A) or repeating 24-hour ABPM in 6 months (Option B) could be considered in the setting of white coat hypertension, elevated BP, or stage 1 hypertension with low 10-year cardiovascular disease risk. However, this patient has confirmed stage 1 hypertension associated with a 10-year risk of ASCVD ≥10%; pharmacologic therapy should be initiated now.Although this patient should be started on pharmacologic therapy, clonidine (Option D) and metoprolol (Option E) are not considered first-line antihypertensives. There are not robust data comparing β-blockers (e.g., metoprolol), peripheral- or central-acting α-blockers (e.g., clonidine), vasodilators, aldosterone receptor antagonists, or loop diuretics to the four first-line drug classes previously mentioned. Therefore, these drug classes are not recommended as first-line therapy but can be used if a compelling indication exists (β-blockers for post–myocardial infarction or heart failure; aldosterone receptor blockers for heart failure; loop diuretics for advanced chronic kidney disease) or as add-on therapy for resistant hypertension.",
+  "critique": "The most appropriate next step in management for this patient with stage 1 hypertension and a 10-year risk for atherosclerotic cardiovascular disease (ASCVD) ≥10% is to begin a first-line antihypertensive such as amlodipine (Option C). This patient's average blood pressure (BP) measurement by 24-hour ambulatory BP monitoring (ABPM) and office BP measurements taken 3 months apart are consistent with a diagnosis of stage 1 hypertension (Table: Definitions of Blood Pressure for Adults). The 2017 American College of Cardiology/American Heart Association BP guideline recommends lifestyle modifications in addition to pharmacologic treatment for patients with stage 1 hypertension (BP ≥130/80 mm Hg) and clinical cardiovascular disease or a 10-year risk of ASCVD ≥10%; the target office BP goal is <130/80 mm Hg. Recommended first-line agents include a thiazide diuretic, calcium channel blocker, ACE inhibitor, or angiotensin receptor blocker because these agents have been shown to reduce clinical events. This patient should be started on a first-line antihypertensive such as amlodipine.Observation and rechecking BP in the office in 3 months (Option A) or repeating 24-hour ABPM in 6 months (Option B) could be considered in the setting of white coat hypertension, elevated BP, or stage 1 hypertension with low 10-year cardiovascular disease risk. However, this patient has confirmed stage 1 hypertension associated with a 10-year risk of ASCVD ≥10%; pharmacologic therapy should be initiated now.Although this patient should be started on pharmacologic therapy, clonidine (Option D) and metoprolol (Option E) are not considered first-line antihypertensives. There are not robust data comparing β-blockers (e.g., metoprolol), peripheral- or central-acting α-blockers (e.g., clonidine), vasodilators, aldosterone receptor antagonists, or loop diuretics to the four first-line drug classes previously mentioned. Therefore, these drug classes are not recommended as first-line therapy but can be used if a compelling indication exists (β-blockers for post–myocardial infarction or heart failure; aldosterone receptor blockers for heart failure; loop diuretics for advanced chronic kidney disease) or as add-on therapy for resistant hypertension.",
+  "critique_links": [],
   "key_points": [
     "The 2017 American College of Cardiology/American Heart Association blood pressure (BP) guideline recommends nonpharmacologic and pharmacologic treatment for patients with stage 1 hypertension (BP ≥130/80 mm Hg) and clinical cardiovascular disease or a 10-year risk of atherosclerotic cardiovascular disease ≥10% to target a BP goal of <130/80 mm Hg."
   ],
@@ -56,11 +57,34 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/nptab24016.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:31.920292-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nptab24016",
+        "file": "tables/nptab24016.html",
+        "title": "Definitions of Blood Pressure for Adults",
+        "short_title": "Definitions of Blood Pressure for Adults",
+        "footnotes": [
+          "<sup>a</sup>Based on Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: A report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. J Am Coll Cardiol. 2018;71:e127-e248. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/29146535\" target=\"_blank\">PMID: 29146535</a> doi:10.1016/j.jacc.2017.11.006",
+          "<sup>b</sup>The corresponding thresholds of 24-hour ambulatory and self-recorded home blood pressure readings are provided as a guide and should be interpreted with caution given that they are based on European, Australian, and Asian populations, with few available data in U.S. populations."
+        ],
+        "headers": [
+          "Definitionsa",
+          "Office-Based Readings (mm Hg)a",
+          "24-Hour Ambulatory Readings (mm Hg)b",
+          "Home Blood Pressure Readings (mm Hg)b"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.636004-06:00"
 }

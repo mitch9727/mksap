@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 45-year-old man is evaluated in the emergency department for a 3-day history of flank pain and hematuria. Medical history includes gout, hypertension, obesity, and Roux-en-Y gastric bypass surgery. Medications are allopurinol, nifedipine, calcium, vitamin D, iron, and multivitamins.On physical examination, pulse rate is 101/min; other vital signs are normal. BMI is 32. The remainder of the examination is unremarkable.Urine microscopy is shown.Noncontrast CT scan shows a 3-mm stone on the left kidney.",
+  "question_text": "A 45-year-old man is evaluated in the emergency department for a 3-day history of flank pain and hematuria. Medical history includes gout, hypertension, obesity, and Roux-en-Y gastric bypass surgery. Medications are allopurinol, nifedipine, calcium, vitamin D, iron, and multivitamins.On physical examination, pulse rate is 101/min; other vital signs are normal. BMI is 32. The remainder of the examination is unremarkable.Laboratory studies:UrinalysispH 6.2; 1+ protein; numerous erythrocytesUrine microscopy is shown.Noncontrast CT scan shows a 3-mm stone on the left kidney.",
   "question_stem": "Which of the following is the most likely composition of this patient's kidney stone?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely composition of this patient's kidney stone is calcium oxalate (Option A). Seventy percent to 80% of kidney stones contain calcium, most of which are composed of calcium oxalate. Under urine microscopy, calcium oxalate crystals are either dumbbell (monohydrate) or envelope shaped (dihydrate), as seen in the image. Hyperoxaluria is a risk factor for calcium oxalate stone formation. Hyperoxaluria can be primary (genetic) or secondary. Secondary causes include increased dietary oxalate intake (e.g., legumes, spinach, and other leafy greens) or absorption (such as in patients taking the weight loss drug orlistat); decreased calcium in the gastrointestinal tract (as occurs with a low-calcium diet); or binding of calcium to fatty acids (as occurs with malabsorption syndromes). This patient underwent Roux-en-Y gastric bypass surgery, which is associated with development of nephrolithiasis. Because of malabsorption, increased amounts of fatty acids in the intestines bind to calcium; the decreased amount of available calcium lessens calcium oxalate binding in the gut. This results in increased oxalate intestinal absorption, which in turn results in elevated urinary oxalate levels. Patients who have undergone Roux-en-Y gastric bypass surgery often have lower urine volume as well as decreased citrate excretion; combined with hyperoxaluria, these patients are at increased risk for calcium oxalate stone formation. In patients who have undergone Roux-en-Y gastric bypass and have nephrolithiasis, prevention includes high fluid intake to maintain adequate urine output, a low-fat and low-oxalate diet, oral calcium to bind oxalate in the gut (preferably timed with meals), and possibly potassium citrate or potassium bicarbonate to alkalinize the urine.Calcium phosphate stones (Option B) are needle shaped. They occur when the urine pH is persistently elevated (>6.0-6.5) and are associated with distal renal tubular acidosis, hyperparathyroidism, and carbonic anhydrase inhibitors that increase urine pH, such as acetazolamide or topiramate.Cystine stones (Option C), which represent less than 1% of stones, are hexagonal shaped and develop as a result of cystinuria, a rare autosomal recessive disease.Uric acid stones comprise 10% of stones, (Option D) are rhomboid or barrel shaped, and develop in the presence of acidic urine (pH <5.5). They are more common in hot, dry areas because of increased urine concentration.",
+  "critique_links": [],
   "key_points": [
     "Patients who undergo Roux-en-Y gastric bypass surgery are at increased risk for calcium oxalate kidney stones because of hyperoxaluria, low urine volumes, and low citrate levels."
   ],
@@ -59,5 +60,32 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:45.020380-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "npfig24200",
+        "file": "figures/npfig24200.e6ea477fec73c236db5ea8f2dfb386d4.jpg",
+        "title": "Urine Microscopy Showing Calcium Oxalate Kidney Stone",
+        "short_title": "Microscopic Calcium Oxalate Stone",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 710,
+        "height": 644
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.712644-06:00"
 }

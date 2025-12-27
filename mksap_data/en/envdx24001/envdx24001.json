@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 30-year-old woman with confirmed hyperthyroidism is further evaluated with radioactive iodine uptake and scan showing 38% uptake.Thyroid scan is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is Graves disease (Option A). Radioiodine uptake is elevated in Graves disease (>30%), and this patient's thyroid scan shows diffuse uptake, consistent with the diagnosis of Graves hyperthyroidism. Graves disease is characterized by a diffusely hyperactive thyroid gland with resultant excess thyroid hormone production and subsequent suppression of thyroid-stimulating hormone secretion by the pituitary gland.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:16.911342-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "enfig24600",
+        "file": "figures/enfig24600.e5bddf4e682032c376067f03387781ac.jpg",
+        "title": "Thyroid Scan Showing Diffuse Radioactive Iodine Uptake",
+        "short_title": "Thyroid Scan Showing Diffuse Radioactive Iodine Uptake",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 325,
+        "height": 307
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.394687-06:00"
 }

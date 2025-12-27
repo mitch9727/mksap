@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 64-year-old man is evaluated in the emergency department 45 minutes after onset of palpitations and chest discomfort with associated dyspnea. ECG on presentation shows atrial fibrillation with ST-segment depression in leads I, aVL, and V2 to V6. He is given sublingual nitroglycerin, intravenous unfractionated heparin, aspirin, and a loading dose of clopidogrel, with complete relief of chest discomfort. Sixty minutes later, he has a 30-second episode of self-limited regular wide-complex tachycardia with associated presyncope. Medical history is notable for coronary artery disease and stent placement to the left anterior descending artery for stable angina 4 years ago. Outpatient medications are aspirin, metoprolol, and rosuvastatin.On physical examination, blood pressure is 100/82 mm Hg, pulse rate is 101/min, and oxygen saturation is 96% breathing oxygen 2 L/min by nasal cannula. Central venous pressure is elevated. Cardiopulmonary examination reveals an irregularly irregular tachycardic rhythm and bibasilar crackles. There is no lower extremity edema.Repeat ECG after resolution of the wide-complex tachycardia is unchanged.",
+  "question_text": "A 64-year-old man is evaluated in the emergency department 45 minutes after onset of palpitations and chest discomfort with associated dyspnea. ECG on presentation shows atrial fibrillation with ST-segment depression in leads I, aVL, and V2 to V6. He is given sublingual nitroglycerin, intravenous unfractionated heparin, aspirin, and a loading dose of clopidogrel, with complete relief of chest discomfort. Sixty minutes later, he has a 30-second episode of self-limited regular wide-complex tachycardia with associated presyncope. Medical history is notable for coronary artery disease and stent placement to the left anterior descending artery for stable angina 4 years ago. Outpatient medications are aspirin, metoprolol, and rosuvastatin.On physical examination, blood pressure is 100/82 mm Hg, pulse rate is 101/min, and oxygen saturation is 96% breathing oxygen 2 L/min by nasal cannula. Central venous pressure is elevated. Cardiopulmonary examination reveals an irregularly irregular tachycardic rhythm and bibasilar crackles. There is no lower extremity edema.Laboratory studies:High-sensitivity troponin T25 ng/L (25 μg/L)HRepeat ECG after resolution of the wide-complex tachycardia is unchanged.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management of this patient with non–ST-elevation acute coronary syndrome (NSTE-ACS) is urgent coronary angiography (Option D). The appropriateness of coronary artery arteriography in patients with type I NSTE-ACS is determined by clinical assessment augmented by use of prognostic risk scores (TIMI [Thrombolysis in Myocardial Infarction) and GRACE [Global Registry of Acute Coronary Events]). When needed, timing ranges from urgent (within 2 hours) for patients with refractory chest pain, hemodynamic instability, heart failure, or ventricular arrhythmias to within 24 hours in high-risk patients and 24 to 72 hours for patients with intermediate risk. Stable low-risk patients may be managed with coronary angiography or an ischemia-guided strategy, undergoing noninvasive stress testing to determine the need for coronary arteriography. This patient presents with NSTE-ACS with high-risk features, including diffuse ischemic changes on ECG, electrical instability with symptomatic ventricular tachycardia, and pulmonary edema. Despite appropriate medical therapy, he has recurrent ventricular dysrhythmia, suggesting ongoing myocardial ischemia. Urgent invasive coronary angiography and consideration of revascularization are indicated.This patient with ACS has resting tachycardia in the setting of hypotension and evidence of pulmonary edema, a constellation of findings concerning for acute infarct-related cardiogenic shock. Treatment of the tachycardia with β-blockade or the calcium channel blocker diltiazem (Option A) could potentially worsen the shock state and therefore is not indicated. Care directed at urgent management of ischemia with revascularization is most appropriate, with optimization of medical therapy based on subsequent hemodynamic state, symptoms, and comorbid conditions.Although the associated rapid ventricular response may be exacerbating the relative hypotension seen in this patient with atrial fibrillation, cardioversion (Option B) will neither relieve the precipitating ischemic condition nor reduce the risk for recurrent ventricular tachycardia. Immediate coronary angiography is warranted.Thrombolytic reperfusion therapy with an agent such as tenecteplase (Option C) is indicated for management of ST-segment elevation myocardial infarction if primary percutaneous coronary intervention is not available within 120 minutes of first medical contact. It is not, however, indicated in NSTE-ACS, even in cases of a markedly abnormal ECG with evidence of diffuse ischemia, as in this case.",
+  "critique_links": [],
   "key_points": [
     "The timing of and need for coronary artery arteriography in patients with type I non–ST-elevation acute coronary syndrome (NSTE-ACS) is determined by clinical assessment augmented by use of prognostic risk scores (TIMI [Thrombolysis in Myocardial Infarction] and GRACE [Global Registry of Acute Coronary Events]).",
     "Patients with NSTE-ACS and high-risk factors, such as ongoing chest pain, hemodynamic instability, ventricular arrhythmias, or heart failure, should undergo urgent coronary arteriography."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:48:35.927154-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.428268-06:00"
 }

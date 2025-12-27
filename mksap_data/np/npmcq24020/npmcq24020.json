@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 71-year-old man is evaluated for a 4-month history of lower extremity edema. He has no other medical problems and takes no medications.On physical examination, blood pressure is 150/80 mm Hg; other vital signs are normal. There is 2-mm pitting edema to the mid shins bilaterally. The remainder of the examination is unremarkable.Kidney biopsy shows membranous nephropathy with negative staining for the phospholipase A2 receptor antigen on immunofluorescence.",
+  "question_text": "A 71-year-old man is evaluated for a 4-month history of lower extremity edema. He has no other medical problems and takes no medications.On physical examination, blood pressure is 150/80 mm Hg; other vital signs are normal. There is 2-mm pitting edema to the mid shins bilaterally. The remainder of the examination is unremarkable.Laboratory studies:Albumin2.7 g/dL (27 g/L)LTotal cholesterol310 mg/dL (8.0 mmol/L)Creatinine1.0 mg/dL (88.4 µmol/L)24-Hour urine protein excretion9000 mg/dHKidney biopsy shows membranous nephropathy with negative staining for the phospholipase A2 receptor antigen on immunofluorescence.",
   "question_stem": "Which of the following is the most appropriate next step in evaluation?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management is age- and risk factor–appropriate cancer screening (Option A). The initial step in managing a patient with newly diagnosed membranous nephropathy (MN) is to evaluate for secondary forms of the disease, which occur in approximately 25% of patients and include MN secondary to malignancy, lupus, hepatitis, infections, and certain drugs. Identifying the etiology of secondary MN is important because MN often remits when the underlying disease is treated. The absence of phospholipase A2 receptor (PLA2R) antigen staining on kidney biopsy indicates a secondary form of MN is more likely. Secondary forms of MN correlate with age (e.g., lupus MN is more likely in young individuals). Cancer screening is particularly important in evaluating secondary forms of MN in patients aged >65 years. In up to 25% of these patients, a malignancy is detected within 1 year of diagnosis. This 71-year-old man with newly diagnosed MN should undergo age- and risk factor–appropriate cancer screening, including prostate and colorectal cancer screening.The M-type PLA2R is the specific podocyte antigen responsible for eliciting immune complex formation with circulating autoantibodies in the majority of primary MN cases. Anti-PLA2R antibodies are detected in approximately 75% of patients with primary MN and are not expected to be found in secondary forms of MN. A negative staining on biopsy (which is a more specific test than serum antibody assays) for PLA2R raises suspicion for a secondary form of the disease and does not require serologic testing (Option B) for confirmation.Genetic testing (Option C) is not recommended for this patient. Genetic forms of MN, which typically present at a much younger age than this patient, are rare and account for <10% of all cases.Renal vein thromboses (RVTs) have been reported in all forms of the nephrotic syndrome but have the highest prevalence in MN. Acute RVT typically presents with symptoms of renal infarction, including flank pain and microscopic or macroscopic hematuria. Bilateral RVT should be suspected in newly diagnosed cases of MN with acute kidney injury. In the absence of symptoms of infarction or acute kidney injury, as is the case for this patient, routine screening for RVT is not recommended. In patients with suspected RVT, CT angiography or magnetic resonance venography is considered more sensitive for diagnosis than kidney ultrasonography with Doppler (Option D).",
+  "critique_links": [],
   "key_points": [
     "Testing for phospholipase A2 receptor (PLA2R) can help to distinguish primary from secondary forms of membranous nephropathy; a negative PLA2R antigen staining on biopsy raises suspicion for a secondary form of the disease and does not require confirmatory serologic antibody testing.",
     "Age- and risk factor–appropriate cancer screening is particularly important in evaluating secondary forms of membranous nephropathy in patients aged >65 years."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:34.104024-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.661604-06:00"
 }

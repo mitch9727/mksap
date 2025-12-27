@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 32-year-old woman is evaluated during a routine follow-up visit after undergoing living-related donor kidney transplantation 3 months ago. She reports increased muscle cramps since transplantation. Medical history includes end-stage kidney disease, lupus nephritis, hypertension, and gastroesophageal reflux disease. She does not drink alcohol. Medications are losartan, pantoprazole, prednisone, mycophenolate mofetil, and tacrolimus.On physical examination, vital signs are normal. The remainder of the examination is unremarkable.",
+  "question_text": "A 32-year-old woman is evaluated during a routine follow-up visit after undergoing living-related donor kidney transplantation 3 months ago. She reports increased muscle cramps since transplantation. Medical history includes end-stage kidney disease, lupus nephritis, hypertension, and gastroesophageal reflux disease. She does not drink alcohol. Medications are losartan, pantoprazole, prednisone, mycophenolate mofetil, and tacrolimus.On physical examination, vital signs are normal. The remainder of the examination is unremarkable.Laboratory studies:Blood urea nitrogen18 mg/dL (6.4 mmol/L)Calcium9.4 mg/dL (2.4 mmol/L)Creatinine1.8 mg/dL (159.1 µmol/L)HElectrolytesSodium138 mEq/L (138 mmol/L)Potassium3.4 mEq/L (3.4 mmol/L)LChloride106 mEq/L (106 mmol/L)Bicarbonate22 mEq/L (22 mmol/L)LGlucose118 mg/dL (6.5 mmol/L)HMagnesium1.2 mg/dL (0.50 mmol/L)LFractional excretion of magnesium10%H",
   "question_stem": "What is the most likely cause of this patient's hypomagnesemia?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most likely cause of this patient's hypomagnesemia is tacrolimus (Option E). Fifty percent to 70% of filtered magnesium is reabsorbed in the thick ascending limb of Henle through the paracellular pathway and driven by the positive electrochemical gradient established by the Na-K-2Cl transporter. An additional 10% is reabsorbed intracellularly in the distal convoluted tubule via the TRMP6 channel. More than 10 mg of magnesium in a 24-hour urine collection or a fractional excretion of magnesium (FEMg) >2% suggests renal wasting in the setting of hypomagnesemia. Magnesium wasting can be caused by numerous drugs, including diuretics, aminoglycosides, cisplatin, cetuximab, and calcineurin inhibitors, particularly tacrolimus. Tacrolimus is a common cause of hypomagnesemia in kidney transplant recipients following transplantation and has been reported in up to 43% of patients. Magnesium levels appear to be inversely related to the tacrolimus level. The exact mechanism of the renal wasting remains unclear but appears to be related to reduced expression of the magnesium channel TRPM6. This patient's FEMg of 10% is consistent with renal magnesium wasting due to tacrolimus.If severe, chronic kidney disease (Option A) can limit the kidneys' ability to handle a magnesium load and result in hypermagnesemia. This patient has hypomagnesemia, which excludes chronic kidney disease as a cause.Although hypomagnesemia is a cause of renal potassium wasting and hypokalemia (Option B), hypokalemia does not cause magnesium wasting.Losartan (Option C), an angiotensin receptor blocker, will lower aldosterone levels but has no effect on magnesium levels. Thus, it would not be expected to cause hypomagnesemia in this patient.Proton pump inhibitors such as pantoprazole (Option D), which this patient is taking, can cause hypomagnesemia. However, the mechanism is secondary to decreased gastrointestinal absorption, and the FEMg is usually less than 2%. This patient's FEMg is 10%, which makes pantoprazole an unlikely cause of hypomagnesemia.",
+  "critique_links": [],
   "key_points": [
     "More than 10 mg of magnesium in a 24-hour urine collection or a fractional excretion of magnesium >2% suggests renal wasting in the setting of hypomagnesemia.",
     "Magnesium renal wasting can be caused by numerous drugs, including diuretics, aminoglycosides, cisplatin, cetuximab, and calcineurin inhibitors, particularly tacrolimus."
@@ -63,5 +64,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:13.856374-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.857347-06:00"
 }

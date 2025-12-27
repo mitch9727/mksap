@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 71-year-old woman is evaluated for restlessness, involuntary facial and oral movements, and difficulty with ambulation over the past 3 months. Medical history is notable for type 2 diabetes mellitus, epilepsy, dyslipidemia, and schizophrenia. Medications are metformin, carbamazepine, atorvastatin, and aripiprazole.On physical examination, vital signs are within normal limits. Examination reveals repetitive stereotyped oral and facial movements, cogwheel rigidity, bradykinesia, and a slow, shuffling gait. She is restless and constantly crosses her legs and rocks her body.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "This patient has developed tardive dyskinesia, akathisia, and parkinsonism, and the most appropriate next step in her management is to discontinue aripiprazole (Option C). Tardive dyskinesia is an extrapyramidal complication of dopamine receptor–blocking medications. It is associated with characteristic choreiform and dystonic craniofacial movements, which often involve other body parts, such as the neck and trunk. Other movements, such as tremor, myoclonus, and akathisia (restlessness), can also be part of a tardive syndrome. The risk for tardive dyskinesia is highest with typical antipsychotic agents, but many atypical antipsychotic and antiemetic agents can also cause it. All patients receiving these agents must be warned about the risk for developing this complication. Removing the offending medication is the first step in treatment. Symptoms of dyskinesia, however, can take months to resolve or may become permanent. Longer duration and higher doses of medication exposure, older age, and female sex increase the risk for irreversibility. Aripiprazole is the likely cause of this patient's movement disorder and should be discontinued.In addition to dyskinesia and akathisia, this patient has evidence of parkinsonism, with bradykinesia, cogwheel rigidity, and shuffling gait, which is also likely secondary to the aripiprazole. Levodopa (Option A), however, is not effective in drug-induced parkinsonism. Unlike medication-induced dyskinesia and akathisia, neuroleptic-induced parkinsonism is typically reversible; therefore, removing the offending medication should be prioritized.Valbenazine (Option B) and other monoamine depleters, such as deutetrabenazine or tetrabenazine, can be considered for suppressing antipsychotic-induced dyskinesia if the movements persist longer than a few months after removal of the offending drug and become tardive. In this patient, starting valbenazine before removing aripiprazole could aggravate her parkinsonism and increase the risk for permanent dyskinesia.Carbamazepine (Option D) is not associated with a significant risk for causing parkinsonism, akathisia, or tardive dyskinesia; removing it would be inappropriate for this patient. Among antiseizure medications, valproate is more likely to cause medication-induced tremor and parkinsonism.A dopamine transporter scan (Option E) is a single-photon emission CT scan of the head that can be used as a confirmatory test in patients with neurodegenerative parkinsonism. This test is normal in patients with medication-induced parkinsonism and may help determine the cause of parkinsonism. However, this patient has dyskinesia in addition to parkinsonism; medication-induced dyskinesia, unlike parkinsonism, carries the risk for becoming permanent and should prompt removal of the neuroleptic agent.",
+  "critique_links": [],
   "key_points": [
     "The emergence of parkinsonism and hyperkinetic movement disorders in the presence of dopamine-blocking antipsychotic or antiemetic agents should raise concern for medication-induced movement disorders.",
     "The first step in treating medication-induced movement disorders is removing the offending medication."
@@ -61,5 +62,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:50:05.214296-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:31.204072-06:00"
 }

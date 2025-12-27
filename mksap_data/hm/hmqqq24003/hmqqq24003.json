@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 66-year-old woman is evaluated during a follow-up visit for recently diagnosed anemia. She has no family history of anemia. She has otherwise been well and takes no medications.On physical examination, vital signs are normal. Icterus is noted. Splenomegaly is present. The remainder of the examination is normal.Direct antiglobulin test is strongly positive for IgG and weakly positive for C3. Peripheral blood smear shows reticulocytosis and spherocytes.",
+  "question_text": "A 66-year-old woman is evaluated during a follow-up visit for recently diagnosed anemia. She has no family history of anemia. She has otherwise been well and takes no medications.On physical examination, vital signs are normal. Icterus is noted. Splenomegaly is present. The remainder of the examination is normal.Laboratory studies:Hemoglobin8.1 g/dL (81 g/L)LReticulocyte count6.4% of erythrocytesHDirect antiglobulin test is strongly positive for IgG and weakly positive for C3. Peripheral blood smear shows reticulocytosis and spherocytes.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is warm autoimmune hemolytic anemia (WAIHA; Option D). Autoimmune hemolytic anemias are characterized by the presence of antibodies directed toward antigens on the surface of erythrocytes; they are further classified by the type of immunoglobulin involved and the resulting tendency of hemolysis to occur in warm or cold environments. Direct IgG optimally binds erythrocytes at temperatures of 37.0 °C (98.6 °F), causing WAIHA. WAIHA is characterized by insidious onset of anemia, jaundice, and splenomegaly and a peripheral blood smear showing spherocytes. In addition, the direct antiglobulin test (DAT) is often strongly positive for IgG and negative or weakly positive for complement. This patient has splenomegaly, a peripheral blood smear showing spherocytes, and a DAT that is strongly positive for IgG and weakly positive for C3, all of which are characteristic of WAIHA, which makes it the most likely diagnosis.Direct IgM binds more effectively at temperatures colder than 32.0 °C (89.6 °F), causing cold agglutinin disease (Option A). In cold agglutinin disease, the DAT is negative for IgG and positive for complement, because most cold agglutinins are IgM antibodies, which fix complement. Other cold-induced symptoms, such as Raynaud phenomenon and acrocyanosis, may be seen with cold agglutinin disease. This patient lacks any symptoms typically seen with cold agglutinin disease and has a DAT that is strongly positive for IgG and only weakly positive for C3, all of which are inconsistent with a diagnosis of cold agglutinin disease.Glucose-6-phosphate dehydrogenase (G6PD) deficiency (Option B) is the most common X-linked hereditary erythrocyte enzyme disorder. Certain ethnic groups, such as Kurdish Jews, Sardinians, and those of African ancestry, are affected with a global distribution. Acute hemolytic anemia is seen with oxidative stress induced by medications, fava beans, and illness in patients with this condition. This patient's positive DAT and peripheral blood smear do not support the diagnosis of G6PD deficiency.Hereditary spherocytosis (Option C) is characterized by a personal or family history of anemia, jaundice, splenomegaly, or gallstones; spherocytes on the peripheral blood smear; and a negative DAT result. The positive DAT result helps differentiate WAIHA from hereditary spherocytosis, although the peripheral blood smear may be similar in both conditions.",
+  "critique_links": [],
   "key_points": [
     "Warm autoimmune hemolytic anemia is characterized by insidious onset of anemia, jaundice, and splenomegaly and a peripheral blood smear showing spherocytes; the direct antiglobulin test (DAT) is often strongly positive for IgG and negative or weakly positive for complement.",
     "In cold agglutinin disease, the DAT is negative for IgG and positive for complement."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.843570-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.038079-06:00"
 }

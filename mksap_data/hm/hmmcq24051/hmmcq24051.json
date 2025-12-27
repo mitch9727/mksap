@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 23-year-old man undergoes follow-up evaluation for sickle cell disease. He has approximately four vaso-occlusive pain events annually and has received multiple transfusions of packed red blood cells. His baseline hemoglobin level is approximately 7 g/dL (70 g/L). His only medication is hydroxyurea.On physical examination, vital signs and other findings are normal.",
+  "question_text": "A 23-year-old man undergoes follow-up evaluation for sickle cell disease. He has approximately four vaso-occlusive pain events annually and has received multiple transfusions of packed red blood cells. His baseline hemoglobin level is approximately 7 g/dL (70 g/L). His only medication is hydroxyurea.On physical examination, vital signs and other findings are normal.Laboratory studies:Hemoglobin7.3 g/dL (73 g/L)LLeukocyte count4300/µL (4.3 × 109/L)Platelet count155,000/µL (155 × 109/L)Ferritin1200 ng/mL (1200 μg/L)H",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Deferasirox (Option A) is the most appropriate treatment for this patient with sickle cell disease (SCD) and secondary iron overload. Secondary iron overload can occur in persons requiring chronic transfusions, as in those with hemoglobinopathies (thalassemias, SCD) or bone marrow failure with ineffective erythropoiesis. Overt iron overload can be seen after transfusion of more than 10 units of blood, although some patients may exhibit symptoms earlier. Patients who receive frequent transfusions should be monitored for evidence of iron overload with serial ferritin level measurements. Iron chelation is the mainstay of treatment for patients with secondary iron overload. It is initiated when the serum ferritin level exceeds 1000 ng/mL (1000 μg/L), after approximately 10 to 12 units of blood have been transfused, or when evidence of cardiac or hepatic deposition is seen on MRI. Iron chelators include parenteral deferoxamine or oral agents such as deferasirox and deferiprone, which are convenient and effective options. This patient has significant iron overload with a serum ferritin level greater than 1000 ng/mL (1000 μg/L). He should receive chelation therapy.Erythropoietin (Option B) is appropriate for treating anemia in certain patients with myelodysplastic syndrome or advanced kidney disease. It is not indicated in patients with SCD because further stimulation of erythrocyte precursors will not lead to the production of functional erythrocytes.A blood transfusion (Option C) is not indicated in this patient. Although this patient has severe anemia, his hemoglobin level remains at baseline. Unnecessary transfusions should be avoided in all patients, especially those with SCD. In addition to the general risks of blood transfusion, transfusions in patients with SCD may worsen iron overload and potentially stimulate the production of erythrocyte alloantibodies, increasing the risk of hemolytic or delayed hemolytic transfusion reactions and making it difficult to identify compatible units for when transfusion is indicated.Although phlebotomy (Option D) is used to manage patients with primary hemochromatosis and iron overload, it is contraindicated in patients who are transfusion dependent because of existing anemia. This patient has underlying SCD, and he should not undergo phlebotomy.",
+  "critique_links": [],
   "key_points": [
     "Chelation therapy should be instituted in patients requiring chronic blood transfusions when the serum ferritin level exceeds 1000 ng/mL (1000 μg/L), after approximately 10 to 12 units of blood have been transfused, or when evidence of cardiac or hepatic deposition is seen on MRI.",
     "Patients requiring chronic blood transfusions should be monitored for evidence of iron overload with serial ferritin level measurements."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:36:59.164649-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.976444-06:00"
 }

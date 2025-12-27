@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 36-year-old woman is evaluated for severe, unrelenting headache.Funduscopic findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is papilledema (Option D). This image shows typical features of papilledema, including an elevated optic disc and indistinct disc margins. Early papilledema causes blurring of the upper and lower nasal disc margins. Later, the physiologic cup is obscured. With progression, blurring extends to the diverging vessels and veins become distended and pulseless. As the disc surfaces elevate, the emerging vessels can also be seen to bend sharply as they pass over the elevated disc. Papilledema is caused by increased intracranial pressure, such as occurs with brain tumor, obstructive hydrocephalus from any cause, cerebral venous thrombosis, idiopathic intracranial hypertension (formerly pseudotumor cerebri), and occasionally hypertensive emergency.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:42.625604-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "nrfig24620",
+        "file": "figures/nrfig24620.b0386e0506948085afd8241072258a35.jpg",
+        "title": "Funduscopic Findings of Papilledema",
+        "short_title": "stem Funduscopic Findings of Papilledema",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 793
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.519905-06:00"
 }

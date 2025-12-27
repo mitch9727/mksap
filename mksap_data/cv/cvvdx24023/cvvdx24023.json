@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 35-year-old man is evaluated in the emergency department for rapid heart rate and dizziness. He was recently started on levofloxacin for community-acquired pneumonia. Medical history is significant for depression, for which he takes amitriptyline.A telemetry rhythm strip is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient's telemetry rhythm strip demonstrates torsades de pointes (Option C), a polymorphic ventricular tachycardia. Torsades de pointes is associated with QT interval prolongation and is characterized by an undulating QRS pattern that seems to twist across the baseline. This tracing also shows the initiation of ventricular tachycardia with a premature ventricular complex occurring during the repolarization phase of the previous QRS complex (“R-on-T” event).Macrolide and quinolone antibiotics may prolong the QT interval, particularly in combination with other QT-prolonging medications, such as some antidepressants and antipsychotics. Alternative antibiotics should be considered in patients at risk for torsades de pointes, including those with a history of a long QT interval or who are receiving medications that prolong the QT interval.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.397468-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24627",
+        "file": "figures/cvfig24627.a0f3b94ac99665d794b0cb2beb13af13.jpg",
+        "title": "ECG Showing Torsades de Pointes",
+        "short_title": "stem ECG Showing Torsades de Pointes",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 658,
+        "height": 128
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.893170-06:00"
 }

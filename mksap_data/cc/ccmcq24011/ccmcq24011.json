@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 65-year-old woman is evaluated in the emergency department after hypotension was noted during blood pressure screening at a community health fair. She is asymptomatic. Medical history is significant for cirrhosis complicated by intermittent hepatic encephalopathy. Her only medication is lactulose.On physical examination, blood pressure is 82/50 mm Hg and pulse rate is 79/min; other vital signs are normal, and no orthostatic changes are noted. Mental status is normal. Skin turgor is normal with no mottling. Capillary refill time is 2 seconds. Cardiac and pulmonary examinations are normal. The abdomen is flat and nontender.",
+  "question_text": "A 65-year-old woman is evaluated in the emergency department after hypotension was noted during blood pressure screening at a community health fair. She is asymptomatic. Medical history is significant for cirrhosis complicated by intermittent hepatic encephalopathy. Her only medication is lactulose.On physical examination, blood pressure is 82/50 mm Hg and pulse rate is 79/min; other vital signs are normal, and no orthostatic changes are noted. Mental status is normal. Skin turgor is normal with no mottling. Capillary refill time is 2 seconds. Cardiac and pulmonary examinations are normal. The abdomen is flat and nontender.Laboratory studies:Hemoglobin12.1 g/dL (121 g/L)Leukocyte count4500/µL (4.5 × 109/L)C-reactive protein0.7 mg/dL (7.0 mg/L)Lactate1.4 mEq/L (1.4 mmol/L)",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management in this patient with hypotension and without evidence of shock is no further evaluation (Option D). Shock occurs when systemic tissue perfusion is insufficient to meet the body's cellular metabolic demands and usually manifests as hypotension and organ dysfunction. However, the presence of hypotension alone is not diagnostic of shock. Instead, blood pressure should be considered in the context of other findings that suggest end-organ hypoperfusion, such as altered mental status, skin mottling, increased capillary refill time, decreased urine output, tachycardia, and tachypnea. Elevated serum lactate and creatinine levels, although both nonspecific, also suggest hypoperfusion. In patients with cirrhosis, hypotension in the absence of shock is common. The reasons are likely multifactorial and include splanchnic and systemic vasodilation and a decreased responsiveness to intrinsic catecholamines. This patient presents with hypotension but is otherwise asymptomatic, without evidence of end-organ damage or hypoperfusion; there is no evidence of shock, and reassurance without further evaluation is appropriate.Echocardiography (Option A) is an appropriate test when cardiogenic shock secondary to pump failure, pericardial tamponade, or acute valvular disease is suspected. This patient is asymptomatic and without evidence of cardiac disease on examination; echocardiography is not indicated.Lactated Ringer solution (Option B) is not indicated for this patient but would be appropriate treatment for hypovolemia as well as many forms of shock, including septic shock. This patient is asymptomatic and has no findings to suggest hypovolemia or shock. Administering crystalloids has significant negative effects in patients with cirrhosis who are euvolemic, including worsening ascites or lower extremity edema, and should be avoided when not clearly indicated.The initiation of vasopressor therapy with vasopressin (Option C) is not indicated in this patient who is not in shock. Vasopressin is a potent arteriolar vasoconstrictor that is useful in shock to augment the effect of other vasopressor medications. However, because of its focused effect on systemic vascular resistance, cardiac output may decrease with vasopressin, and high doses can lead to myocardial ischemia. In addition, treatment of most forms of shock initially focuses on fluid resuscitation rather than administration of vasopressor therapy. Vasopressin is not indicated in this patient.",
+  "critique_links": [],
   "key_points": [
     "Hypotension alone is not diagnostic of shock, and blood pressure should be considered in the context of other clinical findings that may suggest end-organ hypoperfusion.",
     "Findings that suggest hypoperfusion in patients with hypotension include altered mental status, skin mottling, increased capillary refill time, decreased urine output, tachycardia, and tachypnea; elevated serum creatinine and lactate levels may also be present."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:48.354766-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.407523-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 62-year-old woman is evaluated for recurrent bronchitis. She has a daily cough productive of mucopurulent and tenacious sputum and dyspnea. She reports one previous hospitalization for hemoptysis.Chest CT scan is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This chest CT scan reveals changes of bronchiectasis (irreversible dilatation of the bronchi) (Option A). Multiple dilated and thick-walled bronchi are seen (yellow arrows). When the diameter of the bronchus in cross-section is larger than the adjacent pulmonary artery, a signet ring appearance is present. This is seen as a round or oval opacity representing a dilated bronchus and a smaller adjacent opacity representing its pulmonary artery. Also notable is the lack of normal tapering in diameter of many bronchi when seen in longitudinal section (white arrows). Mucus-filled bronchi also are seen (dashed arrows). Bronchiectasis may result from damage to the airway from chronic infection, and the consequent difficulty in clearing mucus from dilated bronchi may perpetuate the process by allowing a nidus for colonization and chronic infection.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/pmfig24669.f1a069e73c8fb1e1b7ed1e1ff96c2dcf.jpg",
-      "figures/pmfig24668.0a82b6b78f09b2634562a2e0e6613836.jpg"
+      "figures/pmfig24668.0a82b6b78f09b2634562a2e0e6613836.jpg",
+      "figures/pmfig24669.f1a069e73c8fb1e1b7ed1e1ff96c2dcf.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.532477-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24668",
+        "file": "figures/pmfig24668.0a82b6b78f09b2634562a2e0e6613836.jpg",
+        "title": "CT Scan Showing Findings of Bronchiectasis",
+        "short_title": "stem CT Scan Showing Findings of Bronchiectasis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 519,
+        "height": 508
+      },
+      {
+        "figure_id": "pmfig24669",
+        "file": "figures/pmfig24669.f1a069e73c8fb1e1b7ed1e1ff96c2dcf.jpg",
+        "title": "CT Scan Showing Findings of Bronchiectasis",
+        "short_title": "critique CT Scan Showing Findings of Bronchiectasis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 883
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.295902-06:00"
 }

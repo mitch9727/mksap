@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 92-year-old woman is brought to the emergency department after a neighbor found her on the ground.On physical examination, vital signs are normal. The patient is alert but disoriented. Cardiac examination reveals no precordial rub. Lungs are clear to auscultation bilaterally. There is a large ecchymosis over the left posterior hip and lower flank. There is limited range of motion and pain on internal rotation of the left hip. No lower extremity edema is noted. No asterixis is present.A 12-lead ECG reveals normal sinus rhythm without ST- or T-wave changes.",
+  "question_text": "A 92-year-old woman is brought to the emergency department after a neighbor found her on the ground.On physical examination, vital signs are normal. The patient is alert but disoriented. Cardiac examination reveals no precordial rub. Lungs are clear to auscultation bilaterally. There is a large ecchymosis over the left posterior hip and lower flank. There is limited range of motion and pain on internal rotation of the left hip. No lower extremity edema is noted. No asterixis is present.Laboratory studies:Hemoglobin11 g/dL (110 g/L)L6 months ago10.5 g/dL (105 g/L)LBlood urea nitrogen50 mg/dL (17.9 mmol/L)HCreatine kinase15,000 U/LHCreatinine3.0 mg/dL (265.2 µmol/L)H6 months ago0.5 mg/dL (44.2 µmol/L)LPotassium6.0 mEq/L (6.0 mmol/L)HBicarbonate16 mEq/L (16 mmol/L)LUrinalysis with microscopySpecific gravity 1.011; trace protein; 2+ blood; no leukocyte esterase or nitrites; no cells or castsA 12-lead ECG reveals normal sinus rhythm without ST- or T-wave changes.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment is intravenous 0.9% saline (Option D). This patient most likely has acute kidney injury (AKI) due to rhabdomyolysis. In rhabdomyolysis, myoglobin is released in the circulation from damaged skeletal muscle, causing AKI through intravascular volume depletion, renal vasoconstriction, direct proximal tubular injury, and tubular obstruction. Prevention and management of AKI in the setting of rhabdomyolysis involves aggressive intravenous isotonic fluid infusion aimed at maintaining a urine output >200 to 300 mL/h. Although limited studies suggest that alkalinization of the urine with intravenous sodium bicarbonate to increase the urine pH to >6.5 may prevent tubular cast formation, there is no evidence that such alkaline diuresis either prevents rhabdomyolysis-related AKI or hastens recovery as compared with 0.9% saline. This patient has findings consistent with rhabdomyolysis, such as an elevated serum creatinine level, an elevated creatine kinase level >5000 U/L, and a urine dipstick positive for blood (because of myoglobin heme pigment) without erythrocytes on urinary microscopic examination. Treatment with intravenous 0.9% saline is indicated.Hemodialysis (Option A) may be necessary to treat patients with AKI with complications such as hyperkalemia, metabolic acidosis, or volume overload refractory to medical management or with uremic manifestations such as altered mental status, asterixis, or uremic pericarditis. Hyperkalemia is present in this patient, but not ECG changes, and medical management of hyperkalemia and metabolic acidosis have not yet been proven to be ineffective. The patient does not have evidence of asterixis or uremic cardiomyopathy such as a precordial rub. Hemodialysis is not indicated at this time.Intravenous albumin (Option B) is not the most appropriate treatment. This patient has rhabdomyolysis, for which isotonic crystalloid intravenous fluids are the treatment of choice.For patients with rhabdomyolysis, benefit has not been established for the use of loop diuretics, such as furosemide (Option C), and they may cause harm. Additionally, although diuretics may be required for the management of volume overload in the setting of AKI to avoid dialysis, this patient does not have evidence of volume overload on examination.",
+  "critique_links": [],
   "key_points": [
     "Prevention and management of acute kidney injury in the setting of rhabdomyolysis involves aggressive intravenous isotonic fluid infusion aimed at maintaining a urine output >200 to 300 mL/h."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:56.437356-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.758779-06:00"
 }

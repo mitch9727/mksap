@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 31-year-old man is hospitalized for nausea, epigastric discomfort, and weakness over the past 10 days, as well as jaundice and dark urine over the past 4 days. He does not have fevers, chills, or symptoms of gastrointestinal bleeding. He drinks a pint of vodka daily and recently has been drinking more heavily.On physical examination, temperature is 37.3 °C (99.2 °F), blood pressure is 112/73 mm Hg, and pulse rate is 106/min. He appears jaundiced and has proximal muscle wasting. The abdomen is distended, with shifting dullness. The liver edge is palpable 3 cm below the inferior costal margin and is tender.Laboratory studies:Hemoglobin14.3 g/dL (143 g/L)Leukocyte count12,800/μL (12.8 × 109/L)HINR1.9Albumin3.2 g/dL (32 g/L)LAlkaline phosphatase199 U/LHAlanine aminotransferase127 U/LHAspartate aminotransferase392 U/LHBilirubinTotal10.3 mg/dL (176.1 µmol/L)HDirect6.8 mg/dL (116.2 µmol/L)HCreatinine0.9 mg/dL (79.6 μmol/L)Sodium130 mEq/L (130 mmol/L)LAcute viral hepatitis panelNegativeModel for End-Stage Liver Disease (MELD) score is 22. Preliminary blood cultures are negative.Doppler ultrasound of the abdomen shows hepatomegaly with diffusely increased hepatic echogenicity, moderate ascites, splenomegaly, patent portal and hepatic veins, and no biliary ductal dilation.Diagnostic paracentesis is performed.Paracentesis studies:Leukocyte count900/µL (0.9 × 109/L) with 20% polymorphonuclear cellsAlbumin1.8 g/dL (18 g/L)",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment for this patient with alcoholic hepatitis is prednisolone (Option C). Alcoholic hepatitis is a distinct clinical syndrome of severe steatohepatitis on a background of chronic alcoholic liver disease. It is usually a clinical diagnosis based on history, physical examination, and laboratory findings in the setting of heavy alcohol use. As seen in this patient, typical manifestations include jaundice, abdominal discomfort, ascites, and tender hepatomegaly. Laboratory studies usually show elevated aspartate aminotransferase (AST) and alanine aminotransferase (ALT) levels, with an AST-to-ALT ratio greater than 2. Severity of alcoholic hepatitis can be determined by the Model for End-Stage Liver Disease (MELD) score. A MELD score greater than 20 defines severe alcoholic hepatitis, and these patients should receive treatment with prednisolone. Contraindications to prednisolone include active infection, upper gastrointestinal bleeding, severe kidney injury, concomitant liver disease (especially hepatitis C and B virus infections), and multiorgan failure, which are not present in this patient. Additionally, patients with severe alcoholic hepatitis, such as this patient, should also receive N-acetylcysteine.Ceftriaxone (Option A) is inappropriate because this patient has no evidence of bacterial infection. The threshold for diagnosis of spontaneous bacterial peritonitis based on ascitic fluid analysis is a polymorphonuclear leukocyte count of 250/μL or greater. Empiric use of antibiotics is not recommended in patients with alcoholic hepatitis.Meta-analyses of clinical trials have concluded that there may be short-term mortality benefit with glucocorticoid treatment, but not with pentoxifylline (Option B), for patients with alcoholic hepatitis. Pentoxifylline is not indicated in this case.Ursodeoxycholic acid (UDCA) (Option D) is not indicated. UDCA is used to treat primary biliary cholangitis but has no known role in the treatment of alcoholic liver disease, including alcoholic hepatitis.",
+  "critique_links": [],
   "key_points": [
     "A Model for End-Stage Liver Disease (MELD) score greater than 20 defines severe alcoholic hepatitis; in the absence of contraindications, patients with severe alcoholic hepatitis should receive prednisolone."
   ],
@@ -50,10 +51,36 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html",
+      "tables/inline_table_2.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.559409-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      },
+      {
+        "table_id": "inline_table_2",
+        "file": "tables/inline_table_2.html",
+        "title": "Paracentesis studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.711033-06:00"
 }

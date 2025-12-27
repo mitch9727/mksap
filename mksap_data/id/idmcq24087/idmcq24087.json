@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 33-year-old woman is admitted to the hospital for fever and excruciating left arm pain at the site of a recent insect bite, which she had been continuously scratching.On physical examination, temperature is 39.0 °C (102.0 °F), blood pressure is 88/60 mm Hg, pulse rate is 105/min, and respiration rate is 24/min. The left biceps is exquisitely tender, with associated warmth, edema, and violaceous hue. The skin surrounding the insect bite is excoriated, and crepitus is present.Laboratory studies:Hemoglobin10 g/dL (100 g/L)LLeukocyte count30,000/µL (30 × 109/L) with 90% neutrophilsHPlatelet count75,000/μL (75 × 109/L)LAlanine aminotransferase120 U/LHAspartate aminotransferase175 U/LHCreatinine2.7 mg/dL (239 μmol/L)HA plain radiograph of the left biceps area shows gas.Empiric meropenem, vancomycin, and clindamycin are initiated. Surgical debridement confirms necrotizing fasciitis. Bacteria are visualized on blood and intraoperative tissue cultures as shown.",
   "question_stem": "Which of the following is the most likely causative organism?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient's blood and tissue culture results have gram-positive cocci in chains that are characteristic of Streptococcus pyogenes (Option C), or group A streptococci (GAS). The GAS infection has caused necrotizing fasciitis with associated toxic shock syndrome (TSS). A definitive diagnosis of streptococcal TSS is made by isolating GAS from a sterile site (blood, cerebrospinal fluid, operative wound) in a patient with hypotension who has two or more organs affected (see Table: Diagnostic Criteria for TSS). Surgical debridement is needed for source control, and adjunctive antibiotics are recommended by the Infectious Diseases Society of America (IDSA); for streptococcal TSS, these antibiotics include penicillin combined with clindamycin, which is added to inhibit toxin production. Although the IDSA guidelines do not recommend routine adjunctive intravenous immune globulin in TSS, some experts favor its administration in streptococcal TSS based on reported mortality benefits.Clostridium perfringens (Option A), a gram-positive bacillus, can cause necrotizing fasciitis and myonecrosis, typically after contamination of wounds associated with trauma, including gunshots, stabbing, and intravenous drug injection. Prompt surgical debridement is necessary, and the recommended antibiotic regimen includes penicillin plus clindamycin. This patient does not have a trauma-associated wound or gram-positive rods on culture results.Staphylococcus aureus (Option B) can cause necrotizing fasciitis and TSS. It is a gram-positive organism, and morphology typically consists of cocci in clusters. In addition to prompt surgical debridement, therapy consists of clindamycin plus antibiotics targeted to methicillin-resistant S. aureus or methicillin-susceptible S. aureus directed by susceptibility testing. The culture results of this patient show gram-positive cocci in chains, which is more consistent with S. pyogenes.Vibrio vulnificus (Option D), a gram-negative bacillus, can cause a monomicrobial necrotizing fasciitis. Infection typically occurs in immunocompromised patients (especially in those with liver disease) after consumption of raw or undercooked shellfish or skin trauma sustained in sea or brackish waters. Prompt surgical debridement is critical, with guideline-directed antibiotics consisting of ceftazidime plus doxycycline. This patient's history is inconsistent with V. vulnificus infection.",
+  "critique_links": [],
   "key_points": [
     "Streptococcus pyogenes is characterized by gram-positive cocci in chains; a definitive diagnosis of streptococcal toxic shock syndrome is made by isolating group A streptococci from a sterile site (blood, cerebrospinal fluid, operative wound) in a patient with hypotension who has two or more affected organs."
   ],
@@ -51,8 +52,8 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/idtab24009.html",
+      "tables/inline_table_1.html"
     ],
     "images": [
       "figures/idfig24207.2128087f9670919924aff2200da03fb9.jpg"
@@ -60,5 +61,48 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.212991-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "idfig24207",
+        "file": "figures/idfig24207.2128087f9670919924aff2200da03fb9.jpg",
+        "title": "Histopathology of Necrotizing Fasciitis Showing Group A Streptococci",
+        "short_title": "Histopathology of Group A Streptococci",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 675
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "idtab24009",
+        "file": "tables/idtab24009.html",
+        "title": "Diagnostic Criteria for Toxic Shock Syndrome",
+        "short_title": "Diagnostic Criteria for TSS",
+        "footnotes": [
+          "GABHS = group A β-hemolytic streptococci; TSS = toxic shock syndrome.",
+          "<sup>a</sup>Diagnosis is considered confirmed when fever, hypotension, and rash with involvement of three or more organ systems listed and negative serologic and cerebrospinal fluid results listed are all present.",
+          "<sup>b</sup>A definite case is defined by the isolation of GABHS from a sterile site; hypotension with systolic blood pressure ≤90 mm Hg; plus the presence of two or more of the clinical findings listed.",
+          "Information from Centers for Disease Control and Prevention. Toxic shock syndrome (other than streptococcal) (TSS) 2011 case definition. Last updated April 16, 2021. Available at <a href=\"https://ndc.services.cdc.gov/case-definitions/toxic-shock-syndrome-2011/\" target=\"_blank\">https://ndc.services.cdc.gov/case-definitions/toxic-shock-syndrome-2011/</a>. Accessed December 3, 2024; and Centers for Disease Control and Prevention. Streptococcal toxic shock syndrome (STSS) (<i>Streptococcus pyogenes</i>) 2010 case definition. Last updated April 16, 2021. Available at <a href=\"https://ndc.services.cdc.gov/case-definitions/streptococcal-toxic-shock-syndrome-2010/\" target=\"_blank\">https://ndc.services.cdc.gov/case-definitions/streptococcal-toxic-shock-syndrome-2010/</a>. Accessed December 3, 2024."
+        ],
+        "headers": [
+          "Staphylococcal TSSa",
+          "Streptococcal TSSb"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.505825-06:00"
 }

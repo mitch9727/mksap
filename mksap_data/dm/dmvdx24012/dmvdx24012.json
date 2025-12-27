@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 44-year-old woman is evaluated for the abrupt appearance of painful skin nodules following an episode of infectious diarrhea. She also reports fever and arthralgia.Skin findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is Sweet syndrome (acute febrile neutrophilic dermatosis) (Option D). The individual skin lesions of Sweet syndrome are tender, nonpruritic, brightly erythematous, well-demarcated papules and plaques that appear on the face, neck, and extremities. In addition to the skin eruption, patients typically have fever, leukocytosis, elevated inflammatory markers, and muscle or joint pain.Sweet syndrome may be idiopathic, but most cases typically develop after an upper respiratory or gastrointestinal infection or in the setting of hematologic abnormalities, particularly myelodysplastic syndrome evolving into acute myeloid leukemia.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24613.db1ef1cd30d327ae0ef19f507b177c4f.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.828030-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24613",
+        "file": "figures/dmfig24613.db1ef1cd30d327ae0ef19f507b177c4f.jpg",
+        "title": "Sweet Syndrome",
+        "short_title": "stem Sweet Syndrome",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 672,
+        "height": 504
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.351158-06:00"
 }

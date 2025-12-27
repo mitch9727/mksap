@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 54-year-old man is evaluated for a 3-year history of progressive joint stiffness in his hands. He drinks two or three beers per week. Family history is significant for cirrhosis in his father. Medical history is unremarkable, and he takes no medications.On physical examination, vital signs are normal. Abdominal examination shows no organomegaly. The second and third metacarpophalangeal joints are swollen bilaterally.",
+  "question_text": "A 54-year-old man is evaluated for a 3-year history of progressive joint stiffness in his hands. He drinks two or three beers per week. Family history is significant for cirrhosis in his father. Medical history is unremarkable, and he takes no medications.On physical examination, vital signs are normal. Abdominal examination shows no organomegaly. The second and third metacarpophalangeal joints are swollen bilaterally.Laboratory studies:Hemoglobin16.2 g/dL (162 g/L)Albumin4.0 g/dL (40 g/L)Alanine aminotransferase75 U/LHAspartate aminotransferase63 U/LH Glucose, fasting198 mg/dL (10.9 mmol/L)H",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most likely diagnosis is hereditary hemochromatosis (HH) (Option C). HH is an autosomal recessive disorder resulting in increased iron absorption because of an alteration in the genes that regulate hepcidin synthesis. Most patients have variants in the HFE gene, and approximately 90% of patients are homozygous for the C282Y variant. The prevalence of HH is highest in men. Patients are often identified at asymptomatic stages through laboratory evaluation of iron studies. Late manifestations of the disease resulting from organ deposition of iron include cirrhosis and cardiomyopathy. Other findings include small joint arthritis and endocrinopathies, including diabetes mellitus. Pituitary injury may also lead to androgen insufficiency and excess melanin excretion, the latter causing skin hyperpigmentation and the term “bronze diabetes” in persons with concomitant iron overload–related diabetes. A transferrin saturation greater than 45% with an elevated serum ferritin level raises suspicion for HH (). However, ferritin is an acute-phase reactant, and elevations can be seen with acute or chronic inflammatory conditions, infections, and malignancies. This patient has a family history of cirrhosis, a plasma glucose level suggesting underlying diabetes, elevated aminotransferase levels, and small joint arthropathy. HH is the most likely diagnosis, and he should undergo testing with iron studies and a serum ferritin level.Alcohol use disorder (Option A) may lead to cirrhosis, and nonjudgmental, patient-centered counseling should explore this possibility in patients with evidence of liver disease. Alcoholic liver disease may also be associated with iron overload and an elevated ferritin level. This patient has a level of alcohol consumption that is unlikely to cause significant liver disease, and alcohol use disorder would not explain the arthropathy or diabetes.Chronic hepatitis C virus (HCV) infection (Option B) is a common cause of elevated aminotransferase levels, but it cannot explain the diabetes or arthropathy seen in this patient. HH is a more likely diagnosis.Patients with polycythemia vera (PV) (Option D) have an elevated hemoglobin level (>16.5 g/dL [165 g/L] in men, >16 g/dL [160 g/L] in women), and abnormalities in other cell lines (thrombocytosis and neutrophilia) are frequently present. Symptoms may include fatigue, headache, or itching, particularly after a warm shower, and abdominal pain or early satiety secondary to splenomegaly. This patient has a hemoglobin level at the upper limit of normal but has no other symptoms or findings consistent with PV. HH is a more likely diagnosis.",
+  "critique": "The most likely diagnosis is hereditary hemochromatosis (HH) (Option C). HH is an autosomal recessive disorder resulting in increased iron absorption because of an alteration in the genes that regulate hepcidin synthesis. Most patients have variants in the HFE gene, and approximately 90% of patients are homozygous for the C282Y variant. The prevalence of HH is highest in men. Patients are often identified at asymptomatic stages through laboratory evaluation of iron studies. Late manifestations of the disease resulting from organ deposition of iron include cirrhosis and cardiomyopathy. Other findings include small joint arthritis and endocrinopathies, including diabetes mellitus. Pituitary injury may also lead to androgen insufficiency and excess melanin excretion, the latter causing skin hyperpigmentation and the term “bronze diabetes” in persons with concomitant iron overload–related diabetes. A transferrin saturation greater than 45% with an elevated serum ferritin level raises suspicion for HH (Figure: Hereditary Hemochromatosis Algorithm). However, ferritin is an acute-phase reactant, and elevations can be seen with acute or chronic inflammatory conditions, infections, and malignancies. This patient has a family history of cirrhosis, a plasma glucose level suggesting underlying diabetes, elevated aminotransferase levels, and small joint arthropathy. HH is the most likely diagnosis, and he should undergo testing with iron studies and a serum ferritin level.Alcohol use disorder (Option A) may lead to cirrhosis, and nonjudgmental, patient-centered counseling should explore this possibility in patients with evidence of liver disease. Alcoholic liver disease may also be associated with iron overload and an elevated ferritin level. This patient has a level of alcohol consumption that is unlikely to cause significant liver disease, and alcohol use disorder would not explain the arthropathy or diabetes.Chronic hepatitis C virus (HCV) infection (Option B) is a common cause of elevated aminotransferase levels, but it cannot explain the diabetes or arthropathy seen in this patient. HH is a more likely diagnosis.Patients with polycythemia vera (PV) (Option D) have an elevated hemoglobin level (>16.5 g/dL [165 g/L] in men, >16 g/dL [160 g/L] in women), and abnormalities in other cell lines (thrombocytosis and neutrophilia) are frequently present. Symptoms may include fatigue, headache, or itching, particularly after a warm shower, and abdominal pain or early satiety secondary to splenomegaly. This patient has a hemoglobin level at the upper limit of normal but has no other symptoms or findings consistent with PV. HH is a more likely diagnosis.",
+  "critique_links": [],
   "key_points": [
     "Hereditary hemochromatosis is commonly identified at asymptomatic stages through laboratory evaluation of iron studies; clinical manifestations of the disease include cirrhosis, cardiomyopathy, small joint arthritis, and endocrinopathies, including diabetes mellitus.",
     "Initial testing for hereditary hemochromatosis is with iron studies and a serum ferritin level; a transferrin saturation greater than 45% with an elevated serum ferritin level raises suspicion for hereditary hemochromatosis."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:36:58.617680-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.969348-06:00"
 }

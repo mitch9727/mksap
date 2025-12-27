@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old woman is evaluated for a 4-month history of dyspnea, cough, atypical chest pain, and weight loss. She has a significant history of mild persistent asthma and cigarette smoking. She has worked on a farm for the past 5 years.A CT scan of the chest is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient's CT scan findings are consistent with hypersensitivity pneumonitis (HP) (Option B), showing ground-glass opacities and centrilobular micronodules that are upper and mid-lobe predominant. If a patient has been exposed to a provocative antigen (in the case of this patient, working on a farm), a diagnosis of nonfibrotic HP can be confidently made when the CT scan shows these classic features of ground-glass opacities and centrilobular nodules in the upper lobes.In contrast, cryptogenic organizing pneumonia would show more patchy, bilateral air space consolidations without upper lobe predominance. Idiopathic pulmonary fibrosis would show bibasilar, subpleural reticulations and architectural distortions along with honeycombing and traction bronchiectasis. In nonspecific interstitial pneumonia, CT scan would show increased reticular markings and ground-glass opacification, predominantly in the lower lung zones with sparing of the subpleural region.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.433741-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24676",
+        "file": "figures/pmfig24676.cdfac99ad620e986cca25fb27068ce48.jpg",
+        "title": "CT Scan Showing Hypersensitivity Pneumonitis",
+        "short_title": "stem CT Scan Showing Hypersensitivity Pneumonitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 512,
+        "height": 464
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.312149-06:00"
 }

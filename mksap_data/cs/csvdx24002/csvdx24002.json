@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 46-year-old woman with long-standing osteoarthritis of the left knee develops acute calf pain. Three days later, this skin finding is noted.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This picture demonstrates the crescent sign, an ecchymotic area below the medial malleolus suggestive of a ruptured popliteal (Baker) cyst (Option C). A popliteal cyst is a benign swelling of the synovial bursa behind the knee joint. Popliteal cysts most commonly develop in the setting of knee trauma, osteoarthritis, or inflammatory arthritis but can occur in patients without joint disease. They are frequently asymptomatic but can present with posterior knee pain and swelling. In rare instances, cysts may cause compression of adjacent structures, leading to compression syndrome, posterior tibial nerve entrapment, or popliteal artery occlusion. Ruptured cysts with dependent flow of synovial fluid down the leg may mimic deep venous thromboses (pseudothrombophlebitis) and may be associated with ecchymosis from the popliteal fossa to the ankle. The posterior view of a different patient (shown) demonstrates a popliteal cyst in the calf of the left leg and is most prominent with the patient standing and the knee fully extended.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,41 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/csfig24601.946abb5d992ac1d3f58717cecfbec157.jpg",
+      "figures/csfig24602.7c3a0b0395bb9c729576d9978b3d1419.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:01:45.870943-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "csfig24601",
+        "file": "figures/csfig24601.946abb5d992ac1d3f58717cecfbec157.jpg",
+        "title": "Ruptured Popliteal Cyst",
+        "short_title": "stem Ruptured Popliteal Cyst",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 594
+      },
+      {
+        "figure_id": "csfig24602",
+        "file": "figures/csfig24602.7c3a0b0395bb9c729576d9978b3d1419.jpg",
+        "title": "Posterior View of Popliteal Cyst in Left Leg",
+        "short_title": "critique Posterior View of Popliteal Cyst in Left Leg",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 640,
+        "height": 960
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.161491-06:00"
 }

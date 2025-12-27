@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 67-year-old patient is evaluated in the hospital for acute kidney injury. Two days ago, they underwent multivessel percutaneous coronary intervention for an ST-elevation myocardial infarction, which was complicated by cardiogenic shock and insertion of an intra-aortic balloon pump. One week ago, they were prescribed levofloxacin for community-acquired pneumonia. Other medical conditions are type 2 diabetes mellitus, hyperlipidemia, and hypertension. Medications are aspirin, ticagrelor, atorvastatin, levofloxacin, furosemide, and norepinephrine.On physical examination, blood pressure is 90/60 mm Hg, pulse rate is 124/min, and oxygen saturation is 92% with the patient breathing 60% Fio2. Cardiopulmonary examination reveals an S3 gallop and bibasilar crackles. There is bilateral lower extremity edema.",
+  "question_text": "A 67-year-old patient is evaluated in the hospital for acute kidney injury. Two days ago, they underwent multivessel percutaneous coronary intervention for an ST-elevation myocardial infarction, which was complicated by cardiogenic shock and insertion of an intra-aortic balloon pump. One week ago, they were prescribed levofloxacin for community-acquired pneumonia. Other medical conditions are type 2 diabetes mellitus, hyperlipidemia, and hypertension. Medications are aspirin, ticagrelor, atorvastatin, levofloxacin, furosemide, and norepinephrine.On physical examination, blood pressure is 90/60 mm Hg, pulse rate is 124/min, and oxygen saturation is 92% with the patient breathing 60% Fio2. Cardiopulmonary examination reveals an S3 gallop and bibasilar crackles. There is bilateral lower extremity edema.Laboratory studies:Creatinine3.0 mg/dL (265.2 μmol/L)H1 week ago0.9 mg/dL (79.6 μmol/L)Creatine kinase170 U/LPotassium5.4 mEq/L (5.4 mmol/L)HUrine microscopyNumerous granular casts/lpf, 1-2 renal tubular epithelial cells/lpf",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is acute tubular necrosis (ATN) (Option B) secondary to ischemic kidney injury in the setting of cardiogenic shock and is the cause of this patient's acute kidney injury (AKI). ATN due to ischemia, nephrotoxins, and/or sepsis is the most common cause of AKI in hospitalized patients; a history of these entities along with assessment of hemodynamics and volume status can aid in diagnosis. This patient has two potential causes for ATN: ischemia due to cardiogenic shock and exposure to intra-arterial contrast media. In ischemic ATN, glomerular filtration rate decreases because of renal vasoconstriction, tubular backleak of filtrate into the bloodstream, and tubular obstruction from cellular debris. Contrast agents can cause ATN through renal vasoconstriction and oxygen free radical–associated injury. Typically, serum creatinine increases within 24 to 48 hours after contrast administration. Laboratory values suggestive of ATN are described in Table: Prerenal Acute Kidney Injury Versus Acute Tubular Necrosis. Urine sediment typically reveals renal tubular epithelial cells and casts and coarse granular or muddy brown casts, as seen in this patient. Treatment is supportive; recovery may take days to weeks.Acute interstitial nephritis (AIN) (Option A) is commonly caused by drugs, including antibiotics, proton pump inhibitors, or NSAIDs. Typically, serum creatinine gradually increases 7 to 10 days after drug exposure. Urine sediment findings in AIN include erythrocytes, leukocytes, and leukocyte casts. Although this patient received levofloxacin and is at risk for AIN, the presence of renal tubular epithelial cells in the urine sediment supports the diagnosis of ATN rather than AIN.Cholesterol emboli (Option C) can occur spontaneously or days to weeks after artery manipulation, such as that during a cardiac catheterization procedure. Physical examination findings in the setting of cholesterol embolic disease may include livedo reticularis and blue toes. Urine sediment examination may be unremarkable or show leukocyturia or granular, leukocyte, or erythrocyte casts. The lack of physical examination findings and presence of renal tubular epithelial cells in this case support the diagnosis of ATN rather than cholesterol emboli.Rhabdomyolysis (Option D) can cause ATN; however, rhabdomyolysis-induced ATN typically occurs with serum creatine kinase levels >5000 U/L; this patient's normal creatine kinase levels makes rhabdomyolysis unlikely.",
+  "critique_links": [],
   "key_points": [
     "Acute tubular necrosis (ATN) due to ischemia, nephrotoxins, and/or sepsis is the most common cause of acute kidney injury in hospitalized patients.",
     "The urine sediment in ATN usually reveals renal tubular epithelial cells and casts and coarse granular or muddy brown casts."
@@ -52,12 +53,50 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/nptab24028.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:52.624254-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nptab24028",
+        "file": "tables/nptab24028.html",
+        "title": "Diagnostic Findings Differentiating Prerenal Acute Kidney Injury from Acute Tubular Necrosis",
+        "short_title": "Prerenal Acute Kidney Injury Versus Acute Tubular Necrosis",
+        "footnotes": [
+          "BUN = blood urea nitrogen; FE<sub>Na</sub> = fractional excretion of sodium; FE<sub>Urea</sub> = fractional excretion of urea.a",
+          "<sup>a</sup>Urine sediment findings are more sensitive and specific than BUN-creatinine ratios.",
+          "<sup>b</sup>FE<sub>Na</sub> = (Urine sodium concentration × Plasma creatinine concentration)/(Urine creatinine concentration × Plasma sodium concentration) × 100.",
+          "<sup>c</sup>FE<sub>Urea</sub> = (Urine urea concentration × Plasma creatinine concentration)/(Urine creatinine concentration × Plasma urea concentration) × 100.",
+          "<sup>d</sup>FE<sub>Na</sub> can be high in prerenal states with diuretic use, adrenal insufficiency, or metabolic alkalosis.",
+          "<sup>e</sup>FE<sub>Na</sub> can be low in acute tubular necrosis due to contrast-associated nephropathy, pigment nephropathy, glomerulonephritis, or early obstruction."
+        ],
+        "headers": [
+          "Condition",
+          "BUN-Creatinine Ratioa",
+          "Urine Osmolality (mOsm/kg H2O)",
+          "Urine Sodium (mEq/L [mmol/L])",
+          "FENab",
+          "FEUreac",
+          "Urinalysis and Microscopya"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.752614-06:00"
 }

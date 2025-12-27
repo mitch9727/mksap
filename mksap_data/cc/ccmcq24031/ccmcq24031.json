@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 75-year-old woman is evaluated in the ICU for new-onset confusion. She was admitted to the ICU 3 days ago for pneumonia and septic shock. At presentation, she required intubation, mechanical ventilation, and a brief period of vasopressor support. She has improved over the past 48 hours and was extubated yesterday. This morning, she was noted to be confused and disoriented. Medications are ceftriaxone, azithromycin, and enoxaparin. She has no other medical history.On physical examination, temperature is 37.7 °C (99.9 °F), blood pressure is 112/77 mm Hg, pulse rate is 90/min, and respiration rate is 18/min. Oxygen saturation is 93% with the patient breathing supplemental oxygen, 2 L/min by nasal cannula. She is alert but oriented to person only. She is inattentive and cannot name the month that precedes December. Pulmonary examination is unchanged, with left basilar crackles. Neurologic examination shows no focal abnormalities.",
+  "question_text": "A 75-year-old woman is evaluated in the ICU for new-onset confusion. She was admitted to the ICU 3 days ago for pneumonia and septic shock. At presentation, she required intubation, mechanical ventilation, and a brief period of vasopressor support. She has improved over the past 48 hours and was extubated yesterday. This morning, she was noted to be confused and disoriented. Medications are ceftriaxone, azithromycin, and enoxaparin. She has no other medical history.On physical examination, temperature is 37.7 °C (99.9 °F), blood pressure is 112/77 mm Hg, pulse rate is 90/min, and respiration rate is 18/min. Oxygen saturation is 93% with the patient breathing supplemental oxygen, 2 L/min by nasal cannula. She is alert but oriented to person only. She is inattentive and cannot name the month that precedes December. Pulmonary examination is unchanged, with left basilar crackles. Neurologic examination shows no focal abnormalities.Laboratory studies:Hematocrit32%LLeukocyte count9600/µL (9.6 × 109/L)Blood urea nitrogen26 mg/dL (9.3 mmol/L)HCreatinine1.1 mg/dL (97.2 µmol/L)Sodium142 mEq/L (142 mmol/L)",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate treatment for this patient with ICU delirium is early mobilization (Option D) with physical therapy. Delirium is an acute change in cognitive functioning, impairment of attention, and disorientation with fluctuating mental status. It is a common and complex condition with multiple predisposing conditions and risk factors that requires a comprehensive approach to diagnosis and treatment (). Delirium is extremely common in ICU patients and is associated with increased length of ICU stay, mortality, and post-ICU cognitive impairment. The likelihood of ICU delirium is increased in the setting of benzodiazepine use, polypharmacy, preexisting cognitive impairment, older age, pre-ICU surgery or trauma, and high severity of illness on ICU admission. Early identification and correction of underlying causes are critical. Multicomponent interventions tailored to the ICU environment, such as the ABCDEF bundle (), decrease delirium duration and ICU length of stay and improve survival. This patient's acute onset of cognitive dysfunction and risk factors (advanced age, high severity of illness) suggest ICU delirium despite her overall improvement. Implementing the ABCDEF care bundle, which includes mobilization, is indicated.For patients requiring sedation in the ICU, the use of dexmedetomidine (Option A) (a selective α2-agonist) or propofol (a short-acting general anesthetic agent) is preferred and recommended. However, dexmedetomidine does not have a role in the treatment of delirium.Studies have failed to demonstrate the effectiveness of any medication to prevent or treat delirium. The use of typical antipsychotics, such as haloperidol (Option B), and atypical antipsychotics for delirium has been associated with increased morbidity and mortality and should be avoided if possible. Severe refractory agitation or behavioral symptoms that prevent appropriate care may require pharmacologic sedation to prevent self-harm, but this is not the case with this patient.Neuroimaging is not routinely required in the evaluation of ICU delirium. Head CT (Option C) should be considered if a structural cause is suspected. This patient's clinical presentation and the absence of focal neurologic findings make head CT an unnecessary test.",
+  "critique": "The most appropriate treatment for this patient with ICU delirium is early mobilization (Option D) with physical therapy. Delirium is an acute change in cognitive functioning, impairment of attention, and disorientation with fluctuating mental status. It is a common and complex condition with multiple predisposing conditions and risk factors that requires a comprehensive approach to diagnosis and treatment (Table: Causes, Features, and Management of Delirium). Delirium is extremely common in ICU patients and is associated with increased length of ICU stay, mortality, and post-ICU cognitive impairment. The likelihood of ICU delirium is increased in the setting of benzodiazepine use, polypharmacy, preexisting cognitive impairment, older age, pre-ICU surgery or trauma, and high severity of illness on ICU admission. Early identification and correction of underlying causes are critical. Multicomponent interventions tailored to the ICU environment, such as the ABCDEF bundle (Table: ABCDEF Care Bundle for Managing ICU Delirium), decrease delirium duration and ICU length of stay and improve survival. This patient's acute onset of cognitive dysfunction and risk factors (advanced age, high severity of illness) suggest ICU delirium despite her overall improvement. Implementing the ABCDEF care bundle, which includes mobilization, is indicated.For patients requiring sedation in the ICU, the use of dexmedetomidine (Option A) (a selective α2-agonist) or propofol (a short-acting general anesthetic agent) is preferred and recommended. However, dexmedetomidine does not have a role in the treatment of delirium.Studies have failed to demonstrate the effectiveness of any medication to prevent or treat delirium. The use of typical antipsychotics, such as haloperidol (Option B), and atypical antipsychotics for delirium has been associated with increased morbidity and mortality and should be avoided if possible. Severe refractory agitation or behavioral symptoms that prevent appropriate care may require pharmacologic sedation to prevent self-harm, but this is not the case with this patient.Neuroimaging is not routinely required in the evaluation of ICU delirium. Head CT (Option C) should be considered if a structural cause is suspected. This patient's clinical presentation and the absence of focal neurologic findings make head CT an unnecessary test.",
+  "critique_links": [],
   "key_points": [
     "Management of ICU delirium requires early identification and correction of underlying causes; the use of multicomponent interventions, such as the ABCDEF bundle, decreases delirium duration and ICU length of stay and improves survival."
   ],
@@ -51,13 +52,55 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html",
-      "tables/inline_table_3.html"
+      "tables/nrtab24037.html",
+      "tables/cctab24004.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:48.429036-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nrtab24037",
+        "file": "tables/nrtab24037.html",
+        "title": "Causes, Features, and Management of Delirium",
+        "short_title": "Causes, Features, and Management of Delirium",
+        "footnotes": [
+          "SAT = spontaneous awakening trial; SBT = spontaneous breathing trial.",
+          "<sup>a</sup>See the American Geriatrics Society Beers criteria for potentially inappropriate medication use in older adults."
+        ],
+        "headers": [
+          "Predisposing Factors",
+          "Provoking Factors",
+          "Clinical Features of Delirium",
+          "Management of Delirium"
+        ]
+      },
+      {
+        "table_id": "cctab24004",
+        "file": "tables/cctab24004.html",
+        "title": "ABCDEF Care Bundle for Managing ICU Delirium",
+        "short_title": "ABCDEF Care Bundle for Managing ICU Delirium",
+        "footnotes": [
+          "SAT = spontaneous awakening trial; SBT= spontaneous breathing trial.",
+          "Recommendations from Devlin JW, Skrobik Y, Gélinas C, et al. Clinical practice guidelines for the prevention and management of pain, agitation/sedation, delirium, immobility, and sleep disruption in adult patients in the ICU. Crit Care Med. 2018;46:e825-73. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/30113379\" target=\"_blank\">PMID: 30113379</a> doi:10.1097/CCM.0000000000003299"
+        ],
+        "headers": []
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.446336-06:00"
 }

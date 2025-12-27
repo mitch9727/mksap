@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 43-year-old man is evaluated for chest pain.ECG is shown.",
   "question_stem": "Which of the following abnormalities is shown on this patient's ECG?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This ECG demonstrates right bundle branch block (Option D). ECG features of right bundle branch block include QRS widening (≥120 ms), an rSR′ or rsR′ pattern in lead V1, and wide terminal S waves in leads I and V6. In both left and right bundle branch block, the ST-T–wave pattern is inscribed in the opposite direction of the main QRS vectors; these ST-T–wave abnormalities are secondary to the bundle branch block and do not indicate additional underlying pathology. Several premature atrial contractions also are seen on this ECG, but otherwise, there are discrete P waves throughout, thus excluding atrial fibrillation.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.390877-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24610",
+        "file": "figures/cvfig24610.00ae0a28fd283dca8902a23ab7f764a5.jpg",
+        "title": "ECG Showing Right Bundle Branch Block",
+        "short_title": "stem ECG Showing Right Bundle Branch Block",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 481
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.847695-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 56-year-old man with portal hypertension due to alcoholic cirrhosis undergoes screening upper endoscopy.",
   "question_stem": "Which of the following is most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The upper endoscopy image shows changes consistent with portal hypertensive gastropathy (Option D), which most commonly occurs with portal hypertension caused by cirrhosis. The classic endoscopic finding is a white reticular pattern separated by areas of pink mucosa, causing a \"snakeskin\" appearance of the stomach, primarily in the fundus and body. Blood flow to the gastric mucosa is increased in patients with portal hypertension, and gastropathy may relate to hyperemia and congestion. Portal hypertensive gastropathy is rarely a cause of significant bleeding and is most commonly associated with diffuse mucosal oozing and chronic blood loss.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/hpfig24601.535b69636f4769d12439aba713e11a3d.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.603228-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hpfig24601",
+        "file": "figures/hpfig24601.535b69636f4769d12439aba713e11a3d.jpg",
+        "title": "Endoscopic Findings of Portal Hypertensive Gastropathy",
+        "short_title": "Endoscopic View of Portal Hypertensive Gastropathy",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 373,
+        "height": 300
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.732770-06:00"
 }

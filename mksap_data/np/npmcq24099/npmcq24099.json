@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 38-year-old patient is evaluated during a routine examination. They report nonspecific musculoskeletal pain and occasional episodes of bloating. The patient has celiac disease, and avoids gluten-containing foods. They take no medications.On physical examination, vital signs are normal. Abdominal palpation elicits mild discomfort. The remainder of the examination is unremarkable.",
+  "question_text": "A 38-year-old patient is evaluated during a routine examination. They report nonspecific musculoskeletal pain and occasional episodes of bloating. The patient has celiac disease, and avoids gluten-containing foods. They take no medications.On physical examination, vital signs are normal. Abdominal palpation elicits mild discomfort. The remainder of the examination is unremarkable.Laboratory studies:Albumin3.8 g/dL (38 g/L)Calcium7.5 mg/dL (1.9 mmol/L)LCreatinine0.9 mg/dL (79.6 µmol/L)ElectrolytesSodium138 mEq/L (138 mmol/L)Potassium4.0 mEq/L (4.0 mmol/L)Chloride106 mEq/L (106 mmol/L)Bicarbonate23 mEq/L (23 mmol/L)Glucose90 mg/dL (5.0 mmol/L)Phosphorus2.1 mg/dL (0.68 mmol/L)L25-Hydroxyvitamin D12 ng/mL (30 nmol/L)L24-Hour urine phosphorus110 mg/24 hH",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management of this patient's low serum phosphate due to secondary hyperparathyroidism from vitamin D deficiency is calcitriol (Option A), an active vitamin D analogue. Vitamin D deficiency is often seen in patients with gastrointestinal malabsorption, such as in celiac disease, chronic pancreatitis, cystic fibrosis, and after gastric bypass. Individuals who are housebound or avoid sunlight exposure can also develop vitamin D deficiency. Vitamin D deficiency decreases the absorption of both calcium and to a much lesser extent phosphorus from the gastrointestinal tract. The resultant decrease in serum calcium increases the secretion of parathyroid hormone to increase serum calcium. This secondary hyperparathyroidism causes renal phosphate wasting. Under normal circumstances, in the presence of hypophosphatemia, urinary phosphorus excretion is expected to be extremely low. However, because the kidney can decrease phosphate excretion to very low levels, excretion of >100 mg of phosphate in a 24-hour urine collection, as in this case, or a fractional excretion of phosphate (FEpo4) >5% suggests renal wasting. The presence of hypophosphatemia, low serum calcium levels, and urinary phosphate wasting is therefore indicative of secondary hyperparathyroidism caused by vitamin D deficiency. Notably, secondary hyperparathyroidism due to vitamin D deficiency is in contradistinction to secondary hyperparathyroidism of kidney disease, in which the serum phosphorus level is high normal to elevated. The appropriate treatment for this patient's hypophosphatemia is vitamin D supplementation, such as calcitriol, as well as ergocalciferol.Although this patient has a low-normal serum calcium level, calcium carbonate (Option B) supplementation binds phosphate in the gastrointestinal tract, which will likely further decrease their serum phosphorus levels. Therefore, it would be inappropriate to administer calcium carbonate to this patient.Intravenous sodium phosphorus (Option C) is reserved for patients with symptomatic hypophosphatemia, typically a serum phosphorus level <2.0 mg/dL (0.65 mmol/L). In addition, oral supplementation is generally preferred to intravenous supplementation unless the patient has marked symptoms or hypophosphatemia because the intravenous route can lead to hyperphosphatemia and resultant complications. Because this patient's serum phosphorus level is 2.1 mg/dL (0.68 mmol/L) and they are mildly symptomatic, it would not be appropriate to administer intravenous sodium phosphorus.Sestamibi parathyroid scans (Option D) are often used to identify a parathyroid adenoma, but this patient likely has secondary hyperparathyroidism due to vitamin D deficiency. Therefore, imaging is not necessary.",
+  "critique_links": [],
   "key_points": [
     "The presence of hypophosphatemia, low serum calcium levels, and urinary phosphate wasting is seen in secondary hyperparathyroidism caused by vitamin D deficiency; treatment is vitamin D supplementation."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:16.577920-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.868993-06:00"
 }

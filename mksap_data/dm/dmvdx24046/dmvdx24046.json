@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 43-year-old woman is evaluated for a pigmented lesion on her finger.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is an acral (pertaining to the limb) lentiginous melanoma (Option A). This patient has a pigmented lesion with a highly irregular border and variable coloration and is suspicious for a dysplastic nevus or acral lentiginous melanoma. Acral melanoma is the least common type of melanoma but is the most common presentation in persons of Asian descent and persons with dark skin. Clinically, an acral lentiginous melanoma appears as a dark brown to black, unevenly pigmented patch. It is typically found on palmar, plantar, and subungual surfaces.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24652.9c58013ce5123fedcf5397683b9cdfd6.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.904923-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24652",
+        "file": "figures/dmfig24652.9c58013ce5123fedcf5397683b9cdfd6.jpg",
+        "title": "Acral Lentiginous Melanoma",
+        "short_title": "Acral Lentiginous Melanoma",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 672
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.454568-06:00"
 }

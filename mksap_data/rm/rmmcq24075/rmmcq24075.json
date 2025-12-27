@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 73-year-old man is evaluated for 2 years of progressive pain and stiffness in the distal and proximal interphalangeal joints, as well as long-standing intermittent low back pain with morning stiffness lasting 45 minutes. He has had well-controlled psoriasis for 30 years. Medications are topical clobetasol and as-needed ibuprofen.On physical examination, vital signs are normal. Small patches of psoriasis are noted behind the ears and on the posterior neck. The second through fourth distal interphalangeal joints are enlarged bilaterally, and the second through fourth proximal interphalangeal joints are mildly tender bilaterally. Decreased lumbar spine excursion is noted when the patient attempts to touch his toes with the knees held straight.",
+  "question_text": "A 73-year-old man is evaluated for 2 years of progressive pain and stiffness in the distal and proximal interphalangeal joints, as well as long-standing intermittent low back pain with morning stiffness lasting 45 minutes. He has had well-controlled psoriasis for 30 years. Medications are topical clobetasol and as-needed ibuprofen.On physical examination, vital signs are normal. Small patches of psoriasis are noted behind the ears and on the posterior neck. The second through fourth distal interphalangeal joints are enlarged bilaterally, and the second through fourth proximal interphalangeal joints are mildly tender bilaterally. Decreased lumbar spine excursion is noted when the patient attempts to touch his toes with the knees held straight.Laboratory studiesErythrocyte sedimentation rate32 mm/hHUrate5.4 mg/dL (0.3 mmol/L)",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management is plain radiography (Option C) of the hands and spine. Plain radiography can be used to assess for and differentiate inflammatory arthritides, osteoarthritis, and crystal arthropathies. It is usually the first imaging test to evaluate arthritis because it is readily available and inexpensive, requires a low level of radiation, can identify bony changes, is relatively operator-independent, and is useful in monitoring disease progression. The two diseases most likely to affect distal and proximal interphalangeal joints and the low back are osteoarthritis and psoriatic arthritis. Although this patient has psoriasis, he is also at risk for osteoarthritis given his age. His morning stiffness lasting less than 1 hour is insufficient to distinguish between the two conditions, and his elevated erythrocyte sedimentation rate is not out of range for his age. Therefore, additional information is needed. Distal interphalangeal joint involvement might be seen radiographically as osteophytosis (consistent with osteoarthritis) or pencil-in-cup deformities (consistent with psoriatic arthritis). Similarly, plain radiographs of the spine might identify vertebral disk narrowing, sclerosis, and osteophytes consistent with osteoarthritis, or thick, asymmetric syndesmophytes as seen in psoriatic arthritis. Imaging might also show that both conditions are present (e.g., psoriatic arthritis in the fingers and osteoarthritis in the spine).Bone scans (Option A) use a radioactive tracer to identify metabolically active areas of bone, which can occur in arthritis, Paget disease, malignancy, or occult fractures. Bone scans are not specific for distinguishing between osteoarthritis and inflammatory arthritis. In this case, the affected joints are known, and their characteristics can be defined by plain radiography; a bone scan is not warranted.Dual-energy CT (Option B) may be more sensitive to erosive changes than plain radiography and can provide evidence of crystal deposition. However, plain radiography is generally preferred for assessing joint erosions because of the increased cost and higher radiation burden of CT. In addition, this patient is unlikely to have gout (he has a normal serum urate level and a disease pattern inconsistent with gout), and calcium pyrophosphate deposition would be detected by plain radiography.Rheumatoid factor and anti–cyclic citrullinated peptide antibodies (Option D) may be helpful in diagnosing rheumatoid arthritis (RA), particularly when the pretest probability is high. This patient's joint involvement includes the distal interphalangeal joints and the lower spine, neither of which is typically involved in RA, and his psoriasis provides an explanation for a potential inflammatory arthritis. Because the probability of RA is very low, these tests should not be ordered.",
+  "critique_links": [],
   "key_points": [
     "Plain radiography is usually the first imaging test ordered to evaluate arthritis because it is readily available and inexpensive, requires a low level of ionizing radiation, can identify bony changes, is relatively operator-independent, and is useful in monitoring disease progression."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:47:14.969283-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.785755-06:00"
 }

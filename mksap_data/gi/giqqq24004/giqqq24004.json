@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 69-year-old woman presents with hematochezia that began 8 hours ago. The bleeding was initially painless but is now accompanied by lower abdominal cramping. She reports that the bleeding seems to be slowing. She is otherwise healthy, takes no medication, and has never been hospitalized.Vital signs are normal. Hyperactive bowel sounds are present. The abdomen is nontender. Rectal examination shows bright red blood in the rectal vault.",
+  "question_text": "A 69-year-old woman presents with hematochezia that began 8 hours ago. The bleeding was initially painless but is now accompanied by lower abdominal cramping. She reports that the bleeding seems to be slowing. She is otherwise healthy, takes no medication, and has never been hospitalized.Vital signs are normal. Hyperactive bowel sounds are present. The abdomen is nontender. Rectal examination shows bright red blood in the rectal vault.Laboratory studies:Hemoglobin10.4 g/dL (104 g/L)L",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is diverticular bleeding (Option C). Diverticulosis is one of the most common causes of acute hematochezia requiring hospitalization. The bleeding is typically painless except for abdominal cramping due to the cathartic action of colonic blood. In patients with severe, painless hematochezia, the most common site of bleeding is the colon (75% of cases). Within the colon, the most likely cause of bleeding is diverticula, which account for 33% of all cases of colonic bleeding; bleeding often stops spontaneously. Physical examination is usually unremarkable unless large blood loss results in tachycardia, hypotension, and orthostasis. In this hemodynamically stable patient with suspected diverticulosis and no evidence of rapid bleeding, colonoscopy is the first study of choice.Aortoenteric fistula (Option A) is defined as an abnormal connection between the aorta and the gastrointestinal tract. It is most commonly caused by an abdominal aortic aneurysm or aortic prosthetic graft compressing or eroding the adjacent gastrointestinal structures. Aortoenteric fistula is a rare cause of gastrointestinal bleeding and may result in massive hemorrhage and hemodynamic instability. A few patients may present with the classic diagnostic triad of lower gastrointestinal bleeding, abdominal pain, and a palpable abdominal mass.Colonic ischemia (Option B) is a common cause of hematochezia in older patients. The bleeding is typically preceded by lower abdominal pain, and physical examination shows tenderness over the involved bowel segment. This patient's clinical history and the absence of tenderness on abdominal examination make the diagnosis of colonic ischemia unlikely.In approximately 15% of patients, suspected lower gastrointestinal bleeding is found to result from upper gastrointestinal sources, including duodenal ulcers (Option D). These patients may present with hematochezia, which is suggestive of brisk ongoing bleeding of at least 1000 mL of blood and is typically associated with hemodynamic instability. The absence of hemodynamic instability makes a duodenal ulcer less likely in this patient.",
+  "critique_links": [],
   "key_points": [
     "In patients with severe, painless hematochezia, the most common site of bleeding is the colon (75% of cases), and diverticula account for 33% of all cases of colonic bleeding.",
     "Diverticular bleeding is typically painless except for abdominal cramping due to the cathartic action of colonic blood, and bleeding often stops spontaneously; colonoscopy is the preferred diagnostic test."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:31.023538-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.476768-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 76-year-old man is evaluated for a 10-year history of progressive pain and stiffness in the mid and lower spine. He also has difficulty bending.A radiograph of the lumbar spine is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Diffuse idiopathic skeletal hyperostosis (Option B) is seen on this patient's radiograph. Although this condition most commonly involves the thoracic spine, the cervical and lumbar spine can also be affected. Radiographic findings in the thoracic spine include distinctive, flowing, linear calcifications and ossifications along the anterolateral aspects of the vertebral bodies, which continue across the disk space. In the cervical spine, hyperostosis occurs initially on the anterior surface of the vertebral body, particularly the inferior lip of the vertebra, resulting in a downward-pointing spur. The findings in the lumbar spine are similar to those in the cervical spine except that the spurs tend to point upward (arrows), as shown in this patient's radiograph. Complete \"bridging\" of the lumbar disk space by bone occurs infrequently.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/rmfig24607.9dd25ad9c48506a6411c988d0c031ed8.jpg",
-      "figures/rmfig24606.fa9aab45be2ebaf13bed824e044a26fe.jpg"
+      "figures/rmfig24606.fa9aab45be2ebaf13bed824e044a26fe.jpg",
+      "figures/rmfig24607.9dd25ad9c48506a6411c988d0c031ed8.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:05.891169-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "rmfig24606",
+        "file": "figures/rmfig24606.fa9aab45be2ebaf13bed824e044a26fe.jpg",
+        "title": "Radiograph Showing Diffuse Idiopathic Skeletal Hyperostosis",
+        "short_title": "stem Radiograph Showing DISH",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 258,
+        "height": 375
+      },
+      {
+        "figure_id": "rmfig24607",
+        "file": "figures/rmfig24607.9dd25ad9c48506a6411c988d0c031ed8.jpg",
+        "title": "Radiograph Showing Diffuse Idiopathic Skeletal Hyperostosis",
+        "short_title": "critique Radiograph Showing DISH",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 258,
+        "height": 375
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.872800-06:00"
 }

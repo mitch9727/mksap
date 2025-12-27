@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 74-year-old woman is evaluated for an enlarged thyroid and abnormal thyroid function. She is asymptomatic. She has osteoporosis, and her medical history is relevant for a right hip replacement after a fall 2 years ago. Medications are alendronate and vitamin D.On physical examination, vital signs are normal. The thyroid gland is enlarged, with bilateral palpable nodules.Thyroid scintigraphy with radioactive iodine uptake reveals bilateral hyperfunctioning nodules with a dominant nodule in the left superior gland.",
+  "question_text": "A 74-year-old woman is evaluated for an enlarged thyroid and abnormal thyroid function. She is asymptomatic. She has osteoporosis, and her medical history is relevant for a right hip replacement after a fall 2 years ago. Medications are alendronate and vitamin D.On physical examination, vital signs are normal. The thyroid gland is enlarged, with bilateral palpable nodules.Laboratory studies:Thyroid-stimulating hormone<0.01 μU/mL (0.01 mU/L)LFree thyroxine1.7 ng/dL (22 pmol/L)Total triiodothyronine175 ng/dL (2.7 nmol/L)Thyrotropin receptor antibodyNegativeThyroid scintigraphy with radioactive iodine uptake reveals bilateral hyperfunctioning nodules with a dominant nodule in the left superior gland.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient with subclinical hyperthyroidism is to start methimazole (Option C). Subclinical hyperthyroidism is defined by suppressed thyroid-stimulating hormone (TSH) levels with normal serum free thyroxine and total triiodothyronine levels. The most common cause of subclinical hyperthyroidism is toxic multinodular goiter (MNG), especially in older patients. In patients with toxic MNG, thyroid scintigraphy with radioactive iodine uptake reveals patchy focal areas of increased uptake (see Figure: Iodine 123 Scans Showing Hyperthyroidism, Figure below), as seen in this patient. Although a majority of patients with subclinical hyperthyroidism have no clinical manifestations of hyperthyroidism, this condition is associated with increased cardiovascular disease, bone loss, and risk for fractures. The decision to initiate treatment depends on the degree of TSH suppression and risk for complications of subclinical hyperthyroidism. Patients with a TSH level suppressed below 0.1 μU/mL (0.1 mU/L) who are 65 years or older, have or are at risk for cardiovascular disease, or have or are at risk for osteoporosis should receive treatment, regardless of symptoms. Treatment of subclinical hyperthyroidism is similar to treatment of overt hyperthyroidism; thionamides, radioactive iodine (131I) ablative therapy, and surgery are options. The goal of treatment with thionamides is to achieve euthyroidism. Definitive therapy with 131I is the most likely next step, especially in older patients with toxic MNG. Given this patient's age and known history of osteoporosis in the setting of a suppressed TSH level, treatment should be initiated.β-Blockers, such as atenolol (Option A), are indicated only to control symptoms of thyrotoxicosis. This patient is asymptomatic; therefore, β-blockers are not needed.Although the patient has a dominant nodule in the left gland, a partial thyroidectomy or lobectomy (Option B) is not a treatment option because this patient has bilateral hyperfunctioning nodules. If surgery is chosen, near-total or total thyroidectomy should be performed.Observation with repeat thyroid function testing in 12 months (Option D) would not be indicated given this patient's degree of TSH suppression, age, and comorbidities.",
+  "critique_links": [],
   "key_points": [
     "Patients with subclinical hyperthyroidism and a thyroid-stimulating hormone level lower than 0.1 μU/mL (0.1 mU/L) who are 65 years or older, have or are at risk for cardiovascular disease, or have or are at risk for osteoporosis should receive treatment with thionamides, radioactive iodine ablation, or thyroidectomy."
   ],
@@ -59,5 +60,32 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:55.394627-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "enfig24201",
+        "file": "figures/enfig24201.5f1f7c5c05d2affeb48d8e756820e694.jpg",
+        "title": "Thyroid Scintigraphy in Toxic MNG",
+        "short_title": "MK25ENTURI006 Thyroid Scintigraphy in Toxic MNG",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 774,
+        "height": 819
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.259805-06:00"
 }

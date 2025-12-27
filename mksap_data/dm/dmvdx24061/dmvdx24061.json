@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 46-year-old patient with acute myelogenous leukemia presents 48 hours after new-onset fever and the eruption of papules on the trunk, as shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Sweet syndrome (Option D), also known as febrile neutrophilic dermatosis, manifests as fever and a characteristic skin eruption comprised of papules or nodules. These papules are red to purple and, because of the intense dermal edema present, have a semi-translucent appearance, as if gelatin filled; they are often described as “juicy” papules. Biopsy of the lesions will demonstrate intense neutrophilic infiltration of the dermis.Sweet syndrome can occur in a variety of contexts, including leukemia (usually acute myelogenous leukemia) or other malignancy; autoimmune diseases (rheumatoid arthritis, systemic lupus erythematosus); inflammatory bowel disease; pregnancy; or exposure to certain medications (granulocyte-macrophage colony-stimulating factor). Sweet syndrome may also occur alongside upper respiratory or streptococcal infections. The rash is often recurrent and responds very rapidly to systemic glucocorticoids or dapsone. In patients with leukemia, biopsy to rule out infection or leukemia cutis is often necessary.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24671.ea0ae90c610341bdeda4d41135dcb62b.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.949087-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24671",
+        "file": "figures/dmfig24671.ea0ae90c610341bdeda4d41135dcb62b.jpg",
+        "title": "Sweet Syndrome",
+        "short_title": "stem Sweet Syndrome",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 752
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.489211-06:00"
 }

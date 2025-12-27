@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 76-year-old man is evaluated in the emergency department after being found unresponsive. He is unconscious and unable to provide a symptom history. Medical history is significant for atrial fibrillation, type 2 diabetes mellitus, and stroke. Medications are empagliflozin, warfarin, atorvastatin, and metoprolol succinate.On physical examination, blood pressure is 110/70 mm Hg, and pulse rate is 110/min and irregular. Remaining vital signs are normal. The patient is obtunded and withdraws from noxious stimuli.CT scan of the head shows a right parietal intracerebral hemorrhage.Intravenous vitamin K is administered.",
+  "question_text": "A 76-year-old man is evaluated in the emergency department after being found unresponsive. He is unconscious and unable to provide a symptom history. Medical history is significant for atrial fibrillation, type 2 diabetes mellitus, and stroke. Medications are empagliflozin, warfarin, atorvastatin, and metoprolol succinate.On physical examination, blood pressure is 110/70 mm Hg, and pulse rate is 110/min and irregular. Remaining vital signs are normal. The patient is obtunded and withdraws from noxious stimuli.Laboratory studies:Hemoglobin13.1 g/dL (131 g/L)LLeukocyte count11,200/μL (11.2 × 109/L)HPlatelet count176,000/μL (176 × 109/L)INR4.0CT scan of the head shows a right parietal intracerebral hemorrhage.Intravenous vitamin K is administered.",
   "question_stem": "Which of the following is the most appropriate additional management to address this patient's coagulopathy?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment in this patient with warfarin-induced coagulopathy and intracranial hemorrhage is to administer four-factor prothrombin complex concentrate (4f-PCC) (Option A). Bleeding is the most significant complication in patients treated with vitamin K antagonists (VKAs) such as warfarin, occurring in 1% to 3% of patients per year. The risk of bleeding is highest at the time of warfarin initiation and during superimposed illness. The bleeding risk is increased in patients older than 75 years or in those with previous stroke. Concomitant antiplatelet agent or NSAID use and an INR greater than 5 also increase the bleeding risk. Patients with minor bleeding can often be managed by withholding warfarin. In patients experiencing major or life-threatening bleeding, intravenous vitamin K and 4f-PCC should be given. Vitamin K repletion requires the liver to produce coagulation factors, and although the reversal effect is long lasting, the full effect may not be realized for at least 24 hours. 4f-PCC contains proteins C and S and factors II, VII, IX, and X, and it is superior to 3-factor PCC, which lacks factor VII. In a clinical trial of VKA-related bleeding, 4f-PCC was found to be noninferior to fresh frozen plasma (FFP) for hemostatic efficacy. 4f-PCC is preferred over FFP because of its rapid effect and low volume of administration. This patient has a life-threatening intracerebral hemorrhage related to warfarin use, and administration of intravenous vitamin K and 4f-PCC is indicated.Although FFP (Option B) will reverse the effect of warfarin, it is not the preferred agent when treating life-threatening bleeding. Compared with 4f-PCC, FFP takes longer to prepare and transfuse and requires a greater volume of administration. The role of FFP in VKA reversal is limited to when 4f-PCC is not available.Recombinant activated factor VII (Option C) is not recommended for warfarin reversal. Activated factor VII rapidly corrects the prothrombin time and INR but does not replete factors II, IX, and X, potentially limiting its reversal effect. Activated factor VII is also associated with a higher risk of thrombosis than 4f-PCC.No further treatment (Option D) is inadequate. Although vitamin K is a core component of VKA reversal, it requires hepatic production of coagulation factors. Although a partial effect of vitamin K may be seen within 4 to 6 hours, it takes 24 hours for the full effect to be realized, which is not ideal in the setting of life-threatening bleeding.",
+  "critique_links": [],
   "key_points": [
     "Patients taking warfarin who develop life-threatening bleeding should receive four-factor prothrombin complex concentrate and intravenous vitamin K."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:36:53.183697-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.948593-06:00"
 }

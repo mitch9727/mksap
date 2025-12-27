@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 60-year-old man is evaluated in the ICU 4 days after hospitalization for community-acquired pneumonia with acute hypoxic respiratory failure. He is now extubated and breathing oxygen by nasal cannula. Medical history is significant for hypertension. Medications are ceftriaxone and losartan.On physical examination, vital signs are normal. Oxygen saturation is 94% with the patient breathing supplemental oxygen, 4 L/min by nasal cannula. Lung auscultation reveals crackles in the right lower lung field and left infrascapular region. An indwelling urinary catheter is in place.Chest radiograph obtained on admission reveals bilateral asymmetric alveolar infiltrates distributed in the right lower and left upper lung zones. Blood cultures obtained on presentation are negative, but sputum culture has grown Streptococcus pneumoniae.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate next step in management in this patient is to remove the indwelling urinary catheter (Option D). Although often an important component of caring for the critically ill patient, urinary catheterization increases the risk for catheter-associated urinary tract infection (CAUTI). CAUTI is the most common device-associated, health care–associated infection in the United States, but up to 70% of CAUTI episodes can be prevented, with the duration of catheterization being the primary modifiable risk factor. The Choosing Wisely campaign, which promotes cost-effective strategies that improve patient care and avoid waste and harm, recommends the removal of unnecessary catheters and drains (). This patient is recovering from severe community-acquired pneumonia (CAP) and has improved to the point of extubation. It is imperative to remove all catheters and drains for which there is not a clear ongoing indication and to mobilize the patient.A 5-day course of antibiotics is sufficient for most patients with CAP. Longer courses of antibiotic therapy are recommended for (1) pneumonia complicated by meningitis, endocarditis, and other deep-seated infections and (2) infections with less common pathogens (e.g., Burkholderia pseudomallei, Mycobacterium tuberculosis, endemic fungi). In a patient having an excellent clinical response to ceftriaxone with the achievement of clinical stability in 72 hours, there is no reason to extend the duration of therapy to 10 days (Option A).In patients with pneumonia, radiographic improvement typically lags behind clinical improvement. In adults with CAP who are improving, guidelines recommend against obtaining routine follow-up chest imaging (Option B).In patients with acute hypoxic respiratory failure and bilateral lung infiltrates, evaluation with transthoracic echocardiography (Option C) can help assess the likelihood of left-sided heart failure. Echocardiography is also necessary in patients with a clinical suspicion of endocarditis. However, this patient's clinical findings, established microbiologic diagnosis, and ongoing improvement with antibiotics strongly argue against a cardiac cause of his presentation, and echocardiography is unnecessary.",
+  "critique": "The most appropriate next step in management in this patient is to remove the indwelling urinary catheter (Option D). Although often an important component of caring for the critically ill patient, urinary catheterization increases the risk for catheter-associated urinary tract infection (CAUTI). CAUTI is the most common device-associated, health care–associated infection in the United States, but up to 70% of CAUTI episodes can be prevented, with the duration of catheterization being the primary modifiable risk factor. The Choosing Wisely campaign, which promotes cost-effective strategies that improve patient care and avoid waste and harm, recommends the removal of unnecessary catheters and drains (Table: Society of Critical Care Medicine Choosing Wisely Checklist). This patient is recovering from severe community-acquired pneumonia (CAP) and has improved to the point of extubation. It is imperative to remove all catheters and drains for which there is not a clear ongoing indication and to mobilize the patient.A 5-day course of antibiotics is sufficient for most patients with CAP. Longer courses of antibiotic therapy are recommended for (1) pneumonia complicated by meningitis, endocarditis, and other deep-seated infections and (2) infections with less common pathogens (e.g., Burkholderia pseudomallei, Mycobacterium tuberculosis, endemic fungi). In a patient having an excellent clinical response to ceftriaxone with the achievement of clinical stability in 72 hours, there is no reason to extend the duration of therapy to 10 days (Option A).In patients with pneumonia, radiographic improvement typically lags behind clinical improvement. In adults with CAP who are improving, guidelines recommend against obtaining routine follow-up chest imaging (Option B).In patients with acute hypoxic respiratory failure and bilateral lung infiltrates, evaluation with transthoracic echocardiography (Option C) can help assess the likelihood of left-sided heart failure. Echocardiography is also necessary in patients with a clinical suspicion of endocarditis. However, this patient's clinical findings, established microbiologic diagnosis, and ongoing improvement with antibiotics strongly argue against a cardiac cause of his presentation, and echocardiography is unnecessary.",
+  "critique_links": [],
   "key_points": [
     "In critically ill patients, all catheters and drains for which there is no clear, ongoing indication should be removed as soon as is feasible."
   ],
@@ -51,11 +52,28 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/cctab24002.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:48.442007-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "cctab24002",
+        "file": "tables/cctab24002.html",
+        "title": "Society of Critical Care Medicine Choosing Wisely Recommendations",
+        "short_title": "Society of Critical Care Medicine Choosing Wisely Checklist",
+        "footnotes": [
+          "Recommendations from Halpern SD, Becker D, Curtis JR, et al; Choosing Wisely Taskforce. An official American Thoracic Society/American Association of Critical-Care Nurses/American College of Chest Physicians/Society of Critical Care Medicine policy statement: the Choosing Wisely® top 5 list in critical care medicine. Am J Respir Crit Care Med. 2014;190:818-26. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/25271745\" target=\"_blank\">PMID: 25271745</a> doi:10.1164/rccm.201407-1317ST and Zimmerman JJ, Harmon LA, Smithburger PL, et al. Choosing Wisely for critical care: the next five. Crit Care Med. 2021;49:472-81. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/33555779\" target=\"_blank\">PMID: 33555779</a> doi:10.1097/CCM.0000000000004876"
+        ],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.465856-06:00"
 }

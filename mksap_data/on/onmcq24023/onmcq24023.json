@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 65-year-old man is evaluated for rapidly enlarging right axillary lymphadenopathy over the past month. He has a history of follicular lymphoma affecting the cervical, axillary, and inguinal nodes, which responded well to rituximab administered 5 years ago. He additionally has benign prostatic hypertrophy and hypertension; his medications are lisinopril, hydrochlorothiazide, and tamsulosin.On physical examination, vital signs are normal. A large right axillary mass is observed. The patient also has cervical and inguinal lymphadenopathy.CT scans show a 6-cm right axillary mass, cervical adenopathy, and inguinal adenopathy. PET/CT scan demonstrates high uptake activity in the right axillary mass and low activity elsewhere.",
+  "question_text": "A 65-year-old man is evaluated for rapidly enlarging right axillary lymphadenopathy over the past month. He has a history of follicular lymphoma affecting the cervical, axillary, and inguinal nodes, which responded well to rituximab administered 5 years ago. He additionally has benign prostatic hypertrophy and hypertension; his medications are lisinopril, hydrochlorothiazide, and tamsulosin.On physical examination, vital signs are normal. A large right axillary mass is observed. The patient also has cervical and inguinal lymphadenopathy.Laboratory studies:Complete blood countNormalBasic metabolic panelNormalLactate dehydrogenase350 U/LHCT scans show a 6-cm right axillary mass, cervical adenopathy, and inguinal adenopathy. PET/CT scan demonstrates high uptake activity in the right axillary mass and low activity elsewhere.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate diagnostic test to perform next is biopsy of the right axillary mass (Option B). Transformation of an indolent lymphoma to diffuse large B-cell lymphoma may occur in up to one third of patients. Clinical features that suggest transformation include rapid progression of a localized area of disease, markedly higher areas of standardized uptake values on PET/CT scans, B symptoms (fevers, night sweats, and unintentional weight loss), and elevated serum lactate dehydrogenase level. Transformed disease is associated with an aggressive course and poor prognosis. This patient has a history of follicular lymphoma that was previously treated with single-agent rituximab and now has rapid enlargement of a right axillary mass with relative increased activity on PET/CT compared with other areas of involvement. Biopsy is warranted to confirm transformation and to inform prognosis and possible treatment options.Anthracycline-based chemotherapy, such as rituximab, cyclophosphamide, doxorubicin, vincristine, and prednisone (R-CHOP) (Option A) is a treatment option for transformed disease. Initiating treatment before confirmation of transformation, however, is not appropriate, and biopsy is indicated.Radiation (Option C) can be used in patients with follicular lymphoma, including with curative intent for very early-stage disease and to treat bulky symptomatic disease. The focus in this patient, however, needs to be on assessing the possibility of transformation with biopsy.Single-agent rituximab (Option D) or rituximab in conjunction with either bendamustine or leflunomide is used to treat indolent lymphomas. These regimens, however, are not adequate to treat transformed disease, which must be confirmed with biopsy.",
+  "critique_links": [],
   "key_points": [
     "In patients with a history of follicular cell lymphoma and rapid progression of a localized area of disease, markedly higher areas of uptake on PET/CT, new B symptoms, or an elevated serum lactate dehydrogenase level, biopsy should be performed to evaluate for possible transformation of follicular lymphoma to diffuse large B-cell lymphoma."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:27:11.723249-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.722940-06:00"
 }

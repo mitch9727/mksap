@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 63-year-old woman is evaluated in the emergency department for acute-onset unintelligible speech and right-arm weakness that began 2 hours ago. She is otherwise healthy, with no history of intracranial hemorrhage, bleeding, or surgery.On physical examination, vital signs are normal. The patient has severe dysarthria and cannot name objects or repeat words. Cranial nerve examination shows a shallower right nasolabial fold. Her right arm shows 3+/5 strength and has no sensation to pinprick. National Institutes of Health Stroke Scale score is 7.A fingerstick blood glucose level and noncontrast head CT scan are normal.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management is thrombolytic therapy with a recombinant tissue plasminogen activator such as intravenous alteplase (Option D). Intravenous thrombolysis with alteplase (administered as an infusion) or tenecteplase (administered as a single bolus) is indicated for adults with acute ischemic stroke with symptom onset less than 4.5 hours ago (FDA approved for use within 3 hours; off-label use between 3 and 4.5 hours) who do not have contraindications. The main utility of brain imaging in this acute, time-sensitive window is to exclude hemorrhagic stroke, which is a contraindication to thrombolytic therapy. Noncontrast head CT is often the preferred test because of its rapid acquisition and sensitivity for hemorrhagic stroke. Other contraindications to thrombolysis include a recent ischemic stroke, operation, or bleeding event; coagulopathy; and any history of intracranial hemorrhage. This patient has typical signs and symptoms of acute ischemic stroke, presented within 4.5 hours, has no evidence of hypoglycemia or intracranial hemorrhage on head CT scan, and has no contraindications to thrombolysis. Intravenous thrombolysis is indicated in this patient to reduce stroke-related disability and mortality. Head CT is not sensitive for ischemic stroke in the acute setting (especially in the first few hours), so the absence of ischemic stroke findings is expected.Aspirin is first-line treatment for acute ischemic stroke when thrombolytic therapy is not being considered (Option A). The thrombolytic therapy benefits, however, exceed those of aspirin, and thrombolysis should take precedence in eligible patients. When thrombolytic therapy is administered, the initiation of antiplatelet therapy is delayed for 24 hours.Brain MRI (Option B) is sensitive for hemorrhagic stroke and has higher sensitivity than CT for infarcts. In some cases, MRI can identify candidates for mechanical thrombectomy or, occasionally, thrombolytic therapy when time of onset is unknown. However, in the setting of acute ischemic stroke, these benefits must be weighed against the longer acquisition time of MRI. This patient has convincing evidence of ischemic stroke with a clear time of onset and no hemorrhage on head CT scan; MRI would unnecessarily delay thrombolytic therapy.The complete blood count and INR (Option C) should be assessed before administering thrombolytic therapy if thrombocytopenia or coagulopathy are suspected. Intravenous thrombolysis is contraindicated if the INR is greater than 1.7 in the setting of anticoagulant use or the platelet count is less than 100,000/μL (100 × 109/L). It is not necessary to await results of these studies before thrombolysis in the absence of hematologic disorders or anticoagulation.",
+  "critique_links": [],
   "key_points": [
     "In the setting of acute ischemic stroke, intravenous thrombolysis is indicated within 4.5 hours of symptom onset for adults without contraindications.",
     "Head CT is sufficient to exclude hemorrhagic stroke in most patients who present with stroke symptoms; advanced imaging is not required before thrombolytic therapy for appropriate candidates."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:50:05.472023-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:31.118739-06:00"
 }

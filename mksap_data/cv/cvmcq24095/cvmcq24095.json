@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 48-year-old woman is evaluated for a 3-week history of progressive fatigue and dyspnea on exertion. She has hypertension and type 1 diabetes mellitus with a history of diabetic ketoacidosis. Medications are valsartan, metoprolol succinate, and insulin.On physical examination, blood pressure is 112/76 mm Hg and pulse rate is 62/min. BMI is 38. Jugular venous distention is present. Cardiopulmonary examination reveals a few crackles at the lung bases and no S3. Mild lower extremity edema is noted.ECG is normal. Echocardiogram shows normal left ventricular function with an ejection fraction of 58%, mild left ventricular hypertrophy, grade II diastolic dysfunction, and bilateral atrial enlargement.",
+  "question_text": "A 48-year-old woman is evaluated for a 3-week history of progressive fatigue and dyspnea on exertion. She has hypertension and type 1 diabetes mellitus with a history of diabetic ketoacidosis. Medications are valsartan, metoprolol succinate, and insulin.On physical examination, blood pressure is 112/76 mm Hg and pulse rate is 62/min. BMI is 38. Jugular venous distention is present. Cardiopulmonary examination reveals a few crackles at the lung bases and no S3. Mild lower extremity edema is noted.Laboratory studies:B-type natriuretic peptide192 pg/mL (192 ng/L)HCreatinine0.9 mg/dL (79.6 µmol/L)ECG is normal. Echocardiogram shows normal left ventricular function with an ejection fraction of 58%, mild left ventricular hypertrophy, grade II diastolic dysfunction, and bilateral atrial enlargement.",
   "question_stem": "Which of the following is the most appropriate medication to add to this patient's regimen?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate medication for this patient with heart failure with preserved ejection fraction (HFpEF) is furosemide (Option C). HFpEF results from diastolic dysfunction characterized by abnormal relaxation of a stiffened left ventricular (LV) myocardium during diastole and increased LV preload. LV ejection fraction is normal and 50% or greater. Hypertension, aging, obesity, diabetes, and atrial fibrillation are among the causes; amyloid deposits, as a result of wild type or mutation in the transthyretin gene, have been reported in more than 10% of patients. Treatment priorities are control of blood pressure and relief of volume overload. Guidelines additionally suggest the use of sodium-glucose cotransporter 2 (SGLT2) inhibitors, angiotensin receptor blockers or angiotensin receptor/neprilysin inhibitors, and aldosterone antagonists. This patient has HFpEF based on exertional fatigue, dyspnea on exertion, elevated central venous pressure, and an echocardiogram showing evidence of diastolic dysfunction. Although the B-type natriuretic peptide (BNP) level is just above normal, she has a high BMI, which is associated with lower BNP levels. For this patient with volume overload, the best next treatment is a loop diuretic.SGLT2 inhibitors, such as dapagliflozin (Option A), reduce the combined end point of heart failure hospitalizations and cardiac death in patients with HFpEF. They are also associated with improved quality of life. However, SGLT2 inhibitors are contraindicated in persons with type 1 diabetes because of an increased risk for diabetic ketoacidosis. Dapagliflozin should not be added to this patient's regimen.This patient's blood pressure is 112/76 mm Hg, so there is no reason to add a third antihypertensive agent, such as diltiazem (Option B), to her treatment regimen. Traditionally, patients with HFpEF and volume overload were treated with both calcium channel blockers and β-blockers. However, studies have not shown any benefit from this therapy, and it is no longer used.Tafamidis (Option D) binds and stabilizes transthyretin and has been shown to improve survival and functional capacity in patients with cardiac amyloidosis due to either the wild-type or mutated form. Although transthyretin is implicated in more than 10% of patients with HFpEF, further studies (e.g., cardiac magnetic resonance imaging, technetium pyrophosphate scan) are needed to investigate the possibility of cardiac amyloidosis before considering tafamidis.",
+  "critique_links": [],
   "key_points": [
     "Treatment priorities in heart failure with preserved ejection fraction (HFpEF) include control of blood pressure and relief of volume overload.",
     "In HFpEF, sodium-glucose cotransporter 2 inhibitors reduce the combined end point of heart failure hospitalizations and cardiac death but are contraindicated in patients with type 1 diabetes because of an increased risk for diabetic ketoacidosis."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:49:20.401009-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.664173-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 64-year-old woman undergoes follow-up evaluation of heart failure with reduced ejection fraction. She reports dyspnea when carrying groceries from her car or walking uphill, but she has no symptoms at rest. Recent transthoracic echocardiogram showed an ejection fraction of 35%, improved from 20% at the time of diagnosis. Medical history also includes hypertension and type 2 diabetes mellitus. Medications are carvedilol, losartan, spironolactone, metformin, dapagliflozin, and rosuvastatin.On physical examination, blood pressure is 118/72 mm Hg and pulse is 60/min. Lungs are clear to auscultation. Heart sounds are normal. Estimated central venous pressure is 7 cm H2O. No peripheral edema is noted.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment in this patient with heart failure with reduced ejection fraction (HFrEF) is to replace angiotensin receptor blocker (ARB) monotherapy with the angiotensin receptor-neprilysin inhibitor (ARNI) valsartan-sacubitril (Option C). HFrEF, also known as systolic heart failure, is a common condition with high morbidity. It is characterized by left ventricular dysfunction with an ejection fraction of 40% or less. The goal treatment regimen for mortality reduction in patients with symptomatic HFrEF comprises a β-blocker, an aldosterone antagonist, a sodium-glucose cotransporter 2 inhibitor, and an ARNI. Sacubitril inhibits the enzyme neprilysin, which degrades natriuretic peptide, an important mediator of intravascular volume. ARNIs have also been shown to have a beneficial influence on cardiac remodeling, and they confer a reduction in all-cause mortality over ACE inhibitors or ARBs. In patients with new-onset symptomatic HFrEF, valsartan-sacubitril should be started instead of an ACE inhibitor or ARB. Patients with chronic HFrEF already taking ACE inhibitors or ARBs should be transitioned to ARNIs, particularly if their ejection fraction remains lower than 40%. Unlike ACE inhibitors, ARBs do not require a washout period to minimize the risk for angioedema. This patient has symptomatic HFrEF and is not yet receiving optimal therapy; her losartan should be replaced with valsartan-sacubitril at this time.Discontinuation of guideline-directed medical therapy with spironolactone (Option A), even after improvement in ejection fraction, is associated with relapse of heart failure. Patients like this one who tolerate first-line medications should continue those therapies indefinitely.Loop diuretics, such as furosemide (Option B), are used to manage hypervolemia in heart failure, but they confer no additional mortality benefit. Although this patient has symptoms from heart failure, physical examination shows no indication of excess intravascular volume, so diuresis would not improve her symptoms. Therefore, the addition of furosemide is not indicated.All patients with HFrEF should be treated with four-drug guideline-directed therapy, if tolerated. Even patients like this one, who are stable or improve with an alternate regimen, should be transitioned to first-line guideline-directed therapy rather than maintain their previous medications. Therefore, no change to pharmacotherapy (Option D) would be inappropriate.",
+  "critique_links": [],
   "key_points": [
     "Patients with heart failure with reduced ejection fraction (HFrEF) should be managed indefinitely with a four-drug regimen including one medication from each of the following classes, if tolerated and unless contraindicated: angiotensin receptor-neprilysin inhibitors, sodium-glucose cotransporter 2 inhibitors, β-blockers, and mineralocorticoid receptor antagonists.",
     "Compared with ACE inhibitors and angiotensin receptor blockers, valsartan-sacubitril reduces heart failure hospitalizations and mortality in patients with symptomatic HFrEF."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.848322-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:26.331732-06:00"
 }

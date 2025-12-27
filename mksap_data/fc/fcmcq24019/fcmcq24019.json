@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "In a randomized controlled trial, researchers investigated polycystic ovary syndrome treatment with metformin compared with placebo; the primary outcome was improvement in the combined end point of hirsutism, obesity, and oligomenorrhea. The study enrolled and randomly assigned 1000 patients to the two groups (500 patients to each group). During the 3-year study period, 47 patients in the control group developed type 2 diabetes mellitus and initiated therapy with metformin. In addition, 25 patients in the metformin group discontinued the drug because of intolerance.",
   "question_stem": "Which of the following study analyses would best minimize bias in this study?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "An intention-to-treat (ITT) analysis (Option B) is the statistical approach that would best minimize bias in this study. Randomization, which allows for treatment and control groups to be as similar as possible at the time of study initiation, provides the strongest protection against confounding. An ITT analysis, which is the most commonly used approach for analyzing randomized controlled trials, includes data from all randomly assigned participants based on their original randomized assignment, regardless of whether they crossed over or dropped out (see Figure below). This type of analysis helps mitigate bias because it preserves the study's original randomization, thereby mitigating confounding factors. It also preserves sample size and prevents an exaggeration of treatment effect that may otherwise occur if only those who received the treatment were analyzed.Contrary to an ITT analysis, both as-treated (Option A) and per-protocol (Option D) analyses do not preserve the original randomization of a study and are thus more prone to bias (see Figure above). An as-treated analysis evaluates study participants based on how they were treated rather than how they were randomly assigned. In this example, patients who received metformin would be compared against patients who did not receive metformin, regardless of their initial randomization. A per-protocol analysis includes only participants who adhered to the trial protocol. In this case, patients who were assigned to the metformin group and subsequently took metformin are compared with those in the placebo group who did not start metformin. Notably, this type of analysis does not account for discontinuation of a treatment due to adverse effects. Both as-treated and per-protocol analyses adjust for nonadherence in a study and can potentially exaggerate the treatment effect. Although as-treated and per-protocol analyses are more prone to bias than an ITT analysis, they may be complementary to an ITT analysis in demonstrating the potential benefit or effect of a treatment when patients are fully adherent.A meta-analysis (Option C) pools data from similar studies to increase sample size and statistical power. The trial being analyzed in this case is a single study and does not qualify as a meta-analysis.",
+  "critique_links": [],
   "key_points": [
     "An intention-to-treat analysis includes data from all randomly assigned participants based on their original randomized assignment, regardless of whether they crossed over or dropped out; this prevents an exaggeration of treatment effect that may otherwise occur if only those who received the treatment were analyzed.",
     "An intention-to-treat analysis preserves the study's original randomization, thereby mitigating confounding factors."
@@ -52,9 +53,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/fcfig24202.0363876cac9d843ee5ae9299bb0864b1.svg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:33.916226-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "fcfig24202",
+        "file": "figures/fcfig24202.0363876cac9d843ee5ae9299bb0864b1.svg",
+        "title": "Approaches to Analyzing Randomized Controlled Trials",
+        "short_title": "Approaches to Analyzing Randomized Controlled Trials",
+        "number": null,
+        "footnotes": [],
+        "extension": "svg",
+        "width": 728,
+        "height": 505
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.601-06:00"
 }

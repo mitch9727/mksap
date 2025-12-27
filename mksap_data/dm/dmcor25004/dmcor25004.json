@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 32-year-old man is evaluated for a 2-year history of nail changes. Medical history is otherwise unremarkable. He takes no medications.On physical examination, nine of 10 fingernails are dystrophic. Nail findings are shown.Toenails are not involved.The remainder of the skin examination reveals scaly patches in the conchae of both ears. The remainder of the general medical examination is normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis in this patient with onycholysis and nail pitting is nail psoriasis (Option D). Nail psoriasis is characterized by dystrophic nails with yellow-red discoloration (\"oil stains\") caused by inflammation of the nail bed; pitting caused by inflammation of the nail matrix; and distal onycholysis (separation of nail plate from the nail bed). Other findings include nail plate thickening, distal nail plate crumbling, and splinter hemorrhages. Nail psoriasis more commonly affects the fingernails than the toenails. Nail psoriasis typically occurs in patients with established psoriasis, but occasionally the nail changes may precede the skin changes. A family history of psoriasis can be helpful, as can a thorough physical examination looking for hidden areas of plaque psoriasis in the gluteal cleft, periumbilically, in the concha of the ear, and on the scalp. Nail psoriasis is strongly associated with psoriatic arthritis. Patients with psoriasis, particularly involving the nails, should be screened for psoriatic arthritis at diagnosis and follow-up. This patient has distal onycholysis, pitting, and incidental conchal findings consistent with psoriatic plaques, making the diagnosis of nail psoriasis highly likely.Chronic paronychia (Option A) is an insidious inflammatory process often involving multiple fingers, and it can cause ridging of the fingernails. In contrast to nail psoriasis, chronic paronychia is characterized by tender swelling in the nail folds along with missing or dystrophic cuticles.Lichen planus (Option B) can affect the nails in about 10% of cases. It causes nail plate dystrophy, including longitudinal roughness and ridging, nail thinning, red-streaking, and pterygium unguis formation (scarring of the proximal nail fold and matrix), as shown.In patients with onychomycosis (Option C), toenails are more commonly affected than fingernails. Nail pitting is not seen in onychomycosis. This patient lacks toenail involvement and has pitting, so the diagnosis of onychomycosis is unlikely.",
+  "critique_links": [],
   "key_points": [
     "Nail psoriasis, which more commonly affects fingernails than toenails, is characterized by dystrophic nails with yellow-red discoloration (\"oil stains\"), pitting, and distal onycholysis.",
     "Nail psoriasis is highly correlated with psoriatic arthritis, so attention to joint symptoms is important in affected patients."
@@ -52,9 +53,41 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig25705.c0709147770ac5870f2f390b3ed7df8d.jpg",
+      "figures/dmfig25706.622fd004f762ec573fadcdc77233a1ee.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.974169-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig25705",
+        "file": "figures/dmfig25705.c0709147770ac5870f2f390b3ed7df8d.jpg",
+        "title": "Nail Psoriasis",
+        "short_title": "stem Nail Psoriasis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 650,
+        "height": 378
+      },
+      {
+        "figure_id": "dmfig25706",
+        "file": "figures/dmfig25706.622fd004f762ec573fadcdc77233a1ee.jpg",
+        "title": "Lichen Planus of the Nails",
+        "short_title": "critique Lichen Planus of the Nails",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 599
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.211557-06:00"
 }

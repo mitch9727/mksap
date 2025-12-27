@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 48-year-old man is evaluated in May for a 1-week history of fever, headache, and myalgia. He lives in Kansas and reports no travel outside the area. He has no other medical problems and takes no medications.On physical examination, temperature is 38.6 °C (101.5 °F). His other vital signs and the remainder of examination findings are normal.Laboratory studies:Hematocrit44%Leukocyte count2100/µL (2.1 × 109/L)LPlatelet count53,000/µL (53 × 109/L)LAlanine aminotransferase91 U/LHAspartate aminotransferase73 U/LHBilirubin, total1.0 mg/dL (17.1 μmol/L)Creatinine0.8 mg/dL (70.7 μmol/L)Blood Gram stain and cultures are negative.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is ehrlichiosis (Option C). Ehrlichia chaffeensis is transmitted by the Lone Star tick, Amblyomma americanum, and is prevalent in the Southeast, Central, and mid-Atlantic regions of the United States. E. chaffeensis infects monocytes and causes human monocytic ehrlichiosis, which typically presents with fever, headache, and myalgia. Common laboratory findings include leukopenia, thrombocytopenia, and elevated liver enzymes. Rash occurs in less than 30% of patients. Ehrlichiosis is clinically similar to anaplasmosis, which is caused by Anaplasma phagocytophilum. However, A. phagocytophilum is transmitted by the Ixodes scapularis tick and is prevalent in the Northeast, mid-Atlantic, and upper Midwest regions, similar to areas of Lyme endemicity. Table: Features of Ehrlichiosis, Anaplasmosis, and Spotted Fever Rickettsioses compares and contrasts the clinical features of ehrlichiosis and anaplasmosis. Ehrlichiosis can be diagnosed by serum polymerase chain reaction, serology, or peripheral blood smear, which may reveal characteristic morulae in the cytoplasm of monocytes (see Figure: Peripheral Blood Smear Showing Morulae). Antibody tests are often negative in acute illness; however, polymerase chain reaction of whole blood at the time of acute illness is highly sensitive, particularly if performed before therapy. Doxycycline is used to treat ehrlichiosis. This patient lives in an area of ehrlichiosis endemicity and has symptoms and laboratory findings suggesting ehrlichiosis.Babesiosis is caused by Babesia microti, an intraerythrocytic parasite that is transmitted by I. scapularis and is therefore prevalent in areas of Lyme endemicity (Option A). Symptoms are nonspecific and typically begin 1 month after a tick bite. The hallmark of babesiosis is hemolysis, and anemia is almost always present. This patient does not have anemia and has not visited an area associated with I. scapularis, making babesiosis less likely.Borrelia miyamotoi infection is also transmitted by I. scapularis and thus occurs in areas of Lyme endemicity (Option B). B. miyamotoi infection may present with relapsing fever as well as leukopenia, thrombocytopenia, and elevated liver enzymes. Although this patient has laboratory findings consistent with B. miyamotoi infection, this patient does not live in an associated endemic area.Borrelia burgdorferi is transmitted by I. scapularis and causes Lyme disease (Option D). Clinical manifestations vary according to the stage of infection, as outlined in Table: Lyme Disease by Stage of Infection. Leukopenia, thrombocytopenia, and elevated aminotransferases, as seen in this patient, are only rarely seen in Lyme disease. This patient does not live in a highly Lyme-endemic area, and his laboratory findings more strongly suggest ehrlichiosis.",
+  "critique_links": [],
   "key_points": [
     "Ehrlichiosis is caused by Ehrlichia chaffeensis, which is transmitted by the Lone Star tick, and is characterized by a nonspecific febrile illness associated with leukopenia, thrombocytopenia, and increased serum aminotransferase levels."
   ],
@@ -51,13 +52,65 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html",
-      "tables/inline_table_3.html"
+      "tables/idtab24030.html",
+      "tables/idtab24027.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.171966-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "idtab24030",
+        "file": "tables/idtab24030.html",
+        "title": "Comparison of Epidemiologic and Clinical Features of Ehrlichiosis, Anaplasmosis, and Spotted Fever Rickettsioses",
+        "short_title": "Features of Ehrlichiosis, Anaplasmosis, and Spotted Fever Rickettsioses",
+        "footnotes": [
+          "PCR = polymerase chain reaction; STARI = Southern tick–associated rash illness.",
+          "<sup>a</sup>Two thirds of all spotted fever rickettsial infections occur in Arkansas, Missouri, North Carolina, Oklahoma, and Tennessee."
+        ],
+        "headers": [
+          "Feature",
+          "Ehrlichiosis",
+          "Anaplasmosis",
+          "Spotted Fever Rickettsioses"
+        ]
+      },
+      {
+        "table_id": "idtab24027",
+        "file": "tables/idtab24027.html",
+        "title": "Clinical Manifestations, Diagnostic Testing, and Treatment of Lyme Disease by Stage of Infection",
+        "short_title": "Lyme Disease by Stage of Infection",
+        "footnotes": [
+          "AV = atrioventricular; BID = twice daily; CSF = cerebrospinal fluid; CNS = central nervous system; EM = erythema migrans; IV = intravenous; PO = by mouth; TID = three times daily.",
+          "<sup>a</sup>Doses are for adults with normal kidney function.",
+          "<sup>b</sup>Azithromycin is an alternative agent for early localized disease; if used, patients should be monitored closely for evidence of an inadequate response.",
+          "<sup>c</sup>Preferred evaluation for Lyme neuroborreliosis includes simultaneous antibody testing of CSF and serum to determine CSF:serum antibody index.",
+          "<sup>d</sup>IV penicillin G or IV cefotaxime for 14-21 days are alternative regimens.",
+          "<sup>e</sup>If mild residual symptoms persist, can consider a second course of oral therapy."
+        ],
+        "headers": [
+          "Lyme Stage",
+          "Onset after Infection",
+          "Clinical Findings",
+          "Laboratory Confirmation",
+          "Treatmenta,b"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.462618-06:00"
 }

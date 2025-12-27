@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 77-year-old man is evaluated for management of Paget disease of bone, which was diagnosed 6 months ago. At that time, he underwent radiography to evaluate a 12-month history of stiffness and soreness of the left hip. The radiograph revealed Paget disease of bone involving the left proximal femur and contributing to degenerative joint disease of the left hip. A whole-body radionuclide bone scan showed no other sites of involvement. He was treated with one dose of intravenous zoledronate. He reports no new or changed symptoms.On physical examination, vital signs are normal. The left hip exhibits decreased range of motion relative to the right hip. There is no warmth, swelling, or tenderness over the left proximal femur.",
+  "question_text": "A 77-year-old man is evaluated for management of Paget disease of bone, which was diagnosed 6 months ago. At that time, he underwent radiography to evaluate a 12-month history of stiffness and soreness of the left hip. The radiograph revealed Paget disease of bone involving the left proximal femur and contributing to degenerative joint disease of the left hip. A whole-body radionuclide bone scan showed no other sites of involvement. He was treated with one dose of intravenous zoledronate. He reports no new or changed symptoms.On physical examination, vital signs are normal. The left hip exhibits decreased range of motion relative to the right hip. There is no warmth, swelling, or tenderness over the left proximal femur.Laboratory studies:Alkaline phosphatase77 U/L6 months ago120 U/LH",
   "question_stem": "Which of the following is the most appropriate annual monitoring for this patient?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate monitoring of this patient with Paget disease of bone is annual serum alkaline phosphatase measurement (Option C). Normalization of the alkaline phosphatase level indicates successful treatment of Paget disease of bone. In most patients with monostotic disease, treatment normalizes the alkaline phosphatase level for up to 5 years, if not permanently. However, if disease activity increases over time, alkaline phosphatase levels will gradually rise. Retreatment may be necessary if the alkaline phosphatase level rises above the normal range. This patient's normal alkaline phosphatase level indicates that treatment was successful, but he should continue to be monitored annually.Paget disease of bone and low bone mass are both common in older adults. Bone mineral density testing (Option A) with a modality such as dual-energy x-ray absorptiometry may be used to screen for osteoporosis and assess fracture risk, but it does not inform management of Paget disease of bone and would be unnecessary in this patient.Radionuclide bone scanning (Option B) is used in the initial evaluation of Paget disease of bone to exclude polyostotic disease, especially if identifying other sites of involvement would influence management. Once the extent of disease involvement is determined, this test is not indicated to monitor patients. Sites of disease not detected on the initial bone scan (i.e., newly involved bone) are rarely encountered. Furthermore, areas affected by Paget disease of bone would continue to demonstrate abnormal radionuclide uptake regardless of the extent of disease activity; thus, scanning would not be useful in determining treatment efficacy.The absence of symptoms does not exclude disease activity and progression; therefore, reviewing symptoms alone (Option D) is not sufficient monitoring for Paget disease of bone. However, new symptoms in the affected region of bone warrant assessment at any point in management. New pain associated with the affected bone may represent pathologic fracture or, very rarely, sarcomatous transformation.",
+  "critique_links": [],
   "key_points": [
     "Treated Paget disease of bone is monitored with annual serum alkaline phosphatase measurement.",
     "In Paget disease of bone, serum alkaline phosphatase levels will gradually rise if disease activity increases over time; retreatment may be necessary if the alkaline phosphatase level rises above the normal range."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:35.580784-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.164772-06:00"
 }

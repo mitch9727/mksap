@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 24-year-old man is evaluated for a 1-week history of right knee pain. The pain began suddenly during a rugby match as he was twisting to catch the ball. He was able to bear weight immediately afterward but since then has had constant pain on the outside of his knee that is worse with weight bearing. He also feels a grinding sensation in the knee but no clicking or locking. Medical history is otherwise unremarkable, and he takes no medications.On physical examination, vital signs are normal. A small right knee effusion and tenderness along the right lateral joint line with no ligamentous laxity are noted. Applying valgus and varus stress to the tibia while flexing and extending the knee results in a grinding feeling over the lateral joint line. With the patient upright and supported, pivoting on a planted right foot with the knee flexed at 5 degrees elicits pain at the lateral joint line.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis in this athlete with acute lateral knee pain and positive medial-lateral grind and Thessaly tests is a lateral meniscus tear (Option C). Meniscal tears usually result from an acute twisting knee injury, although they can also develop more insidiously because of chronic degeneration. Symptoms include pain, locking, catching, and grinding. On examination, joint line tenderness is often present on the side of the injury, and a small or moderate effusion may be present. Results of specialized tests, such as the McMurray, medial-lateral grind, and Thessaly tests, are often positive, but no one test is highly sensitive or specific, and a combination of clinical findings is more diagnostically informative than any single test (see Table: Knee Examination Maneuvers). Imaging may not be necessary unless surgery is being considered. This patient who sustained a twisting injury has multiple physical examination findings consistent with a lateral meniscal tear, which is the most likely diagnosis.Iliotibial band syndrome (Option A) also causes lateral knee pain, but because it results from overuse, it does not present suddenly. On examination, tenderness is present at the lateral epicondyle rather than the joint line, and tests of meniscal integrity are negative.Without previous trauma causing posttraumatic disease, knee osteoarthritis (Option B) in this young patient is unlikely. In addition, osteoarthritis usually presents insidiously, and bony joint abnormalities may be present on examination, neither of which is present in this patient.Patellofemoral pain syndrome (Option D) is characterized by poorly localized anterior knee pain that worsens with prolonged sitting, squatting, running, and using stairs. The lateral knee pain and tenderness in this patient are not consistent with a patellofemoral source of pain.",
+  "critique_links": [],
   "key_points": [
     "Meniscal tears may result from acute twisting injuries or they may be degenerative; common symptoms include knee pain, locking, catching, and grinding.",
     "In the evaluation of possible meniscal tears, a combination of examination findings, including joint line tenderness and specific tests of meniscal integrity, often suggests the diagnosis; imaging may only be necessary if surgery is being considered."
@@ -51,10 +52,45 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/cstab24017.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:01:45.755378-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "cstab24017",
+        "file": "tables/cstab24017.html",
+        "title": "Knee Examination Maneuvers",
+        "short_title": "Knee Examination Maneuvers",
+        "footnotes": [
+          "ACL = anterior cruciate ligament; LCL = lateral collateral ligament; MCL = medial collateral ligament; PCL = posterior cruciate ligament.",
+          "<sup>a</sup>Data used to derive these values are of limited quality. To interpret likelihood ratios, see Likelihood Ratios in Foundations of Clinical Practice.",
+          "<sup>b</sup>Data from Solomon DH, Simel DL, Bates DW, et al. The rational clinical examination. Does this patient have a torn meniscus or ligament of the knee? Value of the physical examination. JAMA. 2001;286:1610-1620. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/11585485\" target=\"_blank\">PMID: 11585485</a> doi:10.1001/jama.286.13.1610",
+          "<sup>c</sup>Data from Rubinstein RA Jr, Shelbourne KD, McCarroll JR, et al. The accuracy of the clinical examination in the setting of posterior cruciate ligament injuries. Am J Sports Med. 1994;22:550-557. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/7943523\" target=\"_blank\">PMID: 7943523</a> doi:10.1177/036354659402200419",
+          "<sup>d</sup>Data from McGee SR. Evidence-Based Physical Diagnosis. 4th ed. Philadelphia, PA: Elsevier; 2018.",
+          "<sup>e</sup>Data from Goossens P, Keijsers E, van Geenen RJ, et al. Validity of the Thessaly test in evaluating meniscal tears compared with arthroscopy: a diagnostic accuracy study. J Orthop Sports Phys Ther. 2015;45:18-24, B1. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/25420009\" target=\"_blank\">PMID: 25420009</a> doi:10.2519/jospt.2015.5215",
+          "<sup>f</sup>Due to limited data, likelihood ratios for the Noble test are not known."
+        ],
+        "headers": [
+          "Maneuver",
+          "Description",
+          "Likelihood Ratioa",
+          "ACL Integrity",
+          "PCL Integrity",
+          "MCL Integrity",
+          "LCL Integrity",
+          "Meniscal Integrity",
+          "Iliotibial Band Syndrome"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.017810-06:00"
 }

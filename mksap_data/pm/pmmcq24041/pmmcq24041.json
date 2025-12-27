@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 57-year-old man is evaluated during a follow-up visit for persistent asthma. He uses his albuterol rescue inhaler several times per week and has nocturnal asthma symptoms an average of twice per week. He also has allergic rhinitis, benign prostatic hyperplasia, and osteoarthritis. Medications are medium-dose budesonide-formoterol, as-needed albuterol, montelukast, intranasal fluticasone, tamsulosin, and as-needed meloxicam.Physical examination findings, including vital signs, are normal.",
+  "question_text": "A 57-year-old man is evaluated during a follow-up visit for persistent asthma. He uses his albuterol rescue inhaler several times per week and has nocturnal asthma symptoms an average of twice per week. He also has allergic rhinitis, benign prostatic hyperplasia, and osteoarthritis. Medications are medium-dose budesonide-formoterol, as-needed albuterol, montelukast, intranasal fluticasone, tamsulosin, and as-needed meloxicam.Physical examination findings, including vital signs, are normal.Laboratory studies:Absolute eosinophil count120/μL (0.12 × 109/L)IgE95 U/mL (95 kU/L)H",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management is to increase this patient's budesonide-formoterol dosage (Option D). The 2020 guidelines from the National Asthma Education and Prevention Program recommend that all adults with moderate persistent asthma use a single combined glucocorticoid-formoterol inhaler daily with additional doses of the combination inhaler as needed (known as maintenance and reliever therapy, or MART). For step-up therapy, daily medium- to high-dose combined inhaled glucocorticoid–long-acting β2-agonist (LABA) therapy plus a long-acting muscarinic antagonist (LAMA) and short-acting β2-agonist as needed should be used, provided no contraindications exist. This patient has persistent asthma that is poorly controlled with medium-dose budesonide-formoterol and requires a step-up in maintenance therapy. Increasing the dose of the budesonide-formoterol from medium to high is the most appropriate next step.Anti–interleukin-5 therapy, such as mepolizumab (Option A), would not be the most appropriate management. Patients with eosinophilia can benefit from inhibitors of interleukins, such as interleukin-5, that are involved in eosinophilic recruitment and maturation. Anti–interleukin-5 therapy can be considered for patients with an absolute eosinophil count higher than 150/μL (0.15 × 109/L) but is not indicated for this patient with an absolute eosinophil count of 120/μL (0.12 × 109/L). In addition, an increase to high-dose budesonide-formoterol should also precede anti–interleukin-5 therapy.Adding anti-IgE therapy, such as omalizumab (Option B), to medium-dose budesonide-formoterol would not be appropriate for this patient. Biologic therapy is considered for persistent asthma that remains poorly controlled despite maximal maintenance therapy with high-dose inhaled glucocorticoid–LABA therapy. Anti-IgE therapy specifically is useful in patients with perennial alloallergens and an elevated IgE level of 30 to 700 U/mL (30-700 kU/L). Although this patient has an elevated IgE level, increasing to high-dose budesonide-formoterol should be done before consideration of anti-IgE therapy.Adding a LAMA, such as tiotropium (Option C), would not be appropriate for this patient. LAMAs provide sustained airway dilation, and tiotropium has been shown to improve lung function and reduce exacerbations when added to therapy in patients whose symptoms are not controlled with inhaled glucocorticoid–LABA therapy. However, LAMAs should be avoided in patients at risk for urinary retention, such as this patient with benign prostatic hyperplasia.",
+  "critique_links": [],
   "key_points": [
     "Moderate persistent asthma can be treated with a single combined glucocorticoid-formoterol inhaler daily with additional doses of the combination inhaler as needed (known as maintenance and reliever therapy, or MART).",
     "An inhaled long-acting muscarinic antagonist can be added to a combined glucocorticoid-formoterol inhaler as step-up therapy in poorly controlled asthma."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.021508-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.094763-06:00"
 }

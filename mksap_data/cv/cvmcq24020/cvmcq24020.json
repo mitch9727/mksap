@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 38-year-old patient is evaluated for recurrent syncope. The patient has had three syncopal episodes. The most recent episode occurred 1 month ago while they were seated; the other two happened when they were at work in an office and resulted in a mandibular and a clavicular fracture 1 and 2 years ago, respectively. The patient reports no prodromal symptoms or postictal state. The patient is an avid runner and reports no limitations in their activities. Previous evaluations, including a 24-hour ambulatory ECG monitor, were unrevealing. The patient has no other medical problems and no family history of sudden death. They take no medications.Physical examination findings, including vital signs, are normal.Laboratory results are within normal limits.A 12-lead ECG shows sinus bradycardia at 57/min with otherwise normal axis, intervals, and waveforms. Transthoracic echocardiogram findings are normal.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate diagnostic test for this patient is an implantable loop recorder (Option C). An implantable loop recorder is a small device that is surgically placed under the skin and continuously records the heart's electrical activity for up to 3 years. It is useful for detecting arrhythmias that occur infrequently and may be missed by other types of monitors. It is particularly well-suited for a patient who has infrequent, recurrent syncopal episodes. This patient has had three syncopal episodes, two of which resulted in significant traumatic injury. Although the events have been infrequent, they have several features suggestive of cardiac arrhythmia (lack of a prodrome and resultant injury) and lack features that suggest a more benign cause, such as vasovagal events. Further investigation is warranted. Given the infrequent occurrence of the syncope, a long-term implanted loop recorder is the best option.An ambulatory ECG (Holter) monitor (Option A) is a portable device that continuously records a three-lead ECG signal for 24 to 48 hours. It is useful for detecting frequent but intermittent arrhythmias. However, it is not the best choice for this patient with infrequent syncopal episodes.An event monitor (Option B) is similar to an ambulatory ECG monitor, but it starts recording only when there is a critical arrhythmia or when the patient activates it, typically when symptoms occur. Although this type of monitor may be helpful in capturing the cause of palpitations or other symptoms, it is not ideal for patients with syncopal episodes without a significant prodrome because patients may not be able to activate the monitor before losing consciousness, as in this scenario.A mobile cardiac telemetry monitor (Option D) uses wireless technology to continuously transmit the heart's ECG signal to a central monitoring station. Often used in hospital settings, this type of device is also available in the ambulatory setting for situations in which quantifying the precise burden of an arrhythmia is warranted. Memory capacity for current devices approaches 96 hours, which would be insufficient in this scenario.",
+  "critique_links": [],
   "key_points": [
     "An implantable loop recorder is useful for detecting arrhythmias that occur infrequently and may be missed by other types of monitors.",
     "The implantable loop recorder is particularly well-suited for a patient who has infrequent, recurrent syncopal episodes."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.565510-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:26.462791-06:00"
 }

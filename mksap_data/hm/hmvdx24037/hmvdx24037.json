@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 22-year-old woman is evaluated for mild anemia.Peripheral blood smear is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is hereditary elliptocytosis (Option A). Hereditary elliptocytosis is a rare inherited disorder; clinical manifestations range from mild anemia with well-compensated hemolysis to severe transfusion-dependent hemolytic anemia with splenomegaly. The diagnosis is suggested by the presence of hemolytic anemia with elliptocytes (arrows) on peripheral blood smear.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/hmfig24658.ac6f368301a2f4f7f637a9a5a524a5af.jpg",
-      "figures/hmfig24657.b948a6671475469da433ee4dedf7c074.jpg"
+      "figures/hmfig24657.b948a6671475469da433ee4dedf7c074.jpg",
+      "figures/hmfig24658.ac6f368301a2f4f7f637a9a5a524a5af.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.989842-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hmfig24657",
+        "file": "figures/hmfig24657.b948a6671475469da433ee4dedf7c074.jpg",
+        "title": "Stem Peripheral Blood Smear Showing Elliptocytosis",
+        "short_title": "PBS Showing Elliptocytosis Stem",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 416
+      },
+      {
+        "figure_id": "hmfig24658",
+        "file": "figures/hmfig24658.ac6f368301a2f4f7f637a9a5a524a5af.jpg",
+        "title": "Critique Peripheral Blood Smear Showing Elliptocytosis",
+        "short_title": "PBS Showing Elliptocytosis Critique",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 416
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.168256-06:00"
 }

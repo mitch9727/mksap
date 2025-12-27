@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 78-year-old man is hospitalized for sudden onset of intermittent, painless, large-volume hematochezia that began the previous day. His last bloody stool was 4 hours before hospitalization. The patient has no associated orthostasis, nausea, vomiting, melena, or abdominal pain. He reports no NSAID use. He has diverticulosis (found on screening colonoscopy 4 years ago) and hypertension. His only medication is lisinopril.On physical examination, vital signs are normal. A scant amount of fresh blood is seen on anorectal examination. Results of a cardiopulmonary examination are normal. The patient's abdomen is soft and not tender. There are no stigmata of chronic liver disease.",
+  "question_text": "A 78-year-old man is hospitalized for sudden onset of intermittent, painless, large-volume hematochezia that began the previous day. His last bloody stool was 4 hours before hospitalization. The patient has no associated orthostasis, nausea, vomiting, melena, or abdominal pain. He reports no NSAID use. He has diverticulosis (found on screening colonoscopy 4 years ago) and hypertension. His only medication is lisinopril.On physical examination, vital signs are normal. A scant amount of fresh blood is seen on anorectal examination. Results of a cardiopulmonary examination are normal. The patient's abdomen is soft and not tender. There are no stigmata of chronic liver disease.Laboratory studies:Hemoglobin8.8 g/dL (88 g/L)LBaseline: 13.5 g/dL (135 g/L)LBlood urea nitrogen13 mg/dL (4.6 mmol/L)Creatinine0.8 mg/dL (70.7 μmol/L)",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate diagnostic test to perform next is colonoscopy (Option B). This patient's bleeding is most likely caused by his diverticulosis. Diverticulosis is one of the three most common causes of acute hematochezia requiring hospitalization. Diverticular bleeding is typically painless except for occasional abdominal cramping. It stops spontaneously in 75% of cases, but rebleeding is common. Hypertensive medication and concomitant arteriosclerotic diseases are risk factors for colonic diverticular hemorrhage. Colonoscopy is the first study of choice in patients, such as this one, with lower gastrointestinal bleeding who are hemodynamically stable and have no evidence of rapid bleeding. Colonoscopy should be performed after adequate bowel preparation.Catheter-based angiography with embolization (Option A) is the appropriate test to perform after CT angiography shows active bleeding. However, CT angiography is not indicated at this time given the patient's hemodynamic stability and no evidence of ongoing rapid bleeding.CT angiography (Option C) is the initial diagnostic test in patients who are hemodynamically unstable after initial resuscitation or have rapid ongoing bleeding. It is highly accurate at localizing the site of bleeding and can be used immediately before catheter-based angiography with embolization to guide selective injection of contrast material and therapy during angiography. Because this patient is hemodynamically stable and the bleeding appears to have spontaneously abated, CT angiography would not be the next diagnostic test.In patients presenting with severe hematochezia and associated hemodynamic instability, brisk upper gastrointestinal bleeding should be considered first and excluded with upper endoscopy (Option D) once they are stabilized. Upper gastrointestinal bleeding is less likely in this patient, who is hemodynamically stable and has no risk factors for upper gastrointestinal bleeding (e.g., NSAID ingestion, chronic liver disease stigmata, or an elevated ratio of blood urea nitrogen to creatinine [>30:1]). Therefore, upper endoscopy would have lower diagnostic yield than colonoscopy.",
+  "critique_links": [],
   "key_points": [
     "In hemodynamically stable patients without evidence of rapid bleeding, colonoscopy is the first study of choice in patients with lower gastrointestinal bleeding."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:30.950129-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.390996-06:00"
 }

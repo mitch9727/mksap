@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 28-year-old man is evaluated in the hospital for an elevated serum creatinine level after being admitted for a 6-month history of lower extremity edema and progressive fatigue. He has a history of injection drug use.On physical examination, blood pressure is 150/95 mm Hg; other vital signs are normal. He has 2-mm pitting edema through the mid shins.Kidney biopsy shows membranoproliferative glomerulonephritis on light microscopy, and immunofluorescence microscopy shows 3+ staining for IgG, 1+ staining for IgM, 2+ staining for C1q complement, and 2+ staining for C3 complement.",
+  "question_text": "A 28-year-old man is evaluated in the hospital for an elevated serum creatinine level after being admitted for a 6-month history of lower extremity edema and progressive fatigue. He has a history of injection drug use.On physical examination, blood pressure is 150/95 mm Hg; other vital signs are normal. He has 2-mm pitting edema through the mid shins.Laboratory studies:Albumin3.3 g/dL (33 g/L)L C3 complement55 mg/dL (550 mg/L) C4 complement8 mg/dL (80 mg/L)LCreatinine2.8 mg/dL (248 µmol/L)HUrinalysis3+ protein, 3+ bloodUrine protein-creatinine ratio2300 mg/gHKidney biopsy shows membranoproliferative glomerulonephritis on light microscopy, and immunofluorescence microscopy shows 3+ staining for IgG, 1+ staining for IgM, 2+ staining for C1q complement, and 2+ staining for C3 complement.",
   "question_stem": "Which of the following is the most likely cause of this patient's glomerulonephritis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely cause of this patient's glomerulonephritis is hepatitis C virus (HCV) infection (Option B). This patient presents with glomerulonephritis (elevated serum creatinine level with hematuria and subnephrotic proteinuria) that, on biopsy, shows an immune complex–mediated membranoproliferative glomerulonephritis (MPGN) pattern. Evaluating MPGN lesions is based on the pattern of staining on immunofluorescence microscopy. The more common pattern, as seen in this patient, is immune complex deposition with the presence of both immunoglobulin (IgG, IgM, and/or IgA) and complement (C1q and/or C3) on immunofluorescence. This pattern infers that the classic pathway has been activated by an inciting cause or event that is classified into one of three categories:InfectiousAutoimmuneMalignancy associatedThe most common of these causes is infection, especially with HCV. This patient with a history of injection drug use is in a population at high risk for HCV infection. Identification of HCV infection as the cause of immune complex–mediated MPGN is crucial because treatment is direct-acting antiviral therapy, typically anti-HCV therapy without immunosuppression.Hepatitis B virus (Option A) and HIV infection (Options C) have been linked to glomerular diseases. However, these are classically nephrotic syndromes, specifically membranous nephropathy in patients with hepatitis B infection and focal segmental glomerulosclerosis in those with HIV infection.Individuals who use injection drugs are at higher risk for infective endocarditis (Option D), and, in turn, endocarditis is a cause of glomerulonephritis. However, this patient has no features to suggest endocarditis. In addition, the biopsy lesion associated with endocarditis would either show an infection-related glomerulonephritis or a pauci-immune glomerulonephritis.",
+  "critique_links": [],
   "key_points": [
     "The most common infectious cause of immune-mediated membranoproliferative glomerulonephritis is hepatitis C virus infection."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:39.014605-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.675827-06:00"
 }

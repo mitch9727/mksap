@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 64-year-old man is evaluated for chronic left knee pain that worsens with use.A radiograph of the knee is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient's knee radiograph shows typical changes of advanced osteoarthritis (Option A) with severe medial joint-space narrowing; there is almost bone-on-bone contact with subchondral sclerosis. Mild medial osteophyte formation and an osteochondral lesion in the medial femoral condyle are also present. In addition, there is linear calcification of the lateral meniscus suggestive of chondrocalcinosis. However, the patient's history does not suggest pseudogout (acute calcium pyrophosphate crystal arthritis), as the patient does not have a history of an intermittently painful or swollen knee. Hence, chondrocalcinosis is an incidental finding in this case.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:05.891663-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "rmfig24603",
+        "file": "figures/rmfig24603.33e77b12a3f48c131e6d0ed725b86416.jpg",
+        "title": "Radiograph Showing Osteoarthritis of the Knee",
+        "short_title": "stem Radiograph Showing Knee Osteoarthritis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 351,
+        "height": 590
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.867331-06:00"
 }

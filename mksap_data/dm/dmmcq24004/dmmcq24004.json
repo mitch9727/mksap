@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 25-year-old woman is evaluated for a 5-day history of hair loss localized to one circular area of her scalp with no associated pruritus or burning. She reports no increased shedding, but she noticed a patch of hair loss when styling her hair a few days ago. She has had no previous episodes of hair loss. She has type 1 diabetes mellitus treated with insulin.On physical examination, vital signs are normal.Findings on the scalp are shown.There is no cervical or occipital lymphadenopathy.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis in this patient with localized hair loss is alopecia areata (Option A). Alopecia areata is an autoimmune disease characterized by well-circumscribed smooth patches of nonscarring hair loss, most commonly on the scalp. The hair loss is often sudden and without associated scalp symptoms. Involvement of the eyebrows or other body hair may occur, but complete loss of hair on the scalp (alopecia totalis) or body (alopecia universalis) is rare. The incidence of alopecia areata is increased in patients with other autoimmune diseases, such as type 1 diabetes mellitus and autoimmune thyroid disease. Prompt and early diagnosis can be critical in stopping further hair loss in aggressive cases. In limited disease, topical or intralesional glucocorticoids are indicated. For severe cases, oral Janus kinase inhibitors are approved for treatment. This patient with type 1 diabetes has a smooth, well-circumscribed round patch of alopecia on the scalp with preserved follicular ostia and without scale, dyspigmentation, erythema, or scarred follicles. Alopecia areata is the most likely diagnosis.Discoid lupus erythematosus (DLE) (Option B) involving the scalp can present as localized hair loss. However, DLE presents as scarring hair loss with loss of the follicular ostia and often has associated hypo- or hyperpigmented patches of the involved area of alopecia. Additionally, DLE commonly has associated erythema and/or scale of the involved dyspigmented scalp. This patient has none of the erythema, scale, dyspigmentation, or loss of the follicular ostia characteristic of the scarring process associated with the hair loss from DLE.Telogen effluvium (Option C) is a type of nonscarring hair loss that is typically self-limited and commonly presents with diffuse hair shedding, resulting in general thinning of the hair. Similar to alopecia areata, telogen effluvium does not have associated scalp symptoms such as pruritus or burning. Telogen effluvium is commonly triggered by a preceding traumatic event (surgery, severe illness, childbirth) with the shedding starting approximately 3 months later. This patient has localized hair loss rather than the diffuse loss seen in telogen effluvium.Tinea capitis (Option D) is a fungal infection of the scalp most commonly seen in children. Although it can present as circular patches of alopecia, tinea capitis is pruritic and typically presents with associated scale, erythema, or pustules. Occipital or cervical lymphadenopathy may also be present. This patient is an adult who presents with a smooth patch of alopecia, absent of itch, and negative lymph node examination; tinea capitis is an unlikely diagnosis.",
+  "critique_links": [],
   "key_points": [
     "Alopecia areata is nonscarring hair loss that results in smooth, hairless patches of skin, most commonly appearing on the scalp; the hair loss may be sudden and occurs without associated symptoms.",
     "For limited alopecia areata, topical or intralesional glucocorticoids are indicated; for severe cases, oral Janus kinase inhibitors are approved for treatment."
@@ -52,9 +53,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24203.93bff02cf79f9f6528fce6c1a6460675.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.692875-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24203",
+        "file": "figures/dmfig24203.93bff02cf79f9f6528fce6c1a6460675.jpg",
+        "title": "Alopecia Areata",
+        "short_title": "stem Alopecia Areata",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 707
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.213502-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 66-year-old man is evaluated for sudden-onset dyspnea. Blood pressure in the right arm is 198/120 mm Hg. Cardiopulmonary examination reveals aortic regurgitation and pulmonary crackles. Emergency chest CT with contrast is performed.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is type A aortic dissection (Option D). The CT scan with contrast shows a dissection plane extending through the aortic arch (arrow). Type A aortic dissection classically presents with the sudden onset of chest or back pain that has a tearing or ripping quality; however, not all patients will have this symptom. Patients also may present with hypertension, syncope, a murmur of aortic regurgitation, or heart failure in the setting of sudden aortic insufficiency. The findings of asymmetric blood pressures in the upper extremities, asymmetric pulses, or pulsus paradoxus should all raise suspicion for acute aortic dissection.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/cvfig24612.d0c46ea57ea6f6d7e5e4205ec4de50d3.jpg",
-      "figures/cvfig24611.813f64500d74b09ca3c5bdccf5707928.jpg"
+      "figures/cvfig24611.813f64500d74b09ca3c5bdccf5707928.jpg",
+      "figures/cvfig24612.d0c46ea57ea6f6d7e5e4205ec4de50d3.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.375543-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24611",
+        "file": "figures/cvfig24611.813f64500d74b09ca3c5bdccf5707928.jpg",
+        "title": "Chest CT Showing Type A Aortic Dissection",
+        "short_title": "stem Chest CT Showing Type A Aortic Dissection",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 512,
+        "height": 418
+      },
+      {
+        "figure_id": "cvfig24612",
+        "file": "figures/cvfig24612.d0c46ea57ea6f6d7e5e4205ec4de50d3.jpg",
+        "title": "Chest CT Showing Type A Aortic Dissection With Arrow",
+        "short_title": "critique Chest CT Showing Type A Aortic Dissection With Arrow",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 512,
+        "height": 418
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.857111-06:00"
 }

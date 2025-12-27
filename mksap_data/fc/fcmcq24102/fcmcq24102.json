@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 75-year-old woman is evaluated during a new-patient visit. She reports two mechanical (ground-level) falls over the past 4 months. Both episodes occurred at night; on waking to use the bathroom, she occasionally experiences unsteadiness, which causes her to stumble. She otherwise feels well. Medical conditions include hypertension, paroxysmal atrial fibrillation, dyslipidemia, hypothyroidism, depression, and insomnia. Two months ago, her previous physician started citalopram 20 mg once daily. Other medications are lisinopril, metoprolol, rivaroxaban, atorvastatin, levothyroxine, and zolpidem.On physical examination, vital signs are normal. Mild bruising is noted on the shins; the patient reports that the bruises are from her recent fall. The remainder of the examination is unremarkable.PHQ-2 score is 0.",
   "question_stem": "Which of the following is the most appropriate medication management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate medication management is to discontinue zolpidem (Option C). Polypharmacy, or the regular use of five or more prescription medications, is common in older adults and is associated with increased health care utilization, cost, medication nonadherence, and functional decline. Frequent review of patient medications to confirm their necessity and proper dosing is paramount. Medications that are unnecessary or associated with significant risk in older patients should be stopped or replaced with a safer option, when possible. Zolpidem is on the American Geriatrics Society Beers Criteria for Potentially Inappropriate Medication Use in Older Adults because it carries an increased risk for falls and for injury from falls. This patient has had two recent falls, and the most appropriate next step is to stop zolpidem, which is likely contributing to her nighttime unsteadiness.Regularly reviewing a patient's medication list and eliminating inappropriate medications are essential. However, it is important to recognize that older adults also may be underprescribed drugs that provide benefit. Citalopram is an appropriate medication for older adults with depression; however, dosages above 20 mg/d should not be used in older patients because of dose-dependent QT interval prolongation. This patient has a history of depression and is achieving good results with appropriately dosed citalopram, and her falls predate the initiation of this medication, so it should not be stopped (Option A).Anticoagulants are often withheld from older patients with atrial fibrillation who are at risk for falls or have fallen because of concerns about intracranial hemorrhage. However, the risk for this outcome is low and is often outweighed by the benefit of preventing ischemic stroke. Anticoagulation discontinuation may be considered in frail patients with low life expectancy and increased bleeding risk. This patient has a CHA2DS2-VASc score of 4; she has not had a previous bleed, does not have comorbidities that increase her bleeding risk, and has a relatively low risk for a future major bleed. Additionally, she is taking a direct oral anticoagulant, which has a lower risk for intracranial hemorrhage compared with warfarin. Her rivaroxaban should not be discontinued (Option B).No change in management (Option D) would be inappropriate for this patient who has experienced recent falls. She is taking a medication that has been shown to contribute to fall risk, and this medication should be discontinued.",
+  "critique_links": [],
   "key_points": [
     "Polypharmacy is common in older adults and is associated with increased health care utilization, cost, medication nonadherence, and functional decline.",
     "Frequent review of patient medications to confirm their necessity and proper dosing is paramount; medications associated with risk in older patients should be stopped or replaced with a safer option, when possible."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:34.127705-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:27.819872-06:00"
 }

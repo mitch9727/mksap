@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 56-year-old man is evaluated for bradycardia prior to cataract surgery. He is asymptomatic.ECG is shown.",
   "question_stem": "Which of the following ECG findings is present?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The ECG findings are consistent with sinus bradycardia (Option D), as there is a normal-appearing P wave preceding each QRS complex with a normal PR interval. Sinus bradycardia (sinus rhythm with a heart rate <50/min) may be appropriate in several situations, including in trained athletes or during sleep, when the heart rate may fall as low as 30/min. This patient's heart rate is approximately 47/min. A premature atrial contraction is also seen. The normal P wave conduction precludes the diagnosis of an atrioventricular block.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.347299-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24620",
+        "file": "figures/cvfig24620.42178c384cd4b7333414c10e3200ab27.jpg",
+        "title": "ECG Showing Sinus Bradycardia",
+        "short_title": "stem ECG Showing Sinus Bradycardia",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 346
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.883839-06:00"
 }

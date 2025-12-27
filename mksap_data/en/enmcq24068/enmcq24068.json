@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 35-year-old man is evaluated in the emergency department for a 1-week history of fever, tremulousness, nausea, and vomiting following an upper respiratory infection. He also has a 1-month history of a 4.5-kg (10.0 lb) weight loss and palpitations. He was diagnosed with Graves disease 6 months ago. However, he ran out of his methimazole and propranolol 1 month ago.On physical examination, temperature is 39.4 °C (102.9 °F), blood pressure is 110/64 mm Hg, and pulse rate is 124/min; other vital signs are normal. BMI is 18. He appears agitated. Bilateral exophthalmos and goiter are present. Cardiac examination reveals tachycardia. Neurologic examination reveals hyperreflexia and bilateral hand tremors.ECG shows sinus tachycardia.",
+  "question_text": "A 35-year-old man is evaluated in the emergency department for a 1-week history of fever, tremulousness, nausea, and vomiting following an upper respiratory infection. He also has a 1-month history of a 4.5-kg (10.0 lb) weight loss and palpitations. He was diagnosed with Graves disease 6 months ago. However, he ran out of his methimazole and propranolol 1 month ago.On physical examination, temperature is 39.4 °C (102.9 °F), blood pressure is 110/64 mm Hg, and pulse rate is 124/min; other vital signs are normal. BMI is 18. He appears agitated. Bilateral exophthalmos and goiter are present. Cardiac examination reveals tachycardia. Neurologic examination reveals hyperreflexia and bilateral hand tremors.Laboratory studies:Thyroid-stimulating hormone<0.01 μU/mL (0.01 mU/L)LFree thyroxine7.5 ng/dL (97 pmol/L)HTotal triiodothyronine1050 ng/dL (16.2 nmol/L)HECG shows sinus tachycardia.",
   "question_stem": "Which of the following is the most appropriate next step in treatment?",
   "options": [
     {
@@ -43,7 +43,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "This patient should receive high-dose propylthiouracil (Option C) to treat thyroid storm. Thyroid storm is a rare, severe manifestation of thyrotoxicosis with a high mortality rate. It can occur in patients with underlying hyperthyroidism who have discontinued antithyroid medications, or it can be precipitated by an acute event, such as an infection, surgery, trauma, an acute iodine load, or labor and delivery. The most common symptoms of thyroid storm are tachycardia (atrial fibrillation and heart failure may occur), hyperpyrexia, and altered mentation (agitation, psychosis, lethargy, seizures). Thyroid storm should be diagnosed clinically in patients with thyrotoxicosis and signs of systemic decompensation. Although the Burch-Wartofsky Point Scale may be used to suggest the diagnosis of thyroid storm (), it is limited by poor specificity; no universally validated criteria for diagnosis exist. Once thyroid storm is diagnosed, aggressive therapy in the ICU should be initiated because of the associated high mortality rate. Identifying any precipitating factors is essential but should not delay treatment. Initial management includes thionamides; propylthiouracil is preferred over methimazole because it reduces the conversion of thyroxine to triiodothyronine. Patients should also receive β-blockers, intravenous high-dose glucocorticoids, and potassium iodide. This patient had underlying hyperthyroidism that was untreated for 1 month and then experienced an upper respiratory infection, which likely precipitated the development of thyroid storm; immediate treatment, including propylthiouracil, should be initiated.Cholestyramine (Option A) is a bile acid sequestrant that binds thyroid hormones in the gut and reduces their enterohepatic circulation. It can be used as adjunctive therapy in thyroid storm, especially in patients who cannot tolerate or have an allergy to thionamides. It is not the most appropriate next step in treatment for this patient, who should first be given a thionamide.Potassium iodide (Option B) is also used as an adjunctive therapy for patients with thyroid storm because it blocks the release of thyroid hormone from the gland. However, it should be administered at least 1 hour after the first thionamide dose to prevent the iodide from being used as a substrate to the gland, which could exacerbate hyperthyroidism.Definitive therapy with radioactive iodine therapy (Option D) or total thyroidectomy (Option E) is indicated in patients who survive thyroid storm. However, medical therapy, including propylthiouracil, β-blockers, glucocorticoids, and potassium iodide, should be started first for thyroid storm.",
+  "critique": "This patient should receive high-dose propylthiouracil (Option C) to treat thyroid storm. Thyroid storm is a rare, severe manifestation of thyrotoxicosis with a high mortality rate. It can occur in patients with underlying hyperthyroidism who have discontinued antithyroid medications, or it can be precipitated by an acute event, such as an infection, surgery, trauma, an acute iodine load, or labor and delivery. The most common symptoms of thyroid storm are tachycardia (atrial fibrillation and heart failure may occur), hyperpyrexia, and altered mentation (agitation, psychosis, lethargy, seizures). Thyroid storm should be diagnosed clinically in patients with thyrotoxicosis and signs of systemic decompensation. Although the Burch-Wartofsky Point Scale may be used to suggest the diagnosis of thyroid storm (Table: Diagnostic Criteria for Thyroid Storm), it is limited by poor specificity; no universally validated criteria for diagnosis exist. Once thyroid storm is diagnosed, aggressive therapy in the ICU should be initiated because of the associated high mortality rate. Identifying any precipitating factors is essential but should not delay treatment. Initial management includes thionamides; propylthiouracil is preferred over methimazole because it reduces the conversion of thyroxine to triiodothyronine. Patients should also receive β-blockers, intravenous high-dose glucocorticoids, and potassium iodide. This patient had underlying hyperthyroidism that was untreated for 1 month and then experienced an upper respiratory infection, which likely precipitated the development of thyroid storm; immediate treatment, including propylthiouracil, should be initiated.Cholestyramine (Option A) is a bile acid sequestrant that binds thyroid hormones in the gut and reduces their enterohepatic circulation. It can be used as adjunctive therapy in thyroid storm, especially in patients who cannot tolerate or have an allergy to thionamides. It is not the most appropriate next step in treatment for this patient, who should first be given a thionamide.Potassium iodide (Option B) is also used as an adjunctive therapy for patients with thyroid storm because it blocks the release of thyroid hormone from the gland. However, it should be administered at least 1 hour after the first thionamide dose to prevent the iodide from being used as a substrate to the gland, which could exacerbate hyperthyroidism.Definitive therapy with radioactive iodine therapy (Option D) or total thyroidectomy (Option E) is indicated in patients who survive thyroid storm. However, medical therapy, including propylthiouracil, β-blockers, glucocorticoids, and potassium iodide, should be started first for thyroid storm.",
+  "critique_links": [],
   "key_points": [
     "Initial management of thyroid storm should be performed in the ICU and includes thionamides (preferably propylthiouracil), β-blockers, intravenous glucocorticoids, and potassium iodide."
   ],
@@ -56,12 +57,44 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/entab24050.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:53.197694-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "entab24050",
+        "file": "tables/entab24050.html",
+        "title": "Diagnostic Criteria for Thyroid Storm<sup>a</sup>",
+        "short_title": "Diagnostic Criteria for Thyroid Storm",
+        "footnotes": [
+          "<sup>a</sup>In patients with severe thyrotoxicosis, points are assigned to the highest weighted description acceptable in each category and scores totaled. When it is not possible to distinguish the effects of an intercurrent illness from those of the severe thyrotoxicosis per se, points are awarded such as to favor the diagnosis of storm and hence, empiric therapy. A score of 45 or greater is highly suggestive of thyroid storm, a score of 25 to 44 is suggestive of impending storm, and a score below 25 is unlikely to represent thyroid storm.",
+          "Reproduced from Burch HB, Wartofsky L. Life-threatening thyrotoxicosis. Thyroid storm. <a href=\"https://www.sciencedirect.com/journal/endocrinology-and-metabolism-clinics-of-north-america\" target=\"_blank\">Endocrinol Metab Clin North Am</a>. 1993;22:263-77. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/8325286\" target=\"_blank\">PMID: 8325286</a> doi.org/10.1016/S0889-8529(18)30165-8. Copyright 1993 with permission from Elsevier, Inc."
+        ],
+        "headers": [
+          "Thermoregulatory Dysfunction",
+          "Central Nervous System Effects",
+          "Gastrointestinal-Hepatic Dysfunction",
+          "Cardiovascular Dysfunction",
+          "Precipitant History"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.254019-06:00"
 }

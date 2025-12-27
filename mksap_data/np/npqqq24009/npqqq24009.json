@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 58-year-old woman is evaluated during a follow-up visit for difficult-to-control hypertension. She also has chronic kidney disease and dyslipidemia. Medications are atorvastatin; carvedilol; and maximum doses of lisinopril, amlodipine, and hydralazine.On physical examination, the average of three blood pressure measurements is 152/98 mm Hg, and pulse rate is 65/min. There is 1+ pitting pretibial lower extremity edema. The remainder of the examination is normal.",
+  "question_text": "A 58-year-old woman is evaluated during a follow-up visit for difficult-to-control hypertension. She also has chronic kidney disease and dyslipidemia. Medications are atorvastatin; carvedilol; and maximum doses of lisinopril, amlodipine, and hydralazine.On physical examination, the average of three blood pressure measurements is 152/98 mm Hg, and pulse rate is 65/min. There is 1+ pitting pretibial lower extremity edema. The remainder of the examination is normal.Laboratory studies:Creatinine2.5 mg/dL (221 µmol/L)HPotassium5.0 mEq/L (5.0 mmol/L)Urine albumin-creatinine ratio350 mg/gHEstimated glomerular filtration rate28 mL/min/1.73 m2",
   "question_stem": "Which of the following is the most appropriate additional treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The addition of a thiazide-like diuretic, such as chlorthalidone (Option A), is the most appropriate treatment. This patient has difficult-to-control hypertension in the setting of stage G4 chronic kidney disease (CKD), and her blood pressure (BP) is not at goal. The American College of Cardiology/American Heart Association BP guideline recommends a target BP of <130/80 mm Hg for all patients, including those with CKD. Because sodium retention and volume overload are major contributing factors to hypertension in CKD, dietary sodium restriction to <2000 mg/d and addition of a diuretic are both essential for BP control, especially in advanced CKD. Persistent volume expansion, even if not sufficient to produce clinically evident edema, contributes significantly to hypertension. This is particularly important in sodium-retentive, edematous conditions, such as heart failure, liver cirrhosis, or CKD. The 2021 CLICK trial suggests that, in patients with an estimated glomerular filtration rate <30 mL/min/1.73 m2 and poorly controlled hypertension, chlorthalidone may effectively improve BP. A loop diuretic such as furosemide may also be used, either instead of or concurrent with a thiazide, and higher doses of diuretics are often required in advanced CKD.Clonidine (Option B), a central α-agonist, may be used as an adjunct in the treatment of resistant hypertension, in which BP remains above goal despite concurrent use of three antihypertensive agents of different classes, taken at maximally tolerated doses, one of which is a diuretic. This patient is not yet treated with diuretic therapy, making clonidine a less appropriate choice.The patient is already taking a maximum dose of the ACE inhibitor lisinopril, which is appropriate for treating hypertension in patients with CKD. Although she still has albuminuria, adding the angiotensin receptor blocker (ARB) losartan (Option C) is inappropriate because several trials have shown that combination therapy with an ACE inhibitor and ARB may result in adverse events, such as acute kidney injury and hyperkalemia, and does not improve cardiovascular outcomes compared with treatment with an ACE inhibitor or ARB alone.Although spironolactone (Option D) can lower blood pressure, it is not the most appropriate choice for this patient as it risks hyperkalemia in a patient with CKD who is taking an ACE inhibitor.",
+  "critique_links": [],
   "key_points": [
     "Patients with difficult-to-control hypertension in the setting of chronic kidney disease require diuretic therapy to prevent or correct sodium retention and extracellular volume expansion."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.414719-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.913061-06:00"
 }

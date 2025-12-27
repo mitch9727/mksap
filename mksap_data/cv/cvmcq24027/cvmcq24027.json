@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 57-year-old woman undergoes follow-up evaluation 3 months after hospitalization for a myocardial infarction. She underwent emergent percutaneous coronary intervention with stenting of the left anterior descending artery. No other obstructive coronary disease was found, and left ventricular function was normal. The initial LDL cholesterol level was 140 mg/dL (3.63 mmol/L). Her remaining hospital course was uncomplicated. She has no other medical conditions. Medications at discharge were aspirin, clopidogrel, metoprolol, lisinopril, and high-dose rosuvastatin.On physical examination, blood pressure is 118/72 mm Hg, pulse rate is 62/min, and oxygen saturation is 98% breathing ambient air. All other findings are unremarkable.",
+  "question_text": "A 57-year-old woman undergoes follow-up evaluation 3 months after hospitalization for a myocardial infarction. She underwent emergent percutaneous coronary intervention with stenting of the left anterior descending artery. No other obstructive coronary disease was found, and left ventricular function was normal. The initial LDL cholesterol level was 140 mg/dL (3.63 mmol/L). Her remaining hospital course was uncomplicated. She has no other medical conditions. Medications at discharge were aspirin, clopidogrel, metoprolol, lisinopril, and high-dose rosuvastatin.On physical examination, blood pressure is 118/72 mm Hg, pulse rate is 62/min, and oxygen saturation is 98% breathing ambient air. All other findings are unremarkable.Laboratory studies:HDL cholesterol39 mg/dL (1.01 mmol/L)LDL cholesterol65 mg/dL (1.68 mmol/L)",
   "question_stem": "Which of the following is the most appropriate strategy to manage this patient's cholesterol level?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient should be continued on high-dose statin therapy with no change in management (Option D). High-dose statin therapy with either atorvastatin or rosuvastatin is standard of care for patients with known atherosclerotic cardiovascular disease (ASCVD), including those with previous myocardial infarction. Although, historically, specific LDL cholesterol goals were used to guide the initiation of lipid-lowering therapy, the presence of any ASCVD (i.e., coronary artery, cerebrovascular, or peripheral artery disease) is sufficient to initiate statin therapy along with healthy lifestyle interventions regardless of LDL cholesterol level. Once started, the goal of statin therapy in secondary prevention of ASCVD is a 50% reduction in LDL and an LDL cholesterol level less than 70 mg/dL (1.8 mmol/L). This patient has established coronary artery disease, is appropriately treated with high-dose rosuvastatin, and has had an appropriate drop in LDL cholesterol level to less than 50% of the initial value. No change in management is needed.This patient does not require addition of ezetimibe (Option A). In patients with known ASCVD, ezetimibe may be added to maximally tolerated statin therapy if there is less than a 50% reduction in LDL cholesterol or the LDL cholesterol level is still 70 mg/dL (1.8 mmol/L) or higher on statin therapy alone. In addition, in patients at very high risk for recurrent events, specifically those with more than one major ASCVD event and those with one event and multiple risk factors, the goal LDL level is less than 55 mg/dL (1.4 mmol/L), and nonstatin medications should be considered if maximally tolerated statin therapy does not achieve this goal. This patient lacks these higher-risk features. Her LDL cholesterol level is less than 70 mg/dL (1.8 mmol/L) on statin therapy; therefore, adding ezetimibe is not indicated.High-sensitivity C-reactive protein (hs-CRP) levels (Option B) are indicative of a chronic inflammatory state that is associated with ASCVD. Elevated hs-CRP levels (≥0.2 mg/dL [2.0 mg/L]) can help guide a risk discussion with patients who have borderline cardiovascular disease risk regarding initiation of statin therapy. This patient has a clear indication for high-dose statin therapy without the need for further risk stratification.There is no indication for changing rosuvastatin to atorvastatin (Option C). Both rosuvastatin and atorvastatin are appropriate for use in established ASCVD as high-dose therapy, and switching from one medication to another is not necessary.",
+  "critique_links": [],
   "key_points": [
     "Patients with known atherosclerotic cardiovascular disease (ASCVD) should be treated with fixed high-dose statin therapy regardless of initial LDL cholesterol level.",
     "The goal of statin therapy in secondary prevention of ASCVD is a 50% reduction in LDL cholesterol level and an LDL cholesterol level less than 70 mg/dL (1.8 mmol/L)."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:48:43.678826-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.469523-06:00"
 }

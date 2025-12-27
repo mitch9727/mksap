@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 17-year-old woman is evaluated for diarrhea, inability to gain weight, chronic cough, and recurrent episodes of bronchitis requiring antibiotic therapy.Chest radiograph is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is cystic fibrosis (CF) (Option B). Adults diagnosed with CF most often present with pulmonary or gastrointestinal symptoms. Pulmonary manifestations often include chronic productive cough, recurrent sinusitis, and recurrent pulmonary infections requiring recurrent courses of antibiotics. This chest radiograph demonstrates findings consistent with a diagnosis of CF. There are diffusely thickened bronchial walls (arrows) and pairs of parallel linear opacities (“tram tracks”) (arrowheads), consistent with bronchiectasis. Also seen are diffusely distributed patchy areas of airspace consolidation as well as mild hyperinflation of the chest.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/pmfig24611.221bbbea74b18a053df90d8907ea0809.jpg",
-      "figures/pmfig24610.4e71c737aa7f03df2382c870096eefa0.jpg"
+      "figures/pmfig24610.4e71c737aa7f03df2382c870096eefa0.jpg",
+      "figures/pmfig24611.221bbbea74b18a053df90d8907ea0809.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.262418-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24610",
+        "file": "figures/pmfig24610.4e71c737aa7f03df2382c870096eefa0.jpg",
+        "title": "Chest Radiograph Showing Cystic Fibrosis",
+        "short_title": "stem Chest Radiograph Showing Cystic Fibrosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1047
+      },
+      {
+        "figure_id": "pmfig24611",
+        "file": "figures/pmfig24611.221bbbea74b18a053df90d8907ea0809.jpg",
+        "title": "Radiograph Showing Cystic Fibrosis",
+        "short_title": "critique Radiograph Showing Cystic Fibrosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1049
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.235591-06:00"
 }

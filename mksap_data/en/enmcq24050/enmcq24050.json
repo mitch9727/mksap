@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 24-year-old woman is evaluated for an incidental finding of an enlarged pituitary gland. It was discovered on a recent CT scan of the head performed in the emergency department after a motor vehicle collision. She reports no headaches or vision changes. She is having regular periods. Medical history is otherwise unremarkable, and she takes no medications.Physical examination findings, including vital signs, are normal. BMI is 24. There are no striae.Dedicated pituitary MRI reveals a 9-mm pituitary adenoma. There is no mass effect on the optic chiasm.",
+  "question_text": "A 24-year-old woman is evaluated for an incidental finding of an enlarged pituitary gland. It was discovered on a recent CT scan of the head performed in the emergency department after a motor vehicle collision. She reports no headaches or vision changes. She is having regular periods. Medical history is otherwise unremarkable, and she takes no medications.Physical examination findings, including vital signs, are normal. BMI is 24. There are no striae.Laboratory studies:8 am cortisol 18 μg/dL (497 nmol/L)Prolactin18 ng/mL (18 μg/L)Thyroid-stimulating hormone4.5 μU/mL (4.5 mU/L)Free thyroxine1.8 ng/dL (23 pmol/L)Dedicated pituitary MRI reveals a 9-mm pituitary adenoma. There is no mass effect on the optic chiasm.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate diagnostic test to perform next is measurement of insulin-like growth factor-1 (IGF-1) (Option A). Pituitary hypersecretion should be ruled out in all incidentally found pituitary adenomas by measuring serum prolactin and IGF-1 levels. Small growth hormone–secreting pituitary adenomas may not be overtly symptomatic, but diagnosing a growth hormone–secreting tumor when it is smaller than 1 cm in size significantly increases the chance of a surgical cure. Additionally, screening for hypopituitarism is recommended in all pituitary tumors, regardless of symptoms, by measuring serum follicle-stimulating hormone, luteinizing hormone, 8 am cortisol, thyroid-stimulating hormone, free thyroxine, and, in men, 8 am total testosterone levels. In premenopausal women, a menstrual history can assess for hypogonadotropic hypogonadism. Abnormal baseline testing may prompt further stimulatory testing to confirm hypopituitarism (). Microadenomas (<1 cm) should be reassessed with imaging in 1 year and then every 1 to 2 years thereafter for at least 3 years. Repeat evaluation of pituitary function is unnecessary in microadenomas if initial testing is normal and no change has occurred clinically or radiologically. This patient has a 9-mm pituitary adenoma and has been appropriately tested for prolactin hypersecretion as well as hypopituitarism; an IGF-1 level should also be measured.Measuring serum follicle-stimulating hormone and estradiol levels (Option B) in women with normal periods, such as this patient, is not necessary as menses itself sufficiently rules out hypogonadotropic hypogonadism.Measuring a 24-hour urine free cortisol level (Option C) is not necessary in a patient without clinical signs and symptoms of Cushing syndrome, such as violaceous striae, easy bruising, facial plethora, and dorsocervical and supraclavicular fat pads. This patient has no signs of Cushing syndrome on physical examination.Obtaining a visual field examination (Option D) is important in patients with macroadenomas (tumors ≥1 cm) to obtain a baseline and is required in tumors that cause mass effect on the optic chiasm. Although performing visual field testing in a larger microadenoma for a baseline may be reasonable, it would not be the immediate next step for this asymptomatic patient with a subcentimeter adenoma without evidence of mass effect.",
+  "critique": "The most appropriate diagnostic test to perform next is measurement of insulin-like growth factor-1 (IGF-1) (Option A). Pituitary hypersecretion should be ruled out in all incidentally found pituitary adenomas by measuring serum prolactin and IGF-1 levels. Small growth hormone–secreting pituitary adenomas may not be overtly symptomatic, but diagnosing a growth hormone–secreting tumor when it is smaller than 1 cm in size significantly increases the chance of a surgical cure. Additionally, screening for hypopituitarism is recommended in all pituitary tumors, regardless of symptoms, by measuring serum follicle-stimulating hormone, luteinizing hormone, 8 am cortisol, thyroid-stimulating hormone, free thyroxine, and, in men, 8 am total testosterone levels. In premenopausal women, a menstrual history can assess for hypogonadotropic hypogonadism. Abnormal baseline testing may prompt further stimulatory testing to confirm hypopituitarism (Table: Dynamic Testing for Pituitary Dysfunction). Microadenomas (<1 cm) should be reassessed with imaging in 1 year and then every 1 to 2 years thereafter for at least 3 years. Repeat evaluation of pituitary function is unnecessary in microadenomas if initial testing is normal and no change has occurred clinically or radiologically. This patient has a 9-mm pituitary adenoma and has been appropriately tested for prolactin hypersecretion as well as hypopituitarism; an IGF-1 level should also be measured.Measuring serum follicle-stimulating hormone and estradiol levels (Option B) in women with normal periods, such as this patient, is not necessary as menses itself sufficiently rules out hypogonadotropic hypogonadism.Measuring a 24-hour urine free cortisol level (Option C) is not necessary in a patient without clinical signs and symptoms of Cushing syndrome, such as violaceous striae, easy bruising, facial plethora, and dorsocervical and supraclavicular fat pads. This patient has no signs of Cushing syndrome on physical examination.Obtaining a visual field examination (Option D) is important in patients with macroadenomas (tumors ≥1 cm) to obtain a baseline and is required in tumors that cause mass effect on the optic chiasm. Although performing visual field testing in a larger microadenoma for a baseline may be reasonable, it would not be the immediate next step for this asymptomatic patient with a subcentimeter adenoma without evidence of mass effect.",
+  "critique_links": [],
   "key_points": [
     "Pituitary hypersecretion should be ruled out in all incidentally found pituitary adenomas by measuring serum prolactin and insulin-like growth factor-1 levels; diagnosing a growth hormone–secreting tumor when it is smaller than 1 cm in size significantly increases the chance of a surgical cure."
   ],
@@ -51,12 +52,43 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/entab24027.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:44.369819-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "entab24027",
+        "file": "tables/entab24027.html",
+        "title": "Dynamic Testing for Pituitary Dysfunction",
+        "short_title": "Dynamic Testing for Pituitary Dysfunction",
+        "footnotes": [
+          "ACTH = adrenocorticotropic hormone; AVP = arginine vasopressin; DI = diabetes insipidus; GH = growth hormone; IM = intramuscular; IV = intravenous.",
+          "<sup>a</sup>Plasma copeptin measurements after 3% saline can also be used to diagnose arginine vasopressin deficiency, although this method is not yet widely available."
+        ],
+        "headers": [
+          "Indication",
+          "Test",
+          "Technique",
+          "Interpretation"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.208520-06:00"
 }

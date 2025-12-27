@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 58-year-old man is evaluated in an urgent care center for symptoms of presyncope. Blood pressure is 89/51 mm Hg, and pulse rate is 127/min.ECG is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis for this wide-complex tachycardia is ventricular tachycardia (VT) (Option D). A wide-complex tachycardia is any tachycardia with a QRS complex of 120 ms or longer. Wide-complex tachycardias are usually VT when they are positive in lead aVR, have a QRS morphology that is concordant (all predominantly positive or negative) in the precordial leads, have a QRS morphology other than typical right or left bundle branch block, and exhibit extreme axis deviation (“northwest” axis). The absence of loss of consciousness in this patient does not preclude ventricular arrhythmia as the diagnosis.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.498214-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24658",
+        "file": "figures/cvfig24658.0fbeaf3ad8da2ace6b878a7ce169071b.jpg",
+        "title": "ECG Showing Ventricular Tachycardia",
+        "short_title": "stem ECG Showing Ventricular Tachycardia",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 660,
+        "height": 358
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.969581-06:00"
 }

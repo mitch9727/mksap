@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 53-year-old man with progressive dyspnea and cough is evaluated with chest CT (shown).",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This contrast-enhanced chest CT scan suggests COPD (Option C). The multiple sharply defined areas of low attenuation (yellow arrow) are characteristic of centrilobular emphysema. Paraseptal emphysema and bullae also are seen in the subpleural lung regions (red arrows). These findings are consistent with COPD. The diagnosis of COPD is made in the setting of an appropriate clinical history with spirometric documentation of airflow obstruction. Radiography, including chest CT, plays an adjunctive role and is useful when the diagnosis is unclear or in patients with COPD who have worsening symptoms suggestive of a complication, such as infection or pneumothorax.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/pmfig24609.d92908524867a2ba4a371d4d271922be.jpg",
-      "figures/pmfig24608.e1a251879e4cb4fa6673cb738c9e564f.jpg"
+      "figures/pmfig24608.e1a251879e4cb4fa6673cb738c9e564f.jpg",
+      "figures/pmfig24609.d92908524867a2ba4a371d4d271922be.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.254010-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24608",
+        "file": "figures/pmfig24608.e1a251879e4cb4fa6673cb738c9e564f.jpg",
+        "title": "CT Scan Showing COPD",
+        "short_title": "stem CT Scan Showing COPD",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 849,
+        "height": 849
+      },
+      {
+        "figure_id": "pmfig24609",
+        "file": "figures/pmfig24609.d92908524867a2ba4a371d4d271922be.jpg",
+        "title": "CT Scan Showing COPD",
+        "short_title": "critique CT Scan Showing COPD",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 849,
+        "height": 849
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.227259-06:00"
 }

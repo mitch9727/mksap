@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 58-year-old man is evaluated during a follow-up visit for hypertension and stage G3a chronic kidney disease. He also has hyperlipidemia. Medications are amlodipine, lisinopril, dapagliflozin, and atorvastatin.On physical examination, blood pressure is 148/86 mm Hg, and pulse rate is 88/min. The remainder of the examination is unremarkable.",
+  "question_text": "A 58-year-old man is evaluated during a follow-up visit for hypertension and stage G3a chronic kidney disease. He also has hyperlipidemia. Medications are amlodipine, lisinopril, dapagliflozin, and atorvastatin.On physical examination, blood pressure is 148/86 mm Hg, and pulse rate is 88/min. The remainder of the examination is unremarkable.Laboratory studies:Creatinine1.6 mg/dL (141.4 µmol/L)HPotassium4.9 mEq/L (4.9 mmol/L)Urine albumin-creatinine ratio120 mg/gHUrinalysisSpecific gravity 1.010; 1+ protein; no blood",
   "question_stem": "Which of the following is the most appropriate additional treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate additional treatment for this patient with uncontrolled hypertension and chronic kidney disease (CKD) is hydrochlorothiazide (Option B). Kidney Disease: Improving Global Outcomes (KDIGO) suggests a target blood pressure (BP) of <120 mm Hg, if tolerated, in patients with hypertension and CKD, whereas the 2017 American College of Cardiology/American Heart Association (ACC/AHA) BP guideline recommends a target BP of <130/80 mm Hg. In patients with hypertension and CKD, ACE inhibitors or angiotensin receptor blockers (ARBs) are recommended as first-line treatment and should be titrated to achieve the maximum tolerated dose; these medications have been shown to reduce BP and risk of cardiovascular events as well as mitigate progression of albuminuria and CKD. If BP remains uncontrolled, second-line antihypertensives, such as calcium channel blockers and/or diuretics, can be added. Diuretics include a thiazide diuretic and/or a loop diuretic. Suboptimal BP therapy in patients with difficult-to-control hypertension is often the result of not including a diuretic, which ensures that extracellular volume expansion is prevented or treated. This is particularly important in sodium-retentive and edematous conditions such as heart failure, liver cirrhosis, or CKD. However, even in the absence of edema, persistent intravascular volume expansion can still contribute to difficult-to-control hypertension. According to both KDIGO and ACC/AHA guidelines, this patient's BP is not at goal despite treatment with an ACE inhibitor (lisinopril) and a calcium channel blocker (amlodipine); his antihypertensive regimen should be intensified with the addition of a diuretic such as hydrochlorothiazide.β-Blockers such as atenolol (Option A) are not considered first- or second-line treatment in the management of patients with hypertension and CKD unless a compelling indication (such as a recent myocardial infarction or heart failure) exists. This patient does not require the addition of atenolol.Although ARBs such as losartan (Option C) and ACE inhibitors are first-line antihypertensive medications for patients with CKD, they should not be used together. Combination therapy may result in adverse events, such as acute kidney injury and hyperkalemia, and does not improve cardiovascular outcomes compared with use of an ACE inhibitor or ARB alone. Because this patient is already taking lisinopril (an ACE inhibitor), losartan should not be added.Spironolactone (Option D) is a potassium-sparing diuretic and an aldosterone receptor antagonist. Although spironolactone can be used to treat hypertension, caution is advised if prescribed to a patient who is taking another drug that can raise serum potassium, such as an ACE inhibitor. This patient is taking lisinopril and has a high-normal serum potassium level; therefore, the addition of spironolactone would not be the most appropriate choice.",
+  "critique_links": [],
   "key_points": [
     "Suboptimal blood pressure therapy in patients with hypertension and chronic kidney disease is often the result of not including a diuretic, which ensures that extracellular volume expansion is prevented or treated."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:25.911192-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.604715-06:00"
 }

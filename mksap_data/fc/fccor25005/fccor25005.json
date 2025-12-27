@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A randomized controlled trial evaluated a new genetic test to screen for thyroid cancer. Study participants who were screened were compared with those who were not screened, and the results were analyzed according to participants' original group assignment. Approximately one death from thyroid cancer was prevented over 10 years per 1000 persons screened. Overall mortality was not reduced by screening. Persons in the screened population were more likely to undergo thyroid biopsy, had greater rates of infection and bleeding complications, and reported higher levels of anxiety.",
   "question_stem": "The harm from this screening intervention can be attributed to which of the following?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Overdiagnosis (Option C) is most likely responsible for the increase in harm in the screening group in this study. Length-time bias occurs when screening detects more cases of disease with a prolonged asymptomatic phase than aggressive cases of disease with a short asymptomatic phase. Slowly progressive disease is more likely than aggressive disease to be detected with screening, leading to an overestimation of survival benefit in patients with screen-detected disease. Overdiagnosis—finding, evaluating, and treating illness that otherwise would not have become clinically apparent or caused harm in the patient's lifetime—is an extreme example of length-time bias. Overdiagnosis often leads to harm due to overtesting and unnecessary treatments. Participants in this study who screened positive for thyroid cancer did not realize an overall mortality benefit, but they did experience harm from the psychological and physical effects of overdiagnosis.All-cause mortality (Option A) rather than cancer-specific mortality has been proposed as a preferable end point in randomized controlled trials, on the basis of possible biases in assignment of cause of death. Misassignment can falsely elevate or decrease cancer-related deaths. All-cause mortality is a less ambiguous assignment that reduces bias. It does not account for the results of this study.Lead-time bias (Option B) occurs when early detection artificially results in an increase in measured survival. The time between early detection and clinical diagnosis is mistakenly counted as survival time; however, only the measured time with diagnosed disease, not survival time, has increased. Using mortality rates rather than survival time as the primary outcome in studies of screening tests in randomized controlled trials can help minimize lead-time bias. This randomized controlled trial used a specific disease-related end point as well as overall mortality. Therefore, the risk for lead-time bias is low in this study and cannot account for the results.Selection bias (Option D) occurs when persons in a study group have unmeasured differences from the general population. Intention-to-treat analyses, in which study participants are analyzed according to their original group assignment in randomized clinical trials regardless of intervention received, reduce the risk for selection bias. Participants in this study were randomly assigned to one of two study groups, and the results were analyzed according to their original group assignment; risk for selection bias was thus reduced, and such bias does not account for the results.",
+  "critique_links": [],
   "key_points": [
     "Overdiagnosis is finding, evaluating, and treating illness that otherwise would not have become clinically apparent or caused harm in the patient's lifetime.",
     "Overdiagnosis is an extreme form of length-time bias and is often associated with patient harm."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:34.213396-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:27.534551-06:00"
 }

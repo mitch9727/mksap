@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 25-year-old man is evaluated for a “racing heart” sensation.ECG is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This ECG demonstrates sinus tachycardia (Option D), defined as a sinus rhythm (a normal P-wave axis with an upright P wave in lead II and a constant PR interval) with a heart rate of 100/min or faster. The consistent and normal P wave morphology makes the other answer options less likely. Atrioventricular nodal reentrant tachycardia, for example, is typically characterized by an increased rate with a short RP interval and a retrograde P wave very close to the QRS complex. Atrioventricular reciprocating tachycardia is similarly characterized by a short PR interval and slurring of the initial QRS complex secondary to conduction over an accessory pathway.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.385332-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24631",
+        "file": "figures/cvfig24631.83c0a0044f0336d0e812301ea7b96b48.jpg",
+        "title": "ECG Showing Sinus Tachycardia",
+        "short_title": "stem ECG Showing Sinus Tachycardia",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 419
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.891670-06:00"
 }

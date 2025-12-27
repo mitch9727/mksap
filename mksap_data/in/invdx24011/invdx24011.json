@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 40-year-old woman is evaluated for acute eye pain associated with painful eye movement and diminished visual acuity.Eye findings are shown. The left side is normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient most likely has orbital cellulitis (Option B), as characterized by periorbital erythema and swelling. Orbital cellulitis can be distinguished from preseptal cellulitis (periorbital cellulitis) by the presence of pain with eye movements, ophthalmoplegia, proptosis, and vision impairment; orbital cellulitis involves the extraocular muscle and fatty tissue, whereas preseptal cellulitis does not. The diagnosis of orbital cellulitis can be confirmed by CT of the orbits and sinuses and should prompt immediate referral to an ophthalmologist.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:28:36.797969-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "infig24616",
+        "file": "figures/infig24616.747836a95fbdbbb4dc4fab7931136c59.jpg",
+        "title": "Orbital Cellulitis",
+        "short_title": "Orbital Cellulitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 572
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.126403-06:00"
 }

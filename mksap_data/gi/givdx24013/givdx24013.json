@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 20-year-old man is evaluated for lower gastrointestinal bleeding.Findings on colonoscopy are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is familial adenomatous polyposis syndrome (FAP) (Option C), an inherited disorder characterized by numerous (usually ≥100) adenomatous colon polyps. FAP is caused by germline variants in the adenomatous polyposis coli gene that are inherited in an autosomal dominant pattern, although de novo variants occur in about 25% of cases. Adenomas in classic FAP are more numerous in the distal colon than in the proximal colon. Adenoma and cancer develop in 100% of classic FAP cases if surgery is not performed. The average age of colorectal cancer onset in patients with FAP is 39 years, with a risk of 93% by age 50 years.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.030745-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "gifig24617",
+        "file": "figures/gifig24617.5ecd199e80fcea75ae561f1c22165655.jpg",
+        "title": "Colonoscopic View of Familial Adenomatous Polyposis",
+        "short_title": "Colonoscopic View of Familial Adenomatous Polyposis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 281,
+        "height": 296
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.524536-06:00"
 }

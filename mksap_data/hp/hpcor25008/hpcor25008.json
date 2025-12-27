@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old woman is evaluated for follow-up of abnormal alkaline phosphatase levels on three previous blood tests. She has type 2 diabetes mellitus that is well controlled with metformin monotherapy. She has no family history of liver disease. Other than mild pruritus, she has no other medical concerns; she takes no other medications.On physical examination, vital signs and other findings are normal.Laboratory studies:Alkaline phosphatase212 U/LHGamma-glutamyltransferase50 U/LHComplete blood count and alanine aminotransferase, aspartate aminotransferase, serum albumin, serum total bilirubin, total protein, and lipase levels are normal.Abdominal ultrasound reveals normal hepatic parenchyma, normal gallbladder, and no biliary ductal dilatation.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate diagnostic test to perform next is an antimitochondrial antibody (AMA) test (Option A) in this patient with likely primary biliary cholangitis (PBC). PBC is an autoimmune disease affecting the small and medium-size bile ducts. The female-to-male predominance is 9 to 1. Although PBC is often asymptomatic, the most common presenting symptoms are fatigue and pruritus; the latter does not correlate with the degree of laboratory abnormalities. Liver chemistry tests usually demonstrate a cholestatic pattern of injury with elevated serum alkaline phosphatase (ALP) levels. Ultrasonography or magnetic resonance cholangiopancreatography (MRCP) should be performed to exclude large bile duct obstruction. Diagnosis of PBC does not require liver biopsy when the ALP level is chronically elevated and the AMA result is positive. Patients with PBC who are negative for AMA may test positive for other PBC-specific autoantibodies, including sp100 and gp210. Once PBC is diagnosed, first-line treatment is ursodeoxycholic acid, which results in histologic improvement, improves survival rates, and diminishes the need for liver transplantation. This patient's presentation is typical of PBC, and her ALP level is sufficiently elevated that a positive AMA result would preclude invasive testing and influence management. Therefore, the most appropriate next step is to measure the AMA titer.An isolated elevated ALP level may be of bone origin (e.g., metastatic disease, Paget disease), in which case bone scintigraphy (Option B) may provide useful diagnostic information. This patient, however, has an elevated gamma-glutamyltransferase level, indicating a hepatic cause of her elevated ALP level. Thus, bone scintigraphy is not an appropriate diagnostic test.Liver biopsy (Option C) is not required to diagnose PBC unless results for specific antibodies are negative. Initial noninvasive testing in this patient may preclude the need for further diagnostic evaluation, so a biopsy is not indicated at this time.Measurement of serum IgG4 (Option D) is indicated in the setting of suspected autoimmune pancreatitis, a frequent manifestation of IgG4-related disease. Autoimmune pancreatitis is characterized by abdominal pain and obstructive jaundice, which are not present in this patient.",
+  "critique_links": [],
   "key_points": [
     "Primary biliary cholangitis (PBC) is often asymptomatic but can present with pruritus and fatigue, and it is more common in women than in men.",
     "Diagnosis of PBC is confirmed by chronic elevation of the serum alkaline phosphatase level and positivity for antimitochondrial antibody."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.644971-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.608260-06:00"
 }

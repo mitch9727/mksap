@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 63-year-old woman is evaluated in a follow-up visit 2 months after undergoing percutaneous coronary intervention (PCI) of the right coronary artery for inferior ST-segment elevation myocardial infarction. Left ventricular systolic function was normal at the time. During the PCI, severe stenosis of the left iliac artery was noted (shown).She is currently asymptomatic and participating in cardiac rehabilitation. She is a current smoker and is undergoing cessation counseling. Medications are aspirin, ticagrelor, metoprolol succinate, lisinopril, and atorvastatin.On physical examination, blood pressure is 122/68 mm Hg and pulse rate is 69/min and regular. A left femoral bruit is noted. The left femoral pulse is 1+, and the right femoral pulse is 2+.",
+  "question_text": "A 63-year-old woman is evaluated in a follow-up visit 2 months after undergoing percutaneous coronary intervention (PCI) of the right coronary artery for inferior ST-segment elevation myocardial infarction. Left ventricular systolic function was normal at the time. During the PCI, severe stenosis of the left iliac artery was noted (shown).She is currently asymptomatic and participating in cardiac rehabilitation. She is a current smoker and is undergoing cessation counseling. Medications are aspirin, ticagrelor, metoprolol succinate, lisinopril, and atorvastatin.On physical examination, blood pressure is 122/68 mm Hg and pulse rate is 69/min and regular. A left femoral bruit is noted. The left femoral pulse is 1+, and the right femoral pulse is 2+.Laboratory studies:LDL cholesterol52 mg/dL (1.35 mmol/L)",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "Continuing current management (Option E) is the best option for this patient with asymptomatic peripheral arterial disease (PAD). Treatment of PAD focuses on reducing cardiovascular risk, improving functional status and quality of life, decreasing claudication symptoms, and preventing tissue injury and amputation. Cigarette smoking is the most important modifiable risk factor for PAD. Smoking cessation is imperative for improving overall survival in patients with PAD and is associated with decreased risk for major amputation, improved patency rates after revascularization, and less disease progression. Optimal management of vascular risk factors including diabetes, hypertension, and dyslipidemia is also crucial to improving clinical outcomes. This patient is already undergoing smoking cessation and appropriate management of her vascular risk factors; continuing current management is the best option.This patient has no indication for ankle-brachial index (ABI) testing (Option A). ABI measurement is simple, inexpensive, and noninvasive and has excellent sensitivity and specificity for PAD. It is the best initial test in patients with findings suggestive of PAD. This patient, however, has established PAD based on aortography and is asymptomatic. There is no need for ABI testing.In patients with claudication, cilostazol (Option B) may result in an improvement in walking distance/time, symptoms, and quality of life. Cilostazol is reserved for patients with symptoms of claudication, however, and this patient is asymptomatic; therefore, this drug is not indicated.This patient just underwent invasive aortography, is asymptomatic, and has no indication for revascularization. There is no need for additional testing such as CT angiography (Option C).This patient has asymptomatic PAD, and guidelines for PAD management clearly state that patients who are asymptomatic should not be referred for revascularization procedures. This patient's lack of current symptoms indicates that iliac artery revascularization (Option D) is the incorrect management approach.",
+  "critique_links": [],
   "key_points": [
     "Smoking cessation is imperative for improving overall survival in patients with peripheral artery disease (PAD) and is associated with decreased risk for major amputation, improved patency rates after revascularization, and less disease progression.",
     "Patients with asymptomatic PAD should not be referred for revascularization procedures."
@@ -65,5 +66,32 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:49:00.093917-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24219",
+        "file": "figures/cvfig24219.925b770d084c40360b8bb663a6e72b9c.jpg",
+        "title": "Fluoroscopic Image Showing Severe Stenosis of the Left Iliac Artery",
+        "short_title": "Fluoroscopic Image of Iliac Artery Stenosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 379,
+        "height": 485
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.559866-06:00"
 }

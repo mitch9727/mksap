@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 65-year-old man undergoes screening for abdominal aortic aneurysm. He has a history of smoking. Focused ultrasonography is performed, with the transducer placed just above the umbilicus.",
   "question_stem": "Which of the following is the most appropriate interpretation of this study regarding an abdominal aortic aneurysm?",
@@ -34,6 +34,7 @@
     "time_taken": null
   },
   "critique": "Abdominal aortic aneurysm is absent in this patient (Option A). The ultrasound shows the abdominal aorta in cross-section with a maximal diameter of 1.85 cm, with measurements taken from outer wall to outer wall. The normal maximal diameter of the abdominal aorta is 3 cm; therefore, the abdominal aorta in this ultrasound is normal in size and without evidence of aneurysmal dilation. The aorta (Ao) is positioned just anterior to the vertebral bodies (VB), which appear hyperechoic (white) on the anterior surface with acoustic shadowing posteriorly. The aorta appears round, smooth, and anechoic (black).",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -45,11 +46,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/cvfig24641.93f86e31ccc72d760033c43a8146bd22.jpg",
-      "figures/cvfig24640.27a2e31cc68179b4d84063bd3498fadd.jpg"
+      "figures/cvfig24640.27a2e31cc68179b4d84063bd3498fadd.jpg",
+      "figures/cvfig24641.93f86e31ccc72d760033c43a8146bd22.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.422710-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24640",
+        "file": "figures/cvfig24640.27a2e31cc68179b4d84063bd3498fadd.jpg",
+        "title": "Echocardiogram Showing Normal Abdominal Aorta",
+        "short_title": "stem Echocardiogram Showing Normal Abdominal Aorta",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 797,
+        "height": 514
+      },
+      {
+        "figure_id": "cvfig24641",
+        "file": "figures/cvfig24641.93f86e31ccc72d760033c43a8146bd22.jpg",
+        "title": "Echocardiogram Showing Normal Abdominal Aorta",
+        "short_title": "critique Echocardiogram Showing Normal Abdominal Aorta",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 797,
+        "height": 558
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.920105-06:00"
 }

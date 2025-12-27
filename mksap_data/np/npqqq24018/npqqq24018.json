@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 71-year-old woman is evaluated for acute kidney injury and hyperkalemia that developed during hospitalization for urgent partial colectomy. Medical history is significant for hypertension and stage G4 chronic kidney disease.Vital signs are stable.ECG shows peaked T waves with a QRS interval of 140 ms.Urine output during the past 24 hours is 100 mL.",
+  "question_text": "A 71-year-old woman is evaluated for acute kidney injury and hyperkalemia that developed during hospitalization for urgent partial colectomy. Medical history is significant for hypertension and stage G4 chronic kidney disease.Vital signs are stable.Laboratory studies:Arterial pH7.25LCreatinine3.6 mg/dL (318 µmol/L)HBaseline2.0 mg/dL (177 µmol/L)H Electrolytes:Sodium142 mEq/L (142 mmol/L)Potassium7.1 mEq/L (7.1 mmol/L)HChloride102 mEq/L (102 mmol/L)Bicarbonate17 mEq/L (17 mmol/L)LECG shows peaked T waves with a QRS interval of 140 ms.Urine output during the past 24 hours is 100 mL.",
   "question_stem": "In addition to intravenous calcium, insulin, and dextrose, which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Intermittent hemodialysis (IHD) (Option A) is the most appropriate way to correct this patient's hyperkalemia in the setting of anuric-oliguric acute kidney injury (AKI). IHD, typically delivered three to six times a week for 3 to 5 hours per session, allows for rapid correction of electrolyte disturbances and rapid removal of drugs or toxins. This patient has severe hyperkalemia with ECG changes, which should be corrected urgently to prevent lethal cardiac arrhythmias. Calcium, insulin, and dextrose are only temporizing measures and will not remove potassium from the body; only dialysis will do so. Continuous kidney replacement therapy, a type of dialysis, might be considered if the patient cannot tolerate IHD, but it removes fluid and solutes at a much slower rate.Intravenous furosemide (Option B) can induce urine potassium loss by increasing urine flow and sodium delivery to the distal nephron for exchange with potassium. However, this patient is nearly anuric and unlikely to respond to furosemide.Sodium bicarbonate (Option C) causes a shift of hydrogen ion from the intracellular fluid compartment to the extracellular compartment, causing an opposing net intracellular potassium shift to maintain electroneutrality. The effect of bicarbonate is transient and ineffective in end-stage kidney disease or severe AKI.Sodium polystyrene sulfonate (Option D) is a cation exchange resin that removes potassium through the gastrointestinal tract. The onset of action is hours to days, and its effectiveness is disputed. It is contraindicated in patients such as this with recent bowel surgery because of an increased risk for intestinal necrosis.",
+  "critique_links": [],
   "key_points": [
     "In the setting of anuric-oliguric acute kidney injury, intermittent hemodialysis allows for rapid correction of electrolyte disturbances and rapid removal of drugs or toxins."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.468651-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.949818-06:00"
 }

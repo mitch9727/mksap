@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 58-year-old man was hospitalized 3 days ago for laparoscopic resection of the sigmoid colon secondary to recurrent diverticulitis. He has hypertension and stage G3 chronic kidney disease. Medications are amlodipine, heparin, and as-needed intravenous morphine.On physical examination, vital signs are normal.Urine output during the past 24 hours is 1400 mL.",
+  "question_text": "A 58-year-old man was hospitalized 3 days ago for laparoscopic resection of the sigmoid colon secondary to recurrent diverticulitis. He has hypertension and stage G3 chronic kidney disease. Medications are amlodipine, heparin, and as-needed intravenous morphine.On physical examination, vital signs are normal.Laboratory studies:Creatinine1.9 mg/dL (168 µmol/L)HPreoperative creatinine 1.7 mg/dL (150 μmol/L)H Electrolytes:Sodium138 mEq/L (138 mmol/L)Potassium5.6 mEq/L (5.6 mmol/L)HChloride110 mEq/L (110 mmol/L)HBicarbonate20 mEq/L (20 mmol/L)LGlucose128 mg/dL (7.1 mmol/L)HUrine output during the past 24 hours is 1400 mL.",
   "question_stem": "Which of the following is the most likely cause of this patient's hyperkalemia?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely cause of this patient's elevated serum potassium level is heparin (Option B). Both unfractionated and low-molecular-weight heparin are associated with a decrease in aldosterone synthesis, resulting in hyperkalemia. This phenomenon occurs more frequently in patients with chronic kidney disease or diabetes mellitus or in those taking an ACE inhibitor or angiotensin receptor blocker. Inhibitors of the renin-angiotensin system, type 4 renal tubular acidosis, and primary adrenal insufficiency can also cause hypoaldosteronism-related hyperkalemia.Major underlying causes of persistent hyperkalemia are disorders in which urine potassium excretion is impaired. This can be due to a marked decrease in the glomerular filtration rate, decreased sodium delivery to the distal potassium secretory sites, and hypoaldosteronism. The most common causes are chronic kidney disease with a glomerular filtration rate less than 20 mL/min/1.73 m2, oliguric acute kidney injury (Option A), or medications that inhibit renal potassium excretion. This patient is not oliguric, and the slight postoperative increase in the serum creatinine level is not sufficient to cause hyperkalemia.Extreme elevations in the plasma glucose level (Option C) by increasing serum osmolality can directly cause hyperkalemia by pulling water from the intracellular space into the extracellular space, dragging potassium with it. This patient's plasma glucose level is only mildly elevated and would have little effect on osmolality and hyperkalemia.In patients with metabolic acidosis (Option D) caused by mineral acids, buffering of intracellular hydrogen ions leads to potassium movement into the extracellular fluid to maintain electroneutrality. This does not occur with organic acids such as lactate or ketoacids. In most cases of hyperchloremic metabolic acidosis, hyperkalemia typically does not develop owing to concomitant urine or gastrointestinal potassium loss. This is the case in patients with hyperchloremic metabolic acidosis with losses of potassium in the stool as the result of diarrhea or in the urine in patients with renal tubular acidosis.",
+  "critique_links": [],
   "key_points": [
     "Hypoaldosteronism due to use of heparin or inhibitors of the renin-angiotensin system, type 4 renal tubular acidosis, or primary adrenal insufficiency can cause hyperkalemia, especially in patients with chronic kidney disease or diabetes mellitus or in those taking an ACE inhibitor or angiotensin receptor blocker."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.479386-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.945139-06:00"
 }

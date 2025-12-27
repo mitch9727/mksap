@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 42-year-old woman is evaluated for a 4-year history of generalized muscle achiness, arthralgias, malaise, and fatigue. She also has back soreness and pain that persists throughout the day and is worse with activity. Additional symptoms include difficulty focusing during the past 3 months. Medical history is notable for depression and interstitial cystitis. Medications include sertraline and as-needed ibuprofen.On physical examination, vital signs are normal. The paraspinal muscles are tender to palpation. There is no synovitis, effusions, or warmth in the joints of the upper and lower extremities. Muscle strength is intact. Range of motion of the neck, back, and upper and lower extremities is normal. Hypermobility of the wrists is noted.Laboratory studies show normal complete blood count, comprehensive metabolic panel, C-reactive protein, serum creatine kinase level, thyroid-stimulating hormone level, and 25-hydroxyvitamin D level.",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "No further testing (Option D) is needed for this patient with fibromyalgia. The characteristic clinical features of fibromyalgia are widespread chronic pain, fatigue, sleep disorders, and cognitive symptoms. Patients frequently have other coexistent painful conditions, including chronic headaches, temporomandibular joint disorder, irritable bowel syndrome, interstitial cystitis, and chronic pelvic pain. Fibromyalgia diagnostic criteria are based on patient reporting of symptoms (see Table: Diagnostic Criteria for Fibromyalgia). Notably, the diagnosis of fibromyalgia no longer incorporates the quantification of tender points on physical examination. Extensive laboratory studies should not be performed unless other specific diagnoses are suggested. Likewise, imaging is not needed. This patient has classic presenting features of fibromyalgia with normal laboratory results and no physical examination findings to suggest inflammatory arthritis or connective tissue disease.Patients with fibromyalgia should not be tested for antinuclear antibodies (ANA) (Option A). Positive ANA test results, particularly at low titers, are nonspecific and have a low positive predictive value. Low-titer positive results can lead to further unnecessary testing, patient anxiety, and potential initiation of unwarranted medications. This patient does not exhibit clinical features of an ANA-associated connective tissue disease (oral/nasal ulcers, malar or discoid rash, Raynaud phenomenon, sicca, serositis, synovitis) or associated laboratory abnormalities.COL3A1 gene variants (Option B) are associated with vascular Ehlers-Danlos syndrome, which can result in loss of structural integrity of the blood vessels and increase the risk for uterine and bowel rupture. This patient has hypermobility of the wrists, which may raise suspicion for hypermobility syndrome or hypermobile Ehlers-Danlos syndrome. However, there is no genetic test for hypermobile Ehlers-Danlos syndrome, and no other hypermobile joints or associated skin changes are seen on examination. Testing for COL3A1 variants is not indicated.HLA-B27 (Option C) is a genetic marker associated with the spondyloarthritides (ankylosing spondylitis, psoriatic arthritis, and reactive arthritis) as well as uveitis and inflammatory bowel disease. This patient does not have features of inflammatory back pain (e.g., morning stiffness that improves with exercise or activity), and range of motion is not restricted. The suspicion for a spondyloarthropathy is extremely low, and HLA-B27 testing is not indicated.",
+  "critique_links": [],
   "key_points": [
     "Clinical features of fibromyalgia include widespread chronic pain, fatigue, sleep disorders, and cognitive symptoms.",
     "Diagnostic criteria for fibromyalgia rely on patient reporting of symptoms, and extensive laboratory testing and imaging are not required."
@@ -52,11 +53,34 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/rmtab24020.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.298362-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "rmtab24020",
+        "file": "tables/rmtab24020.html",
+        "title": "Comparison of ACR Diagnostic Criteria and ACTTION-APS Pain Taxonomy Diagnostic Criteria for Fibromyalgia<sup>a</sup>",
+        "short_title": "Diagnostic Criteria for Fibromyalgia",
+        "footnotes": [
+          "ACR = American College of Rheumatology; ACTTION = Analgesic, Anesthetic, and Addiction Clinical Trial Translations Innovations Opportunities and Networks; APS = American Pain Society.",
+          "<sup>a</sup>A diagnosis of fibromyalgia does not exclude the presence of other clinically important illnesses.",
+          "<sup>b</sup>Fibromyalgia is diagnosed in the setting of Widespread Pain Index ≥7 plus Symptom Severity Scale score ≥5, or Widespread Pain Index ≥3 plus Symptom Severity Scale score ≥9.",
+          "<sup>c</sup>Widespread Pain Index and Symptom Severity Scale are available in <a href=\"https://www.umassmed.edu/globalassets/office-of-continuing-medical-education/pdfs/cme-primary-care-days/c1-handout-fibromyalgia.pdf\" target=\"_blank\">PDF format</a>."
+        ],
+        "headers": [
+          "2010 ACR Preliminary Diagnostic Criteria (2016 Revision)",
+          "ACTTION-APS Pain Taxonomy Criteria (2019)"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.635762-06:00"
 }

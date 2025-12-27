@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 57-year-old woman is evaluated for worsening fatigue during the past year. She used to walk a half-mile daily but lately finds that she has “no energy.” She also reports generalized mild pruritis. She does not have exertional dyspnea, chest pain, or lower extremity edema. She has hypothyroidism treated with levothyroxine.On physical examination vital signs are normal. Excoriations on the trunk are noted.Laboratory studies:Platelet count411,000/μL (411 × 109/L)Albumin4.3 g/dL (43 g/L)Alkaline phosphatase598 U/LHAlanine aminotransferase22 U/LAspartate aminotransferase24 U/LBilirubinTotal1.0 mg/dL (17.1 µmol/L)Direct0.4 mg/dL (6.8 µmol/L)HThyroid-stimulating hormone2.1 µU/mL (2.1 mU/L)Free thyroxine 1.8 ng/dL (23.2 pmol/L)Hepatitis C virus antibodyNegativeAbdominal ultrasound shows a normal liver, gallbladder, and spleen. There is no biliary dilation; the common bile duct measures 3 mm in diameter.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Primary biliary cholangitis (PBC) (Option B) is the most likely diagnosis in this patient with fatigue, pruritis, and a cholestatic pattern on liver tests. PBC is an autoimmune disease affecting small and medium bile ducts. PBC most commonly presents in middle age, with a female-to-male predominance of 9 to 1. It is associated with other autoimmune disorders, particularly autoimmune thyroid disease. PBC is often asymptomatic, but the most common presenting symptoms are fatigue and/or pruritus. Liver chemistry tests usually demonstrate a cholestatic pattern of injury with an elevated serum alkaline phosphatase level. Ultrasonography or magnetic cholangiopancreatography should be performed to exclude large bile duct obstruction, which can also cause a cholestatic pattern of liver tests. The antimitochondrial antibody is positive in 95% of individuals with PBC and would be the next diagnostic test of choice in this case. Diagnosis of PBC does not require liver biopsy when the alkaline phosphatase level is at least 1.5 times the upper limit of normal and the antimitochondrial antibody is positive.Hypothyroidism (Option A) is an unlikely cause of this patient's symptoms. Her normal thyroid-stimulating hormone level indicates that her thyroid hormone dose is adequate and that she is adherent to her medication.Primary sclerosing cholangitis (PSC) (Option C) is less likely than PBC in this patient. PSC is also associated with cholestasis; however, PSC is strongly associated with inflammatory bowel disease, particularly ulcerative colitis, which is not present in this case.This patient's cholestatic pattern on liver testing is not consistent with metabolic dysfunction–associated steatotic liver disease (MASLD, formerly called nonalcoholic fatty liver disease [NAFLD]) (Option D). She has no risk factors for MASLD, and ultrasound shows no evidence of liver steatosis.",
+  "critique_links": [],
   "key_points": [
     "Primary biliary cholangitis is an autoimmune disease affecting the small and medium bile ducts; it is often asymptomatic, but the most common presenting symptoms are fatigue and/or pruritis.",
     "Primary biliary cholangitis is associated with other autoimmune disorders, particularly autoimmune thyroid disease."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.606365-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.696866-06:00"
 }

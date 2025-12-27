@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 33-year-old woman is evaluated for a slowly growing skin lesion on her back, as shown. The lesion was initially flat but has gradually changed to its current morphology.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has a nodular melanoma (Option B). Nodular melanomas often present as dark blue or black, \"berry-like\" lesions that most commonly originate from normal skin, but can also arise from a preexisting nevus. Nodular melanoma is often aggressive and invades deep into the skin layers early because it expands vertically rather than horizontally. Depth of invasion is the single most important prognostic determinant.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24635.2dfbeac00e448dba57c1d820e9436e9a.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.864203-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24635",
+        "file": "figures/dmfig24635.2dfbeac00e448dba57c1d820e9436e9a.jpg",
+        "title": "Nodular Melanoma",
+        "short_title": "stem Nodular Melanoma",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 571
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.414897-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 32-year-old woman is evaluated for ongoing management of systemic lupus erythematosus. At diagnosis 5 years ago, she presented with fever, rash, pericarditis, and nephritis. She was initially treated with prednisone, mycophenolate mofetil, and hydroxychloroquine. Attempts to discontinue mycophenolate mofetil 1 year ago resulted in a renal flare that required high-dose prednisone and reinstitution of mycophenolate mofetil. For the past 6 months her disease activity has been quiescent. She has not previously been pregnant and is interested in attempting pregnancy. Current medications are mycophenolate mofetil, hydroxychloroquine, and low-dose prednisone.On physical examination, vital signs and other findings are normal.Complete blood count is normal. Findings on additional laboratory evaluation are consistent with quiescent disease.",
+  "question_text": "A 32-year-old woman is evaluated for ongoing management of systemic lupus erythematosus. At diagnosis 5 years ago, she presented with fever, rash, pericarditis, and nephritis. She was initially treated with prednisone, mycophenolate mofetil, and hydroxychloroquine. Attempts to discontinue mycophenolate mofetil 1 year ago resulted in a renal flare that required high-dose prednisone and reinstitution of mycophenolate mofetil. For the past 6 months her disease activity has been quiescent. She has not previously been pregnant and is interested in attempting pregnancy. Current medications are mycophenolate mofetil, hydroxychloroquine, and low-dose prednisone.On physical examination, vital signs and other findings are normal.Laboratory studies:Creatinine1.3 mg/dL (119.3 μmol/L)6 months ago: 1.3 mg/dL (119.3 μmol/L)Urinalysis with microscopyNo blood; trace protein; no casts6 months ago: trace proteinComplete blood count is normal. Findings on additional laboratory evaluation are consistent with quiescent disease.",
   "question_stem": "Which of the following is the most appropriate medication management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is to stop mycophenolate mofetil and add azathioprine (Option A). It is recommended that systemic lupus erythematosus (SLE) activity be well controlled for at least 6 months before conception. This timing will also allow for medication modification if needed. Hydroxychloroquine should be continued because it is safe and positively affects pregnancy outcomes in SLE, and prednisone can be continued for disease control but at the lowest possible dose. Mycophenolate mofetil is a known teratogen and abortifacient that should be discontinued 3 months before conception. Other teratogenic medications are cyclophosphamide and methotrexate. Two immunosuppressive medications are preferred in pregnancy: azathioprine and tacrolimus. The fetal liver lacks a key enzyme that converts azathioprine to its active form, thus protecting the fetus from its immunosuppressive activity. Before azathioprine is prescribed, however, a thiopurine methyltransferase genotype should be checked to confirm the patient can effectively metabolize it. If azathioprine is insufficient to control disease activity alone, tacrolimus can be added. This patient already has mild chronic kidney disease, as suggested by the creatinine level and mild proteinuria from previous active nephritis. To protect her from further disease damage and improve her chances of a successful pregnancy, SLE disease activity should be suppressed with immunosuppressants that are considered relatively safe in pregnancy. Importantly, patients with SLE attempting pregnancy should be closely managed by a rheumatologist and an obstetrician.Discontinuing mycophenolate mofetil and adding methotrexate (Option B) should not be done because of methotrexate's association with miscarriage and birth defects. If the patient were receiving methotrexate, it would need to be discontinued 3 months before conception to allow for complete elimination of methotrexate metabolites.Discontinuing mycophenolate mofetil and continuing her other medications (Option C) would not be an option because a previous attempt at discontinuing mycophenolate mofetil in the recent past led to a renal flare of her disease. This patient needs additional immunosuppression to adequately control her disease.Continuing her current medications (Option D) is not appropriate if pregnancy is to be attempted because mycophenolate mofetil is teratogenic.",
+  "critique_links": [],
   "key_points": [
     "In patients with systemic lupus erythematosus who are planning pregnancy, medications such as cyclophosphamide, methotrexate, and mycophenolate should be avoided because of teratogenicity risks; azathioprine (preferred) or tacrolimus can be used instead.",
     "Hydroxychloroquine is safe in pregnancy and positively affects pregnancy outcomes in systemic lupus erythematosus."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:46:49.874418-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.664521-06:00"
 }

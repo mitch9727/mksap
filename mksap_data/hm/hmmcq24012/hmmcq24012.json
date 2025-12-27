@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 22-year-old woman is evaluated at follow-up. She has mild fatigue but otherwise feels well. Medical history is significant for transfusion-dependent β-thalassemia. Her only medication is folic acid.On physical examination, pulse rate is 102/min. Remaining vital signs are normal. Skin pallor is noted.",
+  "question_text": "A 22-year-old woman is evaluated at follow-up. She has mild fatigue but otherwise feels well. Medical history is significant for transfusion-dependent β-thalassemia. Her only medication is folic acid.On physical examination, pulse rate is 102/min. Remaining vital signs are normal. Skin pallor is noted.Laboratory studies:Hemoglobin7.0 g/dL (70 g/L)LMean corpuscular volume70 fLLLeukocyte count7400/μL (7.4 × 109/L)Platelet count250,000/μL (250 × 109/L)",
   "question_stem": "In addition to blood transfusions, which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "Luspatercept (Option D) is the most appropriate treatment for this patient with β-thalassemia requiring frequent blood transfusions. Thalassemia is a genetic disorder caused by an inherited alteration in one or more of the α or β genes that results in impaired production of the corresponding α or β chains and subsequent imbalance of their ratio. Unpaired α or β chains precipitate, resulting in reduced production of hemoglobin and ineffective erythropoiesis. Patients with thalassemia experience variable degrees of microcytic anemia, extramedullary hematopoiesis, bone changes, and impaired growth. As a result of ineffective erythropoiesis, patients with more severe disease may become transfusion dependent. The resultant iron overload can cause iron overload–related heart failure and cardiac arrhythmias, which are two of the major causes of death in patients with thalassemia. Luspatercept is a drug that sequesters transforming growth factor β proteins and improves erythrocyte maturation. The BELIEVE study demonstrated that luspatercept reduced the transfusion burden in transfusion-dependent patients with β-thalassemia compared with placebo. This patient with transfusion-dependent β-thalassemia should receive luspatercept to reduce transfusion dependence and decrease the likelihood of iron overload.Hydroxyurea (Option A) reduces vaso-occlusive pain events in patients with sickle cell disease by increasing hemoglobin F production and decreasing the risk of sickling. It is not indicated in patients with thalassemia.Intravenous iron (Option B) is indicated for patients with iron requirements that cannot be met by administration of oral iron or who have iron malabsorption. Although the hypochromia and microcytosis in patients with thalassemia may mimic findings seen in iron deficiency, patients with thalassemia are not likely to have iron deficiency, but rather are at high risk of iron overload secondary to chronic blood transfusions. Patients requiring chronic transfusions are very unlikely to have iron deficiency and should not be given supplemental iron.L-glutamine (Option C) is a precursor of nicotinamide adenine dinucleotide (NAD) and may serve to decrease oxidative stress through the antioxidant NADH. Sickle cell crises are partially related to oxidant stress, and L-glutamine serves to reduce pain events in sickle cell disease. However, L-glutamine has no known role in the management of thalassemia.No additional treatment (Option E) would not be the best next option. This patient has transfusion-dependent thalassemia and is at risk for end-organ complications from iron overload. Luspatercept should be started to decrease the future need for transfusion.",
+  "critique_links": [],
   "key_points": [
     "Patients with transfusion-dependent thalassemia are at risk for iron overload and development of heart failure and arrhythmias, two of the major causes of death in thalassemia.",
     "Luspatercept improves erythrocyte maturation and reduces transfusion requirements in β-thalassemia."
@@ -63,5 +64,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:36:37.906927-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.864913-06:00"
 }

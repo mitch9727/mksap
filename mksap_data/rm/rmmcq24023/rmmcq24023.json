@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 31-year-old woman is evaluated for recent loss of pregnancy at 20 weeks' gestation. This was her first pregnancy. She has a 3-year history of systemic lupus erythematosus, which initially presented with hair loss, facial rash, arthritis, and pericarditis. She has no history of kidney disease or thromboembolic disease. Her only medication is hydroxychloroquine.On physical examination, vital signs are normal. Faint livedo reticularis is noted on the arms and legs. The remainder of the examination is normal.The remainder of the complete blood count, liver chemistry test results, and urinalysis findings are normal.",
+  "question_text": "A 31-year-old woman is evaluated for recent loss of pregnancy at 20 weeks' gestation. This was her first pregnancy. She has a 3-year history of systemic lupus erythematosus, which initially presented with hair loss, facial rash, arthritis, and pericarditis. She has no history of kidney disease or thromboembolic disease. Her only medication is hydroxychloroquine.On physical examination, vital signs are normal. Faint livedo reticularis is noted on the arms and legs. The remainder of the examination is normal.Laboratory studies:Platelet count95,000/μL (95 × 109/L)LAntinuclear antibody titer1:320 (speckled pattern)Anti-Ro/SSA antibodiesNegativeAnti-Smith antibodiesPositiveThe remainder of the complete blood count, liver chemistry test results, and urinalysis findings are normal.",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate diagnostic test to perform next is an antiphospholipid antibody panel (Option B). Approximately 30% to 40% of patients with systemic lupus erythematosus (SLE) are positive for antiphospholipid antibodies, and about 25% of these patients will meet criteria for antiphospholipid antibody syndrome. Antiphospholipid antibodies include anticardiolipin antibodies, anti–β2-glycoprotein antibodies, and lupus anticoagulant. Notably, some patients will have the antibodies without having a recognized vascular or obstetrical event. In affected patients, venous and arterial thrombosis, miscarriage, stillbirth, livedo reticularis, and cardiac valve thickening/vegetations may occur. The diagnosis of antiphospholipid antibody syndrome is based on clinical and laboratory criteria (). In patients with SLE and antiphospholipid antibodies, low-molecular-weight heparin therapy and low-dose aspirin can improve the chances of a successful pregnancy. Hydroxychloroquine has also been shown to prevent thrombotic events in the setting of antiphospholipid antibodies and SLE. This patient has a history of SLE with features that suggest the presence of antiphospholipid antibodies (including the pregnancy loss beyond gestational week 10, livedo reticularis, and thrombocytopenia). Therefore, the most appropriate next step in management is to obtain an antiphospholipid antibody panel.An ANCA panel (Option A) would be useful to detect an ANCA-associated vasculitis. Although livedo reticularis can be seen in vasculitis, this patient has no other clinical features typical of ANCA vasculitis and her antibody panel is diagnostic for SLE. Up to 16% of patients with SLE can have ANCA positivity; the clinical significance of this finding is uncertain because it is rare for these patients to have concomitant ANCA vasculitis.Antiplatelet antibodies (Option C) are variably present in immune thrombocytopenic purpura and can also be seen in patients with SLE; however, this test is not diagnostic for either condition. Antiplatelet antibodies are not helpful in the diagnosis of antiphospholipid antibody syndrome.Anti–ribosomal P antibodies (Option D) are specific for SLE and found in 15% to 40% of patients with SLE. An anti–ribosomal P antibody test is generally useful for diagnosing neuropsychiatric SLE with a sensitivity of 25% and specificity of 80%. Anti–ribosomal P antibodies are also observed in patients with SLE who have liver or kidney involvement.",
+  "critique": "The most appropriate diagnostic test to perform next is an antiphospholipid antibody panel (Option B). Approximately 30% to 40% of patients with systemic lupus erythematosus (SLE) are positive for antiphospholipid antibodies, and about 25% of these patients will meet criteria for antiphospholipid antibody syndrome. Antiphospholipid antibodies include anticardiolipin antibodies, anti–β2-glycoprotein antibodies, and lupus anticoagulant. Notably, some patients will have the antibodies without having a recognized vascular or obstetrical event. In affected patients, venous and arterial thrombosis, miscarriage, stillbirth, livedo reticularis, and cardiac valve thickening/vegetations may occur. The diagnosis of antiphospholipid antibody syndrome is based on clinical and laboratory criteria (Table: Diagnosis of Antiphospholipid Antibody Syndrome). In patients with SLE and antiphospholipid antibodies, low-molecular-weight heparin therapy and low-dose aspirin can improve the chances of a successful pregnancy. Hydroxychloroquine has also been shown to prevent thrombotic events in the setting of antiphospholipid antibodies and SLE. This patient has a history of SLE with features that suggest the presence of antiphospholipid antibodies (including the pregnancy loss beyond gestational week 10, livedo reticularis, and thrombocytopenia). Therefore, the most appropriate next step in management is to obtain an antiphospholipid antibody panel.An ANCA panel (Option A) would be useful to detect an ANCA-associated vasculitis. Although livedo reticularis can be seen in vasculitis, this patient has no other clinical features typical of ANCA vasculitis and her antibody panel is diagnostic for SLE. Up to 16% of patients with SLE can have ANCA positivity; the clinical significance of this finding is uncertain because it is rare for these patients to have concomitant ANCA vasculitis.Antiplatelet antibodies (Option C) are variably present in immune thrombocytopenic purpura and can also be seen in patients with SLE; however, this test is not diagnostic for either condition. Antiplatelet antibodies are not helpful in the diagnosis of antiphospholipid antibody syndrome.Anti–ribosomal P antibodies (Option D) are specific for SLE and found in 15% to 40% of patients with SLE. An anti–ribosomal P antibody test is generally useful for diagnosing neuropsychiatric SLE with a sensitivity of 25% and specificity of 80%. Anti–ribosomal P antibodies are also observed in patients with SLE who have liver or kidney involvement.",
+  "critique_links": [],
   "key_points": [
     "Antiphospholipid antibodies are present in about 30% to 40% of patients with systemic lupus erythematosus; their presence can be associated with pregnancy loss."
   ],
@@ -51,12 +52,43 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/hmtab24041.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:46:49.332936-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "hmtab24041",
+        "file": "tables/hmtab24041.html",
+        "title": "Diagnosis of Antiphospholipid Antibody Syndrome<sup>a</sup>",
+        "short_title": "Diagnosis of Antiphospholipid Antibody Syndrome",
+        "footnotes": [
+          "VTE = venous thromboembolism.",
+          "<sup>a</sup>Diagnosis is based on the presence of clinical OR obstetric criteria PLUS relevant laboratory criteria; multiple minor criteria may also satisfy clinical, obstetric, and laboratory criteria (only major criteria listed).",
+          "Data from Barbhaiya M, Zuily S, Naden R, et al; ACR/EULAR APS Classification Criteria Collaborators. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. Arthritis Rheumatol. 2023;75:1687-1702. PMID: 37635643 doi:10.1002/art.42624"
+        ],
+        "headers": [
+          "Major Clinical Criteria",
+          "Obstetric Criteria",
+          "Laboratory Criteria"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.670496-06:00"
 }

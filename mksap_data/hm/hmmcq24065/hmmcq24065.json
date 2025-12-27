@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 42-year-old man is evaluated in the emergency department for intermittent chest pain of 2 days' duration. The pain lasts minutes at a time and is not associated with cough, dyspnea, fever, chills, or leg swelling. He reports that the pain, when present, worsens with deep breathing. Medical history is otherwise unremarkable, and he takes no medications.On physical examination, blood pressure is 132/78 mm Hg, pulse rate is 90/min, and respiration rate is 16/min. Oxygen saturation is 98% breathing ambient air. The remainder of the examination is normal.ECG is normal.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to assess for pulmonary embolism?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate approach to this patient with a very low likelihood of pulmonary embolism (PE) is to not pursue further testing (Option D). Test selection in the evaluation of possible PE is based on the clinical likelihood of disease. In patients presenting to the emergency department with a very low likelihood of PE, the Pulmonary Embolism Rule-Out Criteria (PERC) score can identify those at very low risk for disease in whom no laboratory or imaging testing for PE is necessary. The criteria include the following:Age 50 years or olderInitial heart rate of at least 100/minInitial oxygen saturation 94% or less breathing ambient airUnilateral leg swellingHemoptysisSurgery or trauma within 4 weeksHistory of venous thromboembolismEstrogen usePatients with a PERC score of zero do not require further testing for PE. A meta-analysis of 12 studies found that if the PERC were applied, only 0.3% of PEs would be missed, and 22% of D-dimer testing could be safely avoided. However, if any of the criteria are present, further testing is necessary, typically with D-dimer testing. This patient has a very low likelihood of PE as determined by his clinical history and physical examination. He has none of the PERC, and no further testing for PE is necessary.CT angiography (CTA) of the chest (Option A) is not necessary. CTA is the preferred imaging test in patients with a high probability of PE. It is also used in patients with an elevated D-dimer measurement without a high pretest probability of PE. This patent has a very low probability of PE with a negative PERC score, making PE very unlikely and obviating the need for CTA.D-dimer measurement (Option B) is a first-line test in patients with a very low probability of PE and a PERC score of at least 1. This patient is unlikely to have PE based on a very low probability and PERC score of zero, and D-dimer testing is not necessary.This patient has a very low probability of PE and a PERC score of zero, making PE very unlikely. Ventilation-perfusion (V/Q) scans (Option C) have well-described test characteristics for PE but are often difficult to obtain and interpret. When imaging is indicated, they are generally reserved for patients with contraindications to CTA, such as advanced kidney disease.",
+  "critique_links": [],
   "key_points": [
     "Patients with a very low risk of pulmonary embolism and a Pulmonary Embolism Rule-Out Criteria score of zero do not need further testing for pulmonary embolism."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:44:24.221812-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:29.013901-06:00"
 }

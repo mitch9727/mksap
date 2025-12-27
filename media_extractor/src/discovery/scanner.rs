@@ -78,7 +78,12 @@ impl MediaDiscovery {
             stats.total_questions_with_media, stats.percentage_with_media
         );
 
-        Ok(DiscoveryResults::new(discovered, stats, self.base_url.clone(), self.concurrent_limit))
+        Ok(DiscoveryResults::new(
+            discovered,
+            stats,
+            self.base_url.clone(),
+            self.concurrent_limit,
+        ))
     }
 
     fn get_questions_map<'a>(

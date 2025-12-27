@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 70-year-old man is evaluated for a 5-year history of Barrett esophagus. He has gastroesophageal reflux disease that is well controlled with once-daily omeprazole. He reports daily adherence.On physical examination, vital signs and other findings are normal.Recent upper endoscopy results were negative for esophageal dysplasia.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate management in this patient with nondysplastic Barrett esophagus is endoscopic surveillance every 3 to 5 years (Option C) given the low risk for progression to neoplasia. Barrett esophagus is the replacement of the squamous epithelium with metaplastic columnar epithelium in the esophagus. Because of chronic gastroesophageal reflux disease, even in patients without clinical symptoms, Barrett esophagus is a precursor lesion for esophageal cancer. Barrett esophagus progresses along a continuum:Intestinal metaplasia without dysplasiaIndefinite for dysplasiaLow-grade dysplasiaHigh-grade dysplasiaIntramucosal carcinomaInvasive adenocarcinomaThe length of the Barrett esophagus and degree of dysplasia determine the time interval for endoscopic surveillance and treatment recommendations (see ). Endoscopic surveillance is suggested every 5 years for nondysplastic Barrett esophagus segments less than 3 cm in length and every 3 years for nondysplastic Barrett esophagus segments at least 3 cm in length.Antireflux surgery (Option A) is highly effective at reducing reflux episodes and treating erosive esophagitis refractory to medical therapy. However, antireflux surgery is not recommended as an antineoplastic measure in patients with Barrett esophagus because the risks of surgery outweigh the benefits. Moreover, evidence does not demonstrate that patients with Barrett esophagus who undergo antireflux procedures have lower risk for progression to neoplasia than do those with medical treatments.Eradication therapy (Option B) includes endoscopic mucosal resection of all visible lesions followed by radiofrequency ablation or cryotherapy to completely eradicate the intestinal metaplasia and neoplasia. Endoscopic eradication therapy is an option for patients with low-grade dysplasia and is recommended for those with high-grade dysplasia, but it is not the most appropriate next step for patients with biopsy results that are negative for dysplasia.Medical therapy with a proton pump inhibitor (PPI) should be used to treat reflux symptoms and to heal reflux esophagitis. The benefits of increasing PPI (beyond the necessary dose to control reflux symptoms) are uncertain and should be balanced with the potential risks of long-term PPI use. For this patient with nondysplastic Barrett esophagus and reflux symptoms controlled with once-daily omeprazole, the benefit of increasing the dose of PPI from once to twice daily (Option D) is unclear.",
+  "critique": "The most appropriate management in this patient with nondysplastic Barrett esophagus is endoscopic surveillance every 3 to 5 years (Option C) given the low risk for progression to neoplasia. Barrett esophagus is the replacement of the squamous epithelium with metaplastic columnar epithelium in the esophagus. Because of chronic gastroesophageal reflux disease, even in patients without clinical symptoms, Barrett esophagus is a precursor lesion for esophageal cancer. Barrett esophagus progresses along a continuum:Intestinal metaplasia without dysplasiaIndefinite for dysplasiaLow-grade dysplasiaHigh-grade dysplasiaIntramucosal carcinomaInvasive adenocarcinomaThe length of the Barrett esophagus and degree of dysplasia determine the time interval for endoscopic surveillance and treatment recommendations (see Table: Endoscopic Surveillance and Treatment of BE). Endoscopic surveillance is suggested every 5 years for nondysplastic Barrett esophagus segments less than 3 cm in length and every 3 years for nondysplastic Barrett esophagus segments at least 3 cm in length.Antireflux surgery (Option A) is highly effective at reducing reflux episodes and treating erosive esophagitis refractory to medical therapy. However, antireflux surgery is not recommended as an antineoplastic measure in patients with Barrett esophagus because the risks of surgery outweigh the benefits. Moreover, evidence does not demonstrate that patients with Barrett esophagus who undergo antireflux procedures have lower risk for progression to neoplasia than do those with medical treatments.Eradication therapy (Option B) includes endoscopic mucosal resection of all visible lesions followed by radiofrequency ablation or cryotherapy to completely eradicate the intestinal metaplasia and neoplasia. Endoscopic eradication therapy is an option for patients with low-grade dysplasia and is recommended for those with high-grade dysplasia, but it is not the most appropriate next step for patients with biopsy results that are negative for dysplasia.Medical therapy with a proton pump inhibitor (PPI) should be used to treat reflux symptoms and to heal reflux esophagitis. The benefits of increasing PPI (beyond the necessary dose to control reflux symptoms) are uncertain and should be balanced with the potential risks of long-term PPI use. For this patient with nondysplastic Barrett esophagus and reflux symptoms controlled with once-daily omeprazole, the benefit of increasing the dose of PPI from once to twice daily (Option D) is unclear.",
+  "critique_links": [],
   "key_points": [
     "In patients with Barrett esophagus whose pathology results are negative for dysplasia, endoscopic surveillance should be performed every 3 years for segments at least 3 cm long and every 5 years for segments less than 3 cm long."
   ],
@@ -51,11 +52,32 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/gitab24005.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:30.836209-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "gitab24005",
+        "file": "tables/gitab24005.html",
+        "title": "Practice Guidelines for Endoscopic Surveillance and Treatment of Barrett Esophagus<sup>a</sup>",
+        "short_title": "Endoscopic Surveillance and Treatment of BE",
+        "footnotes": [
+          "<sup>a</sup>At least once-a-day proton pump inhibitor therapy in patients with Barrett esophagus is recommended.",
+          "Data obtained from Shaheen NJ, Falk GW, Iyer PG, et al. Diagnosis and management of Barrett's esophagus: an updated ACG guideline. Am J Gastroenterol. 2022;117:559-587. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/35354777\" target=\"_blank\">PMID: 35354777</a> doi:10.14309/ajg.0000000000001680 and and Rubenstein JH, Sawas T, Wani S, et al. AGA clinical practice guideline on endoscopic eradication therapy of Barrett's esophagus and related neoplasia. Gastroenterology. 2024;166:1020-1055. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/38763697\" target=\"_blank\">PMID: 38763697</a> doi:10.1053/j.gastro.2024.03.019."
+        ],
+        "headers": [
+          "Dysplasia Grade",
+          "Recommendation"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.260111-06:00"
 }

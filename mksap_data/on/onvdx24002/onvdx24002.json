@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 67-year-old woman is evaluated for a lung mass.PET/CT scan is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is lung cancer (Option B). PET/CT is a standard component of initial staging for all patients with non–small cell lung cancer and is useful for assessing mediastinal nodes and identifying distant metastatic disease. This patient's PET/CT scan shows enhanced uptake of the 18-fluorodeoxyglucose marker (seen as red on the image), indicating increased metabolic activity consistent with high likelihood of malignancy. Abnormal 18-fluorodeoxyglucose uptake is not seen elsewhere on the scan. Resection of this lesion showed an adenocarcinoma with no evidence of spread to hilar or mediastinal nodes.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:12:25.088663-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "onfig24602",
+        "file": "figures/onfig24602.67d57452a77135690b859e94e095fb8e.jpg",
+        "title": "Preoperative Staging PET/CT Scan Showing Enhancing Lung Nodule",
+        "short_title": "stem Preoperative Staging PET/CT Scan Showing Enhancing Lung Nodule",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 299,
+        "height": 145
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.886972-06:00"
 }

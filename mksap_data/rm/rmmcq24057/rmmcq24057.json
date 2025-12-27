@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 48-year-old patient with polymyositis is evaluated for 1 month of worsening weakness and two recent falls. Polymyositis was diagnosed 4 months ago and treated with prednisone, 60 mg/d, and methotrexate. This therapy resulted in significant improvement. Physical examination 2 months ago disclosed 4/5 strength in the proximal upper and lower extremities, full strength in distal muscle groups, and normal gait. The patient also has obesity. Current medications are prednisone, 20 mg/d; methotrexate; and a vitamin D supplement.On physical examination, vital signs are normal. BMI is 30. They have truncal adiposity and an adipose hump between the shoulders. Proximal muscle strength is 4/5 in the upper extremities and 3/5 in the lower extremities. Distal muscle strength is intact.",
+  "question_text": "A 48-year-old patient with polymyositis is evaluated for 1 month of worsening weakness and two recent falls. Polymyositis was diagnosed 4 months ago and treated with prednisone, 60 mg/d, and methotrexate. This therapy resulted in significant improvement. Physical examination 2 months ago disclosed 4/5 strength in the proximal upper and lower extremities, full strength in distal muscle groups, and normal gait. The patient also has obesity. Current medications are prednisone, 20 mg/d; methotrexate; and a vitamin D supplement.On physical examination, vital signs are normal. BMI is 30. They have truncal adiposity and an adipose hump between the shoulders. Proximal muscle strength is 4/5 in the upper extremities and 3/5 in the lower extremities. Distal muscle strength is intact.Laboratory studies:Creatine kinase210 U/LH2 months ago: 205 U/LH4 months ago: 9220 U/LH",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in this patient with glucocorticoid-induced myopathy is to decrease prednisone (Option B). In contrast to the acute glucocorticoid-induced myopathy most frequently encountered in the ICU setting, the chronic form becomes apparent weeks or more after initiation of continuous glucocorticoid administration. In this condition, which is more common in older adults, the lower extremities are affected more often than the upper extremities, and proximal muscle groups are more affected than distal muscle groups. Although fluorinated synthetic glucocorticoids (dexamethasone, betamethasone, and triamcinolone) have a greater propensity for producing myopathy than nonfluorinated compounds (prednisolone, prednisone, and hydrocortisone), the exact pathophysiology is unknown. Worsening of myositis symptoms following treatment, as in this patient, can present a diagnostic dilemma. Features supporting glucocorticoid-induced myopathy over disease relapse include normal or near-normal creatine kinase level, cushingoid features, and new muscle weakness after more than 1 month of exposure to glucocorticoids. Electromyography may be helpful for distinguishing inflammatory myositis from glucocorticoid-induced myopathy, and muscle biopsy is usually not necessary to confirm the diagnosis. Treatment of glucocorticoid-induced myopathy involves decreasing the overall glucocorticoid dose, changing to nondaily dosing regimens, and/or switching to nonfluorinated glucocorticoids if applicable. This patient's serum creatine kinase level declined to near normal following initial therapy for polymyositis, and there was no appreciable change corresponding to their worsening weakness. These findings argue against disease relapse. The patient most likely has developed chronic glucocorticoid-induced myopathy, and the first step is to taper the prednisone.Intravenous immune globulin (Option A) is used as an additional or alternative agent in the treatment of myositis with severe manifestations (e.g., bulbar symptoms), especially in dermatomyositis and immune-mediated necrotizing myopathy. This therapy is not indicated in glucocorticoid-induced myopathy and is not appropriate for this patient.Methotrexate is an effective glucocorticoid-sparing agent in the treatment of myositis. This patient is responding well to immunomodulatory therapy for polymyositis, so methotrexate should not be discontinued (Option C); continuation of this medication is particularly important with reduction of glucocorticoid therapy.Physical therapy (Option D) is helpful for muscle strengthening and fall prevention, but it is not the primary treatment for myopathy related to glucocorticoid therapy. It may be used as an adjunctive therapy, but reduction of the glucocorticoid dose is more imperative.",
+  "critique_links": [],
   "key_points": [
     "Chronic glucocorticoid-induced myopathy should be suspected in adults with new or worsening proximal muscle weakness after prolonged glucocorticoid exposure.",
     "Reduction in prednisone dose results in gradual improvement of glucocorticoid-induced myopathy."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:47:05.675250-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.741542-06:00"
 }

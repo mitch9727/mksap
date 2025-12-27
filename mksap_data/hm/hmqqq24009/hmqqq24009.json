@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 76-year-old woman is evaluated during a follow-up examination for low-grade myelodysplastic syndrome, which has required the transfusion of 1 to 2 units of blood every 3 to 4 weeks for the last 3 years. She has exertional dyspnea when her hemoglobin level decreases to less than 7.0 g/dL (70 g/L).On physical examination, vital signs are normal. The abdomen is soft. Conjunctival pallor is noted. The examination is otherwise noncontributory.",
+  "question_text": "A 76-year-old woman is evaluated during a follow-up examination for low-grade myelodysplastic syndrome, which has required the transfusion of 1 to 2 units of blood every 3 to 4 weeks for the last 3 years. She has exertional dyspnea when her hemoglobin level decreases to less than 7.0 g/dL (70 g/L).On physical examination, vital signs are normal. The abdomen is soft. Conjunctival pallor is noted. The examination is otherwise noncontributory.Laboratory studies:Hemoglobin7.5 g/dL (75 g/L)LFerritin2554 ng/mL (2554 µg/L)H",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is deferasirox (Option A) for treatment of secondary iron overload. Secondary iron overload occurs in patients with severe anemia who require chronic transfusion therapy. Because iron excretion has no regulated mechanism, multiple transfusions (for anemias not stemming from blood loss or iron deficiency) lead to iron overload, with subsequent secondary organ damage. When anemia is ongoing, such as in this patient, iron chelation is required, for which deferoxamine or deferasirox may be used. These agents are relatively toxic, leading to potential kidney and liver damage, agranulocytosis, or ocular and ophthalmic disorders; therefore, careful monitoring is required. Serum ferritin level correlates with iron burden in patients receiving chronic transfusion, and levels greater than 1000 ng/mL (1000 µg/L) are generally considered an indication for therapy. Deferoxamine is only available for parenteral administration, which is much less convenient in the outpatient setting than oral iron chelation. The availability of oral iron chelation with deferasirox has increased medication adherence for patients who develop secondary iron overload from chronic transfusions for hemoglobinopathies, sickle cell anemia, or myelodysplastic syndrome. Deferasirox commonly causes gastrointestinal adverse effects. This patient has developed secondary iron overload, with a serum ferritin level of 2554 ng/mL (2554 µg/L), owing to repeated blood transfusions to treat anemia because of myelodysplastic syndrome; she should receive oral iron chelation with deferasirox.Succimer (Option B) is used to chelate lead, arsenic, and mercury. It should not be used to treat iron overload.Therapeutic phlebotomy (Option C) is the management of choice for hereditary (primary) hemochromatosis. It effectively removes 200 mg of iron with each pint of blood removed. However, therapeutic phlebotomy is not suitable for patients with symptomatic anemia who require chronic transfusion, as is the case with this patient.Withholding transfusion until the hemoglobin level is 6.0 g/dL (60 g/L) (Option D) is not appropriate because of this patient's age and her symptomatic anemia.",
+  "critique_links": [],
   "key_points": [
     "Secondary iron overload caused by chronic transfusions can be effectively treated with oral chelation agents, such as deferasirox."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.845804-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.059434-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 67-year-old man is evaluated in the emergency department for fever, chills, cough, and dyspnea. His child was recently diagnosed with influenza.On physical examination, temperature is 38.8 °C (101.8 °F), blood pressure is 82/40 mm Hg, pulse rate is 128/min, and respiration rate is 17/min. Oxygen saturation is 92% with the patient breathing ambient air. Lungs are clear on auscultation. The extremities are warm. The remainder of the examination is normal.Chest radiograph shows right basilar ground-glass opacities.",
+  "question_text": "A 67-year-old man is evaluated in the emergency department for fever, chills, cough, and dyspnea. His child was recently diagnosed with influenza.On physical examination, temperature is 38.8 °C (101.8 °F), blood pressure is 82/40 mm Hg, pulse rate is 128/min, and respiration rate is 17/min. Oxygen saturation is 92% with the patient breathing ambient air. Lungs are clear on auscultation. The extremities are warm. The remainder of the examination is normal.Laboratory studies:Hemoglobin10 g/dL (100 g/L)LLeukocyte count18,000/µL (18 × 109/L)HLactate4.6 mEq/L (4.6 mmol/L)HChest radiograph shows right basilar ground-glass opacities.",
   "question_stem": "Which of the following is the most appropriate initial treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient should receive a 0.9% saline bolus (Option D). He has findings of septic shock (fever, tachycardia, hypotension, elevated leukocyte count, and recent exposure to influenza). In patients with septic or distributive shock, initial resuscitation efforts should be aimed at giving crystalloid fluids (0.9% saline, lactated Ringer solution). The Surviving Sepsis Campaign guidelines recommend giving 30 mL/kg crystalloid solution within 3 hours of resuscitation in patients who demonstrate signs of tissue hypoperfusion. Judicious fluid administration is warranted thereafter, as intravascular volume overload can contribute to pulmonary edema and pleural effusions. This patient has several features of hypoperfusion, including hypotension, tachycardia, and an elevated blood lactate level.Furosemide (Option A) would be appropriate if the patient were in cardiogenic shock and presenting with signs of volume overload. The history, examination, and chest radiograph are not consistent with cardiogenic shock or volume overload. Therefore, furosemide is not recommended and would only promote further hypotension.If hypotension does not rapidly correct with fluids, vasopressors should be titrated to maintain a mean arterial pressure of 65 mm Hg or greater. Norepinephrine (Option B) is considered first-line therapy. This patient has not received crystalloid solution yet, so initial therapy with norepinephrine is incorrect. However, in patients who are refractory to volume loading, vasopressor therapy is recommended to help improve hemodynamic stability.In the absence of extenuating circumstances (myocardial ischemia, severe hypoxemia, or active hemorrhage), the Surviving Sepsis Campaign guidelines recommend that erythrocyte transfusion only be given if the hemoglobin level is less than 7 g/dL (70 g/L). Because this patient's hemoglobin level is greater than this threshold, there is no direct role for packed red blood cell transfusion (Option C).",
+  "critique_links": [],
   "key_points": [
     "Initial treatment of septic or distributive shock should focus on aggressive fluid resuscitation with 30 mL/kg of crystalloid fluids within the first 3 hours of resuscitation."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:48.449615-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.472143-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 32-year-old woman is evaluated at a follow-up visit for amenorrhea. She underwent menarche at age 12 years and had regular monthly menses until 4 months ago, when she experienced cessation of menses. She reports bothersome hot flashes and mild vaginal dryness. She is not currently sexually active and does not desire pregnancy. Medical history is significant for Hashimoto thyroiditis. Her only medication is levothyroxine.On physical examination, vital signs are normal. BMI is 21. Physical examination findings are unremarkable.One month ago, β-human chorionic gonadotropin testing was negative, and a serum prolactin level and thyroid function tests were normal. Additional laboratory testing is as follows:",
+  "question_text": "A 32-year-old woman is evaluated at a follow-up visit for amenorrhea. She underwent menarche at age 12 years and had regular monthly menses until 4 months ago, when she experienced cessation of menses. She reports bothersome hot flashes and mild vaginal dryness. She is not currently sexually active and does not desire pregnancy. Medical history is significant for Hashimoto thyroiditis. Her only medication is levothyroxine.On physical examination, vital signs are normal. BMI is 21. Physical examination findings are unremarkable.One month ago, β-human chorionic gonadotropin testing was negative, and a serum prolactin level and thyroid function tests were normal. Additional laboratory testing is as follows:Laboratory studies:Today1 month agoEstradiol1 pg/mL (4 pmol/L)LFollicle-stimulating hormone82 mU/mL (82 U/L)H80 mU/mL (80 U/L)H",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate treatment for this patient with primary ovarian insufficiency (POI) is oral estrogen and progesterone (Option A). In the evaluation of secondary amenorrhea, pregnancy should first be excluded; subsequent laboratory testing includes measuring serum follicle-stimulating hormone (FSH), serum estradiol, thyroid-stimulating hormone, free thyroxine, and serum prolactin levels. These results guide subsequent evaluation (). Low or normal estradiol in the setting of elevated FSH is suggestive of POI. POI is defined as the development of hypergonadotropic hypogonadism before age 40 years. Symptoms include amenorrhea (oligomenorrhea may precede), vasomotor symptoms, and vaginal dryness. POI is treated with estrogen-progestin therapy to manage symptoms and reduce the risk for osteoporosis and cardiovascular disease (progesterone is required if the patient has a uterus to prevent endometrial hyperplasia). Guidelines from the American College of Obstetricians and Gynecologists recommend that estrogen replacement mimic normal ovarian function, so 17β-estradiol and micronized progesterone, which are bioidentical to the hormones produced by the ovaries, are preferred. Oral contraceptive agents (ethinyl estradiol with various forms of progestin) can be considered but may not be as efficacious for bone health. Patients with POI can have the return of reproductive function, so it is important to counsel patients that 17β-estradiol plus micronized progesterone will not provide contraception. This patient has symptoms and laboratory evidence of POI, which should be treated with estrogen-progestin therapy until the natural age of menopause (around age 51 years).Venlafaxine (Option B) is a nonhormonal alternative for treating the vasomotor symptoms of menopause, but it is less effective than estrogen and does not provide bone or cardiovascular benefits. Venlafaxine is an option for postmenopausal women with contraindications to estrogen therapy, but this patient should first consider estrogen replacement therapy.Vaginal estradiol cream (Option C) is indicated for the local treatment of vaginal dryness but would not provide the systemic therapy needed to relieve her hot flashes.Providing no treatment to this patient would be inappropriate (Option D). The Women's Health Initiative raised concerns for hormone replacement therapy in postmenopausal women, but these results are not relevant to patients with POI. This young patient should receive hormone replacement therapy until the natural age of menopause.",
+  "critique": "The most appropriate treatment for this patient with primary ovarian insufficiency (POI) is oral estrogen and progesterone (Option A). In the evaluation of secondary amenorrhea, pregnancy should first be excluded; subsequent laboratory testing includes measuring serum follicle-stimulating hormone (FSH), serum estradiol, thyroid-stimulating hormone, free thyroxine, and serum prolactin levels. These results guide subsequent evaluation (Figure: Algorithm for Evaluating Amenorrhea). Low or normal estradiol in the setting of elevated FSH is suggestive of POI. POI is defined as the development of hypergonadotropic hypogonadism before age 40 years. Symptoms include amenorrhea (oligomenorrhea may precede), vasomotor symptoms, and vaginal dryness. POI is treated with estrogen-progestin therapy to manage symptoms and reduce the risk for osteoporosis and cardiovascular disease (progesterone is required if the patient has a uterus to prevent endometrial hyperplasia). Guidelines from the American College of Obstetricians and Gynecologists recommend that estrogen replacement mimic normal ovarian function, so 17β-estradiol and micronized progesterone, which are bioidentical to the hormones produced by the ovaries, are preferred. Oral contraceptive agents (ethinyl estradiol with various forms of progestin) can be considered but may not be as efficacious for bone health. Patients with POI can have the return of reproductive function, so it is important to counsel patients that 17β-estradiol plus micronized progesterone will not provide contraception. This patient has symptoms and laboratory evidence of POI, which should be treated with estrogen-progestin therapy until the natural age of menopause (around age 51 years).Venlafaxine (Option B) is a nonhormonal alternative for treating the vasomotor symptoms of menopause, but it is less effective than estrogen and does not provide bone or cardiovascular benefits. Venlafaxine is an option for postmenopausal women with contraindications to estrogen therapy, but this patient should first consider estrogen replacement therapy.Vaginal estradiol cream (Option C) is indicated for the local treatment of vaginal dryness but would not provide the systemic therapy needed to relieve her hot flashes.Providing no treatment to this patient would be inappropriate (Option D). The Women's Health Initiative raised concerns for hormone replacement therapy in postmenopausal women, but these results are not relevant to patients with POI. This young patient should receive hormone replacement therapy until the natural age of menopause.",
+  "critique_links": [],
   "key_points": [
     "Primary ovarian insufficiency is defined as the development of hypergonadotropic hypogonadism before age 40 years and should be treated with estrogen-progestin therapy until the natural age of menopause (around age 51 years)."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T23:00:09.222106-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.342142-06:00"
 }

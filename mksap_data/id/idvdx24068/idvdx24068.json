@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 58-year-old man with poorly controlled type 2 diabetes mellitus is evaluated for the painful abdominal rash shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is cellulitis (Option A), which is a rapidly spreading, diffuse infection of the subcutaneous tissues and deep dermis. It is caused most commonly by β-hemolytic streptococcal species, including Streptococcus pyogenes and Streptococcus agalactiae, and usually follows a traumatic insult to the skin, which is often minor. Symptoms and signs include poorly demarcated erythema, warmth, swelling, and pain. Diagnosis is usually based on clinical findings.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:10:29.440085-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "idfig24678",
+        "file": "figures/idfig24678.f3c5dfb3c3dbfd0f7ccc19851b376035.jpg",
+        "title": "Diffuse Rash of Cellulitis",
+        "short_title": "Cellulitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1200
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.821442-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 42-year-old man is evaluated for a chronic pruritic skin rash involving the groin.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has tinea cruris (Option D). Tinea cruris is a dermatophyte infection of the groin, pubic region, and thighs, which manifests as an annular lesion with a slight scale, an erythematous, well-demarcated edge, and incomplete central clearing. Tinea can be suspected based on clinical presentation and pruritus; however, diagnosis is based on visualization by microscopic examination of branching hyphae in the keratin (scale) using a potassium hydroxide preparation.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24625.c530e51e0b6d4123a081ffee9d015649.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.843773-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24625",
+        "file": "figures/dmfig24625.c530e51e0b6d4123a081ffee9d015649.jpg",
+        "title": "Tinea Cruris",
+        "short_title": "stem Tinea Cruris",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 593
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.384548-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 38-year-old woman is evaluated for a 2-month history of progressive fatigue and night sweats. She also reports unintentional weight loss of 3.1 kg (6.8 lb). She is otherwise healthy, and she takes no medications.On physical examination, vital signs are normal. Splenomegaly is present 4 cm below the left costal margin.Laboratory studies:Activated partial thromboplastin time26 sHematocrit33%LHemoglobin11 g/dL (110 g/L)LLeukocyte count100,200/µL (100.2 × 109/L) with 81% neutrophils, 3% bands, 2% metamyelocytes, 4% promyelocytes, 3% myeloblasts, 3% basophils, 2% eosinophils, 2% lymphocytesHPlatelet count625,000/µL (625 × 109/L)HINR1.0Prothrombin time12 s",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient most likely has chronic myeloid leukemia (CML), and a reverse transcriptase polymerase chain reaction (RT-PCR) test for the BCR::ABL translocation (Option C) is the most appropriate diagnostic test to perform next. CML is characterized by the presence of the Philadelphia chromosome, a reciprocal translocation of the ABL gene on chromosome 9 to the BCR gene on chromosome 22. The BCR::ABL fusion results in constitutive tyrosine kinase activity, cellular proliferation, and inhibition of apoptosis. Patients with CML may be asymptomatic at diagnosis, but symptoms such as fatigue, weight loss, recurrent fevers, or abdominal discomfort from splenomegaly may occur. A leukocytosis demonstrating elevations in the levels of myeloid-lineage leukocytes, such as neutrophils (including early forms such as bands, metamyelocytes, and promyelocytes), basophils, and eosinophils, is characteristic of CML. Peripheral blood RT-PCR tests or fluorescence in situ hybridization can confirm the diagnosis; the RT-PCR test is preferred. Bone marrow biopsy can help differentiate CML from acute myeloid leukemia and classify CML as chronic or blast phase through molecular, flow cytometric, and morphologic evaluation. This patient's clinical presentation and laboratory studies suggest CML, and RT-PCR testing for BCR::ABL is the best way to confirm the diagnosis.Testing for the calreticulin (CAL-R) mutation (Option A) is not necessary. The CAL-R mutation is present in 20% to 25% of patients with essential thrombocythemia (ET). Although patients with CAL-R–positive ET can present with thrombocytosis and splenomegaly, the marked leukocytosis with a preponderance of neutrophilic precursors in this patient is highly suggestive of CML.The JAK2 V617F mutation (Option B) is seen in virtually all patients with polycythemia vera (PV) and approximately 50% of patients with ET and myelofibrosis. Although patients with PV may present with leukocytosis, the extreme leukocytosis and thrombocytopenia seen in this patient are more suggestive of CML.Acute promyelocytic leukemia (APL) is defined by the fusion of the PML gene on chromosome 15 with the RARA gene on chromosome 17, resulting in the fusion transcript PML::RARA. Patients with APL often present with pancytopenia and coagulopathy (disseminated intravascular coagulation and fibrinolysis). Although patients with APL may present with a normal or elevated leukocyte count, the peripheral smear would reveal a preponderance of promyelocytes, unlike the differential in this patient. RT-PCR for PML::RARA (Option D) would not be necessary for this patient with CML.",
+  "critique_links": [],
   "key_points": [
     "Chronic myeloid leukemia is defined by the presence of the Philadelphia chromosome, a reciprocal translocation of the ABL gene on chromosome 9, to the BCR gene on chromosome 22, resulting in a BCR::ABL fusion gene.",
     "Patients with chronic myeloid leukemia usually present with leukocytosis; the differential reveals mainly mature polymorphonuclear granulocytes, but also less mature cells, including myelocytes, promyelocytes, and circulating blast cells."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.027122-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.892240-06:00"
 }

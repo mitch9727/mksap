@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 54-year-old man is evaluated 1 month after hospitalization for emergency appendectomy. He was placed on supplemental oxygen for 2 nights following surgery because of oxygen desaturations but otherwise had an uncomplicated postoperative course. Medical history is significant for amyotrophic lateral sclerosis. He has no shortness of breath, but neurologic dysfunction limits his mobility to bed and a wheelchair. His only medication is riluzole.On physical examination, respiration rate is 16/min. Oxygen saturation is 92% with the patient breathing ambient air. BMI is 24. Slight dysarthria, left arm and right leg weakness, muscle fasciculations, and hyperactive deep tendon reflexes are noted. Lung examination reveals reduced diaphragmatic excursion but normal lung sounds.",
+  "question_text": "A 54-year-old man is evaluated 1 month after hospitalization for emergency appendectomy. He was placed on supplemental oxygen for 2 nights following surgery because of oxygen desaturations but otherwise had an uncomplicated postoperative course. Medical history is significant for amyotrophic lateral sclerosis. He has no shortness of breath, but neurologic dysfunction limits his mobility to bed and a wheelchair. His only medication is riluzole.On physical examination, respiration rate is 16/min. Oxygen saturation is 92% with the patient breathing ambient air. BMI is 24. Slight dysarthria, left arm and right leg weakness, muscle fasciculations, and hyperactive deep tendon reflexes are noted. Lung examination reveals reduced diaphragmatic excursion but normal lung sounds.Laboratory studies:Arterial blood gases:pH7.42Pco257 mm Hg (7.6 kPa)HPo263 mm Hg (8.4 kPa)LBicarbonate33 mEq/L (33 mmol/L)HPulmonary function tests:FVC44% of predictedL",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment in this patient with amyotrophic lateral sclerosis (ALS) and chronic respiratory failure is bilevel positive airway pressure (BPAP) (Option A). Noninvasive positive pressure ventilation devices are often indicated to alleviate sleep-related symptoms and support ventilation in patients with neuromuscular disorders. Hypoventilation in the setting of neuromuscular disease is most marked during sleep, particularly rapid eye movement, and may be exacerbated by acute illness and effects of anesthesia. BPAP or volume-assured devices, with or without supplemental oxygen, are indicated in the setting of daytime hypercapnia (defined as a Pco2 >45 mm Hg [6.0 kPa]), which suggests chronic respiratory failure. Although polysomnography may aid in optimizing machine and oxygen settings and in assessing concomitant sleep disorders, it is often unnecessary. This patient has chronic hypoventilation due to neuromuscular disease, as indicated by an elevated Pco2 and a compensatory metabolic alkalosis. BPAP is indicated.Continuous positive airway pressure (CPAP) (Option B) is used to maintain upper airway patency in patients with obstructive sleep apnea. The fixed pressure of CPAP does not augment ventilation as do the separate inspiratory and expiratory pressures of BPAP, and CPAP would not be appropriate therapy for ventilatory support in the setting of chronic respiratory failure due to hypoventilation.Supplemental oxygen (Option C) would not correct chronic hypercapnia and may further depress ventilation in patients with respiratory muscle weakness. It should generally not be prescribed in patients with chronic ventilatory failure without concomitant ventilatory support.Tracheostomy (Option D) may be appropriate for some patients with advanced respiratory failure due to neuromuscular disease, particularly those who experience difficulty in managing secretions or require daytime respiratory support. However, noninvasive therapy is the most appropriate initial treatment option.",
+  "critique_links": [],
   "key_points": [
     "In patients with respiratory muscle weakness and chronic respiratory failure, supplemental oxygen may further depress ventilation and should generally not be prescribed without concomitant ventilatory support.",
     "Bilevel positive airway pressure or volume-assured devices, with or without supplemental oxygen, are indicated in patients with neuromuscular disorders in the setting of daytime hypercapnia suggesting chronic respiratory failure."
@@ -59,5 +60,28 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:52.972303-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      },
+      {
+        "table_id": "inline_table_2",
+        "file": "tables/inline_table_2.html",
+        "title": "Pulmonary function tests:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.021595-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 27-year-old man is evaluated for a pituitary tumor, which was discovered during an ongoing evaluation for a 6-month history of fatigue and decreased libido. He has no other medical conditions and takes no medications.Physical examination findings, including vital signs, are normal.Insulin-like growth factor-1 and late-night salivary cortisol levels are normal.MRI shows a 1.5-cm pituitary macroadenoma without compression of the optic chiasm.",
+  "question_text": "A 27-year-old man is evaluated for a pituitary tumor, which was discovered during an ongoing evaluation for a 6-month history of fatigue and decreased libido. He has no other medical conditions and takes no medications.Physical examination findings, including vital signs, are normal.Laboratory studies:8 am cortisol 18 µg/dL (496.8 nmol/L)Follicle-stimulating hormone3 mU/mL (3 U/L)LLuteinizing hormone2 mU/mL (2 U/L)LProlactin14 ng/mL (14 μg/L)Testosterone140 ng/dL (4.9 nmol/L)L2 weeks ago130 ng/dL (4.5 nmol/L)LThyroid-stimulating hormone1.5 µU/mL (1.5 mU/L)Insulin-like growth factor-1 and late-night salivary cortisol levels are normal.MRI shows a 1.5-cm pituitary macroadenoma without compression of the optic chiasm.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate next step in management for this patient with a pituitary macroadenoma is free thyroxine (T4) level measurement (Option A) to test for secondary hypothyroidism. In patients with a pituitary adenoma, pituitary hypersecretion is evaluated with prolactin, insulin-like growth factor-1 (IGF-1), and late-night salivary cortisol measurements; evaluation for hypopituitarism includes follicle-stimulating hormone, luteinizing hormone, 8 am cortisol, 8 am total testosterone (in men), thyroid-stimulating hormone (TSH), and T4 measurements. Importantly, measuring the TSH level alone is not adequate for ruling out secondary hypothyroidism. The diagnosis of secondary hypothyroidism requires measurement of both TSH and free T4 levels; a low free T4 level and a low or inappropriately normal TSH level indicate secondary hypothyroidism. This patient has a pituitary macroadenoma with hypogonadotropic hypogonadism and is at risk for other pituitary deficiencies. Cortisol deficiency has been ruled out with a normal 8 am serum cortisol level. Although his TSH level is normal and his fatigue may be related to hypogonadism, free T4 should be measured next to rule out secondary hypothyroidism.Measuring the growth hormone level (Option B) is not indicated. Excess growth hormone production is ruled out by measuring insulin-like growth factor-1 (IGF-1), not growth hormone; a normal IGF-1 level rules out growth hormone excess. Conversely, a normal IGF-1 level does not exclude growth hormone deficiency. However, evaluation of growth hormone deficiency is accomplished through provocative testing (see ) rather than growth hormone measurement.Repeat MRI in 1 year (Option C) is not the most appropriate next step. This patient does not have compression of the optic chiasm, so observation rather than surgery may be appropriate. However, in the setting of a pituitary macroadenoma (≥1 cm), MRI should be repeated in 6 months rather than a year because of the risk for compressive symptoms if the pituitary macroadenoma grows.Cabergoline (Option D) is the treatment of choice for prolactinomas and may be used occasionally as adjunct treatment in growth hormone–secreting tumors. However, this patient does not have a prolactinoma, given his normal prolactin level, and cabergoline is not indicated for treatment of nonfunctional pituitary tumors.",
+  "critique": "The most appropriate next step in management for this patient with a pituitary macroadenoma is free thyroxine (T4) level measurement (Option A) to test for secondary hypothyroidism. In patients with a pituitary adenoma, pituitary hypersecretion is evaluated with prolactin, insulin-like growth factor-1 (IGF-1), and late-night salivary cortisol measurements; evaluation for hypopituitarism includes follicle-stimulating hormone, luteinizing hormone, 8 am cortisol, 8 am total testosterone (in men), thyroid-stimulating hormone (TSH), and T4 measurements. Importantly, measuring the TSH level alone is not adequate for ruling out secondary hypothyroidism. The diagnosis of secondary hypothyroidism requires measurement of both TSH and free T4 levels; a low free T4 level and a low or inappropriately normal TSH level indicate secondary hypothyroidism. This patient has a pituitary macroadenoma with hypogonadotropic hypogonadism and is at risk for other pituitary deficiencies. Cortisol deficiency has been ruled out with a normal 8 am serum cortisol level. Although his TSH level is normal and his fatigue may be related to hypogonadism, free T4 should be measured next to rule out secondary hypothyroidism.Measuring the growth hormone level (Option B) is not indicated. Excess growth hormone production is ruled out by measuring insulin-like growth factor-1 (IGF-1), not growth hormone; a normal IGF-1 level rules out growth hormone excess. Conversely, a normal IGF-1 level does not exclude growth hormone deficiency. However, evaluation of growth hormone deficiency is accomplished through provocative testing (see Table: Initial Testing for Pituitary Hormone Excess and Deficiency) rather than growth hormone measurement.Repeat MRI in 1 year (Option C) is not the most appropriate next step. This patient does not have compression of the optic chiasm, so observation rather than surgery may be appropriate. However, in the setting of a pituitary macroadenoma (≥1 cm), MRI should be repeated in 6 months rather than a year because of the risk for compressive symptoms if the pituitary macroadenoma grows.Cabergoline (Option D) is the treatment of choice for prolactinomas and may be used occasionally as adjunct treatment in growth hormone–secreting tumors. However, this patient does not have a prolactinoma, given his normal prolactin level, and cabergoline is not indicated for treatment of nonfunctional pituitary tumors.",
+  "critique_links": [],
   "key_points": [
     "Secondary hypothyroidism is evaluated by measuring both thyroid-stimulating hormone (TSH) and free thyroxine (T4) levels; a normal or low TSH level with a low free T4 level suggests secondary hypothyroidism."
   ],
@@ -51,12 +52,50 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/entab24025.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T23:00:12.527723-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "entab24025",
+        "file": "tables/entab24025.html",
+        "title": "Initial Testing for Pituitary Hormone Excess and Deficiency",
+        "short_title": "Initial Testing for Pituitary Hormone Excess and Deficiency",
+        "footnotes": [
+          "ACTH = adrenocorticotropic hormone; FSH = follicle-stimulating hormone; GH = growth hormone; GHRH = growth hormone–releasing hormone; IGF-1 = insulin-like growth factor 1; LH = luteinizing hormone; SHBG = sex hormone–binding globulin; TSH = thyroid-stimulating hormone.",
+          "<sup>a</sup>See Table: Dynamic Testing for Pituitary Dysfunction for additional information on dynamic testing for pituitary dysfunction.",
+          "<sup>b</sup>Routine testing for deficiency is not recommended without specific signs of deficiency, such as amenorrhea, gynecomastia, low libido, or impotence.",
+          "<sup>c</sup>Not available in the United States."
+        ],
+        "headers": [
+          "Pituitary Hormone Excess",
+          "Pituitary Hormone",
+          "Peripheral Hormone",
+          "Initial Test(s)",
+          "Pituitary Hormone Deficiency",
+          "Pituitary Hormone",
+          "Peripheral Hormone",
+          "Initial Test(s)",
+          "Confirmatory Test"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.345593-06:00"
 }

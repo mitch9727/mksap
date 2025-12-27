@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old man with chronic hepatitis C virus infection presents with the following skin findings over his hands.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient's skin findings are most characteristic of porphyria cutanea tarda (Option D). Porphyria cutanea tarda is usually caused by an acquired defect of hepatic uroporphyrinogen decarboxylase enzyme, which results in excess circulating porphyrins. Accumulated porphyrins in the skin cause phototoxicity upon light exposure. Chronic hepatitis C virus infection is the most common cause of acquired porphyria cutanea tarda.In cryoglobulinemia, cutaneous findings typically involve the lower extremities and include palpable purpura, digital ischemia, ulcers, necrosis, and livedo reticularis. Lichen planus presents as pruritic, flat-topped, violaceous papules, often on the flexural surfaces of the extremities (wrists and ankles) and mucous membranes. Necrolytic acral erythema is characterized by psoriasiform lower extremity lesions.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/hpfig24607.99f5546590e3d2125f429a7ee5f89c4e.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.633449-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hpfig24607",
+        "file": "figures/hpfig24607.99f5546590e3d2125f429a7ee5f89c4e.jpg",
+        "title": "Porphyria Cutanea Tarda",
+        "short_title": "Porphyria Cutanea Tarda",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 866,
+        "height": 1292
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.734579-06:00"
 }

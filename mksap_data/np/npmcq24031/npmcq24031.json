@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 43-year-old man is evaluated in the emergency department for a 4-week history of worsening leg edema that began in his feet and has extended to his thighs and a 5.4-kg (12.0-lb) weight gain.On physical examination, blood pressure is 150/100 mm Hg; other vital signs are normal. There is 3-mm pitting edema to the thigh in the left leg and 1- to 2-mm pitting edema to the knee in the right leg.Kidney ultrasound shows kidneys of normal size and echogenicity.",
+  "question_text": "A 43-year-old man is evaluated in the emergency department for a 4-week history of worsening leg edema that began in his feet and has extended to his thighs and a 5.4-kg (12.0-lb) weight gain.On physical examination, blood pressure is 150/100 mm Hg; other vital signs are normal. There is 3-mm pitting edema to the thigh in the left leg and 1- to 2-mm pitting edema to the knee in the right leg.Laboratory studies:Albumin2.1 g/dL (21 g/L)LCreatinine1.0 mg/dL (88.4 µmol/L)Total cholesterol330 mg/dL (8.5 mmol/L)LDL cholesterol180 mg/dL (4.7 mmol/L)UrinalysisNo blood, 3+ proteinUrine protein-creatinine ratio9200 mg/gHKidney ultrasound shows kidneys of normal size and echogenicity.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate diagnostic test to perform next is lower extremity Doppler ultrasonography (Option C). This patient presents with the nephrotic syndrome, a hypercoagulable state, and has asymmetric lower extremity edema, which is suspicious for deep venous thrombosis (DVT). The nephrotic syndrome is characterized by heavy proteinuria, significant edema, hypoalbuminemia, and hypercholesterolemia. In addition to albuminuria, patients with the nephrotic syndrome excrete several low-molecular-weight anticoagulants (e.g., antithrombin III, protein S) and fibrinolytics (e.g., plasminogen). Hepatic overproduction of proteins as an intrinsic response to hypoalbuminemia leads to hyperlipidemia and increased levels of procoagulants (e.g., factors V and VIII, fibrinogen). As a result, patients with the nephrotic syndrome are at increased risk for pulmonary, lower extremity, and renal vein thromboses. Clots are most commonly seen in patients with membranous nephropathy, but any patient with nephrotic-range proteinuria and significant hypoalbuminemia (typically serum albumin level <2.5 g/dL [25 g/L]), such as this patient, should be considered at risk, especially early in the course of the disease. Because this patient's presentation is suspicious for DVT, a lower extremity Doppler ultrasonography to evaluate for DVT is the most appropriate test at this stage.D-dimer level (Option A) will be elevated in inflammatory states such as the nephrotic syndrome and would therefore not be useful as a screening test for DVT in this case.Although this patient will likely need a kidney biopsy (Option B), evaluation for a DVT is more urgent at this time. In addition, if the result of serologic testing for phospholipase A2 receptor antibody is positive and the serum creatinine level remains within normal limits, the diagnosis of membranous nephropathy, the most common form of the nephrotic syndrome associated with clots, can be made without the patient undergoing kidney biopsy.If pulmonary embolism is suspected in a patient with normal kidney function, a CT angiography is preferred over ventilation-perfusion scanning (Option D). Initial imaging with lower extremity Doppler ultrasonography is faster and more specific to his examination findings.",
+  "critique_links": [],
   "key_points": [
     "Because of its hypercoagulable state, patients with the nephrotic syndrome are at increased risk for pulmonary, lower extremity, and renal vein thromboses.",
     "Doppler ultrasonography is the initial imaging test of choice for patients with the nephrotic syndrome with suspected lower extremity deep venous thrombosis."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:40.112285-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.681757-06:00"
 }

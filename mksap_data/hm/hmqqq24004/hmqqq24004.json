@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 29-year-old woman is evaluated for a 36-hour history of headache and fever. She has no known medical problems and takes no medications.On physical examination, temperature is 38.1 °C (100.6 °F), and blood pressure is 150/92 mm Hg. The patient is confused. Petechiae are present on the lower extremities. The remainder of the examination is noncontributory.Coagulation studies and kidney function are normal. Peripheral blood smear is shown.",
+  "question_text": "A 29-year-old woman is evaluated for a 36-hour history of headache and fever. She has no known medical problems and takes no medications.On physical examination, temperature is 38.1 °C (100.6 °F), and blood pressure is 150/92 mm Hg. The patient is confused. Petechiae are present on the lower extremities. The remainder of the examination is noncontributory.Laboratory studies:Hemoglobin7.8 g/dL (78 g/L)LPlatelet count72,000/µL (72 × 109/L)LCoagulation studies and kidney function are normal. Peripheral blood smear is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is thrombotic thrombocytopenic purpura (TTP) (Option C). TTP is caused by an antibody directed against ADAMTS13, the metalloprotease responsible for cleaving high-molecular-weight von Willebrand factor multimers. Destruction of ADAMTS13 results in platelets adhering to uncleaved multimers, generating platelet-rich thrombi in small vessels. These thrombi shear erythrocytes, producing schistocytes, and may cause end-organ injury. The pentad of findings in TTP is thrombocytopenia, microangiopathic hemolytic anemia, neurologic deficits, kidney injury, and fever. All five findings do not need to be present for the diagnosis to be established, but TTP should be suspected in patients with microangiopathic hemolytic anemia, confirmed by erythrocyte fragments on the peripheral blood smear that appear as schistocytes (irregularly shaped and jagged fragments) and helmet cells (scooped-out erythrocytes that resemble a helmet or bucket), and thrombocytopenia. Plasma exchange should be instituted emergently at diagnosis, because 10% of patients die of this disease despite therapy. This patient has thrombocytopenia, hemolytic anemia, confusion, and fever, which makes TTP the most likely diagnosis.Schistocytes, a sign of fragmentation hemolysis, are associated with TTP and disseminated intravascular coagulation (DIC) (Option A). However, DIC results in abnormal coagulation parameters because of consumption, whereas coagulation parameters remain normal with TTP, as in this patient. Therefore, this patient's presentation is not consistent with DIC.Hemolytic uremic syndrome (HUS) (Option B) is characterized by thrombocytopenia, microangiopathic hemolytic anemia, and acute kidney injury, often requiring dialysis. Classic HUS presents after an acute diarrheal illness caused by enterotoxin-producing Escherichia coli O157:H7 (other strains have also been implicated). Diagnosis is confirmed by stool culture and polymerase chain reaction for Shiga toxin or O157:H7 antigen testing. Management is supportive and includes fluids and transfusions as needed. The absence of kidney injury makes this patient's presentation inconsistent with HUS.Spherocytes, not schistocytes, are the expected erythrocyte finding in patients with warm autoimmune hemolytic anemia. Immune thrombocytopenic purpura is caused by accelerated platelet destruction by antibodies directed toward platelet antigens and is not associated with schistocytes on the peripheral blood smear. Given the absence of spherocytes and the presence of schistocytes on the peripheral blood smear, warm autoimmune hemolytic anemia and immune thrombocytopenic purpura (Option D) are unlikely in this patient.",
+  "critique_links": [],
   "key_points": [
     "The pentad of findings in thrombotic thrombocytopenic purpura (TTP) are thrombocytopenia, microangiopathic hemolytic anemia, neurologic deficits, kidney injury, and fever; all five findings are not necessary to establish the diagnosis, but TTP should be suspected in patients with microangiopathic hemolytic anemia and thrombocytopenia.",
     "Microangiopathic hemolytic anemia is confirmed by erythrocyte fragments on the peripheral blood smear that appear as schistocytes (irregularly shaped and jagged fragments) and helmet cells (scooped-out erythrocytes that resemble a helmet or bucket)."
@@ -60,5 +61,32 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.852627-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hmfig24500",
+        "file": "figures/hmfig24500.90b7b3a6fda2fa4e7e7ed2b54e31864c.jpg",
+        "title": "Schistocytes and Helmet Cells in Thrombotic Thrombocytopenic Purpura",
+        "short_title": "Schistocytes and Helmet Cells",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 605
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.035972-06:00"
 }

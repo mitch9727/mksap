@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 51-year-old woman is evaluated at a new patient visit for hypertension. She is asymptomatic. Medical history is significant for hypertension since age 49 years. Therapy has been escalated over the course of the past year. Medications are amlodipine, hydrochlorothiazide, lisinopril, metoprolol, and a potassium supplement.On physical examination, blood pressure is 128/78 mm Hg and pulse rate is 80/min. Other vital signs and the rest of the examination are normal.Serum electrolyte and creatinine levels are normal.",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "A plasma aldosterone concentration/plasma renin activity (PAC/PRA) ratio (Option B) is the most appropriate next test. Secondary causes of hypertension should be considered in patients requiring multiple antihypertensives. Endocrine causes of secondary hypertension include primary aldosteronism, pheochromocytoma, and Cushing syndrome. Primary aldosteronism is often underdiagnosed and should be considered in patients with resistant hypertension or in patients with controlled hypertension requiring four or more antihypertensives. Additional indications for evaluation are listed in Table: Case Detection Indications for Primary Aldosteronism. Identifying patients with primary aldosteronism is important because aldosterone has direct effects on the heart and kidneys. Cardiovascular disease is more common in patients with primary aldosteronism compared with those with primary hypertension. Clues to suggest primary aldosteronism in this patient include the necessity of four antihypertensive medications to achieve blood pressure control and the need for potassium supplementation. Testing for primary aldosteronism is indicated, and the best initial test is a PAC/PRA ratio on a midmorning sample. Although some antihypertensive medications may affect results, most medications can generally be continued through testing. However, interpretation of results should consider these potential effects (). Checking plasma fractionated metanephrines in this patient is also recommended given his resistant hypertension.Imaging of the adrenal glands is needed if primary aldosteronism is confirmed on biochemical testing. This patient has not yet completed hormonal testing, so imaging for an adrenal mass with CT of the abdomen (Option A) is premature.24-Hour urine free cortisol measurement (Option C) can assess for clinical Cushing syndrome. This testing should be considered in patients with hypertension who also have suggestive physical examination findings of Cushing syndrome, including proximal muscle weakness, rounding of the face with plethora, or wide violaceous stretch marks or striae. Comorbidities such as type 2 diabetes mellitus, venous thromboembolism, or unexplained fracture should also raise concern for Cushing syndrome. This patient does not have findings suggestive of Cushing syndrome.No additional testing (Option D) is inappropriate for this patient. Primary aldosteronism is an important cause of secondary hypertension and is often underdiagnosed. This patient meets criteria for primary aldosteronism evaluation.",
+  "critique": "A plasma aldosterone concentration/plasma renin activity (PAC/PRA) ratio (Option B) is the most appropriate next test. Secondary causes of hypertension should be considered in patients requiring multiple antihypertensives. Endocrine causes of secondary hypertension include primary aldosteronism, pheochromocytoma, and Cushing syndrome. Primary aldosteronism is often underdiagnosed and should be considered in patients with resistant hypertension or in patients with controlled hypertension requiring four or more antihypertensives. Additional indications for evaluation are listed in Table: Case Detection Indications for Primary Aldosteronism. Identifying patients with primary aldosteronism is important because aldosterone has direct effects on the heart and kidneys. Cardiovascular disease is more common in patients with primary aldosteronism compared with those with primary hypertension. Clues to suggest primary aldosteronism in this patient include the necessity of four antihypertensive medications to achieve blood pressure control and the need for potassium supplementation. Testing for primary aldosteronism is indicated, and the best initial test is a PAC/PRA ratio on a midmorning sample. Although some antihypertensive medications may affect results, most medications can generally be continued through testing. However, interpretation of results should consider these potential effects (Table: Effects of Medications on PAC/PRA Measurements). Checking plasma fractionated metanephrines in this patient is also recommended given his resistant hypertension.Imaging of the adrenal glands is needed if primary aldosteronism is confirmed on biochemical testing. This patient has not yet completed hormonal testing, so imaging for an adrenal mass with CT of the abdomen (Option A) is premature.24-Hour urine free cortisol measurement (Option C) can assess for clinical Cushing syndrome. This testing should be considered in patients with hypertension who also have suggestive physical examination findings of Cushing syndrome, including proximal muscle weakness, rounding of the face with plethora, or wide violaceous stretch marks or striae. Comorbidities such as type 2 diabetes mellitus, venous thromboembolism, or unexplained fracture should also raise concern for Cushing syndrome. This patient does not have findings suggestive of Cushing syndrome.No additional testing (Option D) is inappropriate for this patient. Primary aldosteronism is an important cause of secondary hypertension and is often underdiagnosed. This patient meets criteria for primary aldosteronism evaluation.",
+  "critique_links": [],
   "key_points": [
     "Primary aldosteronism is an underdiagnosed cause of secondary hypertension and should be considered in patients with resistant hypertension or controlled hypertension requiring four or more antihypertensives.",
     "The initial test to evaluate for primary aldosteronism is a plasma aldosterone concentration/plasma renin activity ratio."
@@ -52,12 +53,48 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/entab24033.html",
+      "tables/entab24035.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:29.030453-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "entab24033",
+        "file": "tables/entab24033.html",
+        "title": "Case Detection Indications for Primary Aldosteronism",
+        "short_title": "Case Detection Indications for Primary Aldosteronism",
+        "footnotes": [
+          "BP = blood pressure; PA = primary aldosteronism.",
+          "Adapted from Funder JW, Carey RM, Fardella C, et al; Endocrine Society. Case detection, diagnosis, and treatment of patients with primary aldosteronism: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2008;93:3266-81. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18552288\" target=\"_blank\">PMID: 18552288</a> doi:10.1210/jc.2008-0104. Copyright 2008 Oxford University Press."
+        ],
+        "headers": []
+      },
+      {
+        "table_id": "entab24035",
+        "file": "tables/entab24035.html",
+        "title": "Effects of Commonly Prescribed Medications on Measurements of Plasma Aldosterone Concentration and Plasma Renin Activity",
+        "short_title": "Effects of Medications on PAC/PRA Measurements",
+        "footnotes": [
+          "ARB = angiotensin receptor blocker; CCB = calcium channel blocker; PAC = plasma aldosterone concentration; PRA = plasma renin activity.",
+          "<sup>a</sup>Both potassium-sparing (amiloride) and potassium-wasting (hydrochlorothiazide) diuretics.",
+          "Adapted from Funder JW, Carey RM, Fardella C, et al; Endocrine Society. Case detection, diagnosis, and treatment of patients with primary aldosteronism: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2008;93:3266-81. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18552288\" target=\"_blank\">PMID: 18552288</a> doi:10.1210/jc.2008-0104. Copyright 2008 Oxford University Press."
+        ],
+        "headers": [
+          "Effect on Test Results",
+          "Medication Class",
+          "PAC",
+          "PRA",
+          "PAC/PRA"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.142582-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "An 80-year-old woman is evaluated for increased agitation over the past few days and a 5-day history of constipation. The patient has advanced dementia and is being cared for in her home by her daughter. The daughter reports that her mother seems distressed when sitting on the toilet. She has been trying to increase her mother's fluid and fiber intake, but that has not resulted in improvement. The patient also has knee osteoarthritis, chronic kidney disease, and hypertension. Medications are lisinopril, acetaminophen, and topical diclofenac gel.On physical examination, the patient is nonverbal and has mild agitation. Vital signs are normal. The abdomen is soft without tenderness or distention. Digital rectal examination reveals no stool in the vault.Laboratory studies:Creatinine1.8 mg/dL (159.1 µmol/L) (at her baseline)HElectrolyte and thyroid-stimulating hormone levels are normal.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment is polyethylene glycol (Option E). Constipation is common in patients with serious illness and in older adults and may result in discomfort, restlessness, and delirium. Causes include opioids, dehydration, immobility, metabolic disturbances, and many nonopioid medications. Patients with constipation and their caregivers should be educated on increasing fluid intake and physical activity. Pharmacologic therapy includes osmotic laxatives, such as polyethylene glycol, often in combination with a stimulant laxative, such as senna or bisacodyl. This patient with advanced dementia has not had improvement of constipation with increased fluids and fiber intake. An osmotic laxative such as polyethylene glycol will likely be beneficial and is an appropriate next step.Docusate (Option A), alone or in combination, is no more effective than placebo for constipation in patients with serious illness. It is not likely to be effective in this patient.In a patient with agitation or delirium, identifying and treating the underlying cause is the most appropriate initial strategy. This patient's agitation is likely the result of constipation, so treating the constipation instead of initiating haloperidol (Option B) to treat delirium is the most appropriate initial treatment.Enemas and rectal suppositories are considered third-line treatments for constipation and should be used only if osmotic and stimulant laxatives have been ineffective. Furthermore, this patient has chronic kidney disease and should not be given a magnesium-containing enema (Option C) because of potentially dangerous electrolyte shifts.Methylnaltrexone (Option D) has been shown to be effective in treating opioid-induced constipation. This patient is not taking opioids, so this option would not be appropriate for her.",
+  "critique_links": [],
   "key_points": [
     "Constipation is common in patients with serious illness and in older adults and may result in discomfort, restlessness, and delirium.",
     "If nonpharmacologic measures are not sufficient in relieving constipation, pharmacologic treatment with osmotic laxatives, such as polyethylene glycol, can be initiated."
@@ -56,10 +57,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:33.951800-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.640380-06:00"
 }

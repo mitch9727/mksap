@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 57-year-old man is evaluated in the clinic for hyperglycemia. He has not been seen in many months because he often has difficulty getting to his appointments. Medical conditions include type 2 diabetes mellitus, hypertension, dyslipidemia, coronary artery disease, and gastroesophageal reflux disease. Medications are metformin, dulaglutide, atorvastatin, lisinopril, carvedilol, aspirin, and omeprazole.On physical examination, blood pressure is 150/94 mm Hg. Other vital signs and physical examination findings are unremarkable.Laboratory studies:Hemoglobin A1c9.0%H",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,15 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management is to screen for health-related social needs (Option D). Social factors such as housing, education, food access, income, discrimination, and bias account for a substantial degree of health care outcomes and inequities. Screening for underlying social determinants of health can identify health-related social needs (social barriers to medical care) and connect patients with needed community services, and it may ultimately improve health outcomes. Several screening tools for assessing social determinants of health exist, including the Centers for Medicare & Medicaid Services Accountable Health Communities Health-Related Social Needs Screening Tool. This patient has had difficulty attending appointments and has poorly controlled chronic diseases. Evaluating for health-related social needs, such as housing instability, food insecurity, financial constraints, support, safety, or transportation problems, may help to address barriers to his overall care.Sodium-glucose cotransporter 2 inhibitors, such as empagliflozin (Option A), improve outcomes in both diabetes and cardiovascular disease but will not help this patient if barriers to access, such as cost, exist. A conversation with the patient about his current situation will help to create the best management strategy.Counseling the patient on the importance of taking his medications (Option B) is an important facet of care, but it will likely be ineffective if not discussed in the context of the patient's social factors.Endocrinologists are key partners in the management of complex cases of diabetes mellitus, and an endocrinologist's input (Option C) may be required for this patient in the future. However, his uncontrolled blood pressure, uncontrolled diabetes, and difficulty getting to appointments suggest that a more holistic approach is necessary. This approach starts with identifying and addressing potential barriers to care.",
+  "critique_links": [
+    {
+      "href": "https://www.cms.gov/priorities/innovation/files/worksheets/ahcm-screeningtool.pdf",
+      "text": "Accountable Health Communities Health-Related Social Needs Screening Tool",
+      "target": "_blank",
+      "title": null,
+      "rel": null
+    }
+  ],
   "key_points": [
     "Social factors such as housing, education, food access, income, discrimination, and bias account for a substantial degree of health care outcomes.",
     "Screening for potential health-related social needs, such as housing instability, food insecurity, financial constraints, support, safety, or transportation problems, can help to address barriers to care."
@@ -51,10 +60,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:34.024473-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.699644-06:00"
 }

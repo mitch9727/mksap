@@ -5,12 +5,17 @@ use std::time::Duration;
 use tokio::time::sleep;
 use tracing::{debug, error, info, warn};
 
-use crate::models::ApiQuestionResponse;
+use crate::models::{ApiQuestionResponse, MediaFiles, QuestionData};
+use serde_json::Value;
 
 use super::MKSAPExtractor;
 
 impl MKSAPExtractor {
-    pub async fn extract_category(&self, category: &crate::categories::Category) -> Result<usize> {
+    pub async fn extract_category(
+        &self,
+        category: &crate::categories::Category,
+        refresh_existing: bool,
+    ) -> Result<usize> {
         info!("Extracting: {}", category.name);
 
         let existing_ids = self.load_existing_question_ids(&category.code)?;
@@ -44,19 +49,14 @@ impl MKSAPExtractor {
             concurrency
         );
         let mut questions_extracted = 0;
-        let mut questions_skipped = 0;
-
-        let targets: Vec<String> = valid_ids
-            .into_iter()
-            .filter(|question_id| {
-                if existing_ids.contains(question_id) {
-                    questions_skipped += 1;
-                    false
-                } else {
-                    true
-                }
-            })
-            .collect();
+        let targets: Vec<String> = if refresh_existing {
+            valid_ids
+        } else {
+            valid_ids
+                .into_iter()
+                .filter(|question_id| !existing_ids.contains(question_id))
+                .collect()
+        };
 
         let total_to_process = targets.len();
         let mut processed = 0usize;
@@ -65,7 +65,8 @@ impl MKSAPExtractor {
             .map(|question_id| async move {
                 (
                     question_id.clone(),
-                    self.extract_question(&category.code, &question_id).await,
+                    self.extract_question(&category.code, &question_id, refresh_existing)
+                        .await,
                 )
             })
             .buffer_unordered(concurrency);
@@ -104,9 +105,13 @@ impl MKSAPExtractor {
         &self,
         category_code: &str,
         question_id: &str,
+        refresh_existing: bool,
     ) -> Result<bool> {
         let json_path = self.question_json_path(category_code, question_id);
-        if json_path.exists() && Self::is_valid_question_json(&json_path, question_id) {
+        if !refresh_existing
+            && json_path.exists()
+            && Self::is_valid_question_json(&json_path, question_id)
+        {
             info!("Skipping extraction for {} (already exists)", question_id);
             return Ok(true);
         }
@@ -150,7 +155,10 @@ impl MKSAPExtractor {
                     return Ok(true);
                 }
 
-                let question = api_response.into_question_data(category_code.to_string());
+                let mut question = api_response.into_question_data(category_code.to_string());
+                if refresh_existing {
+                    merge_existing_media(&mut question, &json_path);
+                }
 
                 self.save_question_data(category_code, &question)?;
                 self.quarantine_if_invalid(category_code, &question.question_id)
@@ -172,6 +180,29 @@ impl MKSAPExtractor {
                 Err(anyhow::anyhow!("Rate limited"))
             }
             status => Err(anyhow::anyhow!("API error {}", status)),
+        }
+    }
+}
+
+fn merge_existing_media(question: &mut QuestionData, json_path: &std::path::Path) {
+    let text = match fs::read_to_string(json_path) {
+        Ok(text) => text,
+        Err(_) => return,
+    };
+    let value: Value = match serde_json::from_str(&text) {
+        Ok(value) => value,
+        Err(_) => return,
+    };
+
+    if let Some(media_value) = value.get("media") {
+        if let Ok(media) = serde_json::from_value::<MediaFiles>(media_value.clone()) {
+            question.media = media;
+        }
+    }
+
+    if let Some(media_metadata) = value.get("media_metadata") {
+        if !media_metadata.is_null() {
+            question.media_metadata = Some(media_metadata.clone());
         }
     }
 }

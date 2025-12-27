@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 24-year-old woman is evaluated for intermittent abdominal pain associated with vomiting for the past 2 months. She has restricted her food intake because she fears that it will trigger her symptoms. As a result, she has lost 2.3 kg (5 lb). The patient reports no dysphagia, diarrhea, joint pain, or fever. She has asthma and is allergic to penicillin and shellfish. Her mother also has asthma. Her only medication is an albuterol inhaler.Physical examination findings, including vital signs, are normal.An upper gastrointestinal series shows a thickened gastric wall and normal small bowel. Upper endoscopy shows normal gastric mucosa. Duodenal aspirate is negative for parasites and Helicobacter pylori. Gastric biopsy specimens are negative for H. pylori and reveal an eosinophil count of 30/hpf (normal range, 5-10/hpf).",
+  "question_text": "A 24-year-old woman is evaluated for intermittent abdominal pain associated with vomiting for the past 2 months. She has restricted her food intake because she fears that it will trigger her symptoms. As a result, she has lost 2.3 kg (5 lb). The patient reports no dysphagia, diarrhea, joint pain, or fever. She has asthma and is allergic to penicillin and shellfish. Her mother also has asthma. Her only medication is an albuterol inhaler.Physical examination findings, including vital signs, are normal.Laboratory studies:Eosinophil differential count11%Erythrocyte sedimentation rateNormalHemoglobinNormalTotal IgENormalAn upper gastrointestinal series shows a thickened gastric wall and normal small bowel. Upper endoscopy shows normal gastric mucosa. Duodenal aspirate is negative for parasites and Helicobacter pylori. Gastric biopsy specimens are negative for H. pylori and reveal an eosinophil count of 30/hpf (normal range, 5-10/hpf).",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management is to order an elimination diet (Option C). Eosinophilic gastritis is an uncommon gastropathy characterized by infiltration of eosinophils in the gastric mucosa. It usually occurs in atopic persons and is suggested by eosinophilia. However, before primary eosinophilic gastritis can be diagnosed, the following secondary causes of eosinophilia should be excluded:DrugsCrohn diseaseParasitesVasculitisHypereosinophilic syndromeConnective tissue disordersMyeloproliferative disordersThe cause of primary eosinophilic gastritis is unknown, but it is thought to be caused by an allergic process, such as food allergies. Treatment is aimed at eliminating those foods. If no improvement occurs with food avoidance, an elemental diet or adding glucocorticoids is indicated. In this patient, the upper gastrointestinal series localized the symptoms to the stomach, and the gastric biopsy specimens confirmed infiltration of eosinophils. These findings are consistent with eosinophilic gastritis, and an elimination diet is an appropriate next step.The abnormal results on upper gastrointestinal series in this patient confirm that she does not have functional dyspepsia. The antidepressant buspirone (Option A) can be used to treat functional dyspepsia, but it has no role in the treatment of eosinophilic gastritis.Colonoscopy with small-bowel biopsy (Option B) to evaluate for Crohn disease is not needed. Although Crohn disease could present with similar symptoms and eosinophilia, this patient has no diarrhea, significant weight loss, or physical findings of Crohn disease. In addition, she has a normal erythrocyte sedimentation rate and hemoglobin level, as well as a normal small bowel, all of which make Crohn disease unlikely.A topical glucocorticoid, such as swallowed fluticasone (Option D), is indicated for the treatment of eosinophilic esophagitis. This condition is more common in men and presents with dysphagia, which this patient does not have.",
+  "critique_links": [],
   "key_points": [
     "After secondary causes of eosinophilia are ruled out, patients with primary eosinophilic gastritis should be treated with dietary therapy using an empiric elimination diet, a six-food elimination diet, or an elemental diet."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:30.916777-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.353043-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 42-year-old man is evaluated in the emergency department after being found unconscious in a snowbank after a snowstorm. Upon arrival of emergency medical services, the patient was cold, unresponsive, and pulseless; cardiac monitoring showed organized bradycardia. Cardiopulmonary resuscitation (CPR) was initiated, intravenous epinephrine was given, and the patient was intubated. His medical history is unknown.On physical examination, temperature by esophageal probe is 27.1 °C (80.8 °F). The patient is unresponsive and pulseless with a junctional escape rhythm. No signs of trauma are noted.Warmed intravenous lactated Ringer solution is administered. Warming blankets, including those with forced-air warming, are applied. One minute later, cardiac monitor shows ventricular fibrillation. Defibrillation is unsuccessful, intravenous epinephrine is given, and CPR is resumed.",
+  "question_text": "A 42-year-old man is evaluated in the emergency department after being found unconscious in a snowbank after a snowstorm. Upon arrival of emergency medical services, the patient was cold, unresponsive, and pulseless; cardiac monitoring showed organized bradycardia. Cardiopulmonary resuscitation (CPR) was initiated, intravenous epinephrine was given, and the patient was intubated. His medical history is unknown.On physical examination, temperature by esophageal probe is 27.1 °C (80.8 °F). The patient is unresponsive and pulseless with a junctional escape rhythm. No signs of trauma are noted.Laboratory studies:Hematocrit52%HArterial blood gases (with ventilatory support):pH7.22LPco236 mm Hg (4.8 kPa)Po2110 mm Hg (14.6 kPa)HPotassium5.8 mEq/L (5.8 mmol/L)HGlucose88 mg/dL (4.9 mmol/L)Warmed intravenous lactated Ringer solution is administered. Warming blankets, including those with forced-air warming, are applied. One minute later, cardiac monitor shows ventricular fibrillation. Defibrillation is unsuccessful, intravenous epinephrine is given, and CPR is resumed.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management of this patient with severe hypothermia is peritoneal lavage with warmed saline (Option B). In patients with hypothermia, the primary goal is rewarming while providing supportive care. For those with hypothermia and core temperatures between 28.0 °C (82.4 °F) and 32.0 °C (89.6°F) not in cardiac arrest, active external warming methods, such as heating pads and forced-air warming systems, are usually sufficient, but more internal rewarming techniques may be necessary. In patients with severe hypothermia (defined by a core temperature <28.0 °C [82.4 °F]), external warming and warmed intravenous fluids should be supplemented with active internal warming, which can include peritoneal or thoracic lavage with warmed saline (42.0 °C [107.6 °F]). For hemodynamically unstable patients with severe hypothermia, extracorporeal rewarming (extracorporeal membrane oxygenation [ECMO] or cardiopulmonary bypass), if available, should be provided. ECMO provides active rewarming as well as circulatory and oxygenation support. During active rewarming, core temperature should be monitored with an esophageal probe because rectal and bladder temperatures will lag behind the rising core temperature during the rewarming process. In this patient with severe hypothermia, internal rewarming maneuvers are indicated.Defibrillation was unsuccessful in this patient, and until his core temperature begins to increase, further attempts at defibrillation (Option A) will likely be unsuccessful. Defibrillation should be attempted again when this patient's core temperature reaches greater than 30.0 °C (86.0 °F), if indicated.Termination of resuscitative efforts (Option C) would be premature in this patient with severe hypothermia. In a patient with severe hypothermia and cardiac arrest, it is reasonable to continue cardiopulmonary resuscitation until the patient can be rewarmed. Such patients may make a full recovery even after prolonged periods (hours) of CPR.In patients with severe hypothermia and cardiac arrest, active internal warming is indicated. Continuing current management of external warming and warmed intravenous fluids (Option D) without more aggressive internal measures is inadequate for this patient.",
+  "critique_links": [],
   "key_points": [
     "Aggressive internal rewarming such as peritoneal or thoracic lavage or, if available, extracorporeal support such as extracorporeal membrane oxygenation or cardiopulmonary bypass is recommended for patients with severe hypothermia.",
     "In patients with hypothermia undergoing active rewarming, core temperature should be monitored with an esophageal probe because rectal and bladder temperatures will lag behind the rising core temperature during the rewarming process."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:48.349415-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.397703-06:00"
 }

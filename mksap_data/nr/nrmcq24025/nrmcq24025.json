@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 34-year-old woman is evaluated for a 3-day history of progressive paresthesia of the bilateral upper extremities. She also reports mild left arm and leg weakness. Medical history is otherwise unremarkable, and she takes no medications.On physical examination, vital signs are normal. She has decreased temperature sensation in her left palm, right-sided dysesthesia to temperature sensation in the ventral forearm and palm, bilateral fingertip numbness, and left leg hyperreflexia. Strength is 5-/5 in the left arm and leg but is otherwise preserved.Cerebrospinal fluid oligoclonal band testing is negative.MRI of the cervical spine reveals a T2 signal abnormality in the left aspect of the spinal cord at the C3 to C4 level. MRIs of the brain and thoracic spine are normal.",
+  "question_text": "A 34-year-old woman is evaluated for a 3-day history of progressive paresthesia of the bilateral upper extremities. She also reports mild left arm and leg weakness. Medical history is otherwise unremarkable, and she takes no medications.On physical examination, vital signs are normal. She has decreased temperature sensation in her left palm, right-sided dysesthesia to temperature sensation in the ventral forearm and palm, bilateral fingertip numbness, and left leg hyperreflexia. Strength is 5-/5 in the left arm and leg but is otherwise preserved.Laboratory studies:C-reactive protein0.4 mg/dL (4.0 mg/L)Vitamin B12560 pg/mL (413 pmol/L)Cerebrospinal fluid studies:Leukocyte count8/μL (8 × 106/L) (77% lymphocytes, 23% monocytes)HGlucose68 mg/dL (3.8 mmol/L)Protein52 mg/dL (520 mg/L)Cerebrospinal fluid oligoclonal band testing is negative.MRI of the cervical spine reveals a T2 signal abnormality in the left aspect of the spinal cord at the C3 to C4 level. MRIs of the brain and thoracic spine are normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has transverse myelitis (TM) (Option D). TM can be idiopathic or secondary to multiple different disorders, most prominently including infection (e.g., HIV, Epstein-Barr virus), demyelinating conditions (e.g., multiple sclerosis, neuromyelitis optica spectrum disorder), vascular insults (e.g., spinal cord infarction), nutritional deficiency (e.g., vitamin B12, copper), and cord compression. Affected patients experience subacute weakness, sensory changes, and bladder or bowel dysfunction. Some patients also have an initial prodrome of back pain or a thoracic banding sensation. An enhancing cord lesion without extrinsic compression is seen on MRI (shown). Idiopathic TM (ITM) is a monophasic, inflammatory, and demyelinating disorder of the spinal cord that typically affects only one region of the spinal cord. The diagnostic criteria for ITM require the presence of clinical features of the syndrome, evidence of inflammation (either cerebrospinal fluid leukocytosis or contrast enhancement on spinal cord MRI), and exclusion of other potential causes. Complete myelitis (symptoms referable to complete rather than partial cord transection), lack of elevated oligoclonal bands or IgG index in the cerebrospinal fluid, and lack of other lesions on brain MRI all suggest ITM. This patient has a single spinal cord lesion and a physical examination consistent with TM. Nothing in her history or physical examination supports an alternative cause of TM; she likely has ITM but should undergo serologic testing for underlying causes.Although cervical stenosis is a common cause of cervical myelopathy, this patient's MRI does not show any area of severe narrowing to suggest that a compressive lesion is causing cervical spondylomyelopathy (Option A).The diagnosis of multiple sclerosis (Option B) requires dissemination of lesions in both space and time. This patient's MRIs show only one lesion; additional lesions in specific areas of the brain, as well as evidence of dissemination in time, would be necessary for a diagnosis of multiple sclerosis.Neuromyelitis optica spectrum disorder (NMOSD) (Option C) is characterized by longitudinally extensive demyelinating lesions in the spinal cord (≥3 segments), optic neuritis, area postrema syndrome, or acute brainstem syndrome. None of these are present in this patient, making a diagnosis of NMOSD unlikely.",
+  "critique_links": [],
   "key_points": [
     "Transverse myelitis can be idiopathic or secondary to various conditions; affected patients experience subacute weakness, sensory changes, and bladder or bowel dysfunction."
   ],
@@ -59,5 +60,32 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:16:57.110852-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "nrfig24201",
+        "file": "figures/nrfig24201.9ec105f40ff3e1b24da71ef1b0d47a16.jpg",
+        "title": "MRI Showing Transverse Myelitis",
+        "short_title": "MRI Showing Transverse Myelitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 735,
+        "height": 955
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.202696-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 64-year-old man is evaluated during a follow-up visit for stable angina. He has normal left ventricular function and no symptoms of heart failure. He wants to discontinue metoprolol because of adverse effects. Medical history is also significant for dyslipidemia, hypertension, coronary artery disease, and myocardial infarction. He underwent coronary artery bypass graft surgery 3 years ago. Medications are low-dose aspirin and maximum doses of lisinopril, metoprolol, isosorbide mononitrate, ranolazine, and atorvastatin.Vital signs and physical examination findings are normal.Metoprolol is switched to diltiazem.",
   "question_stem": "Which of the following is the most appropriate management of this patient's medication regimen?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is to decrease the dose of ranolazine (Option A). In patients with chronic coronary artery disease who started β-blocker therapy for a myocardial infarction and who do not have a history of or current left ventricular ejection fraction of 50% or less, angina, arrhythmias, or uncontrolled hypertension, it is reasonable to reassess indication for continued long-term (>1 year) β-blocker therapy for reducing adverse cardiovascular events. This patient with stable angina is being transitioned from metoprolol, a β-blocker, to diltiazem, a calcium channel blocker. He also takes several other antianginal therapies, notably ranolazine. Ranolazine decreases angina and modestly increases exercise times in patients with stable angina. Ranolazine is primarily metabolized by cytochrome P450 3A4 (CYP3A4); therefore, caution should be exercised when prescribing ranolazine with CYP3A4 inhibitors, which will result in significantly increased plasma levels of ranolazine. Ranolazine should not be used with strong CYP3A4 inhibitors or inducers, such as rifampin, carbamazepine, ketoconazole, clarithromycin, and ritonavir. With moderate CYP3A4 inhibitors, including verapamil and diltiazem, the dose should be decreased by 50% and should not exceed 500 mg twice daily. Ranolazine also has a modest QT-prolonging effect, but no proarrhythmic effect has been directly attributed to ranolazine.The addition of diltiazem to this patient's medication regimen does not require increasing the dosage of atorvastatin (Option B). Diltiazem can result in increased levels of atorvastatin, which is a CYP3A4 substrate. This may, in turn, increase the risk for adverse effects; however, clinical monitoring, not dosage adjustment, is recommended.No significant drug-drug interactions exist between lisinopril and diltiazem that would warrant switching to another ACE inhibitor, such as ramipril (Option C).Not adjusting this patient's medication regimen (Option D) would result in excessive plasma levels of ranolazine and is not an acceptable option.",
+  "critique_links": [],
   "key_points": [
     "Ranolazine decreases symptoms of angina and modestly increases exercise times in patients with stable angina; it should not be used with strong cytochrome P450 3A4 (CYP3A) inhibitors or inducers, and the dose should be reduced when used in conjunction with moderate CYP3A inhibitors, such as diltiazem and verapamil."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.752304-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:26.779558-06:00"
 }

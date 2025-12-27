@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 54-year-old woman is evaluated for daily fatigue, decreased appetite, and lack of enjoyment in her usual life activities during the past several months. She has end-stage kidney disease due to hypertension and for the last 5 years has attended all hemodialysis sessions, maintained her job, and exceeded her monthly dialysis clearance targets. Her arteriovenous fistula is well functioning. She has not had any recent life or medication changes. She previously enjoyed a fitness class but has stopped attending. She spends most of each weekend sleeping. She feels sad and wonders if she should stop dialysis. Medications are amlodipine, lisinopril, metoprolol, sevelamer carbonate, calcitriol, and erythropoietin.Physical examination findings, including vital signs, are unremarkable.",
+  "question_text": "A 54-year-old woman is evaluated for daily fatigue, decreased appetite, and lack of enjoyment in her usual life activities during the past several months. She has end-stage kidney disease due to hypertension and for the last 5 years has attended all hemodialysis sessions, maintained her job, and exceeded her monthly dialysis clearance targets. Her arteriovenous fistula is well functioning. She has not had any recent life or medication changes. She previously enjoyed a fitness class but has stopped attending. She spends most of each weekend sleeping. She feels sad and wonders if she should stop dialysis. Medications are amlodipine, lisinopril, metoprolol, sevelamer carbonate, calcitriol, and erythropoietin.Physical examination findings, including vital signs, are unremarkable.Laboratory studies:Hemoglobin10.5 g/dL (105 g/L)LCalcium8.2 mg/dL (2.1 mmol/L)LPotassium4.7 mEq/L (4.7 mmol/L)Bicarbonate24 mEq/L (24 mmol/L)Phosphorus4.2 mg/dL (1.36 mmol/L)Parathyroid hormone65 pg/mL (65 ng/L)",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is to initiate a trial of sertraline (Option D). Patients with chronic kidney disease (CKD) and end-stage kidney disease (ESKD) are more likely to have mood disorders, with an estimated prevalence of 20% to 30% for depression and 12% to 52% for anxiety. Contributing factors may include illness burden and psychosocial factors such as diminished social support. It is important to recognize the high prevalence of mood disorders among patients with ESKD, such that treatment, including behavioral therapy and/or pharmacotherapy, can be initiated. This patient attends all dialysis sessions, exceeds her monthly dialysis clearance targets, has good metabolic and volume control, and continues to work. Despite these successes, she report anhedonia, sadness, hypersomnia, decreased appetite, and fatigue. Her persistent symptoms meet DSM-5 criteria for depression, and addition of a selective serotonin reuptake inhibitor (SSRI), such as sertraline, is appropriate. Data are mixed on the relative efficacy of SSRIs in patients receiving dialysis, and these patients may be at increased risk for gastrointestinal adverse effects. Therefore, a trial period with observation for efficacy and tolerance is indicated.Increasing this patient's dose of erythropoietin (Option A) is inappropriate because her hemoglobin is in the target range of 10 to 11 g/dL (100-110 g/L). Randomized controlled trials demonstrated either no benefit or an increased risk for cardiovascular events and stroke in groups assigned to higher hemoglobin targets using erythropoiesis-stimulating agents (ESAs). Furthermore, these trials revealed only modest improvements in fatigue and no benefit in physical functioning with higher hemoglobin targets. Thus, ESAs are recommended only for patients with CKD who have hemoglobin concentrations <10 g/dL (100 g/L). An FDA boxed warning for ESAs includes an increased risk for serious cardiovascular events when administered to patients with CKD who have hemoglobin levels >11 g/dL (110 g/L).Referring this patient to hospice (Option B) is inappropriate at this time. Although some patients rationally decide to withdraw from dialysis in favor of hospice care, this process requires thoughtful discussion as well as evaluation for reversible depression before pursuing this course.Difelikefalin (Option C), a kappa-opioid receptor agonist, is indicated for uremic pruritus and unnecessary for this patient. Patients with ESKD may suffer from several conditions, including pruritus, sleep apnea, and restless leg syndrome, that adversely affect quality of life. Patients should be questioned regarding these conditions so they can be treated. This patient does not have uremic pruritis.",
+  "critique_links": [],
   "key_points": [
     "There is a high prevalence of depression and anxiety among patients with end-stage kidney disease; treatment options such as behavioral therapy or selective serotonin reuptake inhibitors should be used when appropriate."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:06.761535-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.825092-06:00"
 }

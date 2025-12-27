@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 63-year-old woman is evaluated during a follow-up visit for stage G4 chronic kidney disease (CKD). She has a diminished appetite but no other symptoms. Four months ago, anemia was discovered and attributed to her CKD. Medical history is also significant for hypertension, hyperlipidemia, and type 2 diabetes mellitus. Medications are atorvastatin, empagliflozin, insulin, metolazone, sevelamer, furosemide, hydralazine, and nifedipine.On physical examination, vital signs are normal. There is a mature arteriovenous fistula with a thrill. The remainder of the examination is normal.Laboratory studies:Hemoglobin10.5 g/dL (105 g/L)LPotassium4.7 mEq/L (4.2 mmol/L)Bicarbonate17 mEq/L (17 mmol/L)LCreatinine2.6 mg/dL (291.7 µmol/L)HEstimated glomerular filtration rate20 mL/min/1.73 m2",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment for this patient with stage G4 chronic kidney disease (CKD) and metabolic acidosis is sodium bicarbonate supplementation (Option E). Defective acid excretion in CKD frequently leads to metabolic acidosis, and untreated metabolic acidosis may cause muscle and bone loss. To avoid complications of metabolic acidosis, KDIGO guidelines recommend alkali therapy when serum bicarbonate is <18 mEq/L (18 mmol/L). Alkali therapy should be titrated to achieve a serum bicarbonate level between 18 mEq/L (18 mmol/L) and the upper limit of the normal range. Bicarbonate can be given as sodium bicarbonate tablets, as a powder (including in the form of baking soda), or through a diet rich in fruit and vegetables that are endogenous alkali sources.Treatment of anemia with erythropoietin-stimulating agents (ESAs) (Option A) is generally not advised for people with CKD and hemoglobin values >10 g/dL (100 g/L). Although treatment with ESAs may limit the need for blood transfusions in people with advanced CKD and severe anemia, ESAs may be associated with increased risks for thromboembolic events and serious cardiovascular events such as stroke. When ESA therapy is contemplated, shared decision making with the patient about the potential risks and benefits is appropriate.Hemodialysis (Option B) is not appropriate for this patient with stage G4 CKD. Medical management is continued for such patients until dialysis initiation becomes indicated upon progression to stage G5 and development of uremic symptoms, hyperkalemia, metabolic acidosis, or volume overload refractory to medical management. There is no benefit in starting hemodialysis in asymptomatic patients or at a specific eGFR cutoff compared with watchful waiting.A high-protein diet (Option C) is a source of the daily acid load and would worsen, rather than improve, this patient's metabolic acidosis. The Kidney Disease Outcomes Quality Initiative nutrition guidelines suggest a low-protein diet with close clinical supervision for patients who are metabolically stable with stages G3 to G5 CKD.Patiromer (Option D) is an oral potassium-binding resin used to treat hyperkalemia, a common complication of advanced CKD. This patient, however, does not have hyperkalemia.",
+  "critique_links": [],
   "key_points": [
     "Metabolic acidosis in patients with chronic kidney disease should be treated with alkali therapy when serum bicarbonate levels are <18 mEq/L (18 mmol/L)."
   ],
@@ -55,10 +56,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:48:56.293877-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.552914-06:00"
 }

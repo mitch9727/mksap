@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 52-year-old woman is evaluated for a new-onset rash 5 days after taking amoxicillin. She has no other symptoms and there is no mucosal involvement.Representative findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is morbilliform (meaning measles-like) drug eruption (Option B), which is characterized by symmetrically arranged erythematous macules and papules, including both discrete and confluent lesions. It typically involves the trunk and spreads to the limbs but spares the palms and soles. It represents a type IV delayed hypersensitivity reaction and usually occurs during the first or second week of exposure to an offending drug. This reaction classically appears with the use of ampicillin or amoxicillin in patients with mononucleosis.Fixed drug reactions are typically circinate plaques with more limited involvement than seen in this patient (typically the lips, genitals, face, or fingers). Photosensitive drug reactions tend to be limited to sun-exposed areas. Although Stevens-Johnson syndrome may start as an erythematous macular rash on the trunk, the lack of systemic symptoms or mucocutaneous involvement makes this diagnosis unlikely.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24644.f74604c505d2304401b7f027ee5f1e62.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.891909-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24644",
+        "file": "figures/dmfig24644.f74604c505d2304401b7f027ee5f1e62.jpg",
+        "title": "Morbilliform Drug Reaction",
+        "short_title": "stem Morbilliform Drug Reaction",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 344
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.433421-06:00"
 }

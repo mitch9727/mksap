@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 42-year-old patient is evaluated in the hospital for acute myeloid leukemia with high-risk cytogenetic and molecular features. They recently completed induction chemotherapy. The treatment course was complicated by prolonged neutropenic fever requiring antibiotics and frequent platelet and erythrocyte transfusions. They are now afebrile, and they no longer require antibiotics or transfusions. Medical history is unremarkable, and their only medication is acyclovir.On physical examination, vital signs are normal. A tunneled central venous catheter is in place.Bone marrow aspiration and biopsy show no blasts by flow cytometry and morphology.",
+  "question_text": "A 42-year-old patient is evaluated in the hospital for acute myeloid leukemia with high-risk cytogenetic and molecular features. They recently completed induction chemotherapy. The treatment course was complicated by prolonged neutropenic fever requiring antibiotics and frequent platelet and erythrocyte transfusions. They are now afebrile, and they no longer require antibiotics or transfusions. Medical history is unremarkable, and their only medication is acyclovir.On physical examination, vital signs are normal. A tunneled central venous catheter is in place.Laboratory studies:Hemoglobin8.6 g/dL (86 g/L)LLeukocyte count3000/µL (3.0 × 109/L)LAbsolute neutrophil count1400/µL (1.40 × 109/L)LPlatelet count233,000/µL (233 × 109/L)Bone marrow aspiration and biopsy show no blasts by flow cytometry and morphology.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient with high-risk acute myeloid leukemia (AML) is allogeneic hematopoietic stem cell transplantation (HSCT) (Option A). AML is curable in 40% of adult patients aged 60 years or younger, although the cure rate decreases to 5% to 15% in adults with comorbidities. Initial treatment for AML usually consists of induction therapy, most commonly with an anthracycline and cytarabine, with the goal of bone marrow ablation. A complete response is achieved in 60% to 85% of patients younger than 60 years. Consolidation therapy for responders consists of additional cycles of conventional chemotherapy in patients at low risk of relapse and allogeneic HSCT for patients at high risk. Allogeneic HSCT is recommended for patients with AML with clinical (therapy-related AML) or cytogenetic and molecular features (FLT3-ITD identification) suggesting a high likelihood for relapse and for younger patients with a lack of comorbidities. Complications of allogeneic HSCT include graft-versus-host disease, prolonged bone marrow suppression, and prolonged immunosuppression. However, allogeneic HSCT offers the highest chance for cure. This patient's high-risk AML, age, lack of comorbidities, and complete remission demonstrated by bone marrow aspiration and biopsy after induction support allogeneic HSCT as the next most appropriate treatment step.Consolidation chemotherapy (Option B) would be indicated in patients with low-risk AML or those unlikely to tolerate HSCT. Low risk AML includes patients without genetic variants or with select variants (e.g., NPM1-altered AML) that are associated with an improved prognosis. This otherwise healthy patient has high-risk AML and should undergo allogenic HSCT during their first complete remission.Reinduction chemotherapy (Option C) is generally performed if the patient has persistent disease, often defined as greater than 5% blasts in the bone marrow. This patient had a complete response to induction therapy, and a second induction is not necessary.Supportive care (Option D), including blood transfusions, antibiotics, and intravenous fluids, should be administered as part of any treatment for patients with AML. Supportive care alone may be appropriate in patients who are not candidates for further aggressive treatments, but this patient is otherwise healthy and should undergo HSCT.",
+  "critique_links": [],
   "key_points": [
     "Allogeneic hematopoietic stem cell transplantation is indicated in patients with acute myeloid leukemia who have clinical or cytogenetic and molecular markers associated with a high risk for relapse and who are young and healthy enough to survive transplantation.",
     "Acute myeloid leukemia is curable in 40% of adult patients aged 60 years and younger, although the cure rate decreases to 5% to 15% in those with comorbidities."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:36:56.981215-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.961978-06:00"
 }

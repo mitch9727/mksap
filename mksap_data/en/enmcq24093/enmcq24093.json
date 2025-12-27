@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 20-year-old man is evaluated for a 6-month history of fatigue, low libido, erectile dysfunction, decreased exercise tolerance, and depressed mood. He also notes that he has recently started having headaches; he reports no visual changes. Medical history is otherwise unremarkable, and he takes no medications.On physical examination, vital signs are normal. Muscle mass is slightly decreased. Mild gynecomastia is observed. Testicular volume is 14 mL bilaterally (normal range, 15-25 mL). The testes have a soft consistency, and no masses are palpated. The phallus is normal. He has scant pubic hair.An 8 am serum total testosterone level is low. Further evaluation is performed as follows:Laboratory studies:Hematocrit43%Ferritin130 ng/mL (130 μg/L)Follicle-stimulating hormone2 mU/mL (2 U/L)LLuteinizing hormone1 mU/mL (1 U/L)LProlactin300 ng/mL (300 μg/L)H8 am testosterone, total (second measurement)80 ng/dL (2.8 nmol/L)L",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is to obtain a pituitary MRI (Option D). Endocrine Society practice guidelines from 2018 recommend pituitary imaging in men who present with any of the following:Severe secondary hypogonadism (serum total testosterone level <150 ng/dL [5.2 nmol/L])Signs or symptoms of mass effect (new-onset headache, visual impairment, or visual field defects)Persistent hyperprolactinemiaPanhypopituitarismThese symptoms and signs should raise concern for a prolactin-secreting pituitary adenoma. Hyperprolactinemia is a common cause of acquired secondary hypogonadism. Elevated prolactin concentrations inhibit the secretion of gonadotropin-releasing hormone from the hypothalamus; this reduces secretion of gonadotropins (luteinizing hormone [LH] and follicle-stimulating hormone [FSH]), which, in turn, causes decreased testosterone secretion. Prolactin elevation may also inhibit the action of gonadotropins at the gonads. This patient presents with severe secondary hypogonadism, headaches, and a very elevated serum prolactin level; he should be further evaluated for a prolactin-secreting pituitary adenoma with MRI.Hemochromatosis is a common cause of secondary hypogonadism. Testing for an HFE gene variant (Option A) is recommended when hemochromatosis is suspected and a patient's serum ferritin level and transferrin saturation are elevated. This patient has a normal ferritin level and transferrin saturation; hemochromatosis is unlikely.Starting testosterone replacement therapy, such as intramuscular testosterone cypionate (Option B), is not recommended before determining the cause of hypogonadism. If this patient has a prolactin-secreting pituitary adenoma, dopamine agonist therapy to lower his prolactin level would likely correct the hypogonadism, and testosterone replacement therapy would not be indicated.Klinefelter syndrome (47,XXY) is the most common congenital cause of primary hypogonadism and is diagnosed with karyotyping (Option C). It is associated with tall stature, small testes, developmental delays, and socialization difficulties. A patient with Klinefelter syndrome would have elevated serum LH and FSH levels in the setting of a low serum total testosterone level. This patient's low LH and FSH levels and lack of typical features rule out Klinefelter syndrome.",
+  "critique_links": [],
   "key_points": [
     "Endocrine Society practice guidelines recommend obtaining pituitary imaging in men who present with severe secondary hypogonadism (serum total testosterone level <150 ng/dL [5.2 nmol/L]), signs or symptoms of mass effect (new-onset headache, visual impairment, or visual field defects), persistent hyperprolactinemia, or panhypopituitarism."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.256827-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.315972-06:00"
 }

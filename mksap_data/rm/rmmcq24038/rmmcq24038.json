@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 25-year-old woman is evaluated for a 1-year history of Raynaud phenomenon and arthralgias. She reports increased fatigue. She has not experienced dry eyes or dry mouth. She has no medical problems and takes no medications.Vital signs and physical examination findings are normal.A complete blood count, comprehensive metabolic profile, erythrocyte sedimentation rate, C-reactive protein, and complement levels are normal.Results of Schirmer test are normal.Radiographs of the hands are normal.",
+  "question_text": "A 25-year-old woman is evaluated for a 1-year history of Raynaud phenomenon and arthralgias. She reports increased fatigue. She has not experienced dry eyes or dry mouth. She has no medical problems and takes no medications.Vital signs and physical examination findings are normal.A complete blood count, comprehensive metabolic profile, erythrocyte sedimentation rate, C-reactive protein, and complement levels are normal.Additional laboratory studies:Rheumatoid factorNegativeAnti-centromere antibodiesNegativeAnti–cyclic citrullinated peptide antibodiesNegativeAntinuclear antibodies1:160HAnti-Ro/SSA antibodies>8 U/L (normal, <1 U/L)HAnti-La/SSB antibodiesNegativeAnti–U1-ribonuclear protein antibodiesNegativeAnti-RNA polymerase III antibodiesNegativeAnti–Scl-70 antibodiesNegativeAnti-Smith antibodiesNegativeAnti–double stranded DNA antibodiesNegativeResults of Schirmer test are normal.Radiographs of the hands are normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is undifferentiated connective tissue disease (UCTD) (Option E). Most patients with rheumatologic disease have well-established and well-classified diagnoses. However, some patients present with signs and symptoms that are autoimmune in nature but do not rise to the level of a specific rheumatologic condition. These patients have UCTD. Clinical features of UCTD vary but most commonly include Raynaud phenomenon; persistent inflammatory arthritis/arthralgia unexplained by other diagnoses, skin rashes, cytopenias, and serositis may also be present. Patients with UCTD often have positivity for antinuclear antibodies (ANA) (titer >1:80). This patient has new-onset Raynaud phenomenon, arthralgia, and positive ANA and anti-Ro/SSA antibody titers. However, she does not have other findings of inflammatory disease (inflammatory arthritis, skin rash, xerostomia, or xerophthalmia). Her laboratory results do not support an active inflammatory process, and the Schirmer test result is normal. Raynaud phenomenon, arthralgia, and positive ANA and anti-Ro/SSA antibody titers do not support the diagnosis of a defined connective tissue disease and are instead consistent with UCTD. UCTD usually remains mild and stable; however, patients with UCTD require monitoring because a minority of patients may develop a more specific autoimmune disorder, most commonly systemic lupus erythematosus. Most patients with UCTD who develop a more specific disease do so within the first 2 to 5 years after presentation.Limited cutaneous systemic sclerosis (Option A) is a systemic fibrosing illness associated with Raynaud phenomenon, sclerodactyly, finger ulcerations, skin thickening, and esophageal dysmotility. ANA and anticentromere antibody titers are frequently positive. Other than Raynaud phenomenon, this patient lacks the clinical and serologic features of limited cutaneous systemic sclerosis.Mixed connective tissue disease (MCTD) (Option B) is an overlap syndrome that fulfills the diagnostic criteria of two of the following: systemic sclerosis, systemic lupus erythematosus, rheumatoid arthritis, and/or inflammatory myositis. Although she has Raynaud phenomenon and arthralgias, this patient lacks other clinical features of MCTD, such as puffy fingers, inflammatory arthritis, and muscle weakness, and positivity for anti–U1-ribonucleoprotein antibodies.Sjögren disease (Option C) is associated with a positive anti-Ro/SSA antibody titer, but this patient does not have xerostomia, xerophthalmia, or other inflammatory findings. Result of the Schirmer test, which objectively tests tear production, is normal. Ongoing periodic follow-up to ensure she does not develop additional clinical features consistent with the diagnosis is essential.Systemic lupus erythematosus (SLE) (Option D) is a multisystem disease associated with photosensitive rashes, inflammatory arthritis, serositis, and kidney disease, along with cytopenia, low complement levels, proteinuria, positivity for ANA, and SLE-specific antibodies: anti–double-stranded DNA and anti-Smith antibodies. This patient does not have clinical and serologic features that support a diagnosis of SLE.",
+  "critique_links": [],
   "key_points": [
     "Patients with undifferentiated connective tissue disease have signs and symptoms that are autoimmune in nature but do not rise to the level of a specific rheumatologic disease."
   ],
@@ -62,5 +63,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:46:55.869441-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Additional laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.697947-06:00"
 }

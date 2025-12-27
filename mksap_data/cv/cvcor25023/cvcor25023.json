@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 65-year-old man is evaluated in the hospital for 3 hours of persistent severe central chest pressure. He was hospitalized with a 2-day history of episodic chest discomfort and dyspnea occurring at rest and with exertion.On physical examination, blood pressure is 155/90 mm Hg, pulse rate is 90/min, respiration rate is 20/min, and oxygen saturation is 93% with the patient breathing ambient air. BMI is 29. An S4 is present, but the remainder of the cardiac examination is normal.High-sensitivity cardiac troponin level is elevated (>99th percentile upper reference limit).An ECG is shown.He is given aspirin, clopidogrel, intravenous unfractionated heparin, and a nitroglycerin infusion. His chest pain improves temporarily but returns despite nitroglycerin infusion and morphine.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Urgent or immediate angiography (Option B) with intent to perform revascularization is indicated in this patient with angina refractory to appropriate medical therapy. All patients presenting with acute coronary syndrome (ACS) should immediately receive antithrombotic therapy (antiplatelet agents and anticoagulants), therapy to relieve symptoms (nitrates), and supplemental oxygen if hypoxemia is present. Patients with ST-elevation myocardial infarction require immediate coronary angiography and percutaneous coronary intervention (PCI), or thrombolytic therapy if PCI is not available. Stable patients with non–ST-elevation ACS (NSTE-ACS) should undergo clinical assessment and calculation of risk scores, such as the TIMI and GRACE risk models (see Table: TIMI Risk Score for Non–ST-Elevation ACS), to help determine the need for and timing of invasive assessment and treatment. Patients with intermediate risk scores should have catheterization within 24 to 72 hours of presentation, and patients at high risk should undergo catheterization within 24 hours. Regardless of risk score, however, patients with NSTE-ACS and hemodynamic instability, ventricular arrhythmias, or refractory chest pain require immediate (within 2 hours) coronary angiography with intent to revascularize. This patient's presentation strongly suggests NSTE-ACS given his history, physical examination findings, ischemic ECG changes, and troponin level. Because his chest pain is refractory to nitrate and morphine therapy, urgent coronary artery catheterization is the most appropriate next step.Routine oxygen therapy with high-flow supplemental oxygen (Option A) has been shown to provide no benefit in ACS and may increase adverse events in the absence of hypoxemia. Guidelines recommend against oxygen administration in patients with ACS and oxygen saturation greater than 90% to 92%.Thrombolytic therapy with a medication such as tenecteplase (Option C) has no benefit in patients with NSTE-ACS and is not recommended.In the ischemia-guided treatment approach, patients undergo noninvasive stress testing (Option D) with left ventricular function assessment before hospital discharge. Cardiac catheterization is indicated for patients with ischemia on noninvasive testing. This is appropriate in low-risk patients who respond to initial medical therapy; however, it is not appropriate in this patient with an indication for urgent coronary catheterization.",
+  "critique_links": [],
   "key_points": [
     "Urgent diagnostic angiography with intent to perform revascularization is indicated in patients with non–ST-elevation acute coronary syndrome who have refractory angina or hemodynamic or electrical instability."
   ],
@@ -50,10 +51,48 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
-    "images": [],
+    "tables": [
+      "tables/cvtab24017.html"
+    ],
+    "images": [
+      "figures/cvfig25705.839f84c13cb77c46caacb20e8561ed66.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.852780-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig25705",
+        "file": "figures/cvfig25705.839f84c13cb77c46caacb20e8561ed66.jpg",
+        "title": "ECG in a Patient With Acute Coronary Syndrome",
+        "short_title": "ECG in a Patient With Acute Coronary Syndrome",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 488,
+        "height": 420
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "cvtab24017",
+        "file": "tables/cvtab24017.html",
+        "title": "TIMI Risk Score for Non–ST-Elevation Acute Coronary Syndromes",
+        "short_title": "TIMI Risk Score for Non–ST-Elevation ACS",
+        "footnotes": [
+          "CAD = coronary artery disease; TIMI = Thrombolysis in Myocardial Infarction.",
+          "<sup>a</sup>Hypertension, hypercholesterolemia, diabetes mellitus, being a current smoker, family history of CAD.",
+          "Information from Antman EM, Cohen M, Bernink PJ, et al. The TIMI risk score for unstable angina/non-ST elevation MI: a method for prognostication and therapeutic decision making. JAMA. 2000;284:835-42. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/10938172\" target=\"_blank\">PMID: 10938172</a> doi:10.1001/jama.284.7.835"
+        ],
+        "headers": [
+          "Prognostic Variables (1 Point Each)",
+          "TIMI Risk Score (Sum of Prognostic Variables)"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.342684-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 59-year-old man undergoes a comprehensive ophthalmologic examination after a recent diagnosis of type 2 diabetes mellitus.Funduscopic findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The patient has proliferative diabetic retinopathy (Option D). The funduscopic image shows neovascularization, cotton-wool spots, and retinal hemorrhage. Pre-proliferative retinopathy is manifested by cotton-wool spots, which indicate retinal infarcts. This ischemia eventually provides a stimulus for the growth of new blood vessels (neovascularization). The vessels that form are abnormal in both appearance and structure and are prone to hemorrhage. In proliferative retinopathy, blood vessel fragility can lead to significant retinal and vitreous hemorrhage. Edema of the retina may also occur. Panretinal laser photocoagulation delivers 1000 to 2000 small burns to the periphery of the retina, which results in the avascular scarring and shriveling of new vessels, as shown.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/enfig24606.1c3ab32a2eec9a517093c840b493350f.jpg",
-      "figures/enfig24605.e9bb5328b2e4e51fee111bafa5660f16.jpg"
+      "figures/enfig24605.e9bb5328b2e4e51fee111bafa5660f16.jpg",
+      "figures/enfig24606.1c3ab32a2eec9a517093c840b493350f.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:16.932768-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "enfig24605",
+        "file": "figures/enfig24605.e9bb5328b2e4e51fee111bafa5660f16.jpg",
+        "title": "Funduscopic Findings of Diabetic Retinopathy",
+        "short_title": "stem Funduscopic Findings of Diabetic Retinopathy",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 612
+      },
+      {
+        "figure_id": "enfig24606",
+        "file": "figures/enfig24606.1c3ab32a2eec9a517093c840b493350f.jpg",
+        "title": "Funduscopic Findings After Laser Photocoagulation",
+        "short_title": "critique Funduscopic Findings After Laser Photocoagulation",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 895
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.419836-06:00"
 }

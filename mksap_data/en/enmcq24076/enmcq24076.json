@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 68-year-old man is evaluated for abnormal thyroid function test results. Over the past 2 months, he has had decreased appetite, a 9.1-kg (20.0 lb) weight loss, loss of interest, and fatigue. Medical history is significant for chronic persistent atrial fibrillation, diagnosed 3 years ago, and hypertension. Medications are apixaban, metoprolol, amiodarone, and lisinopril.On physical examination, pulse rate is 101/min and irregular; remaining vital signs are normal. BMI is 19. No exophthalmos is noted. The thyroid gland is palpable, nontender, and has no nodules. The patient exhibits bilateral hand tremors. Mood is depressed.",
+  "question_text": "A 68-year-old man is evaluated for abnormal thyroid function test results. Over the past 2 months, he has had decreased appetite, a 9.1-kg (20.0 lb) weight loss, loss of interest, and fatigue. Medical history is significant for chronic persistent atrial fibrillation, diagnosed 3 years ago, and hypertension. Medications are apixaban, metoprolol, amiodarone, and lisinopril.On physical examination, pulse rate is 101/min and irregular; remaining vital signs are normal. BMI is 19. No exophthalmos is noted. The thyroid gland is palpable, nontender, and has no nodules. The patient exhibits bilateral hand tremors. Mood is depressed.Laboratory studies:Thyroid-stimulating hormone0.01 μU/mL (0.01 mU/L)LFree thyroxine3.9 ng/dL (50 pmol/L)HTotal triiodothyronine225 ng/dL (3.5 nmol/L)HThyrotropin receptor antibodyNegative",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "This patient has apathetic thyrotoxicosis due to amiodarone, and the most appropriate next step in management is to perform thyroid Doppler ultrasonography (Option C). Five percent of patients taking amiodarone develop thyrotoxicosis. Amiodarone can cause thyrotoxicosis through two mechanisms: increased thyroid hormone production (type 1 amiodarone-induced thyrotoxicosis [AIT]) and thyroid tissue destruction (type 2 AIT). Patients with underlying thyroid disorders, such as Graves disease or multinodular goiter, are at increased risk for type 1 AIT, which usually occurs within a few months after amiodarone therapy is initiated. Type 2 AIT is thought to be the result of a direct toxic effect of amiodarone and can occur years after amiodarone initiation or even after the medication is discontinued. Differentiating between these two types is critical because they are managed differently. Thyroid ultrasound with Doppler studies helps distinguish these types by showing increased vascularity with type 1 and decreased vascularity with type 2. Based on the timing of symptoms in the absence of Graves disease or thyroid nodules, this patient most likely has type 2 AIT. A thyroid ultrasound to confirm the diagnosis is the most appropriate next step.Type 1 AIT is primarily managed by decreasing thyroid hormone synthesis with a thionamide, such as methimazole (Option A); type 2 AIT is treated with glucocorticoid therapy, such as prednisone (Option B). Before initiating treatment, further evaluation with thyroid ultrasonography is needed to determine the type of AIT and appropriate therapy.Thyroid peroxidase (TPO) antibodies (Option D) are present in autoimmune thyroid diseases, especially Hashimoto thyroiditis. However, measurement of TPO antibodies does not help to distinguish between causes of thyrotoxicosis.Thyroid scintigraphy is unreliable in patients taking amiodarone because the high iodine content of the drug leads to low thyroidal uptake of radioactive iodine. Therefore, thyroid scintigraphy with radioiodine uptake (Option E) would not reliably distinguish between type 1 and type 2 AIT in this patient.",
+  "critique_links": [],
   "key_points": [
     "Amiodarone contains high concentrations of iodine and can cause thyrotoxicosis through two mechanisms: increased thyroid hormone production (type 1 amiodarone-induced thyrotoxicosis [AIT]) and thyroid tissue destruction (type 2 AIT).",
     "A thyroid ultrasound can be used to differentiate type 1 and type 2 AIT; patients with type 1 AIT will show increased vascularity, whereas patients with type 2 AIT will show decreased vascularity."
@@ -63,5 +64,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:57.595024-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.260461-06:00"
 }

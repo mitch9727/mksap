@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 39-year-old man is evaluated for pain and swelling of the left lower leg of 1 week's duration. He reports no trauma, chest pain, or shortness of breath. He is otherwise healthy and takes no medications.On physical examination, vital signs are normal. Swelling of the distal left lower extremity is present with pitting edema to the knee and tenderness over the popliteal vein. The left calf is 5 cm larger than the right.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate diagnostic test in this patient with a possible deep venous thrombosis (DVT) is ultrasonography of the lower extremity (Option D). DVT typically presents with unilateral swelling, pain, warmth, and erythema of the extremity. The pretest probability of DVT should drive the testing strategy. The Wells criteria for DVT is a well-studied clinical probability tool that is commonly used to determine pretest probability (Table: Wells Criteria for DVT). Using the dichotomous scoring system, a Wells score greater than or equal to 2 indicates a likely DVT and makes ultrasonography the most appropriate test, because D-dimer testing is insufficient to rule out the diagnosis in patients with a high probability of DVT. Conversely, a Wells score of zero to 1 makes DVT unlikely, allowing for D-dimer testing as the most appropriate initial test. This patient has a Wells score of 3 based on the presence of left calf swelling of ≥3 cm greater than the right leg (5 cm), tenderness over a deep vein, and unilateral pitting edema. Considering this patient's high pretest probability for DVT, ultrasonography should be performed.CT angiography (CTA) of the chest (Option A) may be considered in patients with signs or symptoms of a DVT when concurrent pulmonary embolism (PE) is a concern. This patient reports no chest pain, shortness of breath, or other symptoms suggesting PE. CTA is not indicated.D-dimer measurement (Option B) is indicated in patients with an unlikely probability of DVT as determined by the dichotomous Wells score. If the D-dimer result is negative in such patients, no further testing is necessary. If the D-dimer result is positive or elevated in a patient with an unlikely clinical probability, ultrasonography should be performed. However, for patients with high probability of DVT, a negative D-dimer result is insufficient to exclude the diagnosis of DVT. This patient has a high probability of DVT based on his Wells score, and D-dimer testing is not appropriate.Ibuprofen and warm compresses without additional testing (Option C) is not appropriate in this patient with possible DVT. Although symptomatic treatment is often appropriate for superficial venous thrombosis, this patient likely has DVT, and ultrasonography of the lower extremity should be performed.",
+  "critique_links": [],
   "key_points": [
     "In patients with a high pretest probability of deep venous thrombosis (DVT) by the Wells score, lower extremity ultrasonography should be performed as the first test.",
     "In patients with a low pretest probability of DVT by the Wells score, D-dimer testing is recommended; the combination of a low clinical probability and negative D-dimer result excludes the diagnosis of DVT."
@@ -51,10 +52,35 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/hmtab24043.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:44:24.293536-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "hmtab24043",
+        "file": "tables/hmtab24043.html",
+        "title": "Wells Criteria for Deep Venous Thrombosis",
+        "short_title": "Wells Criteria for DVT",
+        "footnotes": [
+          "Scoring systems:",
+          "Dichotomous scoring: 0-1 points = deep venous thrombosis (DVT) unlikely; ≥2 points = DVT likely.",
+          "Three-level scoring: -2 to 0 points = low probability; 1-2 points = intermediate probability; ≥3 points = high probability.",
+          "Reprinted from Wells PS, Anderson DR, Rodger M, Forgie M, Kearon C, Dreyer J, et al. Evaluation of D-dimer in the diagnosis of suspected deep-vein thrombosis. N Engl J Med. 2003;349:1227-35. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/14507948\" target=\"_blank\">PMID: 14507948</a> doi:10.1056/NEJMoa023153. Copyright © 2003 Massachusetts Medical Society. Reprinted with permission from Massachusetts Medical Society."
+        ],
+        "headers": [
+          "Clinical Characteristic",
+          "Points"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.817289-06:00"
 }

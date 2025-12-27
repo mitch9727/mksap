@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 62-year-old woman is evaluated for a 3-month history of acne, voice deepening, widespread dark hair growth, and scalp hair loss. Menopause occurred at age 50 years, and she has not had postmenopausal bleeding. Medical history is otherwise unremarkable, and she takes no medications.On physical examination, vital signs are normal. She has hair loss that is most pronounced over the temples. Acne is observed over the face, chest, and back. There are thick, dark terminal hairs over her upper lip, chin, chest, abdomen, arms, thighs, and back. Genital examination reveals clitoromegaly.A transvaginal ultrasound is unremarkable.",
+  "question_text": "A 62-year-old woman is evaluated for a 3-month history of acne, voice deepening, widespread dark hair growth, and scalp hair loss. Menopause occurred at age 50 years, and she has not had postmenopausal bleeding. Medical history is otherwise unremarkable, and she takes no medications.On physical examination, vital signs are normal. She has hair loss that is most pronounced over the temples. Acne is observed over the face, chest, and back. There are thick, dark terminal hairs over her upper lip, chin, chest, abdomen, arms, thighs, and back. Genital examination reveals clitoromegaly.Laboratory studies:Overnight low-dose (1-mg) dexamethasone suppression test (LDST)8 am cortisol, total1.0 μg/dL (28 nmol/L) (normal range after LDST, <1.8 μg/dL [50 nmol/L])Dehydroepiandrosterone sulfate800 μg/dL (21.6 μmol/L) (normal range, 48.9-344.2 μg/dL [1.3-9.3 μmol/L)H Testosterone, total200 ng/dL (6.9 nmol/L)HA transvaginal ultrasound is unremarkable.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is an adrenal CT (Option A). Rapid-onset virilization (voice deepening, clitoromegaly, male pattern baldness, severe acne) and extremely elevated serum total testosterone and dehydroepiandrosterone sulfate (DHEAS) levels should raise concern for an androgen-secreting tumor. Androgen-secreting tumors usually occur in postmenopausal women and can arise in the ovaries or adrenal glands. DHEAS levels greater than 700 μg/dL (18.9 μmol/L) suggest an adrenal origin. Notably, some patients with androgen-secreting tumors of adrenal origin may also have Cushingoid features because of concomitant cortisol secretion. When an androgen-secreting tumor is suspected, the next step in management is ovarian and/or adrenal gland imaging. Ovarian tumors are best visualized with transvaginal ultrasound, although these tumors are generally small and may not be seen on ultrasound or even at the time of surgery. Therefore, a negative ultrasound does not rule out the possibility of an androgen-secreting tumor. In the setting of a negative transvaginal ultrasound or very elevated DHEAS level (>700 μg/dL [18.9 μmol/L]), adrenal imaging with CT or MRI is indicated. If both ultrasonography and adrenal imaging are unremarkable, ovarian and adrenal vein sampling can be considered.Combined estrogen-progestin oral contraceptive agents (Option B) are first-line pharmacologic therapy for patients with polycystic ovary syndrome (PCOS). Although PCOS can cause hirsutism and acne, it typically does not cause virilization. Patients with PCOS can have mildly elevated testosterone and DHEAS levels, but they would not have the extremely elevated levels seen in this patient. This postmenopausal woman's laboratory results and rapid-onset virilization are not consistent with PCOS. Additionally, the primary treatment for an androgen-secreting tumor is surgery, not pharmacologic therapy.Pituitary MRI (Option C) is used to detect pituitary adenomas. Although Cushing syndrome can cause virilization and elevated total testosterone and DHEAS levels, this patient's normal 8 am serum total cortisol level after the low-dose (1-mg) dexamethasone suppression test rules out this diagnosis. Therefore, a pituitary MRI would not be indicated.Spironolactone (Option D) can be used alongside combined oral contraceptive agents to treat hirsutism in PCOS when combined oral contraceptive agents alone are suboptimal. However, these therapies have no role in the management of an androgen-secreting tumor.",
+  "critique_links": [],
   "key_points": [
     "Rapid-onset virilization and extremely elevated serum total testosterone and dehydroepiandrosterone sulfate levels should raise concern for an androgen-secreting tumor.",
     "Androgen-secreting tumors usually occur in postmenopausal women and can arise from the ovaries or adrenal glands; when an androgen-secreting tumor is suspected, imaging of the ovaries and/or the adrenal glands should be obtained."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T23:00:05.920260-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.306658-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 39-year-old man is evaluated in the emergency department 30 minutes after the sudden onset of substernal chest pain. An initial ECG demonstrates ST-segment elevation of 3 mm in lead III and 2 mm in lead aVF. Aspirin, clopidogrel, and intravenous unfractionated heparin are administered. Because the nearest hospital capable of percutaneous coronary intervention (PCI) is more than 120 minutes away, tenecteplase is given and the patient is transferred to the PCI-capable hospital. On arrival, the patient is free of chest discomfort and has no symptoms. He has no other medical problems and takes no medications.On physical examination, vital signs are normal. Cardiac examination reveals an S4 with no murmur. Lungs are clear to auscultation.Laboratory studies show an elevated high-sensitivity troponin level.Repeat ECG is shown.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is urgent coronary angiography (Option C). Thrombolytic therapy is recommended for patients with ST-elevation myocardial infarction (STEMI) if symptom onset is within 12 hours and primary percutaneous coronary intervention (PCI) is not available within 120 minutes of first medical contact. It is ideally incorporated into a pharmacoinvasive treatment protocol with expedited transfer to a PCI-capable center for coronary angiography and revascularization, as indicated. After administration of thrombolytic therapy, the ECG should be monitored at 60 to 90 minutes to confirm reperfusion, which is reflected by at least 50% improvement in maximal ST-segment elevation. Up to one third of patients do not achieve reperfusion with thrombolytic therapy, and subsequent urgent “rescue PCI” is associated with improved outcomes. Otherwise, after successful thrombolysis, coronary angiography is performed before discharge and usually within 4 to 24 hours. This patient with an inferior STEMI received thrombolytic therapy but has not had successful reperfusion, as shown by less than 50% ST-segment resolution on ECG. Although the chest pain has resolved, the ECG findings mandate urgent coronary angiography with possible rescue PCI.Delaying coronary angiography for 3 to 24 hours after thrombolytic therapy (Option A) will reduce the risk for bleeding complications but would not be appropriate in this patient who has evidence of persistent coronary occlusion. Failed reperfusion after thrombolytic therapy as reflected in persistent or recurrent ST-segment elevation is best treated with early revascularization, even in an asymptomatic patient.Stress testing such as exercise stress echocardiography (Option B) to further risk stratify patients is a valid approach in patients with non–ST-elevation acute coronary syndrome who have a low risk for complications (e.g., TIMI [Thrombolysis in Myocardial Infarction] score <2 or GRACE [Global Registry of Acute Coronary Events] score <109). Such a strategy, however, is inappropriate in patients with STEMI, most of whom should undergo coronary angiography, especially in the case of failed thrombolysis, as is the case with this patient.This patient has clear evidence of failed reperfusion after thrombolysis, and delay for urgent echocardiography (Option D) is not warranted. Echocardiography may demonstrate wall motion abnormalities that correspond to areas of ischemia and can also reveal complications such as ventricular dysfunction or regurgitant valvular lesions, but this information will not change the need for urgent revascularization.",
+  "critique_links": [],
   "key_points": [
     "Reperfusion after administration of thrombolytic therapy for ST-elevation myocardial infarction (STEMI) is demonstrated by at least 50% improvement in maximal ST-segment elevation.",
     "Up to one third of patients who receive thrombolytic therapy for STEMI do not achieve reperfusion and should undergo immediate rescue percutaneous coronary intervention."
@@ -52,9 +53,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/cvfig25702.ba4d605f377d44893810c2017a872720.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.812248-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig25702",
+        "file": "figures/cvfig25702.ba4d605f377d44893810c2017a872720.jpg",
+        "title": "ECG in a Patient With Myocardial Infarction",
+        "short_title": "stem 2 ECG in a Patient With Myocardial Infarction",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 340
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.345575-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 66-year-old patient is evaluated during a follow-up visit after passing a second kidney stone in 6 months. They have stage G3 chronic kidney disease, diabetes mellitus, hyperlipidemia, and hypertension. Medications are metformin, empagliflozin, atorvastatin, and lisinopril.Physical examination findings, including vital signs, are normal.",
+  "question_text": "A 66-year-old patient is evaluated during a follow-up visit after passing a second kidney stone in 6 months. They have stage G3 chronic kidney disease, diabetes mellitus, hyperlipidemia, and hypertension. Medications are metformin, empagliflozin, atorvastatin, and lisinopril.Physical examination findings, including vital signs, are normal.Laboratory studies:Creatinine1.5 mg/dL (133 µmol/L)HUrine albumin-creatinine ratio500 mg/gHEstimated glomerular filtration rate55 mL/min/1.73 m2 UrinalysispH 5.5; 1+ protein24-Hour urine volume1.5 L/24 h",
   "question_stem": "Which of the following is the most appropriate measure to prevent future recurrence of kidney stones?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate measure to prevent future recurrence of kidney stones is to increase fluid intake (Option B). Adequate fluid intake is the cornerstone of treatment for patients with any type of kidney stone. To tailor additional treatment, patients with kidney stones should strain their urine to collect stone fragments for chemical analysis if stone composition is unknown. In addition, a 24-hour urine collection for measurement of volume, calcium, oxalate, citrate, uric acid, and sodium should be obtained from all patients with recurrent stones. Most stones are composed of calcium oxalate, and about 10% are uric acid stones. Uric acid stones are more prevalent in areas that are hot and dry because the concentrated urine and low pH encourage the precipitation of uric acid; this patient has a urine pH of 5.5, which increases the risk for uric acid stones. Regardless of stone composition, increased fluid intake ensures that the urine is less concentrated. A concentrated urine from low fluid intake promotes the supersaturation of minerals, which contributes to stone formation. Recommendations state that patients with recurrent kidney stones of any type should increase their fluid intake to a urine output goal of more than 2 to 2.5 L/24 h. In addition to increasing fluid intake and therefore urine volume, interventions to reduce kidney stone recurrence can be tailored based on the stone composition, if known ().Decreasing calcium intake (Option A) has not been shown to decrease kidney stone recurrence. Calcium complexes with oxalate in the gastrointestinal tract; decreasing calcium intake causes increased oxalate absorption and increases the risk for calcium oxalate stone formation. Recommendations support a normal-calcium diet in these patients.Although lowering serum uric acid with allopurinol (Option C) may help reduce recurrence of uric acid kidney stones, increasing fluid intake is the most appropriate initial step. If this patient is found to have stones composed of uric acid and they continue to have uric acid stone formation despite increased fluid intake and alkali therapy, then allopurinol could be a useful adjunctive treatment.Initiating furosemide (Option D) would increase urinary calcium, and thus could increase stone formation in a patient with calcium-containing kidney stones.",
+  "critique": "The most appropriate measure to prevent future recurrence of kidney stones is to increase fluid intake (Option B). Adequate fluid intake is the cornerstone of treatment for patients with any type of kidney stone. To tailor additional treatment, patients with kidney stones should strain their urine to collect stone fragments for chemical analysis if stone composition is unknown. In addition, a 24-hour urine collection for measurement of volume, calcium, oxalate, citrate, uric acid, and sodium should be obtained from all patients with recurrent stones. Most stones are composed of calcium oxalate, and about 10% are uric acid stones. Uric acid stones are more prevalent in areas that are hot and dry because the concentrated urine and low pH encourage the precipitation of uric acid; this patient has a urine pH of 5.5, which increases the risk for uric acid stones. Regardless of stone composition, increased fluid intake ensures that the urine is less concentrated. A concentrated urine from low fluid intake promotes the supersaturation of minerals, which contributes to stone formation. Recommendations state that patients with recurrent kidney stones of any type should increase their fluid intake to a urine output goal of more than 2 to 2.5 L/24 h. In addition to increasing fluid intake and therefore urine volume, interventions to reduce kidney stone recurrence can be tailored based on the stone composition, if known (Table: Kidney Stone Risk Factors Based on Stone Type and Therapy).Decreasing calcium intake (Option A) has not been shown to decrease kidney stone recurrence. Calcium complexes with oxalate in the gastrointestinal tract; decreasing calcium intake causes increased oxalate absorption and increases the risk for calcium oxalate stone formation. Recommendations support a normal-calcium diet in these patients.Although lowering serum uric acid with allopurinol (Option C) may help reduce recurrence of uric acid kidney stones, increasing fluid intake is the most appropriate initial step. If this patient is found to have stones composed of uric acid and they continue to have uric acid stone formation despite increased fluid intake and alkali therapy, then allopurinol could be a useful adjunctive treatment.Initiating furosemide (Option D) would increase urinary calcium, and thus could increase stone formation in a patient with calcium-containing kidney stones.",
+  "critique_links": [],
   "key_points": [
     "Increased fluid intake is the most important intervention to prevent recurrent kidney stones, regardless of stone composition.",
     "To prevent recurrent kidney stones, urine output should be targeted to more than 2 to 2.5 L/24 h to decrease urine solute concentration."
@@ -52,12 +53,39 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/nptab24013.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:44.476863-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nptab24013",
+        "file": "tables/nptab24013.html",
+        "title": "Kidney Stone Risk Factors Based on Stone Type and Therapy",
+        "short_title": "Kidney Stone Risk Factors Based on Stone Type and Therapy",
+        "footnotes": [],
+        "headers": [
+          "Stone Type",
+          "Risk Factors",
+          "Therapy"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.710890-06:00"
 }

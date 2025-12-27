@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 30-year-old man is evaluated for a burn on his left hand sustained 2 days ago while cooking. It is painful to touch and when exposed to air. He has no medical problems and takes no medications.On physical examination, vital signs are normal. The wound is painful to touch and blanches when palpated.Skin findings are shown.",
   "question_stem": "Which of the following is the most likely classification of this patient's burn?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is a second-degree burn (Option B). Thermal burns are assessed based on the amount of body surface area (BSA) involved, depth of burn, and specific area involved. Estimating the BSA involved is based on the rule of 9s: The head and neck represent 9%, each arm is 9%, each leg is 18%, the anterior trunk is 18%, the posterior trunk is 18%, and the genital region is 1% BSA. Symptoms and physical examination determine the depth of the burn (see Table: Classification of Burns by Depth of Injury). Second-degree burns can be classified as superficial or deep partial-thickness burns. In superficial partial-thickness burns, the entire epidermis and superficial dermis are involved, and the wound is red and painful to air and touch, and blanches when palpated. Blisters, weeping, and sloughing of the skin may be present. Deep partial-thickness burns involve the entire epidermis and dermis, resulting in white, yellow, or red wounds that may be mildly painful to pressure because of involvement of deeper dermis. Deep partial-thickness burns may be wet or dry and, as opposed to superficial partial-thickness burns, do not blanch with pressure. Treatment of burns is based on the area and extent of involvement along with the depth of the injury. Hand burns can result in significant long-term morbidity and often require early referral to a burn team. In this patient, the epidermis has sloughed off, resulting in exposed, red, and tender dermis that is painful and blanches with pressure. This presentation is consistent with a second-degree, superficial partial-thickness burn.First-degree burns (Option A) involve only the epidermis, and the skin is red without blistering or weeping. First-degree burns, such as a mild sunburn, typically heal in 5 to 10 days without scarring. This patient's burn, with sloughed-off epidermis and an exposed, red, and tender dermis, is consistent with a second-degree, partial-thickness burn rather than a first-degree burn.Third-degree (Option C), or full-thickness, burns destroy the entire epidermis and dermis and involve subcutaneous tissue. Third-degree burns may be dry and white or black, with minimal pain owing to loss of sensation. Third-degree burns usually require skin grafting and take more than 8 weeks to completely heal. When healed, patients may have contractures and other deformities with variable degrees of function. This patient's burn is painful and has an intact dermis, which is inconsistent with a third-degree burn.Fourth-degree burns (Option D) are potentially life threatening and involve underlying soft tissue, such as muscle or bone. The wound is dry and black, and there may be exposed bone on examination; these features are inconsistent with this patient's superficial second-degree burn.",
+  "critique_links": [],
   "key_points": [
     "Superficial partial-thickness second-degree thermal burns present as blisters or weeping wounds that blanch with pressure and are painful to air, temperature, and pressure.",
     "First-degree thermal burns involve only the epidermis, and the skin is red without blistering or weeping."
@@ -51,10 +52,46 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
-    "images": [],
+    "tables": [
+      "tables/dmtab24020.html"
+    ],
+    "images": [
+      "figures/dmfig24215.6139963bd3e66a3b9c7f31960de18d41.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.729001-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24215",
+        "file": "figures/dmfig24215.6139963bd3e66a3b9c7f31960de18d41.jpg",
+        "title": "Second-Degree Burn",
+        "short_title": "stem Second-Degree Burn",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 666,
+        "height": 587
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "dmtab24020",
+        "file": "tables/dmtab24020.html",
+        "title": "Classification of Burns by Depth of Injury",
+        "short_title": "Classification of Burns by Depth of Injury",
+        "footnotes": [],
+        "headers": [
+          "Depth",
+          "Degree",
+          "Structures Involved",
+          "Signs and Symptoms"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.250978-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 24-year-old woman is evaluated for progressive, generalized muscle weakness of 2 months' duration. She provides no pertinent personal or family history and takes no medications.On physical examination, temperature is normal, blood pressure is 94/58 mm Hg, pulse rate is 98/min, and respiration rate is 16/min. BMI is 19. The remainder of the examination is normal.Laboratory studies:Serum electrolytes:Sodium142 mEq/L (142 mmol/L)Potassium2.8 mEq/L (2.8 mmol/L)LChloride120 mEq/L (120 mmol/L)HBicarbonate15 mEq/L (15 mmol/L)LUrine electrolytes:Sodium18 mEq/L (18 mmol/L)LPotassium8.0 mEq/L (8.0 mmol/L)Chloride32 mEq/L (32 mmol/L)LUrinalysispH 5.0; no blood or protein",
   "question_stem": "Which of the following is the most likely cause of this patient's metabolic acidosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Unreported laxative misuse (Option C) is the most likely cause of this patient's normal anion gap metabolic acidosis. A normal anion gap metabolic acidosis can be caused by gastrointestinal bicarbonate loss, renal bicarbonate loss, or the kidneys' inability to excrete acid. The normal physiologic response to systemic acidosis is an increase in urine acid excretion. Therefore, an initial diagnostic step in a normal anion gap metabolic acidosis is to assess whether the kidneys are appropriately excreting acid. Increased acid excretion by the kidneys manifests as a marked increase in urine ammonium. However, urine ammonium is difficult to measure directly. Because ammonium carries a positive charge, chloride and ammonium are excreted into the urine in equal amounts to maintain electrical neutrality. Therefore, the amount of chloride in the urine reflects the amount of ammonium present, and the urine anion gap can be used to gauge the kidneys' ability to excrete acid. The urine anion gap is calculated as follows:Urine Anion Gap = (Urine Sodium + Urine Potassium) – Urine ChlorideIn the context of increased urinary ammonium excretion, the urine anion gap will be negative. This patient's negative urine anion gap (-6.0 mEq/L [-6.0 mmol/L]) suggests a gastrointestinal cause of the normal anion gap metabolic acidosis, and unreported laxative misuse is a possible, even a likely, explanation. In addition, the patient's normal urine potassium level indicates appropriate renal compensation in the context of laxative-induced hypokalemia.Aldosterone deficiency (Option A), most often seen hyporeninemic hypoaldosteronism related to diabetic kidney disease, causes a type 4 (hyperkalemic distal) renal acidosis (RTA). RTAs cause a normal anion gap metabolic acidosis related to specific defects in renal handling of bicarbonate reclamation or in hydrogen ion secretion. The urine anion gap can be helpful in identifying the type of RTA. Type 1 (hypokalemic distal) and type 4 RTAs result in a positive urine anion gap, which is not present in this patient.Ketoacidosis (Option B) causes an elevated serum anion gap, which is not present in this patient.Vomiting (Option D) and gastric acid loss result in metabolic alkalosis, not metabolic acidosis.",
+  "critique_links": [],
   "key_points": [
     "A normal anion gap metabolic acidosis can be caused by gastrointestinal bicarbonate loss, renal bicarbonate loss, or the kidneys' inability to excrete acid.",
     "A negative urine anion gap suggests an extrarenal (gastrointestinal) cause of normal anion gap metabolic acidosis."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:48:56.319524-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.587411-06:00"
 }

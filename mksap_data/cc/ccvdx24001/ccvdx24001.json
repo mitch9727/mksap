@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 56-year-old man is evaluated for a COPD exacerbation consisting of cough and voluminous sputum production.Chest radiographs are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "These chest radiographs show right middle lobe atelectasis (Option C). The frontal chest radiograph reveals a vague density (arrow) partially obscuring the right heart border. On the lateral image, a triangular opacity represents complete atelectasis of the right middle lobe. With right middle lobe collapse, the right major fissure is displaced anteriorly (arrows) and the minor fissure is displaced inferiorly (arrowheads). The right middle lobe atelectasis occurs more frequently than it does in other lobes. The reasons include the presence of lymph nodes that surround the right middle lobe bronchus, which may compress the bronchus if they are enlarged because of tumor or inflammation; less collateral ventilation; and increased airflow resistance due to the curved and narrow right middle lobe bronchus.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,12 +51,52 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/ccfig24602.7995bc3da0689846dd2b9d665fb3cbd9.jpg",
       "figures/ccfig24600.ae025b627becf568002c7ea571adefc1.jpg",
-      "figures/ccfig24601.1fcf9352aa6bb4b57e7cf1455b1e2e67.jpg"
+      "figures/ccfig24601.1fcf9352aa6bb4b57e7cf1455b1e2e67.jpg",
+      "figures/ccfig24602.7995bc3da0689846dd2b9d665fb3cbd9.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:48.463814-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "ccfig24600",
+        "file": "figures/ccfig24600.ae025b627becf568002c7ea571adefc1.jpg",
+        "title": "Radiograph Showing Middle Lobe Atelectasis",
+        "short_title": "stem 1 Radiograph Showing Middle Lobe Atelectasis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 976
+      },
+      {
+        "figure_id": "ccfig24601",
+        "file": "figures/ccfig24601.1fcf9352aa6bb4b57e7cf1455b1e2e67.jpg",
+        "title": "Radiograph Showing Middle Lobe Atelectasis",
+        "short_title": "stem 2 Radiograph Showing Middle Lobe Atelectasis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 980
+      },
+      {
+        "figure_id": "ccfig24602",
+        "file": "figures/ccfig24602.7995bc3da0689846dd2b9d665fb3cbd9.jpg",
+        "title": "Radiograph Showing Middle Lobe Atelectasis",
+        "short_title": "critique Radiograph Showing Middle Lobe Atelectasis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 485
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.472235-06:00"
 }

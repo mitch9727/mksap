@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 31-year-old woman is evaluated for the recent onset of an asymptomatic rash, as shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has pityriasis versicolor (tinea versicolor) (Option D). Pityriasis versicolor is characterized by slightly scaly hyper- or hypopigmented macules and patches of the upper trunk and upper arms. The causative yeast organism, Malassezia furfur, is a normal inhabitant of the skin; however, when hot and humid environmental conditions favor its growth, findings appear. Diagnosis is confirmed by microscopic evaluation of a potassium hydroxide preparation made from scrapings of lesions. The preparation shown demonstrates the classic appearance of both spores and hyphae in a \"spaghetti and meatball\" pattern.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,41 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24633.89f785bb3eba2b876cb5f41d62209170.jpg",
+      "figures/dmfig24634.edac0064ce9d234dfaa2e8084362f7c4.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.876006-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24633",
+        "file": "figures/dmfig24633.89f785bb3eba2b876cb5f41d62209170.jpg",
+        "title": "Pityriasis Versicolor",
+        "short_title": "stem Pityriasis Versicolor",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 680
+      },
+      {
+        "figure_id": "dmfig24634",
+        "file": "figures/dmfig24634.edac0064ce9d234dfaa2e8084362f7c4.jpg",
+        "title": null,
+        "short_title": "critique Microscopy Showing <i>Malassezia furfur</i> Spores and Hyphae",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 605
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.395975-06:00"
 }

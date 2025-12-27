@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 54-year-old man develops fever unresponsive to antibiotic therapy. He has prolonged neutropenia following chemotherapy.CT scan of the chest is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This chest CT scan suggests an invasive fungal infection, such as aspergillosis (Option B). The CT scan shows a nodular opacity with poorly defined borders and surrounding ground-glass opacification. This appearance, referred to as a halo sign, is an early radiographic finding in patients with aspergillosis. The ground-glass appearance surrounding the fungal nodule indicates hemorrhage into the surrounding lung tissue. In the appropriate clinical setting, such as neutropenia, the halo sign may indicate aspergillosis or another angioinvasive fungal infection, including fusariosis or mucormycosis. A spiculated nodule would be more likely for malignancy, and it would not have the halo appearance.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:10:29.420553-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "idfig24660",
+        "file": "figures/idfig24660.aa5b9a4b276aa661bbe45f95de9460ae.jpg",
+        "title": "Chest CT Scan Demonstrating a Halo Sign",
+        "short_title": "Halo Sign on Chest CT Scan",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 368,
+        "height": 287
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.793874-06:00"
 }

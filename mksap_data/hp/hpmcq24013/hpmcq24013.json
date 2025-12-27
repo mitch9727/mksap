@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 47-year-old woman is evaluated in the emergency department for a 2-day history of intermittent severe right-upper-quadrant abdominal pain. The patient reports no nausea, vomiting, or fever. She underwent appendectomy 20 years ago.On physical examination, vital signs are normal. There is tenderness to palpation of the right upper quadrant, without rebound.Laboratory studies:Leukocyte countNormalAlkaline phosphatase275 U/LHAlanine aminotransferase170 U/LHAspartate aminotransferase200 U/LHTotal bilirubin3.2 mg/dL (54.7 μmol/L)HLipaseNormalAbdominal ultrasound shows a normal gallbladder, no gallstones, and a dilated common bile duct.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is choledocholithiasis (Option C). Common bile duct stones are a leading cause of obstructive jaundice and pancreatitis. Symptoms include right-upper-quadrant or epigastric abdominal pain, jaundice, and no fever (unless cholangitis is present). Common duct stones may be visualized by transabdominal ultrasonography. In the absence of visualization, an elevated serum bilirubin level and dilated common duct on ultrasonography suggest the diagnosis. This patient's increased total bilirubin level supports a diagnosis of bile duct obstruction. When choledocholithiasis is suspected and transabdominal ultrasound findings are indeterminate, as in this patient, endoscopic ultrasonography or magnetic resonance cholangiopancreatography should be performed.Acalculous cholecystitis (Option A) typically occurs in critically ill patients and results from gallbladder ischemia. Risk factors include cardiac surgery, sepsis, burns, and vasculitis. Ultrasound findings demonstrate pericholecystic fluid, gallbladder distention, and pneumatosis without stones. This patient's presentation is not consistent with this diagnosis.Cholangitis (Option B) refers to infection of the biliary tree, usually in the setting of biliary stasis or obstruction, and may be a complication of choledocholithiasis. Symptoms include fever, jaundice, and right-upper-quadrant pain (Charcot triad). Patients with cholangitis present with leukocytosis and elevated serum direct bilirubin, alkaline phosphatase, and gamma-glutamyl transpeptidase levels. This patient does not have a fever or leukocytosis, and cholangitis is less likely.Surgical adhesions (Option D) may present with complete or incomplete bowel obstruction, manifested by abdominal pain, nausea, vomiting, obstipation, and dilated small bowel on imaging. However, they would not explain cholestasis or a dilated common bile duct and are unlikely in this patient.",
+  "critique_links": [],
   "key_points": [
     "Symptoms of choledocholithiasis include right-upper-quadrant or epigastric abdominal pain and jaundice; patients are generally afebrile unless cholangitis is present.",
     "In patients with choledocholithiasis, common duct stones may be visualized by transabdominal ultrasonography; in the absence of visualization, an elevated serum bilirubin level and dilated common bile duct on ultrasonography suggest the diagnosis."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.565005-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.653226-06:00"
 }

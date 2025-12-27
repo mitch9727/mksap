@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 62-year-old woman is evaluated for three episodes of bright-red rectal bleeding over the past 2 months. She has no other symptoms. She has hypertension, for which she takes lisinopril.On physical examination, vital signs are normal. No masses are palpable on digital rectal examination.Colonoscopy identifies a mass 11 cm from the anal verge. Biopsy reveals adenocarcinoma with normal mismatch repair protein expression. Rectal MRI shows a stage I 3-cm mass with penetration into, but not through, the muscularis propria with no visible lymph nodes.",
+  "question_text": "A 62-year-old woman is evaluated for three episodes of bright-red rectal bleeding over the past 2 months. She has no other symptoms. She has hypertension, for which she takes lisinopril.On physical examination, vital signs are normal. No masses are palpable on digital rectal examination.Laboratory studies:Hemoglobin9.2 mg/dL (92 g/L)LColonoscopy identifies a mass 11 cm from the anal verge. Biopsy reveals adenocarcinoma with normal mismatch repair protein expression. Rectal MRI shows a stage I 3-cm mass with penetration into, but not through, the muscularis propria with no visible lymph nodes.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The patient has stage I cancer of the upper rectum and should be treated with surgery alone (Option D). Rectal cancers without full-thickness penetration of the bowel wall (T1-2) or enlarged lymph nodes (N0) are clinically stage I. Surgery alone has a very high (>90%) cure rate for such cancers, and there are no data to suggest that additional treatment with either chemotherapy or radiation therapy would improve the outcome. When the tumor is in the upper rectum, the risk for needing a permanent colostomy is low, and reasonably good postoperative bowel function could be expected after surgery. When stage I tumors are distal enough that surgery would require a permanent colostomy, total neoadjuvant therapy (TNT) with radiation therapy and chemotherapy, followed by surveillance without surgery, may be used if a complete response is achieved. This patient has a proximal stage I tumor, and surgery alone is the best approach.This patient does not require oxaliplatin, 5-fluorouracil, and leucovorin (FOLFOX) chemotherapy alone or in addition to surgery (Options A, B). FOLFOX is a standard treatment for more advanced stages of colon and rectal cancer and may be used as the chemotherapy-only component of neoadjuvant and adjuvant treatment regimens. It would be indicated, for example, if the surgical pathology specimen reveals positive lymph nodes that were not seen on preoperative imaging. However, based on presurgical staging, this patient has a high likelihood of not needing further treatment. Using FOLFOX in this situation would subject the patient to unnecessary toxicity and risk.Radiation therapy and oral capecitabine (Option C) would not be indicated for this patient. Radiation therapy, often given with concurrent oral capecitabine, would be an appropriate consideration as a first treatment option in more locally advanced rectal cancer, such as stage III or stage IIB, with the expectation that this would be followed by consolidative chemotherapy before considering surgery. However, this treatment is not necessary for this patient with stage I disease.",
+  "critique_links": [],
   "key_points": [
     "Surgery alone has a very high (>90%) cure rate for patients with stage I rectal cancer, and there are no data to suggest that additional treatment with either chemotherapy or radiation therapy would improve the outcome.",
     "Oxaliplatin, 5-fluorouracil, and leucovorin (FOLFOX) is a standard adjuvant treatment for more advanced stages of colon and rectal cancer but should not be given preoperatively to patients with stage I disease because it would subject them to unnecessary toxicity and risk."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:27:19.940826-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.754890-06:00"
 }

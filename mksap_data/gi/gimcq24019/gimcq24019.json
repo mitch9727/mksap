@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 21-year-old man is evaluated for intermittent, severe, crampy abdominal pain over the past 1 to 2 weeks. Each episode lasts approximately 10 to 15 minutes. His mother is 50 years old and has a history of breast cancer diagnosed at age 45 years, as well as a history of multiple colonic polyps. She had dark macules on her lips that disappeared when she was in her 40s.On physical examination, vital signs are normal. Hyperpigmented macules are visible on the lips and buccal mucosa.",
+  "question_text": "A 21-year-old man is evaluated for intermittent, severe, crampy abdominal pain over the past 1 to 2 weeks. Each episode lasts approximately 10 to 15 minutes. His mother is 50 years old and has a history of breast cancer diagnosed at age 45 years, as well as a history of multiple colonic polyps. She had dark macules on her lips that disappeared when she was in her 40s.On physical examination, vital signs are normal. Hyperpigmented macules are visible on the lips and buccal mucosa.Laboratory studies:Hemoglobin11 g/dL (110 g/L)LMean corpuscular volume77 fLL",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is Peutz-Jeghers syndrome (PJS) (Option C). PJS is a hamartomatous polyposis syndrome, and PJS-type polyps are found primarily in the small bowel as well as the stomach and colon. Small-bowel hamartomas develop at a young age (average age, 18.5 years), and patients may present with rectal bleeding (most commonly), bowel obstruction, and intussusception. A clinical diagnosis of PJS is made when two of the following three criteria are met:Two or more PJS-type hamartomatous polyps in the gastrointestinal tractMultiple mucocutaneous hyperpigmented lesions (melanotic macules) in the mouth, buccal mucosa, nose, eyes, genitalia, or fingersFamily history of PJSPatients with PJS have an increased lifetime risk for multiple malignancies: colorectal, gastric, small bowel, breast, ovarian/sex cord tumor with annular tubules, cervical/adenoma malignum, uterine, testicular, lung, and pancreatic. Endoscopic evaluation, including upper and lower endoscopy, as well as small-bowel visualization with video capsule endoscopy or magnetic resonance enterography, are recommended in childhood. If findings are negative, this evaluation should be resumed at age 18 years. Pancreatic surveillance is also recommended starting at age 35 years. In this patient, the multiple melanotic macules present on the lips are not seen in other familial polyposis syndromes, and this finding suggests PJS. His intermittent abdominal pain is likely intussusception, caused by hamartomatous polyps throughout the intestine, and the microcytic anemia suggests iron deficiency anemia due to polyp bleeding.Familial adenomatous polyposis (Option A) is caused by pathogenic germline variants in the APC gene. Patients develop carpeting of the colon with adenomatous polyps at a young age, and the lifetime risk for colorectal cancer without colectomy approaches 99%. Extracolonic manifestations include duodenal adenomas, ampullary adenomas (which may progress to adenocarcinoma), papillary thyroid cancer, and desmoid tumors. This patient's lip lesions are not consistent with familial adenomatous polyposis.Juvenile polyposis syndrome (JPS) (Option B) is caused by pathogenic variants in SMAD4 and BMPR1A and leads to the formation of multiple juvenile polyps throughout the gut. JPS often presents with rectal bleeding and iron deficiency anemia. Lip lesions, as seen in this patient, are not consistent with JPS and instead suggest PJS.Several rare polyposis syndromes are caused by pathogenic variants in the polymerase proofreading genes POLE and POLD1 (Option D). These may have features of familial adenomatous polyposis and Lynch syndrome. None of these syndromes are associated with the mucocutaneous finding seen in this patient.",
+  "critique_links": [],
   "key_points": [
     "The diagnosis of Peutz-Jeghers syndrome (PJS) is based on the presence of two of the following three criteria: two or more PJS-type hamartomatous polyps in the gastrointestinal tract; multiple melanotic macules in the mouth, buccal mucosa, nose, eyes, genitalia, or fingers; and family history of PJS."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:30.872020-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.306384-06:00"
 }

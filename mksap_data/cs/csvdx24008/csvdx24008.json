@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old man is evaluated for a 3-week history of elbow pain. He works as a computer programmer. The patient is able to localize the elbow pain to the site shown. Range of motion is normal, but pain worsens with forced extension of the wrist.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is lateral epicondylitis (tennis elbow) (Option A), which is caused by overuse of the wrist extensor muscles. The pain is located laterally, with localized tenderness over the lateral epicondyle. Pain characteristically radiates down the forearm to the dorsal hand and worsens with activity and at night. On examination, there is tenderness to palpation where the extensor muscles attach to the lateral epicondyle. Pain also increases with forced extension of the wrist.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/csfig24608.23493be166c0cb8160693c079a5186db.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:01:45.888421-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "csfig24608",
+        "file": "figures/csfig24608.23493be166c0cb8160693c079a5186db.jpg",
+        "title": "Site of Elbow Pain",
+        "short_title": "Site of Elbow Pain",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 928
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.167878-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 62-year-old woman is evaluated following discharge from the hospital; she was hospitalized for pneumonia and treated with antibiotics. Medical history is significant for stage I estrogen receptor–positive invasive breast cancer, for which she underwent breast-conserving surgery and radiation therapy; tamoxifen was then initiated. During her hospital stay, tamoxifen was withheld. Today, it is noted that she is no longer taking tamoxifen.",
   "question_stem": "Which of the following measures would have most likely prevented this medication error?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Medication reconciliation (Option D) would have most likely prevented this medication error. Medication reconciliation is the process of creating an accurate, comprehensive list of the patient's prescription and nonprescription medications (including the dose, frequency, and route of administration) and comparing the list to medication orders (at admission, transfer, or discharge) to resolve inconsistencies. Completion of medication reconciliation decreases adverse drug events and should occur at all care transitions to prevent medication errors, although the effect on hospital readmissions, morbidity, and mortality is unclear. In this case, tamoxifen was withheld on admission but should have been restarted when the patient was discharged from the hospital. Medication reconciliation at the time of discharge would have prevented this error, which resulted in a lapse in the patient's breast cancer treatment.Computerized physician order entry (CPOE) systems (Option A) are designed to improve the medication ordering processes and prevent medication errors and medication adverse events. Some CPOE systems are integrated with decision support systems. CPOE has resulted in many practice improvements, including standardization of care, improved legibility of orders, and implementation of medication alerts (such as allergy and drug interaction alerts). However, CPOE cannot replace medication reconciliation and would not have prevented this medication error at a transition of care.Using a system that features a direct electronic interface between CPOE and the electronic medication administration record (Option B) can eliminate transcription errors and errors in reading and interpreting handwritten, paper-based medication administration records. Such a system does not replace medication reconciliation and would not have prevented this medication error at the time of discharge.Improved medication labeling (Option C), including the use of “tall man” lettering (e.g., DOBUTamine versus DOPamine), helps minimize confusion surrounding look-alike and sound-alike medications, thereby reducing medication errors. However, improved medication labeling would not have prevented this medication error that occurred during a transition of care.",
+  "critique_links": [],
   "key_points": [
     "Medication reconciliation, the process of creating an accurate, comprehensive list of the patient's prescription and nonprescription medications and comparing the list to medication orders, should occur at all transitions of care to prevent medication errors."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:34.162771-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:27.869573-06:00"
 }

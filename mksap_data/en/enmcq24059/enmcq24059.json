@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 39-year-old man is evaluated because he is concerned about growth hormone deficiency because of feelings of fatigue and reduced muscle mass over the past few months. He has no history of head trauma, pituitary radiation therapy, or surgery. He has no other medical problems and takes no medications.Physical examination findings, including vital signs, are normal. Muscle mass and strength are normal.",
+  "question_text": "A 39-year-old man is evaluated because he is concerned about growth hormone deficiency because of feelings of fatigue and reduced muscle mass over the past few months. He has no history of head trauma, pituitary radiation therapy, or surgery. He has no other medical problems and takes no medications.Physical examination findings, including vital signs, are normal. Muscle mass and strength are normal.Laboratory studies:Testosterone550 ng/dL (19 nmol/L)Thyroid-stimulating hormone1.8 µU/mL (1.8 mU/L)",
   "question_stem": "Which of the following is the most appropriate screening test to perform next?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "This patient does not require any further testing (Option D). Symptoms of adult growth hormone (GH) deficiency are subtle and include fatigue, loss of muscle mass, and an increased ratio of fat mass to lean mass. Because idiopathic GH deficiency in adults is rare, evaluation for GH deficiency in adult patients should be considered only in those with a history of hypothalamic or pituitary disease, surgery or radiation therapy to these areas, head trauma, other pituitary hormone deficiencies, or childhood-onset GH deficiency. In patients who have risk factors for GH deficiency and require testing, measuring an insulin-like growth factor-1 (IGF-1) level would be an appropriate screening test. However, a normal IGF-1 level does not rule out GH deficiency, and sometimes provocative testing is required (). Although this patient is concerned about GH deficiency, he has no risk factors and has a normal examination. Based on his normal testosterone level, gonadotropin hormones, which are sensitive to pituitary injury, are intact. This indicates no concern for a pituitary abnormality, and no further testing is needed at this time.Stimulatory testing for GH deficiency with a glucagon stimulation test (Option A) would not be appropriate for this patient. Testing should be performed only if an IGF-1 level is normal in a patient at risk for GH deficiency.Measuring a random GH level (Option B) is not the most appropriate test to perform next because GH levels are pulsatile; as such, a random GH level is not helpful in the diagnosis of GH deficiency. Furthermore, this patient has no risk factors for GH deficiency and requires no further testing.Measuring the IGF-1 level (Option C) would not be appropriate in this patient because isolated GH deficiency in adults is very rare. Therefore, only patients with risk factors as described above should be tested for GH deficiency.",
+  "critique": "This patient does not require any further testing (Option D). Symptoms of adult growth hormone (GH) deficiency are subtle and include fatigue, loss of muscle mass, and an increased ratio of fat mass to lean mass. Because idiopathic GH deficiency in adults is rare, evaluation for GH deficiency in adult patients should be considered only in those with a history of hypothalamic or pituitary disease, surgery or radiation therapy to these areas, head trauma, other pituitary hormone deficiencies, or childhood-onset GH deficiency. In patients who have risk factors for GH deficiency and require testing, measuring an insulin-like growth factor-1 (IGF-1) level would be an appropriate screening test. However, a normal IGF-1 level does not rule out GH deficiency, and sometimes provocative testing is required (Table: Initial Testing for Pituitary Hormone Excess and Deficiency). Although this patient is concerned about GH deficiency, he has no risk factors and has a normal examination. Based on his normal testosterone level, gonadotropin hormones, which are sensitive to pituitary injury, are intact. This indicates no concern for a pituitary abnormality, and no further testing is needed at this time.Stimulatory testing for GH deficiency with a glucagon stimulation test (Option A) would not be appropriate for this patient. Testing should be performed only if an IGF-1 level is normal in a patient at risk for GH deficiency.Measuring a random GH level (Option B) is not the most appropriate test to perform next because GH levels are pulsatile; as such, a random GH level is not helpful in the diagnosis of GH deficiency. Furthermore, this patient has no risk factors for GH deficiency and requires no further testing.Measuring the IGF-1 level (Option C) would not be appropriate in this patient because isolated GH deficiency in adults is very rare. Therefore, only patients with risk factors as described above should be tested for GH deficiency.",
+  "critique_links": [],
   "key_points": [
     "Idiopathic growth hormone (GH) deficiency in adults is rare; evaluation for GH deficiency should only be considered in those with a history of hypothalamic or pituitary disease, surgery or radiation therapy to these areas, head trauma, other pituitary hormone deficiencies, or childhood-onset GH deficiency."
   ],
@@ -51,12 +52,50 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/entab24025.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:48.798205-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "entab24025",
+        "file": "tables/entab24025.html",
+        "title": "Initial Testing for Pituitary Hormone Excess and Deficiency",
+        "short_title": "Initial Testing for Pituitary Hormone Excess and Deficiency",
+        "footnotes": [
+          "ACTH = adrenocorticotropic hormone; FSH = follicle-stimulating hormone; GH = growth hormone; GHRH = growth hormone–releasing hormone; IGF-1 = insulin-like growth factor 1; LH = luteinizing hormone; SHBG = sex hormone–binding globulin; TSH = thyroid-stimulating hormone.",
+          "<sup>a</sup>See Table: Dynamic Testing for Pituitary Dysfunction for additional information on dynamic testing for pituitary dysfunction.",
+          "<sup>b</sup>Routine testing for deficiency is not recommended without specific signs of deficiency, such as amenorrhea, gynecomastia, low libido, or impotence.",
+          "<sup>c</sup>Not available in the United States."
+        ],
+        "headers": [
+          "Pituitary Hormone Excess",
+          "Pituitary Hormone",
+          "Peripheral Hormone",
+          "Initial Test(s)",
+          "Pituitary Hormone Deficiency",
+          "Pituitary Hormone",
+          "Peripheral Hormone",
+          "Initial Test(s)",
+          "Confirmatory Test"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.225110-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 52-year-old patient is evaluated to discuss recent screening colonoscopy findings.On physical examination, vital signs and other findings are normal.One week ago, colonoscopy showed eight tubular adenomas that ranged between 3 mm and 6 mm in size. Polyps were sessile and were removed completely. Colonoscopy bowel preparation and withdrawal time were adequate.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -43,7 +43,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate management is colonoscopy in 3 years (Option B). Polyp surveillance intervals after screening colonoscopy depend on several factors, including the number of polyps, types of polyps, polyp size, and histology results. Additional variables, such as the quality of the baseline colonoscopy (e.g., withdrawal time and quality of bowel preparation) and whether polyps were completely resected or removed piecemeal, also factor into colonoscopy surveillance intervals. In 2020, the US Multi-Society Task Force on Colorectal Cancer guidelines recommended lengthening colorectal cancer surveillance intervals for patients with small (<10 mm) polyps; for patients with 5 to 10 tubular adenomas that are less than 10 mm in size (see ), colonoscopy should be performed in 3 years. Therefore, this time frame is appropriate for this patient with eight tubular adenomas ranging between 3 mm and 6 mm in size. Additional factors that warrant surveillance colonoscopy in 3 years include an adenoma 10 mm or greater in size with a villous component, or an adenoma with high-grade dysplasia.Patients with 10 or more adenomas should undergo surveillance colonoscopy in 1 year (Option A). In addition, genetic testing may be considered based on adenoma burden, age, and family history. This patient with eight subcentimeter adenomas does not need to undergo colonoscopy at 1 year.Patients with three to four subcentimeter tubular adenomas should undergo repeat colonoscopy in 3 to 5 years (Option C). This follow-up interval would not be appropriate in this patient who has eight tubular adenomas.Interval stool-based testing with DNA testing (Option D and Option E) is not recommended for patients with polyps that have already been identified and removed during colonoscopy. Thus, multitarget stool DNA testing would not be appropriate to perform as surveillance in this patient.",
+  "critique": "The most appropriate management is colonoscopy in 3 years (Option B). Polyp surveillance intervals after screening colonoscopy depend on several factors, including the number of polyps, types of polyps, polyp size, and histology results. Additional variables, such as the quality of the baseline colonoscopy (e.g., withdrawal time and quality of bowel preparation) and whether polyps were completely resected or removed piecemeal, also factor into colonoscopy surveillance intervals. In 2020, the US Multi-Society Task Force on Colorectal Cancer guidelines recommended lengthening colorectal cancer surveillance intervals for patients with small (<10 mm) polyps; for patients with 5 to 10 tubular adenomas that are less than 10 mm in size (see Table: Surveillance for CRC After Screening or Polypectomy), colonoscopy should be performed in 3 years. Therefore, this time frame is appropriate for this patient with eight tubular adenomas ranging between 3 mm and 6 mm in size. Additional factors that warrant surveillance colonoscopy in 3 years include an adenoma 10 mm or greater in size with a villous component, or an adenoma with high-grade dysplasia.Patients with 10 or more adenomas should undergo surveillance colonoscopy in 1 year (Option A). In addition, genetic testing may be considered based on adenoma burden, age, and family history. This patient with eight subcentimeter adenomas does not need to undergo colonoscopy at 1 year.Patients with three to four subcentimeter tubular adenomas should undergo repeat colonoscopy in 3 to 5 years (Option C). This follow-up interval would not be appropriate in this patient who has eight tubular adenomas.Interval stool-based testing with DNA testing (Option D and Option E) is not recommended for patients with polyps that have already been identified and removed during colonoscopy. Thus, multitarget stool DNA testing would not be appropriate to perform as surveillance in this patient.",
+  "critique_links": [],
   "key_points": [
     "Colon cancer surveillance with colonoscopy every 3 years is appropriate for patients with 10 or fewer tubular adenomas less than 10 mm in size."
   ],
@@ -56,11 +57,35 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/gitab24023.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:30.869470-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "gitab24023",
+        "file": "tables/gitab24023.html",
+        "title": "Surveillance for Colorectal Cancer After Screening or Polypectomy",
+        "short_title": "Surveillance for CRC After Screening or Polypectomy",
+        "footnotes": [
+          "HP = hyperplastic polyps; SSP = sessile serrated polyps.",
+          "<sup>a</sup>Consideration for genetic testing based on adenoma burden, age, and family history.",
+          "Data from Gupta S, Lieberman D, Anderson JC, et al. Recommendations for follow-up after colonoscopy and polypectomy: a consensus update by the US Multi-society Task Force on Colorectal Cancer. Gastroenterology. 2020;158:1131-1153.e5. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/32044092\" target=\"_blank\">PMID: 32044092</a> doi:10.1053/j.gastro.2019.10.026."
+        ],
+        "headers": [
+          "Adenomatous Polyps",
+          "Interval to Next Colonoscopy",
+          "Serrated Polyps",
+          "Interval to Next Colonoscopy"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.301067-06:00"
 }

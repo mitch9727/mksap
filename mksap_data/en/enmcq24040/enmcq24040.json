@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 74-year-old man is evaluated in the hospital for hyperglycemia. He was hospitalized a few hours earlier for an acute ischemic stroke, for which intravenous alteplase was administered. A CT angiogram showed no large vessel occlusion. Medical history is remarkable for hypertension, dyslipidemia, and obesity. Outpatient medications are amlodipine, lisinopril, and rosuvastatin.On physical examination, blood pressure is 175/86 mm Hg and pulse rate is 84/min. BMI is 33. He has left facial weakness and dysarthria. Left upper and lower extremity weakness is noted.Laboratory studies: Glucose, random170 mg/dL (9.4 mmol/L)H",
   "question_stem": "Which of the following is the most appropriate next step in management of this patient's hyperglycemia?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate initial management of this patient's hyperglycemia is measurement of his hemoglobin A1c (Option D). It is important to recognize that inpatient hyperglycemia may occur in the setting of illness or because of previously unrecognized diabetes mellitus. Therefore, inpatient measurement of hemoglobin A1c is indicated to determine the presence and severity of hyperglycemia before acute illness. An inpatient hemoglobin A1c measurement of 6.5% or higher indicates glucose abnormalities before the hospitalization, and these patients require follow-up for diagnosis of possible diabetes. Additionally, all inpatients with a known history of diabetes mellitus or hyperglycemia should have a hemoglobin A1c test if one has not been performed within the past 3 months. In this hospitalized patient with risk factors for diabetes (e.g., obesity, age), hyperglycemia may represent previously unrecognized diabetes and/or the stress of illness; a hemoglobin A1c measurement can help to differentiate the cause.Treatment with insulin can be initiated if required before hemoglobin A1c results are available, depending on the degree of hyperglycemia. Insulin therapy (Option A) is indicated in hospitalized patients with plasma glucose levels of 180 mg/dL (10.0 mmol/L) or greater (especially if spontaneous improvement does not occur). The American Diabetes Association recommends a target blood glucose level between 140 and 180 mg/dL (7.8-10.0 mmol/L) for most critically ill patients, and the American Heart Association/American Stroke Association recommends the same glucose target for patients who have experienced an acute ischemic stroke. For this patient, insulin therapy is not currently indicated; rather, his blood glucose level should be monitored and insulin initiated if his glucose level rises above 180 mg/dL (10.0 mmol/L).Although metformin (Option B) is associated with minimal risk for adverse outcomes in outpatients, inconsistency in nutrition, hemodynamics, and rapid changes in organ function are common in hospitalized patients. Therefore, initiation of metformin and other outpatient oral or noninsulin injectable agents should generally be deferred until the patient nears hospital discharge.Although it is appropriate to delay feeding in this patient until a dysphagia evaluation has been completed, delaying feeding (Option C) in a hospitalized patient for the sole purpose of treating hyperglycemia is inappropriate.",
+  "critique_links": [],
   "key_points": [
     "Inpatient hyperglycemia may occur in the setting of illness or as a result of previously unrecognized diabetes mellitus; an inpatient hemoglobin A1c measurement of 6.5% or higher is indicative of glucose abnormalities before the hospitalization."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.252134-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.179365-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 33-year-old woman is evaluated for abdominal pain, a 2-day history of watery diarrhea five times daily, and a suspected Clostridioides difficile infection. She is completing treatment for pyelonephritis with ciprofloxacin; her medical history is otherwise unremarkable. She reports no laxative use and takes no additional medications.On physical examination, vital signs are normal. Abdominal examination reveals mild tenderness to palpation, with no guarding or rebound.",
   "question_stem": "Which of the following tests would be most appropriate in establishing the diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Nucleic acid amplification testing (NAAT) of stool should be performed for Clostridioides difficile toxin genes (Option D). This patient has diarrhea, abdominal pain, and suspected C. difficile infection (CDI) following antibiotic treatment. C. difficile produces an enterotoxin (toxin A) and a cytotoxin (toxin B) that cause clinical illness. Diagnostic testing for CDI is indicated in patients with new onset of more than three unformed stools in 24 hours that is not explained by an alternative condition, such as laxative use. NAAT for C. difficile toxin genes is sensitive and specific if appropriate institutional stool submission criteria are strictly met (no laxative use; more than three new-onset, unformed, and unexplained stools in 24 hours). In this setting, NAAT alone is sufficient. A multistep diagnostic approach for stool enzyme immunoassay (EIA) toxin testing using glutamate dehydrogenase (GDH) plus toxin (discordant results require NAAT testing); GDH plus toxin; or NAAT plus toxin can alternatively be pursued, particularly in settings not adherent to the aforementioned specified criteria for stool submission.Colonoscopy (Option A) is not routinely pursued in suspected CDI and is not appropriate for this patient. It may be helpful in evaluating a patient with a suspected alternative diagnosis that requires endoscopic visualization and biopsy or in patients with falsely negative C. difficile stool studies by visualizing mucosal pseudomembranous plaques. However, pseudomembranous plaques are not present in all patients with CDI, so their absence cannot rule out CDI. Colonoscopy may be contraindicated in patients with more severe presentations because of the risk of colonic perforation.Although highly specific and rapid, EIA testing for toxins A and B (Option B) lacks sensitivity and is not recommended as a standalone test for CDI diagnosis. It is used in combination with more sensitive tests (EIA for GDH or NAAT) as part of multistep testing algorithms.EIA testing for GDH (Option C), an antigenic enzymatic protein present in all C. difficile isolates, is sensitive but lacks specificity because it is detected in both toxigenic and nontoxigenic strains. It is not recommended as a standalone test for CDI diagnosis but can be combined with more specific tests (EIA for toxin) as part of multiple-step testing algorithms.",
+  "critique_links": [],
   "key_points": [
     "Nucleic acid amplification testing for Clostridioides difficile toxin genes is sensitive and specific if stool submission criteria (no laxative use; new onset of more than three unformed and unexplained stools in 24 hours) are strictly met."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:45:33.763754-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:29.501567-06:00"
 }

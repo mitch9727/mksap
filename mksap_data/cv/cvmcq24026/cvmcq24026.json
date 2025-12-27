@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 54-year-old woman is hospitalized for acute decompensated heart failure. She has responded well to intravenous diuretics, with decreased dyspnea and lower extremity edema. She has a history of peripheral neuropathy, atrial fibrillation, and bilateral carpal tunnel syndrome. Current medications are furosemide, carvedilol, valsartan-sacubitril, spironolactone, empagliflozin, and rivaroxaban.On physical examination, blood pressure is 102/74 mm Hg, pulse rate is 78/min and irregularly irregular, respiration rate is 16/min, and oxygen saturation is 98% breathing room air. The lungs are clear to auscultation. Central venous pressure is not elevated. The extremities are warm and well perfused. Trace peripheral edema is noted in both ankles.ECG shows low voltage. Transthoracic echocardiogram reveals a left ventricular (LV) ejection fraction of 40%, moderate circumferential LV hypertrophy, and grade 3 diastolic dysfunction.Complete blood count and comprehensive metabolic panel are normal. Serum and urine immunofixation shows no monoclonal proteins. Serum κ/λ free light chain ratio is normal.Cardiac catheterization shows no significant coronary artery disease.",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate test is 99m-technetium pyrophosphate (99mTc-PYP) scintigraphy (Option C) to assess the possibility of cardiac amyloidosis. The two most common types of cardiac amyloidosis are AL amyloidosis, in which amyloid fibrils are composed of monoclonal immunoglobulin light chains, and ATTR amyloidosis, in which amyloid fibrils are composed of transthyretin protein. Echocardiographic findings that suggest amyloidosis include a thickened left ventricular wall, grade 2 or higher diastolic dysfunction, and an apical sparing global longitudinal strain pattern. ECG may show low voltage. Cardiac magnetic resonance imaging findings of amyloidosis, including late gadolinium enhancement, are highly suggestive but do not differentiate between types. Evaluation for AL amyloidosis includes assessment for a monoclonal gammopathy, whereas 99mTc-PYP scintigraphy is the diagnostic test that specifically identifies cardiac amyloidosis due to ATTR (see ). This patient with heart failure with reduced ejection fraction has several features that suggest cardiac amyloidosis, including peripheral neuropathy, bilateral carpal tunnel syndrome, and a low-voltage ECG. She does not have a monoclonal gammopathy. 99mTc-PYP scintigraphy is indicated.Cardiac PET (Option A) is a form of myocardial perfusion imaging useful in the evaluation of patients with known or suspected coronary artery disease. It may be particularly helpful in patients with obesity or nondiagnostic single-photon emission CT imaging. It has no role, however, in the evaluation of patients with possible amyloidosis.Stress echocardiography (Option B) is of little clinical utility in this scenario. Indications for stress echocardiography include assessment of possible coronary ischemia and identification of hemodynamic abnormalities (valvular dysfunction, diastolic dysfunction, pulmonary hypertension, or ventricular outflow tract obstruction) during stress. This patient does not have an indication for a stress echocardiogram.Transesophageal echocardiography (TEE) (Option D) is not indicated in this clinical scenario. TEE is commonly used when there is suboptimal transthoracic imaging or for other specific indications, including assessment of infective endocarditis, prosthetic heart valves, acute aortic abnormalities, and the presence of left atrial thrombus. There is no indication for TEE in this patient.",
+  "critique": "The most appropriate test is 99m-technetium pyrophosphate (99mTc-PYP) scintigraphy (Option C) to assess the possibility of cardiac amyloidosis. The two most common types of cardiac amyloidosis are AL amyloidosis, in which amyloid fibrils are composed of monoclonal immunoglobulin light chains, and ATTR amyloidosis, in which amyloid fibrils are composed of transthyretin protein. Echocardiographic findings that suggest amyloidosis include a thickened left ventricular wall, grade 2 or higher diastolic dysfunction, and an apical sparing global longitudinal strain pattern. ECG may show low voltage. Cardiac magnetic resonance imaging findings of amyloidosis, including late gadolinium enhancement, are highly suggestive but do not differentiate between types. Evaluation for AL amyloidosis includes assessment for a monoclonal gammopathy, whereas 99mTc-PYP scintigraphy is the diagnostic test that specifically identifies cardiac amyloidosis due to ATTR (see Table: Subtypes of Cardiac Amyloidosis). This patient with heart failure with reduced ejection fraction has several features that suggest cardiac amyloidosis, including peripheral neuropathy, bilateral carpal tunnel syndrome, and a low-voltage ECG. She does not have a monoclonal gammopathy. 99mTc-PYP scintigraphy is indicated.Cardiac PET (Option A) is a form of myocardial perfusion imaging useful in the evaluation of patients with known or suspected coronary artery disease. It may be particularly helpful in patients with obesity or nondiagnostic single-photon emission CT imaging. It has no role, however, in the evaluation of patients with possible amyloidosis.Stress echocardiography (Option B) is of little clinical utility in this scenario. Indications for stress echocardiography include assessment of possible coronary ischemia and identification of hemodynamic abnormalities (valvular dysfunction, diastolic dysfunction, pulmonary hypertension, or ventricular outflow tract obstruction) during stress. This patient does not have an indication for a stress echocardiogram.Transesophageal echocardiography (TEE) (Option D) is not indicated in this clinical scenario. TEE is commonly used when there is suboptimal transthoracic imaging or for other specific indications, including assessment of infective endocarditis, prosthetic heart valves, acute aortic abnormalities, and the presence of left atrial thrombus. There is no indication for TEE in this patient.",
+  "critique_links": [],
   "key_points": [
     "99m-Technetium pyrophosphate scintigraphy is a diagnostic test that specifically identifies cardiac amyloidosis due to ATTR.",
     "Cardiac amyloidosis is suggested by increased wall thickness on echocardiogram accompanied by a low-voltage ECG."
@@ -52,11 +53,35 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/cvtab24040.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:48:43.126301-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "cvtab24040",
+        "file": "tables/cvtab24040.html",
+        "title": "Subtypes of Cardiac Amyloidosis",
+        "short_title": "Subtypes of Cardiac Amyloidosis",
+        "footnotes": [
+          "AL = amyloid light chain; ATTR = amyloid transthyretin; CMR = cardiac magnetic resonance; F = females; FLC = free light chain; h-ATTR = hereditary amyloid transthyretin; LGE = late gadolinium enhancement; M = males; SPEP = serum protein electrophoresis; UPEP = urine protein electrophoresis; wt-ATTR = wild-type amyloid transthyretin.",
+          "Information from Witteles R. Cardiac amyloidosis. <a href=\"https://www.acc.org/latest-in-cardiology/articles/2016/07/07/14/59/cardiac-amyloidosis\" target=\"_blank\">https://www.acc.org/latest-in-cardiology/articles/2016/07/07/14/59/cardiac-amyloidosis</a>. Accessed September 4, 2024."
+        ],
+        "headers": [
+          "Subtype",
+          "Demographics",
+          "Clinical Manifestations",
+          "Diagnostic Tests",
+          "Therapy"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.470422-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old man is hospitalized with a 5-day history of fever, bloody diarrhea, and abdominal pain. Medical history is significant for end-stage kidney disease, for which he underwent kidney transplantation 1 year ago. Medications are prednisone, mycophenolate, and tacrolimus.Vital signs are normal. Other than diffuse abdominal tenderness on palpation, the physical examination is unremarkable.Laboratory studies:Hemoglobin9.5 g/dL (95 g/L)LLeukocyte count3400/µL (3.4 × 109/L)LPlatelet count98,000/µL (98 × 109/L)LAlanine aminotransferase99 U/LHAspartate aminotransferase88 U/LH",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis in this patient is cytomegalovirus infection (Option A). Approximately 60% to 90% of adults have latent cytomegalovirus infection, and disease reactivation is common in persons who are immunosuppressed (patients with AIDS, transplant recipients). After solid organ transplantation (SOT), the risk for cytomegalovirus is highest (>50%) for donor-positive/recipient-negative (D+/R−) transplantation, intermediate (15%-20%) for D−/R+ and D+/R+ transplantation, and lowest for D−/R− transplantation. Cytomegalovirus can cause retinitis (especially in persons with AIDS), pneumonitis, hepatitis, bone marrow suppression, colitis with bloody diarrhea, esophagitis, and adrenalitis. This kidney transplant recipient has bone marrow suppression (leukopenia and thrombocytopenia), hepatitis (elevated aminotransferase levels), and bloody diarrhea consistent with cytomegalovirus reactivation. Colitis is the most common manifestation of cytomegalovirus disease after transplantation and can occur with low viral loads or without viremia. Diagnosis relies on cytopathic demonstration of “owl's eye” intracellular inclusions from tissue biopsy. Antiviral treatment with valganciclovir or ganciclovir is indicated in tissue invasive disease in SOT. Prophylaxis with valganciclovir is often preferred after SOT for patients at high risk (D+/R−, lymphocyte depletion) and is usually given for at least 3 to 6 months.Entamoeba histolytica (Option B) and Salmonella enteritidis (Option C) can cause bloody diarrhea, but neither presents with pancytopenia. Therefore, they are unlikely possibilities in a solid organ transplant recipient.Strongyloides stercoralis (Option D) is the only parasite that has an autoinfection route (ability to complete its life cycle entirely within the human host), resulting in an increasing burden of parasites that can survive for decades in patients. Disseminated strongyloidiasis after SOT can present with abdominal pain and diarrhea, but it is usually nonbloody. Furthermore, disseminated Strongyloides infection may present with sepsis with colonic bacteria, serpiginous rash, meningitis, or eosinophilic pneumonia.",
+  "critique_links": [],
   "key_points": [
     "Latent cytomegalovirus infection is present in approximately 60% to 90% of adults, and patients who are immunosuppressed (e.g., patients with AIDS, transplant recipients) may experience disease reactivation with retinitis, pneumonitis, hepatitis, bone marrow suppression, colitis with bloody diarrhea, esophagitis, or adrenalitis."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.106137-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.638387-06:00"
 }

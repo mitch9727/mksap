@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 25-year-old woman is evaluated during a preventive health care visit. She has no symptoms and exercises regularly. Her father died suddenly at age 53 years, and autopsy revealed that he had hypertrophic cardiomyopathy. The patient has no medical problems and takes no medications.Physical examination findings, including vital signs, are normal.Results of routine laboratory studies are unremarkable.ECG is normal.",
   "question_stem": "Which of the following is the most appropriate screening test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient should undergo screening for hypertrophic cardiomyopathy (HCM) with transthoracic echocardiography (TTE) (Option C). HCM is an autosomal dominant heritable disorder related to variants in the genes that primarily encode sarcomeric proteins. Patients with a first-degree relative with HCM should undergo screening with physical examination, ECG, and TTE. TTE is necessary to measure left ventricular (LV) wall thickness and to look for any other signs of HCM, including elongation of the anterior leaflet of the mitral valve, abnormal anatomy of the papillary muscles, LV crypts, and hyperdynamic LV function. In general, a diagnosis of HCM is made if end-diastolic wall thickness in any LV segment is 15 mm or greater in the absence of another cause of hypertrophy. However, in first-degree family members of a person with known HCM, or in an individual who carries a pathogenic variant in an HCM gene, the diagnostic threshold is reduced to 13 mm or greater in any LV wall segment. After initial screening, ECG and echocardiography should be repeated every 1 to 2 years in children and adolescents and every 3 to 5 years in adults or with a change in clinical status. This patient's father died of HCM, and she and other first-degree family members should undergo screening for HCM with ECG and TTE.Cardiac magnetic resonance (CMR) imaging (Option A) is not a first-line screening test for HCM because, typically, screening starts with resting TTE for first-degree family members of individuals with HCM. CMR imaging may be used in HCM to determine maximum LV wall thickness and other anatomic measures, especially if visualization on echocardiography is inadequate. The extent of myocardial fibrosis can also be estimated with late gadolinium enhancement, which is associated with increased risk for ventricular arrhythmias.Genetic testing (Option B) may be used for risk stratification of family members only if a pathogenic or likely pathogenic variant is first identified in the affected proband (i.e., person in the family who is first identified/known to have phenotypic evidence of HCM). Genetic testing of an unaffected family member is uninformative when the family's pathogenic variant is unknown.Performing no further testing (Option D) in this patient would be inappropriate. A normal physical examination and normal ECG are not enough to exclude the possibility of HCM given her family history. TTE is needed to measure LV wall thickness.",
+  "critique_links": [],
   "key_points": [
     "Physical examination, ECG, and transthoracic echocardiography are used for screening of first-degree family members for hypertrophic cardiomyopathy (HCM).",
     "In patients with a first-degree relative with HCM, ECG and echocardiography should be repeated after initial screening every 1 to 2 years in children and adolescents and every 3 to 5 years in adults or with a change in clinical status."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.643118-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:26.596669-06:00"
 }

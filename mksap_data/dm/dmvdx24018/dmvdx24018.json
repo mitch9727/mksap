@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old man develops a generalized painful skin rash 4 weeks after starting allopurinol for recurrent gout. He additionally has fever, malaise, and facial swelling.The rash on his thigh is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is drug-induced hypersensitivity syndrome (DIHS), a severe life-threatening medication reaction also known as drug reaction with eosinophilia and systemic symptoms (DRESS) (Option B). The most common medications that cause DIHS include sulfonamide antibiotics, allopurinol, and anticonvulsants. Unlike other severe medication reactions, the onset of symptoms is delayed, often 2 to 6 weeks following exposure. Symptoms begin with fever and flulike symptoms, quickly followed by burning skin pain and a morbilliform exanthem that starts on the face and upper trunk and spreads distally. Eventually the patient develops striking facial edema and redness, a hallmark of DIHS. Oral mucosal involvement is common.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24620.7b1d2cf338d28747df3ba6f5eb491a96.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.814471-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24620",
+        "file": "figures/dmfig24620.7b1d2cf338d28747df3ba6f5eb491a96.jpg",
+        "title": "Drug-Induced Hypersensitivity Syndrome",
+        "short_title": "stem Drug-Induced Hypersensitivity Syndrome",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 603
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.365634-06:00"
 }

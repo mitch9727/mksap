@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old man is evaluated for fatigue. He has no family history of cancer. He has no other medical problems and takes no medications.Physical examination findings, including vital signs, are normal.Laboratory study results reveal anemia.Colonoscopy identifies a mass at the splenic flexure, and biopsy confirms adenocarcinoma. Staging CT scans show no metastatic disease.The patient undergoes an uncomplicated left hemicolectomy. Final pathology reveals stage I (T2N0) colon cancer with clear margins of resection.",
   "question_stem": "Which of the following is the most appropriate next test?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Although all of the options offered would be potential considerations for a patient with metastatic colorectal cancer (CRC), obtaining immunohistochemical (IHC) stains for mismatch repair (MMR) proteins (Option D) would be the most appropriate next step for this patient with stage I disease. MMR protein status (MMR deficient [dMMR] vs MMR proficient [pMMR]) should be established at initial diagnosis of all stages of CRC to assess for the possibility of a germline MMR deficiency, or Lynch syndrome, and to potentially guide treatment. Approximately 15% of stage I and II CRCs will show loss of expression of one or more MMR enzymes and are classified as dMMR. The incidence is somewhat lower in stage III and IV disease. The presence of intact MMR proteins on IHC testing, in the absence of a compelling family history, essentially excludes germline MMR deficiency. Approximately 20% of patients with dMMR CRC, however, will be found to have Lynch syndrome on germline analysis. Lynch syndrome is associated with a high lifetime risk of CRC as well as endometrial and other cancers, and formal genetic counseling and germline testing would be recommended. The diagnosis of Lynch syndrome would lead to enhanced screening procedures for additional CRCs and other malignancies, as well as consideration of family screening because transmission is autosomal dominant. MMR status also influences treatment options. Current immunotherapies are virtually inactive in pMMR CRC, whereas immunotherapy is highly active in dMMR tumors. Immunotherapy, however, would not be warranted in this patient with resected early-stage disease regardless of MMR status.Fluorescence in situ hybridization assay for HER2 amplification and overexpression or IHC stains for KRAS and NRAS variant status (Options A, B) are not indicated for this patient with stage I colon cancer. These tests are relevant for selecting targeted therapies in patients with metastatic CRC, but they do not play a role in managing local or locoregional disease.This patient does not require testing for BRAF V600E (Option C). A variant in the kinase domain of BRAF (most commonly, BRAF V600E) is seen in approximately 8% of patients with CRC and confers an aggressive phenotype. In metastatic disease, BRAF V600E can be a target for combined anti-BRAF plus epidermal growth factor receptor therapy. However, this would not be relevant in those with early-stage disease, such as this patient. In a patient with known dMMR cancer, subsequent identification of a BRAF V600E variant essentially excludes a germline MMR deficiency.",
+  "critique_links": [],
   "key_points": [
     "All patients diagnosed with colorectal cancer should be screened for mismatch repair deficiency, regardless of stage at presentation.",
     "Approximately 20% of patients with mismatch repair–deficient colorectal cancer (CRC) will have Lynch syndrome, which is associated with a high lifetime risk of CRC as well as endometrial and other cancers; if affected, patients and their family members require enhanced screening."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:51:14.800498-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:31.597142-06:00"
 }

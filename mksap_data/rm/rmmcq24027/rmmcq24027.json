@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 32-year-old woman is evaluated for hair loss on the crown of the head and rash on the right cheek. She was recently diagnosed with systemic lupus erythematosus, manifested by arthritis, anemia, leukopenia, and thrombocytopenia. Her medications are hydroxychloroquine and prednisone.On physical examination, vital signs are normal. Examination of the scalp reveals a 2-cm × 2-cm erythematous, slightly scaly plaque on the crown of the head, along with absence of hair and evidence of follicular plugging within the lesion. A similar-appearing but smaller lesion is seen on the right cheek.",
+  "question_text": "A 32-year-old woman is evaluated for hair loss on the crown of the head and rash on the right cheek. She was recently diagnosed with systemic lupus erythematosus, manifested by arthritis, anemia, leukopenia, and thrombocytopenia. Her medications are hydroxychloroquine and prednisone.On physical examination, vital signs are normal. Examination of the scalp reveals a 2-cm × 2-cm erythematous, slightly scaly plaque on the crown of the head, along with absence of hair and evidence of follicular plugging within the lesion. A similar-appearing but smaller lesion is seen on the right cheek.Laboratory studies:Hematocrit34%LLeukocyte count3500/μL (3.5 × 109/L)LPlatelet count130,000/μL (130 × 109/L)LAntinuclear antibody titer1:640 (speckled pattern)Anti-Ro/SSA antibodiesPositiveAnti–Smith antibodiesPositive",
   "question_stem": "Which of the following is the most likely diagnosis for the patient's dermatologic findings?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is discoid lupus erythematosus (DLE) (Option C). DLE is the most common manifestation of chronic cutaneous lupus erythematosus and can cause scarring, atrophy, and permanent alopecia. The typical appearance of discoid lesions involves erythematous patches or plaques with scaling and evidence of follicular plugging when located on the scalp, as is seen in this patient. More chronic lesions produce skin atrophy/scarring and may be hypo- or hyperpigmented. DLE lesions usually appear on the head and neck area; less commonly, they can be generalized, affecting skin below the neck. Sun exposure may exacerbate DLE. Although it can be seen in systemic lupus erythematosus (SLE), as in this patient, DLE most often occurs in isolation. Diagnosis is usually clinical, but biopsy can confirm the diagnosis in uncertain cases. Treatment of DLE includes photoprotection, topical or intralesional glucocorticoids, topical calcineurin inhibitors, systemic antimalarial agents, or, in severe disease, biologics.Acute cutaneous lupus erythematosus (ACLE) (Option A) typically presents as a malar (butterfly) rash. The rash can also be seen in other areas of the face and can be diffuse. It occurs in the setting of active SLE and may be precipitated by sun exposure. ACLE usually responds to treatment of the active SLE but postinflammatory hyperpigmentation may develop. However, it does not lead to scarring. ACLE is not present in this patient.Alopecia areata (Option B) is an autoimmune condition that can cause circumscribed areas of hair loss. It can occur in patients with SLE but is not specific for SLE. The lesions exhibit alopecia without erythema or scaling. Treatment is topical or intralesional glucocorticoid therapy or systemic immunotherapy in resistant cases. It is not associated with skin lesions outside of the scalp and thus would not explain this patient's presentation.Subacute cutaneous lupus erythematosus (SCLE) (Option D) is a photosensitive rash that occurs on sun-exposed areas, such as shoulders, arms, and upper chest, but rarely affects the face or scalp. The rash presents as plaques and papules that can become annular or polycyclic with central clearing and scaling. It is highly associated with anti-Ro/SSA antibody. ACLE is treated with photoprotection along with topical and/or antimalarial agents. Postinflammation hyperpigmentation can occur, but SCLE also does not lead to scarring. The rash location on the scalp and face in this patient argues against SCLE despite the presence of anti-Ro/SSA antibody.",
+  "critique_links": [],
   "key_points": [
     "Discoid lupus erythematosus is the most common manifestation of chronic cutaneous lupus erythematosus and can cause scarring, atrophy, and permanent alopecia."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:46:51.508233-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.670221-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 32-year-old woman is evaluated for a 2-month history of gradually worsening left foot pain. She began training for a marathon 3 months ago. The pain worsens with weight bearing and improves after rest. Medical history is otherwise unremarkable. She takes ibuprofen as needed for the foot pain.On physical examination, vital signs are normal. Pain is elicited with palpation of the plantar and lateral surface of the left proximal fifth metatarsal. No ecchymosis, swelling, or erythema is noted.Radiographs of the left foot are normal.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management for this patient with a suspected stress fracture is to obtain an MRI of the left foot (Option B). Stress fractures are overuse injuries that often occur with a sudden increase in activity or introduction of a new activity. The pain often starts insidiously and increases over time, eventually occurring at rest. The metatarsals, tarsals, and calcaneus are the most common sites of stress fracture in the foot. During examination, pain is elicited over the bone with palpation and percussion or with hopping on a single leg. The calcaneal squeeze test may elicit pain in patients with calcaneal fracture. Radiography is the first-line diagnostic test but is not completely sensitive, especially in the early period. If plain radiographs are normal, patients with a suspected stress fracture should undergo MRI. Treatment varies according to the risk for nonunion, which is greatest in anatomic locations of high tensile stress and/or vascular watershed (see Table: Nonunion Risk in Foot and Ankle Stress Fractures). The mainstay of stress fracture treatment is reduction in weightbearing, immobilization, activity modification, maintenance of adequate nutrition, and gradual return to exercise. High-risk fractures may require early operative intervention. This patient has had insidious onset of pain after an increase in high-impact activity, and she has point tenderness at the proximal fifth metatarsal. Despite negative plain radiographs, a high-risk stress fracture is still likely, and she should be further evaluated with MRI.Glucocorticoid injection (Option A) has utility as a second-line therapy for several causes of foot pain, including plantar fasciitis and Morton neuroma (interdigital neuralgia). However, glucocorticoid injection is not a recommended therapy for stress fracture, which is the most likely diagnosis in this patient.A metatarsal pad (Option C) is recommended to offload pressure on the interdigital nerve in the setting of Morton neuroma (interdigital neuralgia). This patient's pain and tenderness are not located between the digits, but rather on the bone, and thus interdigital neuralgia is not a likely diagnosis.Plantar fascia stretching (Option D) is part of first-line therapy for plantar fasciitis, which may present in athletes. Plantar fasciitis, however, is characterized by tenderness at the medial calcaneal tubercle and the deep plantar fascia, neither of which is present in this patient.",
+  "critique_links": [],
   "key_points": [
     "Patients with a suspected stress fracture of the foot and negative radiographs should undergo MRI.",
     "High-risk stress fractures of the foot may require early operative intervention."
@@ -51,10 +52,31 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/cstab24018.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:01:45.745269-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "cstab24018",
+        "file": "tables/cstab24018.html",
+        "title": "Nonunion Risk in Foot and Ankle Stress Fractures by Anatomic Location",
+        "short_title": "Nonunion Risk in Foot and Ankle Stress Fractures",
+        "footnotes": [],
+        "headers": [
+          "High Risk",
+          "Moderate Risk",
+          "Low Risk"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.007840-06:00"
 }

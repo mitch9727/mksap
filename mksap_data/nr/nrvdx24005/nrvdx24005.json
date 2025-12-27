@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 40-year-old woman with recently diagnosed advanced HIV infection is evaluated for altered mental status and hemianopia. Brain MRI is performed.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is progressive multifocal leukoencephalopathy (PML) (Option D), which is caused by reactivation of the polyomavirus JC (JCV). PML-associated demyelination is confined to the subcortical white matter and the cortex. On MRI, PML presents as discrete foci of demyelination-appearing hyperintense lesions without mass effect (arrow). Diagnosis requires polymerase chain reaction testing of cerebrospinal fluid for the presence of JCV and occasionally brain biopsy. In contrast, cerebral toxoplasmosis and primary central nervous system lymphoma cause discrete mass lesions, whereas neurosyphilis is associated with nonspecific changes on MRI.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/nrfig24605.92cbb0da2ec8b22f3c50285f97cf9b59.jpg",
-      "figures/nrfig24604.ac5f225d18445c73f1a3fcee1d2f4065.jpg"
+      "figures/nrfig24604.ac5f225d18445c73f1a3fcee1d2f4065.jpg",
+      "figures/nrfig24605.92cbb0da2ec8b22f3c50285f97cf9b59.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:42.589362-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "nrfig24604",
+        "file": "figures/nrfig24604.ac5f225d18445c73f1a3fcee1d2f4065.jpg",
+        "title": "MRI Showing Progressive Multifocal Leukoencephalopathy",
+        "short_title": "stem MRI of Progressive Multifocal Leukoencephalopathy",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 511,
+        "height": 435
+      },
+      {
+        "figure_id": "nrfig24605",
+        "file": "figures/nrfig24605.92cbb0da2ec8b22f3c50285f97cf9b59.jpg",
+        "title": "MRI Showing Progressive Multifocal Leukoencephalopathy",
+        "short_title": "crit MRI of Progressive Multifocal Leukoencephalopathy",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 511,
+        "height": 435
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.519808-06:00"
 }

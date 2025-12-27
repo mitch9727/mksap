@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 47-year-old woman is evaluated for acute onset of right flank pain and hematuria. Abdominal ultrasound is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Polycystic kidney disease (Option C) is the most likely diagnosis. Autosomal dominant polycystic kidney disease (ADPKD) manifests as large kidneys with multiple kidney cysts, and ultrasonography is the most common and least costly screening method. Ultrasonography criteria for diagnosing ADPKD are based on the number of visible cysts, the patient's age, and a family history of ADPKD.ADPKD is the leading monogenic cause of end-stage kidney disease (ESKD) and the fourth leading cause of ESKD. Genetic pathogenic variants of PKD1 and PKD2, which encode for proteins that regulate differentiation and proliferation of renal tubular epithelial cells, account for the vast majority of cases. More than 90% of variants are inherited as an autosomal dominant trait, with spontaneous germline variants accounting for the remaining cases. Early in the disease, there are generally no symptoms. Diagnosis is therefore often delayed in patients without a known family history of ADPKD. The first sign of ADPKD is often hypertension; other early signs and symptoms include hematuria (macroscopic or microscopic); pain or bloating in the back, flank, or abdomen; urinary tract infection; or kidney stones.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.541191-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "npfig24622",
+        "file": "figures/npfig24622.1b37b7fe689faabc0ec1ed014c271837.jpg",
+        "title": "Ultrasound Showing Polycystic Kidney Disease",
+        "short_title": "Ultrasound Showing Polycystic Kidney Disease",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 900
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.002749-06:00"
 }

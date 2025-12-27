@@ -1,7 +1,9 @@
 use serde_json::Value;
 use std::collections::{HashMap, HashSet};
 
-use super::types::{FigureReference, MediaType, SvgReference, SvgSource, TableReference, VideoReference};
+use super::types::{
+    FigureReference, MediaType, SvgReference, SvgSource, TableReference, VideoReference,
+};
 
 // ============================================================================
 // Content ID Extraction
@@ -51,7 +53,9 @@ pub fn build_figures_index(metadata: &Value) -> HashMap<String, Vec<FigureRefere
 
     if let Some(figures) = metadata.get("figures").and_then(|f| f.as_object()) {
         for figure in figures.values() {
-            if let Some(canonical_location) = figure.get("canonicalLocation").and_then(|v| v.as_str()) {
+            if let Some(canonical_location) =
+                figure.get("canonicalLocation").and_then(|v| v.as_str())
+            {
                 if let Some(figure_id) = figure.get("id").and_then(|v| v.as_str()) {
                     let fig_ref = extract_figure_reference(figure_id, figure);
 
@@ -107,7 +111,9 @@ pub fn build_videos_index(metadata: &Value) -> HashMap<String, Vec<VideoReferenc
 
     if let Some(videos) = metadata.get("videos").and_then(|v| v.as_object()) {
         for video in videos.values() {
-            if let Some(canonical_location) = video.get("canonicalLocation").and_then(|v| v.as_str()) {
+            if let Some(canonical_location) =
+                video.get("canonicalLocation").and_then(|v| v.as_str())
+            {
                 if let Some(video_id) = video.get("id").and_then(|v| v.as_str()) {
                     let title = video
                         .get("title")

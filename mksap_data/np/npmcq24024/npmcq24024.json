@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 76-year-old woman is evaluated in the hospital for acute kidney injury unresponsive to intravenous fluids after presenting to the emergency department with weakness, chills, and dark urine. She has no other medical problems and takes no medications.On physical examination, blood pressure is 155/86 mm Hg; other vital signs are normal. The remainder of the physical examination is unremarkable.Kidney biopsy shows necrotizing and crescentic glomerulonephritis affecting 50% of the glomeruli with linear staining for IgG on immunofluorescence.Chest radiograph is normal.",
+  "question_text": "A 76-year-old woman is evaluated in the hospital for acute kidney injury unresponsive to intravenous fluids after presenting to the emergency department with weakness, chills, and dark urine. She has no other medical problems and takes no medications.On physical examination, blood pressure is 155/86 mm Hg; other vital signs are normal. The remainder of the physical examination is unremarkable.Laboratory studies: C3 complementNormal C4 complementNormalCreatinine3.9 mg/dL (345 µmol/L)H1 month ago0.8 mg/dL (70.7 µmol/L)Anti–glomerular basement membrane antibodiesPositiveAntinuclear antibodiesNegativeMyeloperoxidase antibodiesPositiveProteinase-3 antibodiesNegativeUrinalysis3+ blood, 3+ proteinKidney biopsy shows necrotizing and crescentic glomerulonephritis affecting 50% of the glomeruli with linear staining for IgG on immunofluorescence.Chest radiograph is normal.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment is intravenous methylprednisolone, cyclophosphamide, and plasmapheresis (Option D). This patient's presentation is consistent with rapidly progressive glomerulonephritis due to anti–glomerular basement membrane (GBM) disease. The patient's biopsy shows linear staining for IgG on immunofluorescence, which is indicative of anti-GBM disease, and serologic anti-GBM antibodies confirm the diagnosis. Concomitant myeloperoxidase-ANCA positivity is noted in up to 33% of patients with anti-GBM disease. Initial treatment of anti-GBM disease consists of immunosuppression, including high-dose intravenous glucocorticoids (e.g., methylprednisolone) and cyclophosphamide, in addition to plasmapheresis, which removes antibodies. Plasmapheresis is typically performed every other day until the anti-GBM antibody titer is cleared.Hemodialysis (Option A) is not required at this time. Standard indications for hemodialysis in patients who present with acute kidney injury include severe hyperkalemia, refractory metabolic acidosis, volume overload refractory to diuretics, uremic manifestations, and dialyzable toxins. In patients presenting with anti-GBM disease who require dialysis and have a biopsy that shows 100% of glomeruli affected by crescents and/or 50% or more global glomerulosclerosis, an intense immunosuppressive regimen may not be entirely utilized because these patients are unlikely to recover kidney function. However, this patient's presentation does not fit this pattern.Intravenous methylprednisolone (Option B) will mitigate new antibody formation but will not have a significant effect on anti-GBM antibody titers. Therefore, glucocorticoids alone are not a recommended treatment in anti-GBM disease.Intravenous methylprednisolone and rituximab (Option C) is a first-line therapy for ANCA-associated glomerulonephritis. However, in anti-GBM disease, it is reserved for patients who do not respond to or are unable to tolerate standard therapy with glucocorticoids, cyclophosphamide, and plasmapheresis.",
+  "critique_links": [],
   "key_points": [
     "Treatment of anti–glomerular basement membrane (GBM) disease consists of high-dose intravenous glucocorticoids and cyclophosphamide as well as plasmapheresis, which is usually performed every other day until the anti-GBM antibody titer is cleared."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:36.282573-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.663815-06:00"
 }

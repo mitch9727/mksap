@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 69-year-old man is evaluated in the emergency department after 2 hours of severe substernal chest pressure that began while at rest. He received aspirin in the ambulance and arrived in the emergency department with minimal residual chest discomfort. Initial ECG was normal. Shortly after arrival, recurrent chest discomfort develops and radiates to the back with associated diaphoresis and shortness of breath. Medical history is unremarkable, and he takes no medications.On physical examination, blood pressure is 100/52 mm Hg, pulse rate is 54/min, and oxygen saturation is 92% with the patient breathing ambient air; other vital signs are normal. There is a soft diastolic murmur at the left sternal border. Faint bibasilar crackles are present. There is no lower extremity edema.ECG and chest radiograph are shown.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management is emergent CT angiography (CTA) (Option A) to establish the likely diagnosis of an acute ascending aortic dissection. Although the presentation of ST-elevation myocardial infarction (STEMI) is often clear, several diagnoses can mimic STEMI. Acute aortic syndromes may cause ST-segment elevation if the dissection involves the right coronary artery ostium, resulting in myocardial ischemia. Diagnostic clues to the presence of aortic dissection include a tearing quality of pain with radiation to the back, differential blood pressures and pulses in the upper extremities, aortic insufficiency, pulsus paradoxus, and mediastinal widening on chest radiograph. Invasive aortic angiography, magnetic resonance angiography, and transesophageal echocardiography have sensitivity and specificity similar to CTA (shown; intimal flap indicated by arrow) in diagnosing acute thoracic aortic disease; however, CTA is most often performed because of speed and widespread availability. Acute thoracic aortic dissection is a surgical emergency requiring emergent thoracic surgery. This patient has findings that suggest acute ascending aortic dissection, including chest pain radiating to the back, evidence of aortic insufficiency (diastolic murmur, wide pulse pressure, hypotension, and pulmonary edema), and a widened mediastinum on chest radiograph. He should undergo immediate CTA and likely emergency surgery.Although this patient is having an acute myocardial infarction, primary percutaneous coronary intervention (Option B) and the associated need for anticoagulation and dual antiplatelet therapy would delay and complicate the surgical intervention that is needed emergently for this patient.Although inferior myocardial infarction may be associated with right ventricular infarction requiring intravenous fluids (Option C), this patient has pulmonary edema and aortic valvular insufficiency without evidence of active bleeding. Fluid resuscitation is not indicated.Neither intravenous anticoagulation, such as unfractionated heparin (Option D), nor thrombolytic therapy (Option E) is an appropriate treatment for acute aortic dissection, as they both would increase the risk of bleeding and complicate the pending surgery. Other than blood pressure control, usually with intravenous β-blockers, medical therapy is not effective in type A aortic dissection, and immediate surgery is indicated.",
+  "critique_links": [],
   "key_points": [
     "Acute aortic syndromes may cause ST-segment elevation if the dissection involves the coronary artery with resultant myocardial ischemia.",
     "CT angiography (CTA), magnetic resonance angiography, and transesophageal echocardiography have similar sensitivity and specificity in diagnosing acute thoracic aortic disease; however, CTA is most often performed because of speed and widespread availability."
@@ -58,12 +59,52 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/cvfig24208.12524108050589bdfc5199d8c7b364b6.jpg",
       "figures/cvfig24206.5c2df894299aa10181c0bcd110360060.jpg",
-      "figures/cvfig24207.15c014061376b411aa4ec0ab43a5824f.jpg"
+      "figures/cvfig24207.15c014061376b411aa4ec0ab43a5824f.jpg",
+      "figures/cvfig24208.12524108050589bdfc5199d8c7b364b6.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:48:31.546607-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24206",
+        "file": "figures/cvfig24206.5c2df894299aa10181c0bcd110360060.jpg",
+        "title": "ECG in a Patient With Severe Substernal Chest Pressure",
+        "short_title": "stem ECG in Patient With Chest Pressure",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 893,
+        "height": 360
+      },
+      {
+        "figure_id": "cvfig24207",
+        "file": "figures/cvfig24207.15c014061376b411aa4ec0ab43a5824f.jpg",
+        "title": "Chest Radiograph in a Patient With Severe Substernal Chest Pressure",
+        "short_title": "stem Chest X-ray in Patient With Chest Pressure",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 778
+      },
+      {
+        "figure_id": "cvfig24208",
+        "file": "figures/cvfig24208.12524108050589bdfc5199d8c7b364b6.jpg",
+        "title": "CT Angiogram Showing Acute Thoracic Aortic Disease",
+        "short_title": "critique CTA of Thoracic Aortic Disease",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 466,
+        "height": 251
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.406612-06:00"
 }

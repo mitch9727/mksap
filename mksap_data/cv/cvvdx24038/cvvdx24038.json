@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 68-year-old man with stable chronic angina is evaluated for an irregular pulse discovered during a routine evaluation.ECG is shown.",
   "question_stem": "Which of the following abnormalities is seen on this patient's ECG?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This ECG shows Mobitz type 2 second-degree atrioventricular block (Option C), which is characterized by regularly occurring nonconducted P waves. In this ECG, two nonconducted P waves are seen after the third QRS complex on the rhythm strip. In Mobitz type 2 block, the PR intervals for conducted beats are constant. In contrast, in Mobitz type 1 second-degree atrioventricular block, the PR intervals are increasingly longer before a nonconducted or blocked P wave. The findings on this ECG do not represent complete (third-degree) heart block, as there is still intermittent conduction of the P waves to the ventricles. However, Mobitz type 2 block is nearly as significant; it typically represents infra-Hisian conduction disease, a much less benign manifestation compared with Mobitz type 1 block, which usually occurs at the nodal level. This ECG also demonstrates high-grade atrioventricular block, which is defined as the absence of conduction of more than one successive P wave.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.453014-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24645",
+        "file": "figures/cvfig24645.ce78fe95beb1d77e44d9bb60b1deaf4a.jpg",
+        "title": "ECG Showing Mobitz Type 2 AV Block",
+        "short_title": "stem ECG Showing Mobitz Type 2 AV Block",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 336
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.926016-06:00"
 }

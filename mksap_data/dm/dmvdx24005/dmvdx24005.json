@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 22-year-old woman is evaluated for a mole, as shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient's skin finding is most consistent with a halo nevus (Option B), which is a benign melanocytic nevus surrounded by a round “halo” of hypopigmentation or depigmentation. It is commonly found on the upper back of adolescents and young adults. The lesion progresses through three stages. In the first stage, there is pigment loss, which usually lasts months, and often heralds the regression of the nevus. The second stage is the regression of the nevus, which usually lasts years. In the third stage, there is repigmentation of the halo.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24604.d729e2f590181f42e005c12d52ea4368.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.803354-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24604",
+        "file": "figures/dmfig24604.d729e2f590181f42e005c12d52ea4368.jpg",
+        "title": "Halo Nevus",
+        "short_title": "stem Halo Nevus",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 698
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.329672-06:00"
 }

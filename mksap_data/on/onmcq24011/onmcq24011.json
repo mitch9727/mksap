@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 68-year-old man is evaluated for lower urinary tract symptoms, which have been present for years but have worsened over the past 3 to 4 months.On physical examination, vital signs are normal. A small prostate nodule is noted on digital rectal examination.MRI of the prostate reveals suspicious foci in both the right and left prostatic lobes. Transrectal ultrasonography-guided biopsy reveals adenocarcinoma in multiple cores from both the right and left lobes with a Gleason score of 8. CT and bone scans are negative for metastatic disease.After a discussion of treatment options, the patient prefers nonsurgical treatment.",
+  "question_text": "A 68-year-old man is evaluated for lower urinary tract symptoms, which have been present for years but have worsened over the past 3 to 4 months.On physical examination, vital signs are normal. A small prostate nodule is noted on digital rectal examination.Laboratory studies:Prostate-specific antigen21.3 ng/mL (21.3 µg/L)HMRI of the prostate reveals suspicious foci in both the right and left prostatic lobes. Transrectal ultrasonography-guided biopsy reveals adenocarcinoma in multiple cores from both the right and left lobes with a Gleason score of 8. CT and bone scans are negative for metastatic disease.After a discussion of treatment options, the patient prefers nonsurgical treatment.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "This patient should receive external-beam radiation therapy (EBRT) plus androgen-deprivation therapy (ADT), such as leuprolide (Option D). Treatment for men with localized prostate cancer is based on risk stratification. Options include active surveillance for lower-risk disease, prostatectomy, and radiation therapy delivered through EBRT or brachytherapy. A combination of EBRT and ADT with either a gonadotropin-releasing hormone agonist or antagonist is a validated standard approach for the initial treatment of men diagnosed with high-risk and very high-risk disease. This approach has shown improved overall survival compared with radiation therapy alone. This patient has high-risk prostate cancer based on his Gleason score, extent of cancer, and prostate-specific antigen level greater than 20 ng/mL (20 µg/L) at diagnosis (). EBRT plus ADT is the most appropriate initial treatment for this patient. Prostatectomy would be another reasonable option, but he prefers radiation therapy.ADT alone (Option A) is a standard treatment for metastatic prostate cancer. However, it is not a standard treatment in men with high-risk localized prostate cancer. This group of patients requires a definitive local treatment, such as EBRT with ADT or prostatectomy.Brachytherapy (Option B) is not an appropriate treatment for those with diffuse or high-risk prostate cancer, such as this patient. Brachytherapy involves implanting a radiation source directly into the cancer for men who have cancer localized to one area or region of the prostate gland. It is an option for men with more limited involvement of the prostate with lower-risk disease. This patient has high-grade prostate cancer based on the extensive involvement of the prostate gland, high Gleason score, and markedly elevated prostate-specific antigen level.EBRT alone (Option C) would not be sufficient treatment for this patient. As noted, EBRT alone is inferior to the combination of EBRT plus ADT in men with high-risk prostate cancer, such as this patient.",
+  "critique": "This patient should receive external-beam radiation therapy (EBRT) plus androgen-deprivation therapy (ADT), such as leuprolide (Option D). Treatment for men with localized prostate cancer is based on risk stratification. Options include active surveillance for lower-risk disease, prostatectomy, and radiation therapy delivered through EBRT or brachytherapy. A combination of EBRT and ADT with either a gonadotropin-releasing hormone agonist or antagonist is a validated standard approach for the initial treatment of men diagnosed with high-risk and very high-risk disease. This approach has shown improved overall survival compared with radiation therapy alone. This patient has high-risk prostate cancer based on his Gleason score, extent of cancer, and prostate-specific antigen level greater than 20 ng/mL (20 µg/L) at diagnosis (Table: Prostate Cancer Risk Stratification). EBRT plus ADT is the most appropriate initial treatment for this patient. Prostatectomy would be another reasonable option, but he prefers radiation therapy.ADT alone (Option A) is a standard treatment for metastatic prostate cancer. However, it is not a standard treatment in men with high-risk localized prostate cancer. This group of patients requires a definitive local treatment, such as EBRT with ADT or prostatectomy.Brachytherapy (Option B) is not an appropriate treatment for those with diffuse or high-risk prostate cancer, such as this patient. Brachytherapy involves implanting a radiation source directly into the cancer for men who have cancer localized to one area or region of the prostate gland. It is an option for men with more limited involvement of the prostate with lower-risk disease. This patient has high-grade prostate cancer based on the extensive involvement of the prostate gland, high Gleason score, and markedly elevated prostate-specific antigen level.EBRT alone (Option C) would not be sufficient treatment for this patient. As noted, EBRT alone is inferior to the combination of EBRT plus ADT in men with high-risk prostate cancer, such as this patient.",
+  "critique_links": [],
   "key_points": [
     "Treatment for men with localized prostate cancer is based on risk stratification; options include active surveillance, prostatectomy, and radiation therapy through external-beam radiation or brachytherapy.",
     "The addition of a gonadotropin-releasing hormone agonist or antagonist for men undergoing external-beam radiation therapy for high-risk and very high-risk localized prostate cancer has been shown to improve overall survival."
@@ -52,12 +53,42 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/ontab24014.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:27:05.730830-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "ontab24014",
+        "file": "tables/ontab24014.html",
+        "title": "Prostate Cancer Risk Stratification",
+        "short_title": "Prostate Cancer Risk Stratification",
+        "footnotes": [
+          "PSA = prostate-specific antigen.",
+          "<sup>a</sup>T1 tumors are not palpable or seen on imaging; T1a (&lt;5% of specimen) and T1b (&gt;5% of specimen) are discovered incidentally in a pathologic specimen resected for benign disease; T1c is discovered in prostate biopsy for elevated serum PSA level. T2 tumors are palpable; T2a involves &lt;50% of one lobe; T2b involves &gt;50% of one lobe; T2c are in both lobes of the prostate. T3a tumors extend through the prostate capsule; T3b involves the seminal vesicles. T4 tumors are fixed to adjacent structures.",
+          "Data from NCCN Clinical Guidelines in Oncology. Prostate Cancer, version 1.2023. Accessed January 13, 2023. Available at: <a href=\"https://www.nccn.org/professionals/physician_gls/pdf/prostate.pdf\" target=\"_blank\">https://www.nccn.org/professionals/physician_gls/pdf/prostate.pdf</a>"
+        ],
+        "headers": [
+          "Risk Category",
+          "Definitiona"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.683367-06:00"
 }

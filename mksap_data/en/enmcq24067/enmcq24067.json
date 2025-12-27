@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 57-year-old woman is evaluated in the emergency department after being brought by her husband for 1 day of progressive lethargy and a 3-week history of fatigue and leg swelling. She has not seen a doctor in many years. She takes no medications.On physical examination, temperature is 34.4 °C (93.9 °F), blood pressure is 80/50 mm Hg, pulse rate is 48/min, respiration rate is 10/min, and oxygen saturation is 90% with the patient breathing ambient air. She is lethargic. Periorbital edema and macroglossia are noted. Lower extremity edema is present bilaterally.Intravenous fluids and supplemental oxygen are initiated.An ECG shows sinus bradycardia.",
+  "question_text": "A 57-year-old woman is evaluated in the emergency department after being brought by her husband for 1 day of progressive lethargy and a 3-week history of fatigue and leg swelling. She has not seen a doctor in many years. She takes no medications.On physical examination, temperature is 34.4 °C (93.9 °F), blood pressure is 80/50 mm Hg, pulse rate is 48/min, respiration rate is 10/min, and oxygen saturation is 90% with the patient breathing ambient air. She is lethargic. Periorbital edema and macroglossia are noted. Lower extremity edema is present bilaterally.Intravenous fluids and supplemental oxygen are initiated.Laboratory studies:Sodium132 mEq/L (132 mmol/L)LGlucose80 mg/dL (4.4 mmol/L)Thyroid-stimulating hormone129 μU/mL (129 mU/L)HFree thyroxine0.2 ng/dL (3 pmol/L)LAn ECG shows sinus bradycardia.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment for this patient with myxedema coma is intravenous hydrocortisone and levothyroxine (Option B). Myxedema coma is a life-threatening presentation of severe hypothyroidism with high mortality due to hemodynamic compromise. Symptoms and signs may include mental status changes (ranging from lethargy to coma), hypothermia, bradycardia, hypotension, and decreased respiration rate with hypoxia and hypercapnia. The thyroid-stimulating hormone (TSH) level is typically elevated with an overtly low free thyroxine (T4) level. Hyponatremia and hypoglycemia may also be present. This endocrine emergency should be managed aggressively with thyroid hormone replacement therapy, glucocorticoids, supportive measures, and treatment of coexisting problems, such as an infection or other precipitating factors. Intravenous hydrocortisone should be empirically initiated before thyroid hormone administration to treat possible concomitant adrenal insufficiency. Although there is some uncertainty over the most appropriate type of thyroid hormone replacement in myxedema coma (levothyroxine, liothyronine, or both), the American Thyroid Association strongly recommends intravenous levothyroxine administration for all patients. This patient's evaluation reveals hypotension, bradycardia, hypothermia, and lethargy, which are consistent with myxedema coma, likely caused by untreated hypothyroidism; her TSH and free thyroxine levels further support this diagnosis. Intravenous hydrocortisone followed by levothyroxine should be administered promptly.Intravenous hydrocortisone (Option A) alone would not be sufficient to treat this patient with myxedema coma. It is used to treat possible coexistent adrenal insufficiency. If a random cortisol level is greater than 18 μg/dL (497 nmol/L), hydrocortisone can be stopped.Oral levothyroxine (Option D) is not recommended because severe hypothyroidism may cause reduced gastrointestinal absorption. For this reason, intravenous administration of levothyroxine (Option C) is preferred; however, in this patient, hydrocortisone should also be administered.The optimal type of thyroid hormone replacement in myxedema coma is debated, and the addition of intravenous liothyronine to levothyroxine may be beneficial because of the possibility that T4 to triiodothyronine conversion may be decreased in this condition; however, liothyronine monotherapy is controversial. Additionally, thyroid hormone and hydrocortisone should be given intravenously, not orally. Therefore, oral liothyronine and hydrocortisone (Option E) is inappropriate.",
+  "critique_links": [],
   "key_points": [
     "Myxedema coma is a medical emergency with high mortality and should be treated aggressively with thyroid hormone replacement therapy, glucocorticoids, supportive measures, and treatment of precipitating factors.",
     "Intravenous hydrocortisone should be empirically initiated before intravenous thyroid hormone administration in patients with myxedema coma to treat possible concomitant adrenal insufficiency."
@@ -63,5 +64,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:52.652475-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.255828-06:00"
 }

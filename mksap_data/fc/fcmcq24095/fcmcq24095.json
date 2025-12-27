@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "An 82-year-old man is evaluated in the emergency department for several weeks of severe pain in the right great toe. He has expressive aphasia due to an ischemic stroke 1 year ago and now uses a communication board. He also has atrial fibrillation and peripheral vascular disease. Medications are rivaroxaban, metoprolol, and atorvastatin. The patient has no family and has not completed advance care planning.On physical examination, vital signs are normal. Dry gangrene, purulent exudate, and a positive probe to bone test are noted on the base of the right great toe. Doppler auscultation reveals absent dorsalis pedis pulses bilaterally and an absent right-sided posterior tibial pulse.Plain radiograph of the foot shows osteomyelitis of the great toe.A surgeon recommends revascularization with first ray amputation. The patient shakes his head no.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step is to assess the patient's decision-making capacity (Option A). Adult patients are presumed to be legally competent to make informed medical decisions unless a court legally determines otherwise. Unlike competence, which is a global determination, decision-making capacity should be evaluated for each decision to be made. The ability to make medical decisions is a multistep process: the patient must understand relevant information, consider different treatment options and weigh the risks and benefits of each, and communicate a choice that is stable over time and reflects the patient's values. An approach to assessing a patient's decision-making capacity is outlined in Table: Legally Relevant Criteria for Decision-Making Capacity. In this case, the patient has aphasia but no history of cognitive impairment. He should be given the opportunity, using his preferred method of communication, to express that he understands his options and to explain his decision.Obtaining a court-appointed guardian (Option B) would be inappropriate at this point. The patient shows no obvious evidence that he lacks decision-making capacity. Only if the patient lacks capacity and does not have a surrogate would a court-appointed guardian be appropriate.Physicians must determine a patient's decision-making capacity before proceeding forward (Option C). In an emergency situation, in which a patient is unable to communicate and the illness is life-threatening, the physician may assume consent for lifesaving therapies unless other information is available. In this case, the patient is medically stable, and delaying treatment to determine whether he has the capacity to refuse specific treatments is appropriate.An ethics consultation may be helpful if the next appropriate ethical step in care is ambiguous. Before an ethics consultation is requested (Option D), the patient's decision-making capacity should be assessed by the primary team.",
+  "critique_links": [],
   "key_points": [
     "The capacity to make medical decisions includes the patient's ability to understand relevant information, consider management options and weigh the risks and benefits of each, and communicate a choice that is stable over time and reflects the patient's values."
   ],
@@ -50,10 +51,36 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/fctab24011.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:34.131382-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "fctab24011",
+        "file": "tables/fctab24011.html",
+        "title": "Legally Relevant Criteria for Decision-Making Capacity and Approaches to Assessment of the Patient",
+        "short_title": "Legally Relevant Criteria for Decision-Making Capacity",
+        "footnotes": [
+          "<sup>a</sup>Questions are adapted from Grisso T, Appelbaum PS. Assessing Competence to Consent to Treatment: A Guide for Physicians and Other Health Professionals. New York: Oxford Univ Pr; 1998. Patients' responses to these questions need not be verbal.",
+          "From Appelbaum PS. Clinical practice. Assessment of patients' competence to consent to treatment. N Engl J Med. 2007;357:1836. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/17978292\" target=\"_blank\">PMID: 17978292</a> ©2007 Massachusetts Medical Society. Reprinted with permission from Massachusetts Medical Society."
+        ],
+        "headers": [
+          "Criterion",
+          "Patient's Task",
+          "Physician's Assessment Approach",
+          "Questions for Clinical Assessmenta",
+          "Comments"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.785640-06:00"
 }

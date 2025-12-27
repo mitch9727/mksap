@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 40-year-old man is evaluated for a 5-day history of sore throat and fever. He has no cough or nasal congestion. Medical history is otherwise unremarkable, and he takes no medications. He does not smoke.On physical examination, temperature is 38.5 °C (101.3 °F). The oropharynx is erythematous, but there is no tonsillar exudate. The anterior cervical lymph nodes are tender and enlarged. The remainder of the physical examination is normal.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in this patient with intermediate probability of bacterial pharyngitis is a rapid antigen detection test (RADT) for group A Streptococcus (GAS) (Option C). Most cases of acute pharyngitis are viral in cause, and only 5% to 15% of pharyngitis cases are caused by bacteria, most frequently GAS. In bacterial pharyngitis, antibiotic treatment reduces symptom duration and the likelihood of transmission as well as the risk for rheumatic fever and suppurative complications. Suppurative complications of bacterial pharyngitis include peritonsillar abscess, retropharyngeal abscess, and septic jugular thrombophlebitis; CT of the neck should be obtained immediately if these complications are suspected, regardless of availability or results of microbiologic testing. In patients without suspected suppurative complications, there are several accepted clinical risk scores used to guide testing and therapy, including the Centor criteria (fever, tonsillar exudates, tender anterior cervical lymphadenopathy, and absence of cough). Patients with two or fewer Centor criteria are very unlikely to have GAS pharyngitis and do not need to be tested or treated with antibiotics. Patients with three or four Centor criteria should be tested by using an RADT for GAS pharyngitis. This patient presents with three Centor criteria, placing him at intermediate risk for streptococcal pharyngitis, so an RADT is necessary to guide therapy.RADT has comparable sensitivity and specificity to throat culture (Option A). In patients who are at high risk for complications (immunocompromised, high-risk contacts or environment), a negative RADT result should be confirmed by throat culture; otherwise, it is unnecessary. Results of throat culture generally take 24 to 48 hours. Empiric treatment with antibiotics while awaiting culture data is not recommended, because short delays in therapy have not been associated with higher complication rates.Antibiotic therapy with penicillin VK (Option B) or amoxicillin is indicated for GAS pharyngitis to reduce the likelihood of cardiac complications, duration of symptoms, and transmission of infection. However, antibiotics are not generally indicated in the absence of microbiologic evidence of infection, particularly in this patient with only an intermediate Centor score.No testing or therapy is inappropriate (Option D), because this patient meets three Centor criteria, indicating an intermediate risk for streptococcal pharyngitis.",
+  "critique_links": [],
   "key_points": [
     "The Centor criteria (fever, tonsillar exudates, tender anterior cervical lymphadenopathy, and absence of cough) can be used to guide the need for testing (rapid antigen detection test) for group A streptococcal pharyngitis.",
     "Patients presenting with acute pharyngitis and two or fewer Centor criteria do not need to be tested for group A Streptococcus."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:46:41.595098-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:29.877018-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 39-year-old patient is evaluated for a 1-day history of abdominal pain and watery diarrhea. Two days ago, they completed a course of cephalexin for cellulitis. Medical history is otherwise noncontributory, and they take no medications.On physical examination, vital signs are normal. Abdominal examination reveals normal bowel sounds and minimal tenderness to palpation, with no guarding or rebound.Stool testing for Clostridioides difficile is positive.",
+  "question_text": "A 39-year-old patient is evaluated for a 1-day history of abdominal pain and watery diarrhea. Two days ago, they completed a course of cephalexin for cellulitis. Medical history is otherwise noncontributory, and they take no medications.On physical examination, vital signs are normal. Abdominal examination reveals normal bowel sounds and minimal tenderness to palpation, with no guarding or rebound.Laboratory studies:Leukocyte count11,000/µL (11 × 109/L)HCreatinine1.1 mg/dL (97.2 µmol/L)Stool testing for Clostridioides difficile is positive.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -43,7 +43,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "This patient has an initial episode of nonsevere Clostridioides difficile infection (CDI), and the most appropriate treatment is oral fidaxomicin (Option B). Risk factors for CDI include exposure to antibiotic and chemotherapeutic agents, older age, severe underlying comorbidities, presence of inflammatory bowel disease, solid organ transplantation, gastrointestinal surgery, and (possibly) gastric acid suppression with proton pump inhibitors. Nonsevere CDI is defined by a leukocyte count of less than 15,000/µL (15 × 109/L) and a serum creatinine level of less than 1.5 mg/dL (133 µmol/L). The Infectious Diseases Society of America (IDSA) and the Society for Healthcare Epidemiology of America (SHEA) recommend oral fidaxomicin as the preferred initial therapy, rather than oral vancomycin, for an initial episode of nonsevere or severe CDI, although vancomycin remains an acceptable alternative (see ).Intravenous vancomycin (Option A) is not recommended for treatment of CDI because it is not excreted into the large intestine. Consequently, it has no role in the treatment of CDI.Historically, oral metronidazole (Option C) was recommended for treatment of mild CDI, but updated guidelines from the IDSA and SHEA recommend its use for an initial episode of nonsevere CDI only when oral fidaxomicin and oral vancomycin are unavailable or contraindicated.Oral vancomycin followed by rifaximin is a possible alternative treatment regimen () for second and subsequent recurrences of CDI according to IDSA and SHEA recommendations. However, the use of rifaximin (Option D) for an initial episode of CDI is not recommended.Oral vancomycin combined with intravenous metronidazole (Option E) is a recommended treatment for fulminant CDI, which is associated with shock, hypotension, toxic megacolon, or ileus. When ileus is present, the addition of rectal vancomycin to oral vancomycin and intravenous metronidazole may be pursued. Patients with fulminant disease also warrant surgical evaluation.",
+  "critique": "This patient has an initial episode of nonsevere Clostridioides difficile infection (CDI), and the most appropriate treatment is oral fidaxomicin (Option B). Risk factors for CDI include exposure to antibiotic and chemotherapeutic agents, older age, severe underlying comorbidities, presence of inflammatory bowel disease, solid organ transplantation, gastrointestinal surgery, and (possibly) gastric acid suppression with proton pump inhibitors. Nonsevere CDI is defined by a leukocyte count of less than 15,000/µL (15 × 109/L) and a serum creatinine level of less than 1.5 mg/dL (133 µmol/L). The Infectious Diseases Society of America (IDSA) and the Society for Healthcare Epidemiology of America (SHEA) recommend oral fidaxomicin as the preferred initial therapy, rather than oral vancomycin, for an initial episode of nonsevere or severe CDI, although vancomycin remains an acceptable alternative (see Table: Initial Clostridioides difficile Infection Treatment).Intravenous vancomycin (Option A) is not recommended for treatment of CDI because it is not excreted into the large intestine. Consequently, it has no role in the treatment of CDI.Historically, oral metronidazole (Option C) was recommended for treatment of mild CDI, but updated guidelines from the IDSA and SHEA recommend its use for an initial episode of nonsevere CDI only when oral fidaxomicin and oral vancomycin are unavailable or contraindicated.Oral vancomycin followed by rifaximin is a possible alternative treatment regimen (Table: Recurrent Clostridioides difficile Infection Treatment) for second and subsequent recurrences of CDI according to IDSA and SHEA recommendations. However, the use of rifaximin (Option D) for an initial episode of CDI is not recommended.Oral vancomycin combined with intravenous metronidazole (Option E) is a recommended treatment for fulminant CDI, which is associated with shock, hypotension, toxic megacolon, or ileus. When ileus is present, the addition of rectal vancomycin to oral vancomycin and intravenous metronidazole may be pursued. Patients with fulminant disease also warrant surgical evaluation.",
+  "critique_links": [],
   "key_points": [
     "Oral fidaxomicin is the preferred therapy for an initial episode of nonsevere or severe Clostridioides difficile infection, although oral vancomycin is an acceptable alternative.",
     "Nonsevere C. difficile infection is defined by a leukocyte count of less than 15,000/µL (15 × 109/L) and a serum creatinine level of less than 1.5 mg/dL (132 µmol/L)."
@@ -57,13 +58,57 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html",
-      "tables/inline_table_3.html"
+      "tables/idtab24066.html",
+      "tables/idtab24067.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:47:19.131520-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "idtab24066",
+        "file": "tables/idtab24066.html",
+        "title": "Treatment of Initial <i>Clostridioides difficile</i> Infection",
+        "short_title": "Initial <i>Clostridioides difficile</i> Infection Treatment",
+        "footnotes": [
+          "IV = intravenously; NGT = nasogastric tube; PO = by mouth; PR = per rectum.",
+          "<sup>a</sup>Nonsevere: leukocyte count &lt;15,000/µL (15 × 10<sup>9</sup>/L) and serum creatinine level &lt;1.5 mg/dL (133 µmol/L); severe: leukocyte count ≥15,000/µL (15 × 10<sup>9</sup>/L) or serum creatinine level ≥1.5 mg/dL (133 µmol/L); fulminant: criteria for severe infection plus associated shock, hypotension, toxic megacolon, or ileus.",
+          "Based on Johnson S, Lavergne V, Skinner AM, et al. Clinical practice guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 focused update guidelines on management of Clostridioides difficile infection in adults. Clin Infect Dis. 2021;73:755-757. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34492699\" target=\"_blank\">PMID: 34492699</a> doi:10.1093/cid/ciab718"
+        ],
+        "headers": [
+          "Severity of Diseasea",
+          "Treatmentb"
+        ]
+      },
+      {
+        "table_id": "idtab24067",
+        "file": "tables/idtab24067.html",
+        "title": "Treatment of Recurrent <i>Clostridioides difficile</i> Infection",
+        "short_title": "Recurrent <i>Clostridioides difficile</i> Infection Treatment",
+        "footnotes": [
+          "IV = intravenous; PO = by mouth.",
+          "<sup>a</sup>Other guidelines recommend considering previous antibiotic use when selecting antibiotics for a first recurrence (e.g., fidaxomicin may be preferred in cases of previous treatment with vancomycin and vice versa).",
+          "<sup>b</sup>Fecal microbiota products (FMP) are FDA approved for use in patients with recurrent <i>Clostridioides difficile</i> infection (CDI) to prevent further recurrence. Two products are available: a rectal suspension (fecal microbiota live-jslm) and an oral capsule (fecal microbiota spore live-brpk). The selection of the FMP depends on availability, cost considerations, and patient preference.",
+          "<sup>c</sup>After appropriate antibiotics administered for at least two recurrences.",
+          "Based on Johnson S, Lavergne V, Skinner AM, et al. Clinical practice guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 focused update guidelines on management of <i>Clostridioides difficile</i> infection in adults. Clin Infect Dis. 2021;73:755-757. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34492699\" target=\"_blank\">PMID: 34492699</a> doi:10.1093/cid/ciab718"
+        ],
+        "headers": []
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.500064-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 25-year-old woman is evaluated for a 2-week history of palpitations and tremors. She also reports intermittent loose stools, increased sweating, and difficulty sleeping. She delivered a healthy baby 3 months ago and had no complications during pregnancy. She has well-controlled type 1 diabetes mellitus. Her only medication is insulin lispro by continuous subcutaneous insulin infusion.On physical examination, pulse rate is 112/min; remaining vital signs are normal. BMI is 23. She has no exophthalmos or lid lag. The thyroid is not nodular, tender, or enlarged. Cardiac examination reveals regular tachycardia. Bilateral hand tremors are noted.Thyroid peroxidase antibody titer is markedly elevated, and thyrotropin receptor antibody testing is negative.",
+  "question_text": "A 25-year-old woman is evaluated for a 2-week history of palpitations and tremors. She also reports intermittent loose stools, increased sweating, and difficulty sleeping. She delivered a healthy baby 3 months ago and had no complications during pregnancy. She has well-controlled type 1 diabetes mellitus. Her only medication is insulin lispro by continuous subcutaneous insulin infusion.On physical examination, pulse rate is 112/min; remaining vital signs are normal. BMI is 23. She has no exophthalmos or lid lag. The thyroid is not nodular, tender, or enlarged. Cardiac examination reveals regular tachycardia. Bilateral hand tremors are noted.Laboratory studies:Thyroid-stimulating hormone<0.01 μU/mL (0.01 mU/L)LBefore pregnancy1.2 μU/mL (1.2 mU/L)Free thyroxine3.0 ng/dL (39 pmol/L)HTotal triiodothyronine212 ng/dL (3.3 nmol/L)HThyroid peroxidase antibody titer is markedly elevated, and thyrotropin receptor antibody testing is negative.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is postpartum thyroiditis (Option B). Postpartum thyroiditis is defined as thyroid dysfunction within the first year after delivery in a patient who had normal thyroid function before pregnancy. The prevalence of postpartum thyroiditis is approximately 7% to 8%, with higher rates in patients with other autoimmune disorders, such as type 1 diabetes mellitus or positive antithyroid antibodies. The clinical course of postpartum thyroiditis varies; about 25% of affected patients present with thyrotoxicosis followed by hypothyroidism, 25% of patients present with isolated thyrotoxicosis, and about 50% of patients present with isolated hypothyroidism. The initial phase of thyrotoxicosis occurs 2 to 6 months postpartum, lasts 2 to 8 weeks, and resolves spontaneously. The hypothyroid phase occurs 3 to 12 months postpartum, with permanent hypothyroidism occurring in 20% to 40% of patients. Treatment of postpartum thyroiditis symptoms includes β-blockers, which are safe for lactating patients. Antithyroid medications, such as methimazole, are not indicated because thyroid hormone synthesis is not increased; instead, thyrotoxicosis is caused by destructive thyroiditis. This patient with symptoms and laboratory study results consistent with thyrotoxicosis had a normal thyroid-stimulating hormone level before pregnancy. Postpartum thyroiditis is the most likely cause of her symptoms.Graves disease (Option A) should be considered when evaluating a patient with thyrotoxicosis. However, this patient had a normal TSH level before pregnancy, does not have clinical manifestations of Graves disease (thyroid eye disease, enlarged thyroid gland), and had a negative thyrotropin receptor antibody test. She is unlikely to have Graves disease.Subacute thyroiditis (Option C) typically results from a viral infection or postviral inflammatory process and is characterized by neck tenderness; these features are not present in this patient. Additionally, patients with subacute thyroiditis have undetectable or low thyroid peroxidase antibody titers, and inflammatory markers such as C-reactive protein levels are usually elevated.Toxic multinodular goiter (Option D) is more common in older patients and is characterized by autonomous thyroid hormone production from thyroid nodules. This young patient does not have nodules or an enlarged thyroid gland on examination; her presentation is more consistent with postpartum thyroiditis.",
+  "critique_links": [],
   "key_points": [
     "Postpartum thyroiditis is a type of destructive thyroiditis that is defined as thyroid dysfunction within the first year after delivery in a patient who had normal thyroid function before pregnancy."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:59.239586-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.277986-06:00"
 }

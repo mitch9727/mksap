@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 20-year-old man is evaluated for fever, malaise, and gingival bleeding.Peripheral blood smear is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is acute lymphoblastic leukemia (ALL) (Option A). Patients with ALL may present with malaise, bleeding, infections, bone pain, or a combination of these symptoms, with a few (<10%) having symptomatic central nervous system involvement at diagnosis. In ALL, the leukocyte count can be low, normal, or elevated, but most patients have circulating lymphoblasts as seen in this blood smear. Lymphoblasts vary from small cells with minimal cytoplasm, condensed nuclear chromatin, and difficult-to-visualize nucleoli to larger cells with moderate amounts of cytoplasm, dispersed chromatin, and multiple nucleoli. Auer rods are never present. Although the peripheral blood smear suggests the diagnosis of ALL, confirmatory flow cytometry is necessary.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.986921-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hmfig24649",
+        "file": "figures/hmfig24649.83246221bbe9681d2118b5b9d5aa3cd3.jpg",
+        "title": "Peripheral Blood Smear Findings in Acute Lymphoblastic Leukemia",
+        "short_title": "PBS Findings in ALL",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 677
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.159574-06:00"
 }

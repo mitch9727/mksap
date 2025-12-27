@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 59-year-old woman is evaluated for a 1-day history of persistent left-lower-quadrant abdominal pain and constipation. She describes the pain as cramping discomfort and states that she has never experienced similar symptoms in the past. The patient has no nausea or vomiting. She has hypertension. Her only medication is lisinopril.On physical examination, temperature is 36.0 °C (96.8 °F), blood pressure is 120/75 mm Hg, and pulse rate is 80/min; other vital signs are normal. BMI is 24. Abdominal examination reveals mild left-lower-quadrant tenderness with no rebound, guarding, or distention. Anorectal examination shows brown stool in the rectal vault.CT scans of the abdomen and pelvis with contrast show sigmoid diverticulosis with localized colonic wall inflammation and pericolic fat. Screening colonoscopy performed 5 years ago was negative for colorectal neoplasia.",
+  "question_text": "A 59-year-old woman is evaluated for a 1-day history of persistent left-lower-quadrant abdominal pain and constipation. She describes the pain as cramping discomfort and states that she has never experienced similar symptoms in the past. The patient has no nausea or vomiting. She has hypertension. Her only medication is lisinopril.On physical examination, temperature is 36.0 °C (96.8 °F), blood pressure is 120/75 mm Hg, and pulse rate is 80/min; other vital signs are normal. BMI is 24. Abdominal examination reveals mild left-lower-quadrant tenderness with no rebound, guarding, or distention. Anorectal examination shows brown stool in the rectal vault.Laboratory studies:Hemoglobin14.5 g/dL (145 g/L)Leukocyte count12,000/μL (12 × 109/L)HNeutrophil count7000/µL (7.0 × 109/L)Platelet count375,000/µL (375 × 109/L)INR1.0CT scans of the abdomen and pelvis with contrast show sigmoid diverticulosis with localized colonic wall inflammation and pericolic fat. Screening colonoscopy performed 5 years ago was negative for colorectal neoplasia.",
   "question_stem": "In addition to analgesics, which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has uncomplicated left-sided colonic diverticulitis and should be encouraged to consume a clear liquid diet (Option A) in the outpatient setting, with gradual advancement of her diet as tolerated. Uncomplicated diverticulitis refers to localized inflammation, whereas complicated diverticulitis is defined as inflammation associated with an abscess, phlegmon, fistula, or perforation. Most patients with acute, uncomplicated left-sided colonic diverticulitis can be managed in the outpatient setting with close follow-up that considers individual patient circumstances, such as the availability of adequate home care. Because this patient is not immunocompromised, has uncomplicated left-sided diverticulitis, and can tolerate oral intake, a clear liquid diet without antibiotic therapy is the recommended initial management.Hospitalization for intravenous antibiotics (Option B) is required in patients unable to tolerate an oral diet; patients with severe comorbidities, advanced age, or immunosuppression; and patients for whom oral antibiotics have been ineffective. This patient has no indications for hospitalization for intravenous antibiotics.Altered intestinal microbiota may be involved in the pathogenesis of diverticulitis. Although probiotics (Option C) may modify the gut microbiota, insufficient evidence supports the use of any probiotic for treating or preventing diverticulitis.Uncomplicated diverticulitis has traditionally been treated with oral antibiotics (Option D) (e.g., a fluoroquinolone and metronidazole) and a liquid diet; however, evidence suggests close observation without antibiotics is a reasonable treatment for immunocompetent patients with acute, uncomplicated diverticulitis, as in this case. This is based on the concept that the pathogenesis of diverticulitis is inflammatory rather than infectious. Antibiotic treatment trials for uncomplicated left-sided diverticulitis have shown no differences in diverticulitis-related complications (e.g., abscess, fistula, stenosis, and obstruction), quality of life, need for surgery, or long-term recurrence compared with patients not receiving antibiotics. Antibiotics are indicated for patients with uncomplicated left-sided diverticulitis who are immunosuppressed, are pregnant, or have significant comorbid disease.",
+  "critique_links": [],
   "key_points": [
     "Acute, uncomplicated left-sided diverticulitis can initially be treated with liquid diet without antibiotics in immunocompetent patients."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:30.960827-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.393486-06:00"
 }

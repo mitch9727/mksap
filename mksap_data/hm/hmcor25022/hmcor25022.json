@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 70-year-old patient is evaluated for recently diagnosed anemia. They report no weight loss, fever, pain, dyspnea, or other symptoms. Medical history is significant for hypertension and osteoporosis. Medications are amlodipine, alendronate, calcium, and vitamin D.On physical examination, vital signs and other findings are normal.Laboratory studies:Hemoglobin12.5 g/dL (125 g/L)LMean corpuscular volume90 fLLeukocyte count6700/μL (6.7 × 109/L)Platelet count325,000 (325 × 109/L)Calcium9.7 mg/dL (2.4 mmol/L)Creatinine0.7 mg/dL (61.9 μmol/L)Lactate dehydrogenase95 U/LPeripheral blood smear shows rouleaux formation.Serum protein electrophoresis and immunofixation show an IgG kappa monoclonal protein spike of 3.5 g/dL (35 g/L). Bone marrow biopsy reveals 15% kappa-restricted plasma cells.A PET/CT scan shows no bone lesions.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient meets criteria for smoldering multiple myeloma (MM) (Option C). Smoldering MM is defined by the presence of bone marrow clonal plasma cells between 10% to 59% combined with an M spike greater than 3 g/dL (30 g/L) and/or kappa or lambda urine free light chain M protein ≥500 mg/24 h in the absence of symptoms or other criteria for MM. Smoldering MM has a 10% or greater risk of progression to MM requiring therapy per year, which is significantly higher than monoclonal gammopathy of undetermined significance (MGUS). This patient has an M spike of greater than 3 g/dL (30 g/L) and 15% clonal cells on bone marrow biopsy, but no hypercalcemia, kidney failure, severe anemia, or radiologic lesions. Smoldering MM is the most likely diagnosis.MGUS (Option A) may present with mild normocytic anemia; however, in MGUS, the M spike on SPEP must be less than 3 g/dL (30 g/L), CRAB-SLiM criteria must be absent, and bone marrow biopsy must show less than 10% clonal plasma cells. This patient has a protein spike greater than 3 g/dL (30 g/L) and more than 10% clonal cells in the bone marrow. These findings are inconsistent with the diagnosis of MGUS.The diagnosis of MM requiring therapy (Option B) requires clonal bone marrow plasma cells greater than 10% with at least one CRAB-SLiM criterion. Although this patient has mild normocytic anemia, their hemoglobin level is greater than the threshold of 10 g/dL (100 g/L) to qualify as anemia, per the CRAB criteria. This patient does not meet criteria for MM requiring therapy.Waldenström macroglobulinemia (WM) (Option D) presents with an IgM monoclonal gammopathy on SPEP with biopsy results showing lymphoplasmacytic infiltrates rather than mature clonal plasma cells. Symptoms may include anemia, fatigue, and classic “B symptoms” (night sweats, fever, weight loss); tissue infiltration also may cause hepatosplenomegaly and lymphadenopathy. This patient's presentation is not consistent with WM.",
+  "critique_links": [],
   "key_points": [
     "Smoldering multiple myeloma (MM) is characterized by a monoclonal spike on serum protein electrophoresis greater than 3 g/dL (30 g/L), 10% to 59% of clonal plasma cells on bone marrow biopsy, and no CRAB (hyperCalcemia, Renal failure, Anemia, and Bony lesions) features.",
     "Smoldering MM has a 10% or greater risk of progression to MM requiring therapy per year."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:44:24.258448-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.815308-06:00"
 }

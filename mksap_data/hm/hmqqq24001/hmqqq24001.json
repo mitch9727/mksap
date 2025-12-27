@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 28-year-old woman is evaluated for a 2-month history of decreased exercise tolerance and ice cravings. She was diagnosed with Crohn disease 3 months ago. Medications are infliximab and daily ferrous sulfate tablets, which she began taking 6 weeks ago after laboratory studies showed a hemoglobin level of 8.2 g/dL (82 g/L).On physical examination, conjunctivae are pale. The remainder of the examination, including vital signs, is normal.",
+  "question_text": "A 28-year-old woman is evaluated for a 2-month history of decreased exercise tolerance and ice cravings. She was diagnosed with Crohn disease 3 months ago. Medications are infliximab and daily ferrous sulfate tablets, which she began taking 6 weeks ago after laboratory studies showed a hemoglobin level of 8.2 g/dL (82 g/L).On physical examination, conjunctivae are pale. The remainder of the examination, including vital signs, is normal.Laboratory studies:Hemoglobin7.5 g/dL (75 g/L)LFerritin1.0 ng/mL (1.0 µg/L)L",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment for this patient with inflammatory bowel disease (IBD) is parenteral iron replacement with an intravenous iron preparation (Option A). Iron is absorbed in the proximal small bowel. As such, patients with IBD can experience iron and other nutritional deficiencies because of malabsorption. IBD can also lead to increased gastrointestinal blood loss. Because of malabsorption and blood loss, patients with IBD frequently require parenteral iron. Newer parenteral iron preparations, including iron sucrose, ferric gluconate, ferumoxytol, and ferric carboxymaltose, have better safety profiles (less anaphylaxis) and bioavailability than the historically used iron dextran, although data are inadequate to recommend one parenteral agent over another. This patient has severe iron deficiency owing to IBD-associated iron malabsorption and chronic blood loss that has not responded to oral replacement; therefore, she should be treated with an intravenous iron preparation.Liquid preparations of iron (Option B) are useful in pediatric populations, but no evidence suggests that the liquid form is better absorbed than the tablet formulation. Liquid iron would not be appropriate in this patient with poor gastrointestinal absorption.Oral iron therapy is unreliable in IBD because of poor intestinal absorption. Thus, increasing the frequency of oral iron therapy to three times per day (Option C) in this patient with IBD who has not responded to once daily replacement would not be the most appropriate management option. Additionally, some studies indicate that patients with iron deficiency with normal intestinal function have a paradoxical decrease in iron absorption when supplements are administered multiple times daily compared with once daily, perhaps owing to hepcidin stimulation. Hepcidin, a peptide hormone produced in the liver, is a main regulator of iron homeostasis. It decreases intestinal iron absorption and release of iron stores by downregulating the ferroportin-mediated release of iron from enterocytes, hepatocytes, and macrophages. Hepcidin is upregulated in iron excess and during inflammation and down regulated in iron deficiency.Sustained-release iron preparations (Option D) should never be used because much of the iron in these preparations is released distal to the jejunal site of absorption.",
+  "critique_links": [],
   "key_points": [
     "Patients with inflammatory bowel disease frequently experience iron malabsorption in addition to increased iron loss from bleeding, making parenteral iron an appropriate treatment for restoring iron stores."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.801440-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.034891-06:00"
 }

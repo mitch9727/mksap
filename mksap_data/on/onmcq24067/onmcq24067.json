@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 52-year-old woman is evaluated during a routine examination. Her last menstrual cycle was 9 months ago. She has no breast pain or nipple discharge. She has two children aged 30 and 34 years. Menarche occurred at age 12 years. She has no family history of cancer. She has no medical conditions and takes no medications.On physical examination, vital signs and other findings are normal.On her most recent mammogram, 2 years ago, her breast tissue density pattern was described as heterogeneously dense.",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient should be referred for a screening mammogram (Option D). In average-risk women aged 50 to 74 years, screening mammography has a clear benefit, and all breast cancer guidelines recommend screening mammography in this age group, either annually or biennially. Specific screening recommendations by specialty society are outlined in Table: Breast Cancer Screening in Women at Average Risk. The U.S. Preventive Services Task Force (USPSTF) recommends biennial screening mammography, which imparts most of the benefits of annual mammography with fewer harms, most notably a reduction in overdiagnosis, in average-risk women aged 40 to 74 years. The USPSTF also concludes that both digital mammography and digital breast tomosynthesis or “3D mammography” are effective mammographic screening modalities. Approximately 50% of women have dense breasts, and breast density is routinely reported on mammography interpretation. Increased breast density is associated with an increased risk for breast cancer but not with a higher breast cancer mortality risk, and patients with dense breasts should not be screened according to guidelines for those at high risk for breast cancer only on the basis of having dense breasts. Increased breast density can obscure small masses, rendering screening mammography less effective. However, evidence to support improved diagnosis or decreased mortality from breast cancer with additional screening measures (MRI or breast ultrasonography) is not yet available, and most guidelines do not recommend those additional screening measures. The American College of Radiology, however, does recommend that breast ultrasound be considered as an adjunct screening test to mammography for women with dense breasts. This patient is at average risk for breast cancer and last had a mammogram 2 years ago; a screening mammogram is an appropriate next step.Clinical breast examination (Option A) is not recommended as a screening measure for women in any age group. Clinical breast examination with or without mammography has not been shown to improve breast cancer diagnosis or reduce breast cancer mortality. Clinical breast examination should be performed in patients who report breast masses.Genetic testing for BRCA variants (Option B) is not indicated in this patient who is at average risk for breast cancer and does not have a suggestive family history. The USPSTF recommends using a brief tool that assess familial risk, such as the Ontario Family History Assessment Tool, to screen for BRCA1/2 gene variants in patients with a personal or family history of breast, ovarian, tubal, or peritoneal cancer or who have an ancestry associated with the variants. Patients at higher risk should be referred for genetic counseling and possible testing.Screening with breast MRI (Option C) and annual mammography are recommended for patients known to have an above-average risk for breast cancer (see Table: MRI Breast Cancer Screening Recommendations). This patient is not at increased risk and does not require breast MRI.",
+  "critique_links": [],
   "key_points": [
     "The U.S. Preventive Services Task Force recommends biennial screening mammography, which imparts most of the benefits of annual mammography with fewer harms, most notably a reduction in overdiagnosis, in average-risk women aged 40 to 74 years.",
     "Increased breast density is associated with an increased risk for breast cancer, but patients with dense breasts should not be considered at high risk for breast cancer only on the basis of having dense breasts."
@@ -52,12 +53,46 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/ontab24025.html",
+      "tables/ontab24006.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.298612-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "ontab24025",
+        "file": "tables/ontab24025.html",
+        "title": "Recommendations for Breast Cancer Screening in Women at Average Risk",
+        "short_title": "Breast Cancer Screening in Women at Average Risk",
+        "footnotes": [
+          "CBE = clinical breast examination."
+        ],
+        "headers": [
+          "Expert Group",
+          "Recommendation"
+        ]
+      },
+      {
+        "table_id": "ontab24006",
+        "file": "tables/ontab24006.html",
+        "title": "American Cancer Society Recommendations for MRI Breast Cancer Screening",
+        "short_title": "MRI Breast Cancer Screening Recommendations",
+        "footnotes": [
+          "<sup>a</sup>Testing for the <i>BRCA1</i> or <i>BRCA2</i> pathogenic variant that is present in the family is strongly recommended, but some patients decide to defer testing. In this situation when their carrier status is unknown, breast MRI screening is recommended. If the patient is tested later and does not carry the pathogenic variant, MRI screening should be stopped.",
+          "<sup>b</sup>Models that can be used to estimate lifetime risk of breast cancer to determine if MRI screening is appropriate (please note that the Gail Model is not recommended for this use):",
+          "Claus EB, Risch N, Thompson WD. The calculation of breast cancer risk for women with a first degree family history of ovarian cancer. Breast Cancer Res Treat. 1993;28:115-20. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/8173064\" target=\"_blank\">PMID: 8173064</a>",
+          "Tyrer-Cuzik (also called IBIS Breast Cancer Risk Evaluation Tool): <a href=\"http://www.ems-trials.org/riskevaluator/\" target=\"_blank\">www.ems-trials.org/riskevaluator/</a>.",
+          "Data from Saslow D, Boetes C, Burke W, et al; American Cancer Society Breast Cancer Advisory Group. American Cancer Society guidelines for breast screening with MRI as an adjunct to mammography. CA Cancer J Clin. 2007;57:75-89. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/17392385\" target=\"_blank\">PMID: 17392385</a>"
+        ],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.820007-06:00"
 }

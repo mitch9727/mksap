@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 21-year-old woman is evaluated at a follow-up visit for hypertension diagnosed 6 weeks ago. She is a marathon runner and previously had normal blood pressure. Medications are losartan and an oral contraceptive.On physical examination, blood pressure is 146/92 mm Hg, and pulse rate is 59/min. A systolic-diastolic abdominal bruit that lateralizes to the left side is heard. The remainder of the examination is unremarkable.A pregnancy test is negative.",
+  "question_text": "A 21-year-old woman is evaluated at a follow-up visit for hypertension diagnosed 6 weeks ago. She is a marathon runner and previously had normal blood pressure. Medications are losartan and an oral contraceptive.On physical examination, blood pressure is 146/92 mm Hg, and pulse rate is 59/min. A systolic-diastolic abdominal bruit that lateralizes to the left side is heard. The remainder of the examination is unremarkable.Laboratory studies:Creatinine1.4 mg/dL (123.8 µmol/L)H6 weeks ago0.8 mg/dL (70.7 µmol/L)UrinalysisNormalA pregnancy test is negative.",
   "question_stem": "Which of the following diagnostic tests is most likely to identify the cause of her hypertension?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Renal artery imaging (Option C) should be performed to evaluate for fibromuscular dysplasia in this young woman with new-onset hypertension. Fibromuscular dysplasia is a nonatherosclerotic form of renovascular disease that usually affects the mid and distal portions of the renal artery. This disorder usually occurs in young persons, particularly young women, and hypertension in a patient younger than 35 years of age is suggestive. The abrupt elevation of serum creatinine more than 30% from baseline after the initiation of an ACE inhibitor is a clue that bilateral renovascular disease may be present. Renal duplex Doppler ultrasonography is a reasonable imaging modality if performed by experienced ultrasonographers; kidney magnetic resonance angiography and CT angiography have higher diagnostic utility but should be avoided in patients with more severe chronic kidney disease. Intra-arterial angiography can be considered if noninvasive tests are negative, clinical suspicion is high, and an invasive procedure is contemplated.Testing the plasma aldosterone concentration/plasma renin activity ratio (Option A) for the diagnosis of primary aldosteronism should be considered in all patients with difficult-to-control hypertension. The classic triad of resistant hypertension, metabolic alkalosis, and hypokalemia is particularly suggestive, but most patients have normal serum potassium levels. However, primary aldosteronism cannot account for this patient's abdominal bruit or serum creatinine elevation after the initiation of an ACE inhibitor, making studies for primary aldosteronism less likely to be diagnostic of her cause of secondary hypertension.Plasma fractionated metanephrines (Option B) are obtained to screen for pheochromocytoma, which can cause hypertension in patients younger than 20 years of age and need not be accompanied by classic symptoms such as palpitations, headaches, or tachycardia. However, the absence of such symptoms and the presence of an abdominal bruit make studies for pheochromocytoma less likely to be diagnostic than imaging for renovascular disease.Thyroid function testing (Option D) is commonly undertaken during initial evaluation of hypertension and in the setting of other clinical manifestations of thyroid dysfunction, such as bradycardia or tachycardia; cold or heat intolerance; constipation or diarrhea; or an irregular, heavy, or absent menstrual cycle. This patient has no clinical findings to suggest thyroid disease, making thyroid function testing less likely to diagnose her secondary cause of hypertension.",
+  "critique_links": [],
   "key_points": [
     "Hypertension in a woman younger than 35 years of age is suggestive of fibromuscular dysplasia.",
     "Renal artery imaging is the most appropriate diagnostic test to evaluate for fibromuscular dysplasia."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.416388-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.912881-06:00"
 }

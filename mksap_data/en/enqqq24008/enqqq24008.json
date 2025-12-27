@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 58-year-old woman is evaluated during a follow-up visit 6 months after thyroidectomy for differentiated papillary thyroid cancer. She developed symptomatic hypocalcemia following surgery but is currently asymptomatic. Medications are calcium citrate, calcitriol, and levothyroxine.",
+  "question_text": "A 58-year-old woman is evaluated during a follow-up visit 6 months after thyroidectomy for differentiated papillary thyroid cancer. She developed symptomatic hypocalcemia following surgery but is currently asymptomatic. Medications are calcium citrate, calcitriol, and levothyroxine.Laboratory studies:Albumin4.0 g/dL (40 g/L)Calcium9.5 mg/dL (2.4 mmol/L)Creatinine1.0 mg/dL (88.4 µmol/L)Magnesium2.3 mg/dL (0.95 mmol/L)Phosphorus4.5 mg/dL (1.45 mmol/L)Parathyroid hormone10 pg/mL (10 ng/L)",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate test to perform next is 24-hour urine calcium measurement (Option D). In chronic hypoparathyroidism, the goals of therapy are to eliminate symptoms while avoiding complications of therapy; urine calcium excretion must be monitored because hypercalciuria often limits therapy. Without parathyroid hormone (PTH), urine calcium excretion is higher than normal for any given serum calcium level. Complications of prolonged hypercalciuria include nephrolithiasis and an impaired glomerular filtration rate. Serum calcium and urine calcium levels should be assessed on a regular basis. The goal calcium level should be at or just below the normal range without hypercalciuria. If the urine calcium level is greater than 300 mg/24 h (7.5 mmol/24 h) in men or greater than 250 mg/24 h (6.3 mmol/24 h) in women (hypercalciuria), calcium or vitamin D replacement needs to be decreased. Calcium is usually decreased first if the serum 25-hydroxyvitamin D level is within the normal sufficiency range (31-80 ng/mL [77-200 nmol/L]). Thiazide diuretics reduce urine calcium excretion and thus may permit sufficient calcium and vitamin D therapy to achieve goal calcium levels.Hypoparathyroidism slows bone metabolism and is relatively protective against the development of postmenopausal osteoporosis. Therefore, bone mineral density testing (Option A) is not indicated in this patient.In a patient with a normal serum albumin level, such as this patient, ionized calcium measurement (Option B) does not contribute to the management of hypoparathyroidism.The dose of calcitriol administered is titrated by the serum calcium or phosphorus level rather than by the serum 1,25-dihydroxyvitamin D level (Option C). Thus, serum 1,25-dihydroxyvitamin D measurement has no role in in this patient.",
+  "critique_links": [],
   "key_points": [
     "In chronic hypoparathyroidism, the goals of therapy are to eliminate symptoms while avoiding complications of therapy; monitoring of urine calcium excretion is mandatory because hypercalciuria often limits therapy."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:16.878665-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.378776-06:00"
 }

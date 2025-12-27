@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old man is evaluated for recently diagnosed immune thrombocytopenic purpura. He has a history of steatotic liver disease. He does not drink alcohol. He emigrated from Pakistan 5 years ago. He takes no medications.On physical examination, vital signs are normal. There are several small ecchymoses on the lower extremities and left upper arm. No spider angiomata, palmar erythema, splenomegaly, abdominal distention, or lower extremity edema is noted.Laboratory studies:Platelet count86,000/μL (86 × 109/L)LSerum aminotransferase levels are minimally elevated and similar to previous results. Results of tests for hepatitis C virus, hepatitis B virus, and HIV are negative.An ultrasound 2 months ago showed a mildly enlarged, hyperechoic liver. A Fibrosis-4 score at that time classified the patient as low risk.",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate test to perform next in this patient with immune thrombocytopenic purpura (ITP) is a 13C-urea breath test (Option B). Adults with ITP who are negative for hepatitis B virus, hepatitis C virus, and HIV should be tested for Helicobacter pylori, especially if they are from a region with a high prevalence (Africa, South America, and Asia), because infection with H. pylori is associated with ITP. Other indications for H. pylori testing include the following:Active peptic ulcer diseaseHistory of peptic ulcer disease without documented eradicationGastric mucosa-associated lymphoid tissue lymphomaResection of early gastric cancerDyspepsiaUnexplained iron deficiency anemiaBefore starting long-term low-dose aspirin or NSAID therapyThe 13C-urea breath test and the monoclonal stool antigen test are the preferred noninvasive tests because they have high sensitivity and specificity for active infection. Identification of H. pylori infection is important in patients with ITP because platelet counts will improve in some patients after H. pylori treatment and eradication.CT of the abdomen with contrast (Option A) is unnecessary at this time. Two months ago, an ultrasound was consistent with metabolic dysfunction–associated steatotic liver disease (formerly called nonalcoholic fatty liver disease [NAFLD]), and he has no signs or symptoms of new gastrointestinal pathology. Further imaging is unlikely to provide additional information of value.A nuclear medicine liver and spleen scan (Option C) is not necessary. This scan may be used to identify mass lesions, liver damage, or an accessory spleen. This patient recently underwent ultrasonography and has no new risk factors or physical findings to support a diagnosis of portal hypertension or new liver or spleen pathology.Ultrasound-based elastography (Option D) is a noninvasive method to measure hepatic stiffness in the setting of liver scarring or fibrosis caused by several liver diseases. Although this patient has a history of steatotic liver disease, a recent Fibrosis-4 score classified him as low risk. Ultrasound-based elastography may be indicated in the future to further assess steatotic liver disease, but the more pressing concern now is further evaluation of ITP. For this reason, a 13C-urea breath test is the most appropriate next step.",
+  "critique_links": [],
   "key_points": [
     "Helicobacter pylori infection should be suspected in adults with immune thrombocytopenic purpura who are negative for hepatitis B virus, hepatitis C virus, and HIV and are from an endemic area."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.041881-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.349681-06:00"
 }

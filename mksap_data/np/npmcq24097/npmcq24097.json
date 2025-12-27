@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 52-year-old man is evaluated for a 1-week history of muscle weakness and cramps. He has newly diagnosed hypertension. Medical history is otherwise unremarkable. There is no family history of hypertension or endocrine tumors. He recently began using mint- and licorice-flavored chewing tobacco. He takes no medications.On physical examination, blood pressure is 154/96 mm Hg. The remainder of the vital signs are normal. There are no striae or ecchymoses. Distal lower extremity muscle strength is 4/5, and motor strength is 5/5 elsewhere.",
+  "question_text": "A 52-year-old man is evaluated for a 1-week history of muscle weakness and cramps. He has newly diagnosed hypertension. Medical history is otherwise unremarkable. There is no family history of hypertension or endocrine tumors. He recently began using mint- and licorice-flavored chewing tobacco. He takes no medications.On physical examination, blood pressure is 154/96 mm Hg. The remainder of the vital signs are normal. There are no striae or ecchymoses. Distal lower extremity muscle strength is 4/5, and motor strength is 5/5 elsewhere.Laboratory studies:Creatinine1.0 mg/dL (88.4 µmol/L)ElectrolytesSodium144 mEq/L (144 mmol/L)Potassium3.0 mEq/L (3.0 mmol/L)LChloride108 mEq/L (108 mmol/L)HBicarbonate30 mEq/L (30 mmol/L)HGlucose80 mg/dL (4.4 mmol/L)Aldosterone (supine)2.0 ng/dL (55 pmol/L)L",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most likely diagnosis is apparent mineralocorticoid excess (AME) syndrome (Option A). This patient has new-onset hypokalemia, metabolic alkalosis, and hypertension. Although these findings are consistent with primary aldosteronism, his serum aldosterone level is low normal, indicating a diagnosis of AME syndrome. AME syndrome occurs either because of a congenital genetic mutation in the 11 β-hydroxysteroid dehydrogenase enzyme or ingestion of an agent that can inhibit this enzyme, such as glycyrrhetinic acid (found in licorice or triazole antifungals) (). Cortisol binds to the mineralocorticoid receptor with a similar affinity to aldosterone; 11 β-hydroxysteroid dehydrogenase converts cortisol to cortisone, which does not bind the mineralocorticoid receptor. Because cortisol levels are 100-fold greater than aldosterone, inhibition of this enzyme will produce a syndrome similar to primary aldosteronism. Excessive use of licorice-flavored chewing tobacco can cause AME. Diagnosis is confirmed by measuring the 24-hour urine cortisol-cortisone ratio. Normally, this ratio is <0.5 but in AME it is >1.0.Cushing syndrome (Option B) is an unlikely diagnosis. Although this patient has hypertension, he does not display any other findings associated with excess cortisol such as striae or ecchymoses.Liddle syndrome (Option C) is an autosomal dominant disease that causes increased sodium reabsorption in the distal nephron. Manifestations include hypertension, hypokalemic metabolic alkalosis, and decreased aldosterone levels similar to AME. However, Liddle syndrome most frequently presents at a young age and would not be associated with sudden onset. Furthermore, the patient does not have a suggestive family history.Primary aldosteronism (Option D) is unlikely because this patient's serum aldosterone level is low normal. Patients with primary aldosteronism typically have an elevated plasma aldosterone concentration.",
+  "critique": "The most likely diagnosis is apparent mineralocorticoid excess (AME) syndrome (Option A). This patient has new-onset hypokalemia, metabolic alkalosis, and hypertension. Although these findings are consistent with primary aldosteronism, his serum aldosterone level is low normal, indicating a diagnosis of AME syndrome. AME syndrome occurs either because of a congenital genetic mutation in the 11 β-hydroxysteroid dehydrogenase enzyme or ingestion of an agent that can inhibit this enzyme, such as glycyrrhetinic acid (found in licorice or triazole antifungals) (Table: Secondary Causes of Hypertension and Diagnostic Testing). Cortisol binds to the mineralocorticoid receptor with a similar affinity to aldosterone; 11 β-hydroxysteroid dehydrogenase converts cortisol to cortisone, which does not bind the mineralocorticoid receptor. Because cortisol levels are 100-fold greater than aldosterone, inhibition of this enzyme will produce a syndrome similar to primary aldosteronism. Excessive use of licorice-flavored chewing tobacco can cause AME. Diagnosis is confirmed by measuring the 24-hour urine cortisol-cortisone ratio. Normally, this ratio is <0.5 but in AME it is >1.0.Cushing syndrome (Option B) is an unlikely diagnosis. Although this patient has hypertension, he does not display any other findings associated with excess cortisol such as striae or ecchymoses.Liddle syndrome (Option C) is an autosomal dominant disease that causes increased sodium reabsorption in the distal nephron. Manifestations include hypertension, hypokalemic metabolic alkalosis, and decreased aldosterone levels similar to AME. However, Liddle syndrome most frequently presents at a young age and would not be associated with sudden onset. Furthermore, the patient does not have a suggestive family history.Primary aldosteronism (Option D) is unlikely because this patient's serum aldosterone level is low normal. Patients with primary aldosteronism typically have an elevated plasma aldosterone concentration.",
+  "critique_links": [],
   "key_points": [
     "Ingestion of glycyrrhetinic acid (found in licorice or triazole antifungals) can lead to apparent mineralocorticoid excess, which is characterized by new-onset hypokalemia, metabolic alkalosis, and hypertension in the setting of low serum aldosterone levels.",
     "The diagnosis of apparent mineralocorticoid excess can be confirmed by measuring the 24-hour urine cortisol-cortisone ratio."
@@ -52,12 +53,40 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/nptab24018.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:15.491118-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nptab24018",
+        "file": "tables/nptab24018.html",
+        "title": "Secondary Causes of Hypertension and Diagnostic Testing",
+        "short_title": "Secondary Causes of Hypertension and Diagnostic Testing",
+        "footnotes": [],
+        "headers": [
+          "Underlying Cause",
+          "Diagnostic Testing",
+          "Conditions Associated with Hypokalemia",
+          "Diagnostic Testing"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.869459-06:00"
 }

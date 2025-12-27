@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 21-year-old man is evaluated for newly diagnosed temporal lobe epilepsy. Brain MRI is performed.",
   "question_stem": "Which of the following is the most likely neuroimaging diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely neuroimaging diagnosis is mesial temporal sclerosis (Option D). The coronal flair MRI shows increased signal intensity and atrophy of the right mesial temporal lobe (white arrow) consistent with mesial temporal lobe sclerosis. Temporal lobe epilepsy is the most common adult-onset focal epilepsy. Typical symptoms include aura, loss of awareness, staring, behavior arrest, and amnesia. Automatisms, repetitive semipurposeful movements (such as lip smacking, chewing, and swallowing), and picking or grabbing movements with the ipsilateral arm are common. Speech arrest may be seen with involvement of the dominant hemisphere. Mesial temporal sclerosis with hippocampal atrophy is the most common cause of medication-resistant, adult-onset focal epilepsy; in selected patients, surgical resection of the anterior temporal lobe can lead to seizure freedom in 70% to 80% of patients.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/nrfig24615.6313cfd1e7514016f97ffdc39f6b6bf0.jpg",
-      "figures/nrfig24614.89e5bfb72b9ea34a4d27d4bd6f3f7a9e.jpg"
+      "figures/nrfig24614.89e5bfb72b9ea34a4d27d4bd6f3f7a9e.jpg",
+      "figures/nrfig24615.6313cfd1e7514016f97ffdc39f6b6bf0.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:42.608199-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "nrfig24614",
+        "file": "figures/nrfig24614.89e5bfb72b9ea34a4d27d4bd6f3f7a9e.jpg",
+        "title": "MRI Showing Mesial Temporal Sclerosis",
+        "short_title": "stem MRI Showing Mesial Temporal Sclerosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 462,
+        "height": 528
+      },
+      {
+        "figure_id": "nrfig24615",
+        "file": "figures/nrfig24615.6313cfd1e7514016f97ffdc39f6b6bf0.jpg",
+        "title": "MRI Showing Mesial Temporal Sclerosis",
+        "short_title": "critique MRI Showing Mesial Temporal Sclerosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 457,
+        "height": 527
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:31.505446-06:00"
 }

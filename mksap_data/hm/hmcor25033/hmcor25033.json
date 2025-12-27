@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 43-year-old man is hospitalized after massive vomiting of blood. Medical history is notable for alcohol-associated liver disease and alcohol dependence. He takes no medications.On physical examination, blood pressure is 102/68 mm Hg, pulse rate is 118/min, and respiration rate is 22/min. He has jaundice. Spider angiomata are noted on the anterior chest. The liver is palpable but not tender.Laboratory studies:Activated partial thromboplastin time45 sHD-dimer5800 µg/mL (5800 mg/L)HHemoglobin9.8 g/dL (98 g/L)LPlatelet count42,000/µL (42 × 109/L)LProthrombin time17.8 sHFibrinogen66 mg/dL (0.7 g/L)LHe receives volume resuscitation with fluids, erythrocyte and platelet transfusions, and vitamin K.",
   "question_stem": "Which of the following should also be provided to manage this patient's coagulopathy?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient should receive a transfusion with cryoprecipitate (Option C). He has coagulopathy of liver disease characterized by thrombocytopenia, elevated D-dimer level, and hypofibrinogenemia. The reduction of procoagulant factors can result in prolonged activated partial thromboplastin and prothrombin times (aPTT and PT); however, these results do not correlate with bleeding risk because they do not reflect the parallel reduction in anticoagulant factors. It is often difficult to distinguish between disseminated intravascular coagulation (DIC) and coagulopathy of liver disease, but a normal or increased factor VIII level indicates liver disease instead of DIC. Somewhat paradoxically, factor VIII levels are supranormal in coagulopathy of liver disease because it is produced in extrahepatic endothelial cells, and a hepatically synthesized factor is required for factor VIII clearance. The management of these coagulopathies is often the same. Fibrinogen levels less than 100 mg/dL (1 g/L) that are associated with active bleeding should be corrected. Fluids and erythrocyte transfusion are being used to address this patient's hemodynamic instability, vitamin K will help correct the PT, and platelet transfusion will address the thrombocytopenia; cryoprecipitate contains more fibrinogen than fresh frozen plasma and is the blood component of choice for treating this patient.Recombinant activated factor VII (VIIa) (Option A), activated prothrombin complex concentrates, or recombinant porcine factor VIII is recommended to treat patients with acquired hemophilia associated with high titers of antibody directed against factor VIII. It is not used to treat coagulopathy of liver disease.ε-Aminocaproic acid (EACA) (Option B), an inhibitor of fibrinolysis, has been shown to reduce blood loss after cardiac and orthopedic surgery. Accelerated fibrinolysis plays some role in bleeding in coagulopathy of liver disease, and EACA may reduce bleeding in some of these patients. However, no laboratory test correlates fibrinolysis with bleeding risk, and EACA should not be used before treating more objective measures of coagulopathy, such as low fibrinogen levels.Four-factor prothrombin complex concentrate (Option D) is used to treat patients with warfarin toxicity and life-threatening bleeding. It is costly and associated with thrombotic complications; it should not be used to treat patients with the coagulopathy of liver disease and bleeding unless conventional component support proves ineffective.",
+  "critique_links": [],
   "key_points": [
     "Patients with coagulopathy of liver disease and low fibrinogen levels who are experiencing bleeding should receive immediate cryoprecipitate transfusion."
   ],
@@ -50,10 +51,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:44:24.296266-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.825519-06:00"
 }

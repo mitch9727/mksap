@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 76-year-old woman is hospitalized for a 1-day history of constant, worsening periumbilical abdominal pain with associated nausea and nonbloody, nonbilious vomiting. She has felt the urge to defecate but has not passed stool. She has atrial fibrillation and coronary artery disease. Medications are warfarin, hydrochlorothiazide, atorvastatin, aspirin, omeprazole, and metoprolol.On physical examination, blood pressure is 135/85 mm Hg and pulse rate is 110/min and irregularly irregular. The abdomen is mildly distended with marked tenderness throughout; guarding and rebound tenderness are noted.Mesenteric CT angiography reveals a filling defect in the proximal superior mesenteric artery with bowel pneumatosis and portal mesenteric gas. A small amount of ascitic fluid is noted.",
+  "question_text": "A 76-year-old woman is hospitalized for a 1-day history of constant, worsening periumbilical abdominal pain with associated nausea and nonbloody, nonbilious vomiting. She has felt the urge to defecate but has not passed stool. She has atrial fibrillation and coronary artery disease. Medications are warfarin, hydrochlorothiazide, atorvastatin, aspirin, omeprazole, and metoprolol.On physical examination, blood pressure is 135/85 mm Hg and pulse rate is 110/min and irregularly irregular. The abdomen is mildly distended with marked tenderness throughout; guarding and rebound tenderness are noted.Laboratory studies:Hemoglobin13.5 g/dL (135 g/L)Leukocyte count21,000/μL (21 × 109/L), with neutrophiliaHPlatelet count275,000/µL (275 × 109/L)INR1.4Blood urea nitrogen28 mg/dL (10 mmol/L)HCreatinine1.4 mg/dL (123.7 μmol/L)HBicarbonate18 mEq/L (18 mmol/L)LLactate2.3 mEq/L (2.3 mmol/L)HMesenteric CT angiography reveals a filling defect in the proximal superior mesenteric artery with bowel pneumatosis and portal mesenteric gas. A small amount of ascitic fluid is noted.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient with acute mesenteric ischemia (AMI) is exploratory laparotomy (Option B). AMI is caused by an abrupt decrease in blood flow to the small bowel, most frequently due to cardiogenic emboli or thrombosis related to atherosclerotic disease. It presents with acute onset of severe, constant periumbilical abdominal pain followed by the urge to defecate and loose, nonbloody stools. Early in AMI, abdominal examination is unremarkable and shows no peritoneal signs. However, the development of peritoneal signs signifies progression of intestinal ischemia to intestinal infarction. Laboratory findings of marked leukocytosis, an elevated lactate level, and a low bicarbonate level support the presence of gangrenous bowel. The classic CT angiographic finding of AMI is an embolus or thrombus in the superior mesenteric artery. Emergent exploratory laparotomy is indicated when imaging findings suggest mesenteric infarction, such as pneumatosis intestinalis (i.e., gas within the intestinal wall) or portal venous gas. This patient's presentation is classic for AMI secondary to superior mesenteric artery embolus. She also has atrial fibrillation with a subtherapeutic INR, which is a risk factor for embolic AMI. Furthermore, CT angiography revealed intestinal pneumatosis and portal venous gas indicating mesenteric infarction. The next step in management is exploratory laparotomy.Endovascular intervention (Option A), such as aspiration embolectomy or thrombectomy, is a therapeutic option for patients without features of peritonitis. However, this patient has physical examination signs, laboratory findings, and CT findings suggesting bowel infarction, and exploratory laparotomy is indicated.Anticoagulation with intravenous heparin (Option C) is used to treat AMI due to mesenteric venous thrombosis when there are no peritoneal signs or findings of bowel infarction. For patients with AMI due to arterial occlusion, anticoagulation is initiated after surgery to prevent additional thrombus formation.This patient should not receive intravenous thrombolytic therapy (Option D). Local intra-arterial thrombolysis for acute superior mesenteric artery occlusion is a minimally invasive and primary treatment option in patients without advanced intestinal ischemia. It is catheter-directed and not administered as a systemic, intravenous thrombolytic therapy. This patient's imaging findings suggest mesenteric infarction, and emergent exploratory laparotomy is most appropriate.",
+  "critique_links": [],
   "key_points": [
     "Acute mesenteric ischemia is caused by an abrupt decrease in blood flow to the small bowel, most frequently due to cardiogenic emboli or thrombosis related to atherosclerotic disease.",
     "Emergent exploratory laparotomy is indicated when imaging findings suggest mesenteric infarction."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:30.959968-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.392577-06:00"
 }

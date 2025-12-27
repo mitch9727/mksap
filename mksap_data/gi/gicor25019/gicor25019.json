@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 52-year-old woman is hospitalized for acute pancreatitis due to alcohol use; she initially presented yesterday with epigastric pain, nausea, and vomiting. She received lactated Ringer solution overnight and is taking nothing by mouth.On physical examination this morning, vital signs are normal. The patient reports improved pain and has mild epigastric pain without guarding. Bowel sounds are present.Laboratory studies:Hematocrit36%12 Hours ago43%",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is initiation of oral feeding (Option C). This patient has acute pancreatitis. The diagnosis of acute pancreatitis requires two of the following three criteria:Acute-onset abdominal pain characteristic of pancreatitisSerum lipase or amylase levels elevated at least three times the upper limit of normalCharacteristic imaging findingsShe received intravenous resuscitation overnight, which typically consists of 250 to 500 mL/h of normal saline or lactated Ringer solution, with fluid boluses as needed for severe volume depletion. Treatment with intravenous fluids should be aimed at avoiding hypovolemia and maintaining adequate organ perfusion. Goal-directed therapy allows for titration of fluids to particular biochemical and clinical targets, including blood pressure, pulse rate, urine output, and blood urea nitrogen and hematocrit levels. Overall, her pain is improving, and oral feeding should therefore be considered. Patients with acute pancreatitis should resume feeding when pain improves and any nausea or vomiting subsides. Oral feeding is preferred, and guidelines recommend starting oral feeding within 24 hours. Early oral feeding promotes gut integrity, which prevents the translocation of gut microbes and thereby decreases risk of infection.In the past, management of acute pancreatitis included initiating antibiotics (Option A) irrespective of the type or severity, to prevent development of pancreatic necrosis. However, current guidelines indicate that routine use of antibiotics is not warranted in acute pancreatitis unless evidence of extrapancreatic infection such as ascending cholangitis, bacteremia, urinary tract infection, or pneumonia is present, which is not the case in this patient.If patients with acute pancreatitis do not tolerate oral feeding, enteral tube feeding (Option B) should be considered within 72 hours. Historically, this approach included placement of a nasojejunal tube to avoid stimulation of the pancreas. More recent data suggest that nasogastric tube placement and feedings are easier to administer and are as effective. However, oral feeding should be attempted before enteral feeding is considered.Transfusion of packed red blood cells (Option D) is not required at this time. Although complications of pancreatitis may include gastrointestinal bleeding (e.g., splenic vein thrombus leading to varices or pseudoaneurysm formation followed by rupture of an arterial wall), this patient is hemodynamically stable and does not exhibit signs or symptoms of acute gastrointestinal bleeding. She was intravascularly depleted at the time of hospitalization, and fluid resuscitation led to an expected decrease in hematocrit.",
+  "critique_links": [],
   "key_points": [
     "Patients with acute pancreatitis should resume oral feeding when pain improves and any nausea or vomiting subsides.",
     "If patients with acute pancreatitis do not tolerate oral feeding, enteral feeding should be considered within 72 hours."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:02:51.595467-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.212696-06:00"
 }

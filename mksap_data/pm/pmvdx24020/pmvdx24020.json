@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 51-year-old man is evaluated for acute onset of fever, chills, dyspnea, and nonproductive cough. He raises racing pigeons. Chest radiograph is normal.Chest CT scan is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is hypersensitivity pneumonitis (HP) (Option B). Repetitive inhalation of antigens (typically complex proteins) in a sensitized patient can result in HP, an immunologic response that results in noncaseating granulomas and peribronchial mononuclear cell infiltration with giant cells. HP is classified as fibrotic or nonfibrotic based on radiologic and histopathologic features. In nonfibrotic HP, CT scans typically show diffuse parenchymal infiltration (ground-glass opacities, mosaic attenuation) and small airways disease (centrilobular nodules, air trapping). Fibrotic HP is characterized by reticular abnormalities and/or ground-glass opacities with architectural distortion (traction bronchiectasis, a loss of volume, and honeycombing). This patient's chest CT scan is compatible with nonfibrotic HP, as demonstrated by patchy, bilateral ground-glass opacities (red arrow) and centrilobular micronodules (blue arrow) in the mid-lung section. Chest radiography can also demonstrate diffuse micronodular disease but may be normal.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/pmfig24634.fe254f85230d4facb6a1eaafe5e9c1d8.jpg",
-      "figures/pmfig24633.6aef13797be4b5d70b7847d50630d2f4.jpg"
+      "figures/pmfig24633.6aef13797be4b5d70b7847d50630d2f4.jpg",
+      "figures/pmfig24634.fe254f85230d4facb6a1eaafe5e9c1d8.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.292923-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "pmfig24633",
+        "file": "figures/pmfig24633.6aef13797be4b5d70b7847d50630d2f4.jpg",
+        "title": "CT Scan Showing Hypersensitivity Pneumonitis",
+        "short_title": "stem CT Scan Showing Hypersensitivity Pneumonitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "figure_id": "pmfig24634",
+        "file": "figures/pmfig24634.fe254f85230d4facb6a1eaafe5e9c1d8.jpg",
+        "title": "CT Scan Showing Hypersensitivity Pneumonitis",
+        "short_title": "critique CT Scan Showing Hypersensitivity Pneumonitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 512,
+        "height": 512
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.258928-06:00"
 }

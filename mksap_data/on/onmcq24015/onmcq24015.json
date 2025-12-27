@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 65-year-old woman is evaluated during a follow-up visit. She recently visited the emergency department for abdominal pain. CT scan of the abdomen and pelvis with intravenous and oral contrast revealed a 6.2-cm solid mass in the right lower pole of the kidney consistent with renal neoplasm. There were no other significant findings. Abdominal pain resolved with symptomatic treatment. She has no other medical problems.Physical examination findings, including vital signs, are normal.Laboratory study results are normal.CT scan of the chest shows no abnormalities.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "This patient requires referral to a urologist for surgical resection (Option E). Renal cell carcinoma is often found incidentally on imaging studies done for other purposes. Isolated renal masses smaller than 4 cm displaying radiographic features consistent with renal cell carcinoma can be monitored with active surveillance. Alternatively, they may be treated with cryoablation or surgery. Larger masses meeting radiographic criteria for renal cell carcinoma, however, require surgical resection, through either radical nephrectomy or, in selected patients, partial nephrectomy. Given its size, this mass requires surgical resection.Brain MRI (Option A) is not a standard staging imaging study for patients with localized renal cell carcinoma and is not indicated in this case. Staging evaluation for suspected renal cell carcinoma includes CT of the chest. A bone scan may also be completed if bone metastases are suspected.Cryoablation (Option B) is a standard treatment for smaller renal masses but would not be appropriate for this patient. It can be very effective and less invasive than surgery, but cryoablation is indicated only for treating renal cell carcinomas 4 cm or smaller. It is not effective for larger lesions and is therefore not indicated for this patient.CT-guided biopsy (Option C) is used for evaluating indeterminate renal masses. However, for renal masses with imaging findings indicating malignancy, such as in this case, biopsy is not needed to establish the diagnosis. Because this patient's imaging findings are consistent with renal cell carcinoma, proceeding directly to surgical resection is indicated.External-beam radiation therapy (Option D) is not a standard treatment for patients with localized renal cell carcinoma. It is not known to be curative and is not indicated before or after surgery. This patient requires surgery, as noted previously.",
+  "critique_links": [],
   "key_points": [
     "Renal masses smaller than 4 cm can be monitored with active surveillance or treated with cryoablation or surgery; masses larger than 4 cm are treated with resection, by radical nephrectomy or, in selected patients, partial nephrectomy.",
     "For renal masses with imaging findings indicating renal cell carcinoma, a biopsy is not needed to establish the diagnosis."
@@ -61,5 +62,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:51:14.600317-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:31.681243-06:00"
 }

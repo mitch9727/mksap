@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 48-year-old man is hospitalized with a 5-day history of persistent febrile neutropenia despite treatment with cefepime. Medical history is notable for refractory acute myeloid leukemia. Other medications are cytarabine, voriconazole, and acyclovir.On physical examination, temperature is 39.3 °C (102.7 °F), blood pressure is 112/65 mm Hg, pulse rate is 115/min, and respiration rate is 18/min. Oxygen saturation is 98% breathing ambient air. Facial pain and swelling are noted over the right maxillary sinus. The remainder of the examination is normal.Laboratory studies:Leukocyte count200/µL (0.2 × 109/L)LAbsolute neutrophil count0/µL (0 × 109/L)LPlatelet count5000/µL (5 × 109/L)LRoutine blood cultures are negative.CT scan of the sinuses demonstrates fullness within the maxillary sinuses with bony erosion of the medial wall of the right maxillary antrum, middle turbinate, and uncinate process. CT scan of the chest demonstrates several 0.5-cm to 1.0-cm lung nodules bilaterally. CT scan of the abdomen and pelvis is unremarkable.Empiric liposomal amphotericin B is initiated.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Surgical biopsy and debridement of this patient's sinuses (Option D) is the most appropriate next step in management. This patient's clinical presentation is concerning for rhino-orbital-cerebral disease caused by mucormycosis, which typically affects immunocompromised persons or patients with poorly controlled diabetes mellitus. Except for fever, patients with neutropenia and fungal infections may be asymptomatic; therefore, having a high index of suspicion is critical in establishing the diagnosis and urgently initiating treatment. Mucormycosis can spread across tissue planes, erode through bone, and invade into vessels, orbital space, and the central nervous system (CNS). Voriconazole does not have activity against mucormycosis, so this patient remains at risk despite antifungal prophylaxis. Emergent surgical debridement of affected tissue is essential; delay is associated with increased morbidity and mortality. The diagnosis relies on invasive testing and is usually made based on histopathology and culture performed on affected tissue. Antifungal treatment should be initiated early with liposomal amphotericin B; posaconazole or isavuconazole can be used as step-down or salvage therapy.This patient's chest CT scan showed pulmonary nodules, which may indicate pulmonary mucormycosis, either by hematogenous spread or inhalation. However, the sinus infection is more critical to address because of the proximity to the orbital space and CNS. Sinus tissue is more easily accessible for biopsy, and surgical debridement serves a diagnostic and treatment purpose, so it is the more appropriate management choice for this patient than bronchoscopy and bronchoalveolar lavage (Option A).Fungal blood culture sensitivity is low; even if a fungal pathogen is identified, cultures would likely take several days to weeks to grow an organism. Additionally, the diagnosis of mucormycosis depends on histopathology and culture of infected tissue, which has better diagnostic yield than blood cultures (Option B).Serum markers, such as galactomannan and 1,3 β-d-glucan assays (Option C), are elevated in aspergillosis and infection with other hyaline molds; however, they are not elevated in mucormycosis.",
+  "critique_links": [],
   "key_points": [
     "Mucormycosis is a significant cause of invasive fungal sinusitis, which can spread across tissue planes, erode through bone, and invade into vessels, orbital space, and the central nervous system; emergent surgical debridement of affected tissue is essential."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.121725-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.561067-06:00"
 }

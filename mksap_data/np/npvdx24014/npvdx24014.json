@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 52-year-old asymptomatic man is evaluated during a wellness examination.Funduscopic findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is retinal arteriosclerosis (Option D). The optic fundus shows changes of arteriosclerosis, which is characterized by arteriovenous nicking and arteriolar narrowing. Nicking is defined as the disappearance of a short segment of the venule where it is crossed by the arteriole and by a 90°-angle crossing of the arterioles and venules. The white arrow in the image shown identifies an area of nicking. Narrowed arterioles may appear as a \"copper wire.\" Retinal arteriosclerotic changes are seen in hypertensive retinopathy.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/npfig24618.4dddb248e8f11b9836bb94a74ae0f7d6.jpg",
-      "figures/npfig24617.ed739e90e415fafea0662f87cf46859b.jpg"
+      "figures/npfig24617.ed739e90e415fafea0662f87cf46859b.jpg",
+      "figures/npfig24618.4dddb248e8f11b9836bb94a74ae0f7d6.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.529878-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "npfig24617",
+        "file": "figures/npfig24617.ed739e90e415fafea0662f87cf46859b.jpg",
+        "title": "Funduscopic Findings of Retinal Arteriosclerosis",
+        "short_title": "stem Funduscopic Findings of Retinal Arteriosclerosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 874
+      },
+      {
+        "figure_id": "npfig24618",
+        "file": "figures/npfig24618.4dddb248e8f11b9836bb94a74ae0f7d6.jpg",
+        "title": "Funduscopic Findings of Retinal Arteriosclerosis",
+        "short_title": "critique Fundoscopy of Retinal Arteriosclerosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 628
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.991923-06:00"
 }

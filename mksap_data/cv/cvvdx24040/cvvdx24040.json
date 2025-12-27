@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 59-year-old woman is evaluated for severe, acute-onset chest pain.Chest CT scan with contrast is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This CT scan shows a type B aortic dissection (Option D). The ascending aorta (blue arrow) appears normal in caliber and without a dissecting flap separating the true and false lumen. The descending thoracic aorta is dilated, and true and false lumens are separated by a flap (red arrow). There is intact flow within the false lumen (contrast enhancement is equal on both sides of the dissection plane). In contrast, in an aortic hematoma, there is a crescent-shaped collection of blood within the media without interruption of the intima. In a penetrating atherosclerotic ulcer, blood is localized at the site of the ulcer and is contained within the intima-medial layer (pseudoaneurysm).",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/cvfig24648.eed410ad0648e8e98d584dde0cae46bf.jpg",
-      "figures/cvfig24647.6e636421952b492181b40bd6c0e43a87.jpg"
+      "figures/cvfig24647.6e636421952b492181b40bd6c0e43a87.jpg",
+      "figures/cvfig24648.eed410ad0648e8e98d584dde0cae46bf.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.428023-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24647",
+        "file": "figures/cvfig24647.6e636421952b492181b40bd6c0e43a87.jpg",
+        "title": "CT Scan Showing Type B Aortic Dissection",
+        "short_title": "stem CT Scan Showing Type B Aortic Dissection",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 512,
+        "height": 431
+      },
+      {
+        "figure_id": "cvfig24648",
+        "file": "figures/cvfig24648.eed410ad0648e8e98d584dde0cae46bf.jpg",
+        "title": "CT Scan Showing Type B Aortic Dissection With Arrows",
+        "short_title": "critique CT Scan Showing Type B Aortic Dissection With Arrows",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 512,
+        "height": 431
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.929289-06:00"
 }

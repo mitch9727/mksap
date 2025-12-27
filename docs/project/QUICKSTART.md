@@ -30,20 +30,22 @@ MKSAP_SESSION=... ./target/release/mksap-extractor
 ```bash
 cd ../media_extractor
 cargo build --release
-./target/release/media-extractor --all --data-dir ../mksap_data
+./target/release/media-extractor discover --discovery-file media_discovery.json
+./target/release/media-extractor download --all --data-dir ../mksap_data --discovery-file media_discovery.json
 ```
 
 Media extractor arguments:
 
 ```bash
-./target/release/media-extractor --all --data-dir /path/to/mksap_data
-./target/release/media-extractor cvmcq24001 --data-dir /path/to/mksap_data
+./target/release/media-extractor discover --discovery-file media_discovery.json
+./target/release/media-extractor download --all --data-dir /path/to/mksap_data --discovery-file media_discovery.json
+./target/release/media-extractor download --question-id cvmcq24001 --data-dir /path/to/mksap_data --discovery-file media_discovery.json
 ```
 
 Optional session override:
 
 ```bash
-MKSAP_SESSION=... ./target/release/media-extractor
+MKSAP_SESSION=... ./target/release/media-extractor download --all --data-dir ../mksap_data --discovery-file media_discovery.json
 ```
 
 ## Output Location

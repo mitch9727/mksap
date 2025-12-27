@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 19-year-old woman is evaluated for generalized itching. Her eyebrows and eyelashes are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is lice (Option B). This patient has phthiriasis palpebrarum, an uncommon complication of lice infestation that occurs on the eyelashes. Lice infestation is diagnosed by identifying crawling lice on the head (scalp, eyebrows, or eyelashes) or pubic hair. Louse egg cases (nits) are found sticking to the hair shaft in patients with lice, as shown in a different patient, and are generally easier to see than lice.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,41 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24661.e0e1d920c1477c50a415ecfec3526910.jpg",
+      "figures/dmfig24662.1a0298734d4e7e9728d00bab074539a6.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.920719-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24661",
+        "file": "figures/dmfig24661.e0e1d920c1477c50a415ecfec3526910.jpg",
+        "title": "Lice",
+        "short_title": "stem Lice",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 643
+      },
+      {
+        "figure_id": "dmfig24662",
+        "file": "figures/dmfig24662.1a0298734d4e7e9728d00bab074539a6.jpg",
+        "title": "Lice",
+        "short_title": "critique Lice",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 713
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.467095-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 23-year-old woman presents with the skin condition shown. The skin lesions involve less than 10% of the body surface area. She recently began receiving carbamazepine for epilepsy.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is Stevens-Johnson syndrome (SJS) (Option C). SJS begins with a prodrome that may include fever, respiratory symptoms, headache, vomiting, and/or diarrhea, followed 1 to 14 days later by the onset of cutaneous lesions and involvement of mucous membranes. Skin lesions of SJS appear as annular erythematous macules or papules, often with a dusky center and rim of bright erythema (pseudo-targetoid lesions), that may progress to papules or plaques with central bullae. Lesions may coalesce and progress to epidermal necrosis and sloughing, leaving behind moist, erythematous, exposed dermis.SJS and toxic epidermal necrolysis (TEN) are related clinical syndromes characterized by acute epidermal necrosis. The classification of SJS and TEN is determined by the percentage of body surface area with epidermal detachment: SJS involves less than 10%, SJS/TEN overlap involves 10% to 30%, and TEN involves greater than 30%.Essentially all cases of TEN are temporally correlated with medications, whereas about 75% of SJS cases are caused by drug exposure; the remaining cases are related to infection or vaccination. HIV infection, kidney disease, uncontrolled autoimmune disease, and certain human leukocyte antigen types (HLA-B*15:02 and HLA-B*58:01) increase the risk of SJS and TEN.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24624.cf85517c6de4a8b42a867a26ff59f393.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.837691-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24624",
+        "file": "figures/dmfig24624.cf85517c6de4a8b42a867a26ff59f393.jpg",
+        "title": "Stevens-Johnson Syndrome",
+        "short_title": "stem Stevens-Johnson Syndrome",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 446
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.378606-06:00"
 }

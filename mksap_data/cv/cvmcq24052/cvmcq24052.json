@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 79-year-old patient is evaluated in the emergency department for acute left-sided chest pain radiating to the back. The pain began 2 hours ago and was followed by nausea and presyncope. The patient has hypertension, dyslipidemia, and COPD. Medications are valsartan, simvastatin, and umeclidinium/vilanterol.On physical examination, blood pressure is 140/84 mm Hg in both arms and pulse rate is 88/min and regular. The patient appears uncomfortable and rates their pain as 8 on a 10-point scale. Cardiac and lung examinations are normal.Laboratory results, including troponin levels, are normal.ECG reveals normal sinus rhythm and no ST-T–wave changes. Chest CT shows a penetrating aortic ulcer in the proximal descending thoracic aorta, approximately 8 cm below the left subclavian artery (arrow in the image below).Pain control is achieved with intravenous morphine.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient with descending (type B) acute aortic syndrome is esmolol (Option A). Type B acute aortic syndromes originate distal to the left subclavian artery and include aortic dissection, penetrating aortic ulcers, and intramural aortic hematomas. Most patients with stable type B acute aortic syndromes can be managed medically with aggressive blood pressure management, pain control, statins, and active surveillance. Intravenous β-blockers are first-line treatment, and the systolic blood pressure should be reduced to 120 mm Hg or less in the first hour. If there is an inadequate response to β-blocker therapy, an intravenous vasodilator (e.g., nitroprusside, nicardipine) should be administered. Pain control is best accomplished with intravenous opioids. This patient has a penetrating aortic ulcer, defined as an ulceration of the aorta at the site of atheromatous plaque and extending through the aortic intima and into the aortic media. The penetrating aortic ulcer originates distal to the left subclavian artery, signifying a type B acute aortic syndrome. The patient is hemodynamically stable, and esmolol should be initiated for aggressive blood pressure control.Although vasodilators such as nitroprusside (Option B) and nicardipine are used to control blood pressure in acute aortic syndromes, they should be started only after the initiation of β-blockers. Vasodilators may increase shear forces in the aorta, an effect that is attenuated by β-blockers.Open surgical aortic repair (Option C) is associated with significant morbidity and mortality, especially in older patients with comorbid conditions such as COPD and/or cardiovascular disease. Although surgical or endovascular intervention is the cornerstone of treatment of patients with type A acute aortic syndrome, patients with stable type B disease can usually be managed medically. Emergent open surgical repair is not indicated in this patient.Reimaging in 48 hours (Option D) is not the best approach, because initial management should focus on blood pressure control. Reimaging should be performed immediately if there is a change in clinical status because disease progression may indicate the need for urgent intervention.",
+  "critique_links": [],
   "key_points": [
     "Most patients with stable type B acute aortic syndromes can be managed medically with aggressive blood pressure management, pain control, statins, and active surveillance.",
     "Intravenous β-blockers are first-line treatment for blood pressure control in acute aortic syndromes; the systolic blood pressure should be reduced to 120 mm Hg or less in the first hour."
@@ -58,5 +59,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:48:57.324372-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24218",
+        "file": "figures/cvfig24218.b102db631fb30bd8e46eed9e0ae3cfc1.jpg",
+        "title": "Chest CT Showing a Penetrating Aortic Ulcer in the Proximal Descending Thoracic Aorta",
+        "short_title": "Chest CT Showing Aortic Ulcer",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 583,
+        "height": 524
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.548135-06:00"
 }

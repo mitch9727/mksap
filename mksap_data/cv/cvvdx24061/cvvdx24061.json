@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 52-year-old man is evaluated after he received an irregular pulse notification on his smartwatch. He is otherwise healthy. Blood pressure is 114/68 mm Hg, and pulse rate is 75/min and irregular.ECG is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is premature atrial contractions (PACs) (Option B). PACs are early isolated beats that arise from the atria. They are exceedingly common, and their frequency increases with age. In this patient, the irregular pulse may be caused by PACs that are conducted and yield an irregular early pulse, or irregularity may result from PACs that are blocked in the atrioventricular node, resulting in irregular compensatory pauses.Atrial fibrillation, premature ventricular contractions, and sinus arrhythmia also may yield an irregular pulse, with or without symptoms. However, the presence of discrete P waves on the ECG excludes atrial fibrillation, and the absence of premature wide QRS complexes excludes premature ventricular contractions. The ECG reveals premature P waves with morphology differing from sinus rhythm, ruling out sinus arrhythmia.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:08:40.498001-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24661",
+        "file": "figures/cvfig24661.5b3c0979ae0e4773a92c8bedba77b70a.jpg",
+        "title": "ECG Showing Premature Atrial Contractions",
+        "short_title": "stem ECG Showing Premature Atrial Contractions",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 433
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.970791-06:00"
 }

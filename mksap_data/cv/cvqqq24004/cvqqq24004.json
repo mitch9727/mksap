@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 51-year-old man undergoes follow-up evaluation for chronic heart failure with reduced ejection fraction caused by ischemic cardiomyopathy. He has New York Heart Association functional class II symptoms. Medications are rosuvastatin, enalapril, carvedilol, furosemide, dapagliflozin, and spironolactone.On physical examination, vital signs are normal. An S3 is present.ECG shows sinus rhythm, a heart rate of 60/min, and normal QRS duration. Echocardiogram shows a left ventricular ejection fraction of 30%.",
   "question_stem": "Which of the following is the most appropriate additional management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment is to switch enalapril to valsartan-sacubitril (Option D). Guidelines recommend replacing ACE inhibitors or angiotensin receptor blockers with valsartan-sacubitril in patients with chronic symptomatic heart failure with reduced ejection fraction (HFrEF) (New York Heart Association [NYHA] functional class II-IV heart failure symptoms and left ventricular ejection fraction [LVEF] of 40% or less). In the PARADIGM-HF trial, patients with NYHA class II to IV HFrEF who were randomized to treatment with valsartan-sacubitril versus enalapril had a significantly reduced occurrence of cardiovascular death or heart failure hospitalization. Valsartan-sacubitril should be initiated instead of ACE inhibitors or angiotensin receptor blockers in patients with new-onset HFrEF. In patients such as this one who are taking an ACE inhibitor, a 36-hour washout period should be followed before starting valsartan-sacubitril to avoid risk for angioedema.The nondihydropyridine calcium channel blockers verapamil and diltiazem (Option A) are detrimental in patients with HFrEF, possibly owing to negative inotropic effects, and should not be used. Amlodipine and felodipine have shown neither benefit nor harm and can be used in patients with persistent hypertension despite maximal therapy with other agents.Ivabradine (Option B) is a sinoatrial node modulator that slows resting heart rate. The addition of ivabradine to standard heart failure therapy reduces heart failure hospitalization or cardiovascular death. Patients eligible for treatment are those with symptomatic HFrEF (LVEF ≤35%), in sinus rhythm with a heart rate of 70/min or higher, and taking standard heart failure therapy, including a maximally tolerated β-blocker dose.Cardiac resynchronization therapy (CRT) (Option C), or biventricular pacing, involves traditional pacing of the right ventricular apex and pacing of the left ventricular lateral wall through a lead inserted through the coronary sinus into a lateral cardiac vein. CRT improves LVEF, reduces heart failure symptoms, and reduces mortality in patients with dyssynchrony. CRT is indicated in patients with an LVEF of 35% or less, NYHA class II to IV symptoms despite guideline-directed medical therapy, sinus rhythm, and left bundle branch block with a QRS complex of 150 ms or longer (class 1 recommendation) or QRS complex of 120 to 149 ms (class 2a recommendation). This patient has a normal QRS duration and will not benefit from CRT.",
+  "critique_links": [],
   "key_points": [
     "Guidelines recommend valsartan-sacubitril in patients with New York Heart Association functional class II to IV heart failure symptoms and ejection fraction of 40% or less as part of initial guideline-directed medical therapy in place of an ACE inhibitor or angiotensin receptor blocker (ARB) or to replace an ACE inhibitor or ARB in patients already taking these agents."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.734328-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:26.768907-06:00"
 }

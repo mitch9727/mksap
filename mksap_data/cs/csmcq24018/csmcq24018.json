@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 75-year-old woman is evaluated during a follow-up visit for pain due to a thoracic vertebral compression fracture sustained 6 months ago. She has not had relief from acetaminophen, calcitonin, topical or oral NSAIDs, topical lidocaine, or gabapentin. She declined vertebroplasty. She participates in physical therapy and a cognitive behavioral therapy group for patients with chronic pain. These measures improved her pain, but she is still unable to meet her functional goal of playing with her grandchildren. She inquires about oxycodone, which her brother found effective after fracturing his leg. Her medical history is significant for osteoporosis, hypertension, and chronic kidney disease. Medications are losartan, alendronate, and vitamin D.Physical examination, including vital signs, is normal.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,15 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is to conduct an opioid risk assessment (Option B) to inform the decision about whether to initiate opioids in this patient with chronic pain. Opioids may be appropriate in selected patients with chronic pain for whom nonpharmacologic and multimodal analgesic therapy have not improved function and quality of life. The 2022 CDC clinical practice guidelines for prescribing opioids for chronic noncancer pain include a thorough assessment of the risk of opioids in the context of individual patient characteristics. The Opioid Risk Tool is an office-based screening tool that accounts for risk factors associated with opioid-related harms, such as the presence of substance use disorders, kidney or liver disease, and sleep-disordered breathing. This tool stratifies patients as low, moderate, or high risk, and the result may be used as part of the overall assessment of the appropriateness of chronic opioid therapy for an individual patient. It is reasonable to consider chronic opioid therapy in this patient who has not reached her functional goals despite a multimodal approach to pain management. The next appropriate step is to conduct an opioid risk assessment to evaluate patient-specific risks of this therapy.Systemic NSAIDs such as celecoxib (Option A) can be used for acute nociceptive pain, but their long-term use is limited by adverse effects. This patient did not respond to a previous NSAID trial, and NSAIDs should additionally be avoided in the setting of chronic kidney disease, which is present in this patient.Gabapentinoids such as pregabalin (Option C) have utility in the treatment of nociplastic and neuropathic pain, but they have no proven effectiveness for nociceptive pain, which is present in this patient. In addition, gabapentin was ineffective, and thus pregabalin is unlikely to help and would unnecessarily subject her to potential adverse drug effects.Multimodal treatment plans incorporating nonpharmacologic and pharmacologic agents are strongly recommended to improve function and well-being in patients with chronic pain. Many nonpharmacologic interventions have been studied, and there is evidence for the effectiveness of cognitive behavioral therapy, which this patient should continue. However, no evidence supports hypnotherapy (Option D) in the treatment of chronic pain.",
+  "critique_links": [
+    {
+      "href": "http://www.nida.nih.gov/sites/default/files/opioidrisktool.pdf",
+      "text": "Opioid Risk Tool",
+      "target": "_blank",
+      "title": null,
+      "rel": null
+    }
+  ],
   "key_points": [
     "A multimodal nonpharmacologic and pharmacologic regimen is the standard care for chronic pain; opioids may be appropriate in carefully selected patients in whom multimodal analgesic therapy has not improved function and quality of life.",
     "Before initiation of opioid therapy, patients should undergo a thorough assessment that includes consideration of risk factors for opioid-related harms, including the presence of substance use disorders, kidney or liver disease, and sleep-disordered breathing."
@@ -56,5 +65,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:01:45.707483-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:27.962816-06:00"
 }

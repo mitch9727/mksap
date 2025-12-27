@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 52-year-old man is evaluated for fever, hypotension, and rash. The rash was preceded by cutaneous pain, followed by the development of petechial lesions that coalesced, forming ecchymoses and evolving into the changes shown.",
   "question_stem": "Which of the following organisms is most likely responsible for this patient's skin findings?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Neisseria meningitidis (Option B) is the most likely causative agent for this patient's skin findings. Skin lesions begin as petechiae but can evolve to purpura. Purpura fulminans is a severe complication of meningococcal disease. Meningococcal-induced microvascular thrombosis and disseminated intravascular coagulation can lead to widespread hemorrhage into the skin, which can evolve into painful purple geographic lesions. The lesions may become necrotic, with the formation of bullae and vesicles. Meningococcemia is frequently accompanied by associated bacterial meningitis.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.188219-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "idfig24620",
+        "file": "figures/idfig24620.acc36eed9bb0913c604b0bc9b9b0e04b.jpg",
+        "title": "Purpura Fulminans",
+        "short_title": "Purpura Fulminans",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 497,
+        "height": 734
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.708539-06:00"
 }

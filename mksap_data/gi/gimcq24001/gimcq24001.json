@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 37-year-old patient is evaluated during a yearly office visit. Their father was diagnosed with colon cancer at age 57 years. The patient has no other family history of cancer and no medical conditions.On physical examination, vital signs and other findings are normal.",
   "question_stem": "Which of the following is the most appropriate colorectal cancer screening approach?",
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate screening approach is colonoscopy at age 40 years (Option A). For persons in whom a first-degree relative is diagnosed with colorectal cancer (CRC) or advanced polyp before age 60 years, screening for CRC should begin at age 40 years or 10 years earlier than the age of the youngest first-degree relative at diagnosis, whichever comes first (see ). This patient's father was diagnosed with CRC at age 57 years; thus, the patient should begin colonoscopy at age 40 years rather than 47 (Option B). Given the patient's increased risk, guidelines recommend that they continue to undergo colonoscopy every 5 years even if no polyps are identified or resected on initial screening.Colonoscopy is the preferred screening modality in most patients at increased risk for colorectal cancer (the exception is a patient with a first-degree relative diagnosed with colorectal cancer or advanced polyp at age ≥60 years; in these patients, any modality is recommended). Therefore, because this patient is at elevated risk as a result of their father's colorectal cancer diagnosis at age 57 years, multitarget stool DNA testing at age 40 years (Option C) is not recommended for screening. In addition, multitarget stool DNA testing at age 47 years (Option D) is also inappropriate because of the testing modality and because the patient should start screening at age 40 years.",
+  "critique": "The most appropriate screening approach is colonoscopy at age 40 years (Option A). For persons in whom a first-degree relative is diagnosed with colorectal cancer (CRC) or advanced polyp before age 60 years, screening for CRC should begin at age 40 years or 10 years earlier than the age of the youngest first-degree relative at diagnosis, whichever comes first (see Table: Colorectal Cancer Screening in Individuals at Elevated Risk). This patient's father was diagnosed with CRC at age 57 years; thus, the patient should begin colonoscopy at age 40 years rather than 47 (Option B). Given the patient's increased risk, guidelines recommend that they continue to undergo colonoscopy every 5 years even if no polyps are identified or resected on initial screening.Colonoscopy is the preferred screening modality in most patients at increased risk for colorectal cancer (the exception is a patient with a first-degree relative diagnosed with colorectal cancer or advanced polyp at age ≥60 years; in these patients, any modality is recommended). Therefore, because this patient is at elevated risk as a result of their father's colorectal cancer diagnosis at age 57 years, multitarget stool DNA testing at age 40 years (Option C) is not recommended for screening. In addition, multitarget stool DNA testing at age 47 years (Option D) is also inappropriate because of the testing modality and because the patient should start screening at age 40 years.",
+  "critique_links": [],
   "key_points": [
     "For persons in whom a first-degree relative is diagnosed with colorectal cancer (CRC) or advanced polyp before age 60 years, screening for CRC should begin with colonoscopy at age 40 years or 10 years earlier than the age of the youngest first-degree relative at diagnosis, whichever comes first."
   ],
@@ -51,11 +52,34 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/gitab24021.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:30.831475-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "gitab24021",
+        "file": "tables/gitab24021.html",
+        "title": "Screening for Colorectal Cancer in Individuals at Elevated Risk",
+        "short_title": "Colorectal Cancer Screening in Individuals at Elevated Risk",
+        "footnotes": [
+          "CRC = colorectal cancer; FDR = first-degree relative (parent, sibling, or child).",
+          "<sup>a</sup>Family history of an advanced polyp includes adenomas or sessile serrated lesions ≥1 cm, ≥3 adenomas/sessile serrated lesions, villous histology, or high-grade dysplasia or submucosal cancer in a colonic polyp or a traditional serrated adenoma.",
+          "<sup>b</sup>If baseline examination is normal.",
+          "Data from Rex DK, Boland CR, Dominitz JA, et al. Colorectal cancer screening: recommendations for physicians and patients from the U.S. Multi-society Task Force on Colorectal Cancer. Gastroenterology. 2017;153:307-323. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/28600072\" target=\"_blank\">PMID: 28600072</a> doi:10.1053/j.gastro.2017.05.013; Syngal S, Brand RE, Church JM, et al; American College of Gastroenterology. ACG clinical guideline: genetic testing and management of hereditary gastrointestinal cancer syndromes. Am J Gastroenterol. 2015;110:223-62; quiz 263. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/25645574\" target=\"_blank\">PMID: 25645574</a>; Rubin DT, Ananthakrishnan AN, Siegel CA, et al. ACG clinical guideline: ulcerative colitis in adults. Am J Gastroenterol. 2019;114:384-413. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/30840605\" target=\"_blank\">PMID: 30840605</a> doi:10.14309/ajg.0000000000000152; Shaukat A, Kahi CJ, Burke CA, et al. ACG clinical guidelines: colorectal cancer screening 2021. Am J Gastroenterol. 2021;116:458-479. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/33657038\" target=\"_blank\">PMID: 33657038</a> doi:10.14309/ajg.0000000000001122."
+        ],
+        "headers": [
+          "Risk Category and Criteria",
+          "Screening Recommendations (Age; Modality; Interval)"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.258274-06:00"
 }

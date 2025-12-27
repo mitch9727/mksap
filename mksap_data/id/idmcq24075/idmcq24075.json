@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 49-year-old man is evaluated before initiating antiretroviral therapy. He has newly diagnosed HIV infection. Medical history is also notable for coronary artery disease, hypertension, and chronic kidney disease. Medications are atorvastatin, aspirin, and lisinopril.Vital signs are normal, and physical examination findings are unremarkable.Other routine studies recommended before antiretroviral therapy initiation are unremarkable.CD4 cell count is 250/µL and HIV viral load is 53,841 copies/mL.",
+  "question_text": "A 49-year-old man is evaluated before initiating antiretroviral therapy. He has newly diagnosed HIV infection. Medical history is also notable for coronary artery disease, hypertension, and chronic kidney disease. Medications are atorvastatin, aspirin, and lisinopril.Vital signs are normal, and physical examination findings are unremarkable.Laboratory studies:Creatinine1.5 mg/dL (133 µmol/L)HEstimated glomerular filtration rate56 mL/min/1.73 m2 Other routine studies recommended before antiretroviral therapy initiation are unremarkable.CD4 cell count is 250/µL and HIV viral load is 53,841 copies/mL.",
   "question_stem": "Which of the following is the most appropriate regimen for this patient?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate treatment for this patient is bictegravir, emtricitabine, and tenofovir alafenamide (TAF) (Option B). Guidelines for HIV antiretroviral therapy (ART) generally include use of two or three drugs from two different classes, preferably including an integrase strand transfer inhibitor (see ). Recommended regimens for initial HIV treatment feature a high barrier to resistance, good safety and tolerability, and ease of administration to facilitate adherence. In addition, comorbid conditions and drug-drug interactions should be considered when selecting a regimen. Bictegravir, emtricitabine, and TAF is a first-line recommended initial regimen that is appropriate in this patient with chronic kidney disease. TAF is converted to the active drug tenofovir intracellularly and achieves lower plasma concentrations, resulting in less bone and kidney toxicity.Abacavir, dolutegravir, and lamivudine (Option A) is not a preferred regimen for this patient with coronary artery disease because abacavir has been associated with increased risk of cardiovascular events in some clinical studies. Furthermore, testing for the presence of the HLA-B*57:01 allele should be performed in all patients before prescribing abacavir because abacavir hypersensitivity, a potentially fatal reaction that may initially manifest as flu-like symptoms and rash, is associated with the presence of this allele. Persons who test positive for the HLA-B*57:01 allele should not receive abacavir.The combination of dolutegravir, lamivudine, and tenofovir disoproxil fumarate (TDF) (Option C) is another initial ART regimen recommended for most persons with HIV. However, patients with or at risk for reduced kidney function or osteopenia should not be given TDF, a nucleoside reverse transcriptase inhibitor. TDF is associated with proximal renal tubular injury, manifesting as an elevated serum creatinine level, proteinuria, and hypophosphatemia. It is not recommended in patients whose estimated glomerular filtration rate (eGFR) is less than 60 mL/min/1.73 m2, so it would not be preferred for this patient with chronic kidney disease and an eGFR of 56 mL/min/1.73 m2. TAF is preferred to TDF in patients whose creatinine clearance is at least 30 mL/min.Emtricitabine and TAF (Option D) is FDA approved for HIV pre-exposure prophylaxis. This regimen is not administered as treatment of HIV infection. Data support the use of two-drug antiretroviral regimens for the initial treatment of HIV infection; however, the drugs should be from different classes, and emtricitabine and TAF are both nucleoside transcriptase inhibitors.",
+  "critique": "The most appropriate treatment for this patient is bictegravir, emtricitabine, and tenofovir alafenamide (TAF) (Option B). Guidelines for HIV antiretroviral therapy (ART) generally include use of two or three drugs from two different classes, preferably including an integrase strand transfer inhibitor (see Table: Initial Treatment Regimens for Most Persons with HIV Infection). Recommended regimens for initial HIV treatment feature a high barrier to resistance, good safety and tolerability, and ease of administration to facilitate adherence. In addition, comorbid conditions and drug-drug interactions should be considered when selecting a regimen. Bictegravir, emtricitabine, and TAF is a first-line recommended initial regimen that is appropriate in this patient with chronic kidney disease. TAF is converted to the active drug tenofovir intracellularly and achieves lower plasma concentrations, resulting in less bone and kidney toxicity.Abacavir, dolutegravir, and lamivudine (Option A) is not a preferred regimen for this patient with coronary artery disease because abacavir has been associated with increased risk of cardiovascular events in some clinical studies. Furthermore, testing for the presence of the HLA-B*57:01 allele should be performed in all patients before prescribing abacavir because abacavir hypersensitivity, a potentially fatal reaction that may initially manifest as flu-like symptoms and rash, is associated with the presence of this allele. Persons who test positive for the HLA-B*57:01 allele should not receive abacavir.The combination of dolutegravir, lamivudine, and tenofovir disoproxil fumarate (TDF) (Option C) is another initial ART regimen recommended for most persons with HIV. However, patients with or at risk for reduced kidney function or osteopenia should not be given TDF, a nucleoside reverse transcriptase inhibitor. TDF is associated with proximal renal tubular injury, manifesting as an elevated serum creatinine level, proteinuria, and hypophosphatemia. It is not recommended in patients whose estimated glomerular filtration rate (eGFR) is less than 60 mL/min/1.73 m2, so it would not be preferred for this patient with chronic kidney disease and an eGFR of 56 mL/min/1.73 m2. TAF is preferred to TDF in patients whose creatinine clearance is at least 30 mL/min.Emtricitabine and TAF (Option D) is FDA approved for HIV pre-exposure prophylaxis. This regimen is not administered as treatment of HIV infection. Data support the use of two-drug antiretroviral regimens for the initial treatment of HIV infection; however, the drugs should be from different classes, and emtricitabine and TAF are both nucleoside transcriptase inhibitors.",
+  "critique_links": [],
   "key_points": [
     "In patients initiating antiretroviral therapy, comorbidities and drug interactions must be considered when choosing an appropriate regimen.",
     "Patients with or at risk for reduced kidney function or osteopenia should not be given tenofovir disoproxil fumarate."
@@ -52,12 +53,41 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/idtab24085.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:47:14.253695-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "idtab24085",
+        "file": "tables/idtab24085.html",
+        "title": "Recommended Regimens for Initial Treatment of Most Persons with HIV Infection<sup>a,b</sup>",
+        "short_title": "Initial Treatment Regimens for Most Persons with HIV Infection",
+        "footnotes": [
+          "<sup>a</sup>Revised based on the 2024 International Antiviral Society–USA Panel guidelines and the 2024 Department of Health and Human Services guideline update. A sample for genotypic testing should be sent before antiretroviral therapy initiation. Before initiating treatment in a person of childbearing potential, a pregnancy test should be performed. Before prescribing antiretroviral therapy to a person of childbearing potential, refer to the <a href=\"https://clinicalinfo.hiv.gov/en/guidelines\" target=\"_blank\">Panel guideline</a> .",
+          "<sup>b</sup>Persons who acquire HIV while receiving preexposure prophylaxis with tenofovir plus emtricitabine should have genotyping performed before initiating therapy. Persons who acquire HIV after receiving preexposure prophylaxis with cabotegravir should have genotyping for integrase strand transfer inhibitor resistance before starting therapy.",
+          "<sup>c</sup>Preferred regimen during pregnancy.",
+          "<sup>d</sup>Tenofovir alafenamide (TAF) and tenofovir disoproxil fumarate (TDF) are two forms of tenofovir that are approved in the United States. TAF has fewer bone and kidney toxicities than TDF, whereas TDF is associated with lower lipid levels.",
+          "<sup>e</sup>Only recommended if pretreatment HIV RNA level &lt;500,000 copies/mL, lamivudine resistance is not present, and hepatitis B virus infection is excluded. Dolutegravir/lamivudine should not be used before results of HIV genotyping are available. This regimen should not be initiated in pregnancy."
+        ],
+        "headers": []
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.481892-06:00"
 }

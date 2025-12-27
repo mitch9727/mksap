@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 26-year-old woman is evaluated in the emergency department for a 1-week history of progressive dyspnea, abdominal pain, and easy bruising. She is at 33 weeks' gestation. Her only medication is a prenatal vitamin.On physical examination, blood pressure is 140/80 mm Hg, and pulse rate is 108/min. Scleral icterus is noted. Cardiac examination reveals regular tachycardia.Peripheral blood smear demonstrates one to five schistocytes.",
+  "question_text": "A 26-year-old woman is evaluated in the emergency department for a 1-week history of progressive dyspnea, abdominal pain, and easy bruising. She is at 33 weeks' gestation. Her only medication is a prenatal vitamin.On physical examination, blood pressure is 140/80 mm Hg, and pulse rate is 108/min. Scleral icterus is noted. Cardiac examination reveals regular tachycardia.Laboratory studies:Hemoglobin7.3 g/dL (73 g/L)LPlatelet count45,000/μL (45 × 109/L)LAspartate aminotransferase100 U/LHBilirubinHTotal3.2 mg/dL (54.7 μmol/L)HDirect0.2 mg/dL (3.4 μmol/L)Creatinine0.8 mg/dL (70.7 µmol/L)Lactate dehydrogenase650 U/LHUrinalysis with microscopyNo protein; no blood, erythrocytes, or leukocytesPeripheral blood smear demonstrates one to five schistocytes.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is HELLP (hemolysis, elevated liver enzymes, and low platelets) syndrome (Option B). HELLP is characterized by microangiopathic hemolytic anemia, elevated aminotransferases, and thrombocytopenia. Hypertension, abdominal pain, and kidney abnormalities (including proteinuria) may also be present. Many aspects of the presentation of HELLP overlap with other complications of pregnancy, including preeclampsia and acute fatty liver of pregnancy. Although distinguishing among these disorders may be difficult, the management of each is supportive and involves early delivery. Thrombotic thrombocytopenic purpura and complement-mediated thrombotic microangiopathy can also occur during pregnancy and may require additional therapy with plasma exchange or the anticomplement agent eculizumab. Table: Features of the Thrombotic Microangiopathies of Pregnancy shows the relative frequency of the clinical findings in these disorders. This patient has elevated aminotransferases, thrombocytopenia, and microangiopathic hemolytic anemia as demonstrated by indirect hyperbilirubinemia, elevated serum lactate dehydrogenase, and schistocytes on the peripheral blood smear. These findings are most consistent with the diagnosis of HELLP syndrome.Gestational thrombocytopenia (Option A) affects approximately 5% of pregnant persons, usually during the second or third trimester. Most patients are asymptomatic, with platelet counts greater than 100,000/μL (100 × 109/L). Gestational thrombocytopenia is not associated with the degree of thrombocytopenia or other clinical findings seen in this patient.Immune thrombocytopenic purpura (ITP) (Option C) is not the most likely diagnosis. ITP occurs more frequently in pregnant persons than in the general population, often in the first trimester of pregnancy. Features suggesting ITP also include a low platelet count (<70,000/μL [70 × 109/L]). ITP autoantibodies can cross the placenta and affect the fetus. However, this patient's hypertension, abdominal pain, hemolytic anemia, and abnormal liver function tests are not consistent with ITP.Preeclampsia (Option D) is defined as new-onset hypertension with proteinuria that occurs after 20 weeks of pregnancy. It can be difficult to distinguish preeclampsia from HELLP syndrome because both occur most commonly in the third trimester and have overlapping clinical features. However, hematologic findings such as hemolysis and severe thrombocytopenia are less likely to be associated with preeclampsia. The absence of proteinuria and kidney dysfunction also argues against preeclampsia.",
+  "critique_links": [],
   "key_points": [
     "HELLP (hemolysis, elevated liver enzymes, low platelets) syndrome is characterized by microangiopathic hemolytic anemia, elevated aminotransferases, and thrombocytopenia; hypertension, abdominal pain, and kidney abnormalities (including proteinuria) may also be present.",
     "The distinction among HELLP syndrome, preeclampsia, and acute fatty liver of pregnancy may be difficult, but it is not crucial because management for all of these is supportive and focused on early delivery."
@@ -52,12 +53,50 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/hmtab24049.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:37:01.342458-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "hmtab24049",
+        "file": "tables/hmtab24049.html",
+        "title": "Clinical and Laboratory Features of the Thrombotic Microangiopathies of Pregnancy",
+        "short_title": "Features of the Thrombotic Microangiopathies of Pregnancy",
+        "footnotes": [
+          "AFLP = acute fatty liver of pregnancy; CM-TMA = complement-mediated thrombotic microangiopathy; HELLP = Hemolysis, Elevated Liver enzymes, and Low Platelets; TTP = thrombotic thrombocytopenic purpura.",
+          "<sup>a</sup>For example, hemolytic uremic syndrome.",
+          "+++ = always present.",
+          "++ = usually present.",
+          "+ = likely to be present.",
+          "+/− = may or may not be present.",
+          "Data from Gernsheimer T, James AH, Stasi R. How I treat thrombocytopenia in pregnancy. Blood. 2013;121:38-47. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/23149846\" target=\"_blank\">PMID: 23149846</a> doi:10.1182/blood-2012-08-448944"
+        ],
+        "headers": [
+          "Feature",
+          "Pre-eclampsia",
+          "HELLP",
+          "AFLP",
+          "TTP",
+          "CM-TMAa"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.988483-06:00"
 }

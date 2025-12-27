@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 50-year-old man is evaluated for a 6-month history of palpitations and fatigue. He has no chest pain or dyspnea. He has hypertension, obesity, and obstructive sleep apnea treated with continuous positive airway pressure. Medications are hydrochlorothiazide and losartan.On physical examination, blood pressure is 129/80 mm Hg, pulse rate is 60/min, and oxygen saturation is 96% breathing room air. BMI is 35. The lungs are clear to auscultation. Cardiac examination shows only occasional ectopic beats. No edema is noted.Laboratory studies, including complete blood count, troponin level, and thyroid-stimulating hormone level are normal.ECG shows several monomorphic premature ventricular contractions without ST-T–wave changes. Echocardiogram reveals normal chamber sizes and no significant valvular disease; left ventricular ejection fraction is 40% to 45%. On exercise myocardial perfusion imaging, the patient achieves 10 metabolic equivalents and no ischemia is found. Premature ventricular complexes are noted on exercise ECG. Cardiac magnetic resonance imaging is negative for inflammation and fibrosis.",
   "question_stem": "Which of the following is the most appropriate next test?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient should undergo ambulatory ECG monitoring (Option A) to assess the likelihood of tachycardia-mediated cardiomyopathy. Tachycardia-mediated cardiomyopathy may be caused by supraventricular and ventricular arrhythmias, including premature ventricular contractions (PVCs). In patients with frequent PVCs, cardiomyopathy may develop when the burden of PVCs is more than 10% of all beats or more than 10,000 per day. PVC-mediated cardiomyopathy is more common in men with overweight. Tachycardia-mediated cardiomyopathy may be reversible with rate control (β-blockers) or rhythm control (catheter ablation); both symptoms and left ventricular (LV) function may improve with treatment. This patient has mildly reduced LV function with no evidence of underlying inflammatory, systemic, or ischemic disease despite an extensive evaluation. Given the frequent PVCs seen on ECG, tachycardia-mediated cardiomyopathy is possible, and he should undergo ambulatory ECG monitoring to quantify the frequency of PVCs.In this patient who has had symptoms for 6 months with no signs of inflammation on PET scan and no elevation in troponin level, an active inflammatory process or myocarditis is unlikely. Endomyocardial biopsy (Option B) is not indicated in this setting.99m-Technetium pyrophosphate scintigraphy (99mTc-PYP) (Option C) is a useful test for the diagnosis of cardiac amyloidosis due to misfolded transthyretin proteins (ATTR). Cardiac magnetic resonance imaging, however, shows no evidence of cardiac amyloidosis, making this diagnosis unlikely and 99mTc-PYP unnecessary.No further evaluation (Option D) is not the best choice for this patient. Although it is possible that the PVCs are the result of LV dysfunction and not the cause of his heart failure, there is a significant likelihood that tachycardia-mediated cardiomyopathy is present, and ambulatory ECG testing should be completed.",
+  "critique_links": [],
   "key_points": [
     "In patients with frequent premature ventricular contractions (PVCs), tachycardia-mediated cardiomyopathy may develop when the burden of PVCs is more than 10% of all beats or more than 10,000 per day.",
     "Tachycardia-mediated cardiomyopathy may be reversible with treatment of the underlying rhythm disturbance; both rate control and rhythm control (including catheter ablation) may be appropriate."
@@ -56,5 +57,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.661465-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:26.592418-06:00"
 }

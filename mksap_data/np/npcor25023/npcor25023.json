@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 36-year-old man is evaluated in the emergency department for confusion, unsteadiness, and nausea. He had a recent low back injury, for which he has been taking over-the-counter aspirin.On physical examination, he is tachypneic and confused. Respiration rate is 32/min. The remainder of the examination is normal.Laboratory studies:Albumin4.0 g/dL (40 g/L)Electrolytes:Sodium142 mEq/L (142 mmol/L)Potassium3.2 mEq/L (3.2 mmol/L)LChloride100 mEq/L (100 mmol/L)Bicarbonate14 mEq/L (14 mmol/L)LArterial blood gases:pH7.50HPco222 mm Hg (2.9 kPa)L",
   "question_stem": "Which of the following is the most likely acid-base disorder?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has respiratory alkalosis and concurrent increased anion gap metabolic acidosis (Option D) related to salicylate toxicity resulting from aspirin use. The first step in assessing an acid-base disorder is to measure arterial pH, Pco2, and serum bicarbonate to identify the primary derangement. Next, assess the expected compensatory response to the primary disorder. A mixed acid-base disorder is present when measured values fall outside the range of the predicted compensatory response. Finally, if an increased anion gap is identified, assess for a coexisting metabolic alkalosis or a normal anion gap acidosis. This patient's blood pH is 7.5, so the dominant disorder is an alkalosis, and the low Pco2 indicates a respiratory mechanism. The expected metabolic compensation for respiratory alkalosis is a reduction in serum bicarbonate by 4 to 5 mEq/L (4-5 mmol/L) for each 10-mm-Hg (1.3-kPa) decrease in Pco2. This patient's decrease in Pco2 is 18 mm Hg (2.4 kPa), so the bicarbonate is expected to decrease by 7.2 to 9.0 mEq/L (7.2-9.0 mmol/L) from the normal bicarbonate level (25 mEq/L [25 mmol/L]) to an expected level of 16 to 17.8 mEq/L (16-17.8 mmol/L). Because the measured bicarbonate level is lower than expected, there is a concurrent metabolic acidosis. Because an anion gap is also present, the patient must next be assessed for a coexistent normal anion gap acidosis or metabolic alkalosis. That assessment involves calculating the ratio of the magnitude of anion gap abnormality (Δ anion gap) to the magnitude of bicarbonate abnormality (Δ bicarbonate), known as the delta-delta (Δ-Δ) ratio:Δ−Δ Ratio = Δ Anion Gap/Δ Bicarbonate = (Anion Gap – 12)/(25 – Bicarbonate)A delta-delta (Δ-Δ) ratio of <0.5 to 1 suggests a concurrent normal anion gap metabolic acidosis, a ratio between 1 and 2 confirms a pure high anion gap metabolic acidosis, and a ratio >2 indicates a concurrent metabolic alkalosis. This patient's anion gap is 28 mEq/L (28 mmol/L), yielding a Δ-Δ ratio of 1.5, confirming the absence of coexistent metabolic disturbances. The clinical situation most likely to manifest with this acid-base disorder is salicylate toxicity. Central hyperventilation from salicylate causes respiratory alkalosis; salicylate itself causes anion gap metabolic acidosis. If toxicity causes vomiting, metabolic alkalosis may also be present, but that is not the case for this patient.Pure respiratory acidosis (Option A) results in increased Pco2, decreased pH, and a slight increase in bicarbonate.Respiratory alkalosis (Option B) is characterized by increased arterial pH and decreased Pco2, as in this patient, but pure respiratory alkalosis causes only a slight compensatory decrease in serum bicarbonate. This patient's bicarbonate level is low out of proportion to his degree of respiratory alkalosis.In chronic respiratory acidosis with metabolic compensation (Option C), serum bicarbonate increases in response to elevated Pco2, which this patient does not have.",
+  "critique_links": [],
   "key_points": [
     "Interpreting acid-base disorders requires identifying the dominant acid-base disorder and assessing the compensatory response; when measured values fall outside the range of the predicted compensatory response, a mixed acid-base disorder is considered present.",
     "When an anion gap is present, the delta-delta (Δ-Δ) ratio allows for assessment of a coexisting metabolic alkalosis or normal anion gap metabolic acidosis."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:48:56.330488-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.592446-06:00"
 }

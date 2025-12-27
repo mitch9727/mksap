@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 41-year-old man is evaluated during a routine visit. He is asymptomatic. Medical history is remarkable for exercise-induced asthma, controlled with a budesonide-formoterol inhaler before exercise. Family history is significant for hypertension in his father and hyperlipidemia in his mother.On physical examination, vital signs are normal. BMI is 26. Other findings are unremarkable.His 10-year risk for atherosclerotic cardiovascular disease is 3%.",
   "question_stem": "Which of the following is the most appropriate screening test to perform next?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate screening test to perform next is hemoglobin A1c measurement to screen the patient for type 2 diabetes mellitus (Option C). Screening for type 2 diabetes in the general adult population is indicated because microvascular and macrovascular complications may occur before the onset of symptomatic hyperglycemia. Interventions are available to delay or prevent the onset of type 2 diabetes in persons with prediabetes, and early treatment may prevent or reduce microvascular and macrovascular complications. The American Diabetes Association (ADA) and the U.S. Preventive Services Task Force (USPSTF) offer screening recommendations for prediabetes and type 2 diabetes (Table: Screening Guidelines for Prediabetes or Type 2 Diabetes Mellitus). Three tests can be used for screening: hemoglobin A1c, fasting plasma glucose, or oral glucose tolerance test. Unless there is unequivocal hyperglycemia and a clear clinical diagnosis, two abnormal tests are required to make the diagnosis. This patient is older than 35 years and has a BMI of 26; he meets both ADA and USPSTF screening criteria, and deferring screening at this time would be inappropriate (Option E). Therefore, he should be screened for type 2 diabetes, and hemoglobin A1c measurement is an acceptable screening option.This patient has well-controlled asthma without recent exacerbations and no evidence of infection; chest radiography is not indicated (Option A).The USPSTF does not recommend screening for coronary artery disease with ECG (Option B) in asymptomatic patients at low risk for atherosclerotic cardiovascular disease (ASCVD). The American College of Physicians also recommends against screening low-risk and asymptomatic adults with ECG. This patient is considered to be at low risk as his 10-year ASCVD risk is 3%.Screening recommendations for prostate cancer vary between expert groups (Table: Recommendations for Prostate Cancer Screening). In general, shared decision making is recommended for average-risk men between the ages of 50 and 69 years. This patient is younger than 50 years and does not have a family history of prostate cancer. Regardless of age, prostate cancer screening with prostate-specific antigen measurement (Option D) is not recommended before engaging in shared decision making with the patient.",
+  "critique_links": [],
   "key_points": [
     "The American Diabetes Association recommends screening for type 2 diabetes mellitus beginning at age 35 years; screening should be considered in patients of any age with overweight or obesity and one additional risk factor.",
     "The U.S. Preventive Services Task Force recommends screening for type 2 diabetes mellitus in adults aged 35 to 70 years who have overweight or obesity."
@@ -57,12 +58,46 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/entab24008.html",
+      "tables/ontab24027.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.248085-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "entab24008",
+        "file": "tables/entab24008.html",
+        "title": "Screening Guidelines for Prediabetes or Type 2 Diabetes Mellitus in Asymptomatic Adults",
+        "short_title": "Screening Guidelines for Prediabetes or Type 2 Diabetes Mellitus",
+        "footnotes": [
+          "ADA = American Diabetes Association; CVD = cardiovascular disease; USPSTF = U.S. Preventive Services Task Force.",
+          "Recommendations from Davidson KW, Barry MJ, Mangione CM, et al; U.S. Preventive Services Task Force. Screening for prediabetes and type 2 diabetes: U.S. Preventive Services Task Force recommendation statement. JAMA. 2021;326:736-743. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34427594\" target=\"_blank\">PMID: 34427594</a> doi:10.1001/jama.2021.12531; American Diabetes Association Professional Practice Committee. 2. Diagnosis and classification of diabetes: Standards of Care in Diabetes—2025. Diabetes Care. 2025;48:S27-S49. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/39651986\" target=\"_blank\">PMID: 39651986</a> doi:10.2337/dc25-S002"
+        ],
+        "headers": [
+          "ADA (2025)",
+          "USPSTF (2021)"
+        ]
+      },
+      {
+        "table_id": "ontab24027",
+        "file": "tables/ontab24027.html",
+        "title": "Recommendations for Prostate Cancer Screening",
+        "short_title": "Recommendations for Prostate Cancer Screening",
+        "footnotes": [
+          "PSA = prostate-specific antigen."
+        ],
+        "headers": [
+          "Expert Group",
+          "Recommendation"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.102094-06:00"
 }

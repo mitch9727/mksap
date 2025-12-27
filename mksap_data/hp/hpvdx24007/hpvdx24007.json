@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 39-year-old pregnant woman is evaluated during a routine visit. Incidentally discovered skin findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is spider angiomas (Option D). Spider angiomas are vascular lesions characterized by a prominent central papular punctum, which is the site of dilated capillaries radiating from a central arteriole. They are typically found on the chest, face, and upper limbs. Spider angiomas are often seen in patients with cirrhosis and during normal pregnancy. Cherry angiomas are small, circular dome-shaped collections of capillaries that, unlike spider angioma, do not typically blanch with pressure. Bedbug bites are pruritic erythematous papules that often occur in groups of two to four, most commonly on the trunk.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/hpfig24605.de8f20246f3daee93452e6f829d95782.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.643918-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "hpfig24605",
+        "file": "figures/hpfig24605.de8f20246f3daee93452e6f829d95782.jpg",
+        "title": "Spider Angioma",
+        "short_title": "Spider Angioma",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 675
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.732866-06:00"
 }

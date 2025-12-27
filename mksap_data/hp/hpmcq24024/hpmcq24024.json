@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 39-year-old man is evaluated in the emergency department for a 2-week history of worsening fatigue, abdominal discomfort, nausea, and jaundice. His partner notes that, over the past 2 days, the patient has been more irritable and has slept poorly. The patient has no personal or family history of liver disease. He drinks two alcoholic beverages a month. Three months ago, he began taking a weight loss supplement containing green tea extract. He takes no other medications or supplements.On physical examination, vital signs are normal. He is alert and oriented with slight psychomotor retardation. Scleral icterus and mild right-upper-quadrant abdominal tenderness are noted. The remainder of the examination is normal.Laboratory studies:INR1.7Albumin4.3 g/dL (43 g/L)Alkaline phosphatase211 U/LHAlanine aminotransferase2219 U/LHAspartate aminotransferase2377 U/LHBilirubinTotal11.7 mg/dL (200 µmol/L)HDirect8.2 mg/dL (140.2 µmol/L)HDoppler ultrasound of the abdomen is normal.",
   "question_stem": "Which of the following is the most appropriate disposition for this patient?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is to transfer this patient to a liver transplant center (Option D) because he may be in the early stages of acute liver failure (ALF). ALF is defined as severe acute (variably defined as <8 or ≤26 weeks) liver injury associated with hepatic encephalopathy and impaired synthetic liver function (usually based on an abnormally elevated INR) in a patient without preexisting liver disease, such as this patient. Importantly, the definition of ALF is not based on aminotransferase, alkaline phosphatase, or bilirubin levels. Early signs of hepatic encephalopathy may include disordered sleep, impaired attention, and mood lability or other personality changes that may be apparent only to close friends and relatives. In early stages of hepatic encephalopathy, physical examination findings might not reveal overt confusion or asterixis. Diagnosis of ALF should prompt consideration of early referral to a hospital with a liver transplant program because patients can quickly become too ill to safely transfer to another hospital. This patient has ALF, most likely due to green tea extract; ingestion of green tea extract has been associated with acute liver injury, particularly in those positive for the HLA-B*35:01 allele. Even if this patient is not a candidate for liver transplantation, liver transplant centers can offer specialized hepatology care that may improve patient outcomes.Admitting the patient to a general medicine floor (Option A) is not the most appropriate management because patients with ALF may rapidly decompensate.Admitting the patient to the ICU (Option B) is not the most appropriate choice but should be done if transfer to a hospital with liver transplant capability is not possible. Patients with ALF require close clinical monitoring. In addition, patients with ALF may require endotracheal intubation and mechanical ventilation for severe hepatic encephalopathy, continuous kidney replacement therapy for acute kidney injury, and vasopressor support.This patient should not be discharged home with laboratory monitoring (Option C). Patients with ALF are at substantial risk for death (e.g., from cerebral edema, multiorgan failure, and sepsis) and may require liver transplantation.",
+  "critique_links": [],
   "key_points": [
     "Acute liver failure is defined as severe acute liver injury associated with hepatic encephalopathy and impaired synthetic liver function in a patient without preexisting liver disease.",
     "Patients with acute liver failure should be referred to a hospital with a liver transplant program."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:03:58.560052-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.699289-06:00"
 }

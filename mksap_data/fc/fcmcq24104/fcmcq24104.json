@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "An 82-year-old woman is evaluated during a routine visit. Over the past year, she has increasingly required assistance with light housework because of both osteoarthritic knee pain and decreased energy levels and will be undergoing right total knee replacement in 3 months. Additionally, because of these symptoms, she no longer attends her weekly bridge club. She is otherwise asymptomatic. Other medical conditions are dyslipidemia, hypertension, heart failure with preserved ejection fraction, and primary hypothyroidism. Medications are atorvastatin, lisinopril, furosemide, levothyroxine, and topical diclofenac.On physical examination, vital signs are normal. BMI is 21. The patient requires help to get onto the examination table. Cardiac and pulmonary examinations are normal. Both knees demonstrate crepitus and decreased range of motion. No edema is noted.A complete blood count, comprehensive metabolic panel, and thyroid-stimulating hormone level are normal.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management is to screen for frailty (Option C). Frailty is a multifactorial geriatric syndrome characterized by unintentional weight loss, low energy, low activity levels, weakness, and slow walking speed and has been linked to increased falls, risk for hospitalization, and death. Frailty assessment is not currently recommended as part of routine geriatric care; however, it can assist with preintervention evaluation for surgical, procedural, and medical treatments. Frailty is associated with worse postoperative outcomes, including higher rates of complications, longer hospital stays, and increased morbidity and mortality. Many frailty indices are available; selected examples are provided in Table: Examples of Frailty Indices. For patients with frailty, preoperative interventions include physical therapy, nutritional interventions, and management of mood disorders and polypharmacy. Response to these interventions may require weeks to months; therefore, screening for frailty well in advance of planned interventions should occur whenever possible.Depression is a common finding in older adults, and patients with depression commonly describe low energy. However, before treatment for depression with psychotherapy or a selective serotonin reuptake inhibitor such as sertraline (Option A) is considered, this patient should be appropriately evaluated. Screening instruments such as the PHQ-2 or the more extensive PHQ-9 or Geriatric Depression Scale are appropriate to administer to older adults.Free thyroxine measurement (Option B) is not indicated. In patients with a history of primary hypothyroidism treated with levothyroxine, monitoring of thyroid-stimulating hormone (TSH) level is recommended. This patient's TSH level is normal, indicating that her levothyroxine dosage is adequate.Although the patient has a history of heart failure, her presentation is not consistent with worsening disease; she does not have weight gain, shortness of breath, edema, or abnormal cardiopulmonary findings on examination. Transthoracic echocardiography (Option D) is not the most appropriate next step in management.",
+  "critique_links": [],
   "key_points": [
     "Frailty is a multifactorial geriatric syndrome characterized by unintentional weight loss, low energy, low activity levels, weakness, and slow walking speed and has been linked to increased falls, risk for hospitalization, and death.",
     "Frailty is associated with worse postoperative outcomes, and screening for frailty before surgical and medical interventions can help identify patients who might benefit from preintervention rehabilitation."
@@ -51,10 +52,31 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/fctab24051.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:34.123152-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "fctab24051",
+        "file": "tables/fctab24051.html",
+        "title": "Examples of Frailty Indices",
+        "short_title": "Examples of Frailty Indices",
+        "footnotes": [],
+        "headers": [
+          "Instrument",
+          "Description",
+          "Scoring"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.817637-06:00"
 }

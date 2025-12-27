@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 67-year-old man is evaluated for persistent pain in his feet. Diagnostic radiograph is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient's radiograph shows classic features of chronic gouty arthritis (Option A). The radiograph shows periarticular bony erosions, which are caused by chronic inflammation from the tophi present around these joints. The overhanging bone in the punched-out erosion just below the first interphalangeal joint is a classic finding for gout. The slight haziness around the first metatarsophalangeal joint is due to the presence of monosodium urate deposition/tophi, which are radiolucent but give a faint density on radiography. The plain radiograph below shows the cloudy appearance of tophi (arrows) even more dramatically.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/rmfig24641.c08707497ab914b0f676e52c675e75c5.jpg",
-      "figures/rmfig24640.8aefc921816571713cecba13f57e643c.jpg"
+      "figures/rmfig24640.8aefc921816571713cecba13f57e643c.jpg",
+      "figures/rmfig24641.c08707497ab914b0f676e52c675e75c5.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:05.983946-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "rmfig24640",
+        "file": "figures/rmfig24640.8aefc921816571713cecba13f57e643c.jpg",
+        "title": "Radiograph Showing Chronic Gouty Arthritis",
+        "short_title": "stem Radiograph of Chronic Gouty Arthritis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 331,
+        "height": 543
+      },
+      {
+        "figure_id": "rmfig24641",
+        "file": "figures/rmfig24641.c08707497ab914b0f676e52c675e75c5.jpg",
+        "title": "Radiograph Showing Chronic Gouty Arthritis",
+        "short_title": "crit Radiograph of Chronic Gouty Arthritis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 1357
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.950710-06:00"
 }

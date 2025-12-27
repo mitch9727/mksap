@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old man presents with painless swelling of the left elbow.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has olecranon bursitis (Option C). This condition is a frequent cause of elbow swelling and presents as a ballottable swelling of the posterior elbow, sometimes with erythema and tenderness. Causes include trauma, infection (septic arthritis), and rheumatologic conditions (rheumatoid, reactive, or psoriatic arthritis; gout). Swelling with pain on elbow extension and reduced range of motion suggest infection or active inflammation.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/csfig24615.619b5e4aeb7f61379e96ec8cb009c6de.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:01:45.899510-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "csfig24615",
+        "file": "figures/csfig24615.619b5e4aeb7f61379e96ec8cb009c6de.jpg",
+        "title": "Swelling of the Left Elbow",
+        "short_title": "Swelling of the Left Elbow",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 675
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.168035-06:00"
 }

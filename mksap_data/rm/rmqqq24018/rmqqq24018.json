@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 55-year-old woman undergoes evaluation for firm, painless nodules over the extensor surfaces of her elbows and hands. She was diagnosed with rheumatoid arthritis 6 months ago; oral methotrexate and prednisone were initiated, and prednisone has been tapered to discontinuation. Her joint pain and swelling have substantially improved.",
+  "question_text": "A 55-year-old woman undergoes evaluation for firm, painless nodules over the extensor surfaces of her elbows and hands. She was diagnosed with rheumatoid arthritis 6 months ago; oral methotrexate and prednisone were initiated, and prednisone has been tapered to discontinuation. Her joint pain and swelling have substantially improved.Laboratory studies:Urate5.0 mg/dL (0.3 mmol/L)",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Switching methotrexate to a different disease-modifying antirheumatic drug (DMARD), such as etanercept (Option C), is the most appropriate management option for this patient. Her clinical presentation is consistent with development of rheumatoid nodules in confirmed rheumatoid arthritis (RA). Rheumatoid nodules are firm, painless, subcutaneous masses that develop in up to 30% of patients with RA. They are usually observed in seropositive patients and indicate more severe clinical disease. They typically occur over pressure points, such as elbows, hands, and Achilles tendons, but they have been described over the occiput or ischium in patients who are bedbound and in internal organs such as the lungs/pleura, liver, spleen, and myocardium. Microscopically, these nodules show central necrosis surrounded by palisading histiocytes, fibroblasts, and chronic inflammatory cells similar to a granuloma. Cholesterol crystals in the central necrosis zone as well as small-vessel vasculitis may also be observed. Some patients with RA who are treated with methotrexate may have a noticeable increase in the size and number of rheumatoid nodules, a condition referred to as accelerated nodulosis. Therefore, changing methotrexate to etanercept is most appropriate.Oral prednisone (Option A) is not helpful in the management of accelerated rheumatoid nodulosis. Instead, a change in DMARD therapy should be made if indicated for persistent disease activity from RA. Solitary nodules may be treated with local injection of the nodules with glucocorticoids. Surgical excision is not favored because of risk for infection and recurrence but may be needed if the nodule is pressing on a major structure such as an underlying nerve or blood vessel.In this patient with confirmed RA, the subcutaneous nodules are likely caused by rheumatoid nodulosis rather than gouty tophi. Considering the low clinical probability of tophaceous gout with the normal serum uric acid level, starting allopurinol (Option B) would not be helpful in this patient.Switching from oral to subcutaneous methotrexate (Option D) would be unlikely to help because it would not address the possibility of methotrexate-associated accelerated rheumatoid nodulosis. Discontinuing methotrexate in favor of a different DMARD, such as etanercept, is necessary.",
+  "critique_links": [],
   "key_points": [
     "Some patients with rheumatoid arthritis who are treated with methotrexate may have a noticeable increase in the size and number of rheumatoid nodules, a condition referred to as accelerated nodulosis; these patients should be switched to a different disease-modifying antirheumatic drug."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:05.850295-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.859198-06:00"
 }

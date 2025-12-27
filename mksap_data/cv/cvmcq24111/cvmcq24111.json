@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 19-year-old woman is evaluated in the emergency department after having a syncopal episode while playing recreational basketball. The event occurred without prodrome, and she did not sustain an injury. She was unconscious for approximately 10 seconds, regained consciousness spontaneously, and had no persistent symptoms on awakening. She has had no prior episodes of syncope. She has no other medical problems. Family history is significant for an aunt who drowned in her 20s. The patient takes no medications.On physical examination, vital signs are normal. Cardiac examination is normal.Results of routine laboratory studies, including a comprehensive metabolic panel, are within normal ranges.ECG is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is genetic long QT syndrome (Option B). Genetic long QT syndrome is among the most common inherited arrhythmias, affecting up to 1 in 1000 persons, and may present as sudden cardiac death (SCD) secondary to torsades de pointes. Patients often have a prolonged QTc interval at baseline, but this is not always a consistent finding (normal QTc interval: <440 ms in men and <460 ms in women, although there may be variation), but a prolonged interval alone is insufficient to diagnose long QT syndrome because the QT interval may fluctuate and prolongation may be secondary to other causes, especially medications (e.g., antiarrhythmic agents, antibiotics, neuroleptics), electrolyte abnormalities (hypokalemia, hypomagnesemia, hypocalcemia), and structural heart disease. When long QT syndrome is suspected, the patient should be referred to a specialist for further evaluation. This patient has a markedly pronged QT duration on ECG, unexplained exertional syncope, and a suspicious family history; she should be referred to an electrophysiologist for further evaluation and possible genetic testing.Brugada syndrome (Option A; shown) may cause arrhythmic events such as SCD. ECG characteristics include right precordial ECG abnormalities such as ST-segment coving (concave or linear down-sloping ST segment) in leads V1 through V3 with or without right bundle branch block. None of these findings is present on this patient's ECG.Hypertrophic cardiomyopathy (HCM) (Option C) is a less likely diagnosis. HCM and arrhythmogenic right ventricular cardiomyopathy or dysplasia may present as SCD in young persons, but this patient has no murmur on examination and the ECG findings are more consistent with long QT syndrome than HCM. ECG findings in HCM often include increased QRS voltage and extensive repolarization abnormalities (shown). Echocardiography should also be performed in this patient, however, to assess for structural heart disease.Vasovagal syncope (Option D) is a common cause of syncope, especially in young patients. It is marked by a prodrome of nausea, light-headedness, and occasionally abdominal discomfort; these symptoms often persist after the patient regains consciousness. This patient had no prodrome or symptoms after the event, and these characteristics, in addition to onset with exercise and family history, suggest an arrhythmic rather than a vasovagal cause.",
+  "critique_links": [],
   "key_points": [
     "Genetic long QT syndrome is among the most common inherited arrhythmias, affecting up to 1 in 1000 persons, and may present as sudden cardiac death.",
     "ECG characteristics of Brugada syndrome include right precordial ECG abnormalities, including ST-segment coving (concave or linear down-sloping ST segment) in leads V1 through V3 with or without right bundle branch block."
@@ -53,12 +54,52 @@
   "media": {
     "tables": [],
     "images": [
+      "figures/cvfig24226.01fe35541d59a2c9715edac0296d94cd.jpg",
       "figures/cvfig24227.38c2691b5bd0a48f78fdcac1d1d15421.jpg",
-      "figures/cvfig24228.593f1222af8c68d1761701b0fee9d2ef.jpg",
-      "figures/cvfig24226.01fe35541d59a2c9715edac0296d94cd.jpg"
+      "figures/cvfig24228.593f1222af8c68d1761701b0fee9d2ef.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:49:29.140418-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig24226",
+        "file": "figures/cvfig24226.01fe35541d59a2c9715edac0296d94cd.jpg",
+        "title": "ECG in a Patient With a Syncopal Episode",
+        "short_title": "stem ECG in Patient With Syncope",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 371
+      },
+      {
+        "figure_id": "cvfig24227",
+        "file": "figures/cvfig24227.38c2691b5bd0a48f78fdcac1d1d15421.jpg",
+        "title": "ECG Showing Characteristics of Brugada Syndrome",
+        "short_title": "critique ECG Showing Brugada Syndrome",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 479
+      },
+      {
+        "figure_id": "cvfig24228",
+        "file": "figures/cvfig24228.593f1222af8c68d1761701b0fee9d2ef.jpg",
+        "title": "ECG Findings in Hypertrophic Cardiomyopathy",
+        "short_title": "critique ECG Showing HCM",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 397
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.700053-06:00"
 }

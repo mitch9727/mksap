@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 55-year-old man is evaluated for a dark spot on his back. His wife noticed that it was darker than the other spots on his back and became concerned. They are unsure how long it has been present or if it has changed in appearance or size. He has no medical problems and takes no medications.On physical examination, vital signs are normal.Skin findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is a dysplastic nevus (Option B), which is a benign, melanocytic nevus that appears as an atypical, hyperpigmented lesion. Dysplastic nevi often share many of the same clinical features of melanomas, including asymmetry, color variation, border irregularity, and large size (≥6 mm). There is variability in the definition and management of dysplastic nevi, and the likelihood of a dysplastic nevus progressing to melanoma is not well defined. Patients who have multiple dysplastic nevi, however, have a higher risk of developing melanoma. When concern exists for a lesion being a melanoma, the lesion should be biopsied. Features concerning for malignancy include rapidly changing color or size. Excisional biopsy is the preferred biopsy method, and it is imperative to sample the entire lesion, including a 1- to 2-mm border of normal surrounding skin. This patient's lesion has irregular color variation and is darker than his other skin lesions. Although the most likely diagnosis is dysplastic nevus, an excisional biopsy should be performed because of the challenges of distinguishing a dysplastic nevus from melanoma on clinical examination.Dermatofibromas (Option A) are common, firm papules that often present on the legs of female patients following minor trauma. Lateral compression of the lesion may elicit a central depression, known as the dimple sign. Dermatofibromas may appear over weeks to months and usually remain the same size for years, although some spontaneously regress. This patient's skin lesion is not characteristic of a dermatofibroma.Halo nevi (Option C) are melanocytic nevi that present as central tan to brown macules or papules with a surrounding halo of hypopigmented or depigmented skin (see Figure: Halo Nevus). They are most commonly seen on the backs of younger patients (teenagers and young adults) and are benign, although the presence of multiple halo nevi is associated with an increased risk of melanoma. This patient's skin finding does not have the characteristics of a halo nevus.Seborrheic keratoses (Option D) are common lesions that are most often seen in older adults. They present with a characteristic “stuck-on” appearance that can occur anywhere on the body but most commonly occur on the trunk and spare the palms, soles, and mucous membranes. This patient's lesion does not have the “stuck-on” appearance of a seborrheic keratosis.",
+  "critique_links": [],
   "key_points": [
     "Dysplastic nevi are melanocytic nevi that are often asymmetric, irregularly bordered, and multicolored and may be large in diameter (≥6 mm); biopsy is used to differentiate between a dysplastic nevus and a melanoma.",
     "Patients with multiple dysplastic nevi are at risk for developing melanoma and should be monitored closely."
@@ -52,9 +53,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24219.b1698e3619f470f71aeba8e7e47803a2.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.732582-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24219",
+        "file": "figures/dmfig24219.b1698e3619f470f71aeba8e7e47803a2.jpg",
+        "title": "Dysplastic nevus",
+        "short_title": "stem Dysplastic nevus",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 759
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.248512-06:00"
 }

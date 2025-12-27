@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 58-year-old man is hospitalized for worsening confusion. He has alcohol use disorder and alcohol-related cirrhosis complicated by hepatic encephalopathy, portal hypertension, and ascites. Medications are thiamine, lactulose, and rifaximin. However, he has been drinking heavily for the past 2 weeks and has not taken his medications.On physical examination, blood pressure is 101/62 mm Hg, and pulse rate is 112/min. Remaining vital signs are normal. He is oriented to self but not time or place. Jaundice is present. The abdomen is distended. The spleen is palpable 6 cm below the left costal margin. Lower extremity edema is present.A direct antiglobulin test is negative.Peripheral blood smear shows frequent (30%) acanthocytes and occasional target cells.",
+  "question_text": "A 58-year-old man is hospitalized for worsening confusion. He has alcohol use disorder and alcohol-related cirrhosis complicated by hepatic encephalopathy, portal hypertension, and ascites. Medications are thiamine, lactulose, and rifaximin. However, he has been drinking heavily for the past 2 weeks and has not taken his medications.On physical examination, blood pressure is 101/62 mm Hg, and pulse rate is 112/min. Remaining vital signs are normal. He is oriented to self but not time or place. Jaundice is present. The abdomen is distended. The spleen is palpable 6 cm below the left costal margin. Lower extremity edema is present.Laboratory studies:Hematocrit23.9%LHemoglobin7.9 g/dL (79 g/L)LMean corpuscular volume104 fLHLeukocyte count3200/µL (3.2 × 109/L)LPlatelet count41,000/µL (41 × 109/L)LINR1.9 (normal, 0.8-1.1)HProthrombin time21 sHBilirubinTotal12.4 mg/dL (212.1 μmol/L)HDirect4.8 mg/dL (82.1 μmol/L)HCreatinine1.2 g/dL (106 μmol/L)Haptoglobin<10 mg/dL (100 mg/L)LLactate dehydrogenase402 U/LHA direct antiglobulin test is negative.Peripheral blood smear shows frequent (30%) acanthocytes and occasional target cells.",
   "question_stem": "Which of the following is the most likely cause of this patient's anemia?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely cause of this patient's anemia is spur cell hemolytic anemia secondary to decompensated cirrhosis (Option A). Patients with severe liver disease have an altered lipid metabolism that results in abnormal cholesterol deposition in the erythrocyte membrane. This results in formation of spicules of variable size and distribution on the cell surface; the spiculated erythrocytes are known as acanthocytes (spur cells). These erythrocytes are prone to hemolysis and have decreased erythrocyte survival, which often results in anemia. Spur cell hemolytic anemia in the setting of advanced decompensated liver disease is termed Zieve syndrome. Management is supportive, with transfusions provided as needed, and treatment is directed toward the underlying liver disease. Prognosis is poor and often correlates with other markers of severe liver disease. Other causes of anemia in advanced liver disease include the direct myelosuppressive effects of alcohol, nutritional deficiencies, and hypersplenism secondary to portal hypertension. This patient has laboratory features of hemolysis, with decreased serum haptoglobin level and elevated serum lactate dehydrogenase level. The presence of spiculated erythrocytes in the setting of severe liver disease make spur cell hemolytic anemia the most likely diagnosis.Paroxysmal nocturnal hemoglobinuria (Option B) is an acquired, intrinsic erythrocyte defect characterized by complement-mediated hemolysis. Although this patient has evidence of hemolysis, the presence of extensive acanthocytes and the severe underlying liver disease make spur cell anemia a more likely diagnosis.Thrombotic thrombocytopenic purpura (TTP) (Option C) is characterized by microangiopathic hemolytic anemia and thrombocytopenia. Although this patient has hemolysis, no fragmented erythrocytes or schistocytes are evident on the peripheral blood smear, making TTP unlikely.Warm autoimmune hemolytic anemia (Option D) is not frequently seen in patients with liver disease. It is characterized by spherocytes and a positive direct antiglobulin test, neither of which is present in this patient.",
+  "critique_links": [],
   "key_points": [
     "Patients with severe decompensated liver disease form spiculated cells, termed acanthocytes (spur cells), that result from abnormal cholesterol deposition on the erythrocyte; these patients are prone to hemolysis.",
     "Hemolytic anemia of advanced liver disease, termed Zieve syndrome, is associated with advanced liver disease and portends a poor prognosis."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:36:47.729922-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.912759-06:00"
 }

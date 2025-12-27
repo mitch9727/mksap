@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 57-year-old woman with systemic lupus erythematosus is evaluated for right hip pain.A radiograph of the hips is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is osteonecrosis of the hip (Option C). Osteonecrosis (avascular necrosis) often presents as gradual onset of anterior hip pain in patients with alcohol use disorder, glucocorticoid use, systemic lupus erythematosus, or sickle cell disease. In early osteonecrosis, plain radiographs are often normal. The earliest plain radiograph changes show increased density of the femoral head (white arrow) followed by sclerosis and cyst development (black arrow). Subchondral radiolucency, known as the crescent sign, is pathognomonic of osteonecrosis and represents subchondral collapse. Later stages reveal flattening or collapse of the femoral head.MRI is more sensitive in the diagnosis of osteonecrosis and is a particularly important imaging modality when plain radiographs are normal but clinical suspicion is high. The T1-weighted MRI of a different patient shows subchondral fractures and flattening of the right femoral head characteristic of osteonecrosis.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,53 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/csfig24609.e349ccc34e5aa3ab70e232bafbf69da5.jpg",
+      "figures/csfig24610.8d5858e803fc07184926de46068e4e0b.jpg",
+      "figures/csfig24611.839be1d50864a4ac2892dd0ac5315f99.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:01:45.884794-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "csfig24609",
+        "file": "figures/csfig24609.e349ccc34e5aa3ab70e232bafbf69da5.jpg",
+        "title": "Radiograph of the Hips Showing Osteonecrosis",
+        "short_title": "stem Radiograph of the Hips Showing Osteonecrosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 729
+      },
+      {
+        "figure_id": "csfig24610",
+        "file": "figures/csfig24610.8d5858e803fc07184926de46068e4e0b.jpg",
+        "title": "Radiograph of the Hips Showing Osteonecrosis",
+        "short_title": "critique Radiograph of the Hips Showing Osteonecrosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 729
+      },
+      {
+        "figure_id": "csfig24611",
+        "file": "figures/csfig24611.839be1d50864a4ac2892dd0ac5315f99.jpg",
+        "title": "MRI of the Hips Showing Osteonecrosis",
+        "short_title": "critique MRI of the Hips Showing Osteonecrosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 797,
+        "height": 797
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.168571-06:00"
 }

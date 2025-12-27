@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 68-year-old woman presents with chronic discoloration of the lower legs bilaterally.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,22 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is lipodermatosclerosis (Option D). Lipodermatosclerosis (also known as sclerosis panniculitis) results from fibrotic infiltration of the dermis and subcutaneous areas, usually secondary to venous stasis. It presents as areas of indurated hyperpigmentation, which may be “woody” both in appearance and to palpation. Erythema is variably present. Other findings of venous stasis, including telangiectasias, varicosities, venous ulcers, and atrophie blanche, may also be present. It is frequently bilateral.Image reproduced with permission from Vivas A, Lev-Tov H, Kirsner RS. Venous leg ulcers. Ann Intern Med. 2016;165:ITC17-ITC32. PMID: 27479227",
+  "critique_links": [
+    {
+      "href": "https://www.acpjournals.org/doi/10.7326/AITC201608020",
+      "text": "Ann Intern Med",
+      "target": "_blank",
+      "title": null,
+      "rel": null
+    },
+    {
+      "href": "http://www.ncbi.nlm.nih.gov/pubmed/27479227",
+      "text": "PMID: 27479227",
+      "target": "_blank",
+      "title": null,
+      "rel": null
+    }
+  ],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +65,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/csfig24614.a7cf65f77076d62f562294b77344a90c.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:01:45.897655-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "csfig24614",
+        "file": "figures/csfig24614.a7cf65f77076d62f562294b77344a90c.jpg",
+        "title": "Lipodermatosclerosis",
+        "short_title": "Lipodermatosclerosis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 877,
+        "height": 658
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.170464-06:00"
 }

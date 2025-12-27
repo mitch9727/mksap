@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 67-year-old woman is evaluated before undergoing elective right knee replacement surgery next month for severe osteoarthritis. Walking long distances is limited by pain; however, she performs her activities of daily living independently. She also rides a stationary bike for 60 minutes three times weekly without chest pain or shortness of breath. Medical history is also notable for type 2 diabetes mellitus. Medications are metformin and atorvastatin. The patient does not routinely check her blood glucose levels.On physical examination, vital signs are normal. Cardiopulmonary examination is normal. Antalgic gait with pain on range of motion of the right knee is observed.Laboratory studies:Creatinine1.0 mg/dL (88.4 µmol/L)Glucose195 mg/dL (10.8 mmol/L)HHemoglobin A1c9.7%HECG is normal.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management is to delay elective knee replacement surgery (Option B) until the patient's diabetes is under better control. Patients with perioperative hyperglycemia are at increased risk for poor wound healing, infections, cardiovascular events, and death. The Endocrine Society clinical guidelines and the American Diabetes Association recommend a preoperative hemoglobin A1c target of less than 8% (63.9 mmol/mol) before surgery. This recommendation applies only to patients who are scheduled for elective surgical procedures, for whom allowing time to implement therapies to achieve this goal would be reasonable. If targeting hemoglobin A1c to less than 8% (63.9 mmol/mol) is not feasible, strategies to reduce preoperative blood glucose concentrations to 100 to 180 mg/dL (5.6 to 10 mmol/L) should be implemented. This patient's hemoglobin A1c of 9.7% puts her at significant risk for poor perioperative outcomes, and her elective surgery should be delayed until she achieves better control.Although patients with diabetes are at increased risk for cardiovascular events, the presence of diabetes alone does not warrant preoperative cardiopulmonary stress testing (Option A). Furthermore, this patient's functional status is moderate, and she does not have cardiopulmonary symptoms or findings on examination; stress testing is not indicated.The American Diabetes Association recommends real-time continuous glucose monitoring (CGM) or intermittently scanned CGM for diabetes management in adults requiring several daily insulin injections or continuous subcutaneous insulin infusion because this technology has been associated with improved glycemic control in these settings. This patient does not take insulin, and use of a continuous glucose monitor (Option C) alone will not improve her glycemic control.Patients with diabetic or other chronic kidney disease are vulnerable to the hemodynamic changes in the perioperative period and require monitoring. Although a urine albumin-creatinine ratio would be an appropriate test to assess for diabetic kidney disease, a urinalysis (Option D) is not as sensitive. Additionally, a preoperative urinalysis is indicated only for patients with symptoms or signs of a urinary tract infection or for those who are undergoing urologic procedures. This patient does not require urinalysis.",
+  "critique_links": [],
   "key_points": [
     "The Endocrine Society clinical guidelines and American Diabetes Association recommend a preoperative hemoglobin A1c target of less than 8% (63.9 mmol/mol) before elective surgery."
   ],
@@ -50,10 +51,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:33.989580-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.669261-06:00"
 }

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 52-year-old patient is evaluated at a follow-up visit for type 2 diabetes mellitus. They are working on lifestyle modifications but are having difficulty losing weight. Medical history is relevant for hypertension, hyperlipidemia, metabolic dysfunction–associated steatotic liver disease, and obesity. Medications are metformin, lisinopril, and atorvastatin.On physical examination, blood pressure is 130/80 mm Hg. BMI is 32. Physical examination findings are otherwise unremarkable.Laboratory studies:Hemoglobin A1c8.2%H",
   "question_stem": "Which of the following is the most appropriate additional treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Semaglutide (Option C) is the most appropriate additional treatment for this patient with type 2 diabetes mellitus and multiple comorbidities. A patient-centered approach is recommended when choosing appropriate pharmacologic therapy for type 2 diabetes. Clinicians should consider comorbidities such as overweight and obesity, atherosclerotic cardiovascular disease (ASCVD) and associated risk factors, heart failure, and kidney disease when selecting medications as some agents have a beneficial effect on these conditions. Other important considerations include hypoglycemia risk, adverse effects, cost, and patient values and preferences. The American Diabetes Association Standards of Care emphasize that weight management should be considered a treatment goal in type 2 diabetes, and clinicians should facilitate positive health behaviors to improve outcomes (Figure: Algorithm for Treatment of Type 2 Diabetes). Semaglutide is a glucagon-like peptide 1 receptor agonist (GLP-1 RA) that can lower hemoglobin A1c, promote weight loss, and reduce cardiovascular risk. For these reasons, GLP-1 RAs are an appropriate choice for patients with overweight or obesity and patients with ASCVD risk factors, such as this patient. Additionally, this class of medications can improve insulin sensitivity and may reduce liver fat. Semaglutide is an appropriate addition to this patient's treatment regimen to address their hyperglycemia, obesity, ASCVD risk factors, and metabolic dysfunction–associated steatotic liver disease (MASLD, formerly known as nonalcoholic fatty liver disease).Empagliflozin (Option A) is a sodium-glucose cotransporter 2 (SGLT2) inhibitor that lowers plasma glucose levels by promoting glucose excretion through the urine. It has also shown cardiovascular and kidney benefits. It is associated with weight loss, but GLP-1 RAs tend to provide more substantial weight loss compared with SGLT2 inhibitors. Additionally, SGLT2 inhibitors do not specifically target liver-related issues associated with MASLD.Pioglitazone (Option B) is a thiazolidinedione that improves insulin sensitivity. It is effective in improving glycemic control and may also have benefits for patients with MASLD. However, unlike semaglutide, pioglitazone may cause weight gain and is not the best option for this patient with an elevated BMI.Sitagliptin (Option D) is a dipeptidyl peptidase-4 inhibitor that helps increase insulin secretion and reduce glucagon production. Although sitagliptin could improve glycemic control in this patient, it would not address other metabolic concerns, such as weight management and cardiovascular risk factors.",
+  "critique_links": [],
   "key_points": [
     "When treating type 2 diabetes mellitus, clinicians should consider comorbidities such as overweight and obesity, atherosclerotic cardiovascular disease and associated risk factors, heart failure, and kidney disease because some agents have a beneficial impact on these conditions.",
     "Glucagon-like peptide 1 receptor agonists provide weight loss and cardiovascular benefits for patients with type 2 diabetes and overweight or obesity and cardiovascular risk factors."
@@ -51,10 +52,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:00:39.705023-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.053778-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 21-year-old woman presents with 2 weeks of worsening rash, arthritis and intermittent fever. She has a 5-year history of systemic lupus erythematosus, which has been well controlled for the past 3 years with hydroxychloroquine.On physical examination, temperature is 37.8 °C (100.0 °F), and blood pressure is 150/86 mm Hg. She has a malar rash, synovitis of multiple small joints of the hands, and new dependent edema.",
+  "question_text": "A 21-year-old woman presents with 2 weeks of worsening rash, arthritis and intermittent fever. She has a 5-year history of systemic lupus erythematosus, which has been well controlled for the past 3 years with hydroxychloroquine.On physical examination, temperature is 37.8 °C (100.0 °F), and blood pressure is 150/86 mm Hg. She has a malar rash, synovitis of multiple small joints of the hands, and new dependent edema.Laboratory studies:Creatinine1.8 mg/dL (159 µmol/L)H3 months ago1.4 mg/dL (124 µmol/L)HComplementC3LowLC4LowLUrine protein-creatinine ratio3200 mg/gHUrine microscopyActive urine sedimentAnti–double-stranded DNA antibodiesElevatedH",
   "question_stem": "Which of the following diagnostic tests should be performed next?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Kidney biopsy (Option D) is the most appropriate test to perform next in this patient with a systemic lupus erythematosus (SLE) flare with kidney involvement. Active kidney disease should be suspected in patients with active urine sediment or urine protein excretion greater than 500 mg/24 h (or a spot urine protein-creatinine ratio >500 mg/g), both of which are seen in this patient. She also has new-onset synovitis of the hand joints, malar eruption, hypertension, and new-onset edema, which also suggests active lupus nephritis. Elevated or rising anti–double-stranded DNA (anti-dsDNA) antibody titers along with low complement C3 and C4 levels, as in this patient, are commonly associated with active lupus nephritis. An elevated C-reactive protein level is uncommon in SLE except with serositis and may suggest an infectious cause. A kidney biopsy should be performed to confirm that this patient has active lupus nephritis and to determine the class of lupus nephritis, as well as disease activity/chronicity, which determines therapeutic decisions.Antinuclear antibody (Option A) testing is a useful initial screening tool for SLE because it is highly sensitive for SLE. However, it is not specific to SLE and may be present in other autoimmune diseases. Additionally, these antibodies do not correlate with disease activity and do not need to be remeasured for disease monitoring. Thus, obtaining an antinuclear antibody level in this patient would not be helpful.Anti-Ro/SSA and anti-La/SSB antibodies (Option B) may be seen with photosensitivity and subacute cutaneous lupus erythematosus in which the associated rash occurs mainly on the arms, neck, and upper trunk, usually sparing the central face. Anti-Smith antibodies (Option C) are highly specific for the diagnosis of SLE. However, neither of these antibodies correlate with disease activity, and they would not be the most appropriate laboratory studies to perform next in this patient with an SLE flare.",
+  "critique_links": [],
   "key_points": [
     "Elevated or rising anti–double-stranded DNA antibody titers along with low complement C3 and C4 levels are commonly associated with active lupus nephritis.",
     "In patients with a systemic lupus erythematosus flare with kidney involvement, kidney biopsy should be performed to confirm active lupus nephritis and to determine the class of lupus nephritis, as well as disease activity/chronicity, which determines therapeutic decisions."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:13:05.812074-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.825991-06:00"
 }

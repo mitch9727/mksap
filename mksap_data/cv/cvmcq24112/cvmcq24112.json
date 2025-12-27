@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 67-year-old woman is evaluated during a routine follow-up visit for heart failure. She reports unchanged exertional dyspnea without orthopnea, palpitations, light-headedness, or weight gain. She has heart failure with reduced ejection fraction due to nonischemic cardiomyopathy. Medications are carvedilol, valsartan-sacubitril, spironolactone, dapagliflozin, and furosemide.On physical examination, blood pressure is 90/50 mm Hg and pulse rate is 58/min. All other findings are unremarkable.Results of routine laboratory studies, including basic metabolic panel, are normal.ECG shows sinus rhythm at a rate of 58/min, first-degree atrioventricular block, left bundle branch block, a QRS duration of 152 ms, and one premature ventricular contraction. Echocardiogram reveals diffuse hypokinesis of the left ventricle with an ejection fraction of 30%; there is no significant valvular disease.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is referral for cardiac resynchronization therapy (CRT) with biventricular pacing and implantable cardioverter-defibrillator (ICD) placement (Option A). ICDs have demonstrated efficacy in the primary prevention of sudden cardiac death in patients with heart failure. In addition, patients with heart failure and interventricular conduction defects often benefit from CRT, which may be combined with ICD placement. Specific indications for ICD placement include a left ventricular ejection fraction (LVEF) of 35% or less (30% if ischemic cardiomyopathy) and New York Heart Association (NYHA) functional class II to III symptoms. Indications for CRT are similar and include an LVEF of 35% or less, NYHA functional class II to IV symptoms, sinus rhythm, and sufficient evidence of electrical dyssynchrony: left bundle branch block (LBBB) with a QRS complex of 120 ms or longer or non-LBBB with QRS greater than 150 ms. This patient is taking appropriate guideline-recommended medical therapy for heart failure and has no comorbid conditions that would otherwise limit her longevity. She meets criteria for both ICD placement and CRT based on an LVEF of 30%; NYHA class II symptoms; and, in the case of CRT, LBBB with a QRS duration greater than 150 ms. She should undergo biventricular pacing and ICD placement.Although this patient is at substantial risk for ventricular arrhythmias based on an abnormal left ventricle and low LVEF, prophylaxis with amiodarone (Option B) or any other antiarrhythmic agent is not indicated. The isolated premature ventricular contraction on baseline ECG is not of sufficient frequency to warrant therapy or further investigation.Starting ivabradine (Option C) is not appropriate in this patient. Ivabradine is a sinoatrial node modulator that decreases heart rate and is indicated in patients with symptomatic heart failure with reduced ejection fraction on maximally tolerated doses of a β-blocker in sinus rhythm with a heart rate of at least 70/min. This patient has a heart rate of less than 70/min, and ivabradine is not indicated.This patient meets criteria for ICD placement and CRT; therefore, reassurance with no change in management (Option D) is not appropriate.",
+  "critique_links": [],
   "key_points": [
     "Patients with heart failure with reduced ejection fraction and interventricular conduction defects should be considered for cardiac resynchronization therapy with biventricular pacing in combination with a defibrillator."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T00:59:31.702286-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:26.706913-06:00"
 }

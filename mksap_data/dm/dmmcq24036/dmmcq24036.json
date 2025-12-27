@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 28-year-old-woman is evaluated for an 18-month history of an extremely pruritic rash on her lower back. She has not been followed by a physician since she was a teenager. Medical history is otherwise unremarkable, and she takes no medications.On physical examination, vital signs are normal.Skin findings on the lower back are shown.No rash is present on the scalp, elbows, or knees, and no oral or genital mucosa are involved. No nail changes are noted.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is lichen planus (Option A). Lichen planus is a common immune-mediated process characterized by pruritic flat-topped, violaceous papules that most commonly occur on the flexural surfaces of the extremities (wrists and ankles) and mucous membranes. A lacy reticular pattern known as Wickham striae may be present on the papules. Multiple variants exist, including nail, genital, bullous, atrophic, and hypertrophic lichen planus. Lichen planus tends to resolve over the course of 1 to 2 years, although oral and nail lichen planus are more persistent. Prevalence of hepatitis C virus (HCV) infection is increased in patients with lichen planus, and HCV testing should be considered. This patient has pruritic purple flat-topped papules present on the lower back that are consistent with lichen planus.Pityriasis rosea (Option B) is characterized by skin-colored to pink papules and plaques with fine scaling erupting along skin cleavage lines on the trunk (see Figure: Skin Findings in Pityriasis Rosea). It may begin as a single annular patch or plaque (the herald patch). The distribution on the posterior thorax can resemble a “fir tree” pattern. Pityriasis rosea usually resolves over the course of several months. The appearance of this patient's rash and persistence over 18 months makes pityriasis rosea an unlikely diagnosis.Psoriasis (Option C) is characterized by red, thick, well-demarcated plaques with overlying silvery scale (see Figure: Plaques of Psoriasis). It is commonly present on the extensor surfaces of the scalp, arms and legs, and trunk in a bilateral and symmetric pattern. The intensely pruritic violaceous papules seen in this patient are inconsistent with psoriasis.Secondary syphilis (Option D) is not the most likely diagnosis in this patient. Primary syphilis typically presents with a painless ulcer on the genitals, whereas secondary syphilis is characterized by dark brown to pink scaly papules and plaques on the trunk, palms, and soles that are usually nonpruritic. Generalized lymphadenopathy is often present. This patient's presentation of intensely pruritic purple, flat-topped, nonscaly papules is not consistent with primary or secondary syphilis.",
+  "critique_links": [],
   "key_points": [
     "Lichen planus presents as pruritic, flat-topped, violaceous papules, most commonly on the flexural surfaces of the extremities (wrists and ankles) and mucous membranes.",
     "Patients with lichen planus have a high incidence of hepatitis C virus (HCV) infection, and testing for HCV should be considered."
@@ -52,9 +53,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24233.f80efba341fbc353e2ba5803d878c43c.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.765369-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24233",
+        "file": "figures/dmfig24233.f80efba341fbc353e2ba5803d878c43c.jpg",
+        "title": "Lichen Planus",
+        "short_title": "stem Lichen Planus",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 650,
+        "height": 488
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.292652-06:00"
 }

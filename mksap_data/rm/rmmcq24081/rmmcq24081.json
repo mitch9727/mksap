@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 34-year-old woman is evaluated in the emergency department for 2 days of increasing shortness of breath, fever, and blood-tinged sputum. She has a 3-year history of systemic lupus erythematosus. She has had difficulty adhering to medications in the past, and she currently is not taking any medications.On physical examination, temperature is 38.8 °C (101.8 °F), blood pressure is 110/60 mm Hg, pulse rate is 110/min, and respiration rate is 24/min. Oxygen saturation is 90% with the patient breathing high-flow oxygen. Malar rash is observed. Cardiac examination is normal. Lung examination demonstrates diffuse crackles but no rubs. There are small knee effusions and 1+ pitting edema in the lower extremities.Chest radiograph reveals diffuse pulmonary infiltrates.Bronchoalveolar lavage shows increasing erythrocyte counts with sequential aliquots.",
+  "question_text": "A 34-year-old woman is evaluated in the emergency department for 2 days of increasing shortness of breath, fever, and blood-tinged sputum. She has a 3-year history of systemic lupus erythematosus. She has had difficulty adhering to medications in the past, and she currently is not taking any medications.On physical examination, temperature is 38.8 °C (101.8 °F), blood pressure is 110/60 mm Hg, pulse rate is 110/min, and respiration rate is 24/min. Oxygen saturation is 90% with the patient breathing high-flow oxygen. Malar rash is observed. Cardiac examination is normal. Lung examination demonstrates diffuse crackles but no rubs. There are small knee effusions and 1+ pitting edema in the lower extremities.Laboratory studies:Hematocrit28%L1 month ago: 35%LLeukocyte count4200/μL (4.2 × 109/L)Platelet count235,000/μL (235 × 109/L) C3 complement65 mg/dL (650 mg/L) C4 complement8 mg/dL (100 mg/L)LAnti–double-stranded DNA antibody titer400 U/mL (normal range, <10 U/mL)HAntiphospholipid antibodiesNegativeChest radiograph reveals diffuse pulmonary infiltrates.Bronchoalveolar lavage shows increasing erythrocyte counts with sequential aliquots.",
   "question_stem": "Which of the following most likely explains this patient's acute presentation?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is diffuse alveolar hemorrhage (DAH) (Option B). DAH is a rare but serious complication of active systemic lupus erythematosus (SLE). Onset is acute (hours to days) and is associated with fever, dyspnea, cough, and blood-tinged sputum; hemoptysis is present in 57% of cases. A decrease in hematocrit further suggests the diagnosis. Chest radiographs demonstrate diffuse infiltrates, and CT scan may show ground-glass changes, but neither is diagnostic. Bronchoalveolar lavage is the most useful test to confirm DAH and should be performed early to evaluate for infection. An increasing erythrocyte count from sequential bronchoalveolar lavage aliquots is considered diagnostic and would not be seen in a patient with infection or acute lupus pneumonitis. This patient's presentation is most consistent with DAH. Additionally, she has SLE-associated risk factors for DAH, including her history of nephritis, anti–double-stranded DNA antibody positivity, and low-normal C3 and low C4 complement levels.Acute lupus pneumonitis (Option A) is another rare but serious manifestation of SLE. It occurs in the context of an SLE flare, and manifestations include cough, dyspnea, fever, hemoptysis, and hypoxemia. Radiographs usually demonstrate diffuse pulmonary infiltrates, and pleural effusions may also be present. Acute lupus pneumonitis may be difficult to differentiate from infection. This patient's bronchoalveolar lavage results support the diagnosis of DAH rather than pneumonitis.Patients with SLE are at elevated risk for pulmonary embolism (Option C) compared with the general population. The risk is further increased in patients with SLE who have antiphospholipid antibodies because these patients can have up to a sixfold increased risk for pulmonary embolism. Plain radiographs of the chest may be normal or show nonspecific abnormalities, and CT angiography is usually used to make the diagnosis. The presence of diffuse pulmonary infiltrates and the bronchoalveolar lavage results in this patient make DAH more likely.Pulmonary infection (Option D) can mimic SLE-specific pulmonary manifestations and is a common cause of morbidity and mortality in SLE. Patients with SLE are at increased risk for infection because of immunosuppression. Staphylococcus aureus and Streptococcus pneumoniae are the most common organisms to cause lung infections in SLE, but atypical organisms must also be considered. DAH is more likely in this patient given the bronchoalveolar lavage results.",
+  "critique_links": [],
   "key_points": [
     "Diffuse alveolar hemorrhage is a rare complication of systemic lupus erythematosus that presents with fever, dyspnea, and blood-tinged sputum or hemoptysis.",
     "An increasing erythrocyte count from sequential bronchoalveolar lavage aliquots is diagnostic for diffuse alveolar hemorrhage."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:47:18.230025-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.799245-06:00"
 }

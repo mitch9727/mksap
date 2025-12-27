@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 72-year-old man is evaluated for a 10-year history of red, scaly, mildly pruritic rash on his face that has worsened in the last 6 months. It began in the nasolabial folds and now involves his scalp and ears. He was diagnosed with Parkinson disease 6 months ago. His only medication is levodopa.On physical examination, vital signs are normal.Skin findings on his face are shown.The remainder of the skin examination is normal. He has no associated hair loss or facial swelling.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment in this patient with seborrheic dermatitis is topical ketoconazole cream (Option D). Seborrheic dermatitis is an extremely common, chronic inflammatory dermatitis characterized by greasy, yellow, scaly, erythematous patches on areas of skin with sebaceous glands, such as the face, scalp, chest, and back. It is believed to be caused by an inflammatory response to Malassezia yeast, a normal skin commensal organism. Diagnosis is made clinically on the basis of the distribution and appearance of the patches. Seborrheic dermatitis may be more severe and recalcitrant to treatment in patients with Parkinson or other neurologic diseases; patients treated with antipsychotic medication; and patients in immunocompromised states, such as HIV infection. Selenium sulfide and zinc pyrithione shampoos and topical ketoconazole cream are the treatments of choice for seborrheic dermatitis. When severe inflammation is present, short-term low-potency topical glucocorticoids may be added. Antifungal shampoo or solution can also be used for maintenance therapy. This patient has an erythematous, pruritic rash with overlying greasy scale involving the nasolabial folds, which is most consistent with seborrheic dermatitis, and should be treated with topical ketoconazole cream.Although oral antifungals such as terbinafine (Option A) and ketoconazole can effectively treat seborrheic dermatitis, they should be used with caution for the treatment of fungal infections of the skin and nails because of the potential risk of liver damage, adrenal insufficiency, and drug interactions. Oral antifungals such as terbinafine are not an appropriate initial treatment for this patient with seborrheic dermatitis.A prednisone taper (Option B) is not an appropriate choice in this patient. Although patients with severe allergic dermatitis may benefit from a 2- to 3-week taper of systemic glucocorticoids, systemic glucocorticoids have no role in patients with seborrheic dermatitis.Clobetasol (Option C) is an ultra-potent topical glucocorticoid and is not appropriate in most cases for use on the face or intertriginous areas because of high risk of adverse effects (e.g., atrophy). A low-potency topical glucocorticoid such as desonide or hydrocortisone can help improve the erythema and inflammation associated with seborrheic dermatitis; however, these agents should be reserved for use only during flares.",
+  "critique_links": [],
   "key_points": [
     "Selenium sulfide and zinc pyrithione shampoos and topical antifungals such as ketoconazole are the treatments of choice for seborrheic dermatitis.",
     "When seborrheic dermatitis is associated with severe inflammation, short-term use of a low-potency topical glucocorticoid is indicated."
@@ -52,9 +53,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24211.e2946dbb13e3cf9e8150a8432e1fce5f.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.698281-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24211",
+        "file": "figures/dmfig24211.e2946dbb13e3cf9e8150a8432e1fce5f.jpg",
+        "title": "Seborrheic Dermatitis",
+        "short_title": "stem Seborrheic Dermatitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 633,
+        "height": 498
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.242395-06:00"
 }

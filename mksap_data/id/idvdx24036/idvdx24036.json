@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 42-year-old woman who has HIV infection is evaluated for fever, confusion, and headache.A contrast-enhanced CT scan of the head is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is toxoplasmosis (Option D). In immunocompromised patients (e.g., in those with advanced HIV infection with a CD4 cell count <100/μL), latent infection may reactivate and result in Toxoplasma encephalitis, which typically presents with multiple brain lesions that localize in the parietal or frontal lobes, in the thalamus or basal ganglia, or at the corticomedullary junction. Ring enhancement of the brain lesions occurs in approximately 90% of patients, and surrounding edema with mass effect is also present, as seen in this image. Toxoplasma infection in immunocompetent patients is usually asymptomatic or may present with bilateral, symmetric, nontender cervical lymphadenopathy; latent infection is frequently lifelong.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:10:29.372262-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "idfig24642",
+        "file": "figures/idfig24642.ef485fccf21ce7803fe297b74dcbfcbd.jpg",
+        "title": "CT Scan Demonstrating Findings of Toxoplasmosis",
+        "short_title": "Toxoplasmosis on CT Scan",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 353,
+        "height": 413
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.749733-06:00"
 }

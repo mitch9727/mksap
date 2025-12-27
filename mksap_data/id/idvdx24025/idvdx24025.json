@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 38-year-old man is evaluated for a 2-day history of right arm pain, erythema, and fever following a traumatic injury to the arm 5 days ago.Radiograph of the right arm is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is necrotizing fasciitis (Option B). The plain radiograph shows subcutaneous gas, suggesting necrotizing fasciitis resulting from traumatic inoculation of Clostridia into the subcutaneous tissues. Noncontrast CT may also be helpful in detecting gas and delineating the extent of involvement; MRI with contrast is more sensitive for visualizing soft-tissue involvement but less sensitive for detecting gas. However, imaging should not delay surgery when clinical suspicion is high. Penetrating traumatic wounds with vascular compromise are particularly prone to gas gangrene because they establish an anaerobic environment that encourages growth of Clostridia. These organisms produce toxins that lead to rapid and widespread tissue necrosis and systemic toxicity.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -55,5 +56,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:10:29.354468-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "idfig24630",
+        "file": "figures/idfig24630.34f4cf95705f3def9f5435af1c749887.jpg",
+        "title": "Radiograph Demonstrating Subcutaneous Gas",
+        "short_title": "Radiograph Demonstrating Subcutaneous Gas",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 214,
+        "height": 379
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.716112-06:00"
 }

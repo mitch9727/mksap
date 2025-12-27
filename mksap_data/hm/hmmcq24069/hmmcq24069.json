@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 72-year-old woman is evaluated in the emergency department for a 5-day history of shortness of breath and pleuritic chest pain. Two weeks ago, she was discharged from the hospital after an extended hospitalization for diverticulitis. She has no family history of thrombosis. Medical history is significant for hypertension and dyslipidemia. Medications are losartan, hydrochlorothiazide, and simvastatin.On physical examination, temperature is 37.0 °C (98.6 °F), blood pressure is 98/42 mm Hg, pulse rate is 116/min, and respiration rate is 28/min. Oxygen saturation is 92% with the patient breathing ambient air. No leg swelling is present. The remainder of the examination is unremarkable.CT angiogram shows multiple bilateral segmental pulmonary emboli; there is slight right ventricular dilation.ECG shows sinus tachycardia.",
+  "question_text": "A 72-year-old woman is evaluated in the emergency department for a 5-day history of shortness of breath and pleuritic chest pain. Two weeks ago, she was discharged from the hospital after an extended hospitalization for diverticulitis. She has no family history of thrombosis. Medical history is significant for hypertension and dyslipidemia. Medications are losartan, hydrochlorothiazide, and simvastatin.On physical examination, temperature is 37.0 °C (98.6 °F), blood pressure is 98/42 mm Hg, pulse rate is 116/min, and respiration rate is 28/min. Oxygen saturation is 92% with the patient breathing ambient air. No leg swelling is present. The remainder of the examination is unremarkable.CT angiogram shows multiple bilateral segmental pulmonary emboli; there is slight right ventricular dilation.Laboratory studies:B-type natriuretic peptide875 pg/mL (875 ng/L)HCreatinine0.9 mg/dL (79.6 μmol/L)High-sensitivity cardiac troponinElevated (>99th percentile upper reference limit)HECG shows sinus tachycardia.",
   "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Intravenous unfractionated heparin (UFH) (Option D) should be started for this patient with high-risk pulmonary embolism (PE). Most patients with PE should be treated with immediate systemic anticoagulation, preferably with a direct oral anticoagulant (DOAC). Because of the risk of complications, including intracranial hemorrhage, thrombolytic therapy is generally reserved for patients in shock. The initial management of patients with PE not in shock but at high risk for complications is controversial. Markers of increased risk include elevated biomarkers, such as serum troponin and B-type natriuretic peptide levels, and right ventricular dilation on imaging (CT angiography or echocardiography). No clear evidence indicates that thrombolytic therapy improves outcomes in patients at increased risk of PE who are not in shock, and guidelines do not provide consistent advice on whether patients should undergo either systemic thrombolysis or catheter-directed therapy. Although UFH is generally a second-line therapy in patients with acute venous thromboembolism (VTE), it should be used in patients at significant risk for deterioration in case thrombolysis is needed. This patient has acute PE with high risk for deterioration, as evidenced by elevated biomarkers and right ventricular dilation, and an increased probability of needing thrombolysis due to borderline hypotension. She should immediately start intravenous UFH and receive close monitoring for the development of shock.Apixaban (Option A), a DOAC, is an appropriate option for most patients with PE. DOACs are especially useful for stable patients at low risk because of the ability for discharge directly to home. This patient may ultimately be safely transitioned to apixaban, but UFH is a better initial therapy considering her tenuous condition.Dabigatran (Option B) is approved for venous thromboembolic disease, but it must be preceded by at least 5 days of parenteral anticoagulation before shifting to monotherapy. Dabigatran is not appropriate treatment in this patient.Enoxaparin (Option C) is generally preferred to UFH in treating patients with acute VTE because of its more predictable bioavailability. However, enoxaparin has a much longer half-life than UFH, and it is not indicated as initial therapy for a patient with PE in whom thrombolysis may be considered.",
+  "critique_links": [],
   "key_points": [
     "Patients with pulmonary embolism who are hemodynamically stable patients but at high risk for deterioration are best treated with intravenous unfractionated heparin, which can be rapidly discontinued if thrombolytic therapy is needed.",
     "In patients with pulmonary embolism, thrombolytic therapy is generally reserved for patients in shock because of the risk of complications, including intracranial hemorrhage."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:37:08.963937-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.028836-06:00"
 }

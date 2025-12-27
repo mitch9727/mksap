@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 52-year-old man is evaluated in the emergency department for a 2-day history of nausea, vomiting, and abdominal pain following a recent episode of binge drinking. He has alcohol use disorder and cirrhosis. Medications are furosemide and spironolactone.On physical examination, temperature is 36.7 °C (98.1 °F), blood pressure is 110/64 mm Hg, pulse rate is 100/min, and respiration rate is 22/min. Oxygen saturation is 92% with the patient breathing ambient air. Mild jaundice is noted. Ascites is present. There is trace lower extremity edema.",
+  "question_text": "A 52-year-old man is evaluated in the emergency department for a 2-day history of nausea, vomiting, and abdominal pain following a recent episode of binge drinking. He has alcohol use disorder and cirrhosis. Medications are furosemide and spironolactone.On physical examination, temperature is 36.7 °C (98.1 °F), blood pressure is 110/64 mm Hg, pulse rate is 100/min, and respiration rate is 22/min. Oxygen saturation is 92% with the patient breathing ambient air. Mild jaundice is noted. Ascites is present. There is trace lower extremity edema.Laboratory studies:Arterial blood gasespH7.46HPco228 mm Hg (3.7 kPa)LAlbumin3.4 g/dL (34 g/L)LBlood urea nitrogen8 mg/dL (2.9 mmol/L)Creatinine1.1 mg/dL (97.2 µmol/L)ElectrolytesSodium136 mEq/L (136 mmol/L)Potassium3.8 mEq/L (3.8 mmol/L)Chloride96 mEq/L (96 mmol/L)LBicarbonate20 mEq/L (20 mmol/L)LGlucose104 mg/dL (5.8 mmol/L)H",
   "question_stem": "Which of the following acid-base disorders does this patient most likely have?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient most likely has the triple acid-base disorder of metabolic acidosis, metabolic alkalosis, and respiratory alkalosis (Option D). This diagnosis can be determined using the systematic approach for all acid-base disorders:Anion Gap = Serum Sodium (mEq/L) − (Serum Chloride [mEq/L] + Serum Bicarbonate [mEq/L])Using this equation, this patient has an anion gap metabolic acidosis:20 mEq/L = [136 mEq/L − (96 [mEq/L] + 20 [mEq/L])]Corrected for albumin, the anion gap isAlbumin-Corrected Anion Gap = Anion Gap + 2.5 × (Normal Albumin – Measured Albumin [g/dL])Or, in this case,21.5 mEq/L = 20 mEq/L + 2.5 × (4.0 g/dL – 3.4 g/dL)When the anion gap is >18 mEq/L (18 mmol/L), an organic acid is almost always present. If the corrected anion gap is increased, patients should next be assessed for coexistent metabolic alkalosis. Because the change in the anion gap (Δ AG) from normal (10 mEq/L [10 mmol/L]) should approximate the change in the bicarbonate (Δ Bicarbonate), adding the Δ AG to the bicarbonate should correspond to what the bicarbonate would be if there were not an anion gap. A value >28 mEq/L (28 mmol/L) confirms a concomitant metabolic alkalosis.Δ AG + Bicarbonate = Expected BicarbonateOr, in this case,(21.5 − 10) + 20 mEq/L = 31.5 mEq/LThus, there is also a metabolic alkalosis present in this case. Finally, the low Pco2 with an alkalemic pH demonstrates the existence of a respiratory alkalosis. This triple acid-base disorder is often seen in patients with cirrhosis who develop nausea and vomiting after a recent alcohol binge-drinking episode, such as this patient. Respiratory alkalosis caused by hyperventilation is extremely common in patients with cirrhosis. The cause is likely multifactorial and includes increased progesterone, which stimulates ventilation; other hepatic toxins such as ammonium, which also stimulate the respiratory center; and hypoxia due to hepatopulmonary syndrome. The acidosis is secondary to alcoholic ketoacidosis due to lack of nutritional intake that commonly occurs during alcohol binge-drinking episodes and change in the redox potential due to the metabolism of alcohol-by-alcohol dehydrogenase. It is important to note that β-hydroxybutyrate is the predominant ketone present. This is not identified using urine dipstick, which only recognizes acetoacetate. Finally, the metabolic alkalosis is due to vomiting with loss of protons.Metabolic acidosis and respiratory alkalosis (Option A) are partially correct because this patient also has metabolic alkalosis.Metabolic alkalosis and respiratory alkalosis (Option B) are partially correct but do not account for the anion gap acidosis. The patient's anion gap is 21.5 mEq/L (21.5 mmol/L) and is elevated.Metabolic acidosis, metabolic alkalosis, and respiratory acidosis (Option C) are incorrect because this patient does not have respiratory acidosis but rather a respiratory alkalosis, as evidenced by the low Pco2 with an alkalemic pH.",
+  "critique_links": [],
   "key_points": [
     "A stepwise approach to assessment provides appropriate diagnosis of an underlying acid-base disorder.",
     "The triple acid-base disorder of metabolic acidosis, metabolic alkalosis, and respiratory alkalosis may be seen in patients with cirrhosis who develop nausea and vomiting after a recent episode of binge drinking."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:07:14.397646-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.864581-06:00"
 }

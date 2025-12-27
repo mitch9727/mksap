@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 64-year-old man seeks treatment for a 5-year history of intermittent erectile dysfunction. He experiences nocturnal and early-morning penile tumescence and can maintain an erection sufficient for sexual activity half of the time. Medical history includes coronary artery disease, major depressive disorder, dyslipidemia, hypertension, untreated obstructive sleep apnea, peripheral vascular disease, and type 2 diabetes mellitus. Medications are aspirin, atorvastatin, isosorbide mononitrate, lisinopril, metformin, metoprolol, and sertraline.On physical examination, vital signs are normal. BMI is 26. He has normal testicular size and no gynecomastia.Laboratory studies: Total testosterone (8:00 am, fasting)380 ng/dL (13.2 nmol/L)",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment for this patient's erectile dysfunction (ED) is psychotherapy (Option B). The patient has a history of depression, which can predispose to intermittent ED. Additionally, the presence of nocturnal and/or morning erections suggests a psychogenic component to ED symptoms that would benefit from further investigation. Based on these findings, he likely has situational or mood-related ED. In situations such as this one, therapies such as cognitive behavioral therapy, biofeedback therapy, and sensory awareness exercises can be beneficial.Alprostadil (Option A) is considered second-line therapy for ED because it requires routine intracavernous injections, transurethral injections, or transurethral suppositories. For many patients, this option is poorly tolerated. In patients with depression and intermittent ED, alprostadil would not be recommended before trying psychotherapy, which is much better tolerated.Sildenafil (Option C) and other oral phosphodiesterase-5 inhibitors are considered first-line medical therapy for ED. However, sildenafil is contraindicated in patients taking nitrate therapy, such as this patient.Testosterone supplementation (Option D) may be considered in patients with ED and confirmed symptomatic androgen deficiency, but only after consideration of the multiple contraindications and discussion of potential harms and benefits with the patient. This patient has a normal serum total testosterone level and no alterations in secondary sexual characteristics, which makes the diagnosis of clinically relevant androgen deficiency unlikely. Furthermore, testosterone therapy should be avoided in patients with untreated obstructive sleep apnea.It would not be appropriate to offer reassurance (Option E) to a patient who is seeking treatment for ED when treatment options exist.",
+  "critique_links": [],
   "key_points": [
     "Erectile dysfunction in a patient who experiences nocturnal penile tumescence is most likely situational or mood related; cognitive behavioral therapy, biofeedback, or sensory awareness exercises with a psychotherapist are first-line therapies."
   ],
@@ -62,5 +63,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:28:36.755160-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.073268-06:00"
 }

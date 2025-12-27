@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 23-year-old woman is evaluated for hematuria of 12 hours' duration. She also reports a 2-day history of upper respiratory infection symptoms. She does not have dysuria or flank pain and is not currently menstruating. A similar incident occurred when she had the flu during college and lasted a few hours. She takes no medications.Physical examination findings and vital signs are unremarkable.Serum C3, C4, and creatinine levels are normal.Noncontrast CT scan of the abdomen shows no renal masses, nephrolithiasis, or hydronephrosis.",
+  "question_text": "A 23-year-old woman is evaluated for hematuria of 12 hours' duration. She also reports a 2-day history of upper respiratory infection symptoms. She does not have dysuria or flank pain and is not currently menstruating. A similar incident occurred when she had the flu during college and lasted a few hours. She takes no medications.Physical examination findings and vital signs are unremarkable.Laboratory studies:Urinalysis with microscopy4+ blood; 1+ protein; no leukocyte esterase or nitrites; dysmorphic erythrocytesSerum C3, C4, and creatinine levels are normal.Noncontrast CT scan of the abdomen shows no renal masses, nephrolithiasis, or hydronephrosis.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "IgA nephropathy (Option B) is the most likely diagnosis. Recurrent gross hematuria, in which macroscopic hematuria occurs concomitantly or within days after an upper respiratory infection (synpharyngitic hematuria) or physical exertion, is a classic presentation of IgA nephropathy, particularly in younger patients. This nephritic presentation usually follows a benign clinical course without associated kidney disease; however, in some patients, intraluminal obstructive erythrocyte casts can cause moderate to severe acute kidney injury that typically responds to supportive care measures. The diagnosis of IgA nephropathy can only be made by kidney biopsy, but some clinicians will make an empiric diagnosis for young patients with a classic history of recurrent gross synpharyngitic hematuria, negative imaging for masses/stones, and normal kidney function with little to no proteinuria.Infection-related glomerulonephritis (Option A) and lupus nephritis (Option D) can present with macroscopic glomerular hematuria, but these disease states usually induce low serum complement levels (usually low C3 with or without low C4). Lupus nephritis with macroscopic hematuria is also generally accompanied by reduced kidney function and subnephrotic- or nephrotic-range proteinuria. Infection-related glomerulonephritis associated with upper respiratory infections caused by streptococcal organisms usually occurs 2 to 3 weeks after the infection resolves. Staphylococcal infections (usually skin infections) are the more common cause of infection-related glomerulonephritis in industrialized countries, with onset at the time of infection, but infection-related glomerulonephritis is not usually associated with gross hematuria or a recurrent history of such episodes.IgA vasculitis (Henoch-Schönlein purpura) (Option C) is the most common childhood vasculitis and tends to appear after upper respiratory infections. IgA vasculitis is rarer in adults. Characteristic symptoms are abdominal pain and palpable purpura. Gastrointestinal ischemia may cause intestinal bleeding. Arthritis is common, other organ systems may be involved, and patients may present with glomerulonephritis. This patient's recurrent symptoms, lack of additional findings, and benign clinical course are not compatible with a diagnosis of IgA vasculitis.",
+  "critique_links": [],
   "key_points": [
     "A classic presentation of IgA nephropathy is recurrent gross hematuria that occurs concomitantly or within days after an upper respiratory infection or physical exertion and usually follows a benign course."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.475948-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.924302-06:00"
 }

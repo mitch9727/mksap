@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old woman is evaluated at a follow-up visit. Two months ago, abdominal hysterectomy and bilateral oophorectomy were performed for stage I endometrial cancer. Colorectal cancer was diagnosed in her father at age 59 years, and ovarian cancer was diagnosed in her paternal aunt at age 63 years.On physical examination, vital signs and other findings are normal.Results of laboratory studies are normal. Previous immunohistochemistry of endometrial tumor showed loss of staining for MSH2 and MSH6. Genetic testing disclosed a pathogenic variant in the MSH6 gene.",
   "question_stem": "Which of the following is the most appropriate testing to perform next?",
@@ -38,7 +38,16 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most appropriate testing to perform next in this patient with Lynch syndrome is upper endoscopy and colonoscopy (Option C). Lynch syndrome is caused by germline variants in the mismatch repair genes MLH1, MSH2, MSH6, and PMS2 and the epithelial cell adhesion molecule gene, EPCAM. Patients with Lynch syndrome are at increased risk for colorectal and endometrial cancers (which are common), as well as other cancers, including ovarian cancer and tumors of the stomach and small bowel. The lifetime risk for colorectal cancer ranges from 50% to 80% and varies by genetic variant. Clinical criteria to evaluate for Lynch syndrome include the Amsterdam and Bethesda criteria, and this patient's family fulfills the Amsterdam II criteria for Lynch syndrome (see ). The PREdiction Model for gene Mutations 5 (PREMM) may also be used to help predict the risk for Lynch syndrome. The timing of screening for colorectal cancer for patients with Lynch syndrome varies by the affected gene. Colonoscopy is typically offered every 1 to 2 years, beginning at age 20 to 25 years (for MSH1 and MSH2/EPCAM) or age 30 to 35 years (for MSH6 or PMS2), or 2 to 5 years before the earliest diagnosis of colorectal cancer in the family. For all patients with Lynch syndrome, screening for gastric cancer with upper endoscopy and gastric biopsy is recommended starting at age 30 to 40 years and should be repeated every 2 to 4 years. Earlier or more frequent surveillance may be considered based on family history or high-risk endoscopic findings. Testing for and treatment of Helicobacter pylori infection are also recommended. This patient should undergo both upper endoscopy and colonoscopy.Colonoscopy (Option A) alone is not an appropriate screening strategy for this patient. The combination of this patient's family history and the genetic variant of the MSH6 gene is consistent with Lynch syndrome, and the patient warrants screening for both stomach and small bowel cancer.Fecal immunochemistry testing (Option B) is an acceptable colorectal cancer screening strategy for patients who are at average risk but is not sufficiently sensitive for patients at high risk, such as those with Lynch syndrome.Routine wireless capsule endoscopy (Option D) is not recommended unless a patient exhibits signs or symptoms of small-bowel malignancy, including iron deficiency anemia. This patient's findings are not consistent with small-bowel cancer.",
+  "critique": "The most appropriate testing to perform next in this patient with Lynch syndrome is upper endoscopy and colonoscopy (Option C). Lynch syndrome is caused by germline variants in the mismatch repair genes MLH1, MSH2, MSH6, and PMS2 and the epithelial cell adhesion molecule gene, EPCAM. Patients with Lynch syndrome are at increased risk for colorectal and endometrial cancers (which are common), as well as other cancers, including ovarian cancer and tumors of the stomach and small bowel. The lifetime risk for colorectal cancer ranges from 50% to 80% and varies by genetic variant. Clinical criteria to evaluate for Lynch syndrome include the Amsterdam and Bethesda criteria, and this patient's family fulfills the Amsterdam II criteria for Lynch syndrome (see Table: Criteria for Lynch Syndrome). The PREdiction Model for gene Mutations 5 (PREMM5) may also be used to help predict the risk for Lynch syndrome. The timing of screening for colorectal cancer for patients with Lynch syndrome varies by the affected gene. Colonoscopy is typically offered every 1 to 2 years, beginning at age 20 to 25 years (for MSH1 and MSH2/EPCAM) or age 30 to 35 years (for MSH6 or PMS2), or 2 to 5 years before the earliest diagnosis of colorectal cancer in the family. For all patients with Lynch syndrome, screening for gastric cancer with upper endoscopy and gastric biopsy is recommended starting at age 30 to 40 years and should be repeated every 2 to 4 years. Earlier or more frequent surveillance may be considered based on family history or high-risk endoscopic findings. Testing for and treatment of Helicobacter pylori infection are also recommended. This patient should undergo both upper endoscopy and colonoscopy.Colonoscopy (Option A) alone is not an appropriate screening strategy for this patient. The combination of this patient's family history and the genetic variant of the MSH6 gene is consistent with Lynch syndrome, and the patient warrants screening for both stomach and small bowel cancer.Fecal immunochemistry testing (Option B) is an acceptable colorectal cancer screening strategy for patients who are at average risk but is not sufficiently sensitive for patients at high risk, such as those with Lynch syndrome.Routine wireless capsule endoscopy (Option D) is not recommended unless a patient exhibits signs or symptoms of small-bowel malignancy, including iron deficiency anemia. This patient's findings are not consistent with small-bowel cancer.",
+  "critique_links": [
+    {
+      "href": "https://premm.dfci.harvard.edu/",
+      "text": "PREMM5",
+      "target": "_blank",
+      "title": null,
+      "rel": null
+    }
+  ],
   "key_points": [
     "Patients with Lynch syndrome should be screened for colon cancer with colonoscopy beginning at age 20 to 25 years (for MSH1 and MSH2/EPCAM), or age 30 to 35 years (for MSH6 or PMS2), or 2 to 5 years before the earliest colorectal cancer diagnosis in the family; they should also be screened for gastric cancer with upper endoscopy and gastric biopsy beginning at age 30 to 40 years."
   ],
@@ -51,11 +60,34 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html"
+      "tables/gitab24025.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:30.871685-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "gitab24025",
+        "file": "tables/gitab24025.html",
+        "title": "Criteria for Lynch Syndrome<sup>a</sup>",
+        "short_title": "Criteria for Lynch Syndrome",
+        "footnotes": [
+          "CRC = colorectal cancer; MSI = microsatellite instability.",
+          "<sup>a</sup>Lynch-related tumors include colorectal, endometrial, gastric, ovarian, pancreatic, ureter and renal pelvis, biliary tract, brain, and small-bowel cancer. Also included are sebaceous gland adenomas and keratocanthomas in Muir-Torre syndrome.",
+          "<sup>b</sup>Tumors should be tested for MSI, or genetic testing may be considered if criteria are met.",
+          "<sup>c</sup>MSI-high–like histologic features include presence of tumor-infiltrating lymphocytes, Crohn-like lymphocytic reaction, mucinous or signet-ring differentiation, and medullary growth pattern."
+        ],
+        "headers": [
+          "Amsterdam II Criteria",
+          "Revised Bethesda Criteriab"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.310869-06:00"
 }

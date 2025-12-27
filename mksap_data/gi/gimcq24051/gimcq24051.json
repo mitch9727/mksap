@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 45-year-old woman is hospitalized for bloody diarrhea. She has ulcerative colitis treated with mesalamine. She has been passing 10 to 12 loose, bloody bowel movements daily. Flexible sigmoidoscopy reveals diffuse severe inflammation with ulceration in the rectosigmoid colon. Biopsy results show severe active chronic colitis. Outpatient mesalamine therapy is discontinued, and intravenous methylprednisolone is initiated. After 3 days of treatment, she continues to have eight bloody bowel movements daily. Medical history is also significant for an episode of lower extremity deep venous thrombosis, which was treated with anticoagulation for 6 months.On physical examination, vital signs are normal. Palpation elicits no abdominal distention or tenderness. Anorectal examination shows no perianal lesions.Results of Clostridioides difficile stool testing and interferon-gamma release assay are negative. Hepatitis B serology results are consistent with previous vaccination.",
+  "question_text": "A 45-year-old woman is hospitalized for bloody diarrhea. She has ulcerative colitis treated with mesalamine. She has been passing 10 to 12 loose, bloody bowel movements daily. Flexible sigmoidoscopy reveals diffuse severe inflammation with ulceration in the rectosigmoid colon. Biopsy results show severe active chronic colitis. Outpatient mesalamine therapy is discontinued, and intravenous methylprednisolone is initiated. After 3 days of treatment, she continues to have eight bloody bowel movements daily. Medical history is also significant for an episode of lower extremity deep venous thrombosis, which was treated with anticoagulation for 6 months.On physical examination, vital signs are normal. Palpation elicits no abdominal distention or tenderness. Anorectal examination shows no perianal lesions.Laboratory studies:On admissionTodayC-reactive protein65 mg/dL (650 mg/L)H50 mg/dL (500 mg/L)HResults of Clostridioides difficile stool testing and interferon-gamma release assay are negative. Hepatitis B serology results are consistent with previous vaccination.",
   "question_stem": "In addition to surgical consultation, which of the following is the most appropriate treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate treatment for this patient with acute severe ulcerative colitis (UC) unresponsive to intravenous glucocorticoid therapy is infliximab (Option B). Initial medical therapy for acute severe UC is with glucocorticoids (methylprednisolone, 60 mg/day, or hydrocortisone, 100 mg three or four times a day). Because one third of patients do not respond to intravenous glucocorticoids, preparation for rescue medical therapy or surgery should be undertaken. Involving a colorectal surgeon early is critical, as is obtaining anticipatory laboratory testing for use of infliximab, with interferon-gamma release assay and hepatitis B virus serologies. The response to treatment is determined after 3 days of intravenous glucocorticoids; glucocorticoid failure is predicted by eight or more bowel movements or by three to eight daily bowel movements and a C-reactive protein level greater than 4.5 mg/dL (45 mg/L). Patients who do not respond to intravenous glucocorticoids in 3 days should be considered for colectomy or a trial of infliximab or intravenous cyclosporine. This patient has received glucocorticoids for 3 days, without adequate clinical response; medical therapy with infliximab is an appropriate next step.Fidaxomicin (Option A), an oral macrolide antibiotic effective for treating Clostridioides difficile infection, is not the most appropriate treatment for this patient. Enteric infections, such as with C. difficile and cytomegalovirus, that can cause a disease flare must be excluded in patients who are hospitalized for UC. However, the result of this patient's stool testing was negative for C. difficile, and her symptoms are most likely due to failure of methylprednisolone to treat UC.Tofacitinib (Option C) is a pan–Janus kinase inhibitor effective in inducing and maintaining remission in moderate to severe UC when anti–tumor necrosis factor (TNF) agents have failed. Tofacitinib would not be indicated in this case because this patient has not experienced anti-TNF agent failure. In addition, tofacitinib is associated with an increased risk for venous thromboembolism and is contraindicated given this patient's history of venous thromboembolism.Vedolizumab (Option D) is effective in inducing and maintaining remission of moderate to severe UC. However, it has a much slower onset of action and therefore is inappropriate treatment for acute severe UC that does not respond to intravenous glucocorticoids.",
+  "critique_links": [],
   "key_points": [
     "Initial medical therapy for acute severe ulcerative colitis is with glucocorticoids, and response to treatment is determined after 3 days of intravenous glucocorticoids.",
     "Patients who do not respond to intravenous glucocorticoids should be considered for colectomy or a trial of infliximab or intravenous cyclosporine."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:14:30.964936-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.391115-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 62-year-old woman is evaluated for a 6-month history of progressive shortness of breath. She now becomes dyspneic when climbing one flight of stairs. She has no cough, weight loss, or chest pain. She has a 35-pack-year smoking history and quit smoking 20 years ago. Her medical history is significant for hypertension and depression. Medications are enalapril-hydrochlorothiazide and escitalopram.On physical examination, vital signs and other findings are normal.Laboratory studies show a normal complete blood cell count.Chest radiograph is normal.",
+  "question_text": "A 62-year-old woman is evaluated for a 6-month history of progressive shortness of breath. She now becomes dyspneic when climbing one flight of stairs. She has no cough, weight loss, or chest pain. She has a 35-pack-year smoking history and quit smoking 20 years ago. Her medical history is significant for hypertension and depression. Medications are enalapril-hydrochlorothiazide and escitalopram.On physical examination, vital signs and other findings are normal.Laboratory studies show a normal complete blood cell count.Pulmonary function tests:FEV165% of predicted; 66% following bronchodilator administrationL FEV1/FVC ratio0.63; 0.62 following bronchodilator administrationLTotal lung capacity104% of predictedResidual volume99% of predictedDlco NormalChest radiograph is normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
@@ -38,7 +38,8 @@
     "result": null,
     "time_taken": null
   },
-  "critique": "The most likely diagnosis in this patient is COPD (Option B). The diagnosis of COPD requires documentation of airflow obstruction on spirometry, as demonstrated by a decreased FEV1/FVC ratio. The Global Initiative for Chronic Obstructive Lung Disease (GOLD) defines COPD as being present with an FEV1/FVC ratio less than 0.70 and an absent bronchodilator effect. This differs from the findings in patients with asthma, who have bronchodilator responsiveness, defined as an increase from baseline in FEV1, FVC, or both of at least 10% relative to the predicted value. In COPD, the severity of air flow obstruction is determined by the measured FEV1 as a percentage of the predicted value (). Measuring lung volumes and diffusing capacity is not required for diagnosis; however, when completed, the total lung capacity (TLC) and residual volume can be normal or increased. Increased TLC and residual volume (≥120% of predicted) indicate hyperinflation and air trapping. The Dlco may be normal in COPD but is often decreased when emphysema is present. Similarly, chest radiographs are frequently normal in early disease. This patient is presenting with dyspnea in the setting of remote but significant tobacco use. Spirometry demonstrates a postbronchodilator FEV1/FVC ratio of 0.62 and an FEV1 of 66% of predicted, consistent with moderate COPD.Asthma (Option A) is not the most likely diagnosis in this patient. Asthma is characterized by a reduced FEV1/FVC ratio coupled with a significant bronchodilator response. This patient has a reduced FEV1/FVC ratio, indicating air flow obstruction, but shows no improvement with a bronchodilator. This pattern is more suggestive of COPD than asthma.Restrictive lung disease is characterized by a reduced FEV1 or FVC with a preserved FEV1/FVC ratio of 0.70 or greater. Measurement of lung volumes with demonstration of a TLC below 80% of predicted is additionally necessary to confirm the diagnosis. Desquamative interstitial pneumonia (Option C), a smoking-related form of diffuse parenchymal lung disease, is characterized by diffuse ground-glass opacification with lower-zone predominance and a restrictive pattern on spirometry. This patient's normal imaging results, lack of current smoking, and obstructive pattern of spirometry make desquamative interstitial pneumonia an unlikely diagnosis.Primary pulmonary hypertension (Option D) may cause gradual onset of dyspnea, but spirometry typically does not show significant airflow obstruction. Pulmonary function testing in patients with pulmonary vascular disease is most likely to show normal spirometry results with a decreased diffusion capacity. This patient has significant airflow obstruction on spirometry, making COPD a more likely diagnosis than pulmonary hypertension.",
+  "critique": "The most likely diagnosis in this patient is COPD (Option B). The diagnosis of COPD requires documentation of airflow obstruction on spirometry, as demonstrated by a decreased FEV1/FVC ratio. The Global Initiative for Chronic Obstructive Lung Disease (GOLD) defines COPD as being present with an FEV1/FVC ratio less than 0.70 and an absent bronchodilator effect. This differs from the findings in patients with asthma, who have bronchodilator responsiveness, defined as an increase from baseline in FEV1, FVC, or both of at least 10% relative to the predicted value. In COPD, the severity of air flow obstruction is determined by the measured FEV1 as a percentage of the predicted value (Table: Pulmonary Function Test Results and Associated Impairment). Measuring lung volumes and diffusing capacity is not required for diagnosis; however, when completed, the total lung capacity (TLC) and residual volume can be normal or increased. Increased TLC and residual volume (≥120% of predicted) indicate hyperinflation and air trapping. The Dlco may be normal in COPD but is often decreased when emphysema is present. Similarly, chest radiographs are frequently normal in early disease. This patient is presenting with dyspnea in the setting of remote but significant tobacco use. Spirometry demonstrates a postbronchodilator FEV1/FVC ratio of 0.62 and an FEV1 of 66% of predicted, consistent with moderate COPD.Asthma (Option A) is not the most likely diagnosis in this patient. Asthma is characterized by a reduced FEV1/FVC ratio coupled with a significant bronchodilator response. This patient has a reduced FEV1/FVC ratio, indicating air flow obstruction, but shows no improvement with a bronchodilator. This pattern is more suggestive of COPD than asthma.Restrictive lung disease is characterized by a reduced FEV1 or FVC with a preserved FEV1/FVC ratio of 0.70 or greater. Measurement of lung volumes with demonstration of a TLC below 80% of predicted is additionally necessary to confirm the diagnosis. Desquamative interstitial pneumonia (Option C), a smoking-related form of diffuse parenchymal lung disease, is characterized by diffuse ground-glass opacification with lower-zone predominance and a restrictive pattern on spirometry. This patient's normal imaging results, lack of current smoking, and obstructive pattern of spirometry make desquamative interstitial pneumonia an unlikely diagnosis.Primary pulmonary hypertension (Option D) may cause gradual onset of dyspnea, but spirometry typically does not show significant airflow obstruction. Pulmonary function testing in patients with pulmonary vascular disease is most likely to show normal spirometry results with a decreased diffusion capacity. This patient has significant airflow obstruction on spirometry, making COPD a more likely diagnosis than pulmonary hypertension.",
+  "critique_links": [],
   "key_points": [
     "Spirometry in COPD shows a decreased FEV1/FVC ratio (<0.70) and an absent bronchodilator effect; the severity of airflow obstruction is determined by the measured FEV1 as a percentage of the predicted value."
   ],
@@ -51,12 +52,41 @@
   },
   "media": {
     "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
+      "tables/pmtab24001.html",
+      "tables/inline_table_1.html"
     ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:15:53.016497-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "pmtab24001",
+        "file": "tables/pmtab24001.html",
+        "title": "Characterization of Impairment Severity in Pulmonary Function Tests",
+        "short_title": "Pulmonary Function Test Results and Associated Impairment",
+        "footnotes": [
+          "LLN = lower limit of normal (fifth percentile of healthy never-smokers).",
+          "Reproduced with permission of the © ERS 2025 from Pellegrino R, Viegi G, Brusasco V, et al. Interpretative strategies for lung function tests. Eur Respir J. 2005;26:957. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/16264058\" target=\"_blank\">PMID: 16264058</a> doi:10.1183/09031936.05.00035205"
+        ],
+        "headers": [
+          "Test Result (% of Predicted)",
+          "Severity of Impairment"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Pulmonary function tests:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.098446-06:00"
 }

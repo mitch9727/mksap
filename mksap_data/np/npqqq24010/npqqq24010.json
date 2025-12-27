@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 71-year-old man is evaluated at a preoperative visit for umbilical hernia repair. Medical history is significant for hypertension, chronic kidney disease, and dyslipidemia. Medications are metoprolol, amlodipine, furosemide, hydralazine, and simvastatin.On physical examination, average blood pressure is 150/96 mm Hg, and pulse rate is 54/min; other vital signs are normal. The abdomen is nontender, with a bruit heard over the umbilical region.Abdominal ultrasound with Doppler reveals 75% ostial right renal artery stenosis.",
+  "question_text": "A 71-year-old man is evaluated at a preoperative visit for umbilical hernia repair. Medical history is significant for hypertension, chronic kidney disease, and dyslipidemia. Medications are metoprolol, amlodipine, furosemide, hydralazine, and simvastatin.On physical examination, average blood pressure is 150/96 mm Hg, and pulse rate is 54/min; other vital signs are normal. The abdomen is nontender, with a bruit heard over the umbilical region.Laboratory studies:Creatinine1.7 mg/dL (150 µmol/L)H3 months ago1.8 mg/dL (159 µmol/L)HUrine albumin-creatinine ratio300 mg/gHAbdominal ultrasound with Doppler reveals 75% ostial right renal artery stenosis.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in management is to begin lisinopril (Option A). The patient most likely has atherosclerotic renovascular disease, given his age, ostial renal artery stenosis, and resistant hypertension despite treatment with four antihypertensive medications, including a diuretic. Most patients with renovascular disease have atherosclerosis (>90%). Medical therapy for renovascular disease should include treatment of underlying cardiovascular risk factors, such as hypercholesterolemia, and addition of an ACE inhibitor or angiotensin receptor blocker (ARB) for blood pressure control. Kidney function should be checked 2 weeks after the addition of an ACE inhibitor or ARB and should be more closely monitored in patients with bilateral renal artery stenosis or a single functional kidney to ensure that the serum creatinine level does not increase beyond a clinically acceptable level, generally up to 25% to 30% from baseline.Although renal angiography (Option B) is the gold standard for renovascular disease diagnosis, it is not recommended as a routine test due to adverse risks, such as contrast nephropathy and cholesterol emboli. It is undertaken only if an intervention to correct a discovered stenosis is planned. However, medical therapy is recommended for most adults with atherosclerotic renal artery stenosis.Three randomized controlled trials (STAR, ASTRAL, and CORAL) failed to show that renal artery angioplasty confers additional benefit above optimal medical therapy for patients with atherosclerotic renovascular disease and stable kidney function. Patients who may benefit from percutaneous angioplasty and stenting (Option C) or surgical intervention include those who present with a short hypertension duration; do not benefit from (or cannot tolerate) medical therapy; have severe hypertension; have flash pulmonary edema or unexplained recurrent heart failure; or have progressive impaired kidney function. In patients who have an indication for renal artery revascularization, surgery (Option D) is preferred only for those with complex anatomic lesions, such as aneurysm or aortoiliac occlusive disease.",
+  "critique_links": [],
   "key_points": [
     "Medical therapy for renovascular disease should include treatment of underlying cardiovascular risk factors and addition of an ACE inhibitor or angiotensin receptor blocker for blood pressure control."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.417280-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.916265-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 63-year-old man is evaluated for a 5-day history of weakness and anorexia. Medical history is significant for hypertension, osteoarthritis, and malignant melanoma. Medications are irbesartan and celecoxib. He has received ipilimumab and nivolumab for the past 8 weeks.Vital signs are normal. Trace ankle edema is present. No erythematous skin rash is present.A complete blood count and serum electrolyte levels are normal.",
+  "question_text": "A 63-year-old man is evaluated for a 5-day history of weakness and anorexia. Medical history is significant for hypertension, osteoarthritis, and malignant melanoma. Medications are irbesartan and celecoxib. He has received ipilimumab and nivolumab for the past 8 weeks.Vital signs are normal. Trace ankle edema is present. No erythematous skin rash is present.Laboratory studies:Blood urea nitrogen45 mg/dL (16.1 mmol/L)HCreatinine3.6 mg/dL (318 μmol/L)HFractional excretion of sodium2%Urinalysis1+ protein; trace blood; 1+ leukocyte esterase; 5-10 leukocytes/hpf; 2-5 erythrocytes/hpf; few fine granular castsA complete blood count and serum electrolyte levels are normal.",
   "question_stem": "Which of the following is the most likely cause of this patient's acute kidney injury?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely cause of this patient's acute kidney injury (AKI) is acute interstitial nephritis (AIN) (Option C). Immune checkpoint inhibitors such as ipilimumab and nivolumab are effective immunotherapy for numerous cancers, including malignant melanoma. However, they cause immune-related AKI in up to 5% of patients. The most common kidney lesion (approximately 75% of patients) is AIN. In this patient, acute decline in kidney function with constitutional symptoms, nonnephrotic proteinuria, microhematuria, leukocyturia, and granular casts found on urine microscopy are consistent with immune checkpoint inhibitor–associated AIN; thus, AIN is the most likely diagnosis.Acute tubular necrosis (acute tubular injury) (Option A) can result in AKI with fractional excretion of sodium of greater than 1%, but it is a very uncommon cause of AKI in the setting of immune checkpoint inhibitor therapy, and the patient's lack of hypotension or exposure to nephrotoxic medications does not support the diagnosis of acute tubular necrosis.Various types of glomerular injury can occur following therapy with immune checkpoint inhibitors but are less common than AIN. In this patient, no clinical data (lack of dysmorphic erythrocytes, erythrocyte casts, or significant proteinuria) support a diagnosis of acute glomerulonephritis (Option B).Prerenal AKI (prerenal azotemia) (Option D) would be supported by a blood urea nitrogen–creatinine ratio greater than 20 and a fractional excretion of sodium of less than 1%. It is frequently caused by volume depletion (indicated by, e.g., vomiting, diarrhea, diuretic use). Prerenal AKI is unlikely in this scenario because the patient's vital signs are normal, the fractional excretion of sodium is 2%, and no clinical findings support the development of volume depletion (lack of vomiting, diarrhea, diuretic use) as a cause for prerenal AKI. Prerenal AKI is also not a noted direct complication of this patient's medications.",
+  "critique_links": [],
   "key_points": [
     "Immune checkpoint inhibitors cause acute kidney injury in up to 5% of patients; acute interstitial nephritis is the most common injury, presenting with nonnephrotic proteinuria, microhematuria, leukocyturia, and granular casts on urine microscopy."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:11:04.470994-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.954927-06:00"
 }

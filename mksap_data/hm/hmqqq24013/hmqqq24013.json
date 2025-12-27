@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 52-year-old woman is evaluated during hospitalization for acute onset of thrombocytopenia and deep venous thrombosis (DVT). She was admitted to the hospital 7 days ago after undergoing a total hysterectomy and bilateral salpingo-oophorectomy for ovarian cancer. Following surgery, prophylactic-dose enoxaparin and mechanical prophylaxis were initiated. Today, a right lower extremity DVT was diagnosed.",
+  "question_text": "A 52-year-old woman is evaluated during hospitalization for acute onset of thrombocytopenia and deep venous thrombosis (DVT). She was admitted to the hospital 7 days ago after undergoing a total hysterectomy and bilateral salpingo-oophorectomy for ovarian cancer. Following surgery, prophylactic-dose enoxaparin and mechanical prophylaxis were initiated. Today, a right lower extremity DVT was diagnosed.Laboratory studies:Platelet count70,000/µL (70 × 109/L)LOn admission142,000/µL (142 × 109/L)L",
   "question_stem": "Which of the following is the most appropriate next step in treatment?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step is to stop enoxaparin and start anticoagulation with a nonheparin anticoagulant such as apixaban (Option B). Heparin-induced thrombocytopenia (HIT) is an immune-mediated thrombocytopenia occurring 5 to 10 days after heparin exposure. It is caused by antibodies against platelet factor 4 (PF4; complexed to heparin). This patient's treatment with heparin, timing of deep venous thrombosis (DVT), and thrombocytopenia suggest HIT. A heparin PF4 antibody assay should be obtained. The 4T score is used to estimate the pretest probability of HIT based on clinical factors, including degree of thrombocytopenia, timing of the decrease in platelet count, presence of any potential sequelae of HIT (such as thrombosis), and whether another potential cause for thrombocytopenia exists. With the high pretest probability and need for anticoagulation, it is important to switch to a nonheparin anticoagulant, such as argatroban; bivalirudin; fondaparinux; or a direct oral anticoagulant, such as apixaban, edoxaban, or rivaroxaban, while results of confirmatory testing (heparin PF4 antibody assay) are pending. This patient's current findings, including thrombocytopenia (>50% decrease in platelet count), new-onset DVT, and no other cause for thrombocytopenia, place the patient at high probability for HIT (high 4T score), and the next step in management is to stop enoxaparin and start apixaban.Platelet transfusions (Option A) are contraindicated in patients in whom thrombocytopenia is caused by a consumptive process unless life-threatening bleeding is occurring. Therefore, in this patient with suspected HIT, switching to a nonheparin anticoagulant would be more appropriate than platelet transfusion.Warfarin (Option C) should not be initiated in the absence of concurrently administered parenteral anticoagulation, because warfarin alone can potentiate a hypercoagulable state early in treatment. Patients are transitioned to warfarin after receiving adequate alternative anticoagulation and normalization of the platelet count.The risk for HIT is greatest with unfractionated heparin compared with low-molecular-weight heparin. Switching this patient from a low-molecular-weight heparin, such as enoxaparin, to unfractionated heparin (Option D) does not mitigate her risk for thrombocytopenia and life-threatening thrombosis.",
+  "critique_links": [],
   "key_points": [
     "Heparin-induced thrombocytopenia (HIT) is an immune-mediated thrombocytopenia occurring 5 to 10 days after heparin exposure.",
     "The treatment for HIT is to switch to a nonheparin anticoagulant, such as argatroban, bivalirudin, fondaparinux, or a direct oral anticoagulant."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:09:52.861609-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.068004-06:00"
 }

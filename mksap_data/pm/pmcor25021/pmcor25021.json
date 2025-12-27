@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 67-year-old woman is evaluated for a 6-year history of COPD (FEV1, 42% of predicted). She has had three exacerbations, two requiring hospitalization, in the past year. She reports a chronic cough productive of yellowish-white sputum and dyspnea with minimal exertion. She has a 50-pack-year smoking history and quit smoking 5 years ago. Medications are inhaled fluticasone-umeclidinium-vilanterol and azithromycin. She also participates in a pulmonary rehabilitation program.On physical examination, vital signs are normal. Oxygen saturation is 93% with the patient breathing ambient air. BMI is 23. Diffuse wheezing throughout lung fields is present.Laboratory studies:Arterial blood gasespH7.38Pco243 mm Hg (5.7 kPa)Po268 mm Hg (9.0 kPa)LBicarbonate26 mEq/L (26 mmol/L)α1-Antitrypsin levelNormal (PI*MM genotype)",
   "question_stem": "Which of the following is the most appropriate next step in treatment?",
@@ -44,6 +44,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate next step in treatment for this patient with COPD and frequent exacerbations is the addition of roflumilast (Option C). Roflumilast, a selective phosphodiesterase-4 inhibitor, reduces the frequency of exacerbations in patients with severe COPD. It should be considered in patients with an FEV1 less than 50% of predicted and chronic bronchitis, particularly if they have experienced at least two exacerbations or one exacerbation requiring hospitalization in the previous year. Chronic macrolide therapy, specifically with azithromycin, may also be effective in preventing recurrent exacerbations in patients with severe disease. This patient has COPD with an FEV1 less than 50% of predicted and has insufficient symptom control despite triple inhaler therapy with a long-acting muscarinic antagonist (LAMA), a long-acting β2-agonist (LABA), and an inhaled glucocorticoid, as well as azithromycin. Roflumilast is indicated to help reduce exacerbation frequency for patients with a chronic bronchitis phenotype.Nocturnal noninvasive positive-pressure ventilation (PPV) (Option A) can be used for acute and chronic respiratory failure in COPD. For patients with persistent hypercapnia (Pco2 ≥52 mm Hg [6.9 kPa]) after an acute exacerbation of COPD, adding nocturnal noninvasive PPV prolongs the time to readmission and death. This patient, however, has only a minimal increase in her baseline Pco2 and does not qualify for home nocturnal noninvasive PPV.Oral glucocorticoids, such as prednisone (Option B), are recommended for short-duration treatment (5 days) of COPD exacerbations. Although patients with severe COPD can be treated with inhaled glucocorticoids in the setting of an elevated eosinophil count, long-term use of prednisone is not recommended because of the risk for significant adverse effects, such as hypertension, impaired glucose metabolism, and osteoporosis.Supplemental oxygen (Option D) has been shown to improve quality of life and decrease mortality in patients with COPD and resting hypoxemia with an arterial Po2 of 55 mm Hg (7.3 kPa) or less or an oxygen saturation of 88% or less. The threshold to begin supplemental oxygen is slightly higher in patients with cor pulmonale or erythrocytosis. This patient's Po2 of 68 mm Hg (9.0 kPa) and oxygen saturation of 93% do not qualify her for supplemental oxygen.Continuing the current management of triple bronchodilator therapy and azithromycin (Option E) is not an appropriate option because starting roflumilast may decrease the risk for future exacerbations.",
+  "critique_links": [],
   "key_points": [
     "Roflumilast, a selective phosphodiesterase-4 inhibitor, can reduce exacerbation frequency in patients with severe COPD (FEV1 <50% of predicted) with a chronic bronchitis phenotype.",
     "Long-term use of azithromycin or roflumilast prevents future COPD exacerbations in patients with a history of frequent exacerbations."
@@ -56,10 +57,27 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:52:23.727397-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:32.006250-06:00"
 }

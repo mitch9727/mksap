@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 58-year-old woman undergoes colonoscopy for evaluation of chronic, watery diarrhea. Results of testing for celiac disease and stool examination for pathogens are negative. She is otherwise well and maintains a normal weight.Representative histology findings of random biopsy specimens from the colon are shown.",
   "question_stem": "Which of the following diagnoses is most compatible with this colonoscopy finding?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient's colonoscopy findings are characteristic of microscopic colitis (Option C). Microscopic colitis has two subtypes: lymphocytic colitis and collagenous colitis. Colonoscopy reveals normal-appearing mucosa, and the diagnosis must be established by mucosal biopsy. Both subtypes of microscopic colitis demonstrate lamina propria inflammation (arrow). A predominance of intraepithelial lymphocytes is seen in lymphocytic colitis. A thickened subepithelial collagen band is seen in collagenous colitis (arrowhead). This patient's biopsy results are consistent with collagenous colitis. Microscopic colitis usually presents with chronic, watery diarrhea, typically in middle-aged patients; women are more likely to be affected than men. Certain medications (NSAIDS, selective serotonin reuptake inhibitors, proton pump inhibitors) and smoking may be risk factors for the development of microscopic colitis.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -50,11 +51,40 @@
   "media": {
     "tables": [],
     "images": [
-      "figures/gifig24608.bb04da911d11dde56b924522f00f0ad6.jpg",
-      "figures/gifig24607.783313cc2540d07e5a246e21635ca064.jpg"
+      "figures/gifig24607.783313cc2540d07e5a246e21635ca064.jpg",
+      "figures/gifig24608.bb04da911d11dde56b924522f00f0ad6.jpg"
     ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T15:17:18.067726-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "gifig24607",
+        "file": "figures/gifig24607.783313cc2540d07e5a246e21635ca064.jpg",
+        "title": "Histologic Findings of Microscopic Colitis",
+        "short_title": "stem Histologic Findings of Microscopic Colitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 636
+      },
+      {
+        "figure_id": "gifig24608",
+        "file": "figures/gifig24608.bb04da911d11dde56b924522f00f0ad6.jpg",
+        "title": "Histologic Findings of Microscopic Colitis",
+        "short_title": "critique Histologic Findings of Microscopic Colitis",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 636
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.517687-06:00"
 }

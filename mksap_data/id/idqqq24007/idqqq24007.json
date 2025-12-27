@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/23/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 32-year-old man is evaluated for a 2-month history of painless, violaceous skin nodules on the chest, back, and lower extremities. He reports that he has sex with men. Medical history is significant for AIDS, with a CD4 cell count of 54/µL. He is not taking antiretroviral therapy.On physical examination, vital signs are normal. Several nodules are seen in the mouth during oral examination (shown).",
   "question_stem": "Which of the following is the most likely cause of these findings?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient has Kaposi sarcoma caused by human herpes virus type 8 (Option D). It is found primarily in patients with AIDS, particularly among men who have sex with men. This patient's clinical presentation is typical for Kaposi sarcoma, with painless violaceous skin nodules with oral mucocutaneous involvement. The cornerstone of treatment for Kaposi sarcoma is antiretroviral therapy (ART) to reconstitute the immune response, including cytotoxic T-cell responses against tumor cells. For more advanced disease, local therapies are given concurrent with ART, including radiation therapy, intralesional chemotherapy, cryotherapy, and topical retinoids. Systemic chemotherapy is given in the event of visceral, extensive, or unresponsive mucocutaneous disease.Cytomegalovirus (Option A) infections are most commonly asymptomatic but can also present acutely with a mononucleosis-like syndrome; it may also reactivate in patients with cellular immunodeficiency, including advanced HIV or following solid organ or bone marrow transplantation. Cytomegalovirus typically presents with retinitis (most common manifestation in patients with AIDS), pneumonitis, hepatitis, pancytopenia, gastritis, or enterocolitis; it does not cause skin nodules.Epstein-Barr virus (EBV) (Option B) is the main cause of infectious mononucleosis, which presents with fever, exudative pharyngitis, cervical lymphadenopathy, and splenomegaly; violaceous skin lesions are not an expected manifestation. EBV reactivation in the setting of advanced immunosuppression is associated with the development of T-cell and B-cell lymphomas, Hodgkin and Burkitt lymphomas, nasopharyngeal carcinoma, and posttransplant lymphoproliferative disease following solid organ transplantation.Human herpes virus type 6 (Option C) causes roseola infantum, febrile seizures in children, and cytomegalovirus-seronegative and EBV-seronegative mononucleosis. It does not cause skin nodules. Recipients of bone marrow transplant may also develop encephalitis, hepatitis, pneumonia, rash, graft-versus-host disease, and delayed engraftment.",
+  "critique_links": [],
   "key_points": [
     "Kaposi sarcoma can develop in patients with AIDS infected with human herpes virus type 8, presenting with painless violaceous skin nodules with oral mucocutaneous involvement."
   ],
@@ -57,5 +58,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-23T14:10:29.239033-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "idfig24500",
+        "file": "figures/idfig24500.93f8a3b0daab1067930565a69d7de72a.jpg",
+        "title": "Mucosal Nodules of Kaposi Sarcoma",
+        "short_title": "Kaposi Sarcoma",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 598
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.598837-06:00"
 }

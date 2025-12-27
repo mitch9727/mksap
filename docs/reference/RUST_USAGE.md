@@ -307,7 +307,8 @@ After text extraction is complete, build and run the separate media extractor:
 ```bash
 cd ../media_extractor
 cargo build --release
-./target/release/media-extractor --all --data-dir ../mksap_data
+./target/release/media-extractor discover --discovery-file media_discovery.json
+./target/release/media-extractor download --all --data-dir ../mksap_data --discovery-file media_discovery.json
 ```
 
 This pass re-fetches question JSON, discovers `contentIds`, downloads figure/table assets, and updates each question's `media` field.
@@ -315,14 +316,15 @@ This pass re-fetches question JSON, discovers `contentIds`, downloads figure/tab
 Media extractor arguments:
 
 ```bash
-./target/release/media-extractor --all --data-dir /path/to/mksap_data
-./target/release/media-extractor cvmcq24001 --data-dir /path/to/mksap_data
+./target/release/media-extractor discover --discovery-file media_discovery.json
+./target/release/media-extractor download --all --data-dir /path/to/mksap_data --discovery-file media_discovery.json
+./target/release/media-extractor download --question-id cvmcq24001 --data-dir /path/to/mksap_data --discovery-file media_discovery.json
 ```
 
 Environment:
 
 ```bash
-MKSAP_SESSION=... ./target/release/media-extractor
+MKSAP_SESSION=... ./target/release/media-extractor download --all --data-dir ../mksap_data --discovery-file media_discovery.json
 # Overrides the default session cookie used for API requests
 ```
 

@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 63-year-old man is evaluated after a loss of consciousness. He was in his recliner when his wife noticed him suddenly lose consciousness. He was unresponsive for 1 minute and became fully conscious quickly upon awakening. He reports no prodrome and awoke unclear as to what had happened. His wife noted no abnormal movements during the event. He reports no previous similar episodes, chest pain, or dyspnea. He has type 2 diabetes mellitus, hypertension, and dyslipidemia. Medications are metformin, lisinopril, amlodipine, and simvastatin.On physical examination, vital signs, including orthostatic measurements, are normal. Cardiac examination reveals no murmur or extra sounds. The remainder of the examination is normal.Hemoglobin and serum troponin levels are normal.ECG is shown.",
   "question_stem": "Which of the following is the most appropriate next step in evaluation?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Transthoracic echocardiography (TTE) (Option D) is the most appropriate test for this patient with syncope and high-risk clinical features. For all patients who present with a transient loss of consciousness consistent with syncope, the history and physical examination are the initial key steps in determining the underlying cause. Specific attention should be paid to high-risk features (see Table: High-Risk Clinical Characteristics in the Patient With Syncope), the presence of which should prompt consideration of hospitalization, as well as factors that increase the likelihood of a cardiac cause (see Table: Characteristics Associated With Cardiac and Noncardiac Syncope). Initial diagnostic testing should also include measurement of orthostatic vital signs and ECG. TTE is indicated in patients with a possible cardiac cause to detect suspected structural heart disease, which increases the likelihood of cardiac syncope and arrhythmia. This patient has multiple factors suggesting a cardiac cause, including male sex, age older than 60 years, an abnormal ECG suggesting left ventricular hypertrophy, and onset of syncope without prodrome and while supine. Given the likelihood of underlying structural heart disease, he should undergo TTE. In addition, ambulatory ECG monitoring (or inpatient telemetry) should be considered.Along with brain imaging, electroencephalography (EEG) (Option A) is a key component of the evaluation of patients with new-onset or suspected seizures. Unless concern exists for a seizure rather than syncope or significant head trauma as a result of the syncope, brain imaging and/or EEG have no role in the evaluation of syncope. This patient has nothing in his presentation that suggests a seizure as the cause of his loss of consciousness, such as witnessed abnormal posturing, involuntary head turning, and tongue laceration.Urgent invasive coronary angiography (Option B) is indicated in patients with ST-elevation myocardial infarction and many with high-risk non–ST-elevation acute coronary syndrome. Although this patient has an abnormal ECG with ST-T wave changes, this likely represents repolarization abnormalities secondary to left ventricular hypertrophy rather than ongoing myocardial ischemia. Invasive coronary angiography is not indicated.Tilt-table testing (Option C) may occasionally be useful as further testing for suspected vasovagal syncope in which there is diagnostic uncertainty or recurrent events. It may also be helpful in some patients with suspected autonomic disease. However, it is not appropriate testing for this patient with suspected cardiac syncope.",
+  "critique_links": [],
   "key_points": [
     "High-risk historical features in patients with syncope include promontory chest discomfort or palpitations and onset during exertion or in the supine position.",
     "In patients with syncope, echocardiography is indicated when structural heart disease is suspected, including valvular disease, hypertrophic cardiomyopathy, and reduced left ventricular function."
@@ -51,10 +52,59 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
-    "images": [],
+    "tables": [
+      "tables/cstab24007.html",
+      "tables/cstab24006.html"
+    ],
+    "images": [
+      "figures/csfig24201.2be577519f5272323bc866c0d957993c.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T01:01:45.791735-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "csfig24201",
+        "file": "figures/csfig24201.2be577519f5272323bc866c0d957993c.jpg",
+        "title": "ECG in a patient with syncope and high-risk clinical features",
+        "short_title": "stem ECG in a patient with syncope",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 492
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "cstab24007",
+        "file": "tables/cstab24007.html",
+        "title": "High-Risk Clinical Characteristics in the Patient With Syncope<sup>a</sup>",
+        "short_title": "High-Risk Clinical Characteristics in the Patient With Syncope",
+        "footnotes": [
+          "QTc = corrected QT interval.",
+          "<sup>a</sup>A patient is considered at high cardiac risk if any of the listed risk factors are present.",
+          "Information from Costantino G, Sun BC, Barbic F, et al. Syncope clinical management in the emergency department: a consensus from the first international workshop on syncope risk stratification in the emergency department. Eur Heart J. 2016;37:1493-1498. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/26242712\" target=\"_blank\">PMID: 26242712</a> doi:10.1093/eurheartj/ehv378"
+        ],
+        "headers": []
+      },
+      {
+        "table_id": "cstab24006",
+        "file": "tables/cstab24006.html",
+        "title": "Historical Characteristics Associated With Increased Probability of Cardiac and Noncardiac Causes of Syncope",
+        "short_title": "Characteristics Associated With Cardiac and Noncardiac Syncope",
+        "footnotes": [
+          "Reproduced with permission from Shen WK, Sheldon RS, Benditt DG, et al. 2017 ACC/AHA/HRS guideline for the evaluation and management of patients with syncope: executive summary: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. Circulation. 2017;136:e32. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/28280232\" target=\"_blank\">PMID: 28280232</a> doi:10.1161/CIR.0000000000000498. © 2017, American Heart Association, Inc."
+        ],
+        "headers": [
+          "More Often Associated With Cardiac Causes of Syncope",
+          "More Often Associated With Noncardiac Causes of Syncope"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:28.051867-06:00"
 }

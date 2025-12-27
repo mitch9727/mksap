@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 22-year-old man is evaluated at an urgent care center for left shoulder pain after falling on ice. Medical history is significant for hearing loss and several wrist and ankle fractures. The fractures primarily occurred before adolescence; his last fracture was 10 years ago. He takes no medications. Family history is unknown because the patient is adopted.On physical examination, vital signs are normal. The patient is of short stature. He is wearing hearing aids. He has severe left upper arm pain and swelling.A radiograph reveals a displaced fracture of the proximal left humerus. The bones appear demineralized.",
+  "question_text": "A 22-year-old man is evaluated at an urgent care center for left shoulder pain after falling on ice. Medical history is significant for hearing loss and several wrist and ankle fractures. The fractures primarily occurred before adolescence; his last fracture was 10 years ago. He takes no medications. Family history is unknown because the patient is adopted.On physical examination, vital signs are normal. The patient is of short stature. He is wearing hearing aids. He has severe left upper arm pain and swelling.Laboratory studies:Alkaline phosphatase63 U/LCalcium9.7 mg/dL (2.4 mmol/L)Phosphorus3.7 mg/dL (1.2 mmol/L)A radiograph reveals a displaced fracture of the proximal left humerus. The bones appear demineralized.",
   "question_stem": "Which of the following is the most likely underlying diagnosis?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely diagnosis is osteogenesis imperfecta (Option B). Osteogenesis imperfecta encompasses a spectrum of abnormalities in type I collagen leading to varying degrees of bone fragility, skeletal deformity, and short stature. Other connective tissue manifestations include dental disease, hearing loss, and joint hypermobility. Patients may also have blue- or gray-tinted sclera. Although low bone mass is a lifelong feature of the disease, the frequency and severity of fractures in osteogenesis imperfecta varies throughout the patient's life because of nonskeletal factors, most notably the extent to which persons avoid trauma, such as falls. Milder forms of osteogenesis imperfecta may be diagnosed with genetic testing in younger adults with unexplained low bone density leading to fragility fractures such as those more commonly seen in older adults with osteoporosis. Osteogenesis imperfecta is the most likely diagnosis in this patient with recurrent skeletal fragility, short stature, and premature hearing loss.Abnormal dental development, hearing impairment, reduced linear growth, and fractures are also features of hypophosphatasia (Option A), a rare genetic disease that results in reduced levels and activity of tissue-nonspecific alkaline phosphatase. Phenotypic heterogeneity within affected families is such that low bone mass and fractures in middle age may be the only manifestation of the disease in some patients. This patient's normal serum alkaline phosphatase level rules out a diagnosis of hypophosphatasia.Bones that appear “demineralized” or are radiographically “osteopenic” are consistent with, but not diagnostic of, osteomalacia (Option C), which is usually caused by chronic, severe vitamin D deficiency. Osteomalacia is associated with bone pain and biochemical evidence of abnormal mineral metabolism, including low or low-normal serum calcium and phosphorus levels and elevated serum alkaline phosphatase levels, especially in the context of chronic malnutrition or malabsorption. This patient's laboratory findings are not suggestive of osteomalacia.Tissue resistance to parathyroid hormone (PTH) (pseudohypoparathyroidism) (Option D) can be widespread or limited. When PTH resistance is limited to the kidney, bone loss can occur when low serum calcium levels and high serum phosphorus levels cause a chronically elevated serum PTH level. This patient's normal calcium and phosphorus levels do not support the diagnosis of PTH resistance.",
+  "critique_links": [],
   "key_points": [
     "Osteogenesis imperfecta encompasses a spectrum of abnormalities in type I collagen leading to varying degrees of bone fragility, skeletal deformity, and short stature.",
     "Younger adults with unexplained low bone density and fragility fractures may have a milder form of osteogenesis imperfecta, which can be diagnosed with genetic testing."
@@ -58,5 +59,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:39.950938-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.179752-06:00"
 }

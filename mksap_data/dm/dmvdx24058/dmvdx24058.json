@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 38-year-old patient presents with 1 day of swelling, redness, and intense pulsing pain in the left hallux proximal nailfold, as shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "Acute paronychia (Option A) is a bacterial infection of the nailfold. It develops rapidly, often over the course of hours, and typically results in intense, throbbing pain. Clinically, redness, swelling, severe tenderness, and pus may be seen. In many cases, treatment with frequent soaking and topical antibiotics is adequate, but abscess formation requires incision and drainage to prevent destructive spread to deeper structures. The contents of the abscess are often under intense pressure, and draining the abscess typically results in rapid pain relief.",
+  "critique_links": [],
   "key_points": [],
   "references": "",
   "related_content": {
@@ -49,9 +50,29 @@
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/dmfig24668.47a5466b444fe536730187a6036b1958.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:47:48.937477-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "dmfig24668",
+        "file": "figures/dmfig24668.47a5466b444fe536730187a6036b1958.jpg",
+        "title": "Acute Paronychia",
+        "short_title": "stem Acute Paronychia",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 674
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.480721-06:00"
 }

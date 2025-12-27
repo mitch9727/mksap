@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 58-year-old woman is evaluated in the emergency department for fever and a runny nose of 4 days' duration; today, she developed a rash that began on her face and has spread to her neck and upper trunk. She returned from Southeast Asia 5 days ago where she traveled to rural areas where cases of measles were identified. She thinks she received a single dose of the measles, mumps, and rubella vaccine as a child. She did not seek preventive care before travel. She takes no medications.On physical examination, temperature is 39.5 °C (103.1 °F); remaining vital signs are normal. A rash that appears along the hairline, on the face, and on the upper trunk is shown.Polymerase chain reaction of a throat swab for measles is pending.",
   "question_stem": "Which of the following precautions is the most appropriate?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient likely has measles, and airborne precautions (Option A) should be initiated immediately on suspicion of the diagnosis. The virus is primarily transmitted through aerosolized small droplet nuclei (airborne transmission). If the patient cannot be placed immediately in an airborne infection isolation room (i.e., negative-pressure room), the patient should be masked in a room with the door closed. Measles is highly infectious and can be spread from 4 days before onset of the rash to 4 days after onset. Up to 9 of 10 susceptible persons with close contact to an individual with measles will become infected. Two doses of the measles, mumps, and rubella (MMR) vaccine are about 97% effective at protecting against measles. For international travelers who have not been previously immunized or have no evidence of immunity, two doses of the MMR vaccine should be given 28 days apart; ideally, patients should be fully vaccinated at least 2 weeks before international travel. If two doses are not possible, receiving the first dose before departure provides about 93% protection. If a patient has had one dose of MMR earlier in life, a second dose at least 2 weeks before departure is indicated. Because this patient was not fully immunized, she was susceptible to becoming infected when exposed to the virus.Contact precautions (Option B) are indicated with organisms that are transmitted by direct or indirect contact and would not be appropriate for a patient with measles. Although contact precautions are used for some viral illnesses (e.g., respiratory syncytial virus, human metapneumovirus, norovirus), these precautions are mostly used in cases of multidrug-resistant bacterial and Clostridioides difficile infections.Contact and droplet precautions (Option C) are used in conjunction for adenovirus infections and group A streptococcal skin or wound infections. These precautions would not be appropriate for this patient.Droplet precautions (Option D) are indicated for organisms transmitted by large droplet nuclei (rather than small droplet, as in measles), so they would not be appropriate for this patient. Droplet precautions are appropriate for a myriad of viral and bacterial infections, including influenza A and B, mumps, rubella, rhinoviral respiratory infections, parvovirus B19, pertussis, Neisseria meningitidis (invasive infections until after 24 hours of effective treatment), and group A streptococcal pneumonia.",
+  "critique_links": [],
   "key_points": [
     "Airborne precautions should be initiated promptly for all patients suspected of having measles.",
     "Two doses of the measles, mumps, and rubella vaccine are approximately 97% effective at protecting against measles infection."
@@ -58,5 +59,23 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T19:46:43.751301-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "idfig24200",
+        "file": "figures/idfig24200.3e603e1e5ef96785c5717edc237d28ac.jpg",
+        "title": "Patient with Measles",
+        "short_title": "Patient with Measles",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 614,
+        "height": 572
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:29.342880-06:00"
 }

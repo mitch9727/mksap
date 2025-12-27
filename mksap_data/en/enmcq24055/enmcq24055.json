@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 23-year-old woman is evaluated for a recently discovered pituitary tumor, which was found during an evaluation for a 6-month history of amenorrhea and galactorrhea. She uses barrier contraception and has no plans for pregnancy. She has no other medical problems and takes no medications.Physical examination findings, including vital signs, are normal. Visual field testing is normal.Insulin-like growth factor-1 level is normal. Urine pregnancy test is negative.MRI shows a 1.4-cm pituitary tumor abutting the optic chiasm.",
+  "question_text": "A 23-year-old woman is evaluated for a recently discovered pituitary tumor, which was found during an evaluation for a 6-month history of amenorrhea and galactorrhea. She uses barrier contraception and has no plans for pregnancy. She has no other medical problems and takes no medications.Physical examination findings, including vital signs, are normal. Visual field testing is normal.Laboratory studies:8 am cortisol 18 μg/dL (496.8 nmol/L)Follicle-stimulating hormone3 mU/mL (3 U/L)LLuteinizing hormone1 mU/mL (1 U/L)LProlactin400 ng/mL (400 μg/L)HThyroid-stimulating hormone1.5 µU/mL (1.5 mU/L)Free thyroxine1.6 ng/dL (20.6 pmol/L)Insulin-like growth factor-1 level is normal. Urine pregnancy test is negative.MRI shows a 1.4-cm pituitary tumor abutting the optic chiasm.",
   "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management for this patient with a prolactin-secreting macroadenoma (macroprolactinoma) is to start cabergoline (Option C). Dopamine agonist therapy is very effective for treating prolactinomas. It lowers prolactin levels, reduces tumor size, and will often restore menses. Cabergoline is preferred over bromocriptine because it is more effective in decreasing prolactin levels and tumor size and is often better tolerated. In patients starting cabergoline therapy for prolactinoma, serum prolactin level should be remeasured 4 weeks after therapy begins and then every 3 to 4 months once stable. A repeat MRI is typically performed 3 months after treatment initiation to ensure the tumor is decreasing in size. In the case of compressive symptoms, MRI may be repeated sooner to confirm decompression of the optic chiasm. Subsequent imaging may occur in 6- to 12-month intervals until the tumor is stable. If the prolactin level rises during dopamine agonist treatment, imaging should be repeated. This patient has a macroprolactinoma and should be treated with cabergoline. Notably, she should also be advised that pregnancy increases the risk for macroprolactinoma growth; if pregnancy is eventually desired, surgical debulking before pregnancy or medication adjustment (bromocriptine is preferred during pregnancy) may be needed.Referral for neurosurgery (Option A) is not needed for this patient. Neurosurgery is typically not required for prolactinomas except in patients with macroadenomas (≥1 cm) who cannot tolerate dopamine agonist therapy or in women with macroprolactinomas requiring debulking before pregnancy. Because this patient is not planning pregnancy, consultation for neurosurgery is not required.Starting a combined oral contraceptive pill (Option B) would not be the most appropriate management. Combined oral contraceptive pills are an appropriate option for a patient with a microprolactinoma who does not desire pregnancy because the major concern is estradiol deficiency and amenorrhea rather than structural compressive symptoms. However, for a macroprolactinoma, dopamine agonist therapy is the most appropriate treatment to reduce tumor size and restore estradiol production.Somatostatin analogues, such as octreotide (Option D), are not the appropriate treatment for a prolactinoma. They are primarily used to treat growth hormone–secreting tumors.",
+  "critique_links": [],
   "key_points": [
     "In patients with prolactinoma, dopamine agonist therapy can lower prolactin levels and reduce tumor size and will often restore gonadal function; cabergoline is preferred over bromocriptine as it is more effective in controlling prolactin levels and tumor size and is often better tolerated."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T22:59:46.577227-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.221588-06:00"
 }

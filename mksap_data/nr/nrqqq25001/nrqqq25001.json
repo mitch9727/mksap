@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 21-year-old man is evaluated in the emergency department for persistent convulsive status epilepticus that began 30 minutes before arrival. Upon arrival, his airway was secured, and he received thiamine, intravenous glucose, and lorazepam. The patient continues to shake 5 minutes after receiving a second dose of lorazepam. Medical history is relevant for epilepsy diagnosed 8 years ago. His only medication is levetiracetam. He is allergic to phenytoin.On physical examination, temperature and blood pressure are normal, and respiration rate is 16/min. The pupils are reactive, but the patient remains comatose.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "This patient is in generalized convulsive status epilepticus (CSE) and should now receive intravenous valproate (Option D). CSE, a medical emergency that can lead to significant morbidity and mortality, is defined as a generalized tonic-clonic seizure (GTCS) lasting more than 5 minutes or two such seizures within 5 minutes without return to baseline in between. Initial CSE management requires rapidly assessing airways, breathing, circulation, and the blood glucose level. These steps should be performed simultaneously with initiation of drug treatment. According to an American Epilepsy Society guideline, intramuscular midazolam, intravenous lorazepam, and intravenous diazepam are the first-line agents for the initial treatment of CSE and have been judged to be equivalent. If CSE has not ceased after one dose of midazolam or two doses of lorazepam or diazepam, second-line therapy is initiated. Fosphenytoin (Option C), a prodrug of phenytoin, is preferred over phenytoin because it can be administered faster and does not carry the risk for thrombophlebitis or skin necrosis that is associated with phenytoin extravasation. Valproate, levetiracetam, and lacosamide are alternatives to phenytoin or fosphenytoin, particularly in patients who are allergic to phenytoin or have primary generalized epilepsy. This patient continues to have CSE 5 minutes after a second dose of lorazepam and requires second-line therapy. He is allergic to phenytoin; therefore, he should receive valproate.CSE is usually diagnosed clinically. Obtaining a brain MRI (Option A) is an unnecessary, time-consuming process and would delay treatment. Once CSE is controlled, imaging with head CT or brain MRI may be considered. Similarly, electroencephalography (Option B) could eventually be considered but should not delay treatment; it would not be appropriate to obtain at this point.",
+  "critique_links": [],
   "key_points": [
     "According to American Epilepsy Society guidelines, valproate, levetiracetam, and lacosamide are appropriate second-line therapy for convulsive status epilepticus for patients allergic to phenytoin."
   ],
@@ -55,5 +56,6 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T09:50:05.451865-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-27T00:29:31.461180-06:00"
 }

@@ -6,9 +6,9 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/22/2025"
+    "question_updated": "12/27/2025"
   },
-  "question_text": "A 45-year-old woman is evaluated after being diagnosed with a kidney stone in the emergency department 1 week ago. She passed the kidney stone but was unable to collect the stone for analysis. Medical history is significant for Sjögren disease and seizure disorder. Medications are artificial tears and topiramate.On physical examination, vital signs are normal. Other than dry oral mucosa, the examination is normal.",
+  "question_text": "A 45-year-old woman is evaluated after being diagnosed with a kidney stone in the emergency department 1 week ago. She passed the kidney stone but was unable to collect the stone for analysis. Medical history is significant for Sjögren disease and seizure disorder. Medications are artificial tears and topiramate.On physical examination, vital signs are normal. Other than dry oral mucosa, the examination is normal.Laboratory studies:Creatinine0.9 mg/dL (79.6 µmol/L)ElectrolytesSodium137 mEq/L (137 mmol/L)Potassium3.4 mEq/L (3.4 mmol/L)LChloride114 mEq/L (114 mmol/L)HBicarbonate12 mEq/L (12 mmol/L)LAnion gap9.0 mEq/L (9.0 mmol/L)UrinalysisSpecific gravity 1.010; pH 7.3; no blood, leukocyte esterase, or nitrites",
   "question_stem": "Which of the following is the most likely composition of this patient's kidney stone?",
   "options": [
     {
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most likely composition of this patient's kidney stone is calcium phosphate (Option A). Seventy percent to 80% of kidney stones contain calcium; most are composed of calcium oxalate (70%-80%), and the remainder are composed of calcium phosphate or a combination of the two. Calcium phosphate stones occur when the urine pH is persistently elevated (>6.0-6.5) and are associated with distal renal tubular acidosis (RTA), hyperparathyroidism, and carbonic anhydrase inhibitors that increase urine pH, such as acetazolamide and topiramate. Sjögren disease is associated with the development of type 1 (hypokalemic distal) RTA, which is likely present in this patient (normal anion gap metabolic acidosis, urine pH >5.5, and hypokalemia). Patients with distal RTA develop low citrate levels (owing to increased resorption in the proximal tubule) in the urine, an additional risk factor for kidney stone formation. In addition, topiramate is likely contributing to this patient's elevated urinary pH. Because of this patient's multiple associated risk factors, calcium phosphate stones are most likely. Urine microscopy to assess for the presence of crystals may provide additional clues to stone composition; calcium phosphate stones are associated with star-like clumps.Cystine stones (Option B) develop in patients with cystinuria, which is a rare autosomal recessive genetic disorder causing less than 2% of kidney stones. Typically, patients with this condition have their first kidney stone in childhood. This patient's presentation is not consistent with cystine stones.Struvite stones (Option C) occur in the presence of urea-splitting bacteria such as Proteus, Klebsiella, or Pseudomonas species. These bacteria split urea into ammonium, which increases urine pH and causes precipitation of magnesium ammonium phosphate (struvite); the pH of the urine will be >7.5. Struvite stones occur most frequently in older women with chronic urinary tract infections. This patient has a urine pH <7.5 and no current or previous urinary tract infection.Uric acid stones (Option D) account for 5% to 10% of all stones and develop in the presence of a persistently acidic urine (low urine pH), which decreases the solubility of uric acid. Although these kinds of stones are more likely in patients with gout and hyperuricemia, this patient's urine pH is 7.3; a uric acid stone is therefore unlikely.",
+  "critique_links": [],
   "key_points": [
     "Calcium phosphate kidney stones occur when the urine pH is persistently elevated (>6.0-6.5) and are associated with distal renal tubular acidosis; hyperparathyroidism; carbonic anhydrase inhibitors that increase urine pH, such as acetazolamide; and topiramate."
   ],
@@ -57,5 +58,20 @@
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-22T20:06:46.646080-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:30.712824-06:00"
 }

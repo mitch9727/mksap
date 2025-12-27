@@ -6,7 +6,7 @@
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/26/2025"
+    "question_updated": "12/27/2025"
   },
   "question_text": "A 45-year-old patient is evaluated during a follow-up visit for elevated blood pressure. One month ago, their blood pressure in the office was 135/85 mm Hg and they were asked to monitor their blood pressure at home. Today, review of home blood pressure readings shows systolic ranges from 129 to 134 mm Hg and diastolic ranges from 78 to 84 mm Hg. The patient does not exercise regularly, has a sedentary job, and follows no specific diet. They have no other known medical problems and take no medications.On physical examination, blood pressure is 136/82 mm Hg and other vital signs are normal. BMI is 29. The remainder of the examination is unremarkable.A basic metabolic panel, thyroid-stimulating hormone level, and an ECG are normal.The patient's 10-year atherosclerotic cardiovascular disease risk score is 7.5%.Lifestyle modifications, including dietary changes and increased physical activity, are recommended.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -39,6 +39,7 @@
     "time_taken": null
   },
   "critique": "The most appropriate management is a blood pressure check in 3 months (Option C). The U.S. Preventive Services Task Force (USPSTF) recommends screening all adults for hypertension beginning at age 18 years (grade A). Screening should occur annually in adults aged 40 years or older and in younger adults at increased risk. Screening can otherwise occur at 3- to 5-year intervals. Several serial measurements in various settings improve the predictive value of screening. When possible, and in the absence of severe hypertension or end-organ damage, the diagnosis should be confirmed with blood pressure measurements outside the clinical setting, such as with ambulatory or home blood pressure monitoring. The American College of Cardiology and American Heart Association recommend nonpharmacologic therapy and repeat blood pressure evaluation in 3 to 6 months for adults with stage 1 hypertension (130-139/80-89 mm Hg) and an estimated 10-year atherosclerotic cardiovascular disease (ASCVD) risk of less than 10%, such as this patient (see Table: Blood Pressure Categories and Recommendations).Ambulatory blood pressure monitoring (Option A) may be helpful to confirm a diagnosis of hypertension. However, this patient has had at least two elevated blood pressure readings, documented on different days and in different environments (home and office), and meets criteria for stage 1 hypertension. No additional blood pressure measurements are needed to make the diagnosis.For patients with stage 1 hypertension, such as this patient, pharmacologic therapy (e.g., amlodipine) (Option B) can be started if blood pressure remains elevated after 3 to 6 months of nonpharmacologic therapy. Given this patient's new diagnosis, ASCVD risk score less than 10%, and lack of evidence of end-organ disease, nonpharmacologic therapy should be initiated first.The USPSTF recommends referral for (or initiation of) intensive weight loss interventions (Option D) for adults with a BMI of 30 or higher (grade B). This patient with a BMI of 29 does not require weight loss interventions beyond the diet and exercise recommendations.",
+  "critique_links": [],
   "key_points": [
     "The U.S. Preventive Services Task Force recommends screening all adults for hypertension beginning at age 18 years; screening should occur annually in adults aged 40 years or older and in younger adults at increased risk.",
     "Adults with stage 1 hypertension who have an estimated 10-year atherosclerotic cardiovascular disease risk of less than 10% should be managed with nonpharmacologic therapy and have a repeat blood pressure evaluation in 3 to 6 months."
@@ -51,10 +52,34 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/nptab24019.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "extracted_at": "2025-12-26T11:31:33.875062-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nptab24019",
+        "file": "tables/nptab24019.html",
+        "title": "American College of Cardiology/American Heart Association Blood Pressure Categories and Recommendations",
+        "short_title": "Blood Pressure Categories and Recommendations",
+        "footnotes": [
+          "ASCVD = atherosclerotic cardiovascular disease; BP = blood pressure; CVD = cardiovascular disease.",
+          "Data from Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: A report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. Hypertension. 2018;71:e13-e115. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/29133356\" target=\"_blank\">PMID: 29133356</a> doi:10.1161/HYP.0000000000000065"
+        ],
+        "headers": [
+          "Category",
+          "Readings",
+          "Recommendations"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:27.567467-06:00"
 }

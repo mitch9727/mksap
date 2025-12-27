@@ -23,10 +23,10 @@
   `extractor/src/browser.rs` (interactive fallback).
 - Data model + parsing: `extractor/src/models.rs` (includes critique link extraction).
 - Media pipeline (integrated):
-  - `extractor/src/media/discovery/` (API discovery + statistics)
+  - `extractor/src/media/discovery.rs` + `extractor/src/media/discovery_statistics.rs` (API discovery + statistics)
   - `extractor/src/media/download.rs` + `extractor/src/media/api.rs` (figure/table downloads)
-  - `extractor/src/media/browser.rs` + `extractor/src/media/browser_download.rs` +
-    `extractor/src/media/browser_media/*.rs` (SVG browser automation; videos manual)
+  - `extractor/src/media/browser.rs` + `extractor/src/media/browser_download.rs`
+    (SVG browser automation; videos manual)
   - `extractor/src/media/file_store.rs` + `extractor/src/media/render.rs` (JSON/media updates)
   - `extractor/src/media/session.rs` (session cookie helpers)
 
@@ -43,9 +43,9 @@
 - Content ID extraction and type checks duplicated between
   `extractor/src/media/media_ids.rs` and `extractor/src/media/download.rs`,
   plus inline table detection logic duplicated between
-  `extractor/src/media/discovery/mod.rs` and `extractor/src/media/download.rs`.
+  `extractor/src/media/discovery.rs` and `extractor/src/media/download.rs`.
 - Content metadata fetchers duplicated:
-  `load_figure_metadata` exists in both `extractor/src/media/discovery/mod.rs`
+  `load_figure_metadata` exists in both `extractor/src/media/discovery.rs`
   and `extractor/src/media/download.rs`; similar patterns in
   `extractor/src/media/browser_download.rs` for SVGs.
 - Media update merging in `extractor/src/media/file_store.rs` overlaps with the

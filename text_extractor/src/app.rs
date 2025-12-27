@@ -1,6 +1,10 @@
 use anyhow::Result;
 use std::env;
+use std::fs;
+use std::path::Path;
 use tracing::{error, info};
+
+use media_extractor::{browser_download, discovery, download as media_download};
 
 use crate::{
     authenticate_extractor, build_categories_from_config, count_discovered_ids, inspect_api,
@@ -32,13 +36,14 @@ pub async fn run(args: Vec<String>) -> Result<()> {
 
     let command = Command::parse(&args);
     let session_cookie = env::var("MKSAP_SESSION").unwrap_or_default();
+    let base_url = resolve_media_base_url(&args);
 
-    if handle_standalone_command(command, &args, &session_cookie).await? {
+    if handle_standalone_command(command, &args, &session_cookie, &base_url).await? {
         return Ok(());
     }
 
     let categories = build_categories_from_config();
-    let mut extractor = MKSAPExtractor::new(BASE_URL, OUTPUT_DIR)?;
+    let mut extractor = MKSAPExtractor::new(&base_url, OUTPUT_DIR)?;
     extractor = extractor.with_session_cookie(&session_cookie);
 
     if command.requires_auth() {
@@ -65,6 +70,30 @@ pub async fn run(args: Vec<String>) -> Result<()> {
                 options.refresh_existing,
             )
             .await?;
+        }
+        Command::MediaDiscover => {
+            run_media_discovery(&args).await?;
+        }
+        Command::MediaDownload => {
+            run_media_download(&args).await?;
+        }
+        Command::MediaBrowser => {
+            run_media_browser(&args).await?;
+        }
+        Command::ExtractAll => {
+            let options = parse_run_options(&args);
+            run_extraction(
+                &extractor,
+                &categories,
+                OUTPUT_DIR,
+                options.refresh_existing,
+            )
+            .await?;
+            run_media_discovery(&args).await?;
+            run_media_download(&args).await?;
+            if has_flag(&args, "--with-browser") {
+                run_media_browser(&args).await?;
+            }
         }
         _ => {}
     }
@@ -108,6 +137,7 @@ pub async fn handle_standalone_command(
     command: Command,
     args: &[String],
     session_cookie: &str,
+    base_url: &str,
 ) -> Result<bool> {
     match command {
         Command::Validate => {
@@ -127,7 +157,7 @@ pub async fn handle_standalone_command(
         }
         Command::CleanupRetired => {
             info!("=== CLEANING UP RETIRED QUESTIONS ===");
-            let mut extractor = MKSAPExtractor::new(BASE_URL, OUTPUT_DIR)?;
+            let mut extractor = MKSAPExtractor::new(base_url, OUTPUT_DIR)?;
             extractor = extractor.with_session_cookie(session_cookie);
             let moved = extractor.cleanup_retired_questions().await?;
             info!(
@@ -138,7 +168,7 @@ pub async fn handle_standalone_command(
         }
         Command::CleanupFlat => {
             info!("=== CLEANING UP FLAT DUPLICATE JSON FILES ===");
-            let extractor = MKSAPExtractor::new(BASE_URL, OUTPUT_DIR)?;
+            let extractor = MKSAPExtractor::new(base_url, OUTPUT_DIR)?;
             let deleted = extractor.cleanup_flat_duplicates()?;
             info!("\n✓ Cleanup complete: {} flat duplicates deleted", deleted);
             Ok(true)
@@ -233,4 +263,165 @@ pub async fn run_extraction(
     info!("Output directory: {}", output_dir);
 
     Ok(())
+}
+
+async fn run_media_discovery(args: &[String]) -> Result<()> {
+    info!("Starting media discovery via API");
+    let base_url = resolve_media_base_url(args);
+    let concurrent = resolve_media_concurrency(args);
+    let discovery_file = resolve_media_discovery_file(args);
+
+    info!("Base URL: {}", base_url);
+    info!("Concurrent requests: {}", concurrent);
+    info!("Output file: {}", discovery_file);
+
+    let client = media_extractor::build_client()?;
+    let results = discovery::discover_media_questions(&client, &base_url, concurrent).await?;
+
+    let output_path = Path::new(&discovery_file);
+    if let Some(parent) = output_path.parent() {
+        if !parent.as_os_str().is_empty() {
+            fs::create_dir_all(parent)?;
+        }
+    }
+
+    results.save_to_file(output_path)?;
+    info!("Saved discovery results to {}", discovery_file);
+
+    let report = results.generate_report();
+    let report_path = output_path.with_extension("txt");
+    fs::write(&report_path, &report)?;
+    info!("Saved text report to {}", report_path.display());
+
+    println!("\n{}", report);
+    Ok(())
+}
+
+async fn run_media_download(args: &[String]) -> Result<()> {
+    let base_url = resolve_media_base_url(args);
+    let data_dir = resolve_media_data_dir(args);
+    let discovery_file = resolve_media_discovery_file(args);
+    let question_id = parse_arg_value(args, "--question-id");
+    let all = has_flag(args, "--all");
+    let skip_figures = has_flag(args, "--skip-figures");
+    let skip_tables = has_flag(args, "--skip-tables");
+
+    if !all && question_id.is_none() {
+        info!("No question filter provided; downloading for all discovered questions.");
+    }
+
+    let client = media_extractor::build_client()?;
+    media_download::run_media_download(
+        &client,
+        &base_url,
+        &data_dir,
+        &discovery_file,
+        question_id.as_deref(),
+        !skip_figures,
+        !skip_tables,
+    )
+    .await?;
+
+    info!("Media download completed.");
+    Ok(())
+}
+
+async fn run_media_browser(args: &[String]) -> Result<()> {
+    let base_url = resolve_media_base_url(args);
+    let data_dir = resolve_media_data_dir(args);
+    let discovery_file = resolve_media_discovery_file(args);
+    let question_id = parse_arg_value(args, "--question-id");
+    let all = has_flag(args, "--all");
+    let skip_videos = has_flag(args, "--skip-videos");
+    let skip_svgs = has_flag(args, "--skip-svgs");
+    let webdriver_url = parse_arg_value(args, "--webdriver-url")
+        .unwrap_or_else(|| "http://localhost:9515".to_string());
+    let headless = parse_bool_arg(args, "--headless", true);
+    let interactive_login = parse_bool_arg(args, "--interactive-login", false);
+    let username = parse_arg_value(args, "--username");
+    let password = parse_arg_value(args, "--password");
+    let login_timeout_secs = parse_arg_value(args, "--login-timeout-secs")
+        .and_then(|value| value.parse::<u64>().ok())
+        .unwrap_or(120);
+
+    if !all && question_id.is_none() {
+        info!("No question filter provided; downloading for all video/svg questions.");
+    }
+
+    let client = media_extractor::build_client()?;
+    browser_download::run_browser_download(
+        &client,
+        &base_url,
+        &data_dir,
+        &discovery_file,
+        question_id.as_deref(),
+        !skip_videos,
+        !skip_svgs,
+        &webdriver_url,
+        headless,
+        interactive_login,
+        username,
+        password,
+        login_timeout_secs,
+    )
+    .await?;
+
+    info!("Browser media download completed.");
+    Ok(())
+}
+
+fn resolve_media_base_url(args: &[String]) -> String {
+    parse_arg_value(args, "--base-url").unwrap_or_else(|| BASE_URL.to_string())
+}
+
+fn resolve_media_data_dir(args: &[String]) -> String {
+    parse_arg_value(args, "--data-dir").unwrap_or_else(|| OUTPUT_DIR.to_string())
+}
+
+fn resolve_media_discovery_file(args: &[String]) -> String {
+    parse_arg_value(args, "--discovery-file").unwrap_or_else(|| "media_discovery.json".to_string())
+}
+
+fn resolve_media_concurrency(args: &[String]) -> usize {
+    parse_arg_value(args, "--concurrent-requests")
+        .and_then(|value| value.parse::<usize>().ok())
+        .filter(|value| *value > 0)
+        .unwrap_or(10)
+}
+
+fn parse_arg_value(args: &[String], key: &str) -> Option<String> {
+    let prefix = format!("{}=", key);
+    for (idx, arg) in args.iter().enumerate() {
+        if let Some(value) = arg.strip_prefix(&prefix) {
+            return Some(value.to_string());
+        }
+        if arg == key {
+            if let Some(value) = args.get(idx + 1) {
+                if !value.starts_with('-') {
+                    return Some(value.to_string());
+                }
+            }
+        }
+    }
+    None
+}
+
+fn has_flag(args: &[String], flag: &str) -> bool {
+    args.iter().any(|arg| arg == flag)
+}
+
+fn parse_bool_arg(args: &[String], flag: &str, default: bool) -> bool {
+    if let Some(value) = parse_arg_value(args, flag) {
+        match value.to_ascii_lowercase().as_str() {
+            "true" | "1" | "yes" => return true,
+            "false" | "0" | "no" => return false,
+            _ => return default,
+        }
+    }
+
+    if has_flag(args, flag) {
+        return true;
+    }
+
+    default
 }

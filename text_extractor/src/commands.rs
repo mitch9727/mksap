@@ -8,6 +8,10 @@ pub enum Command {
     RetryMissing,
     ListMissing,
     Standardize,
+    MediaDiscover,
+    MediaDownload,
+    MediaBrowser,
+    ExtractAll,
 }
 
 impl Command {
@@ -20,6 +24,10 @@ impl Command {
             Some("retry-missing") => Command::RetryMissing,
             Some("list-missing") => Command::ListMissing,
             Some("standardize") => Command::Standardize,
+            Some("media-discover") => Command::MediaDiscover,
+            Some("media-download") => Command::MediaDownload,
+            Some("media-browser") => Command::MediaBrowser,
+            Some("extract-all") => Command::ExtractAll,
             _ => Command::Run,
         }
     }
@@ -27,7 +35,13 @@ impl Command {
     pub fn requires_auth(self) -> bool {
         matches!(
             self,
-            Command::Run | Command::RetryMissing | Command::ListMissing
+            Command::Run
+                | Command::RetryMissing
+                | Command::ListMissing
+                | Command::MediaDiscover
+                | Command::MediaDownload
+                | Command::MediaBrowser
+                | Command::ExtractAll
         )
     }
 }

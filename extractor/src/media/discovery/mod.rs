@@ -21,7 +21,9 @@ use super::media_ids::{
     classify_content_id, count_inline_tables, extract_content_ids,
     extract_table_ids_from_tables_content, inline_table_id, ContentIdKind,
 };
-use super::metadata::{extract_html_text, extract_image_info, for_each_metadata_item};
+use super::metadata::{
+    extract_html_text, extract_image_info, for_each_metadata_item, resolve_metadata_id,
+};
 
 // ============================================================================
 // Discovery Configuration
@@ -377,11 +379,7 @@ fn insert_figure_reference(
     fallback_id: Option<&str>,
     figure: &Value,
 ) {
-    let figure_id = figure
-        .get("id")
-        .and_then(|v| v.as_str())
-        .or(fallback_id)
-        .unwrap_or("unknown");
+    let figure_id = resolve_metadata_id(figure, fallback_id);
 
     let image_info = extract_image_info(figure);
     let extension = image_info

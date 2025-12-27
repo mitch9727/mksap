@@ -7,6 +7,14 @@ pub struct ImageInfo {
     pub height: Option<u32>,
 }
 
+pub fn resolve_metadata_id<'a>(value: &'a Value, fallback_id: Option<&'a str>) -> &'a str {
+    value
+        .get("id")
+        .and_then(|v| v.as_str())
+        .or(fallback_id)
+        .unwrap_or("unknown")
+}
+
 pub fn for_each_metadata_item<'a, F>(metadata: &'a Value, key: &str, mut f: F)
 where
     F: FnMut(Option<&'a str>, &'a Value),

@@ -11,7 +11,7 @@ use super::browser::{BrowserOptions, BrowserSession};
 use super::browser_media;
 use super::discovery::{DiscoveryResults, QuestionMedia};
 use super::file_store::{collect_question_entries, update_question_json, MediaUpdate, SvgMetadata};
-use super::metadata::{extract_html_text, for_each_metadata_item};
+use super::metadata::{extract_html_text, for_each_metadata_item, resolve_metadata_id};
 use super::session;
 
 pub async fn run_browser_download(
@@ -309,11 +309,7 @@ fn insert_svg_metadata(
     fallback_id: Option<&str>,
     svg: &Value,
 ) {
-    let svg_id = svg
-        .get("id")
-        .and_then(|v| v.as_str())
-        .or(fallback_id)
-        .unwrap_or("unknown");
+    let svg_id = resolve_metadata_id(svg, fallback_id);
 
     let title = extract_html_text(svg.get("title"));
     let caption = extract_html_text(svg.get("caption"));

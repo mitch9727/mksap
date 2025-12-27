@@ -7,6 +7,15 @@ pub struct ImageInfo {
     pub height: Option<u32>,
 }
 
+#[derive(Clone, Debug)]
+pub struct FigureSnapshot {
+    pub figure_id: String,
+    pub title: Option<String>,
+    pub short_title: Option<String>,
+    pub number: Option<String>,
+    pub image_info: ImageInfo,
+}
+
 pub fn resolve_metadata_id<'a>(value: &'a Value, fallback_id: Option<&'a str>) -> &'a str {
     value
         .get("id")
@@ -63,4 +72,17 @@ pub fn extract_image_info(value: &Value) -> ImageInfo {
             .map(|val| val as u32);
     }
     info
+}
+
+pub fn parse_figure_snapshot(value: &Value, fallback_id: Option<&str>) -> FigureSnapshot {
+    FigureSnapshot {
+        figure_id: resolve_metadata_id(value, fallback_id).to_string(),
+        title: extract_html_text(value.get("title")),
+        short_title: extract_html_text(value.get("shortTitle")),
+        number: value
+            .get("number")
+            .and_then(|val| val.as_str())
+            .map(|val| val.to_string()),
+        image_info: extract_image_info(value),
+    }
 }

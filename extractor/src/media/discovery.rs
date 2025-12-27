@@ -16,9 +16,7 @@ use super::media_ids::{
     classify_content_id, count_inline_tables, extract_content_ids,
     extract_table_ids_from_tables_content, inline_table_id, ContentIdKind,
 };
-use super::metadata::{
-    extract_html_text, extract_image_info, for_each_metadata_item, resolve_metadata_id,
-};
+use super::metadata::{for_each_metadata_item, parse_figure_snapshot};
 use crate::checkpoints::read_all_checkpoint_ids;
 
 // ============================================================================
@@ -353,24 +351,20 @@ fn insert_figure_reference(
     fallback_id: Option<&str>,
     figure: &Value,
 ) {
-    let figure_id = resolve_metadata_id(figure, fallback_id);
-
-    let image_info = extract_image_info(figure);
-    let extension = image_info
+    let snapshot = parse_figure_snapshot(figure, fallback_id);
+    let extension = snapshot
+        .image_info
         .extension
         .unwrap_or_else(|| "unknown".to_string());
-
-    let title = extract_html_text(figure.get("title"));
-
-    let width = image_info.width.unwrap_or(0);
-    let height = image_info.height.unwrap_or(0);
+    let width = snapshot.image_info.width.unwrap_or(0);
+    let height = snapshot.image_info.height.unwrap_or(0);
 
     figures_by_id.insert(
-        figure_id.to_string(),
+        snapshot.figure_id.clone(),
         FigureReference {
-            figure_id: figure_id.to_string(),
+            figure_id: snapshot.figure_id,
             extension,
-            title,
+            title: snapshot.title,
             width,
             height,
         },

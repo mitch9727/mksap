@@ -10,7 +10,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Primary Language**: Rust 2021 Edition with Tokio async runtime
 **Architecture**: Dual-extractor system (text + media post-processing)
-**Extraction Status**: 2,198 questions extracted (98.4% complete)
+**Extraction Status**: 2,198 questions extracted (100% complete - Phase 1 ✅)
 **Validation**: Discovery-based extraction using API HEAD requests
 **Check Progress**: Run `./target/release/mksap-extractor validate` for current metrics
 
@@ -724,18 +724,19 @@ cat mksap_data/validation_report.txt
 
 ### Project Planning
 - **[README.md](docs/project/README.md)** - Project overview and status
-- **[PHASE_1_PLAN.md](docs/project/PHASE_1_PLAN.md)** - Phase 1 execution roadmap
+- **[PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md)** ✅ - Phase 1 results (100% complete)
 - **[PROJECT_ORGANIZATION.md](docs/architecture/PROJECT_ORGANIZATION.md)** - 4-phase pipeline overview
-- **[PROJECT_TODOS.md](docs/project/PROJECT_TODOS.md)** - Master todo list
+- **[EXTRACTION_SCOPE.md](docs/project/EXTRACTION_SCOPE.md)** - Extraction scope definition
 
 ### Reference
-- **[QUESTION_ID_DISCOVERY.md](docs/reference/QUESTION_ID_DISCOVERY.md)** - Understanding question counts
-- **[EXTRACTOR_STATUS.md](docs/reference/EXTRACTOR_STATUS.md)** - Current extraction progress
+- **[QUESTION_ID_DISCOVERY.md](docs/reference/QUESTION_ID_DISCOVERY.md)** - Understanding question discovery (historical)
+- **[EXTRACTION_OVERVIEW.md](docs/reference/EXTRACTION_OVERVIEW.md)** - Extraction implementation overview
 - **[DESERIALIZATION_ISSUES.md](docs/reference/DESERIALIZATION_ISSUES.md)** - API response variations
 
 ### Reports & History
 - **[reports/](docs/project/reports/)** - Extraction summaries and gap analysis
 - **[CHANGELOG.md](docs/project/CHANGELOG.md)** - Documentation changes
+- **[archive/](docs/project/archive/)** - Archived planning documents (Phase 1, completed tasks, planning sessions)
 
 ## Development Workflow
 
@@ -833,10 +834,12 @@ git commit -m "docs: update module organization in CLAUDE.md"
 
 ## Current Status
 
-**Project Phase**: Phase 1 - Data Extraction (100% complete)
+**Project Phase**: Phase 1 Complete ✅ - Phase 2 Ready
+**Completion Date**: December 27, 2025
 **Extraction Method**: Discovery-based API extraction
 **Total Questions**: 2,198 valid questions extracted from 16 system codes (invalidated excluded)
 **Validation Status**: Run `./target/release/mksap-extractor validate` for latest metrics
+**Results**: See [PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md)
 **Next Phase**: Phase 2 - Fact Extraction (LLM-based processing)
 
 **Check Progress**:
@@ -854,6 +857,6 @@ for dir in mksap_data/*/; do echo "$(basename $dir): $(ls $dir | wc -l)"; done
 ---
 
 **Last Updated**: December 27, 2025
-**Project Status**: Active development - Phase 1 (Data Extraction)
+**Project Status**: Phase 1 Complete ✅ - Phase 2 Ready
 **Repository**: git@github.com:mitch9727/mksap.git
-**Extraction Progress**: 2,198 questions (100% complete)
+**Extraction Results**: 2,198 questions (100% complete) - See [PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md)

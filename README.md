@@ -1,14 +1,15 @@
 # MKSAP Question Bank Extractor
 
-> **Last updated: December 26, 2025**
+> **Last updated: December 27, 2025**
 
 System for extracting medical education questions from the ACP MKSAP (Medical Knowledge Self-Assessment Program) online question bank into structured JSON format.
 
 ## Current Status
 
+- **Phase 1 Status**: ✅ **COMPLETE** (December 27, 2025) - All 2,198 valid questions extracted
 - **Primary Tool**: Rust MKSAP Extractor (API-based extraction with discovery validation)
 - **Architecture**: 16 system codes configured (see [config.rs](text_extractor/src/config.rs))
-- **Extraction Progress**: Run `cd text_extractor && ./target/release/mksap-extractor validate` for current metrics
+- **Extraction Results**: See [PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md) for final metrics
 - **Historical Data**: See [docs/project/reports/](docs/project/reports/) for past extraction summaries
 
 ## Quick Start
@@ -60,9 +61,10 @@ MKSAP_SESSION=... ./target/release/media-extractor download --all --data-dir ../
 
 ### Critical - Start Here
 
-- **[PHASE_1_PLAN.md](docs/project/PHASE_1_PLAN.md)** - Complete Phase 1 roadmap
+- **[PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md)** ✅ - Phase 1 results (100% complete)
 - **[Question ID Discovery](docs/reference/QUESTION_ID_DISCOVERY.md)** - Understanding question discovery
 - **[Project Index](docs/project/INDEX.md)** - Navigation guide for all documentation
+- **[PHASE_1_PLAN.md](docs/project/archive/phase-1/PHASE_1_PLAN.md)** - Archived Phase 1 roadmap
 
 ### Getting Started with Extraction
 
@@ -212,13 +214,14 @@ See [Troubleshooting Guide](docs/reference/TROUBLESHOOTING.md) for:
 
 ### Project Status
 
-**Current Phase**: Phase 1 - Data Extraction
+**Current Phase**: Phase 1 Complete ✅ - Phase 2 Ready
+**Completed**: All 2,198 valid questions extracted (December 27, 2025)
 **Architecture**: Discovery-based extraction with API validation
-**Check Progress**: Run `./target/release/mksap-extractor validate`
+**Validation**: Run `./target/release/mksap-extractor validate` for current metrics
 
 The extractor uses API discovery (HTTP HEAD requests) to determine available questions, ensuring metrics reflect current API state rather than outdated baselines.
 
-See [docs/project/README.md](docs/project/README.md) for architecture details and [docs/project/reports/](docs/project/reports/) for historical extraction data.
+See [PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md) for final results, [docs/project/README.md](docs/project/README.md) for architecture details, and [docs/project/reports/](docs/project/reports/) for historical extraction data.
 
 ## License
 

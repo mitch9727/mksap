@@ -66,7 +66,13 @@ async fn main() -> Result<()> {
         }
         Command::Run => {
             let options = parse_run_options(&args);
-            run_extraction(&extractor, &categories, OUTPUT_DIR, options.refresh_existing).await?;
+            run_extraction(
+                &extractor,
+                &categories,
+                OUTPUT_DIR,
+                options.refresh_existing,
+            )
+            .await?;
         }
         _ => {}
     }

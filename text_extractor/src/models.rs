@@ -1,3 +1,4 @@
+use regex::Regex;
 use serde::de::Deserializer;
 use serde::{Deserialize, Serialize};
 use std::collections::HashSet;
@@ -283,37 +284,43 @@ fn extract_links_from_nodes(nodes: &[serde_json::Value]) -> Vec<CritiqueLink> {
 fn extract_links_from_value(
     value: &serde_json::Value,
     links: &mut Vec<CritiqueLink>,
-    seen: &mut HashSet<(String, String, Option<String>, Option<String>, Option<String>)>,
+    seen: &mut HashSet<(
+        String,
+        String,
+        Option<String>,
+        Option<String>,
+        Option<String>,
+    )>,
 ) {
     match value {
         serde_json::Value::Object(obj) => {
-            if is_anchor_tag(obj) {
-                if let Some(attrs) = obj.get("attrs") {
-                    if let Some(href) = extract_attr_string(attrs, "href") {
-                        let text = extract_link_text(
-                            obj.get("children"),
-                            attrs,
-                            &href,
-                        );
-                        let target = extract_attr_string(attrs, "target");
-                        let title = extract_attr_string(attrs, "title");
-                        let rel = extract_attr_string(attrs, "rel");
-                        let key = (
-                            href.clone(),
-                            text.clone(),
-                            target.clone(),
-                            title.clone(),
-                            rel.clone(),
-                        );
-                        if seen.insert(key) {
-                            links.push(CritiqueLink {
-                                href,
-                                text,
-                                target,
-                                title,
-                                rel,
-                            });
-                        }
+            if let Some(html) = obj.get("__html").and_then(|val| val.as_str()) {
+                extract_links_from_html(html, links, seen);
+            }
+
+            let href = extract_attr_from_object(obj, "href")
+                .or_else(|| extract_attr_from_object(obj, "url"));
+            if href.is_some() || is_anchor_tag(obj) {
+                if let Some(href) = href {
+                    let text = extract_link_text(obj, &href);
+                    let target = extract_attr_from_object(obj, "target");
+                    let title = extract_attr_from_object(obj, "title");
+                    let rel = extract_attr_from_object(obj, "rel");
+                    let key = (
+                        href.clone(),
+                        text.clone(),
+                        target.clone(),
+                        title.clone(),
+                        rel.clone(),
+                    );
+                    if seen.insert(key) {
+                        links.push(CritiqueLink {
+                            href,
+                            text,
+                            target,
+                            title,
+                            rel,
+                        });
                     }
                 }
             }
@@ -327,31 +334,44 @@ fn extract_links_from_value(
                 extract_links_from_value(item, links, seen);
             }
         }
+        serde_json::Value::String(text) => {
+            extract_links_from_html(text, links, seen);
+        }
         _ => {}
     }
 }
 
 fn is_anchor_tag(obj: &serde_json::Map<String, serde_json::Value>) -> bool {
-    if let Some(tag) = obj.get("tagName").and_then(|t| t.as_str()) {
-        if tag.eq_ignore_ascii_case("a") {
-            return true;
-        }
-    }
-    if let Some(tag) = obj.get("tag").and_then(|t| t.as_str()) {
-        if tag.eq_ignore_ascii_case("a") {
-            return true;
-        }
-    }
-    if let Some(tag) = obj.get("type").and_then(|t| t.as_str()) {
-        if tag.eq_ignore_ascii_case("a") {
-            return true;
+    for key in ["tagName", "tag", "type", "elementType", "nodeName", "name"] {
+        if let Some(tag) = obj.get(key).and_then(|t| t.as_str()) {
+            if tag.eq_ignore_ascii_case("a") {
+                return true;
+            }
         }
     }
     false
 }
 
-fn extract_attr_string(attrs: &serde_json::Value, key: &str) -> Option<String> {
-    let value = attrs.get(key)?;
+fn extract_attr_from_object(
+    obj: &serde_json::Map<String, serde_json::Value>,
+    key: &str,
+) -> Option<String> {
+    if let Some(value) = obj.get(key) {
+        return extract_attr_value(value);
+    }
+
+    for attr_key in ["attrs", "attributes", "props", "properties"] {
+        if let Some(attrs) = obj.get(attr_key).and_then(|val| val.as_object()) {
+            if let Some(value) = attrs.get(key) {
+                return extract_attr_value(value);
+            }
+        }
+    }
+
+    None
+}
+
+fn extract_attr_value(value: &serde_json::Value) -> Option<String> {
     match value {
         serde_json::Value::String(text) => Some(text.clone()),
         serde_json::Value::Object(obj) => obj
@@ -362,11 +382,8 @@ fn extract_attr_string(attrs: &serde_json::Value, key: &str) -> Option<String> {
     }
 }
 
-fn extract_link_text(
-    children: Option<&serde_json::Value>,
-    attrs: &serde_json::Value,
-    href: &str,
-) -> String {
+fn extract_link_text(obj: &serde_json::Map<String, serde_json::Value>, href: &str) -> String {
+    let children = obj.get("children");
     let mut text = match children {
         Some(serde_json::Value::Array(items)) => items
             .iter()
@@ -378,13 +395,21 @@ fn extract_link_text(
         None => String::new(),
     };
 
+    if text.is_empty() {
+        if let Some(text_value) = obj.get("text").and_then(|val| val.as_str()) {
+            text = text_value.to_string();
+        } else if let Some(text_value) = obj.get("value").and_then(|val| val.as_str()) {
+            text = text_value.to_string();
+        }
+    }
+
     text = compact_text(&text);
     if !text.is_empty() {
         return text;
     }
 
-    if let Some(label) = extract_attr_string(attrs, "aria-label")
-        .or_else(|| extract_attr_string(attrs, "ariaLabel"))
+    if let Some(label) = extract_attr_from_object(obj, "aria-label")
+        .or_else(|| extract_attr_from_object(obj, "ariaLabel"))
     {
         let label = compact_text(&label);
         if !label.is_empty() {
@@ -392,7 +417,7 @@ fn extract_link_text(
         }
     }
 
-    if let Some(title) = extract_attr_string(attrs, "title") {
+    if let Some(title) = extract_attr_from_object(obj, "title") {
         let title = compact_text(&title);
         if !title.is_empty() {
             return title;
@@ -403,7 +428,80 @@ fn extract_link_text(
 }
 
 fn compact_text(text: &str) -> String {
-    text.split_whitespace().collect::<Vec<_>>().join(" ")
+    let stripped = strip_html_tags(text);
+    stripped.split_whitespace().collect::<Vec<_>>().join(" ")
+}
+
+fn strip_html_tags(text: &str) -> String {
+    let re = Regex::new(r"(?s)<[^>]*>").unwrap();
+    re.replace_all(text, "").to_string()
+}
+
+fn extract_links_from_html(
+    html: &str,
+    links: &mut Vec<CritiqueLink>,
+    seen: &mut HashSet<(
+        String,
+        String,
+        Option<String>,
+        Option<String>,
+        Option<String>,
+    )>,
+) {
+    let tag_re = Regex::new(r#"(?is)<a\b([^>]*)>(.*?)</a>"#).unwrap();
+    let attr_re = Regex::new(r#"(?i)\b([a-zA-Z_-]+)\s*=\s*["']([^"']*)["']"#).unwrap();
+
+    for capture in tag_re.captures_iter(html) {
+        let attrs = capture.get(1).map(|m| m.as_str()).unwrap_or("");
+        let body = capture.get(2).map(|m| m.as_str()).unwrap_or("");
+
+        let mut href = None;
+        let mut target = None;
+        let mut title = None;
+        let mut rel = None;
+
+        for attr in attr_re.captures_iter(attrs) {
+            let key = attr
+                .get(1)
+                .map(|m| m.as_str())
+                .unwrap_or("")
+                .to_ascii_lowercase();
+            let value = attr.get(2).map(|m| m.as_str()).unwrap_or("").to_string();
+            match key.as_str() {
+                "href" => href = Some(value),
+                "target" => target = Some(value),
+                "title" => title = Some(value),
+                "rel" => rel = Some(value),
+                _ => {}
+            }
+        }
+
+        let Some(href) = href else {
+            continue;
+        };
+
+        let mut text = compact_text(body);
+        if text.is_empty() {
+            text = href.clone();
+        }
+
+        let key = (
+            href.clone(),
+            text.clone(),
+            target.clone(),
+            title.clone(),
+            rel.clone(),
+        );
+        if seen.insert(key) {
+            links.push(CritiqueLink {
+                href,
+                text,
+                target,
+                title,
+                rel,
+            });
+        }
+    }
 }
 
 /// Helper function to extract keypoints from the keypoints array

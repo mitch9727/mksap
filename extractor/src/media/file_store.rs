@@ -101,11 +101,7 @@ pub fn load_discovery_results(path: &Path) -> Result<HashSet<String>> {
     let results = DiscoveryResults::load_from_file(path)
         .with_context(|| format!("Failed to read discovery results from {}", path.display()))?;
 
-    Ok(results
-        .questions_with_media
-        .iter()
-        .map(|q| q.question_id.clone())
-        .collect())
+    Ok(results.questions.keys().cloned().collect())
 }
 
 pub fn update_question_json(json_path: &Path, update: &MediaUpdate) -> Result<()> {

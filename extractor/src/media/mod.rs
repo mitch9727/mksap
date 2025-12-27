@@ -11,6 +11,7 @@ pub mod session;
 
 use anyhow::{Context, Result};
 use reqwest::{header, Client};
+use serde_json::Value;
 use tracing::{info, warn};
 
 pub fn build_client() -> Result<Client> {
@@ -31,4 +32,22 @@ pub fn build_client() -> Result<Client> {
 
     let client = Client::builder().default_headers(headers).build()?;
     Ok(client)
+}
+
+pub async fn fetch_content_metadata(client: &Client, base_url: &str) -> Result<Value> {
+    let url = format!("{}/api/content_metadata.json", base_url);
+    let response = client
+        .get(&url)
+        .send()
+        .await
+        .context("Failed to fetch content metadata")?;
+
+    if !response.status().is_success() {
+        anyhow::bail!(
+            "Content metadata request failed: HTTP {}",
+            response.status()
+        );
+    }
+
+    response.json().await.context("Failed to parse metadata")
 }

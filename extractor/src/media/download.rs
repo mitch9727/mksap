@@ -1,4 +1,4 @@
-use anyhow::{bail, Context, Result};
+use anyhow::{bail, Result};
 use reqwest::Client;
 use serde_json::Value;
 use std::collections::{HashMap, HashSet};
@@ -264,21 +264,7 @@ async fn load_figure_metadata(
     client: &Client,
     base_url: &str,
 ) -> Result<HashMap<String, FigureMetadata>> {
-    let url = format!("{}/api/content_metadata.json", base_url);
-    let response = client
-        .get(&url)
-        .send()
-        .await
-        .context("Failed to fetch content metadata")?;
-
-    if !response.status().is_success() {
-        anyhow::bail!(
-            "Content metadata request failed: HTTP {}",
-            response.status()
-        );
-    }
-
-    let metadata: Value = response.json().await.context("Failed to parse metadata")?;
+    let metadata = super::fetch_content_metadata(client, base_url).await?;
     let mut figures_by_id = HashMap::new();
 
     let figures_value = metadata.get("figures");

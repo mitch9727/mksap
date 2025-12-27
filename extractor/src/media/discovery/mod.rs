@@ -11,6 +11,7 @@ pub use types::{
 use anyhow::{Context, Result};
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
+use std::collections::HashMap;
 use std::fs;
 use std::path::Path;
 use tracing::{info, warn};
@@ -31,38 +32,53 @@ pub struct DiscoveryConfig {
 }
 
 // ============================================================================
+// Discovery Metadata Container
+// ============================================================================
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct DiscoveryMetadata {
+    pub version: String,
+    pub timestamp: String,
+    pub config: DiscoveryConfig,
+    pub statistics: DiscoveryStatistics,
+}
+
+// ============================================================================
 // Discovery Results Container
 // ============================================================================
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct DiscoveryResults {
-    pub questions_with_media: Vec<QuestionMedia>,
-    pub statistics: DiscoveryStatistics,
-    pub timestamp: String,
-    pub config: DiscoveryConfig,
+    pub metadata: DiscoveryMetadata,
+    pub questions: HashMap<String, QuestionMedia>,
 }
 
 impl DiscoveryResults {
     pub(crate) fn new(
-        questions_with_media: Vec<QuestionMedia>,
+        questions: HashMap<String, QuestionMedia>,
         statistics: DiscoveryStatistics,
         base_url: String,
         concurrent_requests: usize,
     ) -> Self {
         Self {
-            questions_with_media,
-            statistics,
-            timestamp: chrono::Utc::now().to_rfc3339(),
-            config: DiscoveryConfig {
-                concurrent_requests,
-                base_url,
+            metadata: DiscoveryMetadata {
+                version: "1.0.0".to_string(),
+                timestamp: chrono::Utc::now().to_rfc3339(),
+                config: DiscoveryConfig {
+                    concurrent_requests,
+                    base_url,
+                },
+                statistics,
             },
+            questions,
         }
     }
 
     /// Generate human-readable text report
     pub fn generate_report(&self) -> String {
-        self.statistics.generate_report(&self.timestamp)
+        self.metadata
+            .statistics
+            .generate_report(&self.metadata.timestamp)
     }
 
     /// Save to JSON file
@@ -84,7 +100,7 @@ impl DiscoveryResults {
 // ============================================================================
 
 use reqwest::Client;
-use std::collections::{HashMap, HashSet};
+use std::collections::HashSet;
 use std::sync::Arc;
 use tokio::sync::Semaphore;
 
@@ -172,7 +188,7 @@ async fn scan_questions_for_media(
     question_ids: &HashSet<String>,
     concurrent_limit: usize,
     figures_by_id: Arc<HashMap<String, FigureReference>>,
-) -> Result<(Vec<QuestionMedia>, DiscoveryStatistics)> {
+) -> Result<(HashMap<String, QuestionMedia>, DiscoveryStatistics)> {
     let semaphore = Arc::new(Semaphore::new(concurrent_limit));
     let mut handles = vec![];
 
@@ -191,7 +207,7 @@ async fn scan_questions_for_media(
         handles.push((question_id.clone(), handle));
     }
 
-    let mut questions_with_media = Vec::new();
+    let mut questions_with_media = HashMap::new();
     let mut stats = DiscoveryStatistics::default();
     let mut processed = 0;
     let total = handles.len();
@@ -199,8 +215,8 @@ async fn scan_questions_for_media(
     for (question_id, handle) in handles {
         match handle.await {
             Ok(Ok(Some(media))) => {
-                stats.update_with_question(&media);
-                questions_with_media.push(media);
+                stats.update_with_question(&question_id, &media);
+                questions_with_media.insert(question_id, media);
             }
             Ok(Ok(None)) => {}
             Ok(Err(e)) => {
@@ -348,10 +364,7 @@ fn build_question_media(
     let system_code = extract_system_code(question_id);
 
     Some(QuestionMedia {
-        question_id: question_id.to_string(),
-        array_id: None,
         subspecialty: Some(system_code.to_string()),
-        product_type: None,
         figures,
         tables,
         videos,
@@ -363,21 +376,7 @@ async fn load_figure_metadata(
     client: &Client,
     base_url: &str,
 ) -> Result<HashMap<String, FigureReference>> {
-    let url = format!("{}/api/content_metadata.json", base_url);
-    let response = client
-        .get(&url)
-        .send()
-        .await
-        .context("Failed to fetch content metadata")?;
-
-    if !response.status().is_success() {
-        anyhow::bail!(
-            "Content metadata request failed: HTTP {}",
-            response.status()
-        );
-    }
-
-    let metadata: Value = response.json().await.context("Failed to parse metadata")?;
+    let metadata = super::fetch_content_metadata(client, base_url).await?;
     let mut figures_by_id = HashMap::new();
 
     let figures_value = metadata.get("figures");

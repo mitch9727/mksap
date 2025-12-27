@@ -38,8 +38,12 @@ pub struct DiscoveryStatistics {
     // By specialty
     pub by_subspecialty: HashMap<String, usize>,
 
-    // By product type
+    // By product type (kept for backward compatibility, currently unused)
     pub by_product_type: HashMap<String, usize>,
+
+    // Video question tracking by subspecialty
+    #[serde(skip_serializing)]
+    pub video_questions_by_subspecialty: HashMap<String, Vec<String>>,
 
     // Error tracking
     pub failed_requests: usize,
@@ -48,7 +52,7 @@ pub struct DiscoveryStatistics {
 
 impl DiscoveryStatistics {
     /// Update statistics with a newly discovered question
-    pub fn update_with_question(&mut self, question: &QuestionMedia) {
+    pub fn update_with_question(&mut self, question_id: &str, question: &QuestionMedia) {
         let has_figures = !question.figures.is_empty();
         let has_tables = !question.tables.is_empty();
         let has_videos = !question.videos.is_empty();
@@ -76,6 +80,14 @@ impl DiscoveryStatistics {
         if has_videos {
             self.questions_with_videos += 1;
             self.total_video_references += question.videos.len();
+
+            // Track video questions by subspecialty
+            if let Some(subspecialty) = &question.subspecialty {
+                self.video_questions_by_subspecialty
+                    .entry(subspecialty.clone())
+                    .or_insert_with(Vec::new)
+                    .push(question_id.to_string());
+            }
         }
 
         if has_svgs {
@@ -96,14 +108,6 @@ impl DiscoveryStatistics {
             *self
                 .by_subspecialty
                 .entry(subspecialty.clone())
-                .or_insert(0) += 1;
-        }
-
-        // Track by product type
-        if let Some(product_type) = &question.product_type {
-            *self
-                .by_product_type
-                .entry(product_type.clone())
                 .or_insert(0) += 1;
         }
     }
@@ -201,6 +205,25 @@ impl DiscoveryStatistics {
             product_types.sort_by_key(|(k, _)| *k);
             for (product_type, count) in product_types {
                 report.push_str(&format!("- {}: {} questions\n", product_type, count));
+            }
+            report.push_str("\n");
+        }
+
+        // Add video questions section
+        if !self.video_questions_by_subspecialty.is_empty() {
+            report.push_str("QUESTIONS WITH VIDEOS\n");
+
+            // Sort by video count (descending), then alphabetically
+            let mut sorted: Vec<_> = self.video_questions_by_subspecialty.iter().collect();
+            sorted.sort_by(|a, b| b.1.len().cmp(&a.1.len()).then_with(|| a.0.cmp(b.0)));
+
+            for (subspecialty, question_ids) in sorted {
+                let count = question_ids.len();
+                let mut ids_sorted = question_ids.clone();
+                ids_sorted.sort();
+
+                report.push_str(&format!("  {} ({}):\n", subspecialty, count));
+                report.push_str(&format!("    {}\n", ids_sorted.join(", ")));
             }
         }
 

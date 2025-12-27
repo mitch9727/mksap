@@ -46,11 +46,11 @@ pub async fn run_browser_download(
     })?;
 
     let mut media_by_id: HashMap<String, QuestionMedia> = HashMap::new();
-    for media in results.questions_with_media {
+    for (question_id, media) in results.questions {
         if (download_videos && !media.videos.is_empty())
             || (download_svgs && !media.svgs.is_empty())
         {
-            media_by_id.insert(media.question_id.clone(), media);
+            media_by_id.insert(question_id, media);
         }
     }
 
@@ -455,21 +455,7 @@ async fn load_video_metadata(
     client: &Client,
     base_url: &str,
 ) -> Result<HashMap<String, VideoMetadata>> {
-    let url = format!("{}/api/content_metadata.json", base_url);
-    let response = client
-        .get(&url)
-        .send()
-        .await
-        .context("Failed to fetch content metadata")?;
-
-    if !response.status().is_success() {
-        anyhow::bail!(
-            "Content metadata request failed: HTTP {}",
-            response.status()
-        );
-    }
-
-    let metadata: Value = response.json().await.context("Failed to parse metadata")?;
+    let metadata = super::fetch_content_metadata(client, base_url).await?;
     let mut videos_by_id = HashMap::new();
 
     let videos_value = metadata.get("videos");
@@ -494,21 +480,7 @@ async fn load_svg_metadata(
     client: &Client,
     base_url: &str,
 ) -> Result<HashMap<String, SvgMetadata>> {
-    let url = format!("{}/api/content_metadata.json", base_url);
-    let response = client
-        .get(&url)
-        .send()
-        .await
-        .context("Failed to fetch content metadata")?;
-
-    if !response.status().is_success() {
-        anyhow::bail!(
-            "Content metadata request failed: HTTP {}",
-            response.status()
-        );
-    }
-
-    let metadata: Value = response.json().await.context("Failed to parse metadata")?;
+    let metadata = super::fetch_content_metadata(client, base_url).await?;
     let mut svgs_by_id = HashMap::new();
 
     let svgs_value = metadata.get("svgs");

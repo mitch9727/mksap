@@ -1,6 +1,14 @@
 use serde_json::Value;
 use std::collections::HashSet;
 
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub enum ContentIdKind {
+    Figure,
+    Table,
+    Video,
+    Svg,
+}
+
 /// Extract all content IDs from a question's JSON structure.
 pub fn extract_content_ids(question: &Value) -> Vec<String> {
     let mut ids = Vec::new();
@@ -97,6 +105,22 @@ pub fn is_video_id(content_id: &str) -> bool {
 pub fn is_svg_id(content_id: &str) -> bool {
     let lower = content_id.to_ascii_lowercase();
     lower.starts_with("svg") || lower.get(2..).map_or(false, |tail| tail.starts_with("svg"))
+}
+
+pub fn classify_content_id(content_id: &str) -> Option<ContentIdKind> {
+    if is_figure_id(content_id) {
+        return Some(ContentIdKind::Figure);
+    }
+    if is_table_id(content_id) {
+        return Some(ContentIdKind::Table);
+    }
+    if is_video_id(content_id) {
+        return Some(ContentIdKind::Video);
+    }
+    if is_svg_id(content_id) {
+        return Some(ContentIdKind::Svg);
+    }
+    None
 }
 
 pub fn inline_table_id(index: usize) -> String {

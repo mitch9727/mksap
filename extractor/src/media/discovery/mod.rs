@@ -18,8 +18,8 @@ use tracing::{info, warn};
 
 use super::api::fetch_question_json;
 use super::media_ids::{
-    count_inline_tables, extract_content_ids, extract_table_ids_from_tables_content,
-    inline_table_id, is_figure_id, is_svg_id, is_table_id, is_video_id,
+    classify_content_id, count_inline_tables, extract_content_ids,
+    extract_table_ids_from_tables_content, inline_table_id, ContentIdKind,
 };
 use super::metadata::{extract_html_text, for_each_metadata_item};
 
@@ -278,51 +278,48 @@ fn build_question_media(
     let mut seen_svgs = HashSet::new();
 
     for content_id in content_ids {
-        if is_figure_id(&content_id) {
-            if seen_figures.insert(content_id.clone()) {
-                if let Some(reference) = figures_by_id.get(&content_id) {
-                    figures.push(reference.clone());
-                } else {
-                    figures.push(FigureReference {
-                        figure_id: content_id,
-                        extension: "unknown".to_string(),
+        match classify_content_id(&content_id) {
+            Some(ContentIdKind::Figure) => {
+                if seen_figures.insert(content_id.clone()) {
+                    if let Some(reference) = figures_by_id.get(&content_id) {
+                        figures.push(reference.clone());
+                    } else {
+                        figures.push(FigureReference {
+                            figure_id: content_id,
+                            extension: "unknown".to_string(),
+                            title: None,
+                            width: 0,
+                            height: 0,
+                        });
+                    }
+                }
+            }
+            Some(ContentIdKind::Table) => {
+                if seen_tables.insert(content_id.clone()) {
+                    tables.push(TableReference {
+                        table_id: content_id,
                         title: None,
-                        width: 0,
-                        height: 0,
                     });
                 }
             }
-            continue;
-        }
-
-        if is_table_id(&content_id) {
-            if seen_tables.insert(content_id.clone()) {
-                tables.push(TableReference {
-                    table_id: content_id,
-                    title: None,
-                });
+            Some(ContentIdKind::Video) => {
+                if seen_videos.insert(content_id.clone()) {
+                    videos.push(VideoReference {
+                        video_id: content_id.clone(),
+                        title: None,
+                        canonical_location: question_id.to_string(),
+                    });
+                }
             }
-            continue;
-        }
-
-        if is_video_id(&content_id) {
-            if seen_videos.insert(content_id.clone()) {
-                videos.push(VideoReference {
-                    video_id: content_id.clone(),
-                    title: None,
-                    canonical_location: question_id.to_string(),
-                });
+            Some(ContentIdKind::Svg) => {
+                if seen_svgs.insert(content_id.clone()) {
+                    svgs.push(SvgReference {
+                        svg_id: content_id.clone(),
+                        source: SvgSource::ContentId(content_id),
+                    });
+                }
             }
-            continue;
-        }
-
-        if is_svg_id(&content_id) {
-            if seen_svgs.insert(content_id.clone()) {
-                svgs.push(SvgReference {
-                    svg_id: content_id.clone(),
-                    source: SvgSource::ContentId(content_id),
-                });
-            }
+            None => {}
         }
     }
 

@@ -11,8 +11,8 @@ use super::file_store::{
     MediaUpdate, QuestionEntry, TableMetadata,
 };
 use super::media_ids::{
-    collect_inline_table_nodes, extract_content_ids, extract_table_ids_from_tables_content,
-    inline_table_id, is_figure_id, is_table_id,
+    classify_content_id, collect_inline_table_nodes, extract_content_ids,
+    extract_table_ids_from_tables_content, inline_table_id, ContentIdKind,
 };
 use super::metadata::{extract_html_text, for_each_metadata_item};
 use super::render::{pretty_format_html, render_node};
@@ -138,31 +138,32 @@ async fn collect_media_updates(
 
     let content_ids = extract_content_ids(question);
     for content_id in content_ids {
-        if download_figures && is_figure_id(&content_id) {
-            let path = download_figure(client, base_url, question_dir, &content_id).await?;
-            push_unique(&mut update.images, &mut seen_images, path.clone());
-            if seen_figure_metadata.insert(content_id.clone()) {
-                let mut metadata = figure_metadata_by_id
-                    .get(&content_id)
-                    .cloned()
-                    .unwrap_or_else(|| fallback_figure_metadata(&content_id));
-                metadata.file = path;
-                update.metadata.figures.push(metadata);
-            }
-            continue;
-        }
-
-        if download_tables && is_table_id(&content_id) {
-            if let Some(download) =
-                download_table(client, base_url, question_dir, &content_id).await?
-            {
-                let path = download.path.clone();
-                push_unique(&mut update.tables, &mut seen_tables, Some(path.clone()));
-                if seen_table_metadata.insert(download.table.id.clone()) {
-                    let metadata = build_table_metadata(&download.table, Some(path));
-                    update.metadata.tables.push(metadata);
+        match classify_content_id(&content_id) {
+            Some(ContentIdKind::Figure) if download_figures => {
+                let path = download_figure(client, base_url, question_dir, &content_id).await?;
+                push_unique(&mut update.images, &mut seen_images, path.clone());
+                if seen_figure_metadata.insert(content_id.clone()) {
+                    let mut metadata = figure_metadata_by_id
+                        .get(&content_id)
+                        .cloned()
+                        .unwrap_or_else(|| fallback_figure_metadata(&content_id));
+                    metadata.file = path;
+                    update.metadata.figures.push(metadata);
                 }
             }
+            Some(ContentIdKind::Table) if download_tables => {
+                if let Some(download) =
+                    download_table(client, base_url, question_dir, &content_id).await?
+                {
+                    let path = download.path.clone();
+                    push_unique(&mut update.tables, &mut seen_tables, Some(path.clone()));
+                    if seen_table_metadata.insert(download.table.id.clone()) {
+                        let metadata = build_table_metadata(&download.table, Some(path));
+                        update.metadata.tables.push(metadata);
+                    }
+                }
+            }
+            _ => {}
         }
     }
 

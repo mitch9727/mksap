@@ -44,13 +44,17 @@ pub fn extract_table_ids_from_tables_content(question: &Value) -> Vec<String> {
 }
 
 pub fn count_inline_tables(value: &Value) -> usize {
-    fn walk(value: &Value, count: &mut usize, in_tables_content: bool) {
+    collect_inline_table_nodes(value).len()
+}
+
+pub fn collect_inline_table_nodes<'a>(value: &'a Value) -> Vec<&'a Value> {
+    fn walk<'a>(value: &'a Value, tables: &mut Vec<&'a Value>, in_tables_content: bool) {
         match value {
             Value::Object(map) => {
                 if !in_tables_content {
                     if let Some(Value::String(tag)) = map.get("tagName") {
                         if tag.eq_ignore_ascii_case("table") {
-                            *count += 1;
+                            tables.push(value);
                             return;
                         }
                     }
@@ -58,21 +62,21 @@ pub fn count_inline_tables(value: &Value) -> usize {
 
                 for (key, child) in map {
                     let next_in_tables_content = in_tables_content || key == "tablesContent";
-                    walk(child, count, next_in_tables_content);
+                    walk(child, tables, next_in_tables_content);
                 }
             }
             Value::Array(items) => {
                 for item in items {
-                    walk(item, count, in_tables_content);
+                    walk(item, tables, in_tables_content);
                 }
             }
             _ => {}
         }
     }
 
-    let mut count = 0;
-    walk(value, &mut count, false);
-    count
+    let mut tables = Vec::new();
+    walk(value, &mut tables, false);
+    tables
 }
 
 pub fn is_figure_id(content_id: &str) -> bool {

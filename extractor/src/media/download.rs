@@ -11,7 +11,8 @@ use super::file_store::{
     MediaUpdate, QuestionEntry, TableMetadata,
 };
 use super::media_ids::{
-    extract_content_ids, extract_table_ids_from_tables_content, is_figure_id, is_table_id,
+    collect_inline_table_nodes, extract_content_ids, extract_table_ids_from_tables_content,
+    is_figure_id, is_table_id,
 };
 use super::render::{pretty_format_html, render_node};
 
@@ -221,43 +222,18 @@ fn push_unique(target: &mut Vec<String>, seen: &mut HashSet<String>, value: Opti
 }
 
 fn extract_inline_tables(question: &Value) -> Vec<InlineTable> {
-    let mut tables = Vec::new();
-    walk_for_inline_tables(question, &mut tables, false);
-    tables
+    collect_inline_table_nodes(question)
+        .into_iter()
+        .map(|table| InlineTable {
+            html: render_node(table),
+            headers: extract_table_headers(table),
+        })
+        .collect()
 }
 
 struct InlineTable {
     html: String,
     headers: Vec<String>,
-}
-
-fn walk_for_inline_tables(value: &Value, tables: &mut Vec<InlineTable>, in_tables_content: bool) {
-    match value {
-        Value::Object(map) => {
-            if !in_tables_content {
-                if let Some(Value::String(tag)) = map.get("tagName") {
-                    if tag.eq_ignore_ascii_case("table") {
-                        tables.push(InlineTable {
-                            html: render_node(value),
-                            headers: extract_table_headers(value),
-                        });
-                        return;
-                    }
-                }
-            }
-
-            for (key, child) in map {
-                let next_in_tables_content = in_tables_content || key == "tablesContent";
-                walk_for_inline_tables(child, tables, next_in_tables_content);
-            }
-        }
-        Value::Array(items) => {
-            for item in items {
-                walk_for_inline_tables(item, tables, in_tables_content);
-            }
-        }
-        _ => {}
-    }
 }
 
 async fn load_figure_metadata(

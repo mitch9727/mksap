@@ -2,6 +2,8 @@ pub mod api;
 pub mod browser;
 pub mod browser_download;
 pub mod discovery;
+mod discovery_statistics;
+mod discovery_types;
 pub mod download;
 pub mod file_store;
 pub mod media_ids;

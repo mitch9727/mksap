@@ -1,10 +1,6 @@
-// Submodules
-mod discovery_statistics;
-mod discovery_types;
-
 // Re-exports
-pub use discovery_statistics::DiscoveryStatistics;
-pub use discovery_types::{
+pub use super::discovery_statistics::DiscoveryStatistics;
+pub use super::discovery_types::{
     FigureReference, QuestionMedia, SvgReference, SvgSource, TableReference, VideoReference,
 };
 

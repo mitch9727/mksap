@@ -6,6 +6,7 @@ pub mod discovery;
 pub mod download;
 pub mod file_store;
 pub mod media_ids;
+pub mod metadata;
 pub mod render;
 pub mod session;
 

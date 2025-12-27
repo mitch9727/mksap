@@ -20,6 +20,7 @@ use super::media_ids::{
     count_inline_tables, extract_content_ids, extract_table_ids_from_tables_content, is_figure_id,
     is_svg_id, is_table_id, is_video_id,
 };
+use super::metadata::{extract_html_text, for_each_metadata_item};
 
 // ============================================================================
 // Discovery Configuration
@@ -379,20 +380,9 @@ async fn load_figure_metadata(
     let metadata = super::fetch_content_metadata(client, base_url).await?;
     let mut figures_by_id = HashMap::new();
 
-    let figures_value = metadata.get("figures");
-    match figures_value {
-        Some(Value::Array(figures)) => {
-            for figure in figures {
-                insert_figure_reference(&mut figures_by_id, None, figure);
-            }
-        }
-        Some(Value::Object(figures)) => {
-            for (key, figure) in figures {
-                insert_figure_reference(&mut figures_by_id, Some(key.as_str()), figure);
-            }
-        }
-        _ => {}
-    }
+    for_each_metadata_item(&metadata, "figures", |fallback_id, figure| {
+        insert_figure_reference(&mut figures_by_id, fallback_id, figure);
+    });
 
     Ok(figures_by_id)
 }
@@ -439,15 +429,4 @@ fn insert_figure_reference(
             height,
         },
     );
-}
-
-fn extract_html_text(value: Option<&Value>) -> Option<String> {
-    match value {
-        Some(Value::String(text)) => Some(text.clone()),
-        Some(Value::Object(obj)) => obj
-            .get("__html")
-            .and_then(|val| val.as_str())
-            .map(|text| text.to_string()),
-        _ => None,
-    }
 }

@@ -13,6 +13,7 @@ use super::discovery::{DiscoveryResults, QuestionMedia};
 use super::file_store::{
     collect_question_entries, update_question_json, MediaUpdate, SvgMetadata, VideoMetadata,
 };
+use super::metadata::{extract_dimensions, extract_html_text, for_each_metadata_item};
 use super::session;
 
 const VIDEO_CLOUDFRONT_BASE: &str = "https://d2chybfyz5ban.cloudfront.net/hashed_figures";
@@ -458,20 +459,9 @@ async fn load_video_metadata(
     let metadata = super::fetch_content_metadata(client, base_url).await?;
     let mut videos_by_id = HashMap::new();
 
-    let videos_value = metadata.get("videos");
-    match videos_value {
-        Some(Value::Array(videos)) => {
-            for video in videos {
-                insert_video_metadata(&mut videos_by_id, None, video);
-            }
-        }
-        Some(Value::Object(videos)) => {
-            for (key, video) in videos {
-                insert_video_metadata(&mut videos_by_id, Some(key.as_str()), video);
-            }
-        }
-        _ => {}
-    }
+    for_each_metadata_item(&metadata, "videos", |fallback_id, video| {
+        insert_video_metadata(&mut videos_by_id, fallback_id, video);
+    });
 
     Ok(videos_by_id)
 }
@@ -483,20 +473,9 @@ async fn load_svg_metadata(
     let metadata = super::fetch_content_metadata(client, base_url).await?;
     let mut svgs_by_id = HashMap::new();
 
-    let svgs_value = metadata.get("svgs");
-    match svgs_value {
-        Some(Value::Array(svgs)) => {
-            for svg in svgs {
-                insert_svg_metadata(&mut svgs_by_id, None, svg);
-            }
-        }
-        Some(Value::Object(svgs)) => {
-            for (key, svg) in svgs {
-                insert_svg_metadata(&mut svgs_by_id, Some(key.as_str()), svg);
-            }
-        }
-        _ => {}
-    }
+    for_each_metadata_item(&metadata, "svgs", |fallback_id, svg| {
+        insert_svg_metadata(&mut svgs_by_id, fallback_id, svg);
+    });
 
     Ok(svgs_by_id)
 }
@@ -559,69 +538,6 @@ fn insert_svg_metadata(
             caption,
         },
     );
-}
-
-fn extract_dimensions(value: &Value) -> (Option<u32>, Option<u32>) {
-    let mut width = None;
-    let mut height = None;
-
-    if let Some(info) = value.get("videoInfo").and_then(|v| v.as_object()) {
-        width = info.get("width").and_then(|v| v.as_u64()).map(|v| v as u32);
-        height = info
-            .get("height")
-            .and_then(|v| v.as_u64())
-            .map(|v| v as u32);
-    }
-
-    if width.is_none() || height.is_none() {
-        if let Some(info) = value.get("imageInfo").and_then(|v| v.as_object()) {
-            width = width.or_else(|| info.get("width").and_then(|v| v.as_u64()).map(|v| v as u32));
-            height = height.or_else(|| {
-                info.get("height")
-                    .and_then(|v| v.as_u64())
-                    .map(|v| v as u32)
-            });
-        }
-    }
-
-    if width.is_none() || height.is_none() {
-        if let Some(info) = value.get("dimensions").and_then(|v| v.as_object()) {
-            width = width.or_else(|| info.get("width").and_then(|v| v.as_u64()).map(|v| v as u32));
-            height = height.or_else(|| {
-                info.get("height")
-                    .and_then(|v| v.as_u64())
-                    .map(|v| v as u32)
-            });
-        }
-    }
-
-    if width.is_none() || height.is_none() {
-        width = width.or_else(|| {
-            value
-                .get("width")
-                .and_then(|v| v.as_u64())
-                .map(|v| v as u32)
-        });
-        height = height.or_else(|| {
-            value
-                .get("height")
-                .and_then(|v| v.as_u64())
-                .map(|v| v as u32)
-        });
-    }
-
-    (width, height)
-}
-
-fn extract_html_text(value: Option<&Value>) -> Option<String> {
-    match value {
-        Some(Value::String(text)) => Some(text.clone()),
-        Some(Value::Object(obj)) => obj
-            .get("__html")
-            .and_then(|val| val.as_str())
-            .map(|text| text.to_string()),
-        _ => None,
-    }
 }
 
 fn extract_inline_svg_title(svg: &str) -> Option<String> {

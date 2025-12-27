@@ -1,22 +1,19 @@
 // Submodules
 mod helpers;
-mod scanner;
 mod statistics;
 mod types;
 
 // Re-exports
-pub use scanner::MediaDiscovery;
 pub use statistics::DiscoveryStatistics;
 pub use types::{
-    FigureReference, MediaType, QuestionMedia, SvgReference, SvgSource, TableReference,
-    VideoReference,
+    FigureReference, QuestionMedia, SvgReference, SvgSource, TableReference, VideoReference,
 };
 
 use anyhow::{Context, Result};
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use std::fs;
-use std::path::{Path, PathBuf};
+use std::path::Path;
 use tracing::{info, warn};
 
 // ============================================================================
@@ -510,217 +507,4 @@ fn is_video_id(content_id: &str) -> bool {
 fn is_svg_id(content_id: &str) -> bool {
     let lower = content_id.to_ascii_lowercase();
     lower.starts_with("svg") || lower.get(2..).map_or(false, |tail| tail.starts_with("svg"))
-}
-
-// ============================================================================
-// Local File Scanning (LEGACY - kept for reference)
-// ============================================================================
-
-/// Scan local mksap_data directory for questions with media
-#[allow(dead_code)]
-pub async fn scan_local_questions(data_dir: &Path) -> Result<DiscoveryResults> {
-    info!("Scanning local question files in: {}", data_dir.display());
-
-    let mut questions_with_media = Vec::new();
-    let mut stats = DiscoveryStatistics::default();
-
-    // Iterate through system code directories (cv, en, fc, etc.)
-    for entry in fs::read_dir(data_dir).context("Failed to read data directory")? {
-        let entry = entry?;
-        let path = entry.path();
-
-        if !path.is_dir() {
-            continue;
-        }
-
-        let system_code = path
-            .file_name()
-            .and_then(|n| n.to_str())
-            .unwrap_or("unknown");
-
-        // Skip hidden directories and checkpoints
-        if system_code.starts_with('.') {
-            continue;
-        }
-
-        info!("Scanning system code: {}", system_code);
-
-        // Scan questions within this system
-        scan_system_directory(&path, &mut questions_with_media, &mut stats, system_code).await?;
-    }
-
-    info!(
-        "Scan complete! Found {} questions with media",
-        questions_with_media.len()
-    );
-
-    Ok(DiscoveryResults::new(
-        questions_with_media,
-        stats,
-        "local".to_string(),
-        0,
-    ))
-}
-
-async fn scan_system_directory(
-    system_dir: &Path,
-    questions_with_media: &mut Vec<QuestionMedia>,
-    stats: &mut DiscoveryStatistics,
-    system_code: &str,
-) -> Result<()> {
-    for entry in fs::read_dir(system_dir).context("Failed to read system directory")? {
-        let entry = entry?;
-        let path = entry.path();
-
-        if !path.is_dir() {
-            continue;
-        }
-
-        let question_id = path
-            .file_name()
-            .and_then(|n| n.to_str())
-            .unwrap_or("unknown");
-
-        // Look for the JSON file
-        let json_path = path.join(format!("{}.json", question_id));
-        if !json_path.exists() {
-            continue;
-        }
-
-        // Parse JSON and extract media
-        match parse_question_media(&json_path, question_id, system_code) {
-            Ok(Some(media)) => {
-                stats.update_with_question(&media);
-                questions_with_media.push(media);
-            }
-            Ok(None) => {
-                // No media found, that's fine
-            }
-            Err(e) => {
-                warn!("Failed to parse {}: {}", json_path.display(), e);
-            }
-        }
-
-        stats.total_questions_scanned += 1;
-    }
-
-    // Calculate final statistics
-    stats.total_questions_with_media = questions_with_media.len();
-    stats.total_questions_without_media =
-        stats.total_questions_scanned - stats.total_questions_with_media;
-    stats.percentage_with_media = if stats.total_questions_scanned > 0 {
-        (stats.total_questions_with_media as f64 / stats.total_questions_scanned as f64) * 100.0
-    } else {
-        0.0
-    };
-
-    Ok(())
-}
-
-fn parse_question_media(
-    json_path: &Path,
-    question_id: &str,
-    system_code: &str,
-) -> Result<Option<QuestionMedia>> {
-    let content = fs::read_to_string(json_path)?;
-    let json: Value = serde_json::from_str(&content)?;
-
-    let mut figures = Vec::new();
-    let mut tables = Vec::new();
-    let mut videos = Vec::new();
-    let mut svgs = Vec::new();
-
-    // Extract media from the "media" field
-    // The extracted JSON structure is:
-    // {
-    //   "media": {
-    //     "tables": [],
-    //     "images": ["figures/cvfig24202.hash.jpg", ...],
-    //     "svgs": [],
-    //     "videos": []
-    //   }
-    // }
-    if let Some(media) = json.get("media").and_then(|m| m.as_object()) {
-        // Extract figures from "images" array
-        if let Some(images) = media.get("images").and_then(|i| i.as_array()) {
-            for (idx, img) in images.iter().enumerate() {
-                if let Some(path_str) = img.as_str() {
-                    // Parse filename like "figures/cvfig24202.hash.jpg"
-                    let parts: Vec<&str> = path_str.split('/').collect();
-                    if let Some(filename) = parts.last() {
-                        // Extract figure_id and extension
-                        let name_parts: Vec<&str> = filename.split('.').collect();
-                        let figure_id = name_parts.first().unwrap_or(&"unknown").to_string();
-                        let extension = name_parts.last().unwrap_or(&"jpg").to_string();
-
-                        let figure = FigureReference {
-                            figure_id,
-                            extension,
-                            title: None,
-                            width: 0,  // Not available in extracted JSON
-                            height: 0, // Not available in extracted JSON
-                        };
-                        figures.push(figure);
-                    }
-                }
-            }
-        }
-
-        // Extract tables (stored as strings)
-        if let Some(tabs) = media.get("tables").and_then(|t| t.as_array()) {
-            for (idx, tab) in tabs.iter().enumerate() {
-                if let Some(table_str) = tab.as_str() {
-                    let table = TableReference {
-                        table_id: format!("{}tab{:05}", system_code, idx + 1),
-                        title: None,
-                    };
-                    tables.push(table);
-                }
-            }
-        }
-
-        // Extract videos (stored as strings)
-        if let Some(vids) = media.get("videos").and_then(|v| v.as_array()) {
-            for vid in vids.iter() {
-                if let Some(video_str) = vid.as_str() {
-                    // Video strings might be IDs or URLs
-                    let video = VideoReference {
-                        video_id: video_str.to_string(),
-                        title: None,
-                        canonical_location: video_str.to_string(),
-                    };
-                    videos.push(video);
-                }
-            }
-        }
-
-        // Extract SVGs (stored as strings)
-        if let Some(svg_arr) = media.get("svgs").and_then(|s| s.as_array()) {
-            for svg in svg_arr.iter() {
-                if let Some(svg_str) = svg.as_str() {
-                    let svg_ref = SvgReference {
-                        svg_id: svg_str.to_string(),
-                        source: SvgSource::ContentId(svg_str.to_string()),
-                    };
-                    svgs.push(svg_ref);
-                }
-            }
-        }
-    }
-
-    // If no media found, return None
-    if figures.is_empty() && tables.is_empty() && videos.is_empty() && svgs.is_empty() {
-        return Ok(None);
-    }
-
-    Ok(Some(QuestionMedia {
-        question_id: question_id.to_string(),
-        array_id: None,
-        subspecialty: Some(system_code.to_string()),
-        product_type: None,
-        figures,
-        tables,
-        videos,
-        svgs,
-    }))
 }

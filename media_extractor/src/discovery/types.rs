@@ -55,13 +55,6 @@ pub struct QuestionMedia {
 }
 
 impl QuestionMedia {
-    pub fn has_media(&self) -> bool {
-        !self.figures.is_empty()
-            || !self.tables.is_empty()
-            || !self.videos.is_empty()
-            || !self.svgs.is_empty()
-    }
-
     pub fn media_type_count(&self) -> u32 {
         let mut count = 0;
         if !self.figures.is_empty() {
@@ -77,43 +70,5 @@ impl QuestionMedia {
             count += 1;
         }
         count
-    }
-}
-
-// ============================================================================
-// Media Type Categorization
-// ============================================================================
-
-#[derive(Debug, Clone, Copy, PartialEq, Eq)]
-pub enum MediaType {
-    Figure,
-    Table,
-    Video,
-    Svg,
-}
-
-impl MediaType {
-    /// Categorize a content ID based on its prefix pattern
-    pub fn from_content_id(content_id: &str) -> Self {
-        let lower = content_id.to_ascii_lowercase();
-
-        if lower.starts_with("fig") || lower.get(2..).map_or(false, |tail| tail.starts_with("fig"))
-        {
-            MediaType::Figure
-        } else if lower.starts_with("tab")
-            || lower.get(2..).map_or(false, |tail| tail.starts_with("tab"))
-        {
-            MediaType::Table
-        } else if lower.starts_with("vid")
-            || lower.get(2..).map_or(false, |tail| tail.starts_with("vid"))
-        {
-            MediaType::Video
-        } else if lower.starts_with("svg")
-            || lower.get(2..).map_or(false, |tail| tail.starts_with("svg"))
-        {
-            MediaType::Svg
-        } else {
-            MediaType::Figure // Default fallback
-        }
     }
 }

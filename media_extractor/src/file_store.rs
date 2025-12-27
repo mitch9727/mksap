@@ -6,7 +6,6 @@ use std::fs;
 use std::path::{Path, PathBuf};
 
 use crate::discovery::DiscoveryResults;
-use crate::render::pretty_format_html;
 
 #[derive(Clone, Debug)]
 pub struct QuestionEntry {
@@ -222,24 +221,6 @@ fn merge_vec_unique(target: &mut Vec<String>, update: Vec<String>) {
             target.push(item);
         }
     }
-}
-
-pub fn format_existing_tables(data_dir: &str) -> Result<usize> {
-    let root = ensure_data_dir(data_dir)?;
-    let mut files = Vec::new();
-    collect_table_files(&root, &mut files)?;
-
-    let mut formatted = 0usize;
-    for path in files {
-        let content = fs::read_to_string(&path)?;
-        let pretty = pretty_format_html(&content);
-        if content != pretty {
-            fs::write(&path, pretty)?;
-            formatted += 1;
-        }
-    }
-
-    Ok(formatted)
 }
 
 pub fn backfill_inline_table_metadata(data_dir: &str) -> Result<usize> {
@@ -553,28 +534,6 @@ fn ensure_data_dir(data_dir: &str) -> Result<PathBuf> {
         return Ok(root);
     }
     bail!("Data directory not found: {}", data_dir)
-}
-
-fn collect_table_files(root: &Path, files: &mut Vec<PathBuf>) -> Result<()> {
-    for entry in fs::read_dir(root).context("Failed to read directory")? {
-        let entry = entry.context("Failed to read directory entry")?;
-        let path = entry.path();
-        if path.is_dir() {
-            collect_table_files(&path, files)?;
-            continue;
-        }
-
-        if path.extension().and_then(|s| s.to_str()) != Some("html") {
-            continue;
-        }
-
-        if let Some(parent) = path.parent() {
-            if parent.file_name().and_then(|s| s.to_str()) == Some("tables") {
-                files.push(path);
-            }
-        }
-    }
-    Ok(())
 }
 
 fn list_dirs(path: &Path) -> Result<Vec<PathBuf>> {

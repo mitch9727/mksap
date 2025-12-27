@@ -1,16 +1,19 @@
 # Rust MKSAP Extractor - Overview
 
+> **Phase 1 Status**: ✅ COMPLETE (December 27, 2025) - All 2,198 valid questions extracted. See [PHASE_1_COMPLETION_REPORT.md](../project/PHASE_1_COMPLETION_REPORT.md) for details.
+
 ## Purpose
 
 The Rust MKSAP Extractor is the primary tool for extracting medical education questions from the ACP MKSAP (Medical Knowledge Self-Assessment Program) question bank via direct API calls.
 
 ## Current Status
 
-- **Implementation Status**: Phase 1 text extraction is fully functional
-- **System Coverage**: 16 system codes (including `fc` and `cs`)
-- **Question Types**: `mcq`, `qqq`, `vdx`, `cor`, `mqq`, `sq`
-- **Progress Tracking**: Discovery metadata and validation reports
-- **Valid Question Target**: 2,198 (invalidated questions excluded)
+- **Implementation Status**: Phase 1 complete - All 2,198 questions extracted
+- **System Coverage**: 16 system codes (cv, en, fc, cs, gi, hp, hm, id, in, dm, np, nr, on, pm, cc, rm)
+- **Question Types**: 6 types supported (mcq, qqq, vdx, cor, mqq, sq)
+- **Extraction Method**: Discovery-based validation using HTTP HEAD requests
+- **Data Quality**: 100% coverage with comprehensive validation framework
+- **Valid Questions**: 2,198 (invalidated questions excluded)
 
 To view current counts and completion ratios:
 

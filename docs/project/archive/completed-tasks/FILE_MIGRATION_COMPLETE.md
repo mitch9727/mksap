@@ -2,30 +2,32 @@
 
 **Date:** December 25, 2025
 **Status:** Documentation file reorganization complete
-**Result:** All project documentation now consolidated in docs/project/ folder
+**Result:** Project documentation consolidated under docs/project/, with legacy
+process documents now archived
 
 ---
 
 ## What Was Moved
 
-Two root-level documentation files have been relocated to `docs/project/`:
+Two root-level documentation files were relocated and are now archived under
+`docs/project/archive/`:
 
 | File | Old Location | New Location | Status |
 |------|--------------|--------------|--------|
-| BRAINSTORM_SESSION_COMPLETE.md | `/BRAINSTORM_SESSION_COMPLETE.md` | `docs/project/BRAINSTORM_SESSION_COMPLETE.md` | ✅ Moved |
-| DOCUMENTATION_CLEANUP_COMPLETE.md | `/DOCUMENTATION_CLEANUP_COMPLETE.md` | `docs/project/DOCUMENTATION_CLEANUP_COMPLETE.md` | ✅ Moved |
+| BRAINSTORM_SESSION_COMPLETE.md | `/BRAINSTORM_SESSION_COMPLETE.md` | `docs/project/archive/planning-sessions/BRAINSTORM_SESSION_COMPLETE.md` | ✅ Moved |
+| DOCUMENTATION_CLEANUP_COMPLETE.md | `/DOCUMENTATION_CLEANUP_COMPLETE.md` | `docs/project/archive/completed-tasks/DOCUMENTATION_CLEANUP_COMPLETE.md` | ✅ Moved |
 | README.md | `/README.md` | `/README.md` | ✅ Kept at root (project entry point) |
 
 ---
 
 ## Updated Documentation Index
 
-The `docs/project/INDEX.md` has been updated to include links to the newly relocated files:
+The `docs/project/INDEX.md` now links to the archived locations:
 
 **New Section: "📝 Project Process Documentation"**
 ```markdown
-- [BRAINSTORM_SESSION_COMPLETE.md](BRAINSTORM_SESSION_COMPLETE.md) - Complete brainstorming & planning session results
-- [DOCUMENTATION_CLEANUP_COMPLETE.md](DOCUMENTATION_CLEANUP_COMPLETE.md) - Documentation reorganization summary
+- [archive/planning-sessions/BRAINSTORM_SESSION_COMPLETE.md](archive/planning-sessions/BRAINSTORM_SESSION_COMPLETE.md) - Initial brainstorming results
+- [archive/completed-tasks/DOCUMENTATION_CLEANUP_COMPLETE.md](archive/completed-tasks/DOCUMENTATION_CLEANUP_COMPLETE.md) - Documentation reorganization summary
 ```
 
 ---
@@ -40,11 +42,10 @@ docs/project/
 ├── PHASE_1_PLAN.md                     # Phase 1 execution roadmap
 ├── QUICKSTART.md                       # Command reference
 ├── CHANGELOG.md                        # Documentation history
-├── BRAINSTORM_SESSION_COMPLETE.md      # ✅ NEW LOCATION - Brainstorming results
-└── DOCUMENTATION_CLEANUP_COMPLETE.md   # ✅ NEW LOCATION - Cleanup summary
+└── archive/                            # Historical docs and completion notices
 ```
 
-**Total: 8 project documentation files organized in single folder**
+**Total: 7 active project files + archive folder**
 
 ---
 
@@ -92,19 +93,19 @@ docs/project/
 ### Accessing Moved Files
 
 **From root (GitHub view):**
-- → `docs/project/BRAINSTORM_SESSION_COMPLETE.md`
-- → `docs/project/DOCUMENTATION_CLEANUP_COMPLETE.md`
+- → `docs/project/archive/planning-sessions/BRAINSTORM_SESSION_COMPLETE.md`
+- → `docs/project/archive/completed-tasks/DOCUMENTATION_CLEANUP_COMPLETE.md`
 
 **From IDE:**
 - Open `docs/project/INDEX.md` and click links
-- Or directly: `docs/project/BRAINSTORM_SESSION_COMPLETE.md`
+- Or directly: `docs/project/archive/planning-sessions/BRAINSTORM_SESSION_COMPLETE.md`
 
 ### Recommended Reading Order
 
 1. **README.md** (root) - Quick overview
 2. **docs/project/INDEX.md** - Navigation guide
-3. **docs/project/BRAINSTORM_SESSION_COMPLETE.md** - Understand the vision
-4. **docs/project/DOCUMENTATION_CLEANUP_COMPLETE.md** - See what was organized
+3. **docs/project/archive/planning-sessions/BRAINSTORM_SESSION_COMPLETE.md** - Understand the vision
+4. **docs/project/archive/completed-tasks/DOCUMENTATION_CLEANUP_COMPLETE.md** - See what was organized
 5. **docs/project/PROJECT_TODOS.md** - Start tracking progress
 6. **docs/project/PHASE_1_PLAN.md** - Begin execution
 

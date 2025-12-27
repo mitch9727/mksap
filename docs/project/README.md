@@ -54,7 +54,7 @@ This approach ensures extraction targets reflect the current API state, not outd
 - `mksap_data/` - Extracted JSON output by system
 - `mksap_data/.checkpoints/discovery_metadata.json` - API discovery statistics
 - `docs/reference/` - Setup, usage, and troubleshooting
-- `docs/specifications/` - MCQ output format reference
+- `docs/reference/EXTRACTION_OVERVIEW.md` - Extraction status and scope overview
 
 ## Discovery-Based Completion Tracking
 

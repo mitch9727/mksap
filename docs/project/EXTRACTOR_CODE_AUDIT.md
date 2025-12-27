@@ -55,9 +55,9 @@
   `MediaType`. `scan_local_questions` is legacy and currently unused.
 - `media_extractor/src/file_store.rs`: `format_existing_tables` and
   `collect_table_files` are unused.
-- `text_extractor/src/models.rs`: `RelatedContent.syllabus` remains in the output
-  schema even though syllabus extraction is out of scope. Decide whether to
-  rename or remove this field to eliminate syllabus terminology.
+- `text_extractor/src/models.rs`: `RelatedContent` list field remains in the
+  output schema even though related content extraction is out of scope. Decide
+  whether to rename or remove this field to reduce confusion.
 
 ## Duplication And Consolidation Candidates
 

@@ -27,7 +27,6 @@ You now have a **complete, actionable 4-phase project plan** for converting MKSA
 - Question ID as persistent key throughout pipeline
 - One isolated LLM call per question (no batch hallucination)
 - Append `true_statements` array to existing question JSON (no separate files)
-- Syllabus as references only (Phase 1), full extraction deferred (Phase 2+)
 - Separate media/cloze/assembly modules (testable, composable)
 
 ### 2. Phase 1 Detailed Planning
@@ -179,8 +178,8 @@ Supporting Documentation
 ## Question Count Resolution
 
 **Resolved discrepancy:**
-- Old count: 1,810 questions (16 system codes, mcq only)
-- New count: 2,198 questions (16 systems, 6 question types)
+- Old count: 1,810 questions (16 system codes, single question type)
+- New count: 2,198 questions (16 systems, 6 question types; invalidated excluded)
 - Explanation: Previous extraction missed 5 question types (cor, vdx, qqq, mqq, sq) and 4 systems
 
 **Confirmed by:**
@@ -194,7 +193,7 @@ Supporting Documentation
 
 ### Four-Phase Pipeline
 ```
-Questions (2,198) + Syllabus
+Questions (2,198 valid; invalidated excluded)
          ↓
     PHASE 1: Extract
     (Rust extractors)

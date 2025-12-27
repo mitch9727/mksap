@@ -1,5 +1,7 @@
 # MKSAP Question ID Discovery - Complete Analysis
 
+> 📜 **Historical Analysis**: This document explains the discovery process that informed Phase 1 implementation. For actual extraction results, see [PHASE_1_COMPLETION_REPORT.md](../project/PHASE_1_COMPLETION_REPORT.md).
+
 ## Critical Finding: Why IDs Were Missed
 
 The root cause was that MKSAP uses **multiple question type suffixes**. The current extractor now checks all 6 suffixes below. The `/api/content_metadata.json` endpoint remains a useful reference for auditing ID coverage.

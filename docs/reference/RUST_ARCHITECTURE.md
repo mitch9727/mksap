@@ -48,7 +48,7 @@ pub struct OrganSystem {
 - `AnswerOption` - Multiple choice option
 - `QuestionMetadata` - Metadata fields
 - `UserPerformance` - Answer tracking fields
-- `RelatedContent` - Syllabus references and learning plan topic
+- `RelatedContent` - Related content references and learning plan topic
 - `MediaFiles` - Tables/images/videos/SVGs arrays
 
 **Serialization**: All structures derive `Serialize`/`Deserialize` for JSON conversion

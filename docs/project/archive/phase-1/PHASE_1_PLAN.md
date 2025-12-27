@@ -538,7 +538,7 @@ echo $?  # Should return 0 (success)
    - [ ] All questions have 'critique' field populated
    - [ ] All questions have valid JSON structure
    - [ ] Media verified downloaded
-   - [ ] Syllabus breadcrumb refs added
+   - [ ] Related content references added
    - [ ] Validation report shows 0 critical errors
    - [ ] mksap_data/ directory backed up
    ```
@@ -592,7 +592,7 @@ cat mksap_data/validation_report.txt | grep -i critical | wc -l
 4. ✅ All referenced media downloaded and organized in figures/ subdirectories
 5. ✅ Validation report shows 100% pass (zero critical errors)
 6. ✅ Deserialization issues documented (if any found)
-7. ✅ Syllabus breadcrumb references extracted and added to each question JSON
+7. ✅ Related content references extracted and added to each question JSON
 8. ✅ Phase 1 completion report generated
 9. ✅ Data backed up
 10. ✅ Phase 2 prerequisites validated

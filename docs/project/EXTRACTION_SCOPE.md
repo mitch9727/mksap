@@ -16,11 +16,6 @@ considering the extraction phase complete.
 - Critique hyperlink extraction from the critique/exposition region into
   `critique_links`.
 
-## Out of Scope
-
-- Syllabus content extraction.
-- Any conversion of MKSAP data into MCQ-specific formats.
-
 ## Coverage and Counts
 
 - The authoritative extraction target is 2,198 valid question IDs.

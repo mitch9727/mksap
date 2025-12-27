@@ -15,7 +15,7 @@ use std::fs;
 use std::path::Path;
 use tracing::{info, warn};
 
-use crate::media_ids::{
+use super::media_ids::{
     count_inline_tables, extract_content_ids, extract_table_ids_from_tables_content, is_figure_id,
     is_svg_id, is_table_id, is_video_id,
 };

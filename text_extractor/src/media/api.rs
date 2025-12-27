@@ -5,7 +5,7 @@ use serde_json::Value;
 use std::path::Path;
 use tracing::warn;
 
-use crate::render::render_table_html;
+use super::render::render_table_html;
 
 #[derive(Debug, Deserialize)]
 struct FigureResponse {

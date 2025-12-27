@@ -7,13 +7,13 @@ use std::path::Path;
 use std::time::Duration;
 use tracing::{info, warn};
 
-use crate::browser::{BrowserMedia, BrowserOptions, BrowserSession};
-use crate::browser_media;
-use crate::discovery::{DiscoveryResults, QuestionMedia};
-use crate::file_store::{
+use super::browser::{BrowserMedia, BrowserOptions, BrowserSession};
+use super::browser_media;
+use super::discovery::{DiscoveryResults, QuestionMedia};
+use super::file_store::{
     collect_question_entries, update_question_json, MediaUpdate, SvgMetadata, VideoMetadata,
 };
-use crate::session;
+use super::session;
 
 const VIDEO_CLOUDFRONT_BASE: &str = "https://d2chybfyz5ban.cloudfront.net/hashed_figures";
 
@@ -368,7 +368,7 @@ fn push_unique(target: &mut Vec<String>, seen: &mut HashSet<String>, value: Opti
 }
 
 fn build_video_urls_from_metadata(
-    videos: &[crate::discovery::VideoReference],
+    videos: &[super::discovery::VideoReference],
     metadata: &HashMap<String, VideoMetadata>,
 ) -> Vec<String> {
     let mut urls = Vec::new();

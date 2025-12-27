@@ -6,6 +6,7 @@ mod commands;
 mod config;
 mod diagnostics;
 mod extractor;
+mod media;
 mod models;
 mod reporting;
 mod standardize;

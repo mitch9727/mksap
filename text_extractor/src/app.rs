@@ -4,7 +4,7 @@ use std::fs;
 use std::path::Path;
 use tracing::{error, info};
 
-use media_extractor::{browser_download, discovery, download as media_download};
+use crate::media::{browser_download, discovery, download as media_download};
 
 use crate::{
     authenticate_extractor, build_categories_from_config, count_discovered_ids, inspect_api,
@@ -275,7 +275,7 @@ async fn run_media_discovery(args: &[String]) -> Result<()> {
     info!("Concurrent requests: {}", concurrent);
     info!("Output file: {}", discovery_file);
 
-    let client = media_extractor::build_client()?;
+    let client = crate::media::build_client()?;
     let results = discovery::discover_media_questions(&client, &base_url, concurrent).await?;
 
     let output_path = Path::new(&discovery_file);
@@ -310,7 +310,7 @@ async fn run_media_download(args: &[String]) -> Result<()> {
         info!("No question filter provided; downloading for all discovered questions.");
     }
 
-    let client = media_extractor::build_client()?;
+    let client = crate::media::build_client()?;
     media_download::run_media_download(
         &client,
         &base_url,
@@ -348,7 +348,7 @@ async fn run_media_browser(args: &[String]) -> Result<()> {
         info!("No question filter provided; downloading for all video/svg questions.");
     }
 
-    let client = media_extractor::build_client()?;
+    let client = crate::media::build_client()?;
     browser_download::run_browser_download(
         &client,
         &base_url,

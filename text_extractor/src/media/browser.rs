@@ -8,7 +8,7 @@ use thirtyfour::common::capabilities::desiredcapabilities::CapabilitiesHelper;
 use thirtyfour::prelude::*;
 use tracing::{info, warn};
 
-use crate::session;
+use super::session;
 
 #[derive(Clone, Debug)]
 pub struct BrowserOptions {

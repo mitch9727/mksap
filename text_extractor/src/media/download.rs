@@ -5,15 +5,15 @@ use std::collections::{HashMap, HashSet};
 use std::path::Path;
 use tracing::{info, warn};
 
-use crate::api::{download_figure, download_table, fetch_question_json, TableResponse};
-use crate::file_store::{
+use super::api::{download_figure, download_table, fetch_question_json, TableResponse};
+use super::file_store::{
     collect_question_entries, load_discovery_results, update_question_json, FigureMetadata,
     MediaUpdate, QuestionEntry, TableMetadata,
 };
-use crate::media_ids::{
+use super::media_ids::{
     extract_content_ids, extract_table_ids_from_tables_content, is_figure_id, is_table_id,
 };
-use crate::render::{pretty_format_html, render_node};
+use super::render::{pretty_format_html, render_node};
 
 pub async fn run_media_download(
     client: &Client,

@@ -5,7 +5,7 @@ use std::collections::HashSet;
 use std::fs;
 use std::path::{Path, PathBuf};
 
-use crate::discovery::DiscoveryResults;
+use super::discovery::DiscoveryResults;
 
 #[derive(Clone, Debug)]
 pub struct QuestionEntry {

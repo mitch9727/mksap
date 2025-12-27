@@ -6,7 +6,7 @@
 
 This project is a **4-phase pipeline** for generating MKSAP Anki flashcard decks:
 
-1. **Phase 1**: Data Extraction (Rust) - Extract 2,233 questions from MKSAP API
+1. **Phase 1**: Data Extraction (Rust) - Extract 2,198 valid questions from the MKSAP API (invalidated questions excluded)
 2. **Phase 2**: Intelligent Fact Extraction (Claude Code) - Extract atomic facts via LLM
 3. **Phase 3**: Card Generation (Rust) - Convert facts to Anki note format
 4. **Phase 4**: Import & Validation - Generate .apkg deck and import
@@ -77,11 +77,6 @@ MKSAP/
 │   │   ├── VALIDATION.md
 │   │   ├── TROUBLESHOOTING.md
 │   │   └── QUESTION_ID_DISCOVERY.md
-│   ├── specifications/
-│   │   ├── MCQ_FORMAT.md     # Output format specification
-│   │   └── CVMCQ24041.md     # Example MCQ card
-│   └── risks/
-│       └── POTENTIAL_SYLLABUS_ERRORS.md
 │
 ├── README.md                 # Project entry point
 ├── CLAUDE.md                 # Claude Code integration guide
@@ -101,7 +96,7 @@ MKSAP/
 4. Run media extractor (optional): `./target/release/media-extractor --all --data-dir ../mksap_data`
 5. Review `.checkpoints/discovery_metadata.json` and `validation_report.txt`
 
-**Target:** 2,233 questions across 16 systems and 6 question types (discovery-based counts are the source of truth)
+**Target:** 2,198 valid questions across 16 systems and 6 question types (invalidated questions excluded)
 
 ### Phase 2: Intelligent Fact Extraction (Future)
 
@@ -169,7 +164,6 @@ validator → validation_report.txt
 2. **Modular phases**: Each phase produces a stable output that can be handed off to the next
 3. **Resumable extraction**: Checkpoints allow recovery from interruptions without data loss
 4. **Validation at each stage**: Data quality verified before proceeding to next phase
-5. **Syllabus as references only** (Phase 1): Breadcrumbs added but full syllabus extraction deferred to Phase 2+
 
 ## Notes
 

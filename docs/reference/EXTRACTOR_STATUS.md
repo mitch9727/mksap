@@ -10,6 +10,7 @@ The Rust MKSAP Extractor is the primary tool for extracting medical education qu
 - **System Coverage**: 16 system codes (including `fc` and `cs`)
 - **Question Types**: `mcq`, `qqq`, `vdx`, `cor`, `mqq`, `sq`
 - **Progress Tracking**: Discovery metadata and validation reports
+- **Valid Question Target**: 2,198 (invalidated questions excluded)
 
 To view current counts and completion ratios:
 

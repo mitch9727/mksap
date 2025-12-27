@@ -43,19 +43,10 @@ docs/
 │   ├── DESERIALIZATION_ISSUES.md     # API quirks
 │   ├── EXTRACTOR_STATUS.md           # Status & progress
 │   ├── QUESTION_ID_DISCOVERY.md      # Scope analysis
-│   ├── SYLLABUS_EXTRACTION.md        # Phase 2+ spec
 │   └── VIDEO_SVG_EXTRACTION.md       # Media spec
-│
-├── specifications/                   # Output specs (2 files)
-│   ├── MCQ_FORMAT.md                 # Output format
-│   └── examples/
-│       └── CVMCQ24041.md             # Example
-│
-└── risks/                            # Risk analysis (1 file)
-    └── POTENTIAL_SYLLABUS_ERRORS.md  # Phase 2+ risks
 ```
 
-**Total: 20 markdown files organized into 5 folders**
+**Total: Documentation organized into core folders**
 
 ### Files Reorganized
 
@@ -69,16 +60,14 @@ docs/
 | docs/rust/troubleshooting.md | docs/reference/TROUBLESHOOTING.md | Yes | ✅ Moved |
 | docs/rust/DESERIALIZATION_ISSUES.md | docs/reference/DESERIALIZATION_ISSUES.md | No | ✅ Moved |
 | docs/Question ID Discovery.md | docs/reference/QUESTION_ID_DISCOVERY.md | Yes | ✅ Moved |
-| docs/syllubus_extraction.md | docs/reference/SYLLABUS_EXTRACTION.md | Yes | ✅ Moved |
 | docs/video_svg_extraction.md | docs/reference/VIDEO_SVG_EXTRACTION.md | Yes | ✅ Moved |
-| docs/potential_syllubus_errors.md | docs/risks/POTENTIAL_SYLLABUS_ERRORS.md | No | ✅ Moved |
 | docs/project/DOCUMENTATION_UPDATE_SUMMARY.md | docs/project/CHANGELOG.md | Yes | ✅ Moved |
 
 ### Files Created
 
 | File | Purpose | Size |
 |------|---------|------|
-| PROJECT_TODOS.md | Master todo list with all 10 Phase 1 tasks | 350 lines |
+| PROJECT_TODOS.md | Master todo list with all 9 Phase 1 tasks | 350 lines |
 
 ### Files Kept (No Changes)
 
@@ -89,8 +78,6 @@ docs/
 | project/QUICKSTART.md | Command reference - intentional compressed version |
 | project/INDEX.md | Navigation guide - updated links only |
 | architecture/PROJECT_ORGANIZATION.md | Architecture overview - comprehensive reference |
-| specifications/MCQ_FORMAT.md | Output specification - unique content |
-| specifications/examples/CVMCQ24041.md | Format example - demonstration |
 | reference/* (all 10 files) | Technical documentation - no redundancy |
 
 ### Documentation Deleted
@@ -105,7 +92,7 @@ None. All files reorganized, none removed (they all contain unique value).
 
 This is your **single source of truth for progress tracking**. It includes:
 
-- **Phase 1** (10 detailed tasks with sub-tasks and success criteria)
+- **Phase 1** (9 detailed tasks with sub-tasks and success criteria)
 - **Phase 2-4** (high-level task lists, detailed plans to come after each phase)
 - **Progress summary table** (overall project status)
 - **Status indicators** (⬜ Pending, 🟨 In Progress, 🟩 Complete, 🔴 Blocked, ⚠️ At Risk)
@@ -143,10 +130,8 @@ This is your **single source of truth for progress tracking**. It includes:
 4. Implementation: PHASE_1_PLAN.md Task details
 
 **Planning Phase 2:**
-1. Specification: SYLLABUS_EXTRACTION.md
-2. Risk analysis: POTENTIAL_SYLLABUS_ERRORS.md
-3. References: QUESTION_ID_DISCOVERY.md
-4. Media extraction: VIDEO_SVG_EXTRACTION.md
+1. References: QUESTION_ID_DISCOVERY.md
+2. Media extraction: VIDEO_SVG_EXTRACTION.md
 
 ---
 
@@ -155,7 +140,7 @@ This is your **single source of truth for progress tracking**. It includes:
 ### ✅ Clarity
 - **No ambiguity** about where to find information
 - **One authoritative source** per topic
-- **Clear section names** (project, reference, architecture, specs, risks)
+- **Clear section names** (project, reference, architecture)
 
 ### ✅ Minimal Redundancy
 - **QUICKSTART** is intentional compressed version (not accidental duplication)
@@ -229,11 +214,8 @@ This is your **single source of truth for progress tracking**. It includes:
 | Problem-solving | reference/TROUBLESHOOTING.md |
 | Data quality | reference/VALIDATION.md |
 | API issues | reference/DESERIALIZATION_ISSUES.md |
-| Output format | specifications/MCQ_FORMAT.md |
 | Status update | reference/EXTRACTOR_STATUS.md |
 | Scope justification | reference/QUESTION_ID_DISCOVERY.md |
-| Phase 2 spec | reference/SYLLABUS_EXTRACTION.md |
-| Phase 2+ risks | risks/POTENTIAL_SYLLABUS_ERRORS.md |
 | Media extraction | reference/VIDEO_SVG_EXTRACTION.md |
 | Nav guide | project/INDEX.md |
 | Quick commands | project/QUICKSTART.md |
@@ -262,9 +244,9 @@ This is your **single source of truth for progress tracking**. It includes:
 
 ## Verification Checklist
 
-✅ All 20 documentation files present and organized
-✅ Clear folder structure (project, reference, architecture, specs, risks)
-✅ PROJECT_TODOS.md created with 10 Phase 1 tasks
+✅ All core documentation files present and organized
+✅ Clear folder structure (project, reference, architecture)
+✅ PROJECT_TODOS.md created with 9 Phase 1 tasks
 ✅ INDEX.md updated with new paths and better organization
 ✅ Phase 1 execution ready (PHASE_1_PLAN.md + PROJECT_TODOS.md)
 ✅ No redundant information (only intentional QUICKSTART compression)

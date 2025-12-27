@@ -12,12 +12,12 @@ Comprehensive documentation audit and alignment completed to support the new 4-p
 ## Files Deleted
 
 1. **docs/project/PROJECT_STATUS.md** ❌
-   - Reason: Contained outdated progress tracking (1,810 vs 2,233 questions)
+   - Reason: Contained outdated progress tracking (1,810 vs 2,198 questions)
    - Replacement: PHASE_1_PLAN.md (detailed roadmap) + Weekly progress reports during Phase 1
 
 2. **docs/TODOS.md** ❌
    - Reason: Incomplete and superseded by PHASE_1_PLAN.md
-   - Replacement: PHASE_1_PLAN.md (10 detailed tasks with success criteria)
+   - Replacement: PHASE_1_PLAN.md (9 detailed tasks with success criteria)
 
 ---
 
@@ -25,15 +25,14 @@ Comprehensive documentation audit and alignment completed to support the new 4-p
 
 1. **docs/project/PHASE_1_PLAN.md** ✅ (NEW - CRITICAL)
    - **Purpose**: Complete implementation roadmap for Phase 1 (Data Extraction)
-   - **Scope**: 10 detailed tasks with specific action items, success criteria, and risk handling
+   - **Scope**: 9 detailed tasks with specific action items, success criteria, and risk handling
    - **Content**:
-     - Task 1: Finalize question count (2,233 across 16 systems × 6 types)
+     - Task 1: Finalize question count (2,198 across 16 systems × 6 types)
      - Task 2-3: Update configuration and verify question type support
-     - Task 4: Complete question extraction (all 2,233 questions)
+     - Task 4: Complete question extraction (all 2,198 questions)
      - Task 5-6: Monitor and validate extraction
      - Task 7: Verify media files
      - Task 8: Audit deserialization issues
-     - Task 9: Extract syllabus breadcrumb references
      - Task 10: Final completion report and Phase 2 readiness
    - **Duration**: 2-4 weeks (dependent on rate limiting)
    - **Visibility**: Highest priority - linked from README.md, INDEX.md, all key docs
@@ -48,7 +47,7 @@ Comprehensive documentation audit and alignment completed to support the new 4-p
 
 ### README.md
 **Changes:**
-- Updated "Current Status" to reflect 2,233 target (was 1,810)
+- Updated "Current Status" to reflect 2,198 target (was 1,810)
 - Changed percentage to 34% (was 41.7%)
 - Added "Phase 1 - Data Extraction" callout with link to PHASE_1_PLAN.md
 - Reorganized documentation section: Added "Critical - Start Here" subsection
@@ -65,7 +64,7 @@ Comprehensive documentation audit and alignment completed to support the new 4-p
 - Added PHASE_1_PLAN.md as Item #1 (marked with ⭐)
 - Moved "Project Overview" below critical section
 - Added "Research & Analysis Documents" section
-- Included links to Question ID Discovery, syllabus_extraction, potential_syllabus_errors
+- Included links to Question ID Discovery and media extraction reference
 - Updated timestamp to December 25, 2025
 - Clarified future planning documents (marked "Phase 2+")
 
@@ -73,14 +72,14 @@ Comprehensive documentation audit and alignment completed to support the new 4-p
 
 ### docs/rust/overview.md
 **Changes:**
-- Updated "Current Status": 754/2,233 (was 754/1,810)
-- Added note explaining 1,810 vs 2,233 discrepancy
+- Updated "Current Status": 754/2,198 (was 754/1,810)
+- Added note explaining 1,810 vs 2,198 discrepancy
 - Updated "Question Types" to state 1 of 6 supported (mcq, cor, vdx, qqq, mqq, sq)
 - Rewrote "Coverage by System" table to show:
   - All 16 systems (was 12)
   - Target counts for each
   - Progress percentages
-  - Total: 754/2,233 (34%)
+  - Total: 754/2,198 (34%)
 - Updated "Next Steps" to reference PHASE_1_PLAN.md
 - Added 5 implementation steps aligned with Phase 1 tasks
 - Added reference to Question ID Discovery doc
@@ -117,8 +116,6 @@ Comprehensive documentation audit and alignment completed to support the new 4-p
 ✅ docs/rust/validation.md - Data quality
 ✅ docs/rust/troubleshooting.md - Troubleshooting
 ✅ docs/rust/DESERIALIZATION_ISSUES.md - API quirks
-✅ docs/specifications/MCQ_FORMAT.md - Output format spec
-✅ docs/specifications/examples/CVMCQ24041.md - Format example
 ✅ docs/Question ID Discovery.md - Critical analysis (now promoted)
 ✅ docs/syllubus_extraction.md - Phase 2+ spec
 ✅ docs/video_svg_extraction.md - Technical reference
@@ -142,8 +139,8 @@ README (high level)
 ### AFTER
 ```
 README (high level)
-├─ PHASE_1_PLAN ⭐ (detailed 10-task roadmap)
-├─ Question ID Discovery (why 2,233)
+├─ PHASE_1_PLAN ⭐ (detailed 9-task roadmap)
+├─ Question ID Discovery (why 2,198)
 ├─ PROJECT_ORGANIZATION (4-phase pipeline)
 ├─ INDEX (navigation guide with PHASE_1_PLAN first)
 ├─ QUICKSTART
@@ -156,12 +153,12 @@ README (high level)
 
 | Aspect | Before | After |
 |--------|--------|-------|
-| Question count | 1,810 (41.7% complete) | 2,233 (34% complete) |
+| Question count | 1,810 (41.7% complete) | 2,198 (34% complete) |
 | Systems | 12 (8 partial) | 16 (8 partial) |
 | Question types | 1 (mcq only) | 6 (mcq, cor, vdx, qqq, mqq, sq needed) |
 | Project phases | Not documented | 4-phase pipeline clearly defined |
 | Current phase | Not stated | Phase 1 (Data Extraction) |
-| Phase roadmap | Missing | PHASE_1_PLAN.md (10 detailed tasks) |
+| Phase roadmap | Missing | PHASE_1_PLAN.md (9 detailed tasks) |
 | Architecture | Simple overview | Comprehensive 4-phase pipeline doc |
 | Documentation visibility | Scattered | Hierarchical with critical docs at top |
 
@@ -185,7 +182,7 @@ README (high level)
 - Consistent cross-linking between documents
 
 ### ✅ Accuracy
-- Corrected question count (1,810 → 2,233)
+- Corrected question count (1,810 → 2,198)
 - Updated all progress percentages
 - Aligned all documents with new 4-phase model
 
@@ -200,7 +197,7 @@ README (high level)
 
 ### Phase 1 Execution
 1. Begin with Task 1 in PHASE_1_PLAN.md (Question ID Discovery)
-2. Follow 10 tasks sequentially
+2. Follow 9 tasks sequentially
 3. Track progress using weekly reports
 4. Complete all success criteria before Phase 2
 
@@ -231,18 +228,17 @@ README (high level)
 
 **Supporting Files:**
 - Rust guides (setup, usage, architecture, validation, troubleshooting)
-- Specifications (MCQ_FORMAT, examples)
-- Future planning (syllabus_extraction, video_svg_extraction, potential_syllabus_errors)
+- Future planning (video_svg_extraction)
 
 ---
 
 ## Verification Checklist
 
-✅ PHASE_1_PLAN.md created with 10 detailed tasks
+✅ PHASE_1_PLAN.md created with 9 detailed tasks
 ✅ Obsolete files deleted (PROJECT_STATUS.md, TODOS.md)
 ✅ README.md updated with correct targets and references
 ✅ INDEX.md reorganized with PHASE_1_PLAN as #1 priority
-✅ overview.md updated with 2,233 target and 16 systems
+✅ overview.md updated with 2,198 target and 16 systems
 ✅ PROJECT_ORGANIZATION.md completely restructured for 4-phase pipeline
 ✅ All cross-references updated and verified
 ✅ Documentation hierarchy established (critical → supporting → future)

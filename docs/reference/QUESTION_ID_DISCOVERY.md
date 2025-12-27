@@ -40,7 +40,9 @@ The extractor accounts for these 6 different question type suffixes:
 | **pm** | Pulmonary/Critical | 133 | 16 cor, 61 mcq, 17 mqq, 37 vdx |
 | **rm** | Rheumatology | 156 | 24 cor, 85 mcq, 18 mqq, 35 vdx |
 
-**Total: 2,233 questions**
+**Valid extraction target: 2,198 questions**
+
+Counts above reflect metadata IDs and may include invalidated questions.
 
 ---
 
@@ -95,7 +97,7 @@ The extractor accounts for these 6 different question type suffixes:
 GET /api/content_metadata.json
 ```
 
-This endpoint returns a JSON object with a `questions` array containing **all 2,233 question objects** with their IDs.
+This endpoint returns a JSON object with a `questions` array containing all question IDs, including invalidated entries.
 
 ### Step 2: Extract Question IDs from Metadata
 The questions array structure:
@@ -109,7 +111,7 @@ The questions array structure:
       "objective": "...",
       "hvc": true/false
     },
-    // ... 2,233 total questions
+    // ... includes invalidated questions
   ]
 }
 ```
@@ -145,7 +147,7 @@ FUNCTION discover_all_questions():
 
 **Advantages:**
 - 100% accurate - no guessing
-- Complete on first run - all 2,233 questions
+- Complete on first run - all valid questions
 - No missed IDs due to non-sequential numbering
 - Can detect deleted questions by comparing with previous run
 
@@ -274,8 +276,8 @@ You are writing a Rust program to discover all MKSAP question IDs and store them
 **Key Requirements:**
 
 1. **API Endpoint**: Use `/api/content_metadata.json` as the primary source
-   - This endpoint returns all 2,233 question IDs in the questions array
-   - Parse the `id` field from each question object
+   - This endpoint returns all question IDs in the questions array (includes invalidated)
+   - Parse the `id` field from each question object, then skip invalidated questions
 
 2. **Question ID Format**: Question IDs follow this pattern:
    - Format: `{prefix}{type}{year}`
@@ -315,7 +317,7 @@ You are writing a Rust program to discover all MKSAP question IDs and store them
 ```
 
 6. **Expected Output**:
-   - Total questions found: 2,233
+   - Total valid questions found: 2,198
    - Breakdown by specialty (16 prefixes)
    - Breakdown by type (6 types)
    - List of invalid IDs (if any)
@@ -333,7 +335,7 @@ You are writing a Rust program to discover all MKSAP question IDs and store them
    - Support incremental updates
 
 **Expected Result After Running:**
-- 2,233 total questions
+- 2,198 valid questions
 - Organized by 16 specialty prefixes
 - Organized by 6 question types
 - Ready for media extraction with accurate ID database
@@ -363,7 +365,7 @@ You are writing a Rust program to discover all MKSAP question IDs and store them
 5. **Use metadata endpoint** as source of truth instead of brute-force generation
 6. **Group by prefix + type + year** for better organization and debugging
 
-These changes will ensure you capture all 2,233 questions instead of missing ~30-40% of them.
+These changes will ensure you capture all 2,198 valid questions instead of missing ~30-40% of them.
 
 ---
 

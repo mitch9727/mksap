@@ -16,22 +16,22 @@
 
 ---
 
-## PHASE 1: Data Extraction - Complete Question Bank (2,233 questions)
+## PHASE 1: Data Extraction - Complete Question Bank (2,198 questions)
 
-**Phase Goal:** Extract all 2,233 MKSAP questions across 16 systems and 6 question types.
+**Phase Goal:** Extract all 2,198 valid MKSAP questions across 16 systems and 6 question types (35 invalidated questions excluded).
 
 **Detailed Roadmap:** See [PHASE_1_PLAN.md](PHASE_1_PLAN.md)
 
 ### Task 1: Finalize Question Count & Discovery Algorithm
 - **Status:** ⬜ Pending
-- **Details:** Confirm 2,233 total questions (16 systems × 6 question types)
+- **Details:** Confirm 2,198 valid questions (16 systems × 6 question types; invalidated questions excluded)
 - **Sub-tasks:**
   - ⬜ Read Question ID Discovery.md completely
   - ⬜ Test API metadata endpoint (`/api/content_metadata.json`)
   - ⬜ Execute discovery against live API
   - ⬜ Document final counts per system
   - ⬜ Create PHASE_1_DISCOVERY_RESULTS.md
-- **Success Criteria:** Question count verified and documented as 2,233
+- **Success Criteria:** Question count verified and documented as 2,198
 
 ### Task 2: Update Configuration with Accurate Counts
 - **Status:** ⬜ Pending
@@ -41,7 +41,7 @@
   - ⬜ Update ORGAN_SYSTEMS array (16 systems, all question types)
   - ⬜ Test compilation
   - ⬜ Verify question ID generation
-- **Success Criteria:** config.rs compiles, targets 2,233 questions total
+- **Success Criteria:** config.rs compiles, targets 2,198 questions total
 
 ### Task 3: Verify Question Type Support in Extractor
 - **Status:** ⬜ Pending
@@ -53,15 +53,15 @@
   - ⬜ Document QUESTION_TYPES_SUPPORT.md
 - **Success Criteria:** All 6 question types can be extracted
 
-### Task 4: Complete Question Extraction (All 2,233)
+### Task 4: Complete Question Extraction (All 2,198)
 - **Status:** ⬜ Pending
-- **Details:** Run extractor to extract all 2,233 questions from MKSAP API
+- **Details:** Run extractor to extract all 2,198 questions from MKSAP API
 - **Sub-tasks:**
   - ⬜ Prepare environment (MKSAP_SESSION cookie)
   - ⬜ Start extraction (./target/release/mksap-extractor)
   - ⬜ Wait for completion (~30+ hours due to rate limiting)
   - ⬜ Monitor progress using checkpoint files
-- **Success Criteria:** All 2,233 questions in mksap_data/ with minimal failures (<10)
+- **Success Criteria:** All 2,198 questions in mksap_data/ with minimal failures (<10)
 - **Estimated Duration:** 2-4 weeks (24-30+ hours of actual processing)
 
 ### Task 5: Monitor Extraction Progress & Handle Issues
@@ -77,14 +77,14 @@
 
 ### Task 6: Validate All Extracted Questions
 - **Status:** ⬜ Pending
-- **Details:** Run built-in validator on all 2,233 extracted questions
+- **Details:** Run built-in validator on all 2,198 extracted questions
 - **Sub-tasks:**
   - ⬜ Run: ./target/release/mksap-extractor validate
   - ⬜ Review validation_report.txt
   - ⬜ Check for missing 'critique' fields (critical for Phase 2)
   - ⬜ Spot-check 20 random questions across systems
   - ⬜ Create PHASE_1_VALIDATION_REPORT.md
-- **Success Criteria:** Validation shows 100% pass rate, 2,233 questions have 'critique' fields
+- **Success Criteria:** Validation shows 100% pass rate, 2,198 questions have 'critique' fields
 
 ### Task 7: Verify Media Files Downloaded
 - **Status:** ⬜ Pending
@@ -107,29 +107,17 @@
   - ⬜ Document any new patterns in DESERIALIZATION_ISSUES.md
 - **Success Criteria:** All JSONs parse cleanly, no critical deserialization blockers
 
-### Task 9: Extract Syllabus Breadcrumb References
-- **Status:** ⬜ Pending
-- **Details:** Add `related_syllabus_refs` field to each question JSON with breadcrumbs
-- **Sub-tasks:**
-  - ⬜ Understand current syllabus reference structure
-  - ⬜ Design breadcrumb extraction logic
-  - ⬜ Implement extraction (Rust or Python script)
-  - ⬜ Test on sample questions
-  - ⬜ Process all 2,233 questions
-  - ⬜ Document in SYLLABUS_BREADCRUMB_MAPPING.md
-- **Success Criteria:** All 2,233 questions have `related_syllabus_refs` field with syllabus sections
-
-### Task 10: Final Phase 1 Completion Report
+### Task 9: Final Phase 1 Completion Report
 - **Status:** ⬜ Pending
 - **Details:** Verify all Phase 1 goals met, generate completion report, prepare for Phase 2
 - **Sub-tasks:**
-  - ⬜ Verify all 9 tasks completed
+  - ⬜ Verify all 8 tasks completed
   - ⬜ Generate statistics (question count, media files, storage used)
   - ⬜ Create PHASE_1_COMPLETION_REPORT.md
   - ⬜ Create Phase 2 prerequisites checklist
   - ⬜ Backup mksap_data/ directory
   - ⬜ Document lessons learned
-- **Success Criteria:** Phase 1 complete, all 2,233 questions extracted with validation report, ready for Phase 2
+- **Success Criteria:** Phase 1 complete, all 2,198 questions extracted with validation report, ready for Phase 2
 
 ---
 
@@ -143,7 +131,7 @@
 1. Design LLM prompt for fact extraction
 2. Create Claude Code skill for batch processing
 3. Implement JSON schema validation
-4. Process all 2,233 questions (one isolated LLM call per question)
+4. Process all 2,198 questions (one isolated LLM call per question)
 5. Generate facts_backup_raw.jsonl (6,000-7,000 facts)
 6. QA sampling and prompt refinement
 
@@ -215,9 +203,7 @@
 
 **For Analysis & Planning:**
 - Question count justification: [docs/reference/QUESTION_ID_DISCOVERY.md](../reference/QUESTION_ID_DISCOVERY.md)
-- Phase 2+ syllabus plan: [docs/reference/SYLLABUS_EXTRACTION.md](../reference/SYLLABUS_EXTRACTION.md)
 - Media extraction reference: [docs/reference/VIDEO_SVG_EXTRACTION.md](../reference/VIDEO_SVG_EXTRACTION.md)
-- Risk analysis: [docs/risks/POTENTIAL_SYLLABUS_ERRORS.md](../risks/POTENTIAL_SYLLABUS_ERRORS.md)
 
 ---
 
@@ -225,11 +211,11 @@
 
 | Phase | Status | Tasks | Complete | Progress |
 |-------|--------|-------|----------|----------|
-| Phase 1 | 🟨 Starting | 10 | 0/10 | 0% |
+| Phase 1 | 🟨 Starting | 9 | 0/9 | 0% |
 | Phase 2 | ⬜ Pending | TBD | 0/? | 0% |
 | Phase 3 | ⬜ Pending | TBD | 0/? | 0% |
 | Phase 4 | ⬜ Pending | TBD | 0/? | 0% |
-| **Total** | **🟨 In Progress** | **~30** | **0/30** | **0%** |
+| **Total** | **🟨 In Progress** | **~29** | **0/29** | **0%** |
 
 ---
 
@@ -252,7 +238,7 @@ As you complete tasks:
 
 ## Key Milestones
 
-- **Phase 1 Complete:** All 2,233 questions extracted
+- **Phase 1 Complete:** All 2,198 questions extracted
 - **Phase 2 Complete:** ~6,700 atomic facts extracted
 - **Phase 3 Complete:** ~6,700 Anki cards generated
 - **Phase 4 Complete:** mksap.apkg ready to import

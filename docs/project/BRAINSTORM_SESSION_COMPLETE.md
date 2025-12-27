@@ -18,7 +18,7 @@ You now have a **complete, actionable 4-phase project plan** for converting MKSA
 ✅ **Clarified end goal**: Generate MKSAP Anki deck with extracted medical facts, media, and cloze deletions (not just data extraction)
 
 ✅ **Designed 4-phase pipeline**:
-- Phase 1: Data Extraction (2,233 questions across 16 systems, 6 question types)
+- Phase 1: Data Extraction (2,198 questions across 16 systems, 6 question types)
 - Phase 2: Intelligent Fact Extraction (Claude Code + LLM per question)
 - Phase 3: Anki Card Generation (Modular Rust pipeline, multiple cloze support)
 - Phase 4: Import & Validation (Generate .apkg file, test import)
@@ -39,20 +39,19 @@ You now have a **complete, actionable 4-phase project plan** for converting MKSA
 - Estimated 2-4 week duration
 
 **Tasks breakdown:**
-1. Finalize question count (2,233 across 16 systems, 6 types)
+1. Finalize question count (2,198 across 16 systems, 6 types)
 2. Implement Question ID discovery algorithm
 3. Update config.rs with accurate counts
-4. Complete question extraction (all 2,233)
+4. Complete question extraction (all 2,198)
 5. Monitor extraction & handle issues
 6. Validate all extracted questions
 7. Verify media files
 8. Audit deserialization issues
-9. Extract syllabus breadcrumb references
 10. Final completion report & Phase 2 readiness
 
 ### 3. Documentation Audit & Alignment
 ✅ **Removed obsolete files**:
-- docs/project/PROJECT_STATUS.md (outdated counts: 1,810 vs 2,233)
+- docs/project/PROJECT_STATUS.md (outdated counts: 1,810 vs 2,198)
 - docs/TODOS.md (incomplete, superseded by PHASE_1_PLAN.md)
 
 ✅ **Created new authoritative documents**:
@@ -60,7 +59,7 @@ You now have a **complete, actionable 4-phase project plan** for converting MKSA
 - docs/project/DOCUMENTATION_UPDATE_SUMMARY.md (this session's changes)
 
 ✅ **Updated key documents for accuracy**:
-- README.md (corrected to 2,233 target, promoted PHASE_1_PLAN to top)
+- README.md (corrected to 2,198 target, promoted PHASE_1_PLAN to top)
 - docs/project/INDEX.md (reorganized with critical docs at top)
 - docs/rust/overview.md (updated counts, 16 systems, 6 question types)
 - docs/architecture/PROJECT_ORGANIZATION.md (complete restructure for 4-phase pipeline)
@@ -75,8 +74,7 @@ Critical Path (Start Here)
 
 Supporting Documentation
 ├─ Rust guides (setup, usage, architecture, validation, troubleshooting)
-├─ Specifications (MCQ_FORMAT.md, examples)
-└─ Future planning docs (syllabus, video, error analysis)
+└─ Future planning docs (video extraction)
 ```
 
 ### 4. Risk & Uncertainty Handling
@@ -109,8 +107,6 @@ Supporting Documentation
 - Media association via question_id (clean, unambiguous)
 
 ✅ **Scope Decisions**:
-- Questions only in Phase 1 (syllabus as references)
-- Defer full syllabus extraction to Phase 2+
 - Reduce deduplication complexity by processing separately
 
 ---
@@ -150,7 +146,7 @@ Supporting Documentation
 ### Updated Core Documents
 3. **README.md** - Updated targets, promoted PHASE_1_PLAN
 4. **docs/project/INDEX.md** - Reorganized hierarchy
-5. **docs/rust/overview.md** - Corrected counts (2,233 target)
+5. **docs/rust/overview.md** - Corrected counts (2,198 target)
 6. **docs/architecture/PROJECT_ORGANIZATION.md** - Complete restructure (4-phase pipeline)
 
 ---
@@ -159,8 +155,7 @@ Supporting Documentation
 
 **Phase 1 (Data Extraction)**: 2-4 weeks
 - Implement question discovery (all 6 types)
-- Extract 2,233 questions from 16 systems
-- Validate & add syllabus references
+- Extract 2,198 questions from 16 systems
 
 **Phase 2 (Fact Extraction)**: 1-2 weeks
 - Design LLM prompt for atomic facts
@@ -185,13 +180,13 @@ Supporting Documentation
 
 **Resolved discrepancy:**
 - Old count: 1,810 questions (16 system codes, mcq only)
-- New count: 2,233 questions (16 systems, 6 question types)
+- New count: 2,198 questions (16 systems, 6 question types)
 - Explanation: Previous extraction missed 5 question types (cor, vdx, qqq, mqq, sq) and 4 systems
 
 **Confirmed by:**
-- Question ID Discovery.md (documented 2,233 with breakdown)
+- Question ID Discovery.md (documented 2,198 with breakdown)
 - PHASE_1_PLAN.md Task 1 (verify via API metadata endpoint)
-- All documentation updated to reflect 2,233 target
+- All documentation updated to reflect 2,198 target
 
 ---
 
@@ -199,7 +194,7 @@ Supporting Documentation
 
 ### Four-Phase Pipeline
 ```
-Questions (2,233) + Syllabus
+Questions (2,198) + Syllabus
          ↓
     PHASE 1: Extract
     (Rust extractors)
@@ -245,7 +240,7 @@ Questions (2,233) + Syllabus
 | Media association | Manual linking | Automatic via question_id |
 | Deduplication | Ignored | Explicit phase (Phase 3) |
 | Cloze generation | Manual | Automated Rust module |
-| Scalability | Months for 1,810 questions | Weeks for 2,233 questions |
+| Scalability | Months for 1,810 questions | Weeks for 2,198 questions |
 | Error handling | Manual fixing | Systematic validation & retry |
 | Integration | Manual Anki import | Automated .apkg generation |
 

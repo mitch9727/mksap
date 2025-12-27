@@ -569,20 +569,7 @@ The extractor **doesn't use hardcoded question counts**. Instead, it:
 
 ## Downstream Processing
 
-### MCQ Format Specification
-
-Extracted JSON is designed for conversion to **Anki-ready Markdown flashcards** following a strict specification in [docs/specifications/MCQ_FORMAT.md](docs/specifications/MCQ_FORMAT.md).
-
-**Key points**:
-- Gold-standard markdown with machine-readable structure
-- Stable heading order for CSV parsing
-- System emojis for visual categorization
-- True Statements (atomic, cloze-ready facts)
-- Extra(s) for clarifications (numbered by parent statement)
-- Supplemental materials (figures, videos, HTML tables)
-- Hierarchical tagging for Anki deck organization
-
-**Example output**: [docs/specifications/CVMCQ24041.md](docs/specifications/CVMCQ24041.md)
+Downstream formatting (fact extraction, card generation) is outside the current extraction scope.
 
 ## Common Issues
 
@@ -745,8 +732,6 @@ cat mksap_data/validation_report.txt
 - **[QUESTION_ID_DISCOVERY.md](docs/reference/QUESTION_ID_DISCOVERY.md)** - Understanding question counts
 - **[EXTRACTOR_STATUS.md](docs/reference/EXTRACTOR_STATUS.md)** - Current extraction progress
 - **[DESERIALIZATION_ISSUES.md](docs/reference/DESERIALIZATION_ISSUES.md)** - API response variations
-- **[MCQ_FORMAT.md](docs/specifications/MCQ_FORMAT.md)** - Output format specification
-- **[CVMCQ24041.md](docs/specifications/CVMCQ24041.md)** - Example Anki card
 
 ### Reports & History
 - **[reports/](docs/project/reports/)** - Extraction summaries and gap analysis
@@ -836,9 +821,8 @@ git commit -m "docs: update module organization in CLAUDE.md"
 
 ### For Development
 1. Read [RUST_ARCHITECTURE.md](docs/reference/RUST_ARCHITECTURE.md) for technical details
-2. Understand [MCQ Format Specification](docs/specifications/MCQ_FORMAT.md) for output format
-3. Check [TROUBLESHOOTING.md](docs/reference/TROUBLESHOOTING.md) for common issues
-4. Review module organization above to understand codebase structure
+2. Check [TROUBLESHOOTING.md](docs/reference/TROUBLESHOOTING.md) for common issues
+3. Review module organization above to understand codebase structure
 
 ### For Extraction
 1. Build project: `cd text_extractor && cargo build --release`
@@ -849,9 +833,9 @@ git commit -m "docs: update module organization in CLAUDE.md"
 
 ## Current Status
 
-**Project Phase**: Phase 1 - Data Extraction (98.4% complete)
+**Project Phase**: Phase 1 - Data Extraction (100% complete)
 **Extraction Method**: Discovery-based API extraction
-**Total Questions**: 2,198 extracted from 16 system codes
+**Total Questions**: 2,198 valid questions extracted from 16 system codes (invalidated excluded)
 **Validation Status**: Run `./target/release/mksap-extractor validate` for latest metrics
 **Next Phase**: Phase 2 - Fact Extraction (LLM-based processing)
 
@@ -872,4 +856,4 @@ for dir in mksap_data/*/; do echo "$(basename $dir): $(ls $dir | wc -l)"; done
 **Last Updated**: December 27, 2025
 **Project Status**: Active development - Phase 1 (Data Extraction)
 **Repository**: git@github.com:mitch9727/mksap.git
-**Extraction Progress**: 2,198 questions (98.4% complete)
+**Extraction Progress**: 2,198 questions (100% complete)

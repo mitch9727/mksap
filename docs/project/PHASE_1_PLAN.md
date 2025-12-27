@@ -1,15 +1,14 @@
 # PHASE 1: Complete Data Extraction - Detailed Implementation Plan
 
-**Phase Goal:** Ensure all 2,233 MKSAP questions are extracted with complete context, media, and syllabus references.
+**Phase Goal:** Ensure all 2,198 valid MKSAP questions are extracted with complete context and media (invalidated questions excluded).
 
-**Current Status:** ~754 questions extracted (35% of target 2,233)
+**Current Status:** 2,198 questions extracted (100% of target)
 
 **Expected Duration:** 2-4 weeks (dependent on API rate limiting and extraction speed)
 
 **Success Criteria:**
-- All 2,233 questions extracted and validated
+- All 2,198 questions extracted and validated
 - 100% media files downloaded
-- Syllabus breadcrumb references added
 - Zero critical deserialization errors
 - Validation report shows 100% pass rate
 
@@ -19,11 +18,11 @@
 
 ### Task 1: Finalize Question Count & Discovery Algorithm
 
-**Objective:** Determine exact question count and implement discovery algorithm to find all 2,233 questions.
+**Objective:** Determine exact question count and implement discovery algorithm to find all 2,198 questions.
 
 **Current Situation:**
 - PROJECT_STATUS.md claims 1,810 total questions
-- Question ID Discovery.md documents 2,233 total questions (accounting for 6 question types)
+- Question ID Discovery.md documents 2,198 total questions (accounting for 6 question types)
 - Discrepancy: 423 questions (19.6%) are missing from current extraction targets
 
 **Action Items:**
@@ -55,7 +54,7 @@
 
 **Success Check:**
 ```bash
-# Should confirm total of 2,233 questions
+# Should confirm total of 2,198 questions
 grep "total_questions" text_extractor/src/config.rs | awk '{sum+=$NF} END {print sum}'
 ```
 
@@ -67,7 +66,7 @@ grep "total_questions" text_extractor/src/config.rs | awk '{sum+=$NF} END {print
 
 ### Task 2: Update Configuration with Accurate Counts
 
-**Objective:** Update Rust extractor configuration to target all 2,233 questions.
+**Objective:** Update Rust extractor configuration to target all 2,198 questions.
 
 **Current File:** `text_extractor/src/config.rs` (lines 23-162)
 
@@ -97,7 +96,7 @@ grep "total_questions" text_extractor/src/config.rs | awk '{sum+=$NF} END {print
 
 5. Verify changes
    - Generate list of all target question IDs
-   - Compare total against 2,233
+   - Compare total against 2,198
    - Should match exactly
 
 **Deliverable:** `text_extractor/src/config.rs` updated with accurate counts. Code compiles successfully.
@@ -105,7 +104,7 @@ grep "total_questions" text_extractor/src/config.rs | awk '{sum+=$NF} END {print
 **Success Check:**
 ```bash
 ./target/release/mksap-extractor --list-all | wc -l
-# Should output approximately 2,233
+# Should output approximately 2,198
 ```
 
 **Risk:** If question type handling is not in extractor logic, extraction will still miss new types. Check Task 3.
@@ -162,9 +161,9 @@ grep "total_questions" text_extractor/src/config.rs | awk '{sum+=$NF} END {print
 
 ### Task 4: Complete Question Extraction
 
-**Objective:** Extract all 2,233 questions and store in mksap_data/ directory.
+**Objective:** Extract all 2,198 questions and store in mksap_data/ directory.
 
-**Estimated Time:** 10-30 hours (depending on rate limiting: 500ms per request × 2,233 = ~30 hours minimum, plus overhead)
+**Estimated Time:** 10-30 hours (depending on rate limiting: 500ms per request × 2,198 = ~30 hours minimum, plus overhead)
 
 **Action Items:**
 
@@ -206,17 +205,17 @@ grep "total_questions" text_extractor/src/config.rs | awk '{sum+=$NF} END {print
    ```
 
 6. Complete extraction
-   - Wait for all 2,233 questions to extract
+   - Wait for all 2,198 questions to extract
    - Verify zero (or minimal) failures in mksap_data_failed/
    - Record time taken and any issues encountered
 
-**Deliverable:** Complete mksap_data/ directory with all 2,233 questions.
+**Deliverable:** Complete mksap_data/ directory with all 2,198 questions.
 
 **Success Check:**
 ```bash
-# Should show ~2,233 question directories
+# Should show ~2,198 question directories
 find mksap_data -maxdepth 2 -type d ! -name ".*" ! -name "mksap_data" | wc -l
-# Should be ~2,233
+# Should be ~2,198
 
 # Should show minimal or zero failures
 ls -1 mksap_data_failed/ 2>/dev/null | wc -l
@@ -320,7 +319,7 @@ ls -1 mksap_data_failed/ 2>/dev/null | wc -l
    ```bash
    # Count total extracted questions
    find mksap_data -name "*.json" ! -path "*/.checkpoints/*" | wc -l
-   # Should be exactly 2,233
+   # Should be exactly 2,198
    ```
 
 5. Sample validation
@@ -349,7 +348,7 @@ grep -i "error\|critical" mksap_data/validation_report.txt
 | Missing 'critique' field | API didn't return it | Re-extract that question using retry logic |
 | Invalid JSON structure | Deserialization issue | Document in DESERIALIZATION_ISSUES.md, update models.rs if needed |
 | Missing media references | Media extraction didn't run | See Task 7 |
-| Count < 2,233 | Extraction incomplete | Verify all systems processed, re-run failed extractions |
+| Count < 2,198 | Extraction incomplete | Verify all systems processed, re-run failed extractions |
 
 **Dependencies:** Requires Task 4 to complete extraction.
 
@@ -484,88 +483,7 @@ echo $?  # Should return 0 (success)
 
 ---
 
-### Task 9: Extract Syllabus Breadcrumb References
-
-**Objective:** Add `related_syllabus_refs` field to each question JSON with section references.
-
-**Estimated Time:** 2-4 hours (could be automated with script)
-
-**Action Items:**
-
-1. Understand syllabus structure
-   - Review existing question JSON to see how syllabus references are stored
-   - Check `related_content` or `syllabus_references` field
-   - Example: `cccor25002.json` opened in IDE earlier
-   ```bash
-   jq '.related_content' mksap_data/cc/cccor25002/cccor25002.json
-   ```
-
-2. Design breadcrumb extraction logic
-   - Parse `related_content` field from each question
-   - Extract: section_id, section_title, hierarchy level
-   - Create structured array: `related_syllabus_refs`
-   - Example output:
-   ```json
-   {
-     "related_syllabus_refs": [
-       {
-         "section_id": "cc_001",
-         "section_title": "Acute Coronary Syndrome",
-         "section_path": "Cardiology > Acute Coronary Syndrome",
-         "url": "mksap.acponline.org/syllabus/..."
-       }
-     ]
-   }
-   ```
-
-3. Implement extraction
-   - Option A: Write Rust script to process all JSONs
-   - Option B: Write Python script for one-time processing
-   - Option C: Manual extraction (slow but thorough)
-   - Recommended: Rust script (stays in project ecosystem)
-
-4. Test extraction on sample questions
-   ```bash
-   # Extract breadcrumbs for one question
-   jq '.related_content' mksap_data/cc/cccor25002/cccor25002.json
-
-   # After processing, should see new field
-   jq '.related_syllabus_refs' mksap_data/cc/cccor25002/cccor25002.json
-   ```
-
-5. Process all questions
-   - Run extraction script on all 2,233 questions
-   - Update each question JSON with new field
-   - Verify: Each question updated successfully
-
-6. Validate completeness
-   ```bash
-   # Check how many questions have breadcrumb refs
-   grep -l "related_syllabus_refs" mksap_data/*/*.json | wc -l
-   # Should be 2,233 (or close, if some questions have no refs)
-   ```
-
-7. Document mapping
-   - Create `docs/SYLLABUS_BREADCRUMB_MAPPING.md`
-   - Include: Example refs per system
-   - Note: Any questions without refs (expected for some)
-
-**Deliverable:** All 2,233 questions updated with `related_syllabus_refs` field.
-
-**Success Check:**
-```bash
-# Sample a question and verify new field
-jq '.related_syllabus_refs' mksap_data/cv/cvmcq24001/cvmcq24001.json
-# Should return array with at least one syllabus reference
-```
-
-**Risk:** If `related_content` field format varies widely, extraction may need custom logic per system.
-
-**Dependencies:** Requires Task 4 extraction completion.
-
----
-
-### Task 10: Final Phase 1 Completion Report
+### Task 9: Final Phase 1 Completion Report
 
 **Objective:** Verify all Phase 1 goals met. Generate comprehensive report. Prepare for Phase 2.
 
@@ -573,14 +491,13 @@ jq '.related_syllabus_refs' mksap_data/cv/cvmcq24001/cvmcq24001.json
 
 **Action Items:**
 
-1. Verify all tasks 1-9 complete
+1. Verify all tasks 1-8 complete
    - Check: ✅ Question count finalized
    - Check: ✅ Config updated
-   - Check: ✅ Extraction complete (2,233 questions)
+   - Check: ✅ Extraction complete (2,198 questions)
    - Check: ✅ Validation passed
    - Check: ✅ Media verified
    - Check: ✅ Deserialization audit done
-   - Check: ✅ Breadcrumb refs added
 
 2. Generate statistics
    ```bash
@@ -604,7 +521,7 @@ jq '.related_syllabus_refs' mksap_data/cv/cvmcq24001/cvmcq24001.json
    - Title: PHASE 1 Complete ✅
    - Date: [today]
    - Summary:
-     - Questions extracted: 2,233
+     - Questions extracted: 2,198
      - Media files: [count]
      - Storage: [size]
      - Validation: 100% pass
@@ -617,7 +534,7 @@ jq '.related_syllabus_refs' mksap_data/cv/cvmcq24001/cvmcq24001.json
    ```markdown
    ## Phase 2 Prerequisites - Validation Checklist
 
-   - [ ] All 2,233 questions extracted
+   - [ ] All 2,198 questions extracted
    - [ ] All questions have 'critique' field populated
    - [ ] All questions have valid JSON structure
    - [ ] Media verified downloaded
@@ -650,11 +567,11 @@ jq '.related_syllabus_refs' mksap_data/cv/cvmcq24001/cvmcq24001.json
 # Phase 1 complete when:
 # 1. File count matches target
 find mksap_data -name "*.json" ! -path "*/.checkpoints/*" | wc -l
-# Returns: 2,233
+# Returns: 2,198
 
 # 2. All have critique field
 find mksap_data -name "*.json" ! -path "*/.checkpoints/*" -exec jq -e '.critique' {} \; 2>/dev/null | wc -l
-# Returns: 2,233
+# Returns: 2,198
 
 # 3. Validation report exists and shows 0 critical errors
 cat mksap_data/validation_report.txt | grep -i critical | wc -l
@@ -669,9 +586,9 @@ cat mksap_data/validation_report.txt | grep -i critical | wc -l
 
 **All of the following must be true:**
 
-1. ✅ Question count finalized at 2,233 (all 16 systems, all 6 question types)
-2. ✅ All 2,233 questions extracted to mksap_data/{system}/{question_id}/ directories
-3. ✅ Each question has complete JSON with: question_id, critique, options, media_refs, related_syllabus_refs
+1. ✅ Question count finalized at 2,198 (all 16 systems, all 6 question types)
+2. ✅ All 2,198 questions extracted to mksap_data/{system}/{question_id}/ directories
+3. ✅ Each question has complete JSON with: question_id, critique, options, media_refs
 4. ✅ All referenced media downloaded and organized in figures/ subdirectories
 5. ✅ Validation report shows 100% pass (zero critical errors)
 6. ✅ Deserialization issues documented (if any found)
@@ -732,7 +649,7 @@ cat mksap_data/validation_report.txt | grep -i critical | wc -l
 While extraction runs (Task 4), you can work on:
 - Task 5: Monitoring
 - Task 8: Auditing JSON structure (once some questions extracted)
-- Task 9: Breadcrumb extraction script preparation
+- Task 9: Completion report preparation (drafts, stats templates)
 
 These can happen in parallel. Extraction is I/O bound (waiting for API), so multiple tasks can run concurrently.
 

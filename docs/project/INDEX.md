@@ -9,6 +9,7 @@
 1. **[README.md](README.md)** - Project overview and current status
 2. **[PROJECT_TODOS.md](PROJECT_TODOS.md)** - Master todo list (track progress here)
 3. **[PHASE_1_PLAN.md](PHASE_1_PLAN.md)** - Detailed Phase 1 execution roadmap
+4. **[EXTRACTION_SCOPE.md](EXTRACTION_SCOPE.md)** - Final extraction scope and success criteria
 
 ---
 
@@ -38,22 +39,13 @@
 
 ## 🔍 Analysis & Discovery
 
-- **[QUESTION_ID_DISCOVERY.md](../reference/QUESTION_ID_DISCOVERY.md)** - Why 2,233 questions (not 1,810)
-
----
-
-## 📊 Output Specifications
-
-- **[MCQ_FORMAT.md](../specifications/MCQ_FORMAT.md)** - Anki card output format specification
-- **[CVMCQ24041.md](../specifications/CVMCQ24041.md)** - Example MCQ card demonstrating format
+- **[QUESTION_ID_DISCOVERY.md](../reference/QUESTION_ID_DISCOVERY.md)** - Why 2,198 valid questions (invalidated excluded)
 
 ---
 
 ## 🔮 Future Planning (Phase 2+)
 
-- **[SYLLABUS_EXTRACTION.md](../reference/SYLLABUS_EXTRACTION.md)** - Phase 2+ syllabus extraction specification
 - **[VIDEO_SVG_EXTRACTION.md](../reference/VIDEO_SVG_EXTRACTION.md)** - Video and SVG media extraction reference
-- **[POTENTIAL_SYLLABUS_ERRORS.md](../risks/POTENTIAL_SYLLABUS_ERRORS.md)** - Risk analysis for Phase 2+
 
 ---
 

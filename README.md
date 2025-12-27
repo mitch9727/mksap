@@ -78,7 +78,6 @@ MKSAP_SESSION=... ./target/release/media-extractor download --all --data-dir ../
 ### Project Planning & Specifications
 
 - [Project Overview](docs/project/README.md) - Project goals
-- [MCQ Format Specification](docs/specifications/MCQ_FORMAT.md) - Anki card output format
 - [Architecture Guide](docs/architecture/PROJECT_ORGANIZATION.md) - Codebase organization
 
 ## Data Structure

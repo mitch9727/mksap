@@ -24,8 +24,7 @@ considering the extraction phase complete.
 ## Coverage and Counts
 
 - The authoritative extraction target is 2,198 valid question IDs.
-- The previously cited 2,233 count includes 35 invalidated questions that should
-  be excluded.
+- The previously cited count includes 35 invalidated questions that should be excluded.
 
 ## Completion Criteria
 

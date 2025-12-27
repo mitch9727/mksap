@@ -1,14 +1,26 @@
+#[path = "media_api.rs"]
 pub mod api;
+#[path = "media_browser.rs"]
 pub mod browser;
+#[path = "media_browser_download.rs"]
 pub mod browser_download;
+#[path = "media_discovery.rs"]
 pub mod discovery;
+#[path = "media_discovery_statistics.rs"]
 mod discovery_statistics;
+#[path = "media_discovery_types.rs"]
 mod discovery_types;
+#[path = "media_download.rs"]
 pub mod download;
+#[path = "media_file_store.rs"]
 pub mod file_store;
+#[path = "media_ids.rs"]
 pub mod media_ids;
+#[path = "media_metadata.rs"]
 pub mod metadata;
+#[path = "media_render.rs"]
 pub mod render;
+#[path = "media_session.rs"]
 pub mod session;
 
 use anyhow::{Context, Result};

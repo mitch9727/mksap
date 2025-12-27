@@ -32,10 +32,8 @@
 
 ## Unused Or Legacy Code Candidates
 
-- `extractor/src/media/file_store.rs`: `backfill_inline_table_metadata` and
-  inline table parsing helpers are unused (no CLI command wired).
-- `extractor/src/media/file_store.rs`: text normalization/footnote helpers are
-  unused in the current media update flow (see build warnings).
+- Inline table metadata backfill helpers were removed during consolidation;
+  reintroduce only if we need a dedicated backfill pass.
 - `extractor/src/models.rs`: `RelatedContent` list field remains in the
   output schema even though related content extraction is out of scope. Decide
   whether to rename or remove this field to reduce confusion.

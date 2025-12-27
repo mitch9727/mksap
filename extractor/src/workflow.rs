@@ -13,7 +13,7 @@ use super::MKSAPExtractor;
 impl MKSAPExtractor {
     pub async fn extract_category(
         &self,
-        category: &crate::categories::Category,
+        category: &crate::config::Category,
         refresh_existing: bool,
     ) -> Result<usize> {
         info!("Extracting: {}", category.name);

@@ -54,6 +54,13 @@ impl OrganSystem {
     // Intentionally empty - struct is pure configuration data
 }
 
+#[derive(Debug, Clone)]
+pub struct Category {
+    pub code: String,
+    pub name: String,
+    pub question_prefix: String,
+}
+
 /// Initialize all MKSAP question system codes (16 total).
 ///
 /// # Returns
@@ -173,6 +180,20 @@ pub fn init_organ_systems() -> Vec<OrganSystem> {
             baseline_2024_count: 131,
         },
     ]
+}
+
+pub fn build_categories_from_config() -> Vec<Category> {
+    init_organ_systems()
+        .into_iter()
+        .map(|sys| {
+            let id = sys.id;
+            Category {
+                code: id.clone(),
+                name: sys.name,
+                question_prefix: id,
+            }
+        })
+        .collect()
 }
 
 /// Look up a question system code by its unique identifier.

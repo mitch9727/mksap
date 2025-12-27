@@ -7,7 +7,7 @@ use std::path::Path;
 use std::time::Duration;
 use tracing::{info, warn};
 
-use super::browser::{BrowserOptions, BrowserSession};
+use super::browser::{dedupe_urls, extract_svg_urls, BrowserOptions, BrowserSession};
 use super::discovery::{DiscoveryResults, QuestionMedia};
 use super::file_store::{collect_question_entries, update_question_json, MediaUpdate, SvgMetadata};
 use super::metadata::{extract_html_text, for_each_metadata_item, resolve_metadata_id};
@@ -127,7 +127,7 @@ pub async fn run_browser_download(
         let mut seen_svg_metadata = HashSet::new();
 
         if download_svgs {
-            let urls = dedupe_ordered(browser_media.svg_urls);
+            let urls = dedupe_urls(browser_media.svg_urls);
             let expected_svg_ids: Vec<String> = expected_media
                 .svgs
                 .iter()
@@ -261,14 +261,6 @@ fn derive_media_id_from_url(url: &str) -> String {
     filename.split('.').next().unwrap_or("media").to_string()
 }
 
-fn dedupe_ordered(values: Vec<String>) -> Vec<String> {
-    let mut seen = HashSet::new();
-    values
-        .into_iter()
-        .filter(|value| seen.insert(value.clone()))
-        .collect()
-}
-
 fn push_unique(target: &mut Vec<String>, seen: &mut HashSet<String>, value: Option<String>) {
     if let Some(value) = value {
         if seen.insert(value.clone()) {
@@ -372,15 +364,6 @@ fn extract_figcaption(block: &str) -> Option<String> {
     } else {
         Some(caption)
     }
-}
-
-fn extract_svg_urls(html: &str) -> Vec<String> {
-    let mut urls = Vec::new();
-    let re = Regex::new(r#"src="([^"]+\.svg[^"]*)""#).unwrap();
-    for cap in re.captures_iter(html) {
-        urls.push(cap[1].to_string());
-    }
-    urls
 }
 
 async fn download_svg(client: &Client, question_dir: &Path, url: &str) -> Result<Option<String>> {

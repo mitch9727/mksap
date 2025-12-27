@@ -234,7 +234,7 @@ impl BrowserSession {
     }
 }
 
-fn extract_svg_urls(html: &str) -> Vec<String> {
+pub(crate) fn extract_svg_urls(html: &str) -> Vec<String> {
     let mut urls = Vec::new();
     let re = Regex::new(r#"src="([^"]+\.svg[^"]*)""#).unwrap();
     for cap in re.captures_iter(html) {
@@ -252,7 +252,7 @@ fn extract_inline_svgs(html: &str) -> Vec<String> {
     svgs
 }
 
-fn dedupe_urls(urls: Vec<String>) -> Vec<String> {
+pub(crate) fn dedupe_urls(urls: Vec<String>) -> Vec<String> {
     let mut seen = std::collections::HashSet::new();
     urls.into_iter()
         .filter(|url| seen.insert(url.clone()))

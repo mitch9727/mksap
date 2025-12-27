@@ -74,7 +74,7 @@ impl MKSAPExtractor {
 
     pub async fn list_remaining_ids(
         &self,
-        categories: &[crate::categories::Category],
+        categories: &[crate::config::Category],
     ) -> Result<usize> {
         let mut remaining: Vec<String> = Vec::new();
 

@@ -7,16 +7,12 @@ use std::path::Path;
 use std::time::Duration;
 use tracing::{info, warn};
 
-use super::browser::{BrowserMedia, BrowserOptions, BrowserSession};
+use super::browser::{BrowserOptions, BrowserSession};
 use super::browser_media;
 use super::discovery::{DiscoveryResults, QuestionMedia};
-use super::file_store::{
-    collect_question_entries, update_question_json, MediaUpdate, SvgMetadata, VideoMetadata,
-};
-use super::metadata::{extract_dimensions, extract_html_text, for_each_metadata_item};
+use super::file_store::{collect_question_entries, update_question_json, MediaUpdate, SvgMetadata};
+use super::metadata::{extract_html_text, for_each_metadata_item};
 use super::session;
-
-const VIDEO_CLOUDFRONT_BASE: &str = "https://d2chybfyz5ban.cloudfront.net/hashed_figures";
 
 pub async fn run_browser_download(
     client: &Client,
@@ -24,7 +20,6 @@ pub async fn run_browser_download(
     data_dir: &str,
     discovery_file: &str,
     question_id: Option<&str>,
-    download_videos: bool,
     download_svgs: bool,
     webdriver_url: &str,
     headless: bool,
@@ -33,8 +28,8 @@ pub async fn run_browser_download(
     password: Option<String>,
     login_timeout_secs: u64,
 ) -> Result<()> {
-    if !download_videos && !download_svgs {
-        warn!("Browser download requested without videos or svgs enabled.");
+    if !download_svgs {
+        warn!("Browser download requested without SVGs enabled.");
         return Ok(());
     }
 
@@ -48,9 +43,7 @@ pub async fn run_browser_download(
 
     let mut media_by_id: HashMap<String, QuestionMedia> = HashMap::new();
     for (question_id, media) in results.questions {
-        if (download_videos && !media.videos.is_empty())
-            || (download_svgs && !media.svgs.is_empty())
-        {
+        if download_svgs && !media.svgs.is_empty() {
             media_by_id.insert(question_id, media);
         }
     }
@@ -83,12 +76,6 @@ pub async fn run_browser_download(
         "Processing {} questions for browser media downloads",
         targets.len()
     );
-
-    let video_metadata_by_id = if download_videos {
-        load_video_metadata(client, base_url).await?
-    } else {
-        HashMap::new()
-    };
 
     let svg_metadata_by_id = if download_svgs {
         load_svg_metadata(client, base_url).await?
@@ -130,89 +117,15 @@ pub async fn run_browser_download(
         };
 
         let browser_media = browser
-            .extract_media(qid, download_videos, download_svgs)
+            .extract_media(qid, download_svgs)
             .await
             .with_context(|| format!("Failed to extract media from {}", qid))?;
 
         let caption_map = extract_caption_map(&browser_media.page_html);
 
         let mut update = MediaUpdate::default();
-        let mut seen_video_files = HashSet::new();
         let mut seen_svg_files = HashSet::new();
-        let mut seen_video_metadata = HashSet::new();
         let mut seen_svg_metadata = HashSet::new();
-
-        if download_videos {
-            let mut urls = dedupe_ordered(browser_media.video_urls.clone());
-            if urls.is_empty() {
-                let metadata_urls =
-                    build_video_urls_from_metadata(&expected_media.videos, &video_metadata_by_id);
-                if !metadata_urls.is_empty() {
-                    warn!(
-                        "{}: using mp4Hash metadata for {} video URLs",
-                        qid,
-                        metadata_urls.len()
-                    );
-                    urls = metadata_urls;
-                }
-            }
-            if urls.is_empty() {
-                let fallback_urls = collect_video_fallbacks(&browser_media);
-                if !fallback_urls.is_empty() {
-                    warn!(
-                        "{}: no direct video URLs found; trying {} fallback URLs",
-                        qid,
-                        fallback_urls.len()
-                    );
-                    urls = fallback_urls;
-                } else {
-                    warn!("{}: no video URLs detected in DOM or resource logs", qid);
-                }
-            }
-            let expected_video_ids: Vec<String> = expected_media
-                .videos
-                .iter()
-                .map(|video| video.video_id.clone())
-                .collect();
-
-            let (assignments, leftovers) =
-                assign_ids_to_urls(&expected_video_ids, &urls, &caption_map);
-
-            for assignment in assignments {
-                let path = browser_media::videos::download_video(
-                    client,
-                    &entry.question_dir,
-                    &assignment.url,
-                )
-                .await?;
-
-                push_unique(&mut update.videos, &mut seen_video_files, path.clone());
-
-                if !assignment.id.is_empty() && seen_video_metadata.insert(assignment.id.clone()) {
-                    let mut metadata = video_metadata_by_id
-                        .get(&assignment.id)
-                        .cloned()
-                        .unwrap_or_else(|| fallback_video_metadata(&assignment.id));
-                    metadata.file = path;
-                    if metadata.caption.is_none() {
-                        metadata.caption = assignment.caption.clone();
-                    }
-                    if metadata.title.is_none() {
-                        metadata.title = assignment.caption;
-                    }
-                    update.metadata.videos.push(metadata);
-                }
-            }
-
-            for leftover_id in leftovers {
-                if seen_video_metadata.insert(leftover_id.clone()) {
-                    update
-                        .metadata
-                        .videos
-                        .push(fallback_video_metadata(&leftover_id));
-                }
-            }
-        }
 
         if download_svgs {
             let urls = dedupe_ordered(browser_media.svg_urls);
@@ -282,7 +195,7 @@ pub async fn run_browser_download(
             }
         }
 
-        if update.videos.is_empty() && update.svgs.is_empty() && update.metadata.is_empty() {
+        if update.svgs.is_empty() && update.metadata.is_empty() {
             continue;
         }
 
@@ -368,81 +281,6 @@ fn push_unique(target: &mut Vec<String>, seen: &mut HashSet<String>, value: Opti
     }
 }
 
-fn build_video_urls_from_metadata(
-    videos: &[super::discovery::VideoReference],
-    metadata: &HashMap<String, VideoMetadata>,
-) -> Vec<String> {
-    let mut urls = Vec::new();
-    for video in videos {
-        if let Some(meta) = metadata.get(&video.video_id) {
-            if let Some(hash) = meta.mp4_hash.as_deref() {
-                urls.push(format!(
-                    "{}/{}.{}.mp4",
-                    VIDEO_CLOUDFRONT_BASE, video.video_id, hash
-                ));
-            }
-        }
-    }
-    dedupe_ordered(urls)
-}
-
-fn collect_video_fallbacks(media: &BrowserMedia) -> Vec<String> {
-    let mut urls = Vec::new();
-    urls.extend(
-        media
-            .performance_urls
-            .iter()
-            .filter(|url| is_video_candidate(url))
-            .cloned(),
-    );
-    urls.extend(
-        media
-            .dom_urls
-            .iter()
-            .filter(|url| is_video_candidate(url))
-            .cloned(),
-    );
-    urls.extend(
-        media
-            .resource_urls
-            .iter()
-            .filter(|url| is_video_candidate(url))
-            .cloned(),
-    );
-    dedupe_ordered(urls)
-}
-
-fn is_video_candidate(url: &str) -> bool {
-    let lower = url.to_ascii_lowercase();
-    if lower.starts_with("blob:") {
-        return false;
-    }
-
-    let has_video_hint = lower.contains("video") || lower.contains("vid");
-    if !has_video_hint {
-        return false;
-    }
-
-    let excluded_exts = [
-        ".js", ".css", ".png", ".jpg", ".jpeg", ".svg", ".gif", ".json",
-    ];
-
-    !excluded_exts.iter().any(|ext| lower.contains(ext))
-}
-
-fn fallback_video_metadata(video_id: &str) -> VideoMetadata {
-    VideoMetadata {
-        video_id: video_id.to_string(),
-        file: None,
-        title: None,
-        short_title: None,
-        width: None,
-        height: None,
-        caption: None,
-        mp4_hash: None,
-    }
-}
-
 fn fallback_svg_metadata(svg_id: &str) -> SvgMetadata {
     SvgMetadata {
         svg_id: svg_id.to_string(),
@@ -450,20 +288,6 @@ fn fallback_svg_metadata(svg_id: &str) -> SvgMetadata {
         title: None,
         caption: None,
     }
-}
-
-async fn load_video_metadata(
-    client: &Client,
-    base_url: &str,
-) -> Result<HashMap<String, VideoMetadata>> {
-    let metadata = super::fetch_content_metadata(client, base_url).await?;
-    let mut videos_by_id = HashMap::new();
-
-    for_each_metadata_item(&metadata, "videos", |fallback_id, video| {
-        insert_video_metadata(&mut videos_by_id, fallback_id, video);
-    });
-
-    Ok(videos_by_id)
 }
 
 async fn load_svg_metadata(
@@ -478,41 +302,6 @@ async fn load_svg_metadata(
     });
 
     Ok(svgs_by_id)
-}
-
-fn insert_video_metadata(
-    videos_by_id: &mut HashMap<String, VideoMetadata>,
-    fallback_id: Option<&str>,
-    video: &Value,
-) {
-    let video_id = video
-        .get("id")
-        .and_then(|v| v.as_str())
-        .or(fallback_id)
-        .unwrap_or("unknown");
-
-    let title = extract_html_text(video.get("title"));
-    let short_title = extract_html_text(video.get("shortTitle"));
-    let caption = extract_html_text(video.get("caption"));
-    let (width, height) = extract_dimensions(video);
-    let mp4_hash = video
-        .get("mp4Hash")
-        .and_then(|v| v.as_str())
-        .map(|v| v.to_string());
-
-    videos_by_id.insert(
-        video_id.to_string(),
-        VideoMetadata {
-            video_id: video_id.to_string(),
-            file: None,
-            title,
-            short_title,
-            width,
-            height,
-            caption,
-            mp4_hash,
-        },
-    );
 }
 
 fn insert_svg_metadata(
@@ -571,9 +360,6 @@ fn extract_caption_map(html: &str) -> HashMap<String, String> {
             None => continue,
         };
 
-        for url in extract_video_urls(block) {
-            captions.entry(url).or_insert_with(|| caption.clone());
-        }
         for url in extract_svg_urls(block) {
             captions.entry(url).or_insert_with(|| caption.clone());
         }
@@ -594,15 +380,6 @@ fn extract_figcaption(block: &str) -> Option<String> {
     } else {
         Some(caption)
     }
-}
-
-fn extract_video_urls(html: &str) -> Vec<String> {
-    let mut urls = Vec::new();
-    let re = Regex::new(r#"src="([^"]+\.mp4[^"]*)""#).unwrap();
-    for cap in re.captures_iter(html) {
-        urls.push(cap[1].to_string());
-    }
-    urls
 }
 
 fn extract_svg_urls(html: &str) -> Vec<String> {

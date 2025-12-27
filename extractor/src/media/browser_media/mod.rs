@@ -1,7 +1,6 @@
 use std::path::Path;
 
 pub mod svgs;
-pub mod videos;
 
 pub fn filename_from_url(url: &str) -> String {
     let trimmed = url.split('?').next().unwrap_or(url);

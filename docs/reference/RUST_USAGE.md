@@ -126,7 +126,7 @@ By default, the extractor writes to `../mksap_data` relative to `extractor/`, so
 All metadata lives in the JSON file; there is no separate `_metadata.txt` file.
 
 #### Media Files (Integrated)
-The extractor initializes empty `media` arrays. Run the media commands to populate files and update JSON:
+The extractor initializes empty `media` arrays. Media commands populate figures/tables/SVGs; videos are manual downloads:
 
 ```
 mksap_data/cv/cvmcq24001/
@@ -134,7 +134,7 @@ mksap_data/cv/cvmcq24001/
 ├── figures/   # images
 ├── tables/    # HTML tables
 ├── svgs/
-└── videos/
+└── videos/    # manual downloads
 ```
 
 ## Resuming Interrupted Extractions
@@ -317,7 +317,11 @@ Media commands:
 ./target/release/mksap-extractor media-discover
 ./target/release/mksap-extractor media-download --all
 ./target/release/mksap-extractor media-download --question-id cvmcq24001
+./target/release/mksap-extractor media-browser --all   # SVGs only
 ```
+
+Video files are manual downloads. Use `media_discovery.txt` (VIDEO QUESTION IDS)
+to locate questions that contain videos.
 
 Environment:
 

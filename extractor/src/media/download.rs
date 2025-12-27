@@ -12,7 +12,7 @@ use super::file_store::{
 };
 use super::media_ids::{
     collect_inline_table_nodes, extract_content_ids, extract_table_ids_from_tables_content,
-    is_figure_id, is_table_id,
+    inline_table_id, is_figure_id, is_table_id,
 };
 use super::metadata::{extract_html_text, for_each_metadata_item};
 use super::render::{pretty_format_html, render_node};
@@ -197,7 +197,7 @@ async fn collect_media_updates(
             if seen_tables.insert(relative.clone()) {
                 update.tables.push(relative.clone());
             }
-            let inline_id = format!("inline_table_{}", index + 1);
+            let inline_id = inline_table_id(index);
             if seen_table_metadata.insert(inline_id.clone()) {
                 update.metadata.tables.push(TableMetadata {
                     table_id: inline_id,

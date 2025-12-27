@@ -110,7 +110,7 @@ Checkpoints are stored in `mksap_data/.checkpoints/` (default output is `../mksa
 
 Each question directory contains:
 - `{question_id}.json` - Complete structured data
-- `figures/`, `tables/`, `videos/`, `svgs/` - Media assets (if any)
+- `figures/`, `tables/`, `videos/`, `svgs/` - Media assets (videos are manual downloads)
 
 See [config.rs](extractor/src/config.rs) for complete system definitions.
 

@@ -12,7 +12,7 @@ considering the extraction phase complete.
   - HTML tables saved under `tables/`.
   - Figures (PNG/JPG/SVG) saved under `figures/`.
   - Browser-extracted SVGs saved under `svgs/`.
-  - Browser-extracted videos saved under `videos/`.
+  - Video files downloaded manually into `videos/` using the discovery report.
 - Critique hyperlink extraction from the critique/exposition region into
   `critique_links`.
 
@@ -26,11 +26,11 @@ considering the extraction phase complete.
 1. Text extraction produces valid JSON for all 2,198 IDs.
 2. Validation reports 100% coverage for discovered valid IDs.
 3. Media extraction fills `media` and `media_metadata` with files on disk for
-   all referenced tables, figures, SVGs, and videos.
+   all referenced tables, figures, and SVGs; videos are tracked for manual download.
 4. `critique_links` includes all hyperlinks present in critique content.
 
 ## Operational Notes
 
 - Invalidated questions are skipped and should not be counted as missing.
-- Media extraction includes both API-driven figures/tables and browser-driven
-  SVGs/videos.
+- Media extraction includes API-driven figures/tables and browser-driven SVGs.
+- Video URLs are not downloaded automatically; use `media_discovery.txt` to guide manual download.

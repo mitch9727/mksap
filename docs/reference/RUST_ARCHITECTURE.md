@@ -49,7 +49,7 @@ pub struct OrganSystem {
 - `QuestionMetadata` - Metadata fields
 - `UserPerformance` - Answer tracking fields
 - `RelatedContent` - Related content references and learning plan topic
-- `MediaFiles` - Tables/images/videos/SVGs arrays
+- `MediaFiles` - Tables/images/videos/SVGs arrays (video files are manual)
 
 **Serialization**: All structures derive `Serialize`/`Deserialize` for JSON conversion
 
@@ -111,7 +111,7 @@ pub struct ValidationResult {
 
 **Responsibilities**:
 - Discover media content IDs after text extraction
-- Download images, tables, videos, and SVGs
+- Download images, tables, and SVGs (videos are manual)
 - Update the `media` field in each `{question_id}.json`
 - Store assets alongside question folders
 

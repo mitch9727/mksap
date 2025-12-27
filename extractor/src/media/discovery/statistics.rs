@@ -44,6 +44,8 @@ pub struct DiscoveryStatistics {
     // Video question tracking by subspecialty
     #[serde(skip_serializing)]
     pub video_questions_by_subspecialty: HashMap<String, Vec<String>>,
+    #[serde(skip_serializing_if = "Vec::is_empty")]
+    pub video_question_ids: Vec<String>,
 
     // Error tracking
     pub failed_requests: usize,
@@ -80,6 +82,7 @@ impl DiscoveryStatistics {
         if has_videos {
             self.questions_with_videos += 1;
             self.total_video_references += question.videos.len();
+            self.video_question_ids.push(question_id.to_string());
 
             // Track video questions by subspecialty
             if let Some(subspecialty) = &question.subspecialty {
@@ -123,6 +126,10 @@ impl DiscoveryStatistics {
         } else {
             0.0
         };
+        if !self.video_question_ids.is_empty() {
+            self.video_question_ids.sort();
+            self.video_question_ids.dedup();
+        }
     }
 
     /// Generate human-readable report
@@ -225,6 +232,12 @@ impl DiscoveryStatistics {
                 report.push_str(&format!("  {} ({}):\n", subspecialty, count));
                 report.push_str(&format!("    {}\n", ids_sorted.join(", ")));
             }
+            report.push_str("\n");
+        }
+
+        if !self.video_question_ids.is_empty() {
+            report.push_str("VIDEO QUESTION IDS\n");
+            report.push_str(&format!("{}\n", self.video_question_ids.join(", ")));
         }
 
         report

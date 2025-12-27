@@ -102,7 +102,8 @@ No known abbreviation mismatches in current extraction output. Interdisciplinary
 
 1. Run extraction for the full dataset
 2. Validate output with discovery-aware metrics
-3. Run `mksap-extractor media-download` if you need figures, tables, or videos
+3. Run `mksap-extractor media-download` for figures and tables (videos are manual)
+4. Use `media_discovery.txt` (VIDEO QUESTION IDS) to guide manual video downloads
 
 ## Related Documentation
 

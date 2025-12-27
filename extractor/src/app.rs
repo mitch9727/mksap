@@ -293,6 +293,13 @@ async fn run_media_discovery(args: &[String]) -> Result<()> {
     fs::write(&report_path, &report)?;
     info!("Saved text report to {}", report_path.display());
 
+    if !results.metadata.statistics.video_question_ids.is_empty() {
+        info!(
+            "Video files are not downloaded automatically. Use the VIDEO QUESTION IDS in {} for manual downloads.",
+            report_path.display()
+        );
+    }
+
     println!("\n{}", report);
     Ok(())
 }
@@ -332,7 +339,6 @@ async fn run_media_browser(args: &[String]) -> Result<()> {
     let discovery_file = resolve_media_discovery_file(args);
     let question_id = parse_arg_value(args, "--question-id");
     let all = has_flag(args, "--all");
-    let skip_videos = has_flag(args, "--skip-videos");
     let skip_svgs = has_flag(args, "--skip-svgs");
     let webdriver_url = parse_arg_value(args, "--webdriver-url")
         .unwrap_or_else(|| "http://localhost:9515".to_string());
@@ -344,8 +350,10 @@ async fn run_media_browser(args: &[String]) -> Result<()> {
         .and_then(|value| value.parse::<u64>().ok())
         .unwrap_or(120);
 
+    info!("Video files require manual download; browser step handles SVGs only.");
+
     if !all && question_id.is_none() {
-        info!("No question filter provided; downloading for all video/svg questions.");
+        info!("No question filter provided; downloading for all SVG questions.");
     }
 
     let client = crate::media::build_client()?;
@@ -355,7 +363,6 @@ async fn run_media_browser(args: &[String]) -> Result<()> {
         &data_dir,
         &discovery_file,
         question_id.as_deref(),
-        !skip_videos,
         !skip_svgs,
         &webdriver_url,
         headless,

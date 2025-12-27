@@ -98,3 +98,7 @@ pub fn is_svg_id(content_id: &str) -> bool {
     let lower = content_id.to_ascii_lowercase();
     lower.starts_with("svg") || lower.get(2..).map_or(false, |tail| tail.starts_with("svg"))
 }
+
+pub fn inline_table_id(index: usize) -> String {
+    format!("inline_table_{}", index + 1)
+}

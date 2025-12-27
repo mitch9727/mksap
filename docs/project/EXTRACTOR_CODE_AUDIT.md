@@ -26,7 +26,7 @@
   - `extractor/src/media/discovery/` (API discovery + statistics)
   - `extractor/src/media/download.rs` + `extractor/src/media/api.rs` (figure/table downloads)
   - `extractor/src/media/browser.rs` + `extractor/src/media/browser_download.rs` +
-    `extractor/src/media/browser_media/*.rs` (video/SVG browser automation)
+    `extractor/src/media/browser_media/*.rs` (SVG browser automation; videos manual)
   - `extractor/src/media/file_store.rs` + `extractor/src/media/render.rs` (JSON/media updates)
   - `extractor/src/media/session.rs` (session cookie helpers)
 
@@ -47,7 +47,7 @@
 - Content metadata fetchers duplicated:
   `load_figure_metadata` exists in both `extractor/src/media/discovery/mod.rs`
   and `extractor/src/media/download.rs`; similar patterns in
-  `extractor/src/media/browser_download.rs` for videos/svgs.
+  `extractor/src/media/browser_download.rs` for SVGs.
 - Media update merging in `extractor/src/media/file_store.rs` overlaps with the
   refresh-merge behavior in `extractor/src/workflow.rs`.
 
@@ -56,6 +56,6 @@
 - Shared HTTP client/session cookie config is now consolidated in `extractor`.
 - Target pipeline order remains: discover valid IDs -> fetch JSON -> parse text and
   critique links -> write question JSON -> derive media references -> download
-  tables/images/videos/svgs -> update JSON with media metadata.
+  tables/images/svgs -> update JSON with media metadata (videos manual).
 - Next cleanup pass should prune unused media file_store helpers and consider
   consolidating duplicated metadata fetchers.

@@ -16,9 +16,10 @@ use std::fs;
 use std::path::Path;
 use tracing::{info, warn};
 
+use super::api::fetch_question_json;
 use super::media_ids::{
-    count_inline_tables, extract_content_ids, extract_table_ids_from_tables_content, is_figure_id,
-    is_svg_id, is_table_id, is_video_id,
+    count_inline_tables, extract_content_ids, extract_table_ids_from_tables_content,
+    inline_table_id, is_figure_id, is_svg_id, is_table_id, is_video_id,
 };
 use super::metadata::{extract_html_text, for_each_metadata_item};
 
@@ -247,20 +248,7 @@ async fn fetch_question_media(
     question_id: &str,
     figures_by_id: &HashMap<String, FigureReference>,
 ) -> Result<Option<QuestionMedia>> {
-    let url = format!("{}/api/questions/{}.json", base_url, question_id);
-
-    let response = client
-        .get(&url)
-        .send()
-        .await
-        .context("Failed to send request")?;
-
-    if !response.status().is_success() {
-        anyhow::bail!("HTTP {}: {}", response.status(), question_id);
-    }
-
-    let json: Value = response.json().await.context("Failed to parse JSON")?;
-
+    let json = fetch_question_json(client, base_url, question_id).await?;
     Ok(build_question_media(question_id, &json, figures_by_id))
 }
 
@@ -349,7 +337,7 @@ fn build_question_media(
 
     let inline_table_count = count_inline_tables(json);
     for idx in 0..inline_table_count {
-        let table_id = format!("inline_table_{}", idx + 1);
+        let table_id = inline_table_id(idx);
         if seen_tables.insert(table_id.clone()) {
             tables.push(TableReference {
                 table_id,

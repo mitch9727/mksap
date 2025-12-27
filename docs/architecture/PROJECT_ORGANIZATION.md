@@ -48,7 +48,7 @@ MKSAP/
 │   │       ├── {question_id}.json        # Complete question data
 │   │       ├── figures/                  # Media output
 │   │       ├── tables/                   # Media output
-│   │       ├── videos/                   # Media output
+│   │       ├── videos/                   # Manual downloads
 │   │       └── svgs/                     # Media output
 │   └── validation_report.txt # Quality assurance report
 │
@@ -87,7 +87,7 @@ MKSAP/
 1. Authenticate to MKSAP (prefer `MKSAP_SESSION`)
 2. Run text extractor from `extractor/`: `./target/release/mksap-extractor`
 3. Validate extraction: `./target/release/mksap-extractor validate`
-4. Run media download (optional): `./target/release/mksap-extractor media-download --all`
+4. Run media download (optional): `./target/release/mksap-extractor media-download --all` (videos are manual)
 5. Review `.checkpoints/discovery_metadata.json` and `validation_report.txt`
 
 **Target:** 2,198 valid questions across 16 systems and 6 question types (invalidated questions excluded)
@@ -121,7 +121,7 @@ The project uses a single Rust crate (`extractor/`) with an integrated media pip
 - Session authentication
 - Checkpoint-based resumable extraction
 - Built-in validation
-- Media discovery/download (images, tables, videos, SVGs)
+- Media discovery/download (images, tables, SVGs; videos manual)
 
 ## Data Flow
 

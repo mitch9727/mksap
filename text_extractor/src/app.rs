@@ -379,7 +379,12 @@ fn resolve_media_data_dir(args: &[String]) -> String {
 }
 
 fn resolve_media_discovery_file(args: &[String]) -> String {
-    parse_arg_value(args, "--discovery-file").unwrap_or_else(|| "media_discovery.json".to_string())
+    parse_arg_value(args, "--discovery-file").unwrap_or_else(|| {
+        Path::new(OUTPUT_DIR)
+            .join("media_discovery.json")
+            .to_string_lossy()
+            .to_string()
+    })
 }
 
 fn resolve_media_concurrency(args: &[String]) -> usize {

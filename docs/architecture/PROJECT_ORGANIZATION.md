@@ -36,9 +36,9 @@ MKSAP/
 │       ├── validator.rs       # Data quality validation
 │       ├── auth.rs            # API login helpers
 │       ├── auth_flow.rs       # Authentication flow
-│       ├── browser.rs         # Browser-based auth fallback
+│       ├── login_browser.rs   # Browser-based auth fallback
 │       ├── diagnostics.rs     # API inspection helper
-│       ├── media/             # Media discovery/download modules
+│       ├── assets.rs          # Asset discovery/download modules
 │       └── models.rs          # Data structures (QuestionData, etc.)
 │
 ├── mksap_data/               # Phase 1 Output: Extracted question data

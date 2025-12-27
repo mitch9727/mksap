@@ -6,7 +6,7 @@ use std::path::Path;
 use tracing::{error, info, warn};
 
 use super::{MKSAPExtractor, CHECKPOINT_DIR_NAME};
-use crate::checkpoints::{checkpoint_system_id, read_checkpoint_lines};
+use crate::io::{checkpoint_system_id, read_checkpoint_lines, scan_question_directories};
 
 impl MKSAPExtractor {
     pub async fn retry_missing_json(&self) -> Result<usize> {
@@ -107,86 +107,32 @@ impl MKSAPExtractor {
         Ok(remaining.len())
     }
 
-    fn scan_question_directories<F>(
-        &self,
-        root_path: &Path,
-        skip_dirs: &std::collections::HashSet<&str>,
-        predicate: F,
-    ) -> Result<Vec<(String, String)>>
-    where
-        F: Fn(&str, &Path, &str) -> bool,
-    {
-        let mut results = Vec::new();
-
-        if !root_path.exists() {
-            return Ok(results);
-        }
-
-        // Iterate through system directories
-        for system_entry in fs::read_dir(root_path).context("Failed to read root directory")? {
-            let system_entry = system_entry.context("Failed to read system entry")?;
-            let system_path = system_entry.path();
-
-            if !system_path.is_dir() {
-                continue;
-            }
-
-            let system_id = match system_path.file_name().and_then(|n| n.to_str()) {
-                Some(name) if !skip_dirs.contains(name) => name.to_string(),
-                _ => continue,
-            };
-
-            // Iterate through question directories within system
-            for question_entry in
-                fs::read_dir(&system_path).context("Failed to read system directory")?
-            {
-                let question_entry = question_entry.context("Failed to read question entry")?;
-                let question_path = question_entry.path();
-
-                if !question_path.is_dir() {
-                    continue;
-                }
-
-                let question_id = match question_path.file_name().and_then(|n| n.to_str()) {
-                    Some(name) => name.to_string(),
-                    None => continue,
-                };
-
-                // Apply user-provided predicate to filter
-                if predicate(&system_id, &question_path, &question_id) {
-                    results.push((system_id.clone(), question_id));
-                }
-            }
-        }
-
-        Ok(results)
-    }
-
     fn find_missing_json_ids(&self) -> Result<Vec<(String, String)>> {
         let root = Path::new(&self.output_dir);
         let mut skip_dirs = std::collections::HashSet::new();
         skip_dirs.insert(CHECKPOINT_DIR_NAME);
 
-        self.scan_question_directories(
-            root,
-            &skip_dirs,
-            |_system_id, question_path, question_id| {
-                let json_path = question_path.join(format!("{}.json", question_id));
-                !json_path.exists()
-            },
-        )
+        let entries = scan_question_directories(root, &skip_dirs, |entry| {
+            let json_path = entry.path.join(format!("{}.json", entry.question_id));
+            !json_path.exists()
+        })?;
+
+        Ok(entries
+            .into_iter()
+            .map(|entry| (entry.system_id, entry.question_id))
+            .collect())
     }
 
     fn find_failed_deserialize_ids(&self) -> Result<Vec<(String, String)>> {
         let failed_root = self.failed_root().join("deserialize");
         let skip_dirs = std::collections::HashSet::new();
 
-        // Predicate always returns true (collect all failed deserialize entries)
-        self.scan_question_directories(
-            &failed_root,
-            &skip_dirs,
-            |_system_id, _question_path, _question_id| true,
-        )
+        let entries = scan_question_directories(&failed_root, &skip_dirs, |_entry| true)?;
+
+        Ok(entries
+            .into_iter()
+            .map(|entry| (entry.system_id, entry.question_id))
+            .collect())
     }
 
     fn find_missing_checkpoint_ids(&self) -> Result<Vec<(String, String)>> {

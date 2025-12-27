@@ -19,7 +19,7 @@ cargo build --release
 # Media discovery/download (optional, integrated)
 ./target/release/mksap-extractor media-discover
 ./target/release/mksap-extractor media-download
-# ./target/release/mksap-extractor media-browser   # video/svg via browser
+# ./target/release/mksap-extractor svg-browser   # video/svg via browser
 ```
 
 - Use `MKSAP_SESSION=...` to override the session cookie for API calls.

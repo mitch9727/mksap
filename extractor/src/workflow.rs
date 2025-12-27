@@ -116,13 +116,11 @@ impl MKSAPExtractor {
             return Ok(true);
         }
 
-        let api_url = format!("{}/api/questions/{}.json", self.base_url, question_id);
+        let api_url = crate::endpoints::question_json(&self.base_url, question_id);
 
         let response =
-            tokio::time::timeout(Duration::from_secs(30), self.client.get(&api_url).send())
-                .await
-                .context("Request timeout")?
-                .context("Network error")?;
+            crate::http::send_with_timeout(self.client.get(&api_url), Duration::from_secs(30))
+                .await?;
 
         match response.status() {
             status if status.is_success() => {
@@ -145,7 +143,11 @@ impl MKSAPExtractor {
                             &e.to_string(),
                         )
                         .ok();
-                        return Ok(true);
+                        return Err(anyhow::anyhow!(
+                            "Failed to parse question JSON for {}: {}",
+                            question_id,
+                            e
+                        ));
                     }
                 };
 

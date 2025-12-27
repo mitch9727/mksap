@@ -1,21 +1,21 @@
-use anyhow::{bail, Result};
+use anyhow::Result;
 use reqwest::Client;
 use serde_json::Value;
 use std::collections::{HashMap, HashSet};
 use std::path::Path;
 use tracing::{info, warn};
 
-use super::api::{download_figure, download_table, fetch_question_json, TableResponse};
-use super::file_store::{
-    collect_question_entries, load_discovery_results, update_question_json, FigureMetadata,
-    MediaUpdate, QuestionEntry, TableMetadata,
+use super::asset_api::{download_figure, download_table, fetch_question_json, TableResponse};
+use super::asset_metadata::{extract_html_text, for_each_figure_snapshot};
+use super::asset_store::{
+    collect_question_entry_map, load_discovery_results, select_targets, update_question_json,
+    FigureMetadata, MediaUpdate, QuestionEntry, TableMetadata,
 };
-use super::media_ids::{
+use super::content_ids::{
     classify_content_id, collect_inline_table_nodes, extract_content_ids,
     extract_table_ids_from_tables_content, inline_table_id, ContentIdKind,
 };
-use super::metadata::{extract_html_text, for_each_figure_snapshot};
-use super::render::{pretty_format_html, render_node};
+use super::table_render::{pretty_format_html, render_node};
 
 pub async fn run_media_download(
     client: &Client,
@@ -41,22 +41,8 @@ pub async fn run_media_download(
         HashMap::new()
     };
 
-    let entries = collect_question_entries(data_dir)?;
-    let mut entry_map: HashMap<String, QuestionEntry> = HashMap::new();
-    for entry in entries {
-        entry_map.insert(entry.question_id.clone(), entry);
-    }
-
-    let mut targets: Vec<String> = if let Some(qid) = question_id {
-        if !discovered_ids.contains(qid) {
-            bail!("Question ID not present in discovery file: {}", qid);
-        }
-        vec![qid.to_string()]
-    } else {
-        discovered_ids.into_iter().collect()
-    };
-
-    targets.sort();
+    let entry_map = collect_question_entry_map(data_dir)?;
+    let targets = select_targets(question_id, &discovered_ids, "discovery file")?;
     info!("Processing {} questions for media downloads", targets.len());
 
     for (idx, qid) in targets.iter().enumerate() {

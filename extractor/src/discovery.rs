@@ -162,7 +162,7 @@ impl MKSAPExtractor {
 
     /// Check if a question exists (fast HTTP HEAD request)
     async fn question_exists(&self, question_id: &str) -> Result<bool> {
-        let api_url = format!("{}/api/questions/{}.json", self.base_url, question_id);
+        let api_url = crate::endpoints::question_json(&self.base_url, question_id);
         let max_retries = env::var("MKSAP_DISCOVERY_RETRIES")
             .ok()
             .and_then(|value| value.parse::<u32>().ok())
@@ -205,12 +205,28 @@ impl MKSAPExtractor {
                         return Ok(false);
                     }
                 },
-                Ok(Err(_)) | Err(_) => {
+                Ok(Err(err)) => {
                     if attempt <= max_retries {
                         sleep(Duration::from_millis(200)).await;
                         continue;
                     }
-                    return Ok(false);
+                    return Err(anyhow::anyhow!(
+                        "Network error while checking {} after {} attempts: {}",
+                        question_id,
+                        attempt,
+                        err
+                    ));
+                }
+                Err(_) => {
+                    if attempt <= max_retries {
+                        sleep(Duration::from_millis(200)).await;
+                        continue;
+                    }
+                    return Err(anyhow::anyhow!(
+                        "Network timeout while checking {} after {} attempts",
+                        question_id,
+                        attempt
+                    ));
                 }
             }
         }

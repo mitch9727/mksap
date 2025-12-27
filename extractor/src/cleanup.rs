@@ -1,5 +1,7 @@
 use anyhow::Result;
+use std::collections::HashSet;
 use std::fs;
+use std::path::Path;
 use std::time::Duration;
 use tracing::{info, warn};
 
@@ -15,42 +17,27 @@ impl MKSAPExtractor {
 
         info!("Scanning extracted questions for retired entries...");
 
-        // Scan all extracted question directories
-        for category_entry in fs::read_dir(&self.output_dir)? {
-            let category_path = match category_entry {
-                Ok(entry) => entry.path(),
-                Err(_) => continue,
-            };
-            if !category_path.is_dir() {
-                continue;
-            }
+        let mut skip_dirs = HashSet::new();
+        skip_dirs.insert(CHECKPOINT_DIR_NAME);
+        let entries = crate::io::scan_question_directories(
+            Path::new(&self.output_dir),
+            &skip_dirs,
+            |_entry| true,
+        )?;
 
-            for question_entry in fs::read_dir(&category_path)? {
-                let question_path = match question_entry {
-                    Ok(entry) => entry.path(),
-                    Err(_) => continue,
-                };
-                if !question_path.is_dir() {
-                    continue;
-                }
-
-                let question_id = match question_path.file_name().and_then(|n| n.to_str()) {
-                    Some(id) => id.to_string(),
-                    None => continue,
-                };
-
-                // Check if question is retired via API
-                if let Ok(true) = self.is_question_retired(&question_id).await {
-                    // Move to retired directory
-                    let dest = retired_dir.join(&question_id);
-                    match fs::rename(&question_path, &dest) {
-                        Ok(()) => {
-                            info!("Moved retired question: {}", question_id);
-                            moved_count += 1;
-                        }
-                        Err(e) => {
-                            warn!("Failed to move retired question {}: {}", question_id, e);
-                        }
+        for entry in entries {
+            if let Ok(true) = self.is_question_retired(&entry.question_id).await {
+                let dest = retired_dir.join(&entry.question_id);
+                match fs::rename(&entry.path, &dest) {
+                    Ok(()) => {
+                        info!("Moved retired question: {}", entry.question_id);
+                        moved_count += 1;
+                    }
+                    Err(e) => {
+                        warn!(
+                            "Failed to move retired question {}: {}",
+                            entry.question_id, e
+                        );
                     }
                 }
             }
@@ -136,15 +123,17 @@ impl MKSAPExtractor {
 
     /// Check if a question is marked as retired/invalidated via API.
     async fn is_question_retired(&self, question_id: &str) -> Result<bool> {
-        let api_url = format!("{}/api/questions/{}.json", self.base_url, question_id);
+        let api_url = crate::endpoints::question_json(&self.base_url, question_id);
 
-        let response =
-            match tokio::time::timeout(Duration::from_secs(10), self.client.get(&api_url).send())
-                .await
-            {
-                Ok(Ok(resp)) if resp.status().is_success() => resp,
-                _ => return Ok(false),
-            };
+        let response = match crate::http::send_with_timeout(
+            self.client.get(&api_url),
+            Duration::from_secs(10),
+        )
+        .await
+        {
+            Ok(resp) if resp.status().is_success() => resp,
+            _ => return Ok(false),
+        };
 
         let json_text = match response.text().await {
             Ok(text) => text,

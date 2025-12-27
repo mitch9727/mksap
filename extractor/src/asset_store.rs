@@ -1,10 +1,10 @@
 use anyhow::{bail, Context, Result};
 use serde::{Deserialize, Serialize};
-use std::collections::HashSet;
+use std::collections::{HashMap, HashSet};
 use std::fs;
 use std::path::{Path, PathBuf};
 
-use super::discovery::DiscoveryResults;
+use super::asset_discovery::DiscoveryResults;
 
 #[derive(Clone, Debug)]
 pub struct QuestionEntry {
@@ -95,6 +95,33 @@ pub fn collect_question_entries(data_dir: &str) -> Result<Vec<QuestionEntry>> {
     }
 
     Ok(entries)
+}
+
+pub fn collect_question_entry_map(data_dir: &str) -> Result<HashMap<String, QuestionEntry>> {
+    let entries = collect_question_entries(data_dir)?;
+    let mut entry_map = HashMap::new();
+    for entry in entries {
+        entry_map.insert(entry.question_id.clone(), entry);
+    }
+    Ok(entry_map)
+}
+
+pub fn select_targets(
+    question_id: Option<&str>,
+    available_ids: &HashSet<String>,
+    source_label: &str,
+) -> Result<Vec<String>> {
+    let mut targets: Vec<String> = if let Some(qid) = question_id {
+        if !available_ids.contains(qid) {
+            bail!("Question ID not present in {}: {}", source_label, qid);
+        }
+        vec![qid.to_string()]
+    } else {
+        available_ids.iter().cloned().collect()
+    };
+
+    targets.sort();
+    Ok(targets)
 }
 
 pub fn load_discovery_results(path: &Path) -> Result<HashSet<String>> {

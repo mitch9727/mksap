@@ -317,7 +317,7 @@ Media commands:
 ./target/release/mksap-extractor media-discover
 ./target/release/mksap-extractor media-download --all
 ./target/release/mksap-extractor media-download --question-id cvmcq24001
-./target/release/mksap-extractor media-browser --all   # SVGs only
+./target/release/mksap-extractor svg-browser --all   # SVGs only
 ```
 
 Video files are manual downloads. Use `media_discovery.txt` (VIDEO QUESTION IDS)

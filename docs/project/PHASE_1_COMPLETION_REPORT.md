@@ -34,10 +34,10 @@ All extraction objectives achieved:
 - **Media Assets**: Figures, tables, videos, SVGs downloaded and cataloged
 
 ### Architecture Achievements
-- **Unified extractor system**: extractor with integrated media pipeline
+- **Unified extractor system**: extractor with integrated asset pipeline
 - **Three-phase pipeline**: Discovery → Directory Setup → Extraction
 - **Rate limiting**: Server-friendly with automatic retry and backoff
-- **Modularity**: Clear separation of concerns across extractor and media modules
+- **Modularity**: Clear separation of concerns across extractor and asset modules
 
 ---
 
@@ -115,8 +115,8 @@ Implemented API-driven discovery system:
 
 ### Modular Architecture
 Built production-grade extractor system:
-- **Extractor + media modules**: Clear separation of concerns
-- **Media pipeline**: Browser automation for complex media
+- **Extractor + asset modules**: Clear separation of concerns
+- **Asset pipeline**: Browser automation for complex media
 - **Async-first design**: Tokio runtime with 14 concurrent workers
 - **Error recovery**: Automatic retry with exponential backoff
 
@@ -141,7 +141,7 @@ Resumable extraction with three checkpoint types:
 ### Code
 - ✅ `extractor/` - Unified extraction tool (text + media)
 - ✅ CLI commands: run, validate, discovery-stats, standardize, cleanup-flat,
-  media-discover, media-download, media-browser
+  media-discover, media-download, svg-browser
 
 ### Data
 - ✅ `mksap_data/` - 2,198 extracted questions organized by system

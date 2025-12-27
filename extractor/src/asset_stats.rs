@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 
-use super::discovery_types::QuestionMedia;
+use super::asset_types::QuestionMedia;
 
 // ============================================================================
 // Statistics Tracking

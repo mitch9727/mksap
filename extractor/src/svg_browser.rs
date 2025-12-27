@@ -5,7 +5,7 @@ use std::time::{Duration, Instant};
 use thirtyfour::prelude::*;
 use tracing::{info, warn};
 
-use super::session;
+use crate::session;
 
 #[derive(Clone, Debug)]
 pub struct BrowserOptions {

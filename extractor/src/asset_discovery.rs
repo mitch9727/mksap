@@ -1,6 +1,6 @@
 // Re-exports
-pub use super::discovery_statistics::DiscoveryStatistics;
-pub use super::discovery_types::{
+pub use super::asset_stats::DiscoveryStatistics;
+pub use super::asset_types::{
     FigureReference, QuestionMedia, SvgReference, SvgSource, TableReference, VideoReference,
 };
 
@@ -11,13 +11,13 @@ use std::collections::HashMap;
 use std::path::Path;
 use tracing::{info, warn};
 
-use super::api::fetch_question_json;
-use super::media_ids::{
+use super::asset_api::fetch_question_json;
+use super::asset_metadata::for_each_figure_snapshot;
+use super::content_ids::{
     classify_content_id, count_inline_tables, extract_content_ids,
     extract_table_ids_from_tables_content, inline_table_id, ContentIdKind,
 };
-use super::metadata::for_each_figure_snapshot;
-use crate::checkpoints::read_all_checkpoint_ids;
+use crate::io::read_all_checkpoint_ids;
 
 // ============================================================================
 // Discovery Configuration
@@ -97,10 +97,10 @@ impl DiscoveryResults {
 // API-Based Discovery
 // ============================================================================
 
+use futures::stream::{self, StreamExt};
 use reqwest::Client;
 use std::collections::HashSet;
 use std::sync::Arc;
-use tokio::sync::Semaphore;
 
 /// Discover questions with media by scanning question JSON for media references:
 /// 1. Load all discovered question IDs from extractor checkpoints
@@ -165,42 +165,32 @@ async fn scan_questions_for_media(
     concurrent_limit: usize,
     figures_by_id: Arc<HashMap<String, FigureReference>>,
 ) -> Result<(HashMap<String, QuestionMedia>, DiscoveryStatistics)> {
-    let semaphore = Arc::new(Semaphore::new(concurrent_limit));
-    let mut handles = vec![];
-
-    for question_id in question_ids {
-        let client = client.clone();
-        let base_url = base_url.to_string();
-        let question_id_clone = question_id.clone();
-        let sem = semaphore.clone();
-        let figures_by_id = figures_by_id.clone();
-
-        let handle = tokio::spawn(async move {
-            let _permit = sem.acquire().await.unwrap();
-            fetch_question_media(&client, &base_url, &question_id_clone, &figures_by_id).await
-        });
-
-        handles.push((question_id.clone(), handle));
-    }
-
     let mut questions_with_media = HashMap::new();
     let mut stats = DiscoveryStatistics::default();
     let mut processed = 0;
-    let total = handles.len();
+    let total = question_ids.len();
+    let mut stream = stream::iter(question_ids.iter().cloned())
+        .map(|question_id| {
+            let client = client.clone();
+            let base_url = base_url.to_string();
+            let figures_by_id = figures_by_id.clone();
+            async move {
+                let result =
+                    fetch_question_media(&client, &base_url, &question_id, &figures_by_id).await;
+                (question_id, result)
+            }
+        })
+        .buffer_unordered(concurrent_limit);
 
-    for (question_id, handle) in handles {
-        match handle.await {
-            Ok(Ok(Some(media))) => {
+    while let Some((question_id, result)) = stream.next().await {
+        match result {
+            Ok(Some(media)) => {
                 stats.update_with_question(&question_id, &media);
                 questions_with_media.insert(question_id, media);
             }
-            Ok(Ok(None)) => {}
-            Ok(Err(e)) => {
-                warn!("Failed to check {}: {}", question_id, e);
-                stats.failed_requests += 1;
-            }
+            Ok(None) => {}
             Err(e) => {
-                warn!("Task failed for {}: {}", question_id, e);
+                warn!("Failed to check {}: {}", question_id, e);
                 stats.failed_requests += 1;
             }
         }

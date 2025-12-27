@@ -1,4 +1,4 @@
-use anyhow::{bail, Context, Result};
+use anyhow::{Context, Result};
 use regex::Regex;
 use reqwest::Client;
 use serde_json::Value;
@@ -7,13 +7,15 @@ use std::path::Path;
 use std::time::Duration;
 use tracing::{info, warn};
 
-use super::browser::{dedupe_urls, extract_svg_urls, BrowserOptions, BrowserSession};
-use super::discovery::{DiscoveryResults, QuestionMedia};
-use super::file_store::{collect_question_entries, update_question_json, MediaUpdate, SvgMetadata};
-use super::metadata::{extract_html_text, for_each_metadata_item, resolve_metadata_id};
-use super::session;
+use super::asset_discovery::{DiscoveryResults, QuestionMedia};
+use super::asset_metadata::{extract_html_text, for_each_metadata_item, resolve_metadata_id};
+use super::asset_store::{
+    collect_question_entry_map, select_targets, update_question_json, MediaUpdate, SvgMetadata,
+};
+use super::svg_browser::{dedupe_urls, extract_svg_urls, BrowserOptions, BrowserSession};
+use crate::session;
 
-pub async fn run_browser_download(
+pub async fn run_svg_download(
     client: &Client,
     base_url: &str,
     data_dir: &str,
@@ -55,22 +57,9 @@ pub async fn run_browser_download(
         return Ok(());
     }
 
-    let entries = collect_question_entries(data_dir)?;
-    let mut entry_map = HashMap::new();
-    for entry in entries {
-        entry_map.insert(entry.question_id.clone(), entry);
-    }
-
-    let mut targets: Vec<String> = if let Some(qid) = question_id {
-        if !media_by_id.contains_key(qid) {
-            bail!("Question ID not present in discovery file: {}", qid);
-        }
-        vec![qid.to_string()]
-    } else {
-        media_by_id.keys().cloned().collect()
-    };
-
-    targets.sort();
+    let entry_map = collect_question_entry_map(data_dir)?;
+    let available_ids: HashSet<String> = media_by_id.keys().cloned().collect();
+    let targets = select_targets(question_id, &available_ids, "discovery file")?;
     info!(
         "Processing {} questions for browser media downloads",
         targets.len()

@@ -176,7 +176,7 @@ Comprehensive documentation audit and alignment completed to support the new 4-p
 - Completely restructured from simple tool description to comprehensive project architecture
 - Added 4-phase pipeline overview at top
 - Rewrote directory structure to include:
-  - extractor/ binary with integrated media modules (with detailed structure)
+  - extractor/ binary with integrated asset modules (with detailed structure)
   - Complete docs/ directory tree (showing all subdirectories and files)
   - mksap_data/ output directory structure with examples
   - mksap_data_failed/ directory

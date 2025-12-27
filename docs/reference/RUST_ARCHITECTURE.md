@@ -2,7 +2,7 @@
 
 ## System Architecture
 
-The extractor follows a modular, async-first architecture optimized for API-based data extraction, with media discovery/download integrated under `src/media/`.
+The extractor follows a modular, async-first architecture optimized for API-based data extraction, with asset discovery/download integrated under `src/assets.rs`.
 
 ## Module Structure
 
@@ -107,7 +107,7 @@ pub struct ValidationResult {
 **Non-Destructive**: Only reads files, creates no modifications
 **Discovery-Aware**: Uses `.checkpoints/discovery_metadata.json` when available
 
-### Media Pipeline (`src/media/`)
+### Asset Pipeline (`src/assets.rs`)
 
 **Responsibilities**:
 - Discover media content IDs after text extraction
@@ -115,7 +115,7 @@ pub struct ValidationResult {
 - Update the `media` field in each `{question_id}.json`
 - Store assets alongside question folders
 
-### Browser Automation (`src/media/browser.rs`)
+### Browser Login (`src/login_browser.rs`)
 
 **Fallback Authentication**:
 - Opens Chrome browser if API auth fails
@@ -123,7 +123,7 @@ pub struct ValidationResult {
 - Detects successful authentication (best effort)
 - Does not automatically persist browser cookies to the Rust client
 
-**Platform Support**: macOS, Linux, Windows
+**Platform Support**: macOS
 
 ### IO + Retry (`io.rs`, `retry.rs`)
 
@@ -272,7 +272,7 @@ Extend `validator.rs`:
 
 ### Media Handling
 
-Extend the media modules under `src/media/`:
+Extend the asset modules under `src/assets.rs`:
 - Add support for new file types
 - Update content-type detection
 - Customize file naming

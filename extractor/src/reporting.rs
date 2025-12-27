@@ -3,8 +3,8 @@ use std::fs;
 use std::path::Path;
 use tracing::info;
 
-use crate::checkpoints::read_checkpoint_lines;
 use crate::config::Category;
+use crate::io::read_checkpoint_lines;
 use crate::models::DiscoveryMetadataCollection;
 use crate::validator::DataValidator;
 

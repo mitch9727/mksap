@@ -89,10 +89,10 @@ MKSAP_INSPECT_API=1 ./target/release/mksap-extractor
 MKSAP_SESSION=<cookie> ./target/release/mksap-extractor media-download --all
 
 # Browser-based extraction (videos and SVGs)
-./target/release/mksap-extractor media-browser --all
+./target/release/mksap-extractor svg-browser --all
 
 # Browser extraction with options
-./target/release/mksap-extractor media-browser \
+./target/release/mksap-extractor svg-browser \
   --all \
   --headless \
   --interactive-login \
@@ -100,7 +100,7 @@ MKSAP_SESSION=<cookie> ./target/release/mksap-extractor media-download --all
 
 # Skip specific media types
 ./target/release/mksap-extractor media-download --all --skip-figures
-./target/release/mksap-extractor media-browser --all --skip-videos
+./target/release/mksap-extractor svg-browser --all --skip-videos
 ```
 
 ### Development
@@ -172,7 +172,7 @@ This project uses a **single Rust binary** that combines text extraction with me
 
 #### Authentication & API
 - **auth.rs** - Session-based API authentication
-- **browser.rs** - Browser-based fallback authentication (Chrome/Firefox)
+- **login_browser.rs** - Browser-based fallback authentication (Chrome/Firefox)
 - **auth_flow.rs** - Authentication flow coordination
 - **api.rs** - API interaction helpers
 
@@ -185,12 +185,12 @@ This project uses a **single Rust binary** that combines text extraction with me
 - **categories.rs** - Category/system code helpers
 - **commands.rs** - CLI command definitions
 
-#### Media Modules (`extractor/src/media/`)
-- **discovery/** - Media discovery + statistics
-- **download.rs** + **api.rs** - Figure/table download pipeline
-- **browser.rs** + **browser_download.rs** + **browser_media/** - Video/SVG browser automation
-- **file_store.rs** + **render.rs** - JSON/media updates and table rendering
-- **media_ids.rs** - Content ID parsing helpers
+#### Asset Modules (`extractor/src/assets.rs`)
+- **asset_discovery.rs** + **asset_stats.rs** + **asset_types.rs** - Asset discovery + statistics
+- **asset_download.rs** + **asset_api.rs** - Figure/table download pipeline
+- **svg_browser.rs** + **svg_download.rs** - SVG browser automation
+- **asset_store.rs** + **table_render.rs** - JSON/media updates and table rendering
+- **asset_metadata.rs** + **content_ids.rs** - Asset metadata + content ID parsing
 - **session.rs** - Session cookie helpers
 
 ### Question System Codes
@@ -281,7 +281,7 @@ VALIDATION (on demand)
 
 ### Authentication Flow
 
-**Session Cookie Management** ([auth.rs](extractor/src/auth.rs), [browser.rs](extractor/src/browser.rs)):
+**Session Cookie Management** ([auth.rs](extractor/src/auth.rs), [login_browser.rs](extractor/src/login_browser.rs)):
 
 ```rust
 // Priority order:
@@ -540,7 +540,7 @@ MKSAP_SESSION=<new_cookie> ./target/release/mksap-extractor
 ```
 
 **Browser timeout** (5 minutes):
-- Increase timeout in [extractor/src/browser.rs](extractor/src/browser.rs)
+- Increase timeout in [extractor/src/login_browser.rs](extractor/src/login_browser.rs)
 - Or manually extract cookie from browser DevTools:
   1. Login to MKSAP in browser
   2. Open DevTools (F12)
@@ -613,7 +613,7 @@ cat mksap_data/validation_report.txt
 ./target/release/mksap-extractor media-download --all
 
 # For videos/SVGs (requires browser)
-./target/release/mksap-extractor media-browser --all
+./target/release/mksap-extractor svg-browser --all
 ```
 
 ### Compilation

@@ -17,8 +17,6 @@
 //! # Platform Support
 //!
 //! - **macOS**: Uses `open -a` to launch Chrome, Chromium, or Brave
-//! - **Linux**: Uses `xdg-open` (respects user's default browser setting)
-//! - **Windows**: Uses `start` command (launches default browser)
 //!
 //! # Authentication Detection
 //!
@@ -60,14 +58,6 @@ impl BrowserLogin {
     /// - Tries "Google Chrome", then "Chrome", then "Chromium" in order
     /// - Uses `open -a` to launch by application name
     ///
-    /// **Linux**:
-    /// - Uses `xdg-open` (respects user's default browser)
-    /// - May open Firefox, Chromium, or other default browser
-    ///
-    /// **Windows**:
-    /// - Uses `start` command
-    /// - Opens system default browser
-    ///
     /// # Authentication Callback
     ///
     /// The optional `detection_fn` callback:
@@ -91,7 +81,7 @@ impl BrowserLogin {
     /// # Examples
     ///
     /// ```ignore
-    /// use mksap_extractor::browser::BrowserLogin;
+    /// use mksap_extractor::login_browser::BrowserLogin;
     ///
     /// // Simple: wait 10 minutes for manual login
     /// BrowserLogin::interactive_login("https://mksap.acponline.org", None::<fn() -> _>).await?;
@@ -113,6 +103,13 @@ impl BrowserLogin {
         F: Fn() -> Fut,
         Fut: Future<Output = Result<bool>>,
     {
+        #[cfg(not(target_os = "macos"))]
+        {
+            return Err(anyhow::anyhow!(
+                "Browser login is supported only on macOS."
+            ));
+        }
+
         info!("================================================");
         info!("LAUNCHING CHROME BROWSER FOR LOGIN");
         info!("================================================");

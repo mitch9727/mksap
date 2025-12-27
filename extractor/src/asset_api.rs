@@ -5,7 +5,7 @@ use serde_json::Value;
 use std::path::Path;
 use tracing::warn;
 
-use super::render::render_table_html;
+use super::table_render::render_table_html;
 
 #[derive(Debug, Deserialize)]
 struct FigureResponse {
@@ -42,7 +42,7 @@ pub async fn fetch_question_json(
     base_url: &str,
     question_id: &str,
 ) -> Result<Value> {
-    let url = format!("{}/api/questions/{}.json", base_url, question_id);
+    let url = crate::endpoints::question_json(base_url, question_id);
     let response = client
         .get(&url)
         .send()
@@ -64,7 +64,7 @@ pub async fn download_figure(
     question_dir: &Path,
     figure_id: &str,
 ) -> Result<Option<String>> {
-    let url = format!("{}/api/figures/{}.json", base_url, figure_id);
+    let url = crate::endpoints::figure_json(base_url, figure_id);
     let response = match client.get(&url).send().await {
         Ok(resp) => resp,
         Err(err) => {
@@ -124,7 +124,7 @@ pub async fn download_table(
     question_dir: &Path,
     table_id: &str,
 ) -> Result<Option<TableDownload>> {
-    let url = format!("{}/api/tables/{}.json", base_url, table_id);
+    let url = crate::endpoints::table_json(base_url, table_id);
     let response = match client.get(&url).send().await {
         Ok(resp) => resp,
         Err(err) => {

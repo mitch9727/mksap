@@ -3,7 +3,7 @@
 ## Prerequisites
 
 ### System Requirements
-- **OS**: macOS, Linux, or Windows
+- **OS**: macOS
 - **Rust**: 1.70 or newer
 - **Disk Space**: ~1GB for dependencies + extracted data
 
@@ -128,9 +128,9 @@ All dependencies are automatically downloaded during build.
 │       ├── validator.rs     # Data validation
 │       ├── auth.rs          # API login helpers
 │       ├── auth_flow.rs     # Authentication flow
-│       ├── browser.rs       # Browser-based auth fallback
+│       ├── login_browser.rs # Browser-based auth fallback
 │       ├── diagnostics.rs   # API inspection helper
-│       ├── media/           # Media discovery/download modules
+│       ├── assets.rs        # Asset discovery/download modules
 │       └── models.rs        # Data structures
 ├── mksap_data/          # Extracted question data
 ├── mksap_data_failed/   # Failed extraction artifacts

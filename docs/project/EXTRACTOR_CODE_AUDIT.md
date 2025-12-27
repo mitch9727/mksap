@@ -12,7 +12,7 @@
 
 - Entry point: `extractor/src/main.rs`.
 - Commands: Run, Validate, DiscoveryStats, RetryMissing, ListMissing, Standardize,
-  CleanupRetired, CleanupFlat, MediaDiscover, MediaDownload, MediaBrowser, ExtractAll.
+  CleanupRetired, CleanupFlat, MediaDiscover, MediaDownload, SvgBrowser, ExtractAll.
 - Core pipeline: `extractor/src/extractor.rs` with impls in:
   - `extractor/src/workflow.rs`
   - `extractor/src/discovery.rs`
@@ -20,15 +20,15 @@
   - `extractor/src/retry.rs`
   - `extractor/src/cleanup.rs`
 - Auth flow: `extractor/src/auth_flow.rs` -> `extractor/src/auth.rs` ->
-  `extractor/src/browser.rs` (interactive fallback).
+  `extractor/src/login_browser.rs` (interactive fallback).
 - Data model + parsing: `extractor/src/models.rs` (includes critique link extraction).
-- Media pipeline (integrated):
-  - `extractor/src/media/discovery.rs` + `extractor/src/media/discovery_statistics.rs` (API discovery + statistics)
-  - `extractor/src/media/download.rs` + `extractor/src/media/api.rs` (figure/table downloads)
-  - `extractor/src/media/browser.rs` + `extractor/src/media/browser_download.rs`
+- Asset pipeline (integrated):
+  - `extractor/src/asset_discovery.rs` + `extractor/src/asset_stats.rs` (API discovery + statistics)
+  - `extractor/src/asset_download.rs` + `extractor/src/asset_api.rs` (figure/table downloads)
+  - `extractor/src/svg_browser.rs` + `extractor/src/svg_download.rs`
     (SVG browser automation; videos manual)
-  - `extractor/src/media/file_store.rs` + `extractor/src/media/render.rs` (JSON/media updates)
-  - `extractor/src/media/session.rs` (session cookie helpers)
+  - `extractor/src/asset_store.rs` + `extractor/src/table_render.rs` (JSON/media updates)
+  - `extractor/src/session.rs` (session cookie helpers)
 
 ## Unused Or Legacy Code Candidates
 
@@ -41,14 +41,14 @@
 ## Duplication And Consolidation Candidates
 
 - Content ID extraction and type checks duplicated between
-  `extractor/src/media/media_ids.rs` and `extractor/src/media/download.rs`,
+  `extractor/src/content_ids.rs` and `extractor/src/asset_download.rs`,
   plus inline table detection logic duplicated between
-  `extractor/src/media/discovery.rs` and `extractor/src/media/download.rs`.
+  `extractor/src/asset_discovery.rs` and `extractor/src/asset_download.rs`.
 - Content metadata fetchers duplicated:
-  `load_figure_metadata` exists in both `extractor/src/media/discovery.rs`
-  and `extractor/src/media/download.rs`; similar patterns in
-  `extractor/src/media/browser_download.rs` for SVGs.
-- Media update merging in `extractor/src/media/file_store.rs` overlaps with the
+  `load_figure_metadata` exists in both `extractor/src/asset_discovery.rs`
+  and `extractor/src/asset_download.rs`; similar patterns in
+  `extractor/src/svg_download.rs` for SVGs.
+- Media update merging in `extractor/src/asset_store.rs` overlaps with the
   refresh-merge behavior in `extractor/src/workflow.rs`.
 
 ## Unification Notes (Next Steps)

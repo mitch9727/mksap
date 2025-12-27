@@ -5,11 +5,120 @@ use std::fs;
 use std::path::{Path, PathBuf};
 use tracing::debug;
 
-use crate::checkpoints::read_checkpoint_ids;
 use crate::models::QuestionData;
 use crate::validator::DataValidator;
 
 use super::{MKSAPExtractor, CHECKPOINT_DIR_NAME, QUESTION_TYPE_CODES};
+
+#[derive(Debug, Clone)]
+pub struct QuestionDirEntry {
+    pub system_id: String,
+    pub question_id: String,
+    pub path: PathBuf,
+}
+
+pub fn checkpoint_system_id(path: &Path) -> Option<String> {
+    let filename = path.file_name().and_then(|n| n.to_str())?;
+    let system_id = filename.strip_suffix("_ids.txt")?;
+    if system_id.is_empty() {
+        None
+    } else {
+        Some(system_id.to_string())
+    }
+}
+
+pub fn read_checkpoint_lines(path: &Path) -> Result<Vec<String>> {
+    let content = fs::read_to_string(path).context("Failed to read checkpoint file")?;
+    Ok(content
+        .lines()
+        .map(str::trim)
+        .filter(|line| !line.is_empty())
+        .map(|line| line.to_string())
+        .collect())
+}
+
+pub fn read_checkpoint_ids(path: &Path) -> Result<Vec<String>> {
+    let mut ids = read_checkpoint_lines(path)?;
+    ids.sort();
+    ids.dedup();
+    Ok(ids)
+}
+
+pub fn read_all_checkpoint_ids(checkpoint_dir: &Path) -> Result<HashSet<String>> {
+    let mut all_ids = HashSet::new();
+
+    for entry in fs::read_dir(checkpoint_dir).context("Failed to read checkpoint directory")? {
+        let entry = entry?;
+        let path = entry.path();
+
+        if !path.is_file() || !path.to_string_lossy().ends_with("_ids.txt") {
+            continue;
+        }
+
+        for id in read_checkpoint_lines(&path)? {
+            all_ids.insert(id);
+        }
+    }
+
+    Ok(all_ids)
+}
+
+pub fn scan_question_directories<F>(
+    root_path: &Path,
+    skip_dirs: &HashSet<&str>,
+    predicate: F,
+) -> Result<Vec<QuestionDirEntry>>
+where
+    F: Fn(&QuestionDirEntry) -> bool,
+{
+    let mut results = Vec::new();
+
+    if !root_path.exists() {
+        return Ok(results);
+    }
+
+    for system_entry in fs::read_dir(root_path).context("Failed to read root directory")? {
+        let system_entry = system_entry.context("Failed to read system entry")?;
+        let system_path = system_entry.path();
+
+        if !system_path.is_dir() {
+            continue;
+        }
+
+        let system_id = match system_path.file_name().and_then(|n| n.to_str()) {
+            Some(name) if !skip_dirs.contains(name) => name.to_string(),
+            _ => continue,
+        };
+
+        for question_entry in
+            fs::read_dir(&system_path).context("Failed to read system directory")?
+        {
+            let question_entry = question_entry.context("Failed to read question entry")?;
+            let question_path = question_entry.path();
+
+            if !question_path.is_dir() {
+                continue;
+            }
+
+            let question_id = match question_path.file_name().and_then(|n| n.to_str()) {
+                Some(name) => name.to_string(),
+                None => continue,
+            };
+
+            let entry = QuestionDirEntry {
+                system_id: system_id.clone(),
+                question_id,
+                path: question_path,
+            };
+
+            if predicate(&entry) {
+                results.push(entry);
+            }
+        }
+    }
+
+    Ok(results)
+}
 
 impl MKSAPExtractor {
     pub(super) fn question_dir(&self, category_code: &str, question_id: &str) -> PathBuf {

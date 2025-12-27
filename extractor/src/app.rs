@@ -4,7 +4,7 @@ use std::fs;
 use std::path::Path;
 use tracing::{error, info};
 
-use crate::media::{browser_download, discovery, download as media_download};
+use crate::assets::{asset_discovery, asset_download, svg_download};
 
 use crate::{
     authenticate_extractor, build_categories_from_config, count_discovered_ids,
@@ -35,16 +35,18 @@ pub async fn run(args: Vec<String>) -> Result<()> {
     info!("=====================================");
 
     let command = Command::parse(&args);
-    let session_cookie = env::var("MKSAP_SESSION").unwrap_or_default();
+    let session_cookie = crate::session::load_session_cookie();
     let base_url = resolve_media_base_url(&args);
 
-    if handle_standalone_command(command, &args, &session_cookie, &base_url).await? {
+    if handle_standalone_command(command, &args, session_cookie.as_deref(), &base_url).await? {
         return Ok(());
     }
 
     let categories = build_categories_from_config();
     let mut extractor = MKSAPExtractor::new(&base_url, OUTPUT_DIR)?;
-    extractor = extractor.with_session_cookie(&session_cookie);
+    if let Some(cookie) = session_cookie.as_deref() {
+        extractor = extractor.with_session_cookie(cookie);
+    }
 
     if command.requires_auth() {
         authenticate_extractor(&mut extractor).await?;
@@ -77,8 +79,8 @@ pub async fn run(args: Vec<String>) -> Result<()> {
         Command::MediaDownload => {
             run_media_download(&args).await?;
         }
-        Command::MediaBrowser => {
-            run_media_browser(&args).await?;
+        Command::SvgBrowser => {
+            run_svg_browser(&args).await?;
         }
         Command::ExtractAll => {
             let options = parse_run_options(&args);
@@ -92,7 +94,7 @@ pub async fn run(args: Vec<String>) -> Result<()> {
             run_media_discovery(&args).await?;
             run_media_download(&args).await?;
             if has_flag(&args, "--with-browser") {
-                run_media_browser(&args).await?;
+                run_svg_browser(&args).await?;
             }
         }
         _ => {}
@@ -136,7 +138,7 @@ pub fn parse_run_options(args: &[String]) -> RunOptions {
 pub async fn handle_standalone_command(
     command: Command,
     args: &[String],
-    session_cookie: &str,
+    session_cookie: Option<&str>,
     base_url: &str,
 ) -> Result<bool> {
     match command {
@@ -158,7 +160,9 @@ pub async fn handle_standalone_command(
         Command::CleanupRetired => {
             info!("=== CLEANING UP RETIRED QUESTIONS ===");
             let mut extractor = MKSAPExtractor::new(base_url, OUTPUT_DIR)?;
-            extractor = extractor.with_session_cookie(session_cookie);
+            if let Some(cookie) = session_cookie {
+                extractor = extractor.with_session_cookie(cookie);
+            }
             let moved = extractor.cleanup_retired_questions().await?;
             info!(
                 "\n✓ Cleanup complete: {} retired questions moved to mksap_data_failed/retired/",
@@ -201,7 +205,7 @@ pub async fn maybe_inspect_api(extractor: &MKSAPExtractor) -> Result<()> {
 }
 
 pub async fn inspect_api(extractor: &MKSAPExtractor) -> Result<()> {
-    let url = "https://mksap.acponline.org/api/questions/cvmcq25001.json";
+    let url = crate::endpoints::question_json(BASE_URL, "cvmcq25001");
 
     println!("\n=== FETCHING API RESPONSE ===");
     println!("URL: {}", url);
@@ -312,8 +316,8 @@ async fn run_media_discovery(args: &[String]) -> Result<()> {
     info!("Concurrent requests: {}", concurrent);
     info!("Output file: {}", discovery_file);
 
-    let client = crate::media::build_client()?;
-    let results = discovery::discover_media_questions(&client, &base_url, concurrent).await?;
+    let client = crate::assets::build_client()?;
+    let results = asset_discovery::discover_media_questions(&client, &base_url, concurrent).await?;
 
     let output_path = Path::new(&discovery_file);
     if let Some(parent) = output_path.parent() {
@@ -354,8 +358,8 @@ async fn run_media_download(args: &[String]) -> Result<()> {
         info!("No question filter provided; downloading for all discovered questions.");
     }
 
-    let client = crate::media::build_client()?;
-    media_download::run_media_download(
+    let client = crate::assets::build_client()?;
+    asset_download::run_media_download(
         &client,
         &base_url,
         &data_dir,
@@ -370,7 +374,7 @@ async fn run_media_download(args: &[String]) -> Result<()> {
     Ok(())
 }
 
-async fn run_media_browser(args: &[String]) -> Result<()> {
+async fn run_svg_browser(args: &[String]) -> Result<()> {
     let base_url = resolve_media_base_url(args);
     let data_dir = resolve_media_data_dir(args);
     let discovery_file = resolve_media_discovery_file(args);
@@ -393,8 +397,8 @@ async fn run_media_browser(args: &[String]) -> Result<()> {
         info!("No question filter provided; downloading for all SVG questions.");
     }
 
-    let client = crate::media::build_client()?;
-    browser_download::run_browser_download(
+    let client = crate::assets::build_client()?;
+    svg_download::run_svg_download(
         &client,
         &base_url,
         &data_dir,
@@ -410,7 +414,7 @@ async fn run_media_browser(args: &[String]) -> Result<()> {
     )
     .await?;
 
-    info!("Browser media download completed.");
+    info!("SVG browser download completed.");
     Ok(())
 }
 

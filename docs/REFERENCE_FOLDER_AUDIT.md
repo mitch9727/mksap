@@ -89,7 +89,7 @@ The `docs/reference/` folder contains **9 technical reference documents** (86KB 
 - **Purpose**: Specification for browser-based media extraction
 - **Current Content**: Architecture overview, implementation strategy
 - **Issue**: This is a **specification document**, not a reference guide
-- **Integration**: Describes functionality implemented in the extractor media modules
+- **Integration**: Describes functionality implemented in the extractor asset modules
 - **Recommended Action**:
   - **Option A**: Move to `docs/specifications/` (better category)
   - **Option B**: Keep in reference/ as implementation guide

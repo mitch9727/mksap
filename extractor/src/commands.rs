@@ -10,7 +10,7 @@ pub enum Command {
     Standardize,
     MediaDiscover,
     MediaDownload,
-    MediaBrowser,
+    SvgBrowser,
     ExtractAll,
 }
 
@@ -26,7 +26,7 @@ impl Command {
             Some("standardize") => Command::Standardize,
             Some("media-discover") => Command::MediaDiscover,
             Some("media-download") => Command::MediaDownload,
-            Some("media-browser") => Command::MediaBrowser,
+            Some("svg-browser") => Command::SvgBrowser,
             Some("extract-all") => Command::ExtractAll,
             _ => Command::Run,
         }
@@ -40,7 +40,7 @@ impl Command {
                 | Command::ListMissing
                 | Command::MediaDiscover
                 | Command::MediaDownload
-                | Command::MediaBrowser
+                | Command::SvgBrowser
                 | Command::ExtractAll
         )
     }

@@ -1,62 +1,62 @@
 {
+  "question_id": "idqqq24010",
   "category": "id",
-  "critique": "The most appropriate management for this patient with latent tuberculosis infection (LTBI) is weekly isoniazid and rifapentine (Option D). The 2020 CDC guideline for the treatment of LTBI recommends 3 months of weekly isoniazid and rifapentine as a preferred regimen for patients with and without HIV infection; combined daily isoniazid and rifampin for 3 months is also recommended, including in patients with HIV infection, although use of rifampin is often precluded by drug interactions with antiretrovirals. Four months of daily rifampin is another preferred regimen but only in those without HIV infection. Isoniazid given daily for 6 or 9 months is now considered an alternative therapy for patients unable to take a preferred rifamycin-based regimen. This patient has HIV infection, and a tuberculin skin test (TST) produces a 5-mm induration, which is considered positive in patients with HIV (see ). Because his chest radiograph was negative and he has no symptoms, he should be treated for LTBI with a preferred regimen in patients with HIV; this regimen has no significant drug interactions with his antiretroviral therapy. Pyridoxine is recommended in patients who will receive isoniazid and are at risk for peripheral neuropathy (diabetes mellitus, chronic kidney disease, malnutrition, HIV infection, and alcohol use disorder).Routine use of sequential TST and interferon-gamma release assay (IGRA) (Option A) is not recommended. In certain circumstances, however, performing a second test when the initial test result is negative might be helpful when the risk of infection or progression is high or risk for poor outcome exists, such as in children younger than 5 years who have been exposed to a patient with active tuberculosis or in patients with HIV infection.Because this patient has no evidence of active infection, four-drug antituberculous therapy with isoniazid, rifampin, pyrazinamide, and ethambutol (Option B) is not appropriate.Repeating the TST in 2 weeks (Option C) would not provide additional information. The CDC recommends initiating LTBI therapy in patients with HIV who have a TST induration of 5 mm or greater and no evidence of active infection.",
   "educational_objective": "Treat a patient with HIV infection and latent tuberculosis infection.",
-  "extracted_at": "2025-12-23T14:10:29.239341-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 35-year-old man presents for routine follow-up evaluation. He is asymptomatic. He is currently without housing. Medical history is significant for HIV, which is managed with fixed-dose combination dolutegravir-lamivudine, to which he has been fully adherent.Vital signs and physical examination findings are normal.HIV viral load is undetectable, and CD4 cell count is 100/µL. A tuberculin skin test (TST) results in 5 mm of induration.A posteroanterior and lateral chest radiograph is normal.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Interferon-gamma release assay",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Daily isoniazid, rifampin, pyrazinamide, and ethambutol",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Repeat TST in 2 weeks",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Weekly isoniazid and rifapentine",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management for this patient with latent tuberculosis infection (LTBI) is weekly isoniazid and rifapentine (Option D). The 2020 CDC guideline for the treatment of LTBI recommends 3 months of weekly isoniazid and rifapentine as a preferred regimen for patients with and without HIV infection; combined daily isoniazid and rifampin for 3 months is also recommended, including in patients with HIV infection, although use of rifampin is often precluded by drug interactions with antiretrovirals. Four months of daily rifampin is another preferred regimen but only in those without HIV infection. Isoniazid given daily for 6 or 9 months is now considered an alternative therapy for patients unable to take a preferred rifamycin-based regimen. This patient has HIV infection, and a tuberculin skin test (TST) produces a 5-mm induration, which is considered positive in patients with HIV (see ). Because his chest radiograph was negative and he has no symptoms, he should be treated for LTBI with a preferred regimen in patients with HIV; this regimen has no significant drug interactions with his antiretroviral therapy. Pyridoxine is recommended in patients who will receive isoniazid and are at risk for peripheral neuropathy (diabetes mellitus, chronic kidney disease, malnutrition, HIV infection, and alcohol use disorder).Routine use of sequential TST and interferon-gamma release assay (IGRA) (Option A) is not recommended. In certain circumstances, however, performing a second test when the initial test result is negative might be helpful when the risk of infection or progression is high or risk for poor outcome exists, such as in children younger than 5 years who have been exposed to a patient with active tuberculosis or in patients with HIV infection.Because this patient has no evidence of active infection, four-drug antituberculous therapy with isoniazid, rifampin, pyrazinamide, and ethambutol (Option B) is not appropriate.Repeating the TST in 2 weeks (Option C) would not provide additional information. The CDC recommends initiating LTBI therapy in patients with HIV who have a TST induration of 5 mm or greater and no evidence of active infection.",
   "key_points": [
     "A 5-mm induration on tuberculin skin testing is considered positive in persons with HIV; if no other signs or symptoms of tuberculosis infection are present, treatment for latent tuberculosis infection should be initiated.",
     "In persons with HIV taking antiretroviral therapy, preferred regimens for treatment of latent tuberculosis infection are weekly isoniazid plus rifapentine and daily isoniazid plus rifampin (as drug interactions allow)."
   ],
+  "references": "Sterling TR, Njie G, Zenner D, et al. Guidelines for the treatment of latent tuberculosis infection: recommendations from the National Tuberculosis Controllers Association and CDC, 2020. MMWR Recomm Rep. 2020;69:1-11. PMID: 32053584 doi:10.15585/mmwr.rr6901a1",
+  "related_content": {
+    "syllabus": [
+      "idsec24009_24007"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Interferon-gamma release assay"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Daily isoniazid, rifampin, pyrazinamide, and ethambutol"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Repeat TST in 2 weeks"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Weekly isoniazid and rifapentine"
-    }
-  ],
-  "question_id": "idqqq24010",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 35-year-old man presents for routine follow-up evaluation. He is asymptomatic. He is currently without housing. Medical history is significant for HIV, which is managed with fixed-dose combination dolutegravir-lamivudine, to which he has been fully adherent.Vital signs and physical examination findings are normal.HIV viral load is undetectable, and CD4 cell count is 100/µL. A tuberculin skin test (TST) results in 5 mm of induration.A posteroanterior and lateral chest radiograph is normal.",
-  "references": "Sterling TR, Njie G, Zenner D, et al. Guidelines for the treatment of latent tuberculosis infection: recommendations from the National Tuberculosis Controllers Association and CDC, 2020. MMWR Recomm Rep. 2020;69:1-11. PMID: 32053584 doi:10.15585/mmwr.rr6901a1",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24009_24007"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:10:29.239341-06:00"
 }

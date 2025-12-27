@@ -1,14 +1,14 @@
 # MKSAP Question ID Discovery - Complete Analysis
 
-## Critical Finding: Why Your Script is Missing IDs
+## Critical Finding: Why IDs Were Missed
 
-The root cause: MKSAP uses **multiple question type suffixes** that your current code may not be checking. Additionally, the `/api/content_metadata.json` endpoint contains the authoritative source of all question IDs.
+The root cause was that MKSAP uses **multiple question type suffixes**. The current extractor now checks all 6 suffixes below. The `/api/content_metadata.json` endpoint remains a useful reference for auditing ID coverage.
 
 ---
 
 ## Question ID Format Variations
 
-Your script needs to account for these 6 different question type suffixes:
+The extractor accounts for these 6 different question type suffixes:
 
 1. **`cor`** - Clinical Observation/CORE questions (e.g., `cvcor25001`)
 2. **`mcq`** - Multiple Choice Questions (e.g., `cvmcq24001`)
@@ -28,7 +28,7 @@ Your script needs to account for these 6 different question type suffixes:
 | **cv** | Cardiovascular (Main) | 244 | 26 cor, 133 mcq, 25 qqq, 61 vdx |
 | **dm** | Dermatology | 116 | 8 cor, 34 mcq, 6 mqq, 68 vdx |
 | **en** | Endocrinology | 164 | 24 cor, 104 mcq, 19 qqq, 17 vdx |
-| **fc** | Foundations/Common | 133 | 14 cor, 107 mcq, 18 qqq, 3 vdx |
+| **fc** | Foundations of Clinical Practice | 133 | 14 cor, 107 mcq, 18 qqq, 3 vdx |
 | **gi** | GI/Hepatology | 128 | 16 cor, 71 mcq, 18 qqq, 25 vdx |
 | **hm** | Hematology | 149 | 24 cor, 72 mcq, 16 mqq, 38 vdx |
 | **hp** | HP (Core) | 53 | 8 cor, 32 mcq, 4 qqq, 9 vdx |
@@ -51,7 +51,7 @@ Your script needs to account for these 6 different question type suffixes:
 - `cv` = Cardiovascular (Main)
 - `dm` = Dermatology/Endocrinology & Metabolism
 - `en` = Endocrinology
-- `fc` = Foundations & Common Symptoms
+- `fc` = Foundations of Clinical Practice
 - `gi` = Gastroenterology & Hepatology
 - `hm` = Hematology
 - `hp` = Other/Subspecialty

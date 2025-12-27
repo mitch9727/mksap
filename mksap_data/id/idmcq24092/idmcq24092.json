@@ -1,61 +1,61 @@
 {
+  "question_id": "idmcq24092",
   "category": "id",
-  "critique": "This patient most likely has a Streptobacillus moniliformis infection (Option C). S. moniliformis is a filamentous gram-negative bacillus with lateral bulbar swellings that is classically associated with a scratch or bite from a rat (also carried by mice, squirrels, gerbils, and guinea pigs). Signs and symptoms usually develop within 3 to 10 days after exposure. Initially, fever, chills, vomiting, headache, myalgia, and polyarthralgia can develop, typically followed by an extremity-associated maculopapular, hemorrhagic vesicular, purpuric, or petechial rash and polyarticular arthritis (particularly knees and ankles, but also wrists and small joints of the hand, elbows, and shoulders). In addition to bacteremia and septic arthritis, as in this patient, endocarditis is potential complication. The organism is difficult to culture, and the microbiology laboratory should be notified to assist with diagnosis. In addition to local wound care, intravenous penicillin or ceftriaxone is typically administered.Capnocytophaga canimorsus (Option A) is a gram-negative bacillus that can cause cellulitis, septic arthritis, meningitis, and overwhelming sepsis in patients with hyposplenism who have been bitten or scratched by a dog or cat or who have had contact with their saliva. This patient's history and symptoms do not indicate C. canimorsus infection.Erysipelothrix rhusiopathiae (Option B), a gram-positive bacillus, can infect animals, including swine and poultry, and is a saprophyte associated with fish, mollusks, and crustaceans. Occupational exposures (e.g., by fishermen, shellfish handlers, butchers, veterinarians) to these animals or their secretions may result in infection. A painful localized violaceous skin lesion (known as erysipeloid) typically develops at the site of trauma or pre-existing wound. Fever is not usually present.Vibrio vulnificus (Option D). is a gram-negative bacillus that can cause monomicrobial necrotizing fasciitis Infection typically occurs after consumption of raw or undercooked shellfish (often oysters), which may result in primary septicemia, or after skin trauma sustained in warm seawater or brackish water where the organism is found. Violaceous hemorrhagic bullae are classically seen.",
   "educational_objective": "Diagnose <i>Streptobacillus moniliformis</i> infection in a patient bitten by a rat.",
-  "extracted_at": "2025-12-23T15:17:18.164829-06:00",
-  "key_points": [
-    "Streptobacillus moniliformis infection is typically associated with scratches or bites from rodents, with signs and symptoms developing 3 to 10 days after exposure; intravenous penicillin or ceftriaxone is typically administered."
-  ],
-  "media": {
-    "images": [],
-    "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "videos": []
-  },
   "metadata": {
     "care_types": [],
-    "high_value_care": false,
     "patient_types": [],
+    "high_value_care": false,
     "question_updated": "12/23/2025"
   },
+  "question_text": "A 20-year-old man is evaluated in the hospital for a rash. He was admitted 2 days ago for a 1-week history of fever, myalgia, and arthralgia involving his extremities. His pet rat bit him 5 days before symptom onset. Arthrocentesis of the right knee on admission suggested septic arthritis and intravenous vancomycin and ceftriaxone were started; his symptoms have improved. He takes no other medications. His last tetanus immunization was 1 year ago.On physical examination, temperature is 37.5 °C (99.5 °F); remaining vital signs are normal. A tender, erythematous, maculopapular rash with scattered hemorrhagic vesicles is present, primarily over the hands and feet, including the palms and soles, with scattered excoriations. The bilateral wrists, ankles, and right knee are tender and warm. There is decreased range of motion and effusion in the right knee.Laboratory studies:Leukocyte count12,900/µL (12.9 × 109/L) with 90% neutrophilsHBlood and synovial fluid cultures from admission now reveal growth of gram-negative bacilli.",
+  "question_stem": "Which of the following is the most likely infectious agent?",
   "options": [
     {
       "letter": "A",
-      "peer_percentage": 0,
-      "text": "Capnocytophaga canimorsus"
+      "text": "Capnocytophaga canimorsus",
+      "peer_percentage": 0
     },
     {
       "letter": "B",
-      "peer_percentage": 0,
-      "text": "Erysipelothrix rhusiopathiae"
+      "text": "Erysipelothrix rhusiopathiae",
+      "peer_percentage": 0
     },
     {
       "letter": "C",
-      "peer_percentage": 0,
-      "text": "Streptobacillus moniliformis"
+      "text": "Streptobacillus moniliformis",
+      "peer_percentage": 0
     },
     {
       "letter": "D",
-      "peer_percentage": 0,
-      "text": "Vibrio vulnificus"
+      "text": "Vibrio vulnificus",
+      "peer_percentage": 0
     }
   ],
-  "question_id": "idmcq24092",
-  "question_stem": "Which of the following is the most likely infectious agent?",
-  "question_text": "A 20-year-old man is evaluated in the hospital for a rash. He was admitted 2 days ago for a 1-week history of fever, myalgia, and arthralgia involving his extremities. His pet rat bit him 5 days before symptom onset. Arthrocentesis of the right knee on admission suggested septic arthritis and intravenous vancomycin and ceftriaxone were started; his symptoms have improved. He takes no other medications. His last tetanus immunization was 1 year ago.On physical examination, temperature is 37.5 °C (99.5 °F); remaining vital signs are normal. A tender, erythematous, maculopapular rash with scattered hemorrhagic vesicles is present, primarily over the hands and feet, including the palms and soles, with scattered excoriations. The bilateral wrists, ankles, and right knee are tender and warm. There is decreased range of motion and effusion in the right knee.Laboratory studies:Leukocyte count12,900/µL (12.9 × 109/L) with 90% neutrophilsHBlood and synovial fluid cultures from admission now reveal growth of gram-negative bacilli.",
-  "references": "Varela K, Brown JA, Lipton B, et al. A review of zoonotic disease threats to pet owners: a compendium of measures to prevent zoonotic diseases associated with non-traditional pets: rodents and other small mammals, reptiles, amphibians, backyard poultry, and other selected animals. Vector Borne Zoonotic Dis. 2022;22:303-360. PMID: 35724316 doi:10.1089/vbz.2022.0022",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24002_24001"
-    ]
-  },
   "user_performance": {
+    "user_answer": null,
     "correct_answer": "C",
     "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+    "time_taken": null
+  },
+  "critique": "This patient most likely has a Streptobacillus moniliformis infection (Option C). S. moniliformis is a filamentous gram-negative bacillus with lateral bulbar swellings that is classically associated with a scratch or bite from a rat (also carried by mice, squirrels, gerbils, and guinea pigs). Signs and symptoms usually develop within 3 to 10 days after exposure. Initially, fever, chills, vomiting, headache, myalgia, and polyarthralgia can develop, typically followed by an extremity-associated maculopapular, hemorrhagic vesicular, purpuric, or petechial rash and polyarticular arthritis (particularly knees and ankles, but also wrists and small joints of the hand, elbows, and shoulders). In addition to bacteremia and septic arthritis, as in this patient, endocarditis is potential complication. The organism is difficult to culture, and the microbiology laboratory should be notified to assist with diagnosis. In addition to local wound care, intravenous penicillin or ceftriaxone is typically administered.Capnocytophaga canimorsus (Option A) is a gram-negative bacillus that can cause cellulitis, septic arthritis, meningitis, and overwhelming sepsis in patients with hyposplenism who have been bitten or scratched by a dog or cat or who have had contact with their saliva. This patient's history and symptoms do not indicate C. canimorsus infection.Erysipelothrix rhusiopathiae (Option B), a gram-positive bacillus, can infect animals, including swine and poultry, and is a saprophyte associated with fish, mollusks, and crustaceans. Occupational exposures (e.g., by fishermen, shellfish handlers, butchers, veterinarians) to these animals or their secretions may result in infection. A painful localized violaceous skin lesion (known as erysipeloid) typically develops at the site of trauma or pre-existing wound. Fever is not usually present.Vibrio vulnificus (Option D). is a gram-negative bacillus that can cause monomicrobial necrotizing fasciitis Infection typically occurs after consumption of raw or undercooked shellfish (often oysters), which may result in primary septicemia, or after skin trauma sustained in warm seawater or brackish water where the organism is found. Violaceous hemorrhagic bullae are classically seen.",
+  "key_points": [
+    "Streptobacillus moniliformis infection is typically associated with scratches or bites from rodents, with signs and symptoms developing 3 to 10 days after exposure; intravenous penicillin or ceftriaxone is typically administered."
+  ],
+  "references": "Varela K, Brown JA, Lipton B, et al. A review of zoonotic disease threats to pet owners: a compendium of measures to prevent zoonotic diseases associated with non-traditional pets: rodents and other small mammals, reptiles, amphibians, backyard poultry, and other selected animals. Vector Borne Zoonotic Dis. 2022;22:303-360. PMID: 35724316 doi:10.1089/vbz.2022.0022",
+  "related_content": {
+    "syllabus": [
+      "idsec24002_24001"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-23T15:17:18.164829-06:00"
 }

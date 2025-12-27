@@ -1,63 +1,63 @@
 {
+  "question_id": "idmcq24034",
   "category": "id",
-  "critique": "This patient should be admitted to the ICU and therapy initiated with ceftriaxone and azithromycin (Option C) for severe community-acquired pneumonia (CAP). Clinical prediction models aid in clinical decisions regarding the most appropriate site of care for a patient with CAP. The Pneumonia Severity Index is a validated predictor of 30-day mortality from CAP; the Infectious Diseases Society of America (IDSA) and American Thoracic Society (ATS) have also defined major and minor criteria used to identify patients with severe CAP (). Patients with one major or three minor criteria are best managed in the ICU. Based on this patient's altered mental status and clinical findings, he should be admitted to the ICU rather than the general medical ward (Option A, Option B).For patients hospitalized with severe CAP without risk factors for methicillin-resistant Staphylococcus aureus (MRSA) or Pseudomonas aeruginosa, an intravenous β-lactam plus a macrolide (e.g., ceftriaxone plus azithromycin) is recommended. IDSA/ATS guidelines reflect the increasing incidence of multidrug-resistant organisms causing CAP and provide guidance for when broader coverage of MRSA or P. aeruginosa is indicated. Patients at risk for MRSA or Pseudomonas include those who have had the organism previously isolated from sputum cultures, those recently hospitalized who received intravenous antibiotics, and those with a pulmonary comorbidity for which they have received recent courses of oral glucocorticoids or antibiotics (e.g., COPD exacerbations or bronchiectasis). This patient has no risk factors for infection with MRSA or Pseudomonas, so treatment with vancomycin and cefepime is unnecessary (Option B, Option D). Additionally, this antibiotic regimen does not include coverage of Legionella.",
   "educational_objective": "Manage severe community-acquired pneumonia requiring ICU admission.",
-  "extracted_at": "2025-12-22T19:46:51.922842-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 62-year-old man is evaluated in the emergency department for a 4-day history of fever, chills, cough productive of yellow sputum, increasing shortness of breath, and sharp left-sided chest pain with deep breaths. His family indicates he was out of breath and confused earlier today. He has a 30-pack-year smoking history. Medical history is significant for COPD and hypertension. He has never been hospitalized and has not recently received antibiotics or oral glucocorticoids. Medications are a umeclidinium-vilanterol inhaler and hydrochlorothiazide.On physical examination, temperature is 35.7 °C (96.3 °F), blood pressure is 95/64 mm Hg, pulse rate is 115/min, and respiration rate is 24/min. Oxygen saturation is 90% breathing ambient air. He is oriented only to person and place. The neck is supple. Tachypnea is noted. Diffuse wheezing and decreased breath sounds are heard in the left lower lobe.A chest radiograph shows hyperexpanded lungs bilaterally and a left lower lobe consolidation with pleural effusion.",
+  "question_stem": "Which of the following are the most appropriate next steps in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Hospital admission and initiation of ceftriaxone and azithromycin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hospital admission and initiation of vancomycin and cefepime",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "ICU admission and initiation of ceftriaxone and azithromycin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "ICU admission and initiation of vancomycin and cefepime",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient should be admitted to the ICU and therapy initiated with ceftriaxone and azithromycin (Option C) for severe community-acquired pneumonia (CAP). Clinical prediction models aid in clinical decisions regarding the most appropriate site of care for a patient with CAP. The Pneumonia Severity Index is a validated predictor of 30-day mortality from CAP; the Infectious Diseases Society of America (IDSA) and American Thoracic Society (ATS) have also defined major and minor criteria used to identify patients with severe CAP (). Patients with one major or three minor criteria are best managed in the ICU. Based on this patient's altered mental status and clinical findings, he should be admitted to the ICU rather than the general medical ward (Option A, Option B).For patients hospitalized with severe CAP without risk factors for methicillin-resistant Staphylococcus aureus (MRSA) or Pseudomonas aeruginosa, an intravenous β-lactam plus a macrolide (e.g., ceftriaxone plus azithromycin) is recommended. IDSA/ATS guidelines reflect the increasing incidence of multidrug-resistant organisms causing CAP and provide guidance for when broader coverage of MRSA or P. aeruginosa is indicated. Patients at risk for MRSA or Pseudomonas include those who have had the organism previously isolated from sputum cultures, those recently hospitalized who received intravenous antibiotics, and those with a pulmonary comorbidity for which they have received recent courses of oral glucocorticoids or antibiotics (e.g., COPD exacerbations or bronchiectasis). This patient has no risk factors for infection with MRSA or Pseudomonas, so treatment with vancomycin and cefepime is unnecessary (Option B, Option D). Additionally, this antibiotic regimen does not include coverage of Legionella.",
   "key_points": [
     "A clinical prediction model (the Pneumonia Severity Index or Infectious Diseases Society of America/American Thoracic Society criteria) can be used to identify patients with community-acquired pneumonia (CAP) who may require hospital or ICU admission.",
     "For patients hospitalized with severe CAP without risk factors for methicillin-resistant Staphylococcus aureus or Pseudomonas aeruginosa, an intravenous β-lactam plus a macrolide is recommended."
   ],
+  "references": "Metlay JP, Waterer GW, Long AC, et al. Diagnosis and treatment of adults with community-acquired pneumonia. An official clinical practice guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med. 2019;200:e45-e67. PMID: 31573350 doi:10.1164/rccm.201908-1581ST",
+  "related_content": {
+    "syllabus": [
+      "idsec24006_24004"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Hospital admission and initiation of ceftriaxone and azithromycin"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Hospital admission and initiation of vancomycin and cefepime"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "ICU admission and initiation of ceftriaxone and azithromycin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "ICU admission and initiation of vancomycin and cefepime"
-    }
-  ],
-  "question_id": "idmcq24034",
-  "question_stem": "Which of the following are the most appropriate next steps in management?",
-  "question_text": "A 62-year-old man is evaluated in the emergency department for a 4-day history of fever, chills, cough productive of yellow sputum, increasing shortness of breath, and sharp left-sided chest pain with deep breaths. His family indicates he was out of breath and confused earlier today. He has a 30-pack-year smoking history. Medical history is significant for COPD and hypertension. He has never been hospitalized and has not recently received antibiotics or oral glucocorticoids. Medications are a umeclidinium-vilanterol inhaler and hydrochlorothiazide.On physical examination, temperature is 35.7 °C (96.3 °F), blood pressure is 95/64 mm Hg, pulse rate is 115/min, and respiration rate is 24/min. Oxygen saturation is 90% breathing ambient air. He is oriented only to person and place. The neck is supple. Tachypnea is noted. Diffuse wheezing and decreased breath sounds are heard in the left lower lobe.A chest radiograph shows hyperexpanded lungs bilaterally and a left lower lobe consolidation with pleural effusion.",
-  "references": "Metlay JP, Waterer GW, Long AC, et al. Diagnosis and treatment of adults with community-acquired pneumonia. An official clinical practice guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med. 2019;200:e45-e67. PMID: 31573350 doi:10.1164/rccm.201908-1581ST",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24006_24004"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:46:51.922842-06:00"
 }

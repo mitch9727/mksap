@@ -1,63 +1,63 @@
 {
+  "question_id": "pmmcq24049",
   "category": "pm",
-  "critique": "The most appropriate treatment in this patient with asthma and type 2 airway inflammation is dupilumab (Option A). Approximately half of patients with asthma have type 2 airway inflammation and may benefit from biologic therapy. The process of phenotyping helps guide the choice of biologic therapy in an individual patient with difficult-to-control asthma. Elements of an asthma phenotype include clinical characteristics, such as atopy and nasal polyposis, and biomarkers, such as IgE level and eosinophil count (). The interleukin (IL)-4 and IL-13 inhibitor dupilumab is a biologic therapy indicated for patients with moderate to severe asthma and an absolute eosinophil count greater than 150/µL (0.15 × 109/L) or a dependence on systemic glucocorticoids. It improves upper and lower airway symptoms in patients with chronic rhinosinusitis with nasal polyposis and asthma, two conditions that commonly coexist and result in an overall higher symptom burden. Additional indications for dupilumab include atopic dermatitis, eosinophilic esophagitis, and chronic sinus disease. This patient has difficult-to-control asthma and a phenotype that includes an elevated eosinophil level, nasal polyposis, and chronic rhinosinusitis. Dupilumab is the best treatment option.Omalizumab (Option B) is indicated in patients with severe persistent asthma who have elevated IgE levels and sensitivity to multiple allergens. It is also indicated for those with nasal polyps and may be especially beneficial in patients with a history of childhood-onset asthma. Although this patient has evidence of atopy and nasal polyposis, the IgE level is not elevated, and dupilumab is a better biologic option.Oral glucocorticoids, such as prednisone (Option C), are indicated for acute asthma exacerbations and should be initiated as soon as possible in the setting of an acute exacerbation. However, because of long-term adverse effects, they should be avoided as long-term treatment, and a biologic therapy, such as dupilumab, is a better option in this patient.Roflumilast (Option D) can decrease the frequency of exacerbations in patients with severe COPD (FEV1 <50%) with a chronic bronchitis subtype. It has no role, however, in the treatment of asthma and is not indicated in this patient.",
   "educational_objective": "Treat type 2 asthmatic airway inflammation and chronic sinus disease.",
-  "extracted_at": "2025-12-23T14:15:53.065276-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 35-year-old man is evaluated for significant nasal congestion. He has moderate persistent asthma and chronic rhinosinusitis with nasal polyposis. He has had two sinus infections in the past 6 months, both of which resulted in asthma flares requiring systemic glucocorticoids. Medications include intranasal fluticasone, montelukast, fexofenadine, and moderate-dose inhaled mometasone-formoterol therapy.On physical examination, vital signs are normal. Nasal polyps are seen in the left nares.Allergy testing shows positive results for dust mites and animal dander.",
+  "question_stem": "Which of the following is the most appropriate additional treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Dupilumab",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Omalizumab",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Prednisone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Roflumilast",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment in this patient with asthma and type 2 airway inflammation is dupilumab (Option A). Approximately half of patients with asthma have type 2 airway inflammation and may benefit from biologic therapy. The process of phenotyping helps guide the choice of biologic therapy in an individual patient with difficult-to-control asthma. Elements of an asthma phenotype include clinical characteristics, such as atopy and nasal polyposis, and biomarkers, such as IgE level and eosinophil count (). The interleukin (IL)-4 and IL-13 inhibitor dupilumab is a biologic therapy indicated for patients with moderate to severe asthma and an absolute eosinophil count greater than 150/µL (0.15 × 109/L) or a dependence on systemic glucocorticoids. It improves upper and lower airway symptoms in patients with chronic rhinosinusitis with nasal polyposis and asthma, two conditions that commonly coexist and result in an overall higher symptom burden. Additional indications for dupilumab include atopic dermatitis, eosinophilic esophagitis, and chronic sinus disease. This patient has difficult-to-control asthma and a phenotype that includes an elevated eosinophil level, nasal polyposis, and chronic rhinosinusitis. Dupilumab is the best treatment option.Omalizumab (Option B) is indicated in patients with severe persistent asthma who have elevated IgE levels and sensitivity to multiple allergens. It is also indicated for those with nasal polyps and may be especially beneficial in patients with a history of childhood-onset asthma. Although this patient has evidence of atopy and nasal polyposis, the IgE level is not elevated, and dupilumab is a better biologic option.Oral glucocorticoids, such as prednisone (Option C), are indicated for acute asthma exacerbations and should be initiated as soon as possible in the setting of an acute exacerbation. However, because of long-term adverse effects, they should be avoided as long-term treatment, and a biologic therapy, such as dupilumab, is a better option in this patient.Roflumilast (Option D) can decrease the frequency of exacerbations in patients with severe COPD (FEV1 <50%) with a chronic bronchitis subtype. It has no role, however, in the treatment of asthma and is not indicated in this patient.",
   "key_points": [
     "Asthma phenotyping helps determine the appropriate biologic therapy in patients with difficult-to-control asthma; phenotype elements include clinical characteristics (such as atopy and nasal polyposis) and biomarkers (such as IgE levels and eosinophil counts).",
     "Dupilumab is an interleukin-4 inhibitor indicated for moderate to severe asthma and an absolute eosinophil count greater than 150/µL (0.15 × 109/L) or a dependence on systemic glucocorticoids."
   ],
+  "references": "Laidlaw TM, Bachert C, Amin N, et al. Dupilumab improves upper and lower airway disease control in chronic rhinosinusitis with nasal polyps and asthma. Ann Allergy Asthma Immunol. 2021;126:584-92.e1. PMID: 33465455 doi:10.1016/j.anai.2021.01.012",
+  "related_content": {
+    "syllabus": [
+      "pmsec24002_24017"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Dupilumab"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Omalizumab"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Prednisone"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Roflumilast"
-    }
-  ],
-  "question_id": "pmmcq24049",
-  "question_stem": "Which of the following is the most appropriate additional treatment?",
-  "question_text": "A 35-year-old man is evaluated for significant nasal congestion. He has moderate persistent asthma and chronic rhinosinusitis with nasal polyposis. He has had two sinus infections in the past 6 months, both of which resulted in asthma flares requiring systemic glucocorticoids. Medications include intranasal fluticasone, montelukast, fexofenadine, and moderate-dose inhaled mometasone-formoterol therapy.On physical examination, vital signs are normal. Nasal polyps are seen in the left nares.Allergy testing shows positive results for dust mites and animal dander.",
-  "references": "Laidlaw TM, Bachert C, Amin N, et al. Dupilumab improves upper and lower airway disease control in chronic rhinosinusitis with nasal polyps and asthma. Ann Allergy Asthma Immunol. 2021;126:584-92.e1. PMID: 33465455 doi:10.1016/j.anai.2021.01.012",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24002_24017"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.065276-06:00"
 }

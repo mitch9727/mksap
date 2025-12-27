@@ -1,62 +1,62 @@
 {
+  "question_id": "npmcq24021",
   "category": "np",
-  "critique": "The most appropriate management is to continue current medications (Option D). This patient has newly diagnosed membranous nephropathy (MN) with detectable anti–phospholipase A2 receptor antibodies in the serum. Patients with MN should initially be treated with conservative management, including renin-angiotensin system blockade (e.g., losartan), cholesterol-lowering medications (e.g., simvastatin), and diuretics (e.g., furosemide) as needed for edema management. Approximately 30% of patients with MN achieve spontaneous remission within the first 2 years of diagnosis with conservative management; therefore, adding immunosuppressive therapy is usually reserved for patients who have persistent nephrotic-range proteinuria or, if phospholipase A2 receptor (PLA2R) positive, have increasing antibody titers after 6 to 12 months of conservative therapy. Some newly diagnosed cases of MN are considered high risk for progression, which would be identified by acute kidney injury, presence of deep venous thrombosis or renal vein thrombosis, proteinuria >8000 mg/d, or high PLA2R antibody levels (a definitive threshold is unclear, but >100 RU/mL may be used); the recommended observation period can be shorted or eliminated in these cases. This patient is currently taking losartan, simvastatin, and furosemide and has no features to indicate high risk for progression. Serial laboratory monitoring with measurement of proteinuria, albumin, creatinine, and PLA2R activity is necessary to assess treatment response, and this patient should be routinely monitored. In patients with PLA2R-positive MN, surveillance of anti-PLA2R antibody levels helps to evaluate the response to treatment and guides ongoing treatment decisions. Progression to end-stage kidney disease (ESKD) depends on remission of proteinuria: The 10-year incidence of ESKD in patients who undergo complete or partial remission of proteinuria ranges from 0% to 10% compared with a >50% incidence of ESKD in patients who maintain nephrotic-range proteinuria.Three first-line immunosuppressive regimens are available for patients who remain nephrotic and/or have persistent anti-PLA2R antibody positivity:Combination of glucocorticoids and alkylating agents (e.g., cyclophosphamide) ()Rituximab ()Calcineurin inhibitors, such as cyclosporine or tacrolimus ()The choice of these agents is dependent on risk, and factors that determine risk include estimated glomerular filtration rate, proteinuria, albumin, anti-PLA2R antibody titers, and overall response to conservative management. It is premature to initiate an immunosuppressive regimen for this patient at this time because they were only recently diagnosed with MN and do not have high-risk features.",
   "educational_objective": "Manage membranous nephropathy.",
-  "extracted_at": "2025-12-22T20:06:34.648914-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 47-year-old patient is evaluated for a 3-month history of edema of the legs and a 2.3-kg (5.0-lb) weight gain. Two weeks ago, they were diagnosed with membranous nephropathy by kidney biopsy, and furosemide, losartan, and simvastatin were subsequently started.On physical examination, vital signs are normal. There is 2-mm pitting edema to the mid shins bilaterally. The remainder of the examination is unremarkable.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Add cyclophosphamide plus glucocorticoids",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Add rituximab",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Add tacrolimus",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Continue current medications",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is to continue current medications (Option D). This patient has newly diagnosed membranous nephropathy (MN) with detectable anti–phospholipase A2 receptor antibodies in the serum. Patients with MN should initially be treated with conservative management, including renin-angiotensin system blockade (e.g., losartan), cholesterol-lowering medications (e.g., simvastatin), and diuretics (e.g., furosemide) as needed for edema management. Approximately 30% of patients with MN achieve spontaneous remission within the first 2 years of diagnosis with conservative management; therefore, adding immunosuppressive therapy is usually reserved for patients who have persistent nephrotic-range proteinuria or, if phospholipase A2 receptor (PLA2R) positive, have increasing antibody titers after 6 to 12 months of conservative therapy. Some newly diagnosed cases of MN are considered high risk for progression, which would be identified by acute kidney injury, presence of deep venous thrombosis or renal vein thrombosis, proteinuria >8000 mg/d, or high PLA2R antibody levels (a definitive threshold is unclear, but >100 RU/mL may be used); the recommended observation period can be shorted or eliminated in these cases. This patient is currently taking losartan, simvastatin, and furosemide and has no features to indicate high risk for progression. Serial laboratory monitoring with measurement of proteinuria, albumin, creatinine, and PLA2R activity is necessary to assess treatment response, and this patient should be routinely monitored. In patients with PLA2R-positive MN, surveillance of anti-PLA2R antibody levels helps to evaluate the response to treatment and guides ongoing treatment decisions. Progression to end-stage kidney disease (ESKD) depends on remission of proteinuria: The 10-year incidence of ESKD in patients who undergo complete or partial remission of proteinuria ranges from 0% to 10% compared with a >50% incidence of ESKD in patients who maintain nephrotic-range proteinuria.Three first-line immunosuppressive regimens are available for patients who remain nephrotic and/or have persistent anti-PLA2R antibody positivity:Combination of glucocorticoids and alkylating agents (e.g., cyclophosphamide) ()Rituximab ()Calcineurin inhibitors, such as cyclosporine or tacrolimus ()The choice of these agents is dependent on risk, and factors that determine risk include estimated glomerular filtration rate, proteinuria, albumin, anti-PLA2R antibody titers, and overall response to conservative management. It is premature to initiate an immunosuppressive regimen for this patient at this time because they were only recently diagnosed with MN and do not have high-risk features.",
   "key_points": [
     "Initial management of membranous nephropathy is conservative and includes renin angiotensin system blockade, cholesterol-lowering medications, and diuretics as needed for edema management.",
     "Approximately 30% of patients with membranous nephropathy achieve spontaneous remission within the first 2 years of diagnosis."
   ],
+  "references": "Ronco P, Beck L, Debiec H, et al. Membranous nephropathy. Nat Rev Dis Primers. 2021;7:69. PMID: 34593809 doi:10.1038/s41572-021-00303-z",
+  "related_content": {
+    "syllabus": [
+      "npsec24008_24020"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Add cyclophosphamide plus glucocorticoids"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Add rituximab"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Add tacrolimus"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Continue current medications"
-    }
-  ],
-  "question_id": "npmcq24021",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 47-year-old patient is evaluated for a 3-month history of edema of the legs and a 2.3-kg (5.0-lb) weight gain. Two weeks ago, they were diagnosed with membranous nephropathy by kidney biopsy, and furosemide, losartan, and simvastatin were subsequently started.On physical examination, vital signs are normal. There is 2-mm pitting edema to the mid shins bilaterally. The remainder of the examination is unremarkable.",
-  "references": "Ronco P, Beck L, Debiec H, et al. Membranous nephropathy. Nat Rev Dis Primers. 2021;7:69. PMID: 34593809 doi:10.1038/s41572-021-00303-z",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24008_24020"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:06:34.648914-06:00"
 }

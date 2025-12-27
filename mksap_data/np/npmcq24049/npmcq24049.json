@@ -1,61 +1,61 @@
 {
+  "question_id": "npmcq24049",
   "category": "np",
-  "critique": "The most likely cause of this patient's elevated serum creatinine level is dolutegravir (Option B). The most extensively used measure of kidney function is creatinine, which is freely filtered by the glomerulus and is secreted into the urine by the proximal tubule. Some medications, including dolutegravir, cimetidine, trimethoprim, cobicistat, and bictegravir, inhibit proximal tubule secretion of creatinine and result in an elevated serum creatinine level and an associated decrease in estimated glomerular filtration rate (eGFR), without representing a true decrease in actual glomerular filtration rate or kidney function. Because of proximal tubule inhibition of creatinine, some patients who are prescribed the integrase inhibitor dolutegravir will experience an expected and benign increase in serum creatinine level (typically ≤0.2 mg/dL [17.7 µmol/L]) with an associated decrease in eGFR within the first days or weeks of beginning the drug. Notably, these patients will not have a change in serum urea concentration and will have a bland urinalysis because no glomerular injury has occurred. The increase in serum creatinine level typically stabilizes within 1 month. This patient, who takes dolutegravir, had a 0.2 mg/dL (17.7 µmol/L) increase in his serum creatinine level in a 2-week period after starting the drug, which is an expected side effect of dolutegravir and does not require treatment.Drug-induced acute interstitial nephritis (AIN) (Option A) is unlikely in this patient. Although some antivirals are associated with acute kidney injury (AKI) resulting from AIN, urinary findings usually include leukocytes, erythrocytes, and leukocyte casts; none of these findings are present in this patient.HIV-associated nephropathy (HIVAN) (Option C) usually presents in patients with advanced HIV infection (usually with a CD4 cell count <200/µL). Associated findings include a rapid decline in kidney function and nephrotic-range proteinuria. This patient's CD4 cell count and bland urinalysis make HIVAN unlikely.Tenofovir alafenamide-emtricitabine (Option D) may cause AKI, but this combination is much less likely to cause kidney dysfunction than regimens containing tenofovir disoproxil fumarate, which is associated with proximal tubular dysfunction and Fanconi syndrome. Tenofovir alafenamide and emtricitabine do not inhibit tubular secretion of creatinine and would not be expected to cause a rise in serum creatinine level with a stable blood urea nitrogen level, as seen in this patient. This medication combination is less likely to be the cause of this patient's elevated serum creatinine level than dolutegravir.",
   "educational_objective": "Identify dolutegravir as a nonglomerular cause of an elevated serum creatinine level.",
-  "extracted_at": "2025-12-22T20:06:49.905149-06:00",
-  "key_points": [
-    "Some medications, including dolutegravir, cimetidine, trimethoprim, cobicistat, and bictegravir, inhibit proximal tubule secretion of creatinine and result in an elevated serum creatinine level, which does not reflect a decrease in glomerular filtration rate."
-  ],
-  "media": {
-    "images": [],
-    "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "videos": []
-  },
   "metadata": {
     "care_types": [],
-    "high_value_care": false,
     "patient_types": [],
+    "high_value_care": false,
     "question_updated": "12/22/2025"
   },
+  "question_text": "A 45-year-old man is evaluated during a follow-up visit 2 weeks after starting tenofovir alafenamide-emtricitabine and dolutegravir for recently diagnosed HIV infection. He has no other medical problems and takes no other medications.Physical examination findings, including vital signs, are normal.",
+  "question_stem": "Which of the following is the most likely cause of this patient's elevated serum creatinine level?",
   "options": [
     {
       "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acute interstitial nephritis"
+      "text": "Acute interstitial nephritis",
+      "peer_percentage": 0
     },
     {
       "letter": "B",
-      "peer_percentage": 0,
-      "text": "Dolutegravir"
+      "text": "Dolutegravir",
+      "peer_percentage": 0
     },
     {
       "letter": "C",
-      "peer_percentage": 0,
-      "text": "HIV-associated nephropathy"
+      "text": "HIV-associated nephropathy",
+      "peer_percentage": 0
     },
     {
       "letter": "D",
-      "peer_percentage": 0,
-      "text": "Tenofovir alafenamide-emtricitabine"
+      "text": "Tenofovir alafenamide-emtricitabine",
+      "peer_percentage": 0
     }
   ],
-  "question_id": "npmcq24049",
-  "question_stem": "Which of the following is the most likely cause of this patient's elevated serum creatinine level?",
-  "question_text": "A 45-year-old man is evaluated during a follow-up visit 2 weeks after starting tenofovir alafenamide-emtricitabine and dolutegravir for recently diagnosed HIV infection. He has no other medical problems and takes no other medications.Physical examination findings, including vital signs, are normal.",
-  "references": "Lindeman TA, Duggan JM, Sahloff EG. Evaluation of serum creatinine changes with integrase inhibitor use in human immunodeficiency virus-1 infected adults. Open Forum Infect Dis. 2016;3:ofw053. PMID: 27092314 doi:10.1093/ofid/ofw053",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24001_24004"
-    ]
-  },
   "user_performance": {
+    "user_answer": null,
     "correct_answer": "B",
     "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+    "time_taken": null
+  },
+  "critique": "The most likely cause of this patient's elevated serum creatinine level is dolutegravir (Option B). The most extensively used measure of kidney function is creatinine, which is freely filtered by the glomerulus and is secreted into the urine by the proximal tubule. Some medications, including dolutegravir, cimetidine, trimethoprim, cobicistat, and bictegravir, inhibit proximal tubule secretion of creatinine and result in an elevated serum creatinine level and an associated decrease in estimated glomerular filtration rate (eGFR), without representing a true decrease in actual glomerular filtration rate or kidney function. Because of proximal tubule inhibition of creatinine, some patients who are prescribed the integrase inhibitor dolutegravir will experience an expected and benign increase in serum creatinine level (typically ≤0.2 mg/dL [17.7 µmol/L]) with an associated decrease in eGFR within the first days or weeks of beginning the drug. Notably, these patients will not have a change in serum urea concentration and will have a bland urinalysis because no glomerular injury has occurred. The increase in serum creatinine level typically stabilizes within 1 month. This patient, who takes dolutegravir, had a 0.2 mg/dL (17.7 µmol/L) increase in his serum creatinine level in a 2-week period after starting the drug, which is an expected side effect of dolutegravir and does not require treatment.Drug-induced acute interstitial nephritis (AIN) (Option A) is unlikely in this patient. Although some antivirals are associated with acute kidney injury (AKI) resulting from AIN, urinary findings usually include leukocytes, erythrocytes, and leukocyte casts; none of these findings are present in this patient.HIV-associated nephropathy (HIVAN) (Option C) usually presents in patients with advanced HIV infection (usually with a CD4 cell count <200/µL). Associated findings include a rapid decline in kidney function and nephrotic-range proteinuria. This patient's CD4 cell count and bland urinalysis make HIVAN unlikely.Tenofovir alafenamide-emtricitabine (Option D) may cause AKI, but this combination is much less likely to cause kidney dysfunction than regimens containing tenofovir disoproxil fumarate, which is associated with proximal tubular dysfunction and Fanconi syndrome. Tenofovir alafenamide and emtricitabine do not inhibit tubular secretion of creatinine and would not be expected to cause a rise in serum creatinine level with a stable blood urea nitrogen level, as seen in this patient. This medication combination is less likely to be the cause of this patient's elevated serum creatinine level than dolutegravir.",
+  "key_points": [
+    "Some medications, including dolutegravir, cimetidine, trimethoprim, cobicistat, and bictegravir, inhibit proximal tubule secretion of creatinine and result in an elevated serum creatinine level, which does not reflect a decrease in glomerular filtration rate."
+  ],
+  "references": "Lindeman TA, Duggan JM, Sahloff EG. Evaluation of serum creatinine changes with integrase inhibitor use in human immunodeficiency virus-1 infected adults. Open Forum Infect Dis. 2016;3:ofw053. PMID: 27092314 doi:10.1093/ofid/ofw053",
+  "related_content": {
+    "syllabus": [
+      "npsec24001_24004"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T20:06:49.905149-06:00"
 }

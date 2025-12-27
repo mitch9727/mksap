@@ -9,7 +9,7 @@ The Rust MKSAP Extractor includes comprehensive validation to ensure extracted q
 ### Validate All Extracted Data
 
 ```bash
-cd "/Users/Mitchell/coding/projects/MKSAP/Rust MKSAP Extractor"
+cd /Users/Mitchell/coding/projects/MKSAP/text_extractor
 ./target/release/mksap-extractor validate
 ```
 
@@ -19,7 +19,6 @@ The validator performs these checks on all extracted questions:
 
 1. **File Existence**
    - JSON file present: `{id}.json`
-   - Metadata file present: `{id}_metadata.txt`
 
 2. **JSON Structure**
    - Valid JSON syntax
@@ -30,18 +29,21 @@ The validator performs these checks on all extracted questions:
    - question_id
    - category
    - educational_objective
+   - metadata
    - question_text
    - question_stem
-   - options (array with A, B, C, D)
-   - correct_answer
+   - options (array with letter/text)
+   - user_performance
    - critique
    - key_points
    - references
-   - metadata
+   - related_content
+   - media
+   - extracted_at
 
 4. **Data Integrity**
    - Options have letter and text
-   - Correct answer matches option letter
+   - `user_performance.correct_answer` present
    - Key points are non-empty
    - Metadata contains expected fields
 
@@ -58,50 +60,31 @@ The validator performs these checks on all extracted questions:
 ```
 === MKSAP DATA VALIDATION REPORT ===
 
-Total Questions Found: 754
-Total Valid Questions: 754
-Total Invalid Questions: 0
-Validity Rate: 100.0%
+Total Questions Found: <count>
+Total Valid Questions: <count>
+Total Invalid Questions: <count>
+
+=== INVALID BREAKDOWN ===
+Missing JSON: <count>
+Parse Errors: <count>
+Schema Invalid: <count>
 
 === PER-SYSTEM SUMMARY ===
 
-✓ cv: 130/216 questions (60.2%)
-✓ en: 91/136 questions (66.9%)
-⚠ hm: 61/125 questions (48.8%)
-⚠ id: 87/205 questions (42.4%)
-⚠ np: 104/155 questions (67.1%)
-⚠ nr: 74/118 questions (62.7%)
-⚠ on: 64/103 questions (62.1%)
-⚠ rm: 77/131 questions (58.8%)
+✓ cv: <found>/<discovered> questions (<pct>%)
+✓ en: <found>/<discovered> questions (<pct>%)
+...
 
 === SPECIFICATION COMPLIANCE REPORT ===
 
-Overall Coverage: 754/1810 questions (41.7%)
-
-Systems with Good Progress (>50%):
-✓ cv: 130/216 (60.2%)
-✓ en: 91/136 (66.9%)
-✓ np: 104/155 (67.1%)
-✓ nr: 74/118 (62.7%)
-✓ on: 64/103 (62.1%)
-
-Systems with Partial Progress (30-50%):
-⚠ hm: 61/125 (48.8%)
-⚠ id: 87/205 (42.4%)
-⚠ rm: 77/131 (58.8%)
-
-Missing Systems (0%):
-✗ cc: 0/206 (0.0%)
-✗ gi: 0/154 (0.0%)
-✗ in: 0/199 (0.0%)
-✗ pm: 0/162 (0.0%)
+Overall Coverage: <found>/<discovered> questions (<pct>%)
 ```
 
 ### Report Interpretation
 
-**Green (✓)**: System >60% complete
-**Yellow (⚠)**: System 30-60% complete
-**Red (✗)**: System 0% or not started
+**Green (✓)**: System at or above discovered count
+**Yellow (⚠)**: System partially extracted
+**Red (✗)**: System empty or not started
 
 **Validity Rate**: Percentage of extracted questions that are valid
 - 100% = All questions valid (no corruption)
@@ -109,16 +92,11 @@ Missing Systems (0%):
 
 ## Data Quality Metrics
 
-### Current Status (as of Dec 22, 2025)
+Use the validation report to track:
 
-| Metric | Value | Status |
-|--------|-------|--------|
-| Total Valid Questions | 754 | ✓ Excellent |
-| Validity Rate | 100% | ✓ Perfect |
-| JSON Parse Success | 754/754 | ✓ Perfect |
-| Required Fields Present | 754/754 | ✓ Perfect |
-| Structure Compliance | 754/754 | ✓ Perfect |
-| Overall Coverage | 41.7% | ◐ Good Progress |
+- Total questions found vs. valid
+- Invalid breakdown (missing JSON, parse errors, schema issues)
+- Per-system completion using discovery metadata when available
 
 ## Known Issues
 
@@ -130,19 +108,11 @@ Missing Systems (0%):
 - Current data is valid and usable
 - Question IDs remain consistent across API responses
 
-### 2. Incomplete System Extraction
+### 2. Missing Discovery Metadata
 
-**Issue**: 4 system codes have 0 questions extracted
+**Issue**: Validation falls back to baseline counts if `.checkpoints/discovery_metadata.json` is missing.
 
-**Systems**:
-- Clinical Practice (cc)
-- Gastroenterology (gi)
-- Interdisciplinary Medicine (in)
-- Pulmonary & Critical Care (pm)
-
-**Cause**: Extraction not yet run for these systems
-
-**Resolution**: Continue extraction phase to complete all systems
+**Resolution**: Run extraction or `discovery-stats` once to generate discovery metadata.
 
 ### 3. Peer Performance Data
 
@@ -226,15 +196,8 @@ The validator is implemented in `src/validator.rs`:
 
 ### For Extraction Planning
 
-```
-Current: 754/1810 (41.7%)
-Missing: 1056 questions
-
-Priority Order:
-1. Complete partial systems (hm, id, rm) → +200 more
-2. Extract missing systems (cc, gi, in, pm) → +721 more
-3. Fill gaps in progress systems → +135 more
-```
+- Use `discovery-stats` to see discovered counts per system.
+- Use `list-missing` to generate a remaining ID list for targeted retries.
 
 ### For Data Usage
 
@@ -247,6 +210,6 @@ Priority Order:
 
 1. Run validation regularly during extraction
 2. Monitor per-system coverage progress
-3. Plan extraction phases for missing systems
-4. Review [Troubleshooting Guide](troubleshooting.md) if issues found
-5. Check [Architecture](architecture.md) for technical details
+3. Use `list-missing` for targeted retries
+4. Review [Troubleshooting Guide](TROUBLESHOOTING.md) if issues found
+5. Check [Architecture](RUST_ARCHITECTURE.md) for technical details

@@ -1,62 +1,62 @@
 {
+  "question_id": "enqqq24001",
   "category": "en",
-  "critique": "The most appropriate next step in management is to initiate both glucocorticoid (hydrocortisone) and mineralocorticoid (fludrocortisone) replacement (Option A). This patient has symptoms consistent with adrenal insufficiency (AI) (fatigue, unintentional weight loss, nausea, and vomiting), hyperpigmentation, and hyperkalemia. He also has a low 8 am serum cortisol level and an elevated serum adrenocorticotropic hormone (ACTH) level, the latter of which supports the diagnosis of primary AI. In primary AI, the ACTH level is typically significantly elevated. Patients with primary AI frequently have increased pigmentation over the extensor surfaces and buccal mucosa due to the excessive secretion of melanocyte-stimulating hormone, which shares a common precursor with ACTH. Hyperkalemia occurs as a result of aldosterone deficiency. The diagnosis of AI is made by documenting an inappropriately low serum cortisol level. An 8 am cortisol level less than 3 µg/dL (82.8 nmol/L) in the setting of signs and symptoms of cortisol deficiency is diagnostic of AI. AI is a potentially life-threatening condition; therefore, treatment should not be withheld while awaiting further diagnostic testing. This patient's presentation is consistent with primary AI, and treatment with hydrocortisone and fludrocortisone should be started immediately.Although prednisone (Option B) and hydrocortisone are acceptable for glucocorticoid replacement, these agents have almost pure glucocorticoid activity. Their lack of mineralocorticoid activity means that neither one would be appropriate as single-agent treatment of primary AI.Thyroid-stimulating hormone levels (Option C) are frequently mildly elevated in patients with primary AI. Measuring these levels is not helpful in diagnosing primary AI, which is the most likely diagnosis in this patient.Additional evaluation of patients with primary AI may include assessment for autoimmune adrenalitis by measuring 21-hydroxylase antibodies (Option D); CT of the adrenal glands may be necessary if antibodies are absent to evaluate for other causes of primary AI. However, withholding therapy while awaiting the results of the antibody tests would be dangerous.",
   "educational_objective": "Manage primary adrenal insufficiency.",
-  "extracted_at": "2025-12-23T14:09:16.855386-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 19-year-old man is evaluated for intermittent nausea and several episodes of nonbloody and nonbilious emesis over the past 72 hours. He also reports a 3-month history of fatigue, anorexia, and an unintentional 6.8-kg (15.0 lb) weight loss.On physical examination, blood pressure is 110/70 mm Hg, and pulse rate is 90/min. He has pronounced hyperpigmentation over his knuckles and elbows. The remainder of the examination is normal.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Hydrocortisone and fludrocortisone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Prednisone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Thyroid-stimulating hormone measurement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "21-Hydroxylase antibody assay",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in management is to initiate both glucocorticoid (hydrocortisone) and mineralocorticoid (fludrocortisone) replacement (Option A). This patient has symptoms consistent with adrenal insufficiency (AI) (fatigue, unintentional weight loss, nausea, and vomiting), hyperpigmentation, and hyperkalemia. He also has a low 8 am serum cortisol level and an elevated serum adrenocorticotropic hormone (ACTH) level, the latter of which supports the diagnosis of primary AI. In primary AI, the ACTH level is typically significantly elevated. Patients with primary AI frequently have increased pigmentation over the extensor surfaces and buccal mucosa due to the excessive secretion of melanocyte-stimulating hormone, which shares a common precursor with ACTH. Hyperkalemia occurs as a result of aldosterone deficiency. The diagnosis of AI is made by documenting an inappropriately low serum cortisol level. An 8 am cortisol level less than 3 µg/dL (82.8 nmol/L) in the setting of signs and symptoms of cortisol deficiency is diagnostic of AI. AI is a potentially life-threatening condition; therefore, treatment should not be withheld while awaiting further diagnostic testing. This patient's presentation is consistent with primary AI, and treatment with hydrocortisone and fludrocortisone should be started immediately.Although prednisone (Option B) and hydrocortisone are acceptable for glucocorticoid replacement, these agents have almost pure glucocorticoid activity. Their lack of mineralocorticoid activity means that neither one would be appropriate as single-agent treatment of primary AI.Thyroid-stimulating hormone levels (Option C) are frequently mildly elevated in patients with primary AI. Measuring these levels is not helpful in diagnosing primary AI, which is the most likely diagnosis in this patient.Additional evaluation of patients with primary AI may include assessment for autoimmune adrenalitis by measuring 21-hydroxylase antibodies (Option D); CT of the adrenal glands may be necessary if antibodies are absent to evaluate for other causes of primary AI. However, withholding therapy while awaiting the results of the antibody tests would be dangerous.",
   "key_points": [
     "An 8 am serum cortisol level less than 3 µg/dL (82.8 nmol/L) in the setting of signs and symptoms of cortisol deficiency is diagnostic of adrenal insufficiency (AI).",
     "Measurement of the serum adrenocorticotropic hormone (ACTH) level is used to differentiate primary AI from other causes of low serum cortisol levels; in primary AI, the ACTH level is typically significantly elevated."
   ],
+  "references": "Bornstein SR, Allolio B, Arlt W, et al. Diagnosis and treatment of primary adrenal insufficiency: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2016;101:364-89. PMID: 26760044 doi:10.1210/jc.2015-1710",
+  "related_content": {
+    "syllabus": [
+      "ensec24004_24009"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Hydrocortisone and fludrocortisone"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Prednisone"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Thyroid-stimulating hormone measurement"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "21-Hydroxylase antibody assay"
-    }
-  ],
-  "question_id": "enqqq24001",
-  "question_stem": "Which of the following is the most appropriate next step in management?",
-  "question_text": "A 19-year-old man is evaluated for intermittent nausea and several episodes of nonbloody and nonbilious emesis over the past 72 hours. He also reports a 3-month history of fatigue, anorexia, and an unintentional 6.8-kg (15.0 lb) weight loss.On physical examination, blood pressure is 110/70 mm Hg, and pulse rate is 90/min. He has pronounced hyperpigmentation over his knuckles and elbows. The remainder of the examination is normal.",
-  "references": "Bornstein SR, Allolio B, Arlt W, et al. Diagnosis and treatment of primary adrenal insufficiency: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2016;101:364-89. PMID: 26760044 doi:10.1210/jc.2015-1710",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24004_24009"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:16.855386-06:00"
 }

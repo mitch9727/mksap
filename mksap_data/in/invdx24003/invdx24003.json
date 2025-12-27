@@ -1,59 +1,59 @@
 {
+  "question_id": "invdx24003",
   "category": "in",
-  "critique": "This patient has vulvovaginal atrophy (Option C) associated with the genitourinary syndrome of menopause. Classic vulvar and vaginal findings include shiny, smooth, and dry vaginal epithelium with loss of rugae. Inflammatory changes may include erythema and petechiae. Patients with vulvovaginal atrophy may also have sparse pubic hair and introital narrowing. Patients typically note vaginal burning or irritation; sexual symptoms, such as dyspareunia or sexual dysfunction; or urinary symptoms, such as dysuria or recurrent urinary tract infections.",
   "educational_objective": "Diagnose vulvovaginal atrophy.",
-  "extracted_at": "2025-12-23T15:28:36.776890-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 58-year-old woman is evaluated for vaginal burning and dyspareunia.Findings of the external genitalia and vaginal introitus (arrow) are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Lichen sclerosus",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Vulvar lichen planus",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Vulvovaginal atrophy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Vulvovaginitis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has vulvovaginal atrophy (Option C) associated with the genitourinary syndrome of menopause. Classic vulvar and vaginal findings include shiny, smooth, and dry vaginal epithelium with loss of rugae. Inflammatory changes may include erythema and petechiae. Patients with vulvovaginal atrophy may also have sparse pubic hair and introital narrowing. Patients typically note vaginal burning or irritation; sexual symptoms, such as dyspareunia or sexual dysfunction; or urinary symptoms, such as dysuria or recurrent urinary tract infections.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "insec24005_24013"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/infig24604.61698af3ae299597ce309e820767271a.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Lichen sclerosus"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Vulvar lichen planus"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Vulvovaginal atrophy"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Vulvovaginitis"
-    }
-  ],
-  "question_id": "invdx24003",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 58-year-old woman is evaluated for vaginal burning and dyspareunia.Findings of the external genitalia and vaginal introitus (arrow) are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "insec24005_24013"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:28:36.776890-06:00"
 }

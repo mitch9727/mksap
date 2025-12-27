@@ -1,62 +1,62 @@
 {
+  "question_id": "npmcq24022",
   "category": "np",
-  "critique": "The most appropriate additional management is to discontinue isosorbide dinitrate-hydralazine (Option B). This patient's presentation is consistent with a rapidly progressive ANCA-associated glomerulonephritis. The patient has severe acute kidney injury and biopsy findings of necrotizing and crescentic pauci-immune glomerulonephritis, which is the hallmark pathology of ANCA-associated glomerulonephritis. Although most cases of ANCA-associated glomerulonephritis are deemed idiopathic, a small percentage are secondary to drug effect. Drug-induced ANCA-associated vasculitis has been reported with several agents, with the strongest associations found in patients using the following drugs:HydralazineMinocyclineAntithyroid drugs (e.g., propylthiouracil, methimazole, and carbimazole)Of these, hydralazine is the most commonly reported agent to induce ANCA-associated vasculitis. The presence of a high myeloperoxidase-ANCA antibody alongside positive antinuclear antibody and antihistone antibody tests is the classic serologic pattern when ANCA-associated disease is considered to be a complication of hydralazine use. Abrupt cessation of the offending drug, along with standard induction therapy with a glucocorticoid (methylprednisolone in this case) plus rituximab or cyclophosphamide, is a crucial component of management.Induction therapy in ANCA-associated glomerulonephritis includes glucocorticoids or avacopan (Option A) along with rituximab or cyclophosphamide. The use of avacopan, as shown in the ADVOCATE trial, is meant to be a glucocorticoid alternative and not an add-on therapy.Up to 45% of patients with ANCA-associated glomerulonephritis due to hydralazine will test positive for anti–double-stranded DNA antibody (Option C). However, testing for this will not change this patient's management as the laboratory evaluation and kidney biopsy have already identified the diagnosis. Therefore, a reflex test for anti–double-stranded DNA antibody due to a positive antinuclear antibodies test is not indicated.Kidney Disease: Improving Global Outcomes recommends consideration of plasmapheresis (Option D) for patients with serum creatinine >3.4 mg/dL (301 µmol/L), those requiring dialysis or with rapidly increasing serum creatinine, or for patients with diffuse alveolar hemorrhage and hypoxemia. At this time, plasmapheresis is not indicated for this patient.",
   "educational_objective": "Manage drug-induced vasculitis.",
-  "extracted_at": "2025-12-22T20:06:35.198862-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 70-year-old man is evaluated in the emergency department for a 2-week history of fatigue, chills, dyspnea on exertion, and a 1.8-kg (4.0-lb) weight loss. Medical history is significant for hypertension, hyperlipidemia, and heart failure with reduced ejection fraction. Medications are lisinopril, furosemide, empagliflozin, spironolactone, isosorbide dinitrate-hydralazine, carvedilol, and rosuvastatin.On physical examination, blood pressure is 160/95 mm Hg; other vital signs are normal. Pallor and conjunctival injection are noted. Dullness to percussion is noted at the lung bases bilaterally. There is trace lower extremity edema. No rash is noted.Kidney biopsy shows necrotizing and crescentic glomerulonephritis with pauci-immune staining on immunofluorescence.The patient is started on intravenous methylprednisolone and rituximab.",
+  "question_stem": "Which of the following is the most appropriate additional management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Add avacopan",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Discontinue isosorbide dinitrate-hydralazine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Perform anti–double-stranded DNA antibody testing",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Initiate plasmapheresis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate additional management is to discontinue isosorbide dinitrate-hydralazine (Option B). This patient's presentation is consistent with a rapidly progressive ANCA-associated glomerulonephritis. The patient has severe acute kidney injury and biopsy findings of necrotizing and crescentic pauci-immune glomerulonephritis, which is the hallmark pathology of ANCA-associated glomerulonephritis. Although most cases of ANCA-associated glomerulonephritis are deemed idiopathic, a small percentage are secondary to drug effect. Drug-induced ANCA-associated vasculitis has been reported with several agents, with the strongest associations found in patients using the following drugs:HydralazineMinocyclineAntithyroid drugs (e.g., propylthiouracil, methimazole, and carbimazole)Of these, hydralazine is the most commonly reported agent to induce ANCA-associated vasculitis. The presence of a high myeloperoxidase-ANCA antibody alongside positive antinuclear antibody and antihistone antibody tests is the classic serologic pattern when ANCA-associated disease is considered to be a complication of hydralazine use. Abrupt cessation of the offending drug, along with standard induction therapy with a glucocorticoid (methylprednisolone in this case) plus rituximab or cyclophosphamide, is a crucial component of management.Induction therapy in ANCA-associated glomerulonephritis includes glucocorticoids or avacopan (Option A) along with rituximab or cyclophosphamide. The use of avacopan, as shown in the ADVOCATE trial, is meant to be a glucocorticoid alternative and not an add-on therapy.Up to 45% of patients with ANCA-associated glomerulonephritis due to hydralazine will test positive for anti–double-stranded DNA antibody (Option C). However, testing for this will not change this patient's management as the laboratory evaluation and kidney biopsy have already identified the diagnosis. Therefore, a reflex test for anti–double-stranded DNA antibody due to a positive antinuclear antibodies test is not indicated.Kidney Disease: Improving Global Outcomes recommends consideration of plasmapheresis (Option D) for patients with serum creatinine >3.4 mg/dL (301 µmol/L), those requiring dialysis or with rapidly increasing serum creatinine, or for patients with diffuse alveolar hemorrhage and hypoxemia. At this time, plasmapheresis is not indicated for this patient.",
   "key_points": [
     "Drug-induced ANCA-associated vasculitis has been reported with a number of agents, with the strongest associations found in patients using hydralazine, minocycline, or antithyroid drugs (e.g., propylthiouracil, methimazole, and carbimazole).",
     "Treatment of drug-induced ANCA-associated vasculitis includes removal of the offending agent and immunosuppressive therapy, including glucocorticoids plus rituximab or cyclophosphamide."
   ],
+  "references": "Santoriello D, Bomback AS, Kudose S, et al. Anti-neutrophil cytoplasmic antibody associated glomerulonephritis complicating treatment with hydralazine. Kidney Int. 2021;100:440-6. PMID: 33857570 doi:10.1016/j.kint.2021.03.029",
+  "related_content": {
+    "syllabus": [
+      "npsec24008_24041"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Add avacopan"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Discontinue isosorbide dinitrate-hydralazine"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Perform anti–double-stranded DNA antibody testing"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Initiate plasmapheresis"
-    }
-  ],
-  "question_id": "npmcq24022",
-  "question_stem": "Which of the following is the most appropriate additional management?",
-  "question_text": "A 70-year-old man is evaluated in the emergency department for a 2-week history of fatigue, chills, dyspnea on exertion, and a 1.8-kg (4.0-lb) weight loss. Medical history is significant for hypertension, hyperlipidemia, and heart failure with reduced ejection fraction. Medications are lisinopril, furosemide, empagliflozin, spironolactone, isosorbide dinitrate-hydralazine, carvedilol, and rosuvastatin.On physical examination, blood pressure is 160/95 mm Hg; other vital signs are normal. Pallor and conjunctival injection are noted. Dullness to percussion is noted at the lung bases bilaterally. There is trace lower extremity edema. No rash is noted.Kidney biopsy shows necrotizing and crescentic glomerulonephritis with pauci-immune staining on immunofluorescence.The patient is started on intravenous methylprednisolone and rituximab.",
-  "references": "Santoriello D, Bomback AS, Kudose S, et al. Anti-neutrophil cytoplasmic antibody associated glomerulonephritis complicating treatment with hydralazine. Kidney Int. 2021;100:440-6. PMID: 33857570 doi:10.1016/j.kint.2021.03.029",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24008_24041"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:06:35.198862-06:00"
 }

@@ -127,7 +127,7 @@ impl BrowserSession {
         let cookies = self.driver.get_all_cookies().await?;
         Ok(cookies
             .iter()
-            .any(|cookie| cookie.name == "_mksap19_session"))
+            .any(|cookie| cookie.name() == "_mksap19_session"))
     }
 
     async fn wait_for_session_cookie(&self, timeout: Duration) -> Result<Option<String>> {
@@ -136,9 +136,9 @@ impl BrowserSession {
             let cookies = self.driver.get_all_cookies().await?;
             if let Some(cookie) = cookies
                 .iter()
-                .find(|cookie| cookie.name == "_mksap19_session")
+                .find(|cookie| cookie.name() == "_mksap19_session")
             {
-                return Ok(Some(cookie.value.clone()));
+                return Ok(Some(cookie.value().to_string()));
             }
             if start.elapsed() >= timeout {
                 return Ok(None);
@@ -149,7 +149,7 @@ impl BrowserSession {
 
     async fn inject_session_cookie(&self, cookie_value: &str) -> Result<()> {
         self.driver.goto(&self.base_url).await?;
-        let cookie = Cookie::new("_mksap19_session", cookie_value);
+        let cookie = Cookie::new("_mksap19_session", cookie_value.to_string());
         self.driver.add_cookie(cookie).await?;
         Ok(())
     }
@@ -170,7 +170,7 @@ impl BrowserSession {
             .find(By::Css("input[type='password'], input[name*='password']"))
             .await
         {
-            let _ = element.send_keys(Keys::Enter).await;
+            let _ = element.send_keys("\n").await;
         }
         Ok(())
     }

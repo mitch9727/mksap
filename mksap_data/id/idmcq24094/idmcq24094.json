@@ -1,67 +1,67 @@
 {
+  "question_id": "idmcq24094",
   "category": "id",
-  "critique": "This patient has fulminant Clostridioides difficile infection (CDI), and the most appropriate treatment is combination therapy with oral vancomycin and intravenous metronidazole (Option D). When ileus is present, vancomycin enema should also be considered. Treatment of CDI should be stratified according to severity, which is classified as nonsevere, severe, and fulminant (see ). Fulminant disease is typically associated with shock, hypotension (as in this patient), toxic megacolon, or ileus.Intravenous vancomycin (Option A) is not recommended for treatment of CDI because it is not secreted into the large intestine. Consequently, it has no role in the treatment of CDI.The Infectious Diseases Society of America (IDSA) and the Society for Healthcare Epidemiology of America (SHEA) recommend oral fidaxomicin (Option B) as the preferred initial therapy, rather than oral vancomycin, for an initial episode of nonsevere or severe CDI, although oral vancomycin remains an acceptable alternative. Nonsevere CDI is defined by a leukocyte count of less than 15,000/µL (15 × 109/L) and a serum creatinine level of less than 1.5 mg/dL (133 µmol/L). Severe CDI is defined by a leukocyte count of 15,000/µL (15 × 109/L) or greater and a serum creatinine level of 1.5 mg/dL (133 µmol/L) or greater. This patient has fulminant CDI, and oral fidaxomicin is not recommended.Historically, oral metronidazole (Option C) was recommended for treatment of mild CDI, but updated guidelines from the IDSA and SHEA recommend its use for an initial episode of nonsevere CDI only when oral fidaxomicin and oral vancomycin are unavailable or contraindicated.Oral vancomycin followed by oral rifaximin (Option E) is one of the recommended regimens for second or subsequent recurrence of CDI, but it is not a recommended regimen for treatment of fulminant CDI.",
   "educational_objective": "Treat fulminant <i>Clostridioides difficile</i> infection with oral vancomycin and intravenous metronidazole.",
-  "extracted_at": "2025-12-22T19:47:24.583659-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 50-year-old man is evaluated in the emergency department for a fever and a 3-day history of nonbloody diarrhea occurring approximately five times daily. He is completing a course of amoxicillin-clavulanate for acute bacterial rhinosinusitis, which has improved. Medical history is otherwise unremarkable. He takes no other medications.On physical examination, the patient appears in distress. Temperature is 38.9 °C (102.0 °F), blood pressure is 80/50 mm Hg, pulse rate 120/min, and respiration rate is 25/min. Abdominal examination reveals decreased bowel sounds and diffuse tenderness to palpation without rebound.Stool studies confirm Clostridioides difficile infection.Abdominal CT scan reveals bowel wall thickening and mucosal edema but no evidence of perforation.",
+  "question_stem": "In addition to supportive care, which of the following is the most appropriate treatment for this patient?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Intravenous vancomycin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Oral fidaxomicin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Oral metronidazole",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Oral vancomycin plus intravenous metronidazole",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "Oral vancomycin plus oral rifaximin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has fulminant Clostridioides difficile infection (CDI), and the most appropriate treatment is combination therapy with oral vancomycin and intravenous metronidazole (Option D). When ileus is present, vancomycin enema should also be considered. Treatment of CDI should be stratified according to severity, which is classified as nonsevere, severe, and fulminant (see ). Fulminant disease is typically associated with shock, hypotension (as in this patient), toxic megacolon, or ileus.Intravenous vancomycin (Option A) is not recommended for treatment of CDI because it is not secreted into the large intestine. Consequently, it has no role in the treatment of CDI.The Infectious Diseases Society of America (IDSA) and the Society for Healthcare Epidemiology of America (SHEA) recommend oral fidaxomicin (Option B) as the preferred initial therapy, rather than oral vancomycin, for an initial episode of nonsevere or severe CDI, although oral vancomycin remains an acceptable alternative. Nonsevere CDI is defined by a leukocyte count of less than 15,000/µL (15 × 109/L) and a serum creatinine level of less than 1.5 mg/dL (133 µmol/L). Severe CDI is defined by a leukocyte count of 15,000/µL (15 × 109/L) or greater and a serum creatinine level of 1.5 mg/dL (133 µmol/L) or greater. This patient has fulminant CDI, and oral fidaxomicin is not recommended.Historically, oral metronidazole (Option C) was recommended for treatment of mild CDI, but updated guidelines from the IDSA and SHEA recommend its use for an initial episode of nonsevere CDI only when oral fidaxomicin and oral vancomycin are unavailable or contraindicated.Oral vancomycin followed by oral rifaximin (Option E) is one of the recommended regimens for second or subsequent recurrence of CDI, but it is not a recommended regimen for treatment of fulminant CDI.",
   "key_points": [
     "Treatment of Clostridioides difficile infection (CDI) is stratified according to severity (nonsevere, severe, or fulminant); the most appropriate treatment for fulminant CDI is a combination of oral vancomycin and intravenous metronidazole."
   ],
+  "references": "Johnson S, Lavergne V, Skinner AM, et al. Clinical practice guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 focused update guidelines on management of Clostridioides difficile infection in adults. Clin Infect Dis. 2021;73:755-757. PMID: 34492699 doi:10.1093/cid/ciab718",
+  "related_content": {
+    "syllabus": [
+      "idsec24016_24008"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Intravenous vancomycin"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Oral fidaxomicin"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Oral metronidazole"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Oral vancomycin plus intravenous metronidazole"
-    },
-    {
-      "letter": "E",
-      "peer_percentage": 0,
-      "text": "Oral vancomycin plus oral rifaximin"
-    }
-  ],
-  "question_id": "idmcq24094",
-  "question_stem": "In addition to supportive care, which of the following is the most appropriate treatment for this patient?",
-  "question_text": "A 50-year-old man is evaluated in the emergency department for a fever and a 3-day history of nonbloody diarrhea occurring approximately five times daily. He is completing a course of amoxicillin-clavulanate for acute bacterial rhinosinusitis, which has improved. Medical history is otherwise unremarkable. He takes no other medications.On physical examination, the patient appears in distress. Temperature is 38.9 °C (102.0 °F), blood pressure is 80/50 mm Hg, pulse rate 120/min, and respiration rate is 25/min. Abdominal examination reveals decreased bowel sounds and diffuse tenderness to palpation without rebound.Stool studies confirm Clostridioides difficile infection.Abdominal CT scan reveals bowel wall thickening and mucosal edema but no evidence of perforation.",
-  "references": "Johnson S, Lavergne V, Skinner AM, et al. Clinical practice guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 focused update guidelines on management of Clostridioides difficile infection in adults. Clin Infect Dis. 2021;73:755-757. PMID: 34492699 doi:10.1093/cid/ciab718",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24016_24008"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:47:24.583659-06:00"
 }

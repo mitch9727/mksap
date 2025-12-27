@@ -1,62 +1,62 @@
 {
+  "question_id": "npmcq24056",
   "category": "np",
-  "critique": "The most likely diagnosis is acute glomerulonephritis (Option A), which is the most likely cause of this patient's acute kidney injury (AKI). Acute glomerulonephritis with AKI results from immune-mediated damage to glomeruli. Constitutional signs and symptoms such as fever, night sweats, and weight loss are often present. Urinary findings include proteinuria, dysmorphic erythrocytes, and erythrocyte casts, which indicate glomerular hematuria. These findings, in comparison with other conditions that cause AKI, are listed in Table: Urinalysis and Microscopy in Acute Kidney Injury. Serologic assays and kidney biopsy will assist in identifying most causes of acute glomerulonephritis. Early recognition is extremely important because, without treatment, acute glomerulonephritis can result in irreversible kidney damage or death. This patient has acute glomerulonephritis, as evidenced by the presence of erythrocyte casts on urine microscopy, which is most likely due to ANCA-associated granulomatosis with polyangiitis (see ANCA-Associated Glomerulonephritis in Nephrology). This diagnosis is supported by the patient's history of sinus pressure and hemoptysis, physical examination findings that include hypoxia and bilateral pulmonary crackles, and chest radiograph findings that could represent underlying pulmonary hemorrhage. Serologic testing for ANCA and a kidney biopsy would confirm the diagnosis.The classic clinical presentation of acute interstitial nephritis (AIN) (Option B) includes fever, rash, and peripheral eosinophilia, but this triad occurs in only a minority of patients. Urine microscopy findings of AIN include leukocyte casts rather than erythrocyte casts, which are seen in this patient. Although drug-induced AIN is a possible cause of AKI in this patient who recently used levofloxacin, it is not the most likely diagnosis given their symptoms and urine microscopy findings.The urine sediment microscopy of acute tubular necrosis (Option C) shows renal tubular epithelial cells and casts and coarse granular or muddy brown casts. Although this patient is at risk for ischemic acute tubular necrosis given their relatively low blood pressure, urine microscopy findings do not support this diagnosis.Myeloma cast nephropathy (Option D) presents with variable hematuria, leukocyturia, and granular casts on urinalysis, none of which are present in this patient. Although this patient has several constitutional symptoms that could suggest an underlying neoplastic process such as multiple myeloma, erythrocyte casts, which are a hallmark of glomerulonephritis, would not be present. In addition, this patient's serum calcium level is normal, whereas it is typically elevated in multiple myeloma.",
   "educational_objective": "Diagnose acute glomerulonephritis as a cause of acute kidney injury.",
-  "extracted_at": "2025-12-22T20:06:53.712454-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 62-year-old patient is evaluated in the emergency department for acute kidney injury and a 2-week history of sinus pressure, subjective fever, and productive cough. They also report night sweats and a 4.5-kg (10.0-lb) weight loss during this time. They were evaluated by their internal medicine physician 10 days ago, and levofloxacin was initiated, but their cough has not improved and their sputum is now blood streaked. Their only medical condition is hypertension, for which they take amlodipine and losartan.On physical examination, temperature is 38.0 °C (100.4 °F), blood pressure is 146/92 mm Hg, pulse rate is 110/min, and respiration rate is 20/min. Oxygen saturation is 90% with the patient breathing ambient air. Diffuse crackles are heard over both lung fields. No rash is noted.Chest radiograph reveals diffuse pulmonary infiltrates.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute glomerulonephritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Acute interstitial nephritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Acute tubular necrosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Myeloma cast nephropathy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is acute glomerulonephritis (Option A), which is the most likely cause of this patient's acute kidney injury (AKI). Acute glomerulonephritis with AKI results from immune-mediated damage to glomeruli. Constitutional signs and symptoms such as fever, night sweats, and weight loss are often present. Urinary findings include proteinuria, dysmorphic erythrocytes, and erythrocyte casts, which indicate glomerular hematuria. These findings, in comparison with other conditions that cause AKI, are listed in Table: Urinalysis and Microscopy in Acute Kidney Injury. Serologic assays and kidney biopsy will assist in identifying most causes of acute glomerulonephritis. Early recognition is extremely important because, without treatment, acute glomerulonephritis can result in irreversible kidney damage or death. This patient has acute glomerulonephritis, as evidenced by the presence of erythrocyte casts on urine microscopy, which is most likely due to ANCA-associated granulomatosis with polyangiitis (see ANCA-Associated Glomerulonephritis in Nephrology). This diagnosis is supported by the patient's history of sinus pressure and hemoptysis, physical examination findings that include hypoxia and bilateral pulmonary crackles, and chest radiograph findings that could represent underlying pulmonary hemorrhage. Serologic testing for ANCA and a kidney biopsy would confirm the diagnosis.The classic clinical presentation of acute interstitial nephritis (AIN) (Option B) includes fever, rash, and peripheral eosinophilia, but this triad occurs in only a minority of patients. Urine microscopy findings of AIN include leukocyte casts rather than erythrocyte casts, which are seen in this patient. Although drug-induced AIN is a possible cause of AKI in this patient who recently used levofloxacin, it is not the most likely diagnosis given their symptoms and urine microscopy findings.The urine sediment microscopy of acute tubular necrosis (Option C) shows renal tubular epithelial cells and casts and coarse granular or muddy brown casts. Although this patient is at risk for ischemic acute tubular necrosis given their relatively low blood pressure, urine microscopy findings do not support this diagnosis.Myeloma cast nephropathy (Option D) presents with variable hematuria, leukocyturia, and granular casts on urinalysis, none of which are present in this patient. Although this patient has several constitutional symptoms that could suggest an underlying neoplastic process such as multiple myeloma, erythrocyte casts, which are a hallmark of glomerulonephritis, would not be present. In addition, this patient's serum calcium level is normal, whereas it is typically elevated in multiple myeloma.",
   "key_points": [
     "Acute glomerulonephritis with acute kidney injury results from immune-mediated damage to glomeruli; urinary findings include proteinuria, dysmorphic erythrocytes, and erythrocyte casts."
   ],
+  "references": "Saha MK, Massicotte-Azarniouch D, Reynolds ML, et al. Glomerular hematuria and the utility of urine microscopy: a review. Am J Kidney Dis. 2022;80:383-392. PMID: 35777984 doi:10.1053/j.ajkd.2022.02.022",
+  "related_content": {
+    "syllabus": [
+      "npsec24006_24015"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acute glomerulonephritis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Acute interstitial nephritis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Acute tubular necrosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Myeloma cast nephropathy"
-    }
-  ],
-  "question_id": "npmcq24056",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 62-year-old patient is evaluated in the emergency department for acute kidney injury and a 2-week history of sinus pressure, subjective fever, and productive cough. They also report night sweats and a 4.5-kg (10.0-lb) weight loss during this time. They were evaluated by their internal medicine physician 10 days ago, and levofloxacin was initiated, but their cough has not improved and their sputum is now blood streaked. Their only medical condition is hypertension, for which they take amlodipine and losartan.On physical examination, temperature is 38.0 °C (100.4 °F), blood pressure is 146/92 mm Hg, pulse rate is 110/min, and respiration rate is 20/min. Oxygen saturation is 90% with the patient breathing ambient air. Diffuse crackles are heard over both lung fields. No rash is noted.Chest radiograph reveals diffuse pulmonary infiltrates.",
-  "references": "Saha MK, Massicotte-Azarniouch D, Reynolds ML, et al. Glomerular hematuria and the utility of urine microscopy: a review. Am J Kidney Dis. 2022;80:383-392. PMID: 35777984 doi:10.1053/j.ajkd.2022.02.022",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24006_24015"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:06:53.712454-06:00"
 }

@@ -7,6 +7,7 @@ pub enum Command {
     DiscoveryStats,
     RetryMissing,
     ListMissing,
+    Standardize,
 }
 
 impl Command {
@@ -18,6 +19,7 @@ impl Command {
             Some("discovery-stats") => Command::DiscoveryStats,
             Some("retry-missing") => Command::RetryMissing,
             Some("list-missing") => Command::ListMissing,
+            Some("standardize") => Command::Standardize,
             _ => Command::Run,
         }
     }

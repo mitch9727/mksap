@@ -7,8 +7,8 @@ System for extracting medical education questions from the ACP MKSAP (Medical Kn
 ## Current Status
 
 - **Primary Tool**: Rust MKSAP Extractor (API-based extraction with discovery validation)
-- **Architecture**: 15 organ system prefixes configured (see [config.rs](text_extractor/src/config.rs))
-- **Extraction Progress**: Run `./target/release/mksap-extractor validate` for current metrics
+- **Architecture**: 16 system codes configured (see [config.rs](text_extractor/src/config.rs))
+- **Extraction Progress**: Run `cd text_extractor && ./target/release/mksap-extractor validate` for current metrics
 - **Historical Data**: See [docs/project/reports/](docs/project/reports/) for past extraction summaries
 
 ## Quick Start
@@ -16,7 +16,7 @@ System for extracting medical education questions from the ACP MKSAP (Medical Kn
 ### Rust Extractor (Recommended)
 
 ```bash
-cd /Users/Mitchell/coding/projects/MKSAP
+cd /Users/Mitchell/coding/projects/MKSAP/text_extractor
 cargo build --release
 ./target/release/mksap-extractor
 ```
@@ -36,21 +36,22 @@ MKSAP_SESSION=... ./target/release/mksap-extractor
 ### Media Extraction (Post-Processing)
 
 ```bash
-cargo build --release -p media-extractor
-./target/release/media-extractor
+cd ../media_extractor
+cargo build --release
+./target/release/media-extractor --all --data-dir ../mksap_data
 ```
 
 Media extractor arguments:
 
 ```bash
-./target/release/media-extractor /path/to/mksap_data
-./target/release/media-extractor /path/to/mksap_data https://mksap.acponline.org
+./target/release/media-extractor --all --data-dir /path/to/mksap_data
+./target/release/media-extractor cvmcq24001 --data-dir /path/to/mksap_data
 ```
 
 Override session cookie (optional):
 
 ```bash
-MKSAP_SESSION=... ./target/release/media-extractor
+MKSAP_SESSION=... ./target/release/media-extractor --all --data-dir ../mksap_data
 ```
 
 ## Documentation
@@ -64,7 +65,7 @@ MKSAP_SESSION=... ./target/release/media-extractor
 ### Getting Started with Extraction
 
 - [Rust Extractor Setup](docs/reference/RUST_SETUP.md) - Installation and configuration
-- [Usage Guide](docs/reference/RUST_ARCHITECTURE.md) - How extraction works
+- [Usage Guide](docs/reference/RUST_USAGE.md) - How to run the extractor
 
 ### Deep Dives
 
@@ -87,7 +88,8 @@ mksap_data/
 ├── .checkpoints/        # Extraction state and discovery metadata
 ├── cv/                  # Cardiovascular Medicine
 ├── en/                  # Endocrinology & Metabolism
-├── cs/                  # Clinical Practice
+├── fc/                  # Foundations of Clinical Practice
+├── cs/                  # Common Symptoms
 ├── gi/                  # Gastroenterology
 ├── hp/                  # Hepatology
 ├── hm/                  # Hematology
@@ -102,10 +104,11 @@ mksap_data/
 └── rm/                  # Rheumatology
 ```
 
+Checkpoints are stored in `mksap_data/.checkpoints/` (default output is `../mksap_data` when running from `text_extractor/`).
+
 Each question directory contains:
 - `{question_id}.json` - Complete structured data
-- `{question_id}_metadata.txt` - Human-readable summary
-- `figures/` - Downloaded media assets (if any)
+- `figures/`, `tables/`, `videos/`, `svgs/` - Media assets (if any)
 
 See [config.rs](text_extractor/src/config.rs) for complete system definitions.
 
@@ -119,13 +122,13 @@ See [config.rs](text_extractor/src/config.rs) for complete system definitions.
 ✓ Data validation framework
 ✓ Resumable extraction
 ✓ Organized JSON output
-✓ Metadata files for each question
+✓ Discovery checkpoints
 
 ## Project Tools
 
 ### Rust Extractor
 
-**Location**: Project root directory
+**Location**: `text_extractor/`
 
 Primary tool for API-based extraction:
 - Direct HTTPS API calls
@@ -134,10 +137,10 @@ Primary tool for API-based extraction:
 - Organized output
 
 **Key Files**:
-- `src/main.rs` - Entry point
-- `src/extractor.rs` - Extraction logic
-- `src/config.rs` - System definitions
-- `src/validator.rs` - Data quality checks
+- `text_extractor/src/main.rs` - Entry point
+- `text_extractor/src/extractor.rs` - Extraction logic
+- `text_extractor/src/config.rs` - System definitions
+- `text_extractor/src/validator.rs` - Data quality checks
 - `mksap_data/` - Extracted questions
 
 ## Technology Stack
@@ -173,7 +176,7 @@ The project includes Claude Code integration:
 ### For New Users
 
 1. Follow [Setup Guide](docs/reference/RUST_SETUP.md)
-2. Check [Usage Guide](docs/reference/RUST_ARCHITECTURE.md)
+2. Check [Usage Guide](docs/reference/RUST_USAGE.md)
 3. Review [Validation Guide](docs/reference/VALIDATION.md)
 
 ### For Extraction

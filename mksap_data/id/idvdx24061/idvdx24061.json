@@ -1,60 +1,60 @@
 {
+  "question_id": "idvdx24061",
   "category": "id",
-  "critique": "Cystitis (Option B) is the most likely diagnosis. The presence of leukocytes (shown, arrows) in the urine along with urinary symptoms is typically associated with a urinary tract infection. Leukocytes are fairly large cells with intracellular granular material and multilobed nuclei. Bacteria are also often seen on microscopy in patients with cystitis before antibiotic administration.",
   "educational_objective": "Diagnose pyuria and associated cystitis.",
-  "extracted_at": "2025-12-23T14:10:29.446815-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 24-year-old woman is evaluated for dysuria without associated vaginal discharge.Urine microscopy is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bacterial vaginosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Cystitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Hematuria",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Trichomoniasis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Cystitis (Option B) is the most likely diagnosis. The presence of leukocytes (shown, arrows) in the urine along with urinary symptoms is typically associated with a urinary tract infection. Leukocytes are fairly large cells with intracellular granular material and multilobed nuclei. Bacteria are also often seen on microscopy in patients with cystitis before antibiotic administration.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24008_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24671.fa5dc6f0baeaa59ab6aa6d84e829efa6.jpg",
       "figures/idfig24670.cf854a6983b9cd3adeee9a680f55e6d2.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bacterial vaginosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Cystitis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Hematuria"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Trichomoniasis"
-    }
-  ],
-  "question_id": "idvdx24061",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 24-year-old woman is evaluated for dysuria without associated vaginal discharge.Urine microscopy is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24008_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:10:29.446815-06:00"
 }

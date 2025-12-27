@@ -1,61 +1,61 @@
 {
+  "question_id": "givdx24001",
   "category": "gi",
-  "critique": "The chest radiographs show pneumomediastinum, which may occur with spontaneous esophageal rupture (Option B), also called Boerhaave syndrome. Pneumomediastinum (air within the mediastinal space) is shown in the image below by the presence of hyperlucent areas (white arrows) surrounding and making more prominent the contours of mediastinal structures, such as the border of the heart and aorta. The air has laterally displaced the mediastinal pleura, which can be seen on the frontal radiograph (left panel) as a long linear opacity (white arrowheads). Subcutaneous emphysema (air within the soft tissues) is also seen (yellow arrow).",
   "educational_objective": "Diagnose effort-related esophageal rupture and associated pneumomediastinum.",
-  "extracted_at": "2025-12-23T14:14:31.060789-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 33-year-old man is evaluated for severe retrosternal chest pain following an episode of protracted forceful vomiting.Chest radiographs are shown.",
+  "question_stem": "Which of the following is the most likely cause of the chest radiograph findings?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Aortic dissection",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Esophageal rupture",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Peptic ulcer perforation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Spontaneous pneumothorax",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The chest radiographs show pneumomediastinum, which may occur with spontaneous esophageal rupture (Option B), also called Boerhaave syndrome. Pneumomediastinum (air within the mediastinal space) is shown in the image below by the presence of hyperlucent areas (white arrows) surrounding and making more prominent the contours of mediastinal structures, such as the border of the heart and aorta. The air has laterally displaced the mediastinal pleura, which can be seen on the frontal radiograph (left panel) as a long linear opacity (white arrowheads). Subcutaneous emphysema (air within the soft tissues) is also seen (yellow arrow).",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "gisec24001_24015"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/gifig24602.13059563682469401a914c7412561685.jpg",
       "figures/gifig24600.3c4bef1fd66bd7e251a4831ae157d2fd.jpg",
       "figures/gifig24601.a41a7a09546209013947ffa4bddcd969.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Aortic dissection"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Esophageal rupture"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Peptic ulcer perforation"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Spontaneous pneumothorax"
-    }
-  ],
-  "question_id": "givdx24001",
-  "question_stem": "Which of the following is the most likely cause of the chest radiograph findings?",
-  "question_text": "A 33-year-old man is evaluated for severe retrosternal chest pain following an episode of protracted forceful vomiting.Chest radiographs are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "gisec24001_24015"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:14:31.060789-06:00"
 }

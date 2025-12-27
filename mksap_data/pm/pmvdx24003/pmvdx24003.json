@@ -1,60 +1,60 @@
 {
+  "question_id": "pmvdx24003",
   "category": "pm",
-  "critique": "The most likely diagnosis is cryptogenic organizing pneumonia (COP) (Option A). Patients with COP typically present with history of cough lasting weeks to months, fever, and malaise. Initial chest radiographs will demonstrate patchy opacities that mimic pneumonia and, as a result, patients are often initially misdiagnosed with community-acquired pneumonia and treated with antibiotics. However, unresolving symptoms and failure to respond to antibiotics should raise suspicion for COP. COP is of unknown etiology, whereas secondary OP can be seen in association with malignancy, drugs, and connective tissue diseases. High-resolution CT imaging will demonstrate ground-glass opacities (red arrow) and/or areas of alveolar consolidation (black arrow) resembling an infectious pneumonia, but findings can include peripheral nodules and nodules along the bronchovascular bundle.",
   "educational_objective": "Diagnose cryptogenic organizing pneumonia.",
-  "extracted_at": "2025-12-23T14:15:53.254145-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 38-year-old woman is evaluated for a 10-week history of fever and dyspnea and infiltrates on chest radiography. She has received two courses of antibiotics with no improvement. She does not smoke cigarettes.CT scan of the chest is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cryptogenic organizing pneumonia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Idiopathic pulmonary fibrosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Sarcoidosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "SARS-CoV-2 infection",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is cryptogenic organizing pneumonia (COP) (Option A). Patients with COP typically present with history of cough lasting weeks to months, fever, and malaise. Initial chest radiographs will demonstrate patchy opacities that mimic pneumonia and, as a result, patients are often initially misdiagnosed with community-acquired pneumonia and treated with antibiotics. However, unresolving symptoms and failure to respond to antibiotics should raise suspicion for COP. COP is of unknown etiology, whereas secondary OP can be seen in association with malignancy, drugs, and connective tissue diseases. High-resolution CT imaging will demonstrate ground-glass opacities (red arrow) and/or areas of alveolar consolidation (black arrow) resembling an infectious pneumonia, but findings can include peripheral nodules and nodules along the bronchovascular bundle.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24003_24016"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24604.04cae67b77fa46881eee02bec1ac8fec.jpg",
       "figures/pmfig24603.f324785b8e0a8bbbb04b8935116be96b.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cryptogenic organizing pneumonia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Idiopathic pulmonary fibrosis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Sarcoidosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "SARS-CoV-2 infection"
-    }
-  ],
-  "question_id": "pmvdx24003",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 38-year-old woman is evaluated for a 10-week history of fever and dyspnea and infiltrates on chest radiography. She has received two courses of antibiotics with no improvement. She does not smoke cigarettes.CT scan of the chest is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24003_24016"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.254145-06:00"
 }

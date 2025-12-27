@@ -1,60 +1,60 @@
 {
+  "question_id": "nrvdx24020",
   "category": "nr",
-  "critique": "The most likely diagnosis is multiple sclerosis (Option C). Multiple sclerosis is characterized by inflammatory damage to the brain, spinal cord, and optic nerves with clinical symptoms caused by interruption of axonal pathways by inflammatory lesions. These lesions may be seen on a standardized brain MRI protocol as well as spinal cord imaging. This MRI demonstrates the periventricular demyelinating plaques (arrow) of multiple sclerosis, seen as hyperintense lesions on FLAIR sequence.",
   "educational_objective": "Identify the inflammatory lesions of multiple sclerosis on MRI.",
-  "extracted_at": "2025-12-23T14:11:42.623791-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 37-year-old woman is seen in follow-up for persistent neurologic symptoms.MRI is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Alzheimer dementia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Herpes encephalitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Multiple sclerosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Progressive multifocal leukoencephalopathy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is multiple sclerosis (Option C). Multiple sclerosis is characterized by inflammatory damage to the brain, spinal cord, and optic nerves with clinical symptoms caused by interruption of axonal pathways by inflammatory lesions. These lesions may be seen on a standardized brain MRI protocol as well as spinal cord imaging. This MRI demonstrates the periventricular demyelinating plaques (arrow) of multiple sclerosis, seen as hyperintense lesions on FLAIR sequence.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "nrsec24007_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/nrfig24626.e02105ab5a73b6cc8eb0f52672581dbb.jpg",
       "figures/nrfig24625.ed14d013cb35459e1a173540e8e909a8.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Alzheimer dementia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Herpes encephalitis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Multiple sclerosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Progressive multifocal leukoencephalopathy"
-    }
-  ],
-  "question_id": "nrvdx24020",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 37-year-old woman is seen in follow-up for persistent neurologic symptoms.MRI is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "nrsec24007_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:11:42.623791-06:00"
 }

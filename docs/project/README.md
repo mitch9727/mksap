@@ -19,15 +19,15 @@ Extract the full MKSAP question bank into structured JSON using the Rust API-bas
 The extractor is configured to handle **16 question system codes** (see [config.rs](../../text_extractor/src/config.rs)):
 
 **System Prefixes**:
-- cv (Cardiovascular), en (Endocrinology), cs (Clinical Practice)
+- cv (Cardiovascular), en (Endocrinology), fc (Foundations), cs (Common Symptoms)
 - gi (Gastroenterology), hp (Hepatology), hm (Hematology)
 - id (Infectious Disease), in (Interdisciplinary), dm (Dermatology)
 - np (Nephrology), nr (Neurology), on (Oncology)
 - pm (Pulmonary), cc (Critical Care), rm (Rheumatology)
 
-**Multi-Prefix Design**: Some ACP content areas combine multiple specialties (e.g., "Gastroenterology AND Hepatology"). The extractor separates these into individual systems with distinct prefixes (gi, hp) for accurate question ID discovery.
+**Multi-Prefix Design**: Some ACP content areas combine multiple specialties (e.g., "Gastroenterology AND Hepatology" or "Foundations of Clinical Practice AND Common Symptoms"). The extractor separates these into individual systems with distinct prefixes (gi/hp, fc/cs) for accurate question ID discovery.
 
-**Year Range**: Targets questions from 2023-2026 (excludes deprecated 2020-2022 content)
+**Year Range**: Targets questions from 2023-2026 by default (override with `MKSAP_YEAR_START`/`MKSAP_YEAR_END`)
 
 ## Discovery-Based Extraction
 
@@ -42,7 +42,7 @@ This approach ensures extraction targets reflect the current API state, not outd
 
 ## Primary Tool
 
-**Rust MKSAP Extractor** (project root)
+**Rust MKSAP Extractor** (`text_extractor/`)
 - Direct API access with rate limiting and resume support
 - Output organized under `mksap_data/`
 - Built-in discovery-based validation
@@ -79,7 +79,7 @@ CC: 55 extracted / 54 discovered = 101.9% ✓ (accurate - fully extracted)
    - Discovered count per system
    - Candidates tested (how many IDs were checked)
    - Hit rate (% of candidates that exist)
-   - Question types found (mcq, qqq, vdx, cor)
+   - Question types found (mcq, qqq, vdx, cor, mqq, sq)
    - Discovery timestamp
 
 3. **Validator Usage**: Completion metrics now use discovered counts when available
@@ -89,7 +89,7 @@ CC: 55 extracted / 54 discovered = 101.9% ✓ (accurate - fully extracted)
 
 ```bash
 # From text_extractor directory:
-cargo run --release -- discovery-stats
+./target/release/mksap-extractor discovery-stats
 ```
 
 Example output:
@@ -132,18 +132,18 @@ The extractor produces clean, production-grade output by default:
 
 ```bash
 # Run extraction or validation
-cargo run --release
+./target/release/mksap-extractor
 
 # Sample output (consolidated per-system results):
-[1/15] Processing: Cardiovascular Medicine
+[1/16] Processing: Cardiovascular Medicine
 ✓ cv: Extracted 0 new, 240 already extracted
 
-[2/15] Processing: Endocrinology and Metabolism
+[2/16] Processing: Endocrinology and Metabolism
 ✓ en: Extracted 0 new, 160 already extracted
 ```
 
 Output features:
-- Discovery results: `✓ {system}: Discovered {count} questions ({types} types)`
+- Discovery logs include candidate/tested counts and discovered IDs
 - Extraction results: `✓ {system}: Extracted {new} new, {existing} already extracted`
 - Errors and warnings are always displayed (independent of log level)
 - No redundant category name repetition
@@ -154,7 +154,7 @@ Output features:
 To see detailed phase-level logging (Phase 1, 2, 3 messages):
 
 ```bash
-RUST_LOG=debug cargo run --release
+RUST_LOG=debug ./target/release/mksap-extractor
 ```
 
 This enables:
@@ -185,15 +185,15 @@ If extraction appears to hang or produce unexpected results:
 
 ```bash
 # Enable debug logging with timestamps
-RUST_LOG=debug,html5ever=off cargo run --release 2>&1 | tee extractor.log
+RUST_LOG=debug,html5ever=off ./target/release/mksap-extractor 2>&1 | tee extractor.log
 
 # Search for error or warning messages
-grep -E "error|warning|failed" extractor.log
+rg -i "error|warning|failed" extractor.log
 ```
 
 ## Next Steps
 
-1. Run validation with new discovery-based metrics: `cargo run --release -- validate`
+1. Run validation with new discovery-based metrics: `./target/release/mksap-extractor validate`
 2. Review validation report for data integrity warnings
 3. Monitor discovery hit rate to understand API question availability
 4. Build downstream conversion pipeline (Markdown/Anki)

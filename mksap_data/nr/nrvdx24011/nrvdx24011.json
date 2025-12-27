@@ -1,60 +1,60 @@
 {
+  "question_id": "nrvdx24011",
   "category": "nr",
-  "critique": "The most likely diagnosis is cerebral aneurysm (Option A). This cerebral angiogram shows a 4.5-mm saccular anterior communicating artery aneurysm. Extrarenal manifestations of polycystic kidney disease include intracranial aneurysms (detected in 5% to 10% of patients, with a strong familial pattern) as well as hepatic cysts (detected in >80% of patients over their lifetime), mitral valve prolapse, and inguinal and umbilical hernias. Guidelines for the management of patients with unruptured intracranial aneurysms from the American Heart Association/American Stroke Association recommend that patients with a history of autosomal dominant polycystic kidney disease, particularly those with a family history of intracranial aneurysm, should be offered screening for cerebral aneurysms with CT angiography (CTA) or MR angiography (MRA). The location and size of the aneurysm are the primary determinants of rupture risk, and both MRA and CTA can show these features noninvasively.",
   "educational_objective": "Diagnose a cerebral aneurysm.",
-  "extracted_at": "2025-12-23T14:11:42.596297-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 38-year-old man with polycystic kidney disease undergoes cerebral angiography. His father also had polycystic kidney disease and died of a stroke at age 52 years.Results of cerebral angiography for the patient are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cerebral aneurysm",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Cerebral arteriovenous malformation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Intracerebral hemorrhage",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Meningioma",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is cerebral aneurysm (Option A). This cerebral angiogram shows a 4.5-mm saccular anterior communicating artery aneurysm. Extrarenal manifestations of polycystic kidney disease include intracranial aneurysms (detected in 5% to 10% of patients, with a strong familial pattern) as well as hepatic cysts (detected in >80% of patients over their lifetime), mitral valve prolapse, and inguinal and umbilical hernias. Guidelines for the management of patients with unruptured intracranial aneurysms from the American Heart Association/American Stroke Association recommend that patients with a history of autosomal dominant polycystic kidney disease, particularly those with a family history of intracranial aneurysm, should be offered screening for cerebral aneurysms with CT angiography (CTA) or MR angiography (MRA). The location and size of the aneurysm are the primary determinants of rupture risk, and both MRA and CTA can show these features noninvasively.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "nrsec24004_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/nrfig24613.9025f255dfd856bfd27d43432a5774eb.jpg",
       "figures/nrfig24612.fc6e66971ef1a3d40504fce89d183ab2.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cerebral aneurysm"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Cerebral arteriovenous malformation"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Intracerebral hemorrhage"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Meningioma"
-    }
-  ],
-  "question_id": "nrvdx24011",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 38-year-old man with polycystic kidney disease undergoes cerebral angiography. His father also had polycystic kidney disease and died of a stroke at age 52 years.Results of cerebral angiography for the patient are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "nrsec24004_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:11:42.596297-06:00"
 }

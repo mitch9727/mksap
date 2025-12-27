@@ -1,62 +1,62 @@
 {
+  "question_id": "npmcq24009",
   "category": "np",
-  "critique": "The most appropriate management for this patient's elevated blood pressure (BP) is shared decision making (Option C). For older adults, multiple guidelines exist that can assist in management decisions (). These differing recommendations must be balanced with the burden of comorbidity and frailty, daily pill burden, quality of life, and patient preferences. For this patient, a shared decision-making discussion that incorporates guideline recommendations with the patient's level of risk, values, and preferences will help to inform further antihypertensive management decisions.Adjusting medications to target a systolic BP <130 mm Hg (Option A) as recommended by the American College of Cardiology/American Heart Association (ACC/AHA) without first engaging in shared decision making with this patient is inappropriate. Although this patient may benefit from improved BP control to prevent cardiovascular morbidity and mortality, the ACC/AHA guidelines also suggest considering comorbid conditions, life expectancy, patient preferences, and risk-benefit ratio before determining individual BP targets.Discontinuing hydrochlorothiazide (Option B) or continuing current medical therapy (Option D) may place this patient at increased risk for cardiovascular events. A discussion regarding the risks and benefits of antihypertensive therapy in the context of differing guidelines as well as patient preferences is needed before making further decisions on antihypertensive management.",
   "educational_objective": "Use shared decision making in treating hypertension in an older adult.",
-  "extracted_at": "2025-12-22T20:06:28.101922-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 78-year-old man is evaluated during a follow-up visit for hypertension. He is asymptomatic. Medical history includes type 2 diabetes mellitus, hypertension, coronary artery disease, osteoarthritis, and stage G4 chronic kidney disease. Medications are carvedilol, lisinopril, hydrochlorothiazide, empagliflozin, and aspirin. He lives independently.On physical examination, blood pressure is 138/84 mm Hg, and pulse rate is 64/min. The remainder of the examination is unremarkable.",
+  "question_stem": "Which of the following is the most appropriate management for this patient's hypertension?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Adjust medications to target a systolic blood pressure <130 mm Hg",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Discontinue hydrochlorothiazide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Shared decision making",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Continue current management",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management for this patient's elevated blood pressure (BP) is shared decision making (Option C). For older adults, multiple guidelines exist that can assist in management decisions (). These differing recommendations must be balanced with the burden of comorbidity and frailty, daily pill burden, quality of life, and patient preferences. For this patient, a shared decision-making discussion that incorporates guideline recommendations with the patient's level of risk, values, and preferences will help to inform further antihypertensive management decisions.Adjusting medications to target a systolic BP <130 mm Hg (Option A) as recommended by the American College of Cardiology/American Heart Association (ACC/AHA) without first engaging in shared decision making with this patient is inappropriate. Although this patient may benefit from improved BP control to prevent cardiovascular morbidity and mortality, the ACC/AHA guidelines also suggest considering comorbid conditions, life expectancy, patient preferences, and risk-benefit ratio before determining individual BP targets.Discontinuing hydrochlorothiazide (Option B) or continuing current medical therapy (Option D) may place this patient at increased risk for cardiovascular events. A discussion regarding the risks and benefits of antihypertensive therapy in the context of differing guidelines as well as patient preferences is needed before making further decisions on antihypertensive management.",
   "key_points": [
     "The 2017 American College of Cardiology/American Heart Association blood pressure (BP) guideline recommends a target systolic BP goal of <130 mm Hg for community-dwelling patients who are ≥65 years of age, whereas the American College of Physicians and American Academy of Family Physicians recommend a target systolic BP goal of <140 mm Hg in patients ≥60 years of age at high cardiovascular risk.",
     "Shared decision making should be utilized when making antihypertensive management decisions in patients who are older with multiple comorbid conditions."
   ],
+  "references": "Oliveros E, Patel H, Kyung S, et al. Hypertension in older adults: assessment, management, and challenges. Clin Cardiol. 2020;43:99-107. PMID: 31825114 doi:10.1002/clc.23303",
+  "related_content": {
+    "syllabus": [
+      "npsec24005_24027"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Adjust medications to target a systolic blood pressure <130 mm Hg"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Discontinue hydrochlorothiazide"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Shared decision making"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Continue current management"
-    }
-  ],
-  "question_id": "npmcq24009",
-  "question_stem": "Which of the following is the most appropriate management for this patient's hypertension?",
-  "question_text": "A 78-year-old man is evaluated during a follow-up visit for hypertension. He is asymptomatic. Medical history includes type 2 diabetes mellitus, hypertension, coronary artery disease, osteoarthritis, and stage G4 chronic kidney disease. Medications are carvedilol, lisinopril, hydrochlorothiazide, empagliflozin, and aspirin. He lives independently.On physical examination, blood pressure is 138/84 mm Hg, and pulse rate is 64/min. The remainder of the examination is unremarkable.",
-  "references": "Oliveros E, Patel H, Kyung S, et al. Hypertension in older adults: assessment, management, and challenges. Clin Cardiol. 2020;43:99-107. PMID: 31825114 doi:10.1002/clc.23303",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24005_24027"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:06:28.101922-06:00"
 }

@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24021",
   "category": "cv",
-  "critique": "This ECG shows monomorphic ventricular tachycardia (VT) (Option B). VT is characterized by regular wide QRS complexes, a pulse rate of more than 120/min, and atrioventricular dissociation (often demonstrated by capture and/or fusion beats). VT can be characterized as either sustained (lasting >30 seconds) or nonsustained and as monomorphic (if all of the QRS complexes have the same morphology) or polymorphic (if the QRS pattern twists across the baseline [e.g., torsades de pointes]). The development of VT is facilitated by the presence of abnormal ventricular conduction and/or myocardial scar tissue, and it usually occurs in patients with structural heart disease, including both ischemic and nonischemic cardiomyopathy. In this patient's ECG, VT begins approximately one third of the way into the tracing and is marked first by a fusion beat, with an abrupt change in axis and widening of the QRS complex.",
   "educational_objective": "Identify ventricular tachycardia on ECG.",
-  "extracted_at": "2025-12-23T14:08:40.382668-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 47-year-old woman is evaluated for an irregular pulse, a sensation of pounding in the neck, and an episode of syncope. Medical history is significant for sarcoidosis.ECG is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Junctional rhythm",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Monomorphic ventricular tachycardia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Polymorphic ventricular tachycardia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Ventricular fibrillation",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This ECG shows monomorphic ventricular tachycardia (VT) (Option B). VT is characterized by regular wide QRS complexes, a pulse rate of more than 120/min, and atrioventricular dissociation (often demonstrated by capture and/or fusion beats). VT can be characterized as either sustained (lasting >30 seconds) or nonsustained and as monomorphic (if all of the QRS complexes have the same morphology) or polymorphic (if the QRS pattern twists across the baseline [e.g., torsades de pointes]). The development of VT is facilitated by the presence of abnormal ventricular conduction and/or myocardial scar tissue, and it usually occurs in patients with structural heart disease, including both ischemic and nonischemic cardiomyopathy. In this patient's ECG, VT begins approximately one third of the way into the tracing and is marked first by a fusion beat, with an abrupt change in axis and widening of the QRS complex.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24038"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24624.d872dd199ad82aedfe888cbc9f01166d.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Junctional rhythm"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Monomorphic ventricular tachycardia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Polymorphic ventricular tachycardia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Ventricular fibrillation"
-    }
-  ],
-  "question_id": "cvvdx24021",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 47-year-old woman is evaluated for an irregular pulse, a sensation of pounding in the neck, and an episode of syncope. Medical history is significant for sarcoidosis.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24006_24038"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.382668-06:00"
 }

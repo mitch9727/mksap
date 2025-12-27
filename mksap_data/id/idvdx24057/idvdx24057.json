@@ -1,60 +1,60 @@
 {
+  "question_id": "idvdx24057",
   "category": "id",
-  "critique": "The most likely diagnosis is infective endocarditis (Option C). This funduscopic image shows Roth spots with a white/paler center (arrows). These hemorrhagic lesions of the retina are associated with infective endocarditis and certain leukemias.",
   "educational_objective": "Identify Roth spots associated with infective endocarditis.",
-  "extracted_at": "2025-12-23T14:10:29.427123-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 19-year-old man with substance use disorder is evaluated for 3 weeks of fever and malaise and a new heart murmur.Funduscopic findings are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Central retinal vein occlusion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hypertensive retinopathy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Infective endocarditis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Optic neuritis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is infective endocarditis (Option C). This funduscopic image shows Roth spots with a white/paler center (arrows). These hemorrhagic lesions of the retina are associated with infective endocarditis and certain leukemias.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24005_24010"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24666.d0c16cb385b1615e0b08d739db441ae8.jpg",
       "figures/idfig24665.56996a34b02b7aa06a64eacf2f2a2e0e.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Central retinal vein occlusion"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Hypertensive retinopathy"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Infective endocarditis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Optic neuritis"
-    }
-  ],
-  "question_id": "idvdx24057",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 19-year-old man with substance use disorder is evaluated for 3 weeks of fever and malaise and a new heart murmur.Funduscopic findings are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24005_24010"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:10:29.427123-06:00"
 }

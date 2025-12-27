@@ -1,63 +1,63 @@
 {
+  "question_id": "ccmcq24031",
   "category": "cc",
-  "critique": "The most appropriate treatment for this patient with ICU delirium is early mobilization (Option D) with physical therapy. Delirium is an acute change in cognitive functioning, impairment of attention, and disorientation with fluctuating mental status. It is a common and complex condition with multiple predisposing conditions and risk factors that requires a comprehensive approach to diagnosis and treatment (). Delirium is extremely common in ICU patients and is associated with increased length of ICU stay, mortality, and post-ICU cognitive impairment. The likelihood of ICU delirium is increased in the setting of benzodiazepine use, polypharmacy, preexisting cognitive impairment, older age, pre-ICU surgery or trauma, and high severity of illness on ICU admission. Early identification and correction of underlying causes are critical. Multicomponent interventions tailored to the ICU environment, such as the ABCDEF bundle (), decrease delirium duration and ICU length of stay and improve survival. This patient's acute onset of cognitive dysfunction and risk factors (advanced age, high severity of illness) suggest ICU delirium despite her overall improvement. Implementing the ABCDEF care bundle, which includes mobilization, is indicated.For patients requiring sedation in the ICU, the use of dexmedetomidine (Option A) (a selective α2-agonist) or propofol (a short-acting general anesthetic agent) is preferred and recommended. However, dexmedetomidine does not have a role in the treatment of delirium.Studies have failed to demonstrate the effectiveness of any medication to prevent or treat delirium. The use of typical antipsychotics, such as haloperidol (Option B), and atypical antipsychotics for delirium has been associated with increased morbidity and mortality and should be avoided if possible. Severe refractory agitation or behavioral symptoms that prevent appropriate care may require pharmacologic sedation to prevent self-harm, but this is not the case with this patient.Neuroimaging is not routinely required in the evaluation of ICU delirium. Head CT (Option C) should be considered if a structural cause is suspected. This patient's clinical presentation and the absence of focal neurologic findings make head CT an unnecessary test.",
   "educational_objective": "Treat a patient with ICU delirium.",
-  "extracted_at": "2025-12-23T14:13:48.429036-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 75-year-old woman is evaluated in the ICU for new-onset confusion. She was admitted to the ICU 3 days ago for pneumonia and septic shock. At presentation, she required intubation, mechanical ventilation, and a brief period of vasopressor support. She has improved over the past 48 hours and was extubated yesterday. This morning, she was noted to be confused and disoriented. Medications are ceftriaxone, azithromycin, and enoxaparin. She has no other medical history.On physical examination, temperature is 37.7 °C (99.9 °F), blood pressure is 112/77 mm Hg, pulse rate is 90/min, and respiration rate is 18/min. Oxygen saturation is 93% with the patient breathing supplemental oxygen, 2 L/min by nasal cannula. She is alert but oriented to person only. She is inattentive and cannot name the month that precedes December. Pulmonary examination is unchanged, with left basilar crackles. Neurologic examination shows no focal abnormalities.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Dexmedetomidine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Haloperidol",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Head CT",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Mobilization",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment for this patient with ICU delirium is early mobilization (Option D) with physical therapy. Delirium is an acute change in cognitive functioning, impairment of attention, and disorientation with fluctuating mental status. It is a common and complex condition with multiple predisposing conditions and risk factors that requires a comprehensive approach to diagnosis and treatment (). Delirium is extremely common in ICU patients and is associated with increased length of ICU stay, mortality, and post-ICU cognitive impairment. The likelihood of ICU delirium is increased in the setting of benzodiazepine use, polypharmacy, preexisting cognitive impairment, older age, pre-ICU surgery or trauma, and high severity of illness on ICU admission. Early identification and correction of underlying causes are critical. Multicomponent interventions tailored to the ICU environment, such as the ABCDEF bundle (), decrease delirium duration and ICU length of stay and improve survival. This patient's acute onset of cognitive dysfunction and risk factors (advanced age, high severity of illness) suggest ICU delirium despite her overall improvement. Implementing the ABCDEF care bundle, which includes mobilization, is indicated.For patients requiring sedation in the ICU, the use of dexmedetomidine (Option A) (a selective α2-agonist) or propofol (a short-acting general anesthetic agent) is preferred and recommended. However, dexmedetomidine does not have a role in the treatment of delirium.Studies have failed to demonstrate the effectiveness of any medication to prevent or treat delirium. The use of typical antipsychotics, such as haloperidol (Option B), and atypical antipsychotics for delirium has been associated with increased morbidity and mortality and should be avoided if possible. Severe refractory agitation or behavioral symptoms that prevent appropriate care may require pharmacologic sedation to prevent self-harm, but this is not the case with this patient.Neuroimaging is not routinely required in the evaluation of ICU delirium. Head CT (Option C) should be considered if a structural cause is suspected. This patient's clinical presentation and the absence of focal neurologic findings make head CT an unnecessary test.",
   "key_points": [
     "Management of ICU delirium requires early identification and correction of underlying causes; the use of multicomponent interventions, such as the ABCDEF bundle, decreases delirium duration and ICU length of stay and improves survival."
   ],
+  "references": "Stollings JL, Kotfis K, Chanques G, et al. Delirium in critical illness: clinical manifestations, outcomes, and management. Intensive Care Med. 2021;47:1089-103. PMID: 34401939 doi:10.1007/s00134-021-06503-1.",
+  "related_content": {
+    "syllabus": [
+      "ccsec24001_24008"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html",
       "tables/inline_table_3.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Dexmedetomidine"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Haloperidol"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Head CT"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Mobilization"
-    }
-  ],
-  "question_id": "ccmcq24031",
-  "question_stem": "Which of the following is the most appropriate next step in management?",
-  "question_text": "A 75-year-old woman is evaluated in the ICU for new-onset confusion. She was admitted to the ICU 3 days ago for pneumonia and septic shock. At presentation, she required intubation, mechanical ventilation, and a brief period of vasopressor support. She has improved over the past 48 hours and was extubated yesterday. This morning, she was noted to be confused and disoriented. Medications are ceftriaxone, azithromycin, and enoxaparin. She has no other medical history.On physical examination, temperature is 37.7 °C (99.9 °F), blood pressure is 112/77 mm Hg, pulse rate is 90/min, and respiration rate is 18/min. Oxygen saturation is 93% with the patient breathing supplemental oxygen, 2 L/min by nasal cannula. She is alert but oriented to person only. She is inattentive and cannot name the month that precedes December. Pulmonary examination is unchanged, with left basilar crackles. Neurologic examination shows no focal abnormalities.",
-  "references": "Stollings JL, Kotfis K, Chanques G, et al. Delirium in critical illness: clinical manifestations, outcomes, and management. Intensive Care Med. 2021;47:1089-103. PMID: 34401939 doi:10.1007/s00134-021-06503-1.",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ccsec24001_24008"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:48.429036-06:00"
 }

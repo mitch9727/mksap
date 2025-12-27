@@ -1,62 +1,62 @@
 {
+  "question_id": "gimcq24023",
   "category": "gi",
-  "critique": "The most likely cause of this patient's acute pancreatitis is gallstones (Option B). This patient has acute pancreatitis, presenting with characteristic pancreatitis-type pain and an elevated serum lipase level. Biliary disease (including gallstones, biliary sludge, and microlithiasis) and alcohol use are the two most common causes of acute pancreatitis (see ). A serum alanine aminotransferase (ALT) level greater than 150 U/L, as seen in this patient, suggests gallstone pancreatitis. In the absence of a known alternative explanation, patients with acute pancreatitis should undergo transabdominal ultrasonography to evaluate for biliary disease. Ultrasonography has superior sensitivity over CT for gallstone detection. It also avoids potential risks of radiation and intravenous contrast exposure and is more cost-effective. In this patient, gallstone presence, a dilated common bile duct, serum ALT concentration greater than 150 U/L, and hyperbilirubinemia are consistent with a biliary cause of pancreatitis.Although alcohol (Option A) is a common cause of acute pancreatitis, it is a less likely cause in this patient because she does not report a significant alcohol use history. Persons who consume more than five drinks per day (or 35 drinks per week) may be more susceptible to pancreatitis.Medications, such as hydrochlorothiazide (Option C) and other thiazide diuretics (e.g., furosemide), mesalamine, 6-mercaptopurine, and azathioprine, can cause pancreatitis; however, medications are a rare cause of acute pancreatitis. Although this patient takes hydrochlorothiazide, her laboratory and ultrasonographic findings are more compatible with gallstone pancreatitis.This patient has hyperlipidemia, but pancreatitis due to hypertriglyceridemia (Option D) is less likely. The presence of known gallstones, a dilated common bile duct, and elevated total bilirubin level are more suggestive of gallstone pancreatitis.",
   "educational_objective": "Diagnose gallstone pancreatitis.",
-  "extracted_at": "2025-12-23T14:14:30.876754-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 45-year-woman is evaluated in the emergency department for a 6-hour history of epigastric and right-upper-quadrant abdominal pain radiating to her back, nausea, and subjective fever. She drinks one to two glasses of wine on the weekends. She has hypertension and hyperlipidemia. Medications are hydrochlorothiazide and atorvastatin.On physical examination, pulse rate is 105/min; the remainder of vital signs are normal. Palpation of the abdomen elicits epigastric and right-upper-quadrant tenderness without rebound or guarding.Abdominal ultrasound of the right upper quadrant shows cholelithiasis without choledocholithiasis and a dilated common bile duct. The pancreas is poorly visualized.",
+  "question_stem": "Which of the following is the most likely cause of this patient's acute pancreatitis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Alcohol",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Gallstones",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Hydrochlorothiazide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Hypertriglyceridemia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely cause of this patient's acute pancreatitis is gallstones (Option B). This patient has acute pancreatitis, presenting with characteristic pancreatitis-type pain and an elevated serum lipase level. Biliary disease (including gallstones, biliary sludge, and microlithiasis) and alcohol use are the two most common causes of acute pancreatitis (see ). A serum alanine aminotransferase (ALT) level greater than 150 U/L, as seen in this patient, suggests gallstone pancreatitis. In the absence of a known alternative explanation, patients with acute pancreatitis should undergo transabdominal ultrasonography to evaluate for biliary disease. Ultrasonography has superior sensitivity over CT for gallstone detection. It also avoids potential risks of radiation and intravenous contrast exposure and is more cost-effective. In this patient, gallstone presence, a dilated common bile duct, serum ALT concentration greater than 150 U/L, and hyperbilirubinemia are consistent with a biliary cause of pancreatitis.Although alcohol (Option A) is a common cause of acute pancreatitis, it is a less likely cause in this patient because she does not report a significant alcohol use history. Persons who consume more than five drinks per day (or 35 drinks per week) may be more susceptible to pancreatitis.Medications, such as hydrochlorothiazide (Option C) and other thiazide diuretics (e.g., furosemide), mesalamine, 6-mercaptopurine, and azathioprine, can cause pancreatitis; however, medications are a rare cause of acute pancreatitis. Although this patient takes hydrochlorothiazide, her laboratory and ultrasonographic findings are more compatible with gallstone pancreatitis.This patient has hyperlipidemia, but pancreatitis due to hypertriglyceridemia (Option D) is less likely. The presence of known gallstones, a dilated common bile duct, and elevated total bilirubin level are more suggestive of gallstone pancreatitis.",
   "key_points": [
     "Biliary disease (including gallstones, biliary sludge, and microlithiasis) is the most common cause of acute pancreatitis."
   ],
+  "references": "Mederos MA, Reber HA, Girgis MD. Acute pancreatitis: a review. JAMA. 2021;325:382-390. PMID: 33496779 doi:10.1001/jama.2020.20317",
+  "related_content": {
+    "syllabus": [
+      "gisec24003_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Alcohol"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Gallstones"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Hydrochlorothiazide"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Hypertriglyceridemia"
-    }
-  ],
-  "question_id": "gimcq24023",
-  "question_stem": "Which of the following is the most likely cause of this patient's acute pancreatitis?",
-  "question_text": "A 45-year-woman is evaluated in the emergency department for a 6-hour history of epigastric and right-upper-quadrant abdominal pain radiating to her back, nausea, and subjective fever. She drinks one to two glasses of wine on the weekends. She has hypertension and hyperlipidemia. Medications are hydrochlorothiazide and atorvastatin.On physical examination, pulse rate is 105/min; the remainder of vital signs are normal. Palpation of the abdomen elicits epigastric and right-upper-quadrant tenderness without rebound or guarding.Abdominal ultrasound of the right upper quadrant shows cholelithiasis without choledocholithiasis and a dilated common bile duct. The pancreas is poorly visualized.",
-  "references": "Mederos MA, Reber HA, Girgis MD. Acute pancreatitis: a review. JAMA. 2021;325:382-390. PMID: 33496779 doi:10.1001/jama.2020.20317",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "gisec24003_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:14:30.876754-06:00"
 }

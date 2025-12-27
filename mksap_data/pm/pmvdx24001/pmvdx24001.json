@@ -1,59 +1,59 @@
 {
+  "question_id": "pmvdx24001",
   "category": "pm",
-  "critique": "The most likely diagnosis is pulmonary hypertension (Option B). The apical four-chamber echocardiogram view shows dilation of both the right atrium (RA) and right ventricle (RV). On a normal apical four-chamber view, the RV should be smaller than the left ventricle, but in this image, the RV is significantly larger than the left. The RA also dwarfs the left atrium. Other echocardiographic findings in patients with pulmonary hypertension may include RV hypokinesis, septal flattening or bowing toward the left ventricle, tricuspid regurgitation, pulmonary insufficiency, and mid-systolic closure of the pulmonary valve.Image in the stem reproduced with permission from Poch D, Mandel J. Pulmonary hypertension. . 2021;174:ITC49-64. . Copyright 2021, American College of Physicians.",
   "educational_objective": "Recognize right atrial and ventricular dilation on echocardiography.",
-  "extracted_at": "2025-12-23T14:15:53.242936-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 42-year-old woman with systemic sclerosis is evaluated for progressive dyspnea and exertional chest pain.An apical four-chamber echocardiogram is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Hypertrophic cardiomyopathy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Pulmonary hypertension",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Restrictive cardiomyopathy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Stress-induced cardiomyopathy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is pulmonary hypertension (Option B). The apical four-chamber echocardiogram view shows dilation of both the right atrium (RA) and right ventricle (RV). On a normal apical four-chamber view, the RV should be smaller than the left ventricle, but in this image, the RV is significantly larger than the left. The RA also dwarfs the left atrium. Other echocardiographic findings in patients with pulmonary hypertension may include RV hypokinesis, septal flattening or bowing toward the left ventricle, tricuspid regurgitation, pulmonary insufficiency, and mid-systolic closure of the pulmonary valve.Image in the stem reproduced with permission from Poch D, Mandel J. Pulmonary hypertension. . 2021;174:ITC49-64. . Copyright 2021, American College of Physicians.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24006_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24600.a97089d6e2a56a3bf0d3a31802157d9a.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Hypertrophic cardiomyopathy"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Pulmonary hypertension"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Restrictive cardiomyopathy"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Stress-induced cardiomyopathy"
-    }
-  ],
-  "question_id": "pmvdx24001",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 42-year-old woman with systemic sclerosis is evaluated for progressive dyspnea and exertional chest pain.An apical four-chamber echocardiogram is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24006_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.242936-06:00"
 }

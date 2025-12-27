@@ -1,62 +1,62 @@
 {
+  "question_id": "npmcq24067",
   "category": "np",
-  "critique": "The most likely diagnosis is tubulointerstitial nephritis with uveitis (TINU) (Option D). TINU is a systemic inflammatory disease that typically affects adolescents and young women. Previous infection or the use of specific drugs such as NSAIDS or antibiotics can precede presentation. Patients present with bilateral conjunctival erythema, eye pain, decreased visual acuity, and photophobia indicative of anterior uveitis. Systemic findings, such as fever, weight loss, arthralgias, myalgias, and headache, are common. Laboratory data may reveal elevated serum creatinine levels, anemia, eosinophilia, abnormal liver enzymes, elevated C-reactive protein, and a positive result for ANCA or antinuclear antibodies or rheumatoid factor, as seen in this patient. Urinalysis may be normal or demonstrate pyuria, microscopic hematuria, and/or mild proteinuria <1500 mg/24h. The course of tubulointerstitial nephritis is variable and can present before, concurrent with (as in this patient), or even 1 year after uveitis. Progressive kidney disease is typically treated with oral prednisone. This patient presents with a recent history of infection and antibiotic therapy, systemic symptoms, uveitis, and laboratory findings suggestive of TINU.Acute tubular necrosis (ATN) (Option A) is an unlikely diagnosis. The patient was recently treated with an antibiotic, and some antibiotics can cause nephrotoxic ATN. However, renal tubular epithelial cells and/or granular casts, a hallmark of ATN, are not present in this patient's microscopic urinalysis.Patients with acute glomerulonephritis such as pauci-immune vasculitis (Option B) or postinfectious glomerulonephritis (Option C) may present with systemic symptoms, including fever, arthralgias, myalgias, headache, weight loss, hypertension, anemia, elevated C-reactive protein, and a positive rheumatoid factor. However, urinalysis with microscopic examination would reveal a nephritic picture with positive blood, erythrocytes (typically dysmorphic), and, in some cases, erythrocyte casts. Urinalysis and microscopy findings in AKI are described in Table: Urinalysis and Microscopy in Acute Kidney Injury. This patient's eye symptoms and urine microscopy findings do not support a diagnosis of either pauci-immune vasculitis or postinfectious glomerulonephritis.",
   "educational_objective": "Diagnose tubulointerstitial nephritis with uveitis.",
-  "extracted_at": "2025-12-22T20:06:59.695737-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 20-year-old woman is evaluated for a 3-day history of bilateral eye pain and blurry vision. She also reports subjective fever, headache, a 3.6-kg (8.0-lb) weight loss, and body aches during the past 2 weeks. Three weeks ago, she was treated with amoxicillin for an upper respiratory infection. She reports no sick contacts. She has no other medical problems and takes no medications.On physical examination, blood pressure is 148/96 mm Hg; other vital signs are normal. Bilateral conjunctival injection is noted. The remainder of the examination is normal.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute tubular necrosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Pauci-immune vasculitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Postinfectious glomerulonephritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Tubulointerstitial nephritis with uveitis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is tubulointerstitial nephritis with uveitis (TINU) (Option D). TINU is a systemic inflammatory disease that typically affects adolescents and young women. Previous infection or the use of specific drugs such as NSAIDS or antibiotics can precede presentation. Patients present with bilateral conjunctival erythema, eye pain, decreased visual acuity, and photophobia indicative of anterior uveitis. Systemic findings, such as fever, weight loss, arthralgias, myalgias, and headache, are common. Laboratory data may reveal elevated serum creatinine levels, anemia, eosinophilia, abnormal liver enzymes, elevated C-reactive protein, and a positive result for ANCA or antinuclear antibodies or rheumatoid factor, as seen in this patient. Urinalysis may be normal or demonstrate pyuria, microscopic hematuria, and/or mild proteinuria <1500 mg/24h. The course of tubulointerstitial nephritis is variable and can present before, concurrent with (as in this patient), or even 1 year after uveitis. Progressive kidney disease is typically treated with oral prednisone. This patient presents with a recent history of infection and antibiotic therapy, systemic symptoms, uveitis, and laboratory findings suggestive of TINU.Acute tubular necrosis (ATN) (Option A) is an unlikely diagnosis. The patient was recently treated with an antibiotic, and some antibiotics can cause nephrotoxic ATN. However, renal tubular epithelial cells and/or granular casts, a hallmark of ATN, are not present in this patient's microscopic urinalysis.Patients with acute glomerulonephritis such as pauci-immune vasculitis (Option B) or postinfectious glomerulonephritis (Option C) may present with systemic symptoms, including fever, arthralgias, myalgias, headache, weight loss, hypertension, anemia, elevated C-reactive protein, and a positive rheumatoid factor. However, urinalysis with microscopic examination would reveal a nephritic picture with positive blood, erythrocytes (typically dysmorphic), and, in some cases, erythrocyte casts. Urinalysis and microscopy findings in AKI are described in Table: Urinalysis and Microscopy in Acute Kidney Injury. This patient's eye symptoms and urine microscopy findings do not support a diagnosis of either pauci-immune vasculitis or postinfectious glomerulonephritis.",
   "key_points": [
     "Tubulointerstitial nephritis with uveitis is a rare systemic inflammatory disease that usually presents with a predominantly anterior uveitis and variable systemic symptoms and typically affects adolescents and young women; previous infection or the use of specific drugs (e.g., NSAIDS, antibiotics) can precede presentation."
   ],
+  "references": "Paroli MP, Cappiello D, Staccini D, et al. Tubulointerstitial nephritis and uveitis syndrome (TINU): a case series in a tertiary care uveitis setting. J Clin Med. 2022;11. PMID: 36078924 doi:10.3390/jcm11174995",
+  "related_content": {
+    "syllabus": [
+      "npsec24006_24014"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acute tubular necrosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Pauci-immune vasculitis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Postinfectious glomerulonephritis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Tubulointerstitial nephritis with uveitis"
-    }
-  ],
-  "question_id": "npmcq24067",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 20-year-old woman is evaluated for a 3-day history of bilateral eye pain and blurry vision. She also reports subjective fever, headache, a 3.6-kg (8.0-lb) weight loss, and body aches during the past 2 weeks. Three weeks ago, she was treated with amoxicillin for an upper respiratory infection. She reports no sick contacts. She has no other medical problems and takes no medications.On physical examination, blood pressure is 148/96 mm Hg; other vital signs are normal. Bilateral conjunctival injection is noted. The remainder of the examination is normal.",
-  "references": "Paroli MP, Cappiello D, Staccini D, et al. Tubulointerstitial nephritis and uveitis syndrome (TINU): a case series in a tertiary care uveitis setting. J Clin Med. 2022;11. PMID: 36078924 doi:10.3390/jcm11174995",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24006_24014"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:06:59.695737-06:00"
 }

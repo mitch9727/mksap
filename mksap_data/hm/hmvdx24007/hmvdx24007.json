@@ -1,60 +1,60 @@
 {
+  "question_id": "hmvdx24007",
   "category": "hm",
-  "critique": "The most likely cause of this patient's peripheral blood smear findings is uremia (Option D). Echinocytes are erythrocytes with relatively few spicules of uniform size and distribution that project from the cell surface (black arrows). They appear contracted and dense on stained peripheral blood smears. Echinocytes are most characteristically associated with uremia and liver disease but may also be an artifact of preparing the peripheral blood smear. Echinocytes are often confused with acanthocytes, but the projections of echinocytes are smaller, more uniform, and more uniformly distributed than those of acanthocytes.",
   "educational_objective": "Diagnose echinocytosis on a peripheral blood smear and recognize its association with uremia.",
-  "extracted_at": "2025-12-23T14:09:52.903459-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "An 80-year-old woman is evaluated for anemia. She was recently diagnosed with end-stage kidney disease. She had a splenectomy 50 years ago following a motor vehicle accident.Peripheral blood smear is shown.",
+  "question_stem": "Which of the following is the most likely cause of this patient's peripheral blood smear findings?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Anemia of inflammation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Fabry disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Postsplenectomy state",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Uremia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely cause of this patient's peripheral blood smear findings is uremia (Option D). Echinocytes are erythrocytes with relatively few spicules of uniform size and distribution that project from the cell surface (black arrows). They appear contracted and dense on stained peripheral blood smears. Echinocytes are most characteristically associated with uremia and liver disease but may also be an artifact of preparing the peripheral blood smear. Echinocytes are often confused with acanthocytes, but the projections of echinocytes are smaller, more uniform, and more uniformly distributed than those of acanthocytes.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24004_24010"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24612.e27f487612eba2a9c5b187218bb97a66.jpg",
       "figures/hmfig24611.ae09c6b43d877d25cb2500d6ad16acb5.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Anemia of inflammation"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Fabry disease"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Postsplenectomy state"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Uremia"
-    }
-  ],
-  "question_id": "hmvdx24007",
-  "question_stem": "Which of the following is the most likely cause of this patient's peripheral blood smear findings?",
-  "question_text": "An 80-year-old woman is evaluated for anemia. She was recently diagnosed with end-stage kidney disease. She had a splenectomy 50 years ago following a motor vehicle accident.Peripheral blood smear is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24004_24010"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.903459-06:00"
 }

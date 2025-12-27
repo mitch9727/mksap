@@ -1,59 +1,59 @@
 {
+  "question_id": "hmvdx24031",
   "category": "hm",
-  "critique": "The most likely diagnosis is antiphospholipid antibody syndrome (APLAS) (Option A), an autoimmune disorder in which thrombosis and fetal demise (in pregnancy) may occur. This patient's large area of jaggedly branching, angulated retiform purpura is a manifestation of intravascular clot formation in the small vessels of the skin, leading to overlying skin necrosis. Angulated retiform purpura can be the presenting manifestation of APLAS. A further clue to the presence of APLAS is prolongation of the activated partial thromboplastin time, as seen with this patient.",
   "educational_objective": "Diagnose antiphospholipid antibody syndrome.",
-  "extracted_at": "2025-12-23T14:09:52.981599-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 33-year-old woman is evaluated for the sudden appearance of a rapidly expanding, painful skin lesion on her leg. She had a miscarriage 1 year ago. The activated partial thromboplastin time is prolonged.The skin lesion is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Antiphospholipid antibody syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Factor XI deficiency",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Immune thrombocytopenic purpura",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "von Willebrand disease",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is antiphospholipid antibody syndrome (APLAS) (Option A), an autoimmune disorder in which thrombosis and fetal demise (in pregnancy) may occur. This patient's large area of jaggedly branching, angulated retiform purpura is a manifestation of intravascular clot formation in the small vessels of the skin, leading to overlying skin necrosis. Angulated retiform purpura can be the presenting manifestation of APLAS. A further clue to the presence of APLAS is prolongation of the activated partial thromboplastin time, as seen with this patient.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24009_24015"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24648.d6947eb2164c54a416429a4749a9597b.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Antiphospholipid antibody syndrome"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Factor XI deficiency"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Immune thrombocytopenic purpura"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "von Willebrand disease"
-    }
-  ],
-  "question_id": "hmvdx24031",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 33-year-old woman is evaluated for the sudden appearance of a rapidly expanding, painful skin lesion on her leg. She had a miscarriage 1 year ago. The activated partial thromboplastin time is prolonged.The skin lesion is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24009_24015"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.981599-06:00"
 }

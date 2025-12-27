@@ -1,59 +1,59 @@
 {
+  "question_id": "rmvdx24001",
   "category": "rm",
-  "critique": "The most likely diagnosis is osteoarthritis (Option B). This patient's radiograph shows typical findings of osteoarthritis, including asymmetric joint-space narrowing of the left hip (with narrowing worse in the superior aspect of the joint), mild subchondral sclerosis, subchondral cysts, and small osteophytes.",
   "educational_objective": "Diagnose hip osteoarthritis.",
-  "extracted_at": "2025-12-23T14:13:05.851157-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 70-year-old man is evaluated for left groin pain with walking.A radiograph of the hips is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Osteitis pubis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Osteoarthritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Reactive arthritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Rheumatoid arthritis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is osteoarthritis (Option B). This patient's radiograph shows typical findings of osteoarthritis, including asymmetric joint-space narrowing of the left hip (with narrowing worse in the superior aspect of the joint), mild subchondral sclerosis, subchondral cysts, and small osteophytes.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "rmsec24004_24009"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/rmfig24600.99ab581dee8d3f05076b15804ea7ffc7.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Osteitis pubis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Osteoarthritis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Reactive arthritis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Rheumatoid arthritis"
-    }
-  ],
-  "question_id": "rmvdx24001",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 70-year-old man is evaluated for left groin pain with walking.A radiograph of the hips is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24004_24009"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:05.851157-06:00"
 }

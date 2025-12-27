@@ -1,63 +1,63 @@
 {
+  "question_id": "pmmcq24004",
   "category": "pm",
-  "critique": "In addition to weight loss, the most appropriate management in this patient suspected of having moderate to severe obstructive sleep apnea (OSA) is home sleep apnea testing (HSAT) (Option A). In patients without underlying cardiopulmonary or neuromuscular disease with a high probability of moderate to severe OSA, HSAT is the best test to confirm the diagnosis. HSAT is less sensitive in those suspected to have milder sleep apnea, in whom in-laboratory polysomnography is the preferred test. Polysomnography is also preferred in the presence of significant comorbid conditions, including heart failure, neuromuscular disease, and advanced pulmonary disease. Findings that suggest at least moderate OSA include sleep-related choking or gasping, loud snoring, daytime sleepiness, and hypertension. Both HSAT and polysomnography provide the apnea-hypopnea index (AHI), which is the best composite metric of OSA disease severity. An AHI of 5 to 14 events per hour indicates mild OSA, 15 to 30 per hour indicates moderate OSA, and more than 30 per hour indicates severe OSA. This patient's witnessed nocturnal gasping, loud snoring, daytime sleepiness, and enlarged neck circumference with crowded oropharynx suggest moderate to severe OSA. HSAT is the most appropriate test to confirm the diagnosis.In-laboratory polysomnography (Option B) is the preferred diagnostic test in patients suspected of having mild OSA. Polysomnography is also preferred over HSAT in patients with comorbid conditions in which diagnostic and treatment algorithms are more complex (e.g., heart failure, neuromuscular disease, advanced pulmonary disease). This patient likely has at least moderate disease, and HSAT is the preferred test.A mandibular advancement device (Option C) is a fitted orthodontic used as a targeted treatment for OSA. These devices do not reduce the AHI as reliably as positive airway pressure and are most appropriate in mild to moderate OSA. This patient does not yet have an established diagnosis of OSA, and referral for such a device would be premature.Upper airway surgical procedures, such as tonsillectomy (Option D), are sometimes used as a treatment for OSA but are variably effective and not considered first-line therapy. Although this patient has enlarged tonsils, tonsillectomy is rarely effective as a standalone treatment for OSA in adults.",
   "educational_objective": "Manage moderate to severe obstructive sleep apnea.",
-  "extracted_at": "2025-12-23T14:15:52.932092-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 42-year-old man is evaluated at a routine appointment. His wife reports disruptive snoring for the past year, with frequent pauses in his breathing and gasps. The patient describes a regular sleep schedule between 10:30 pm and 6:30 am, although he awakens feeling tired and reports occasional daytime sleepiness. The patient has dyslipidemia. His only medication is atorvastatin.On physical examination, vital signs are normal. Oxygen saturation is 96% with the patient breathing ambient air. BMI is 32. The patient has a crowded oropharynx (shown) with a low-lying soft palate, enlarged tonsils, and a neck circumference of 19.0 inches (48.3 cm).",
+  "question_stem": "In addition to weight loss, which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Home sleep apnea testing",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "In-laboratory polysomnography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Mandibular advancement device",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Tonsillectomy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "In addition to weight loss, the most appropriate management in this patient suspected of having moderate to severe obstructive sleep apnea (OSA) is home sleep apnea testing (HSAT) (Option A). In patients without underlying cardiopulmonary or neuromuscular disease with a high probability of moderate to severe OSA, HSAT is the best test to confirm the diagnosis. HSAT is less sensitive in those suspected to have milder sleep apnea, in whom in-laboratory polysomnography is the preferred test. Polysomnography is also preferred in the presence of significant comorbid conditions, including heart failure, neuromuscular disease, and advanced pulmonary disease. Findings that suggest at least moderate OSA include sleep-related choking or gasping, loud snoring, daytime sleepiness, and hypertension. Both HSAT and polysomnography provide the apnea-hypopnea index (AHI), which is the best composite metric of OSA disease severity. An AHI of 5 to 14 events per hour indicates mild OSA, 15 to 30 per hour indicates moderate OSA, and more than 30 per hour indicates severe OSA. This patient's witnessed nocturnal gasping, loud snoring, daytime sleepiness, and enlarged neck circumference with crowded oropharynx suggest moderate to severe OSA. HSAT is the most appropriate test to confirm the diagnosis.In-laboratory polysomnography (Option B) is the preferred diagnostic test in patients suspected of having mild OSA. Polysomnography is also preferred over HSAT in patients with comorbid conditions in which diagnostic and treatment algorithms are more complex (e.g., heart failure, neuromuscular disease, advanced pulmonary disease). This patient likely has at least moderate disease, and HSAT is the preferred test.A mandibular advancement device (Option C) is a fitted orthodontic used as a targeted treatment for OSA. These devices do not reduce the AHI as reliably as positive airway pressure and are most appropriate in mild to moderate OSA. This patient does not yet have an established diagnosis of OSA, and referral for such a device would be premature.Upper airway surgical procedures, such as tonsillectomy (Option D), are sometimes used as a treatment for OSA but are variably effective and not considered first-line therapy. Although this patient has enlarged tonsils, tonsillectomy is rarely effective as a standalone treatment for OSA in adults.",
   "key_points": [
     "Home sleep apnea testing is the most appropriate initial test for obstructive sleep apnea (OSA) in patients suspected of having at least moderate OSA who do not have significant underlying cardiopulmonary or neuromuscular disease.",
     "In-laboratory polysomnography is recommended for suspected OSA in patients with significant comorbid conditions, including heart failure, neuromuscular disease, and advanced pulmonary disease."
   ],
+  "references": "Hudgel DW, Patel SR, Ahasic AM, et al; American Thoracic Society Assembly on Sleep and Respiratory Neurobiology. The role of weight management in the treatment of adult obstructive sleep apnea. An official American Thoracic Society clinical practice guideline. Am J Respir Crit Care Med. 2018;198:e70-87. PMID: 30215551 doi:10.1164/rccm.201807-1326ST",
+  "related_content": {
+    "syllabus": [
+      "pmsec24008_24010"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24201.0cbcff64ca1fa38b983e64508467aea5.jpg",
       "figures/pmfig24200.c4a0641569500f39a0e886d85bb437ff.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Home sleep apnea testing"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "In-laboratory polysomnography"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Mandibular advancement device"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Tonsillectomy"
-    }
-  ],
-  "question_id": "pmmcq24004",
-  "question_stem": "In addition to weight loss, which of the following is the most appropriate management?",
-  "question_text": "A 42-year-old man is evaluated at a routine appointment. His wife reports disruptive snoring for the past year, with frequent pauses in his breathing and gasps. The patient describes a regular sleep schedule between 10:30 pm and 6:30 am, although he awakens feeling tired and reports occasional daytime sleepiness. The patient has dyslipidemia. His only medication is atorvastatin.On physical examination, vital signs are normal. Oxygen saturation is 96% with the patient breathing ambient air. BMI is 32. The patient has a crowded oropharynx (shown) with a low-lying soft palate, enlarged tonsils, and a neck circumference of 19.0 inches (48.3 cm).",
-  "references": "Hudgel DW, Patel SR, Ahasic AM, et al; American Thoracic Society Assembly on Sleep and Respiratory Neurobiology. The role of weight management in the treatment of adult obstructive sleep apnea. An official American Thoracic Society clinical practice guideline. Am J Respir Crit Care Med. 2018;198:e70-87. PMID: 30215551 doi:10.1164/rccm.201807-1326ST",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24008_24010"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:52.932092-06:00"
 }

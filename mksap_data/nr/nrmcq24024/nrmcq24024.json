@@ -1,62 +1,62 @@
 {
+  "question_id": "nrmcq24024",
   "category": "nr",
-  "critique": "The most likely diagnosis in this patient with myelopathy is copper deficiency (Option A). Copper deficiency can result from malabsorption, nutritional deficiency, or zinc toxicity. The myelopathy seen in copper deficiency is similar to the more common subacute combined degeneration associated with vitamin B12 deficiency with dysfunction of the corticospinal and dorsal sensory tracts of the spinal cord. Patients usually present with a gait abnormality along with sensory changes. Bilateral paresthesias are usually present. Examination may show spastic paresis with reduced vibration and position sense and ataxia. Result of a Romberg test may be positive secondary to loss of proprioception. MRI may show increased signal in the lateral and posterior columns of the cord. Anemia and leukopenia are common. Myelopathy from vitamin B12 and copper deficiencies should specifically be considered in patients with previous bariatric surgical procedures. This patient has the typical clinical presentation of subacute combined degeneration and is at risk for nutritional deficiencies owing to her previous gastric surgery. Given the normal serum vitamin B12 level, copper deficiency is the most likely diagnosis.Multiple sclerosis (Option B) most commonly presents as symptomatic neurologic dysfunction associated with radiographic evidence of central nervous system demyelination with separation of lesions in both space and time. This patient's MRIs show a single lesion, and her other findings, including anemia and leukopenia, are more consistent with copper deficiency.Neuromyelitis optica spectrum disorder (Option C) is characterized clinically by optic neuritis, area postrema syndrome, or acute brainstem syndrome. None of these are present in this patient.Transverse myelitis (Option D) usually presents as subacute weakness, sensory changes, and bladder or bowel dysfunction. A prodrome of back pain or a thoracic banding sensation may also occur. MRI typically shows segmented contrast enhancement of the spinal cord. This patient has clinical and radiographic dorsal column involvement, making vitamin B12 or copper deficiency the most likely diagnosis.",
   "educational_objective": "Diagnose copper deficiency presenting as myelopathy.",
-  "extracted_at": "2025-12-22T20:16:56.565099-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 46-year-old woman is evaluated in the emergency department for progressive difficulty walking that began 6 months ago. Although she reports no weakness, she has noticed her feet and toes dragging. She has also developed paresthesias in her legs and hands bilaterally over the past 3 months. She reports no visual changes or pain. Medical history is significant for type 2 diabetes mellitus, hypertension, and obesity, for which she underwent a Roux-en-Y gastric bypass 3 years ago. Medications are metformin, dapagliflozin, and ramipril.On physical examination, vital signs are within normal limits. Motor strength is preserved. There is decreased sensation in the legs bilaterally to the knees with loss of proprioception and decreased temperature sensation. Patellar reflexes are 3+ bilaterally; ankle jerks are diminished. Babinski sign is positive. She has a spastic gait.Serum chemistries are normal.MRI of the brain is normal. MRI of the cervical spinal cord shows an increased signal that involves the dorsal column on T2-weighted images.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Copper deficiency",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Multiple sclerosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Neuromyelitis optica spectrum disorder",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Transverse myelitis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis in this patient with myelopathy is copper deficiency (Option A). Copper deficiency can result from malabsorption, nutritional deficiency, or zinc toxicity. The myelopathy seen in copper deficiency is similar to the more common subacute combined degeneration associated with vitamin B12 deficiency with dysfunction of the corticospinal and dorsal sensory tracts of the spinal cord. Patients usually present with a gait abnormality along with sensory changes. Bilateral paresthesias are usually present. Examination may show spastic paresis with reduced vibration and position sense and ataxia. Result of a Romberg test may be positive secondary to loss of proprioception. MRI may show increased signal in the lateral and posterior columns of the cord. Anemia and leukopenia are common. Myelopathy from vitamin B12 and copper deficiencies should specifically be considered in patients with previous bariatric surgical procedures. This patient has the typical clinical presentation of subacute combined degeneration and is at risk for nutritional deficiencies owing to her previous gastric surgery. Given the normal serum vitamin B12 level, copper deficiency is the most likely diagnosis.Multiple sclerosis (Option B) most commonly presents as symptomatic neurologic dysfunction associated with radiographic evidence of central nervous system demyelination with separation of lesions in both space and time. This patient's MRIs show a single lesion, and her other findings, including anemia and leukopenia, are more consistent with copper deficiency.Neuromyelitis optica spectrum disorder (Option C) is characterized clinically by optic neuritis, area postrema syndrome, or acute brainstem syndrome. None of these are present in this patient.Transverse myelitis (Option D) usually presents as subacute weakness, sensory changes, and bladder or bowel dysfunction. A prodrome of back pain or a thoracic banding sensation may also occur. MRI typically shows segmented contrast enhancement of the spinal cord. This patient has clinical and radiographic dorsal column involvement, making vitamin B12 or copper deficiency the most likely diagnosis.",
   "key_points": [
     "Subacute combined degeneration is usually caused by vitamin B12 deficiency, but a similar presentation can occur with copper deficiency resulting from malabsorption, nutritional deficiency, or zinc toxicity.",
     "Vitamin B12 and copper deficiencies should specifically be considered in patients with previous bariatric surgical procedures presenting with myelopathy."
   ],
+  "references": "Jolobe OM. Copper deficiency and myelopathy after bariatric surgery [Letter]. J R Coll Physicians Edinb. 2018;48:92. PMID: 29741536 doi:10.4997/JRCPE.2018.120",
+  "related_content": {
+    "syllabus": [
+      "nrsec24008_24008"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Copper deficiency"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Multiple sclerosis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Neuromyelitis optica spectrum disorder"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Transverse myelitis"
-    }
-  ],
-  "question_id": "nrmcq24024",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 46-year-old woman is evaluated in the emergency department for progressive difficulty walking that began 6 months ago. Although she reports no weakness, she has noticed her feet and toes dragging. She has also developed paresthesias in her legs and hands bilaterally over the past 3 months. She reports no visual changes or pain. Medical history is significant for type 2 diabetes mellitus, hypertension, and obesity, for which she underwent a Roux-en-Y gastric bypass 3 years ago. Medications are metformin, dapagliflozin, and ramipril.On physical examination, vital signs are within normal limits. Motor strength is preserved. There is decreased sensation in the legs bilaterally to the knees with loss of proprioception and decreased temperature sensation. Patellar reflexes are 3+ bilaterally; ankle jerks are diminished. Babinski sign is positive. She has a spastic gait.Serum chemistries are normal.MRI of the brain is normal. MRI of the cervical spinal cord shows an increased signal that involves the dorsal column on T2-weighted images.",
-  "references": "Jolobe OM. Copper deficiency and myelopathy after bariatric surgery [Letter]. J R Coll Physicians Edinb. 2018;48:92. PMID: 29741536 doi:10.4997/JRCPE.2018.120",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "nrsec24008_24008"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:16:56.565099-06:00"
 }

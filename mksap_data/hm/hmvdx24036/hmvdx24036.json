@@ -1,60 +1,60 @@
 {
+  "question_id": "hmvdx24036",
   "category": "hm",
-  "critique": "The most likely diagnosis is pseudothrombocytopenia (Option C). In pseudothrombocytopenia, platelets are clumped together and are not counted appropriately by the automated blood counters that perform complete blood counts, resulting in a spurious report of thrombocytopenia. The diagnosis is made by examining the peripheral blood smear for the platelet clumps (arrow).",
   "educational_objective": "Diagnose pseudothrombocytopenia",
-  "extracted_at": "2025-12-23T14:09:52.980670-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 66-year-old-man is evaluated for thrombocytopenia.Peripheral blood smear is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Evans syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Immune thrombocytopenic purpura",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Pseudothrombocytopenia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Thrombotic thrombocytopenic purpura",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is pseudothrombocytopenia (Option C). In pseudothrombocytopenia, platelets are clumped together and are not counted appropriately by the automated blood counters that perform complete blood counts, resulting in a spurious report of thrombocytopenia. The diagnosis is made by examining the peripheral blood smear for the platelet clumps (arrow).",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24006_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24656.1af1c561e7f0fedd0e271058953465bd.jpg",
       "figures/hmfig24655.8502791c4689cc58c0869e3be6cace06.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Evans syndrome"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Immune thrombocytopenic purpura"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Pseudothrombocytopenia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Thrombotic thrombocytopenic purpura"
-    }
-  ],
-  "question_id": "hmvdx24036",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 66-year-old-man is evaluated for thrombocytopenia.Peripheral blood smear is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24006_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.980670-06:00"
 }

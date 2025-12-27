@@ -1,59 +1,59 @@
 {
+  "question_id": "idvdx24017",
   "category": "id",
-  "critique": "Neisseria meningitidis (Option B) is the most likely causative agent for this patient's skin findings. Skin lesions begin as petechiae but can evolve to purpura. Purpura fulminans is a severe complication of meningococcal disease. Meningococcal-induced microvascular thrombosis and disseminated intravascular coagulation can lead to widespread hemorrhage into the skin, which can evolve into painful purple geographic lesions. The lesions may become necrotic, with the formation of bullae and vesicles. Meningococcemia is frequently accompanied by associated bacterial meningitis.",
   "educational_objective": "Diagnose purpura fulminans and its association with meningococcemia.",
-  "extracted_at": "2025-12-23T15:17:18.188219-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 52-year-old man is evaluated for fever, hypotension, and rash. The rash was preceded by cutaneous pain, followed by the development of petechial lesions that coalesced, forming ecchymoses and evolving into the changes shown.",
+  "question_stem": "Which of the following organisms is most likely responsible for this patient's skin findings?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bartonella henselae",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Neisseria meningitidis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Rickettsia typhi",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Salmonella typhi",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Neisseria meningitidis (Option B) is the most likely causative agent for this patient's skin findings. Skin lesions begin as petechiae but can evolve to purpura. Purpura fulminans is a severe complication of meningococcal disease. Meningococcal-induced microvascular thrombosis and disseminated intravascular coagulation can lead to widespread hemorrhage into the skin, which can evolve into painful purple geographic lesions. The lesions may become necrotic, with the formation of bullae and vesicles. Meningococcemia is frequently accompanied by associated bacterial meningitis.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24001_24004"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24620.acc36eed9bb0913c604b0bc9b9b0e04b.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bartonella henselae"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Neisseria meningitidis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Rickettsia typhi"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Salmonella typhi"
-    }
-  ],
-  "question_id": "idvdx24017",
-  "question_stem": "Which of the following organisms is most likely responsible for this patient's skin findings?",
-  "question_text": "A 52-year-old man is evaluated for fever, hypotension, and rash. The rash was preceded by cutaneous pain, followed by the development of petechial lesions that coalesced, forming ecchymoses and evolving into the changes shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24001_24004"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:17:18.188219-06:00"
 }

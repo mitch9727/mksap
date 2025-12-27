@@ -1,59 +1,59 @@
 {
+  "question_id": "npvdx24022",
   "category": "np",
-  "critique": "Funduscopic findings in this patient are consistent with a Hollenhorst plaque, a golden-yellow intra-arterial refractile body characteristic of cholesterol emboli (Option C). Cholesterol emboli can occur spontaneously or be precipitated by invasive interventions, such as cardiac catheterization, arteriography, or cardiac or vascular surgery. The clinical manifestations of cholesterol emboli vary and depend on the location of the embolic source, extent of the embolization, and whether there is complete or partial occlusion of the vascular bed. In addition to the eyes, atheroemboli can affect arteries in the kidneys, skin, muscle, gastrointestinal tract, liver, and central nervous system. This patient's finding may be the result of an ulcerative atherosclerotic plaque located in the internal carotid artery or aortic arch.",
   "educational_objective": "Diagnose retinal cholesterol emboli (Hollenhorst plaque).",
-  "extracted_at": "2025-12-23T14:11:04.563278-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 76-year-old patient is evaluated after a transient ischemic attack.Funduscopic findings are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Antiphospholipid antibody syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Central retinal artery occlusion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Cholesterol emboli",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Cryoglobulinemia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Funduscopic findings in this patient are consistent with a Hollenhorst plaque, a golden-yellow intra-arterial refractile body characteristic of cholesterol emboli (Option C). Cholesterol emboli can occur spontaneously or be precipitated by invasive interventions, such as cardiac catheterization, arteriography, or cardiac or vascular surgery. The clinical manifestations of cholesterol emboli vary and depend on the location of the embolic source, extent of the embolization, and whether there is complete or partial occlusion of the vascular bed. In addition to the eyes, atheroemboli can affect arteries in the kidneys, skin, muscle, gastrointestinal tract, liver, and central nervous system. This patient's finding may be the result of an ulcerative atherosclerotic plaque located in the internal carotid artery or aortic arch.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "npsec24006_24016"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/npfig24627.5f7c7618ef1a693532cf853049082b3a.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Antiphospholipid antibody syndrome"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Central retinal artery occlusion"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Cholesterol emboli"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Cryoglobulinemia"
-    }
-  ],
-  "question_id": "npvdx24022",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 76-year-old patient is evaluated after a transient ischemic attack.Funduscopic findings are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24006_24016"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:11:04.563278-06:00"
 }

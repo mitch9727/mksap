@@ -1,60 +1,60 @@
 {
+  "question_id": "givdx24005",
   "category": "gi",
-  "critique": "This patient's colonoscopy findings are characteristic of microscopic colitis (Option C). Microscopic colitis has two subtypes: lymphocytic colitis and collagenous colitis. Colonoscopy reveals normal-appearing mucosa, and the diagnosis must be established by mucosal biopsy. Both subtypes of microscopic colitis demonstrate lamina propria inflammation (arrow). A predominance of intraepithelial lymphocytes is seen in lymphocytic colitis. A thickened subepithelial collagen band is seen in collagenous colitis (arrowhead). This patient's biopsy results are consistent with collagenous colitis. Microscopic colitis usually presents with chronic, watery diarrhea, typically in middle-aged patients; women are more likely to be affected than men. Certain medications (NSAIDS, selective serotonin reuptake inhibitors, proton pump inhibitors) and smoking may be risk factors for the development of microscopic colitis.",
   "educational_objective": "Identify characteristic colonoscopy findings in microscopic colitis.",
-  "extracted_at": "2025-12-23T15:17:18.067726-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 58-year-old woman undergoes colonoscopy for evaluation of chronic, watery diarrhea. Results of testing for celiac disease and stool examination for pathogens are negative. She is otherwise well and maintains a normal weight.Representative histology findings of random biopsy specimens from the colon are shown.",
+  "question_stem": "Which of the following diagnoses is most compatible with this colonoscopy finding?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Clostridioides difficile colitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Irritable bowel syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Microscopic colitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Ulcerative colitis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient's colonoscopy findings are characteristic of microscopic colitis (Option C). Microscopic colitis has two subtypes: lymphocytic colitis and collagenous colitis. Colonoscopy reveals normal-appearing mucosa, and the diagnosis must be established by mucosal biopsy. Both subtypes of microscopic colitis demonstrate lamina propria inflammation (arrow). A predominance of intraepithelial lymphocytes is seen in lymphocytic colitis. A thickened subepithelial collagen band is seen in collagenous colitis (arrowhead). This patient's biopsy results are consistent with collagenous colitis. Microscopic colitis usually presents with chronic, watery diarrhea, typically in middle-aged patients; women are more likely to be affected than men. Certain medications (NSAIDS, selective serotonin reuptake inhibitors, proton pump inhibitors) and smoking may be risk factors for the development of microscopic colitis.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "gisec24008_24032"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/gifig24608.bb04da911d11dde56b924522f00f0ad6.jpg",
       "figures/gifig24607.783313cc2540d07e5a246e21635ca064.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Clostridioides difficile colitis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Irritable bowel syndrome"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Microscopic colitis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Ulcerative colitis"
-    }
-  ],
-  "question_id": "givdx24005",
-  "question_stem": "Which of the following diagnoses is most compatible with this colonoscopy finding?",
-  "question_text": "A 58-year-old woman undergoes colonoscopy for evaluation of chronic, watery diarrhea. Results of testing for celiac disease and stool examination for pathogens are negative. She is otherwise well and maintains a normal weight.Representative histology findings of random biopsy specimens from the colon are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "gisec24008_24032"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:17:18.067726-06:00"
 }

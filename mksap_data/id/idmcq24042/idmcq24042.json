@@ -1,63 +1,63 @@
 {
+  "question_id": "idmcq24042",
   "category": "id",
-  "critique": "This patient should be hospitalized and receive intravenous ceftriaxone plus oral doxycycline and metronidazole (Option A). The clinical presentation of abdominal pain and tenderness with mucopurulent cervical discharge indicates a clinical diagnosis of pelvic inflammatory disease (PID). Additionally, she has ultrasound findings of an associated tubo-ovarian abscess (TOA). Table: Treatment of Pelvic Inflammatory Disease shows antibiotic treatment of PID. Inpatient or outpatient management depends on disease severity and other criteria; indications for initial inpatient management of PID include the inability to exclude a surgical emergency (e.g., appendicitis), pregnancy, severe systemic toxicity (as indicated by vital signs and clinical presentation), TOA, inability to tolerate oral antibiotics, and failure of initial outpatient management. Because this patient has PID with an associated TOA, initial inpatient management with parenteral antibiotic therapy (e.g., intravenous ceftriaxone with metronidazole and doxycycline), until documentation of clinical improvement, is indicated. After clinical improvement, treatment can be completed with oral antibiotics as an outpatient.An all-oral antibiotic regimen of doxycycline and metronidazole (Option B) is incomplete treatment for PID. An initial dose of intramuscular ceftriaxone or cefoxitin must be given when oral doxycycline and metronidazole is prescribed.An intramuscular dose of ceftriaxone followed by oral therapy with doxycycline and metronidazole (Option C) is an appropriate regimen for PID with TOA. However, initial outpatient management is not appropriate in the setting of a TOA. This regimen would need to be initiated in the hospital with transition to outpatient management following clinical improvement.Indications for surgical evaluation (Option D) or management in a patient with TOA include lack of improvement with parenteral therapy or inability to exclude other diagnoses such as appendicitis. The appendix appeared normal when visualized on this patient's transvaginal ultrasound. She also does not have signs of systemic toxicity. Therefore, initial medical management is appropriate before pursuing surgery.",
   "educational_objective": "Treat pelvic inflammatory disease in a patient with tubo-ovarian abscess.",
-  "extracted_at": "2025-12-22T19:46:56.277688-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 22-year-old woman is evaluated in the emergency department for a 1-week history of vaginal discharge and lower abdominal pain. Medical history is noncontributory.On physical examination, temperature is 38.1 °C (100.6 °F), blood pressure is 118/64 mm Hg, pulse rate is 98/min, and respiration rate is 16/min. On abdominal examination, she has normal bowel sounds, tenderness to palpation in the lower abdomen without rebound, and no costovertebral angle tenderness. Genital examination reveals cervical erythema, mucopurulence at the cervical os, and cervical motion tenderness.Hemoglobin, platelet count, kidney function, and liver tests are normal. A urine pregnancy test is negative. Testing for sexually transmitted infections is pending.A transvaginal ultrasound reveals a tubo-ovarian abscess measuring approximately 4 cm in diameter, minimal free fluid in the pelvis, and a normal appendix.",
+  "question_stem": "Which of the following is the most appropriate initial management for this patient?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Inpatient intravenous ceftriaxone plus oral doxycycline and metronidazole",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Outpatient oral doxycycline and metronidazole",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Single dose of intramuscular ceftriaxone plus outpatient oral doxycycline and metronidazole",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Surgical evaluation",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient should be hospitalized and receive intravenous ceftriaxone plus oral doxycycline and metronidazole (Option A). The clinical presentation of abdominal pain and tenderness with mucopurulent cervical discharge indicates a clinical diagnosis of pelvic inflammatory disease (PID). Additionally, she has ultrasound findings of an associated tubo-ovarian abscess (TOA). Table: Treatment of Pelvic Inflammatory Disease shows antibiotic treatment of PID. Inpatient or outpatient management depends on disease severity and other criteria; indications for initial inpatient management of PID include the inability to exclude a surgical emergency (e.g., appendicitis), pregnancy, severe systemic toxicity (as indicated by vital signs and clinical presentation), TOA, inability to tolerate oral antibiotics, and failure of initial outpatient management. Because this patient has PID with an associated TOA, initial inpatient management with parenteral antibiotic therapy (e.g., intravenous ceftriaxone with metronidazole and doxycycline), until documentation of clinical improvement, is indicated. After clinical improvement, treatment can be completed with oral antibiotics as an outpatient.An all-oral antibiotic regimen of doxycycline and metronidazole (Option B) is incomplete treatment for PID. An initial dose of intramuscular ceftriaxone or cefoxitin must be given when oral doxycycline and metronidazole is prescribed.An intramuscular dose of ceftriaxone followed by oral therapy with doxycycline and metronidazole (Option C) is an appropriate regimen for PID with TOA. However, initial outpatient management is not appropriate in the setting of a TOA. This regimen would need to be initiated in the hospital with transition to outpatient management following clinical improvement.Indications for surgical evaluation (Option D) or management in a patient with TOA include lack of improvement with parenteral therapy or inability to exclude other diagnoses such as appendicitis. The appendix appeared normal when visualized on this patient's transvaginal ultrasound. She also does not have signs of systemic toxicity. Therefore, initial medical management is appropriate before pursuing surgery.",
   "key_points": [
     "Indications for initial inpatient management of pelvic inflammatory disease (PID) include the inability to exclude a surgical emergency (such as appendicitis), pregnancy, severe systemic toxicity, tubo-ovarian abscess, inability to tolerate oral antibiotics.",
     "Preferred parenteral treatment regimens for PID include intravenous ceftriaxone plus oral doxycycline and oral metronidazole, intravenous cefotetan plus oral doxycycline, or intravenous cefoxitin plus oral doxycycline."
   ],
+  "references": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually transmitted infections treatment guidelines, 2021. MMWR Recomm Rep. 2021;70:1-187. PMID: 34292926 doi:10.15585/mmwr.rr7004a1",
+  "related_content": {
+    "syllabus": [
+      "idsec24012_24007"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Inpatient intravenous ceftriaxone plus oral doxycycline and metronidazole"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Outpatient oral doxycycline and metronidazole"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Single dose of intramuscular ceftriaxone plus outpatient oral doxycycline and metronidazole"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Surgical evaluation"
-    }
-  ],
-  "question_id": "idmcq24042",
-  "question_stem": "Which of the following is the most appropriate initial management for this patient?",
-  "question_text": "A 22-year-old woman is evaluated in the emergency department for a 1-week history of vaginal discharge and lower abdominal pain. Medical history is noncontributory.On physical examination, temperature is 38.1 °C (100.6 °F), blood pressure is 118/64 mm Hg, pulse rate is 98/min, and respiration rate is 16/min. On abdominal examination, she has normal bowel sounds, tenderness to palpation in the lower abdomen without rebound, and no costovertebral angle tenderness. Genital examination reveals cervical erythema, mucopurulence at the cervical os, and cervical motion tenderness.Hemoglobin, platelet count, kidney function, and liver tests are normal. A urine pregnancy test is negative. Testing for sexually transmitted infections is pending.A transvaginal ultrasound reveals a tubo-ovarian abscess measuring approximately 4 cm in diameter, minimal free fluid in the pelvis, and a normal appendix.",
-  "references": "Workowski KA, Bachmann LH, Chan PA, et al. Sexually transmitted infections treatment guidelines, 2021. MMWR Recomm Rep. 2021;70:1-187. PMID: 34292926 doi:10.15585/mmwr.rr7004a1",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24012_24007"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:46:56.277688-06:00"
 }

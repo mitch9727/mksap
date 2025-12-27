@@ -1,59 +1,59 @@
 {
+  "question_id": "idvdx24012",
   "category": "id",
-  "critique": "This patient has rapidly progressing necrotizing fasciitis caused by Vibrio vulnificus infection (Option D). V. vulnificus is found in warm waters throughout the world and is responsible for many serious infections in the United States each year because of exposure to shellfish and seawater, especially in patients with cirrhosis or other liver diseases.",
   "educational_objective": "Diagnose <i>Vibrio vulnificus</i> infection.",
-  "extracted_at": "2025-12-23T15:17:18.110871-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 35-year-old man is evaluated for rapidly progressive cellulitis 4 days after sustaining minor lacerations on his foot while swimming in brackish water. He has alcoholic cirrhosis.Skin findings are shown.",
+  "question_stem": "Which of the following is the most likely infectious agent?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bartonella henselae",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Clostridium sordellii",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Mycobacterium marinum",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Vibrio vulnificus",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has rapidly progressing necrotizing fasciitis caused by Vibrio vulnificus infection (Option D). V. vulnificus is found in warm waters throughout the world and is responsible for many serious infections in the United States each year because of exposure to shellfish and seawater, especially in patients with cirrhosis or other liver diseases.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24002_24004"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24614.f47859ca49f02da4ee8ed0c2cef79cac.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bartonella henselae"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Clostridium sordellii"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Mycobacterium marinum"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Vibrio vulnificus"
-    }
-  ],
-  "question_id": "idvdx24012",
-  "question_stem": "Which of the following is the most likely infectious agent?",
-  "question_text": "A 35-year-old man is evaluated for rapidly progressive cellulitis 4 days after sustaining minor lacerations on his foot while swimming in brackish water. He has alcoholic cirrhosis.Skin findings are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24002_24004"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:17:18.110871-06:00"
 }

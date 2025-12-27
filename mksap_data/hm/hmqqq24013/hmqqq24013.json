@@ -1,62 +1,62 @@
 {
+  "question_id": "hmqqq24013",
   "category": "hm",
-  "critique": "The most appropriate next step is to stop enoxaparin and start anticoagulation with a nonheparin anticoagulant such as apixaban (Option B). Heparin-induced thrombocytopenia (HIT) is an immune-mediated thrombocytopenia occurring 5 to 10 days after heparin exposure. It is caused by antibodies against platelet factor 4 (PF4; complexed to heparin). This patient's treatment with heparin, timing of deep venous thrombosis (DVT), and thrombocytopenia suggest HIT. A heparin PF4 antibody assay should be obtained. The 4T score is used to estimate the pretest probability of HIT based on clinical factors, including degree of thrombocytopenia, timing of the decrease in platelet count, presence of any potential sequelae of HIT (such as thrombosis), and whether another potential cause for thrombocytopenia exists. With the high pretest probability and need for anticoagulation, it is important to switch to a nonheparin anticoagulant, such as argatroban; bivalirudin; fondaparinux; or a direct oral anticoagulant, such as apixaban, edoxaban, or rivaroxaban, while results of confirmatory testing (heparin PF4 antibody assay) are pending. This patient's current findings, including thrombocytopenia (>50% decrease in platelet count), new-onset DVT, and no other cause for thrombocytopenia, place the patient at high probability for HIT (high 4T score), and the next step in management is to stop enoxaparin and start apixaban.Platelet transfusions (Option A) are contraindicated in patients in whom thrombocytopenia is caused by a consumptive process unless life-threatening bleeding is occurring. Therefore, in this patient with suspected HIT, switching to a nonheparin anticoagulant would be more appropriate than platelet transfusion.Warfarin (Option C) should not be initiated in the absence of concurrently administered parenteral anticoagulation, because warfarin alone can potentiate a hypercoagulable state early in treatment. Patients are transitioned to warfarin after receiving adequate alternative anticoagulation and normalization of the platelet count.The risk for HIT is greatest with unfractionated heparin compared with low-molecular-weight heparin. Switching this patient from a low-molecular-weight heparin, such as enoxaparin, to unfractionated heparin (Option D) does not mitigate her risk for thrombocytopenia and life-threatening thrombosis.",
   "educational_objective": "Treat a patient with heparin-induced thrombocytopenia and thrombosis.",
-  "extracted_at": "2025-12-23T14:09:52.861609-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 52-year-old woman is evaluated during hospitalization for acute onset of thrombocytopenia and deep venous thrombosis (DVT). She was admitted to the hospital 7 days ago after undergoing a total hysterectomy and bilateral salpingo-oophorectomy for ovarian cancer. Following surgery, prophylactic-dose enoxaparin and mechanical prophylaxis were initiated. Today, a right lower extremity DVT was diagnosed.",
+  "question_stem": "Which of the following is the most appropriate next step in treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Perform platelet transfusion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Stop enoxaparin; start apixaban",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Stop enoxaparin; start warfarin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Stop enoxaparin; start unfractionated heparin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step is to stop enoxaparin and start anticoagulation with a nonheparin anticoagulant such as apixaban (Option B). Heparin-induced thrombocytopenia (HIT) is an immune-mediated thrombocytopenia occurring 5 to 10 days after heparin exposure. It is caused by antibodies against platelet factor 4 (PF4; complexed to heparin). This patient's treatment with heparin, timing of deep venous thrombosis (DVT), and thrombocytopenia suggest HIT. A heparin PF4 antibody assay should be obtained. The 4T score is used to estimate the pretest probability of HIT based on clinical factors, including degree of thrombocytopenia, timing of the decrease in platelet count, presence of any potential sequelae of HIT (such as thrombosis), and whether another potential cause for thrombocytopenia exists. With the high pretest probability and need for anticoagulation, it is important to switch to a nonheparin anticoagulant, such as argatroban; bivalirudin; fondaparinux; or a direct oral anticoagulant, such as apixaban, edoxaban, or rivaroxaban, while results of confirmatory testing (heparin PF4 antibody assay) are pending. This patient's current findings, including thrombocytopenia (>50% decrease in platelet count), new-onset DVT, and no other cause for thrombocytopenia, place the patient at high probability for HIT (high 4T score), and the next step in management is to stop enoxaparin and start apixaban.Platelet transfusions (Option A) are contraindicated in patients in whom thrombocytopenia is caused by a consumptive process unless life-threatening bleeding is occurring. Therefore, in this patient with suspected HIT, switching to a nonheparin anticoagulant would be more appropriate than platelet transfusion.Warfarin (Option C) should not be initiated in the absence of concurrently administered parenteral anticoagulation, because warfarin alone can potentiate a hypercoagulable state early in treatment. Patients are transitioned to warfarin after receiving adequate alternative anticoagulation and normalization of the platelet count.The risk for HIT is greatest with unfractionated heparin compared with low-molecular-weight heparin. Switching this patient from a low-molecular-weight heparin, such as enoxaparin, to unfractionated heparin (Option D) does not mitigate her risk for thrombocytopenia and life-threatening thrombosis.",
   "key_points": [
     "Heparin-induced thrombocytopenia (HIT) is an immune-mediated thrombocytopenia occurring 5 to 10 days after heparin exposure.",
     "The treatment for HIT is to switch to a nonheparin anticoagulant, such as argatroban, bivalirudin, fondaparinux, or a direct oral anticoagulant."
   ],
+  "references": "Hogan M, Berger JS. Heparin-induced thrombocytopenia (HIT): Review of incidence, diagnosis, and management. Vasc Med. 2020;25:160-173. PMID: 32195628 doi:10.1177/1358863X19898253",
+  "related_content": {
+    "syllabus": [
+      "hmsec24006_24008"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Perform platelet transfusion"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Stop enoxaparin; start apixaban"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Stop enoxaparin; start warfarin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Stop enoxaparin; start unfractionated heparin"
-    }
-  ],
-  "question_id": "hmqqq24013",
-  "question_stem": "Which of the following is the most appropriate next step in treatment?",
-  "question_text": "A 52-year-old woman is evaluated during hospitalization for acute onset of thrombocytopenia and deep venous thrombosis (DVT). She was admitted to the hospital 7 days ago after undergoing a total hysterectomy and bilateral salpingo-oophorectomy for ovarian cancer. Following surgery, prophylactic-dose enoxaparin and mechanical prophylaxis were initiated. Today, a right lower extremity DVT was diagnosed.",
-  "references": "Hogan M, Berger JS. Heparin-induced thrombocytopenia (HIT): Review of incidence, diagnosis, and management. Vasc Med. 2020;25:160-173. PMID: 32195628 doi:10.1177/1358863X19898253",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24006_24008"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.861609-06:00"
 }

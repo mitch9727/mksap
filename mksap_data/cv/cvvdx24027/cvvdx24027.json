@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24027",
   "category": "cv",
-  "critique": "This ECG demonstrates Mobitz type 1 second-degree (Wenckebach) atrioventricular (AV) block (Option C), which is characterized electrocardiographically by a PR interval that progressively prolongs until, eventually, the beat is dropped. In the tracing shown, the PR interval widens over the first six beats, and no ventricular complex follows the seventh atrial beat. The easiest way to identify such prolongation is to compare the PR interval for the beat prior to the block (longest PR) to the PR interval for the beat after the block (shortest PR).In contrast, Mobitz type 2 second-degree AV block is characterized by a constant PR interval preceding the dropped QRS complex. In high-degree AV block, there is more than one successive nonconducted P wave, resulting in several consecutive P waves without QRS complexes. Complete heart block is characterized by a lack of P wave conduction to the ventricles and by AV dissociation.",
   "educational_objective": "Identify Mobitz type 1 second-degree (Wenckebach) atrioventricular block on ECG.",
-  "extracted_at": "2025-12-23T14:08:40.387772-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 36-year-old man is evaluated in the emergency department for an irregular heart rhythm. He is otherwise asymptomatic.A representative sample from a rhythm strip is shown.",
+  "question_stem": "Which of the following abnormalities is seen on this patient's ECG?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Complete heart block",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "High-grade atrioventricular block",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Mobitz type 1 second-degree atrioventricular block",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Mobitz type 2 second-degree atrioventricular block",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This ECG demonstrates Mobitz type 1 second-degree (Wenckebach) atrioventricular (AV) block (Option C), which is characterized electrocardiographically by a PR interval that progressively prolongs until, eventually, the beat is dropped. In the tracing shown, the PR interval widens over the first six beats, and no ventricular complex follows the seventh atrial beat. The easiest way to identify such prolongation is to compare the PR interval for the beat prior to the block (longest PR) to the PR interval for the beat after the block (shortest PR).In contrast, Mobitz type 2 second-degree AV block is characterized by a constant PR interval preceding the dropped QRS complex. In high-degree AV block, there is more than one successive nonconducted P wave, resulting in several consecutive P waves without QRS complexes. Complete heart block is characterized by a lack of P wave conduction to the ventricles and by AV dissociation.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24006"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24632.407e20ab220e11f1d6e33e32f5795ad3.png"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Complete heart block"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "High-grade atrioventricular block"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Mobitz type 1 second-degree atrioventricular block"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Mobitz type 2 second-degree atrioventricular block"
-    }
-  ],
-  "question_id": "cvvdx24027",
-  "question_stem": "Which of the following abnormalities is seen on this patient's ECG?",
-  "question_text": "A 36-year-old man is evaluated in the emergency department for an irregular heart rhythm. He is otherwise asymptomatic.A representative sample from a rhythm strip is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24006_24006"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.387772-06:00"
 }

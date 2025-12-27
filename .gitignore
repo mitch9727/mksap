@@ -46,6 +46,14 @@ Desktop.ini
 *.temp
 .cache/
 
+# Project notes
+media_extractor/_.md
+
+# Extractor artifacts
+mksap_data/.checkpoints/
+mksap_data_failed/
+extraction_log.txt
+
 # Environment variables (credentials)
 .env
 .env.local

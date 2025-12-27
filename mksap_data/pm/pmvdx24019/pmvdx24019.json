@@ -1,60 +1,60 @@
 {
+  "question_id": "pmvdx24019",
   "category": "pm",
-  "critique": "The abnormality shown in these chest radiographs is most likely caused by right upper lobe endobronchial carcinoma (Option C). A homogeneous, sharply demarcated opacification is visible in the right upper chest on the frontal radiograph, accompanied by elevation of the right hemidiaphragm. Also seen is a modest superior and lateral displacement of the right hilum. The lateral chest film reveals opacification at the upper lung field. These findings are consistent with right upper lobe atelectasis. Lobar atelectasis is frequently caused by the obstruction of a bronchus by tumor, mucus plug, or aspirated material.",
   "educational_objective": "Diagnose right upper lobe endobronchial carcinoma.",
-  "extracted_at": "2025-12-23T14:15:53.283511-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 77-year-old man is evaluated for worsening cough, hemoptysis, and weight loss. He smokes one pack of cigarettes per day.Chest radiographs are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bronchiectasis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Pulmonary infarction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Right upper lobe endobronchial carcinoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sarcoidosis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The abnormality shown in these chest radiographs is most likely caused by right upper lobe endobronchial carcinoma (Option C). A homogeneous, sharply demarcated opacification is visible in the right upper chest on the frontal radiograph, accompanied by elevation of the right hemidiaphragm. Also seen is a modest superior and lateral displacement of the right hilum. The lateral chest film reveals opacification at the upper lung field. These findings are consistent with right upper lobe atelectasis. Lobar atelectasis is frequently caused by the obstruction of a bronchus by tumor, mucus plug, or aspirated material.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24007_24010"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24631.0717f7111e50f47b1f24531a327b263c.jpg",
       "figures/pmfig24632.18033b907f3cecd808c3d2427b5aaf3a.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bronchiectasis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Pulmonary infarction"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Right upper lobe endobronchial carcinoma"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Sarcoidosis"
-    }
-  ],
-  "question_id": "pmvdx24019",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 77-year-old man is evaluated for worsening cough, hemoptysis, and weight loss. He smokes one pack of cigarettes per day.Chest radiographs are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24007_24010"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.283511-06:00"
 }

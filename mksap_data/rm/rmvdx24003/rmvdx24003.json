@@ -1,59 +1,59 @@
 {
+  "question_id": "rmvdx24003",
   "category": "rm",
-  "critique": "The most likely diagnosis is dactylitis (Option A), which manifests as swelling of one or more entire digits and arises from inflammation at the entheses, which are where tendons or ligaments insert into bone. In this image, dactylitis is most prominent in the left great and second toes. Dactylitis (sometimes called sausage digits) is commonly seen with spondyloarthritis, especially psoriatic arthritis, as well as with sarcoidosis, gout, tuberculosis, syphilis, and sickle cell disease.",
   "educational_objective": "Diagnose dactylitis.",
-  "extracted_at": "2025-12-23T14:13:05.890142-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 43-year-old man with psoriatic spondylitis develops slight pain in the toes of the left foot.Findings of the feet are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis for the toe findings?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Dactylitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hypertrophic osteoarthropathy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Osteomyelitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sclerodactyly",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is dactylitis (Option A), which manifests as swelling of one or more entire digits and arises from inflammation at the entheses, which are where tendons or ligaments insert into bone. In this image, dactylitis is most prominent in the left great and second toes. Dactylitis (sometimes called sausage digits) is commonly seen with spondyloarthritis, especially psoriatic arthritis, as well as with sarcoidosis, gout, tuberculosis, syphilis, and sickle cell disease.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "rmsec24006_24001"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/rmfig24602.da08a7af7357679dbcaf1286f4f298ad.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Dactylitis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Hypertrophic osteoarthropathy"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Osteomyelitis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Sclerodactyly"
-    }
-  ],
-  "question_id": "rmvdx24003",
-  "question_stem": "Which of the following is the most likely diagnosis for the toe findings?",
-  "question_text": "A 43-year-old man with psoriatic spondylitis develops slight pain in the toes of the left foot.Findings of the feet are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24006_24001"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:05.890142-06:00"
 }

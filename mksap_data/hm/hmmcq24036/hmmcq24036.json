@@ -1,62 +1,62 @@
 {
+  "question_id": "hmmcq24036",
   "category": "hm",
-  "critique": "The most appropriate management for this patient with a high probability of heparin-induced thrombocytopenia (HIT) is to start bivalirudin (Option A). Type II HIT is caused by antibodies against platelet factor 4 complexed to heparin that activate platelets and cause venous and arterial thrombosis and thrombocytopenia. The risk of HIT is higher in patients undergoing surgery and with the use of unfractionated heparin compared with medical patients and the use of low-molecular-weight heparin (LMWH). Thrombocytopenia usually has an onset of 5 to 10 days after exposure to heparin and tends to be modest. In patients with high baseline platelet counts, a decrease of greater than 50% warrants concern. The 4T score () is used to assess the likelihood of HIT. Patients with a high or intermediate risk of HIT should start a nonheparin anticoagulant (usually argatroban or bivalirudin) while antibody testing is pursued. This patient has a 4T score of 6, signifying a high risk of HIT, and bivalirudin should be started.Starting enoxaparin (Option B) is inappropriate in this patient with possible HIT. Although he is at risk for postsurgical venous thromboembolic disease, and the risk of HIT is lower with LMWH than unfractionated heparin, this patient has a high likelihood for HIT and should not receive any heparin products.Obtaining a serotonin release assay (Option C) is not yet necessary. If a patient with suspected HIT has a positive result on a platelet factor 4 enzyme-linked immunosorbent assay, a serotonin release assay or heparin-induced platelet aggregation assay can be used to confirm the diagnosis (). However, a serotonin release assay is not a first-line test for HIT.Observation (Option D) is not appropriate in patients with a high risk of HIT. Patients with HIT have a high risk of thrombosis, and systemic anticoagulation with a nonheparin anticoagulant is necessary in patients with an intermediate or high risk of HIT awaiting antibody testing.",
   "educational_objective": "Manage a patient with a high probability of heparin-induced thrombocytopenia.",
-  "extracted_at": "2025-12-22T19:36:51.004754-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 66-year-old man is evaluated in the hospital for thrombocytopenia. He was hospitalized 7 days ago for an arterial insufficiency ulcer on the left foot. CT angiogram revealed severe stenosis of the left femoral and peroneal arteries, and intravenous unfractionated heparin was initiated. He underwent surgical revascularization 4 days ago. Intravenous unfractionated heparin was discontinued postoperatively in favor of subcutaneous unfractionated heparin. The patient reports incisional pain but has no other symptoms. He has a history of dyslipidemia and type 2 diabetes mellitus. In addition to subcutaneous unfractionated heparin, medications are aspirin, atorvastatin, and empagliflozin.On physical examination, vital signs are normal. Surgical wounds are clean and intact. A 1.8-cm sharply demarcated ulcer is located on the left dorsal foot. No edema is noted.Unfractionated heparin is discontinued.Results of a platelet factor 4 enzyme-linked immunosorbent assay are pending.",
+  "question_stem": "Which of the following is the most appropriate immediate step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bivalirudin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Enoxaparin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Serotonin release assay",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Observation",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management for this patient with a high probability of heparin-induced thrombocytopenia (HIT) is to start bivalirudin (Option A). Type II HIT is caused by antibodies against platelet factor 4 complexed to heparin that activate platelets and cause venous and arterial thrombosis and thrombocytopenia. The risk of HIT is higher in patients undergoing surgery and with the use of unfractionated heparin compared with medical patients and the use of low-molecular-weight heparin (LMWH). Thrombocytopenia usually has an onset of 5 to 10 days after exposure to heparin and tends to be modest. In patients with high baseline platelet counts, a decrease of greater than 50% warrants concern. The 4T score () is used to assess the likelihood of HIT. Patients with a high or intermediate risk of HIT should start a nonheparin anticoagulant (usually argatroban or bivalirudin) while antibody testing is pursued. This patient has a 4T score of 6, signifying a high risk of HIT, and bivalirudin should be started.Starting enoxaparin (Option B) is inappropriate in this patient with possible HIT. Although he is at risk for postsurgical venous thromboembolic disease, and the risk of HIT is lower with LMWH than unfractionated heparin, this patient has a high likelihood for HIT and should not receive any heparin products.Obtaining a serotonin release assay (Option C) is not yet necessary. If a patient with suspected HIT has a positive result on a platelet factor 4 enzyme-linked immunosorbent assay, a serotonin release assay or heparin-induced platelet aggregation assay can be used to confirm the diagnosis (). However, a serotonin release assay is not a first-line test for HIT.Observation (Option D) is not appropriate in patients with a high risk of HIT. Patients with HIT have a high risk of thrombosis, and systemic anticoagulation with a nonheparin anticoagulant is necessary in patients with an intermediate or high risk of HIT awaiting antibody testing.",
   "key_points": [
     "A nonheparin anticoagulant, such as argatroban or bivalirudin, should be started in patients with a high or intermediate risk of heparin-induced thrombocytopenia while antibody testing is pursued."
   ],
+  "references": "Hvas AM, Favaloro EJ, Hellfritzsch M. Heparin-induced thrombocytopenia: pathophysiology, diagnosis and treatment. Expert Rev Hematol. 2021;14:335-346. PMID: 33736552 doi:10.1080/17474086.2021.1905512",
+  "related_content": {
+    "syllabus": [
+      "hmsec24006_24008"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bivalirudin"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Enoxaparin"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Serotonin release assay"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Observation"
-    }
-  ],
-  "question_id": "hmmcq24036",
-  "question_stem": "Which of the following is the most appropriate immediate step in management?",
-  "question_text": "A 66-year-old man is evaluated in the hospital for thrombocytopenia. He was hospitalized 7 days ago for an arterial insufficiency ulcer on the left foot. CT angiogram revealed severe stenosis of the left femoral and peroneal arteries, and intravenous unfractionated heparin was initiated. He underwent surgical revascularization 4 days ago. Intravenous unfractionated heparin was discontinued postoperatively in favor of subcutaneous unfractionated heparin. The patient reports incisional pain but has no other symptoms. He has a history of dyslipidemia and type 2 diabetes mellitus. In addition to subcutaneous unfractionated heparin, medications are aspirin, atorvastatin, and empagliflozin.On physical examination, vital signs are normal. Surgical wounds are clean and intact. A 1.8-cm sharply demarcated ulcer is located on the left dorsal foot. No edema is noted.Unfractionated heparin is discontinued.Results of a platelet factor 4 enzyme-linked immunosorbent assay are pending.",
-  "references": "Hvas AM, Favaloro EJ, Hellfritzsch M. Heparin-induced thrombocytopenia: pathophysiology, diagnosis and treatment. Expert Rev Hematol. 2021;14:335-346. PMID: 33736552 doi:10.1080/17474086.2021.1905512",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24006_24008"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:36:51.004754-06:00"
 }

@@ -1,59 +1,59 @@
 {
+  "question_id": "idvdx24019",
   "category": "id",
-  "critique": "The most likely diagnosis is malaria (Option D). This patient's peripheral smear shows erythrocytes infected with Plasmodium vivax; the trophozoite of P. vivax is ameboid shaped, and the enlarged infected erythrocyte contains numerous Schuffner dots. Malaria is diagnosed by identifying malarial parasites on the peripheral blood smear. Morphologic features help determine the specific species. Multiple sets of peripheral blood smears may be needed from patients to isolate malaria with low degrees of parasitemia. Rapid tests that detect malaria antigens are increasingly used in endemic areas but may be falsely negative with low degrees of parasitemia. Polymerase chain reaction and serologic assays exist, but results are not often available quickly, which can delay diagnosis.",
   "educational_objective": "Diagnose malaria based on peripheral blood smear findings.",
-  "extracted_at": "2025-12-23T14:10:29.325659-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 51-year-old man is evaluated for fever, headache, and anemia. He recently returned from an extended tour of the Amazon River.Peripheral blood smear is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Anaplasmosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Babesiosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Ehrlichiosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Malaria",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is malaria (Option D). This patient's peripheral smear shows erythrocytes infected with Plasmodium vivax; the trophozoite of P. vivax is ameboid shaped, and the enlarged infected erythrocyte contains numerous Schuffner dots. Malaria is diagnosed by identifying malarial parasites on the peripheral blood smear. Morphologic features help determine the specific species. Multiple sets of peripheral blood smears may be needed from patients to isolate malaria with low degrees of parasitemia. Rapid tests that detect malaria antigens are increasingly used in endemic areas but may be falsely negative with low degrees of parasitemia. Polymerase chain reaction and serologic assays exist, but results are not often available quickly, which can delay diagnosis.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24015_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24622.212d1ebaf5ad6f8327221d5d146f8d3a.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Anaplasmosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Babesiosis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Ehrlichiosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Malaria"
-    }
-  ],
-  "question_id": "idvdx24019",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 51-year-old man is evaluated for fever, headache, and anemia. He recently returned from an extended tour of the Amazon River.Peripheral blood smear is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24015_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:10:29.325659-06:00"
 }

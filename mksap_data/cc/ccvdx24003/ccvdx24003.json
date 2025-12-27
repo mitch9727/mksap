@@ -1,59 +1,59 @@
 {
+  "question_id": "ccvdx24003",
   "category": "cc",
-  "critique": "The most likely diagnosis is multilobar pneumonia (Option C). This frontal chest radiograph reveals bilateral alveolar opacifications with air bronchograms, consistent with pneumonia. The right and left hemidiaphragms are each partially obscured, indicative of infiltrates in the right and left lower lobes, respectively. The right heart border is also partially obscured, and an infiltrate within the right middle lobe may be present.",
   "educational_objective": "Recognize the radiographic findings of multilobar pneumonia.",
-  "extracted_at": "2025-12-23T14:13:48.449772-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 59-year-old man is hospitalized with acute hypoxemic respiratory failure requiring intubation.A frontal chest radiograph is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Atelectasis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Mucous impactions",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Multilobar pneumonia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pulmonary emboli",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is multilobar pneumonia (Option C). This frontal chest radiograph reveals bilateral alveolar opacifications with air bronchograms, consistent with pneumonia. The right and left hemidiaphragms are each partially obscured, indicative of infiltrates in the right and left lower lobes, respectively. The right heart border is also partially obscured, and an infiltrate within the right middle lobe may be present.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "ccsec24002_24010"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/ccfig24604.cb0753cc46fcdaa554270c430125c5d0.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Atelectasis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Mucous impactions"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Multilobar pneumonia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Pulmonary emboli"
-    }
-  ],
-  "question_id": "ccvdx24003",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 59-year-old man is hospitalized with acute hypoxemic respiratory failure requiring intubation.A frontal chest radiograph is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ccsec24002_24010"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:48.449772-06:00"
 }

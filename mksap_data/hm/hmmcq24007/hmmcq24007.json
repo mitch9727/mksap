@@ -1,62 +1,62 @@
 {
+  "question_id": "hmmcq24007",
   "category": "hm",
-  "critique": "No change in management (Option D) is necessary for this patient with iron deficiency anemia responding to oral iron treatment. Iron deficiency is typically managed with oral iron salts. Oral ferrous sulfate is the least expensive preparation; although other formulations, such as ferrous fumarate and ferrous gluconate, are available, none are superior to ferrous sulfate in tolerability, efficacy, or cost. Oral iron is typically well tolerated, but adverse effects can include dyspepsia, constipation, and abdominal pain. Delayed-release and slow-release preparations are available, but they are costly and may result in decreased absorption because they can bypass the intestinal sites of iron absorption. Medications that reduce gastric acid can also reduce iron absorption and should be avoided if possible. Iron replacement usually results in reticulocytosis within days, and hemoglobin levels typically increase by approximately 1 g/dL (10 g/L) per week. After hemoglobin normalization, oral iron replacement should continue for another 3 to 6 months to replace iron stores. This patient is tolerating oral iron therapy and has had the expected response with an appropriate increase in serum hemoglobin level; no change in therapy is indicated.Intravenous ferrous gluconate (Option A) is not necessary for this patient. Parenteral iron is indicated for patients who are unable to tolerate oral iron, have conditions that may interfere with iron absorption (e.g., celiac disease, inflammatory bowel disease), or require large doses of iron, such as those undergoing hemodialysis. This patient is tolerating and responding well to oral iron and has no reason to switch to an intravenous preparation.Assessing a soluble transferrin receptor level (Option B) can be helpful in differentiating anemia of chronic inflammation from iron deficiency because it is elevated only in iron deficiency. The diagnosis of iron deficiency is not uncertain in this patient, however, and the result would not provide useful information.Increasing the ferrous sulfate dosage (Option C) is unnecessary and could be detrimental because of the potential effect on hepcidin. Hepcidin is the key peptide involved in iron regulation and serves to decrease iron absorption. Hepcidin levels decrease in response to hypoxia, anemia, and iron deficiency, but hepcidin production increases as iron stores increase. Thus, frequent dosing of oral iron can lead to increased hepcidin production and decreased iron absorption.",
   "educational_objective": "Treat iron deficiency.",
-  "extracted_at": "2025-12-22T19:36:35.190610-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 62-year-old patient undergoes follow-up evaluation for iron deficiency anemia. They have a history of recurrent gastrointestinal bleeding secondary to colonic arteriovenous malformations for which they underwent colectomy 6 weeks ago. Three weeks ago, their hemoglobin level was 7.2 g/dL (72 g/L), and serum ferritin level was 6 ng/mL (6 μg/L); daily ferrous sulfate was started. They have had no further bleeding. Medical history is otherwise unremarkable, and they take no other medications.The physical examination, including vital signs, is normal.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Administer intravenous ferric gluconate",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Check soluble transferrin receptor level",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Increase ferrous sulfate to twice daily",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No change in management",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "No change in management (Option D) is necessary for this patient with iron deficiency anemia responding to oral iron treatment. Iron deficiency is typically managed with oral iron salts. Oral ferrous sulfate is the least expensive preparation; although other formulations, such as ferrous fumarate and ferrous gluconate, are available, none are superior to ferrous sulfate in tolerability, efficacy, or cost. Oral iron is typically well tolerated, but adverse effects can include dyspepsia, constipation, and abdominal pain. Delayed-release and slow-release preparations are available, but they are costly and may result in decreased absorption because they can bypass the intestinal sites of iron absorption. Medications that reduce gastric acid can also reduce iron absorption and should be avoided if possible. Iron replacement usually results in reticulocytosis within days, and hemoglobin levels typically increase by approximately 1 g/dL (10 g/L) per week. After hemoglobin normalization, oral iron replacement should continue for another 3 to 6 months to replace iron stores. This patient is tolerating oral iron therapy and has had the expected response with an appropriate increase in serum hemoglobin level; no change in therapy is indicated.Intravenous ferrous gluconate (Option A) is not necessary for this patient. Parenteral iron is indicated for patients who are unable to tolerate oral iron, have conditions that may interfere with iron absorption (e.g., celiac disease, inflammatory bowel disease), or require large doses of iron, such as those undergoing hemodialysis. This patient is tolerating and responding well to oral iron and has no reason to switch to an intravenous preparation.Assessing a soluble transferrin receptor level (Option B) can be helpful in differentiating anemia of chronic inflammation from iron deficiency because it is elevated only in iron deficiency. The diagnosis of iron deficiency is not uncertain in this patient, however, and the result would not provide useful information.Increasing the ferrous sulfate dosage (Option C) is unnecessary and could be detrimental because of the potential effect on hepcidin. Hepcidin is the key peptide involved in iron regulation and serves to decrease iron absorption. Hepcidin levels decrease in response to hypoxia, anemia, and iron deficiency, but hepcidin production increases as iron stores increase. Thus, frequent dosing of oral iron can lead to increased hepcidin production and decreased iron absorption.",
   "key_points": [
     "Iron deficiency is typically managed with oral iron salts; oral ferrous sulfate is inexpensive and generally tolerable.",
     "Frequent dosing of oral iron can lead to increased hepcidin production and decreased iron absorption."
   ],
+  "references": "Nemeth E, Ganz T. Hepcidin and iron in health and disease. Annu Rev Med. 2023;74:261-277. PMID: 35905974 doi:10.1146/annurev-med-043021-032816",
+  "related_content": {
+    "syllabus": [
+      "hmsec24004_24004"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Administer intravenous ferric gluconate"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Check soluble transferrin receptor level"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Increase ferrous sulfate to twice daily"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "No change in management"
-    }
-  ],
-  "question_id": "hmmcq24007",
-  "question_stem": "Which of the following is the most appropriate next step in management?",
-  "question_text": "A 62-year-old patient undergoes follow-up evaluation for iron deficiency anemia. They have a history of recurrent gastrointestinal bleeding secondary to colonic arteriovenous malformations for which they underwent colectomy 6 weeks ago. Three weeks ago, their hemoglobin level was 7.2 g/dL (72 g/L), and serum ferritin level was 6 ng/mL (6 μg/L); daily ferrous sulfate was started. They have had no further bleeding. Medical history is otherwise unremarkable, and they take no other medications.The physical examination, including vital signs, is normal.",
-  "references": "Nemeth E, Ganz T. Hepcidin and iron in health and disease. Annu Rev Med. 2023;74:261-277. PMID: 35905974 doi:10.1146/annurev-med-043021-032816",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24004_24004"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:36:35.190610-06:00"
 }

@@ -1,67 +1,67 @@
 {
+  "question_id": "rmmcq24052",
   "category": "rm",
-  "critique": "This patient with ankylosing spondylitis does not require further diagnostic testing (Option E). Ankylosing spondylitis (radiographic axial spondyloarthritis) is a chronic inflammatory disease affecting the axial skeleton (including sacroiliac joints), entheses, and peripheral joints. Based on the Assessment of SpondyloArthritis International Society classification criteria for axial spondyloarthritis, patients with onset of chronic back pain before age 45 years can be classified as having axial spondyloarthritis based on either of the following:Sacroiliitis on imaging (radiography or MRI) and at least one additional clinical spondyloarthritis feature HLA-B27 antigen positivity and at least two clinical spondyloarthritis featuresClinical spondyloarthritis features include inflammatory back pain, uveitis, enthesitis, and others (see ). This patient's symptoms and signs suggest inflammatory back pain, with a positive FABER test result consistent with sacroiliac dysfunction. Additionally, he has radiographic evidence of bilateral sacroiliitis. This patient's clinical and radiographic findings meet criteria for axial spondyloarthritis, and he does not require additional diagnostic testing.Antinuclear antibodies (Option A) are usually negative in patients with spondyloarthritis. Unless an alternative diagnosis is being considered, measurement of antinuclear antibodies is not indicated.HLA-B27 antigen testing (Option B) is never diagnostic but can help determine risk for spondyloarthritis in uncertain situations. For example, for patients with inflammatory low back pain but normal or nondiagnostic plain radiographs of the spine and sacroiliac joints, a positive HLA-B27 antigen test result can be useful for deciding to pursue advanced imaging. However, in this patient with inflammatory low back pain and radiographic evidence of bilateral sacroiliitis, HLA-B27 antigen testing is unnecessary because the diagnosis is clear.Although MRI of the lumbar spine (Option C) may show evidence of degenerative arthritis, it is not necessary for diagnosing this patient because he already has radiographic evidence of sacroiliitis on plain imaging.MRI of the sacroiliac joints (Option D) is helpful in providing additional information, such as bone marrow edema and erosions, which suggest active disease. However, in this case the radiographs already confirmed the diagnosis, and MRI is not necessary.",
   "educational_objective": "Diagnose ankylosing spondylitis.",
-  "extracted_at": "2025-12-22T20:47:02.958027-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 36-year-old man is evaluated for a 1-year history of back pain. He reports his symptoms are worse in the morning; morning stiffness and pain last more than 1 hour and improve with stretching. Medications are acetaminophen and ibuprofen.On physical examination, vital signs are normal. Tenderness is present over the lumbosacral spine and sacroiliac joints bilaterally. Results of the FABER (Flexion, ABduction, and External Rotation) test are positive bilaterally. Internal and external rotation of the hip joints does not elicit pain.Radiographs of the lumbar spine reveal narrowing of the L5 to S1 disk space. Radiographs of the sacroiliac joints show partial fusion bilaterally.",
+  "question_stem": "Which of the following is the most appropriate next step in diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Antinuclear antibodies",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "HLA-B27 antigen testing",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "MRI of lumbar spine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "MRI of sacroiliac joints",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "No further diagnostic testing",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "E",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient with ankylosing spondylitis does not require further diagnostic testing (Option E). Ankylosing spondylitis (radiographic axial spondyloarthritis) is a chronic inflammatory disease affecting the axial skeleton (including sacroiliac joints), entheses, and peripheral joints. Based on the Assessment of SpondyloArthritis International Society classification criteria for axial spondyloarthritis, patients with onset of chronic back pain before age 45 years can be classified as having axial spondyloarthritis based on either of the following:Sacroiliitis on imaging (radiography or MRI) and at least one additional clinical spondyloarthritis feature HLA-B27 antigen positivity and at least two clinical spondyloarthritis featuresClinical spondyloarthritis features include inflammatory back pain, uveitis, enthesitis, and others (see ). This patient's symptoms and signs suggest inflammatory back pain, with a positive FABER test result consistent with sacroiliac dysfunction. Additionally, he has radiographic evidence of bilateral sacroiliitis. This patient's clinical and radiographic findings meet criteria for axial spondyloarthritis, and he does not require additional diagnostic testing.Antinuclear antibodies (Option A) are usually negative in patients with spondyloarthritis. Unless an alternative diagnosis is being considered, measurement of antinuclear antibodies is not indicated.HLA-B27 antigen testing (Option B) is never diagnostic but can help determine risk for spondyloarthritis in uncertain situations. For example, for patients with inflammatory low back pain but normal or nondiagnostic plain radiographs of the spine and sacroiliac joints, a positive HLA-B27 antigen test result can be useful for deciding to pursue advanced imaging. However, in this patient with inflammatory low back pain and radiographic evidence of bilateral sacroiliitis, HLA-B27 antigen testing is unnecessary because the diagnosis is clear.Although MRI of the lumbar spine (Option C) may show evidence of degenerative arthritis, it is not necessary for diagnosing this patient because he already has radiographic evidence of sacroiliitis on plain imaging.MRI of the sacroiliac joints (Option D) is helpful in providing additional information, such as bone marrow edema and erosions, which suggest active disease. However, in this case the radiographs already confirmed the diagnosis, and MRI is not necessary.",
   "key_points": [
     "Patients with the onset of chronic back pain before age 45 years can be classified as having axial spondyloarthritis based on either sacroiliitis on imaging (radiography or MRI) and at least one additional clinical spondyloarthritis feature or HLA-B27 antigen positivity and at least two clinical spondyloarthritis features."
   ],
+  "references": "Magrey MN, Danve AS, Ermann J, et al. Recognizing axial spondyloarthritis: a guide for primary care. Mayo Clin Proc. 2020;95:2499-2508. PMID: 32736944 doi:10.1016/j.mayocp.2020.02.007",
+  "related_content": {
+    "syllabus": [
+      "rmsec24006_24018"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Antinuclear antibodies"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "HLA-B27 antigen testing"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "MRI of lumbar spine"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "MRI of sacroiliac joints"
-    },
-    {
-      "letter": "E",
-      "peer_percentage": 0,
-      "text": "No further diagnostic testing"
-    }
-  ],
-  "question_id": "rmmcq24052",
-  "question_stem": "Which of the following is the most appropriate next step in diagnosis?",
-  "question_text": "A 36-year-old man is evaluated for a 1-year history of back pain. He reports his symptoms are worse in the morning; morning stiffness and pain last more than 1 hour and improve with stretching. Medications are acetaminophen and ibuprofen.On physical examination, vital signs are normal. Tenderness is present over the lumbosacral spine and sacroiliac joints bilaterally. Results of the FABER (Flexion, ABduction, and External Rotation) test are positive bilaterally. Internal and external rotation of the hip joints does not elicit pain.Radiographs of the lumbar spine reveal narrowing of the L5 to S1 disk space. Radiographs of the sacroiliac joints show partial fusion bilaterally.",
-  "references": "Magrey MN, Danve AS, Ermann J, et al. Recognizing axial spondyloarthritis: a guide for primary care. Mayo Clin Proc. 2020;95:2499-2508. PMID: 32736944 doi:10.1016/j.mayocp.2020.02.007",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24006_24018"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "E",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:47:02.958027-06:00"
 }

@@ -1,60 +1,60 @@
 {
+  "question_id": "givdx24012",
   "category": "gi",
-  "critique": "The most likely diagnosis is diverticulitis (Option C). This patient's CT findings show numerous diverticula (white arrows indicating the largest of these). These sac-like protrusions, usually measuring 5 to 10 mm in diameter, may result from anatomic weakness where the vasa recta penetrate the colon wall, motility factors (simultaneous or excessive haustral contractions), and dietary causes (decreased fiber intake). Diverticula are most commonly seen in the sigmoid and descending colon and increase in prevalence with age. Diverticula may be clinically symptomatic, particularly if extensive; may be associated with inflammation (diverticulitis) resulting from micro- or macroscopic perforation; or may cause bleeding because of abnormal mechanical exposure of the mucosal vasculature. CT findings of acute diverticulitis include bowel wall thickening and an increase in soft-tissue density within the pericolonic fat secondary to inflammation (red arrows).",
   "educational_objective": "Identify characteristic CT findings of sigmoid diverticulosis and diverticulitis.",
-  "extracted_at": "2025-12-23T14:14:31.097555-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 58-year-old man is evaluated for lower abdominal and pelvic discomfort, guarding, and fever.A contrast-enhanced abdominal CT scan is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Colonic ischemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Crohn disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Diverticulitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pneumatosis intestinalis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is diverticulitis (Option C). This patient's CT findings show numerous diverticula (white arrows indicating the largest of these). These sac-like protrusions, usually measuring 5 to 10 mm in diameter, may result from anatomic weakness where the vasa recta penetrate the colon wall, motility factors (simultaneous or excessive haustral contractions), and dietary causes (decreased fiber intake). Diverticula are most commonly seen in the sigmoid and descending colon and increase in prevalence with age. Diverticula may be clinically symptomatic, particularly if extensive; may be associated with inflammation (diverticulitis) resulting from micro- or macroscopic perforation; or may cause bleeding because of abnormal mechanical exposure of the mucosal vasculature. CT findings of acute diverticulitis include bowel wall thickening and an increase in soft-tissue density within the pericolonic fat secondary to inflammation (red arrows).",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "gisec24010_24004"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/gifig24616.bfac4508d801f29afa0d0c2f8db4c06d.jpg",
       "figures/gifig24615.b7e4d986aa9e42079b6fe439bbb1b64a.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Colonic ischemia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Crohn disease"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Diverticulitis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Pneumatosis intestinalis"
-    }
-  ],
-  "question_id": "givdx24012",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 58-year-old man is evaluated for lower abdominal and pelvic discomfort, guarding, and fever.A contrast-enhanced abdominal CT scan is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "gisec24010_24004"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:14:31.097555-06:00"
 }

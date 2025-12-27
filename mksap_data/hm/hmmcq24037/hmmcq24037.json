@@ -1,66 +1,66 @@
 {
+  "question_id": "hmmcq24037",
   "category": "hm",
-  "critique": "This patient's clinical presentation is consistent with thrombotic thrombocytopenic purpura (TTP) (Option D). Acquired TTP is caused by autoantibodies directed against ADAMTS13, the metalloprotease responsible for cleaving high-molecular-weight von Willebrand factor multimers. ADAMTS13 deficiency results in uncleaved multimers that adhere to platelets and generate platelet-rich thrombi in the small blood vessels. These thrombi may cause end-organ injury and shear erythrocytes, resulting in schistocytes (see figure) and microangiopathic hemolytic anemia (MAHA). MAHA and thrombocytopenia are the key manifestations of TTP. Other clinical characteristics of TTP include fluctuating neurologic findings (confusion, seizures), kidney injury, fever, and abdominal pain. Most patients do not present with the classic pentad of findings in TTP (thrombocytopenia, MAHA, confusion, fever, and kidney injury). In patients with schistocytes on the peripheral blood smear, the PLASMIC score () can estimate the likelihood of TTP. This patient has thrombocytopenia, MAHA, and many of the supporting features of TTP, including fever, neurologic abnormalities, and acute kidney injury.In cold agglutinin disease (Option A), pathogenic IgM antibodies are directed against erythrocyte antigens, causing hemolysis and agglutination. Although marked agglutination may cause vascular occlusion and organ ischemia in severe cases, this diagnosis would not account for the MAHA, thrombocytopenia, fever, neurologic findings, and acute kidney injury seen in this patient.Disseminated intravascular coagulation (DIC) (Option B) is characterized by thrombocytopenia, MAHA, hypofibrinogenemia, and prolonged activated partial prothrombin and prothrombin times (aPTT and PT). Although this patient has evidence of MAHA with schistocytes on peripheral blood smear, the normal PT and aPTT and normal plasma fibrinogen level exclude the presence of a consumptive coagulopathy such as DIC.Hemolytic uremic syndrome (HUS) (Option C) is characterized by thrombocytopenia, MAHA, and acute kidney injury. Classic HUS often occurs in the setting of an acute diarrheal illness caused by enterotoxin-producing Escherichia coli O157:H7. Because of the overlap in presentation with TTP, differentiation between TTP and HUS can be difficult, but patients with HUS generally have gastrointestinal manifestations, such as abdominal pain and diarrhea, and more severe kidney injury than is present in this patient. The presence of seizures also favors the diagnosis of TTP.",
   "educational_objective": "Diagnose thrombotic thrombocytopenic purpura.",
-  "extracted_at": "2025-12-22T19:36:51.550654-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 25-year-old woman is evaluated in the emergency department for a generalized tonic-clonic seizure and confusion. Her roommate reports that the patient described a 3-day history of fatigue before the seizure and confusion earlier today. Medical history is otherwise unremarkable, and she takes no medications.On physical examination, temperature is 37.9 °C (100.2 °F), blood pressure is 175/89 mm Hg, and pulse rate is 100/min. Remaining vital signs are normal. She is oriented to self but not time or place. Neurologic examination is otherwise normal. Petechiae are present on the lower extremities.Peripheral blood smear is shown.CT scan of the head without contrast and chest radiograph are normal.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cold agglutinin disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Disseminated intravascular coagulation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Hemolytic uremic syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Thrombotic thrombocytopenic purpura",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient's clinical presentation is consistent with thrombotic thrombocytopenic purpura (TTP) (Option D). Acquired TTP is caused by autoantibodies directed against ADAMTS13, the metalloprotease responsible for cleaving high-molecular-weight von Willebrand factor multimers. ADAMTS13 deficiency results in uncleaved multimers that adhere to platelets and generate platelet-rich thrombi in the small blood vessels. These thrombi may cause end-organ injury and shear erythrocytes, resulting in schistocytes (see figure) and microangiopathic hemolytic anemia (MAHA). MAHA and thrombocytopenia are the key manifestations of TTP. Other clinical characteristics of TTP include fluctuating neurologic findings (confusion, seizures), kidney injury, fever, and abdominal pain. Most patients do not present with the classic pentad of findings in TTP (thrombocytopenia, MAHA, confusion, fever, and kidney injury). In patients with schistocytes on the peripheral blood smear, the PLASMIC score () can estimate the likelihood of TTP. This patient has thrombocytopenia, MAHA, and many of the supporting features of TTP, including fever, neurologic abnormalities, and acute kidney injury.In cold agglutinin disease (Option A), pathogenic IgM antibodies are directed against erythrocyte antigens, causing hemolysis and agglutination. Although marked agglutination may cause vascular occlusion and organ ischemia in severe cases, this diagnosis would not account for the MAHA, thrombocytopenia, fever, neurologic findings, and acute kidney injury seen in this patient.Disseminated intravascular coagulation (DIC) (Option B) is characterized by thrombocytopenia, MAHA, hypofibrinogenemia, and prolonged activated partial prothrombin and prothrombin times (aPTT and PT). Although this patient has evidence of MAHA with schistocytes on peripheral blood smear, the normal PT and aPTT and normal plasma fibrinogen level exclude the presence of a consumptive coagulopathy such as DIC.Hemolytic uremic syndrome (HUS) (Option C) is characterized by thrombocytopenia, MAHA, and acute kidney injury. Classic HUS often occurs in the setting of an acute diarrheal illness caused by enterotoxin-producing Escherichia coli O157:H7. Because of the overlap in presentation with TTP, differentiation between TTP and HUS can be difficult, but patients with HUS generally have gastrointestinal manifestations, such as abdominal pain and diarrhea, and more severe kidney injury than is present in this patient. The presence of seizures also favors the diagnosis of TTP.",
   "key_points": [
     "Thrombotic thrombocytopenic purpura is characterized by microangiopathic hemolytic anemia and thrombocytopenia; supporting features are not always present but include fluctuating neurologic findings, kidney injury, and fever.",
     "The PLASMIC score can estimate the likelihood of thrombotic thrombocytopenic purpura in patients with schistocytes on peripheral blood smear."
   ],
+  "references": "Joly BS, Coppo P, Veyradier A. An update on pathogenesis and diagnosis of thrombotic thrombocytopenic purpura. Expert Rev Hematol. 2019;12:383-395. PMID: 31107120 doi:10.1080/17474086.2019.1611423",
+  "related_content": {
+    "syllabus": [
+      "hmsec24006_24009"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [
+      "tables/inline_table_1.html",
+      "tables/inline_table_2.html"
+    ],
     "images": [
       "figures/hmfig24208.131aa96b3311bf5cf9daac2e9d78171f.jpg",
       "figures/hmfig24207.2a6b2abd7872a20f40a38507ba381d00.jpg"
     ],
     "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
-    ],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cold agglutinin disease"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Disseminated intravascular coagulation"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Hemolytic uremic syndrome"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Thrombotic thrombocytopenic purpura"
-    }
-  ],
-  "question_id": "hmmcq24037",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 25-year-old woman is evaluated in the emergency department for a generalized tonic-clonic seizure and confusion. Her roommate reports that the patient described a 3-day history of fatigue before the seizure and confusion earlier today. Medical history is otherwise unremarkable, and she takes no medications.On physical examination, temperature is 37.9 °C (100.2 °F), blood pressure is 175/89 mm Hg, and pulse rate is 100/min. Remaining vital signs are normal. She is oriented to self but not time or place. Neurologic examination is otherwise normal. Petechiae are present on the lower extremities.Peripheral blood smear is shown.CT scan of the head without contrast and chest radiograph are normal.",
-  "references": "Joly BS, Coppo P, Veyradier A. An update on pathogenesis and diagnosis of thrombotic thrombocytopenic purpura. Expert Rev Hematol. 2019;12:383-395. PMID: 31107120 doi:10.1080/17474086.2019.1611423",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24006_24009"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:36:51.550654-06:00"
 }

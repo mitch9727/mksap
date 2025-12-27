@@ -1,62 +1,62 @@
 {
+  "question_id": "onmcq24013",
   "category": "on",
-  "critique": "This patient should undergo prostate biopsy (Option C). Active surveillance is a program of close monitoring for patients with low or very low-risk prostate cancer and who have a life expectancy of at least 10 years and are willing to defer treatment. Active surveillance consists of scheduled assessments to monitor for evidence of progressive prostate cancer. These include prostate-specific antigen (PSA) measurement, digital rectal examination (DRE), prostate MRI, and prostate biopsy. In men found to have evidence suggesting worsening prostate cancer, it is appropriate to consider initiating treatment versus continuing active surveillance. This decision depends on the extent and timing of progression and reassessment of life expectancy. In this case, the increasing PSA level in combination with a new nodule detected on DRE indicate likely progressive prostate cancer, and repeat prostate biopsy is indicated. Although scheduled surveillance prostate biopsy is not done more frequently than every 12 months, proceeding with biopsy or other interventions sooner than this is appropriate when clinically indicated, as in this patient.CT of the abdomen and pelvis (Option A) is not a component of active surveillance and would not be the most appropriate next test for this patient. It is performed in selected men to look for evidence of nodal or metastatic disease. However, staging imaging studies are typically reserved for patients with higher-risk prostate cancer.Free PSA measurement (Option B) is not indicated for this patient. Free PSA can be measured in men who have elevation of PSA level to determine the likelihood of underlying cancer and to help with decision making regarding biopsy. It is not a component of active surveillance because these patients already have biopsy-proven prostate cancer.Rechecking PSA level in 3 months (Option D) can be considered in some men undergoing active surveillance who have mild increases in PSA on serial testing. This patient, however, has a proportionally significant increase in PSA and newly abnormal DRE, and biopsy is indicated.",
   "educational_objective": "Diagnose progressive prostate cancer in a man undergoing active surveillance.",
-  "extracted_at": "2025-12-22T20:27:06.829108-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 63-year-old man undergoes follow-up evaluation for prostate cancer. At the time of diagnosis 9 months ago, biopsy revealed adenocarcinoma with a Gleason score of 6 in three out of 12 cores, all on the left side. Digital rectal examination was normal. After shared decision making, the patient opted for active surveillance. He is asymptomatic, has no other medical problems, and takes no medications.On physical examination, vital signs are normal. Digital rectal examination now reveals a palpable nodule in the left lobe of the prostate.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "CT of the abdomen and pelvis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Free prostate-specific antigen (PSA) measurement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Prostate biopsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Recheck of PSA level in 3 months",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient should undergo prostate biopsy (Option C). Active surveillance is a program of close monitoring for patients with low or very low-risk prostate cancer and who have a life expectancy of at least 10 years and are willing to defer treatment. Active surveillance consists of scheduled assessments to monitor for evidence of progressive prostate cancer. These include prostate-specific antigen (PSA) measurement, digital rectal examination (DRE), prostate MRI, and prostate biopsy. In men found to have evidence suggesting worsening prostate cancer, it is appropriate to consider initiating treatment versus continuing active surveillance. This decision depends on the extent and timing of progression and reassessment of life expectancy. In this case, the increasing PSA level in combination with a new nodule detected on DRE indicate likely progressive prostate cancer, and repeat prostate biopsy is indicated. Although scheduled surveillance prostate biopsy is not done more frequently than every 12 months, proceeding with biopsy or other interventions sooner than this is appropriate when clinically indicated, as in this patient.CT of the abdomen and pelvis (Option A) is not a component of active surveillance and would not be the most appropriate next test for this patient. It is performed in selected men to look for evidence of nodal or metastatic disease. However, staging imaging studies are typically reserved for patients with higher-risk prostate cancer.Free PSA measurement (Option B) is not indicated for this patient. Free PSA can be measured in men who have elevation of PSA level to determine the likelihood of underlying cancer and to help with decision making regarding biopsy. It is not a component of active surveillance because these patients already have biopsy-proven prostate cancer.Rechecking PSA level in 3 months (Option D) can be considered in some men undergoing active surveillance who have mild increases in PSA on serial testing. This patient, however, has a proportionally significant increase in PSA and newly abnormal DRE, and biopsy is indicated.",
   "key_points": [
     "Active surveillance is a program of close monitoring for patients who have low or very low-risk prostate cancer, have a life expectancy of at least 10 years, and are willing to defer prostate cancer treatment.",
     "Although scheduled prostate biopsy is not done more frequently than every 12 months for men who are monitored with active surveillance for prostate cancer, proceeding with biopsy or other interventions sooner than this is appropriate if surveillance suggests worsening disease."
   ],
+  "references": "Carlsson S, Benfante N, Alvim R, et al. Long-term outcomes of active surveillance for prostate cancer: the memorial sloan kettering cancer center experience. J Urol. 2020;203:1122-1127. PMID: 31868556 doi:10.1097/JU.0000000000000713",
+  "related_content": {
+    "syllabus": [
+      "onsec24006_24004"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "CT of the abdomen and pelvis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Free prostate-specific antigen (PSA) measurement"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Prostate biopsy"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Recheck of PSA level in 3 months"
-    }
-  ],
-  "question_id": "onmcq24013",
-  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
-  "question_text": "A 63-year-old man undergoes follow-up evaluation for prostate cancer. At the time of diagnosis 9 months ago, biopsy revealed adenocarcinoma with a Gleason score of 6 in three out of 12 cores, all on the left side. Digital rectal examination was normal. After shared decision making, the patient opted for active surveillance. He is asymptomatic, has no other medical problems, and takes no medications.On physical examination, vital signs are normal. Digital rectal examination now reveals a palpable nodule in the left lobe of the prostate.",
-  "references": "Carlsson S, Benfante N, Alvim R, et al. Long-term outcomes of active surveillance for prostate cancer: the memorial sloan kettering cancer center experience. J Urol. 2020;203:1122-1127. PMID: 31868556 doi:10.1097/JU.0000000000000713",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "onsec24006_24004"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:27:06.829108-06:00"
 }

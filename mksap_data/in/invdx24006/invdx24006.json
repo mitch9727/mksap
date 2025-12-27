@@ -1,59 +1,59 @@
 {
+  "question_id": "invdx24006",
   "category": "in",
-  "critique": "The most likely diagnosis is hereditary hemorrhagic telangiectasia (Option B). Examination of this patient's face and lips reveals the characteristic arteriovenous malformations of hereditary hemorrhagic telangiectasia (also known as Osler-Weber-Rendu disease). This autosomal dominant disorder is commonly associated with epistaxis, gastrointestinal bleeding, and iron deficiency anemia. Other manifestations include arteriovenous malformations in the pulmonary, hepatic, and cerebral circulations.",
   "educational_objective": "Diagnose hereditary hemorrhagic telangiectasia.",
-  "extracted_at": "2025-12-23T15:28:36.797730-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 56-year-old woman is evaluated for recurrent epistaxis and obscure gastrointestinal bleeding.Physical examination findings on her face are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cirrhosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hereditary hemorrhagic telangiectasia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Immune thrombocytopenic purpura",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Scleroderma",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is hereditary hemorrhagic telangiectasia (Option B). Examination of this patient's face and lips reveals the characteristic arteriovenous malformations of hereditary hemorrhagic telangiectasia (also known as Osler-Weber-Rendu disease). This autosomal dominant disorder is commonly associated with epistaxis, gastrointestinal bleeding, and iron deficiency anemia. Other manifestations include arteriovenous malformations in the pulmonary, hepatic, and cerebral circulations.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "insec24002_24009"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/infig24609.45e87660913de5546957fbb8f2f5f7f7.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cirrhosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Hereditary hemorrhagic telangiectasia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Immune thrombocytopenic purpura"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Scleroderma"
-    }
-  ],
-  "question_id": "invdx24006",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 56-year-old woman is evaluated for recurrent epistaxis and obscure gastrointestinal bleeding.Physical examination findings on her face are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "insec24002_24009"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:28:36.797730-06:00"
 }

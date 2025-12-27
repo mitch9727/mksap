@@ -1,63 +1,63 @@
 {
+  "question_id": "nrmcq24007",
   "category": "nr",
-  "critique": "Cefepime should be discontinued and replaced with another antibiotic (Option B). Cefepime, like other fourth-generation cephalosporins, is increasingly recognized as a cause of encephalopathy and decreased seizure threshold, especially in patients with kidney dysfunction. In a patient with a seizure, attention should be paid to the patient's medications, and drugs that lower seizure threshold should be avoided (). If a seizure was possibly provoked by a medication, discontinuation of the drug is usually required to prevent further seizures. Lorazepam and other antiseizure medications are not definitive treatment but are rather a temporizing measure. In addition to discontinuing the offending medication, evaluating patients for seizure recurrence risk (i.e., underlying epilepsy) with electroencephalography and brain MRI should be considered. If that testing is negative, then the episode would likely be considered a provoked seizure and not an indicator of epilepsy. This patient with chronic kidney disease developed encephalopathy and seizure shortly after starting cefepime. Cefepime should be discontinued.Buprenorphine is not associated with causing significant delirium or encephalopathy or with lowering seizure threshold and is unlikely to have provoked this patient's seizure. Discontinuing buprenorphine (Option A) in this patient may lead to opioid withdrawal or increase the likelihood of recurrent opioid use.Atypical antipsychotics (e.g., clozapine, quetiapine, risperidone, ziprasidone) are implicated in lowering seizure threshold, but this is not the case for typical antipsychotics, like haloperidol (Option C).Starting methylprednisolone (Option D) is not necessary in this patient with a seizure likely secondary to a medication. High-dose glucocorticoids may be appropriate if lupus cerebritis were a likely cause of the seizure and mental status changes, but the temporal association with the administration of a medication with known neurotoxicity makes a medication effect far more likely.",
   "educational_objective": "Treat a seizure provoked by medication.",
-  "extracted_at": "2025-12-22T20:16:48.936511-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 37-year-old man is evaluated in the hospital for a first-time generalized tonic-clonic seizure. He was hospitalized 3 days ago for severe pneumonia with sepsis in the setting of chronic immunosuppression for systemic lupus erythematosus. Cefepime, azithromycin, intravenous fluids, and stress-dose hydrocortisone were initiated at hospitalization. Over the initial 72 hours, his fever resolved, and his blood pressure stabilized. Earlier this evening, however, he became confused and agitated and was given haloperidol. His mental status improved, but the seizure occurred 6 hours later. Medical history is significant for systemic lupus erythematosus, end-stage kidney disease treated with hemodialysis, and opioid use disorder. His usual outpatient medications are prednisone, sevelamer, calcium carbonate, and buprenorphine, all of which are being continued in the hospital.On physical examination, vital signs are within normal limits. He is somnolent and opens his eyes to voices but does not follow commands. He moves his limbs spontaneously against gravity and withdraws from noxious stimuli in all limbs. Deep tendon reflexes are reduced throughout.A complete metabolic panel is otherwise normal.Head CT scan is normal.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Discontinue buprenorphine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Discontinue cefepime",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Discontinue haloperidol",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Start methylprednisolone",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Cefepime should be discontinued and replaced with another antibiotic (Option B). Cefepime, like other fourth-generation cephalosporins, is increasingly recognized as a cause of encephalopathy and decreased seizure threshold, especially in patients with kidney dysfunction. In a patient with a seizure, attention should be paid to the patient's medications, and drugs that lower seizure threshold should be avoided (). If a seizure was possibly provoked by a medication, discontinuation of the drug is usually required to prevent further seizures. Lorazepam and other antiseizure medications are not definitive treatment but are rather a temporizing measure. In addition to discontinuing the offending medication, evaluating patients for seizure recurrence risk (i.e., underlying epilepsy) with electroencephalography and brain MRI should be considered. If that testing is negative, then the episode would likely be considered a provoked seizure and not an indicator of epilepsy. This patient with chronic kidney disease developed encephalopathy and seizure shortly after starting cefepime. Cefepime should be discontinued.Buprenorphine is not associated with causing significant delirium or encephalopathy or with lowering seizure threshold and is unlikely to have provoked this patient's seizure. Discontinuing buprenorphine (Option A) in this patient may lead to opioid withdrawal or increase the likelihood of recurrent opioid use.Atypical antipsychotics (e.g., clozapine, quetiapine, risperidone, ziprasidone) are implicated in lowering seizure threshold, but this is not the case for typical antipsychotics, like haloperidol (Option C).Starting methylprednisolone (Option D) is not necessary in this patient with a seizure likely secondary to a medication. High-dose glucocorticoids may be appropriate if lupus cerebritis were a likely cause of the seizure and mental status changes, but the temporal association with the administration of a medication with known neurotoxicity makes a medication effect far more likely.",
   "key_points": [
     "Cefepime and other fourth-generation cephalosporins are increasingly recognized as a cause of encephalopathy and decreased seizure threshold, especially in patients with kidney dysfunction.",
     "In a seizure provoked by a medication, the offending agent usually must be discontinued to prevent further seizures; electroencephalography and brain MRI should also be completed to assess the patient's risk for recurrent seizures."
   ],
+  "references": "Khorasani-Zadeh A, Greca I, Gada K. Cefepime-induced seizures: the overlooked outpatient adverse reaction. Cureus. 2020;12:e9268. PMID: 32699729 doi:10.7759/cureus.9268",
+  "related_content": {
+    "syllabus": [
+      "nrsec24003_24009"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Discontinue buprenorphine"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Discontinue cefepime"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Discontinue haloperidol"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Start methylprednisolone"
-    }
-  ],
-  "question_id": "nrmcq24007",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 37-year-old man is evaluated in the hospital for a first-time generalized tonic-clonic seizure. He was hospitalized 3 days ago for severe pneumonia with sepsis in the setting of chronic immunosuppression for systemic lupus erythematosus. Cefepime, azithromycin, intravenous fluids, and stress-dose hydrocortisone were initiated at hospitalization. Over the initial 72 hours, his fever resolved, and his blood pressure stabilized. Earlier this evening, however, he became confused and agitated and was given haloperidol. His mental status improved, but the seizure occurred 6 hours later. Medical history is significant for systemic lupus erythematosus, end-stage kidney disease treated with hemodialysis, and opioid use disorder. His usual outpatient medications are prednisone, sevelamer, calcium carbonate, and buprenorphine, all of which are being continued in the hospital.On physical examination, vital signs are within normal limits. He is somnolent and opens his eyes to voices but does not follow commands. He moves his limbs spontaneously against gravity and withdraws from noxious stimuli in all limbs. Deep tendon reflexes are reduced throughout.A complete metabolic panel is otherwise normal.Head CT scan is normal.",
-  "references": "Khorasani-Zadeh A, Greca I, Gada K. Cefepime-induced seizures: the overlooked outpatient adverse reaction. Cureus. 2020;12:e9268. PMID: 32699729 doi:10.7759/cureus.9268",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "nrsec24003_24009"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:16:48.936511-06:00"
 }

@@ -1,62 +1,62 @@
 {
+  "question_id": "hmmcq24022",
   "category": "hm",
-  "critique": "The most appropriate perioperative management for this patient is simple erythrocyte transfusion (Option C) to achieve a hemoglobin level of 10 g/dL (100 g/L). Patients with sickle cell disease (SCD), especially those with hemoglobin SS or hemoglobin Sβ disease, are at an increased risk for perioperative mortality and morbidity, including acute chest syndrome (ACS) and pain events. To mitigate the risk of perioperative complications, patients with SCD undergoing surgical procedures requiring general anesthesia lasting longer than 60 minutes should receive erythrocyte transfusions targeting a hemoglobin level of 10 g/dL (100 g/L). The evidence supporting preoperative transfusion is strongest in those with hemoglobin SS or hemoglobin Sβ disease. In one randomized trial, patients who received transfusion perioperatively had a lower incidence of developing ACS and experienced fewer serious adverse events compared with those who did not undergo transfusion. This patient with SCD is scheduled for surgery and has a hemoglobin level less than 10 g/dL (100 g/L). He should undergo simple erythrocyte transfusion.Exchange transfusion (Option A) is used in the treatment of severe complications of SCD, including complicated ACS, stroke, and retinal artery occlusion. However, several trials have not demonstrated benefit with exchange transfusion targeting a hemoglobin S less than 30% over simple erythrocyte transfusion in the preoperative setting.Chronic therapy with hydroxyurea decreases pain events in patients with SCD and reduces the risk of recurrent ACS or stroke. It may also improve survival in select patients. Patients with SCD are at increased risk for acute pain events and other perioperative complications, and there is no reason to discontinue hydroxyurea (Option B) in the perioperative period.No further management (Option D) is not an appropriate choice. This patient with SCD and anemia is at heightened risk of perioperative complications and should receive simple erythrocyte transfusions to achieve a hemoglobin level of 10 g/dL (100 g/L) to decrease the risk of complications.",
   "educational_objective": "Manage sickle cell anemia perioperatively.",
-  "extracted_at": "2025-12-22T19:36:43.355276-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 26-year-old man is evaluated before elective cholecystectomy for biliary colic. Medical history is significant for hemoglobin SS sickle cell disease with several vaso-occlusive pain events annually, often requiring hospitalization. He has no history of acute chest syndrome or stroke. Medications are folic acid and hydroxyurea.On physical examination, vital signs are normal. Mild jaundice and conjunctival pallor are noted. Abdominal examination is normal.",
+  "question_stem": "Which of the following is the most appropriate perioperative management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Exchange transfusion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hydroxyurea discontinuation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Simple erythrocyte transfusion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No additional management",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate perioperative management for this patient is simple erythrocyte transfusion (Option C) to achieve a hemoglobin level of 10 g/dL (100 g/L). Patients with sickle cell disease (SCD), especially those with hemoglobin SS or hemoglobin Sβ disease, are at an increased risk for perioperative mortality and morbidity, including acute chest syndrome (ACS) and pain events. To mitigate the risk of perioperative complications, patients with SCD undergoing surgical procedures requiring general anesthesia lasting longer than 60 minutes should receive erythrocyte transfusions targeting a hemoglobin level of 10 g/dL (100 g/L). The evidence supporting preoperative transfusion is strongest in those with hemoglobin SS or hemoglobin Sβ disease. In one randomized trial, patients who received transfusion perioperatively had a lower incidence of developing ACS and experienced fewer serious adverse events compared with those who did not undergo transfusion. This patient with SCD is scheduled for surgery and has a hemoglobin level less than 10 g/dL (100 g/L). He should undergo simple erythrocyte transfusion.Exchange transfusion (Option A) is used in the treatment of severe complications of SCD, including complicated ACS, stroke, and retinal artery occlusion. However, several trials have not demonstrated benefit with exchange transfusion targeting a hemoglobin S less than 30% over simple erythrocyte transfusion in the preoperative setting.Chronic therapy with hydroxyurea decreases pain events in patients with SCD and reduces the risk of recurrent ACS or stroke. It may also improve survival in select patients. Patients with SCD are at increased risk for acute pain events and other perioperative complications, and there is no reason to discontinue hydroxyurea (Option B) in the perioperative period.No further management (Option D) is not an appropriate choice. This patient with SCD and anemia is at heightened risk of perioperative complications and should receive simple erythrocyte transfusions to achieve a hemoglobin level of 10 g/dL (100 g/L) to decrease the risk of complications.",
   "key_points": [
     "The risk of perioperative complications in patients with hemoglobin SS and hemoglobin Sβ sickle cell disease undergoing surgery requiring general anesthesia is decreased by preoperative simple erythrocyte transfusion to achieve a hemoglobin level of 10 g/dL (100 g/L).",
     "In patients with sickle cell disease, exchange transfusion to achieve hemoglobin S concentration of less than 30% is no more effective in reducing perioperative complications than simple erythrocyte transfusion."
   ],
+  "references": "Brandow AM, Liem RI. Advances in the diagnosis and treatment of sickle cell disease. J Hematol Oncol. 2022;15:20. PMID: 35241123 doi:10.1186/s13045-022-01237-z",
+  "related_content": {
+    "syllabus": [
+      "hmsec24004_24019"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Exchange transfusion"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Hydroxyurea discontinuation"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Simple erythrocyte transfusion"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "No additional management"
-    }
-  ],
-  "question_id": "hmmcq24022",
-  "question_stem": "Which of the following is the most appropriate perioperative management?",
-  "question_text": "A 26-year-old man is evaluated before elective cholecystectomy for biliary colic. Medical history is significant for hemoglobin SS sickle cell disease with several vaso-occlusive pain events annually, often requiring hospitalization. He has no history of acute chest syndrome or stroke. Medications are folic acid and hydroxyurea.On physical examination, vital signs are normal. Mild jaundice and conjunctival pallor are noted. Abdominal examination is normal.",
-  "references": "Brandow AM, Liem RI. Advances in the diagnosis and treatment of sickle cell disease. J Hematol Oncol. 2022;15:20. PMID: 35241123 doi:10.1186/s13045-022-01237-z",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24004_24019"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:36:43.355276-06:00"
 }

@@ -1,63 +1,63 @@
 {
+  "question_id": "npmcq24097",
   "category": "np",
-  "critique": "The most likely diagnosis is apparent mineralocorticoid excess (AME) syndrome (Option A). This patient has new-onset hypokalemia, metabolic alkalosis, and hypertension. Although these findings are consistent with primary aldosteronism, his serum aldosterone level is low normal, indicating a diagnosis of AME syndrome. AME syndrome occurs either because of a congenital genetic mutation in the 11 β-hydroxysteroid dehydrogenase enzyme or ingestion of an agent that can inhibit this enzyme, such as glycyrrhetinic acid (found in licorice or triazole antifungals) (). Cortisol binds to the mineralocorticoid receptor with a similar affinity to aldosterone; 11 β-hydroxysteroid dehydrogenase converts cortisol to cortisone, which does not bind the mineralocorticoid receptor. Because cortisol levels are 100-fold greater than aldosterone, inhibition of this enzyme will produce a syndrome similar to primary aldosteronism. Excessive use of licorice-flavored chewing tobacco can cause AME. Diagnosis is confirmed by measuring the 24-hour urine cortisol-cortisone ratio. Normally, this ratio is <0.5 but in AME it is >1.0.Cushing syndrome (Option B) is an unlikely diagnosis. Although this patient has hypertension, he does not display any other findings associated with excess cortisol such as striae or ecchymoses.Liddle syndrome (Option C) is an autosomal dominant disease that causes increased sodium reabsorption in the distal nephron. Manifestations include hypertension, hypokalemic metabolic alkalosis, and decreased aldosterone levels similar to AME. However, Liddle syndrome most frequently presents at a young age and would not be associated with sudden onset. Furthermore, the patient does not have a suggestive family history.Primary aldosteronism (Option D) is unlikely because this patient's serum aldosterone level is low normal. Patients with primary aldosteronism typically have an elevated plasma aldosterone concentration.",
   "educational_objective": "Identify apparent mineralocorticoid excess as the cause of hypertension.",
-  "extracted_at": "2025-12-22T20:07:15.491118-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 52-year-old man is evaluated for a 1-week history of muscle weakness and cramps. He has newly diagnosed hypertension. Medical history is otherwise unremarkable. There is no family history of hypertension or endocrine tumors. He recently began using mint- and licorice-flavored chewing tobacco. He takes no medications.On physical examination, blood pressure is 154/96 mm Hg. The remainder of the vital signs are normal. There are no striae or ecchymoses. Distal lower extremity muscle strength is 4/5, and motor strength is 5/5 elsewhere.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Apparent mineralocorticoid excess syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Cushing syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Liddle syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Primary aldosteronism",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is apparent mineralocorticoid excess (AME) syndrome (Option A). This patient has new-onset hypokalemia, metabolic alkalosis, and hypertension. Although these findings are consistent with primary aldosteronism, his serum aldosterone level is low normal, indicating a diagnosis of AME syndrome. AME syndrome occurs either because of a congenital genetic mutation in the 11 β-hydroxysteroid dehydrogenase enzyme or ingestion of an agent that can inhibit this enzyme, such as glycyrrhetinic acid (found in licorice or triazole antifungals) (). Cortisol binds to the mineralocorticoid receptor with a similar affinity to aldosterone; 11 β-hydroxysteroid dehydrogenase converts cortisol to cortisone, which does not bind the mineralocorticoid receptor. Because cortisol levels are 100-fold greater than aldosterone, inhibition of this enzyme will produce a syndrome similar to primary aldosteronism. Excessive use of licorice-flavored chewing tobacco can cause AME. Diagnosis is confirmed by measuring the 24-hour urine cortisol-cortisone ratio. Normally, this ratio is <0.5 but in AME it is >1.0.Cushing syndrome (Option B) is an unlikely diagnosis. Although this patient has hypertension, he does not display any other findings associated with excess cortisol such as striae or ecchymoses.Liddle syndrome (Option C) is an autosomal dominant disease that causes increased sodium reabsorption in the distal nephron. Manifestations include hypertension, hypokalemic metabolic alkalosis, and decreased aldosterone levels similar to AME. However, Liddle syndrome most frequently presents at a young age and would not be associated with sudden onset. Furthermore, the patient does not have a suggestive family history.Primary aldosteronism (Option D) is unlikely because this patient's serum aldosterone level is low normal. Patients with primary aldosteronism typically have an elevated plasma aldosterone concentration.",
   "key_points": [
     "Ingestion of glycyrrhetinic acid (found in licorice or triazole antifungals) can lead to apparent mineralocorticoid excess, which is characterized by new-onset hypokalemia, metabolic alkalosis, and hypertension in the setting of low serum aldosterone levels.",
     "The diagnosis of apparent mineralocorticoid excess can be confirmed by measuring the 24-hour urine cortisol-cortisone ratio."
   ],
+  "references": "Carvajal CA, Tapia-Castillo A, Vecchiola A, et al. Classic and nonclassic apparent mineralocorticoid excess syndrome. J Clin Endocrinol Metab. 2020;105. PMID: 31909799 doi:10.1210/clinem/dgz315",
+  "related_content": {
+    "syllabus": [
+      "npsec24005_24048"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Apparent mineralocorticoid excess syndrome"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Cushing syndrome"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Liddle syndrome"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Primary aldosteronism"
-    }
-  ],
-  "question_id": "npmcq24097",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 52-year-old man is evaluated for a 1-week history of muscle weakness and cramps. He has newly diagnosed hypertension. Medical history is otherwise unremarkable. There is no family history of hypertension or endocrine tumors. He recently began using mint- and licorice-flavored chewing tobacco. He takes no medications.On physical examination, blood pressure is 154/96 mm Hg. The remainder of the vital signs are normal. There are no striae or ecchymoses. Distal lower extremity muscle strength is 4/5, and motor strength is 5/5 elsewhere.",
-  "references": "Carvajal CA, Tapia-Castillo A, Vecchiola A, et al. Classic and nonclassic apparent mineralocorticoid excess syndrome. J Clin Endocrinol Metab. 2020;105. PMID: 31909799 doi:10.1210/clinem/dgz315",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24005_24048"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:07:15.491118-06:00"
 }

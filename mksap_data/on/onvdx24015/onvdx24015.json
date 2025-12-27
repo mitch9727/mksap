@@ -1,59 +1,59 @@
 {
+  "question_id": "onvdx24015",
   "category": "on",
-  "critique": "The most likely diagnosis is gastric lymphoma (Option C). The endoscopic view of the stomach shows a gastric lymphoma presenting as a polypoid lesion without ulceration. Mucosa-associated lymphoid tissue (MALT) lines the digestive tract and provides immunologic surveillance and response to foreign antigens. Malignant transformation of these cells results in MALT lymphomas, which are of B-cell origin (CD20-positive). MALT lymphomas account for 50% of all gastric lymphomas. These lymphomas have a specific clinical presentation because they are isolated to a single organ and follow an indolent course. Repetitive immune stimulation, caused by an underlying chronic infection with Helicobacter pylori or an autoimmune process, likely plays role in the pathogenesis of this tumor.",
   "educational_objective": "Diagnose gastric lymphoma.",
-  "extracted_at": "2025-12-23T14:12:25.130448-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 65-year-old man is evaluated for persistent dyspepsia, weight loss, and epigastric abdominal pain.Upper endoscopy findings are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Crohn disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Gastric cancer",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Gastric lymphoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Gastric ulcer",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is gastric lymphoma (Option C). The endoscopic view of the stomach shows a gastric lymphoma presenting as a polypoid lesion without ulceration. Mucosa-associated lymphoid tissue (MALT) lines the digestive tract and provides immunologic surveillance and response to foreign antigens. Malignant transformation of these cells results in MALT lymphomas, which are of B-cell origin (CD20-positive). MALT lymphomas account for 50% of all gastric lymphomas. These lymphomas have a specific clinical presentation because they are isolated to a single organ and follow an indolent course. Repetitive immune stimulation, caused by an underlying chronic infection with Helicobacter pylori or an autoimmune process, likely plays role in the pathogenesis of this tumor.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "onsec24008_24008"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/onfig24619.3073f267e44c2d8d3ada201fdfc539a1.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Crohn disease"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Gastric cancer"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Gastric lymphoma"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Gastric ulcer"
-    }
-  ],
-  "question_id": "onvdx24015",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 65-year-old man is evaluated for persistent dyspepsia, weight loss, and epigastric abdominal pain.Upper endoscopy findings are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "onsec24008_24008"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:12:25.130448-06:00"
 }

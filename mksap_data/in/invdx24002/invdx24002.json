@@ -1,59 +1,59 @@
 {
+  "question_id": "invdx24002",
   "category": "in",
-  "critique": "This patient has anogenital lichen sclerosus (Option A), which is a chronic dermatitis characterized by atrophic white plaques or papules extending over the perineum and around the anus in a figure 8 or “keyhole” configuration. Lesions may also be purpuric, hyperkeratotic, bullous, or ulcerated. There is typically no vaginal involvement. Common symptoms include itching (which can be debilitating), dysuria, and dyspareunia. Diagnosis is confirmed by biopsy. Women with lichen sclerosus are at increased risk for squamous cell carcinoma of the vulva.",
   "educational_objective": "Diagnose anogenital lichen sclerosus.",
-  "extracted_at": "2025-12-23T15:28:36.783841-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 51-year-old woman is evaluated for vulvar and perianal pruritus and dyspareunia.Vulvar findings are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Anogenital lichen sclerosus",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Candida vulvovaginitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Lichen planus",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Vitiligo",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has anogenital lichen sclerosus (Option A), which is a chronic dermatitis characterized by atrophic white plaques or papules extending over the perineum and around the anus in a figure 8 or “keyhole” configuration. Lesions may also be purpuric, hyperkeratotic, bullous, or ulcerated. There is typically no vaginal involvement. Common symptoms include itching (which can be debilitating), dysuria, and dyspareunia. Diagnosis is confirmed by biopsy. Women with lichen sclerosus are at increased risk for squamous cell carcinoma of the vulva.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "insec24005_24029"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/infig24603.48938837bab4709735e05eacec760a34.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Anogenital lichen sclerosus"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Candida vulvovaginitis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Lichen planus"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Vitiligo"
-    }
-  ],
-  "question_id": "invdx24002",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 51-year-old woman is evaluated for vulvar and perianal pruritus and dyspareunia.Vulvar findings are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "insec24005_24029"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:28:36.783841-06:00"
 }

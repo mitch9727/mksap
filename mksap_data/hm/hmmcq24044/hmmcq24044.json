@@ -1,62 +1,62 @@
 {
+  "question_id": "hmmcq24044",
   "category": "hm",
-  "critique": "The most appropriate diagnostic test to perform next in this patient with likely aplastic anemia (AA) is bone marrow aspiration and biopsy (Option A). AA is an acquired hematopoietic stem cell disorder characterized by severely decreased bone marrow cellularity and pancytopenia. Patients with AA typically present with significantly decreased erythrocytes, leukocytes, and platelets. AA is commonly immune mediated, but a thorough investigation is needed to rule out other potential causes, including toxins, infections, and inherited genetic syndromes such as Fanconi anemia. Medications, including methimazole and propylthiouracil, β-lactam antibiotics, sulfonamides, NSAIDs, antiseizure medications, and gold salts are also associated with AA. In the absence of another identifiable cause, a bone marrow examination is necessary to confirm the diagnosis and determine the severity of AA, which informs treatment decisions. Treatment can range from observation to combination immunosuppression, with cyclosporine, antithymocyte globulin, and eltrombopag, to allogeneic hematopoietic stem cell transplantation. Bone marrow examination will also rule out less likely causes, such as “aleukemic” acute leukemia. This patient likely has AA based on the presence of pancytopenia without another likely cause, and bone marrow aspiration and biopsy is indicated.Testing for the JAK2 V617F mutation (Option B) is recommended in patients with a myeloproliferative neoplasm (MPN), especially polycythemia vera or essential thrombocythemia. Patients with MPNs typically have one or more elevated cell lines and may also have organomegaly or constitutional symptoms. This patient's complete blood count demonstrates pancytopenia, making AA a more likely diagnosis.Parvovirus B19 infection can cause pure red cell aplasia and can be diagnosed with nucleic acid amplification testing (Option C). Patients with parvovirus B19 infection may present with anemia in the setting of normal leukocyte and platelet counts; rash and arthritis may also be present. This patient's clinical history and pancytopenia are not consistent with parvovirus B19 infection.Patients with AA can develop a clone of paroxysmal nocturnal hemoglobinuria (PNH) cells that lack complement-stabilizing CD55 and CD59 proteins. Although flow cytometry for CD55 and CD59 may be performed as part of the bone marrow aspirate and biopsy, flow cytometry of the peripheral blood to assess for a PNH clone will not establish the diagnosis of AA (Option D).",
   "educational_objective": "Diagnose aplastic anemia.",
-  "extracted_at": "2025-12-23T15:17:18.027658-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 23-year-old patient is evaluated for a 2-week history of worsening dyspnea on exertion and a 1-week history of bleeding gums. They report no cough, sputum, chest pain, or fevers. Medical history is otherwise unremarkable, they were previously healthy, and they take no medications.On physical examination, vital signs are normal. Conjunctival pallor is noted. No lymphadenopathy is present. No hepatosplenomegaly is palpated. Scattered petechiae are seen on the lower extremities.Laboratory studies:Hemoglobin6.8 g/dL (68 g/L)LMean corpuscular volume85 fLLeukocyte count1000/µL (1.0 × 109/L) (40% neutrophils, 60% lymphocytes)LAbsolute neutrophil count400/μL (0.40 × 109/L)LPlatelet count12,000/µL (12 × 109/L)L",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bone marrow aspiration and biopsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "JAK2 V617F mutation testing",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Nucleic acid amplification test for parvovirus B19",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Peripheral blood flow cytometry for CD55 and CD59",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate diagnostic test to perform next in this patient with likely aplastic anemia (AA) is bone marrow aspiration and biopsy (Option A). AA is an acquired hematopoietic stem cell disorder characterized by severely decreased bone marrow cellularity and pancytopenia. Patients with AA typically present with significantly decreased erythrocytes, leukocytes, and platelets. AA is commonly immune mediated, but a thorough investigation is needed to rule out other potential causes, including toxins, infections, and inherited genetic syndromes such as Fanconi anemia. Medications, including methimazole and propylthiouracil, β-lactam antibiotics, sulfonamides, NSAIDs, antiseizure medications, and gold salts are also associated with AA. In the absence of another identifiable cause, a bone marrow examination is necessary to confirm the diagnosis and determine the severity of AA, which informs treatment decisions. Treatment can range from observation to combination immunosuppression, with cyclosporine, antithymocyte globulin, and eltrombopag, to allogeneic hematopoietic stem cell transplantation. Bone marrow examination will also rule out less likely causes, such as “aleukemic” acute leukemia. This patient likely has AA based on the presence of pancytopenia without another likely cause, and bone marrow aspiration and biopsy is indicated.Testing for the JAK2 V617F mutation (Option B) is recommended in patients with a myeloproliferative neoplasm (MPN), especially polycythemia vera or essential thrombocythemia. Patients with MPNs typically have one or more elevated cell lines and may also have organomegaly or constitutional symptoms. This patient's complete blood count demonstrates pancytopenia, making AA a more likely diagnosis.Parvovirus B19 infection can cause pure red cell aplasia and can be diagnosed with nucleic acid amplification testing (Option C). Patients with parvovirus B19 infection may present with anemia in the setting of normal leukocyte and platelet counts; rash and arthritis may also be present. This patient's clinical history and pancytopenia are not consistent with parvovirus B19 infection.Patients with AA can develop a clone of paroxysmal nocturnal hemoglobinuria (PNH) cells that lack complement-stabilizing CD55 and CD59 proteins. Although flow cytometry for CD55 and CD59 may be performed as part of the bone marrow aspirate and biopsy, flow cytometry of the peripheral blood to assess for a PNH clone will not establish the diagnosis of AA (Option D).",
   "key_points": [
     "Bone marrow aspirate and biopsy is used to confirm the diagnosis of aplastic anemia and to establish prognosis, which is determined by bone marrow cellularity and cytopenias.",
     "Patients with aplastic anemia typically have a combination of anemia, neutropenia, and thrombocytopenia; treatment can range from observation to systemic immunosuppression to allogeneic hematopoietic stem cell transplantation."
   ],
+  "references": "Bacigalupo A. How I treat acquired aplastic anemia. Blood. 2017;129:1428-1436. PMID: 28096088 doi:10.1182/blood-2016-08-693481",
+  "related_content": {
+    "syllabus": [
+      "hmsec24002_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bone marrow aspiration and biopsy"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "JAK2 V617F mutation testing"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Nucleic acid amplification test for parvovirus B19"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Peripheral blood flow cytometry for CD55 and CD59"
-    }
-  ],
-  "question_id": "hmmcq24044",
-  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
-  "question_text": "A 23-year-old patient is evaluated for a 2-week history of worsening dyspnea on exertion and a 1-week history of bleeding gums. They report no cough, sputum, chest pain, or fevers. Medical history is otherwise unremarkable, they were previously healthy, and they take no medications.On physical examination, vital signs are normal. Conjunctival pallor is noted. No lymphadenopathy is present. No hepatosplenomegaly is palpated. Scattered petechiae are seen on the lower extremities.Laboratory studies:Hemoglobin6.8 g/dL (68 g/L)LMean corpuscular volume85 fLLeukocyte count1000/µL (1.0 × 109/L) (40% neutrophils, 60% lymphocytes)LAbsolute neutrophil count400/μL (0.40 × 109/L)LPlatelet count12,000/µL (12 × 109/L)L",
-  "references": "Bacigalupo A. How I treat acquired aplastic anemia. Blood. 2017;129:1428-1436. PMID: 28096088 doi:10.1182/blood-2016-08-693481",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24002_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:17:18.027658-06:00"
 }

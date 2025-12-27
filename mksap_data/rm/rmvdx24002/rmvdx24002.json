@@ -1,59 +1,59 @@
 {
+  "question_id": "rmvdx24002",
   "category": "rm",
-  "critique": "The most likely diagnosis is Behçet syndrome (Option A), an inflammatory systemic disease associated with pathergy (an inflammatory response, such as a papule, to skin prick with a sterile needle). Behçet syndrome is characterized by recurrent, painful oral and genital mucosal ulcerations and inflammatory eye disease (panuveitis, retinal vasculitis). Pathergy strongly suggests Behçet syndrome; however, results of pathergy tests are often negative, particularly in nonendemic areas.",
   "educational_objective": "Diagnose Behçet syndrome.",
-  "extracted_at": "2025-12-23T14:13:05.888686-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 29-year-old man returns for evaluation of recurrent painful oral ulcers, knee pain, and fever. He was diagnosed with his second episode of uveitis 1 week ago. For diagnostic purposes, his arm was pricked with a sterile needle 48 hours ago; the results are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Behçet syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Crohn disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Polyarteritis nodosa",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Systemic lupus erythematosus",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is Behçet syndrome (Option A), an inflammatory systemic disease associated with pathergy (an inflammatory response, such as a papule, to skin prick with a sterile needle). Behçet syndrome is characterized by recurrent, painful oral and genital mucosal ulcerations and inflammatory eye disease (panuveitis, retinal vasculitis). Pathergy strongly suggests Behçet syndrome; however, results of pathergy tests are often negative, particularly in nonendemic areas.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "rmsec24014_24004"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/rmfig24601.21a6e6f88a8531bdf2109a1750dca34c.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Behçet syndrome"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Crohn disease"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Polyarteritis nodosa"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Systemic lupus erythematosus"
-    }
-  ],
-  "question_id": "rmvdx24002",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 29-year-old man returns for evaluation of recurrent painful oral ulcers, knee pain, and fever. He was diagnosed with his second episode of uveitis 1 week ago. For diagnostic purposes, his arm was pricked with a sterile needle 48 hours ago; the results are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24014_24004"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:05.888686-06:00"
 }

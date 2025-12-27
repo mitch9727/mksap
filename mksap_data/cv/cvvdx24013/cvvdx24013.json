@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24013",
   "category": "cv",
-  "critique": "The most likely diagnosis is pericarditis (Option C), as the ECG demonstrates the classic changes associated with acute pericarditis, including diffuse ST-segment elevations and a depressed PR interval. The ECG manifestations of pericarditis evolve over time and are classified into stages: Stage 1 is characterized by diffuse ST-segment elevations; stage 2 by “pseudonormalization,” in which the ST segments normalize; stage 3 by diffuse T-wave inversion and possible slightly depressed ST segments; and stage 4 by a return to normal on ECG. This patient's ECG demonstrates diffuse ST-segment elevations and a depressed PR interval in leads I and II, most notably in the lead II rhythm strip, consistent with the diagnosis of pericarditis.",
   "educational_objective": "Identify manifestations of pericarditis on ECG.",
-  "extracted_at": "2025-12-23T14:08:40.337831-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 45-year-old man is evaluated for severe chest pain.ECG is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Arrhythmogenic right ventricular cardiomyopathy/dysplasia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Brugada syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Pericarditis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pulmonary embolism",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is pericarditis (Option C), as the ECG demonstrates the classic changes associated with acute pericarditis, including diffuse ST-segment elevations and a depressed PR interval. The ECG manifestations of pericarditis evolve over time and are classified into stages: Stage 1 is characterized by diffuse ST-segment elevations; stage 2 by “pseudonormalization,” in which the ST segments normalize; stage 3 by diffuse T-wave inversion and possible slightly depressed ST segments; and stage 4 by a return to normal on ECG. This patient's ECG demonstrates diffuse ST-segment elevations and a depressed PR interval in leads I and II, most notably in the lead II rhythm strip, consistent with the diagnosis of pericarditis.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24009_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24614.bc2e98570c3064aedad8039f5ce93bd4.png"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Arrhythmogenic right ventricular cardiomyopathy/dysplasia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Brugada syndrome"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Pericarditis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Pulmonary embolism"
-    }
-  ],
-  "question_id": "cvvdx24013",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 45-year-old man is evaluated for severe chest pain.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24009_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.337831-06:00"
 }

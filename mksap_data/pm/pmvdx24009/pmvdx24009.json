@@ -1,60 +1,60 @@
 {
+  "question_id": "pmvdx24009",
   "category": "pm",
-  "critique": "The most likely diagnosis is asbestos-related lung disease (Option A). This chest radiograph shows multiple calcified pleural plaques (arrows). Pleural plaques typically involve the parietal pleura adjacent to ribs. Although plaques themselves are usually benign, they are markers of asbestos exposure. In contrast, mesothelioma usually presents as a dominant pleural-based mass.",
   "educational_objective": "Diagnose asbestos-related lung disease based on chest radiography.",
-  "extracted_at": "2025-12-23T14:15:53.244723-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 77-year-old man is evaluated for a cough.Chest radiograph is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Asbestos-related lung disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Cryptogenic organizing pneumonia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Heart failure",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Mesothelioma",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is asbestos-related lung disease (Option A). This chest radiograph shows multiple calcified pleural plaques (arrows). Pleural plaques typically involve the parietal pleura adjacent to ribs. Although plaques themselves are usually benign, they are markers of asbestos exposure. In contrast, mesothelioma usually presents as a dominant pleural-based mass.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24004_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24613.ef3f9c95a1700bb8f204a3e4ab9840be.jpg",
       "figures/pmfig24612.17281b6b70fb91ccda77e83af80d2e0f.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Asbestos-related lung disease"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Cryptogenic organizing pneumonia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Heart failure"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Mesothelioma"
-    }
-  ],
-  "question_id": "pmvdx24009",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 77-year-old man is evaluated for a cough.Chest radiograph is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24004_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.244723-06:00"
 }

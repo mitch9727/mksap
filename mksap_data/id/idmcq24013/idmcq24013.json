@@ -1,62 +1,62 @@
 {
+  "question_id": "idmcq24013",
   "category": "id",
-  "critique": "Ceftazidime-avibactam (Option B) is most likely to be effective. This patient has a Klebsiella pneumoniae urinary isolate resistant to imipenem, which indicates a carbapenem-resistant Enterobacterales (CRE) isolate. CRE organisms are resistant to all β-lactam antibiotics and often harbor other resistance genes such as genes conferring fluoroquinolone and aminoglycoside resistance. Options for treating CRE infections are limited; however, several antibiotics have an indication for the treatment of CRE complicated urinary tract infections (UTIs); these include ceftazidime-avibactam, imipenem-cilastatin-relebactam, cefiderocol, and meropenem-vaborbactam. Relebactam, avibactam, and vaborbactam are newer generation β-lactamase inhibitors that are effective against some types of carbapenemases (including K. pneumoniae carbapenemase [KPC], one of the most common types of carbapenemases in the United States). Exposure to the health care system and antibiotics (particularly cephalosporins, fluoroquinolones, and carbapenems) are the two main risk factors for acquiring CRE; this patient has both of these risk factors. Additionally, medical care outside the United States poses additional risks for exposure to antibiotic-resistant organisms, including new or rare resistance patterns.Cefepime (Option A) is a fourth-generation cephalosporin approved for the treatment of bacterial skin and skin structure infections, UTIs (including pyelonephritis), complicated intra-abdominal infections, and moderate to severe bacterial pneumonia. Although cefepime is active against K. pneumoniae, it does not have activity against isolates of carbapenem-resistant K. pneumoniae or other CRE.Fosfomycin (Option C) has activity against CRE and is indicated for the treatment of uncomplicated cystitis, so it is an option for the outpatient treatment of CRE cystitis. However, fosfomycin is not indicated for complicated UTI or pyelonephritis.Meropenem (Option D) is a carbapenem, which would not be active against carbapenem-resistant K. pneumoniae. However, meropenem combined with the newer generation β-lactamase vaborbactam is an option for treating CRE, and susceptibility testing for that antibiotic should be performed.",
   "educational_objective": "Treat carbapenem-resistant Enterobacterales infection.",
-  "extracted_at": "2025-12-22T19:46:40.498066-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 42-year-old woman is evaluated on hospital day 3 for pyelonephritis. At admission, empiric ceftriaxone and supportive care was initiated; however, her symptoms have only improved slightly. Medical history is notable for multiple episodes of left lower extremity cellulitis and deep wound infection after an open tibia and fibula fracture from a motorcycle accident 1 year ago while traveling abroad.On physical examination, temperature is 38.5 °C (101.3 °F), blood pressure is 106/70 mm Hg, and pulse rate is 98/min. Abdominal examination reveals bilateral costovertebral angle tenderness that is greater on the right. The left lower extremity has a well-healed scar, with no erythema, induration, or tenderness.A urine culture obtained on admission is growing Klebsiella pneumoniae resistant to ceftriaxone, cefepime, imipenem, and ciprofloxacin. Two blood cultures taken on separate days are also growing K. pneumoniae with the same susceptibility pattern as the urinary isolate.",
+  "question_stem": "Which of the following treatments is most likely to be effective pending further susceptibility testing?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cefepime",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Ceftazidime-avibactam",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Oral fosfomycin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Meropenem",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Ceftazidime-avibactam (Option B) is most likely to be effective. This patient has a Klebsiella pneumoniae urinary isolate resistant to imipenem, which indicates a carbapenem-resistant Enterobacterales (CRE) isolate. CRE organisms are resistant to all β-lactam antibiotics and often harbor other resistance genes such as genes conferring fluoroquinolone and aminoglycoside resistance. Options for treating CRE infections are limited; however, several antibiotics have an indication for the treatment of CRE complicated urinary tract infections (UTIs); these include ceftazidime-avibactam, imipenem-cilastatin-relebactam, cefiderocol, and meropenem-vaborbactam. Relebactam, avibactam, and vaborbactam are newer generation β-lactamase inhibitors that are effective against some types of carbapenemases (including K. pneumoniae carbapenemase [KPC], one of the most common types of carbapenemases in the United States). Exposure to the health care system and antibiotics (particularly cephalosporins, fluoroquinolones, and carbapenems) are the two main risk factors for acquiring CRE; this patient has both of these risk factors. Additionally, medical care outside the United States poses additional risks for exposure to antibiotic-resistant organisms, including new or rare resistance patterns.Cefepime (Option A) is a fourth-generation cephalosporin approved for the treatment of bacterial skin and skin structure infections, UTIs (including pyelonephritis), complicated intra-abdominal infections, and moderate to severe bacterial pneumonia. Although cefepime is active against K. pneumoniae, it does not have activity against isolates of carbapenem-resistant K. pneumoniae or other CRE.Fosfomycin (Option C) has activity against CRE and is indicated for the treatment of uncomplicated cystitis, so it is an option for the outpatient treatment of CRE cystitis. However, fosfomycin is not indicated for complicated UTI or pyelonephritis.Meropenem (Option D) is a carbapenem, which would not be active against carbapenem-resistant K. pneumoniae. However, meropenem combined with the newer generation β-lactamase vaborbactam is an option for treating CRE, and susceptibility testing for that antibiotic should be performed.",
   "key_points": [
     "Treatment options for carbapenem-resistant Enterobacterales (CRE) infections are limited but include antibiotics such as ceftazidime-avibactam.",
     "Exposure to the health care system and antibiotics are the two main risk factors for acquiring CRE infections."
   ],
+  "references": "Tompkins K, van Duin D. Treatment for carbapenem-resistant Enterobacterales infections: recent advances and future directions. Eur J Clin Microbiol Infect Dis. 2021;40:2053-2068. PMID: 34169446 doi:10.1007/s10096-021-04296-1.",
+  "related_content": {
+    "syllabus": [
+      "idsec24021_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cefepime"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Ceftazidime-avibactam"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Oral fosfomycin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Meropenem"
-    }
-  ],
-  "question_id": "idmcq24013",
-  "question_stem": "Which of the following treatments is most likely to be effective pending further susceptibility testing?",
-  "question_text": "A 42-year-old woman is evaluated on hospital day 3 for pyelonephritis. At admission, empiric ceftriaxone and supportive care was initiated; however, her symptoms have only improved slightly. Medical history is notable for multiple episodes of left lower extremity cellulitis and deep wound infection after an open tibia and fibula fracture from a motorcycle accident 1 year ago while traveling abroad.On physical examination, temperature is 38.5 °C (101.3 °F), blood pressure is 106/70 mm Hg, and pulse rate is 98/min. Abdominal examination reveals bilateral costovertebral angle tenderness that is greater on the right. The left lower extremity has a well-healed scar, with no erythema, induration, or tenderness.A urine culture obtained on admission is growing Klebsiella pneumoniae resistant to ceftriaxone, cefepime, imipenem, and ciprofloxacin. Two blood cultures taken on separate days are also growing K. pneumoniae with the same susceptibility pattern as the urinary isolate.",
-  "references": "Tompkins K, van Duin D. Treatment for carbapenem-resistant Enterobacterales infections: recent advances and future directions. Eur J Clin Microbiol Infect Dis. 2021;40:2053-2068. PMID: 34169446 doi:10.1007/s10096-021-04296-1.",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24021_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:46:40.498066-06:00"
 }

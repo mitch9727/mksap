@@ -1,59 +1,59 @@
 {
+  "question_id": "givdx24013",
   "category": "gi",
-  "critique": "The most likely diagnosis is familial adenomatous polyposis syndrome (FAP) (Option C), an inherited disorder characterized by numerous (usually ≥100) adenomatous colon polyps. FAP is caused by germline variants in the adenomatous polyposis coli gene that are inherited in an autosomal dominant pattern, although de novo variants occur in about 25% of cases. Adenomas in classic FAP are more numerous in the distal colon than in the proximal colon. Adenoma and cancer develop in 100% of classic FAP cases if surgery is not performed. The average age of colorectal cancer onset in patients with FAP is 39 years, with a risk of 93% by age 50 years.",
   "educational_objective": "Diagnose familial adenomatous polyposis.",
-  "extracted_at": "2025-12-23T15:17:18.030745-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 20-year-old man is evaluated for lower gastrointestinal bleeding.Findings on colonoscopy are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Clostridioides difficile colitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Crohn disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Familial adenomatous polyposis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Neurofibromatosis type 1",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is familial adenomatous polyposis syndrome (FAP) (Option C), an inherited disorder characterized by numerous (usually ≥100) adenomatous colon polyps. FAP is caused by germline variants in the adenomatous polyposis coli gene that are inherited in an autosomal dominant pattern, although de novo variants occur in about 25% of cases. Adenomas in classic FAP are more numerous in the distal colon than in the proximal colon. Adenoma and cancer develop in 100% of classic FAP cases if surgery is not performed. The average age of colorectal cancer onset in patients with FAP is 39 years, with a risk of 93% by age 50 years.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "gisec24004_24012"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/gifig24617.5ecd199e80fcea75ae561f1c22165655.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Clostridioides difficile colitis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Crohn disease"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Familial adenomatous polyposis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Neurofibromatosis type 1"
-    }
-  ],
-  "question_id": "givdx24013",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 20-year-old man is evaluated for lower gastrointestinal bleeding.Findings on colonoscopy are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "gisec24004_24012"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:17:18.030745-06:00"
 }

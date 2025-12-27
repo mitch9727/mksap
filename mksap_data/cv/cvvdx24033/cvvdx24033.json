@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24033",
   "category": "cv",
-  "critique": "First-degree atrioventricular block (Option A) is shown on this patient's ECG. First-degree atrioventricular block, which is characterized by a prolonged PR interval (>200 ms or >5 small boxes on an ECG), is usually a benign condition and does not require intervention. It is most commonly secondary to use of medications that slow atrioventricular node conduction; degeneration of the node; infiltrative cardiomyopathies; or, as in this case, high vagal tone.",
   "educational_objective": "Identify first-degree atrioventricular block on ECG.",
-  "extracted_at": "2025-12-23T14:08:40.432688-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 51-year-old man is evaluated for syncope after prolonged standing in a warm environment.ECG is shown.",
+  "question_stem": "Which of the following ECG abnormalities is shown?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "First-degree atrioventricular block",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Sick sinus syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Sinoatrial nodal exit block",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sinus arrhythmia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "First-degree atrioventricular block (Option A) is shown on this patient's ECG. First-degree atrioventricular block, which is characterized by a prolonged PR interval (>200 ms or >5 small boxes on an ECG), is usually a benign condition and does not require intervention. It is most commonly secondary to use of medications that slow atrioventricular node conduction; degeneration of the node; infiltrative cardiomyopathies; or, as in this case, high vagal tone.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24006"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24639.51f8c054587af2c0243f08b0564b273b.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "First-degree atrioventricular block"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Sick sinus syndrome"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Sinoatrial nodal exit block"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Sinus arrhythmia"
-    }
-  ],
-  "question_id": "cvvdx24033",
-  "question_stem": "Which of the following ECG abnormalities is shown?",
-  "question_text": "A 51-year-old man is evaluated for syncope after prolonged standing in a warm environment.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24006_24006"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.432688-06:00"
 }

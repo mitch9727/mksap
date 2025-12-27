@@ -1,62 +1,62 @@
 {
+  "question_id": "ccmcq24005",
   "category": "cc",
-  "critique": "The most likely diagnosis in this patient with an elevated carboxyhemoglobin level is carbon monoxide (CO) poisoning (Option A). CO toxicity usually results from exposure to a source of combustion, especially a heater or an automobile, in an enclosed area. The symptoms of mild to moderate toxicity are nonspecific and may include confusion, headache, and nausea. Tachypnea, tachycardia, and a mild elevation in the serum lactate level are common. More severe toxicity can lead to coma and anoxic brain injury. Diagnosis requires a high index of suspicion and demonstration of an elevated carboxyhemoglobin level on blood gas analysis. Pulse oximetry is not helpful because current transcutaneous oximetry technology does not differentiate between oxyhemoglobin and carboxyhemoglobin. A normal carboxyhemoglobin level is less than 3%, but patients who smoke may have levels up to 10% to 15%. A carboxyhemoglobin level greater than 15% is consistent with CO poisoning, and severe symptoms usually occur at a level of 25% or greater. This patient was likely exposed to CO (probably from a heater in his garage), has findings consistent with CO poisoning, and has a carboxyhemoglobin level of 18%, all consistent with CO toxicity.Cyanide blocks cellular oxygen utilization, resulting in clinical signs of hypoxia despite a normal oxyhemoglobin saturation. Findings are nonspecific and include headache and nausea followed by coma and death. Serum lactate elevation is a sensitive but nonspecific marker for cyanide poisoning (Option B). Exposure typically results from house fires or industrial accidents, neither of which is present with this patient, making cyanide toxicity unlikely.Hypothermia (Option C) is typically defined as a core body temperature less than 35.0 °C (95.0 °F). Early symptoms include confusion, tachycardia, and hyperventilation. Although this patient is at risk for hypothermia, his temperature of 35.3 °C (95.5 °F) is not low enough to cause his degree of symptoms.This patient takes hydrocodone and is at risk for opioid intoxication (Option D). Although altered consciousness is consistent with this diagnosis, respiratory depression and miotic pupils would be seen with opioid toxicity rather than the tachypnea and normal pupil size seen in this patient.",
   "educational_objective": "Diagnose carbon monoxide poisoning.",
-  "extracted_at": "2025-12-23T14:13:48.359731-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 58-year-old man is evaluated in the emergency department after he was found on the floor of his garage. He is confused and cannot provide a history. Chart review reveals chronic back pain and a 40-pack-year history of cigarette use. His only medication is hydrocodone.On physical examination, temperature is 35.3 °C (95.5 °F), blood pressure is 110/68 mm Hg, pulse rate is 114/min, and respiration rate is 20/min. Oxygen saturation is 97% with the patient breathing ambient air. The patient appears drowsy and confused and does not answer questions. Pupil size is normal. He is moving all four extremities but does not follow commands. The remainder of the examination is unremarkable.Head CT scan is normal.",
+  "question_stem": "Which of the following is the most likely cause of this patient's symptoms?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Carbon monoxide poisoning",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Cyanide poisoning",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Hypothermia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Opioid intoxication",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis in this patient with an elevated carboxyhemoglobin level is carbon monoxide (CO) poisoning (Option A). CO toxicity usually results from exposure to a source of combustion, especially a heater or an automobile, in an enclosed area. The symptoms of mild to moderate toxicity are nonspecific and may include confusion, headache, and nausea. Tachypnea, tachycardia, and a mild elevation in the serum lactate level are common. More severe toxicity can lead to coma and anoxic brain injury. Diagnosis requires a high index of suspicion and demonstration of an elevated carboxyhemoglobin level on blood gas analysis. Pulse oximetry is not helpful because current transcutaneous oximetry technology does not differentiate between oxyhemoglobin and carboxyhemoglobin. A normal carboxyhemoglobin level is less than 3%, but patients who smoke may have levels up to 10% to 15%. A carboxyhemoglobin level greater than 15% is consistent with CO poisoning, and severe symptoms usually occur at a level of 25% or greater. This patient was likely exposed to CO (probably from a heater in his garage), has findings consistent with CO poisoning, and has a carboxyhemoglobin level of 18%, all consistent with CO toxicity.Cyanide blocks cellular oxygen utilization, resulting in clinical signs of hypoxia despite a normal oxyhemoglobin saturation. Findings are nonspecific and include headache and nausea followed by coma and death. Serum lactate elevation is a sensitive but nonspecific marker for cyanide poisoning (Option B). Exposure typically results from house fires or industrial accidents, neither of which is present with this patient, making cyanide toxicity unlikely.Hypothermia (Option C) is typically defined as a core body temperature less than 35.0 °C (95.0 °F). Early symptoms include confusion, tachycardia, and hyperventilation. Although this patient is at risk for hypothermia, his temperature of 35.3 °C (95.5 °F) is not low enough to cause his degree of symptoms.This patient takes hydrocodone and is at risk for opioid intoxication (Option D). Although altered consciousness is consistent with this diagnosis, respiratory depression and miotic pupils would be seen with opioid toxicity rather than the tachypnea and normal pupil size seen in this patient.",
   "key_points": [
     "In suspected carbon monoxide poisoning, blood gas analysis is necessary to determine the carboxyhemoglobin level; pulse oximetry does not differentiate between oxyhemoglobin and carboxyhemoglobin and is unhelpful.",
     "The normal carboxyhemoglobin level is less than 3% but may reach 10% to 15% in patients who smoke; levels greater than 15% suggest carbon monoxide poisoning."
   ],
+  "references": "Wolf SJ, Maloney GE, Shih RD, et al; American College of Emergency Physicians Clinical Policies Subcommittee (Writing Committee) on Carbon Monoxide Poisoning. Clinical policy: critical issues in the evaluation and management of adult patients presenting to the emergency department with acute carbon monoxide poisoning. Ann Emerg Med. 2017;69:98-107.e6. PMID: 27993310 doi:10.1016/j.annemergmed.2016.11.003",
+  "related_content": {
+    "syllabus": [
+      "ccsec24003_24011"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Carbon monoxide poisoning"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Cyanide poisoning"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Hypothermia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Opioid intoxication"
-    }
-  ],
-  "question_id": "ccmcq24005",
-  "question_stem": "Which of the following is the most likely cause of this patient's symptoms?",
-  "question_text": "A 58-year-old man is evaluated in the emergency department after he was found on the floor of his garage. He is confused and cannot provide a history. Chart review reveals chronic back pain and a 40-pack-year history of cigarette use. His only medication is hydrocodone.On physical examination, temperature is 35.3 °C (95.5 °F), blood pressure is 110/68 mm Hg, pulse rate is 114/min, and respiration rate is 20/min. Oxygen saturation is 97% with the patient breathing ambient air. The patient appears drowsy and confused and does not answer questions. Pupil size is normal. He is moving all four extremities but does not follow commands. The remainder of the examination is unremarkable.Head CT scan is normal.",
-  "references": "Wolf SJ, Maloney GE, Shih RD, et al; American College of Emergency Physicians Clinical Policies Subcommittee (Writing Committee) on Carbon Monoxide Poisoning. Clinical policy: critical issues in the evaluation and management of adult patients presenting to the emergency department with acute carbon monoxide poisoning. Ann Emerg Med. 2017;69:98-107.e6. PMID: 27993310 doi:10.1016/j.annemergmed.2016.11.003",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ccsec24003_24011"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:48.359731-06:00"
 }

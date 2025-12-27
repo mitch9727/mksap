@@ -1,62 +1,62 @@
 {
+  "question_id": "enmcq24078",
   "category": "en",
-  "critique": "The most appropriate diagnostic test to perform next is thyrotropin receptor antibody (TRAb) measurement to evaluate for Graves disease (Option D). Graves disease is an autoimmune disorder caused by increased thyroid hormone production resulting from thyroid overstimulation by TRAb. It is the most common cause of hyperthyroidism in the United States. In a patient with a symmetrically enlarged thyroid gland, signs of thyroid eye disease, and a biochemical evaluation consistent with overt hyperthyroidism (low thyroid-stimulating hormone and elevated free thyroxine and/or serum total triiodothyronine levels), the diagnosis of Graves disease is very likely. If the diagnosis is not definitive based on clinical presentation, additional evaluation is required (). If the patient does not have a nodular goiter, as is the case with this patient, measuring thyroid-stimulating immunoglobulin (TSI) or TRAb levels can identify Graves disease with high sensitivity and specificity. In this setting, TRAb measurement may provide a more efficient diagnosis than thyroid scintigraphy. This patient has overt primary hyperthyroidism and a symmetrically enlarged thyroid gland, but she does not have ophthalmopathy. Therefore, further evaluation is necessary, and a positive TRAb measurement would confirm the diagnosis of Graves disease.An elevated blood C-reactive protein (CRP) level (Option A) and erythrocyte sedimentation rate are acute phase reactants that can be helpful in diagnosing subacute thyroiditis, which is typically painful (unlike Graves disease) and often follows a viral respiratory tract infection. However, CRP measurement cannot confirm a diagnosis of Graves disease.Thyroglobulin (Option B) is released when the thyroid gland is inflamed; it can be elevated in many thyroid conditions, including thyroid cancer and thyroiditis. Serum thyroglobulin measurement is helpful to distinguish ingestion of thyroid hormone (the thyroglobulin level is low in such cases) from other causes of endogenous thyrotoxicosis. It does not help distinguish between potential causes of endogenous thyrotoxicosis.A thyroid peroxidase antibody level (Option C) can be positive in any underlying autoimmune condition, especially Hashimoto thyroiditis, and may also be present in healthy patients without thyroid disease. This laboratory investigation would not help to diagnose Graves disease.",
   "educational_objective": "Diagnose Graves disease.",
-  "extracted_at": "2025-12-22T22:59:58.697015-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 33-year-old woman is evaluated for a 4-month history of palpitations, insomnia, heat intolerance, and fatigue. She reports no recent illnesses or exposure to iodinated contrast. Her mother has Hashimoto thyroiditis. Medical history is otherwise unremarkable, and she takes no medications or supplements.On physical examination, temperature is 36.7 °C (98.1 °F), blood pressure is 146/67 mm Hg, pulse rate is 108/min, and respiration rate is 14/min. BMI is 20. No exophthalmos or jugular venous distention is noted. The thyroid is enlarged, without nodularity. The patient exhibits bilateral hand tremors and hyperreflexia. She has no edema.A pregnancy test is negative.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Blood C-reactive protein measurement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Serum thyroglobulin measurement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Thyroid peroxidase antibody measurement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Thyrotropin receptor antibody measurement",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate diagnostic test to perform next is thyrotropin receptor antibody (TRAb) measurement to evaluate for Graves disease (Option D). Graves disease is an autoimmune disorder caused by increased thyroid hormone production resulting from thyroid overstimulation by TRAb. It is the most common cause of hyperthyroidism in the United States. In a patient with a symmetrically enlarged thyroid gland, signs of thyroid eye disease, and a biochemical evaluation consistent with overt hyperthyroidism (low thyroid-stimulating hormone and elevated free thyroxine and/or serum total triiodothyronine levels), the diagnosis of Graves disease is very likely. If the diagnosis is not definitive based on clinical presentation, additional evaluation is required (). If the patient does not have a nodular goiter, as is the case with this patient, measuring thyroid-stimulating immunoglobulin (TSI) or TRAb levels can identify Graves disease with high sensitivity and specificity. In this setting, TRAb measurement may provide a more efficient diagnosis than thyroid scintigraphy. This patient has overt primary hyperthyroidism and a symmetrically enlarged thyroid gland, but she does not have ophthalmopathy. Therefore, further evaluation is necessary, and a positive TRAb measurement would confirm the diagnosis of Graves disease.An elevated blood C-reactive protein (CRP) level (Option A) and erythrocyte sedimentation rate are acute phase reactants that can be helpful in diagnosing subacute thyroiditis, which is typically painful (unlike Graves disease) and often follows a viral respiratory tract infection. However, CRP measurement cannot confirm a diagnosis of Graves disease.Thyroglobulin (Option B) is released when the thyroid gland is inflamed; it can be elevated in many thyroid conditions, including thyroid cancer and thyroiditis. Serum thyroglobulin measurement is helpful to distinguish ingestion of thyroid hormone (the thyroglobulin level is low in such cases) from other causes of endogenous thyrotoxicosis. It does not help distinguish between potential causes of endogenous thyrotoxicosis.A thyroid peroxidase antibody level (Option C) can be positive in any underlying autoimmune condition, especially Hashimoto thyroiditis, and may also be present in healthy patients without thyroid disease. This laboratory investigation would not help to diagnose Graves disease.",
   "key_points": [
     "Graves disease is an autoimmune disorder caused by increased thyroid hormone production resulting from thyroid overstimulation by thyrotropin receptor antibody (TRAb); measuring the TRAb level in a patient with hyperthyroidism can confirm a diagnosis of Graves disease.",
     "In a patient with a symmetrically enlarged thyroid gland, signs of thyroid eye disease, and a biochemical evaluation consistent with overt hyperthyroidism, the diagnosis of Graves disease is very likely."
   ],
+  "references": "Ross DS, Burch HB, Cooper DS, et al. 2016 American Thyroid Association guidelines for diagnosis and management of hyperthyroidism and other causes of thyrotoxicosis. Thyroid. 2016;26:1343-1421. PMID: 27521067 doi:10.1089/thy.2016.0229",
+  "related_content": {
+    "syllabus": [
+      "ensec24005_24012"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Blood C-reactive protein measurement"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Serum thyroglobulin measurement"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Thyroid peroxidase antibody measurement"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Thyrotropin receptor antibody measurement"
-    }
-  ],
-  "question_id": "enmcq24078",
-  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
-  "question_text": "A 33-year-old woman is evaluated for a 4-month history of palpitations, insomnia, heat intolerance, and fatigue. She reports no recent illnesses or exposure to iodinated contrast. Her mother has Hashimoto thyroiditis. Medical history is otherwise unremarkable, and she takes no medications or supplements.On physical examination, temperature is 36.7 °C (98.1 °F), blood pressure is 146/67 mm Hg, pulse rate is 108/min, and respiration rate is 14/min. BMI is 20. No exophthalmos or jugular venous distention is noted. The thyroid is enlarged, without nodularity. The patient exhibits bilateral hand tremors and hyperreflexia. She has no edema.A pregnancy test is negative.",
-  "references": "Ross DS, Burch HB, Cooper DS, et al. 2016 American Thyroid Association guidelines for diagnosis and management of hyperthyroidism and other causes of thyrotoxicosis. Thyroid. 2016;26:1343-1421. PMID: 27521067 doi:10.1089/thy.2016.0229",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24005_24012"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:59:58.697015-06:00"
 }

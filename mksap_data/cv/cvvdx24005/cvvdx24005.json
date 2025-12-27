@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24005",
   "category": "cv",
-  "critique": "This ECG demonstrates features of left ventricular hypertrophy (Option B), including both Sokolow-Lyon ECG criteria for left ventricular hypertrophy:Sum of the deepest S wave in lead V and the tallest R wave in lead V or V is 35 mm or greater, R wave in lead aVL is 11 mm or greater.Alternatively, the Cornell criteria specify that left ventricular hypertrophy is present if the S wave in lead V3 plus R wave in aVL sums to greater than 20 mm for women or greater than 28 mm for men.Secondary ST–T-wave abnormalities (asymmetric ST-segment depression and T-wave inversion) are another indicator of left ventricular hypertrophy and are seen in leads I, aVL, and V4 through V6 in this tracing. The QRS duration is normal in this tracing, precluding the diagnosis of a bundle branch block.",
   "educational_objective": "Identify left ventricular hypertrophy on ECG.",
-  "extracted_at": "2025-12-23T14:08:40.328692-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 44-year-old man with a newly diagnosed ischemic stroke is evaluated in the emergency department.ECG is shown.",
+  "question_stem": "Which of the following abnormalities is seen on this patient's ECG?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Left bundle branch block",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Left ventricular hypertrophy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Myocardial ischemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Right bundle branch block",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This ECG demonstrates features of left ventricular hypertrophy (Option B), including both Sokolow-Lyon ECG criteria for left ventricular hypertrophy:Sum of the deepest S wave in lead V and the tallest R wave in lead V or V is 35 mm or greater, R wave in lead aVL is 11 mm or greater.Alternatively, the Cornell criteria specify that left ventricular hypertrophy is present if the S wave in lead V3 plus R wave in aVL sums to greater than 20 mm for women or greater than 28 mm for men.Secondary ST–T-wave abnormalities (asymmetric ST-segment depression and T-wave inversion) are another indicator of left ventricular hypertrophy and are seen in leads I, aVL, and V4 through V6 in this tracing. The QRS duration is normal in this tracing, precluding the diagnosis of a bundle branch block.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24007_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24605.477c7835e2f6bee22a08b3d54d1fc488.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Left bundle branch block"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Left ventricular hypertrophy"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Myocardial ischemia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Right bundle branch block"
-    }
-  ],
-  "question_id": "cvvdx24005",
-  "question_stem": "Which of the following abnormalities is seen on this patient's ECG?",
-  "question_text": "A 44-year-old man with a newly diagnosed ischemic stroke is evaluated in the emergency department.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24007_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.328692-06:00"
 }

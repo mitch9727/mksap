@@ -1,60 +1,60 @@
 {
+  "question_id": "rmvdx24034",
   "category": "rm",
-  "critique": "This patient's radiograph shows classic features of chronic gouty arthritis (Option A). The radiograph shows periarticular bony erosions, which are caused by chronic inflammation from the tophi present around these joints. The overhanging bone in the punched-out erosion just below the first interphalangeal joint is a classic finding for gout. The slight haziness around the first metatarsophalangeal joint is due to the presence of monosodium urate deposition/tophi, which are radiolucent but give a faint density on radiography. The plain radiograph below shows the cloudy appearance of tophi (arrows) even more dramatically.",
   "educational_objective": "Diagnose chronic gouty arthritis.",
-  "extracted_at": "2025-12-23T14:13:05.983946-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 67-year-old man is evaluated for persistent pain in his feet. Diagnostic radiograph is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Chronic gouty arthritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Psoriatic arthritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Rheumatoid arthritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Tuberculous arthritis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient's radiograph shows classic features of chronic gouty arthritis (Option A). The radiograph shows periarticular bony erosions, which are caused by chronic inflammation from the tophi present around these joints. The overhanging bone in the punched-out erosion just below the first interphalangeal joint is a classic finding for gout. The slight haziness around the first metatarsophalangeal joint is due to the presence of monosodium urate deposition/tophi, which are radiolucent but give a faint density on radiography. The plain radiograph below shows the cloudy appearance of tophi (arrows) even more dramatically.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "rmsec24012_24007"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/rmfig24641.c08707497ab914b0f676e52c675e75c5.jpg",
       "figures/rmfig24640.8aefc921816571713cecba13f57e643c.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Chronic gouty arthritis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Psoriatic arthritis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Rheumatoid arthritis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Tuberculous arthritis"
-    }
-  ],
-  "question_id": "rmvdx24034",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 67-year-old man is evaluated for persistent pain in his feet. Diagnostic radiograph is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24012_24007"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:05.983946-06:00"
 }

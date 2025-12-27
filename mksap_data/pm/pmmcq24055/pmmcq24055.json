@@ -1,63 +1,63 @@
 {
+  "question_id": "pmmcq24055",
   "category": "pm",
-  "critique": "The most appropriate treatment, in addition to smoking cessation, in this patient with COPD and hypoxemia is supplemental oxygen (Option D). The use of supplemental oxygen improves quality of life and decreases mortality in patients with COPD and resting hypoxemia with an arterial Po2 of 55 mm Hg (7.3 kPa) or less or an oxygen saturation (as measured by pulse oximetry) of 88% or less. In addition, patients who do not meet these criteria but have cor pulmonale or erythrocytosis should be offered supplemental oxygen for a Po2 of 59 mm Hg (7.8 kPa) or less or an oxygen saturation of 89% or less. Some patients may not qualify for oxygen at rest but may desaturate during sleep, exertion, or air travel. Although supplemental oxygen is often prescribed if the oxygen saturation falls below 89% in these situations, the benefits are less well defined. This patient has an oxygen saturation of 87% and a Po2 of 54 mm Hg (7.2 kPa) and should be offered supplemental oxygen.Lung volume reduction surgery (Option A) improves quality of life, exercise tolerance, pulmonary function, and survival in patients with upper lobe–predominant emphysema and significant exercise limitations. Patient selection is critical, and patients with an FEV1 or diffusing capacity less than 20% of predicted or non–upper lobe–predominant disease have a high operative mortality and should not undergo lung volume reduction surgery. When surgery is not an option, endobronchial valve treatment may be appropriate for some patients. This patient's FEV1 of 18% of predicted makes lung volume reduction surgery an inappropriate choice.Adding nocturnal noninvasive positive-pressure ventilation (NPPV) (Option B) to oxygen therapy in patients with severe persistent hypercapnia (Pco2 ≥52 mm Hg [6.9 kPa]) after an acute COPD exacerbation prolongs the time to readmission and death. This patient's arterial blood gas studies reveal mild but not severe hypercapnia, and adding nocturnal NPPV would not be appropriate at this time.Roflumilast (Option C) is a selective phosphodiesterase-4 inhibitor used to reduce the frequency of exacerbations in patients with severe COPD who have symptoms of chronic bronchitis. This patient has not had any recent exacerbations and has no cough, making roflumilast an inappropriate choice.",
   "educational_objective": "Treat hypoxemia in a patient with severe COPD.",
-  "extracted_at": "2025-12-23T14:15:53.056133-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 72-year-old man is evaluated for follow-up of dyspnea with mild exertion. He has COPD, with gradually worsening symptoms over the past several years but no acute exacerbations or hospitalizations. He smokes one pack of cigarettes per day. He reports no cough or sputum production. He has no other medical problems, and his only medication is inhaled budesonide-glycopyrrolate-formoterol.On physical examination, vital signs are normal. Oxygen saturation is 87% with the patient breathing ambient air at rest. Lung examination shows faint scattered expiratory wheezing. No peripheral edema is noted.",
+  "question_stem": "In addition to smoking cessation, which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Lung volume reduction surgery",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Nocturnal noninvasive positive-pressure ventilation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Roflumilast",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Supplemental oxygen",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment, in addition to smoking cessation, in this patient with COPD and hypoxemia is supplemental oxygen (Option D). The use of supplemental oxygen improves quality of life and decreases mortality in patients with COPD and resting hypoxemia with an arterial Po2 of 55 mm Hg (7.3 kPa) or less or an oxygen saturation (as measured by pulse oximetry) of 88% or less. In addition, patients who do not meet these criteria but have cor pulmonale or erythrocytosis should be offered supplemental oxygen for a Po2 of 59 mm Hg (7.8 kPa) or less or an oxygen saturation of 89% or less. Some patients may not qualify for oxygen at rest but may desaturate during sleep, exertion, or air travel. Although supplemental oxygen is often prescribed if the oxygen saturation falls below 89% in these situations, the benefits are less well defined. This patient has an oxygen saturation of 87% and a Po2 of 54 mm Hg (7.2 kPa) and should be offered supplemental oxygen.Lung volume reduction surgery (Option A) improves quality of life, exercise tolerance, pulmonary function, and survival in patients with upper lobe–predominant emphysema and significant exercise limitations. Patient selection is critical, and patients with an FEV1 or diffusing capacity less than 20% of predicted or non–upper lobe–predominant disease have a high operative mortality and should not undergo lung volume reduction surgery. When surgery is not an option, endobronchial valve treatment may be appropriate for some patients. This patient's FEV1 of 18% of predicted makes lung volume reduction surgery an inappropriate choice.Adding nocturnal noninvasive positive-pressure ventilation (NPPV) (Option B) to oxygen therapy in patients with severe persistent hypercapnia (Pco2 ≥52 mm Hg [6.9 kPa]) after an acute COPD exacerbation prolongs the time to readmission and death. This patient's arterial blood gas studies reveal mild but not severe hypercapnia, and adding nocturnal NPPV would not be appropriate at this time.Roflumilast (Option C) is a selective phosphodiesterase-4 inhibitor used to reduce the frequency of exacerbations in patients with severe COPD who have symptoms of chronic bronchitis. This patient has not had any recent exacerbations and has no cough, making roflumilast an inappropriate choice.",
   "key_points": [
     "The use of supplemental oxygen improves quality of life and decreases mortality in patients with COPD and resting hypoxemia with an arterial Po2 of 55 mm Hg (7.3 kPa) or less or an oxygen saturation of 88% or less.",
     "Patients who have cor pulmonale or erythrocytosis should be offered supplemental oxygen for a Po2 of 59 mm Hg (7.8 kPa) or less or an oxygen saturation of 89% or less."
   ],
+  "references": "Jacobs SS, Krishnan JA, Lederer DJ, et al. Home oxygen therapy for adults with chronic lung disease. an official American Thoracic Society clinical practice guideline. Am J Respir Crit Care Med. 2020;202:e121-41. PMID: 33185464 doi:10.1164/rccm.202009-3608ST",
+  "related_content": {
+    "syllabus": [
+      "pmsec24002_24043"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Lung volume reduction surgery"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Nocturnal noninvasive positive-pressure ventilation"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Roflumilast"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Supplemental oxygen"
-    }
-  ],
-  "question_id": "pmmcq24055",
-  "question_stem": "In addition to smoking cessation, which of the following is the most appropriate treatment?",
-  "question_text": "A 72-year-old man is evaluated for follow-up of dyspnea with mild exertion. He has COPD, with gradually worsening symptoms over the past several years but no acute exacerbations or hospitalizations. He smokes one pack of cigarettes per day. He reports no cough or sputum production. He has no other medical problems, and his only medication is inhaled budesonide-glycopyrrolate-formoterol.On physical examination, vital signs are normal. Oxygen saturation is 87% with the patient breathing ambient air at rest. Lung examination shows faint scattered expiratory wheezing. No peripheral edema is noted.",
-  "references": "Jacobs SS, Krishnan JA, Lederer DJ, et al. Home oxygen therapy for adults with chronic lung disease. an official American Thoracic Society clinical practice guideline. Am J Respir Crit Care Med. 2020;202:e121-41. PMID: 33185464 doi:10.1164/rccm.202009-3608ST",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24002_24043"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.056133-06:00"
 }

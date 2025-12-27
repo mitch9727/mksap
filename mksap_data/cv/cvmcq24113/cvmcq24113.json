@@ -1,62 +1,62 @@
 {
+  "question_id": "cvmcq24113",
   "category": "cv",
-  "critique": "The most appropriate next step in this patient with ventricular tachycardia (VT) is prompt defibrillation (Option C). VT is a wide-complex (QRS complex ≥120 ms) and usually monomorphic tachycardia. Other causes of wide-complex tachycardia include supraventricular tachycardia with aberrant conduction, “pre-excited” (antidromic) tachycardia, and ventricular-paced rhythms. In adult patients with known structural heart disease, however, 95% of wide-complex tachycardias are VT, and additional ECG or clinical criteria are often unnecessary. Patients with VT and hemodynamic instability should undergo immediate direct current cardioversion. In patients with cardiac arrest and a shockable rhythm (e.g., VT, ventricular fibrillation), defibrillation should occur as soon as possible because time to defibrillation is an important determinant of likelihood of survival to hospital discharge. Clinical outcome is largely dictated by timing from arrest to resumption of normal sinus rhythm, which is most effectively and efficiently achieved with defibrillation in VT. This patient lost consciousness with a witnessed change in rhythm on telemetry to a wide-complex tachycardia that should be presumed to be VT. The mechanism of the wide-complex tachycardia is additionally irrelevant given that it is unstable, as evidenced by the patient's loss of consciousness. Defibrillation should occur promptly.Amiodarone (Option A) is indicated for refractory ventricular arrhythmias and can be administered by intravenous bolus in the setting of ongoing resuscitation for cardiac arrest. However, it is less effective for the abrupt conversion of VT to sinus rhythm, and time to return of sinus rhythm is the major driver of outcome in this patient. Amiodarone is not the best next step in this scenario.Although chest compressions (Option B) are the first course of action in the setting of an unwitnessed arrest or a witnessed arrest without a shockable rhythm, this patient's arrest was witnessed and he has a shockable rhythm on the monitor; immediate defibrillation is the best next step. If the patient were not already attached to an automated external defibrillator, the most appropriate management would be chest compressions until defibrillation could be performed.The most likely underlying cause of this patient's presentation is acute coronary syndrome, for which cardiac catheterization (Option D) will likely be performed eventually. The timing of such a procedure is generally dictated by patient presentation and the acuity of the event. In patients with out-of-hospital arrest, early cardiac catheterization has particular value in providing early diagnosis of the cause of arrest and facilitating early intervention, if indicated. However, this patient has a more urgent need for defibrillation.",
   "educational_objective": "Manage a patient with witnessed ventricular tachycardia arrest.",
-  "extracted_at": "2025-12-22T22:49:30.233734-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 67-year-old man is evaluated in the emergency department for chest pain. He has hypertension and diabetes mellitus. Medications are lisinopril and metformin.Soon after arriving, the patient loses consciousness. He is unarousable and has no pulse.ECG on presentation revealed sinus tachycardia (rate 109/min) and nonspecific ST-segment changes.Current telemetry strip from an attached automated external defibrillator is shown.",
+  "question_stem": "Which of the following is the most appropriate next step?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Amiodarone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Chest compressions",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Defibrillation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Urgent cardiac catheterization",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in this patient with ventricular tachycardia (VT) is prompt defibrillation (Option C). VT is a wide-complex (QRS complex ≥120 ms) and usually monomorphic tachycardia. Other causes of wide-complex tachycardia include supraventricular tachycardia with aberrant conduction, “pre-excited” (antidromic) tachycardia, and ventricular-paced rhythms. In adult patients with known structural heart disease, however, 95% of wide-complex tachycardias are VT, and additional ECG or clinical criteria are often unnecessary. Patients with VT and hemodynamic instability should undergo immediate direct current cardioversion. In patients with cardiac arrest and a shockable rhythm (e.g., VT, ventricular fibrillation), defibrillation should occur as soon as possible because time to defibrillation is an important determinant of likelihood of survival to hospital discharge. Clinical outcome is largely dictated by timing from arrest to resumption of normal sinus rhythm, which is most effectively and efficiently achieved with defibrillation in VT. This patient lost consciousness with a witnessed change in rhythm on telemetry to a wide-complex tachycardia that should be presumed to be VT. The mechanism of the wide-complex tachycardia is additionally irrelevant given that it is unstable, as evidenced by the patient's loss of consciousness. Defibrillation should occur promptly.Amiodarone (Option A) is indicated for refractory ventricular arrhythmias and can be administered by intravenous bolus in the setting of ongoing resuscitation for cardiac arrest. However, it is less effective for the abrupt conversion of VT to sinus rhythm, and time to return of sinus rhythm is the major driver of outcome in this patient. Amiodarone is not the best next step in this scenario.Although chest compressions (Option B) are the first course of action in the setting of an unwitnessed arrest or a witnessed arrest without a shockable rhythm, this patient's arrest was witnessed and he has a shockable rhythm on the monitor; immediate defibrillation is the best next step. If the patient were not already attached to an automated external defibrillator, the most appropriate management would be chest compressions until defibrillation could be performed.The most likely underlying cause of this patient's presentation is acute coronary syndrome, for which cardiac catheterization (Option D) will likely be performed eventually. The timing of such a procedure is generally dictated by patient presentation and the acuity of the event. In patients with out-of-hospital arrest, early cardiac catheterization has particular value in providing early diagnosis of the cause of arrest and facilitating early intervention, if indicated. However, this patient has a more urgent need for defibrillation.",
   "key_points": [
     "In a patient with witnessed cardiac arrest and wide-complex tachycardia, defibrillation should occur immediately.",
     "Clinical outcome in cardiac arrest is largely dictated by the time elapsed from arrest to resumption of normal sinus rhythm."
   ],
+  "references": "Panchal AR, Bartos JA, Cabañas JG, et al; Adult Basic and Advanced Life Support Writing Group. Part 3: adult basic and advanced life support: 2020 American Heart Association guidelines for cardiopulmonary resuscitation and emergency cardiovascular care. Circulation. 2020;142:S366-S468. PMID: 33081529 doi:10.1161/CIR.0000000000000916",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24044"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24229.e796e65dfab1eddaebd948e21413a6cc.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Amiodarone"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Chest compressions"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Defibrillation"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Urgent cardiac catheterization"
-    }
-  ],
-  "question_id": "cvmcq24113",
-  "question_stem": "Which of the following is the most appropriate next step?",
-  "question_text": "A 67-year-old man is evaluated in the emergency department for chest pain. He has hypertension and diabetes mellitus. Medications are lisinopril and metformin.Soon after arriving, the patient loses consciousness. He is unarousable and has no pulse.ECG on presentation revealed sinus tachycardia (rate 109/min) and nonspecific ST-segment changes.Current telemetry strip from an attached automated external defibrillator is shown.",
-  "references": "Panchal AR, Bartos JA, Cabañas JG, et al; Adult Basic and Advanced Life Support Writing Group. Part 3: adult basic and advanced life support: 2020 American Heart Association guidelines for cardiopulmonary resuscitation and emergency cardiovascular care. Circulation. 2020;142:S366-S468. PMID: 33081529 doi:10.1161/CIR.0000000000000916",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24006_24044"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:49:30.233734-06:00"
 }

@@ -1,62 +1,62 @@
 {
+  "question_id": "cvmcq24083",
   "category": "cv",
-  "critique": "The most appropriate management is repeat echocardiography in 6 to 12 months (Option C). Many pericardial effusions are asymptomatic and found incidentally on cardiopulmonary imaging. Most effusions in patients without symptoms are idiopathic; however, malignancy, infections, autoimmune disease, hypothyroidism, and iatrogenic causes (medications, anticoagulation therapy) should be considered (see ). In countries where tuberculosis is endemic, tuberculosis causes more than 60% of effusions. Evaluation of an asymptomatic effusion should include a targeted assessment of potential causes, especially malignancy and infection. If no cause is found in an asymptomatic patient with no signs of tamponade and a small to moderate-sized effusion, monitoring with periodic echocardiography is reasonable to determine whether the effusion is growing or becoming hemodynamically significant. This patient has an asymptomatic, incidentally found, small to moderate-sized effusion with no signs of tamponade and no clear cause identified after an appropriate evaluation for the cause. Clinical observation with surveillance echocardiography is the best management strategy.Pericardial window surgery (Option A) is not indicated for a small to moderate-sized asymptomatic, idiopathic effusion.Pericardiocentesis (Option B) may be performed as a diagnostic maneuver, especially if malignancy or bacterial infection is suspected. It is also therapeutic in the case of pericardial tamponade. This patient is asymptomatic with a small to moderate-sized effusion. He has undergone a thorough noninvasive evaluation, and there is no evidence suggesting underlying malignancy or bacterial infection. Pericardiocentesis is not currently needed for diagnostic or therapeutic purposes.Right heart catheterization (Option D) can help determine hemodynamics in patients with suspected tamponade if a diagnosis cannot be made noninvasively. However, this patient is asymptomatic with no signs of tamponade on examination or imaging and does not need right heart catheterization.",
   "educational_objective": "Manage an asymptomatic idiopathic pericardial effusion.",
-  "extracted_at": "2025-12-22T22:49:14.348643-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 56-year-old man undergoes low-dose CT lung cancer screening secondary to a 55-pack-year history of tobacco use. No suspicious nodules are noted, but a moderate pericardial effusion is seen. He reports no medical problems and is up to date on age-appropriate cancer screenings. He has no family history of cancer. He takes no medications.Physical examination findings, including vital signs, are normal.Results of laboratory studies, including antinuclear antibodies and thyroid-stimulating hormone level, are normal.ECG shows low-voltage QRS. Echocardiogram reveals a small to moderate-sized circumferential pericardial effusion with a normal-appearing pericardium and no evidence of tamponade. Chamber size and function are normal. There are no valvular abnormalities. CT scan shows no adenopathy or pericardial thickening.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Pericardial window surgery",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Pericardiocentesis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Repeat echocardiography in 6 to 12 months",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Right heart catheterization",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is repeat echocardiography in 6 to 12 months (Option C). Many pericardial effusions are asymptomatic and found incidentally on cardiopulmonary imaging. Most effusions in patients without symptoms are idiopathic; however, malignancy, infections, autoimmune disease, hypothyroidism, and iatrogenic causes (medications, anticoagulation therapy) should be considered (see ). In countries where tuberculosis is endemic, tuberculosis causes more than 60% of effusions. Evaluation of an asymptomatic effusion should include a targeted assessment of potential causes, especially malignancy and infection. If no cause is found in an asymptomatic patient with no signs of tamponade and a small to moderate-sized effusion, monitoring with periodic echocardiography is reasonable to determine whether the effusion is growing or becoming hemodynamically significant. This patient has an asymptomatic, incidentally found, small to moderate-sized effusion with no signs of tamponade and no clear cause identified after an appropriate evaluation for the cause. Clinical observation with surveillance echocardiography is the best management strategy.Pericardial window surgery (Option A) is not indicated for a small to moderate-sized asymptomatic, idiopathic effusion.Pericardiocentesis (Option B) may be performed as a diagnostic maneuver, especially if malignancy or bacterial infection is suspected. It is also therapeutic in the case of pericardial tamponade. This patient is asymptomatic with a small to moderate-sized effusion. He has undergone a thorough noninvasive evaluation, and there is no evidence suggesting underlying malignancy or bacterial infection. Pericardiocentesis is not currently needed for diagnostic or therapeutic purposes.Right heart catheterization (Option D) can help determine hemodynamics in patients with suspected tamponade if a diagnosis cannot be made noninvasively. However, this patient is asymptomatic with no signs of tamponade on examination or imaging and does not need right heart catheterization.",
   "key_points": [
     "Many pericardial effusions are asymptomatic and found incidentally on cardiopulmonary imaging.",
     "In an asymptomatic patient with a small to moderate-sized idiopathic pericardial effusion with no signs of tamponade, clinical observation with periodic echocardiographic monitoring is reasonable."
   ],
+  "references": "Adler Y, Charron P, Imazio M, et al; ESC Scientific Document Group. 2015 ESC guidelines for the diagnosis and management of pericardial diseases: the Task Force for the Diagnosis and Management of Pericardial Diseases of the European Society of Cardiology (ESC) Endorsed by: The European Association for Cardio-Thoracic Surgery (EACTS). Eur Heart J. 2015;36:2921-2964. PMID: 26320112 doi:10.1093/eurheartj/ehv318",
+  "related_content": {
+    "syllabus": [
+      "cvsec24009_24005"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Pericardial window surgery"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Pericardiocentesis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Repeat echocardiography in 6 to 12 months"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Right heart catheterization"
-    }
-  ],
-  "question_id": "cvmcq24083",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 56-year-old man undergoes low-dose CT lung cancer screening secondary to a 55-pack-year history of tobacco use. No suspicious nodules are noted, but a moderate pericardial effusion is seen. He reports no medical problems and is up to date on age-appropriate cancer screenings. He has no family history of cancer. He takes no medications.Physical examination findings, including vital signs, are normal.Results of laboratory studies, including antinuclear antibodies and thyroid-stimulating hormone level, are normal.ECG shows low-voltage QRS. Echocardiogram reveals a small to moderate-sized circumferential pericardial effusion with a normal-appearing pericardium and no evidence of tamponade. Chamber size and function are normal. There are no valvular abnormalities. CT scan shows no adenopathy or pericardial thickening.",
-  "references": "Adler Y, Charron P, Imazio M, et al; ESC Scientific Document Group. 2015 ESC guidelines for the diagnosis and management of pericardial diseases: the Task Force for the Diagnosis and Management of Pericardial Diseases of the European Society of Cardiology (ESC) Endorsed by: The European Association for Cardio-Thoracic Surgery (EACTS). Eur Heart J. 2015;36:2921-2964. PMID: 26320112 doi:10.1093/eurheartj/ehv318",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24009_24005"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:49:14.348643-06:00"
 }

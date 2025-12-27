@@ -1,60 +1,60 @@
 {
+  "question_id": "cvvdx24040",
   "category": "cv",
-  "critique": "This CT scan shows a type B aortic dissection (Option D). The ascending aorta (blue arrow) appears normal in caliber and without a dissecting flap separating the true and false lumen. The descending thoracic aorta is dilated, and true and false lumens are separated by a flap (red arrow). There is intact flow within the false lumen (contrast enhancement is equal on both sides of the dissection plane). In contrast, in an aortic hematoma, there is a crescent-shaped collection of blood within the media without interruption of the intima. In a penetrating atherosclerotic ulcer, blood is localized at the site of the ulcer and is contained within the intima-medial layer (pseudoaneurysm).",
   "educational_objective": "Identify type B aortic dissection on chest CT.",
-  "extracted_at": "2025-12-23T14:08:40.428023-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 59-year-old woman is evaluated for severe, acute-onset chest pain.Chest CT scan with contrast is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Intramural aortic hematoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Penetrating atherosclerotic ulcer",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Thoracic aortic aneurysm",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Type B aortic dissection",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This CT scan shows a type B aortic dissection (Option D). The ascending aorta (blue arrow) appears normal in caliber and without a dissecting flap separating the true and false lumen. The descending thoracic aorta is dilated, and true and false lumens are separated by a flap (red arrow). There is intact flow within the false lumen (contrast enhancement is equal on both sides of the dissection plane). In contrast, in an aortic hematoma, there is a crescent-shaped collection of blood within the media without interruption of the intima. In a penetrating atherosclerotic ulcer, blood is localized at the site of the ulcer and is contained within the intima-medial layer (pseudoaneurysm).",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24011_24008"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24648.eed410ad0648e8e98d584dde0cae46bf.jpg",
       "figures/cvfig24647.6e636421952b492181b40bd6c0e43a87.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Intramural aortic hematoma"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Penetrating atherosclerotic ulcer"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Thoracic aortic aneurysm"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Type B aortic dissection"
-    }
-  ],
-  "question_id": "cvvdx24040",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 59-year-old woman is evaluated for severe, acute-onset chest pain.Chest CT scan with contrast is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24011_24008"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.428023-06:00"
 }

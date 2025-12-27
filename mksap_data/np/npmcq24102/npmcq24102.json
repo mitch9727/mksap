@@ -1,66 +1,66 @@
 {
+  "question_id": "npmcq24102",
   "category": "np",
-  "critique": "The most likely diagnosis is salicylate toxicity (Option E). Salicylate toxicity is a common cause of a mixed respiratory alkalosis and metabolic acidosis. Salicylates directly stimulate the respiratory drive causing respiratory alkalosis. In addition to the small contribution that salicylic acid contributes to the anion gap, salicylates uncouple oxidative phosphorylation resulting in increased pyruvate and lactate levels, which further heighten the anion gap. This patient has decreased Pco2 and bicarbonate but a normal pH, indicating either a mixed acid-base disorder (as in this case) or a laboratory testing error. She has a metabolic acidosis with an anion gap calculated as:Serum Sodium (mEq/L) – (Serum Chloride [mEq/L] + Serum Bicarbonate [mEq/L])Or, in this case,138 mEq/L – (98 mEq/L + 18 mEq/L) = 22 mEq/LA formula to determine the expected Pco2 when the metabolic acidosis is maximally compensated is:Pco2 = 15 + [Serum Bicarbonate (mEq/L)]Or, in this case,33 = 15 + [18 mEq/L]The patient's Pco2 (28 mm Hg) is lower than the expected 33 mm Hg, indicating a concomitant respiratory alkalosis. This patient's respiratory alkalosis and anion gap metabolic acidosis with mental status changes is highly suggestive of salicylate toxicity.Mild to moderate ethanol toxicity (levels <200 mg/dL [43.2 mmol/L]) is not associated with acid-base disturbances. More severe intoxication can result in respiratory depression with an elevated Pco2 and respiratory acidosis and vomiting with a metabolic alkalosis, neither of which is present in this patient. Therefore, ethanol toxicity (Option A) cannot explain the acid-base parameters seen in this case.Both ethylene glycol (Option B) and methanol toxicity (Option D) cause an anion gap acidosis and should be considered in an individual with an elevated anion gap. The metabolites of these alcohols are responsible for their toxicity and the anion gap acidosis. These alcohols also contribute to serum osmolality and result in an osmolal gap (measured osmolality – calculated osmolality). This patient's calculated osmolality is 316, calculated as:2 x Serum Sodium (mEq/L) + Glucose (mg/dL)/18 + Blood Urea Nitrogen (mg/dL)/2.8 + Ethanol (mg/dL)/4.6Therefore, the osmolal gap is 8 mOsm/kg:(Measured Osmolality – Calculated Osmolality) = 325 mOsm/kg – 317 mOsm/kg = 8 msOsm/kgBecause the osmolal gap is <10, ingestion of either of these toxins is unlikely. Another clue to ethylene glycol ingestion is the presence of calcium oxalate crystals on urinalysis, which are not present on this patient's urinalysis.Isopropyl alcohol toxicity (Option C) is an unlikely diagnosis because this patient does not have an osmolal gap, nor does isopropyl alcohol cause an acidosis. Acetone, which can often be detected as a fruity odor on the breath and a positive urine dipstick for ketones, is a metabolite of isopropyl alcohol. Neither of these signs is present in this case.",
   "educational_objective": "Diagnose salicylate toxicity as a mixed acid-base disorder.",
-  "extracted_at": "2025-12-22T20:07:18.209673-06:00",
-  "key_points": [
-    "Salicylate toxicity is a common cause of a mixed respiratory alkalosis and metabolic acidosis."
-  ],
-  "media": {
-    "images": [],
-    "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "videos": []
-  },
   "metadata": {
     "care_types": [],
-    "high_value_care": false,
     "patient_types": [],
+    "high_value_care": false,
     "question_updated": "12/22/2025"
   },
+  "question_text": "A 22-year-old woman is evaluated in the emergency department after her roommate found her to be lethargic. Medical history is significant for depression, and her only medication is paroxetine.On physical examination, the patient is lethargic but arousable. Temperature is 37.8 °C (100.0 °F), blood pressure is 128/80 mm Hg, pulse rate is 100/min, and respiration rate is 22/min. Oxygen saturation is 99% with the patient breathing ambient air. The remainder of the examination is normal.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
   "options": [
     {
       "letter": "A",
-      "peer_percentage": 0,
-      "text": "Ethanol toxicity"
+      "text": "Ethanol toxicity",
+      "peer_percentage": 0
     },
     {
       "letter": "B",
-      "peer_percentage": 0,
-      "text": "Ethylene glycol toxicity"
+      "text": "Ethylene glycol toxicity",
+      "peer_percentage": 0
     },
     {
       "letter": "C",
-      "peer_percentage": 0,
-      "text": "Isopropyl alcohol toxicity"
+      "text": "Isopropyl alcohol toxicity",
+      "peer_percentage": 0
     },
     {
       "letter": "D",
-      "peer_percentage": 0,
-      "text": "Methanol toxicity"
+      "text": "Methanol toxicity",
+      "peer_percentage": 0
     },
     {
       "letter": "E",
-      "peer_percentage": 0,
-      "text": "Salicylate toxicity"
+      "text": "Salicylate toxicity",
+      "peer_percentage": 0
     }
   ],
-  "question_id": "npmcq24102",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 22-year-old woman is evaluated in the emergency department after her roommate found her to be lethargic. Medical history is significant for depression, and her only medication is paroxetine.On physical examination, the patient is lethargic but arousable. Temperature is 37.8 °C (100.0 °F), blood pressure is 128/80 mm Hg, pulse rate is 100/min, and respiration rate is 22/min. Oxygen saturation is 99% with the patient breathing ambient air. The remainder of the examination is normal.",
-  "references": "Palmer BF, Clegg DJ. Salicylate toxicity. N Engl J Med. 2020;382:2544-55. PMID: 32579814 doi:10.1056/NEJMra2010852",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24003_24012"
-    ]
-  },
   "user_performance": {
+    "user_answer": null,
     "correct_answer": "E",
     "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is salicylate toxicity (Option E). Salicylate toxicity is a common cause of a mixed respiratory alkalosis and metabolic acidosis. Salicylates directly stimulate the respiratory drive causing respiratory alkalosis. In addition to the small contribution that salicylic acid contributes to the anion gap, salicylates uncouple oxidative phosphorylation resulting in increased pyruvate and lactate levels, which further heighten the anion gap. This patient has decreased Pco2 and bicarbonate but a normal pH, indicating either a mixed acid-base disorder (as in this case) or a laboratory testing error. She has a metabolic acidosis with an anion gap calculated as:Serum Sodium (mEq/L) – (Serum Chloride [mEq/L] + Serum Bicarbonate [mEq/L])Or, in this case,138 mEq/L – (98 mEq/L + 18 mEq/L) = 22 mEq/LA formula to determine the expected Pco2 when the metabolic acidosis is maximally compensated is:Pco2 = 15 + [Serum Bicarbonate (mEq/L)]Or, in this case,33 = 15 + [18 mEq/L]The patient's Pco2 (28 mm Hg) is lower than the expected 33 mm Hg, indicating a concomitant respiratory alkalosis. This patient's respiratory alkalosis and anion gap metabolic acidosis with mental status changes is highly suggestive of salicylate toxicity.Mild to moderate ethanol toxicity (levels <200 mg/dL [43.2 mmol/L]) is not associated with acid-base disturbances. More severe intoxication can result in respiratory depression with an elevated Pco2 and respiratory acidosis and vomiting with a metabolic alkalosis, neither of which is present in this patient. Therefore, ethanol toxicity (Option A) cannot explain the acid-base parameters seen in this case.Both ethylene glycol (Option B) and methanol toxicity (Option D) cause an anion gap acidosis and should be considered in an individual with an elevated anion gap. The metabolites of these alcohols are responsible for their toxicity and the anion gap acidosis. These alcohols also contribute to serum osmolality and result in an osmolal gap (measured osmolality – calculated osmolality). This patient's calculated osmolality is 316, calculated as:2 x Serum Sodium (mEq/L) + Glucose (mg/dL)/18 + Blood Urea Nitrogen (mg/dL)/2.8 + Ethanol (mg/dL)/4.6Therefore, the osmolal gap is 8 mOsm/kg:(Measured Osmolality – Calculated Osmolality) = 325 mOsm/kg – 317 mOsm/kg = 8 msOsm/kgBecause the osmolal gap is <10, ingestion of either of these toxins is unlikely. Another clue to ethylene glycol ingestion is the presence of calcium oxalate crystals on urinalysis, which are not present on this patient's urinalysis.Isopropyl alcohol toxicity (Option C) is an unlikely diagnosis because this patient does not have an osmolal gap, nor does isopropyl alcohol cause an acidosis. Acetone, which can often be detected as a fruity odor on the breath and a positive urine dipstick for ketones, is a metabolite of isopropyl alcohol. Neither of these signs is present in this case.",
+  "key_points": [
+    "Salicylate toxicity is a common cause of a mixed respiratory alkalosis and metabolic acidosis."
+  ],
+  "references": "Palmer BF, Clegg DJ. Salicylate toxicity. N Engl J Med. 2020;382:2544-55. PMID: 32579814 doi:10.1056/NEJMra2010852",
+  "related_content": {
+    "syllabus": [
+      "npsec24003_24012"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T20:07:18.209673-06:00"
 }

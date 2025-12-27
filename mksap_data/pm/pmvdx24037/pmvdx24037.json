@@ -1,59 +1,59 @@
 {
+  "question_id": "pmvdx24037",
   "category": "pm",
-  "critique": "This ECG demonstrates right ventricular hypertrophy (Option D). The ECG features suggestive of right ventricular hypertrophy include the following:Tall R wave in lead VPersistent precordial S wavesEvidence of right atrial enlargementRight axis deviation or indeterminate axisrSr′ in lead VRight ventricular strain pattern (ST-T wave changes in the inferior leads)The specific findings in this ECG that support a diagnosis of right ventricular hypertrophy include rSr’ in V1, persistent S waves in V5 through V6, a right ventricular strain pattern, and probable right atrial abnormality. Right ventricular hypertrophy can be caused by pulmonary hypertension, mitral stenosis, chronic lung disease leading to cor pulmonale, and congenital heart disease.",
   "educational_objective": "Identify ECG features of right ventricular hypertrophy.",
-  "extracted_at": "2025-12-23T14:15:53.322185-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 78-year-old man with severe COPD is evaluated for worsening dyspnea.ECG is shown.",
+  "question_stem": "Which of the following conditions is demonstrated on this patient's ECG?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Left atrial enlargement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Left ventricular hypertrophy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Right bundle branch block",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Right ventricular hypertrophy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This ECG demonstrates right ventricular hypertrophy (Option D). The ECG features suggestive of right ventricular hypertrophy include the following:Tall R wave in lead VPersistent precordial S wavesEvidence of right atrial enlargementRight axis deviation or indeterminate axisrSr′ in lead VRight ventricular strain pattern (ST-T wave changes in the inferior leads)The specific findings in this ECG that support a diagnosis of right ventricular hypertrophy include rSr’ in V1, persistent S waves in V5 through V6, a right ventricular strain pattern, and probable right atrial abnormality. Right ventricular hypertrophy can be caused by pulmonary hypertension, mitral stenosis, chronic lung disease leading to cor pulmonale, and congenital heart disease.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24006_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24662.417848fd315d0c023fec3a1131e23d67.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Left atrial enlargement"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Left ventricular hypertrophy"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Right bundle branch block"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Right ventricular hypertrophy"
-    }
-  ],
-  "question_id": "pmvdx24037",
-  "question_stem": "Which of the following conditions is demonstrated on this patient's ECG?",
-  "question_text": "A 78-year-old man with severe COPD is evaluated for worsening dyspnea.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24006_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.322185-06:00"
 }

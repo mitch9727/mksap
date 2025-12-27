@@ -1,60 +1,60 @@
 {
+  "question_id": "nrvdx24016",
   "category": "nr",
-  "critique": "The most likely diagnosis is subarachnoid hemorrhage (Option D). This patient's CT angiogram shows an extensive subarachnoid hemorrhage (blood appearing as white hyperdense areas) with intraventricular extension. CT is very sensitive for detection of subarachnoid hemorrhage, especially when performed within 6 hours of symptom onset. Examination findings suggestive of subarachnoid hemorrhage include altered mental status, nuchal rigidity, pupillary dilation from compression of the oculomotor nerve (cranial nerve III) by a posterior communicating artery aneurysm, or subhyaloid hemorrhages on funduscopy. The most common cause of nontraumatic subarachnoid hemorrhage is saccular (berry) aneurysm rupture. Intracranial arterial dissection and mycotic aneurysm rupture are less common causes.",
   "educational_objective": "Diagnose subarachnoid hemorrhage.",
-  "extracted_at": "2025-12-23T14:11:42.609987-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 54-year-old woman is evaluated for unresponsiveness following onset of a thunderclap headache.CT angiogram is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cavernous sinus thrombosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Epidural hematoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Intracerebral hemorrhage",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Subarachnoid hemorrhage",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is subarachnoid hemorrhage (Option D). This patient's CT angiogram shows an extensive subarachnoid hemorrhage (blood appearing as white hyperdense areas) with intraventricular extension. CT is very sensitive for detection of subarachnoid hemorrhage, especially when performed within 6 hours of symptom onset. Examination findings suggestive of subarachnoid hemorrhage include altered mental status, nuchal rigidity, pupillary dilation from compression of the oculomotor nerve (cranial nerve III) by a posterior communicating artery aneurysm, or subhyaloid hemorrhages on funduscopy. The most common cause of nontraumatic subarachnoid hemorrhage is saccular (berry) aneurysm rupture. Intracranial arterial dissection and mycotic aneurysm rupture are less common causes.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "nrsec24004_24024"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/nrfig24619.7392c7f389367a7be75985fca366c28b.jpg",
       "figures/nrfig24618.ef53ab5624fdf6a71ceeaff4362155b8.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cavernous sinus thrombosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Epidural hematoma"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Intracerebral hemorrhage"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Subarachnoid hemorrhage"
-    }
-  ],
-  "question_id": "nrvdx24016",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 54-year-old woman is evaluated for unresponsiveness following onset of a thunderclap headache.CT angiogram is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "nrsec24004_24024"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:11:42.609987-06:00"
 }

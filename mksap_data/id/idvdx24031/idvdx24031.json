@@ -1,59 +1,59 @@
 {
+  "question_id": "idvdx24031",
   "category": "id",
-  "critique": "The organism that is the most likely cause of this patient's symptoms is Neisseria gonorrhoeae (Option C). This image demonstrates gram-negative, intracellular diplococci, a finding characteristic of N. gonorrhoeae (gonococcus). Men with urethritis present with dysuria, urethral pruritus, and discharge. Mucopurulent discharge may be the only symptom and is clinically diagnostic. N. gonorrhoeae, Chlamydia trachomatis, and Mycoplasma genitalium are common causes of urethritis; Trichomonas may present similarly to other causes of infectious urethritis.",
   "educational_objective": "Diagnose <i>Neisseria gonorrhoeae</i> on Gram stain of a urethral discharge sample.",
-  "extracted_at": "2025-12-23T15:17:18.136509-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 45-year-old man is evaluated for dysuria and urethral discharge.Microscopic examination of the urethral discharge is shown.",
+  "question_stem": "Which of the following organisms is the most likely cause of this patient's symptoms?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Chlamydia trachomatis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Haemophilus ducreyi",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Neisseria gonorrhoeae",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Trichomonas vaginalis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The organism that is the most likely cause of this patient's symptoms is Neisseria gonorrhoeae (Option C). This image demonstrates gram-negative, intracellular diplococci, a finding characteristic of N. gonorrhoeae (gonococcus). Men with urethritis present with dysuria, urethral pruritus, and discharge. Mucopurulent discharge may be the only symptom and is clinically diagnostic. N. gonorrhoeae, Chlamydia trachomatis, and Mycoplasma genitalium are common causes of urethritis; Trichomonas may present similarly to other causes of infectious urethritis.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24012_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24636.4e8eed7cffc0faefd1e5c8835e83045d.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Chlamydia trachomatis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Haemophilus ducreyi"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Neisseria gonorrhoeae"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Trichomonas vaginalis"
-    }
-  ],
-  "question_id": "idvdx24031",
-  "question_stem": "Which of the following organisms is the most likely cause of this patient's symptoms?",
-  "question_text": "A 45-year-old man is evaluated for dysuria and urethral discharge.Microscopic examination of the urethral discharge is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24012_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:17:18.136509-06:00"
 }

@@ -1,60 +1,60 @@
 {
+  "question_id": "onvdx24011",
   "category": "on",
-  "critique": "The most likely diagnosis is Hodgkin lymphoma (Option B). Hodgkin lymphoma represents approximately 10% of lymphomas. The nodular sclerosing subtype is most common and frequently presents with enlarged mediastinal, cervical, and/or supraclavicular nodes. Patients may also have B symptoms (fever, night sweats, weight loss), although these are most commonly seen in older patients with more advanced disease. The diagnosis is established with a lymph node biopsy specimen showing Reed-Sternberg cells, malignant cells that originate from germinal center B cells and are seen in an inflammatory infiltrate. This patient has an anterior mediastinal mass (arrows) consistent with Hodgkin lymphoma.",
   "educational_objective": "Diagnose Hodgkin lymphoma on chest radiograph.",
-  "extracted_at": "2025-12-23T14:12:25.131152-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 22-year-old woman is evaluated for fever, weight loss, and exertional dyspnea.Chest radiographs are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Aortic aneurysm",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hodgkin lymphoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Meningocele",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Neuroblastoma",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is Hodgkin lymphoma (Option B). Hodgkin lymphoma represents approximately 10% of lymphomas. The nodular sclerosing subtype is most common and frequently presents with enlarged mediastinal, cervical, and/or supraclavicular nodes. Patients may also have B symptoms (fever, night sweats, weight loss), although these are most commonly seen in older patients with more advanced disease. The diagnosis is established with a lymph node biopsy specimen showing Reed-Sternberg cells, malignant cells that originate from germinal center B cells and are seen in an inflammatory infiltrate. This patient has an anterior mediastinal mass (arrows) consistent with Hodgkin lymphoma.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "onsec24008_24004"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/onfig24613.6f4c1b36b0bff6eecb04c898cbc1e878.jpg",
       "figures/onfig24612.890576c7f2102d868070dc04a024ec0d.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Aortic aneurysm"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Hodgkin lymphoma"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Meningocele"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Neuroblastoma"
-    }
-  ],
-  "question_id": "onvdx24011",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 22-year-old woman is evaluated for fever, weight loss, and exertional dyspnea.Chest radiographs are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "onsec24008_24004"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:12:25.131152-06:00"
 }

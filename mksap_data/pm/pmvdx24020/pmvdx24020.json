@@ -1,60 +1,60 @@
 {
+  "question_id": "pmvdx24020",
   "category": "pm",
-  "critique": "The most likely diagnosis is hypersensitivity pneumonitis (HP) (Option B). Repetitive inhalation of antigens (typically complex proteins) in a sensitized patient can result in HP, an immunologic response that results in noncaseating granulomas and peribronchial mononuclear cell infiltration with giant cells. HP is classified as fibrotic or nonfibrotic based on radiologic and histopathologic features. In nonfibrotic HP, CT scans typically show diffuse parenchymal infiltration (ground-glass opacities, mosaic attenuation) and small airways disease (centrilobular nodules, air trapping). Fibrotic HP is characterized by reticular abnormalities and/or ground-glass opacities with architectural distortion (traction bronchiectasis, a loss of volume, and honeycombing). This patient's chest CT scan is compatible with nonfibrotic HP, as demonstrated by patchy, bilateral ground-glass opacities (red arrow) and centrilobular micronodules (blue arrow) in the mid-lung section. Chest radiography can also demonstrate diffuse micronodular disease but may be normal.",
   "educational_objective": "Diagnose hypersensitivity pneumonitis.",
-  "extracted_at": "2025-12-23T14:15:53.292923-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 51-year-old man is evaluated for acute onset of fever, chills, dyspnea, and nonproductive cough. He raises racing pigeons. Chest radiograph is normal.Chest CT scan is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute interstitial pneumonia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hypersensitivity pneumonitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Idiopathic pulmonary fibrosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pulmonary sarcoidosis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is hypersensitivity pneumonitis (HP) (Option B). Repetitive inhalation of antigens (typically complex proteins) in a sensitized patient can result in HP, an immunologic response that results in noncaseating granulomas and peribronchial mononuclear cell infiltration with giant cells. HP is classified as fibrotic or nonfibrotic based on radiologic and histopathologic features. In nonfibrotic HP, CT scans typically show diffuse parenchymal infiltration (ground-glass opacities, mosaic attenuation) and small airways disease (centrilobular nodules, air trapping). Fibrotic HP is characterized by reticular abnormalities and/or ground-glass opacities with architectural distortion (traction bronchiectasis, a loss of volume, and honeycombing). This patient's chest CT scan is compatible with nonfibrotic HP, as demonstrated by patchy, bilateral ground-glass opacities (red arrow) and centrilobular micronodules (blue arrow) in the mid-lung section. Chest radiography can also demonstrate diffuse micronodular disease but may be normal.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24003_24009"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24634.fe254f85230d4facb6a1eaafe5e9c1d8.jpg",
       "figures/pmfig24633.6aef13797be4b5d70b7847d50630d2f4.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acute interstitial pneumonia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Hypersensitivity pneumonitis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Idiopathic pulmonary fibrosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Pulmonary sarcoidosis"
-    }
-  ],
-  "question_id": "pmvdx24020",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 51-year-old man is evaluated for acute onset of fever, chills, dyspnea, and nonproductive cough. He raises racing pigeons. Chest radiograph is normal.Chest CT scan is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24003_24009"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.292923-06:00"
 }

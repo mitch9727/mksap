@@ -1,60 +1,60 @@
 {
+  "question_id": "nrvdx24005",
   "category": "nr",
-  "critique": "The most likely diagnosis is progressive multifocal leukoencephalopathy (PML) (Option D), which is caused by reactivation of the polyomavirus JC (JCV). PML-associated demyelination is confined to the subcortical white matter and the cortex. On MRI, PML presents as discrete foci of demyelination-appearing hyperintense lesions without mass effect (arrow). Diagnosis requires polymerase chain reaction testing of cerebrospinal fluid for the presence of JCV and occasionally brain biopsy. In contrast, cerebral toxoplasmosis and primary central nervous system lymphoma cause discrete mass lesions, whereas neurosyphilis is associated with nonspecific changes on MRI.",
   "educational_objective": "Diagnose progressive multifocal leukoencephalopathy.",
-  "extracted_at": "2025-12-23T14:11:42.589362-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 40-year-old woman with recently diagnosed advanced HIV infection is evaluated for altered mental status and hemianopia. Brain MRI is performed.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cerebral toxoplasmosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Neurosyphilis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Primary central nervous system lymphoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Progressive multifocal leukoencephalopathy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is progressive multifocal leukoencephalopathy (PML) (Option D), which is caused by reactivation of the polyomavirus JC (JCV). PML-associated demyelination is confined to the subcortical white matter and the cortex. On MRI, PML presents as discrete foci of demyelination-appearing hyperintense lesions without mass effect (arrow). Diagnosis requires polymerase chain reaction testing of cerebrospinal fluid for the presence of JCV and occasionally brain biopsy. In contrast, cerebral toxoplasmosis and primary central nervous system lymphoma cause discrete mass lesions, whereas neurosyphilis is associated with nonspecific changes on MRI.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "nrsec24007_24009"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/nrfig24605.92cbb0da2ec8b22f3c50285f97cf9b59.jpg",
       "figures/nrfig24604.ac5f225d18445c73f1a3fcee1d2f4065.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cerebral toxoplasmosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Neurosyphilis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Primary central nervous system lymphoma"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Progressive multifocal leukoencephalopathy"
-    }
-  ],
-  "question_id": "nrvdx24005",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 40-year-old woman with recently diagnosed advanced HIV infection is evaluated for altered mental status and hemianopia. Brain MRI is performed.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "nrsec24007_24009"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:11:42.589362-06:00"
 }

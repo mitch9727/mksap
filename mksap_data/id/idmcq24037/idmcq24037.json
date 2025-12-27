@@ -1,61 +1,61 @@
 {
+  "question_id": "idmcq24037",
   "category": "id",
-  "critique": "Infection with Chlamydia psittaci (Option B) is the most likely cause of this patient's symptoms. Psittacosis causes approximately 1% of community-acquired pneumonia. Birds are the primary reservoir, and humans can become infected after contact with psittacine birds such as parakeets, parrots, or cockatoos. This patient was most likely exposed after contact with lorikeets, a type of parrot. C. psittaci is shed in feces, urine, and respiratory secretions of birds. When feces or secretions dry, the organism can become airborne as droplet nuclei and inhaled. Person-to-person transmission has been reported. Psittacosis usually presents in young or middle-aged adults with fever, headache, and dry cough, as in this patient. The headache can be severe and accompanied by photophobia. Diarrhea has been reported in up to 25% of patients but is typically mild. Chest radiographs usually show lobar consolidation or ground glass opacities. Diagnosis is made through serologic testing. Paired acute and convalescent sera should be collected at least 2 weeks apart; a fourfold increase in antibody titer is diagnostic. Tetracyclines, specifically doxycycline, are first-line treatment.Brucella melitensis (Option A) causes brucellosis, a flu-like illness with gastrointestinal symptoms but rarely with cough. Infection most commonly occurs by eating undercooked meat from infected cattle and swine or by consuming unpasteurized dairy products but can also be contracted through inhalation or direct contact. This patient lacks associated risk factors, so infection with B. melitensis is unlikely.Coxiella burnetii (Option C) is the causative agent of Q fever. It is spread by exposure to infected bodily fluids and birth products from goats; cattle; sheep; and, less commonly, dogs, cats, and horses. It typically presents as a self-limited flu-like illness, but patients may have accompanying pneumonia or hepatitis. This patient does not have a history of animal exposure typical for infection with C. burnetii.Legionella pneumophila (Option D) is a cause of severe community-acquired pneumonia that is characterized by fever, cough, and dyspnea. Features that help distinguish Legionella from other causes of pneumonia include gastrointestinal symptoms, hyponatremia, elevated hepatic aminotransferases, and lack of response to β-lactam antibiotics. This patient has mild diarrhea, but her pneumonia is not severe and laboratory testing does not show the abnormalities associated with Legionella infection.",
   "educational_objective": "Diagnose psittacosis.",
-  "extracted_at": "2025-12-23T15:17:18.117670-06:00",
-  "key_points": [
-    "Infection with Chlamydia psittaci should be considered in patients who present with community-acquired pneumonia and a history of bird exposure, particularly parakeets, parrots, and cockatoos."
-  ],
-  "media": {
-    "images": [],
-    "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "videos": []
-  },
   "metadata": {
     "care_types": [],
-    "high_value_care": false,
     "patient_types": [],
+    "high_value_care": false,
     "question_updated": "12/23/2025"
   },
+  "question_text": "A 46-year-old woman is evaluated for a 5-day history of nonproductive cough, headache, fever, and chills accompanied by 3 days of diarrhea. She reports no dyspnea. She has two parakeets as pets at home.On physical examination, temperature is 38.2 °C (100.8 °F), blood pressure is 132/78 mm Hg, pulse rate is 92/min, and respiration rate is 16/min. Oxygen saturation is 96% breathing ambient air. Crackles are heard at the left lung base. The remainder of the examination is unremarkable.Laboratory studies:Leukocyte count9200/µL (9.2 × 109/L) with 85% neutrophilsThe remainder of her complete blood count and a comprehensive metabolic panel are normal. Rapid nucleic acid amplification tests for influenza and SARS-CoV-2 are negative.A chest radiograph shows consolidation in the left lower lobe.",
+  "question_stem": "Which of the following is the most likely cause of this patient's symptoms?",
   "options": [
     {
       "letter": "A",
-      "peer_percentage": 0,
-      "text": "Brucella melitensis"
+      "text": "Brucella melitensis",
+      "peer_percentage": 0
     },
     {
       "letter": "B",
-      "peer_percentage": 0,
-      "text": "Chlamydia psittaci"
+      "text": "Chlamydia psittaci",
+      "peer_percentage": 0
     },
     {
       "letter": "C",
-      "peer_percentage": 0,
-      "text": "Coxiella burnetii"
+      "text": "Coxiella burnetii",
+      "peer_percentage": 0
     },
     {
       "letter": "D",
-      "peer_percentage": 0,
-      "text": "Legionella pneumophila"
+      "text": "Legionella pneumophila",
+      "peer_percentage": 0
     }
   ],
-  "question_id": "idmcq24037",
-  "question_stem": "Which of the following is the most likely cause of this patient's symptoms?",
-  "question_text": "A 46-year-old woman is evaluated for a 5-day history of nonproductive cough, headache, fever, and chills accompanied by 3 days of diarrhea. She reports no dyspnea. She has two parakeets as pets at home.On physical examination, temperature is 38.2 °C (100.8 °F), blood pressure is 132/78 mm Hg, pulse rate is 92/min, and respiration rate is 16/min. Oxygen saturation is 96% breathing ambient air. Crackles are heard at the left lung base. The remainder of the examination is unremarkable.Laboratory studies:Leukocyte count9200/µL (9.2 × 109/L) with 85% neutrophilsThe remainder of her complete blood count and a comprehensive metabolic panel are normal. Rapid nucleic acid amplification tests for influenza and SARS-CoV-2 are negative.A chest radiograph shows consolidation in the left lower lobe.",
-  "references": "Yin Q, Li Y, Pan H, et al. Atypical pneumonia caused by Chlamydia psittaci during the COVID-19 pandemic. Int J Infect Dis. 2022;122:622-627. PMID: 35842216 doi:10.1016/j.ijid.2022.07.027",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24006_24003"
-    ]
-  },
   "user_performance": {
+    "user_answer": null,
     "correct_answer": "B",
     "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+    "time_taken": null
+  },
+  "critique": "Infection with Chlamydia psittaci (Option B) is the most likely cause of this patient's symptoms. Psittacosis causes approximately 1% of community-acquired pneumonia. Birds are the primary reservoir, and humans can become infected after contact with psittacine birds such as parakeets, parrots, or cockatoos. This patient was most likely exposed after contact with lorikeets, a type of parrot. C. psittaci is shed in feces, urine, and respiratory secretions of birds. When feces or secretions dry, the organism can become airborne as droplet nuclei and inhaled. Person-to-person transmission has been reported. Psittacosis usually presents in young or middle-aged adults with fever, headache, and dry cough, as in this patient. The headache can be severe and accompanied by photophobia. Diarrhea has been reported in up to 25% of patients but is typically mild. Chest radiographs usually show lobar consolidation or ground glass opacities. Diagnosis is made through serologic testing. Paired acute and convalescent sera should be collected at least 2 weeks apart; a fourfold increase in antibody titer is diagnostic. Tetracyclines, specifically doxycycline, are first-line treatment.Brucella melitensis (Option A) causes brucellosis, a flu-like illness with gastrointestinal symptoms but rarely with cough. Infection most commonly occurs by eating undercooked meat from infected cattle and swine or by consuming unpasteurized dairy products but can also be contracted through inhalation or direct contact. This patient lacks associated risk factors, so infection with B. melitensis is unlikely.Coxiella burnetii (Option C) is the causative agent of Q fever. It is spread by exposure to infected bodily fluids and birth products from goats; cattle; sheep; and, less commonly, dogs, cats, and horses. It typically presents as a self-limited flu-like illness, but patients may have accompanying pneumonia or hepatitis. This patient does not have a history of animal exposure typical for infection with C. burnetii.Legionella pneumophila (Option D) is a cause of severe community-acquired pneumonia that is characterized by fever, cough, and dyspnea. Features that help distinguish Legionella from other causes of pneumonia include gastrointestinal symptoms, hyponatremia, elevated hepatic aminotransferases, and lack of response to β-lactam antibiotics. This patient has mild diarrhea, but her pneumonia is not severe and laboratory testing does not show the abnormalities associated with Legionella infection.",
+  "key_points": [
+    "Infection with Chlamydia psittaci should be considered in patients who present with community-acquired pneumonia and a history of bird exposure, particularly parakeets, parrots, and cockatoos."
+  ],
+  "references": "Yin Q, Li Y, Pan H, et al. Atypical pneumonia caused by Chlamydia psittaci during the COVID-19 pandemic. Int J Infect Dis. 2022;122:622-627. PMID: 35842216 doi:10.1016/j.ijid.2022.07.027",
+  "related_content": {
+    "syllabus": [
+      "idsec24006_24003"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-23T15:17:18.117670-06:00"
 }

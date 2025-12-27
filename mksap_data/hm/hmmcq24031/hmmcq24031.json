@@ -1,67 +1,67 @@
 {
+  "question_id": "hmmcq24031",
   "category": "hm",
-  "critique": "The most appropriate management for this patient with immune thrombocytopenic purpura (ITP) is observation (Option E). ITP is caused by autoantibodies to platelet surface antigens. It can be a primary diagnosis or occur secondary to lymphoproliferative disorders, systemic lupus erythematosus, or infection (HIV, hepatitis C virus, Helicobacter pylori). Diagnosis requires isolated thrombocytopenia with a platelet count of less than 100,000/μL (100 × 109/L), along with exclusion of other causes of thrombocytopenia. Treatment depends on the degree of thrombocytopenia and the presence of bleeding. Patients with asymptomatic ITP and a platelet count greater than 30,000/μL (30 × 109/L) may be observed without treatment. This patient has incidentally found thrombocytopenia without a clear secondary cause, and ITP is the likely diagnosis. They have a platelet count greater than 30,000/μL (30 × 109/L) and no evidence of bleeding. Careful observation is appropriate.Bone marrow biopsy and examination (Option A) is not required for the initial diagnosis of ITP unless clinical findings, such as other blood cell abnormalities beyond the thrombocytopenia, suggest an alternate diagnosis. Bone marrow evaluation may also be done before initiating second-line treatment such as rituximab, thrombopoietin agonists, or splenectomy. This patient has no findings suggesting an alternate cause of ITP and does not require bone marrow biopsy.Thrombopoietin receptor agonists such as eltrombopag (Option B) may be beneficial as a second-line treatment option, but they must be taken continuously to prevent relapse. This treatment is not currently indicated in this patient.Intravenous immune globulin (IVIG) (Option C) may be appropriate initial therapy for patients with ITP with severe thrombocytopenia and life-threatening bleeding. Although the resulting increased platelet count occurs rapidly, the effect is also typically transient. IVIG is costly, and complications from infusion reactions (headache, allergic reactions) make it an undesirable first-line treatment for asymptomatic ITP.Glucocorticoids such as prednisone (Option D) are indicated in patients with ITP with a platelet count less than 30,000/μL (30 × 109/L) or those with bleeding. This patient has no bleeding and has a platelet count above the treatment threshold, and prednisone is not indicated.",
   "educational_objective": "Manage asymptomatic immune thrombocytopenic purpura.",
-  "extracted_at": "2025-12-22T19:36:48.278598-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 35-year-old patient presents for follow-up evaluation for thrombocytopenia that was identified during an emergency department visit following a bicycle accident. They experienced only minor injuries in the accident and have recovered fully. Medical history is unremarkable, and their only medication is acetaminophen as needed for headaches. They take no vitamins or herbal supplements.Vital signs and other physical examination findings are normal.A comprehensive metabolic panel is normal. Antibody testing for hepatitis C virus and HIV is negative.Peripheral blood smear shows normochromic, normocytic erythrocytes and normal leukocytes; occasional large platelets are noted.The laboratory studies are not substantially changed from those noted in the emergency department.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bone marrow biopsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Eltrombopag",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Intravenous immune globulin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Prednisone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "Observation",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "E",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management for this patient with immune thrombocytopenic purpura (ITP) is observation (Option E). ITP is caused by autoantibodies to platelet surface antigens. It can be a primary diagnosis or occur secondary to lymphoproliferative disorders, systemic lupus erythematosus, or infection (HIV, hepatitis C virus, Helicobacter pylori). Diagnosis requires isolated thrombocytopenia with a platelet count of less than 100,000/μL (100 × 109/L), along with exclusion of other causes of thrombocytopenia. Treatment depends on the degree of thrombocytopenia and the presence of bleeding. Patients with asymptomatic ITP and a platelet count greater than 30,000/μL (30 × 109/L) may be observed without treatment. This patient has incidentally found thrombocytopenia without a clear secondary cause, and ITP is the likely diagnosis. They have a platelet count greater than 30,000/μL (30 × 109/L) and no evidence of bleeding. Careful observation is appropriate.Bone marrow biopsy and examination (Option A) is not required for the initial diagnosis of ITP unless clinical findings, such as other blood cell abnormalities beyond the thrombocytopenia, suggest an alternate diagnosis. Bone marrow evaluation may also be done before initiating second-line treatment such as rituximab, thrombopoietin agonists, or splenectomy. This patient has no findings suggesting an alternate cause of ITP and does not require bone marrow biopsy.Thrombopoietin receptor agonists such as eltrombopag (Option B) may be beneficial as a second-line treatment option, but they must be taken continuously to prevent relapse. This treatment is not currently indicated in this patient.Intravenous immune globulin (IVIG) (Option C) may be appropriate initial therapy for patients with ITP with severe thrombocytopenia and life-threatening bleeding. Although the resulting increased platelet count occurs rapidly, the effect is also typically transient. IVIG is costly, and complications from infusion reactions (headache, allergic reactions) make it an undesirable first-line treatment for asymptomatic ITP.Glucocorticoids such as prednisone (Option D) are indicated in patients with ITP with a platelet count less than 30,000/μL (30 × 109/L) or those with bleeding. This patient has no bleeding and has a platelet count above the treatment threshold, and prednisone is not indicated.",
   "key_points": [
     "Adult patients with asymptomatic immune thrombocytopenic purpura and a platelet count greater than 30,000/μL (30 × 109/L) do not require treatment and can be managed with clinical observation.",
     "Bone marrow aspirate or biopsy is not needed to establish the diagnosis of immune thrombocytopenic purpura in patients with isolated thrombocytopenia and no other hematologic abnormalities."
   ],
+  "references": "Neunert C, Terrell DR, Arnold DM, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. Blood Adv. 2019;3:3829-3866. PMID: 31794604 doi:10.1182/bloodadvances.2019000966",
+  "related_content": {
+    "syllabus": [
+      "hmsec24006_24007"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bone marrow biopsy"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Eltrombopag"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Intravenous immune globulin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Prednisone"
-    },
-    {
-      "letter": "E",
-      "peer_percentage": 0,
-      "text": "Observation"
-    }
-  ],
-  "question_id": "hmmcq24031",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 35-year-old patient presents for follow-up evaluation for thrombocytopenia that was identified during an emergency department visit following a bicycle accident. They experienced only minor injuries in the accident and have recovered fully. Medical history is unremarkable, and their only medication is acetaminophen as needed for headaches. They take no vitamins or herbal supplements.Vital signs and other physical examination findings are normal.A comprehensive metabolic panel is normal. Antibody testing for hepatitis C virus and HIV is negative.Peripheral blood smear shows normochromic, normocytic erythrocytes and normal leukocytes; occasional large platelets are noted.The laboratory studies are not substantially changed from those noted in the emergency department.",
-  "references": "Neunert C, Terrell DR, Arnold DM, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. Blood Adv. 2019;3:3829-3866. PMID: 31794604 doi:10.1182/bloodadvances.2019000966",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24006_24007"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "E",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:36:48.278598-06:00"
 }

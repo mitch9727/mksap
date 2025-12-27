@@ -1,61 +1,61 @@
 {
+  "question_id": "enqqq24016",
   "category": "en",
-  "critique": "A comprehensive foot examination (Option A) should be performed now. Patients with diabetes mellitus require monitoring for complications, and a thorough foot examination should be performed at the time of diagnosis and then annually thereafter in patients with type 2 diabetes. A comprehensive foot examination includes the following:Skin inspectionFoot deformity assessmentNeurologic assessment (10-g monofilament testing with at least one other nerve assessment: vibration, temperature, or pinprick)Vascular assessment, including pulses in the legs and feetThis patient has not yet had a comprehensive foot examination; therefore, one should be performed.Three tests can be used to diagnose diabetes and prediabetes:Hemoglobin A1cFasting plasma glucoseOral glucose tolerance test (OGTT)Two abnormal diagnostic tests are required to diagnose diabetes in persons without hyperglycemic symptoms. This may be done by performing two different tests on the same sample or by testing two samples taken at different points in time. This patient had two abnormal hemoglobin A1c measurements, and additional testing with an OGTT (Option B) is not warranted.Annual screening for albuminuria in patients with type 2 diabetes should be undertaken starting at the time of diagnosis; this is done with an albumin-creatinine ratio on a random spot urine sample, as already performed in this patient, not a 24-hour urine collection for protein (Option C).Long-term metformin use may be associated with vitamin B12 deficiency, and periodic measurement of serum vitamin B12 levels should be considered in patients treated with metformin. However, vitamin B12 measurement (Option D) is not recommended at initiation of metformin therapy; therefore, this measurement is not currently necessary in this patient.",
   "educational_objective": "Screen for neuropathy in a patient with type 2 diabetes mellitus.",
-  "extracted_at": "2025-12-23T15:17:18.243831-06:00",
-  "key_points": [
-    "Screening for diabetic complications, including a urine albumin-creatinine ratio and a comprehensive foot examination, should be performed at the time of diagnosis of type 2 diabetes mellitus and then annually thereafter."
-  ],
-  "media": {
-    "images": [],
-    "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "videos": []
-  },
   "metadata": {
     "care_types": [],
-    "high_value_care": false,
     "patient_types": [],
+    "high_value_care": false,
     "question_updated": "12/23/2025"
   },
+  "question_text": "A 55-year-old man is evaluated during a follow-up visit after he was diagnosed with type 2 diabetes mellitus based on two hemoglobin A1c measurements of 7.8%. Medical history is significant for dyslipidemia, hypertension, and obesity. Medications are aspirin, atorvastatin, and lisinopril.On physical examination, vital signs are normal. BMI is 33. A dilated eye examination is normal.Urine studies:Albumin-creatinine ratio12 mg/gTherapeutic lifestyle modifications are discussed, and metformin is initiated.",
+  "question_stem": "Which of the following screening tests should be done now?",
   "options": [
     {
       "letter": "A",
-      "peer_percentage": 0,
-      "text": "Comprehensive foot examination"
+      "text": "Comprehensive foot examination",
+      "peer_percentage": 0
     },
     {
       "letter": "B",
-      "peer_percentage": 0,
-      "text": "2-Hour 75-g oral glucose tolerance test"
+      "text": "2-Hour 75-g oral glucose tolerance test",
+      "peer_percentage": 0
     },
     {
       "letter": "C",
-      "peer_percentage": 0,
-      "text": "24-Hour urine protein measurement"
+      "text": "24-Hour urine protein measurement",
+      "peer_percentage": 0
     },
     {
       "letter": "D",
-      "peer_percentage": 0,
-      "text": "Serum vitamin B12 measurement"
+      "text": "Serum vitamin B12 measurement",
+      "peer_percentage": 0
     }
   ],
-  "question_id": "enqqq24016",
-  "question_stem": "Which of the following screening tests should be done now?",
-  "question_text": "A 55-year-old man is evaluated during a follow-up visit after he was diagnosed with type 2 diabetes mellitus based on two hemoglobin A1c measurements of 7.8%. Medical history is significant for dyslipidemia, hypertension, and obesity. Medications are aspirin, atorvastatin, and lisinopril.On physical examination, vital signs are normal. BMI is 33. A dilated eye examination is normal.Urine studies:Albumin-creatinine ratio12 mg/gTherapeutic lifestyle modifications are discussed, and metformin is initiated.",
-  "references": "American Diabetes Association Professional Practice Committee. 12. Retinopathy, neuropathy, and foot care: Standards of Care in Diabetes—2025. Diabetes Care. 2025;48:S252-S265. PMID: 39651973 doi:10.2337/dc25-S012",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24002_24041"
-    ]
-  },
   "user_performance": {
+    "user_answer": null,
     "correct_answer": "A",
     "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+    "time_taken": null
+  },
+  "critique": "A comprehensive foot examination (Option A) should be performed now. Patients with diabetes mellitus require monitoring for complications, and a thorough foot examination should be performed at the time of diagnosis and then annually thereafter in patients with type 2 diabetes. A comprehensive foot examination includes the following:Skin inspectionFoot deformity assessmentNeurologic assessment (10-g monofilament testing with at least one other nerve assessment: vibration, temperature, or pinprick)Vascular assessment, including pulses in the legs and feetThis patient has not yet had a comprehensive foot examination; therefore, one should be performed.Three tests can be used to diagnose diabetes and prediabetes:Hemoglobin A1cFasting plasma glucoseOral glucose tolerance test (OGTT)Two abnormal diagnostic tests are required to diagnose diabetes in persons without hyperglycemic symptoms. This may be done by performing two different tests on the same sample or by testing two samples taken at different points in time. This patient had two abnormal hemoglobin A1c measurements, and additional testing with an OGTT (Option B) is not warranted.Annual screening for albuminuria in patients with type 2 diabetes should be undertaken starting at the time of diagnosis; this is done with an albumin-creatinine ratio on a random spot urine sample, as already performed in this patient, not a 24-hour urine collection for protein (Option C).Long-term metformin use may be associated with vitamin B12 deficiency, and periodic measurement of serum vitamin B12 levels should be considered in patients treated with metformin. However, vitamin B12 measurement (Option D) is not recommended at initiation of metformin therapy; therefore, this measurement is not currently necessary in this patient.",
+  "key_points": [
+    "Screening for diabetic complications, including a urine albumin-creatinine ratio and a comprehensive foot examination, should be performed at the time of diagnosis of type 2 diabetes mellitus and then annually thereafter."
+  ],
+  "references": "American Diabetes Association Professional Practice Committee. 12. Retinopathy, neuropathy, and foot care: Standards of Care in Diabetes—2025. Diabetes Care. 2025;48:S252-S265. PMID: 39651973 doi:10.2337/dc25-S012",
+  "related_content": {
+    "syllabus": [
+      "ensec24002_24041"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-23T15:17:18.243831-06:00"
 }

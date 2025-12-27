@@ -1,62 +1,62 @@
 {
+  "question_id": "cvmcq24115",
   "category": "cv",
-  "critique": "The most appropriate management is to start metoprolol (Option C) in this patient with atrial fibrillation (AF) and rapid ventricular response. In patients with AF, heart rate control is necessary to improve cardiac function and alleviate symptoms, if present. Atrioventricular nodal blockers such as nondihydropyridine calcium channel blockers and β-blockers are first-line options, with comorbid conditions influencing the choice of agent. In patients with left ventricular (LV) dysfunction, for example, calcium channel blockers should be avoided. The immediate goal heart rate should be between 60/min and 110/min, and intravenous or oral administration may be appropriate depending on symptoms. This patient has a new diagnosis of AF, and although he is asymptomatic, his resting heart rate is greater than 120/min. The best next step is to initiate a rate-controlling agent with a nondihydropyridine calcium channel blocker such as diltiazem or a β-blocker such as metoprolol.Digoxin (Option A) is a second-line option for rate control in patients with AF. It is most appropriate as additive therapy when treatment with calcium channel blockers and/or β-blockers does not result in adequate rate control. It is also useful in patients with reduced ejection fraction. Digoxin toxicity, however, is common, especially in patients with chronic kidney disease, such as this patient. Metoprolol is a better choice.Direct current cardioversion (Option B) is not indicated in this patient. Urgent cardioversion is indicated in unstable patients in whom the AF is causing complications such as hypotension or heart failure. It can also be considered in stable patients who have a clear duration of AF of less than 48 hours. Otherwise, at least 4 weeks of anticoagulation or imaging to assess for the presence of a left atrial thrombus is necessary before cardioversion. This patient is stable and has not received anticoagulation therapy; cardioversion is not indicated.Making no changes to this patient's management (Option D) would be inappropriate. Although he has no symptoms referable to AF, his resting heart rate is above even the most conservative targets (100/min). Patients with uncontrolled tachycardia in the setting of AF are at risk for a tachycardia-induced cardiomyopathy, and rate control is indicated.",
   "educational_objective": "Treat newly diagnosed atrial fibrillation.",
-  "extracted_at": "2025-12-22T22:49:31.327090-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 60-year-old man is evaluated during a routine follow-up visit. He feels well and has no concerns. He has sleep apnea, hypertension, and chronic kidney disease. Medications are lisinopril, amlodipine, and furosemide.On physical examination, blood pressure is 155/100 mm Hg and pulse rate is 123/min. Cardiopulmonary examination reveals clear lungs and irregular tachycardia.Results of other laboratory studies, including thyroid-stimulating hormone level, are all normal.ECG shows atrial fibrillation (123/min). Transthoracic echocardiogram reveals a slightly enlarged left atrium, normal left ventricular size and function, and no significant valvular disease.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Digoxin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Direct current cardioversion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Metoprolol",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No change in management",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is to start metoprolol (Option C) in this patient with atrial fibrillation (AF) and rapid ventricular response. In patients with AF, heart rate control is necessary to improve cardiac function and alleviate symptoms, if present. Atrioventricular nodal blockers such as nondihydropyridine calcium channel blockers and β-blockers are first-line options, with comorbid conditions influencing the choice of agent. In patients with left ventricular (LV) dysfunction, for example, calcium channel blockers should be avoided. The immediate goal heart rate should be between 60/min and 110/min, and intravenous or oral administration may be appropriate depending on symptoms. This patient has a new diagnosis of AF, and although he is asymptomatic, his resting heart rate is greater than 120/min. The best next step is to initiate a rate-controlling agent with a nondihydropyridine calcium channel blocker such as diltiazem or a β-blocker such as metoprolol.Digoxin (Option A) is a second-line option for rate control in patients with AF. It is most appropriate as additive therapy when treatment with calcium channel blockers and/or β-blockers does not result in adequate rate control. It is also useful in patients with reduced ejection fraction. Digoxin toxicity, however, is common, especially in patients with chronic kidney disease, such as this patient. Metoprolol is a better choice.Direct current cardioversion (Option B) is not indicated in this patient. Urgent cardioversion is indicated in unstable patients in whom the AF is causing complications such as hypotension or heart failure. It can also be considered in stable patients who have a clear duration of AF of less than 48 hours. Otherwise, at least 4 weeks of anticoagulation or imaging to assess for the presence of a left atrial thrombus is necessary before cardioversion. This patient is stable and has not received anticoagulation therapy; cardioversion is not indicated.Making no changes to this patient's management (Option D) would be inappropriate. Although he has no symptoms referable to AF, his resting heart rate is above even the most conservative targets (100/min). Patients with uncontrolled tachycardia in the setting of AF are at risk for a tachycardia-induced cardiomyopathy, and rate control is indicated.",
   "key_points": [
     "Atrioventricular nodal blockers such as nondihydropyridine calcium channel blockers and β-blockers are first-line options for ventricular rate control in atrial fibrillation.",
     "Atrial fibrillation with uncontrolled ventricular rate may result in tachycardia-induced cardiomyopathy, and rate control is indicated, even in asymptomatic patients."
   ],
+  "references": "January CT, Wann LS, Calkins H, et al. 2019 AHA/ACC/HRS focused update of the 2014 AHA/ACC/HRS guideline for the management of patients with atrial fibrillation: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. J Am Coll Cardiol. 2019;74:104-132. PMID: 30703431 doi:10.1016/j.jacc.2019.01.011",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24029"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Digoxin"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Direct current cardioversion"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Metoprolol"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "No change in management"
-    }
-  ],
-  "question_id": "cvmcq24115",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 60-year-old man is evaluated during a routine follow-up visit. He feels well and has no concerns. He has sleep apnea, hypertension, and chronic kidney disease. Medications are lisinopril, amlodipine, and furosemide.On physical examination, blood pressure is 155/100 mm Hg and pulse rate is 123/min. Cardiopulmonary examination reveals clear lungs and irregular tachycardia.Results of other laboratory studies, including thyroid-stimulating hormone level, are all normal.ECG shows atrial fibrillation (123/min). Transthoracic echocardiogram reveals a slightly enlarged left atrium, normal left ventricular size and function, and no significant valvular disease.",
-  "references": "January CT, Wann LS, Calkins H, et al. 2019 AHA/ACC/HRS focused update of the 2014 AHA/ACC/HRS guideline for the management of patients with atrial fibrillation: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. J Am Coll Cardiol. 2019;74:104-132. PMID: 30703431 doi:10.1016/j.jacc.2019.01.011",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24006_24029"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:49:31.327090-06:00"
 }

@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24012",
   "category": "cv",
-  "critique": "The most likely diagnosis is cardiac tamponade (Option B). On ECG, electrical alternans (a shifting of the QRS axis with each beat related to a swinging motion of the heart within the pericardial fluid) and low voltage are suggestive of cardiac tamponade. Clinical signs of tamponade include tachycardia, hypotension, muffled heart sounds, and elevation of the jugular venous pulse. The y descent of the jugular venous pulse may be absent because passive filling of the ventricles is impeded by the intrapericardial pressure. The cardiac silhouette is typically enlarged on chest radiograph if the accumulation of fluid has occurred slowly. In this patient, the ECG demonstrates electrical alternans, which is most clearly seen in leads I and II and the precordial leads, making cardiac tamponade a likely diagnosis.",
   "educational_objective": "Identify ECG manifestations of cardiac tamponade.",
-  "extracted_at": "2025-12-23T14:08:40.382316-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 40-year-old woman is evaluated for hypotension and dyspnea. She is currently being treated for breast cancer. Blood pressure is 100/70 mm Hg, and pulse rate is 170/min. Heart sounds are distant. Jugular venous pressure is elevated.ECG is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute coronary syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Cardiac tamponade",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "COPD",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pulmonary embolism",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is cardiac tamponade (Option B). On ECG, electrical alternans (a shifting of the QRS axis with each beat related to a swinging motion of the heart within the pericardial fluid) and low voltage are suggestive of cardiac tamponade. Clinical signs of tamponade include tachycardia, hypotension, muffled heart sounds, and elevation of the jugular venous pulse. The y descent of the jugular venous pulse may be absent because passive filling of the ventricles is impeded by the intrapericardial pressure. The cardiac silhouette is typically enlarged on chest radiograph if the accumulation of fluid has occurred slowly. In this patient, the ECG demonstrates electrical alternans, which is most clearly seen in leads I and II and the precordial leads, making cardiac tamponade a likely diagnosis.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24009_24007"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24613.a666b330b2aaa66bc5ff89a0342004ca.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acute coronary syndrome"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Cardiac tamponade"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "COPD"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Pulmonary embolism"
-    }
-  ],
-  "question_id": "cvvdx24012",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 40-year-old woman is evaluated for hypotension and dyspnea. She is currently being treated for breast cancer. Blood pressure is 100/70 mm Hg, and pulse rate is 170/min. Heart sounds are distant. Jugular venous pressure is elevated.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24009_24007"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.382316-06:00"
 }

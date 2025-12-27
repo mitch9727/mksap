@@ -1,60 +1,60 @@
 {
+  "question_id": "envdx24013",
   "category": "en",
-  "critique": "The most likely diagnosis is Cushing syndrome (Option A). This patient with hypertension and diabetes mellitus demonstrates many of the physical findings associated with Cushing syndrome, including facial plethora, abdominal striae (especially if reddish purple and >1 cm in width), abdominal obesity, dorsocervical fat pad, supraclavicular fat pads (which may obscure visualization of the clavicles), and ecchymoses, most easily seen on the right arm in this frontal view.",
   "educational_objective": "Diagnose Cushing syndrome.",
-  "extracted_at": "2025-12-23T14:09:16.937142-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 56-year-old man is evaluated for hypertension and diabetes mellitus.His profile is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cushing syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Pheochromocytoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Primary aldosteronism",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Primary hypertension",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is Cushing syndrome (Option A). This patient with hypertension and diabetes mellitus demonstrates many of the physical findings associated with Cushing syndrome, including facial plethora, abdominal striae (especially if reddish purple and >1 cm in width), abdominal obesity, dorsocervical fat pad, supraclavicular fat pads (which may obscure visualization of the clavicles), and ecchymoses, most easily seen on the right arm in this frontal view.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "ensec24003_24026"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/enfig24616.febb83d81eb76012d047fd056d47f637.jpg",
       "figures/enfig24615.bcedaf136d84d928c04bacce12e10c81.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cushing syndrome"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Pheochromocytoma"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Primary aldosteronism"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Primary hypertension"
-    }
-  ],
-  "question_id": "envdx24013",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 56-year-old man is evaluated for hypertension and diabetes mellitus.His profile is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24003_24026"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:16.937142-06:00"
 }

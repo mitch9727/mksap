@@ -1,60 +1,60 @@
 {
+  "question_id": "invdx24023",
   "category": "in",
-  "critique": "This patient has preseptal cellulitis (Option D). Preseptal (or periorbital) cellulitis refers to infection of the skin surrounding the eye, including the anterior portion of the eyelids, without involvement of the underlying fat tissue plane or extraocular muscles. Although sometimes dramatic in appearance, it is rarely associated with severe complications. In contrast, orbital cellulitis is a deeper infection involving the underlying fat tissue and/or extraocular muscles; it can be distinguished from preseptal cellulitis by the presence of pain with movement of the eyes (sometimes with ophthalmoplegia), vison loss, and proptosis. CT of the orbit and sinuses and immediate ophthalmology referral is indicated when the diagnosis of orbital cellulitis is suspected clinically.",
   "educational_objective": "Diagnose preseptal cellulitis.",
-  "extracted_at": "2025-12-23T15:28:36.826667-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 42-year-old man presents with swelling and pain around his left eye. He reports no pain with eye movement or visual changes.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute rhinosinusitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hyperacute bacterial conjunctivitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Orbital cellulitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Preseptal cellulitis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has preseptal cellulitis (Option D). Preseptal (or periorbital) cellulitis refers to infection of the skin surrounding the eye, including the anterior portion of the eyelids, without involvement of the underlying fat tissue plane or extraocular muscles. Although sometimes dramatic in appearance, it is rarely associated with severe complications. In contrast, orbital cellulitis is a deeper infection involving the underlying fat tissue and/or extraocular muscles; it can be distinguished from preseptal cellulitis by the presence of pain with movement of the eyes (sometimes with ophthalmoplegia), vison loss, and proptosis. CT of the orbit and sinuses and immediate ophthalmology referral is indicated when the diagnosis of orbital cellulitis is suspected clinically.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "insec24003_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/infig24633.88998ae7c4b1840a7dad9e64d20cdd18.jpg",
       "figures/infig24634.dfb297f2a89f52723aa57f4e548a8b18.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acute rhinosinusitis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Hyperacute bacterial conjunctivitis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Orbital cellulitis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Preseptal cellulitis"
-    }
-  ],
-  "question_id": "invdx24023",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 42-year-old man presents with swelling and pain around his left eye. He reports no pain with eye movement or visual changes.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "insec24003_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:28:36.826667-06:00"
 }

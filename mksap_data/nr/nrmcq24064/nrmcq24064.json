@@ -1,62 +1,62 @@
 {
+  "question_id": "nrmcq24064",
   "category": "nr",
-  "critique": "The most appropriate management is to perform continuous ambulatory ECG monitoring (Option C) in this patient with an embolic stroke of undetermined source (ESUS). ESUS is characterized by an infarct in an embolic pattern with negative initial cardiac and vascular evaluations. Several studies have demonstrated that approximately one third of patients with ESUS will be found to have atrial fibrillation on prolonged cardiac monitoring. Predictors of atrial fibrillation include age, sex, hypertension, diabetes mellitus, alcohol use, obstructive sleep apnea, echocardiographic or electrocardiographic evidence of left atrial strain, and elevated biomarkers such as troponin or N-terminal pro–B-type natriuretic peptide. The optimal strategy to rule out atrial fibrillation in patients with ESUS is unclear. Options include mobile cardiac outpatient telemetry, patch monitors, and implantable loop recorders. Factors influencing the choice of monitoring modality include cost, monitoring duration, and local availability. This patient, who has several risk factors for atrial fibrillation, has ESUS based on a left middle cerebral artery cortical surface infarct without evidence of large artery atherosclerosis or a cardioembolic source. They should undergo prolonged cardiac monitoring.Although patients with proven cardioembolic stroke should receive anticoagulation, two randomized clinical trials in patients with ESUS have not shown a clinical benefit from empiric anticoagulation with dabigatran or rivaroxaban (Option A). It would not be appropriate to anticoagulate this patient without a clear indication to do so.The patient had a minor stroke, for which evidence supports the use of dual antiplatelet agents given within 24 hours, typically for 30 days but possibly longer if evidence of intracranial atherosclerosis is found. Although switching from clopidogrel to ticagrelor (Option B) may have benefit in patients with a clopidogrel loss-of-function allele, it would be premature to make this switch absent this testing result.In older patients who have been in sinus rhythm, transesophageal echocardiography (TEE) (Option D) is unlikely to provide information that would change clinical management. TEE can be considered in patients younger than 40 years who have a low burden of cardiovascular disease risk factors or in those in whom suspicion of structural heart disease persists despite an unremarkable transthoracic study.",
   "educational_objective": "Evaluate a patient with an embolic stroke of undetermined source.",
-  "extracted_at": "2025-12-22T20:17:17.797457-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 76-year-old patient is evaluated before hospital discharge following a left parietal and frontal lobe infarct. They have hypertension, type 2 diabetes mellitus, dyslipidemia, and obstructive sleep apnea. Medications are aspirin, clopidogrel, irbesartan, metformin, and atorvastatin.On physical examination, vital signs are normal. The patient shows right facial weakness and mild difficulties with word finding and following three-step commands. Cardiac examination reveals no carotid bruits or murmurs.MRI of the brain with diffusion-weighted imaging is shown. CT angiography shows less than 50% stenosis in both extracranial internal carotid arteries and no intracranial arterial stenosis. Hospital telemetry shows no atrial fibrillation. Transthoracic echocardiogram is normal.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Change aspirin and clopidogrel to rivaroxaban",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Change clopidogrel to ticagrelor",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Perform continuous ambulatory ECG monitoring",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Perform transesophageal echocardiography",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is to perform continuous ambulatory ECG monitoring (Option C) in this patient with an embolic stroke of undetermined source (ESUS). ESUS is characterized by an infarct in an embolic pattern with negative initial cardiac and vascular evaluations. Several studies have demonstrated that approximately one third of patients with ESUS will be found to have atrial fibrillation on prolonged cardiac monitoring. Predictors of atrial fibrillation include age, sex, hypertension, diabetes mellitus, alcohol use, obstructive sleep apnea, echocardiographic or electrocardiographic evidence of left atrial strain, and elevated biomarkers such as troponin or N-terminal pro–B-type natriuretic peptide. The optimal strategy to rule out atrial fibrillation in patients with ESUS is unclear. Options include mobile cardiac outpatient telemetry, patch monitors, and implantable loop recorders. Factors influencing the choice of monitoring modality include cost, monitoring duration, and local availability. This patient, who has several risk factors for atrial fibrillation, has ESUS based on a left middle cerebral artery cortical surface infarct without evidence of large artery atherosclerosis or a cardioembolic source. They should undergo prolonged cardiac monitoring.Although patients with proven cardioembolic stroke should receive anticoagulation, two randomized clinical trials in patients with ESUS have not shown a clinical benefit from empiric anticoagulation with dabigatran or rivaroxaban (Option A). It would not be appropriate to anticoagulate this patient without a clear indication to do so.The patient had a minor stroke, for which evidence supports the use of dual antiplatelet agents given within 24 hours, typically for 30 days but possibly longer if evidence of intracranial atherosclerosis is found. Although switching from clopidogrel to ticagrelor (Option B) may have benefit in patients with a clopidogrel loss-of-function allele, it would be premature to make this switch absent this testing result.In older patients who have been in sinus rhythm, transesophageal echocardiography (TEE) (Option D) is unlikely to provide information that would change clinical management. TEE can be considered in patients younger than 40 years who have a low burden of cardiovascular disease risk factors or in those in whom suspicion of structural heart disease persists despite an unremarkable transthoracic study.",
   "key_points": [
     "Approximately one third of patients with embolic stroke of undetermined source (ESUS) will be found to have atrial fibrillation through prolonged cardiac monitoring.",
     "Prolonged cardiac monitoring should be completed in patients with ESUS to assess for the presence of atrial fibrillation."
   ],
+  "references": "Kleindorfer DO, Towfighi A, Chaturvedi S, et al. 2021 Guideline for the prevention of stroke in patients with stroke and transient ischemic attack: a guideline from the American Heart Association/American Stroke Association. Stroke. 2021;52:e364-e467. PMID: 34024117 doi:10.1161/STR.0000000000000375",
+  "related_content": {
+    "syllabus": [
+      "nrsec24004_24008"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/nrfig24205.23b70a7d82199507447dc5d04bb3c64f.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Change aspirin and clopidogrel to rivaroxaban"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Change clopidogrel to ticagrelor"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Perform continuous ambulatory ECG monitoring"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Perform transesophageal echocardiography"
-    }
-  ],
-  "question_id": "nrmcq24064",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 76-year-old patient is evaluated before hospital discharge following a left parietal and frontal lobe infarct. They have hypertension, type 2 diabetes mellitus, dyslipidemia, and obstructive sleep apnea. Medications are aspirin, clopidogrel, irbesartan, metformin, and atorvastatin.On physical examination, vital signs are normal. The patient shows right facial weakness and mild difficulties with word finding and following three-step commands. Cardiac examination reveals no carotid bruits or murmurs.MRI of the brain with diffusion-weighted imaging is shown. CT angiography shows less than 50% stenosis in both extracranial internal carotid arteries and no intracranial arterial stenosis. Hospital telemetry shows no atrial fibrillation. Transthoracic echocardiogram is normal.",
-  "references": "Kleindorfer DO, Towfighi A, Chaturvedi S, et al. 2021 Guideline for the prevention of stroke in patients with stroke and transient ischemic attack: a guideline from the American Heart Association/American Stroke Association. Stroke. 2021;52:e364-e467. PMID: 34024117 doi:10.1161/STR.0000000000000375",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "nrsec24004_24008"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:17:17.797457-06:00"
 }

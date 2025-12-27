@@ -1,56 +1,56 @@
 {
+  "question_id": "cvvdx24043",
   "category": "cv",
-  "critique": "This patient's ultrasound shows a large, circumferential pericardial effusion (arrows) (Option A), with evidence of cardiac tamponade. An anechoic space is seen between the liver in the near field and the myocardium of the heart and also surrounds the entire heart, indicating a large effusion. Cardiac tamponade is suggested by collapse of the right atrium or the right ventricle during the diastolic phase of the cardiac cycle. In this study, the right ventricular free wall appears to “wiggle,” which is caused by the inward diastolic movement typical in tamponade.",
   "educational_objective": "Diagnose pericardial effusion using point-of-care ultrasonography.",
-  "extracted_at": "2025-12-23T14:08:40.464459-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A patient evaluated for cough is found to have an enlarged cardiac silhouette on a chest radiograph. Ultrasonography is performed with the transducer placed in the subxiphoid area.(Note that there is no sound for this video.)",
+  "question_stem": "Which of the following is the most likely interpretation of this study?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Large pericardial effusion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Normal study",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Severe left ventricular dysfunction",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient's ultrasound shows a large, circumferential pericardial effusion (arrows) (Option A), with evidence of cardiac tamponade. An anechoic space is seen between the liver in the near field and the myocardium of the heart and also surrounds the entire heart, indicating a large effusion. Cardiac tamponade is suggested by collapse of the right atrium or the right ventricle during the diastolic phase of the cardiac cycle. In this study, the right ventricular free wall appears to “wiggle,” which is caused by the inward diastolic movement typical in tamponade.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24009_24005"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24650.e9f7c05ccc6f5488e5a11ac9d7001a8a.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": [
       "cvvid24601"
     ]
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Large pericardial effusion"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Normal study"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Severe left ventricular dysfunction"
-    }
-  ],
-  "question_id": "cvvdx24043",
-  "question_stem": "Which of the following is the most likely interpretation of this study?",
-  "question_text": "A patient evaluated for cough is found to have an enlarged cardiac silhouette on a chest radiograph. Ultrasonography is performed with the transducer placed in the subxiphoid area.(Note that there is no sound for this video.)",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24009_24005"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.464459-06:00"
 }

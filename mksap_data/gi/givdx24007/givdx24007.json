@@ -1,59 +1,59 @@
 {
+  "question_id": "givdx24007",
   "category": "gi",
-  "critique": "This patient most likely has acute pancreatitis (Option A). This CT scan shows enlargement of the gland, with contour irregularities and edema. The diagnosis of acute pancreatitis requires two of the following three criteria: acute-onset abdominal pain characteristic of pancreatitis, serum lipase or amylase levels elevated to at least three times the upper limit of normal, and characteristic imaging findings. Typical imaging findings of acute pancreatitis include pancreatic edema and peripancreatic stranding.",
   "educational_objective": "Diagnose acute pancreatitis.",
-  "extracted_at": "2025-12-23T14:14:31.082549-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 29-year-old woman is evaluated for acute epigastric pain associated with nausea and vomiting.A contrast-enhanced abdominal CT scan is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute pancreatitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Autoimmune pancreatitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Pancreatic cancer",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pancreatic pseudocyst",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient most likely has acute pancreatitis (Option A). This CT scan shows enlargement of the gland, with contour irregularities and edema. The diagnosis of acute pancreatitis requires two of the following three criteria: acute-onset abdominal pain characteristic of pancreatitis, serum lipase or amylase levels elevated to at least three times the upper limit of normal, and characteristic imaging findings. Typical imaging findings of acute pancreatitis include pancreatic edema and peripancreatic stranding.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "gisec24003_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/gifig24610.df13b40d5e7f74768d8c4d3197bf0be1.png"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acute pancreatitis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Autoimmune pancreatitis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Pancreatic cancer"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Pancreatic pseudocyst"
-    }
-  ],
-  "question_id": "givdx24007",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 29-year-old woman is evaluated for acute epigastric pain associated with nausea and vomiting.A contrast-enhanced abdominal CT scan is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "gisec24003_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:14:31.082549-06:00"
 }

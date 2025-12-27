@@ -1,59 +1,59 @@
 {
+  "question_id": "envdx24017",
   "category": "en",
-  "critique": "This patient with vitiligo is most at risk for developing autoimmune thyroid disease, such as Hashimoto thyroiditis (Option C). Vitiligo is an autoimmune condition characterized by the loss of function or absence of melanocytes, resulting in patchy depigmentation of the skin. Its onset is insidious and asymptomatic, starting as smaller macules that gradually enlarge. It tends to be more visible in persons with darker skin types or in sun-exposed areas, as the surrounding skin will become darker with sun exposure. The most commonly affected areas involve the extensor surfaces, such as the dorsal hands and feet, elbows, and knees, and the periorificial areas, such as around the mouth, eyes, rectum, and genitals. Vitiligo is associated with other autoimmune diseases, with autoimmune thyroid disease (e.g., Hashimoto thyroiditis and Graves disease) being most common. Other autoimmune disorders associated with vitiligo include type 1 diabetes mellitus, alopecia areata, primary adrenal insufficiency, pernicious anemia, rheumatoid arthritis, and polyglandular autoimmune syndrome.",
   "educational_objective": "Identify the association between vitiligo and autoimmune thyroid disease.",
-  "extracted_at": "2025-12-23T14:09:16.953728-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 24-year-old woman has the skin findings shown.",
+  "question_stem": "Which of the following diagnoses is the patient most at risk for developing?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Breast cancer",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Epilepsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Hashimoto thyroiditis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Hepatitis C virus infection",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient with vitiligo is most at risk for developing autoimmune thyroid disease, such as Hashimoto thyroiditis (Option C). Vitiligo is an autoimmune condition characterized by the loss of function or absence of melanocytes, resulting in patchy depigmentation of the skin. Its onset is insidious and asymptomatic, starting as smaller macules that gradually enlarge. It tends to be more visible in persons with darker skin types or in sun-exposed areas, as the surrounding skin will become darker with sun exposure. The most commonly affected areas involve the extensor surfaces, such as the dorsal hands and feet, elbows, and knees, and the periorificial areas, such as around the mouth, eyes, rectum, and genitals. Vitiligo is associated with other autoimmune diseases, with autoimmune thyroid disease (e.g., Hashimoto thyroiditis and Graves disease) being most common. Other autoimmune disorders associated with vitiligo include type 1 diabetes mellitus, alopecia areata, primary adrenal insufficiency, pernicious anemia, rheumatoid arthritis, and polyglandular autoimmune syndrome.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "ensec24005_24024"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/enfig24622.5d773a558f194faa1a6a66129af5ae2e.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Breast cancer"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Epilepsy"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Hashimoto thyroiditis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Hepatitis C virus infection"
-    }
-  ],
-  "question_id": "envdx24017",
-  "question_stem": "Which of the following diagnoses is the patient most at risk for developing?",
-  "question_text": "A 24-year-old woman has the skin findings shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24005_24024"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:16.953728-06:00"
 }

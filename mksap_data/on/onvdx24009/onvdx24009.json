@@ -1,61 +1,61 @@
 {
+  "question_id": "onvdx24009",
   "category": "on",
-  "critique": "The most likely diagnosis is chronic lymphocytic leukemia (CLL) (Option A). The key to diagnosis of CLL is recognition of an increased blood leukocyte count resulting from increased numbers of mature lymphocytes and “smudge cells” on peripheral blood smear. Smudge cells, as demonstrated in this image (upper left of center and bottom left of center) are caused by mature-appearing peripheral lymphocytes that are abnormally fragile and become damaged during slide preparation.",
   "educational_objective": "Diagnose chronic lymphocytic leukemia.",
-  "extracted_at": "2025-12-23T14:12:25.118239-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 62-year-old woman is evaluated for an incidental finding of leukocytosis. She is asymptomatic.Peripheral blood smear is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Chronic lymphocytic leukemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Epstein-Barr virus infection",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Hairy cell leukemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Multiple myeloma",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is chronic lymphocytic leukemia (CLL) (Option A). The key to diagnosis of CLL is recognition of an increased blood leukocyte count resulting from increased numbers of mature lymphocytes and “smudge cells” on peripheral blood smear. Smudge cells, as demonstrated in this image (upper left of center and bottom left of center) are caused by mature-appearing peripheral lymphocytes that are abnormally fragile and become damaged during slide preparation.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "onsec24008_24009"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [
       "figures/onfig24610.c868e054ddfa789c845f9a9237c984a1.jpg"
     ],
     "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Chronic lymphocytic leukemia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Epstein-Barr virus infection"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Hairy cell leukemia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Multiple myeloma"
-    }
-  ],
-  "question_id": "onvdx24009",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 62-year-old woman is evaluated for an incidental finding of leukocytosis. She is asymptomatic.Peripheral blood smear is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "onsec24008_24009"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:12:25.118239-06:00"
 }

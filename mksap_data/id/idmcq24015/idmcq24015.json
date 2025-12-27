@@ -1,62 +1,62 @@
 {
+  "question_id": "idmcq24015",
   "category": "id",
-  "critique": "No further management (Option D) is required for this patient regardless of the source patient's hepatitis B virus (HBV) status. A person is considered immune to hepatitis B if they completed the hepatitis B vaccine series (at least two or three doses, depending on the vaccine preparation received) and were documented to have an antibody response to hepatitis B surface antigen (anti-HBs) of 10 mU/mL or greater 1 to 2 months after completion of the vaccine series.Administering hepatitis B immune globulin (HBIG) (Option A) is not necessary in this patient. He has a documented vaccine response to hepatitis B. HBIG is indicated if the source patient is positive for HBV and the exposed person is a vaccine nonresponder, is unvaccinated, or is incompletely vaccinated (see ). For exposed persons who are unvaccinated, incompletely vaccinated, or whose immune response to previous hepatitis B vaccine series is unknown, one dose of intramuscular HBIG within 7 days of the exposure is indicated. For exposed persons who are vaccine nonresponders (defined as no anti-HBs response after two complete series of hepatitis B vaccine), two doses of intramuscular HBIG are indicated, with doses separated by 1 month.Hepatitis B vaccination (Option B) is not indicated in this patient. Hepatitis vaccination is the cornerstone of HBV postexposure prophylaxis for exposed persons who were not previously vaccinated or who were incompletely vaccinated, and for vaccinated individuals without documented postvaccination serologic testing whose anti-HBs is less than 10 mU/mL at the time of the exposure. These individuals should reinitiate or complete the vaccination series starting at the time of the exposure. In addition, if the source patient's hepatitis B status is unknown or the source patient has a positive hepatitis B surface antigen, the exposed person should receive one dose of intramuscular HBIG. When HBIG and hepatitis B vaccine are given, postvaccination serologic testing should be delayed for 4 to 6 months after the last vaccine dose. Timely postexposure prophylaxis can prevent hepatitis B infection and subsequent development of chronic infection or liver disease.Checking for the presence of anti-HBs (Option C) is appropriate for exposed individuals who were vaccinated in the past but did not undergo postvaccination serologic testing. Testing is not indicated for this patient because his anti-HBs level was 10 mU/mL or greater after vaccination, and he is therefore considered immune.",
   "educational_objective": "Manage potential hepatitis B exposure in a vaccinated patient.",
-  "extracted_at": "2025-12-22T19:46:41.584581-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 54-year-old man is evaluated in the emergency department for a needlestick injury that occurred while at work. He is a respiratory therapist, and he sustained an injury to his left index finger while measuring a patient's arterial blood gas. The source patient was tested; her hepatitis B surface antigen (HBsAg) result is positive and hepatitis C and HIV results are negative. The respiratory therapist cleaned his injured finger with soap and water and reported immediately for evaluation. He previously received the hepatitis B vaccination series, with documented vaccine response (antibody to HBsAg [anti-HBs] ≥10 mU/mL). He takes no medications.On physical examination, vital signs are normal. A distal left finger puncture injury is noted; the wound has clotted.",
+  "question_stem": "Which of the following is the most appropriate management for the respiratory therapist's exposure to hepatitis B?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Administer hepatitis B immune globulin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Administer hepatitis B vaccine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Check anti-HBs",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No further management",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "No further management (Option D) is required for this patient regardless of the source patient's hepatitis B virus (HBV) status. A person is considered immune to hepatitis B if they completed the hepatitis B vaccine series (at least two or three doses, depending on the vaccine preparation received) and were documented to have an antibody response to hepatitis B surface antigen (anti-HBs) of 10 mU/mL or greater 1 to 2 months after completion of the vaccine series.Administering hepatitis B immune globulin (HBIG) (Option A) is not necessary in this patient. He has a documented vaccine response to hepatitis B. HBIG is indicated if the source patient is positive for HBV and the exposed person is a vaccine nonresponder, is unvaccinated, or is incompletely vaccinated (see ). For exposed persons who are unvaccinated, incompletely vaccinated, or whose immune response to previous hepatitis B vaccine series is unknown, one dose of intramuscular HBIG within 7 days of the exposure is indicated. For exposed persons who are vaccine nonresponders (defined as no anti-HBs response after two complete series of hepatitis B vaccine), two doses of intramuscular HBIG are indicated, with doses separated by 1 month.Hepatitis B vaccination (Option B) is not indicated in this patient. Hepatitis vaccination is the cornerstone of HBV postexposure prophylaxis for exposed persons who were not previously vaccinated or who were incompletely vaccinated, and for vaccinated individuals without documented postvaccination serologic testing whose anti-HBs is less than 10 mU/mL at the time of the exposure. These individuals should reinitiate or complete the vaccination series starting at the time of the exposure. In addition, if the source patient's hepatitis B status is unknown or the source patient has a positive hepatitis B surface antigen, the exposed person should receive one dose of intramuscular HBIG. When HBIG and hepatitis B vaccine are given, postvaccination serologic testing should be delayed for 4 to 6 months after the last vaccine dose. Timely postexposure prophylaxis can prevent hepatitis B infection and subsequent development of chronic infection or liver disease.Checking for the presence of anti-HBs (Option C) is appropriate for exposed individuals who were vaccinated in the past but did not undergo postvaccination serologic testing. Testing is not indicated for this patient because his anti-HBs level was 10 mU/mL or greater after vaccination, and he is therefore considered immune.",
   "key_points": [
     "Persons who have demonstrated immunity to hepatitis B virus (HBV) after vaccination do not require additional vaccination or immune globulin if they are exposed to HBV.",
     "Hepatitis B vaccine response is determined by an antibody to hepatitis B surface antigen of 10 mU/mL or greater."
   ],
+  "references": "Shenoy ES, Weber DJ. Occupational health update: evaluation and management of exposures and postexposure prophylaxis. Infect Dis Clin North Am. 2021;35:735-754. PMID: 34362541 doi:10.1016/j.idc.2021.04.009",
+  "related_content": {
+    "syllabus": [
+      "idsec24018_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Administer hepatitis B immune globulin"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Administer hepatitis B vaccine"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Check anti-HBs"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "No further management"
-    }
-  ],
-  "question_id": "idmcq24015",
-  "question_stem": "Which of the following is the most appropriate management for the respiratory therapist's exposure to hepatitis B?",
-  "question_text": "A 54-year-old man is evaluated in the emergency department for a needlestick injury that occurred while at work. He is a respiratory therapist, and he sustained an injury to his left index finger while measuring a patient's arterial blood gas. The source patient was tested; her hepatitis B surface antigen (HBsAg) result is positive and hepatitis C and HIV results are negative. The respiratory therapist cleaned his injured finger with soap and water and reported immediately for evaluation. He previously received the hepatitis B vaccination series, with documented vaccine response (antibody to HBsAg [anti-HBs] ≥10 mU/mL). He takes no medications.On physical examination, vital signs are normal. A distal left finger puncture injury is noted; the wound has clotted.",
-  "references": "Shenoy ES, Weber DJ. Occupational health update: evaluation and management of exposures and postexposure prophylaxis. Infect Dis Clin North Am. 2021;35:735-754. PMID: 34362541 doi:10.1016/j.idc.2021.04.009",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24018_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:46:41.584581-06:00"
 }

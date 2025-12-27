@@ -1,59 +1,59 @@
 {
+  "question_id": "envdx24004",
   "category": "en",
-  "critique": "The most likely diagnosis is polycystic ovary syndrome (PCOS) (Option C). This patient has hirsutism, defined as excessive growth of thick, pigmented terminal hairs in androgen-responsive areas (male pattern). Women with chronic hirsutism and menstrual irregularity most likely have PCOS. Elevated serum concentrations of androgens in women most commonly manifest with hirsutism and may also present with acne, androgenetic alopecia, and/or virilization. Hirsutism affects approximately 10% of women. Commonly affected sites include the chin and upper lip, chest, lower abdomen, back, and inner thighs.",
   "educational_objective": "Diagnose polycystic ovary syndrome.",
-  "extracted_at": "2025-12-23T14:09:16.920201-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 23-year-old woman is evaluated for a 9-year history of oligomenorrhea.Physical examination findings are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acromegaly",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hyperprolactinemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Polycystic ovary syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Primary hyperaldosteronism",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is polycystic ovary syndrome (PCOS) (Option C). This patient has hirsutism, defined as excessive growth of thick, pigmented terminal hairs in androgen-responsive areas (male pattern). Women with chronic hirsutism and menstrual irregularity most likely have PCOS. Elevated serum concentrations of androgens in women most commonly manifest with hirsutism and may also present with acne, androgenetic alopecia, and/or virilization. Hirsutism affects approximately 10% of women. Commonly affected sites include the chin and upper lip, chest, lower abdomen, back, and inner thighs.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "ensec24006_24009"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/enfig24603.c9b1afbca609edcf0c43391d4a6b5351.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acromegaly"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Hyperprolactinemia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Polycystic ovary syndrome"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Primary hyperaldosteronism"
-    }
-  ],
-  "question_id": "envdx24004",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 23-year-old woman is evaluated for a 9-year history of oligomenorrhea.Physical examination findings are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24006_24009"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:16.920201-06:00"
 }

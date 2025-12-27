@@ -1,56 +1,56 @@
 {
+  "question_id": "cvvdx24047",
   "category": "cv",
-  "critique": "This patient's left ventricular function is normal (Option B). The ultrasound shows a parasternal long-axis view of the left ventricle. The wall thickness and chamber size of the left ventricle appear normal and shrink appropriately during systole. The interventricular septum and posterior wall thicken and move inward during systole, which is normal. The movement of the anterior leaflet of the mitral valve and its distance from the interventricular septum during diastole can also be used as a rough gauge of left ventricular systolic function, with a distance of less than 1.0 cm generally considered normal. Although this distance may be measured on a frozen image, it is often estimated in point-of-care studies using the scale on the right of the screen as a reference. As shown, the anterior leaflet appears to slap against the interventricular septum during diastole (red circle). The chamber size, wall motion, and mitral valve movement findings all strongly suggest normal left ventricular function. (AV = aortic valve; IVS = interventricular septum; LA = left atrium; LV = left ventricle; MV = mitral valve)",
   "educational_objective": "Evaluate left ventricular function with point-of-care ultrasonography.",
-  "extracted_at": "2025-12-23T14:08:40.452610-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 68-year-old woman is evaluated for progressive exertional dyspnea. Focused point-of-care cardiac ultrasonography is performed.(Note that there is no sound for this video.)",
+  "question_stem": "Which of the following is the most appropriate interpretation of this patient's left ventricular function?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Mildly reduced",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Normal",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Severely reduced",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient's left ventricular function is normal (Option B). The ultrasound shows a parasternal long-axis view of the left ventricle. The wall thickness and chamber size of the left ventricle appear normal and shrink appropriately during systole. The interventricular septum and posterior wall thicken and move inward during systole, which is normal. The movement of the anterior leaflet of the mitral valve and its distance from the interventricular septum during diastole can also be used as a rough gauge of left ventricular systolic function, with a distance of less than 1.0 cm generally considered normal. Although this distance may be measured on a frozen image, it is often estimated in point-of-care studies using the scale on the right of the screen as a reference. As shown, the anterior leaflet appears to slap against the interventricular septum during diastole (red circle). The chamber size, wall motion, and mitral valve movement findings all strongly suggest normal left ventricular function. (AV = aortic valve; IVS = interventricular septum; LA = left atrium; LV = left ventricle; MV = mitral valve)",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24003_24012"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24652.54240c0470ddb03f2a8243ef6ed6d8a3.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": [
       "cvvid24605"
     ]
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Mildly reduced"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Normal"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Severely reduced"
-    }
-  ],
-  "question_id": "cvvdx24047",
-  "question_stem": "Which of the following is the most appropriate interpretation of this patient's left ventricular function?",
-  "question_text": "A 68-year-old woman is evaluated for progressive exertional dyspnea. Focused point-of-care cardiac ultrasonography is performed.(Note that there is no sound for this video.)",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24003_24012"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.452610-06:00"
 }

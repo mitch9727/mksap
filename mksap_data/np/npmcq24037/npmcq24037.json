@@ -1,62 +1,62 @@
 {
+  "question_id": "npmcq24037",
   "category": "np",
-  "critique": "The most appropriate management is to discontinue atorvastatin (Option B) in this patient whose presentation is consistent with asymptomatic rhabdomyolysis. In this patient, rhabdomyolysis is suggested by hyperkalemia as well as urinalysis findings of 3+ blood without erythrocytes, suggesting the presence of myoglobin. Hyperkalemia with a serum potassium level <6.0 mEq/L (6.0 mmol/L) and an ECG that shows no signs of cardiac toxicity, as is the case with this patient, do not warrant emergent intervention. All potentially causative medications should be discontinued if possible. Because this patient most likely has medication-induced rhabdomyolysis secondary to atorvastatin, atorvastatin should be discontinued. To confirm the diagnosis, her serum creatine kinase level should be measured. Coupled with lack of any changes on her ECG or symptoms, she can be managed expectantly with medication discontinuation, liberal fluids, and repeat laboratory studies following withdrawal from medication. Notably, statin-induced rhabdomyolysis can occur at any time during medication use. Patients who have developed statin-induced rhabdomyolysis should generally not retry a statin due to possible recurrence.This patient's serum potassium level (<6.0 mEq/L [6.0 mmol/L]) is not high enough to warrant administration of the diuretic chlorthalidone (Option A) or the potassium-binder sodium zirconium cyclosilicate (Option D) to lower her serum potassium levels on a regular basis. In addition, the hyperkalemia seen in this patient is likely secondary to statin-induced rhabdomyolysis, which should be treated with discontinuation of statin therapy.With mild elevation in this patient's potassium level (<6.0 mEq/L [6.0 mmol/L]) and no ECG changes indicating cardiac toxicity, emergent treatment for hyperkalemia with intravenous 5% dextrose and insulin (Option C) is not required. If the patient were to be hospitalized for intravenous fluids as part of her rhabdomyolysis treatment plan, isotonic normal saline would be the preferred fluid option.",
   "educational_objective": "Manage hyperkalemia in the setting of rhabdomyolysis.",
-  "extracted_at": "2025-12-22T20:06:43.385250-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 65-year-old woman comes to the office to review the results of recently performed laboratory studies for monitoring of hyperlipidemia and hypertension. She is asymptomatic. Medications are atorvastatin and amlodipine.Physical examination findings, including vital signs, are normal.Urinalysis performed today shows 3+ blood and no erythrocytes.ECG shows normal sinus rhythm without any acute changes.",
+  "question_stem": "In addition to repeat laboratory studies, which of the following is the most appropriate initial management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Chlorthalidone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Discontinuation of atorvastatin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Intravenous fluids with 5% dextrose and insulin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sodium zirconium cyclosilicate",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is to discontinue atorvastatin (Option B) in this patient whose presentation is consistent with asymptomatic rhabdomyolysis. In this patient, rhabdomyolysis is suggested by hyperkalemia as well as urinalysis findings of 3+ blood without erythrocytes, suggesting the presence of myoglobin. Hyperkalemia with a serum potassium level <6.0 mEq/L (6.0 mmol/L) and an ECG that shows no signs of cardiac toxicity, as is the case with this patient, do not warrant emergent intervention. All potentially causative medications should be discontinued if possible. Because this patient most likely has medication-induced rhabdomyolysis secondary to atorvastatin, atorvastatin should be discontinued. To confirm the diagnosis, her serum creatine kinase level should be measured. Coupled with lack of any changes on her ECG or symptoms, she can be managed expectantly with medication discontinuation, liberal fluids, and repeat laboratory studies following withdrawal from medication. Notably, statin-induced rhabdomyolysis can occur at any time during medication use. Patients who have developed statin-induced rhabdomyolysis should generally not retry a statin due to possible recurrence.This patient's serum potassium level (<6.0 mEq/L [6.0 mmol/L]) is not high enough to warrant administration of the diuretic chlorthalidone (Option A) or the potassium-binder sodium zirconium cyclosilicate (Option D) to lower her serum potassium levels on a regular basis. In addition, the hyperkalemia seen in this patient is likely secondary to statin-induced rhabdomyolysis, which should be treated with discontinuation of statin therapy.With mild elevation in this patient's potassium level (<6.0 mEq/L [6.0 mmol/L]) and no ECG changes indicating cardiac toxicity, emergent treatment for hyperkalemia with intravenous 5% dextrose and insulin (Option C) is not required. If the patient were to be hospitalized for intravenous fluids as part of her rhabdomyolysis treatment plan, isotonic normal saline would be the preferred fluid option.",
   "key_points": [
     "In patients with hyperkalemia with a serum potassium level <6.0 mEq/L (6.0 mmol/L) and no ECG changes indicating cardiac toxicity, potentially causative medications should be discontinued.",
     "Discontinuing statin therapy is essential in treating hyperkalemia due to statin-induced rhabdomyolysis."
   ],
+  "references": "Newman CB. Safety of statins and nonstatins for treatment of dyslipidemia. Endocrinol Metab Clin North Am. 2022;51:655-79. PMID: 35963634 doi:10.1016/j.ecl.2022.01.004",
+  "related_content": {
+    "syllabus": [
+      "npsec24002_24018"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Chlorthalidone"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Discontinuation of atorvastatin"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Intravenous fluids with 5% dextrose and insulin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Sodium zirconium cyclosilicate"
-    }
-  ],
-  "question_id": "npmcq24037",
-  "question_stem": "In addition to repeat laboratory studies, which of the following is the most appropriate initial management?",
-  "question_text": "A 65-year-old woman comes to the office to review the results of recently performed laboratory studies for monitoring of hyperlipidemia and hypertension. She is asymptomatic. Medications are atorvastatin and amlodipine.Physical examination findings, including vital signs, are normal.Urinalysis performed today shows 3+ blood and no erythrocytes.ECG shows normal sinus rhythm without any acute changes.",
-  "references": "Newman CB. Safety of statins and nonstatins for treatment of dyslipidemia. Endocrinol Metab Clin North Am. 2022;51:655-79. PMID: 35963634 doi:10.1016/j.ecl.2022.01.004",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24002_24018"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:06:43.385250-06:00"
 }

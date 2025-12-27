@@ -1,59 +1,59 @@
 {
+  "question_id": "envdx24003",
   "category": "en",
-  "critique": "The most likely diagnosis is a pituitary tumor (Option C). This patient's visual field testing demonstrates bitemporal superior/upper quadrant visual field defects suggestive of optic chiasm compression from a pituitary tumor. Suprasellar extension of a pituitary adenoma that compresses the optic chiasm can result in visual symptoms. The most common symptom is diminished vision in the temporal fields (bitemporal hemianopsia). A formal visual field examination is required for any tumor that abuts or compresses the optic chiasm.",
   "educational_objective": "Diagnose bitemporal quadrant visual field defects secondary to a pituitary mass.",
-  "extracted_at": "2025-12-23T14:09:16.931080-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 33-year-old woman is evaluated for diminished vision in the temporal fields.Results of visual field testing are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Empty sella syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Multiple sclerosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Pituitary tumor",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Reversible cerebral vasoconstriction syndrome",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is a pituitary tumor (Option C). This patient's visual field testing demonstrates bitemporal superior/upper quadrant visual field defects suggestive of optic chiasm compression from a pituitary tumor. Suprasellar extension of a pituitary adenoma that compresses the optic chiasm can result in visual symptoms. The most common symptom is diminished vision in the temporal fields (bitemporal hemianopsia). A formal visual field examination is required for any tumor that abuts or compresses the optic chiasm.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "ensec24003_24005"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/enfig24602.026fc31e7571d3465cb0bff124d87616.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Empty sella syndrome"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Multiple sclerosis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Pituitary tumor"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Reversible cerebral vasoconstriction syndrome"
-    }
-  ],
-  "question_id": "envdx24003",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 33-year-old woman is evaluated for diminished vision in the temporal fields.Results of visual field testing are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24003_24005"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:16.931080-06:00"
 }

@@ -2,93 +2,87 @@
 
 ## System Architecture
 
-The Rust MKSAP Extractor follows a modular, async-first architecture optimized for API-based data extraction.
+The text extractor follows a modular, async-first architecture optimized for API-based data extraction. Media downloads are handled by the separate `media_extractor` crate.
 
 ## Module Structure
 
-### Main Entry Point (`main.rs` - 309 lines)
+### Main Entry Point (`main.rs`)
 
 **Responsibilities**:
-- Initialize application
-- Handle command-line interface
-- Orchestrate extraction phases
-- Manage authentication
+- Load `.env` and initialize logging
+- Parse command-line arguments
+- Configure base URL and output directory
+- Dispatch extraction, validation, and maintenance commands
 
 **Key Functions**:
 - `main()` - Application entry point
-- `authenticate()` - Handle session management
-- `run_extraction()` - Coordinate extraction process
-- `validate_extraction()` - Run data validation
+- `authenticate_extractor()` (from `auth_flow.rs`) - Authentication flow
+- `extract_category()` (from `workflow.rs`) - Per-system extraction pipeline
+- `validate_extraction()` / `show_discovery_stats()` (from `reporting.rs`)
 
-### Configuration (`config.rs` - 162 lines)
+### Configuration (`config.rs`)
 
 **Responsibilities**:
-- Define all 16 system codes
-- Map system IDs, codes, and metadata
+- Define all 16 system codes (including `fc` and `cs`)
+- Store display names and baseline counts (informational only)
 - Provide system lookup functions
 
 **Key Structures**:
 ```rust
 pub struct OrganSystem {
-    pub id: String,              // cv, en, hm, etc.
-    pub name: String,            // Full system name
-    pub url_slug: String,        // Web UI code
-    pub api_code: String,        // API code for question IDs
-    pub total_questions: u32,    // Expected question count
+    pub id: String,                  // cv, en, fc, cs, etc.
+    pub name: String,                // Full system name
+    pub baseline_2024_count: u32,    // Informational baseline
 }
 ```
 
 **Key Functions**:
 - `init_organ_systems()` - Returns all 16 system codes
 - `get_organ_system_by_id()` - Lookup by ID
-- `get_organ_system_by_api_code()` - Lookup by API code
 
-### Data Models (`models.rs` - 279 lines)
+### Data Models (`models.rs`)
 
 **Structures**:
 - `QuestionData` - Complete question object
 - `ApiQuestionResponse` - API response format
 - `AnswerOption` - Multiple choice option
 - `QuestionMetadata` - Metadata fields
-- `RelatedContent` - Related syllabus/figures
+- `UserPerformance` - Answer tracking fields
+- `RelatedContent` - Syllabus references and learning plan topic
+- `MediaFiles` - Tables/images/videos/SVGs arrays
 
 **Serialization**: All structures derive `Serialize`/`Deserialize` for JSON conversion
 
-### Extraction Logic (`extractor.rs` - 407 lines)
+### Extraction Logic (`extractor.rs`, `workflow.rs`, `discovery.rs`)
 
 **Three-Phase Extraction**:
 
 #### Phase 1: Discovery
 ```rust
-async fn discover_questions(&self, category_code: &str) -> Result<Vec<String>>
+async fn discover_questions(&self, question_prefix: &str, existing: &HashSet<String>) -> Result<Vec<String>>
 ```
-- Generate question IDs (pattern: `{code}mcq{year}{number}`)
+- Generate question IDs (pattern: `{code}{type}{year}{number}`)
 - Test existence with HEAD requests
-- Collect valid question IDs
+- Cache IDs in `.checkpoints/{system}_ids.txt`
 
-#### Phase 2: Download
+#### Phase 2: Directory Setup
+- Create `{output_dir}/{system}/{question_id}/` folders for each valid ID
+
+#### Phase 3: Download + Save
 ```rust
-async fn extract_question(&mut self, category_code: &str, id: &str) -> Result<bool>
+async fn extract_question(&self, category_code: &str, id: &str) -> Result<bool>
 ```
 - GET request to API endpoint
 - Deserialize JSON response
-- Transform to internal format
-- Save to disk
-
-#### Phase 3: Media
-```rust
-async fn download_media(&mut self, question: &QuestionData) -> Result<()>
-```
-- Extract media URLs from question
-- Download images, videos, SVGs
-- Save with question directory
+- Skip `invalidated` questions
+- Save `{question_id}.json` to disk
 
 **Rate Limiting**:
-- 500ms delay between requests
-- 60s backoff on 429 (rate limit) responses
-- Automatic retry on transient errors
+- Discovery retries use short backoff on transient errors
+- Extraction backs off for 429 (rate limit) responses
+- 10s HEAD timeout and 30s GET timeout
 
-### Validation (`validator.rs` - 299 lines)
+### Validation (`validator.rs`)
 
 **Responsibilities**:
 - Scan extracted question files
@@ -99,41 +93,48 @@ async fn download_media(&mut self, question: &QuestionData) -> Result<()>
 **Key Structures**:
 ```rust
 pub struct ValidationResult {
-    pub total_found: u32,
-    pub total_valid: u32,
-    pub total_invalid: u32,
-    pub system_validations: Vec<SystemValidation>,
+    pub total_questions: usize,
+    pub valid_questions: usize,
+    pub invalid_questions: Vec<String>,
+    pub missing_fields: Vec<(String, Vec<String>)>,
+    pub missing_json: Vec<String>,
+    pub parse_errors: Vec<String>,
+    pub schema_invalid: Vec<String>,
+    pub systems_verified: Vec<SystemValidation>,
 }
 ```
 
 **Non-Destructive**: Only reads files, creates no modifications
+**Discovery-Aware**: Uses `.checkpoints/discovery_metadata.json` when available
 
-### Media Handling (`media.rs` - 107 lines)
+### Media Post-Processing (`media_extractor` crate)
 
 **Responsibilities**:
-- Download image files (PNG, JPG, GIF, WebP)
-- Download video files (MP4, WebM, OGG)
-- Download SVG files
-- Store HTML tables
-
-**Naming**: `{question_id}_{index}.{extension}`
+- Download images, tables, videos, and SVGs after text extraction
+- Update the `media` field in each `{question_id}.json`
+- Store assets alongside question folders
 
 ### Browser Automation (`browser.rs` - 107 lines)
 
 **Fallback Authentication**:
 - Opens Chrome browser if API auth fails
 - Allows manual login
-- Detects successful authentication
-- Extracts session cookie
+- Detects successful authentication (best effort)
+- Does not automatically persist browser cookies to the Rust client
 
 **Platform Support**: macOS, Linux, Windows
 
-### Utilities (`utils.rs` - 87 lines)
+### IO + Retry (`io.rs`, `retry.rs`)
 
-**Text Processing**:
-- Parse nested JSON nodes
-- Extract plain text from HTML
-- Format output
+**File IO**:
+- Save JSON payloads
+- Read/write checkpoint files
+- Quarantine invalid data when enabled
+
+**Retry Helpers**:
+- Re-fetch missing JSON
+- Re-run failed deserialize IDs
+- Detect checkpoint IDs with missing JSON
 
 ## Data Flow
 
@@ -147,7 +148,7 @@ pub struct ValidationResult {
    ├─ Try API login
    └─ Fallback to browser login
    ↓
-3. FOR EACH SYSTEM (12 total)
+3. FOR EACH SYSTEM (16 total)
    ├─ DISCOVER PHASE
    │  ├─ Generate question IDs
    │  ├─ HEAD request (existence check)
@@ -157,13 +158,7 @@ pub struct ValidationResult {
    │  ├─ GET /api/questions/{id}.json
    │  ├─ Deserialize JSON
    │  ├─ Transform format
-   │  ├─ Save JSON file
-   │  └─ Save metadata file
-   │
-   ├─ MEDIA PHASE
-   │  ├─ Extract media URLs
-   │  ├─ Download files
-   │  └─ Save to question directory
+   │  └─ Save JSON file
    │
    └─ REPEAT for next system
    ↓
@@ -183,13 +178,14 @@ pub struct ValidationResult {
 
 **Question API**:
 ```
+HEAD /api/questions/{question_id}.json
 GET /api/questions/{question_id}.json
 ```
 
 **Authentication**:
 - Session-based cookies
 - `_mksap19_session` cookie required
-- Auto-refresh on 401 response
+- Browser login is best-effort; prefer `MKSAP_SESSION` for API access
 
 ### API Response Format
 
@@ -230,7 +226,8 @@ GET /api/questions/{question_id}.json
 ### Utilities
 - **chrono**: Date/time handling
 - **uuid**: Unique identifiers
-- **regex**: Pattern matching
+- **futures**: Async stream helpers
+- **rand**: Discovery shuffle
 - **anyhow**: Error handling
 
 ## Performance Characteristics
@@ -248,7 +245,7 @@ GET /api/questions/{question_id}.json
 ### Disk I/O
 - Organized directory structure
 - Incremental writes (resumable)
-- Separate metadata files
+- JSON-only question files (media added later)
 
 ## Extensibility Points
 
@@ -257,11 +254,9 @@ GET /api/questions/{question_id}.json
 1. Add to `config.rs`:
 ```rust
 OrganSystem {
-    id: "new_system".to_string(),
+    id: "ns".to_string(),
     name: "New System Name".to_string(),
-    url_slug: "new_slug".to_string(),
-    api_code: "ns".to_string(),
-    total_questions: 100,
+    baseline_2024_count: 0,
 }
 ```
 
@@ -276,7 +271,7 @@ Extend `validator.rs`:
 
 ### Media Handling
 
-Extend `media.rs`:
+Extend the `media_extractor` crate:
 - Add support for new file types
 - Update content-type detection
 - Customize file naming
@@ -309,19 +304,19 @@ Extend `media.rs`:
 ## Security Considerations
 
 ### Current Implementation
-- Session cookies stored locally
-- Credentials in source code (development only)
+- Session cookie provided via environment variable
+- Browser login is interactive and best-effort
 - HTTPS for all API calls
 
 ### Recommendations
 - Use environment variables for credentials
-- Implement secure credential storage
-- Add rate limiting to respect API terms
-- Implement request signing if available
+- Store secrets in a local `.env` (not committed)
+- Add stronger credential storage if needed
+- Keep rate limiting conservative to respect API terms
 
 ## Next Steps
 
-1. Review [Setup Guide](setup.md) to build
-2. Follow [Usage Guide](usage.md) to run
-3. Check [Validation Guide](validation.md) for quality
-4. See [Troubleshooting](troubleshooting.md) for issues
+1. Review [Setup Guide](RUST_SETUP.md) to build
+2. Follow [Usage Guide](RUST_USAGE.md) to run
+3. Check [Validation Guide](VALIDATION.md) for quality
+4. See [Troubleshooting](TROUBLESHOOTING.md) for issues

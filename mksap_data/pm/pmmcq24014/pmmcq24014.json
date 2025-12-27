@@ -1,62 +1,62 @@
 {
+  "question_id": "pmmcq24014",
   "category": "pm",
-  "critique": "The most appropriate diagnostic test to perform next in this patient with likely idiopathic pulmonary fibrosis (IPF) is high-resolution CT (HRCT) of the chest (Option B). IPF is the most common idiopathic form of diffuse parenchymal lung disease (DPLD). IPF classically presents in patients aged 50 to 70 years as gradually progressive shortness of breath and dry cough with associated clubbing and fine end-inspiratory crackles at lung bases. Other forms of pulmonary fibrosis, including nonspecific interstitial pneumonitis, connective tissue disease–associated DPLD, and fibrotic hypersensitivity pneumonitis, can mimic IPF and should be considered during the evaluation. Diagnosis rests on exclusion of these other causes of DPLD and demonstration of characteristic changes on imaging. IPF is associated with the histopathologic pattern of usual interstitial pneumonia. HRCT abnormalities consistent with IPF include bilateral, subpleural, and basal predominant reticular changes; advanced cases may develop traction bronchiectasis with subpleural clusters of palisading cysts (\"honeycombing\"). When HRCT findings are classic for usual interstitial pneumonia, lung biopsy is not necessary for diagnosis. This patient's clinical presentation suggests IPF. and no clinical findings suggest an alternate diagnosis. HRCT of the chest can establish the diagnosis of IPF and should be performed next.Bronchoscopy with bronchoalveolar lavage (Option A) is most useful in the evaluation of possible infection. In addition, the cellular profile of bronchoalveolar lavage fluid can assist in diagnosing hypersensitivity pneumonitis or sarcoidosis. However, in patients with likely IPF, this test is unlikely to provide useful information and is unnecessary.Surgical lung biopsy (Option C) in the evaluation of DLPD is typically reserved for situations in which clinical and imaging data are not diagnostic and the lung biopsy results are expected to influence management decisions. In patients who need surgical lung biopsy, HRCT is often performed to localize the sampling site. This patient, however, is unlikely to require surgical biopsy because the diagnosis of IPF may be based on clinical presentation and radiographic findings.Evaluation with transthoracic echocardiography (Option D) will exclude left-sided heart failure and assess for pulmonary hypertension. However, this patient has no clinical or radiologic signs of heart failure or pulmonary hypertension.",
   "educational_objective": "Diagnose idiopathic pulmonary fibrosis.",
-  "extracted_at": "2025-12-23T14:15:52.982907-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 68-year-old patient is evaluated for a 9-month history of dry cough and gradually progressive shortness of breath. They have a 20-pack-year history of smoking but quit 2 years ago. They have no other medical history.On physical examination, vital signs are normal. Oxygen saturation is 93% with the patient breathing ambient air. Lung auscultation reveals end-inspiratory crackles at both lung bases. Cardiac examination is normal. Clubbing is present.Laboratory test results, including inflammatory markers and serologic tests for connective tissue disease, are negative.Chest radiograph reveals fine reticular infiltrates in both lower lung zones.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bronchoscopy with bronchoalveolar lavage",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "High-resolution chest CT",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Surgical lung biopsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Transthoracic echocardiography",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate diagnostic test to perform next in this patient with likely idiopathic pulmonary fibrosis (IPF) is high-resolution CT (HRCT) of the chest (Option B). IPF is the most common idiopathic form of diffuse parenchymal lung disease (DPLD). IPF classically presents in patients aged 50 to 70 years as gradually progressive shortness of breath and dry cough with associated clubbing and fine end-inspiratory crackles at lung bases. Other forms of pulmonary fibrosis, including nonspecific interstitial pneumonitis, connective tissue disease–associated DPLD, and fibrotic hypersensitivity pneumonitis, can mimic IPF and should be considered during the evaluation. Diagnosis rests on exclusion of these other causes of DPLD and demonstration of characteristic changes on imaging. IPF is associated with the histopathologic pattern of usual interstitial pneumonia. HRCT abnormalities consistent with IPF include bilateral, subpleural, and basal predominant reticular changes; advanced cases may develop traction bronchiectasis with subpleural clusters of palisading cysts (\"honeycombing\"). When HRCT findings are classic for usual interstitial pneumonia, lung biopsy is not necessary for diagnosis. This patient's clinical presentation suggests IPF. and no clinical findings suggest an alternate diagnosis. HRCT of the chest can establish the diagnosis of IPF and should be performed next.Bronchoscopy with bronchoalveolar lavage (Option A) is most useful in the evaluation of possible infection. In addition, the cellular profile of bronchoalveolar lavage fluid can assist in diagnosing hypersensitivity pneumonitis or sarcoidosis. However, in patients with likely IPF, this test is unlikely to provide useful information and is unnecessary.Surgical lung biopsy (Option C) in the evaluation of DLPD is typically reserved for situations in which clinical and imaging data are not diagnostic and the lung biopsy results are expected to influence management decisions. In patients who need surgical lung biopsy, HRCT is often performed to localize the sampling site. This patient, however, is unlikely to require surgical biopsy because the diagnosis of IPF may be based on clinical presentation and radiographic findings.Evaluation with transthoracic echocardiography (Option D) will exclude left-sided heart failure and assess for pulmonary hypertension. However, this patient has no clinical or radiologic signs of heart failure or pulmonary hypertension.",
   "key_points": [
     "Idiopathic pulmonary fibrosis typically presents with chronic cough and dyspnea, inspiratory crackles, and clubbing (up to 50%) in patients aged 50 to 70 years.",
     "The diagnosis of idiopathic pulmonary fibrosis may be based on clinical presentation and findings on high-resolution CT of the chest; when classic CT findings are present, lung biopsy is not necessary for diagnosis."
   ],
+  "references": "Raghu G, Remy-Jardin M, Richeldi L, et al. Idiopathic pulmonary fibrosis (an update) and progressive pulmonary fibrosis in adults: an official ATS/ERS/JRS/ALAT clinical practice guideline. Am J Respir Crit Care Med. 2022;205:e18-47. PMID: 35486072",
+  "related_content": {
+    "syllabus": [
+      "pmsec24003_24014"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bronchoscopy with bronchoalveolar lavage"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "High-resolution chest CT"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Surgical lung biopsy"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Transthoracic echocardiography"
-    }
-  ],
-  "question_id": "pmmcq24014",
-  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
-  "question_text": "A 68-year-old patient is evaluated for a 9-month history of dry cough and gradually progressive shortness of breath. They have a 20-pack-year history of smoking but quit 2 years ago. They have no other medical history.On physical examination, vital signs are normal. Oxygen saturation is 93% with the patient breathing ambient air. Lung auscultation reveals end-inspiratory crackles at both lung bases. Cardiac examination is normal. Clubbing is present.Laboratory test results, including inflammatory markers and serologic tests for connective tissue disease, are negative.Chest radiograph reveals fine reticular infiltrates in both lower lung zones.",
-  "references": "Raghu G, Remy-Jardin M, Richeldi L, et al. Idiopathic pulmonary fibrosis (an update) and progressive pulmonary fibrosis in adults: an official ATS/ERS/JRS/ALAT clinical practice guideline. Am J Respir Crit Care Med. 2022;205:e18-47. PMID: 35486072",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24003_24014"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:52.982907-06:00"
 }

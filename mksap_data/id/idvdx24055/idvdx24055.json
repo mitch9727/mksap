@@ -1,59 +1,59 @@
 {
+  "question_id": "idvdx24055",
   "category": "id",
-  "critique": "The sputum specimen Gram stain demonstrates gram-positive, lancet-shaped diplococci, a finding characteristic of Streptococcus pneumoniae (pneumococcus) (Option D). Diagnostic studies to identify a causative organism are not routinely indicated in outpatients with community-acquired pneumonia (CAP) but should be considered in non-ICU hospitalized patients when this information would alter therapy. All patients with CAP who require admission to the ICU should undergo diagnostic evaluation to confirm a microbial cause. Interpretation of sputum Gram stain and culture is hampered by the presence of oropharyngeal colonization, and growth may reflect nonpathogenic organisms. A good-quality sputum culture obtained before antibiotic initiation is suggestive or diagnostic in up to 80% of patients with pneumococcal pneumonia; sensitivity decreases after antibiotic therapy.",
   "educational_objective": "Diagnose <i>Streptococcus pneumoniae</i> on a sputum specimen Gram stain.",
-  "extracted_at": "2025-12-23T15:17:18.162508-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 59-year-old man is admitted to the ICU with respiratory failure caused by severe community-acquired pneumonia.A sputum specimen Gram stain is shown.",
+  "question_stem": "Which of the following is the most likely organism responsible for this patient's community-acquired pneumonia?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Moraxella catarrhalis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Pseudomonas aeruginosa",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Staphylococcus aureus",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Streptococcus pneumoniae",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The sputum specimen Gram stain demonstrates gram-positive, lancet-shaped diplococci, a finding characteristic of Streptococcus pneumoniae (pneumococcus) (Option D). Diagnostic studies to identify a causative organism are not routinely indicated in outpatients with community-acquired pneumonia (CAP) but should be considered in non-ICU hospitalized patients when this information would alter therapy. All patients with CAP who require admission to the ICU should undergo diagnostic evaluation to confirm a microbial cause. Interpretation of sputum Gram stain and culture is hampered by the presence of oropharyngeal colonization, and growth may reflect nonpathogenic organisms. A good-quality sputum culture obtained before antibiotic initiation is suggestive or diagnostic in up to 80% of patients with pneumococcal pneumonia; sensitivity decreases after antibiotic therapy.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24006_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24663.31859e555aa437d7b213610125a8ebed.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Moraxella catarrhalis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Pseudomonas aeruginosa"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Staphylococcus aureus"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Streptococcus pneumoniae"
-    }
-  ],
-  "question_id": "idvdx24055",
-  "question_stem": "Which of the following is the most likely organism responsible for this patient's community-acquired pneumonia?",
-  "question_text": "A 59-year-old man is admitted to the ICU with respiratory failure caused by severe community-acquired pneumonia.A sputum specimen Gram stain is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24006_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:17:18.162508-06:00"
 }

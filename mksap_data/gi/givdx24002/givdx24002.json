@@ -1,59 +1,59 @@
 {
+  "question_id": "givdx24002",
   "category": "gi",
-  "critique": "The most likely diagnosis is a pancreatic pseudocyst and gastric outlet obstruction (Option D). This CT scan shows a large fluid collection at the head of the pancreas with well-defined margins, features that are characteristic of a pancreatic pseudocyst. In this case, the pancreatic pseudocyst is also causing gastric outlet obstruction.Pseudocysts of the pancreas are caused by pancreatic inflammation. They may be single or multiple, small or large, and within or outside the pancreas. Most pseudocysts communicate with the pancreatic ductal system and contain high concentrations of digestive enzymes. The walls of pseudocysts are formed by granulation or fibrous tissue and adjacent structures, such as the stomach, transverse mesocolon, gastrocolic omentum, and pancreas.",
   "educational_objective": "Diagnose a pancreatic pseudocyst on the basis of CT findings.",
-  "extracted_at": "2025-12-23T14:14:31.071288-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 35-year-old woman is evaluated for abdominal fullness, nausea, and early satiety. She had an episode of gallstone pancreatitis 5 weeks ago. Abdominal CT is performed.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cystic degeneration of pancreatic adenocarcinoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Gastric volvulus",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Pancreatic cystic neoplasm",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pancreatic pseudocyst and gastric outlet obstruction",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is a pancreatic pseudocyst and gastric outlet obstruction (Option D). This CT scan shows a large fluid collection at the head of the pancreas with well-defined margins, features that are characteristic of a pancreatic pseudocyst. In this case, the pancreatic pseudocyst is also causing gastric outlet obstruction.Pseudocysts of the pancreas are caused by pancreatic inflammation. They may be single or multiple, small or large, and within or outside the pancreas. Most pseudocysts communicate with the pancreatic ductal system and contain high concentrations of digestive enzymes. The walls of pseudocysts are formed by granulation or fibrous tissue and adjacent structures, such as the stomach, transverse mesocolon, gastrocolic omentum, and pancreas.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "gisec24003_24005"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/gifig24603.95adf1a2c3c2513cb098421885d54f5a.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cystic degeneration of pancreatic adenocarcinoma"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Gastric volvulus"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Pancreatic cystic neoplasm"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Pancreatic pseudocyst and gastric outlet obstruction"
-    }
-  ],
-  "question_id": "givdx24002",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 35-year-old woman is evaluated for abdominal fullness, nausea, and early satiety. She had an episode of gallstone pancreatitis 5 weeks ago. Abdominal CT is performed.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "gisec24003_24005"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:14:31.071288-06:00"
 }

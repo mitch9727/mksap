@@ -1,62 +1,62 @@
 {
+  "question_id": "npqqq24001",
   "category": "np",
-  "critique": "This patient most likely has hepatorenal syndrome (HRS) (Option D). HRS is characterized by the development of oliguric kidney failure, bland urine sediment, and marked sodium retention (edema, ascites, low urine sodium level, low fractional excretion of sodium [FENa]), which occurs in the setting of portal hypertension or severe liver failure. It is also characterized by renal vasoconstriction and simultaneous dilatation of the splanchnic vasculature. Renal tubular function is preserved. HRS–acute kidney injury (also called HRS-AKI), previously referred to as type 1 HRS, is diagnosed after excluding other causes of kidney dysfunction. It is characterized by a rise in serum creatinine of 0.3 mg/dL (26.5 µmol/L) or higher and/or 50% or greater from baseline within 48 hours, bland urinalysis, and normal findings on kidney ultrasound. It is also supported by a lack of improvement after withdrawal of diuretics and 2 days of volume expansion with intravenous albumin. Often, patients also have low urine sodium levels, low FENa, and oliguria. A more gradual decline in kidney function, previously referred to as type 2 HRS, is associated with diuretic-resistant ascites. Patients with HRS have an overall poor prognosis without liver transplant.Acute glomerulonephritis (Option A) with AKI results from immune-mediated damage to glomeruli. Urine findings include proteinuria, dysmorphic erythrocytes, and erythrocyte casts. The urine sodium level is typically elevated. Constitutional signs and symptoms are often present. This patient has no findings suggesting acute glomerulonephritis.Acute interstitial nephritis (Option B) should be suspected in patients with drug exposure; an elevated serum creatinine level; and urinalysis showing leukocytes, leukocyte casts, and possibly eosinophiluria. The urine sodium level is typically elevated. Acute interstitial nephritis cannot explain this patient's findings.Acute tubular necrosis (ATN) (Option C) due to ischemia, nephrotoxins, or sepsis is the most common cause of AKI in hospitalized patients. A patient history of sepsis or nephrotoxin exposure along with assessment of hemodynamics and volume status can aid in the diagnosis. Laboratory values suggestive of ATN include an FENa often greater than 2% and a urine osmolality of approximately 300 mOsm/kg H2O, reflecting an inability to maximally dilute or concentrate urine. Urine sediment is characterized by many renal tubular epithelial cells and coarse granular (muddy brown) casts. These findings are not present in this patient.",
   "educational_objective": "Diagnose hepatorenal syndrome.",
-  "extracted_at": "2025-12-23T14:11:04.434594-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 57-year-old man is hospitalized for spontaneous bacterial peritonitis. Vital signs on hospitalization are normal. Treatment with intravenous antibiotics and albumin infusions is initiated. He has cirrhosis. Other medications are furosemide, spironolactone, and lactulose.On day 2, he is oliguric; diuretics are stopped. Urine sediment is bland. Kidney ultrasound is normal.On day 4, his serum creatinine level continues to rise after 2 days of additional albumin infusions.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute glomerulonephritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Acute interstitial nephritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Acute tubular necrosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Hepatorenal syndrome",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient most likely has hepatorenal syndrome (HRS) (Option D). HRS is characterized by the development of oliguric kidney failure, bland urine sediment, and marked sodium retention (edema, ascites, low urine sodium level, low fractional excretion of sodium [FENa]), which occurs in the setting of portal hypertension or severe liver failure. It is also characterized by renal vasoconstriction and simultaneous dilatation of the splanchnic vasculature. Renal tubular function is preserved. HRS–acute kidney injury (also called HRS-AKI), previously referred to as type 1 HRS, is diagnosed after excluding other causes of kidney dysfunction. It is characterized by a rise in serum creatinine of 0.3 mg/dL (26.5 µmol/L) or higher and/or 50% or greater from baseline within 48 hours, bland urinalysis, and normal findings on kidney ultrasound. It is also supported by a lack of improvement after withdrawal of diuretics and 2 days of volume expansion with intravenous albumin. Often, patients also have low urine sodium levels, low FENa, and oliguria. A more gradual decline in kidney function, previously referred to as type 2 HRS, is associated with diuretic-resistant ascites. Patients with HRS have an overall poor prognosis without liver transplant.Acute glomerulonephritis (Option A) with AKI results from immune-mediated damage to glomeruli. Urine findings include proteinuria, dysmorphic erythrocytes, and erythrocyte casts. The urine sodium level is typically elevated. Constitutional signs and symptoms are often present. This patient has no findings suggesting acute glomerulonephritis.Acute interstitial nephritis (Option B) should be suspected in patients with drug exposure; an elevated serum creatinine level; and urinalysis showing leukocytes, leukocyte casts, and possibly eosinophiluria. The urine sodium level is typically elevated. Acute interstitial nephritis cannot explain this patient's findings.Acute tubular necrosis (ATN) (Option C) due to ischemia, nephrotoxins, or sepsis is the most common cause of AKI in hospitalized patients. A patient history of sepsis or nephrotoxin exposure along with assessment of hemodynamics and volume status can aid in the diagnosis. Laboratory values suggestive of ATN include an FENa often greater than 2% and a urine osmolality of approximately 300 mOsm/kg H2O, reflecting an inability to maximally dilute or concentrate urine. Urine sediment is characterized by many renal tubular epithelial cells and coarse granular (muddy brown) casts. These findings are not present in this patient.",
   "key_points": [
     "Hepatorenal syndrome–acute kidney injury is characterized by the development of oliguric kidney failure, bland urine sediment, and marked sodium retention (edema, ascites, low urine sodium level), which occurs in the setting of portal hypertension or severe liver failure.",
     "Hepatorenal syndrome is diagnosed after excluding other causes of kidney dysfunction."
   ],
+  "references": "Kanduri SR, Velez JCQ. Kidney dysfunction in the setting of liver failure: core curriculum 2024. Am J Kidney Dis. 2024;83:386-401. PMID: 38070000 doi:10.1053/j.ajkd.2023.08.013",
+  "related_content": {
+    "syllabus": [
+      "npsec24006_24022"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acute glomerulonephritis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Acute interstitial nephritis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Acute tubular necrosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Hepatorenal syndrome"
-    }
-  ],
-  "question_id": "npqqq24001",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 57-year-old man is hospitalized for spontaneous bacterial peritonitis. Vital signs on hospitalization are normal. Treatment with intravenous antibiotics and albumin infusions is initiated. He has cirrhosis. Other medications are furosemide, spironolactone, and lactulose.On day 2, he is oliguric; diuretics are stopped. Urine sediment is bland. Kidney ultrasound is normal.On day 4, his serum creatinine level continues to rise after 2 days of additional albumin infusions.",
-  "references": "Kanduri SR, Velez JCQ. Kidney dysfunction in the setting of liver failure: core curriculum 2024. Am J Kidney Dis. 2024;83:386-401. PMID: 38070000 doi:10.1053/j.ajkd.2023.08.013",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24006_24022"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:11:04.434594-06:00"
 }

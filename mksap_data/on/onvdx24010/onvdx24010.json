@@ -1,59 +1,59 @@
 {
+  "question_id": "onvdx24010",
   "category": "on",
-  "critique": "The most likely diagnosis is inflammatory breast cancer (Option B). This subset of breast cancer, which represents approximately 3% of all breast cancers, may present with swelling, thickening, or erythema of the skin overlying the breast, classically with a peau d’orange (orange peel) appearance. A palpable breast mass also may be present. The skin changes are caused by cancer cells obstructing dermal lymphatic vessels. This patient's right breast demonstrates characteristics of inflammatory breast cancer, including an inverted nipple and erythema of the lateral inferior portion of the breast.Image in the stem courtesy of the Inflammatory Breast Cancer Research Foundation.",
   "educational_objective": "Diagnose inflammatory breast cancer.",
-  "extracted_at": "2025-12-23T14:12:25.118408-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 33-year-old woman is evaluated for the painful breast changes shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Atopic dermatitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Inflammatory breast cancer",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Mastitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Paget disease of the breast",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is inflammatory breast cancer (Option B). This subset of breast cancer, which represents approximately 3% of all breast cancers, may present with swelling, thickening, or erythema of the skin overlying the breast, classically with a peau d’orange (orange peel) appearance. A palpable breast mass also may be present. The skin changes are caused by cancer cells obstructing dermal lymphatic vessels. This patient's right breast demonstrates characteristics of inflammatory breast cancer, including an inverted nipple and erythema of the lateral inferior portion of the breast.Image in the stem courtesy of the Inflammatory Breast Cancer Research Foundation.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "onsec24002_24016"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/onfig24611.b4a0730e55ff17856cbf8b4b19e67db5.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Atopic dermatitis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Inflammatory breast cancer"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Mastitis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Paget disease of the breast"
-    }
-  ],
-  "question_id": "onvdx24010",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 33-year-old woman is evaluated for the painful breast changes shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "onsec24002_24016"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:12:25.118408-06:00"
 }

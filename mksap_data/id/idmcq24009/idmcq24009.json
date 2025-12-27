@@ -1,62 +1,62 @@
 {
+  "question_id": "idmcq24009",
   "category": "id",
-  "critique": "The most appropriate management is to perform acid-fast bacilli (AFB) smear and culture of a sputum sample and nucleic acid amplification testing (NAAT) (Option A). This patient has classic symptoms (productive cough, fever, night sweats, and unintentional weight loss occurring for >2 weeks) and a chest radiograph that suggest active pulmonary tuberculosis infection. Chest radiograph findings in active pulmonary tuberculosis include infiltrates or consolidation with or without cavitation, most commonly in the upper lobes; mediastinal or hilar lymphadenopathy may also be present. All patients suspected of having active pulmonary tuberculosis should have AFB smear microscopy. Three separate sputum specimens should be obtained at least 8 hours apart; one specimen should be an early morning specimen. If a sputum AFB smear is positive, NAAT can rapidly identify the organism as Mycobacterium tuberculosis versus a nontuberculous mycobacteria. Some NAAT assays can also identify the presence of rifampin resistance, which is beneficial when tuberculosis treatment is initiated pending AFB susceptibility results. NAAT sensitivity approaches 98% for AFB smear–positive specimens. Among patients with a negative AFB smear and a moderate to high suspicion of pulmonary tuberculosis, the sensitivity of NAAT is 50% to 80%. A negative NAAT result cannot be used to exclude pulmonary tuberculosis. Mycobacterial cultures provide additional susceptibility information but require 3 to 8 weeks for results depending on the growth medium used by the laboratory.CT is considered if chest radiograph findings are atypical for active tuberculosis and tuberculosis is still strongly suspected (Option B). CT may also be performed if an alternative diagnosis (malignancy) is also possible.An interferon-gamma release assay (IGRA) (Option C) or tuberculin skin test (TST) is used to diagnose latent tuberculosis infection (LTBI). TST and IGRA are not indicated to diagnose active tuberculosis infection; these tests are often negative in active tuberculosis infection.Starting empiric antituberculous treatment is not indicated when the patient is stable and additional diagnostic information (sputum AFB smear and NAAT results) is not yet available. Empiric therapy for active pulmonary tuberculosis pending culture and susceptibility results is isoniazid, rifampin, pyrazinamide, and ethambutol. The combination of isoniazid and rifampin (Option D) is one of the preferred treatment regimens for LTBI.",
   "educational_objective": "Diagnose active tuberculosis infection.",
-  "extracted_at": "2025-12-22T19:46:38.324762-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 66-year-old man is evaluated in the emergency department for a 1-month history of productive cough, fever, periodic night sweats, and 5-kg (11 lb) unintentional weight loss. He reports temporarily living in a shelter 9 months ago. He takes no medications.On physical examination, temperature is 38.3 °C (101 °F) and respiration rate is 20/min; other vital signs are normal. Oxygen saturation is 94% with the patient breathing ambient air. Bilateral crackles are heard in the upper lobes.Chest radiograph demonstrates bilateral patchy infiltrates in the upper lobes without cavitation.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acid-fast bacilli smear and culture of sputum and nucleic acid amplification testing",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "CT of the chest",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Interferon-γ release assay",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Isoniazid and rifampin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is to perform acid-fast bacilli (AFB) smear and culture of a sputum sample and nucleic acid amplification testing (NAAT) (Option A). This patient has classic symptoms (productive cough, fever, night sweats, and unintentional weight loss occurring for >2 weeks) and a chest radiograph that suggest active pulmonary tuberculosis infection. Chest radiograph findings in active pulmonary tuberculosis include infiltrates or consolidation with or without cavitation, most commonly in the upper lobes; mediastinal or hilar lymphadenopathy may also be present. All patients suspected of having active pulmonary tuberculosis should have AFB smear microscopy. Three separate sputum specimens should be obtained at least 8 hours apart; one specimen should be an early morning specimen. If a sputum AFB smear is positive, NAAT can rapidly identify the organism as Mycobacterium tuberculosis versus a nontuberculous mycobacteria. Some NAAT assays can also identify the presence of rifampin resistance, which is beneficial when tuberculosis treatment is initiated pending AFB susceptibility results. NAAT sensitivity approaches 98% for AFB smear–positive specimens. Among patients with a negative AFB smear and a moderate to high suspicion of pulmonary tuberculosis, the sensitivity of NAAT is 50% to 80%. A negative NAAT result cannot be used to exclude pulmonary tuberculosis. Mycobacterial cultures provide additional susceptibility information but require 3 to 8 weeks for results depending on the growth medium used by the laboratory.CT is considered if chest radiograph findings are atypical for active tuberculosis and tuberculosis is still strongly suspected (Option B). CT may also be performed if an alternative diagnosis (malignancy) is also possible.An interferon-gamma release assay (IGRA) (Option C) or tuberculin skin test (TST) is used to diagnose latent tuberculosis infection (LTBI). TST and IGRA are not indicated to diagnose active tuberculosis infection; these tests are often negative in active tuberculosis infection.Starting empiric antituberculous treatment is not indicated when the patient is stable and additional diagnostic information (sputum AFB smear and NAAT results) is not yet available. Empiric therapy for active pulmonary tuberculosis pending culture and susceptibility results is isoniazid, rifampin, pyrazinamide, and ethambutol. The combination of isoniazid and rifampin (Option D) is one of the preferred treatment regimens for LTBI.",
   "key_points": [
     "Three sputum specimens should be obtained for acid-fast bacilli (AFB) smear and culture and nucleic acid amplification testing (NAAT) to diagnose active tuberculosis infection.",
     "When a sputum smear result is positive for AFB, NAAT for Mycobacterium tuberculosis can be used to verify the organism."
   ],
+  "references": "Long B, Liang SY, Koyfman A, et al. Tuberculosis: a focused review for the emergency medicine clinician. Am J Emerg Med. 2020;38:1014-1022. PMID: 31902701 doi:10.1016/j.ajem.2019.12.040",
+  "related_content": {
+    "syllabus": [
+      "idsec24009_24005"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acid-fast bacilli smear and culture of sputum and nucleic acid amplification testing"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "CT of the chest"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Interferon-γ release assay"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Isoniazid and rifampin"
-    }
-  ],
-  "question_id": "idmcq24009",
-  "question_stem": "Which of the following is the most appropriate next step in management?",
-  "question_text": "A 66-year-old man is evaluated in the emergency department for a 1-month history of productive cough, fever, periodic night sweats, and 5-kg (11 lb) unintentional weight loss. He reports temporarily living in a shelter 9 months ago. He takes no medications.On physical examination, temperature is 38.3 °C (101 °F) and respiration rate is 20/min; other vital signs are normal. Oxygen saturation is 94% with the patient breathing ambient air. Bilateral crackles are heard in the upper lobes.Chest radiograph demonstrates bilateral patchy infiltrates in the upper lobes without cavitation.",
-  "references": "Long B, Liang SY, Koyfman A, et al. Tuberculosis: a focused review for the emergency medicine clinician. Am J Emerg Med. 2020;38:1014-1022. PMID: 31902701 doi:10.1016/j.ajem.2019.12.040",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24009_24005"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:46:38.324762-06:00"
 }

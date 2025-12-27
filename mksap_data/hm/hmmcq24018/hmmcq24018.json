@@ -1,62 +1,62 @@
 {
+  "question_id": "hmmcq24018",
   "category": "hm",
-  "critique": "This patient with secondary erythrocytosis requires no additional management (Option D). Erythrocytosis is categorized as primary or secondary. Primary erythrocytosis is caused by polycythemia vera (PV), a clonal stem cell disorder characterized by excess erythrocyte production independent of erythropoietin level. It is driven by the JAK2 V617F mutation, which is present in 97% of patients with PV. Secondary erythrocytosis is more common than primary erythrocytosis and is often caused by an increase in erythrocyte production secondary to hypoxia. This is seen in conditions such as advanced COPD, interstitial lung disease, and cyanotic heart disease. Nocturnal oxygen desaturations secondary to sleep disordered breathing may cause secondary erythrocytosis, and daytime pulse oximetry may be normal in affected patients. Other secondary causes include oxygen-avid hemoglobinopathy, exogenous androgens, and ectopic production of erythropoietin, most commonly from a renal neoplasm. Although a careful history and physical examination may reveal the underlying cause of erythrocytosis, measurement of the erythropoietin level may be helpful in confirming a diagnosis, as it is usually suppressed in patients with PV and elevated with ectopic production. Additionally, screening for the JAK2 mutation can be performed if there is suspicion of PV. This patient likely has secondary erythrocytosis with partially treated obstructive sleep apnea, no JAK2 mutation, and a normal erythropoietin level. Other than managing the underlying cause of the secondary erythrocytosis, no further testing or treatment is indicated.Bone marrow biopsy (Option A) is rarely indicated in evaluating erythrocytosis. A clonal stem cell disorder is not evident in this patient, as the other cell lines are normal and the JAK2 mutation is not present. This patient has no indication for a bone marrow biopsy.Variants in the HFE gene, especially the C282Y variant, are highly correlated with hereditary hemochromatosis (HH). However, despite the iron overload associated with HH, an elevated hematocrit level is not typically seen, and testing for the HFE variants (Option B) is not a standard component of the evaluation of erythrocytosis.Therapeutic phlebotomy (Option C) targeting a hematocrit less than 45% reduces the risk for cardiovascular events in patients with PV. However, phlebotomy may worsen outcomes in patients with secondary erythrocytosis because the increase in erythrocyte mass is a compensatory response to tissue hypoxia. Therapeutic phlebotomy may be considered in patients with secondary erythrocytosis and extreme hematocrit elevations (>60%).",
   "educational_objective": "Manage secondary causes of erythrocytosis.",
-  "extracted_at": "2025-12-23T15:17:18.026415-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 64-year-old man is evaluated for erythrocytosis before bariatric surgery. He reports fatigue but otherwise feels well. Medical history is significant for obesity, hypertension, dyslipidemia, and obstructive sleep apnea. Medications are candesartan and simvastatin. He was also prescribed nocturnal continuous positive airway pressure (CPAP), which he uses intermittently.On physical examination, vital signs are normal. Oxygen saturation is 95% breathing ambient air. BMI is 35. The remainder of the examination is unremarkable.Laboratory studies:Erythropoietin10 mU/mL (10 U/L)Hematocrit54%HHemoglobin18 g/dL (180 g/L)HLeukocyte count6000/µL (6 × 109/L)Platelet count280,000/µL (280 × 109/L)Genetic testing is negative for the JAK2 V617F mutation.",
+  "question_stem": "In addition to facilitating adherence to nocturnal CPAP, which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bone marrow biopsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "HFE gene testing",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Phlebotomy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No additional management",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient with secondary erythrocytosis requires no additional management (Option D). Erythrocytosis is categorized as primary or secondary. Primary erythrocytosis is caused by polycythemia vera (PV), a clonal stem cell disorder characterized by excess erythrocyte production independent of erythropoietin level. It is driven by the JAK2 V617F mutation, which is present in 97% of patients with PV. Secondary erythrocytosis is more common than primary erythrocytosis and is often caused by an increase in erythrocyte production secondary to hypoxia. This is seen in conditions such as advanced COPD, interstitial lung disease, and cyanotic heart disease. Nocturnal oxygen desaturations secondary to sleep disordered breathing may cause secondary erythrocytosis, and daytime pulse oximetry may be normal in affected patients. Other secondary causes include oxygen-avid hemoglobinopathy, exogenous androgens, and ectopic production of erythropoietin, most commonly from a renal neoplasm. Although a careful history and physical examination may reveal the underlying cause of erythrocytosis, measurement of the erythropoietin level may be helpful in confirming a diagnosis, as it is usually suppressed in patients with PV and elevated with ectopic production. Additionally, screening for the JAK2 mutation can be performed if there is suspicion of PV. This patient likely has secondary erythrocytosis with partially treated obstructive sleep apnea, no JAK2 mutation, and a normal erythropoietin level. Other than managing the underlying cause of the secondary erythrocytosis, no further testing or treatment is indicated.Bone marrow biopsy (Option A) is rarely indicated in evaluating erythrocytosis. A clonal stem cell disorder is not evident in this patient, as the other cell lines are normal and the JAK2 mutation is not present. This patient has no indication for a bone marrow biopsy.Variants in the HFE gene, especially the C282Y variant, are highly correlated with hereditary hemochromatosis (HH). However, despite the iron overload associated with HH, an elevated hematocrit level is not typically seen, and testing for the HFE variants (Option B) is not a standard component of the evaluation of erythrocytosis.Therapeutic phlebotomy (Option C) targeting a hematocrit less than 45% reduces the risk for cardiovascular events in patients with PV. However, phlebotomy may worsen outcomes in patients with secondary erythrocytosis because the increase in erythrocyte mass is a compensatory response to tissue hypoxia. Therapeutic phlebotomy may be considered in patients with secondary erythrocytosis and extreme hematocrit elevations (>60%).",
   "key_points": [
     "Secondary erythrocytosis is more common than a primary erythrocytosis; correcting the underlying cause, most commonly hypoxia, is the first step in management of secondary erythrocytosis.",
     "Therapeutic phlebotomy targeting a hematocrit less than 45% reduces the risk for adverse cardiovascular events in patients with polycythemia vera but is rarely indicated in secondary erythrocytosis."
   ],
+  "references": "Gangat N, Szuber N, Pardanani A, et al. JAK2 unmutated erythrocytosis: current diagnostic approach and therapeutic views. Leukemia. 2021;35:2166-2181. PMID: 34021251 doi:10.1038/s41375-021-01290-6",
+  "related_content": {
+    "syllabus": [
+      "hmsec24002_24009"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bone marrow biopsy"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "HFE gene testing"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Phlebotomy"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "No additional management"
-    }
-  ],
-  "question_id": "hmmcq24018",
-  "question_stem": "In addition to facilitating adherence to nocturnal CPAP, which of the following is the most appropriate management?",
-  "question_text": "A 64-year-old man is evaluated for erythrocytosis before bariatric surgery. He reports fatigue but otherwise feels well. Medical history is significant for obesity, hypertension, dyslipidemia, and obstructive sleep apnea. Medications are candesartan and simvastatin. He was also prescribed nocturnal continuous positive airway pressure (CPAP), which he uses intermittently.On physical examination, vital signs are normal. Oxygen saturation is 95% breathing ambient air. BMI is 35. The remainder of the examination is unremarkable.Laboratory studies:Erythropoietin10 mU/mL (10 U/L)Hematocrit54%HHemoglobin18 g/dL (180 g/L)HLeukocyte count6000/µL (6 × 109/L)Platelet count280,000/µL (280 × 109/L)Genetic testing is negative for the JAK2 V617F mutation.",
-  "references": "Gangat N, Szuber N, Pardanani A, et al. JAK2 unmutated erythrocytosis: current diagnostic approach and therapeutic views. Leukemia. 2021;35:2166-2181. PMID: 34021251 doi:10.1038/s41375-021-01290-6",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24002_24009"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:17:18.026415-06:00"
 }

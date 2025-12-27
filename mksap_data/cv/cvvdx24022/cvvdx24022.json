@@ -1,60 +1,60 @@
 {
+  "question_id": "cvvdx24022",
   "category": "cv",
-  "critique": "The ECG shown demonstrates a junctional (or atrioventricular nodal) rhythm (Option C). Junctional rhythms are regular supraventricular rhythms in which the P wave in lead II is negative, preceding or following the QRS complex (arrows), or is absent. An atrioventricular nodal escape rhythm occurs when the junctional rate is between 40/min and 60/min and the sinoatrial node is delayed or fails to function as the pacemaker. An accelerated junctional rhythm occurs when the junctional rate is between 61/min and 99/min and the junctional rate takes over the pacemaker function. Junctional tachycardia occurs when the junctional rate is faster than 99/min and takes over the pacemaker function.",
   "educational_objective": "Identify a junctional rhythm on ECG.",
-  "extracted_at": "2025-12-23T14:08:40.375967-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 64-year-old woman is evaluated in the emergency department following an episode of syncope.ECG is shown.",
+  "question_stem": "Which of the following abnormalities is demonstrated on this patient's ECG?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Atrial tachycardia with 2:1 block",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Complete heart block",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Junctional rhythm",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Left bundle branch block",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The ECG shown demonstrates a junctional (or atrioventricular nodal) rhythm (Option C). Junctional rhythms are regular supraventricular rhythms in which the P wave in lead II is negative, preceding or following the QRS complex (arrows), or is absent. An atrioventricular nodal escape rhythm occurs when the junctional rate is between 40/min and 60/min and the sinoatrial node is delayed or fails to function as the pacemaker. An accelerated junctional rhythm occurs when the junctional rate is between 61/min and 99/min and the junctional rate takes over the pacemaker function. Junctional tachycardia occurs when the junctional rate is faster than 99/min and takes over the pacemaker function.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24006"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24626.98cb4d87c1e5a1a265bec97ed3c06e02.jpg",
       "figures/cvfig24625.c252fa8406d6ce1e815a9ec9e1fd398d.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Atrial tachycardia with 2:1 block"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Complete heart block"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Junctional rhythm"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Left bundle branch block"
-    }
-  ],
-  "question_id": "cvvdx24022",
-  "question_stem": "Which of the following abnormalities is demonstrated on this patient's ECG?",
-  "question_text": "A 64-year-old woman is evaluated in the emergency department following an episode of syncope.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24006_24006"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.375967-06:00"
 }

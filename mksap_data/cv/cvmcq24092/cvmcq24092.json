@@ -1,63 +1,63 @@
 {
+  "question_id": "cvmcq24092",
   "category": "cv",
-  "critique": "Cardiac resynchronization therapy (CRT) (Option A) is indicated in this patient with heart failure with reduced ejection fraction (HFrEF) and left bundle branch block (LBBB). CRT reduces heart failure symptoms, improves left ventricular ejection fraction (LVEF), and lowers mortality in patients with an ejection fraction less than 35% and New York Heart Association (NYHA) class III to IV symptoms. Patients with LBBB are most likely to benefit from CRT, although those without LBBB but with a QRS complex of 150 ms or longer may derive some benefit. Patients meeting the criteria for CRT typically also have an indication for an implantable cardioverter-defibrillator (ICD) as well and undergo placement of a joint device (CRT-ICD). This patient has worsening heart failure symptoms despite appropriate guideline-directed medical therapy. With an ejection fraction less than 35% and LBBB, he is a candidate for CRT. This patient's ICD should be upgraded to a CRT-ICD.A left ventricular assist device (LVAD) (Option B) is not indicated. LVADs are surgically implanted in the left ventricle with an outflow graft sewn to the ascending aorta. LVAD placement is indicated in patients with an LVEF less than 25% and poor exercise tolerance (NYHA functional class III/IV) despite maximal tolerated therapy, with either a high predicted 1- to 2-year mortality or inotrope dependency. This patient is progressing toward, but has not yet developed, advanced heart failure, and CRT should be used before considering a mechanical assist device.Intravenous inotropes such as milrinone (Option C) and dobutamine should be considered in patients with cardiogenic shock or those with poor perfusion despite all other appropriate treatment options, including CRT. Although this patient has severe symptomatic heart failure and may have cardiorenal syndrome, he is not in cardiogenic shock, and CRT represents a better treatment option than inotropic therapy.Implanted pulmonary artery pressure sensors (Option D) are placed in the pulmonary artery to allow remote monitoring of pressure waveforms and rapid adjustment of medical therapy before symptoms develop. Although these devices are associated with a reduction in heart failure–related hospitalizations, there are no randomized data showing that they improve survival. CRT is a more appropriate intervention in this patient.",
   "educational_objective": "Treat a patient with progressing heart failure symptoms with cardiac resynchronization therapy.",
-  "extracted_at": "2025-12-22T22:49:18.757404-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 48-year-old man is evaluated for 3 weeks of worsening exertional dyspnea and peripheral edema. He has a 10-year history of heart failure due to presumed viral myocarditis. An implantable cardioverter-defibrillator was placed 8 years ago. During the past year, he has been hospitalized twice because of volume overload. Medications are valsartan-sacubitril, carvedilol, dapagliflozin, spironolactone, and high-dose torsemide.On physical examination, blood pressure is 116/74 mm Hg and pulse rate is 78/min. Oxygen saturation is 95% breathing ambient air. Jugular venous distention is noted. Lung examination reveals scant bibasilar rales. There is trace peripheral edema.ECG is shown.Chest radiograph shows cardiomegaly and vascular congestion with perihilar edema. Echocardiogram reveals a dilated left ventricle and an ejection fraction of 28% with septal hypokinesis.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cardiac resynchronization therapy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Left ventricular assist device",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Milrinone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pulmonary artery pressure sensor",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Cardiac resynchronization therapy (CRT) (Option A) is indicated in this patient with heart failure with reduced ejection fraction (HFrEF) and left bundle branch block (LBBB). CRT reduces heart failure symptoms, improves left ventricular ejection fraction (LVEF), and lowers mortality in patients with an ejection fraction less than 35% and New York Heart Association (NYHA) class III to IV symptoms. Patients with LBBB are most likely to benefit from CRT, although those without LBBB but with a QRS complex of 150 ms or longer may derive some benefit. Patients meeting the criteria for CRT typically also have an indication for an implantable cardioverter-defibrillator (ICD) as well and undergo placement of a joint device (CRT-ICD). This patient has worsening heart failure symptoms despite appropriate guideline-directed medical therapy. With an ejection fraction less than 35% and LBBB, he is a candidate for CRT. This patient's ICD should be upgraded to a CRT-ICD.A left ventricular assist device (LVAD) (Option B) is not indicated. LVADs are surgically implanted in the left ventricle with an outflow graft sewn to the ascending aorta. LVAD placement is indicated in patients with an LVEF less than 25% and poor exercise tolerance (NYHA functional class III/IV) despite maximal tolerated therapy, with either a high predicted 1- to 2-year mortality or inotrope dependency. This patient is progressing toward, but has not yet developed, advanced heart failure, and CRT should be used before considering a mechanical assist device.Intravenous inotropes such as milrinone (Option C) and dobutamine should be considered in patients with cardiogenic shock or those with poor perfusion despite all other appropriate treatment options, including CRT. Although this patient has severe symptomatic heart failure and may have cardiorenal syndrome, he is not in cardiogenic shock, and CRT represents a better treatment option than inotropic therapy.Implanted pulmonary artery pressure sensors (Option D) are placed in the pulmonary artery to allow remote monitoring of pressure waveforms and rapid adjustment of medical therapy before symptoms develop. Although these devices are associated with a reduction in heart failure–related hospitalizations, there are no randomized data showing that they improve survival. CRT is a more appropriate intervention in this patient.",
   "key_points": [
     "In qualifying patients with heart failure with reduced ejection fraction, cardiac resynchronization therapy reduces heart failure symptoms and improves left ventricular ejection fraction and mortality."
   ],
+  "references": "Brooksbank JA, Albert C. Device-based therapies for decompensated heart failure. Curr Opin Cardiol. 2023;38:116-123. PMID: 36718621 doi:10.1097/HCO.0000000000001026",
+  "related_content": {
+    "syllabus": [
+      "cvsec24005_24026"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [
       "figures/cvfig24223.0b13f39161662709eb8593df63d79d77.jpg"
     ],
     "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cardiac resynchronization therapy"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Left ventricular assist device"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Milrinone"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Pulmonary artery pressure sensor"
-    }
-  ],
-  "question_id": "cvmcq24092",
-  "question_stem": "Which of the following is the most appropriate next step in management?",
-  "question_text": "A 48-year-old man is evaluated for 3 weeks of worsening exertional dyspnea and peripheral edema. He has a 10-year history of heart failure due to presumed viral myocarditis. An implantable cardioverter-defibrillator was placed 8 years ago. During the past year, he has been hospitalized twice because of volume overload. Medications are valsartan-sacubitril, carvedilol, dapagliflozin, spironolactone, and high-dose torsemide.On physical examination, blood pressure is 116/74 mm Hg and pulse rate is 78/min. Oxygen saturation is 95% breathing ambient air. Jugular venous distention is noted. Lung examination reveals scant bibasilar rales. There is trace peripheral edema.ECG is shown.Chest radiograph shows cardiomegaly and vascular congestion with perihilar edema. Echocardiogram reveals a dilated left ventricle and an ejection fraction of 28% with septal hypokinesis.",
-  "references": "Brooksbank JA, Albert C. Device-based therapies for decompensated heart failure. Curr Opin Cardiol. 2023;38:116-123. PMID: 36718621 doi:10.1097/HCO.0000000000001026",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24005_24026"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:49:18.757404-06:00"
 }

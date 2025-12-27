@@ -1,63 +1,63 @@
 {
+  "question_id": "idmcq24105",
   "category": "id",
-  "critique": "The most appropriate treatment is liposomal amphotericin B (Option B). Acute pulmonary histoplasmosis is the most common symptomatic Histoplasma capsulatum infection, with cough, fever, chills, and myalgia developing 1 to 4 weeks after exposure. Histoplasmosis may initially be mistaken for community-acquired pneumonia but does not respond to antibiotic therapy. On radiographs, it often appears as patchy, nodular infiltrates with distribution throughout the bilateral lung fields. Histoplasma antigen can be detected in urine, blood, cerebrospinal fluid (in those with meningitis), or bronchoalveolar lavage fluid; the sensitivity increases when multiple sample types are tested, in disseminated infections, and in immunocompromised patients. Liposomal amphotericin B is the recommended initial treatment for severe histoplasmosis, followed by de-escalation to oral itraconazole. This patient is at increased risk for severe and disseminated histoplasmosis because of treatment with infliximab, a tumor necrosis factor inhibitor. In this patient, histoplasmosis has led to respiratory distress, hepatitis, myelosuppression, and possibly adrenal insufficiency (based on his hypotension and hyponatremia). Liposomal amphotericin B should be initiated.Itraconazole (Option A) with therapeutic drug monitoring is recommended for mild to moderate infection, or as step-down therapy in patients who initially had severe infection and were first treated with liposomal amphotericin B. This patient has severe infection requiring hospitalization; therefore, liposomal amphotericin B is the most appropriate initial treatment.Micafungin (Option C), which is used for treatment of candidemia and invasive candidiasis, has no activity against histoplasmosis or other dimorphic fungi and is therefore not appropriate for this patient.Trimethoprim-sulfamethoxazole (Option D) is the treatment of choice for pneumonia caused by the fungus Pneumocystis jirovecii, but it does not have activity against histoplasmosis. P. jirovecii pneumonia and histoplasmosis can both cause an elevated 1,3-β-d-glucan level, but this patient's clinical presentation is not consistent with P. jirovecii infection because that disease is likely to cause only isolated pulmonary involvement; high-grade fever, elevated aminotransferase and alkaline phosphatase levels, and adrenal insufficiency are not characteristic of P. jirovecii pneumonia.",
   "educational_objective": "Treat severe disseminated histoplasmosis in an immunocompromised patient.",
-  "extracted_at": "2025-12-22T19:47:30.566069-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 23-year-old man is hospitalized for a 2-week history of fever, malaise, progressive nonproductive cough, and shortness of breath. He has rheumatoid arthritis. His only medication is infliximab.On physical examination, he appears ill. Temperature is 39.3 °C (102.7 °F), blood pressure is 78/43 mm Hg, pulse rate is 122/min, and respiration rate is 24/min. Oxygen saturation is 90% with the patient breathing ambient air. He is in moderate respiratory distress, and on lung examination diffuse crackles are heard bilaterally.Histoplasma antigen is detected in the serum and urine.CT scan of the chest is shown.",
+  "question_stem": "Which of the following is the most appropriate initial treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Itraconazole",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Liposomal amphotericin B",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Micafungin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Trimethoprim-sulfamethoxazole",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment is liposomal amphotericin B (Option B). Acute pulmonary histoplasmosis is the most common symptomatic Histoplasma capsulatum infection, with cough, fever, chills, and myalgia developing 1 to 4 weeks after exposure. Histoplasmosis may initially be mistaken for community-acquired pneumonia but does not respond to antibiotic therapy. On radiographs, it often appears as patchy, nodular infiltrates with distribution throughout the bilateral lung fields. Histoplasma antigen can be detected in urine, blood, cerebrospinal fluid (in those with meningitis), or bronchoalveolar lavage fluid; the sensitivity increases when multiple sample types are tested, in disseminated infections, and in immunocompromised patients. Liposomal amphotericin B is the recommended initial treatment for severe histoplasmosis, followed by de-escalation to oral itraconazole. This patient is at increased risk for severe and disseminated histoplasmosis because of treatment with infliximab, a tumor necrosis factor inhibitor. In this patient, histoplasmosis has led to respiratory distress, hepatitis, myelosuppression, and possibly adrenal insufficiency (based on his hypotension and hyponatremia). Liposomal amphotericin B should be initiated.Itraconazole (Option A) with therapeutic drug monitoring is recommended for mild to moderate infection, or as step-down therapy in patients who initially had severe infection and were first treated with liposomal amphotericin B. This patient has severe infection requiring hospitalization; therefore, liposomal amphotericin B is the most appropriate initial treatment.Micafungin (Option C), which is used for treatment of candidemia and invasive candidiasis, has no activity against histoplasmosis or other dimorphic fungi and is therefore not appropriate for this patient.Trimethoprim-sulfamethoxazole (Option D) is the treatment of choice for pneumonia caused by the fungus Pneumocystis jirovecii, but it does not have activity against histoplasmosis. P. jirovecii pneumonia and histoplasmosis can both cause an elevated 1,3-β-d-glucan level, but this patient's clinical presentation is not consistent with P. jirovecii infection because that disease is likely to cause only isolated pulmonary involvement; high-grade fever, elevated aminotransferase and alkaline phosphatase levels, and adrenal insufficiency are not characteristic of P. jirovecii pneumonia.",
   "key_points": [
     "Liposomal amphotericin B is the recommended initial treatment for severe illness caused by histoplasmosis."
   ],
+  "references": "Araúz AB, Papineni P. Histoplasmosis. Infect Dis Clin North Am. 2021;35:471-491. PMID: 34016287 doi:10.1016/j.idc.2021.03.011",
+  "related_content": {
+    "syllabus": [
+      "idsec24011_24004"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [
       "figures/idfig24210.c26283adfbb3dd1993bf7f737d5de243.png"
     ],
     "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Itraconazole"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Liposomal amphotericin B"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Micafungin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Trimethoprim-sulfamethoxazole"
-    }
-  ],
-  "question_id": "idmcq24105",
-  "question_stem": "Which of the following is the most appropriate initial treatment?",
-  "question_text": "A 23-year-old man is hospitalized for a 2-week history of fever, malaise, progressive nonproductive cough, and shortness of breath. He has rheumatoid arthritis. His only medication is infliximab.On physical examination, he appears ill. Temperature is 39.3 °C (102.7 °F), blood pressure is 78/43 mm Hg, pulse rate is 122/min, and respiration rate is 24/min. Oxygen saturation is 90% with the patient breathing ambient air. He is in moderate respiratory distress, and on lung examination diffuse crackles are heard bilaterally.Histoplasma antigen is detected in the serum and urine.CT scan of the chest is shown.",
-  "references": "Araúz AB, Papineni P. Histoplasmosis. Infect Dis Clin North Am. 2021;35:471-491. PMID: 34016287 doi:10.1016/j.idc.2021.03.011",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24011_24004"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:47:30.566069-06:00"
 }

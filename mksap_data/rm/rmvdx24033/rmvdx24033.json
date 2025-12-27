@@ -1,60 +1,60 @@
 {
+  "question_id": "rmvdx24033",
   "category": "rm",
-  "critique": "The image shows monosodium urate crystals from a tophus in a patient with gout (Option D). Monosodium urate crystals are needle shaped and either yellow or blue when viewed under compensated polarized light microscopy, depending on their orientation. The monosodium urate crystals are yellow when parallel to the compensator (white arrow indicates the orientation of the compensator); the crystals appear blue when perpendicular, confirming that they are monosodium urate.",
   "educational_objective": "Diagnose gout.",
-  "extracted_at": "2025-12-23T14:13:05.991520-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 62-year-old man is evaluated for long-standing nodules over the elbows, fingers, and toes. One of these nodules is aspirated, and its appearance under compensated polarized light microscopy is shown.",
+  "question_stem": "Which of the following is the most likely cause of this patient's nodules?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Amyloidosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Basic calcium phosphate deposition",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Calcium pyrophosphate deposition",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Gout",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The image shows monosodium urate crystals from a tophus in a patient with gout (Option D). Monosodium urate crystals are needle shaped and either yellow or blue when viewed under compensated polarized light microscopy, depending on their orientation. The monosodium urate crystals are yellow when parallel to the compensator (white arrow indicates the orientation of the compensator); the crystals appear blue when perpendicular, confirming that they are monosodium urate.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "rmsec24012_24008"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/rmfig24639.c08ddfc9629d8e183514f89435daf9c8.jpg",
       "figures/rmfig24638.95b7ad3235d5edcf29b8d4e0f49bfc86.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Amyloidosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Basic calcium phosphate deposition"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Calcium pyrophosphate deposition"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Gout"
-    }
-  ],
-  "question_id": "rmvdx24033",
-  "question_stem": "Which of the following is the most likely cause of this patient's nodules?",
-  "question_text": "A 62-year-old man is evaluated for long-standing nodules over the elbows, fingers, and toes. One of these nodules is aspirated, and its appearance under compensated polarized light microscopy is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24012_24008"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:05.991520-06:00"
 }

@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24060",
   "category": "cv",
-  "critique": "The patient's ECG findings and symptoms are most consistent with the diagnosis of aberrantly conducted atrial fibrillation (Option B), following a single sinus beat on the ECG. The wide QRS rhythm is irregular and has a typical right bundle branch block morphology; the right bundle (the \"weaker\" bundle) is more likely to block at higher rates than the left bundle.The absence of P waves on this patient's ECG, coupled with his risk factors for atrial fibrillation (i.e., diabetes mellitus, advanced age), makes antidromic atrioventricular reciprocating tachycardia less likely than atrial fibrillation. The wide QRS beats are all of similar right bundle branch block morphology and thus are not multifocal premature ventricular contractions. In addition, the lack of regularity on this patient's ECG makes ventricular tachycardia less likely.",
   "educational_objective": "Diagnose atrial fibrillation with aberrant conduction on ECG.",
-  "extracted_at": "2025-12-23T14:08:40.498449-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 68-year-old man is evaluated for a several-month history of intermittent symptomatic palpitations. He has type 2 diabetes mellitus.ECG is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Antidromic atrioventricular reciprocating tachycardia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Atrial fibrillation with aberrant conduction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Multifocal premature ventricular contractions",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Ventricular tachycardia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The patient's ECG findings and symptoms are most consistent with the diagnosis of aberrantly conducted atrial fibrillation (Option B), following a single sinus beat on the ECG. The wide QRS rhythm is irregular and has a typical right bundle branch block morphology; the right bundle (the \"weaker\" bundle) is more likely to block at higher rates than the left bundle.The absence of P waves on this patient's ECG, coupled with his risk factors for atrial fibrillation (i.e., diabetes mellitus, advanced age), makes antidromic atrioventricular reciprocating tachycardia less likely than atrial fibrillation. The wide QRS beats are all of similar right bundle branch block morphology and thus are not multifocal premature ventricular contractions. In addition, the lack of regularity on this patient's ECG makes ventricular tachycardia less likely.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24017"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24660.86e5cc90aac44c04a855bc968dfcfaf1.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Antidromic atrioventricular reciprocating tachycardia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Atrial fibrillation with aberrant conduction"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Multifocal premature ventricular contractions"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Ventricular tachycardia"
-    }
-  ],
-  "question_id": "cvvdx24060",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 68-year-old man is evaluated for a several-month history of intermittent symptomatic palpitations. He has type 2 diabetes mellitus.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24006_24017"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.498449-06:00"
 }

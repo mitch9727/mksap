@@ -1,59 +1,59 @@
 {
+  "question_id": "hmvdx24001",
   "category": "hm",
-  "critique": "The most likely diagnosis is protein C deficiency (Option B). Protein C is a vitamin K–dependent protein that degrades activated factors V and VIII and has an anticoagulant effect. Protein C deficiency increases the risk of thrombotic events and pregnancy morbidity, often manifesting before age 50 years, particularly in individuals with a strong family history of thrombosis. The half-life of protein C is shorter than many of the other vitamin K–dependent proteins. When warfarin is initiated in patients with protein C deficiency, warfarin-induced thrombotic skin necrosis can result from rapid depletion of protein C, with a subsequent transient hypercoagulable state following the loss of the anticoagulant effect of protein C.",
   "educational_objective": "Diagnose protein C deficiency manifesting as warfarin-induced skin necrosis.",
-  "extracted_at": "2025-12-23T14:09:52.861935-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 54-year-old woman is hospitalized with painful skin lesions involving the breasts, as shown. Warfarin was initiated 2 days ago for atrial fibrillation.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Antiphospholipid antibody syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Protein C deficiency",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Purpura fulminans",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Thrombotic thrombocytopenic purpura",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is protein C deficiency (Option B). Protein C is a vitamin K–dependent protein that degrades activated factors V and VIII and has an anticoagulant effect. Protein C deficiency increases the risk of thrombotic events and pregnancy morbidity, often manifesting before age 50 years, particularly in individuals with a strong family history of thrombosis. The half-life of protein C is shorter than many of the other vitamin K–dependent proteins. When warfarin is initiated in patients with protein C deficiency, warfarin-induced thrombotic skin necrosis can result from rapid depletion of protein C, with a subsequent transient hypercoagulable state following the loss of the anticoagulant effect of protein C.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24009_24008"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24600.22fb782452d735d1b72dd00eec09d9dc.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Antiphospholipid antibody syndrome"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Protein C deficiency"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Purpura fulminans"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Thrombotic thrombocytopenic purpura"
-    }
-  ],
-  "question_id": "hmvdx24001",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 54-year-old woman is hospitalized with painful skin lesions involving the breasts, as shown. Warfarin was initiated 2 days ago for atrial fibrillation.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24009_24008"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.861935-06:00"
 }

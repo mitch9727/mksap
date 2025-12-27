@@ -1,62 +1,62 @@
 {
+  "question_id": "pmmcq24053",
   "category": "pm",
-  "critique": "The most appropriate treatment in this patient with a COPD exacerbation requiring hospitalization is to add an inhaled glucocorticoid, such as fluticasone (Option A). Treatment of COPD is driven by the severity of symptoms and frequency and severity of exacerbations. The Global Initiative for Chronic Obstructive Lung Disease (GOLD) disease severity group uses these variables to determine risk status and categorizes patients into one of three groups (A, B, or E). Any patient with two or more moderate exacerbations or an exacerbation requiring hospitalization per year is categorized as high risk (GOLD group E) regardless of symptom severity. Standard therapy for patients in group E is combination bronchodilator therapy with a long-acting β2-agonist (LABA) and a long-acting muscarinic antagonist (LAMA). Consideration should also be given to adding an inhaled glucocorticoid. The addition of an inhaled glucocorticoid reduces symptoms and exacerbations in patients with moderate to severe COPD but is associated with an increased risk for pneumonia; however, in patients with frequent COPD exacerbations, the benefit outweighs the risk. Patients with a blood eosinophil count exceeding 300/µL (0.30 × 109/L) are most likely to benefit from the addition of an inhaled glucocorticoid (). This patient has group E COPD and eosinophilia, and an inhaled glucocorticoid, such as fluticasone, should be added to combination LABA and LAMA therapy for triple inhaler therapy.Roflumilast (Option B) is a selective phosphodiesterase-4 inhibitor that reduces the frequency of exacerbations in patients with severe COPD who primarily have symptoms of chronic bronchitis. It may be considered for patients with an FEV1 less than 50% of predicted in whom exacerbations continue. Although roflumilast might be an eventual consideration in this patient, the best next step in the setting of severe COPD and eosinophilia is adding an inhaled glucocorticoid.The use of oral glucocorticoids during acute exacerbations of COPD decreases treatment failure, length of stay, and the risk for early relapse. Short courses of lower-dose oral prednisone (40 mg for 5 days) are usually equivalent in efficacy to longer courses, higher doses, and intravenous glucocorticoid administration. This patient has completed 5 days of prednisone and is unlikely to benefit from more extended therapy (Option C).This patient has severe COPD with frequent exacerbations and eosinophilia. The next best step is triple therapy with an inhaled glucocorticoid in combination with a LABA and a LAMA. Continuing current management (Option D) without adding the inhaled glucocorticoid is not the most appropriate option.",
   "educational_objective": "Treat a patient with COPD and frequent exacerbations using triple inhaler therapy.",
-  "extracted_at": "2025-12-23T14:15:53.071248-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 71-year-old man is evaluated in the hospital for dyspnea and cough. He was hospitalized 5 days ago for an exacerbation of COPD and has received prednisone, levofloxacin, and albuterol-ipratropium nebulizer treatments. He had one other exacerbation in the past year. His symptoms are now near baseline, and his bronchodilator regimen has been changed back to his usual vilanterol-umeclidinium. He has no medical history other than COPD; his most recent spirometry showed an FEV1 of 52% of predicted. He has completed the planned 5-day course of prednisone and is taking no medications other than prednisone, levofloxacin, and vilanterol-umeclidinium.On physical examination, vital signs are normal. Lung examination reveals diffuse wheezing.",
+  "question_stem": "Which of the following is the most appropriate next step in treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Add inhaled fluticasone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Add roflumilast",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Extend prednisone course for 10 days",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Continue current management",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment in this patient with a COPD exacerbation requiring hospitalization is to add an inhaled glucocorticoid, such as fluticasone (Option A). Treatment of COPD is driven by the severity of symptoms and frequency and severity of exacerbations. The Global Initiative for Chronic Obstructive Lung Disease (GOLD) disease severity group uses these variables to determine risk status and categorizes patients into one of three groups (A, B, or E). Any patient with two or more moderate exacerbations or an exacerbation requiring hospitalization per year is categorized as high risk (GOLD group E) regardless of symptom severity. Standard therapy for patients in group E is combination bronchodilator therapy with a long-acting β2-agonist (LABA) and a long-acting muscarinic antagonist (LAMA). Consideration should also be given to adding an inhaled glucocorticoid. The addition of an inhaled glucocorticoid reduces symptoms and exacerbations in patients with moderate to severe COPD but is associated with an increased risk for pneumonia; however, in patients with frequent COPD exacerbations, the benefit outweighs the risk. Patients with a blood eosinophil count exceeding 300/µL (0.30 × 109/L) are most likely to benefit from the addition of an inhaled glucocorticoid (). This patient has group E COPD and eosinophilia, and an inhaled glucocorticoid, such as fluticasone, should be added to combination LABA and LAMA therapy for triple inhaler therapy.Roflumilast (Option B) is a selective phosphodiesterase-4 inhibitor that reduces the frequency of exacerbations in patients with severe COPD who primarily have symptoms of chronic bronchitis. It may be considered for patients with an FEV1 less than 50% of predicted in whom exacerbations continue. Although roflumilast might be an eventual consideration in this patient, the best next step in the setting of severe COPD and eosinophilia is adding an inhaled glucocorticoid.The use of oral glucocorticoids during acute exacerbations of COPD decreases treatment failure, length of stay, and the risk for early relapse. Short courses of lower-dose oral prednisone (40 mg for 5 days) are usually equivalent in efficacy to longer courses, higher doses, and intravenous glucocorticoid administration. This patient has completed 5 days of prednisone and is unlikely to benefit from more extended therapy (Option C).This patient has severe COPD with frequent exacerbations and eosinophilia. The next best step is triple therapy with an inhaled glucocorticoid in combination with a LABA and a LAMA. Continuing current management (Option D) without adding the inhaled glucocorticoid is not the most appropriate option.",
   "key_points": [
     "In patients with severe COPD, triple inhaler therapy with a long-acting β2-agonist, a long-acting muscarinic antagonist, and an inhaled glucocorticoid may provide additional symptom benefit and reduced exacerbations, especially in patients with eosinophilia."
   ],
+  "references": "Global Initiative for Chronic Obstructive Lung Disease. Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease. 2025 Report. https://goldcopd.org/2025-gold-report/. Accessed May 20, 2025.",
+  "related_content": {
+    "syllabus": [
+      "pmsec24002_24034"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Add inhaled fluticasone"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Add roflumilast"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Extend prednisone course for 10 days"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Continue current management"
-    }
-  ],
-  "question_id": "pmmcq24053",
-  "question_stem": "Which of the following is the most appropriate next step in treatment?",
-  "question_text": "A 71-year-old man is evaluated in the hospital for dyspnea and cough. He was hospitalized 5 days ago for an exacerbation of COPD and has received prednisone, levofloxacin, and albuterol-ipratropium nebulizer treatments. He had one other exacerbation in the past year. His symptoms are now near baseline, and his bronchodilator regimen has been changed back to his usual vilanterol-umeclidinium. He has no medical history other than COPD; his most recent spirometry showed an FEV1 of 52% of predicted. He has completed the planned 5-day course of prednisone and is taking no medications other than prednisone, levofloxacin, and vilanterol-umeclidinium.On physical examination, vital signs are normal. Lung examination reveals diffuse wheezing.",
-  "references": "Global Initiative for Chronic Obstructive Lung Disease. Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease. 2025 Report. https://goldcopd.org/2025-gold-report/. Accessed May 20, 2025.",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24002_24034"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.071248-06:00"
 }

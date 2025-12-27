@@ -1,62 +1,62 @@
 {
+  "question_id": "hmmcq24052",
   "category": "hm",
-  "critique": "The most likely diagnosis is transfusion-associated circulatory overload (TACO) (Option C). TACO is the most common serious complication of blood product administration and is more common in patients with preexisting cardiovascular or kidney disease. TACO is a result of the volume of transfusion rather than a reaction to any blood component. It is characterized by elevated central venous pressure, an S3, an elevated B-type natriuretic peptide level, and compatible radiographic findings of pulmonary edema. Treatment is supportive and often includes diuresis. TACO can be difficult to distinguish from transfusion-related acute lung injury (TRALI), but TRALI usually occurs more immediately and has concurrent symptoms of fever and hypotension without signs of volume overload. This patient has signs of volume overload with elevated jugular venous distention several hours following administration of erythrocytes, a presentation most consistent with TACO.Anaphylaxis (Option A) following blood transfusion is most likely to occur in patients with IgA deficiency and those who have developed IgE antibodies that react with donor IgA in cellular or plasma blood products. Patients with anaphylaxis are often hypotensive and would not have the evidence of volume overload seen in this patient.Febrile nonhemolytic transfusion reactions (Option B) are common, occurring in approximately 1% of transfusion episodes, and are mediated by proinflammatory cytokines elaborated by donor leukocytes during storage. Patients often have fever and rigors, but they are unlikely to have the respiratory distress seen in this patient.TRALI (Option D) is a noncardiogenic pulmonary edema that occurs because of HLA or neutrophil-specific antibodies in donors that bind to and activate recipient leukocytes in the pulmonary vasculature. Although more common in recipients of plasma or platelet products, TRALI can also occur following transfusion with erythrocytes. The time to onset is usually within minutes of transfusion initiation, but it can occur up to 6 hours afterward. Patients present with dyspnea, hypoxemia, fever, and hypotension without signs of volume overload. TRALI occurs in approximately 1 in 5000 transfusions. This patient has signs of volume overload and no fever or hypotension; her presentation is more consistent with TACO than TRALI.",
   "educational_objective": "Diagnose transfusion-associated circulatory overload.",
-  "extracted_at": "2025-12-22T19:36:59.707412-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 53-year-old woman is evaluated in the ICU for dyspnea. She was admitted 6 hours ago after presenting with several days of melena. She had hypotension on admission, with a blood pressure of 80/42 mm Hg, and her hemoglobin level was 6.2 g/dL (62 g/L). She developed dyspnea after receiving 2 liters of lactated Ringers and 2 units of packed red blood cells. She reports no chest pain. Medical history is significant for hypertension and a recent minor stroke secondary to small vessel disease. Before hospitalization, her medications were losartan, aspirin, and clopidogrel. Pantoprazole was added at the time of admission.On physical examination, the patient is in mild respiratory distress. Temperature is 37.1 °C (98.8 °F), blood pressure is 125/65 mm Hg, respiration rate is 22/min, and pulse rate is 110/min. Oxygen saturation is 85% with the patient breathing ambient air. Jugular venous distention is noted. Lung examination shows scattered rhonchi with scant bibasilar crackles. Cardiac examination reveals tachycardia without extra sounds. Extremities are without edema.ECG shows sinus tachycardia. Chest radiograph shows diffuse infiltrates.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Anaphylaxis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Febrile nonhemolytic transfusion reaction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Transfusion-associated circulatory overload",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Transfusion-related acute lung injury",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is transfusion-associated circulatory overload (TACO) (Option C). TACO is the most common serious complication of blood product administration and is more common in patients with preexisting cardiovascular or kidney disease. TACO is a result of the volume of transfusion rather than a reaction to any blood component. It is characterized by elevated central venous pressure, an S3, an elevated B-type natriuretic peptide level, and compatible radiographic findings of pulmonary edema. Treatment is supportive and often includes diuresis. TACO can be difficult to distinguish from transfusion-related acute lung injury (TRALI), but TRALI usually occurs more immediately and has concurrent symptoms of fever and hypotension without signs of volume overload. This patient has signs of volume overload with elevated jugular venous distention several hours following administration of erythrocytes, a presentation most consistent with TACO.Anaphylaxis (Option A) following blood transfusion is most likely to occur in patients with IgA deficiency and those who have developed IgE antibodies that react with donor IgA in cellular or plasma blood products. Patients with anaphylaxis are often hypotensive and would not have the evidence of volume overload seen in this patient.Febrile nonhemolytic transfusion reactions (Option B) are common, occurring in approximately 1% of transfusion episodes, and are mediated by proinflammatory cytokines elaborated by donor leukocytes during storage. Patients often have fever and rigors, but they are unlikely to have the respiratory distress seen in this patient.TRALI (Option D) is a noncardiogenic pulmonary edema that occurs because of HLA or neutrophil-specific antibodies in donors that bind to and activate recipient leukocytes in the pulmonary vasculature. Although more common in recipients of plasma or platelet products, TRALI can also occur following transfusion with erythrocytes. The time to onset is usually within minutes of transfusion initiation, but it can occur up to 6 hours afterward. Patients present with dyspnea, hypoxemia, fever, and hypotension without signs of volume overload. TRALI occurs in approximately 1 in 5000 transfusions. This patient has signs of volume overload and no fever or hypotension; her presentation is more consistent with TACO than TRALI.",
   "key_points": [
     "Transfusion-associated circulatory overload is a common serious complication of blood product administration; it is characterized by elevated central venous pressure, an S3, an elevated B-type natriuretic peptide level, and radiographic findings of pulmonary edema.",
     "Transfusion-related acute lung injury is characterized by noncardiogenic pulmonary edema accompanied by fever and hypotension; it usually occurs within minutes of transfusion initiation."
   ],
+  "references": "Carson JL, Triulzi DJ, Ness PM. Indications for and adverse effects of red-cell transfusion. N Engl J Med. 2017;377:1261-1272. PMID: 28953438 doi:10.1056/NEJMra1612789",
+  "related_content": {
+    "syllabus": [
+      "hmsec24008_24015"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Anaphylaxis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Febrile nonhemolytic transfusion reaction"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Transfusion-associated circulatory overload"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Transfusion-related acute lung injury"
-    }
-  ],
-  "question_id": "hmmcq24052",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 53-year-old woman is evaluated in the ICU for dyspnea. She was admitted 6 hours ago after presenting with several days of melena. She had hypotension on admission, with a blood pressure of 80/42 mm Hg, and her hemoglobin level was 6.2 g/dL (62 g/L). She developed dyspnea after receiving 2 liters of lactated Ringers and 2 units of packed red blood cells. She reports no chest pain. Medical history is significant for hypertension and a recent minor stroke secondary to small vessel disease. Before hospitalization, her medications were losartan, aspirin, and clopidogrel. Pantoprazole was added at the time of admission.On physical examination, the patient is in mild respiratory distress. Temperature is 37.1 °C (98.8 °F), blood pressure is 125/65 mm Hg, respiration rate is 22/min, and pulse rate is 110/min. Oxygen saturation is 85% with the patient breathing ambient air. Jugular venous distention is noted. Lung examination shows scattered rhonchi with scant bibasilar crackles. Cardiac examination reveals tachycardia without extra sounds. Extremities are without edema.ECG shows sinus tachycardia. Chest radiograph shows diffuse infiltrates.",
-  "references": "Carson JL, Triulzi DJ, Ness PM. Indications for and adverse effects of red-cell transfusion. N Engl J Med. 2017;377:1261-1272. PMID: 28953438 doi:10.1056/NEJMra1612789",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24008_24015"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:36:59.707412-06:00"
 }

@@ -1,60 +1,60 @@
 {
+  "question_id": "pmvdx24035",
   "category": "pm",
-  "critique": "The most likely diagnosis is bronchiectasis (Option A). The patient's chest CT scan shows typical findings of bronchiectasis, including airway dilatation with lack of tapering (green arrow), bronchial wall thickening (yellow arrow), and cysts (red arrow). An additional finding in bronchiectasis is a signet ring, which occurs when the diameter of the bronchus in the cross-section view is larger than that of the adjacent pulmonary artery. This manifests as a round or oval opacity representing the dilated bronchus and a smaller adjacent opacity representing its corresponding pulmonary artery.",
   "educational_objective": "Diagnose bronchiectasis on a chest CT scan.",
-  "extracted_at": "2025-12-23T14:15:53.322360-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 49-year-old man is evaluated for chronic cough and voluminous sputum production.Chest CT scan is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bronchiectasis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "COPD",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Idiopathic pulmonary fibrosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Lung cancer",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is bronchiectasis (Option A). The patient's chest CT scan shows typical findings of bronchiectasis, including airway dilatation with lack of tapering (green arrow), bronchial wall thickening (yellow arrow), and cysts (red arrow). An additional finding in bronchiectasis is a signet ring, which occurs when the diameter of the bronchus in the cross-section view is larger than that of the adjacent pulmonary artery. This manifests as a round or oval opacity representing the dilated bronchus and a smaller adjacent opacity representing its corresponding pulmonary artery.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24002_24056"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24660.54a5288e60434474eb4cdebb03dd5d06.jpg",
       "figures/pmfig24659.40788830930805468f9a24ef4e84dab9.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bronchiectasis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "COPD"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Idiopathic pulmonary fibrosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Lung cancer"
-    }
-  ],
-  "question_id": "pmvdx24035",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 49-year-old man is evaluated for chronic cough and voluminous sputum production.Chest CT scan is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24002_24056"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.322360-06:00"
 }

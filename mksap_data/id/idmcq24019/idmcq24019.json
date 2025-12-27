@@ -1,62 +1,62 @@
 {
+  "question_id": "idmcq24019",
   "category": "id",
-  "critique": "This patient likely has measles, and airborne precautions (Option A) should be initiated immediately on suspicion of the diagnosis. The virus is primarily transmitted through aerosolized small droplet nuclei (airborne transmission). If the patient cannot be placed immediately in an airborne infection isolation room (i.e., negative-pressure room), the patient should be masked in a room with the door closed. Measles is highly infectious and can be spread from 4 days before onset of the rash to 4 days after onset. Up to 9 of 10 susceptible persons with close contact to an individual with measles will become infected. Two doses of the measles, mumps, and rubella (MMR) vaccine are about 97% effective at protecting against measles. For international travelers who have not been previously immunized or have no evidence of immunity, two doses of the MMR vaccine should be given 28 days apart; ideally, patients should be fully vaccinated at least 2 weeks before international travel. If two doses are not possible, receiving the first dose before departure provides about 93% protection. If a patient has had one dose of MMR earlier in life, a second dose at least 2 weeks before departure is indicated. Because this patient was not fully immunized, she was susceptible to becoming infected when exposed to the virus.Contact precautions (Option B) are indicated with organisms that are transmitted by direct or indirect contact and would not be appropriate for a patient with measles. Although contact precautions are used for some viral illnesses (e.g., respiratory syncytial virus, human metapneumovirus, norovirus), these precautions are mostly used in cases of multidrug-resistant bacterial and Clostridioides difficile infections.Contact and droplet precautions (Option C) are used in conjunction for adenovirus infections and group A streptococcal skin or wound infections. These precautions would not be appropriate for this patient.Droplet precautions (Option D) are indicated for organisms transmitted by large droplet nuclei (rather than small droplet, as in measles), so they would not be appropriate for this patient. Droplet precautions are appropriate for a myriad of viral and bacterial infections, including influenza A and B, mumps, rubella, rhinoviral respiratory infections, parvovirus B19, pertussis, Neisseria meningitidis (invasive infections until after 24 hours of effective treatment), and group A streptococcal pneumonia.",
   "educational_objective": "Prevent measles transmission.",
-  "extracted_at": "2025-12-22T19:46:43.751301-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 58-year-old woman is evaluated in the emergency department for fever and a runny nose of 4 days' duration; today, she developed a rash that began on her face and has spread to her neck and upper trunk. She returned from Southeast Asia 5 days ago where she traveled to rural areas where cases of measles were identified. She thinks she received a single dose of the measles, mumps, and rubella vaccine as a child. She did not seek preventive care before travel. She takes no medications.On physical examination, temperature is 39.5 °C (103.1 °F); remaining vital signs are normal. A rash that appears along the hairline, on the face, and on the upper trunk is shown.Polymerase chain reaction of a throat swab for measles is pending.",
+  "question_stem": "Which of the following precautions is the most appropriate?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Airborne",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Contact",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Contact and droplet",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Droplet",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient likely has measles, and airborne precautions (Option A) should be initiated immediately on suspicion of the diagnosis. The virus is primarily transmitted through aerosolized small droplet nuclei (airborne transmission). If the patient cannot be placed immediately in an airborne infection isolation room (i.e., negative-pressure room), the patient should be masked in a room with the door closed. Measles is highly infectious and can be spread from 4 days before onset of the rash to 4 days after onset. Up to 9 of 10 susceptible persons with close contact to an individual with measles will become infected. Two doses of the measles, mumps, and rubella (MMR) vaccine are about 97% effective at protecting against measles. For international travelers who have not been previously immunized or have no evidence of immunity, two doses of the MMR vaccine should be given 28 days apart; ideally, patients should be fully vaccinated at least 2 weeks before international travel. If two doses are not possible, receiving the first dose before departure provides about 93% protection. If a patient has had one dose of MMR earlier in life, a second dose at least 2 weeks before departure is indicated. Because this patient was not fully immunized, she was susceptible to becoming infected when exposed to the virus.Contact precautions (Option B) are indicated with organisms that are transmitted by direct or indirect contact and would not be appropriate for a patient with measles. Although contact precautions are used for some viral illnesses (e.g., respiratory syncytial virus, human metapneumovirus, norovirus), these precautions are mostly used in cases of multidrug-resistant bacterial and Clostridioides difficile infections.Contact and droplet precautions (Option C) are used in conjunction for adenovirus infections and group A streptococcal skin or wound infections. These precautions would not be appropriate for this patient.Droplet precautions (Option D) are indicated for organisms transmitted by large droplet nuclei (rather than small droplet, as in measles), so they would not be appropriate for this patient. Droplet precautions are appropriate for a myriad of viral and bacterial infections, including influenza A and B, mumps, rubella, rhinoviral respiratory infections, parvovirus B19, pertussis, Neisseria meningitidis (invasive infections until after 24 hours of effective treatment), and group A streptococcal pneumonia.",
   "key_points": [
     "Airborne precautions should be initiated promptly for all patients suspected of having measles.",
     "Two doses of the measles, mumps, and rubella vaccine are approximately 97% effective at protecting against measles infection."
   ],
+  "references": "Wang R, Jing W, Liu M, et al. Trends of the global, regional, and national incidence of measles, vaccine coverage, and risk factors in 204 countries from 1990 to 2019. Front Med (Lausanne). 2021;8:798031. PMID: 35127753 doi:10.3389/fmed.2021.798031",
+  "related_content": {
+    "syllabus": [
+      "idsec24018_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24200.3e603e1e5ef96785c5717edc237d28ac.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Airborne"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Contact"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Contact and droplet"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Droplet"
-    }
-  ],
-  "question_id": "idmcq24019",
-  "question_stem": "Which of the following precautions is the most appropriate?",
-  "question_text": "A 58-year-old woman is evaluated in the emergency department for fever and a runny nose of 4 days' duration; today, she developed a rash that began on her face and has spread to her neck and upper trunk. She returned from Southeast Asia 5 days ago where she traveled to rural areas where cases of measles were identified. She thinks she received a single dose of the measles, mumps, and rubella vaccine as a child. She did not seek preventive care before travel. She takes no medications.On physical examination, temperature is 39.5 °C (103.1 °F); remaining vital signs are normal. A rash that appears along the hairline, on the face, and on the upper trunk is shown.Polymerase chain reaction of a throat swab for measles is pending.",
-  "references": "Wang R, Jing W, Liu M, et al. Trends of the global, regional, and national incidence of measles, vaccine coverage, and risk factors in 204 countries from 1990 to 2019. Front Med (Lausanne). 2021;8:798031. PMID: 35127753 doi:10.3389/fmed.2021.798031",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24018_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:46:43.751301-06:00"
 }

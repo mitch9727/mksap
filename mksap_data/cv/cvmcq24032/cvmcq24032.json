@@ -1,62 +1,62 @@
 {
+  "question_id": "cvmcq24032",
   "category": "cv",
-  "critique": "The most appropriate management for this patient is to discontinue rosuvastatin (Option C). Managing dyslipidemia for the primary prevention of atherosclerotic cardiovascular disease (ASCVD) in patients aged 75 years and older requires an individualized approach. For those in whom statin therapy is indicated, a moderate-intensity statin is recommended, although the benefit in this population is less robust than in other high-risk groups. Once started, the appropriateness of continued statin therapy should be frequently reassessed. It is reasonable to forgo initiating a statin or to stop statin therapy in the face of functional decline, multiple comorbid conditions, reduced life expectancy, or frailty. This patient has several comorbid conditions and findings associated with frailty, including weakness, weight loss, and poor balance Discontinuing statin therapy will decrease pill burden and decrease the risk for medication adverse effects.Adding icosapent ethyl (Option A) to treat this patient's hypertriglyceridemia is not necessary. In select patients with persistently elevated triglyceride levels despite statin therapy, especially those with established cardiovascular disease, adding icosapent ethyl may decrease the risk for cardiovascular events. This patient meets none of these criteria, and intensifying lipid-lowering therapy is not indicated given her overall health.High-intensity statin therapy (Option B) is rarely indicated in patients older than 75 years for either primary or secondary prevention outside the acute stages of acute coronary syndrome. Older adults are more likely to have adverse effects such as muscle pain and weakness from statins and to be taking other medications that interact with statins. Given this patient's debility and functional decline, increasing the statin dosage would be inappropriate despite the elevated LDL cholesterol level.A coronary artery calcium (CAC) score (Option D) is a useful tool to stratify risk in patients with a borderline or intermediate risk for adverse cardiovascular events and to determine whether statin therapy is appropriate. Given this patient's frailty, an elevated CAC score would not change management and should not be obtained.",
   "educational_objective": "Manage dyslipidemia in a patient older than 75 years with several comorbid conditions.",
-  "extracted_at": "2025-12-22T22:48:46.419086-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "An 81-year-old woman is evaluated during a follow-up visit after hospitalization for an exacerbation of COPD. She reports weakness, poor balance, several falls, and decreased physical activity. She has had several hospitalizations during the past year for pneumonia and has lost 5.9 kg (13 lb). In addition to COPD, she has dyslipidemia, mild cognitive impairment, and chronic kidney disease. Medications are moderate-intensity rosuvastatin, amlodipine, oral iron, vitamin D, furosemide, and inhaled tiotropium-salmeterol.On physical examination, vital signs are normal. BMI is 22. The thigh muscles are tender to palpation bilaterally. The rest of the examination is normal.",
+  "question_stem": "Which of the following is the most appropriate management of this patient's dyslipidemia?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Add icosapent ethyl",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Change to high-intensity rosuvastatin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Discontinue rosuvastatin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Obtain coronary artery calcium score",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management for this patient is to discontinue rosuvastatin (Option C). Managing dyslipidemia for the primary prevention of atherosclerotic cardiovascular disease (ASCVD) in patients aged 75 years and older requires an individualized approach. For those in whom statin therapy is indicated, a moderate-intensity statin is recommended, although the benefit in this population is less robust than in other high-risk groups. Once started, the appropriateness of continued statin therapy should be frequently reassessed. It is reasonable to forgo initiating a statin or to stop statin therapy in the face of functional decline, multiple comorbid conditions, reduced life expectancy, or frailty. This patient has several comorbid conditions and findings associated with frailty, including weakness, weight loss, and poor balance Discontinuing statin therapy will decrease pill burden and decrease the risk for medication adverse effects.Adding icosapent ethyl (Option A) to treat this patient's hypertriglyceridemia is not necessary. In select patients with persistently elevated triglyceride levels despite statin therapy, especially those with established cardiovascular disease, adding icosapent ethyl may decrease the risk for cardiovascular events. This patient meets none of these criteria, and intensifying lipid-lowering therapy is not indicated given her overall health.High-intensity statin therapy (Option B) is rarely indicated in patients older than 75 years for either primary or secondary prevention outside the acute stages of acute coronary syndrome. Older adults are more likely to have adverse effects such as muscle pain and weakness from statins and to be taking other medications that interact with statins. Given this patient's debility and functional decline, increasing the statin dosage would be inappropriate despite the elevated LDL cholesterol level.A coronary artery calcium (CAC) score (Option D) is a useful tool to stratify risk in patients with a borderline or intermediate risk for adverse cardiovascular events and to determine whether statin therapy is appropriate. Given this patient's frailty, an elevated CAC score would not change management and should not be obtained.",
   "key_points": [
     "Managing dyslipidemia in the primary prevention of atherosclerotic cardiovascular disease for patients aged 75 years and older requires an individualized approach.",
     "It is reasonable to forgo initiating a statin or to stop statin therapy in patients with functional decline, multiple comorbid conditions, frailty, or reduced life expectancy."
   ],
+  "references": "O'Malley PG, Arnold MJ, Kelley C, et al. Management of dyslipidemia for cardiovascular disease risk reduction: synopsis of the 2020 updated U.S. Department of Veterans Affairs and U.S. Department of Defense clinical practice guideline. Ann Intern Med. 2020;173:822-829. PMID: 32956597",
+  "related_content": {
+    "syllabus": [
+      "cvsec24002_24017"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Add icosapent ethyl"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Change to high-intensity rosuvastatin"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Discontinue rosuvastatin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Obtain coronary artery calcium score"
-    }
-  ],
-  "question_id": "cvmcq24032",
-  "question_stem": "Which of the following is the most appropriate management of this patient's dyslipidemia?",
-  "question_text": "An 81-year-old woman is evaluated during a follow-up visit after hospitalization for an exacerbation of COPD. She reports weakness, poor balance, several falls, and decreased physical activity. She has had several hospitalizations during the past year for pneumonia and has lost 5.9 kg (13 lb). In addition to COPD, she has dyslipidemia, mild cognitive impairment, and chronic kidney disease. Medications are moderate-intensity rosuvastatin, amlodipine, oral iron, vitamin D, furosemide, and inhaled tiotropium-salmeterol.On physical examination, vital signs are normal. BMI is 22. The thigh muscles are tender to palpation bilaterally. The rest of the examination is normal.",
-  "references": "O'Malley PG, Arnold MJ, Kelley C, et al. Management of dyslipidemia for cardiovascular disease risk reduction: synopsis of the 2020 updated U.S. Department of Veterans Affairs and U.S. Department of Defense clinical practice guideline. Ann Intern Med. 2020;173:822-829. PMID: 32956597",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24002_24017"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:48:46.419086-06:00"
 }

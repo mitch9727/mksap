@@ -1,59 +1,59 @@
 {
+  "question_id": "invdx24018",
   "category": "in",
-  "critique": "The most likely diagnosis is episcleritis (Option B), or inflammation of the episclera, which lies between the conjunctiva and the sclera. Episcleritis is characterized by a red, flat or nodular, superficial lesion that allows visualization of the underlying vasculature. The lesion is usually not painful. Episcleritis is typically a self-limited condition, is not associated with systemic disease, and does not threaten vision. In contrast, scleritis is often associated with underlying inflammatory diseases, causes severe pain, and can threaten vision.",
   "educational_objective": "Diagnose episcleritis.",
-  "extracted_at": "2025-12-23T15:28:36.839028-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 36-year-old man is evaluated for acute onset of a red eye. He is otherwise asymptomatic and has no other medical problems.Ocular findings are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Allergic conjunctivitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Episcleritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Hyperacute bacterial conjunctivitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Scleritis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is episcleritis (Option B), or inflammation of the episclera, which lies between the conjunctiva and the sclera. Episcleritis is characterized by a red, flat or nodular, superficial lesion that allows visualization of the underlying vasculature. The lesion is usually not painful. Episcleritis is typically a self-limited condition, is not associated with systemic disease, and does not threaten vision. In contrast, scleritis is often associated with underlying inflammatory diseases, causes severe pain, and can threaten vision.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "insec24003_24007"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/infig24627.89d65cde6ce2f659f828215131e6e842.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Allergic conjunctivitis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Episcleritis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Hyperacute bacterial conjunctivitis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Scleritis"
-    }
-  ],
-  "question_id": "invdx24018",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 36-year-old man is evaluated for acute onset of a red eye. He is otherwise asymptomatic and has no other medical problems.Ocular findings are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "insec24003_24007"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:28:36.839028-06:00"
 }

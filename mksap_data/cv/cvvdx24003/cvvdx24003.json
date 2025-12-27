@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24003",
   "category": "cv",
-  "critique": "This ECG shows evidence of a prior inferior myocardial infarction (Option D), with Q waves in leads II, III, and aVF without ST-segment changes. There are no ECG changes consistent with acute pericarditis (diffuse upsloping ST-segment elevations with PR-segment depression), nor are there ECG changes suggesting prior anterior myocardial infarction (Q waves in the anterior leads) or Brugada syndrome (coved ST-segment elevation).",
   "educational_objective": "Identify a prior inferior myocardial infarction on ECG.",
-  "extracted_at": "2025-12-23T14:08:40.338894-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 58-year-old woman is evaluated before elective total hip arthroplasty.ECG is shown.",
+  "question_stem": "Which of the following abnormalities is seen on this patient's ECG?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute pericarditis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Brugada syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Prior anterior myocardial infarction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Prior inferior myocardial infarction",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This ECG shows evidence of a prior inferior myocardial infarction (Option D), with Q waves in leads II, III, and aVF without ST-segment changes. There are no ECG changes consistent with acute pericarditis (diffuse upsloping ST-segment elevations with PR-segment depression), nor are there ECG changes suggesting prior anterior myocardial infarction (Q waves in the anterior leads) or Brugada syndrome (coved ST-segment elevation).",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24004_24015"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24603.a909bddff522d497b4c9a5bda649c1a1.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acute pericarditis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Brugada syndrome"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Prior anterior myocardial infarction"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Prior inferior myocardial infarction"
-    }
-  ],
-  "question_id": "cvvdx24003",
-  "question_stem": "Which of the following abnormalities is seen on this patient's ECG?",
-  "question_text": "A 58-year-old woman is evaluated before elective total hip arthroplasty.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24004_24015"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.338894-06:00"
 }

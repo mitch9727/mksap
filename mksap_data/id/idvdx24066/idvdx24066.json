@@ -1,59 +1,59 @@
 {
+  "question_id": "idvdx24066",
   "category": "id",
-  "critique": "Kaposi sarcoma (Option B) is a vascular malignancy of the lymphatic endothelium associated with human herpesvirus type 8 (HHV-8) infection in patients with severely impaired adaptive immunity. HHV-8 infection is predominantly seen in endemic regions of the globe (such as equatorial Africa) and among men who have sex with men. Progression to Kaposi sarcoma most commonly occurs in patients with advanced HIV infection who are not receiving antiretroviral therapy. Mucocutaneous lesions are typically dark red, violaceous, or brown papules and macules that may ulcerate. Because of their vascular nature, lesions often bleed easily during biopsy for histopathology.",
   "educational_objective": "Diagnose Kaposi sarcoma.",
-  "extracted_at": "2025-12-23T15:17:18.203601-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 35-year-old man presents with lower extremity edema and the nontender, nonpruritic lesions shown. He is from Africa and has untreated HIV infection. Skin biopsy is complicated by diffuse bleeding.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cryptococcus neoformans infection",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Kaposi sarcoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Molluscum contagiosum",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Prurigo nodularis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Kaposi sarcoma (Option B) is a vascular malignancy of the lymphatic endothelium associated with human herpesvirus type 8 (HHV-8) infection in patients with severely impaired adaptive immunity. HHV-8 infection is predominantly seen in endemic regions of the globe (such as equatorial Africa) and among men who have sex with men. Progression to Kaposi sarcoma most commonly occurs in patients with advanced HIV infection who are not receiving antiretroviral therapy. Mucocutaneous lesions are typically dark red, violaceous, or brown papules and macules that may ulcerate. Because of their vascular nature, lesions often bleed easily during biopsy for histopathology.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24019_24022"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24676.dcf4a4c5b850819c0207e05f321fcd63.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cryptococcus neoformans infection"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Kaposi sarcoma"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Molluscum contagiosum"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Prurigo nodularis"
-    }
-  ],
-  "question_id": "idvdx24066",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 35-year-old man presents with lower extremity edema and the nontender, nonpruritic lesions shown. He is from Africa and has untreated HIV infection. Skin biopsy is complicated by diffuse bleeding.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24019_24022"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:17:18.203601-06:00"
 }

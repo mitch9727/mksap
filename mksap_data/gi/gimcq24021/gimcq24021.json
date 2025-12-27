@@ -1,62 +1,62 @@
 {
+  "question_id": "gimcq24021",
   "category": "gi",
-  "critique": "The most appropriate next step in management is abdominal CT (Option A) to evaluate for acute pancreatitis. Acute pancreatitis is an inflammatory process involving the pancreas and extrapancreatic organs. The most common causes are biliary disease, including gallstones, biliary sludge, and biliary crystals (microlithiasis), and alcohol use (see ). A diagnosis of acute pancreatitis requires at least two of the following three criteria:Acute-onset abdominal pain characteristic of pancreatitisSerum amylase or lipase levels at least three times the upper limit of normalCharacteristic CT or MRI findings (Figure: Acute pancreatitis), which may include peri-pancreatic edema, inflammation, and/or fat strandingThis patient meets the first criterion, but his lipase level of 108 U/L is less than twice the upper limit of normal. His serum aspartate aminotransferase level (155 U/L) is greater than his alanine aminotransferase (ALT) level (90 U/L), suggesting alcohol-associated liver disease (especially considering his alcohol use). In patients with pancreatitis due to gallstone disease, an ALT level greater than 150 U/L and elevations in bilirubin level are suggestive. Although CT is less useful for assessing the biliary system than transabdominal ultrasonography, it has higher sensitivity for diagnosing acute pancreatitis. In this patient, the diagnosis of acute pancreatitis must be confirmed, and CT should be pursued.Aggressive fluid resuscitation (Option B) is not recommended for acute pancreatitis. Previously, an aggressive treatment strategy with 250 to 500 mL/h of lactated Ringer solution was recommended. However, trials have demonstrated that a more moderate strategy of fluid resuscitation may avoid adverse outcomes, such as fluid overload.Intravenous antibiotics (Option C) are not warranted in acute pancreatitis unless there is concern for extrapancreatic infection, such as ascending cholangitis, bacteremia, urinary tract infection, or pneumonia. In addition, use of prophylactic antibiotics in patients with sterile pancreatic necrosis to prevent infected necrosis is not recommended. This patient does not have signs of infection and does not require antibiotics.Transabdominal ultrasonography (Option D) is less sensitive than CT in diagnosing pancreatitis because up to 35% of patients may have bowel gas that inhibits ultrasonographic visualization of the pancreas. However, once a clinical diagnosis of acute pancreatitis has been made, the cause should be sought. Transabdominal ultrasonography is recommended after pancreatitis has been diagnosed to assess for gallstones and biliary duct dilation.",
   "educational_objective": "Diagnose acute pancreatitis.",
-  "extracted_at": "2025-12-23T14:14:30.881393-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 55-year-old man is evaluated in the emergency department for a 14-hour history of acute-onset epigastric pain radiating to the back. He drinks six cans of beer several times weekly.On physical examination, temperature is 37.5 °C (99.5 °F), blood pressure is 105/64 mm Hg, pulse rate is 117/min, and respiration rate is 18/min. Oxygen saturation is 95% with the patient breathing ambient air. Abdominal palpation elicits epigastric pain without rebound or guarding.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Abdominal CT",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Aggressive fluid resuscitation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Intravenous antibiotics",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Transabdominal ultrasonography",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in management is abdominal CT (Option A) to evaluate for acute pancreatitis. Acute pancreatitis is an inflammatory process involving the pancreas and extrapancreatic organs. The most common causes are biliary disease, including gallstones, biliary sludge, and biliary crystals (microlithiasis), and alcohol use (see ). A diagnosis of acute pancreatitis requires at least two of the following three criteria:Acute-onset abdominal pain characteristic of pancreatitisSerum amylase or lipase levels at least three times the upper limit of normalCharacteristic CT or MRI findings (Figure: Acute pancreatitis), which may include peri-pancreatic edema, inflammation, and/or fat strandingThis patient meets the first criterion, but his lipase level of 108 U/L is less than twice the upper limit of normal. His serum aspartate aminotransferase level (155 U/L) is greater than his alanine aminotransferase (ALT) level (90 U/L), suggesting alcohol-associated liver disease (especially considering his alcohol use). In patients with pancreatitis due to gallstone disease, an ALT level greater than 150 U/L and elevations in bilirubin level are suggestive. Although CT is less useful for assessing the biliary system than transabdominal ultrasonography, it has higher sensitivity for diagnosing acute pancreatitis. In this patient, the diagnosis of acute pancreatitis must be confirmed, and CT should be pursued.Aggressive fluid resuscitation (Option B) is not recommended for acute pancreatitis. Previously, an aggressive treatment strategy with 250 to 500 mL/h of lactated Ringer solution was recommended. However, trials have demonstrated that a more moderate strategy of fluid resuscitation may avoid adverse outcomes, such as fluid overload.Intravenous antibiotics (Option C) are not warranted in acute pancreatitis unless there is concern for extrapancreatic infection, such as ascending cholangitis, bacteremia, urinary tract infection, or pneumonia. In addition, use of prophylactic antibiotics in patients with sterile pancreatic necrosis to prevent infected necrosis is not recommended. This patient does not have signs of infection and does not require antibiotics.Transabdominal ultrasonography (Option D) is less sensitive than CT in diagnosing pancreatitis because up to 35% of patients may have bowel gas that inhibits ultrasonographic visualization of the pancreas. However, once a clinical diagnosis of acute pancreatitis has been made, the cause should be sought. Transabdominal ultrasonography is recommended after pancreatitis has been diagnosed to assess for gallstones and biliary duct dilation.",
   "key_points": [
     "The diagnosis of acute pancreatitis requires at least two of the following: acute-onset abdominal pain characteristic of pancreatitis; serum amylase or lipase levels at least two to three times the upper limit of normal; and characteristic CT or MRI findings, which may include peri-pancreatic edema, inflammation, and/or fat stranding."
   ],
+  "references": "Tenner S, Vege SS, Sheth SG, et al. American College of Gastroenterology guidelines: management of acute pancreatitis. Am J Gastroenterol. 2024;119:419-437. PMID: 38857482 doi:10.14309/ajg.0000000000002645",
+  "related_content": {
+    "syllabus": [
+      "gisec24003_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Abdominal CT"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Aggressive fluid resuscitation"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Intravenous antibiotics"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Transabdominal ultrasonography"
-    }
-  ],
-  "question_id": "gimcq24021",
-  "question_stem": "Which of the following is the most appropriate next step in management?",
-  "question_text": "A 55-year-old man is evaluated in the emergency department for a 14-hour history of acute-onset epigastric pain radiating to the back. He drinks six cans of beer several times weekly.On physical examination, temperature is 37.5 °C (99.5 °F), blood pressure is 105/64 mm Hg, pulse rate is 117/min, and respiration rate is 18/min. Oxygen saturation is 95% with the patient breathing ambient air. Abdominal palpation elicits epigastric pain without rebound or guarding.",
-  "references": "Tenner S, Vege SS, Sheth SG, et al. American College of Gastroenterology guidelines: management of acute pancreatitis. Am J Gastroenterol. 2024;119:419-437. PMID: 38857482 doi:10.14309/ajg.0000000000002645",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "gisec24003_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:14:30.881393-06:00"
 }

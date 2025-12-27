@@ -1,61 +1,61 @@
 {
+  "question_id": "pmvdx24013",
   "category": "pm",
-  "critique": "The most likely diagnosis is left mainstem endobronchial obstruction (Option A), most likely caused by a tumor. The chest radiographs shown indicate the presence of left upper lobe atelectasis. An ill-defined opacification is seen at the left hilum and left upper lung field. The hilum has been displaced laterally and superiorly, the trachea is deviated to the left, and the left hemidiaphragm has been elevated because of the loss of volume in the left upper lobe. Note the absence of the normally visible lucency of the left mainstem bronchus (arrow, left panel), possibly indicating its obstruction (a potential cause of left upper lobe atelectasis). The lateral radiograph reveals the anterior displacement of the major fissure (arrows, right panel) and an opacification of the left upper lung field.",
   "educational_objective": "Diagnose left mainstem bronchus obstruction.",
-  "extracted_at": "2025-12-23T14:15:53.258806-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 79-year-old man is evaluated for cough and dyspnea. He has a 70-pack-year history of cigarette smoking.Chest radiographs are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Left mainstem endobronchial obstruction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Left pneumothorax",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Left upper lobe tuberculosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Right tension pneumothorax",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is left mainstem endobronchial obstruction (Option A), most likely caused by a tumor. The chest radiographs shown indicate the presence of left upper lobe atelectasis. An ill-defined opacification is seen at the left hilum and left upper lung field. The hilum has been displaced laterally and superiorly, the trachea is deviated to the left, and the left hemidiaphragm has been elevated because of the loss of volume in the left upper lobe. Note the absence of the normally visible lucency of the left mainstem bronchus (arrow, left panel), possibly indicating its obstruction (a potential cause of left upper lobe atelectasis). The lateral radiograph reveals the anterior displacement of the major fissure (arrows, right panel) and an opacification of the left upper lung field.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24007_24010"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24620.18a788955479d654dd3d7e9e8d963c01.jpg",
       "figures/pmfig24618.7ddea3f3622855e74e15a4d407fdd4cd.jpg",
       "figures/pmfig24619.a64d42571e55e4c87964448fb3147860.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Left mainstem endobronchial obstruction"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Left pneumothorax"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Left upper lobe tuberculosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Right tension pneumothorax"
-    }
-  ],
-  "question_id": "pmvdx24013",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 79-year-old man is evaluated for cough and dyspnea. He has a 70-pack-year history of cigarette smoking.Chest radiographs are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24007_24010"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.258806-06:00"
 }

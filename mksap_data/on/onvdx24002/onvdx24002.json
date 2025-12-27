@@ -1,59 +1,59 @@
 {
+  "question_id": "onvdx24002",
   "category": "on",
-  "critique": "The most likely diagnosis is lung cancer (Option B). PET/CT is a standard component of initial staging for all patients with non–small cell lung cancer and is useful for assessing mediastinal nodes and identifying distant metastatic disease. This patient's PET/CT scan shows enhanced uptake of the 18-fluorodeoxyglucose marker (seen as red on the image), indicating increased metabolic activity consistent with high likelihood of malignancy. Abnormal 18-fluorodeoxyglucose uptake is not seen elsewhere on the scan. Resection of this lesion showed an adenocarcinoma with no evidence of spread to hilar or mediastinal nodes.",
   "educational_objective": "Diagnose lung cancer with PET/CT scan.",
-  "extracted_at": "2025-12-23T14:12:25.088663-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 67-year-old woman is evaluated for a lung mass.PET/CT scan is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Hamartoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Lung cancer",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Pulmonary arteriovenous malformation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Rounded atelectasis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is lung cancer (Option B). PET/CT is a standard component of initial staging for all patients with non–small cell lung cancer and is useful for assessing mediastinal nodes and identifying distant metastatic disease. This patient's PET/CT scan shows enhanced uptake of the 18-fluorodeoxyglucose marker (seen as red on the image), indicating increased metabolic activity consistent with high likelihood of malignancy. Abnormal 18-fluorodeoxyglucose uptake is not seen elsewhere on the scan. Resection of this lesion showed an adenocarcinoma with no evidence of spread to hilar or mediastinal nodes.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "onsec24004_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/onfig24602.67d57452a77135690b859e94e095fb8e.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Hamartoma"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Lung cancer"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Pulmonary arteriovenous malformation"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Rounded atelectasis"
-    }
-  ],
-  "question_id": "onvdx24002",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 67-year-old woman is evaluated for a lung mass.PET/CT scan is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "onsec24004_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:12:25.088663-06:00"
 }

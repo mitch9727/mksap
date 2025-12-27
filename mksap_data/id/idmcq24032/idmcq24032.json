@@ -1,66 +1,66 @@
 {
+  "question_id": "idmcq24032",
   "category": "id",
-  "critique": "The most appropriate next step in management is to treat this patient with oral amoxicillin (Option A) for community-acquired pneumonia (CAP). She has acute symptoms of cough, fever, and chills, and a chest radiograph reveals a focal infiltrate in the left lower lobe. These findings indicate CAP, which likely developed following an upper respiratory infection. Streptococcus pneumoniae is the most common bacterial cause of CAP. Staphylococcus aureus is another causative organism; less commonly, gram-negative organisms such as Pseudomonas aeruginosa or Enterobacterales (i.e., Escherichia coli) are responsible. Atypical causes of CAP include Legionella, Mycoplasma, and Chlamydia species. A preceding upper respiratory viral infection may increase the risk for a subsequent secondary bacterial infection. This patient is otherwise healthy, has no significant medical problems, and is unlikely to require hospitalization. Treatment guidelines from the Infectious Disease Society of America (IDSA) and American Thoracic Society (ATS) recommend an empiric antibiotic regimen for outpatients that targets S. pneumoniae and Haemophilus influenzae (see ). High-dose oral amoxicillin (1 g three times daily) is preferred because of increasing resistance rates of macrolides such as azithromycin.Diagnostic studies are not routinely indicated in outpatients with CAP. Blood cultures (Option B) should be obtained in patients with severe pneumonia and in those treated empirically for MRSA or P. aeruginosa, because a negative result may allow de-escalation of antibiotic therapy.When plain radiographs are normal but suspicion for CAP remains high, chest radiography may be repeated after 24 hours; for patients at high risk (febrile neutropenia or acute respiratory distress syndrome) with normal radiographs, chest CT should be pursued (Option C).IDSA/ATS guidelines recommend levofloxacin monotherapy (Option D) for CAP in outpatients with comorbid conditions or in hospitalized patients with nonsevere pneumonia. This patient does not have comorbidities and does not require hospitalization, so amoxicillin is a more appropriate choice.Sputum Gram stain and culture (Option E) are appropriate for patients admitted to the ICU, those who did not respond to outpatient antibiotics, patients with cavitary lung lesions, and patients with underlying structural lung disease. This patient does not meet indications for blood cultures, chest CT, or Gram stain and culture.",
   "educational_objective": "Treat a patient with community-acquired pneumonia in the outpatient setting.",
-  "extracted_at": "2025-12-22T19:46:50.831288-06:00",
-  "key_points": [
-    "In patients with community-acquired pneumonia who are otherwise healthy, have no significant medical problems, and are unlikely to require hospitalization, guidelines for treatment recommend an outpatient regimen that targets Streptococcus pneumoniae and Haemophilus influenzae, such as oral amoxicillin."
-  ],
-  "media": {
-    "images": [],
-    "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "videos": []
-  },
   "metadata": {
     "care_types": [],
-    "high_value_care": false,
     "patient_types": [],
+    "high_value_care": false,
     "question_updated": "12/22/2025"
   },
+  "question_text": "A 45-year-old woman is evaluated for fever, chills, and cough of 4 days' duration. She has also noticed mild dyspnea when walking up stairs. She reports preceding nasal congestion and sore throat for 1 week. Her two young children have also had symptoms of an upper respiratory illness recently. Medical history is unremarkable, and she takes no medications.On physical examination, temperature is 37.6 °C (99.7 °F), blood pressure is 126/75 mm Hg, pulse rate is 92/min, and respiration rate is 16/min. Oxygen saturation is 97% breathing ambient air. Crackles are heard over the left lung base.SAR-CoV-2 testing is negative.Consolidation is seen in the left lower lobe on a chest radiograph.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
   "options": [
     {
       "letter": "A",
-      "peer_percentage": 0,
-      "text": "Amoxicillin"
+      "text": "Amoxicillin",
+      "peer_percentage": 0
     },
     {
       "letter": "B",
-      "peer_percentage": 0,
-      "text": "Blood cultures"
+      "text": "Blood cultures",
+      "peer_percentage": 0
     },
     {
       "letter": "C",
-      "peer_percentage": 0,
-      "text": "Chest CT"
+      "text": "Chest CT",
+      "peer_percentage": 0
     },
     {
       "letter": "D",
-      "peer_percentage": 0,
-      "text": "Levofloxacin"
+      "text": "Levofloxacin",
+      "peer_percentage": 0
     },
     {
       "letter": "E",
-      "peer_percentage": 0,
-      "text": "Sputum Gram stain and culture"
+      "text": "Sputum Gram stain and culture",
+      "peer_percentage": 0
     }
   ],
-  "question_id": "idmcq24032",
-  "question_stem": "Which of the following is the most appropriate next step in management?",
-  "question_text": "A 45-year-old woman is evaluated for fever, chills, and cough of 4 days' duration. She has also noticed mild dyspnea when walking up stairs. She reports preceding nasal congestion and sore throat for 1 week. Her two young children have also had symptoms of an upper respiratory illness recently. Medical history is unremarkable, and she takes no medications.On physical examination, temperature is 37.6 °C (99.7 °F), blood pressure is 126/75 mm Hg, pulse rate is 92/min, and respiration rate is 16/min. Oxygen saturation is 97% breathing ambient air. Crackles are heard over the left lung base.SAR-CoV-2 testing is negative.Consolidation is seen in the left lower lobe on a chest radiograph.",
-  "references": "Metlay JP, Waterer GW, Long AC, et al. Diagnosis and treatment of adults with community-acquired pneumonia. An official clinical practice guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med. 2019;200:e45-e67. PMID: 31573350 doi:10.1164/rccm.201908-1581ST",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24006_24006"
-    ]
-  },
   "user_performance": {
+    "user_answer": null,
     "correct_answer": "A",
     "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in management is to treat this patient with oral amoxicillin (Option A) for community-acquired pneumonia (CAP). She has acute symptoms of cough, fever, and chills, and a chest radiograph reveals a focal infiltrate in the left lower lobe. These findings indicate CAP, which likely developed following an upper respiratory infection. Streptococcus pneumoniae is the most common bacterial cause of CAP. Staphylococcus aureus is another causative organism; less commonly, gram-negative organisms such as Pseudomonas aeruginosa or Enterobacterales (i.e., Escherichia coli) are responsible. Atypical causes of CAP include Legionella, Mycoplasma, and Chlamydia species. A preceding upper respiratory viral infection may increase the risk for a subsequent secondary bacterial infection. This patient is otherwise healthy, has no significant medical problems, and is unlikely to require hospitalization. Treatment guidelines from the Infectious Disease Society of America (IDSA) and American Thoracic Society (ATS) recommend an empiric antibiotic regimen for outpatients that targets S. pneumoniae and Haemophilus influenzae (see ). High-dose oral amoxicillin (1 g three times daily) is preferred because of increasing resistance rates of macrolides such as azithromycin.Diagnostic studies are not routinely indicated in outpatients with CAP. Blood cultures (Option B) should be obtained in patients with severe pneumonia and in those treated empirically for MRSA or P. aeruginosa, because a negative result may allow de-escalation of antibiotic therapy.When plain radiographs are normal but suspicion for CAP remains high, chest radiography may be repeated after 24 hours; for patients at high risk (febrile neutropenia or acute respiratory distress syndrome) with normal radiographs, chest CT should be pursued (Option C).IDSA/ATS guidelines recommend levofloxacin monotherapy (Option D) for CAP in outpatients with comorbid conditions or in hospitalized patients with nonsevere pneumonia. This patient does not have comorbidities and does not require hospitalization, so amoxicillin is a more appropriate choice.Sputum Gram stain and culture (Option E) are appropriate for patients admitted to the ICU, those who did not respond to outpatient antibiotics, patients with cavitary lung lesions, and patients with underlying structural lung disease. This patient does not meet indications for blood cultures, chest CT, or Gram stain and culture.",
+  "key_points": [
+    "In patients with community-acquired pneumonia who are otherwise healthy, have no significant medical problems, and are unlikely to require hospitalization, guidelines for treatment recommend an outpatient regimen that targets Streptococcus pneumoniae and Haemophilus influenzae, such as oral amoxicillin."
+  ],
+  "references": "Metlay JP, Waterer GW, Long AC, et al. Diagnosis and treatment of adults with community-acquired pneumonia. An official clinical practice guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med. 2019;200:e45-e67. PMID: 31573350 doi:10.1164/rccm.201908-1581ST",
+  "related_content": {
+    "syllabus": [
+      "idsec24006_24006"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T19:46:50.831288-06:00"
 }

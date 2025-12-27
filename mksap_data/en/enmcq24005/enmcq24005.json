@@ -1,67 +1,67 @@
 {
+  "question_id": "enmcq24005",
   "category": "en",
-  "critique": "This patient has drug-induced hyperglycemia due to pembrolizumab, and the most appropriate treatment is insulin (Option B). Immune checkpoint inhibitors, such as pembrolizumab, can cause several autoimmune endocrinopathies. Thyroid disorders and hypophysitis are the most common; however, autoimmune diabetes mellitus has also been reported. Immune checkpoint inhibitors can cause autoimmune destruction of pancreatic β cells, leading to insulin deficiency and hyperglycemia. Although this patient has glutamic acid decarboxylase antibody positivity, only about 50% of persons with immune checkpoint inhibitor–associated diabetes mellitus have detectable islet cell antibodies at the time of diagnosis; therefore, normal antibody testing does not exclude the diagnosis. Low to undetectable levels of C-peptide in the setting of hyperglycemia provide additional evidence of insulin deficiency. After immune checkpoint inhibitors are initiated, diabetes onset can occur over a wide range of time, from within a few weeks to 1 year after starting treatment. Patients should be closely monitored for the development of diabetes. In such patients, insulin replacement therapy is the preferred and most effective treatment. Diabetes is almost always permanent, and long-term insulin therapy is necessary.Glipizide (Option A) is a sulfonylurea that stimulates insulin secretion from the pancreas. The autoimmune destruction of pancreatic β cells induced by immune checkpoint inhibitors causes a lack of insulin production; therefore, stimulating insulin secretion would not be an effective mechanism for treating hyperglycemia in these patients.Metformin (Option C) works primarily by improving insulin sensitivity and reducing hepatic glucose production. In a patient with autoimmune destruction of β cells leading to low insulin levels, metformin would not adequately address hyperglycemia.Semaglutide (Option D) is a glucagon-like peptide 1 receptor agonist that increases insulin secretion, reduces gastric emptying, and reduces glucagon secretion. A medication that targets insulin secretion is not an appropriate treatment for insulin deficiency due to drug-induced immune-mediated type 1 diabetes mellitus.Sitagliptin (Option E) is a dipeptidyl peptidase-4 (DPP-4) inhibitor that increases levels of incretin, which in turn increases insulin secretion and suppresses glucagon secretion. As it targets insulin secretion, it would not be the most appropriate choice in a patient with autoimmune β-cell destruction and insulin deficiency.",
   "educational_objective": "Treat autoimmune diabetes mellitus due to immune checkpoint inhibitor therapy.",
-  "extracted_at": "2025-12-22T22:59:19.759265-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 67-year-old man is evaluated for 2 weeks of polyuria and polydipsia. He has also lost approximately 4 kg (8.8 lb). A random plasma glucose level is 300 mg/dL (16.6 mmol/L). Medical history is remarkable for melanoma, and he started adjuvant pembrolizumab therapy 6 months ago.Physical examination findings, including vital signs, are normal.",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Glipizide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Insulin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Metformin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Semaglutide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "Sitagliptin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has drug-induced hyperglycemia due to pembrolizumab, and the most appropriate treatment is insulin (Option B). Immune checkpoint inhibitors, such as pembrolizumab, can cause several autoimmune endocrinopathies. Thyroid disorders and hypophysitis are the most common; however, autoimmune diabetes mellitus has also been reported. Immune checkpoint inhibitors can cause autoimmune destruction of pancreatic β cells, leading to insulin deficiency and hyperglycemia. Although this patient has glutamic acid decarboxylase antibody positivity, only about 50% of persons with immune checkpoint inhibitor–associated diabetes mellitus have detectable islet cell antibodies at the time of diagnosis; therefore, normal antibody testing does not exclude the diagnosis. Low to undetectable levels of C-peptide in the setting of hyperglycemia provide additional evidence of insulin deficiency. After immune checkpoint inhibitors are initiated, diabetes onset can occur over a wide range of time, from within a few weeks to 1 year after starting treatment. Patients should be closely monitored for the development of diabetes. In such patients, insulin replacement therapy is the preferred and most effective treatment. Diabetes is almost always permanent, and long-term insulin therapy is necessary.Glipizide (Option A) is a sulfonylurea that stimulates insulin secretion from the pancreas. The autoimmune destruction of pancreatic β cells induced by immune checkpoint inhibitors causes a lack of insulin production; therefore, stimulating insulin secretion would not be an effective mechanism for treating hyperglycemia in these patients.Metformin (Option C) works primarily by improving insulin sensitivity and reducing hepatic glucose production. In a patient with autoimmune destruction of β cells leading to low insulin levels, metformin would not adequately address hyperglycemia.Semaglutide (Option D) is a glucagon-like peptide 1 receptor agonist that increases insulin secretion, reduces gastric emptying, and reduces glucagon secretion. A medication that targets insulin secretion is not an appropriate treatment for insulin deficiency due to drug-induced immune-mediated type 1 diabetes mellitus.Sitagliptin (Option E) is a dipeptidyl peptidase-4 (DPP-4) inhibitor that increases levels of incretin, which in turn increases insulin secretion and suppresses glucagon secretion. As it targets insulin secretion, it would not be the most appropriate choice in a patient with autoimmune β-cell destruction and insulin deficiency.",
   "key_points": [
     "Immune checkpoint inhibitors can cause autoimmune destruction of pancreatic β cells, leading to insulin deficiency and hyperglycemia.",
     "Insulin is the preferred treatment for immune checkpoint inhibitor–induced type 1 diabetes mellitus."
   ],
+  "references": "Cho YK, Jung CH. Immune-checkpoint inhibitors-induced type 1 diabetes mellitus: from its molecular mechanisms to clinical practice. Diabetes Metab J. 2023;47:757-766. PMID: 37482654 doi:10.4093/dmj.2023.0072",
+  "related_content": {
+    "syllabus": [
+      "ensec24002_24031"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Glipizide"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Insulin"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Metformin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Semaglutide"
-    },
-    {
-      "letter": "E",
-      "peer_percentage": 0,
-      "text": "Sitagliptin"
-    }
-  ],
-  "question_id": "enmcq24005",
-  "question_stem": "Which of the following is the most appropriate treatment?",
-  "question_text": "A 67-year-old man is evaluated for 2 weeks of polyuria and polydipsia. He has also lost approximately 4 kg (8.8 lb). A random plasma glucose level is 300 mg/dL (16.6 mmol/L). Medical history is remarkable for melanoma, and he started adjuvant pembrolizumab therapy 6 months ago.Physical examination findings, including vital signs, are normal.",
-  "references": "Cho YK, Jung CH. Immune-checkpoint inhibitors-induced type 1 diabetes mellitus: from its molecular mechanisms to clinical practice. Diabetes Metab J. 2023;47:757-766. PMID: 37482654 doi:10.4093/dmj.2023.0072",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24002_24031"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:59:19.759265-06:00"
 }

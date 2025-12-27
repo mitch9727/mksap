@@ -1,62 +1,62 @@
 {
+  "question_id": "nrmcq24052",
   "category": "nr",
-  "critique": "This patient had a mild traumatic brain injury (TBI), and no further testing is required (Option D). Mild TBI may be associated with no or brief loss of consciousness and Glasgow Coma Scale (GCS) scores of 13 to 15. Symptoms after a mild TBI may be divided into physical, cognitive, psychological, and sleep-associated domains. Headache and dizziness are among the most common symptoms. In most patients, physical examination findings are normal, and further diagnostic investigation is unnecessary. Indications for imaging are listed in Table: Indications for Head CT in Mild Traumatic Brain Injury. Most symptoms resolve spontaneously within 7 to 10 days. Although complete physical and cognitive rest was previously recommended after mild TBI, early symptom-limited activity improves outcomes. Patients should be advised to begin escalating physical activities after 1 to 2 days of rest and mental activities after 3 to 5 days of cognitive rest as tolerated. This patient lost consciousness for less than 15 seconds, has a GCS score of 15, and has a normal neurologic examination. They do not require neuroimaging or other further testing.Carotid ultrasonography (Option A) may be considered in the setting of suspected traumatic arterial dissection but is not typically performed in patients with mild TBI. Given the absence of any specific symptoms or signs of carotid or vertebral artery dissection in this patient, the level of suspicion for vascular trauma is low.Criteria for imaging of the head in mild TBI include older age (>60-65 years), a GCS score below 15, vomiting or severe headaches, persistent drowsiness, focal neurologic signs, substance intoxication, and coagulopathy. Additional indications are listed in Table: Indications for Head CT in Mild Traumatic Brain Injury. None of these indications apply to this patient, and CT of the head (Option B) is unnecessary.Brain MRI (Option C) is not recommended in the setting of acute head trauma. When imaging is indicated, noncontrast CT of the head is the modality of choice given its high sensitivity for acute hemorrhage or skull fractures, wide availability, rapid acquisition time, and relatively low expense.",
   "educational_objective": "Evaluate mild traumatic brain injury.",
-  "extracted_at": "2025-12-22T20:17:11.265568-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 20-year-old patient is evaluated in the emergency department for mild global headache and dizziness of 4 hours' duration. The patient is a collegiate soccer player, and the symptoms occurred following a head-to-head collision with loss of consciousness of less than 15 seconds. The patient was immediately removed from play. They have full memory of the surrounding events and have not experienced any vomiting, visual symptoms, or focal neurologic symptoms. Medical history is otherwise unremarkable, and the patient takes no medications.Physical examination findings, including vital signs, are normal.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Carotid ultrasonography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "CT of the head",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "MRI of the brain",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No further testing",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient had a mild traumatic brain injury (TBI), and no further testing is required (Option D). Mild TBI may be associated with no or brief loss of consciousness and Glasgow Coma Scale (GCS) scores of 13 to 15. Symptoms after a mild TBI may be divided into physical, cognitive, psychological, and sleep-associated domains. Headache and dizziness are among the most common symptoms. In most patients, physical examination findings are normal, and further diagnostic investigation is unnecessary. Indications for imaging are listed in Table: Indications for Head CT in Mild Traumatic Brain Injury. Most symptoms resolve spontaneously within 7 to 10 days. Although complete physical and cognitive rest was previously recommended after mild TBI, early symptom-limited activity improves outcomes. Patients should be advised to begin escalating physical activities after 1 to 2 days of rest and mental activities after 3 to 5 days of cognitive rest as tolerated. This patient lost consciousness for less than 15 seconds, has a GCS score of 15, and has a normal neurologic examination. They do not require neuroimaging or other further testing.Carotid ultrasonography (Option A) may be considered in the setting of suspected traumatic arterial dissection but is not typically performed in patients with mild TBI. Given the absence of any specific symptoms or signs of carotid or vertebral artery dissection in this patient, the level of suspicion for vascular trauma is low.Criteria for imaging of the head in mild TBI include older age (>60-65 years), a GCS score below 15, vomiting or severe headaches, persistent drowsiness, focal neurologic signs, substance intoxication, and coagulopathy. Additional indications are listed in Table: Indications for Head CT in Mild Traumatic Brain Injury. None of these indications apply to this patient, and CT of the head (Option B) is unnecessary.Brain MRI (Option C) is not recommended in the setting of acute head trauma. When imaging is indicated, noncontrast CT of the head is the modality of choice given its high sensitivity for acute hemorrhage or skull fractures, wide availability, rapid acquisition time, and relatively low expense.",
   "key_points": [
     "Mild traumatic brain injury may be associated with no or brief loss of consciousness and Glasgow Coma Scale scores of 13 to 15; in most patients, the physical examination is normal, and further diagnostic investigation is unnecessary.",
     "When imaging is indicated for acute head trauma, noncontrast CT of the head is the modality of choice given its high sensitivity for acute hemorrhage or skull fractures, wide availability, rapid acquisition time, and relatively low expense."
   ],
+  "references": "Chen H, Ding VY, Zhu G, et al. Association between blood and computed tomographic imaging biomarkers in a cohort of mild traumatic brain injury patients. J Neurotrauma. 2022;39:1329-1338. PMID: 35546284 doi:10.1089/neu.2021.0390",
+  "related_content": {
+    "syllabus": [
+      "nrsec24002_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Carotid ultrasonography"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "CT of the head"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "MRI of the brain"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "No further testing"
-    }
-  ],
-  "question_id": "nrmcq24052",
-  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
-  "question_text": "A 20-year-old patient is evaluated in the emergency department for mild global headache and dizziness of 4 hours' duration. The patient is a collegiate soccer player, and the symptoms occurred following a head-to-head collision with loss of consciousness of less than 15 seconds. The patient was immediately removed from play. They have full memory of the surrounding events and have not experienced any vomiting, visual symptoms, or focal neurologic symptoms. Medical history is otherwise unremarkable, and the patient takes no medications.Physical examination findings, including vital signs, are normal.",
-  "references": "Chen H, Ding VY, Zhu G, et al. Association between blood and computed tomographic imaging biomarkers in a cohort of mild traumatic brain injury patients. J Neurotrauma. 2022;39:1329-1338. PMID: 35546284 doi:10.1089/neu.2021.0390",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "nrsec24002_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:17:11.265568-06:00"
 }

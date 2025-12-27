@@ -1,59 +1,59 @@
 {
+  "question_id": "npvdx24008",
   "category": "np",
-  "critique": "Glomerulonephritis (Option B) is the most likely diagnosis. This patient's urinalysis shows an erythrocyte cast and indicates glomerular disease. Erythrocytes may be distinct or incorporated into a homogeneous mass. The most characteristic feature of an erythrocyte cast, when present, is its orange-red appearance. Red blood cells lack a nucleus, which helps to distinguish them from other nucleated cell types. The glomerular hematuria seen in the nephritic syndrome can be distinguished from other causes of urinary tract bleeding by the presence of either dysmorphic erythrocytes (resulting from distortion that occurs as they pass through the glomerular basement membrane and then along the renal tubules) or erythrocyte casts on urine microscopy. Common features of glomerulonephritis are hematuria (microscopic or macroscopic) and proteinuria, with the more severe forms typically including hypertension, edema, and kidney dysfunction (elevated serum creatinine level).",
   "educational_objective": "Diagnose glomerulonephritis based on an erythrocyte cast seen on urinalysis.",
-  "extracted_at": "2025-12-23T14:11:04.507067-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 33-year-old man is evaluated for asymptomatic microscopic hematuria. Urinalysis is performed.Urine microscopic image is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute tubular necrosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Glomerulonephritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Interstitial nephritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pyelonephritis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Glomerulonephritis (Option B) is the most likely diagnosis. This patient's urinalysis shows an erythrocyte cast and indicates glomerular disease. Erythrocytes may be distinct or incorporated into a homogeneous mass. The most characteristic feature of an erythrocyte cast, when present, is its orange-red appearance. Red blood cells lack a nucleus, which helps to distinguish them from other nucleated cell types. The glomerular hematuria seen in the nephritic syndrome can be distinguished from other causes of urinary tract bleeding by the presence of either dysmorphic erythrocytes (resulting from distortion that occurs as they pass through the glomerular basement membrane and then along the renal tubules) or erythrocyte casts on urine microscopy. Common features of glomerulonephritis are hematuria (microscopic or macroscopic) and proteinuria, with the more severe forms typically including hypertension, edema, and kidney dysfunction (elevated serum creatinine level).",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "npsec24008_24004"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/npfig24609.0e9c8d7c098721062de746d9fdda7488.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acute tubular necrosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Glomerulonephritis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Interstitial nephritis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Pyelonephritis"
-    }
-  ],
-  "question_id": "npvdx24008",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 33-year-old man is evaluated for asymptomatic microscopic hematuria. Urinalysis is performed.Urine microscopic image is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24008_24004"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:11:04.507067-06:00"
 }

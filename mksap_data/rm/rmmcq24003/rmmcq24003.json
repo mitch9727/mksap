@@ -1,62 +1,62 @@
 {
+  "question_id": "rmmcq24003",
   "category": "rm",
-  "critique": "The most appropriate diagnostic test is hepatitis B surface antigen (Option C) in this patient with findings of polyarteritis nodosa (PAN). PAN is a medium-vessel vasculitis that commonly affects the skin, nerves, and abdominal vasculature and may result in mesenteric ischemia and constitutional symptoms, such as weight loss. The gold standard diagnostic test is tissue biopsy of affected organs, such as the skin, but the diagnosis is strongly suggested by clinical presentation and classic image findings with microaneurysms of medium-sized blood vessels. Hepatitis B virus (HBV) infection is strongly associated with PAN. PAN usually occurs early during HBV infection, and the hepatitis inflammation itself is frequently mild. Although the prevalence of HBV infection has declined with increased vaccination and treatment, the presence of infection in patients with PAN is important to recognize because it directs prognosis and management. Patients with HBV-associated PAN require antiviral therapy in addition to immunosuppressive treatment. They have higher mortality but fewer relapses than patients with idiopathic PAN. This patient is highly likely to have PAN in the setting of symptoms and signs of mesenteric arteritis, ischemic skin ulcers, and imaging findings consistent with mesenteric and renal artery vasculitis; he should be tested for HBV.ANCA serologies (Option A) are helpful in the diagnosis of the small-vessel vasculitides granulomatosis with polyangiitis, microscopic polyangiitis, and eosinophilic granulomatosis with polyangiitis. Kidney involvement in the ANCA-associated vasculitides manifests as glomerulonephritis rather than renovascular disease. This patient has a bland urine sediment and evidence of medium-vessel involvement; these findings are inconsistent with ANCA-associated vasculitis.Antinuclear antibodies (ANA) (Option B) have no role in the diagnosis of systemic vasculitides. ANA testing should be reserved for patients with features of connective tissue disease.PAN spares the glomerulus but can cause renal artery microaneurysms. Therefore, a biopsy of the kidney (Option D) is not recommended because it may yield a false-negative result and is associated with increased risk for bleeding. A biopsy of involved, easily accessible tissue (e.g., skin or a superficial nerve) is preferred.",
   "educational_objective": "Test for hepatitis B virus infection in a patient with polyarteritis nodosa.",
-  "extracted_at": "2025-12-22T20:46:39.514860-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 52-year-old man is evaluated in the emergency department for abdominal pain and an associated 4.5-kg (10-lb) weight loss during the past 2 months. Painful sores on his legs appeared 1 month ago. He has not had routine medical care and takes no medications.On physical examination, blood pressure is 165/100 mm Hg and pulse rate is 105/min; other vital signs are normal. Abdominal examination discloses diffuse tenderness without peritoneal signs or organomegaly. There are a tender 3-cm ulcer with central necrosis on the left shin and two similar-appearing 1-cm ulcers on the right lateral ankle.Urinalysis results are unremarkable.Abdominal CT angiogram demonstrates saccular microaneurysms and areas of narrowing in the mesenteric, celiac, and right renal arteries.",
+  "question_stem": "In addition to skin biopsy, which of the following is the most appropriate diagnostic test?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "ANCA serologies",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Antinuclear antibody",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Hepatitis B surface antigen",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Kidney biopsy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate diagnostic test is hepatitis B surface antigen (Option C) in this patient with findings of polyarteritis nodosa (PAN). PAN is a medium-vessel vasculitis that commonly affects the skin, nerves, and abdominal vasculature and may result in mesenteric ischemia and constitutional symptoms, such as weight loss. The gold standard diagnostic test is tissue biopsy of affected organs, such as the skin, but the diagnosis is strongly suggested by clinical presentation and classic image findings with microaneurysms of medium-sized blood vessels. Hepatitis B virus (HBV) infection is strongly associated with PAN. PAN usually occurs early during HBV infection, and the hepatitis inflammation itself is frequently mild. Although the prevalence of HBV infection has declined with increased vaccination and treatment, the presence of infection in patients with PAN is important to recognize because it directs prognosis and management. Patients with HBV-associated PAN require antiviral therapy in addition to immunosuppressive treatment. They have higher mortality but fewer relapses than patients with idiopathic PAN. This patient is highly likely to have PAN in the setting of symptoms and signs of mesenteric arteritis, ischemic skin ulcers, and imaging findings consistent with mesenteric and renal artery vasculitis; he should be tested for HBV.ANCA serologies (Option A) are helpful in the diagnosis of the small-vessel vasculitides granulomatosis with polyangiitis, microscopic polyangiitis, and eosinophilic granulomatosis with polyangiitis. Kidney involvement in the ANCA-associated vasculitides manifests as glomerulonephritis rather than renovascular disease. This patient has a bland urine sediment and evidence of medium-vessel involvement; these findings are inconsistent with ANCA-associated vasculitis.Antinuclear antibodies (ANA) (Option B) have no role in the diagnosis of systemic vasculitides. ANA testing should be reserved for patients with features of connective tissue disease.PAN spares the glomerulus but can cause renal artery microaneurysms. Therefore, a biopsy of the kidney (Option D) is not recommended because it may yield a false-negative result and is associated with increased risk for bleeding. A biopsy of involved, easily accessible tissue (e.g., skin or a superficial nerve) is preferred.",
   "key_points": [
     "Polyarteritis nodosa is a medium-vessel vasculitis characterized by renovascular disease along with skin, peripheral nervous system, and gastrointestinal tract involvement.",
     "Identifying hepatitis B virus (HBV) infection in patients with polyarteritis nodosa is critical because management of HBV-associated disease includes antiviral treatment."
   ],
+  "references": "Hočevar A, Tomšič M, Perdan Pirkmajer K. Clinical approach to diagnosis and therapy of polyarteritis nodosa. Curr Rheumatol Rep. 2021;23:14. PMID: 33569653 doi:10.1007/s11926-021-00983-2",
+  "related_content": {
+    "syllabus": [
+      "rmsec24013_24017"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "ANCA serologies"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Antinuclear antibody"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Hepatitis B surface antigen"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Kidney biopsy"
-    }
-  ],
-  "question_id": "rmmcq24003",
-  "question_stem": "In addition to skin biopsy, which of the following is the most appropriate diagnostic test?",
-  "question_text": "A 52-year-old man is evaluated in the emergency department for abdominal pain and an associated 4.5-kg (10-lb) weight loss during the past 2 months. Painful sores on his legs appeared 1 month ago. He has not had routine medical care and takes no medications.On physical examination, blood pressure is 165/100 mm Hg and pulse rate is 105/min; other vital signs are normal. Abdominal examination discloses diffuse tenderness without peritoneal signs or organomegaly. There are a tender 3-cm ulcer with central necrosis on the left shin and two similar-appearing 1-cm ulcers on the right lateral ankle.Urinalysis results are unremarkable.Abdominal CT angiogram demonstrates saccular microaneurysms and areas of narrowing in the mesenteric, celiac, and right renal arteries.",
-  "references": "Hočevar A, Tomšič M, Perdan Pirkmajer K. Clinical approach to diagnosis and therapy of polyarteritis nodosa. Curr Rheumatol Rep. 2021;23:14. PMID: 33569653 doi:10.1007/s11926-021-00983-2",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24013_24017"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:46:39.514860-06:00"
 }

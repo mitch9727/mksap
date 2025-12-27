@@ -1,60 +1,60 @@
 {
+  "question_id": "rmvdx24009",
   "category": "rm",
-  "critique": "This radiograph shows findings consistent with psoriatic arthritis (Option C), including the simultaneous erosive changes and lysis of the terminal phalanges with periostitis and new bone formation, often within the same joint. This frequently leads to ankylosis and gross destruction of isolated joints. When advanced, these changes may cause the characteristic pencil-in-cup appearance of some joints associated with psoriatic arthritis, as shown in the radiograph of this patient's hand.",
   "educational_objective": "Identify the radiographic findings of psoriatic arthritis.",
-  "extracted_at": "2025-12-23T14:13:05.928378-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 57-year-old man is evaluated for pain in his fingers and toes. Nail pitting is noted.A close-up radiographic view of the left metatarsophalangeal joints is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Calcium pyrophosphate deposition disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Gouty arthritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Psoriatic arthritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Systemic lupus erythematosus",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This radiograph shows findings consistent with psoriatic arthritis (Option C), including the simultaneous erosive changes and lysis of the terminal phalanges with periostitis and new bone formation, often within the same joint. This frequently leads to ankylosis and gross destruction of isolated joints. When advanced, these changes may cause the characteristic pencil-in-cup appearance of some joints associated with psoriatic arthritis, as shown in the radiograph of this patient's hand.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "rmsec24006_24018"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/rmfig24611.68f9e9279f83190ab66c2a21db3bf353.jpg",
       "figures/rmfig24610.6f475cd5f2904af8cb90e410d5e37e46.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Calcium pyrophosphate deposition disease"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Gouty arthritis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Psoriatic arthritis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Systemic lupus erythematosus"
-    }
-  ],
-  "question_id": "rmvdx24009",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 57-year-old man is evaluated for pain in his fingers and toes. Nail pitting is noted.A close-up radiographic view of the left metatarsophalangeal joints is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24006_24018"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:05.928378-06:00"
 }

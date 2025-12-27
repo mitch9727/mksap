@@ -1,67 +1,67 @@
 {
+  "question_id": "rmmcq24083",
   "category": "rm",
-  "critique": "Immunogenicity (Option B) is most likely to limit the use and efficacy of pegloticase. Pegloticase is a recombinant, nonhuman, infusible pegylated uricase that is highly effective at lowering serum urate levels. It is reserved for treating refractory gout when other interventions have not achieved urate targets and when patients have ongoing frequent gout flares or nonresolving tophi. Infused every 2 weeks, pegloticase lowers serum urate levels to nearly zero. Immunogenicity (formation of antidrug antibodies) is common and can be inferred when the serum urate level rises despite regular pegloticase infusions. Serum urate should be checked before each infusion, and pegloticase should be discontinued if the serum urate level exceeds 6.0 mg/dL (0.35 mmol/L) on two consecutive assessments. The presence of antidrug antibodies also appears to increase the risk for serious infusion reactions. Evidence has shown that methotrexate coadministration can substantially reduce the risk for development of antibodies against pegloticase, thereby decreasing infusion reactions and immunogenicity. The FDA approved this combination in 2022.Pegloticase has been noted to exacerbate heart failure in a few patients in clinical trials; otherwise, cardiovascular toxicity (Option A) is not a particular concern. This patient does not have a history of heart failure, and improvement in chronic hyperuricemia may have cardiovascular benefits.Pegloticase should not be administered with other urate-lowering therapy (e.g., allopurinol, febuxostat, probenecid) because increases in serum urate level that might suggest the development of immunogenicity due to pegloticase may be less evident with coadministration of these agents. Most other drugs can be coadministered with pegloticase, including atorvastatin (Option C) and lisinopril (Option D).Pegloticase is not associated with nephrotoxicity (Option E). No dose adjustments are needed for patients with kidney impairment.",
   "educational_objective": "Treat chronic refractory gout with pegloticase.",
-  "extracted_at": "2025-12-22T20:47:19.316050-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 56-year-old patient is evaluated in the office for gout management. Flares occur three to four times yearly and have been more frequent and severe during the past 2 years despite allopurinol therapy. The patient did not tolerate febuxostat. Medical history also includes stage G3a chronic kidney disease, hypercholesterolemia, and hypertension. Medications are atorvastatin, lisinopril, allopurinol, and colchicine.On physical examination, vital signs are normal. Tophi are present on the left elbow, right ear, several fingers, and left heel. No joint swelling or tenderness is observed.Complete blood count is normal.Pegloticase therapy will be initiated.",
+  "question_stem": "Which of the following adverse effects is most likely to limit therapy in this patient?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cardiovascular toxicity",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Immunogenicity",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Interactions with atorvastatin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Interactions with lisinopril",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "Nephrotoxicity",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Immunogenicity (Option B) is most likely to limit the use and efficacy of pegloticase. Pegloticase is a recombinant, nonhuman, infusible pegylated uricase that is highly effective at lowering serum urate levels. It is reserved for treating refractory gout when other interventions have not achieved urate targets and when patients have ongoing frequent gout flares or nonresolving tophi. Infused every 2 weeks, pegloticase lowers serum urate levels to nearly zero. Immunogenicity (formation of antidrug antibodies) is common and can be inferred when the serum urate level rises despite regular pegloticase infusions. Serum urate should be checked before each infusion, and pegloticase should be discontinued if the serum urate level exceeds 6.0 mg/dL (0.35 mmol/L) on two consecutive assessments. The presence of antidrug antibodies also appears to increase the risk for serious infusion reactions. Evidence has shown that methotrexate coadministration can substantially reduce the risk for development of antibodies against pegloticase, thereby decreasing infusion reactions and immunogenicity. The FDA approved this combination in 2022.Pegloticase has been noted to exacerbate heart failure in a few patients in clinical trials; otherwise, cardiovascular toxicity (Option A) is not a particular concern. This patient does not have a history of heart failure, and improvement in chronic hyperuricemia may have cardiovascular benefits.Pegloticase should not be administered with other urate-lowering therapy (e.g., allopurinol, febuxostat, probenecid) because increases in serum urate level that might suggest the development of immunogenicity due to pegloticase may be less evident with coadministration of these agents. Most other drugs can be coadministered with pegloticase, including atorvastatin (Option C) and lisinopril (Option D).Pegloticase is not associated with nephrotoxicity (Option E). No dose adjustments are needed for patients with kidney impairment.",
   "key_points": [
     "Pegloticase is a recombinant, nonhuman, infusible pegylated uricase that is reserved for treatment of severe and refractory gout.",
     "Immunogenicity is common with pegloticase administration and can be inferred when serum urate level rises despite regular infusions; pegloticase should be discontinued if the preinfusion serum urate level exceeds 6.0 mg/dL (0.35 mmol/L) on two consecutive assessments."
   ],
+  "references": "Botson JK, Saag K, Peterson J, et al. A randomized, placebo-controlled study of methotrexate to increase response rates in patients with uncontrolled gout receiving pegloticase: primary efficacy and safety findings. Arthritis Rheumatol. 2023;75:293-304. PMID: 36099211 doi:10.1002/art.42335",
+  "related_content": {
+    "syllabus": [
+      "rmsec24012_24014"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cardiovascular toxicity"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Immunogenicity"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Interactions with atorvastatin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Interactions with lisinopril"
-    },
-    {
-      "letter": "E",
-      "peer_percentage": 0,
-      "text": "Nephrotoxicity"
-    }
-  ],
-  "question_id": "rmmcq24083",
-  "question_stem": "Which of the following adverse effects is most likely to limit therapy in this patient?",
-  "question_text": "A 56-year-old patient is evaluated in the office for gout management. Flares occur three to four times yearly and have been more frequent and severe during the past 2 years despite allopurinol therapy. The patient did not tolerate febuxostat. Medical history also includes stage G3a chronic kidney disease, hypercholesterolemia, and hypertension. Medications are atorvastatin, lisinopril, allopurinol, and colchicine.On physical examination, vital signs are normal. Tophi are present on the left elbow, right ear, several fingers, and left heel. No joint swelling or tenderness is observed.Complete blood count is normal.Pegloticase therapy will be initiated.",
-  "references": "Botson JK, Saag K, Peterson J, et al. A randomized, placebo-controlled study of methotrexate to increase response rates in patients with uncontrolled gout receiving pegloticase: primary efficacy and safety findings. Arthritis Rheumatol. 2023;75:293-304. PMID: 36099211 doi:10.1002/art.42335",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24012_24014"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:47:19.316050-06:00"
 }

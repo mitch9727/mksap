@@ -1,63 +1,63 @@
 {
+  "question_id": "npqqq24019",
   "category": "np",
-  "critique": "The most appropriate diagnostic test to perform next is plasma aldosterone concentration (PAC)/plasma renin activity (PRA) ratio (Option B). The patient presents with a triad of resistant hypertension, metabolic alkalosis, and hypokalemia following the addition of a thiazide diuretic, which raises suspicion for primary aldosteronism. Primary aldosteronism, in which aldosterone production cannot be suppressed with sodium loading, is the most common cause of secondary hypertension in middle-aged adults and an important cause of resistant hypertension, even in patients who have normal serum potassium levels. Therefore, a high index of suspicion is required and testing for primary aldosteronism is recommended for many patients with hypertension as provided in Table: Case Detection Indications for Primary Aldosteronism. Before testing, diuretics should be discontinued to assure euvolemia, and hypokalemia should be repleted with oral supplements if possible. Calculation of the PAC/PRA ratio is used for screening, with a very high PAC/PRA ratio (>30 being the most common clinical cutoff) suggesting the diagnosis. Confirmatory testing is performed except when initial testing is diagnostic, as in cases of spontaneous hypokalemia with undetectable PRA and a PAC >30 ng/dL (828 pmol/L). Confirmatory tests include oral and intravenous salt loading and the fludrocortisone suppression and captopril challenge tests.Kidney ultrasonography with Doppler (Option A) is performed to diagnose renovascular disease, which can be a secondary cause of hypertension. However, no clinical trials have demonstrated that percutaneous intervention improves hypertension or lessens kidney deterioration; therefore, diagnostic testing is reserved for patients with otherwise strong indications for this study, such as a young woman with possible fibromuscular dysplasia, which does not apply to this patient.Plasma fractionated metanephrines (Option C) are obtained to screen for a pheochromocytoma, which could cause hypertension; however, this is a relatively rare diagnosis that cannot explain the patient's hypokalemia, and she has no symptoms or signs (episodic headaches, palpitations) that indicate pheochromocytoma.Polysomnography (Option D) is used to diagnose obstructive sleep apnea, another secondary cause of hypertension. However, clinical suspicion for this diagnosis is low given that it would not explain the patient's metabolic findings and the patient does not have obesity, snoring, or daytime sleepiness.",
   "educational_objective": "Evaluate for primary aldosteronism as a cause of hypokalemia and resistant hypertension.",
-  "extracted_at": "2025-12-23T14:11:04.453421-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 51-year-old woman is evaluated for the recent onset of resistant hypertension. During her last visit, chlorthalidone was added to her medication regimen. She reports no symptoms, and review of the systems is otherwise unremarkable. Other medications are metoprolol, amlodipine, and hydralazine.On physical examination, blood pressure is 160/96 mm Hg, and pulse rate is 65/min; other vital signs are normal. The thyroid gland is not enlarged. The remainder of the examination is unremarkable.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Kidney ultrasonography with Doppler",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Plasma aldosterone concentration/plasma renin activity ratio",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Plasma fractionated metanephrines",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Polysomnography",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate diagnostic test to perform next is plasma aldosterone concentration (PAC)/plasma renin activity (PRA) ratio (Option B). The patient presents with a triad of resistant hypertension, metabolic alkalosis, and hypokalemia following the addition of a thiazide diuretic, which raises suspicion for primary aldosteronism. Primary aldosteronism, in which aldosterone production cannot be suppressed with sodium loading, is the most common cause of secondary hypertension in middle-aged adults and an important cause of resistant hypertension, even in patients who have normal serum potassium levels. Therefore, a high index of suspicion is required and testing for primary aldosteronism is recommended for many patients with hypertension as provided in Table: Case Detection Indications for Primary Aldosteronism. Before testing, diuretics should be discontinued to assure euvolemia, and hypokalemia should be repleted with oral supplements if possible. Calculation of the PAC/PRA ratio is used for screening, with a very high PAC/PRA ratio (>30 being the most common clinical cutoff) suggesting the diagnosis. Confirmatory testing is performed except when initial testing is diagnostic, as in cases of spontaneous hypokalemia with undetectable PRA and a PAC >30 ng/dL (828 pmol/L). Confirmatory tests include oral and intravenous salt loading and the fludrocortisone suppression and captopril challenge tests.Kidney ultrasonography with Doppler (Option A) is performed to diagnose renovascular disease, which can be a secondary cause of hypertension. However, no clinical trials have demonstrated that percutaneous intervention improves hypertension or lessens kidney deterioration; therefore, diagnostic testing is reserved for patients with otherwise strong indications for this study, such as a young woman with possible fibromuscular dysplasia, which does not apply to this patient.Plasma fractionated metanephrines (Option C) are obtained to screen for a pheochromocytoma, which could cause hypertension; however, this is a relatively rare diagnosis that cannot explain the patient's hypokalemia, and she has no symptoms or signs (episodic headaches, palpitations) that indicate pheochromocytoma.Polysomnography (Option D) is used to diagnose obstructive sleep apnea, another secondary cause of hypertension. However, clinical suspicion for this diagnosis is low given that it would not explain the patient's metabolic findings and the patient does not have obesity, snoring, or daytime sleepiness.",
   "key_points": [
     "Primary aldosteronism is the most common cause of secondary hypertension in middle-aged adults and an important cause of resistant hypertension, even in patients who have normal serum potassium levels.",
     "Calculation of the plasma aldosterone concentration/plasma renin activity ratio is used to screen for primary aldosteronism."
   ],
+  "references": "Funes Hernandez M, Bhalla V. Underdiagnosis of primary aldosteronism: a review of screening and detection. Am J Kidney Dis. 2023;82:333-346. PMID: 36965825 doi:10.1053/j.ajkd.2023.01.447",
+  "related_content": {
+    "syllabus": [
+      "npsec24005_24048"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Kidney ultrasonography with Doppler"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Plasma aldosterone concentration/plasma renin activity ratio"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Plasma fractionated metanephrines"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Polysomnography"
-    }
-  ],
-  "question_id": "npqqq24019",
-  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
-  "question_text": "A 51-year-old woman is evaluated for the recent onset of resistant hypertension. During her last visit, chlorthalidone was added to her medication regimen. She reports no symptoms, and review of the systems is otherwise unremarkable. Other medications are metoprolol, amlodipine, and hydralazine.On physical examination, blood pressure is 160/96 mm Hg, and pulse rate is 65/min; other vital signs are normal. The thyroid gland is not enlarged. The remainder of the examination is unremarkable.",
-  "references": "Funes Hernandez M, Bhalla V. Underdiagnosis of primary aldosteronism: a review of screening and detection. Am J Kidney Dis. 2023;82:333-346. PMID: 36965825 doi:10.1053/j.ajkd.2023.01.447",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24005_24048"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:11:04.453421-06:00"
 }

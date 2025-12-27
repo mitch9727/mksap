@@ -1,62 +1,62 @@
 {
+  "question_id": "npmcq24034",
   "category": "np",
-  "critique": "The most appropriate management is intravenous lactated Ringer solution (Option A) in this patient who presents with hypovolemic hyponatremia due to gastrointestinal illness. Hypovolemia leads to renal sodium and water reabsorption stimulated by sympathetic outflow, angiotensin, aldosterone, and antidiuretic hormone (ADH), resulting in urine sodium concentration <20 mEq/L (20 mmol/L) and urine osmolality >300 mOsm/kg H2O, as seen in this patient. Isotonic fluid, such as lactated Ringer solution, and subsequent volume resuscitation will remove the stimulus for ADH secretion and allow for free water excretion, thus correcting the hyponatremia. Use of 0.9% saline in this patient's setting is also appropriate and would likely require potassium supplementation.This patient requires fluid resuscitation with isotonic fluids; use of 0.45% saline (Option B), a hypotonic fluid, would not address the underlying pathophysiology (volume depletion resulting in increased ADH) in a timely and appropriate manner and will worsen hyponatremia.Treatment with intravenous 3% saline (Option C) to increase the serum sodium by 2.0 to 3.0 mEq/L (2.0-3.0 mmol/L) is reserved for symptomatic patients with hypotonic hyponatremia (serum sodium level typically <120 mEq/L [120 mmol/L]) that occurred acutely (within <48 hours). This patient's hyponatremia has occurred over the past 5 days, and she does not have acute symptoms attributable to hyponatremia; her nausea is more likely explained by the gastrointestinal illness.Oral salt tablets (Option D), typically administered alongside a loop diuretic, are part of the chronic management of hyponatremia due to the syndrome of inappropriate ADH secretion (SIADH). This patient's presentation is not consistent with SIADH, as the volume depletion is appropriately stimulating ADH secretion. Oral salt tablets would be minimally effective in repleting volume compared with administering an intravenous isotonic solution.",
   "educational_objective": "Manage hypovolemic hyponatremia.",
-  "extracted_at": "2025-12-22T20:06:41.752299-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 27-year-old woman is evaluated in the emergency department for protracted diarrhea, nausea, and inability to tolerate liquids or solid food, all of which began 5 days ago when she returned from vacation. She reports she nearly fainted getting out of bed this morning. Her only medication is loperamide.On physical examination, blood pressure is 86/58 mm Hg, and pulse rate is 114/min. The patient is alert and oriented. Mucous membranes are dry. There is poor skin turgor. Axillary sweat is absent.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Intravenous lactated Ringer solution",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Intravenous 0.45% saline",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Intravenous 3% saline",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Oral salt tablets",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management is intravenous lactated Ringer solution (Option A) in this patient who presents with hypovolemic hyponatremia due to gastrointestinal illness. Hypovolemia leads to renal sodium and water reabsorption stimulated by sympathetic outflow, angiotensin, aldosterone, and antidiuretic hormone (ADH), resulting in urine sodium concentration <20 mEq/L (20 mmol/L) and urine osmolality >300 mOsm/kg H2O, as seen in this patient. Isotonic fluid, such as lactated Ringer solution, and subsequent volume resuscitation will remove the stimulus for ADH secretion and allow for free water excretion, thus correcting the hyponatremia. Use of 0.9% saline in this patient's setting is also appropriate and would likely require potassium supplementation.This patient requires fluid resuscitation with isotonic fluids; use of 0.45% saline (Option B), a hypotonic fluid, would not address the underlying pathophysiology (volume depletion resulting in increased ADH) in a timely and appropriate manner and will worsen hyponatremia.Treatment with intravenous 3% saline (Option C) to increase the serum sodium by 2.0 to 3.0 mEq/L (2.0-3.0 mmol/L) is reserved for symptomatic patients with hypotonic hyponatremia (serum sodium level typically <120 mEq/L [120 mmol/L]) that occurred acutely (within <48 hours). This patient's hyponatremia has occurred over the past 5 days, and she does not have acute symptoms attributable to hyponatremia; her nausea is more likely explained by the gastrointestinal illness.Oral salt tablets (Option D), typically administered alongside a loop diuretic, are part of the chronic management of hyponatremia due to the syndrome of inappropriate ADH secretion (SIADH). This patient's presentation is not consistent with SIADH, as the volume depletion is appropriately stimulating ADH secretion. Oral salt tablets would be minimally effective in repleting volume compared with administering an intravenous isotonic solution.",
   "key_points": [
     "In hypovolemia, volume expansion with isotonic fluids will suppress antidiuretic hormone, thereby increasing free water excretion with correction of the hyponatremia.",
     "Symptomatic patients with acute hypotonic hyponatremia (serum sodium level typically <120 mEq/L [120 mmol/L]) can be treated with intravenous 3% saline to increase the serum sodium by 2.0 to 3.0 mEq/L (2.0-3.0 mmol/L)."
   ],
+  "references": "Lindner G, Schwarz C, Haidinger M, et al. Hyponatremia in the emergency department. Am J Emerg Med. 2022;60:1-8. PMID: 35870366 doi:10.1016/j.ajem.2022.07.023",
+  "related_content": {
+    "syllabus": [
+      "npsec24002_24008"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Intravenous lactated Ringer solution"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Intravenous 0.45% saline"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Intravenous 3% saline"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Oral salt tablets"
-    }
-  ],
-  "question_id": "npmcq24034",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 27-year-old woman is evaluated in the emergency department for protracted diarrhea, nausea, and inability to tolerate liquids or solid food, all of which began 5 days ago when she returned from vacation. She reports she nearly fainted getting out of bed this morning. Her only medication is loperamide.On physical examination, blood pressure is 86/58 mm Hg, and pulse rate is 114/min. The patient is alert and oriented. Mucous membranes are dry. There is poor skin turgor. Axillary sweat is absent.",
-  "references": "Lindner G, Schwarz C, Haidinger M, et al. Hyponatremia in the emergency department. Am J Emerg Med. 2022;60:1-8. PMID: 35870366 doi:10.1016/j.ajem.2022.07.023",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24002_24008"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:06:41.752299-06:00"
 }

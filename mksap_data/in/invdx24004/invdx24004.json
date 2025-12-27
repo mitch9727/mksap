@@ -1,59 +1,59 @@
 {
+  "question_id": "invdx24004",
   "category": "in",
-  "critique": "The most likely diagnosis is age-related macular degeneration (AMD) (Option A). This patient has distinct yellow-white lesions (drusen) surrounding the macular area and areas of pigment mottling characteristic of dry (atrophic) AMD. Dry AMD is a progressive chronic disease involving the central retina; it accounts for 80% to 90% of AMD cases with the remainder being wet (neovascular) AMD. Patients with early dry AMD are often asymptomatic, although yellow drusen may be visible underneath retinal pigment epithelium. Patients note slowly progressive vision loss over the course of years. Approximately 10% to 20% of patients with dry AMD progress to wet AMD, which typically presents with more rapid visual loss and may be accompanied by a sudden worsening of central vision associated with straight-line distortion (metamorphopsia), scotoma, or both.",
   "educational_objective": "Diagnose age-related macular degeneration.",
-  "extracted_at": "2025-12-23T15:28:36.785762-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 71-year-old man reports progressive vision loss over several years.Retinal findings are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Age-related macular degeneration",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Central retinal vein occlusion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Proliferative diabetic retinopathy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Toxoplasmosis chorioretinitis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is age-related macular degeneration (AMD) (Option A). This patient has distinct yellow-white lesions (drusen) surrounding the macular area and areas of pigment mottling characteristic of dry (atrophic) AMD. Dry AMD is a progressive chronic disease involving the central retina; it accounts for 80% to 90% of AMD cases with the remainder being wet (neovascular) AMD. Patients with early dry AMD are often asymptomatic, although yellow drusen may be visible underneath retinal pigment epithelium. Patients note slowly progressive vision loss over the course of years. Approximately 10% to 20% of patients with dry AMD progress to wet AMD, which typically presents with more rapid visual loss and may be accompanied by a sudden worsening of central vision associated with straight-line distortion (metamorphopsia), scotoma, or both.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "insec24003_24018"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/infig24605.835202514a8fc9a373dd6fe379d0b4c0.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Age-related macular degeneration"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Central retinal vein occlusion"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Proliferative diabetic retinopathy"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Toxoplasmosis chorioretinitis"
-    }
-  ],
-  "question_id": "invdx24004",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 71-year-old man reports progressive vision loss over several years.Retinal findings are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "insec24003_24018"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:28:36.785762-06:00"
 }

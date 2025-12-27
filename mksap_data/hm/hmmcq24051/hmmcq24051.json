@@ -1,62 +1,62 @@
 {
+  "question_id": "hmmcq24051",
   "category": "hm",
-  "critique": "Deferasirox (Option A) is the most appropriate treatment for this patient with sickle cell disease (SCD) and secondary iron overload. Secondary iron overload can occur in persons requiring chronic transfusions, as in those with hemoglobinopathies (thalassemias, SCD) or bone marrow failure with ineffective erythropoiesis. Overt iron overload can be seen after transfusion of more than 10 units of blood, although some patients may exhibit symptoms earlier. Patients who receive frequent transfusions should be monitored for evidence of iron overload with serial ferritin level measurements. Iron chelation is the mainstay of treatment for patients with secondary iron overload. It is initiated when the serum ferritin level exceeds 1000 ng/mL (1000 μg/L), after approximately 10 to 12 units of blood have been transfused, or when evidence of cardiac or hepatic deposition is seen on MRI. Iron chelators include parenteral deferoxamine or oral agents such as deferasirox and deferiprone, which are convenient and effective options. This patient has significant iron overload with a serum ferritin level greater than 1000 ng/mL (1000 μg/L). He should receive chelation therapy.Erythropoietin (Option B) is appropriate for treating anemia in certain patients with myelodysplastic syndrome or advanced kidney disease. It is not indicated in patients with SCD because further stimulation of erythrocyte precursors will not lead to the production of functional erythrocytes.A blood transfusion (Option C) is not indicated in this patient. Although this patient has severe anemia, his hemoglobin level remains at baseline. Unnecessary transfusions should be avoided in all patients, especially those with SCD. In addition to the general risks of blood transfusion, transfusions in patients with SCD may worsen iron overload and potentially stimulate the production of erythrocyte alloantibodies, increasing the risk of hemolytic or delayed hemolytic transfusion reactions and making it difficult to identify compatible units for when transfusion is indicated.Although phlebotomy (Option D) is used to manage patients with primary hemochromatosis and iron overload, it is contraindicated in patients who are transfusion dependent because of existing anemia. This patient has underlying SCD, and he should not undergo phlebotomy.",
   "educational_objective": "Treat secondary iron overload.",
-  "extracted_at": "2025-12-22T19:36:59.164649-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 23-year-old man undergoes follow-up evaluation for sickle cell disease. He has approximately four vaso-occlusive pain events annually and has received multiple transfusions of packed red blood cells. His baseline hemoglobin level is approximately 7 g/dL (70 g/L). His only medication is hydroxyurea.On physical examination, vital signs and other findings are normal.",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Deferasirox",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Erythropoietin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Packed red blood cell transfusion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Phlebotomy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Deferasirox (Option A) is the most appropriate treatment for this patient with sickle cell disease (SCD) and secondary iron overload. Secondary iron overload can occur in persons requiring chronic transfusions, as in those with hemoglobinopathies (thalassemias, SCD) or bone marrow failure with ineffective erythropoiesis. Overt iron overload can be seen after transfusion of more than 10 units of blood, although some patients may exhibit symptoms earlier. Patients who receive frequent transfusions should be monitored for evidence of iron overload with serial ferritin level measurements. Iron chelation is the mainstay of treatment for patients with secondary iron overload. It is initiated when the serum ferritin level exceeds 1000 ng/mL (1000 μg/L), after approximately 10 to 12 units of blood have been transfused, or when evidence of cardiac or hepatic deposition is seen on MRI. Iron chelators include parenteral deferoxamine or oral agents such as deferasirox and deferiprone, which are convenient and effective options. This patient has significant iron overload with a serum ferritin level greater than 1000 ng/mL (1000 μg/L). He should receive chelation therapy.Erythropoietin (Option B) is appropriate for treating anemia in certain patients with myelodysplastic syndrome or advanced kidney disease. It is not indicated in patients with SCD because further stimulation of erythrocyte precursors will not lead to the production of functional erythrocytes.A blood transfusion (Option C) is not indicated in this patient. Although this patient has severe anemia, his hemoglobin level remains at baseline. Unnecessary transfusions should be avoided in all patients, especially those with SCD. In addition to the general risks of blood transfusion, transfusions in patients with SCD may worsen iron overload and potentially stimulate the production of erythrocyte alloantibodies, increasing the risk of hemolytic or delayed hemolytic transfusion reactions and making it difficult to identify compatible units for when transfusion is indicated.Although phlebotomy (Option D) is used to manage patients with primary hemochromatosis and iron overload, it is contraindicated in patients who are transfusion dependent because of existing anemia. This patient has underlying SCD, and he should not undergo phlebotomy.",
   "key_points": [
     "Chelation therapy should be instituted in patients requiring chronic blood transfusions when the serum ferritin level exceeds 1000 ng/mL (1000 μg/L), after approximately 10 to 12 units of blood have been transfused, or when evidence of cardiac or hepatic deposition is seen on MRI.",
     "Patients requiring chronic blood transfusions should be monitored for evidence of iron overload with serial ferritin level measurements."
   ],
+  "references": "Shah FT, Porter JB, Sadasivam N, et al. Guidelines for the monitoring and management of iron overload in patients with haemoglobinopathies and rare anaemias. Br J Haematol. 2022;196:336-350. PMID: 34617272 doi:10.1111/bjh.17839",
+  "related_content": {
+    "syllabus": [
+      "hmsec24005_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Deferasirox"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Erythropoietin"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Packed red blood cell transfusion"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Phlebotomy"
-    }
-  ],
-  "question_id": "hmmcq24051",
-  "question_stem": "Which of the following is the most appropriate treatment?",
-  "question_text": "A 23-year-old man undergoes follow-up evaluation for sickle cell disease. He has approximately four vaso-occlusive pain events annually and has received multiple transfusions of packed red blood cells. His baseline hemoglobin level is approximately 7 g/dL (70 g/L). His only medication is hydroxyurea.On physical examination, vital signs and other findings are normal.",
-  "references": "Shah FT, Porter JB, Sadasivam N, et al. Guidelines for the monitoring and management of iron overload in patients with haemoglobinopathies and rare anaemias. Br J Haematol. 2022;196:336-350. PMID: 34617272 doi:10.1111/bjh.17839",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24005_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:36:59.164649-06:00"
 }

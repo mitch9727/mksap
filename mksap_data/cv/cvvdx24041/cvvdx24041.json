@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24041",
   "category": "cv",
-  "critique": "The most likely diagnosis is congenital bicuspid aortic valve (Option A). Bicuspid aortic valve disease affects approximately 1% to 2% of the general population. Bicuspid morphology leads to abnormal shear forces and predisposes to early degeneration of the valve, resulting in stenosis in most patients (up to 75%) and pure regurgitation in a minority of patients (2%-10%). Patients with a bicuspid aortic valve typically present with an incidental systolic ejection murmur in adolescence or young adulthood and gradually progress to severe disease in the fifth or sixth decade of life. A bicuspid aortic valve is often accompanied by abnormalities in the aortic arch, independent of the severity of aortic stenosis or regurgitation, and may be associated with aneurysms, dissection, or coarctation. In this patient's echocardiogram, the raphe between the left and right aortic cusps is fused, resulting in visualization of two aortic cusps rather than three.",
   "educational_objective": "Diagnose congenital bicuspid aortic valve on echocardiography.",
-  "extracted_at": "2025-12-23T14:08:40.423341-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 19-year-old man is evaluated for a systolic heart murmur.A short-axis view of the aortic valve on echocardiogram is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bicuspid aortic valve",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Calcific aortic stenosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Normal aortic valve",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Papillary fibroelastoma",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is congenital bicuspid aortic valve (Option A). Bicuspid aortic valve disease affects approximately 1% to 2% of the general population. Bicuspid morphology leads to abnormal shear forces and predisposes to early degeneration of the valve, resulting in stenosis in most patients (up to 75%) and pure regurgitation in a minority of patients (2%-10%). Patients with a bicuspid aortic valve typically present with an incidental systolic ejection murmur in adolescence or young adulthood and gradually progress to severe disease in the fifth or sixth decade of life. A bicuspid aortic valve is often accompanied by abnormalities in the aortic arch, independent of the severity of aortic stenosis or regurgitation, and may be associated with aneurysms, dissection, or coarctation. In this patient's echocardiogram, the raphe between the left and right aortic cusps is fused, resulting in visualization of two aortic cusps rather than three.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24007_24008"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24649.764bfbdfeaeaa815ca1239033e8b25f1.png"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bicuspid aortic valve"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Calcific aortic stenosis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Normal aortic valve"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Papillary fibroelastoma"
-    }
-  ],
-  "question_id": "cvvdx24041",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 19-year-old man is evaluated for a systolic heart murmur.A short-axis view of the aortic valve on echocardiogram is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24007_24008"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.423341-06:00"
 }

@@ -1,62 +1,62 @@
 {
+  "question_id": "npmcq24047",
   "category": "np",
-  "critique": "The most likely diagnosis is myeloma cast nephropathy (Option D), which occurs in the presence of a markedly increased concentration of free light chains (usually >50 mg/dL [500 mg/L]) and is always associated with multiple myeloma. Light chains are freely filtered by the glomerulus and combine with secreted Tamm-Horsfall protein, the main protein in urine, to form obstructing casts. Patients with myeloma cast nephropathy have acute or slowly progressive kidney injury. In myeloma cast nephropathy, filtered light chains are endocytosed by proximal tubule cells and are nephrotoxic, leading to proximal tubular dysfunction. This patient is hospitalized for acute kidney injury, with markedly elevated proteinuria (but minimal proteinuria on urine dipstick) and normal albumin; a discrepancy between urine dipstick proteinuria (+1) assessment and proteinuria quantification (7000 mg/g) may indicate the presence of nonalbumin proteinuria. They also have associated signs of multiple myeloma, including anemia, hypercalcemia, and lytic bone lesions. Together, these findings raise suspicion for multiple myeloma with associated myeloma cast nephropathy.AA amyloidosis (Option A) is caused by serum amyloid A protein, an acute phase reactant produced in various inflammatory diseases such as rheumatoid arthritis, inflammatory bowel disease, chronic osteomyelitis, and familial Mediterranean fever. Patients with renal amyloidosis frequently present with the nephrotic syndrome. Although this patient has significant proteinuria, they do not have a history of an inflammatory disease or other symptoms or signs of the nephrotic syndrome such as edema or hypoalbuminemia.Fibrillary glomerulopathy (Option B) is a rare disease caused by glomerular deposition of organized fibrillar or tubular structures. Nephrotic-range proteinuria, hematuria, and hypertension are common. This patient does not have hematuria or elevated blood pressure, and fibrillary glomerulopathy is unlikely.Monoclonal gammopathy of renal significance (Option C) defines any B-cell or plasma-cell clonal disorder that produces a nephrotoxic monoclonal immunoglobulin that directly or indirectly results in kidney disease or injury but does not meet the criteria for multiple myeloma. In this patient with kidney disease, hypercalcemia, anemia, and lytic bone lesions, malignancy is likely.",
   "educational_objective": "Diagnose myeloma cast nephropathy.",
-  "extracted_at": "2025-12-22T20:06:48.818532-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 55-year-old patient is evaluated in the hospital for acute kidney injury after presenting with progressive fatigue and rib pain. They have no other medical problems and take no medications.Physical examination findings, including vital signs, are normal.A chest radiograph shows multiple bilateral lytic rib lesions.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "AA amyloidosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Fibrillary glomerulopathy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Monoclonal gammopathy of renal significance",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Myeloma cast nephropathy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is myeloma cast nephropathy (Option D), which occurs in the presence of a markedly increased concentration of free light chains (usually >50 mg/dL [500 mg/L]) and is always associated with multiple myeloma. Light chains are freely filtered by the glomerulus and combine with secreted Tamm-Horsfall protein, the main protein in urine, to form obstructing casts. Patients with myeloma cast nephropathy have acute or slowly progressive kidney injury. In myeloma cast nephropathy, filtered light chains are endocytosed by proximal tubule cells and are nephrotoxic, leading to proximal tubular dysfunction. This patient is hospitalized for acute kidney injury, with markedly elevated proteinuria (but minimal proteinuria on urine dipstick) and normal albumin; a discrepancy between urine dipstick proteinuria (+1) assessment and proteinuria quantification (7000 mg/g) may indicate the presence of nonalbumin proteinuria. They also have associated signs of multiple myeloma, including anemia, hypercalcemia, and lytic bone lesions. Together, these findings raise suspicion for multiple myeloma with associated myeloma cast nephropathy.AA amyloidosis (Option A) is caused by serum amyloid A protein, an acute phase reactant produced in various inflammatory diseases such as rheumatoid arthritis, inflammatory bowel disease, chronic osteomyelitis, and familial Mediterranean fever. Patients with renal amyloidosis frequently present with the nephrotic syndrome. Although this patient has significant proteinuria, they do not have a history of an inflammatory disease or other symptoms or signs of the nephrotic syndrome such as edema or hypoalbuminemia.Fibrillary glomerulopathy (Option B) is a rare disease caused by glomerular deposition of organized fibrillar or tubular structures. Nephrotic-range proteinuria, hematuria, and hypertension are common. This patient does not have hematuria or elevated blood pressure, and fibrillary glomerulopathy is unlikely.Monoclonal gammopathy of renal significance (Option C) defines any B-cell or plasma-cell clonal disorder that produces a nephrotoxic monoclonal immunoglobulin that directly or indirectly results in kidney disease or injury but does not meet the criteria for multiple myeloma. In this patient with kidney disease, hypercalcemia, anemia, and lytic bone lesions, malignancy is likely.",
   "key_points": [
     "Myeloma cast nephropathy occurs in the presence of a markedly increased concentration of free light chains (usually >50 mg/dL [500 mg/L]) and is always associated with multiple myeloma.",
     "Patients with myeloma cast nephropathy present with acute or slowly progressive kidney injury."
   ],
+  "references": "Menè P, Stoppacciaro A, Lai S, et al. Light chain cast nephropathy in multiple myeloma: prevalence, impact and management challenges. Int J Nephrol Renovasc Dis. 2022;15:173-183. PMID: 35592304 doi:10.2147/IJNRD.S280179",
+  "related_content": {
+    "syllabus": [
+      "npsec24009_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "AA amyloidosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Fibrillary glomerulopathy"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Monoclonal gammopathy of renal significance"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Myeloma cast nephropathy"
-    }
-  ],
-  "question_id": "npmcq24047",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 55-year-old patient is evaluated in the hospital for acute kidney injury after presenting with progressive fatigue and rib pain. They have no other medical problems and take no medications.Physical examination findings, including vital signs, are normal.A chest radiograph shows multiple bilateral lytic rib lesions.",
-  "references": "Menè P, Stoppacciaro A, Lai S, et al. Light chain cast nephropathy in multiple myeloma: prevalence, impact and management challenges. Int J Nephrol Renovasc Dis. 2022;15:173-183. PMID: 35592304 doi:10.2147/IJNRD.S280179",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24009_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:06:48.818532-06:00"
 }

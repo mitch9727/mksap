@@ -1,60 +1,60 @@
 {
+  "question_id": "pmvdx24043",
   "category": "pm",
-  "critique": "This patient's chest CT scan shows radiation pneumonitis (Option D). Lung opacities in radiation pneumonitis are delineated by “straight lines” corresponding to the radiation field (as shown, bordered by green lines). These opacities can cross multiple lobes, such as the right middle and lower lobes (red arrows point to the major fissure separating the right middle and lower lobes). This patient's CT scan is reflective of the acute exudative phase of radiation pneumonitis, which occurs 3 to 12 weeks following exposure. The fibrotic phase usually develops much later, from 6 months to years postexposure.In contrast, atelectasis does not cross multiple lobes and is typically lobar, segmental, or subsegmental. Lobar pneumonia also affects one lobe, although multilobar pneumonia is characterized by involvement of multiple lobes. Pulmonary edema is usually bilateral and is not delineated by the nonanatomic “straight lines” of involvement seen in this case.",
   "educational_objective": "Diagnose radiation pneumonitis.",
-  "extracted_at": "2025-12-23T14:15:53.431148-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 67-year-old man is evaluated for fever, dyspnea, cough, and atypical right-sided chest pain. He has stage IIIA squamous cell carcinoma of the right lower lung and underwent chemotherapy and radiation therapy; he completed treatment 5 weeks ago.A CT scan of the chest is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Atelectasis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Lobar pneumonia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Pulmonary edema",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Radiation pneumonitis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient's chest CT scan shows radiation pneumonitis (Option D). Lung opacities in radiation pneumonitis are delineated by “straight lines” corresponding to the radiation field (as shown, bordered by green lines). These opacities can cross multiple lobes, such as the right middle and lower lobes (red arrows point to the major fissure separating the right middle and lower lobes). This patient's CT scan is reflective of the acute exudative phase of radiation pneumonitis, which occurs 3 to 12 weeks following exposure. The fibrotic phase usually develops much later, from 6 months to years postexposure.In contrast, atelectasis does not cross multiple lobes and is typically lobar, segmental, or subsegmental. Lobar pneumonia also affects one lobe, although multilobar pneumonia is characterized by involvement of multiple lobes. Pulmonary edema is usually bilateral and is not delineated by the nonanatomic “straight lines” of involvement seen in this case.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24003_24011"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24675.cf6b4882def6028e6f31855e8d702139.jpg",
       "figures/pmfig24674.42af314da3c77beb517e844689d1c539.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Atelectasis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Lobar pneumonia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Pulmonary edema"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Radiation pneumonitis"
-    }
-  ],
-  "question_id": "pmvdx24043",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 67-year-old man is evaluated for fever, dyspnea, cough, and atypical right-sided chest pain. He has stage IIIA squamous cell carcinoma of the right lower lung and underwent chemotherapy and radiation therapy; he completed treatment 5 weeks ago.A CT scan of the chest is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24003_24011"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.431148-06:00"
 }

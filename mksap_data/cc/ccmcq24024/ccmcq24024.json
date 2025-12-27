@@ -1,62 +1,62 @@
 {
+  "question_id": "ccmcq24024",
   "category": "cc",
-  "critique": "The most appropriate treatment of this patient with a COPD exacerbation and hypercapnic respiratory failure is noninvasive positive-pressure ventilation (PPV) (Option D). Noninvasive PPV is commonly administered as bilevel positive airway pressure (BPAP) with a higher inspiratory positive airway pressure and a lower expiratory positive airway pressure. Inspiratory support offloads inspiratory muscles and reduces the work of breathing while expiratory positive airway pressure counters the dynamic hyperinflation, also reducing inspiratory muscle workload. Noninvasive PPV is useful in patients with COPD exacerbations, cardiogenic pulmonary edema, neuromuscular disease, and obesity hypoventilation syndrome. In patients with a COPD exacerbation and acute hypercapnic respiratory failure with acidosis, noninvasive PPV improves symptoms and reduces intubation rates, length of hospital stay, and mortality. After initiation, close monitoring is necessary for tolerance, adverse effects (skin breakdown, gastric distention, eye irritation), ventilatory parameters (tidal volume, respiration rate), and clinical status (blood pH, oxygen saturation, mental status). Noninvasive PPV is generally well tolerated, and improvement of the pH and Pco2 within 1 to 2 hours predicts success. This patient has a COPD exacerbation and acute hypercapnic respiratory failure with acidosis and may benefit from noninvasive PPV, specifically BPAP.Helium-oxygen mixture (Option A) may be considered in patients with severe asthma exacerbation refractory to conventional therapies, although the evidence for this practice is lacking. Similarly, no clear evidence shows that helium-oxygen improves clinical outcomes in patients with an acute exacerbation of COPD.High-flow nasal cannula oxygen therapy (Option B) is mainly used for hypoxemic respiratory failure. This patient has a COPD exacerbation and acute hypercapnic respiratory failure with acidosis and may benefit from noninvasive PPV, specifically BPAP. If the patient is intolerant to BPAP, then HFNC can be tried, but data to support its use in COPD exacerbation are limited.Intubation and mechanical ventilation (Option C) is indicated for patients with hypercapnic respiratory failure in the setting of COPD who cannot protect their airway, are hemodynamically unstable, or have contraindications to or do not improve with noninvasive PPV. This patient with an acute COPD exacerbation and hypercapnic respiratory failure needs ventilatory support and has not yet had a BPAP trial. BPAP is indicated before consideration of intubation and mechanical ventilation.",
   "educational_objective": "Treat a patient with acute COPD exacerbation using noninvasive positive-pressure ventilation.",
-  "extracted_at": "2025-12-23T14:13:48.404491-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 75-year-old woman is evaluated in the emergency department for a 4-day history of cough, wheezing, and progressive dyspnea. She has COPD with a baseline FEV1 of 45% of predicted. Medications are inhaled tiotropium-olodaterol and as-needed albuterol.On physical examination, blood pressure is 140/70 mm Hg, pulse rate is 104/min, and respiration rate is 26/min. She is in moderate respiratory distress and is using accessory muscles to breathe. Cardiac examination is normal. Lung examination shows bilateral reduced breath sounds with wheezes and prolonged expiration. Abdominal examination shows paradoxical upper abdominal retraction with inspiration.Chest radiograph shows bilateral hyperinflated lungs and no infiltrates.Inhaled bronchodilators, intravenous glucocorticoids, and antibiotics are started.",
+  "question_stem": "Which of the following is the most appropriate additional treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Helium-oxygen mixture",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "High-flow nasal cannula oxygen therapy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Intubation and mechanical ventilation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Noninvasive positive-pressure ventilation",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment of this patient with a COPD exacerbation and hypercapnic respiratory failure is noninvasive positive-pressure ventilation (PPV) (Option D). Noninvasive PPV is commonly administered as bilevel positive airway pressure (BPAP) with a higher inspiratory positive airway pressure and a lower expiratory positive airway pressure. Inspiratory support offloads inspiratory muscles and reduces the work of breathing while expiratory positive airway pressure counters the dynamic hyperinflation, also reducing inspiratory muscle workload. Noninvasive PPV is useful in patients with COPD exacerbations, cardiogenic pulmonary edema, neuromuscular disease, and obesity hypoventilation syndrome. In patients with a COPD exacerbation and acute hypercapnic respiratory failure with acidosis, noninvasive PPV improves symptoms and reduces intubation rates, length of hospital stay, and mortality. After initiation, close monitoring is necessary for tolerance, adverse effects (skin breakdown, gastric distention, eye irritation), ventilatory parameters (tidal volume, respiration rate), and clinical status (blood pH, oxygen saturation, mental status). Noninvasive PPV is generally well tolerated, and improvement of the pH and Pco2 within 1 to 2 hours predicts success. This patient has a COPD exacerbation and acute hypercapnic respiratory failure with acidosis and may benefit from noninvasive PPV, specifically BPAP.Helium-oxygen mixture (Option A) may be considered in patients with severe asthma exacerbation refractory to conventional therapies, although the evidence for this practice is lacking. Similarly, no clear evidence shows that helium-oxygen improves clinical outcomes in patients with an acute exacerbation of COPD.High-flow nasal cannula oxygen therapy (Option B) is mainly used for hypoxemic respiratory failure. This patient has a COPD exacerbation and acute hypercapnic respiratory failure with acidosis and may benefit from noninvasive PPV, specifically BPAP. If the patient is intolerant to BPAP, then HFNC can be tried, but data to support its use in COPD exacerbation are limited.Intubation and mechanical ventilation (Option C) is indicated for patients with hypercapnic respiratory failure in the setting of COPD who cannot protect their airway, are hemodynamically unstable, or have contraindications to or do not improve with noninvasive PPV. This patient with an acute COPD exacerbation and hypercapnic respiratory failure needs ventilatory support and has not yet had a BPAP trial. BPAP is indicated before consideration of intubation and mechanical ventilation.",
   "key_points": [
     "In patients with a COPD exacerbation and acute hypercapnic respiratory failure with acidosis, noninvasive positive-pressure ventilation improves symptoms and reduces intubation rates, length of hospital stay, and mortality.",
     "After initiation of noninvasive positive-pressure ventilation, close monitoring of tolerance, adverse effects, ventilatory parameters, and clinical status is necessary."
   ],
+  "references": "Munshi L, Mancebo J, Brochard LJ. Noninvasive respiratory support for adults with acute respiratory failure. N Engl J Med. 2022;387:1688-98. PMID: 36322846 doi:10.1056/NEJMra2204556",
+  "related_content": {
+    "syllabus": [
+      "ccsec24001_24013"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Helium-oxygen mixture"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "High-flow nasal cannula oxygen therapy"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Intubation and mechanical ventilation"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Noninvasive positive-pressure ventilation"
-    }
-  ],
-  "question_id": "ccmcq24024",
-  "question_stem": "Which of the following is the most appropriate additional treatment?",
-  "question_text": "A 75-year-old woman is evaluated in the emergency department for a 4-day history of cough, wheezing, and progressive dyspnea. She has COPD with a baseline FEV1 of 45% of predicted. Medications are inhaled tiotropium-olodaterol and as-needed albuterol.On physical examination, blood pressure is 140/70 mm Hg, pulse rate is 104/min, and respiration rate is 26/min. She is in moderate respiratory distress and is using accessory muscles to breathe. Cardiac examination is normal. Lung examination shows bilateral reduced breath sounds with wheezes and prolonged expiration. Abdominal examination shows paradoxical upper abdominal retraction with inspiration.Chest radiograph shows bilateral hyperinflated lungs and no infiltrates.Inhaled bronchodilators, intravenous glucocorticoids, and antibiotics are started.",
-  "references": "Munshi L, Mancebo J, Brochard LJ. Noninvasive respiratory support for adults with acute respiratory failure. N Engl J Med. 2022;387:1688-98. PMID: 36322846 doi:10.1056/NEJMra2204556",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ccsec24001_24013"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:48.404491-06:00"
 }

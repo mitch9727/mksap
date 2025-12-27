@@ -1,61 +1,61 @@
 {
+  "question_id": "idmcq24103",
   "category": "id",
-  "critique": "Surgical biopsy and debridement of this patient's sinuses (Option D) is the most appropriate next step in management. This patient's clinical presentation is concerning for rhino-orbital-cerebral disease caused by mucormycosis, which typically affects immunocompromised persons or patients with poorly controlled diabetes mellitus. Except for fever, patients with neutropenia and fungal infections may be asymptomatic; therefore, having a high index of suspicion is critical in establishing the diagnosis and urgently initiating treatment. Mucormycosis can spread across tissue planes, erode through bone, and invade into vessels, orbital space, and the central nervous system (CNS). Voriconazole does not have activity against mucormycosis, so this patient remains at risk despite antifungal prophylaxis. Emergent surgical debridement of affected tissue is essential; delay is associated with increased morbidity and mortality. The diagnosis relies on invasive testing and is usually made based on histopathology and culture performed on affected tissue. Antifungal treatment should be initiated early with liposomal amphotericin B; posaconazole or isavuconazole can be used as step-down or salvage therapy.This patient's chest CT scan showed pulmonary nodules, which may indicate pulmonary mucormycosis, either by hematogenous spread or inhalation. However, the sinus infection is more critical to address because of the proximity to the orbital space and CNS. Sinus tissue is more easily accessible for biopsy, and surgical debridement serves a diagnostic and treatment purpose, so it is the more appropriate management choice for this patient than bronchoscopy and bronchoalveolar lavage (Option A).Fungal blood culture sensitivity is low; even if a fungal pathogen is identified, cultures would likely take several days to weeks to grow an organism. Additionally, the diagnosis of mucormycosis depends on histopathology and culture of infected tissue, which has better diagnostic yield than blood cultures (Option B).Serum markers, such as galactomannan and 1,3 β-d-glucan assays (Option C), are elevated in aspergillosis and infection with other hyaline molds; however, they are not elevated in mucormycosis.",
   "educational_objective": "Manage rhino-orbital-cerebral disease caused by mucormycosis.",
-  "extracted_at": "2025-12-23T15:17:18.121725-06:00",
-  "key_points": [
-    "Mucormycosis is a significant cause of invasive fungal sinusitis, which can spread across tissue planes, erode through bone, and invade into vessels, orbital space, and the central nervous system; emergent surgical debridement of affected tissue is essential."
-  ],
-  "media": {
-    "images": [],
-    "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "videos": []
-  },
   "metadata": {
     "care_types": [],
-    "high_value_care": false,
     "patient_types": [],
+    "high_value_care": false,
     "question_updated": "12/23/2025"
   },
+  "question_text": "A 48-year-old man is hospitalized with a 5-day history of persistent febrile neutropenia despite treatment with cefepime. Medical history is notable for refractory acute myeloid leukemia. Other medications are cytarabine, voriconazole, and acyclovir.On physical examination, temperature is 39.3 °C (102.7 °F), blood pressure is 112/65 mm Hg, pulse rate is 115/min, and respiration rate is 18/min. Oxygen saturation is 98% breathing ambient air. Facial pain and swelling are noted over the right maxillary sinus. The remainder of the examination is normal.Laboratory studies:Leukocyte count200/µL (0.2 × 109/L)LAbsolute neutrophil count0/µL (0 × 109/L)LPlatelet count5000/µL (5 × 109/L)LRoutine blood cultures are negative.CT scan of the sinuses demonstrates fullness within the maxillary sinuses with bony erosion of the medial wall of the right maxillary antrum, middle turbinate, and uncinate process. CT scan of the chest demonstrates several 0.5-cm to 1.0-cm lung nodules bilaterally. CT scan of the abdomen and pelvis is unremarkable.Empiric liposomal amphotericin B is initiated.",
+  "question_stem": "Which of the following is the most appropriate management?",
   "options": [
     {
       "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bronchoscopy with bronchoalveolar lavage and transbronchial biopsy"
+      "text": "Bronchoscopy with bronchoalveolar lavage and transbronchial biopsy",
+      "peer_percentage": 0
     },
     {
       "letter": "B",
-      "peer_percentage": 0,
-      "text": "Fungal blood cultures"
+      "text": "Fungal blood cultures",
+      "peer_percentage": 0
     },
     {
       "letter": "C",
-      "peer_percentage": 0,
-      "text": "Serum galactomannan and 1,3 β-d-glucan assays"
+      "text": "Serum galactomannan and 1,3 β-d-glucan assays",
+      "peer_percentage": 0
     },
     {
       "letter": "D",
-      "peer_percentage": 0,
-      "text": "Surgical biopsy and debridement of sinuses"
+      "text": "Surgical biopsy and debridement of sinuses",
+      "peer_percentage": 0
     }
   ],
-  "question_id": "idmcq24103",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 48-year-old man is hospitalized with a 5-day history of persistent febrile neutropenia despite treatment with cefepime. Medical history is notable for refractory acute myeloid leukemia. Other medications are cytarabine, voriconazole, and acyclovir.On physical examination, temperature is 39.3 °C (102.7 °F), blood pressure is 112/65 mm Hg, pulse rate is 115/min, and respiration rate is 18/min. Oxygen saturation is 98% breathing ambient air. Facial pain and swelling are noted over the right maxillary sinus. The remainder of the examination is normal.Laboratory studies:Leukocyte count200/µL (0.2 × 109/L)LAbsolute neutrophil count0/µL (0 × 109/L)LPlatelet count5000/µL (5 × 109/L)LRoutine blood cultures are negative.CT scan of the sinuses demonstrates fullness within the maxillary sinuses with bony erosion of the medial wall of the right maxillary antrum, middle turbinate, and uncinate process. CT scan of the chest demonstrates several 0.5-cm to 1.0-cm lung nodules bilaterally. CT scan of the abdomen and pelvis is unremarkable.Empiric liposomal amphotericin B is initiated.",
-  "references": "Cornely OA, Alastruey-Izquierdo A, Arenz D, et al. Global guideline for the diagnosis and management of mucormycosis: an initiative of the European Confederation of Medical Mycology in cooperation with the Mycoses Study Group Education and Research Consortium. Lancet Infect Dis. 2019;19(12):e405-e421. doi:10.1016/S1473-3099(19)30312-3",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24011_24008"
-    ]
-  },
   "user_performance": {
+    "user_answer": null,
     "correct_answer": "D",
     "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+    "time_taken": null
+  },
+  "critique": "Surgical biopsy and debridement of this patient's sinuses (Option D) is the most appropriate next step in management. This patient's clinical presentation is concerning for rhino-orbital-cerebral disease caused by mucormycosis, which typically affects immunocompromised persons or patients with poorly controlled diabetes mellitus. Except for fever, patients with neutropenia and fungal infections may be asymptomatic; therefore, having a high index of suspicion is critical in establishing the diagnosis and urgently initiating treatment. Mucormycosis can spread across tissue planes, erode through bone, and invade into vessels, orbital space, and the central nervous system (CNS). Voriconazole does not have activity against mucormycosis, so this patient remains at risk despite antifungal prophylaxis. Emergent surgical debridement of affected tissue is essential; delay is associated with increased morbidity and mortality. The diagnosis relies on invasive testing and is usually made based on histopathology and culture performed on affected tissue. Antifungal treatment should be initiated early with liposomal amphotericin B; posaconazole or isavuconazole can be used as step-down or salvage therapy.This patient's chest CT scan showed pulmonary nodules, which may indicate pulmonary mucormycosis, either by hematogenous spread or inhalation. However, the sinus infection is more critical to address because of the proximity to the orbital space and CNS. Sinus tissue is more easily accessible for biopsy, and surgical debridement serves a diagnostic and treatment purpose, so it is the more appropriate management choice for this patient than bronchoscopy and bronchoalveolar lavage (Option A).Fungal blood culture sensitivity is low; even if a fungal pathogen is identified, cultures would likely take several days to weeks to grow an organism. Additionally, the diagnosis of mucormycosis depends on histopathology and culture of infected tissue, which has better diagnostic yield than blood cultures (Option B).Serum markers, such as galactomannan and 1,3 β-d-glucan assays (Option C), are elevated in aspergillosis and infection with other hyaline molds; however, they are not elevated in mucormycosis.",
+  "key_points": [
+    "Mucormycosis is a significant cause of invasive fungal sinusitis, which can spread across tissue planes, erode through bone, and invade into vessels, orbital space, and the central nervous system; emergent surgical debridement of affected tissue is essential."
+  ],
+  "references": "Cornely OA, Alastruey-Izquierdo A, Arenz D, et al. Global guideline for the diagnosis and management of mucormycosis: an initiative of the European Confederation of Medical Mycology in cooperation with the Mycoses Study Group Education and Research Consortium. Lancet Infect Dis. 2019;19(12):e405-e421. doi:10.1016/S1473-3099(19)30312-3",
+  "related_content": {
+    "syllabus": [
+      "idsec24011_24008"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-23T15:17:18.121725-06:00"
 }

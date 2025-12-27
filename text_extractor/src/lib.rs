@@ -1,3 +1,4 @@
+mod app;
 mod auth_flow;
 mod browser;
 mod categories;
@@ -10,6 +11,11 @@ mod reporting;
 mod standardize;
 mod validator;
 
+pub use app::{
+    handle_standalone_command, init_tracing, load_env, maybe_inspect_api, parse_run_options,
+    parse_standardize_options, run, run_extraction, RunOptions, StandardizeOptions, BASE_URL,
+    DOTENV_PATH, OUTPUT_DIR,
+};
 pub use auth_flow::authenticate_extractor;
 pub use categories::{build_categories_from_config, Category};
 pub use commands::Command;

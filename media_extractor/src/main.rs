@@ -1,21 +1,9 @@
 use anyhow::{Context, Result};
 use clap::Parser;
-use reqwest::{header, Client};
-use tracing::{info, warn};
+use tracing::info;
 
-mod api;
-mod browser;
-mod browser_download;
-mod browser_media;
-mod cli;
-mod discovery;
-mod download;
-mod file_store;
-mod media_ids;
-mod render;
-mod session;
-
-use cli::{Args, Command};
+use media_extractor::cli::{Args, Command};
+use media_extractor::{browser_download, discovery, download, file_store};
 
 #[tokio::main]
 async fn main() -> Result<()> {
@@ -104,7 +92,7 @@ async fn run_discovery(args: &Args) -> Result<()> {
     info!("Concurrent requests: {}", args.concurrent_requests);
     info!("Output file: {}", args.discovery_file);
 
-    let client = build_client()?;
+    let client = media_extractor::build_client()?;
 
     let results =
         discovery::discover_media_questions(&client, &args.base_url, args.concurrent_requests)
@@ -135,7 +123,7 @@ async fn run_download(
         info!("No question filter provided; downloading for all discovered questions.");
     }
 
-    let client = build_client()?;
+    let client = media_extractor::build_client()?;
 
     download::run_media_download(
         &client,
@@ -169,7 +157,7 @@ async fn run_browser_download(
         info!("No question filter provided; downloading for all video/svg questions.");
     }
 
-    let client = build_client()?;
+    let client = media_extractor::build_client()?;
 
     browser_download::run_browser_download(
         &client,
@@ -192,22 +180,4 @@ async fn run_browser_download(
     Ok(())
 }
 
-fn build_client() -> Result<Client> {
-    let session_cookie = session::load_session_cookie()
-        .context("Session cookie not set. Set MKSAP_SESSION or login via browser.")?;
-
-    let mut headers = header::HeaderMap::new();
-    let cookie_value = format!("_mksap19_session={}", session_cookie);
-    headers.insert(
-        header::COOKIE,
-        header::HeaderValue::from_str(&cookie_value)?,
-    );
-    info!("Using session cookie from environment");
-
-    if session_cookie.trim().is_empty() {
-        warn!("MKSAP_SESSION is empty; API may return 401 Unauthorized.");
-    }
-
-    let client = Client::builder().default_headers(headers).build()?;
-    Ok(client)
-}
+// build_client now lives in media_extractor::build_client

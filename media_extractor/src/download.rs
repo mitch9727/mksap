@@ -10,6 +10,9 @@ use crate::file_store::{
     collect_question_entries, load_discovery_results, update_question_json, FigureMetadata,
     MediaUpdate, QuestionEntry, TableMetadata,
 };
+use crate::media_ids::{
+    extract_content_ids, extract_table_ids_from_tables_content, is_figure_id, is_table_id,
+};
 use crate::render::{pretty_format_html, render_node};
 
 pub async fn run_media_download(
@@ -217,47 +220,6 @@ fn push_unique(target: &mut Vec<String>, seen: &mut HashSet<String>, value: Opti
     }
 }
 
-fn extract_content_ids(question: &Value) -> Vec<String> {
-    let mut ids = Vec::new();
-    let mut seen = HashSet::new();
-    walk_for_content_ids(question, &mut ids, &mut seen);
-    ids
-}
-
-fn walk_for_content_ids(value: &Value, ids: &mut Vec<String>, seen: &mut HashSet<String>) {
-    match value {
-        Value::Object(map) => {
-            if let Some(Value::Array(content_ids)) = map.get("contentIds") {
-                for id in content_ids {
-                    if let Some(id_str) = id.as_str() {
-                        if seen.insert(id_str.to_string()) {
-                            ids.push(id_str.to_string());
-                        }
-                    }
-                }
-            }
-
-            for v in map.values() {
-                walk_for_content_ids(v, ids, seen);
-            }
-        }
-        Value::Array(items) => {
-            for item in items {
-                walk_for_content_ids(item, ids, seen);
-            }
-        }
-        _ => {}
-    }
-}
-
-fn extract_table_ids_from_tables_content(question: &Value) -> Vec<String> {
-    question
-        .get("tablesContent")
-        .and_then(|tables| tables.as_object())
-        .map(|tables| tables.keys().cloned().collect())
-        .unwrap_or_default()
-}
-
 fn extract_inline_tables(question: &Value) -> Vec<InlineTable> {
     let mut tables = Vec::new();
     walk_for_inline_tables(question, &mut tables, false);
@@ -296,16 +258,6 @@ fn walk_for_inline_tables(value: &Value, tables: &mut Vec<InlineTable>, in_table
         }
         _ => {}
     }
-}
-
-fn is_figure_id(content_id: &str) -> bool {
-    let lower = content_id.to_ascii_lowercase();
-    lower.starts_with("fig") || lower.get(2..).map_or(false, |tail| tail.starts_with("fig"))
-}
-
-fn is_table_id(content_id: &str) -> bool {
-    let lower = content_id.to_ascii_lowercase();
-    lower.starts_with("tab") || lower.get(2..).map_or(false, |tail| tail.starts_with("tab"))
 }
 
 async fn load_figure_metadata(

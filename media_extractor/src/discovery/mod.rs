@@ -1,5 +1,4 @@
 // Submodules
-mod helpers;
 mod statistics;
 mod types;
 
@@ -15,6 +14,11 @@ use serde_json::Value;
 use std::fs;
 use std::path::Path;
 use tracing::{info, warn};
+
+use crate::media_ids::{
+    count_inline_tables, extract_content_ids, extract_table_ids_from_tables_content, is_figure_id,
+    is_svg_id, is_table_id, is_video_id,
+};
 
 // ============================================================================
 // Discovery Configuration
@@ -257,7 +261,7 @@ fn build_question_media(
     json: &Value,
     figures_by_id: &HashMap<String, FigureReference>,
 ) -> Option<QuestionMedia> {
-    let content_ids = helpers::extract_content_ids(json);
+    let content_ids = extract_content_ids(json);
     let mut figures = Vec::new();
     let mut tables = Vec::new();
     let mut videos = Vec::new();
@@ -447,64 +451,4 @@ fn extract_html_text(value: Option<&Value>) -> Option<String> {
             .map(|text| text.to_string()),
         _ => None,
     }
-}
-
-fn extract_table_ids_from_tables_content(question: &Value) -> Vec<String> {
-    question
-        .get("tablesContent")
-        .and_then(|tables| tables.as_object())
-        .map(|tables| tables.keys().cloned().collect())
-        .unwrap_or_default()
-}
-
-fn count_inline_tables(value: &Value) -> usize {
-    fn walk(value: &Value, count: &mut usize, in_tables_content: bool) {
-        match value {
-            Value::Object(map) => {
-                if !in_tables_content {
-                    if let Some(Value::String(tag)) = map.get("tagName") {
-                        if tag.eq_ignore_ascii_case("table") {
-                            *count += 1;
-                            return;
-                        }
-                    }
-                }
-
-                for (key, child) in map {
-                    let next_in_tables_content = in_tables_content || key == "tablesContent";
-                    walk(child, count, next_in_tables_content);
-                }
-            }
-            Value::Array(items) => {
-                for item in items {
-                    walk(item, count, in_tables_content);
-                }
-            }
-            _ => {}
-        }
-    }
-
-    let mut count = 0;
-    walk(value, &mut count, false);
-    count
-}
-
-fn is_figure_id(content_id: &str) -> bool {
-    let lower = content_id.to_ascii_lowercase();
-    lower.starts_with("fig") || lower.get(2..).map_or(false, |tail| tail.starts_with("fig"))
-}
-
-fn is_table_id(content_id: &str) -> bool {
-    let lower = content_id.to_ascii_lowercase();
-    lower.starts_with("tab") || lower.get(2..).map_or(false, |tail| tail.starts_with("tab"))
-}
-
-fn is_video_id(content_id: &str) -> bool {
-    let lower = content_id.to_ascii_lowercase();
-    lower.starts_with("vid") || lower.get(2..).map_or(false, |tail| tail.starts_with("vid"))
-}
-
-fn is_svg_id(content_id: &str) -> bool {
-    let lower = content_id.to_ascii_lowercase();
-    lower.starts_with("svg") || lower.get(2..).map_or(false, |tail| tail.starts_with("svg"))
 }

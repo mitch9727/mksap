@@ -11,6 +11,7 @@ mod cli;
 mod discovery;
 mod download;
 mod file_store;
+mod media_ids;
 mod render;
 mod session;
 

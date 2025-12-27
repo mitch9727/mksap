@@ -1,8 +1,7 @@
 use anyhow::{Context, Result};
 use regex::Regex;
 use serde_json::Value;
-use std::time::Duration;
-use thirtyfour::common::capabilities::desiredcapabilities::CapabilitiesHelper;
+use std::time::{Duration, Instant};
 use thirtyfour::prelude::*;
 use tracing::{info, warn};
 

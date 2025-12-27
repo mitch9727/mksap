@@ -144,10 +144,8 @@ pub async fn run_browser_download(
         if download_videos {
             let mut urls = dedupe_ordered(browser_media.video_urls.clone());
             if urls.is_empty() {
-                let metadata_urls = build_video_urls_from_metadata(
-                    &expected_media.videos,
-                    &video_metadata_by_id,
-                );
+                let metadata_urls =
+                    build_video_urls_from_metadata(&expected_media.videos, &video_metadata_by_id);
                 if !metadata_urls.is_empty() {
                     warn!(
                         "{}: using mp4Hash metadata for {} video URLs",

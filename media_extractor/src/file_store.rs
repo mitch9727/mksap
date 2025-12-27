@@ -342,13 +342,9 @@ fn is_probably_html(text: &str) -> bool {
     text.contains('<') && text.contains('>')
 }
 
-fn build_inline_table_metadata(
-    path: &Path,
-    table_id: &str,
-    file: &str,
-) -> Result<TableMetadata> {
-    let html = fs::read_to_string(path)
-        .with_context(|| format!("Failed to read {}", path.display()))?;
+fn build_inline_table_metadata(path: &Path, table_id: &str, file: &str) -> Result<TableMetadata> {
+    let html =
+        fs::read_to_string(path).with_context(|| format!("Failed to read {}", path.display()))?;
     let title = extract_caption_text(&html);
     let headers = extract_tag_texts(&html, "th");
     let footnotes = extract_inline_table_footnotes(&html);
@@ -490,10 +486,7 @@ fn extract_classed_footnotes(html: &str) -> Vec<String> {
 }
 
 fn extract_sup_prefixed_footnotes(html: &str) -> Vec<String> {
-    let re = Regex::new(
-        r"(?is)<(?:p|li)[^>]*>\s*(<sup[^>]*>.*?</sup>\s*.*?)</(?:p|li)>",
-    )
-    .unwrap();
+    let re = Regex::new(r"(?is)<(?:p|li)[^>]*>\s*(<sup[^>]*>.*?</sup>\s*.*?)</(?:p|li)>").unwrap();
     let mut notes = Vec::new();
     let mut seen = HashSet::new();
 

@@ -193,7 +193,8 @@ impl BrowserSession {
             }
         }
 
-        if want_videos && media.video_urls.is_empty() && !performance_capture.large_urls.is_empty() {
+        if want_videos && media.video_urls.is_empty() && !performance_capture.large_urls.is_empty()
+        {
             warn!(
                 "{}: using large response URLs as video fallback: {}",
                 question_id,
@@ -210,7 +211,9 @@ impl BrowserSession {
             if performance_capture.request_url_count > 0 {
                 warn!(
                     "{}: performance requests: urls={}, sizes={}",
-                    question_id, performance_capture.request_url_count, performance_capture.request_size_count
+                    question_id,
+                    performance_capture.request_url_count,
+                    performance_capture.request_size_count
                 );
             }
             if !performance_capture.saw_session_cookie {
@@ -546,9 +549,7 @@ fn extract_performance_batch(entries: &[Value]) -> PerformanceBatch {
         batch.methods.insert(method.to_string());
 
         if method == "Network.responseReceived" {
-            let params = parsed
-                .get("message")
-                .and_then(|msg| msg.get("params"));
+            let params = parsed.get("message").and_then(|msg| msg.get("params"));
             let response = params.and_then(|params| params.get("response"));
             if let (Some(params), Some(response)) = (params, response) {
                 if let Some(request_id) = params.get("requestId").and_then(|id| id.as_str()) {
@@ -583,10 +584,7 @@ fn extract_performance_batch(entries: &[Value]) -> PerformanceBatch {
                 }
             }
         } else if method == "Network.requestWillBeSent" {
-            if let Some(params) = parsed
-                .get("message")
-                .and_then(|msg| msg.get("params"))
-            {
+            if let Some(params) = parsed.get("message").and_then(|msg| msg.get("params")) {
                 if let Some(url) = params
                     .get("request")
                     .and_then(|req| req.get("url"))
@@ -610,10 +608,7 @@ fn extract_performance_batch(entries: &[Value]) -> PerformanceBatch {
                 }
             }
         } else if method == "Network.loadingFinished" {
-            if let Some(params) = parsed
-                .get("message")
-                .and_then(|msg| msg.get("params"))
-            {
+            if let Some(params) = parsed.get("message").and_then(|msg| msg.get("params")) {
                 let request_id = params.get("requestId").and_then(|id| id.as_str());
                 let size = params
                     .get("encodedDataLength")
@@ -624,10 +619,7 @@ fn extract_performance_batch(entries: &[Value]) -> PerformanceBatch {
                 }
             }
         } else if method == "Network.requestWillBeSentExtraInfo" {
-            if let Some(params) = parsed
-                .get("message")
-                .and_then(|msg| msg.get("params"))
-            {
+            if let Some(params) = parsed.get("message").and_then(|msg| msg.get("params")) {
                 if let Some(headers) = params.get("headers").and_then(|h| h.as_object()) {
                     let cookie_header = headers
                         .get("cookie")

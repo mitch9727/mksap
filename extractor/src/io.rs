@@ -5,6 +5,7 @@ use std::fs;
 use std::path::{Path, PathBuf};
 use tracing::debug;
 
+use crate::checkpoints::read_checkpoint_ids;
 use crate::models::QuestionData;
 use crate::validator::DataValidator;
 
@@ -118,19 +119,7 @@ impl MKSAPExtractor {
         if !path.exists() {
             return Ok(None);
         }
-
-        let content = fs::read_to_string(&path).context("Failed to read checkpoint file")?;
-        let mut ids: Vec<String> = content
-            .lines()
-            .map(|line| line.trim())
-            .filter(|line| !line.is_empty())
-            .map(|line| line.to_string())
-            .collect();
-
-        ids.sort();
-        ids.dedup();
-
-        Ok(Some(ids))
+        Ok(Some(read_checkpoint_ids(&path)?))
     }
 
     pub fn save_checkpoint_ids(&self, category_code: &str, ids: &[String]) -> Result<()> {

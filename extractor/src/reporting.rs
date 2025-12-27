@@ -4,6 +4,7 @@ use std::path::Path;
 use tracing::info;
 
 use crate::categories::Category;
+use crate::checkpoints::read_checkpoint_lines;
 use crate::models::DiscoveryMetadataCollection;
 use crate::validator::DataValidator;
 
@@ -83,8 +84,8 @@ pub async fn show_discovery_stats(output_dir: &str) -> Result<()> {
 
 pub fn count_discovered_ids(output_dir: &str, category_code: &str) -> usize {
     let checkpoint_path = format!("{}/.checkpoints/{}_ids.txt", output_dir, category_code);
-    match fs::read_to_string(&checkpoint_path) {
-        Ok(content) => content.lines().count(),
+    match read_checkpoint_lines(Path::new(&checkpoint_path)) {
+        Ok(ids) => ids.len(),
         Err(_) => 0,
     }
 }

@@ -6,6 +6,7 @@ use std::path::Path;
 use tracing::{error, info, warn};
 
 use super::{MKSAPExtractor, CHECKPOINT_DIR_NAME};
+use crate::checkpoints::{checkpoint_system_id, read_checkpoint_lines};
 
 impl MKSAPExtractor {
     pub async fn retry_missing_json(&self) -> Result<usize> {
@@ -224,9 +225,8 @@ impl MKSAPExtractor {
     /// Helper to read a checkpoint file and extract system ID.
     /// Returns (system_id, content) tuple. system_id will be empty if filename doesn't match pattern.
     fn read_checkpoint_file(&self, path: &Path) -> Result<(String, String)> {
-        let filename = path.file_name().and_then(|n| n.to_str()).unwrap_or("");
-        let system_id = filename.strip_suffix("_ids.txt").unwrap_or("").to_string();
-        let content = fs::read_to_string(path).context("Failed to read checkpoint file")?;
+        let system_id = checkpoint_system_id(path).unwrap_or_default();
+        let content = read_checkpoint_lines(path)?.join("\n");
         Ok((system_id, content))
     }
 }

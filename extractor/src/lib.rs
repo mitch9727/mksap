@@ -2,6 +2,7 @@ mod app;
 mod auth_flow;
 mod browser;
 mod categories;
+mod checkpoints;
 mod commands;
 mod config;
 mod diagnostics;

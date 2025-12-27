@@ -8,11 +8,10 @@ pub use types::{
     FigureReference, QuestionMedia, SvgReference, SvgSource, TableReference, VideoReference,
 };
 
-use anyhow::{Context, Result};
+use anyhow::Result;
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use std::collections::HashMap;
-use std::fs;
 use std::path::Path;
 use tracing::{info, warn};
 
@@ -24,6 +23,7 @@ use super::media_ids::{
 use super::metadata::{
     extract_html_text, extract_image_info, for_each_metadata_item, resolve_metadata_id,
 };
+use crate::checkpoints::read_all_checkpoint_ids;
 
 // ============================================================================
 // Discovery Configuration
@@ -160,29 +160,7 @@ fn load_all_question_ids_from_checkpoints() -> Result<HashSet<String>> {
         );
     }
 
-    let mut all_ids = HashSet::new();
-
-    for entry in fs::read_dir(checkpoint_dir).context("Failed to read checkpoint directory")? {
-        let entry = entry?;
-        let path = entry.path();
-
-        // Only process files like "cv_ids.txt", "en_ids.txt", etc.
-        if !path.is_file() || !path.to_string_lossy().ends_with("_ids.txt") {
-            continue;
-        }
-
-        let content = fs::read_to_string(&path)
-            .with_context(|| format!("Failed to read checkpoint: {}", path.display()))?;
-
-        for line in content.lines() {
-            let id = line.trim();
-            if !id.is_empty() {
-                all_ids.insert(id.to_string());
-            }
-        }
-    }
-
-    Ok(all_ids)
+    read_all_checkpoint_ids(checkpoint_dir)
 }
 
 /// Scan questions via API to find which contain media references

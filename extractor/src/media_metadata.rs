@@ -86,3 +86,13 @@ pub fn parse_figure_snapshot(value: &Value, fallback_id: Option<&str>) -> Figure
         image_info: extract_image_info(value),
     }
 }
+
+pub fn for_each_figure_snapshot<F>(metadata: &Value, mut f: F)
+where
+    F: FnMut(&Value, FigureSnapshot),
+{
+    for_each_metadata_item(metadata, "figures", |fallback_id, figure| {
+        let snapshot = parse_figure_snapshot(figure, fallback_id);
+        f(figure, snapshot);
+    });
+}

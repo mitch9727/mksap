@@ -14,7 +14,7 @@ use super::media_ids::{
     classify_content_id, collect_inline_table_nodes, extract_content_ids,
     extract_table_ids_from_tables_content, inline_table_id, ContentIdKind,
 };
-use super::metadata::{extract_html_text, for_each_metadata_item, parse_figure_snapshot};
+use super::metadata::{extract_html_text, for_each_figure_snapshot};
 use super::render::{pretty_format_html, render_node};
 
 pub async fn run_media_download(
@@ -245,39 +245,30 @@ async fn load_figure_metadata(
     let metadata = super::fetch_content_metadata(client, base_url).await?;
     let mut figures_by_id = HashMap::new();
 
-    for_each_metadata_item(&metadata, "figures", |fallback_id, figure| {
-        insert_figure_metadata(&mut figures_by_id, fallback_id, figure);
+    for_each_figure_snapshot(&metadata, |figure, snapshot| {
+        let extension = snapshot.image_info.extension;
+        let footnotes = extract_footnotes(figure.get("footnotes"));
+
+        let width = snapshot.image_info.width;
+        let height = snapshot.image_info.height;
+
+        figures_by_id.insert(
+            snapshot.figure_id.clone(),
+            FigureMetadata {
+                figure_id: snapshot.figure_id,
+                file: None,
+                title: snapshot.title,
+                short_title: snapshot.short_title,
+                number: snapshot.number,
+                footnotes,
+                extension,
+                width,
+                height,
+            },
+        );
     });
 
     Ok(figures_by_id)
-}
-
-fn insert_figure_metadata(
-    figures_by_id: &mut HashMap<String, FigureMetadata>,
-    fallback_id: Option<&str>,
-    figure: &Value,
-) {
-    let snapshot = parse_figure_snapshot(figure, fallback_id);
-    let extension = snapshot.image_info.extension;
-    let footnotes = extract_footnotes(figure.get("footnotes"));
-
-    let width = snapshot.image_info.width;
-    let height = snapshot.image_info.height;
-
-    figures_by_id.insert(
-        snapshot.figure_id.clone(),
-        FigureMetadata {
-            figure_id: snapshot.figure_id,
-            file: None,
-            title: snapshot.title,
-            short_title: snapshot.short_title,
-            number: snapshot.number,
-            footnotes,
-            extension,
-            width,
-            height,
-        },
-    );
 }
 
 fn fallback_figure_metadata(figure_id: &str) -> FigureMetadata {

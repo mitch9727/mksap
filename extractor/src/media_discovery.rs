@@ -16,7 +16,7 @@ use super::media_ids::{
     classify_content_id, count_inline_tables, extract_content_ids,
     extract_table_ids_from_tables_content, inline_table_id, ContentIdKind,
 };
-use super::metadata::{for_each_metadata_item, parse_figure_snapshot};
+use super::metadata::for_each_figure_snapshot;
 use crate::checkpoints::read_all_checkpoint_ids;
 
 // ============================================================================
@@ -339,34 +339,25 @@ async fn load_figure_metadata(
     let metadata = super::fetch_content_metadata(client, base_url).await?;
     let mut figures_by_id = HashMap::new();
 
-    for_each_metadata_item(&metadata, "figures", |fallback_id, figure| {
-        insert_figure_reference(&mut figures_by_id, fallback_id, figure);
+    for_each_figure_snapshot(&metadata, |_, snapshot| {
+        let extension = snapshot
+            .image_info
+            .extension
+            .unwrap_or_else(|| "unknown".to_string());
+        let width = snapshot.image_info.width.unwrap_or(0);
+        let height = snapshot.image_info.height.unwrap_or(0);
+
+        figures_by_id.insert(
+            snapshot.figure_id.clone(),
+            FigureReference {
+                figure_id: snapshot.figure_id,
+                extension,
+                title: snapshot.title,
+                width,
+                height,
+            },
+        );
     });
 
     Ok(figures_by_id)
-}
-
-fn insert_figure_reference(
-    figures_by_id: &mut HashMap<String, FigureReference>,
-    fallback_id: Option<&str>,
-    figure: &Value,
-) {
-    let snapshot = parse_figure_snapshot(figure, fallback_id);
-    let extension = snapshot
-        .image_info
-        .extension
-        .unwrap_or_else(|| "unknown".to_string());
-    let width = snapshot.image_info.width.unwrap_or(0);
-    let height = snapshot.image_info.height.unwrap_or(0);
-
-    figures_by_id.insert(
-        snapshot.figure_id.clone(),
-        FigureReference {
-            figure_id: snapshot.figure_id,
-            extension,
-            title: snapshot.title,
-            width,
-            height,
-        },
-    );
 }

@@ -9,7 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 **MKSAP Question Bank Extractor** - Production-grade CLI data extraction system for downloading medical education questions from the ACP MKSAP (Medical Knowledge Self-Assessment Program) online question bank into structured JSON format.
 
 **Primary Language**: Rust 2021 Edition with Tokio async runtime
-**Architecture**: Dual-extractor system (text + media post-processing)
+**Architecture**: Unified extractor (text + media pipeline)
 **Extraction Status**: 2,198 questions extracted (100% complete - Phase 1 ✅)
 **Validation**: Discovery-based extraction using API HEAD requests
 **Check Progress**: Run `./target/release/mksap-extractor validate` for current metrics
@@ -31,19 +31,12 @@ All extraction, validation, and reporting in this codebase is organized by these
 ### Building
 
 ```bash
-# Build text extractor (main tool)
-cd /Users/Mitchell/coding/projects/MKSAP/text_extractor
+# Build extractor (text + media)
+cd /Users/Mitchell/coding/projects/MKSAP/extractor
 cargo build --release
-
-# Build media extractor (post-processing)
-cd /Users/Mitchell/coding/projects/MKSAP/media_extractor
-cargo build --release
-
-# Note: Extractors are independent crates, not a workspace
-# Each must be built separately from its own directory
 ```
 
-### Running Text Extraction
+### Running Extraction
 
 ```bash
 # Run main text extractor (default command)
@@ -68,7 +61,7 @@ MKSAP_SESSION=<cookie> ./target/release/mksap-extractor
 ./target/release/mksap-extractor standardize --system cv
 
 # Clean up duplicate questions
-./target/release/mksap-extractor cleanup-duplicates
+./target/release/mksap-extractor cleanup-flat
 
 # Retry missing JSON files
 ./target/release/mksap-extractor retry-missing
@@ -76,45 +69,38 @@ MKSAP_SESSION=<cookie> ./target/release/mksap-extractor
 # List remaining question IDs
 ./target/release/mksap-extractor list-missing
 
-# Inspect API response for a question (debugging)
-INSPECT_API=cvmcq24001 ./target/release/mksap-extractor
+# Inspect API response (debugging)
+MKSAP_INSPECT_API=1 ./target/release/mksap-extractor
 ```
 
-### Running Media Extraction
+### Running Media Extraction (Integrated)
 
 ```bash
-cd /Users/Mitchell/coding/projects/MKSAP/media_extractor
-
 # Discover media references in all questions
-./target/release/media-extractor discover --discovery-file media_discovery.json
+./target/release/mksap-extractor media-discover
 
 # Download all media assets
-./target/release/media-extractor download --all --data-dir ../mksap_data --discovery-file media_discovery.json
+./target/release/mksap-extractor media-download --all
 
 # Download media for specific question
-./target/release/media-extractor download --question-id cvmcq24001 --data-dir ../mksap_data --discovery-file media_discovery.json
+./target/release/mksap-extractor media-download --question-id cvmcq24001
 
 # Download with session override
-MKSAP_SESSION=<cookie> ./target/release/media-extractor download --all --data-dir ../mksap_data --discovery-file media_discovery.json
+MKSAP_SESSION=<cookie> ./target/release/mksap-extractor media-download --all
 
 # Browser-based extraction (videos and SVGs)
-./target/release/media-extractor browser --all --data-dir ../mksap_data --discovery-file media_discovery.json
+./target/release/mksap-extractor media-browser --all
 
 # Browser extraction with options
-./target/release/media-extractor browser \
+./target/release/mksap-extractor media-browser \
   --all \
-  --data-dir ../mksap_data \
-  --discovery-file media_discovery.json \
   --headless \
   --interactive-login \
   --login-timeout-secs 600
 
 # Skip specific media types
-./target/release/media-extractor download --all --skip-figures --data-dir ../mksap_data
-./target/release/media-extractor browser --all --skip-videos --data-dir ../mksap_data
-
-# Backfill inline table metadata
-./target/release/media-extractor backfill-inline-tables --data-dir ../mksap_data
+./target/release/mksap-extractor media-download --all --skip-figures
+./target/release/mksap-extractor media-browser --all --skip-videos
 ```
 
 ### Development
@@ -157,87 +143,59 @@ cat mksap_data/validation_report.txt
 
 ## Project Architecture
 
-### Dual-Extractor System
+### Unified Extractor System
 
-This project uses **two separate Rust binaries** working in sequence:
+This project uses a **single Rust binary** that combines text extraction with media enrichment:
 
-1. **text_extractor** (`mksap-extractor`) - Main extraction tool
-   - Direct HTTPS API calls to `https://mksap.acponline.org/api/questions/<id>.json`
-   - Session cookie authentication with browser fallback
-   - Three-phase pipeline: discovery → directory setup → extraction
-   - Rate-limited concurrent extraction (14 concurrent workers)
-   - Checkpoint-based resumable extraction
-   - Built-in data validation and standardization
+- Direct HTTPS API calls to `https://mksap.acponline.org/api/questions/<id>.json`
+- Session cookie authentication with browser fallback
+- Three-phase pipeline: discovery → directory setup → extraction
+- Checkpoint-based resumable extraction
+- Integrated media discovery/download (figures/tables), with browser automation for video/SVGs
 
-2. **media_extractor** - Post-processing enrichment
-   - Downloads embedded media (images, videos, SVGs, tables)
-   - Updates JSON with media asset references
-   - Browser automation for video/SVG extraction
-   - Runs after text extraction completes
+### Extractor Module Organization
 
-### Text Extractor Module Organization
+#### Core Extraction Pipeline
+- **app.rs** - Command routing and orchestration
+- **main.rs** - CLI entry point
+- **workflow.rs** - Three-phase pipeline orchestration (discovery → setup → extraction)
+- **discovery.rs** - Question ID discovery using HTTP HEAD requests with checkpointing
+- **extractor.rs** - Core extraction type and concurrent processing
+- **io.rs** - File I/O operations and checkpoint management
+- **retry.rs** - Retry logic with exponential backoff for transient failures
+- **standardize.rs** - Data standardization utilities for schema consistency
+- **cleanup.rs** - Duplicate question detection and removal
 
-**Total: 19 modules, 3,667 lines of code**
+#### Data Models & Configuration
+- **models.rs** - Data structures (QuestionData, ApiQuestionResponse, MediaFiles, etc.)
+- **config.rs** - 16 system code definitions with baselines and year ranges
 
-#### Core Extraction Pipeline (1,816 lines)
-- **main.rs** (241 lines) - CLI entry point and command dispatch
-- **workflow.rs** (208 lines) - Three-phase pipeline orchestration (discovery → setup → extraction)
-- **discovery.rs** (282 lines) - Question ID discovery using HTTP HEAD requests with checkpointing
-- **extractor.rs** (97 lines) - Core extraction type and concurrent processing
-- **io.rs** (291 lines) - File I/O operations and checkpoint management
-- **retry.rs** (232 lines) - Retry logic with exponential backoff for transient failures
-- **standardize.rs** (334 lines) - Data standardization utilities for schema consistency
-- **cleanup.rs** (131 lines) - Duplicate question detection and removal
+#### Authentication & API
+- **auth.rs** - Session-based API authentication
+- **browser.rs** - Browser-based fallback authentication (Chrome/Firefox)
+- **auth_flow.rs** - Authentication flow coordination
+- **api.rs** - API interaction helpers
 
-#### Data Models & Configuration (699 lines)
-- **models.rs** (499 lines) - Data structures (QuestionData, ApiQuestionResponse, MediaFiles, etc.)
-- **config.rs** (200 lines) - 16 system code definitions with baselines and year ranges
+#### Validation & Reporting
+- **validator.rs** - Comprehensive data quality validation and reporting
+- **reporting.rs** - Discovery statistics and progress reporting
 
-#### Authentication & API (413 lines)
-- **auth.rs** (108 lines) - Session-based API authentication
-- **browser.rs** (198 lines) - Browser-based fallback authentication (Chrome/Firefox)
-- **auth_flow.rs** (70 lines) - Authentication flow coordination
-- **api.rs** (37 lines) - API interaction helpers
+#### Utilities & CLI
+- **diagnostics.rs** - Diagnostic utilities
+- **categories.rs** - Category/system code helpers
+- **commands.rs** - CLI command definitions
 
-#### Validation & Reporting (626 lines)
-- **validator.rs** (530 lines) - Comprehensive data quality validation and reporting
-- **reporting.rs** (96 lines) - Discovery statistics and progress reporting
-
-#### Utilities & CLI (113 lines)
-- **diagnostics.rs** (55 lines) - Diagnostic utilities
-- **categories.rs** (30 lines) - Category/system code helpers
-- **commands.rs** (28 lines) - CLI command definitions
-
-### Media Extractor Module Organization
-
-**Total: 9 modules, 3,361 lines of code**
-
-#### Core Components (2,007 lines)
-- **main.rs** (212 lines) - CLI entry point with subcommand routing
-- **cli.rs** (112 lines) - Command-line argument parsing using Clap
-- **file_store.rs** (643 lines) - Question metadata and media file management
-- **download.rs** (511 lines) - Figure and table downloading with retry logic
-- **api.rs** (172 lines) - API interaction helpers
-- **session.rs** (357 lines) - Session management and authentication
-
-#### Browser Automation (1,354 lines)
-- **browser.rs** (800 lines) - Browser-based video/SVG extraction
-- **browser_download.rs** (729 lines) - Browser automation for media download
-- **browser_media/** (subdirectory) - Browser media handling modules
-  - `mod.rs` - Module organization
-  - `videos.rs` - Video extraction logic
-  - `svgs.rs` - SVG extraction logic
-
-#### Discovery Management
-- **discovery/** (subdirectory) - Discovery result management
-  - `mod.rs` - Module organization
-  - `helpers.rs` - Discovery utilities
-  - `scanner.rs` - Media reference scanning
-  - `statistics.rs` - Discovery statistics tracking
+#### Media Modules (`extractor/src/media/`)
+- **discovery/** - Media discovery + statistics
+- **download.rs** + **api.rs** - Figure/table download pipeline
+- **browser.rs** + **browser_download.rs** + **browser_media/** - Video/SVG browser automation
+- **file_store.rs** + **render.rs** - JSON/media updates and table rendering
+- **media_ids.rs** - Content ID parsing helpers
+- **session.rs** - Session cookie helpers
 
 ### Question System Codes
 
-The extractor targets **16 question system codes** defined in [text_extractor/src/config.rs](text_extractor/src/config.rs):
+The extractor targets **16 question system codes** defined in [extractor/src/config.rs](extractor/src/config.rs):
 
 ```rust
 pub struct OrganSystem {
@@ -289,7 +247,7 @@ Examples:
 
 ### Three-Phase Extraction Pipeline
 
-The extraction follows a **three-phase async pipeline** orchestrated by [workflow.rs](text_extractor/src/workflow.rs):
+The extraction follows a **three-phase async pipeline** orchestrated by [workflow.rs](extractor/src/workflow.rs):
 
 ```
 PHASE 1: DISCOVERY (discovery.rs)
@@ -323,7 +281,7 @@ VALIDATION (on demand)
 
 ### Authentication Flow
 
-**Session Cookie Management** ([auth.rs](text_extractor/src/auth.rs), [browser.rs](text_extractor/src/browser.rs)):
+**Session Cookie Management** ([auth.rs](extractor/src/auth.rs), [browser.rs](extractor/src/browser.rs)):
 
 ```rust
 // Priority order:
@@ -347,7 +305,7 @@ VALIDATION (on demand)
 
 ### Resumable Extraction
 
-**Checkpoint System** ([io.rs](text_extractor/src/io.rs), [discovery.rs](text_extractor/src/discovery.rs)):
+**Checkpoint System** ([io.rs](extractor/src/io.rs), [discovery.rs](extractor/src/discovery.rs)):
 
 **Checkpoint types**:
 1. **Discovery checkpoints** - `.checkpoints/{system}_ids.txt`
@@ -400,7 +358,7 @@ mksap_data/
 
 ### JSON Schema
 
-**QuestionData structure** ([text_extractor/src/models.rs](text_extractor/src/models.rs)):
+**QuestionData structure** ([extractor/src/models.rs](extractor/src/models.rs)):
 
 ```rust
 pub struct QuestionData {
@@ -442,7 +400,7 @@ pub struct QuestionData {
 
 ### Validation Framework
 
-**Built-in validator** ([text_extractor/src/validator.rs](text_extractor/src/validator.rs)):
+**Built-in validator** ([extractor/src/validator.rs](extractor/src/validator.rs)):
 
 ```bash
 ./target/release/mksap-extractor validate
@@ -467,7 +425,7 @@ pub struct QuestionData {
 
 ### Rate Limiting & Retry Logic
 
-**Server-friendly extraction** ([retry.rs](text_extractor/src/retry.rs), [extractor.rs](text_extractor/src/extractor.rs)):
+**Server-friendly extraction** ([retry.rs](extractor/src/retry.rs), [extractor.rs](extractor/src/extractor.rs)):
 
 **Rate limiting**:
 - **500ms delay** between discovery HEAD requests (configurable)
@@ -497,7 +455,7 @@ let concurrency = num_cpus::get().min(16);
 
 ### Discovery-Based Metrics
 
-**API Discovery** ([discovery.rs](text_extractor/src/discovery.rs)):
+**API Discovery** ([discovery.rs](extractor/src/discovery.rs)):
 
 The extractor **doesn't use hardcoded question counts**. Instead, it:
 
@@ -539,7 +497,7 @@ The extractor **doesn't use hardcoded question counts**. Instead, it:
 
 ### Technology Stack
 
-**Core Dependencies** ([text_extractor/Cargo.toml](text_extractor/Cargo.toml)):
+**Core Dependencies** ([extractor/Cargo.toml](extractor/Cargo.toml)):
 
 **Async Runtime & HTTP**:
 - **tokio** (1.x) - Async runtime with full features (rt-multi-thread, macros)
@@ -582,7 +540,7 @@ MKSAP_SESSION=<new_cookie> ./target/release/mksap-extractor
 ```
 
 **Browser timeout** (5 minutes):
-- Increase timeout in [text_extractor/src/browser.rs](text_extractor/src/browser.rs)
+- Increase timeout in [extractor/src/browser.rs](extractor/src/browser.rs)
 - Or manually extract cookie from browser DevTools:
   1. Login to MKSAP in browser
   2. Open DevTools (F12)
@@ -599,13 +557,13 @@ MKSAP_SESSION=<new_cookie> ./target/release/mksap-extractor
 
 **Rate limiting (429)**:
 - Extractor automatically retries with 60-second backoff
-- If persistent, increase delay in [retry.rs](text_extractor/src/retry.rs)
+- If persistent, increase delay in [retry.rs](extractor/src/retry.rs)
 - Run during off-peak hours (evenings, weekends)
 - Only run one extractor instance at a time
 
 **Timeouts**:
 - Check network speed: `speedtest-cli`
-- Increase timeout in [retry.rs](text_extractor/src/retry.rs)
+- Increase timeout in [retry.rs](extractor/src/retry.rs)
 - Enable debug logging: `RUST_LOG=debug ./target/release/mksap-extractor`
 
 **Connection resets**:
@@ -642,7 +600,7 @@ cat mksap_data/validation_report.txt
 **Duplicate questions**:
 ```bash
 # Find and remove duplicates
-./target/release/mksap-extractor cleanup-duplicates
+./target/release/mksap-extractor cleanup-flat
 
 # Verify cleanup
 ./target/release/mksap-extractor validate
@@ -650,13 +608,12 @@ cat mksap_data/validation_report.txt
 
 **Missing media**:
 ```bash
-# Run media extractor
-cd ../media_extractor
-./target/release/media-extractor discover --discovery-file media_discovery.json
-./target/release/media-extractor download --all --data-dir ../mksap_data --discovery-file media_discovery.json
+# Run media discovery/download
+./target/release/mksap-extractor media-discover
+./target/release/mksap-extractor media-download --all
 
 # For videos/SVGs (requires browser)
-./target/release/media-extractor browser --all --data-dir ../mksap_data --discovery-file media_discovery.json
+./target/release/mksap-extractor media-browser --all
 ```
 
 ### Compilation
@@ -826,11 +783,11 @@ git commit -m "docs: update module organization in CLAUDE.md"
 3. Review module organization above to understand codebase structure
 
 ### For Extraction
-1. Build project: `cd text_extractor && cargo build --release`
+1. Build project: `cd extractor && cargo build --release`
 2. Run extraction: `./target/release/mksap-extractor`
 3. Validate results: `./target/release/mksap-extractor validate`
-4. Run media extraction: `cd ../media_extractor && cargo build --release`
-5. Download media: `./target/release/media-extractor download --all --data-dir ../mksap_data`
+4. Run media discovery: `./target/release/mksap-extractor media-discover`
+5. Download media: `./target/release/mksap-extractor media-download --all`
 
 ## Current Status
 

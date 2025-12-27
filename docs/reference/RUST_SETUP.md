@@ -22,7 +22,7 @@ rustc --version  # Verify installation
 ### Navigate to Project
 
 ```bash
-cd /Users/Mitchell/coding/projects/MKSAP/text_extractor
+cd /Users/Mitchell/coding/projects/MKSAP/extractor
 ```
 
 ### Build the Project
@@ -110,10 +110,11 @@ All dependencies are automatically downloaded during build.
 
 ```
 /Users/Mitchell/coding/projects/MKSAP/
-├── text_extractor/      # Text extractor crate
+├── extractor/      # Unified extractor crate
 │   ├── Cargo.toml
 │   └── src/
 │       ├── main.rs          # Entry point and CLI dispatch
+│       ├── app.rs           # Command routing and orchestration
 │       ├── commands.rs      # Command parsing
 │       ├── config.rs        # System definitions (16 system codes)
 │       ├── categories.rs    # Category build helpers
@@ -129,13 +130,11 @@ All dependencies are automatically downloaded during build.
 │       ├── auth_flow.rs     # Authentication flow
 │       ├── browser.rs       # Browser-based auth fallback
 │       ├── diagnostics.rs   # API inspection helper
+│       ├── media/           # Media discovery/download modules
 │       └── models.rs        # Data structures
-├── media_extractor/     # Media post-processing crate
 ├── mksap_data/          # Extracted question data
 ├── mksap_data_failed/   # Failed extraction artifacts
 ├── docs/                # Documentation
-├── Cargo.toml           # Workspace manifest
-├── Cargo.lock           # Dependency lock file
 ├── README.md            # Project readme
 └── .gitignore           # Git ignore patterns
 ```

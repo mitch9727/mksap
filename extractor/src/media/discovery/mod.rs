@@ -89,7 +89,7 @@ use std::sync::Arc;
 use tokio::sync::Semaphore;
 
 /// Discover questions with media by scanning question JSON for media references:
-/// 1. Load all discovered question IDs from text_extractor checkpoints
+/// 1. Load all discovered question IDs from extractor checkpoints
 /// 2. Fetch each question JSON and collect media references
 /// 3. Keep only questions that contain any media references
 pub async fn discover_media_questions(
@@ -129,13 +129,13 @@ pub async fn discover_media_questions(
     ))
 }
 
-/// Load all question IDs from text_extractor checkpoint files
+/// Load all question IDs from extractor checkpoint files
 fn load_all_question_ids_from_checkpoints() -> Result<HashSet<String>> {
     let checkpoint_dir = Path::new("../mksap_data/.checkpoints");
 
     if !checkpoint_dir.exists() {
         anyhow::bail!(
-            "Checkpoint directory not found: {}. Run text_extractor first to discover questions.",
+            "Checkpoint directory not found: {}. Run the extractor first to discover questions.",
             checkpoint_dir.display()
         );
     }

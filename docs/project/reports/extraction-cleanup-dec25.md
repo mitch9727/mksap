@@ -15,7 +15,7 @@ Successfully diagnosed and fixed critical data inconsistencies in the MKSAP ques
 - `in/` directory: 110 questions with correct category ("in")
 - These directories contained the SAME questions with different metadata
 
-**Root Cause**: Configuration bug in `text_extractor/src/main.rs:183` used wrong API path slug
+**Root Cause**: Configuration bug in `extractor/src/main.rs:183` used wrong API path slug
 ```rust
 // BEFORE (WRONG):
 path: "/app/question-bank/content-areas/dmin/answered-questions".to_string(),
@@ -30,12 +30,12 @@ path: "/app/question-bank/content-areas/in/answered-questions".to_string(),
 - Final IN system: 110 unique questions
 
 ### 2. **Source Code Bug** ✅
-**File**: `text_extractor/src/main.rs:183`
+**File**: `extractor/src/main.rs:183`
 **Change**: Fixed category path from `dmin` → `in`
 **Impact**: Prevents future category metadata corruption when extracting IN questions
 
 ### 3. **Validator Workaround** ✅
-**File**: `text_extractor/src/validator.rs:47-52`
+**File**: `extractor/src/validator.rs:47-52`
 **Removed**: Band-aid fix that normalized "dmin" to "in" in validation
 **Impact**: Validator now works correctly without masking the root cause
 
@@ -119,8 +119,8 @@ Three systems significantly below target:
 ## Files Modified
 
 ### Source Code
-- `text_extractor/src/main.rs:183` - Fixed category path
-- `text_extractor/src/validator.rs:47-52` - Removed normalization workaround
+- `extractor/src/main.rs:183` - Fixed category path
+- `extractor/src/validator.rs:47-52` - Removed normalization workaround
 
 ### Data & Logs
 - Deleted: `mksap_data/dmin/` directory (110 questions moved to in/)
@@ -132,7 +132,7 @@ Three systems significantly below target:
 ## Next Steps
 
 ### Immediate
-1. ✅ Rebuild text_extractor (successful - no errors)
+1. ✅ Rebuild extractor (successful - no errors)
 2. ⏳ Re-run extraction to generate fresh failure logs (if any)
 3. ⏳ Verify no new failures occur with fixed code
 

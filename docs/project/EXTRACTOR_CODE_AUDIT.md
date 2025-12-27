@@ -2,81 +2,62 @@
 
 ## Scope
 
-- Inventory current execution paths for text_extractor and media_extractor.
-- Identify unused or legacy code to prune before unifying extractors.
+- Inventory current execution paths for the unified extractor.
+- Identify unused or legacy code to prune after consolidation.
 - Call out duplication that can be collapsed without changing extraction behavior.
 
 ## Active Execution Paths
 
-### text_extractor
+### extractor
 
-- Entry point: `text_extractor/src/main.rs`.
+- Entry point: `extractor/src/main.rs`.
 - Commands: Run, Validate, DiscoveryStats, RetryMissing, ListMissing, Standardize,
-  CleanupRetired, CleanupFlat.
-- Core pipeline: `text_extractor/src/extractor.rs` with impls in:
-  - `text_extractor/src/workflow.rs`
-  - `text_extractor/src/discovery.rs`
-  - `text_extractor/src/io.rs`
-  - `text_extractor/src/retry.rs`
-  - `text_extractor/src/cleanup.rs`
-- Auth flow: `text_extractor/src/auth_flow.rs` -> `text_extractor/src/auth.rs` ->
-  `text_extractor/src/browser.rs` (interactive fallback).
-- Data model + parsing: `text_extractor/src/models.rs` (includes critique link extraction).
-
-### media_extractor
-
-- Entry point: `media_extractor/src/main.rs`.
-- Commands: Discover (API media discovery), Download (figures/tables), Browser
-  (videos/svgs), BackfillInlineTables.
-- Core discovery: `media_extractor/src/discovery/mod.rs` +
-  `media_extractor/src/discovery/statistics.rs` +
-  `media_extractor/src/discovery/types.rs` +
-  `media_extractor/src/discovery/helpers.rs` (only `extract_content_ids` used).
-- API download: `media_extractor/src/api.rs` + `media_extractor/src/download.rs`.
-- Browser download: `media_extractor/src/browser.rs`,
-  `media_extractor/src/browser_download.rs`,
-  `media_extractor/src/browser_media/*.rs`.
-- JSON/media updates: `media_extractor/src/file_store.rs` +
-  `media_extractor/src/render.rs`.
-- Session handling: `media_extractor/src/session.rs`.
+  CleanupRetired, CleanupFlat, MediaDiscover, MediaDownload, MediaBrowser, ExtractAll.
+- Core pipeline: `extractor/src/extractor.rs` with impls in:
+  - `extractor/src/workflow.rs`
+  - `extractor/src/discovery.rs`
+  - `extractor/src/io.rs`
+  - `extractor/src/retry.rs`
+  - `extractor/src/cleanup.rs`
+- Auth flow: `extractor/src/auth_flow.rs` -> `extractor/src/auth.rs` ->
+  `extractor/src/browser.rs` (interactive fallback).
+- Data model + parsing: `extractor/src/models.rs` (includes critique link extraction).
+- Media pipeline (integrated):
+  - `extractor/src/media/discovery/` (API discovery + statistics)
+  - `extractor/src/media/download.rs` + `extractor/src/media/api.rs` (figure/table downloads)
+  - `extractor/src/media/browser.rs` + `extractor/src/media/browser_download.rs` +
+    `extractor/src/media/browser_media/*.rs` (video/SVG browser automation)
+  - `extractor/src/media/file_store.rs` + `extractor/src/media/render.rs` (JSON/media updates)
+  - `extractor/src/media/session.rs` (session cookie helpers)
 
 ## Unused Or Legacy Code Candidates
 
-- `media_extractor/src/discovery/scanner.rs` (entire `MediaDiscovery` engine is
-  not referenced by current entry points).
-- `media_extractor/src/discovery/helpers.rs` unused functions:
-  `build_figures_index`, `extract_figure_reference`, `build_videos_index`,
-  `CategorizedMedia`, `categorize_content_ids`, `extract_subspecialty`,
-  `extract_product_type`, `extract_related_section`, `is_invalidated`.
-  Only `extract_content_ids` is referenced.
-- `media_extractor/src/discovery/types.rs`: `MediaType` and
-  `MediaType::from_content_id` are unused; `QuestionMedia::has_media` unused.
-- `media_extractor/src/discovery/mod.rs` re-exports unused `MediaDiscovery` and
-  `MediaType`. `scan_local_questions` is legacy and currently unused.
-- `media_extractor/src/file_store.rs`: `format_existing_tables` and
-  `collect_table_files` are unused.
-- `text_extractor/src/models.rs`: `RelatedContent` list field remains in the
+- `extractor/src/media/file_store.rs`: `backfill_inline_table_metadata` and
+  inline table parsing helpers are unused (no CLI command wired).
+- `extractor/src/media/file_store.rs`: text normalization/footnote helpers are
+  unused in the current media update flow (see build warnings).
+- `extractor/src/models.rs`: `RelatedContent` list field remains in the
   output schema even though related content extraction is out of scope. Decide
   whether to rename or remove this field to reduce confusion.
 
 ## Duplication And Consolidation Candidates
 
 - Content ID extraction and type checks duplicated between
-  `media_extractor/src/discovery/helpers.rs` and `media_extractor/src/download.rs`,
+  `extractor/src/media/media_ids.rs` and `extractor/src/media/download.rs`,
   plus inline table detection logic duplicated between
-  `media_extractor/src/discovery/mod.rs` and `media_extractor/src/download.rs`.
+  `extractor/src/media/discovery/mod.rs` and `extractor/src/media/download.rs`.
 - Content metadata fetchers duplicated:
-  `load_figure_metadata` exists in both `media_extractor/src/discovery/mod.rs`
-  and `media_extractor/src/download.rs`; similar patterns in
-  `media_extractor/src/browser_download.rs` for videos/svgs.
-- Media update merging in `media_extractor/src/file_store.rs` overlaps with the
-  refresh-merge behavior in `text_extractor/src/workflow.rs`.
+  `load_figure_metadata` exists in both `extractor/src/media/discovery/mod.rs`
+  and `extractor/src/media/download.rs`; similar patterns in
+  `extractor/src/media/browser_download.rs` for videos/svgs.
+- Media update merging in `extractor/src/media/file_store.rs` overlaps with the
+  refresh-merge behavior in `extractor/src/workflow.rs`.
 
 ## Unification Notes (Next Steps)
 
-- Shared HTTP client/session cookie config can be consolidated across extractors.
-- Target pipeline order: discover valid IDs -> fetch JSON -> parse text and
+- Shared HTTP client/session cookie config is now consolidated in `extractor`.
+- Target pipeline order remains: discover valid IDs -> fetch JSON -> parse text and
   critique links -> write question JSON -> derive media references -> download
   tables/images/videos/svgs -> update JSON with media metadata.
-- Keep modules under 500 lines; merge only when it reduces duplication and
-  preserves clarity.
+- Next cleanup pass should prune unused media file_store helpers and consider
+  consolidating duplicated metadata fetchers.

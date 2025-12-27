@@ -9,7 +9,7 @@ The Rust MKSAP Extractor includes comprehensive validation to ensure extracted q
 ### Validate All Extracted Data
 
 ```bash
-cd /Users/Mitchell/coding/projects/MKSAP/text_extractor
+cd /Users/Mitchell/coding/projects/MKSAP/extractor
 ./target/release/mksap-extractor validate
 ```
 

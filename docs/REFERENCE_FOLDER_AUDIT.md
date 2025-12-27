@@ -89,7 +89,7 @@ The `docs/reference/` folder contains **9 technical reference documents** (86KB 
 - **Purpose**: Specification for browser-based media extraction
 - **Current Content**: Architecture overview, implementation strategy
 - **Issue**: This is a **specification document**, not a reference guide
-- **Integration**: Describes functionality implemented in media_extractor
+- **Integration**: Describes functionality implemented in the extractor media modules
 - **Recommended Action**:
   - **Option A**: Move to `docs/specifications/` (better category)
   - **Option B**: Keep in reference/ as implementation guide
@@ -153,7 +153,7 @@ docs/reference/                    # Technical reference (8 files)
 
 docs/specifications/               # Output format specs (2 files)
 ├── VIDEO_SVG_EXTRACTION.md        # MOVED from reference/
-└── (future: MCQ_FORMAT.md)        # Phase 2+
+└── (future: data exports spec)    # Phase 2+
 ```
 
 ---

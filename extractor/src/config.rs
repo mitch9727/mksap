@@ -84,7 +84,7 @@ impl OrganSystem {
 /// # Examples
 ///
 /// ```ignore
-/// use text_extractor::config::init_organ_systems;
+/// use mksap_extractor::config::init_organ_systems;
 ///
 /// let systems = init_organ_systems();
 /// assert_eq!(systems.len(), 16);
@@ -188,7 +188,7 @@ pub fn init_organ_systems() -> Vec<OrganSystem> {
 /// # Examples
 ///
 /// ```ignore
-/// use text_extractor::config::get_organ_system_by_id;
+/// use mksap_extractor::config::get_organ_system_by_id;
 ///
 /// let cv = get_organ_system_by_id("cv").unwrap();
 /// assert_eq!(cv.name, "Cardiovascular Medicine");

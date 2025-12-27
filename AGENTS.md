@@ -2,8 +2,7 @@
 
 ## Project Structure & Module Organization
 
-- `text_extractor/`: Rust crate that builds the main `mksap-extractor` binary; core logic lives in `text_extractor/src/`.
-- `media_extractor/`: Rust crate for post-processing media assets and updating extracted JSON; sources in `media_extractor/src/`.
+- `extractor/`: Rust crate that builds the main `mksap-extractor` binary; core logic lives in `extractor/src/`.
 - `docs/`: Project, architecture, and Rust usage documentation.
 - `mksap_data/`: Extracted question output organized by system code (e.g., `mksap_data/cv/`).
 - `mksap_data_failed/`: Quarantined or failed extraction artifacts.
@@ -12,19 +11,19 @@
 
 ```bash
 # Build and run the main extractor
-cd text_extractor
+cd extractor
 cargo build --release
 ./target/release/mksap-extractor
 ./target/release/mksap-extractor validate
 
-# Media post-processing
-cd ../media_extractor
-cargo build --release
-./target/release/media-extractor /path/to/mksap_data
+# Media discovery/download (optional, integrated)
+./target/release/mksap-extractor media-discover
+./target/release/mksap-extractor media-download
+# ./target/release/mksap-extractor media-browser   # video/svg via browser
 ```
 
 - Use `MKSAP_SESSION=...` to override the session cookie for API calls.
-- `cargo test` runs in each crate, but there are currently no unit tests.
+- `cargo test` runs in the extractor crate, but there are currently no unit tests.
 
 ## Coding Style & Naming Conventions
 
@@ -35,7 +34,7 @@ cargo build --release
 ## Testing Guidelines
 
 - No automated test suite yet; validation is done via the extractor:
-  - `./target/release/mksap-extractor validate` (run from `text_extractor/`).
+  - `./target/release/mksap-extractor validate` (run from `extractor/`).
 - Review `mksap_data/validation_report.txt` and `mksap_data_failed/` after changes.
 
 ## Commit & Pull Request Guidelines

@@ -3,7 +3,7 @@
 ## 1) Build
 
 ```bash
-cd /Users/Mitchell/coding/projects/MKSAP/text_extractor
+cd /Users/Mitchell/coding/projects/MKSAP/extractor
 cargo build --release
 ```
 
@@ -28,24 +28,22 @@ MKSAP_SESSION=... ./target/release/mksap-extractor
 ## 4) Run media extraction
 
 ```bash
-cd ../media_extractor
-cargo build --release
-./target/release/media-extractor discover --discovery-file media_discovery.json
-./target/release/media-extractor download --all --data-dir ../mksap_data --discovery-file media_discovery.json
+./target/release/mksap-extractor media-discover
+./target/release/mksap-extractor media-download --all
 ```
 
-Media extractor arguments:
+Media commands:
 
 ```bash
-./target/release/media-extractor discover --discovery-file media_discovery.json
-./target/release/media-extractor download --all --data-dir /path/to/mksap_data --discovery-file media_discovery.json
-./target/release/media-extractor download --question-id cvmcq24001 --data-dir /path/to/mksap_data --discovery-file media_discovery.json
+./target/release/mksap-extractor media-discover
+./target/release/mksap-extractor media-download --all
+./target/release/mksap-extractor media-download --question-id cvmcq24001
 ```
 
 Optional session override:
 
 ```bash
-MKSAP_SESSION=... ./target/release/media-extractor download --all --data-dir ../mksap_data --discovery-file media_discovery.json
+MKSAP_SESSION=... ./target/release/mksap-extractor media-download --all
 ```
 
 ## Output Location

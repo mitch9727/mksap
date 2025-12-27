@@ -2,17 +2,17 @@
 
 ## System Architecture
 
-The text extractor follows a modular, async-first architecture optimized for API-based data extraction. Media downloads are handled by the separate `media_extractor` crate.
+The extractor follows a modular, async-first architecture optimized for API-based data extraction, with media discovery/download integrated under `src/media/`.
 
 ## Module Structure
 
-### Main Entry Point (`main.rs`)
+### Main Entry Point (`main.rs` + `app.rs`)
 
 **Responsibilities**:
 - Load `.env` and initialize logging
 - Parse command-line arguments
 - Configure base URL and output directory
-- Dispatch extraction, validation, and maintenance commands
+- Dispatch extraction, validation, and media commands
 
 **Key Functions**:
 - `main()` - Application entry point
@@ -107,14 +107,15 @@ pub struct ValidationResult {
 **Non-Destructive**: Only reads files, creates no modifications
 **Discovery-Aware**: Uses `.checkpoints/discovery_metadata.json` when available
 
-### Media Post-Processing (`media_extractor` crate)
+### Media Pipeline (`src/media/`)
 
 **Responsibilities**:
-- Download images, tables, videos, and SVGs after text extraction
+- Discover media content IDs after text extraction
+- Download images, tables, videos, and SVGs
 - Update the `media` field in each `{question_id}.json`
 - Store assets alongside question folders
 
-### Browser Automation (`browser.rs` - 107 lines)
+### Browser Automation (`src/media/browser.rs`)
 
 **Fallback Authentication**:
 - Opens Chrome browser if API auth fails
@@ -271,7 +272,7 @@ Extend `validator.rs`:
 
 ### Media Handling
 
-Extend the `media_extractor` crate:
+Extend the media modules under `src/media/`:
 - Add support for new file types
 - Update content-type detection
 - Customize file naming

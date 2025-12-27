@@ -34,10 +34,10 @@ All extraction objectives achieved:
 - **Media Assets**: Figures, tables, videos, SVGs downloaded and cataloged
 
 ### Architecture Achievements
-- **Dual-extractor system**: text_extractor (19 modules, 3,667 lines) + media_extractor (9 modules, 3,361 lines)
+- **Unified extractor system**: extractor with integrated media pipeline
 - **Three-phase pipeline**: Discovery → Directory Setup → Extraction
 - **Rate limiting**: Server-friendly with automatic retry and backoff
-- **Modularity**: Clear separation of concerns across 28 modules
+- **Modularity**: Clear separation of concerns across extractor and media modules
 
 ---
 
@@ -115,8 +115,8 @@ Implemented API-driven discovery system:
 
 ### Modular Architecture
 Built production-grade extractor system:
-- **19 text_extractor modules**: Clear separation of concerns
-- **9 media_extractor modules**: Browser automation for complex media
+- **Extractor + media modules**: Clear separation of concerns
+- **Media pipeline**: Browser automation for complex media
 - **Async-first design**: Tokio runtime with 14 concurrent workers
 - **Error recovery**: Automatic retry with exponential backoff
 
@@ -139,9 +139,9 @@ Resumable extraction with three checkpoint types:
 ## Deliverables
 
 ### Code
-- ✅ `text_extractor/` - Main extraction tool (19 modules, 3,667 lines)
-- ✅ `media_extractor/` - Media post-processing (9 modules, 3,361 lines)
-- ✅ CLI commands: run, validate, discovery-stats, standardize, cleanup-duplicates
+- ✅ `extractor/` - Unified extraction tool (text + media)
+- ✅ CLI commands: run, validate, discovery-stats, standardize, cleanup-flat,
+  media-discover, media-download, media-browser
 
 ### Data
 - ✅ `mksap_data/` - 2,198 extracted questions organized by system

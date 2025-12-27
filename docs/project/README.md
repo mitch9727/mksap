@@ -4,9 +4,8 @@
 
 The MKSAP Question Bank Extractor uses a Rust-based API extraction system to download medical education questions from the ACP MKSAP online question bank into structured JSON format.
 
-**Architecture**: Dual-extractor system with discovery-based validation
-- **text_extractor**: Main extraction tool using direct API calls
-- **media_extractor**: Post-processing for embedded media assets
+**Architecture**: Unified extractor with discovery-based validation
+- **extractor**: Main extraction tool using direct API calls + integrated media pipeline
 
 For historical extraction metrics, see [reports/](reports/) directory.
 
@@ -16,7 +15,7 @@ Extract the full MKSAP question bank into structured JSON using the Rust API-bas
 
 ## System Architecture
 
-The extractor is configured to handle **16 question system codes** (see [config.rs](../../text_extractor/src/config.rs)):
+The extractor is configured to handle **16 question system codes** (see [config.rs](../../extractor/src/config.rs)):
 
 **System Prefixes**:
 - cv (Cardiovascular), en (Endocrinology), fc (Foundations), cs (Common Symptoms)
@@ -42,15 +41,15 @@ This approach ensures extraction targets reflect the current API state, not outd
 
 ## Primary Tool
 
-**Rust MKSAP Extractor** (`text_extractor/`)
+**Rust MKSAP Extractor** (`extractor/`)
 - Direct API access with rate limiting and resume support
 - Output organized under `mksap_data/`
 - Built-in discovery-based validation
-- CLI commands for metadata inspection
+- CLI commands for metadata inspection and media discovery/download
 
 ## Key Paths
 
-- `text_extractor/src/` - Rust extractor source
+- `extractor/src/` - Rust extractor source
 - `mksap_data/` - Extracted JSON output by system
 - `mksap_data/.checkpoints/discovery_metadata.json` - API discovery statistics
 - `docs/reference/` - Setup, usage, and troubleshooting
@@ -88,7 +87,7 @@ CC: 55 extracted / 54 discovered = 101.9% ✓ (accurate - fully extracted)
 ### Viewing Discovery Statistics
 
 ```bash
-# From text_extractor directory:
+# From extractor directory:
 ./target/release/mksap-extractor discovery-stats
 ```
 

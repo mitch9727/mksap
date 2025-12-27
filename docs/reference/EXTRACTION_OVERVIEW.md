@@ -81,7 +81,7 @@ Each question contains:
 - Academic references (with PMIDs)
 - Educational objectives
 - Metadata (care types, high value care, update date)
-- Media arrays (populated by `media_extractor`)
+- Media arrays (populated by integrated media commands)
 
 ## When to Use This Tool
 
@@ -102,7 +102,7 @@ No known abbreviation mismatches in current extraction output. Interdisciplinary
 
 1. Run extraction for the full dataset
 2. Validate output with discovery-aware metrics
-3. Run `media_extractor` if you need figures, tables, or videos
+3. Run `mksap-extractor media-download` if you need figures, tables, or videos
 
 ## Related Documentation
 

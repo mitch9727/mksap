@@ -5,7 +5,7 @@
 ### Running the Extractor
 
 ```bash
-cd /Users/Mitchell/coding/projects/MKSAP/text_extractor
+cd /Users/Mitchell/coding/projects/MKSAP/extractor
 cargo build --release
 ./target/release/mksap-extractor
 ```
@@ -71,7 +71,7 @@ mksap_data/
 └── rm/    # Rheumatology
 ```
 
-By default, the extractor writes to `../mksap_data` relative to `text_extractor/`, so checkpoints live in `../mksap_data/.checkpoints/`.
+By default, the extractor writes to `../mksap_data` relative to `extractor/`, so checkpoints live in `../mksap_data/.checkpoints/`.
 
 ### Question Files
 
@@ -125,8 +125,8 @@ By default, the extractor writes to `../mksap_data` relative to `text_extractor/
 
 All metadata lives in the JSON file; there is no separate `_metadata.txt` file.
 
-#### Media Files (Post-Processing)
-The text extractor initializes empty `media` arrays. The `media_extractor` can later populate files and update JSON:
+#### Media Files (Integrated)
+The extractor initializes empty `media` arrays. Run the media commands to populate files and update JSON:
 
 ```
 mksap_data/cv/cvmcq24001/
@@ -288,7 +288,7 @@ MKSAP_QUARANTINE_INVALID=1 ./target/release/mksap-extractor
 The extractor only supports the commands above; other configuration lives in source:
 
 **To customize**:
-1. Edit `src/main.rs`
+1. Edit `src/app.rs`
 2. Update `output_dir` (default is `../mksap_data`)
 3. Rebuild: `cargo build --release`
 
@@ -300,31 +300,29 @@ Future versions may include:
 - `--base-url https://...` - Override API host
 - `--config file.toml` - External configuration
 
-### Media Extraction (Post-Processing)
+### Media Extraction (Integrated)
 
-After text extraction is complete, build and run the separate media extractor:
+After text extraction is complete, run the integrated media commands:
 
 ```bash
-cd ../media_extractor
-cargo build --release
-./target/release/media-extractor discover --discovery-file media_discovery.json
-./target/release/media-extractor download --all --data-dir ../mksap_data --discovery-file media_discovery.json
+./target/release/mksap-extractor media-discover
+./target/release/mksap-extractor media-download --all
 ```
 
 This pass re-fetches question JSON, discovers `contentIds`, downloads figure/table assets, and updates each question's `media` field.
 
-Media extractor arguments:
+Media commands:
 
 ```bash
-./target/release/media-extractor discover --discovery-file media_discovery.json
-./target/release/media-extractor download --all --data-dir /path/to/mksap_data --discovery-file media_discovery.json
-./target/release/media-extractor download --question-id cvmcq24001 --data-dir /path/to/mksap_data --discovery-file media_discovery.json
+./target/release/mksap-extractor media-discover
+./target/release/mksap-extractor media-download --all
+./target/release/mksap-extractor media-download --question-id cvmcq24001
 ```
 
 Environment:
 
 ```bash
-MKSAP_SESSION=... ./target/release/media-extractor download --all --data-dir ../mksap_data --discovery-file media_discovery.json
+MKSAP_SESSION=... ./target/release/mksap-extractor media-download --all
 # Overrides the default session cookie used for API requests
 ```
 

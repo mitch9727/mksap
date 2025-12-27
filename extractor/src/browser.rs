@@ -91,7 +91,7 @@ impl BrowserLogin {
     /// # Examples
     ///
     /// ```ignore
-    /// use text_extractor::browser::BrowserLogin;
+    /// use mksap_extractor::browser::BrowserLogin;
     ///
     /// // Simple: wait 10 minutes for manual login
     /// BrowserLogin::interactive_login("https://mksap.acponline.org", None::<fn() -> _>).await?;

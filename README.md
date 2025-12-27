@@ -8,7 +8,7 @@ System for extracting medical education questions from the ACP MKSAP (Medical Kn
 
 - **Phase 1 Status**: ✅ **COMPLETE** (December 27, 2025) - All 2,198 valid questions extracted
 - **Primary Tool**: Rust MKSAP Extractor (API-based extraction with discovery validation)
-- **Architecture**: 16 system codes configured (see [config.rs](text_extractor/src/config.rs))
+- **Architecture**: 16 system codes configured (see [config.rs](extractor/src/config.rs))
 - **Extraction Results**: See [PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md) for final metrics
 - **Historical Data**: See [docs/project/reports/](docs/project/reports/) for past extraction summaries
 
@@ -17,7 +17,7 @@ System for extracting medical education questions from the ACP MKSAP (Medical Kn
 ### Rust Extractor (Recommended)
 
 ```bash
-cd /Users/Mitchell/coding/projects/MKSAP/text_extractor
+cd /Users/Mitchell/coding/projects/MKSAP/extractor
 cargo build --release
 ./target/release/mksap-extractor
 ```
@@ -34,27 +34,26 @@ Override session cookie (optional):
 MKSAP_SESSION=... ./target/release/mksap-extractor
 ```
 
-### Media Extraction (Post-Processing)
+### Media Extraction (Integrated)
 
 ```bash
-cd ../media_extractor
-cargo build --release
-./target/release/media-extractor discover --discovery-file media_discovery.json
-./target/release/media-extractor download --all --data-dir ../mksap_data --discovery-file media_discovery.json
+cd extractor
+./target/release/mksap-extractor media-discover
+./target/release/mksap-extractor media-download
 ```
 
-Media extractor arguments:
+Media commands:
 
 ```bash
-./target/release/media-extractor discover --discovery-file media_discovery.json
-./target/release/media-extractor download --all --data-dir /path/to/mksap_data --discovery-file media_discovery.json
-./target/release/media-extractor download --question-id cvmcq24001 --data-dir /path/to/mksap_data --discovery-file media_discovery.json
+./target/release/mksap-extractor media-discover
+./target/release/mksap-extractor media-download --all
+./target/release/mksap-extractor media-download --question-id cvmcq24001
 ```
 
 Override session cookie (optional):
 
 ```bash
-MKSAP_SESSION=... ./target/release/media-extractor download --all --data-dir ../mksap_data --discovery-file media_discovery.json
+MKSAP_SESSION=... ./target/release/mksap-extractor media-download --all
 ```
 
 ## Documentation
@@ -107,13 +106,13 @@ mksap_data/
 └── rm/                  # Rheumatology
 ```
 
-Checkpoints are stored in `mksap_data/.checkpoints/` (default output is `../mksap_data` when running from `text_extractor/`).
+Checkpoints are stored in `mksap_data/.checkpoints/` (default output is `../mksap_data` when running from `extractor/`).
 
 Each question directory contains:
 - `{question_id}.json` - Complete structured data
 - `figures/`, `tables/`, `videos/`, `svgs/` - Media assets (if any)
 
-See [config.rs](text_extractor/src/config.rs) for complete system definitions.
+See [config.rs](extractor/src/config.rs) for complete system definitions.
 
 ## Features
 
@@ -131,7 +130,7 @@ See [config.rs](text_extractor/src/config.rs) for complete system definitions.
 
 ### Rust Extractor
 
-**Location**: `text_extractor/`
+**Location**: `extractor/`
 
 Primary tool for API-based extraction:
 - Direct HTTPS API calls
@@ -140,10 +139,10 @@ Primary tool for API-based extraction:
 - Organized output
 
 **Key Files**:
-- `text_extractor/src/main.rs` - Entry point
-- `text_extractor/src/extractor.rs` - Extraction logic
-- `text_extractor/src/config.rs` - System definitions
-- `text_extractor/src/validator.rs` - Data quality checks
+- `extractor/src/main.rs` - Entry point
+- `extractor/src/extractor.rs` - Extraction logic
+- `extractor/src/config.rs` - System definitions
+- `extractor/src/validator.rs` - Data quality checks
 - `mksap_data/` - Extracted questions
 
 ## Technology Stack
@@ -184,7 +183,7 @@ The project includes Claude Code integration:
 
 ### For Extraction
 
-1. Build project: `cd text_extractor && cargo build --release`
+1. Build project: `cd extractor && cargo build --release`
 2. Run extraction: `./target/release/mksap-extractor`
 3. Validate results: `./target/release/mksap-extractor validate`
 4. Check [Troubleshooting](docs/reference/TROUBLESHOOTING.md) if issues

@@ -331,7 +331,7 @@ The discovery-based approach automatically adapts to real API state without manu
 ### Viewing Discovery Statistics
 
 ```bash
-# From text_extractor directory:
+# From extractor directory:
 cargo run --release -- discovery-stats
 ```
 
@@ -406,7 +406,7 @@ This explains why the "cc" system appeared incomplete:
 
 ### The Fix
 
-**File Modified**: `text_extractor/src/config.rs`
+**File Modified**: `extractor/src/config.rs`
 
 Changed:
 ```rust
@@ -496,7 +496,7 @@ The MKSAP extractor has been updated to support multiple question ID prefixes pe
 
 ### Code Modifications
 
-**1. Configuration Layer (`text_extractor/src/config.rs`)**
+**1. Configuration Layer (`extractor/src/config.rs`)**
 
 Added `question_prefixes: Vec<String>` field to `OrganSystem` struct:
 ```rust
@@ -521,7 +521,7 @@ Updated all 15 system definitions with proper multi-prefix support:
 
 **Total systems now: 15 (up from 12)**
 
-**2. Extractor Layer (`text_extractor/src/main.rs`)**
+**2. Extractor Layer (`extractor/src/main.rs`)**
 
 Updated category definitions to reflect multi-prefix architecture:
 - Separated 3 "AND" content areas into 6 distinct system categories
@@ -529,7 +529,7 @@ Updated category definitions to reflect multi-prefix architecture:
 - Configured correct URL paths for each system
 - All 15 categories are now processed independently
 
-**3. Discovery Phase (`text_extractor/src/extractor.rs`)**
+**3. Discovery Phase (`extractor/src/extractor.rs`)**
 
 The existing `generate_question_ids()` method generates IDs for a single prefix, which is correct for the current approach since each category in the extraction loop uses a single prefix.
 
@@ -652,7 +652,7 @@ mksap_data/
 
 ### Files Modified
 
-1. `text_extractor/src/config.rs` - Added `question_prefixes` field, added hp/dm systems
-2. `text_extractor/src/main.rs` - Updated 15 categories with correct prefixes and separations
+1. `extractor/src/config.rs` - Added `question_prefixes` field, added hp/dm systems
+2. `extractor/src/main.rs` - Updated 15 categories with correct prefixes and separations
 3. `EXTRACTION_GAPS_ANALYSIS.md` - Documented multi-prefix architecture and findings
 4. Build tested and confirmed ✓ (cargo check passed with expected warnings)

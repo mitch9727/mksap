@@ -18,13 +18,11 @@ See [PHASE_1_PLAN.md](../project/PHASE_1_PLAN.md) for current phase details.
 ```
 MKSAP/
 │
-├── Cargo.toml                # Rust workspace manifest
-├── Cargo.lock                # Dependency lock file
-│
-├── text_extractor/           # Phase 1: Text extraction (Rust binary)
+├── extractor/           # Phase 1: Unified extractor (Rust binary)
 │   ├── Cargo.toml
 │   └── src/
 │       ├── main.rs            # Entry point and CLI dispatch
+│       ├── app.rs             # Command routing and orchestration
 │       ├── commands.rs        # Command parsing
 │       ├── config.rs          # System definitions (16 system codes)
 │       ├── categories.rs      # Category build helpers
@@ -40,22 +38,18 @@ MKSAP/
 │       ├── auth_flow.rs       # Authentication flow
 │       ├── browser.rs         # Browser-based auth fallback
 │       ├── diagnostics.rs     # API inspection helper
+│       ├── media/             # Media discovery/download modules
 │       └── models.rs          # Data structures (QuestionData, etc.)
-│
-├── media_extractor/          # Phase 1: Media post-processing (Rust binary)
-│   ├── Cargo.toml
-│   └── src/
-│       └── main.rs           # Standalone media downloader
 │
 ├── mksap_data/               # Phase 1 Output: Extracted question data
 │   ├── .checkpoints/         # Extraction progress checkpoints
 │   ├── cv/, en/, hm/, ...    # Questions organized by system code
 │   │   └── {question_id}/
 │   │       ├── {question_id}.json        # Complete question data
-│   │       ├── figures/                  # Media extractor output
-│   │       ├── tables/                   # Media extractor output
-│   │       ├── videos/                   # Media extractor output
-│   │       └── svgs/                     # Media extractor output
+│   │       ├── figures/                  # Media output
+│   │       ├── tables/                   # Media output
+│   │       ├── videos/                   # Media output
+│   │       └── svgs/                     # Media output
 │   └── validation_report.txt # Quality assurance report
 │
 ├── mksap_data_failed/        # Failed extraction records (for retry)
@@ -91,9 +85,9 @@ MKSAP/
 ### Phase 1: Data Extraction (Current)
 
 1. Authenticate to MKSAP (prefer `MKSAP_SESSION`)
-2. Run text extractor from `text_extractor/`: `./target/release/mksap-extractor`
+2. Run text extractor from `extractor/`: `./target/release/mksap-extractor`
 3. Validate extraction: `./target/release/mksap-extractor validate`
-4. Run media extractor (optional): `./target/release/media-extractor --all --data-dir ../mksap_data`
+4. Run media download (optional): `./target/release/mksap-extractor media-download --all`
 5. Review `.checkpoints/discovery_metadata.json` and `validation_report.txt`
 
 **Target:** 2,198 valid questions across 16 systems and 6 question types (invalidated questions excluded)
@@ -119,35 +113,22 @@ MKSAP/
 
 ## Project Architecture
 
-### Rust Workspace
+### Extractor Crate
 
-The project uses Cargo workspaces to organize multiple binaries:
+The project uses a single Rust crate (`extractor/`) with an integrated media pipeline:
 
-```toml
-[workspace]
-members = ["text_extractor", "media_extractor"]
-```
-
-**text_extractor**: Primary extraction tool
 - API-based question downloading
 - Session authentication
 - Checkpoint-based resumable extraction
 - Built-in validation
-
-**media_extractor**: Post-processing tool
-- Downloads referenced media (images, videos, SVGs)
-- Updates question JSON with media refs
-
-Both binaries target the same `mksap_data/` output directory.
+- Media discovery/download (images, tables, videos, SVGs)
 
 ## Data Flow
 
 ```
 MKSAP API
     ↓
-text_extractor → mksap_data/{system}/{question_id}.json
-    ↓
-media_extractor → mksap_data/{system}/{question_id}/(figures|tables|videos|svgs)
+extractor → mksap_data/{system}/{question_id}.json + media assets
     ↓
 validator → validation_report.txt
     ↓

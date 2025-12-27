@@ -21,7 +21,7 @@
 ## Task 1: Refactor Discovery Phase Logging in extractor.rs
 
 **Files:**
-- Modify: `text_extractor/src/extractor.rs:230-280` (discover_questions method)
+- Modify: `extractor/src/extractor.rs:230-280` (discover_questions method)
 
 **Step 1: Understand current discovery logging**
 
@@ -95,7 +95,7 @@ Expected: Clean compilation
 **Step 5: Commit**
 
 ```bash
-git add text_extractor/src/extractor.rs
+git add extractor/src/extractor.rs
 git commit -m "refactor: move discovery phase details to debug logging"
 ```
 
@@ -104,7 +104,7 @@ git commit -m "refactor: move discovery phase details to debug logging"
 ## Task 2: Add Discovery Result Logging Method to extractor.rs
 
 **Files:**
-- Modify: `text_extractor/src/extractor.rs` (add new method after discover_questions)
+- Modify: `extractor/src/extractor.rs` (add new method after discover_questions)
 
 **Step 1: Add new method after discover_questions**
 
@@ -132,7 +132,7 @@ Expected: Clean compilation
 **Step 3: Commit**
 
 ```bash
-git add text_extractor/src/extractor.rs
+git add extractor/src/extractor.rs
 git commit -m "refactor: add discovery result logging method"
 ```
 
@@ -141,7 +141,7 @@ git commit -m "refactor: add discovery result logging method"
 ## Task 3: Update main.rs to Use Consolidated Discovery Results
 
 **Files:**
-- Modify: `text_extractor/src/main.rs:410-430` (extraction loop)
+- Modify: `extractor/src/main.rs:410-430` (extraction loop)
 
 **Step 1: Understand current extraction loop**
 
@@ -201,7 +201,7 @@ Expected: Clean compilation
 **Step 6: Commit**
 
 ```bash
-git add text_extractor/src/main.rs
+git add extractor/src/main.rs
 git commit -m "refactor: consolidate extraction result logging format"
 ```
 
@@ -248,7 +248,7 @@ git commit -m "test: verify refactored logging output"
 
 **Files:**
 - Modify: `docs/project/README.md`
-- Modify: `text_extractor/README.md` (if it exists)
+- Modify: `extractor/README.md` (if it exists)
 
 **Step 1: Document logging levels**
 

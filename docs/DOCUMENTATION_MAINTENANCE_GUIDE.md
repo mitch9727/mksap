@@ -216,13 +216,8 @@ Run these checks to ensure documentation is current:
 
 ```bash
 # 1. Verify module count in CLAUDE.md matches actual modules
-cd text_extractor/src
-ls -1 *.rs | wc -l
-# Compare to CLAUDE.md "Text Extractor Module Organization" count
-
-cd ../../media_extractor/src
-ls -1 *.rs | wc -l
-# Compare to CLAUDE.md "Media Extractor Module Organization" count
+rg --files -g '*.rs' extractor/src | wc -l
+# Compare to CLAUDE.md "Extractor Module Organization" count
 
 # 2. Verify CLI commands documented
 ./target/release/mksap-extractor --help

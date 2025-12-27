@@ -176,12 +176,12 @@ Comprehensive documentation audit and alignment completed to support the new 4-p
 - Completely restructured from simple tool description to comprehensive project architecture
 - Added 4-phase pipeline overview at top
 - Rewrote directory structure to include:
-  - text_extractor/ and media_extractor/ binaries (with detailed structure)
+  - extractor/ binary with integrated media modules (with detailed structure)
   - Complete docs/ directory tree (showing all subdirectories and files)
   - mksap_data/ output directory structure with examples
   - mksap_data_failed/ directory
 - Added "Data Flow" diagram showing all 4 phases
-- Added "Project Architecture" section with Rust Workspace explanation
+- Added "Project Architecture" section with extractor crate explanation
 - Added "Key Design Decisions" (5 items explaining architectural choices)
 - Expanded "Primary Workflow" with Phase 1-4 descriptions
 - Updated "Notes" to reference PHASE_1_PLAN.md

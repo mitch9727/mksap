@@ -8,7 +8,6 @@ use std::time::Duration;
 use tracing::{info, warn};
 
 use super::browser::{BrowserOptions, BrowserSession};
-use super::browser_media;
 use super::discovery::{DiscoveryResults, QuestionMedia};
 use super::file_store::{collect_question_entries, update_question_json, MediaUpdate, SvgMetadata};
 use super::metadata::{extract_html_text, for_each_metadata_item, resolve_metadata_id};
@@ -140,9 +139,7 @@ pub async fn run_browser_download(
             let mut remaining_ids: VecDeque<String> = leftovers.into();
 
             for assignment in assignments {
-                let path =
-                    browser_media::svgs::download_svg(client, &entry.question_dir, &assignment.url)
-                        .await?;
+                let path = download_svg(client, &entry.question_dir, &assignment.url).await?;
 
                 push_unique(&mut update.svgs, &mut seen_svg_files, path.clone());
 
@@ -163,8 +160,7 @@ pub async fn run_browser_download(
             }
 
             for (index, svg_markup) in browser_media.inline_svgs.iter().enumerate() {
-                let path =
-                    browser_media::svgs::save_inline_svg(&entry.question_dir, index, svg_markup)?;
+                let path = save_inline_svg(&entry.question_dir, index, svg_markup)?;
 
                 push_unique(&mut update.svgs, &mut seen_svg_files, path.clone());
 
@@ -385,4 +381,49 @@ fn extract_svg_urls(html: &str) -> Vec<String> {
         urls.push(cap[1].to_string());
     }
     urls
+}
+
+async fn download_svg(client: &Client, question_dir: &Path, url: &str) -> Result<Option<String>> {
+    let filename = filename_from_url(url);
+    let dest_dir = question_dir.join("svgs");
+    std::fs::create_dir_all(&dest_dir)?;
+    let dest_path = dest_dir.join(&filename);
+
+    if !dest_path.exists() {
+        let bytes = client
+            .get(url)
+            .send()
+            .await?
+            .error_for_status()?
+            .bytes()
+            .await?;
+        std::fs::write(&dest_path, bytes)?;
+    }
+
+    Ok(Some(relative_path("svgs", &filename)))
+}
+
+fn save_inline_svg(question_dir: &Path, index: usize, svg: &str) -> Result<Option<String>> {
+    let filename = format!("inline_svg_{}.svg", index + 1);
+    let dest_dir = question_dir.join("svgs");
+    std::fs::create_dir_all(&dest_dir)?;
+    let dest_path = dest_dir.join(&filename);
+    if !dest_path.exists() {
+        std::fs::write(&dest_path, svg)?;
+    }
+    Ok(Some(relative_path("svgs", &filename)))
+}
+
+fn filename_from_url(url: &str) -> String {
+    let trimmed = url.split('?').next().unwrap_or(url);
+    let name = trimmed
+        .rsplit('/')
+        .next()
+        .filter(|part| !part.is_empty())
+        .unwrap_or("media.bin");
+    name.to_string()
+}
+
+fn relative_path(dir: &str, filename: &str) -> String {
+    Path::new(dir).join(filename).to_string_lossy().to_string()
 }

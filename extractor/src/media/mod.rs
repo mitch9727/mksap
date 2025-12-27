@@ -1,7 +1,6 @@
 pub mod api;
 pub mod browser;
 pub mod browser_download;
-pub mod browser_media;
 pub mod discovery;
 pub mod download;
 pub mod file_store;

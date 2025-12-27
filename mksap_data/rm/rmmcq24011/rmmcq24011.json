@@ -1,64 +1,64 @@
 {
+  "question_id": "rmmcq24011",
   "category": "rm",
-  "critique": "The most likely diagnosis is Sjögren disease (Option C). Sjögren disease, a systemic autoimmune disorder, most often presents with sicca symptoms, including oral and ocular dryness (xerostomia and xerophthalmia, respectively). Extraglandular symptoms, such as fatigue and joint pain, are also common (). A diagnosis of Sjögren disease requires a score of 4 or more on the American College of Rheumatology/European League Against Rheumatism classification criteria (). Xerostomia is assessed by direct examination, with dental caries and a lack of saliva suggesting the diagnosis; sialometry is rarely done because it requires special equipment. Xerophthalmia can be objectively assessed with the Schirmer test; a strip of filter paper is placed under the lower eyelid, and less than 5 mm of wetting in 5 minutes indicates dryness. Autoantibodies provide diagnostic support but are not pathognomonic. Antinuclear antibodies and/or rheumatoid factor may be present. The presence of anti-Ro/SSA autoantibodies is specific in primary Sjögren disease but not in secondary Sjögren disease, which is associated with other autoimmune diseases. This patient has clinical and serologic features consistent with Sjögren disease, including severe sicca, a positive Schirmer test result, and a positive anti-Ro/SSA antibody titer.Cryoglobulinemic vasculitis (Option A) is classically associated with purpuric skin lesions as well as neurologic involvement and arthralgias. Positive rheumatoid factor and cryoglobulins raise suspicion for cryoglobulinemic vasculitis. However, cryoglobulinemia can be seen in 4% to 12% of patients with Sjögren disease. This patient's clinical features and anti-Ro/SSA antibody titer are more consistent with Sjögren disease.Rheumatoid arthritis (RA) (Option B) is characterized by small-joint, symmetric synovitis with associated morning stiffness. Patients with RA can have secondary Sjögren disease. However, this patient has had hand pain for only 1 month, she does not report morning stiffness, and she does not have synovitis on examination. Her low positive rheumatoid factor and negative anti–cyclic citrullinated peptide antibody titer are better attributed to Sjögren disease.Like RA, systemic lupus erythematosus (SLE) (Option D) can be associated with secondary Sjögren disease. However, patients with SLE typically present with multiple systemic symptoms, such as serositis, pleuritis, cerebritis, lung dysfunction, synovitis, and skin changes (none of which are reported in this patient).",
   "educational_objective": "Diagnose Sjögren disease.",
-  "extracted_at": "2025-12-22T20:46:43.898676-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 28-year-old woman is evaluated for a 6-month history of oral dryness and eye irritation. She also reports a 1-month history of fatigue and joint pain in her hands that persists throughout the day. Two weeks ago, the Schirmer test result was 3 mm/5 min, and her ophthalmologist prescribed lubricating eye drops. Medical history is otherwise noncontributory. She takes no medications.On physical examination, vital signs are normal. Conjunctival injection is observed bilaterally. Oral examination shows decreased salivary pooling. No skin rashes are noted. Metacarpophalangeal and proximal interphalangeal joints show tenderness to palpation, without synovitis.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cryoglobulinemic vasculitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Rheumatoid arthritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Sjögren disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Systemic lupus erythematosus",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is Sjögren disease (Option C). Sjögren disease, a systemic autoimmune disorder, most often presents with sicca symptoms, including oral and ocular dryness (xerostomia and xerophthalmia, respectively). Extraglandular symptoms, such as fatigue and joint pain, are also common (). A diagnosis of Sjögren disease requires a score of 4 or more on the American College of Rheumatology/European League Against Rheumatism classification criteria (). Xerostomia is assessed by direct examination, with dental caries and a lack of saliva suggesting the diagnosis; sialometry is rarely done because it requires special equipment. Xerophthalmia can be objectively assessed with the Schirmer test; a strip of filter paper is placed under the lower eyelid, and less than 5 mm of wetting in 5 minutes indicates dryness. Autoantibodies provide diagnostic support but are not pathognomonic. Antinuclear antibodies and/or rheumatoid factor may be present. The presence of anti-Ro/SSA autoantibodies is specific in primary Sjögren disease but not in secondary Sjögren disease, which is associated with other autoimmune diseases. This patient has clinical and serologic features consistent with Sjögren disease, including severe sicca, a positive Schirmer test result, and a positive anti-Ro/SSA antibody titer.Cryoglobulinemic vasculitis (Option A) is classically associated with purpuric skin lesions as well as neurologic involvement and arthralgias. Positive rheumatoid factor and cryoglobulins raise suspicion for cryoglobulinemic vasculitis. However, cryoglobulinemia can be seen in 4% to 12% of patients with Sjögren disease. This patient's clinical features and anti-Ro/SSA antibody titer are more consistent with Sjögren disease.Rheumatoid arthritis (RA) (Option B) is characterized by small-joint, symmetric synovitis with associated morning stiffness. Patients with RA can have secondary Sjögren disease. However, this patient has had hand pain for only 1 month, she does not report morning stiffness, and she does not have synovitis on examination. Her low positive rheumatoid factor and negative anti–cyclic citrullinated peptide antibody titer are better attributed to Sjögren disease.Like RA, systemic lupus erythematosus (SLE) (Option D) can be associated with secondary Sjögren disease. However, patients with SLE typically present with multiple systemic symptoms, such as serositis, pleuritis, cerebritis, lung dysfunction, synovitis, and skin changes (none of which are reported in this patient).",
   "key_points": [
     "Common symptoms of Sjögren disease include oral and ocular dryness, fatigue, and joint pain.",
     "Anti-Ro/SSA autoantibody positivity is the most specific laboratory finding in patients with primary Sjögren disease."
   ],
+  "references": "Mariette X, Criswell LA. Primary Sjögren's syndrome. N Engl J Med. 2018;378:931-939. PMID: 29514034 doi:10.1056/NEJMcp1702514",
+  "related_content": {
+    "syllabus": [
+      "rmsec24008_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html",
       "tables/inline_table_3.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cryoglobulinemic vasculitis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Rheumatoid arthritis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Sjögren disease"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Systemic lupus erythematosus"
-    }
-  ],
-  "question_id": "rmmcq24011",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 28-year-old woman is evaluated for a 6-month history of oral dryness and eye irritation. She also reports a 1-month history of fatigue and joint pain in her hands that persists throughout the day. Two weeks ago, the Schirmer test result was 3 mm/5 min, and her ophthalmologist prescribed lubricating eye drops. Medical history is otherwise noncontributory. She takes no medications.On physical examination, vital signs are normal. Conjunctival injection is observed bilaterally. Oral examination shows decreased salivary pooling. No skin rashes are noted. Metacarpophalangeal and proximal interphalangeal joints show tenderness to palpation, without synovitis.",
-  "references": "Mariette X, Criswell LA. Primary Sjögren's syndrome. N Engl J Med. 2018;378:931-939. PMID: 29514034 doi:10.1056/NEJMcp1702514",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24008_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:46:43.898676-06:00"
 }

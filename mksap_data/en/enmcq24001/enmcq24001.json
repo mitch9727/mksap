@@ -1,62 +1,62 @@
 {
+  "question_id": "enmcq24001",
   "category": "en",
-  "critique": "This patient should be screened for type 2 diabetes mellitus now (Option D). According to the American Diabetes Association (ADA), screening for type 2 diabetes in asymptomatic patients should be considered in those with overweight (BMI ≥25, or ≥23 in persons of Asian ancestry) and at least one additional risk factor, regardless of age. Additional risk factors include the following:First-degree relative with diabetesRace or ethnicity with high riskHistory of cardiovascular diseasePhysical inactivityHypertension (or taking antihypertensive therapy)Low HDL cholesterol (<35 mg/dL [0.90 mmol/L]) and/or elevated triglycerides (>250 mg/dL [2.82 mmol/L])Other conditions associated with insulin resistance (severe obesity, acanthosis nigricans, polycystic ovary syndrome, metabolic dysfunction–associated steatotic liver disease)The ADA recommends that screening begin at age 35 years for all other patients. The U.S. Preventive Services Task Force (USPSTF) recommends screening nonpregnant asymptomatic adults aged 35 to 70 years who have overweight or obesity. Additional ADA and USPSTF screening considerations are listed in Table: Screening Guidelines for Prediabetes or Type 2 Diabetes Mellitus. This patient meets both ADA and USPSTF criteria for screening (she is 35 years of age with overweight) and should be screened for type 2 diabetes now.Type 2 diabetes is often preceded by a prolonged asymptomatic hyperglycemic period in which microvascular and macrovascular damage may occur. Delaying screening can put patients with undiagnosed type 2 diabetes at risk for vascular damage. Because this patient meets criteria for type 2 diabetes screening now, screening should not be delayed until age 45 years (Option A).Screening this patient for diabetes only if her BMI increases to 30 or greater (Option B) is inappropriate. The ADA and USPSTF recommend type 2 diabetes screening for adults aged 35 years with overweight; the BMI threshold for overweight is 25 or greater (≥23 for persons of Asian ancestry).This patient is aged 35 years and has overweight; therefore, she should be screened now. According to ADA guidelines, in patients younger than 35 years, screening for type 2 diabetes should be considered in patients with overweight and at least one additional risk factor, such as a triglyceride level greater than 250 mg/dL (2.82 mmol/L). A triglyceride level of 150 mg/dL (1.70 mmol/L) (Option C) is not considered an indication for screening.",
   "educational_objective": "Screen for type 2 diabetes mellitus.",
-  "extracted_at": "2025-12-22T22:59:17.480041-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 35-year-old woman is evaluated at a routine health care visit. She feels well. She has no medical problems and takes no medications. She has never smoked. She eats a healthy, well-balanced diet and exercises about 240 minutes weekly. She has no family history of diabetes mellitus.Vital signs are normal. BMI is 26. Physical examination findings are otherwise unremarkable.",
+  "question_stem": "When should this patient be screened for type 2 diabetes?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "At age 45 years",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "If her BMI increases to 30 or greater",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "If her triglyceride level increases to greater than 150 mg/dL (1.70 mmol/L)",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Now",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient should be screened for type 2 diabetes mellitus now (Option D). According to the American Diabetes Association (ADA), screening for type 2 diabetes in asymptomatic patients should be considered in those with overweight (BMI ≥25, or ≥23 in persons of Asian ancestry) and at least one additional risk factor, regardless of age. Additional risk factors include the following:First-degree relative with diabetesRace or ethnicity with high riskHistory of cardiovascular diseasePhysical inactivityHypertension (or taking antihypertensive therapy)Low HDL cholesterol (<35 mg/dL [0.90 mmol/L]) and/or elevated triglycerides (>250 mg/dL [2.82 mmol/L])Other conditions associated with insulin resistance (severe obesity, acanthosis nigricans, polycystic ovary syndrome, metabolic dysfunction–associated steatotic liver disease)The ADA recommends that screening begin at age 35 years for all other patients. The U.S. Preventive Services Task Force (USPSTF) recommends screening nonpregnant asymptomatic adults aged 35 to 70 years who have overweight or obesity. Additional ADA and USPSTF screening considerations are listed in Table: Screening Guidelines for Prediabetes or Type 2 Diabetes Mellitus. This patient meets both ADA and USPSTF criteria for screening (she is 35 years of age with overweight) and should be screened for type 2 diabetes now.Type 2 diabetes is often preceded by a prolonged asymptomatic hyperglycemic period in which microvascular and macrovascular damage may occur. Delaying screening can put patients with undiagnosed type 2 diabetes at risk for vascular damage. Because this patient meets criteria for type 2 diabetes screening now, screening should not be delayed until age 45 years (Option A).Screening this patient for diabetes only if her BMI increases to 30 or greater (Option B) is inappropriate. The ADA and USPSTF recommend type 2 diabetes screening for adults aged 35 years with overweight; the BMI threshold for overweight is 25 or greater (≥23 for persons of Asian ancestry).This patient is aged 35 years and has overweight; therefore, she should be screened now. According to ADA guidelines, in patients younger than 35 years, screening for type 2 diabetes should be considered in patients with overweight and at least one additional risk factor, such as a triglyceride level greater than 250 mg/dL (2.82 mmol/L). A triglyceride level of 150 mg/dL (1.70 mmol/L) (Option C) is not considered an indication for screening.",
   "key_points": [
     "The American Diabetes Association recommends screening for type 2 diabetes mellitus in patients with overweight and one additional risk factor; in patients without risk factors, screening should begin at age 35 years.",
     "The U.S. Preventive Services Task Force recommends screening for type 2 diabetes mellitus in nonpregnant asymptomatic adults aged 35 to 70 years who have overweight or obesity."
   ],
+  "references": "American Diabetes Association Professional Practice Committee. 2. Diagnosis and classification of diabetes: Standards of Care in Diabetes—2025. Diabetes Care. 2025;48:S27-S49. PMID: 39651986 doi:10.2337/dc25-S002",
+  "related_content": {
+    "syllabus": [
+      "ensec24002_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "At age 45 years"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "If her BMI increases to 30 or greater"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "If her triglyceride level increases to greater than 150 mg/dL (1.70 mmol/L)"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Now"
-    }
-  ],
-  "question_id": "enmcq24001",
-  "question_stem": "When should this patient be screened for type 2 diabetes?",
-  "question_text": "A 35-year-old woman is evaluated at a routine health care visit. She feels well. She has no medical problems and takes no medications. She has never smoked. She eats a healthy, well-balanced diet and exercises about 240 minutes weekly. She has no family history of diabetes mellitus.Vital signs are normal. BMI is 26. Physical examination findings are otherwise unremarkable.",
-  "references": "American Diabetes Association Professional Practice Committee. 2. Diagnosis and classification of diabetes: Standards of Care in Diabetes—2025. Diabetes Care. 2025;48:S27-S49. PMID: 39651986 doi:10.2337/dc25-S002",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24002_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:59:17.480041-06:00"
 }

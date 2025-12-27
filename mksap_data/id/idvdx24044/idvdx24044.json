@@ -1,60 +1,60 @@
 {
+  "question_id": "idvdx24044",
   "category": "id",
-  "critique": "The most likely diagnosis is babesiosis (Option B). This peripheral blood smear shows an intracellular inclusion. Babesiosis and malaria should be considered in patients with intracellular erythrocyte inclusions, fever, and hemolytic anemia. A history of a tick bite is consistent with the transmission of babesiosis, whereas malaria is transmitted by the female Anopheles mosquito. The characteristic finding of babesiosis is the intraerythrocytic tetrad, or Maltese cross, as shown. In addition, vacuolated, pleomorphic rings without pigment or gametocytes are characteristic of Babesia infection.",
   "educational_objective": "Diagnose babesiosis based on peripheral blood smear findings.",
-  "extracted_at": "2025-12-23T14:10:29.399166-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 51-year-old woman is evaluated for fever, jaundice, and anemia. She lives in Maine.Peripheral blood smear is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Anaplasmosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Babesiosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Glucose-6-phosphate dehydrogenase deficiency",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Leptospirosis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is babesiosis (Option B). This peripheral blood smear shows an intracellular inclusion. Babesiosis and malaria should be considered in patients with intracellular erythrocyte inclusions, fever, and hemolytic anemia. A history of a tick bite is consistent with the transmission of babesiosis, whereas malaria is transmitted by the female Anopheles mosquito. The characteristic finding of babesiosis is the intraerythrocytic tetrad, or Maltese cross, as shown. In addition, vacuolated, pleomorphic rings without pigment or gametocytes are characteristic of Babesia infection.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24007_24006"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24650.5116e10f3e3a40807570100431c949d4.jpg",
       "figures/idfig24649.148044954433402968e396f9db43771a.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Anaplasmosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Babesiosis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Glucose-6-phosphate dehydrogenase deficiency"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Leptospirosis"
-    }
-  ],
-  "question_id": "idvdx24044",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 51-year-old woman is evaluated for fever, jaundice, and anemia. She lives in Maine.Peripheral blood smear is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24007_24006"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:10:29.399166-06:00"
 }

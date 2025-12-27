@@ -1,63 +1,63 @@
 {
+  "question_id": "enmcq24021",
   "category": "en",
-  "critique": "The most appropriate diagnostic test to perform next is serum 25-hydroxyvitamin D measurement (Option C). Without intervention, all patients will develop vitamin D deficiency after undergoing gastric bypass surgery. Low vitamin D levels result in reduced calcium and phosphorus absorption in the gut. The parathyroid glands compensate by releasing more parathyroid hormone to help maintain calcium levels, resulting in secondary hyperparathyroidism. Persistent secondary hyperparathyroidism can last for years after bariatric surgery, and annual monitoring of calcium, albumin, parathyroid hormone, and 25-hydroxyvitamin D levels is recommended. A multivitamin often provides adequate vitamin D, but some patients need additional supplementation. This patient has a low-normal serum calcium level and an elevated serum parathyroid hormone level, which together are concerning for secondary hyperparathyroidism. Checking his 25-hydroxyvitamin D level to assess for vitamin D deficiency is essential. Importantly, he should be advised to restart all vitamins that are recommended after gastric bypass surgery, and he should also be assessed for other vitamin deficiencies.Bone mineral density (BMD) measurement (Option A) may be needed for this patient, but vitamin D and calcium concerns should be corrected first. Vitamin D deficiency, poor calcium absorption, and rapid weight loss after gastric bypass surgery can result in loss of BMD and increased risk for fracture. It is important for patients to receive adequate vitamin D and calcium (see ) to maintain bone health. This patient's history and laboratory study results suggest vitamin D deficiency; he should be evaluated for this before more involved testing is considered.In patients with primary hyperparathyroidism who are candidates for surgery, parathyroid sestamibi scanning (Option B) is helpful for localizing the overactive parathyroid gland. This patient does not have hypercalcemia, indicating that he does not have primary hyperparathyroidism. In this patient, a parathyroid sestamibi scan would demonstrate hypermetabolic parathyroid glands as a result of secondary hyperparathyroidism and would not be a clinically useful test.Measuring a 24-hour urine calcium level (Option D) can be helpful in assessing the risk for kidney complications in primary hyperparathyroidism and in differentiating between primary hyperparathyroidism and familial hypocalciuric hypercalcemia. A 24-hour urine calcium level is also an indirect measurement of calcium absorption and can be considered in patients with hypocalcemia. This patient's elevated serum parathyroid hormone level is likely a result of poor calcium absorption in the gut, either related to vitamin D deficiency or poor calcium intake. A 24-hour urine calcium level would be low for this patient but would not lead to a definitive diagnosis unless vitamin D deficiency is ruled out first.",
   "educational_objective": "Diagnose vitamin D deficiency after gastric bypass surgery.",
-  "extracted_at": "2025-12-22T22:59:28.485491-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 67-year-old man is evaluated for a 6-month history of myalgia and fatigue. Medical history is relevant for Roux-en-Y gastric bypass surgery for obesity 2 years ago. He was prescribed a once-daily multivitamin and monthly vitamin B12 injections but stopped both 6 months ago because of constipation.Physical examination findings, including vital signs, are normal.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bone mineral density measurement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Parathyroid sestamibi scan",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Serum 25-hydroxyvitamin D measurement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "24-Hour urine calcium measurement",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate diagnostic test to perform next is serum 25-hydroxyvitamin D measurement (Option C). Without intervention, all patients will develop vitamin D deficiency after undergoing gastric bypass surgery. Low vitamin D levels result in reduced calcium and phosphorus absorption in the gut. The parathyroid glands compensate by releasing more parathyroid hormone to help maintain calcium levels, resulting in secondary hyperparathyroidism. Persistent secondary hyperparathyroidism can last for years after bariatric surgery, and annual monitoring of calcium, albumin, parathyroid hormone, and 25-hydroxyvitamin D levels is recommended. A multivitamin often provides adequate vitamin D, but some patients need additional supplementation. This patient has a low-normal serum calcium level and an elevated serum parathyroid hormone level, which together are concerning for secondary hyperparathyroidism. Checking his 25-hydroxyvitamin D level to assess for vitamin D deficiency is essential. Importantly, he should be advised to restart all vitamins that are recommended after gastric bypass surgery, and he should also be assessed for other vitamin deficiencies.Bone mineral density (BMD) measurement (Option A) may be needed for this patient, but vitamin D and calcium concerns should be corrected first. Vitamin D deficiency, poor calcium absorption, and rapid weight loss after gastric bypass surgery can result in loss of BMD and increased risk for fracture. It is important for patients to receive adequate vitamin D and calcium (see ) to maintain bone health. This patient's history and laboratory study results suggest vitamin D deficiency; he should be evaluated for this before more involved testing is considered.In patients with primary hyperparathyroidism who are candidates for surgery, parathyroid sestamibi scanning (Option B) is helpful for localizing the overactive parathyroid gland. This patient does not have hypercalcemia, indicating that he does not have primary hyperparathyroidism. In this patient, a parathyroid sestamibi scan would demonstrate hypermetabolic parathyroid glands as a result of secondary hyperparathyroidism and would not be a clinically useful test.Measuring a 24-hour urine calcium level (Option D) can be helpful in assessing the risk for kidney complications in primary hyperparathyroidism and in differentiating between primary hyperparathyroidism and familial hypocalciuric hypercalcemia. A 24-hour urine calcium level is also an indirect measurement of calcium absorption and can be considered in patients with hypocalcemia. This patient's elevated serum parathyroid hormone level is likely a result of poor calcium absorption in the gut, either related to vitamin D deficiency or poor calcium intake. A 24-hour urine calcium level would be low for this patient but would not lead to a definitive diagnosis unless vitamin D deficiency is ruled out first.",
   "key_points": [
     "Without intervention, all patients will develop vitamin D deficiency after undergoing gastric bypass surgery.",
     "In patients who present with secondary hyperparathyroidism after gastric bypass surgery, a serum 25-hydroxyvitamin D level should be measured to assess for vitamin D deficiency."
   ],
+  "references": "Mohapatra S, Gangadharan K, Pitchumoni CS. Malnutrition in obesity before and after bariatric surgery. Dis Mon. 2020;66:100866. PMID: 31301800 doi:10.1016/j.disamonth.2019.06.008",
+  "related_content": {
+    "syllabus": [
+      "ensec24001_24012"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bone mineral density measurement"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Parathyroid sestamibi scan"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Serum 25-hydroxyvitamin D measurement"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "24-Hour urine calcium measurement"
-    }
-  ],
-  "question_id": "enmcq24021",
-  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
-  "question_text": "A 67-year-old man is evaluated for a 6-month history of myalgia and fatigue. Medical history is relevant for Roux-en-Y gastric bypass surgery for obesity 2 years ago. He was prescribed a once-daily multivitamin and monthly vitamin B12 injections but stopped both 6 months ago because of constipation.Physical examination findings, including vital signs, are normal.",
-  "references": "Mohapatra S, Gangadharan K, Pitchumoni CS. Malnutrition in obesity before and after bariatric surgery. Dis Mon. 2020;66:100866. PMID: 31301800 doi:10.1016/j.disamonth.2019.06.008",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24001_24012"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:59:28.485491-06:00"
 }

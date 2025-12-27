@@ -1,59 +1,59 @@
 {
+  "question_id": "hmvdx24029",
   "category": "hm",
-  "critique": "This peripheral blood smear is compatible with megaloblastic anemia (Option C). A hypersegmented neutrophil (more than five distinct lobes) is present and supports the diagnosis of megaloblastic anemia. The presence of oval-shaped enlarged erythrocytes (macro-ovalocytes) further suggests megaloblastic anemia. Causes include folate deficiency, vitamin B12 deficiency, and exposure to drugs affecting folate metabolism and/or DNA synthesis. Because megaloblastic causes of anemia affect trilineage hematopoiesis, leukopenia and thrombocytopenia may accompany anemia.",
   "educational_objective": "Diagnose megaloblastic anemia on a peripheral blood smear.",
-  "extracted_at": "2025-12-23T14:09:52.949396-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 66-year-old woman is evaluated for anemia.Peripheral blood smear is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Chronic myeloid leukemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Iron deficiency anemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Megaloblastic anemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pelger-Huët anomaly",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This peripheral blood smear is compatible with megaloblastic anemia (Option C). A hypersegmented neutrophil (more than five distinct lobes) is present and supports the diagnosis of megaloblastic anemia. The presence of oval-shaped enlarged erythrocytes (macro-ovalocytes) further suggests megaloblastic anemia. Causes include folate deficiency, vitamin B12 deficiency, and exposure to drugs affecting folate metabolism and/or DNA synthesis. Because megaloblastic causes of anemia affect trilineage hematopoiesis, leukopenia and thrombocytopenia may accompany anemia.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24004_24011"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24645.cd096baedb33b8af121b1cce08d8540e.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Chronic myeloid leukemia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Iron deficiency anemia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Megaloblastic anemia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Pelger-Huët anomaly"
-    }
-  ],
-  "question_id": "hmvdx24029",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 66-year-old woman is evaluated for anemia.Peripheral blood smear is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24004_24011"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.949396-06:00"
 }

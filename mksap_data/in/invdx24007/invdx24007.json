@@ -1,60 +1,60 @@
 {
+  "question_id": "invdx24007",
   "category": "in",
-  "critique": "The most likely diagnosis is viral conjunctivitis (Option D), which typically presents as unilateral, painless, diffuse redness of the eye associated with a watery or mucoserous discharge. On examination, inflamed and dilated (injected) conjunctival blood vessels are seen, with mild crusting at the lateral commissure and inferior eyelid. Inspection of the retracted lower eyelid may also show a follicular (“bumpy”) appearance of the lid (tarsal) conjunctiva. Vision and pupillary reflexes are preserved.",
   "educational_objective": "Diagnose viral conjunctivitis.",
-  "extracted_at": "2025-12-23T15:28:36.797027-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A patient is evaluated for new-onset redness and irritation in the right eye without pain. He notes significant watery discharge. Visual acuity and pupillary reflexes are normal.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Blepharitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Episcleritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Scleritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Viral conjunctivitis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is viral conjunctivitis (Option D), which typically presents as unilateral, painless, diffuse redness of the eye associated with a watery or mucoserous discharge. On examination, inflamed and dilated (injected) conjunctival blood vessels are seen, with mild crusting at the lateral commissure and inferior eyelid. Inspection of the retracted lower eyelid may also show a follicular (“bumpy”) appearance of the lid (tarsal) conjunctiva. Vision and pupillary reflexes are preserved.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "insec24003_24005"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/infig24611.3ee67fba9ab2f97049e5d1c2f1cd2f67.jpg",
       "figures/infig24610.86cbd28b27dc2b13e18a2b73226dfb75.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Blepharitis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Episcleritis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Scleritis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Viral conjunctivitis"
-    }
-  ],
-  "question_id": "invdx24007",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A patient is evaluated for new-onset redness and irritation in the right eye without pain. He notes significant watery discharge. Visual acuity and pupillary reflexes are normal.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "insec24003_24005"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:28:36.797027-06:00"
 }

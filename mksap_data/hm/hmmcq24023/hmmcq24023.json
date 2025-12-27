@@ -1,61 +1,61 @@
 {
+  "question_id": "hmmcq24023",
   "category": "hm",
-  "critique": "This patient has warm autoimmune hemolytic anemia (WAIHA), and the most appropriate immediate management is erythrocyte transfusion (Option C). Treatment of WAIHA involves addressing symptomatic anemia and decreasing antibody production to alleviate erythrocyte destruction. Patients who are asymptomatic and without significant cardiovascular effects from anemia do not require transfusion. Transfusion is necessary when anemia is significantly symptomatic or associated with complications such as hemodynamic instability, dyspnea, and angina. The presence of WAIHA-associated autoantibodies directed against core erythrocyte antigens present on donor erythrocytes may complicate the identification of compatible donors. Although these autoantibodies will also destroy transfused cells, transfused cells will last long enough to provide a potentially life-saving correction of severe anemia. Additionally, autoantibodies are unlikely to cause the fulminant hemolytic reactions typical of an ABO-incompatible transfusion. If a transfusion is required for stabilization, patients should receive type-specific blood that is otherwise incompatible. Importantly, autoantibodies may also mask the presence of patient alloantibodies formed because of a previous pregnancy or blood transfusion. These masked alloantibodies may cause serious immediate transfusion reactions; therefore, transfusions should be given slowly and under close monitoring in patients with previous pregnancies or a history of blood transfusions. This patient has severe anemia complicated by hypotension, dyspnea, and angina. Despite the presence of autoantibodies in the setting of WAIHA, he should be given an ABO-compatible blood transfusion.Eculizumab (Option A) is a monoclonal antibody that binds C5, inhibits activation of the terminal complement cascade, and reduces hemolysis in paroxysmal nocturnal hemoglobinuria. However, data supporting its efficacy in WAIHA are limited and it is not first-line therapy.Emergent splenectomy (Option B) is not appropriate in this patient. In addition to transfusion, if indicated, first-line treatment of WAIHA includes glucocorticoids and, in many cases, rituximab. Most patients respond to medical therapy, but splenectomy is indicated in patients unresponsive to or intolerant of immunosuppressive therapy. This patient has not tried medical therapy and has hemodynamically significant anemia, making splenectomy an inappropriate immediate treatment.Therapeutic apheresis (Option D) has limited efficacy in efficiently removing IgG immunoglobulins because a large pool of extravascular IgG rapidly equilibrates into the plasma as the protein is removed. Therapeutic apheresis has no role in treating WAIHA.",
   "educational_objective": "Treat warm autoimmune hemolytic anemia with erythrocyte transfusion.",
-  "extracted_at": "2025-12-22T19:36:43.909411-06:00",
-  "key_points": [
-    "Transfusion of type-specific blood that is otherwise incompatible may be required in patients with warm autoimmune hemolytic anemia who have severe anemia."
-  ],
-  "media": {
-    "images": [],
-    "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "videos": []
-  },
   "metadata": {
     "care_types": [],
-    "high_value_care": false,
     "patient_types": [],
+    "high_value_care": false,
     "question_updated": "12/22/2025"
   },
+  "question_text": "A 64-year-old man is hospitalized for a 2-week history of dyspnea on exertion and intermittent chest pain. Medical history is significant for hypertension and coronary artery disease. Medications are aspirin, atorvastatin, metoprolol, and lisinopril.On physical examination, blood pressure is 92/60 mm Hg and pulse rate is 115/min. Remaining vital signs are normal. Conjunctivae are pale. The patient's skin is jaundiced. Cardiac examination reveals regular tachycardia. The remainder of the examination is normal.A direct antiglobulin test is strongly positive for anti-IgG and weakly reactive for anticomplement. The indirect antiglobulin test is positive against all available erythrocyte units.Peripheral blood smear reveals spherocytes.ECG is unchanged from previous examination.Intravenous methylprednisolone is administered.",
+  "question_stem": "Which of the following is the most appropriate additional immediate management?",
   "options": [
     {
       "letter": "A",
-      "peer_percentage": 0,
-      "text": "Eculizumab"
+      "text": "Eculizumab",
+      "peer_percentage": 0
     },
     {
       "letter": "B",
-      "peer_percentage": 0,
-      "text": "Emergent splenectomy"
+      "text": "Emergent splenectomy",
+      "peer_percentage": 0
     },
     {
       "letter": "C",
-      "peer_percentage": 0,
-      "text": "Erythrocyte transfusion"
+      "text": "Erythrocyte transfusion",
+      "peer_percentage": 0
     },
     {
       "letter": "D",
-      "peer_percentage": 0,
-      "text": "Therapeutic apheresis"
+      "text": "Therapeutic apheresis",
+      "peer_percentage": 0
     }
   ],
-  "question_id": "hmmcq24023",
-  "question_stem": "Which of the following is the most appropriate additional immediate management?",
-  "question_text": "A 64-year-old man is hospitalized for a 2-week history of dyspnea on exertion and intermittent chest pain. Medical history is significant for hypertension and coronary artery disease. Medications are aspirin, atorvastatin, metoprolol, and lisinopril.On physical examination, blood pressure is 92/60 mm Hg and pulse rate is 115/min. Remaining vital signs are normal. Conjunctivae are pale. The patient's skin is jaundiced. Cardiac examination reveals regular tachycardia. The remainder of the examination is normal.A direct antiglobulin test is strongly positive for anti-IgG and weakly reactive for anticomplement. The indirect antiglobulin test is positive against all available erythrocyte units.Peripheral blood smear reveals spherocytes.ECG is unchanged from previous examination.Intravenous methylprednisolone is administered.",
-  "references": "Barcellini W, Fattizzo B. How I treat warm autoimmune hemolytic anemia. Blood. 2021;137:1283-1294. PMID: 33512406 doi:10.1182/blood.2019003808",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24004_24023"
-    ]
-  },
   "user_performance": {
+    "user_answer": null,
     "correct_answer": "C",
     "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+    "time_taken": null
+  },
+  "critique": "This patient has warm autoimmune hemolytic anemia (WAIHA), and the most appropriate immediate management is erythrocyte transfusion (Option C). Treatment of WAIHA involves addressing symptomatic anemia and decreasing antibody production to alleviate erythrocyte destruction. Patients who are asymptomatic and without significant cardiovascular effects from anemia do not require transfusion. Transfusion is necessary when anemia is significantly symptomatic or associated with complications such as hemodynamic instability, dyspnea, and angina. The presence of WAIHA-associated autoantibodies directed against core erythrocyte antigens present on donor erythrocytes may complicate the identification of compatible donors. Although these autoantibodies will also destroy transfused cells, transfused cells will last long enough to provide a potentially life-saving correction of severe anemia. Additionally, autoantibodies are unlikely to cause the fulminant hemolytic reactions typical of an ABO-incompatible transfusion. If a transfusion is required for stabilization, patients should receive type-specific blood that is otherwise incompatible. Importantly, autoantibodies may also mask the presence of patient alloantibodies formed because of a previous pregnancy or blood transfusion. These masked alloantibodies may cause serious immediate transfusion reactions; therefore, transfusions should be given slowly and under close monitoring in patients with previous pregnancies or a history of blood transfusions. This patient has severe anemia complicated by hypotension, dyspnea, and angina. Despite the presence of autoantibodies in the setting of WAIHA, he should be given an ABO-compatible blood transfusion.Eculizumab (Option A) is a monoclonal antibody that binds C5, inhibits activation of the terminal complement cascade, and reduces hemolysis in paroxysmal nocturnal hemoglobinuria. However, data supporting its efficacy in WAIHA are limited and it is not first-line therapy.Emergent splenectomy (Option B) is not appropriate in this patient. In addition to transfusion, if indicated, first-line treatment of WAIHA includes glucocorticoids and, in many cases, rituximab. Most patients respond to medical therapy, but splenectomy is indicated in patients unresponsive to or intolerant of immunosuppressive therapy. This patient has not tried medical therapy and has hemodynamically significant anemia, making splenectomy an inappropriate immediate treatment.Therapeutic apheresis (Option D) has limited efficacy in efficiently removing IgG immunoglobulins because a large pool of extravascular IgG rapidly equilibrates into the plasma as the protein is removed. Therapeutic apheresis has no role in treating WAIHA.",
+  "key_points": [
+    "Transfusion of type-specific blood that is otherwise incompatible may be required in patients with warm autoimmune hemolytic anemia who have severe anemia."
+  ],
+  "references": "Barcellini W, Fattizzo B. How I treat warm autoimmune hemolytic anemia. Blood. 2021;137:1283-1294. PMID: 33512406 doi:10.1182/blood.2019003808",
+  "related_content": {
+    "syllabus": [
+      "hmsec24004_24023"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T19:36:43.909411-06:00"
 }

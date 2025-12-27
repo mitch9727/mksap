@@ -1,60 +1,60 @@
 {
+  "question_id": "pmvdx24010",
   "category": "pm",
-  "critique": "The most likely diagnosis is stage I pulmonary sarcoidosis (hilar lymphadenopathy with normal lung parenchyma) (Option C). This chest CT scan shows lymphadenopathy. The scan is at a level just below the carina. It shows marked enlargement of lymph nodes in both hila (white arrows) and enlargement of a subcarinal lymph node (black arrow). Stage I pulmonary sarcoidosis is generally asymptomatic. Approximately 50% of all patients with pulmonary sarcoidosis are asymptomatic, with the disease incidentally detected on chest imaging performed for unrelated indications. (AAo = ascending aorta; DAo = descending aorta; LMB = left mainstem bronchus; RMB = right mainstem bronchus; RPA = right pulmonary artery.)",
   "educational_objective": "Diagnose sarcoidosis-related hilar lymphadenopathy on a chest CT scan.",
-  "extracted_at": "2025-12-23T14:15:53.246389-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 27-year-old asymptomatic woman is evaluated for incidentally discovered hilar enlargement on chest radiography. CT of the chest is performed.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Hodgkin lymphoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Small cell lung cancer",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Stage I pulmonary sarcoidosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Thymoma",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is stage I pulmonary sarcoidosis (hilar lymphadenopathy with normal lung parenchyma) (Option C). This chest CT scan shows lymphadenopathy. The scan is at a level just below the carina. It shows marked enlargement of lymph nodes in both hila (white arrows) and enlargement of a subcarinal lymph node (black arrow). Stage I pulmonary sarcoidosis is generally asymptomatic. Approximately 50% of all patients with pulmonary sarcoidosis are asymptomatic, with the disease incidentally detected on chest imaging performed for unrelated indications. (AAo = ascending aorta; DAo = descending aorta; LMB = left mainstem bronchus; RMB = right mainstem bronchus; RPA = right pulmonary artery.)",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24003_24019"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24615.5fef548411d2c5ea66ff2044f0bc2de0.jpg",
       "figures/pmfig24614.e0d68a6757694779b6ac9547f894d86c.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Hodgkin lymphoma"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Small cell lung cancer"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Stage I pulmonary sarcoidosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Thymoma"
-    }
-  ],
-  "question_id": "pmvdx24010",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 27-year-old asymptomatic woman is evaluated for incidentally discovered hilar enlargement on chest radiography. CT of the chest is performed.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24003_24019"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.246389-06:00"
 }

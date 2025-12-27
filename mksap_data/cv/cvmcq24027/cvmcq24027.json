@@ -1,62 +1,62 @@
 {
+  "question_id": "cvmcq24027",
   "category": "cv",
-  "critique": "This patient should be continued on high-dose statin therapy with no change in management (Option D). High-dose statin therapy with either atorvastatin or rosuvastatin is standard of care for patients with known atherosclerotic cardiovascular disease (ASCVD), including those with previous myocardial infarction. Although, historically, specific LDL cholesterol goals were used to guide the initiation of lipid-lowering therapy, the presence of any ASCVD (i.e., coronary artery, cerebrovascular, or peripheral artery disease) is sufficient to initiate statin therapy along with healthy lifestyle interventions regardless of LDL cholesterol level. Once started, the goal of statin therapy in secondary prevention of ASCVD is a 50% reduction in LDL and an LDL cholesterol level less than 70 mg/dL (1.8 mmol/L). This patient has established coronary artery disease, is appropriately treated with high-dose rosuvastatin, and has had an appropriate drop in LDL cholesterol level to less than 50% of the initial value. No change in management is needed.This patient does not require addition of ezetimibe (Option A). In patients with known ASCVD, ezetimibe may be added to maximally tolerated statin therapy if there is less than a 50% reduction in LDL cholesterol or the LDL cholesterol level is still 70 mg/dL (1.8 mmol/L) or higher on statin therapy alone. In addition, in patients at very high risk for recurrent events, specifically those with more than one major ASCVD event and those with one event and multiple risk factors, the goal LDL level is less than 55 mg/dL (1.4 mmol/L), and nonstatin medications should be considered if maximally tolerated statin therapy does not achieve this goal. This patient lacks these higher-risk features. Her LDL cholesterol level is less than 70 mg/dL (1.8 mmol/L) on statin therapy; therefore, adding ezetimibe is not indicated.High-sensitivity C-reactive protein (hs-CRP) levels (Option B) are indicative of a chronic inflammatory state that is associated with ASCVD. Elevated hs-CRP levels (≥0.2 mg/dL [2.0 mg/L]) can help guide a risk discussion with patients who have borderline cardiovascular disease risk regarding initiation of statin therapy. This patient has a clear indication for high-dose statin therapy without the need for further risk stratification.There is no indication for changing rosuvastatin to atorvastatin (Option C). Both rosuvastatin and atorvastatin are appropriate for use in established ASCVD as high-dose therapy, and switching from one medication to another is not necessary.",
   "educational_objective": "Treat known atherosclerotic cardiovascular disease with a high-dose statin.",
-  "extracted_at": "2025-12-22T22:48:43.678826-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 57-year-old woman undergoes follow-up evaluation 3 months after hospitalization for a myocardial infarction. She underwent emergent percutaneous coronary intervention with stenting of the left anterior descending artery. No other obstructive coronary disease was found, and left ventricular function was normal. The initial LDL cholesterol level was 140 mg/dL (3.63 mmol/L). Her remaining hospital course was uncomplicated. She has no other medical conditions. Medications at discharge were aspirin, clopidogrel, metoprolol, lisinopril, and high-dose rosuvastatin.On physical examination, blood pressure is 118/72 mm Hg, pulse rate is 62/min, and oxygen saturation is 98% breathing ambient air. All other findings are unremarkable.",
+  "question_stem": "Which of the following is the most appropriate strategy to manage this patient's cholesterol level?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Add ezetimibe",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Measure high-sensitivity C-reactive protein level",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Switch rosuvastatin to atorvastatin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No change in management",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient should be continued on high-dose statin therapy with no change in management (Option D). High-dose statin therapy with either atorvastatin or rosuvastatin is standard of care for patients with known atherosclerotic cardiovascular disease (ASCVD), including those with previous myocardial infarction. Although, historically, specific LDL cholesterol goals were used to guide the initiation of lipid-lowering therapy, the presence of any ASCVD (i.e., coronary artery, cerebrovascular, or peripheral artery disease) is sufficient to initiate statin therapy along with healthy lifestyle interventions regardless of LDL cholesterol level. Once started, the goal of statin therapy in secondary prevention of ASCVD is a 50% reduction in LDL and an LDL cholesterol level less than 70 mg/dL (1.8 mmol/L). This patient has established coronary artery disease, is appropriately treated with high-dose rosuvastatin, and has had an appropriate drop in LDL cholesterol level to less than 50% of the initial value. No change in management is needed.This patient does not require addition of ezetimibe (Option A). In patients with known ASCVD, ezetimibe may be added to maximally tolerated statin therapy if there is less than a 50% reduction in LDL cholesterol or the LDL cholesterol level is still 70 mg/dL (1.8 mmol/L) or higher on statin therapy alone. In addition, in patients at very high risk for recurrent events, specifically those with more than one major ASCVD event and those with one event and multiple risk factors, the goal LDL level is less than 55 mg/dL (1.4 mmol/L), and nonstatin medications should be considered if maximally tolerated statin therapy does not achieve this goal. This patient lacks these higher-risk features. Her LDL cholesterol level is less than 70 mg/dL (1.8 mmol/L) on statin therapy; therefore, adding ezetimibe is not indicated.High-sensitivity C-reactive protein (hs-CRP) levels (Option B) are indicative of a chronic inflammatory state that is associated with ASCVD. Elevated hs-CRP levels (≥0.2 mg/dL [2.0 mg/L]) can help guide a risk discussion with patients who have borderline cardiovascular disease risk regarding initiation of statin therapy. This patient has a clear indication for high-dose statin therapy without the need for further risk stratification.There is no indication for changing rosuvastatin to atorvastatin (Option C). Both rosuvastatin and atorvastatin are appropriate for use in established ASCVD as high-dose therapy, and switching from one medication to another is not necessary.",
   "key_points": [
     "Patients with known atherosclerotic cardiovascular disease (ASCVD) should be treated with fixed high-dose statin therapy regardless of initial LDL cholesterol level.",
     "The goal of statin therapy in secondary prevention of ASCVD is a 50% reduction in LDL cholesterol level and an LDL cholesterol level less than 70 mg/dL (1.8 mmol/L)."
   ],
+  "references": "Virani SS, Newby LK, Arnold SV, et al; Writing Committee Members. 2023 AHA/ACC/ACCP/ASPC/NLA/PCNA Guideline for the management of patients with chronic coronary disease: a report of the American Heart Association/American College of Cardiology Joint Committee on Clinical Practice Guidelines. J Am Coll Cardiol. 2023;82:833-955. PMID: 37480922 doi:10.1016/j.jacc.2023.04.003",
+  "related_content": {
+    "syllabus": [
+      "cvsec24002_24014"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Add ezetimibe"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Measure high-sensitivity C-reactive protein level"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Switch rosuvastatin to atorvastatin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "No change in management"
-    }
-  ],
-  "question_id": "cvmcq24027",
-  "question_stem": "Which of the following is the most appropriate strategy to manage this patient's cholesterol level?",
-  "question_text": "A 57-year-old woman undergoes follow-up evaluation 3 months after hospitalization for a myocardial infarction. She underwent emergent percutaneous coronary intervention with stenting of the left anterior descending artery. No other obstructive coronary disease was found, and left ventricular function was normal. The initial LDL cholesterol level was 140 mg/dL (3.63 mmol/L). Her remaining hospital course was uncomplicated. She has no other medical conditions. Medications at discharge were aspirin, clopidogrel, metoprolol, lisinopril, and high-dose rosuvastatin.On physical examination, blood pressure is 118/72 mm Hg, pulse rate is 62/min, and oxygen saturation is 98% breathing ambient air. All other findings are unremarkable.",
-  "references": "Virani SS, Newby LK, Arnold SV, et al; Writing Committee Members. 2023 AHA/ACC/ACCP/ASPC/NLA/PCNA Guideline for the management of patients with chronic coronary disease: a report of the American Heart Association/American College of Cardiology Joint Committee on Clinical Practice Guidelines. J Am Coll Cardiol. 2023;82:833-955. PMID: 37480922 doi:10.1016/j.jacc.2023.04.003",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24002_24014"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:48:43.678826-06:00"
 }

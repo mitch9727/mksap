@@ -1,60 +1,60 @@
 {
+  "question_id": "hmvdx24037",
   "category": "hm",
-  "critique": "The most likely diagnosis is hereditary elliptocytosis (Option A). Hereditary elliptocytosis is a rare inherited disorder; clinical manifestations range from mild anemia with well-compensated hemolysis to severe transfusion-dependent hemolytic anemia with splenomegaly. The diagnosis is suggested by the presence of hemolytic anemia with elliptocytes (arrows) on peripheral blood smear.",
   "educational_objective": "Diagnose hereditary elliptocytosis",
-  "extracted_at": "2025-12-23T14:09:52.989842-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 22-year-old woman is evaluated for mild anemia.Peripheral blood smear is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Hereditary elliptocytosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Iron deficiency anemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Thalassemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Warm autoimmune hemolytic anemia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is hereditary elliptocytosis (Option A). Hereditary elliptocytosis is a rare inherited disorder; clinical manifestations range from mild anemia with well-compensated hemolysis to severe transfusion-dependent hemolytic anemia with splenomegaly. The diagnosis is suggested by the presence of hemolytic anemia with elliptocytes (arrows) on peripheral blood smear.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24004_24015"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24658.ac6f368301a2f4f7f637a9a5a524a5af.jpg",
       "figures/hmfig24657.b948a6671475469da433ee4dedf7c074.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Hereditary elliptocytosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Iron deficiency anemia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Thalassemia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Warm autoimmune hemolytic anemia"
-    }
-  ],
-  "question_id": "hmvdx24037",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 22-year-old woman is evaluated for mild anemia.Peripheral blood smear is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24004_24015"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.989842-06:00"
 }

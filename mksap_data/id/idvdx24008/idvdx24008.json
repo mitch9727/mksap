@@ -1,59 +1,59 @@
 {
+  "question_id": "idvdx24008",
   "category": "id",
-  "critique": "The most likely diagnosis in this patient is cellulitis (Option A). Cellulitis is a rapidly spreading, deep, subcutaneous-based infection characterized by a poorly demarcated area of warmth, swelling, tenderness, and erythema that may be accompanied by lymphatic streaking with or without fever and chills. Cellulitis is most commonly caused by β-hemolytic streptococci or staphylococci.",
   "educational_objective": "Diagnose cellulitis.",
-  "extracted_at": "2025-12-23T14:10:29.284667-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 56-year-old man is evaluated for fever, chills, and a rapidly spreading, warm, and painful skin condition (shown). He is hemodynamically stable and lacks crepitus.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cellulitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Deep venous thrombosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Erythema migrans",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Toxic shock syndrome",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis in this patient is cellulitis (Option A). Cellulitis is a rapidly spreading, deep, subcutaneous-based infection characterized by a poorly demarcated area of warmth, swelling, tenderness, and erythema that may be accompanied by lymphatic streaking with or without fever and chills. Cellulitis is most commonly caused by β-hemolytic streptococci or staphylococci.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24002_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24609.dd4ab718e8c53bb9597933ed826d2b33.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cellulitis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Deep venous thrombosis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Erythema migrans"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Toxic shock syndrome"
-    }
-  ],
-  "question_id": "idvdx24008",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 56-year-old man is evaluated for fever, chills, and a rapidly spreading, warm, and painful skin condition (shown). He is hemodynamically stable and lacks crepitus.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24002_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:10:29.284667-06:00"
 }

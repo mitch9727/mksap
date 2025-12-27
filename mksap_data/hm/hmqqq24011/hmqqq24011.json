@@ -1,62 +1,62 @@
 {
+  "question_id": "hmqqq24011",
   "category": "hm",
-  "critique": "The most appropriate management for this patient is clinical observation (Option D). She has isolated thrombocytopenia with an otherwise normal complete blood count. She likely has immune thrombocytopenic purpura (ITP), which is caused by autoantibodies to platelet surface membranes. Diagnosis requires a platelet count of less than 100,000/µL (100 × 109/L). Petechiae and ecchymoses without splenomegaly are notable physical signs. Asymptomatic patients without evidence of bleeding and with platelet counts greater than 30,000 to 40,000/µL (30-40 × 109/L) typically do not require treatment. This patient takes no medications or supplements known to cause thrombocytopenia, and the lack of systemic symptoms or clinical manifestations, normal physical examination findings other than ecchymoses, and normal peripheral blood smear exclude the presence of another underlying disorder. The most appropriate course is to counsel this patient on potential bleeding symptoms and provide careful observation, such as repeating the platelet count at a designated interval. Similarly, if a time-limited condition (e.g., a recent viral infection) caused recent myelosuppression, the platelet count would be expected to improve on follow-up testing.Antiplatelet antibody testing (Option A) in patients suspected of having ITP commonly results in false-negative and false-positive results. Consequently, antiplatelet antibody testing has little predictive value in the diagnosis of ITP and is not recommended.The response to intravenous immune globulin (IVIG) (Option B) is faster than to glucocorticoids, and IVIG may be indicated in patients with more severe thrombocytopenia and life-threatening bleeding. IVIG is not indicated for this patient with only ecchymoses and no bleeding.Among adult patients with ITP, therapy may be required for those with platelet counts less than 30,000/µL (30 × 109/L) or those with bleeding. Some patients without bleeding require treatment initiation at a higher platelet threshold if they have other hemostatic abnormalities or the need for any procedure. Given this patient's lack of bleeding symptoms and platelet count greater than 30,000/µL (30 × 109/L), she does not require initiation of prednisone (Option C), which is usually first-line therapy.",
   "educational_objective": "Diagnose immune thrombocytopenic purpura.",
-  "extracted_at": "2025-12-23T14:09:52.847580-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 27-year-old woman is evaluated for a 1-month history of easy bruising with relatively minimal trauma. She has otherwise been well and reports no bleeding. She has no medical problems and takes no medications or supplements.Physical examination reveals multiple ecchymoses of various stages on the arms and legs. Findings are otherwise normal.Peripheral blood smear shows large platelets, which are slightly decreased in number, with normal leukocyte and erythrocyte morphology. Platelet clumping is not observed.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Antiplatelet antibody assay",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Intravenous immune globulin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Prednisone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Clinical observation",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management for this patient is clinical observation (Option D). She has isolated thrombocytopenia with an otherwise normal complete blood count. She likely has immune thrombocytopenic purpura (ITP), which is caused by autoantibodies to platelet surface membranes. Diagnosis requires a platelet count of less than 100,000/µL (100 × 109/L). Petechiae and ecchymoses without splenomegaly are notable physical signs. Asymptomatic patients without evidence of bleeding and with platelet counts greater than 30,000 to 40,000/µL (30-40 × 109/L) typically do not require treatment. This patient takes no medications or supplements known to cause thrombocytopenia, and the lack of systemic symptoms or clinical manifestations, normal physical examination findings other than ecchymoses, and normal peripheral blood smear exclude the presence of another underlying disorder. The most appropriate course is to counsel this patient on potential bleeding symptoms and provide careful observation, such as repeating the platelet count at a designated interval. Similarly, if a time-limited condition (e.g., a recent viral infection) caused recent myelosuppression, the platelet count would be expected to improve on follow-up testing.Antiplatelet antibody testing (Option A) in patients suspected of having ITP commonly results in false-negative and false-positive results. Consequently, antiplatelet antibody testing has little predictive value in the diagnosis of ITP and is not recommended.The response to intravenous immune globulin (IVIG) (Option B) is faster than to glucocorticoids, and IVIG may be indicated in patients with more severe thrombocytopenia and life-threatening bleeding. IVIG is not indicated for this patient with only ecchymoses and no bleeding.Among adult patients with ITP, therapy may be required for those with platelet counts less than 30,000/µL (30 × 109/L) or those with bleeding. Some patients without bleeding require treatment initiation at a higher platelet threshold if they have other hemostatic abnormalities or the need for any procedure. Given this patient's lack of bleeding symptoms and platelet count greater than 30,000/µL (30 × 109/L), she does not require initiation of prednisone (Option C), which is usually first-line therapy.",
   "key_points": [
     "Immune thrombocytopenic purpura (ITP) presents as an isolated platelet count less than 100,000/µL (100 × 109/L) without any other apparent cause; asymptomatic patients without evidence of bleeding and with platelet counts greater than 30,000 to 40,000/µL (30-40 × 109/L) typically do not require treatment.",
     "Antiplatelet antibody testing has little predictive value in the diagnosis of ITP and is not recommended."
   ],
+  "references": "Neunert C, Terrell DR, Arnold DM, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. Blood Adv. 2019;3:3829-3866. PMID: 31794604 doi:10.1182/bloodadvances.2019000966",
+  "related_content": {
+    "syllabus": [
+      "hmsec24006_24007"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Antiplatelet antibody assay"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Intravenous immune globulin"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Prednisone"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Clinical observation"
-    }
-  ],
-  "question_id": "hmqqq24011",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 27-year-old woman is evaluated for a 1-month history of easy bruising with relatively minimal trauma. She has otherwise been well and reports no bleeding. She has no medical problems and takes no medications or supplements.Physical examination reveals multiple ecchymoses of various stages on the arms and legs. Findings are otherwise normal.Peripheral blood smear shows large platelets, which are slightly decreased in number, with normal leukocyte and erythrocyte morphology. Platelet clumping is not observed.",
-  "references": "Neunert C, Terrell DR, Arnold DM, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. Blood Adv. 2019;3:3829-3866. PMID: 31794604 doi:10.1182/bloodadvances.2019000966",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24006_24007"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.847580-06:00"
 }

@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24009",
   "category": "cv",
-  "critique": "The most likely diagnosis is coronary artery disease (Option A). On exercise ECG, myocardial ischemia is defined by the development of ST-segment elevations or horizontal or downsloping ST-segment depression of at least 1 mm occurring 80 ms after the J point. Although the resting ECG is normal in this patient, the exercise ECG demonstrates ST-segment elevation in lead aVR (a critical, high-risk finding) and horizontal ST-segment depressions in multiple leads, including II, III, aVF, V4, and V5.Unlike ST-segment changes in the setting of acute coronary syndrome, ST-segment depression on exercise testing cannot localize ischemia. However, the presence of ST-segment elevation in aVR raises suspicion for critical disease of the left main coronary artery in this patient.",
   "educational_objective": "Diagnose cardiac ischemia based on exercise stress testing.",
-  "extracted_at": "2025-12-23T14:08:40.369885-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 66-year-old woman is evaluated for chest pain. Exercise stress testing is performed.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Coronary artery disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hypertrophic cardiomyopathy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Noncardiac chest pain",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Rate-dependent conduction defect",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is coronary artery disease (Option A). On exercise ECG, myocardial ischemia is defined by the development of ST-segment elevations or horizontal or downsloping ST-segment depression of at least 1 mm occurring 80 ms after the J point. Although the resting ECG is normal in this patient, the exercise ECG demonstrates ST-segment elevation in lead aVR (a critical, high-risk finding) and horizontal ST-segment depressions in multiple leads, including II, III, aVF, V4, and V5.Unlike ST-segment changes in the setting of acute coronary syndrome, ST-segment depression on exercise testing cannot localize ischemia. However, the presence of ST-segment elevation in aVR raises suspicion for critical disease of the left main coronary artery in this patient.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24003_24004"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24609.388e0dc9cff824ecba493c2844b0e0e9.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Coronary artery disease"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Hypertrophic cardiomyopathy"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Noncardiac chest pain"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Rate-dependent conduction defect"
-    }
-  ],
-  "question_id": "cvvdx24009",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 66-year-old woman is evaluated for chest pain. Exercise stress testing is performed.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24003_24004"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.369885-06:00"
 }

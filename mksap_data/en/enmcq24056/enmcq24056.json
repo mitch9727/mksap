@@ -1,62 +1,62 @@
 {
+  "question_id": "enmcq24056",
   "category": "en",
-  "critique": "The most appropriate management for this patient with arginine vasopressin deficiency (central diabetes insipidus) is to start desmopressin (Option B). Arginine vasopressin deficiency may occur acutely after a traumatic brain injury (TBI), and patients who develop symptoms (e.g., polyuria, polydipsia) should be evaluated with serum electrolytes and osmolality as well as urine osmolality. An inappropriately low urine osmolality in the setting of an elevated serum osmolality and hypernatremia in a patient with polyuria (>50 mL/kg/24 hours) is diagnostic of an arginine vasopressin disorder. Treatment for arginine vasopressin deficiency is desmopressin administered intranasally, orally, or subcutaneously. However, nasal administration is typically avoided because absorption varies. Doses are usually administered once nightly to prevent nocturia or twice daily if symptoms interfere with daily function; however, caution should be taken to avoid overreplacement, which may cause hyponatremia and volume overload. This patient most likely has arginine vasopressin deficiency due to a TBI, and the most appropriate treatment is to administer subcutaneous desmopressin and then transition to oral administration.A water deprivation test (Option A) would not be appropriate for this patient. Water deprivation tests are required only when the diagnosis of arginine vasopressin deficiency is unclear. Water deprivation tests are stopped when the serum osmolality is higher than 295 mOsm/kg H2O or the serum sodium level is higher than 145 mEq/L (145 mmol/L). Doing a water deprivation test in a patient who already has a sodium level and a serum osmolality higher than those levels would be inappropriate and would put this patient at risk for severe hypernatremia.Starting 0.45% saline (Option C) is not the most appropriate management. Although 0.45% saline will replace some of the free water lost, the patient will continue to experience polyuria and polydipsia if arginine vasopressin deficiency is not treated with desmopressin. If the sodium level remains elevated after starting desmopressin therapy, 0.45% saline or dextrose in 5% water can be administered to correct the sodium level. However, oral administration of water is preferred in alert patients with an intact thirst mechanism.Treatment with 0.9% saline (Option D) is not indicated; 0.9% saline can replace volume loss, but this patient does not appear hypovolemic. Additionally, it would not be the appropriate treatment for this patient, who will continue to lose free water; 0.9% saline can exacerbate hypernatremia in this setting.",
   "educational_objective": "Treat arginine vasopressin deficiency.",
-  "extracted_at": "2025-12-22T22:59:47.132424-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 45-year-old patient is evaluated in the hospital for increased thirst and urination. They were hospitalized yesterday after a motor vehicle collision in which they sustained a head injury. Their urine output has been 250 mL/h for the last 4 hours. After drinking 1 liter of water, they continue to feel thirsty. They have no other medical conditions and were not taking any medications before hospitalization.Physical examination reveals normal vital signs. Several ecchymoses are noted over the face, chest wall, and extremities. Mucous membranes are moist, and skin turgor is normal.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Perform water deprivation test",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Start desmopressin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Start 0.45% saline",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Start 0.9% saline",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management for this patient with arginine vasopressin deficiency (central diabetes insipidus) is to start desmopressin (Option B). Arginine vasopressin deficiency may occur acutely after a traumatic brain injury (TBI), and patients who develop symptoms (e.g., polyuria, polydipsia) should be evaluated with serum electrolytes and osmolality as well as urine osmolality. An inappropriately low urine osmolality in the setting of an elevated serum osmolality and hypernatremia in a patient with polyuria (>50 mL/kg/24 hours) is diagnostic of an arginine vasopressin disorder. Treatment for arginine vasopressin deficiency is desmopressin administered intranasally, orally, or subcutaneously. However, nasal administration is typically avoided because absorption varies. Doses are usually administered once nightly to prevent nocturia or twice daily if symptoms interfere with daily function; however, caution should be taken to avoid overreplacement, which may cause hyponatremia and volume overload. This patient most likely has arginine vasopressin deficiency due to a TBI, and the most appropriate treatment is to administer subcutaneous desmopressin and then transition to oral administration.A water deprivation test (Option A) would not be appropriate for this patient. Water deprivation tests are required only when the diagnosis of arginine vasopressin deficiency is unclear. Water deprivation tests are stopped when the serum osmolality is higher than 295 mOsm/kg H2O or the serum sodium level is higher than 145 mEq/L (145 mmol/L). Doing a water deprivation test in a patient who already has a sodium level and a serum osmolality higher than those levels would be inappropriate and would put this patient at risk for severe hypernatremia.Starting 0.45% saline (Option C) is not the most appropriate management. Although 0.45% saline will replace some of the free water lost, the patient will continue to experience polyuria and polydipsia if arginine vasopressin deficiency is not treated with desmopressin. If the sodium level remains elevated after starting desmopressin therapy, 0.45% saline or dextrose in 5% water can be administered to correct the sodium level. However, oral administration of water is preferred in alert patients with an intact thirst mechanism.Treatment with 0.9% saline (Option D) is not indicated; 0.9% saline can replace volume loss, but this patient does not appear hypovolemic. Additionally, it would not be the appropriate treatment for this patient, who will continue to lose free water; 0.9% saline can exacerbate hypernatremia in this setting.",
   "key_points": [
     "An inappropriately low urine osmolality in the setting of an elevated serum osmolality and hypernatremia in a patient with polyuria (>50 mL/kg/24 hours) is diagnostic of an arginine vasopressin disorder.",
     "Arginine vasopressin deficiency (central diabetes insipidus) is treated with desmopressin administered intranasally, orally, or subcutaneously; nasal administration is typically avoided because of varying absorption."
   ],
+  "references": "Tomkins M, Lawless S, Martin-Grace J, et al. Diagnosis and management of central diabetes insipidus in adults. J Clin Endocrinol Metab. 2022;107:2701-2715. PMID: 35771962 doi:10.1210/clinem/dgac381",
+  "related_content": {
+    "syllabus": [
+      "ensec24003_24019"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Perform water deprivation test"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Start desmopressin"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Start 0.45% saline"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Start 0.9% saline"
-    }
-  ],
-  "question_id": "enmcq24056",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 45-year-old patient is evaluated in the hospital for increased thirst and urination. They were hospitalized yesterday after a motor vehicle collision in which they sustained a head injury. Their urine output has been 250 mL/h for the last 4 hours. After drinking 1 liter of water, they continue to feel thirsty. They have no other medical conditions and were not taking any medications before hospitalization.Physical examination reveals normal vital signs. Several ecchymoses are noted over the face, chest wall, and extremities. Mucous membranes are moist, and skin turgor is normal.",
-  "references": "Tomkins M, Lawless S, Martin-Grace J, et al. Diagnosis and management of central diabetes insipidus in adults. J Clin Endocrinol Metab. 2022;107:2701-2715. PMID: 35771962 doi:10.1210/clinem/dgac381",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24003_24019"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:59:47.132424-06:00"
 }

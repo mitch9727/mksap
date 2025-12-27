@@ -1,60 +1,60 @@
 {
+  "question_id": "hmvdx24006",
   "category": "hm",
-  "critique": "The most likely diagnosis is lead intoxication (Option D). The slide shows an erythrocyte with basophilic stippling characterized by the presence of blue granules in the cytoplasm (arrow) that represent ribosomal precipitates. Basophilic stippling is associated with thalassemia, sideroblastic anemia, alcohol use, and lead poisoning.Lead toxicity can be the result of exposure to lead paint occupationally or in the home. Those at increased risk include construction workers and home renovators working in older, lead-painted homes. In addition to anemia, clinical manifestations of lead poisoning may include abdominal pain, arthralgia, and neuropsychiatric changes.",
   "educational_objective": "Diagnose lead intoxication.",
-  "extracted_at": "2025-12-23T14:09:52.896196-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 23-year-old man is evaluated for anemia, abdominal pain, and arthralgia. He recently renovated an old house.Peripheral blood smear is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute intermittent porphyria",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Acute myeloid leukemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Babesiosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Lead intoxication",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is lead intoxication (Option D). The slide shows an erythrocyte with basophilic stippling characterized by the presence of blue granules in the cytoplasm (arrow) that represent ribosomal precipitates. Basophilic stippling is associated with thalassemia, sideroblastic anemia, alcohol use, and lead poisoning.Lead toxicity can be the result of exposure to lead paint occupationally or in the home. Those at increased risk include construction workers and home renovators working in older, lead-painted homes. In addition to anemia, clinical manifestations of lead poisoning may include abdominal pain, arthralgia, and neuropsychiatric changes.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24004_24006"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24610.e22dd05ae01d5e6727bc089958caa03b.jpg",
       "figures/hmfig24609.dcc6babe1c3c04dfe5a5e942c882d6f2.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acute intermittent porphyria"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Acute myeloid leukemia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Babesiosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Lead intoxication"
-    }
-  ],
-  "question_id": "hmvdx24006",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 23-year-old man is evaluated for anemia, abdominal pain, and arthralgia. He recently renovated an old house.Peripheral blood smear is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24004_24006"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.896196-06:00"
 }

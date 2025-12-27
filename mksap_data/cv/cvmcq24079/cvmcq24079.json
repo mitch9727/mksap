@@ -1,62 +1,62 @@
 {
+  "question_id": "cvmcq24079",
   "category": "cv",
-  "critique": "The most appropriate management for this patient with acute pericarditis is to start high-dose aspirin and colchicine (Option A). Pericarditis may occur after cardiac injury such as acute myocardial infarction, cardiac surgery, traumatic injury, or endovascular procedures (post–cardiac injury syndrome or Dressler syndrome). First-line therapy for pericarditis after cardiac injury is the same as for acute idiopathic pericarditis, specifically aspirin or an NSAID such as ibuprofen for 1 to 2 weeks. Colchicine is also recommended to shorten symptom duration and reduce treatment failure and recurrence. Most patients with acute pericarditis can be managed as outpatients; however, patients with high-risk features may require hospitalization. Predictors of complicated disease include a temperature higher than 38.0 °C (100.4 °F), subacute onset (days to weeks without acute chest pain at onset), a large pericardial effusion (>20-mm diastolic echo-free space) or tamponade at presentation, oral anticoagulation therapy, or lack of treatment response after 1 week. This patient presents with several clinical findings consistent with acute pericarditis but without evidence of a large effusion or tamponade. He should be started on high-dose aspirin (or other NSAID) with concomitant colchicine.Although this patient is tachycardic, he has no indication for an increase in metoprolol dosage (Option B), such as heart failure, myocardial ischemia, or hypertension. The sinus tachycardia should respond to treatment of the underlying pericarditis.The clinical course of acute pericarditis is most often benign. Rarely, more severe complications, including cardiac tamponade and constrictive pericarditis, may occur and require pericardiocentesis (Option C). However, this patient has no evidence of tamponade on echocardiography, and a trial of medical therapy is the best first option.In some nonresponsive or recurrent cases of pericarditis, glucocorticoids such as prednisone (Option D) may be given and tapered over weeks; however, glucocorticoids are not indicated in the acute treatment of pericarditis. In addition, glucocorticoids are usually avoided in the first month after cardiac surgery because of the risk for impaired ventricular healing.",
   "educational_objective": "Treat acute pericarditis.",
-  "extracted_at": "2025-12-22T22:49:12.171512-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 65-year-old man is evaluated in the emergency department for a 4-day history of sharp chest pain that is worse while supine and improves when sitting up. Two weeks ago, he had coronary artery bypass graft surgery for coronary artery disease. He also has type 2 diabetes mellitus. Medications are atorvastatin, low-dose aspirin, metoprolol, metformin, and empagliflozin.On physical examination, temperature is 38.8 °C (101.8 °F), blood pressure is 130/80 mm Hg, pulse rate is 109/min and regular, respiration rate is 18/min, and oxygen saturation is 95% breathing room air. Cardiopulmonary examination reveals a friction rub. A clean, dry, and intact mid-sternal incision is noted. No edema is observed.ECG shows sinus tachycardia with diffuse ST-segment elevation with PR-segment depression. Transthoracic echocardiography reveals moderate pericardial effusion without right atrial or ventricular collapse.",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "High-dose aspirin and colchicine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Increase in metoprolol dosage",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Pericardiocentesis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Prednisone",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management for this patient with acute pericarditis is to start high-dose aspirin and colchicine (Option A). Pericarditis may occur after cardiac injury such as acute myocardial infarction, cardiac surgery, traumatic injury, or endovascular procedures (post–cardiac injury syndrome or Dressler syndrome). First-line therapy for pericarditis after cardiac injury is the same as for acute idiopathic pericarditis, specifically aspirin or an NSAID such as ibuprofen for 1 to 2 weeks. Colchicine is also recommended to shorten symptom duration and reduce treatment failure and recurrence. Most patients with acute pericarditis can be managed as outpatients; however, patients with high-risk features may require hospitalization. Predictors of complicated disease include a temperature higher than 38.0 °C (100.4 °F), subacute onset (days to weeks without acute chest pain at onset), a large pericardial effusion (>20-mm diastolic echo-free space) or tamponade at presentation, oral anticoagulation therapy, or lack of treatment response after 1 week. This patient presents with several clinical findings consistent with acute pericarditis but without evidence of a large effusion or tamponade. He should be started on high-dose aspirin (or other NSAID) with concomitant colchicine.Although this patient is tachycardic, he has no indication for an increase in metoprolol dosage (Option B), such as heart failure, myocardial ischemia, or hypertension. The sinus tachycardia should respond to treatment of the underlying pericarditis.The clinical course of acute pericarditis is most often benign. Rarely, more severe complications, including cardiac tamponade and constrictive pericarditis, may occur and require pericardiocentesis (Option C). However, this patient has no evidence of tamponade on echocardiography, and a trial of medical therapy is the best first option.In some nonresponsive or recurrent cases of pericarditis, glucocorticoids such as prednisone (Option D) may be given and tapered over weeks; however, glucocorticoids are not indicated in the acute treatment of pericarditis. In addition, glucocorticoids are usually avoided in the first month after cardiac surgery because of the risk for impaired ventricular healing.",
   "key_points": [
     "Post–cardiac injury syndrome (Dressler syndrome) is a secondary form of pericarditis that may occur after acute myocardial infarction, cardiac surgery, traumatic injury, or endovascular procedures.",
     "Treatment of acute pericarditis includes high-dose aspirin (or other NSAID) and concomitant colchicine."
   ],
+  "references": "Lazarou E, Tsioufis P, Vlachopoulos C, et al. Acute pericarditis: update. Curr Cardiol Rep. 2022;24:905-913. PMID: 35595949 doi:10.1007/s11886-022-01710-8",
+  "related_content": {
+    "syllabus": [
+      "cvsec24009_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "High-dose aspirin and colchicine"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Increase in metoprolol dosage"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Pericardiocentesis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Prednisone"
-    }
-  ],
-  "question_id": "cvmcq24079",
-  "question_stem": "Which of the following is the most appropriate treatment?",
-  "question_text": "A 65-year-old man is evaluated in the emergency department for a 4-day history of sharp chest pain that is worse while supine and improves when sitting up. Two weeks ago, he had coronary artery bypass graft surgery for coronary artery disease. He also has type 2 diabetes mellitus. Medications are atorvastatin, low-dose aspirin, metoprolol, metformin, and empagliflozin.On physical examination, temperature is 38.8 °C (101.8 °F), blood pressure is 130/80 mm Hg, pulse rate is 109/min and regular, respiration rate is 18/min, and oxygen saturation is 95% breathing room air. Cardiopulmonary examination reveals a friction rub. A clean, dry, and intact mid-sternal incision is noted. No edema is observed.ECG shows sinus tachycardia with diffuse ST-segment elevation with PR-segment depression. Transthoracic echocardiography reveals moderate pericardial effusion without right atrial or ventricular collapse.",
-  "references": "Lazarou E, Tsioufis P, Vlachopoulos C, et al. Acute pericarditis: update. Curr Cardiol Rep. 2022;24:905-913. PMID: 35595949 doi:10.1007/s11886-022-01710-8",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24009_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:49:12.171512-06:00"
 }

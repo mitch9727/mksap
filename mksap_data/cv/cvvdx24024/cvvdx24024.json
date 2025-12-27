@@ -1,55 +1,55 @@
 {
+  "question_id": "cvvdx24024",
   "category": "cv",
-  "critique": "This patient's ultrasound shows an abdominal aortic aneurysm (AAA) with a maximal diameter of 4.8 cm, measured from outer wall to outer wall (Option B). It is important to measure the external diameter of the aorta (outer wall to outer wall) rather than the internal luminal diameter, as the internal diameter may underestimate aortic size if there is an intraluminal thrombus within an aneurysm. The normal diameter for the abdominal aorta is less than 3 cm; an aortic diameter of 4.8 cm, as seen in this patient, indicates the presence of an AAA. In this ultrasound, the aorta is seen in cross-section, just anterior to the vertebral bodies (VB), which appear hyperechoic (white) with acoustic shadowing posteriorly. The shape of the aorta is more oval than normal, and the normal smooth lumen is replaced by an irregular jagged appearance due to the presence of an atherosclerotic plaque at the 4 o’clock position.",
   "educational_objective": "Identify abdominal aortic aneurysm using point-of-care ultrasonography.",
-  "extracted_at": "2025-12-23T14:08:40.411700-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 69-year-old man undergoes screening for abdominal aortic aneurysm. Focused ultrasonography is performed with the transducer placed just above the umbilicus.",
+  "question_stem": "Which of the following is the most appropriate interpretation of this study regarding an abdominal aortic aneurysm?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Absent",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Present",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Indeterminate study",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient's ultrasound shows an abdominal aortic aneurysm (AAA) with a maximal diameter of 4.8 cm, measured from outer wall to outer wall (Option B). It is important to measure the external diameter of the aorta (outer wall to outer wall) rather than the internal luminal diameter, as the internal diameter may underestimate aortic size if there is an intraluminal thrombus within an aneurysm. The normal diameter for the abdominal aorta is less than 3 cm; an aortic diameter of 4.8 cm, as seen in this patient, indicates the presence of an AAA. In this ultrasound, the aorta is seen in cross-section, just anterior to the vertebral bodies (VB), which appear hyperechoic (white) with acoustic shadowing posteriorly. The shape of the aorta is more oval than normal, and the normal smooth lumen is replaced by an irregular jagged appearance due to the presence of an atherosclerotic plaque at the 4 o’clock position.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24011_24010"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24629.ae52e6d223879a64bee654648ff5fd22.jpg",
       "figures/cvfig24628.c5f5a6562e3856bbf8df7818dc2d3d8e.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Absent"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Present"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Indeterminate study"
-    }
-  ],
-  "question_id": "cvvdx24024",
-  "question_stem": "Which of the following is the most appropriate interpretation of this study regarding an abdominal aortic aneurysm?",
-  "question_text": "A 69-year-old man undergoes screening for abdominal aortic aneurysm. Focused ultrasonography is performed with the transducer placed just above the umbilicus.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24011_24010"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.411700-06:00"
 }

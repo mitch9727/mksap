@@ -1,59 +1,59 @@
 {
+  "question_id": "idvdx24060",
   "category": "id",
-  "critique": "The most likely diagnosis is infective endocarditis (Option C). Osler nodes are tender, red-purple nodules located on the pulp of the digits, or occasionally on the hands or feet, which are associated with infective endocarditis (most commonly, subacute forms of endocarditis). Osler nodes are composed of microabscesses and immune complex deposition in the papillary dermis, together with microemboli in the nearby dermal arterioles, compared with Janeway lesions, which are nontender, macular, often hemorrhagic lesions.",
   "educational_objective": "Diagnose an Osler node and understand its association with infective endocarditis.",
-  "extracted_at": "2025-12-23T14:10:29.437225-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 45-year-old man is evaluated for a 2-week history of subjective fever and night sweats. A new systolic murmur is present.A new, painful skin lesion is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cholesterol emboli",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Erythema nodosum",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Infective endocarditis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Rocky Mountain spotted fever",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is infective endocarditis (Option C). Osler nodes are tender, red-purple nodules located on the pulp of the digits, or occasionally on the hands or feet, which are associated with infective endocarditis (most commonly, subacute forms of endocarditis). Osler nodes are composed of microabscesses and immune complex deposition in the papillary dermis, together with microemboli in the nearby dermal arterioles, compared with Janeway lesions, which are nontender, macular, often hemorrhagic lesions.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24005_24010"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24669.2e02b3a526dfdf67a8d7c00ecabf9e97.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cholesterol emboli"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Erythema nodosum"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Infective endocarditis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Rocky Mountain spotted fever"
-    }
-  ],
-  "question_id": "idvdx24060",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 45-year-old man is evaluated for a 2-week history of subjective fever and night sweats. A new systolic murmur is present.A new, painful skin lesion is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24005_24010"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:10:29.437225-06:00"
 }

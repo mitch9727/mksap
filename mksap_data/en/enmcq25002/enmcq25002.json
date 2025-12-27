@@ -1,62 +1,62 @@
 {
+  "question_id": "enmcq25002",
   "category": "en",
-  "critique": "The most appropriate next step in management for this patient with a pituitary macroadenoma is free thyroxine (T4) level measurement (Option A) to test for secondary hypothyroidism. In patients with a pituitary adenoma, pituitary hypersecretion is evaluated with prolactin, insulin-like growth factor-1 (IGF-1), and late-night salivary cortisol measurements; evaluation for hypopituitarism includes follicle-stimulating hormone, luteinizing hormone, 8 am cortisol, 8 am total testosterone (in men), thyroid-stimulating hormone (TSH), and T4 measurements. Importantly, measuring the TSH level alone is not adequate for ruling out secondary hypothyroidism. The diagnosis of secondary hypothyroidism requires measurement of both TSH and free T4 levels; a low free T4 level and a low or inappropriately normal TSH level indicate secondary hypothyroidism. This patient has a pituitary macroadenoma with hypogonadotropic hypogonadism and is at risk for other pituitary deficiencies. Cortisol deficiency has been ruled out with a normal 8 am serum cortisol level. Although his TSH level is normal and his fatigue may be related to hypogonadism, free T4 should be measured next to rule out secondary hypothyroidism.Measuring the growth hormone level (Option B) is not indicated. Excess growth hormone production is ruled out by measuring insulin-like growth factor-1 (IGF-1), not growth hormone; a normal IGF-1 level rules out growth hormone excess. Conversely, a normal IGF-1 level does not exclude growth hormone deficiency. However, evaluation of growth hormone deficiency is accomplished through provocative testing (see ) rather than growth hormone measurement.Repeat MRI in 1 year (Option C) is not the most appropriate next step. This patient does not have compression of the optic chiasm, so observation rather than surgery may be appropriate. However, in the setting of a pituitary macroadenoma (≥1 cm), MRI should be repeated in 6 months rather than a year because of the risk for compressive symptoms if the pituitary macroadenoma grows.Cabergoline (Option D) is the treatment of choice for prolactinomas and may be used occasionally as adjunct treatment in growth hormone–secreting tumors. However, this patient does not have a prolactinoma, given his normal prolactin level, and cabergoline is not indicated for treatment of nonfunctional pituitary tumors.",
   "educational_objective": "Screen for secondary hypothyroidism in a patient with a pituitary tumor.",
-  "extracted_at": "2025-12-22T23:00:12.527723-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 27-year-old man is evaluated for a pituitary tumor, which was discovered during an ongoing evaluation for a 6-month history of fatigue and decreased libido. He has no other medical conditions and takes no medications.Physical examination findings, including vital signs, are normal.Insulin-like growth factor-1 and late-night salivary cortisol levels are normal.MRI shows a 1.5-cm pituitary macroadenoma without compression of the optic chiasm.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Measure free thyroxine level",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Measure growth hormone level",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Repeat MRI in 1 year",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Start cabergoline",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in management for this patient with a pituitary macroadenoma is free thyroxine (T4) level measurement (Option A) to test for secondary hypothyroidism. In patients with a pituitary adenoma, pituitary hypersecretion is evaluated with prolactin, insulin-like growth factor-1 (IGF-1), and late-night salivary cortisol measurements; evaluation for hypopituitarism includes follicle-stimulating hormone, luteinizing hormone, 8 am cortisol, 8 am total testosterone (in men), thyroid-stimulating hormone (TSH), and T4 measurements. Importantly, measuring the TSH level alone is not adequate for ruling out secondary hypothyroidism. The diagnosis of secondary hypothyroidism requires measurement of both TSH and free T4 levels; a low free T4 level and a low or inappropriately normal TSH level indicate secondary hypothyroidism. This patient has a pituitary macroadenoma with hypogonadotropic hypogonadism and is at risk for other pituitary deficiencies. Cortisol deficiency has been ruled out with a normal 8 am serum cortisol level. Although his TSH level is normal and his fatigue may be related to hypogonadism, free T4 should be measured next to rule out secondary hypothyroidism.Measuring the growth hormone level (Option B) is not indicated. Excess growth hormone production is ruled out by measuring insulin-like growth factor-1 (IGF-1), not growth hormone; a normal IGF-1 level rules out growth hormone excess. Conversely, a normal IGF-1 level does not exclude growth hormone deficiency. However, evaluation of growth hormone deficiency is accomplished through provocative testing (see ) rather than growth hormone measurement.Repeat MRI in 1 year (Option C) is not the most appropriate next step. This patient does not have compression of the optic chiasm, so observation rather than surgery may be appropriate. However, in the setting of a pituitary macroadenoma (≥1 cm), MRI should be repeated in 6 months rather than a year because of the risk for compressive symptoms if the pituitary macroadenoma grows.Cabergoline (Option D) is the treatment of choice for prolactinomas and may be used occasionally as adjunct treatment in growth hormone–secreting tumors. However, this patient does not have a prolactinoma, given his normal prolactin level, and cabergoline is not indicated for treatment of nonfunctional pituitary tumors.",
   "key_points": [
     "Secondary hypothyroidism is evaluated by measuring both thyroid-stimulating hormone (TSH) and free thyroxine (T4) levels; a normal or low TSH level with a low free T4 level suggests secondary hypothyroidism."
   ],
+  "references": "Chaker L, Razvi S, Bensenor IM, et al. Hypothyroidism. Nat Rev Dis Primers. 2022;8:30. PMID: 35589725 doi:10.1038/s41572-022-00357-7",
+  "related_content": {
+    "syllabus": [
+      "ensec24003_24016"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Measure free thyroxine level"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Measure growth hormone level"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Repeat MRI in 1 year"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Start cabergoline"
-    }
-  ],
-  "question_id": "enmcq25002",
-  "question_stem": "Which of the following is the most appropriate next step in management?",
-  "question_text": "A 27-year-old man is evaluated for a pituitary tumor, which was discovered during an ongoing evaluation for a 6-month history of fatigue and decreased libido. He has no other medical conditions and takes no medications.Physical examination findings, including vital signs, are normal.Insulin-like growth factor-1 and late-night salivary cortisol levels are normal.MRI shows a 1.5-cm pituitary macroadenoma without compression of the optic chiasm.",
-  "references": "Chaker L, Razvi S, Bensenor IM, et al. Hypothyroidism. Nat Rev Dis Primers. 2022;8:30. PMID: 35589725 doi:10.1038/s41572-022-00357-7",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24003_24016"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T23:00:12.527723-06:00"
 }

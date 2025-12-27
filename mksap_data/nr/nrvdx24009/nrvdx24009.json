@@ -1,59 +1,59 @@
 {
+  "question_id": "nrvdx24009",
   "category": "nr",
-  "critique": "This CT scan suggests intracerebral hemorrhage (Option B). CT is highly sensitive for diagnosing hemorrhage in the acute setting. Intracerebral hemorrhages are evident almost instantly after onset as focal white hyperdense lesions within the brain parenchyma, as seen in the left hemisphere on the image shown. Intracerebral hemorrhages can also be detected by MRI, and the use of susceptibility sequences improves the sensitivity of MRI for early detection of a hemorrhage. Lobar hemorrhages near the cortical surface may result from hypertension, hemorrhagic tumors, cortical vein thrombosis, or cerebral amyloid angiopathy.",
   "educational_objective": "Diagnose an intracerebral hemorrhage.",
-  "extracted_at": "2025-12-23T14:11:42.590824-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 52-year-old woman is evaluated for sudden onset of right-sided weakness that has progressed since symptoms began 1 hour ago.CT scan is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Glioblastoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Intracerebral hemorrhage",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Primary central nervous system lymphoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Subarachnoid hemorrhage",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This CT scan suggests intracerebral hemorrhage (Option B). CT is highly sensitive for diagnosing hemorrhage in the acute setting. Intracerebral hemorrhages are evident almost instantly after onset as focal white hyperdense lesions within the brain parenchyma, as seen in the left hemisphere on the image shown. Intracerebral hemorrhages can also be detected by MRI, and the use of susceptibility sequences improves the sensitivity of MRI for early detection of a hemorrhage. Lobar hemorrhages near the cortical surface may result from hypertension, hemorrhagic tumors, cortical vein thrombosis, or cerebral amyloid angiopathy.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "nrsec24004_24022"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/nrfig24610.f359b4198ecb465df078761b841dfc11.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Glioblastoma"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Intracerebral hemorrhage"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Primary central nervous system lymphoma"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Subarachnoid hemorrhage"
-    }
-  ],
-  "question_id": "nrvdx24009",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 52-year-old woman is evaluated for sudden onset of right-sided weakness that has progressed since symptoms began 1 hour ago.CT scan is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "nrsec24004_24022"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:11:42.590824-06:00"
 }

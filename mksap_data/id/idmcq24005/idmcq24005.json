@@ -1,61 +1,61 @@
 {
+  "question_id": "idmcq24005",
   "category": "id",
-  "critique": "The most appropriate treatment is cefazolin, rifampin, and gentamicin (Option C). Staphylococcus lugdunensis is a coagulase-negative staphylococci (CoNS). Isolation of CoNS from blood culture often results from skin contamination, particularly when growth is from a single set of cultures; however, S. lugdunensis is an exception because it is a virulent organism that clinically resembles Staphylococcus aureus. CoNS account for 17% of prosthetic valve endocarditis (PVE) infections, and treatment is identical to that for S. aureus. Guidelines recommend combination therapy with a 6-week course of a β-lactam (either cefazolin or a penicillinase-resistant semisynthetic penicillin such as oxacillin) for methicillin-sensitive staphylococci (as in this patient) or an intravenous glycopeptide for methicillin-resistant staphylococci in conjunction with a 2-week course of synergistic gentamicin and 6-week course of rifampin. Rifampin is recommended because of its ability to penetrate biofilms adherent to prosthetic material; however, rifampin resistance can be selected for when the organism burden is high, and many authorities recommend delaying rifampin initiation for 3 to 5 days after other antibiotics to prevent the emergence of resistance.Monotherapy with cefazolin would not be appropriate treatment in this patient with S. lugdunensis PVE, according to guidelines for CoNS as previously described (Option A).Combination therapy with just cefazolin and rifampin could be considered in a patient with impaired kidney function because of concern for gentamicin nephrotoxicity (Option B). In a young patient with a normal serum creatinine level, nephrotoxicity is less of a concern, and gentamicin should be included as part of the antibiotic regimen.Vancomycin is less effective for treating methicillin-sensitive strains of staphylococci than β-lactam antibiotics (Option D). Vancomycin is an alternative agent for patients with severe β-lactam allergies, but it should be given in conjunction with synergistic gentamicin and rifampin. Because this patient has a methicillin-sensitive strain of staphylococci and has no drug allergies, administering vancomycin would not be appropriate in place of cefazolin and would also not be appropriate as monotherapy.",
   "educational_objective": "Treat <i>Staphylococcus lugdunensis</i> prosthetic valve endocarditis.",
-  "extracted_at": "2025-12-22T19:46:36.157272-06:00",
-  "key_points": [
-    "Isolation of coagulase-negative staphylococci from blood culture is often a result of skin contamination, particularly when growth is from a single set of cultures; however, Staphylococcus lugdunensis is the exception to this rule, and its isolation requires antibiotic treatment."
-  ],
-  "media": {
-    "images": [],
-    "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "videos": []
-  },
   "metadata": {
     "care_types": [],
-    "high_value_care": false,
     "patient_types": [],
+    "high_value_care": false,
     "question_updated": "12/22/2025"
   },
+  "question_text": "A 55-year-old man is evaluated in the hospital for endocarditis management. He was admitted 4 days ago for fever and chills of 1 week's duration. Medical history is notable for congenital heart disease for which he underwent cardiac surgery in infancy; a bioprosthetic pulmonary valve replacement was performed at age 15 years. At admission, a transthoracic echocardiogram showed thickened bioprosthetic pulmonic valve leaflets with moderate regurgitation and a mobile filamentous density attached to the valve. After blood cultures were drawn, vancomycin and ceftriaxone were initiated.On physical examination, temperature is 37.8 °C (100.0 °F), blood pressure is 108/64 mm Hg, and pulse rate is 95/min. Cardiac auscultation reveals a grade 3/6 systolic murmur that is most pronounced at the right lower sternal border.One of two sets of blood cultures obtained on admission is growing Staphylococcus lugdunensis, sensitive to gentamicin, oxacillin, rifampin, trimethoprim-sulfamethoxazole, and vancomycin.Repeat blood cultures from samples drawn 3 days ago show no growth.",
+  "question_stem": "Which of the following is the most appropriate treatment?",
   "options": [
     {
       "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cefazolin"
+      "text": "Cefazolin",
+      "peer_percentage": 0
     },
     {
       "letter": "B",
-      "peer_percentage": 0,
-      "text": "Cefazolin and rifampin"
+      "text": "Cefazolin and rifampin",
+      "peer_percentage": 0
     },
     {
       "letter": "C",
-      "peer_percentage": 0,
-      "text": "Cefazolin, rifampin, and gentamicin"
+      "text": "Cefazolin, rifampin, and gentamicin",
+      "peer_percentage": 0
     },
     {
       "letter": "D",
-      "peer_percentage": 0,
-      "text": "Vancomycin"
+      "text": "Vancomycin",
+      "peer_percentage": 0
     }
   ],
-  "question_id": "idmcq24005",
-  "question_stem": "Which of the following is the most appropriate treatment?",
-  "question_text": "A 55-year-old man is evaluated in the hospital for endocarditis management. He was admitted 4 days ago for fever and chills of 1 week's duration. Medical history is notable for congenital heart disease for which he underwent cardiac surgery in infancy; a bioprosthetic pulmonary valve replacement was performed at age 15 years. At admission, a transthoracic echocardiogram showed thickened bioprosthetic pulmonic valve leaflets with moderate regurgitation and a mobile filamentous density attached to the valve. After blood cultures were drawn, vancomycin and ceftriaxone were initiated.On physical examination, temperature is 37.8 °C (100.0 °F), blood pressure is 108/64 mm Hg, and pulse rate is 95/min. Cardiac auscultation reveals a grade 3/6 systolic murmur that is most pronounced at the right lower sternal border.One of two sets of blood cultures obtained on admission is growing Staphylococcus lugdunensis, sensitive to gentamicin, oxacillin, rifampin, trimethoprim-sulfamethoxazole, and vancomycin.Repeat blood cultures from samples drawn 3 days ago show no growth.",
-  "references": "Le Bot A, Lecomte R, Gazeau P, et al. Is rifampin use associated with better outcome in staphylococcal prosthetic valve endocarditis? A multicenter retrospective study. Clin Infect Dis. 2021;72:e249-e255. PMID: 32706879 doi:10.1093/cid/ciaa1040",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24005_24020"
-    ]
-  },
   "user_performance": {
+    "user_answer": null,
     "correct_answer": "C",
     "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment is cefazolin, rifampin, and gentamicin (Option C). Staphylococcus lugdunensis is a coagulase-negative staphylococci (CoNS). Isolation of CoNS from blood culture often results from skin contamination, particularly when growth is from a single set of cultures; however, S. lugdunensis is an exception because it is a virulent organism that clinically resembles Staphylococcus aureus. CoNS account for 17% of prosthetic valve endocarditis (PVE) infections, and treatment is identical to that for S. aureus. Guidelines recommend combination therapy with a 6-week course of a β-lactam (either cefazolin or a penicillinase-resistant semisynthetic penicillin such as oxacillin) for methicillin-sensitive staphylococci (as in this patient) or an intravenous glycopeptide for methicillin-resistant staphylococci in conjunction with a 2-week course of synergistic gentamicin and 6-week course of rifampin. Rifampin is recommended because of its ability to penetrate biofilms adherent to prosthetic material; however, rifampin resistance can be selected for when the organism burden is high, and many authorities recommend delaying rifampin initiation for 3 to 5 days after other antibiotics to prevent the emergence of resistance.Monotherapy with cefazolin would not be appropriate treatment in this patient with S. lugdunensis PVE, according to guidelines for CoNS as previously described (Option A).Combination therapy with just cefazolin and rifampin could be considered in a patient with impaired kidney function because of concern for gentamicin nephrotoxicity (Option B). In a young patient with a normal serum creatinine level, nephrotoxicity is less of a concern, and gentamicin should be included as part of the antibiotic regimen.Vancomycin is less effective for treating methicillin-sensitive strains of staphylococci than β-lactam antibiotics (Option D). Vancomycin is an alternative agent for patients with severe β-lactam allergies, but it should be given in conjunction with synergistic gentamicin and rifampin. Because this patient has a methicillin-sensitive strain of staphylococci and has no drug allergies, administering vancomycin would not be appropriate in place of cefazolin and would also not be appropriate as monotherapy.",
+  "key_points": [
+    "Isolation of coagulase-negative staphylococci from blood culture is often a result of skin contamination, particularly when growth is from a single set of cultures; however, Staphylococcus lugdunensis is the exception to this rule, and its isolation requires antibiotic treatment."
+  ],
+  "references": "Le Bot A, Lecomte R, Gazeau P, et al. Is rifampin use associated with better outcome in staphylococcal prosthetic valve endocarditis? A multicenter retrospective study. Clin Infect Dis. 2021;72:e249-e255. PMID: 32706879 doi:10.1093/cid/ciaa1040",
+  "related_content": {
+    "syllabus": [
+      "idsec24005_24020"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T19:46:36.157272-06:00"
 }

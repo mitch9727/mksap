@@ -1,60 +1,60 @@
 {
+  "question_id": "pmvdx24026",
   "category": "pm",
-  "critique": "These chest radiographs show bullous lung disease, likely in the setting of COPD (Option B). A bulla is a sharply demarcated air-containing space within the lung, surrounded by a smooth wall. Bullae appear as hyperlucent spaces, and hairline shadows often form their borders and distinguish them from surrounding lung. Although bullae are not always apparent on plain chest radiographs, in this patient, the virtual absence of lung markings in the right lower lung zone suggests a bulla in this region. Bullae may occur spontaneously or, more frequently, in the setting of obstructive lung disease. The latter is suggested radiographically in this case by findings such as hyperinflation, a flattened diaphragm, and an increased retrosternal air space.",
   "educational_objective": "Recognize radiographic signs of bullous lung disease.",
-  "extracted_at": "2025-12-23T14:15:53.294106-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 69-year-old man is evaluated for chronic dyspnea without cough. Pulmonary function demonstrates an obstructive defect that persists following bronchodilator administration.Chest radiographs are shown.",
+  "question_stem": "Which of the following conditions is the most likely radiographic diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bronchiectasis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Bullous lung disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Left lower lobe pneumonia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Hodgkin lymphoma",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "These chest radiographs show bullous lung disease, likely in the setting of COPD (Option B). A bulla is a sharply demarcated air-containing space within the lung, surrounded by a smooth wall. Bullae appear as hyperlucent spaces, and hairline shadows often form their borders and distinguish them from surrounding lung. Although bullae are not always apparent on plain chest radiographs, in this patient, the virtual absence of lung markings in the right lower lung zone suggests a bulla in this region. Bullae may occur spontaneously or, more frequently, in the setting of obstructive lung disease. The latter is suggested radiographically in this case by findings such as hyperinflation, a flattened diaphragm, and an increased retrosternal air space.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24002_24022"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24642.97a716c2d5dafe16c46bc82ff017245f.jpg",
       "figures/pmfig24643.3b2fc4252399912ba485d33f9bf92a07.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bronchiectasis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Bullous lung disease"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Left lower lobe pneumonia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Hodgkin lymphoma"
-    }
-  ],
-  "question_id": "pmvdx24026",
-  "question_stem": "Which of the following conditions is the most likely radiographic diagnosis?",
-  "question_text": "A 69-year-old man is evaluated for chronic dyspnea without cough. Pulmonary function demonstrates an obstructive defect that persists following bronchodilator administration.Chest radiographs are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24002_24022"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.294106-06:00"
 }

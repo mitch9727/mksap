@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24059",
   "category": "cv",
-  "critique": "The most likely diagnosis is stress-induced cardiomyopathy (Option D), also known as takotsubo cardiomyopathy or apical ballooning syndrome. ECG changes are common in stress-induced cardiomyopathy. ST-segment elevation is the most common abnormality, most frequently in the anterior precordial leads. Other changes may include deep T-wave inversion with QT-interval prolongation, abnormal Q waves, and nonspecific abnormalities. Because stress-induced cardiomyopathy may mimic ST-elevation myocardial infarction (STEMI), with similar ECG changes and elevated troponin levels (albeit relatively lower in stress-induced cardiomyopathy), urgent angiography is warranted. In this patient whose symptoms began during a stressful event and in whom the angiogram was normal, stress-induced cardiomyopathy is a much more likely diagnosis than microvascular coronary artery disease or resolved STEMI, neither of which would show such persistent ECG changes.",
   "educational_objective": "Identify ECG changes associated with stress-induced cardiomyopathy.",
-  "extracted_at": "2025-12-23T14:08:40.493436-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 65-year-old woman is evaluated in the emergency department for chest pain that began while she was attending a funeral. Coronary angiography did not demonstrate any obstruction.ECG is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Long QT syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Microvascular coronary artery disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Resolved ST-elevation myocardial infarction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Stress-induced cardiomyopathy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is stress-induced cardiomyopathy (Option D), also known as takotsubo cardiomyopathy or apical ballooning syndrome. ECG changes are common in stress-induced cardiomyopathy. ST-segment elevation is the most common abnormality, most frequently in the anterior precordial leads. Other changes may include deep T-wave inversion with QT-interval prolongation, abnormal Q waves, and nonspecific abnormalities. Because stress-induced cardiomyopathy may mimic ST-elevation myocardial infarction (STEMI), with similar ECG changes and elevated troponin levels (albeit relatively lower in stress-induced cardiomyopathy), urgent angiography is warranted. In this patient whose symptoms began during a stressful event and in whom the angiogram was normal, stress-induced cardiomyopathy is a much more likely diagnosis than microvascular coronary artery disease or resolved STEMI, neither of which would show such persistent ECG changes.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24005_24042"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24659.e48e392512401aa1889867a81d0566a1.png"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Long QT syndrome"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Microvascular coronary artery disease"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Resolved ST-elevation myocardial infarction"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Stress-induced cardiomyopathy"
-    }
-  ],
-  "question_id": "cvvdx24059",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 65-year-old woman is evaluated in the emergency department for chest pain that began while she was attending a funeral. Coronary angiography did not demonstrate any obstruction.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24005_24042"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.493436-06:00"
 }

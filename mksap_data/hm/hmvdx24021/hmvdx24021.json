@@ -1,60 +1,60 @@
 {
+  "question_id": "hmvdx24021",
   "category": "hm",
-  "critique": "The most likely diagnosis is multiple myeloma (Option B). This patient's bone marrow is packed with plasma cells that have findings typical for mature plasma cells. These cells are oval and nearly filled with basophilic cytoplasm. The nucleus is round and eccentric, and an area of cytoplasmic clearing (“perinuclear hof”) is seen near the nucleus (arrow).",
   "educational_objective": "Diagnose multiple myeloma based on bone marrow findings.",
-  "extracted_at": "2025-12-23T14:09:52.946279-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 59-year-old man is evaluated for anemia, acute kidney injury, and lytic bone lesions.A bone marrow biopsy specimen is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Metastatic adenocarcinoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Multiple myeloma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Myelodysplastic syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Polycythemia vera",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is multiple myeloma (Option B). This patient's bone marrow is packed with plasma cells that have findings typical for mature plasma cells. These cells are oval and nearly filled with basophilic cytoplasm. The nucleus is round and eccentric, and an area of cytoplasmic clearing (“perinuclear hof”) is seen near the nucleus (arrow).",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24003_24005"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24635.c999f22942f0090268d65824f35a9081.jpg",
       "figures/hmfig24634.eff98b49fc7b61bdfdd0800494b8f2e1.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Metastatic adenocarcinoma"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Multiple myeloma"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Myelodysplastic syndrome"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Polycythemia vera"
-    }
-  ],
-  "question_id": "hmvdx24021",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 59-year-old man is evaluated for anemia, acute kidney injury, and lytic bone lesions.A bone marrow biopsy specimen is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24003_24005"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.946279-06:00"
 }

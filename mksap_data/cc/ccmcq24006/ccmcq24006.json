@@ -1,62 +1,62 @@
 {
+  "question_id": "ccmcq24006",
   "category": "cc",
-  "critique": "The most likely diagnosis is lithium toxicity (Option A). Lithium is an effective treatment for bipolar disorder but has a narrow therapeutic window, and toxicity is common. Risk factors for toxicity include increased age, hypovolemia, and kidney disease. Early symptoms of toxicity are gastrointestinal and include nausea, vomiting, and diarrhea and may be mistaken for a gastrointestinal infection. Neurologic findings are a later complication associated with more severe toxicity and include agitation, confusion, ataxia, tremor, and myoclonic jerks. Arginine vasopressin resistance (formerly called nephrogenic diabetes insipidus) occurs commonly and results in hypernatremia and volume depletion. The diagnosis of lithium toxicity is confirmed by an elevated serum lithium level. Management of lithium toxicity includes volume resuscitation and careful serum sodium level management. Hemodialysis is indicated if the patient's lithium level is greater than 4 mEq/L (4 mmol/L) or if severe symptoms, such as seizure or coma, are present. This patient's clinical presentation suggests lithium toxicity, and a lithium level should be obtained to confirm the diagnosis.Neuroleptic malignant syndrome (Option B) typically presents as fever, mental status changes, muscle rigidity, and dysautonomia as an idiosyncratic reaction to first- or second-generation antipsychotic medications. Although this patient is confused and is taking quetiapine, she has no fever, muscle rigidity, or dysautonomia, making neuroleptic malignant syndrome unlikely.Serotonin syndrome (Option C) is associated with selective serotonin reuptake inhibitors and other drugs that promote serotonergic activity. Serotonin syndrome can present with mental status changes and muscle abnormalities but is also associated with dysautonomia, hyperthermia, and hyperreflexia. Although lithium has rarely been linked to serotonin syndrome, the patient has none of the cardinal features of this diagnosis other than altered mental status.Tardive dyskinesia (Option D) is defined by hyperkinetic movements classically associated with antipsychotic medications and antiemetics (metoclopramide, prochlorperazine) that act as dopamine receptor antagonists. Manifestations include orofacial and limb dyskinetic movements, tics, and motor restlessness. Quetiapine can cause tardive dyskinesia, but tardive dyskinesia usually has onset over an extended period and is not associated with encephalopathy, making it an unlikely diagnosis.",
   "educational_objective": "Diagnose lithium toxicity.",
-  "extracted_at": "2025-12-23T14:13:48.349860-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 67-year-old woman is evaluated in the emergency department for confusion. She developed nausea, vomiting, and diarrhea 10 days ago. Over the past 2 days, she has become progressively confused, and her husband noted she had difficulty walking, prompting him to bring her in for evaluation. The patient has bipolar disorder. Medications are lithium carbonate and quetiapine.On physical examination, temperature is 37.7 °C (99.9 °F), blood pressure is 102/64 mm Hg, and pulse rate is 106/min; other vital signs are normal. She is agitated and disoriented. Mucus membranes are dry. Her speech is slurred, but cranial nerves are otherwise intact. Coarse tremor and myoclonic jerks, especially of the legs, are present. She is moving all four extremities and has normal muscle tone.CT scan of the head is normal.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Lithium toxicity",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Neuroleptic malignant syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Serotonin syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Tardive dyskinesia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is lithium toxicity (Option A). Lithium is an effective treatment for bipolar disorder but has a narrow therapeutic window, and toxicity is common. Risk factors for toxicity include increased age, hypovolemia, and kidney disease. Early symptoms of toxicity are gastrointestinal and include nausea, vomiting, and diarrhea and may be mistaken for a gastrointestinal infection. Neurologic findings are a later complication associated with more severe toxicity and include agitation, confusion, ataxia, tremor, and myoclonic jerks. Arginine vasopressin resistance (formerly called nephrogenic diabetes insipidus) occurs commonly and results in hypernatremia and volume depletion. The diagnosis of lithium toxicity is confirmed by an elevated serum lithium level. Management of lithium toxicity includes volume resuscitation and careful serum sodium level management. Hemodialysis is indicated if the patient's lithium level is greater than 4 mEq/L (4 mmol/L) or if severe symptoms, such as seizure or coma, are present. This patient's clinical presentation suggests lithium toxicity, and a lithium level should be obtained to confirm the diagnosis.Neuroleptic malignant syndrome (Option B) typically presents as fever, mental status changes, muscle rigidity, and dysautonomia as an idiosyncratic reaction to first- or second-generation antipsychotic medications. Although this patient is confused and is taking quetiapine, she has no fever, muscle rigidity, or dysautonomia, making neuroleptic malignant syndrome unlikely.Serotonin syndrome (Option C) is associated with selective serotonin reuptake inhibitors and other drugs that promote serotonergic activity. Serotonin syndrome can present with mental status changes and muscle abnormalities but is also associated with dysautonomia, hyperthermia, and hyperreflexia. Although lithium has rarely been linked to serotonin syndrome, the patient has none of the cardinal features of this diagnosis other than altered mental status.Tardive dyskinesia (Option D) is defined by hyperkinetic movements classically associated with antipsychotic medications and antiemetics (metoclopramide, prochlorperazine) that act as dopamine receptor antagonists. Manifestations include orofacial and limb dyskinetic movements, tics, and motor restlessness. Quetiapine can cause tardive dyskinesia, but tardive dyskinesia usually has onset over an extended period and is not associated with encephalopathy, making it an unlikely diagnosis.",
   "key_points": [
     "Symptoms of lithium toxicity include gastrointestinal distress, agitation, confusion, ataxia, tremor, myoclonic jerks, and arginine vasopressin resistance.",
     "Lithium has a narrow therapeutic window, and toxicity is common; risk factors for toxicity include increased age, hypovolemia, and kidney disease."
   ],
+  "references": "Chan BS, Cheng S, Isoardi KZ, et al. Effect of age on the severity of chronic lithium poisoning. Clin Toxicol (Phila). 2020;58:1023-7. PMID: 32068433 doi:10.1080/15563650.2020.1726376",
+  "related_content": {
+    "syllabus": [
+      "ccsec24003_24010"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Lithium toxicity"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Neuroleptic malignant syndrome"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Serotonin syndrome"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Tardive dyskinesia"
-    }
-  ],
-  "question_id": "ccmcq24006",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 67-year-old woman is evaluated in the emergency department for confusion. She developed nausea, vomiting, and diarrhea 10 days ago. Over the past 2 days, she has become progressively confused, and her husband noted she had difficulty walking, prompting him to bring her in for evaluation. The patient has bipolar disorder. Medications are lithium carbonate and quetiapine.On physical examination, temperature is 37.7 °C (99.9 °F), blood pressure is 102/64 mm Hg, and pulse rate is 106/min; other vital signs are normal. She is agitated and disoriented. Mucus membranes are dry. Her speech is slurred, but cranial nerves are otherwise intact. Coarse tremor and myoclonic jerks, especially of the legs, are present. She is moving all four extremities and has normal muscle tone.CT scan of the head is normal.",
-  "references": "Chan BS, Cheng S, Isoardi KZ, et al. Effect of age on the severity of chronic lithium poisoning. Clin Toxicol (Phila). 2020;58:1023-7. PMID: 32068433 doi:10.1080/15563650.2020.1726376",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ccsec24003_24010"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:48.349860-06:00"
 }

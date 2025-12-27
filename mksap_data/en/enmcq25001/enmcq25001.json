@@ -1,62 +1,62 @@
 {
+  "question_id": "enmcq25001",
   "category": "en",
-  "critique": "The most appropriate next step in this patient's treatment is to start empagliflozin (Option B). Some treatments for type 2 diabetes mellitus also have a beneficial effect on cardiovascular conditions, established kidney disease, and overweight and obesity. Clinicians should consider these comorbidities when selecting treatments for patients with type 2 diabetes. Glucagon-like peptide 1 receptor agonists (GLP-1 RAs) or sodium-glucose cotransporter 2 (SGLT2) inhibitors are recommended by the American Diabetes Association in patients with type 2 diabetes and cardiovascular disease. In patients with heart failure, SGLT2 inhibitors reduce the risk for worsening heart failure, hospitalization for heart failure, and cardiovascular death. This patient's hemoglobin A1c is above goal, but he would benefit from SGLT2 inhibitor therapy even in the setting of a normal hemoglobin A1c because of the cardiovascular and heart failure benefits. Notably, because of the diuretic effects of SGLT2 inhibitors, diuretics such as furosemide often require reduction when SGLT2 inhibitors are added to prevent volume depletion.A GLP-1 RA, such as dulaglutide (Option A), is an appropriate choice for cardiovascular benefit in patients with type 2 diabetes and heart disease; however, these medications are associated with pancreatitis and should be avoided in patients with a history of the same. An SGLT2 inhibitor is a more appropriate additional treatment for this patient.Pioglitazone (Option C) is contraindicated in patients with heart failure because it may exacerbate heart failure symptoms and cause fluid retention.Saxagliptin (Option D) is associated with exacerbation of heart failure symptoms and should be avoided in patients with heart failure.",
   "educational_objective": "Treat type 2 diabetes mellitus in a patient with cardiovascular disease.",
-  "extracted_at": "2025-12-22T23:00:11.973437-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 65-year-old man is evaluated in the hospital after being admitted for a myocardial infarction complicated by heart failure. The patient underwent coronary stenting and is now feeling better. He also has a history of pancreatitis, hyperlipidemia, and type 2 diabetes mellitus. Medications are metformin, losartan, aspirin, ticagrelor, metoprolol, furosemide, and atorvastatin.Physical examination findings, including vital signs, are normal.Basic metabolic panel is normal.",
+  "question_stem": "Which of the following is the most appropriate additional treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Dulaglutide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Empagliflozin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Pioglitazone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Saxagliptin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in this patient's treatment is to start empagliflozin (Option B). Some treatments for type 2 diabetes mellitus also have a beneficial effect on cardiovascular conditions, established kidney disease, and overweight and obesity. Clinicians should consider these comorbidities when selecting treatments for patients with type 2 diabetes. Glucagon-like peptide 1 receptor agonists (GLP-1 RAs) or sodium-glucose cotransporter 2 (SGLT2) inhibitors are recommended by the American Diabetes Association in patients with type 2 diabetes and cardiovascular disease. In patients with heart failure, SGLT2 inhibitors reduce the risk for worsening heart failure, hospitalization for heart failure, and cardiovascular death. This patient's hemoglobin A1c is above goal, but he would benefit from SGLT2 inhibitor therapy even in the setting of a normal hemoglobin A1c because of the cardiovascular and heart failure benefits. Notably, because of the diuretic effects of SGLT2 inhibitors, diuretics such as furosemide often require reduction when SGLT2 inhibitors are added to prevent volume depletion.A GLP-1 RA, such as dulaglutide (Option A), is an appropriate choice for cardiovascular benefit in patients with type 2 diabetes and heart disease; however, these medications are associated with pancreatitis and should be avoided in patients with a history of the same. An SGLT2 inhibitor is a more appropriate additional treatment for this patient.Pioglitazone (Option C) is contraindicated in patients with heart failure because it may exacerbate heart failure symptoms and cause fluid retention.Saxagliptin (Option D) is associated with exacerbation of heart failure symptoms and should be avoided in patients with heart failure.",
   "key_points": [
     "The American Diabetes Association recommends a glucagon-like peptide 1 receptor agonist or a sodium-glucose cotransporter 2 (SGLT2) inhibitor in patients with type 2 diabetes mellitus and cardiovascular disease.",
     "In patients with type 2 diabetes and heart failure, SGLT2 inhibitors reduce the risk for worsening heart failure, hospitalization for heart failure, and cardiovascular death."
   ],
+  "references": "American Diabetes Association Professional Practice Committee. 10. Cardiovascular disease and risk management: Standards of Care in Diabetes—2025. Diabetes Care. 2025;48:S207-S238. PMID: 39651970 doi:10.2337/dc25-S010",
+  "related_content": {
+    "syllabus": [
+      "ensec24002_24038"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Dulaglutide"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Empagliflozin"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Pioglitazone"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Saxagliptin"
-    }
-  ],
-  "question_id": "enmcq25001",
-  "question_stem": "Which of the following is the most appropriate additional treatment?",
-  "question_text": "A 65-year-old man is evaluated in the hospital after being admitted for a myocardial infarction complicated by heart failure. The patient underwent coronary stenting and is now feeling better. He also has a history of pancreatitis, hyperlipidemia, and type 2 diabetes mellitus. Medications are metformin, losartan, aspirin, ticagrelor, metoprolol, furosemide, and atorvastatin.Physical examination findings, including vital signs, are normal.Basic metabolic panel is normal.",
-  "references": "American Diabetes Association Professional Practice Committee. 10. Cardiovascular disease and risk management: Standards of Care in Diabetes—2025. Diabetes Care. 2025;48:S207-S238. PMID: 39651970 doi:10.2337/dc25-S010",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24002_24038"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T23:00:11.973437-06:00"
 }

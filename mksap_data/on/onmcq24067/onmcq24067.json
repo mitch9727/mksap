@@ -1,63 +1,63 @@
 {
+  "question_id": "onmcq24067",
   "category": "on",
-  "critique": "This patient should be referred for a screening mammogram (Option D). In average-risk women aged 50 to 74 years, screening mammography has a clear benefit, and all breast cancer guidelines recommend screening mammography in this age group, either annually or biennially. Specific screening recommendations by specialty society are outlined in Table: Breast Cancer Screening in Women at Average Risk. The U.S. Preventive Services Task Force (USPSTF) recommends biennial screening mammography, which imparts most of the benefits of annual mammography with fewer harms, most notably a reduction in overdiagnosis, in average-risk women aged 40 to 74 years. The USPSTF also concludes that both digital mammography and digital breast tomosynthesis or “3D mammography” are effective mammographic screening modalities. Approximately 50% of women have dense breasts, and breast density is routinely reported on mammography interpretation. Increased breast density is associated with an increased risk for breast cancer but not with a higher breast cancer mortality risk, and patients with dense breasts should not be screened according to guidelines for those at high risk for breast cancer only on the basis of having dense breasts. Increased breast density can obscure small masses, rendering screening mammography less effective. However, evidence to support improved diagnosis or decreased mortality from breast cancer with additional screening measures (MRI or breast ultrasonography) is not yet available, and most guidelines do not recommend those additional screening measures. The American College of Radiology, however, does recommend that breast ultrasound be considered as an adjunct screening test to mammography for women with dense breasts. This patient is at average risk for breast cancer and last had a mammogram 2 years ago; a screening mammogram is an appropriate next step.Clinical breast examination (Option A) is not recommended as a screening measure for women in any age group. Clinical breast examination with or without mammography has not been shown to improve breast cancer diagnosis or reduce breast cancer mortality. Clinical breast examination should be performed in patients who report breast masses.Genetic testing for BRCA variants (Option B) is not indicated in this patient who is at average risk for breast cancer and does not have a suggestive family history. The USPSTF recommends using a brief tool that assess familial risk, such as the Ontario Family History Assessment Tool, to screen for BRCA1/2 gene variants in patients with a personal or family history of breast, ovarian, tubal, or peritoneal cancer or who have an ancestry associated with the variants. Patients at higher risk should be referred for genetic counseling and possible testing.Screening with breast MRI (Option C) and annual mammography are recommended for patients known to have an above-average risk for breast cancer (see Table: MRI Breast Cancer Screening Recommendations). This patient is not at increased risk and does not require breast MRI.",
   "educational_objective": "Screen for breast cancer in a patient with dense breasts.",
-  "extracted_at": "2025-12-23T15:17:18.298612-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 52-year-old woman is evaluated during a routine examination. Her last menstrual cycle was 9 months ago. She has no breast pain or nipple discharge. She has two children aged 30 and 34 years. Menarche occurred at age 12 years. She has no family history of cancer. She has no medical conditions and takes no medications.On physical examination, vital signs and other findings are normal.On her most recent mammogram, 2 years ago, her breast tissue density pattern was described as heterogeneously dense.",
+  "question_stem": "Which of the following is the most appropriate test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Clinical breast examination",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Genetic testing for BRCA variants",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Screening breast MRI",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Screening mammography",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient should be referred for a screening mammogram (Option D). In average-risk women aged 50 to 74 years, screening mammography has a clear benefit, and all breast cancer guidelines recommend screening mammography in this age group, either annually or biennially. Specific screening recommendations by specialty society are outlined in Table: Breast Cancer Screening in Women at Average Risk. The U.S. Preventive Services Task Force (USPSTF) recommends biennial screening mammography, which imparts most of the benefits of annual mammography with fewer harms, most notably a reduction in overdiagnosis, in average-risk women aged 40 to 74 years. The USPSTF also concludes that both digital mammography and digital breast tomosynthesis or “3D mammography” are effective mammographic screening modalities. Approximately 50% of women have dense breasts, and breast density is routinely reported on mammography interpretation. Increased breast density is associated with an increased risk for breast cancer but not with a higher breast cancer mortality risk, and patients with dense breasts should not be screened according to guidelines for those at high risk for breast cancer only on the basis of having dense breasts. Increased breast density can obscure small masses, rendering screening mammography less effective. However, evidence to support improved diagnosis or decreased mortality from breast cancer with additional screening measures (MRI or breast ultrasonography) is not yet available, and most guidelines do not recommend those additional screening measures. The American College of Radiology, however, does recommend that breast ultrasound be considered as an adjunct screening test to mammography for women with dense breasts. This patient is at average risk for breast cancer and last had a mammogram 2 years ago; a screening mammogram is an appropriate next step.Clinical breast examination (Option A) is not recommended as a screening measure for women in any age group. Clinical breast examination with or without mammography has not been shown to improve breast cancer diagnosis or reduce breast cancer mortality. Clinical breast examination should be performed in patients who report breast masses.Genetic testing for BRCA variants (Option B) is not indicated in this patient who is at average risk for breast cancer and does not have a suggestive family history. The USPSTF recommends using a brief tool that assess familial risk, such as the Ontario Family History Assessment Tool, to screen for BRCA1/2 gene variants in patients with a personal or family history of breast, ovarian, tubal, or peritoneal cancer or who have an ancestry associated with the variants. Patients at higher risk should be referred for genetic counseling and possible testing.Screening with breast MRI (Option C) and annual mammography are recommended for patients known to have an above-average risk for breast cancer (see Table: MRI Breast Cancer Screening Recommendations). This patient is not at increased risk and does not require breast MRI.",
   "key_points": [
     "The U.S. Preventive Services Task Force recommends biennial screening mammography, which imparts most of the benefits of annual mammography with fewer harms, most notably a reduction in overdiagnosis, in average-risk women aged 40 to 74 years.",
     "Increased breast density is associated with an increased risk for breast cancer, but patients with dense breasts should not be considered at high risk for breast cancer only on the basis of having dense breasts."
   ],
+  "references": "U.S. Preventive Services Task Force. Final recommendation statement. Breast cancer: screening. Accessed May 14, 2024. Available at: www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening#bcei-recommendation-title-area",
+  "related_content": {
+    "syllabus": [
+      "onsec24014_24001"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Clinical breast examination"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Genetic testing for BRCA variants"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Screening breast MRI"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Screening mammography"
-    }
-  ],
-  "question_id": "onmcq24067",
-  "question_stem": "Which of the following is the most appropriate test to perform next?",
-  "question_text": "A 52-year-old woman is evaluated during a routine examination. Her last menstrual cycle was 9 months ago. She has no breast pain or nipple discharge. She has two children aged 30 and 34 years. Menarche occurred at age 12 years. She has no family history of cancer. She has no medical conditions and takes no medications.On physical examination, vital signs and other findings are normal.On her most recent mammogram, 2 years ago, her breast tissue density pattern was described as heterogeneously dense.",
-  "references": "U.S. Preventive Services Task Force. Final recommendation statement. Breast cancer: screening. Accessed May 14, 2024. Available at: www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening#bcei-recommendation-title-area",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "onsec24014_24001"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:17:18.298612-06:00"
 }

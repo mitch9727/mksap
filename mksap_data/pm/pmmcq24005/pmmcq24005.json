@@ -1,62 +1,62 @@
 {
+  "question_id": "pmmcq24005",
   "category": "pm",
-  "critique": "The most appropriate next step in management of this patient's central sleep apnea (CSA) and Cheyne-Stokes breathing is no additional treatment beyond optimization of the underlying heart failure (HF) (Option D). CSA is defined by pauses in airflow caused by loss of output from the central respiratory generators in the brainstem, with resultant lack of respiratory effort. It manifests as a state of ventilatory instability, as demonstrated by the classic crescendo-decrescendo Cheyne-Stokes breathing pattern. CSA is often seen in the presence of opioid use and comorbid disorders, especially HF and atrial fibrillation. Management of CSA should first focus on modifiable risk factors, especially discontinuation of opioids and optimization of HF. This patient has underlying HF and evidence of volume overload on physical examination. Optimizing the medical management of HF (in this case, the addition of furosemide) should precede other evaluation and therapies for CSA.Adaptive servo-ventilation (Option A) is a form of positive airway pressure therapy that delivers counter-proportional pressure support and was initially designed to treat Cheyne-Stokes breathing. It is effective at reducing the apnea-hypopnea index and improving quality of sleep in those with symptomatic CSA. However, adaptive servo-ventilation should be avoided in patients with a left ventricular ejection fraction less than 45%, such as this patient, because a large clinical trial showed it was associated with an increased risk for death in this population. A more recent trial in a similar population did not show an increased risk of death associated with adaptive servo-ventilation, but the sample size was far smaller.Auto-adjusting positive airway pressure (Option B) is effective at preventing upper airway collapse in obstructive sleep apnea. It is not indicated in CSA, in which the upper airway is generally patent.Supplemental oxygen (Option C) is sometimes used in advanced HF when impaired gas exchange results in hypoxemia. Small trials of nocturnal supplemental oxygen in patients with CSA have yielded variable results. Such treatment, however, would be premature before optimization of fluid status in this patient with HF without hypoxemia.",
   "educational_objective": "Treat a patient with central sleep apnea.",
-  "extracted_at": "2025-12-23T14:15:52.975620-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 71-year-old man is evaluated after in-laboratory polysomnography testing. During a previous hospitalization for an exacerbation of heart failure, hospital staff noted sleep-related breathing pauses and oxygen desaturations and referred him for outpatient testing. The patient sleeps 7 hours per night and usually feels rested in the morning. His wife reports that she doesn't notice snoring but has observed occasional pauses in breathing associated with gasping. He has mild dyspnea on exertion and orthopnea. The patient has coronary artery disease, heart failure with reduced ejection fraction (left ventricular ejection fraction of 30%), and dyslipidemia. Medications are aspirin, atorvastatin, valsartan, empagliflozin, spironolactone, and metoprolol. Furosemide was recently added.On physical examination, blood pressure is 110/64 mm Hg, pulse rate is 84/min, and respiration rate is 18/min. Oxygen saturation is 95% with the patient breathing ambient air. Neck vein distention, bibasilar crackles on lung auscultation, and 1+ pitting edema at the ankles are noted.Polysomnogram shows an apnea-hypopnea index of 55 events per hour with a minimum oxygen saturation of 85%. Nasal airflow ventilation pattern is shown.Treatment with furosemide is initiated.",
+  "question_stem": "Which of the following is the most appropriate next step in treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Adaptive servo-ventilation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Auto-adjusting positive airway pressure",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Supplemental oxygen",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No additional treatment",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in management of this patient's central sleep apnea (CSA) and Cheyne-Stokes breathing is no additional treatment beyond optimization of the underlying heart failure (HF) (Option D). CSA is defined by pauses in airflow caused by loss of output from the central respiratory generators in the brainstem, with resultant lack of respiratory effort. It manifests as a state of ventilatory instability, as demonstrated by the classic crescendo-decrescendo Cheyne-Stokes breathing pattern. CSA is often seen in the presence of opioid use and comorbid disorders, especially HF and atrial fibrillation. Management of CSA should first focus on modifiable risk factors, especially discontinuation of opioids and optimization of HF. This patient has underlying HF and evidence of volume overload on physical examination. Optimizing the medical management of HF (in this case, the addition of furosemide) should precede other evaluation and therapies for CSA.Adaptive servo-ventilation (Option A) is a form of positive airway pressure therapy that delivers counter-proportional pressure support and was initially designed to treat Cheyne-Stokes breathing. It is effective at reducing the apnea-hypopnea index and improving quality of sleep in those with symptomatic CSA. However, adaptive servo-ventilation should be avoided in patients with a left ventricular ejection fraction less than 45%, such as this patient, because a large clinical trial showed it was associated with an increased risk for death in this population. A more recent trial in a similar population did not show an increased risk of death associated with adaptive servo-ventilation, but the sample size was far smaller.Auto-adjusting positive airway pressure (Option B) is effective at preventing upper airway collapse in obstructive sleep apnea. It is not indicated in CSA, in which the upper airway is generally patent.Supplemental oxygen (Option C) is sometimes used in advanced HF when impaired gas exchange results in hypoxemia. Small trials of nocturnal supplemental oxygen in patients with CSA have yielded variable results. Such treatment, however, would be premature before optimization of fluid status in this patient with HF without hypoxemia.",
   "key_points": [
     "Initial treatment of patients with central sleep apnea should target modifiable risk factors, such as heart failure and opioid use.",
     "Positive airway pressure ventilation is effective at preventing upper airway collapse in obstructive sleep apnea but is not indicated in central sleep apnea, in which the upper airway is generally patent."
   ],
+  "references": "Randerath W, Verbraecken J, Andreas S, et al. Definition, discrimination, diagnosis and treatment of central breathing disturbances during sleep. Eur Respir J. 2017;49. PMID: 27920092 doi:10.1183/13993003.00959-2016",
+  "related_content": {
+    "syllabus": [
+      "pmsec24008_24019"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24202.35aa75c6638f110617651e0fce2b63c7.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Adaptive servo-ventilation"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Auto-adjusting positive airway pressure"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Supplemental oxygen"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "No additional treatment"
-    }
-  ],
-  "question_id": "pmmcq24005",
-  "question_stem": "Which of the following is the most appropriate next step in treatment?",
-  "question_text": "A 71-year-old man is evaluated after in-laboratory polysomnography testing. During a previous hospitalization for an exacerbation of heart failure, hospital staff noted sleep-related breathing pauses and oxygen desaturations and referred him for outpatient testing. The patient sleeps 7 hours per night and usually feels rested in the morning. His wife reports that she doesn't notice snoring but has observed occasional pauses in breathing associated with gasping. He has mild dyspnea on exertion and orthopnea. The patient has coronary artery disease, heart failure with reduced ejection fraction (left ventricular ejection fraction of 30%), and dyslipidemia. Medications are aspirin, atorvastatin, valsartan, empagliflozin, spironolactone, and metoprolol. Furosemide was recently added.On physical examination, blood pressure is 110/64 mm Hg, pulse rate is 84/min, and respiration rate is 18/min. Oxygen saturation is 95% with the patient breathing ambient air. Neck vein distention, bibasilar crackles on lung auscultation, and 1+ pitting edema at the ankles are noted.Polysomnogram shows an apnea-hypopnea index of 55 events per hour with a minimum oxygen saturation of 85%. Nasal airflow ventilation pattern is shown.Treatment with furosemide is initiated.",
-  "references": "Randerath W, Verbraecken J, Andreas S, et al. Definition, discrimination, diagnosis and treatment of central breathing disturbances during sleep. Eur Respir J. 2017;49. PMID: 27920092 doi:10.1183/13993003.00959-2016",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24008_24019"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:52.975620-06:00"
 }

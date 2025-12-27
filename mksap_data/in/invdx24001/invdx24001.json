@@ -1,60 +1,60 @@
 {
+  "question_id": "invdx24001",
   "category": "in",
-  "critique": "The most likely diagnosis is optic disc atrophy (Option C), which is characterized by pallor and flatness of the optic disc. Optic disc atrophy results from damage to the nerve fiber layer of the retina, optic nerve, optic chiasm, or optic tracts. With progressive loss of neurons, the optic disc becomes pale; with extensive damage, the optic disc becomes white. A normal-appearing optic disc is pink in color, as shown. In younger patients, the most common cause of optic nerve atrophy is optic neuritis; in older patients, ischemic optic neuropathy is the most common cause. This older patient with a history compatible with giant cell arteritis most likely has ischemic optic atrophy.",
   "educational_objective": "Diagnose optic disc atrophy.",
-  "extracted_at": "2025-12-23T15:28:36.780029-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 73-year-old woman is evaluated for diminished vision in her right eye. She also describes a 2-month history of fatigue and bitemporal headaches.Funduscopic findings are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Age-related macular degeneration",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Glaucoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Optic disc atrophy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Papillitis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is optic disc atrophy (Option C), which is characterized by pallor and flatness of the optic disc. Optic disc atrophy results from damage to the nerve fiber layer of the retina, optic nerve, optic chiasm, or optic tracts. With progressive loss of neurons, the optic disc becomes pale; with extensive damage, the optic disc becomes white. A normal-appearing optic disc is pink in color, as shown. In younger patients, the most common cause of optic nerve atrophy is optic neuritis; in older patients, ischemic optic neuropathy is the most common cause. This older patient with a history compatible with giant cell arteritis most likely has ischemic optic atrophy.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "insec24003_24019"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/infig24602.35fc87945c17569547d7c8333e4b82b5.jpg",
       "figures/infig24601.eb6ab1582a4281837ec26b46778645ae.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Age-related macular degeneration"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Glaucoma"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Optic disc atrophy"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Papillitis"
-    }
-  ],
-  "question_id": "invdx24001",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 73-year-old woman is evaluated for diminished vision in her right eye. She also describes a 2-month history of fatigue and bitemporal headaches.Funduscopic findings are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "insec24003_24019"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:28:36.780029-06:00"
 }

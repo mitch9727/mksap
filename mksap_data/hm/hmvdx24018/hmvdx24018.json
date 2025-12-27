@@ -1,60 +1,60 @@
 {
+  "question_id": "hmvdx24018",
   "category": "hm",
-  "critique": "The most likely diagnosis is essential thrombocythemia (Option B). On peripheral smear, platelets normally appear as small, purplish cells without a nucleus (white arrow). As a rule of thumb, there are normally approximately 8 to 15 platelets per 100-power field. This peripheral blood smear contains many more than this number of platelets, suggesting a very high platelet count and the possible diagnosis of essential thrombocythemia. Other clues to the diagnosis of essential thrombocythemia are the presence of large platelets (yellow arrow) and platelet fragments. Most patients with essential thrombocythemia are asymptomatic and present with an elevated platelet count found on routine laboratory testing. Patients may also present with vasomotor symptoms, such as headache, visual disturbances, dysesthesia of the palms and soles, syncope, and livedo reticularis. Complications of essential thrombocythemia include thrombosis and hemorrhage.",
   "educational_objective": "Diagnose essential thrombocythemia.",
-  "extracted_at": "2025-12-23T14:09:52.952128-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 53-year-old man is evaluated after an abnormality was found on a routine complete blood count. He is asymptomatic.Peripheral blood smear is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Chronic lymphocytic leukemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Essential thrombocythemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Folate deficiency",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Thrombotic thrombocytopenic purpura",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is essential thrombocythemia (Option B). On peripheral smear, platelets normally appear as small, purplish cells without a nucleus (white arrow). As a rule of thumb, there are normally approximately 8 to 15 platelets per 100-power field. This peripheral blood smear contains many more than this number of platelets, suggesting a very high platelet count and the possible diagnosis of essential thrombocythemia. Other clues to the diagnosis of essential thrombocythemia are the presence of large platelets (yellow arrow) and platelet fragments. Most patients with essential thrombocythemia are asymptomatic and present with an elevated platelet count found on routine laboratory testing. Patients may also present with vasomotor symptoms, such as headache, visual disturbances, dysesthesia of the palms and soles, syncope, and livedo reticularis. Complications of essential thrombocythemia include thrombosis and hemorrhage.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24002_24010"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24629.445dbfb415119086fd5f1af601b49370.jpg",
       "figures/hmfig24628.9ed83c284eedb09a77e80748f6bd9cdf.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Chronic lymphocytic leukemia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Essential thrombocythemia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Folate deficiency"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Thrombotic thrombocytopenic purpura"
-    }
-  ],
-  "question_id": "hmvdx24018",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 53-year-old man is evaluated after an abnormality was found on a routine complete blood count. He is asymptomatic.Peripheral blood smear is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24002_24010"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.952128-06:00"
 }

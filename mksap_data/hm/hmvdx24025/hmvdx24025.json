@@ -1,59 +1,59 @@
 {
+  "question_id": "hmvdx24025",
   "category": "hm",
-  "critique": "The most likely diagnosis is immunoglobulin light-chain (AL) amyloidosis (Option B). The presence of periorbital purpura (\"raccoon eyes\") is not very sensitive but is highly specific for AL amyloidosis. This finding is often elicited by a Valsalva maneuver or minor trauma. AL amyloidosis is a clonal plasma cell dyscrasia characterized by production of amyloidogenic lambda or kappa free light chains. These light chains can deposit in various organs, resulting in the clinical presentations of the disease, including skin changes, kidney disease, and cardiac disease.",
   "educational_objective": "Diagnose pinch purpura and its association with immunoglobulin light-chain amyloidosis.",
-  "extracted_at": "2025-12-23T14:09:52.951881-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 50-year-old man is evaluated for the nephrotic syndrome, elevated aminotransferase levels, peripheral neuropathy, and easy bruising.The periorbital area of the patient's face is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acquired hemophilia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Immunoglobulin light-chain amyloidosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Polyarteritis nodosa",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "von Willebrand disease",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is immunoglobulin light-chain (AL) amyloidosis (Option B). The presence of periorbital purpura (\"raccoon eyes\") is not very sensitive but is highly specific for AL amyloidosis. This finding is often elicited by a Valsalva maneuver or minor trauma. AL amyloidosis is a clonal plasma cell dyscrasia characterized by production of amyloidogenic lambda or kappa free light chains. These light chains can deposit in various organs, resulting in the clinical presentations of the disease, including skin changes, kidney disease, and cardiac disease.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24003_24008"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24640.2286847ede87d642846a769c50d48ad7.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acquired hemophilia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Immunoglobulin light-chain amyloidosis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Polyarteritis nodosa"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "von Willebrand disease"
-    }
-  ],
-  "question_id": "hmvdx24025",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 50-year-old man is evaluated for the nephrotic syndrome, elevated aminotransferase levels, peripheral neuropathy, and easy bruising.The periorbital area of the patient's face is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24003_24008"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.951881-06:00"
 }

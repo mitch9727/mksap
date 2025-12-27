@@ -1,62 +1,62 @@
 {
+  "question_id": "cvmcq24030",
   "category": "cv",
-  "critique": "The most appropriate treatment to prevent future cardiovascular events is adding icosapent ethyl (Option C). In patients with known cardiovascular disease, persistently elevated triglycerides are a risk factor for future cardiovascular events. In the REDUCE-IT study, adding icosapent ethyl, a medication containing a highly purified form of eicosapentaenoic acid, to statin therapy for secondary prevention in patients with persistently elevated fasting triglyceride levels greater than 150 mg/dL (1.70 mmol/L) reduced the risk for major cardiovascular events by 25% compared with placebo. The U.S. Department of Veterans Affairs/U.S. Department of Defense guidelines thus suggest adding icosapent ethyl to maximally tolerated statin therapy for the secondary prevention of cardiovascular events in patients with persistently elevated triglyceride levels. This patient has fasting triglyceride levels greater than 150 mg/dL (1.70 mmol/L) and would benefit from the addition of icosapent ethyl to high-intensity statin therapy.Bile acid sequestrants such as cholestyramine (Option A) are used primarily as an adjunctive means of lowering LDL cholesterol levels. This patient's LDL cholesterol level (<55 mg/dL [1.42 mmol/L]) is acceptable given her recent coronary event and multiple high-risk conditions, but her triglycerides remain elevated (>150 mg/dL [1.70 mmol/L]). In addition, cholestyramine may result in a small increase in triglyceride levels, further exacerbating this patient's hypertriglyceridemia.Fibrates such as gemfibrozil (Option B) can be considered as a treatment option for patients with severe hypertriglyceridemia (triglyceride levels >500 mg/dL [5.65 mmol/L]) who are at risk for acute pancreatitis. They have not, however, shown a consistent benefit in reducing cardiovascular events. The use of fibrates with statins can additionally increase the risk for myopathy. Adding gemfibrozil would not be an appropriate option in this patient who requires statin therapy.Although niacin (Option D) can lower triglyceride levels by up to 25% to 30% and increase HDL cholesterol levels, it does not clearly provide cardiovascular benefits beyond those achieved with statin therapy alone. In addition, niacin is associated with side effects, especially gastrointestinal, that limit its tolerability. As a result, niacin is used primarily as a second-line treatment for hypertriglyceridemia.",
   "educational_objective": "Treat hypertriglyceridemia for secondary prevention of cardiovascular events.",
-  "extracted_at": "2025-12-22T22:48:45.320715-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 64-year-old woman is evaluated during a routine visit 4 months after undergoing percutaneous coronary intervention for unstable angina. She completed cardiac rehabilitation successfully and is back to her normal activity level. She has no new symptoms. She has hypertension, dyslipidemia, and diabetes mellitus. Medications are high-intensity atorvastatin, aspirin, clopidogrel, carvedilol, lisinopril, empagliflozin, and semaglutide.Physical examination findings, including vital signs, are normal.",
+  "question_stem": "Which of the following is the most appropriate treatment for secondary prevention of an adverse cardiovascular event?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cholestyramine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Gemfibrozil",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Icosapent ethyl",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Niacin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment to prevent future cardiovascular events is adding icosapent ethyl (Option C). In patients with known cardiovascular disease, persistently elevated triglycerides are a risk factor for future cardiovascular events. In the REDUCE-IT study, adding icosapent ethyl, a medication containing a highly purified form of eicosapentaenoic acid, to statin therapy for secondary prevention in patients with persistently elevated fasting triglyceride levels greater than 150 mg/dL (1.70 mmol/L) reduced the risk for major cardiovascular events by 25% compared with placebo. The U.S. Department of Veterans Affairs/U.S. Department of Defense guidelines thus suggest adding icosapent ethyl to maximally tolerated statin therapy for the secondary prevention of cardiovascular events in patients with persistently elevated triglyceride levels. This patient has fasting triglyceride levels greater than 150 mg/dL (1.70 mmol/L) and would benefit from the addition of icosapent ethyl to high-intensity statin therapy.Bile acid sequestrants such as cholestyramine (Option A) are used primarily as an adjunctive means of lowering LDL cholesterol levels. This patient's LDL cholesterol level (<55 mg/dL [1.42 mmol/L]) is acceptable given her recent coronary event and multiple high-risk conditions, but her triglycerides remain elevated (>150 mg/dL [1.70 mmol/L]). In addition, cholestyramine may result in a small increase in triglyceride levels, further exacerbating this patient's hypertriglyceridemia.Fibrates such as gemfibrozil (Option B) can be considered as a treatment option for patients with severe hypertriglyceridemia (triglyceride levels >500 mg/dL [5.65 mmol/L]) who are at risk for acute pancreatitis. They have not, however, shown a consistent benefit in reducing cardiovascular events. The use of fibrates with statins can additionally increase the risk for myopathy. Adding gemfibrozil would not be an appropriate option in this patient who requires statin therapy.Although niacin (Option D) can lower triglyceride levels by up to 25% to 30% and increase HDL cholesterol levels, it does not clearly provide cardiovascular benefits beyond those achieved with statin therapy alone. In addition, niacin is associated with side effects, especially gastrointestinal, that limit its tolerability. As a result, niacin is used primarily as a second-line treatment for hypertriglyceridemia.",
   "key_points": [
     "In a patient with known cardiovascular disease, persistently elevated triglycerides are a risk factor for future adverse cardiovascular events.",
     "Icosapent ethyl can be added to statin therapy for secondary prevention of cardiovascular events in patients with persistently elevated fasting triglyceride levels greater than 150 mg/dL (1.70 mmol/L)."
   ],
+  "references": "Virani SS, Morris PB, Agarwala A, et al. 2021 ACC expert consensus decision pathway on the management of ASCVD risk reduction in patients with persistent hypertriglyceridemia: a report of the American College of Cardiology Solution Set Oversight Committee. J Am Coll Cardiol. 2021;78:960-993. PMID: 34332805 doi:10.1016/j.jacc.2021.06.011",
+  "related_content": {
+    "syllabus": [
+      "cvsec24002_24014"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cholestyramine"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Gemfibrozil"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Icosapent ethyl"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Niacin"
-    }
-  ],
-  "question_id": "cvmcq24030",
-  "question_stem": "Which of the following is the most appropriate treatment for secondary prevention of an adverse cardiovascular event?",
-  "question_text": "A 64-year-old woman is evaluated during a routine visit 4 months after undergoing percutaneous coronary intervention for unstable angina. She completed cardiac rehabilitation successfully and is back to her normal activity level. She has no new symptoms. She has hypertension, dyslipidemia, and diabetes mellitus. Medications are high-intensity atorvastatin, aspirin, clopidogrel, carvedilol, lisinopril, empagliflozin, and semaglutide.Physical examination findings, including vital signs, are normal.",
-  "references": "Virani SS, Morris PB, Agarwala A, et al. 2021 ACC expert consensus decision pathway on the management of ASCVD risk reduction in patients with persistent hypertriglyceridemia: a report of the American College of Cardiology Solution Set Oversight Committee. J Am Coll Cardiol. 2021;78:960-993. PMID: 34332805 doi:10.1016/j.jacc.2021.06.011",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24002_24014"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:48:45.320715-06:00"
 }

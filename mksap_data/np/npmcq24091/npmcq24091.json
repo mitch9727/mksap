@@ -1,62 +1,62 @@
 {
+  "question_id": "npmcq24091",
   "category": "np",
-  "critique": "The most likely cause of this patient's acid-base disorder is type 2 (proximal) renal tubular acidosis (RTA) (Fanconi syndrome) (Option C) due to ifosfamide. This patient has a non-anion gap acidosis, which is determined by the following equation:Albumin-Corrected Anion Gap = Serum Sodium (mEq/L) – (Serum Chloride [mEq/L] + Serum Bicarbonate [mEq/L]) + 2.5(4.0 – Serum Albumin [g/dL])Or, in this case,8.5 mEq/L= 136 mEq/L – (112 mEq/L +18 mEq/L) + 2.5(4.0 − 3.0 g/dL)The primary defect in type 2 (proximal) RTA () is failure of the proximal tubule to adequately absorb filtered bicarbonate, resulting in bicarbonate loss and acidosis. Proximal RTA can be an isolated defect in bicarbonate reabsorption caused by inhibition of carbonic anhydrase or more commonly as a generalized defect in proximal tubule transport in which a multitude of solutes generally reabsorbed in the proximal tubule are affected. Hypokalemia is often present due to increased distal tubular potassium secretion; this occurs because sodium accompanies bicarbonate to the distal tubule, where sodium is reabsorbed in exchange for potassium. The patient also has evidence of generalized proximal tubule dysfunction, including glycosuria with normal serum glucose, hypophosphatemia, and low urate. Because distal hydrogen secretion is unimpaired, urine pH may be <5.5. This is frequently seen in patients taking ifosfamide.Mixed (type 3) RTA (Option A) is exceedingly rare and is associated with congenital type II carbonic anhydrase deficiency. Defects in both proximal and distal hydrogen ion secretion are present. This patient's ifosfamide use and urine pH of 5.0 are most consistent with a type 2 (proximal) RTA.Type 1 RTA (Option B) does not cause proximal tubule dysfunction and, because distal hydrogen secretion is defective, urine pH in these cases is always >5.5. This patient's urine pH of 5.0 rules out a type 1 RTA.In type 4 RTA (Option D), which is most commonly seen in patients with diabetes, hyperkalemia will be present. Drug-induced type 4 RTA can be caused by numerous drugs that reduce aldosterone production, including ACE inhibitors, angiotensin receptor blockers, direct renin inhibitors, heparin, and cyclooxygenase-2 inhibitors. Although this patient takes losartan, he does not have diabetes nor hyperkalemia, ruling out type 4 RTA.",
   "educational_objective": "Diagnose the cause of a non-anion gap acidosis.",
-  "extracted_at": "2025-12-22T20:07:12.216301-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 47-year-old man is evaluated in the emergency department for 3 days of generalized weakness. He has metastatic soft tissue sarcoma and received his second course of ifosfamide and doxorubicin last week. He also has hypertension. Other medications are losartan, hydrochlorothiazide, and mesna.On physical examination, temperature is 36.9 °C (98.4 °F), blood pressure is 124/88 mm Hg, pulse rate is 96/min, respiration rate is 18/min, and oxygen saturation is 96% breathing ambient air. The patient appears ill. Bitemporal wasting is noted. The abdomen is nontender, and the liver is 4 cm below the right costal margin. Proximal muscle weakness is present.",
+  "question_stem": "Which of the following is the most likely cause of this patient's acid-base disorder?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Mixed renal tubular acidosis (RTA)",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Type 1 (distal) RTA",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Type 2 (proximal) RTA",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Type 4 (hyporeninemic-hypoaldosteronism) RTA",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely cause of this patient's acid-base disorder is type 2 (proximal) renal tubular acidosis (RTA) (Fanconi syndrome) (Option C) due to ifosfamide. This patient has a non-anion gap acidosis, which is determined by the following equation:Albumin-Corrected Anion Gap = Serum Sodium (mEq/L) – (Serum Chloride [mEq/L] + Serum Bicarbonate [mEq/L]) + 2.5(4.0 – Serum Albumin [g/dL])Or, in this case,8.5 mEq/L= 136 mEq/L – (112 mEq/L +18 mEq/L) + 2.5(4.0 − 3.0 g/dL)The primary defect in type 2 (proximal) RTA () is failure of the proximal tubule to adequately absorb filtered bicarbonate, resulting in bicarbonate loss and acidosis. Proximal RTA can be an isolated defect in bicarbonate reabsorption caused by inhibition of carbonic anhydrase or more commonly as a generalized defect in proximal tubule transport in which a multitude of solutes generally reabsorbed in the proximal tubule are affected. Hypokalemia is often present due to increased distal tubular potassium secretion; this occurs because sodium accompanies bicarbonate to the distal tubule, where sodium is reabsorbed in exchange for potassium. The patient also has evidence of generalized proximal tubule dysfunction, including glycosuria with normal serum glucose, hypophosphatemia, and low urate. Because distal hydrogen secretion is unimpaired, urine pH may be <5.5. This is frequently seen in patients taking ifosfamide.Mixed (type 3) RTA (Option A) is exceedingly rare and is associated with congenital type II carbonic anhydrase deficiency. Defects in both proximal and distal hydrogen ion secretion are present. This patient's ifosfamide use and urine pH of 5.0 are most consistent with a type 2 (proximal) RTA.Type 1 RTA (Option B) does not cause proximal tubule dysfunction and, because distal hydrogen secretion is defective, urine pH in these cases is always >5.5. This patient's urine pH of 5.0 rules out a type 1 RTA.In type 4 RTA (Option D), which is most commonly seen in patients with diabetes, hyperkalemia will be present. Drug-induced type 4 RTA can be caused by numerous drugs that reduce aldosterone production, including ACE inhibitors, angiotensin receptor blockers, direct renin inhibitors, heparin, and cyclooxygenase-2 inhibitors. Although this patient takes losartan, he does not have diabetes nor hyperkalemia, ruling out type 4 RTA.",
   "key_points": [
     "The primary defect in type 2 (proximal) renal tubular acidosis is failure of the proximal tubule to adequately absorb filtered bicarbonate, resulting in bicarbonate loss and acidosis; hypokalemia is also often present."
   ],
+  "references": "Palmer BF, Kelepouris E, Clegg DJ. Renal tubular acidosis and management strategies: A narrative review. Adv Ther. 2021;38:949-68. PMID: 33367987 doi:10.1007/s12325-020-01587-5",
+  "related_content": {
+    "syllabus": [
+      "npsec24003_24006"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Mixed renal tubular acidosis (RTA)"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Type 1 (distal) RTA"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Type 2 (proximal) RTA"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Type 4 (hyporeninemic-hypoaldosteronism) RTA"
-    }
-  ],
-  "question_id": "npmcq24091",
-  "question_stem": "Which of the following is the most likely cause of this patient's acid-base disorder?",
-  "question_text": "A 47-year-old man is evaluated in the emergency department for 3 days of generalized weakness. He has metastatic soft tissue sarcoma and received his second course of ifosfamide and doxorubicin last week. He also has hypertension. Other medications are losartan, hydrochlorothiazide, and mesna.On physical examination, temperature is 36.9 °C (98.4 °F), blood pressure is 124/88 mm Hg, pulse rate is 96/min, respiration rate is 18/min, and oxygen saturation is 96% breathing ambient air. The patient appears ill. Bitemporal wasting is noted. The abdomen is nontender, and the liver is 4 cm below the right costal margin. Proximal muscle weakness is present.",
-  "references": "Palmer BF, Kelepouris E, Clegg DJ. Renal tubular acidosis and management strategies: A narrative review. Adv Ther. 2021;38:949-68. PMID: 33367987 doi:10.1007/s12325-020-01587-5",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24003_24006"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:07:12.216301-06:00"
 }

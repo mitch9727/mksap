@@ -1,62 +1,62 @@
 {
+  "question_id": "enmcq24032",
   "category": "en",
-  "critique": "The most appropriate management for this patient with a fragility fracture is to perform dual-energy x-ray absorptiometry of the spine and hip (Option A). Guidelines recommend screening postmenopausal women with average risk for osteoporosis with bone mineral density (BMD) measurement beginning at age 65 years. However, patients with fragility fractures (those occurring with the equivalent of a fall from a standing height or less) of the femur, vertebra, pelvis, humerus, or radius should undergo BMD testing earlier. In these patients, BMD testing is useful to determine severity of metabolic bone disease and assess risk for future fractures. Other indications for early BMD testing include risk factors for low bone mass or osteoporosis, height loss of 4 cm (1.5 in) or more, or kyphosis (Table: Recommendations for BMD Measurement). In postmenopausal women, osteoporosis can be diagnosed clinically on the basis of the presence of a fragility fracture or a BMD T-score of –2.5 or less, provided no other explanation for low bone mass with skeletal fragility is suspected (e.g., osteomalacia). This postmenopausal woman experienced a fragility fracture; as such, bone density should be assessed now rather than at age 65 years.In patients with low BMD, especially very low BMD for age, an elevated serum alkaline phosphatase level can represent a disorder of mineral metabolism causing bone demineralization (i.e., osteomalacia). However, it can also be mildly elevated because of increased bone remodeling associated with fracture healing in patients without metabolic bone disease. Therefore, alkaline phosphatase measurement (Option B) is neither necessary nor well timed for this patient.BMD testing is not required to diagnose osteoporosis in patients with fragility fractures, but it is helpful to determine the severity of metabolic bone disease and whether additional testing is needed. In patients suspected of having a secondary cause of osteoporosis (e.g., because of malabsorption or hypercalciuria), a 24-hour urine calcium measurement (Option C) may be useful. Before an evaluation for secondary causes is initiated, the patient should first have her BMD assessed.Vitamin D deficiency is common, especially in patients being evaluated for bone and calcium disorders. However, in patients with a fracture who may have osteoporosis, vitamin D supplementation alone (Option D) is insufficient to reduce the risk for subsequent fractures. Additionally, this patient is unlikely to have vitamin D deficiency, as she takes a multivitamin with minerals.",
   "educational_objective": "Evaluate a fragility fracture in a postmenopausal woman.",
-  "extracted_at": "2025-12-23T15:17:18.255508-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 59-year-old woman is evaluated at a follow-up visit after sustaining a right distal radius fracture 6 weeks ago. The fracture was caused by a fall from standing height and was treated with open reduction and internal fixation. Menopause occurred at age 54 years. Her only medication is a daily multivitamin with minerals.Physical examination findings, including vital signs, are normal.A radiograph of her right forearm shows a healing fracture of the distal radius and appropriately positioned orthopedic hardware.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Dual-energy x-ray absorptiometry of the spine and hip",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Serum alkaline phosphatase measurement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "24-Hour urine calcium measurement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Vitamin D3 supplementation",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management for this patient with a fragility fracture is to perform dual-energy x-ray absorptiometry of the spine and hip (Option A). Guidelines recommend screening postmenopausal women with average risk for osteoporosis with bone mineral density (BMD) measurement beginning at age 65 years. However, patients with fragility fractures (those occurring with the equivalent of a fall from a standing height or less) of the femur, vertebra, pelvis, humerus, or radius should undergo BMD testing earlier. In these patients, BMD testing is useful to determine severity of metabolic bone disease and assess risk for future fractures. Other indications for early BMD testing include risk factors for low bone mass or osteoporosis, height loss of 4 cm (1.5 in) or more, or kyphosis (Table: Recommendations for BMD Measurement). In postmenopausal women, osteoporosis can be diagnosed clinically on the basis of the presence of a fragility fracture or a BMD T-score of –2.5 or less, provided no other explanation for low bone mass with skeletal fragility is suspected (e.g., osteomalacia). This postmenopausal woman experienced a fragility fracture; as such, bone density should be assessed now rather than at age 65 years.In patients with low BMD, especially very low BMD for age, an elevated serum alkaline phosphatase level can represent a disorder of mineral metabolism causing bone demineralization (i.e., osteomalacia). However, it can also be mildly elevated because of increased bone remodeling associated with fracture healing in patients without metabolic bone disease. Therefore, alkaline phosphatase measurement (Option B) is neither necessary nor well timed for this patient.BMD testing is not required to diagnose osteoporosis in patients with fragility fractures, but it is helpful to determine the severity of metabolic bone disease and whether additional testing is needed. In patients suspected of having a secondary cause of osteoporosis (e.g., because of malabsorption or hypercalciuria), a 24-hour urine calcium measurement (Option C) may be useful. Before an evaluation for secondary causes is initiated, the patient should first have her BMD assessed.Vitamin D deficiency is common, especially in patients being evaluated for bone and calcium disorders. However, in patients with a fracture who may have osteoporosis, vitamin D supplementation alone (Option D) is insufficient to reduce the risk for subsequent fractures. Additionally, this patient is unlikely to have vitamin D deficiency, as she takes a multivitamin with minerals.",
   "key_points": [
     "Fragility fractures are those occurring with the equivalent of a fall from a standing height or less.",
     "Patients with fragility fractures of the femur, vertebra, pelvis, humerus, or radius should have bone mineral density testing earlier than standard screening recommendations."
   ],
+  "references": "LeBoff MS, Greenspan SL, Insogna KL, et al. The clinician's guide to prevention and treatment of osteoporosis. Osteoporos Int. 2022;33:2049-2102. PMID: 35478046 doi:10.1007/s00198-021-05900-y",
+  "related_content": {
+    "syllabus": [
+      "ensec24008_24027"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Dual-energy x-ray absorptiometry of the spine and hip"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Serum alkaline phosphatase measurement"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "24-Hour urine calcium measurement"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Vitamin D3 supplementation"
-    }
-  ],
-  "question_id": "enmcq24032",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 59-year-old woman is evaluated at a follow-up visit after sustaining a right distal radius fracture 6 weeks ago. The fracture was caused by a fall from standing height and was treated with open reduction and internal fixation. Menopause occurred at age 54 years. Her only medication is a daily multivitamin with minerals.Physical examination findings, including vital signs, are normal.A radiograph of her right forearm shows a healing fracture of the distal radius and appropriately positioned orthopedic hardware.",
-  "references": "LeBoff MS, Greenspan SL, Insogna KL, et al. The clinician's guide to prevention and treatment of osteoporosis. Osteoporos Int. 2022;33:2049-2102. PMID: 35478046 doi:10.1007/s00198-021-05900-y",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24008_24027"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:17:18.255508-06:00"
 }

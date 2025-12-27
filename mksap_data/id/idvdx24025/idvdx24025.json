@@ -1,59 +1,59 @@
 {
+  "question_id": "idvdx24025",
   "category": "id",
-  "critique": "The most likely diagnosis is necrotizing fasciitis (Option B). The plain radiograph shows subcutaneous gas, suggesting necrotizing fasciitis resulting from traumatic inoculation of Clostridia into the subcutaneous tissues. Noncontrast CT may also be helpful in detecting gas and delineating the extent of involvement; MRI with contrast is more sensitive for visualizing soft-tissue involvement but less sensitive for detecting gas. However, imaging should not delay surgery when clinical suspicion is high. Penetrating traumatic wounds with vascular compromise are particularly prone to gas gangrene because they establish an anaerobic environment that encourages growth of Clostridia. These organisms produce toxins that lead to rapid and widespread tissue necrosis and systemic toxicity.",
   "educational_objective": "Identify subcutaneous gas characteristic of necrotizing fasciitis on a plain radiograph.",
-  "extracted_at": "2025-12-23T14:10:29.354468-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 38-year-old man is evaluated for a 2-day history of right arm pain, erythema, and fever following a traumatic injury to the arm 5 days ago.Radiograph of the right arm is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cellulitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Necrotizing fasciitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Osteomyelitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Soft-tissue sarcoma",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is necrotizing fasciitis (Option B). The plain radiograph shows subcutaneous gas, suggesting necrotizing fasciitis resulting from traumatic inoculation of Clostridia into the subcutaneous tissues. Noncontrast CT may also be helpful in detecting gas and delineating the extent of involvement; MRI with contrast is more sensitive for visualizing soft-tissue involvement but less sensitive for detecting gas. However, imaging should not delay surgery when clinical suspicion is high. Penetrating traumatic wounds with vascular compromise are particularly prone to gas gangrene because they establish an anaerobic environment that encourages growth of Clostridia. These organisms produce toxins that lead to rapid and widespread tissue necrosis and systemic toxicity.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24002_24004"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24630.34f4cf95705f3def9f5435af1c749887.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cellulitis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Necrotizing fasciitis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Osteomyelitis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Soft-tissue sarcoma"
-    }
-  ],
-  "question_id": "idvdx24025",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 38-year-old man is evaluated for a 2-day history of right arm pain, erythema, and fever following a traumatic injury to the arm 5 days ago.Radiograph of the right arm is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24002_24004"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:10:29.354468-06:00"
 }

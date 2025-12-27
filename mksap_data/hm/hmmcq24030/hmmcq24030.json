@@ -1,62 +1,62 @@
 {
+  "question_id": "hmmcq24030",
   "category": "hm",
-  "critique": "The most likely cause of this patient's anemia is spur cell hemolytic anemia secondary to decompensated cirrhosis (Option A). Patients with severe liver disease have an altered lipid metabolism that results in abnormal cholesterol deposition in the erythrocyte membrane. This results in formation of spicules of variable size and distribution on the cell surface; the spiculated erythrocytes are known as acanthocytes (spur cells). These erythrocytes are prone to hemolysis and have decreased erythrocyte survival, which often results in anemia. Spur cell hemolytic anemia in the setting of advanced decompensated liver disease is termed Zieve syndrome. Management is supportive, with transfusions provided as needed, and treatment is directed toward the underlying liver disease. Prognosis is poor and often correlates with other markers of severe liver disease. Other causes of anemia in advanced liver disease include the direct myelosuppressive effects of alcohol, nutritional deficiencies, and hypersplenism secondary to portal hypertension. This patient has laboratory features of hemolysis, with decreased serum haptoglobin level and elevated serum lactate dehydrogenase level. The presence of spiculated erythrocytes in the setting of severe liver disease make spur cell hemolytic anemia the most likely diagnosis.Paroxysmal nocturnal hemoglobinuria (Option B) is an acquired, intrinsic erythrocyte defect characterized by complement-mediated hemolysis. Although this patient has evidence of hemolysis, the presence of extensive acanthocytes and the severe underlying liver disease make spur cell anemia a more likely diagnosis.Thrombotic thrombocytopenic purpura (TTP) (Option C) is characterized by microangiopathic hemolytic anemia and thrombocytopenia. Although this patient has hemolysis, no fragmented erythrocytes or schistocytes are evident on the peripheral blood smear, making TTP unlikely.Warm autoimmune hemolytic anemia (Option D) is not frequently seen in patients with liver disease. It is characterized by spherocytes and a positive direct antiglobulin test, neither of which is present in this patient.",
   "educational_objective": "Diagnose spur cell hemolytic anemia secondary to decompensated cirrhosis.",
-  "extracted_at": "2025-12-22T19:36:47.729922-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 58-year-old man is hospitalized for worsening confusion. He has alcohol use disorder and alcohol-related cirrhosis complicated by hepatic encephalopathy, portal hypertension, and ascites. Medications are thiamine, lactulose, and rifaximin. However, he has been drinking heavily for the past 2 weeks and has not taken his medications.On physical examination, blood pressure is 101/62 mm Hg, and pulse rate is 112/min. Remaining vital signs are normal. He is oriented to self but not time or place. Jaundice is present. The abdomen is distended. The spleen is palpable 6 cm below the left costal margin. Lower extremity edema is present.A direct antiglobulin test is negative.Peripheral blood smear shows frequent (30%) acanthocytes and occasional target cells.",
+  "question_stem": "Which of the following is the most likely cause of this patient's anemia?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Decompensated cirrhosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Paroxysmal nocturnal hemoglobinuria",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Thrombotic thrombocytopenic purpura",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Warm autoimmune hemolytic anemia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely cause of this patient's anemia is spur cell hemolytic anemia secondary to decompensated cirrhosis (Option A). Patients with severe liver disease have an altered lipid metabolism that results in abnormal cholesterol deposition in the erythrocyte membrane. This results in formation of spicules of variable size and distribution on the cell surface; the spiculated erythrocytes are known as acanthocytes (spur cells). These erythrocytes are prone to hemolysis and have decreased erythrocyte survival, which often results in anemia. Spur cell hemolytic anemia in the setting of advanced decompensated liver disease is termed Zieve syndrome. Management is supportive, with transfusions provided as needed, and treatment is directed toward the underlying liver disease. Prognosis is poor and often correlates with other markers of severe liver disease. Other causes of anemia in advanced liver disease include the direct myelosuppressive effects of alcohol, nutritional deficiencies, and hypersplenism secondary to portal hypertension. This patient has laboratory features of hemolysis, with decreased serum haptoglobin level and elevated serum lactate dehydrogenase level. The presence of spiculated erythrocytes in the setting of severe liver disease make spur cell hemolytic anemia the most likely diagnosis.Paroxysmal nocturnal hemoglobinuria (Option B) is an acquired, intrinsic erythrocyte defect characterized by complement-mediated hemolysis. Although this patient has evidence of hemolysis, the presence of extensive acanthocytes and the severe underlying liver disease make spur cell anemia a more likely diagnosis.Thrombotic thrombocytopenic purpura (TTP) (Option C) is characterized by microangiopathic hemolytic anemia and thrombocytopenia. Although this patient has hemolysis, no fragmented erythrocytes or schistocytes are evident on the peripheral blood smear, making TTP unlikely.Warm autoimmune hemolytic anemia (Option D) is not frequently seen in patients with liver disease. It is characterized by spherocytes and a positive direct antiglobulin test, neither of which is present in this patient.",
   "key_points": [
     "Patients with severe decompensated liver disease form spiculated cells, termed acanthocytes (spur cells), that result from abnormal cholesterol deposition on the erythrocyte; these patients are prone to hemolysis.",
     "Hemolytic anemia of advanced liver disease, termed Zieve syndrome, is associated with advanced liver disease and portends a poor prognosis."
   ],
+  "references": "Sharma R, Holman CJ, Brown KE. A thorny matter: spur cell anemia. Ann Hepatol. 2023;28:100771. PMID: 36241039 doi:10.1016/j.aohep.2022.100771",
+  "related_content": {
+    "syllabus": [
+      "hmsec24004_24015"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Decompensated cirrhosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Paroxysmal nocturnal hemoglobinuria"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Thrombotic thrombocytopenic purpura"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Warm autoimmune hemolytic anemia"
-    }
-  ],
-  "question_id": "hmmcq24030",
-  "question_stem": "Which of the following is the most likely cause of this patient's anemia?",
-  "question_text": "A 58-year-old man is hospitalized for worsening confusion. He has alcohol use disorder and alcohol-related cirrhosis complicated by hepatic encephalopathy, portal hypertension, and ascites. Medications are thiamine, lactulose, and rifaximin. However, he has been drinking heavily for the past 2 weeks and has not taken his medications.On physical examination, blood pressure is 101/62 mm Hg, and pulse rate is 112/min. Remaining vital signs are normal. He is oriented to self but not time or place. Jaundice is present. The abdomen is distended. The spleen is palpable 6 cm below the left costal margin. Lower extremity edema is present.A direct antiglobulin test is negative.Peripheral blood smear shows frequent (30%) acanthocytes and occasional target cells.",
-  "references": "Sharma R, Holman CJ, Brown KE. A thorny matter: spur cell anemia. Ann Hepatol. 2023;28:100771. PMID: 36241039 doi:10.1016/j.aohep.2022.100771",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24004_24015"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:36:47.729922-06:00"
 }

@@ -1,62 +1,62 @@
 {
+  "question_id": "hmmcq24063",
   "category": "hm",
-  "critique": "This patient with advanced kidney disease and venous thromboembolic disease should be treated with apixaban (Option A). Direct oral anticoagulants (DOACs) such as apixaban, rivaroxaban, and edoxaban are the preferred treatment option for most patients with venous thromboembolism (VTE). All DOACs are at least partially eliminated through the kidney, and dose adjustment may be required in patients with advanced chronic kidney disease. Apixaban has the lowest kidney elimination rate (25%) and can be used by patients with advanced kidney disease with close monitoring. It is the only DOAC approved for use in patients receiving hemodialysis. In patients with VTE in the setting of advanced kidney disease, unfractionated heparin transitioning to warfarin for long-term anticoagulation is another reasonable treatment option. Data from a 2019 systematic review and meta-analysis suggest that DOACs may also be preferred to vitamin K antagonists such as warfarin in patients with atrial fibrillation and early-stage chronic kidney disease (estimated glomerular filtration rate <60 mL/min/1.73 m2). This patient with deep venous thrombosis (DVT) in the setting of end-stage kidney disease requiring hemodialysis should be treated with apixaban.Insertion of an inferior vena cava (IVC) filter (Option B) may be considered in patients with acute venous thromboembolic disease and an absolute contraindication to anticoagulation. IVC filters increase the risk of subsequent DVT. If an IVC filter is placed, a temporary filter is preferred and should be removed as soon as the indication for the filter has been resolved. This patient with end-stage kidney disease on hemodialysis can be safely treated with apixaban.Low-molecular-weight heparin (Option C) is cleared through the kidneys, and its biological half-life is significantly increased in patients with kidney disease. In this patient with end-stage kidney disease and venous thromboembolic disease, treatment with a DOAC such as apixaban is more appropriate.Rivaroxaban (Option D) is a factor Xa inhibitor that, similar to apixaban, can be initiated as a monotherapy for acute VTE. However, rivaroxaban has significant kidney elimination (66%), and dose adjustment is needed in patients with advanced chronic kidney disease. Apixaban is the safer and more appropriate treatment for this patient with end-stage kidney disease.",
   "educational_objective": "Treat deep venous thrombosis in a patient with end-stage kidney disease.",
-  "extracted_at": "2025-12-22T19:37:05.686800-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 70-year-old man is hospitalized for acute pain and swelling of the right lower extremity. He has hypertension and end-stage polycystic kidney disease and started hemodialysis 6 months ago. Medications are amlodipine, lisinopril, sevelamer, and B-complex multivitamins.On physical examination, vital signs are normal. There is a left upper extremity arteriovenous fistula with a thrill. Right lower extremity swelling is present. Tenderness is elicited with touch over the right calf and thigh. Pulses are intact, and sensation and capillary refill are normal.Ultrasound shows extensive nonocclusive thrombosis of the right femoral vein.",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Apixaban",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Inferior vena cava filter placement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Low-molecular-weight heparin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Rivaroxaban",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient with advanced kidney disease and venous thromboembolic disease should be treated with apixaban (Option A). Direct oral anticoagulants (DOACs) such as apixaban, rivaroxaban, and edoxaban are the preferred treatment option for most patients with venous thromboembolism (VTE). All DOACs are at least partially eliminated through the kidney, and dose adjustment may be required in patients with advanced chronic kidney disease. Apixaban has the lowest kidney elimination rate (25%) and can be used by patients with advanced kidney disease with close monitoring. It is the only DOAC approved for use in patients receiving hemodialysis. In patients with VTE in the setting of advanced kidney disease, unfractionated heparin transitioning to warfarin for long-term anticoagulation is another reasonable treatment option. Data from a 2019 systematic review and meta-analysis suggest that DOACs may also be preferred to vitamin K antagonists such as warfarin in patients with atrial fibrillation and early-stage chronic kidney disease (estimated glomerular filtration rate <60 mL/min/1.73 m2). This patient with deep venous thrombosis (DVT) in the setting of end-stage kidney disease requiring hemodialysis should be treated with apixaban.Insertion of an inferior vena cava (IVC) filter (Option B) may be considered in patients with acute venous thromboembolic disease and an absolute contraindication to anticoagulation. IVC filters increase the risk of subsequent DVT. If an IVC filter is placed, a temporary filter is preferred and should be removed as soon as the indication for the filter has been resolved. This patient with end-stage kidney disease on hemodialysis can be safely treated with apixaban.Low-molecular-weight heparin (Option C) is cleared through the kidneys, and its biological half-life is significantly increased in patients with kidney disease. In this patient with end-stage kidney disease and venous thromboembolic disease, treatment with a DOAC such as apixaban is more appropriate.Rivaroxaban (Option D) is a factor Xa inhibitor that, similar to apixaban, can be initiated as a monotherapy for acute VTE. However, rivaroxaban has significant kidney elimination (66%), and dose adjustment is needed in patients with advanced chronic kidney disease. Apixaban is the safer and more appropriate treatment for this patient with end-stage kidney disease.",
   "key_points": [
     "Although all direct oral anticoagulants are at least partially cleared through the kidney, apixaban has the lowest renal elimination and is the preferred direct oral anticoagulant for use in patients with advanced kidney disease undergoing dialysis.",
     "Low-molecular-weight heparin is cleared through the kidneys and requires dose adjustment or, preferably, use of an alternate anticoagulant in patients with advanced kidney disease."
   ],
+  "references": "Hanni C, Petrovitch E, Ali M, et al. Outcomes associated with apixaban vs warfarin in patients with renal dysfunction. Blood Adv. 2020;4:2366-2371. PMID: 32463871 doi:10.1182/bloodadvances.2019000972",
+  "related_content": {
+    "syllabus": [
+      "hmsec24009_24034"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Apixaban"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Inferior vena cava filter placement"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Low-molecular-weight heparin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Rivaroxaban"
-    }
-  ],
-  "question_id": "hmmcq24063",
-  "question_stem": "Which of the following is the most appropriate treatment?",
-  "question_text": "A 70-year-old man is hospitalized for acute pain and swelling of the right lower extremity. He has hypertension and end-stage polycystic kidney disease and started hemodialysis 6 months ago. Medications are amlodipine, lisinopril, sevelamer, and B-complex multivitamins.On physical examination, vital signs are normal. There is a left upper extremity arteriovenous fistula with a thrill. Right lower extremity swelling is present. Tenderness is elicited with touch over the right calf and thigh. Pulses are intact, and sensation and capillary refill are normal.Ultrasound shows extensive nonocclusive thrombosis of the right femoral vein.",
-  "references": "Hanni C, Petrovitch E, Ali M, et al. Outcomes associated with apixaban vs warfarin in patients with renal dysfunction. Blood Adv. 2020;4:2366-2371. PMID: 32463871 doi:10.1182/bloodadvances.2019000972",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24009_24034"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:37:05.686800-06:00"
 }

@@ -1,66 +1,66 @@
 {
+  "question_id": "idmcq24066",
   "category": "id",
-  "critique": "The most likely diagnosis is measles (Option C). Measles has re-emerged in the United States because of low vaccination rates and reintroduction of the virus from endemic countries. Measles is a highly contagious viral infection that presents with high fever, rhinorrhea, cough, Koplik spots (white spots insides the cheeks), conjunctivitis, and a diffuse macular rash. Complications include otitis media, pneumonia, encephalitis, subacute sclerosing panencephalitis, and death. Real-time polymerase chain reaction (PCR) of viral RNA in respiratory and urine samples and measles-specific IgM in serum confirm the diagnosis. Both tests are highly specific, but PCR has a sensitivity of nearly 100%; the rapid antigen tests have a sensitivity between 59% and 93%. Suspected cases should be reported to the local health department within 24 hours. Treatment of measles is supportive, and patients should be placed in a room with airborne precautions. This patient is not immunized against measles and is from a country where recent measles outbreaks are occurring. His clinical presentation, including conjunctivitis, cough, and Koplik spots, are highly suspicious for this re-emerging viral infection.Acute HIV infection (Option A) can present with fever and a rash but typically does not include runny nose, watery eyes, cough, and white spots inside the mouth. Additionally, his last sexual encounter was 6 months ago, making acute infection unlikely.Infectious mononucleosis is caused by viral infections, most commonly Epstein-Barr virus (Option B), and typically presents with fever, pharyngitis, lymphadenopathy, and fatigue. Some patients may have palatal petechiae, splenomegaly, and occasionally a maculopapular rash. This patient does not have pharyngitis and has characteristic Koplik spots on examination; mononucleosis is unlikely.Mumps virus (Option D) is another re-emerging vaccine-preventable viral infection that can cause parotitis associated with low-grade fever, headache, and malaise. Complications include orchitis, meningitis, pancreatitis, encephalitis, and hearing loss. Real-time PCR of a buccal swab confirms the diagnosis; mumps-specific IgM can also be used. Mumps typically does not present with high fever, rash, cough, or rhinorrhea; this patient also lacks parotitis. Mumps is unlikely in this patient.Scarlet fever (Option E) is caused by infection with group A Streptococcus. Symptoms include fever and sore throat. Characteristic examination findings include a white coating on the tongue and a red and bumpy “strawberry” tongue. The rash seen with scarlet fever is blanching and papular with a sandpaper-like texture. This patient's presentation is not consistent with scarlet fever.",
   "educational_objective": "Diagnose suspected measles infection.",
-  "extracted_at": "2025-12-22T19:47:09.340815-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 24-year-old man is evaluated in the emergency department during the summer with fever, runny nose, cough, watery red eyes, and a diffuse macular rash. He recently emigrated from Yemen and has not received any vaccinations. His last sexual encounter was 6 months ago.On physical examination, temperature is 39.0 °C (102.2 °F), blood pressure is 137/84 mm Hg, pulse rate is 124/min, and respiration rate is 18/min. Oxygen saturation is 98% breathing ambient air. Rhinorrhea, conjunctival erythema, small white spots inside the cheeks, and a diffuse macular rash are noted.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute HIV infection",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Epstein-Barr virus",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Measles",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Mumps",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "Scarlet fever",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is measles (Option C). Measles has re-emerged in the United States because of low vaccination rates and reintroduction of the virus from endemic countries. Measles is a highly contagious viral infection that presents with high fever, rhinorrhea, cough, Koplik spots (white spots insides the cheeks), conjunctivitis, and a diffuse macular rash. Complications include otitis media, pneumonia, encephalitis, subacute sclerosing panencephalitis, and death. Real-time polymerase chain reaction (PCR) of viral RNA in respiratory and urine samples and measles-specific IgM in serum confirm the diagnosis. Both tests are highly specific, but PCR has a sensitivity of nearly 100%; the rapid antigen tests have a sensitivity between 59% and 93%. Suspected cases should be reported to the local health department within 24 hours. Treatment of measles is supportive, and patients should be placed in a room with airborne precautions. This patient is not immunized against measles and is from a country where recent measles outbreaks are occurring. His clinical presentation, including conjunctivitis, cough, and Koplik spots, are highly suspicious for this re-emerging viral infection.Acute HIV infection (Option A) can present with fever and a rash but typically does not include runny nose, watery eyes, cough, and white spots inside the mouth. Additionally, his last sexual encounter was 6 months ago, making acute infection unlikely.Infectious mononucleosis is caused by viral infections, most commonly Epstein-Barr virus (Option B), and typically presents with fever, pharyngitis, lymphadenopathy, and fatigue. Some patients may have palatal petechiae, splenomegaly, and occasionally a maculopapular rash. This patient does not have pharyngitis and has characteristic Koplik spots on examination; mononucleosis is unlikely.Mumps virus (Option D) is another re-emerging vaccine-preventable viral infection that can cause parotitis associated with low-grade fever, headache, and malaise. Complications include orchitis, meningitis, pancreatitis, encephalitis, and hearing loss. Real-time PCR of a buccal swab confirms the diagnosis; mumps-specific IgM can also be used. Mumps typically does not present with high fever, rash, cough, or rhinorrhea; this patient also lacks parotitis. Mumps is unlikely in this patient.Scarlet fever (Option E) is caused by infection with group A Streptococcus. Symptoms include fever and sore throat. Characteristic examination findings include a white coating on the tongue and a red and bumpy “strawberry” tongue. The rash seen with scarlet fever is blanching and papular with a sandpaper-like texture. This patient's presentation is not consistent with scarlet fever.",
   "key_points": [
     "Measles presents with high fever, rhinorrhea, cough, Koplik spots (white spots inside the cheeks), conjunctivitis, and a diffuse macular rash."
   ],
+  "references": "Hübschen JM, Gouandjika-Vasilache I, Dina J. Measles. Lancet. 2022;399:678-690. PMID: 35093206 doi:10.1016/S0140-6736(21)02004-3",
+  "related_content": {
+    "syllabus": [
+      "idsec24020_24019"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24203.d7daa0223536770652540d21186ca7ce.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acute HIV infection"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Epstein-Barr virus"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Measles"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Mumps"
-    },
-    {
-      "letter": "E",
-      "peer_percentage": 0,
-      "text": "Scarlet fever"
-    }
-  ],
-  "question_id": "idmcq24066",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 24-year-old man is evaluated in the emergency department during the summer with fever, runny nose, cough, watery red eyes, and a diffuse macular rash. He recently emigrated from Yemen and has not received any vaccinations. His last sexual encounter was 6 months ago.On physical examination, temperature is 39.0 °C (102.2 °F), blood pressure is 137/84 mm Hg, pulse rate is 124/min, and respiration rate is 18/min. Oxygen saturation is 98% breathing ambient air. Rhinorrhea, conjunctival erythema, small white spots inside the cheeks, and a diffuse macular rash are noted.",
-  "references": "Hübschen JM, Gouandjika-Vasilache I, Dina J. Measles. Lancet. 2022;399:678-690. PMID: 35093206 doi:10.1016/S0140-6736(21)02004-3",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24020_24019"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:47:09.340815-06:00"
 }

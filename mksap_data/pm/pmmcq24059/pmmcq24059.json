@@ -1,62 +1,62 @@
 {
+  "question_id": "pmmcq24059",
   "category": "pm",
-  "critique": "The most appropriate treatment in this patient with a COPD exacerbation is a short course of an antibiotic, such as doxycycline (Option A). Common triggers for exacerbations of COPD include continued tobacco use, environmental exposures, and respiratory infection. Although the most common infectious triggers of COPD are viruses, bacterial infection may occur, including that caused by Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis, and Mycoplasma pneumoniae. A 2020 systemic review and meta-analysis showed that for mild to severe COPD exacerbations, the simultaneous administration of antibiotics and oral glucocorticoids reduced treatment failure. Antibiotics should be prescribed for 5 to 7 days in cases of exacerbations requiring invasive or noninvasive mechanical ventilation or for patients who have noted an increase or change in sputum production. This patient has a COPD exacerbation, as evidenced by increased shortness of breath, worsening cough, and increased sputum production. The frequency and characteristics of her sputum have changed, and she should receive an antibiotic, such as doxycycline, that provides coverage of the typical bacterial respiratory pathogens.For patients with a COPD exacerbation and acute hypercapnic respiratory failure with acidosis, noninvasive positive-pressure ventilation (PPV) (Option B) improves symptoms and reduces intubation rates, length of hospital stay, and mortality. This patient, however, has no evidence of respiratory failure and has a normal pH and Pco2; noninvasive PPV is not indicated.A sputum culture (Option C) is unnecessary in this patient. Although she has had a change in the frequency and characteristics of her sputum, the results of a sputum culture rarely affect management, and the test is not routinely used in patients with COPD exacerbations to direct antimicrobial therapy.When used as a long-term medication in COPD, theophylline (Option D) can improve functional capacity and reduce the frequency of exacerbations. However, it has a narrow therapeutic window, and use is reserved for patients with advanced COPD with symptoms unresponsive to standard therapy. Neither theophylline nor aminophylline, however, is beneficial in the setting of an acute exacerbation, and theophylline is not indicated in this patient.",
   "educational_objective": "Treat a patient with a COPD exacerbation with antibiotics.",
-  "extracted_at": "2025-12-23T14:15:53.090232-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 64-year-old woman is evaluated in the emergency department for a 1-week history of increased shortness of breath. She has had a concomitant worsening of her chronic cough and increased sputum production, which has changed in color from white to yellow-green with a thicker consistency than usual. She has COPD and receives budesonide-glycopyrrolate-formoterol inhaled daily. She has a 44-pack-year history of tobacco use and continues to smoke one pack per day. She has no other medical problems and takes no other medications.On physical examination, respiration rate is 17/min; other vital signs are normal. Oxygen saturation is 93% with the patient breathing ambient air. Lung examination reveals diffuse wheezing and bilateral rhonchi in the lower lobes.Nebulized albuterol-ipratropium and prednisone are started.",
+  "question_stem": "Which of the following is the most appropriate additional management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Doxycycline",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Noninvasive positive-pressure ventilation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Sputum culture",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Theophylline",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment in this patient with a COPD exacerbation is a short course of an antibiotic, such as doxycycline (Option A). Common triggers for exacerbations of COPD include continued tobacco use, environmental exposures, and respiratory infection. Although the most common infectious triggers of COPD are viruses, bacterial infection may occur, including that caused by Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis, and Mycoplasma pneumoniae. A 2020 systemic review and meta-analysis showed that for mild to severe COPD exacerbations, the simultaneous administration of antibiotics and oral glucocorticoids reduced treatment failure. Antibiotics should be prescribed for 5 to 7 days in cases of exacerbations requiring invasive or noninvasive mechanical ventilation or for patients who have noted an increase or change in sputum production. This patient has a COPD exacerbation, as evidenced by increased shortness of breath, worsening cough, and increased sputum production. The frequency and characteristics of her sputum have changed, and she should receive an antibiotic, such as doxycycline, that provides coverage of the typical bacterial respiratory pathogens.For patients with a COPD exacerbation and acute hypercapnic respiratory failure with acidosis, noninvasive positive-pressure ventilation (PPV) (Option B) improves symptoms and reduces intubation rates, length of hospital stay, and mortality. This patient, however, has no evidence of respiratory failure and has a normal pH and Pco2; noninvasive PPV is not indicated.A sputum culture (Option C) is unnecessary in this patient. Although she has had a change in the frequency and characteristics of her sputum, the results of a sputum culture rarely affect management, and the test is not routinely used in patients with COPD exacerbations to direct antimicrobial therapy.When used as a long-term medication in COPD, theophylline (Option D) can improve functional capacity and reduce the frequency of exacerbations. However, it has a narrow therapeutic window, and use is reserved for patients with advanced COPD with symptoms unresponsive to standard therapy. Neither theophylline nor aminophylline, however, is beneficial in the setting of an acute exacerbation, and theophylline is not indicated in this patient.",
   "key_points": [
     "The combination of antibiotics and oral glucocorticoids may reduce treatment failure in patients with mild to severe COPD exacerbations.",
     "Patients with a COPD exacerbation requiring ventilatory support or with an increase or change in sputum production should receive a 5- to 7-day course of antibiotics."
   ],
+  "references": "Global Initiative for Chronic Obstructive Lung Disease. Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease. 2025 Report. https://goldcopd.org/2025-gold-report/. Accessed May 20, 2025.",
+  "related_content": {
+    "syllabus": [
+      "pmsec24002_24052"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Doxycycline"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Noninvasive positive-pressure ventilation"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Sputum culture"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Theophylline"
-    }
-  ],
-  "question_id": "pmmcq24059",
-  "question_stem": "Which of the following is the most appropriate additional management?",
-  "question_text": "A 64-year-old woman is evaluated in the emergency department for a 1-week history of increased shortness of breath. She has had a concomitant worsening of her chronic cough and increased sputum production, which has changed in color from white to yellow-green with a thicker consistency than usual. She has COPD and receives budesonide-glycopyrrolate-formoterol inhaled daily. She has a 44-pack-year history of tobacco use and continues to smoke one pack per day. She has no other medical problems and takes no other medications.On physical examination, respiration rate is 17/min; other vital signs are normal. Oxygen saturation is 93% with the patient breathing ambient air. Lung examination reveals diffuse wheezing and bilateral rhonchi in the lower lobes.Nebulized albuterol-ipratropium and prednisone are started.",
-  "references": "Global Initiative for Chronic Obstructive Lung Disease. Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease. 2025 Report. https://goldcopd.org/2025-gold-report/. Accessed May 20, 2025.",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24002_24052"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.090232-06:00"
 }

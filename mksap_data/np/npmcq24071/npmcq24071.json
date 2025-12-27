@@ -1,62 +1,62 @@
 {
+  "question_id": "npmcq24071",
   "category": "np",
-  "critique": "The most appropriate treatment is intravenous isotonic sodium bicarbonate infusion (Option D) in this patient with acute kidney injury (AKI), volume depletion, and metabolic acidosis. In most cases of AKI, treatment consists of addressing underlying medical conditions, discontinuation of nephrotoxic medications, and supportive measures. Supportive measures include the following:Optimizing hemodynamics and renal perfusion (diuretics for volume overload or fluids for hypovolemia)Preventing further kidney injury by avoiding nephrotoxic medicationsTreating AKI complications such as hyperkalemia and metabolic acidosisProviding appropriate nutritionIn patients with volume depletion and metabolic acidosis, intravenous isotonic sodium bicarbonate can be administered to correct both problems. This patient has prerenal AKI due to severe volume depletion from increased ileostomy output caused by suspected viral gastroenteritis. Volume depletion is evidenced by hypotension, tachycardia, dry mucosae, concentrated hemoglobin, hypernatremia, and urinary sodium <20 mEq/L (20 mmol/L). Additionally, the patient has both an anion and a non–anion gap metabolic acidosis (because of kidney failure and stool bicarbonate losses, respectively) (see Metabolic Acidosis in Nephrology). The treatment of choice is infusion of isotonic sodium bicarbonate to replace volume and bicarbonate while continuing to medically manage the hyperkalemia.Kidney replacement therapy (KRT), such as continuous KRT (CKRT) (Option A) or intermittent hemodialysis (Option B), is indicated to treat patients with AKI and complications such as hyperkalemia, metabolic acidosis, or volume overload that are refractory to medical management or those with uremic complications. Notably, studies of the timing of KRT initiation in critically ill patients and those with sepsis demonstrate no mortality benefit for early introduction of KRT versus that based on usual clinical criteria; in fact, the latter strategy was sometimes associated with avoiding the need for KRT. Therefore, before KRT is considered, conservative measures such as volume and bicarbonate repletion and medical treatment of hyperkalemia must be proven ineffective. KRT is not yet indicated for this patient.Intravenous albumin (Option C) is not the volume expander of choice in this patient with significant gastrointestinal fluid losses resulting in severe metabolic acidosis and AKI. Intravenous isotonic sodium bicarbonate is preferred because it will correct the hypovolemia and treat the metabolic acidosis.",
   "educational_objective": "Treat prerenal acute kidney injury.",
-  "extracted_at": "2025-12-22T20:07:01.869265-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "An 82-year-old man is evaluated in the emergency department for confusion and increased ileostomy output due to suspected viral gastroenteritis. He underwent hemicolectomy with ileostomy for colon cancer 7 years ago. He also has hypertension. His only outpatient medication is amlodipine. He lives in a nursing home.On physical examination, blood pressure is 86/56 mm Hg, and pulse rate is 120/min. Mucosae are dry. There is diffuse abdominal tenderness with no rebound or guarding. The remainder of the examination is unremarkable.An ECG shows sinus tachycardia. Kidney ultrasound is normal.Intravenous calcium gluconate, glucose, and insulin are administered.",
+  "question_stem": "Which of the following is the most appropriate treatment for this patient's acute kidney injury?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Continuous kidney replacement therapy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Intermittent hemodialysis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Intravenous albumin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Intravenous isotonic sodium bicarbonate infusion",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment is intravenous isotonic sodium bicarbonate infusion (Option D) in this patient with acute kidney injury (AKI), volume depletion, and metabolic acidosis. In most cases of AKI, treatment consists of addressing underlying medical conditions, discontinuation of nephrotoxic medications, and supportive measures. Supportive measures include the following:Optimizing hemodynamics and renal perfusion (diuretics for volume overload or fluids for hypovolemia)Preventing further kidney injury by avoiding nephrotoxic medicationsTreating AKI complications such as hyperkalemia and metabolic acidosisProviding appropriate nutritionIn patients with volume depletion and metabolic acidosis, intravenous isotonic sodium bicarbonate can be administered to correct both problems. This patient has prerenal AKI due to severe volume depletion from increased ileostomy output caused by suspected viral gastroenteritis. Volume depletion is evidenced by hypotension, tachycardia, dry mucosae, concentrated hemoglobin, hypernatremia, and urinary sodium <20 mEq/L (20 mmol/L). Additionally, the patient has both an anion and a non–anion gap metabolic acidosis (because of kidney failure and stool bicarbonate losses, respectively) (see Metabolic Acidosis in Nephrology). The treatment of choice is infusion of isotonic sodium bicarbonate to replace volume and bicarbonate while continuing to medically manage the hyperkalemia.Kidney replacement therapy (KRT), such as continuous KRT (CKRT) (Option A) or intermittent hemodialysis (Option B), is indicated to treat patients with AKI and complications such as hyperkalemia, metabolic acidosis, or volume overload that are refractory to medical management or those with uremic complications. Notably, studies of the timing of KRT initiation in critically ill patients and those with sepsis demonstrate no mortality benefit for early introduction of KRT versus that based on usual clinical criteria; in fact, the latter strategy was sometimes associated with avoiding the need for KRT. Therefore, before KRT is considered, conservative measures such as volume and bicarbonate repletion and medical treatment of hyperkalemia must be proven ineffective. KRT is not yet indicated for this patient.Intravenous albumin (Option C) is not the volume expander of choice in this patient with significant gastrointestinal fluid losses resulting in severe metabolic acidosis and AKI. Intravenous isotonic sodium bicarbonate is preferred because it will correct the hypovolemia and treat the metabolic acidosis.",
   "key_points": [
     "Most cases of acute kidney injury can be treated by addressing underlying medical conditions, discontinuing nephrotoxic medications, and supportive measures.",
     "Studies of the timing of kidney replacement therapy (KRT) initiation in critically ill patients and those with sepsis demonstrate no mortality benefit for early introduction of KRT versus that based on usual clinical criteria."
   ],
+  "references": "Barbar SD, Clere-Jehl R, Bourredjem A, et al; IDEAL-ICU Trial Investigators and the CRICS TRIGGERSEP Network. Timing of renal-replacement therapy in patients with acute kidney injury and sepsis. N Engl J Med. 2018;379:1431-42. PMID: 30304656 doi:10.1056/NEJMo803213",
+  "related_content": {
+    "syllabus": [
+      "npsec24006_24027"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Continuous kidney replacement therapy"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Intermittent hemodialysis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Intravenous albumin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Intravenous isotonic sodium bicarbonate infusion"
-    }
-  ],
-  "question_id": "npmcq24071",
-  "question_stem": "Which of the following is the most appropriate treatment for this patient's acute kidney injury?",
-  "question_text": "An 82-year-old man is evaluated in the emergency department for confusion and increased ileostomy output due to suspected viral gastroenteritis. He underwent hemicolectomy with ileostomy for colon cancer 7 years ago. He also has hypertension. His only outpatient medication is amlodipine. He lives in a nursing home.On physical examination, blood pressure is 86/56 mm Hg, and pulse rate is 120/min. Mucosae are dry. There is diffuse abdominal tenderness with no rebound or guarding. The remainder of the examination is unremarkable.An ECG shows sinus tachycardia. Kidney ultrasound is normal.Intravenous calcium gluconate, glucose, and insulin are administered.",
-  "references": "Barbar SD, Clere-Jehl R, Bourredjem A, et al; IDEAL-ICU Trial Investigators and the CRICS TRIGGERSEP Network. Timing of renal-replacement therapy in patients with acute kidney injury and sepsis. N Engl J Med. 2018;379:1431-42. PMID: 30304656 doi:10.1056/NEJMo803213",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24006_24027"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:07:01.869265-06:00"
 }

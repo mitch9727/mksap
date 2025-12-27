@@ -420,7 +420,7 @@ Check what was actually extracted:
 cat mksap_data/cv/cvmcq24001/cvmcq24001.json | jq .
 
 # View metadata
-cat mksap_data/cv/cvmcq24001/cvmcq24001_metadata.txt
+cat mksap_data/cv/cvmcq24001/cvmcq24001.json
 
 # Count questions by system
 for dir in mksap_data/*/; do

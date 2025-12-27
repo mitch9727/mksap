@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24015",
   "category": "cv",
-  "critique": "This ECG is most consistent with atrioventricular nodal reentrant tachycardia (AVNRT) (Option C). AVNRT accounts for two thirds of all supraventricular tachycardias. Patients with AVNRT have dual atrioventricular (AV) node physiology—two mechanisms of conduction through the AV node. One conducts the electrical impulse rapidly but has a prolonged refractory period (fast pathway), and the second has slower conduction but a short refractory period (slow pathway). During sinus conduction, the impulse can travel down both pathways; however, electrical conduction down the slow pathway is blocked because of the “retrograde wave” produced by electrical conduction down and back up the fast pathway. If a premature beat is correctly timed, the conduction can block in the fast pathway and travel down the slow pathway to activate the ventricles and also retrograde up the fast pathway to activate the atria (for typical slow-fast AVNRT), thus creating a circuit and a sustained tachycardia with a ventricular rate between 120/min and 220/min.In the most common variety of AVNRT, the P wave is buried in the QRS complex, or only a portion of the P wave can be discerned, altering the morphology of the QRS complex (pseudo-RSR′ in V1). In this ECG, the P waves are hidden within the QRS complex, suggesting AVNRT. In contrast, in both atrial tachycardia and sinus tachycardia, P waves are visible preceding the QRS complex; in antidromic atrioventricular reciprocating tachycardia, the QRS complex is wide, owing to impulse conduction over an accessory bypass tract and outside the normal ventricular conduction system.",
   "educational_objective": "Identify atrioventricular nodal reentrant tachycardia on ECG.",
-  "extracted_at": "2025-12-23T14:08:40.373675-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 25-year-old man is evaluated for palpitations and lightheadedness.ECG is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Antidromic atrioventricular reciprocating tachycardia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Atrial tachycardia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Atrioventricular nodal reentrant tachycardia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sinus tachycardia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This ECG is most consistent with atrioventricular nodal reentrant tachycardia (AVNRT) (Option C). AVNRT accounts for two thirds of all supraventricular tachycardias. Patients with AVNRT have dual atrioventricular (AV) node physiology—two mechanisms of conduction through the AV node. One conducts the electrical impulse rapidly but has a prolonged refractory period (fast pathway), and the second has slower conduction but a short refractory period (slow pathway). During sinus conduction, the impulse can travel down both pathways; however, electrical conduction down the slow pathway is blocked because of the “retrograde wave” produced by electrical conduction down and back up the fast pathway. If a premature beat is correctly timed, the conduction can block in the fast pathway and travel down the slow pathway to activate the ventricles and also retrograde up the fast pathway to activate the atria (for typical slow-fast AVNRT), thus creating a circuit and a sustained tachycardia with a ventricular rate between 120/min and 220/min.In the most common variety of AVNRT, the P wave is buried in the QRS complex, or only a portion of the P wave can be discerned, altering the morphology of the QRS complex (pseudo-RSR′ in V1). In this ECG, the P waves are hidden within the QRS complex, suggesting AVNRT. In contrast, in both atrial tachycardia and sinus tachycardia, P waves are visible preceding the QRS complex; in antidromic atrioventricular reciprocating tachycardia, the QRS complex is wide, owing to impulse conduction over an accessory bypass tract and outside the normal ventricular conduction system.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24014"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24617.6f84679d9e438325241d417c26e7f086.png"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Antidromic atrioventricular reciprocating tachycardia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Atrial tachycardia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Atrioventricular nodal reentrant tachycardia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Sinus tachycardia"
-    }
-  ],
-  "question_id": "cvvdx24015",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 25-year-old man is evaluated for palpitations and lightheadedness.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24006_24014"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.373675-06:00"
 }

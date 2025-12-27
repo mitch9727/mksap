@@ -1,59 +1,59 @@
 {
+  "question_id": "idvdx24038",
   "category": "id",
-  "critique": "The most likely diagnosis is vertebral osteomyelitis (Option D). Typical findings in hematogenous vertebral osteomyelitis consist of destructive changes of two contiguous vertebral bodies with collapse of the intervening disk space. This image shows osteopenia of the affected vertebrae, loss of visible disk margins in some areas, narrowing of the disk space, and erosions into the vertebral bodies. The infection is rarely confined to a single vertebra; however, when this does occur, it can lead to collapse of the vertebral body, mimicking an ordinary vertebral compression fracture.Plain radiography is not adequately sensitive to exclude a diagnosis of osteomyelitis, but it is recommended during initial evaluation because of the relatively low cost. The specificity of plain radiography is sufficient to confirm the diagnosis in most patients. If a plain radiograph is not diagnostic, MRI, with and without intravenous contrast, is preferred. If MRI cannot be obtained because of specific contraindications, CT with intravenous contrast is an alternative.",
   "educational_objective": "Diagnose vertebral osteomyelitis using radiography.",
-  "extracted_at": "2025-12-23T14:10:29.385384-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 44-year-old man is evaluated for fever and worsening back pain of 2 weeks' duration.A radiograph of the spine is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Epidural abscess",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Metastatic tumor",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Multiple myeloma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Vertebral osteomyelitis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is vertebral osteomyelitis (Option D). Typical findings in hematogenous vertebral osteomyelitis consist of destructive changes of two contiguous vertebral bodies with collapse of the intervening disk space. This image shows osteopenia of the affected vertebrae, loss of visible disk margins in some areas, narrowing of the disk space, and erosions into the vertebral bodies. The infection is rarely confined to a single vertebra; however, when this does occur, it can lead to collapse of the vertebral body, mimicking an ordinary vertebral compression fracture.Plain radiography is not adequately sensitive to exclude a diagnosis of osteomyelitis, but it is recommended during initial evaluation because of the relatively low cost. The specificity of plain radiography is sufficient to confirm the diagnosis in most patients. If a plain radiograph is not diagnostic, MRI, with and without intravenous contrast, is preferred. If MRI cannot be obtained because of specific contraindications, CT with intravenous contrast is an alternative.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24003_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24644.33f4dce20ee9ac54aab8899a62d9bd03.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Epidural abscess"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Metastatic tumor"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Multiple myeloma"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Vertebral osteomyelitis"
-    }
-  ],
-  "question_id": "idvdx24038",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 44-year-old man is evaluated for fever and worsening back pain of 2 weeks' duration.A radiograph of the spine is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24003_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:10:29.385384-06:00"
 }

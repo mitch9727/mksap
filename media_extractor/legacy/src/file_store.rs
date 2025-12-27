@@ -1,7 +1,9 @@
 use anyhow::{bail, Context, Result};
+use std::collections::HashSet;
 use std::fs;
 use std::path::{Path, PathBuf};
 
+use crate::discovery::DiscoveryResults;
 use crate::model::QuestionEntry;
 use crate::render::pretty_format_html;
 
@@ -41,6 +43,23 @@ pub fn select_targets(
     }
 
     Ok(matches)
+}
+
+pub fn load_discovery_results(path: &Path) -> Result<HashSet<String>> {
+    let json = fs::read_to_string(path)
+        .with_context(|| format!("Failed to read discovery results from {}", path.display()))?;
+
+    let results: DiscoveryResults = serde_json::from_str(&json)
+        .with_context(|| format!("Failed to parse discovery results from {}", path.display()))?;
+
+    // Extract internal IDs from discovery results
+    let ids: HashSet<String> = results
+        .questions_with_media
+        .iter()
+        .map(|q| q.question_id.clone())
+        .collect();
+
+    Ok(ids)
 }
 
 pub fn update_question_json(json_path: &Path, update: &crate::model::MediaUpdate) -> Result<()> {

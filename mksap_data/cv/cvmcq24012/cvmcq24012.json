@@ -1,67 +1,67 @@
 {
+  "question_id": "cvmcq24012",
   "category": "cv",
-  "critique": "The most appropriate treatment is captopril (Option A) in this patient with stress cardiomyopathy (also referred to as takotsubo cardiomyopathy or apical ballooning syndrome). Patients with stress cardiomyopathy may present with chest pain, elevated cardiac biomarkers (e.g., troponin T), and ECG changes, including ST-segment elevation and/or deep T-wave inversion in the anterior precordial leads. Although together these findings suggest ST-elevation myocardial infarction, coronary arteriography shows normal coronary arteries without acute occlusion. Imaging with echocardiography or ventriculography typically reveals systolic mid and apical ballooning with sparing of the base of the heart. Stress cardiomyopathy is a diagnosis of exclusion, specifically that of obstructive coronary disease; because the acute presentation resembles that of acute coronary syndrome, many patients undergo early coronary angiography. Management is supportive and may include β-blockade, ACE inhibition (e.g., captopril), or an angiotensin receptor blocker in conjunction with risk factor modification. Left ventricular (LV) function usually recovers over the ensuing weeks to months. This patient presents with deep anterior T-wave inversions, positive biomarkers, and a normal coronary angiogram with apical ballooning present on left ventriculography. Stress cardiomyopathy is the most likely diagnosis, and treatment with captopril is indicated.Stress cardiomyopathy may be associated with dynamic LV outflow tract obstruction due to the relative sparing of contractility at the LV base with a dyskinetic apex. Inotrope therapy, such as dobutamine infusion (Option B), may augment this obstructive process and can precipitate paradoxical hemodynamic deterioration. If necessary, hemodynamic support in stress cardiomyopathy may be provided with volume expansion and/or vasopressor therapy with minimal inotropic effects (e.g., phenylephrine), with judicious use of inotropes in refractory shock.Diuretic therapy, such as furosemide (Option C), may be used for relief of congestion in acute heart failure syndromes, including in patients with symptomatic volume overload associated with stress cardiomyopathy. This patient is hemodynamically stable without evidence of congestion, and further volume reduction will not be beneficial.Thrombolytic agents, such as tenecteplase (Option D), and revascularization in the absence of occlusive coronary disease and plaque rupture, as is the case for this patient, is neither beneficial nor recommended in patients with stress cardiomyopathy.",
   "educational_objective": "Treat stress cardiomyopathy.",
-  "extracted_at": "2025-12-22T22:48:35.381236-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 59-year-old woman is evaluated in the emergency department for acute onset of nausea and diaphoresis. About 24 hours ago, she learned that her son was critically injured in a rock climbing accident and that he remains in the ICU. She is otherwise healthy and takes no medications.On physical examination, blood pressure is 132/82 mm Hg, pulse rate is 76/min, and respiration rate is 18/min. Oxygen saturation is 95% with the patient breathing ambient air. All other findings are unremarkable.ECG is shown.The patient undergoes urgent coronary angiography, which reveals no significant coronary artery disease.Left ventriculograms and video demonstrate apical dyskinesis.",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Captopril",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Dobutamine infusion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Furosemide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Tenecteplase",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment is captopril (Option A) in this patient with stress cardiomyopathy (also referred to as takotsubo cardiomyopathy or apical ballooning syndrome). Patients with stress cardiomyopathy may present with chest pain, elevated cardiac biomarkers (e.g., troponin T), and ECG changes, including ST-segment elevation and/or deep T-wave inversion in the anterior precordial leads. Although together these findings suggest ST-elevation myocardial infarction, coronary arteriography shows normal coronary arteries without acute occlusion. Imaging with echocardiography or ventriculography typically reveals systolic mid and apical ballooning with sparing of the base of the heart. Stress cardiomyopathy is a diagnosis of exclusion, specifically that of obstructive coronary disease; because the acute presentation resembles that of acute coronary syndrome, many patients undergo early coronary angiography. Management is supportive and may include β-blockade, ACE inhibition (e.g., captopril), or an angiotensin receptor blocker in conjunction with risk factor modification. Left ventricular (LV) function usually recovers over the ensuing weeks to months. This patient presents with deep anterior T-wave inversions, positive biomarkers, and a normal coronary angiogram with apical ballooning present on left ventriculography. Stress cardiomyopathy is the most likely diagnosis, and treatment with captopril is indicated.Stress cardiomyopathy may be associated with dynamic LV outflow tract obstruction due to the relative sparing of contractility at the LV base with a dyskinetic apex. Inotrope therapy, such as dobutamine infusion (Option B), may augment this obstructive process and can precipitate paradoxical hemodynamic deterioration. If necessary, hemodynamic support in stress cardiomyopathy may be provided with volume expansion and/or vasopressor therapy with minimal inotropic effects (e.g., phenylephrine), with judicious use of inotropes in refractory shock.Diuretic therapy, such as furosemide (Option C), may be used for relief of congestion in acute heart failure syndromes, including in patients with symptomatic volume overload associated with stress cardiomyopathy. This patient is hemodynamically stable without evidence of congestion, and further volume reduction will not be beneficial.Thrombolytic agents, such as tenecteplase (Option D), and revascularization in the absence of occlusive coronary disease and plaque rupture, as is the case for this patient, is neither beneficial nor recommended in patients with stress cardiomyopathy.",
   "key_points": [
     "Management of stress cardiomyopathy is supportive and may include β-blockade, ACE inhibition, or an angiotensin receptor blocker in conjunction with risk factor modification."
   ],
+  "references": "Medina de Chazal H, Del Buono MG, Keyser-Marcus L, et al. Stress cardiomyopathy diagnosis and treatment: JACC state-of-the-art review. J Am Coll Cardiol. 2018;72:1955-1971. PMID: 30309474 doi:10.1016/j.jacc.2018.07.072",
+  "related_content": {
+    "syllabus": [
+      "cvsec24004_24029"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [
       "figures/cvfig24214.ce6460403bc6895079feeac0111bc238.jpg",
       "figures/cvfig24215.4a6312417e958f405707e45c2fbfd6de.jpg",
       "figures/cvfig24216.9886da84f16f244c1e8c00812fee2a03.jpg"
     ],
     "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
     "videos": [
       "cvvid24201"
     ]
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Captopril"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Dobutamine infusion"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Furosemide"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Tenecteplase"
-    }
-  ],
-  "question_id": "cvmcq24012",
-  "question_stem": "Which of the following is the most appropriate treatment?",
-  "question_text": "A 59-year-old woman is evaluated in the emergency department for acute onset of nausea and diaphoresis. About 24 hours ago, she learned that her son was critically injured in a rock climbing accident and that he remains in the ICU. She is otherwise healthy and takes no medications.On physical examination, blood pressure is 132/82 mm Hg, pulse rate is 76/min, and respiration rate is 18/min. Oxygen saturation is 95% with the patient breathing ambient air. All other findings are unremarkable.ECG is shown.The patient undergoes urgent coronary angiography, which reveals no significant coronary artery disease.Left ventriculograms and video demonstrate apical dyskinesis.",
-  "references": "Medina de Chazal H, Del Buono MG, Keyser-Marcus L, et al. Stress cardiomyopathy diagnosis and treatment: JACC state-of-the-art review. J Am Coll Cardiol. 2018;72:1955-1971. PMID: 30309474 doi:10.1016/j.jacc.2018.07.072",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24004_24029"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:48:35.381236-06:00"
 }

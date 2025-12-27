@@ -1,65 +1,65 @@
 {
+  "question_id": "cvmcq24008",
   "category": "cv",
-  "critique": "The most appropriate management in this patient with reperfusion failure after thrombolysis is invasive coronary angiography (Option B). Percutaneous coronary intervention (PCI) is the treatment of choice for ST-elevation myocardial infarction (STEMI). Thrombolytic therapy is recommended for patients with STEMI if symptom onset is within 12 hours and primary PCI (PPCI) is not available within 120 minutes of first medical contact. If there is hemodynamic instability, significant myocardium at risk (such as with anterior myocardial infarction), or excessive bleeding risk, transfer of the patient for PPCI rather than thrombolysis may also be considered. Patients undergoing thrombolysis should receive aspirin and intravenous unfractionated heparin, enoxaparin, or fondaparinux. Clopidogrel loading (300 mg orally) has been demonstrated to increase rates of vessel patency and is also recommended. Thrombolytic therapy is most effective within the first 3 to 6 hours from symptom onset. One quarter to one third of patients who undergo thrombolysis do not achieve reperfusion, particularly if they have delayed presentation. In cases of failed reperfusion, rescue PCI is associated with improved outcomes compared with conservative management. Early routine transfer of patients undergoing thrombolysis has also shown benefit in allowing early rescue PCI for patients without reperfusion or who suffer reocclusion and reinfarction after thrombolytic therapy. Thrombolysis has failed to provide reperfusion in this patient with an anterolateral STEMI, and transfer to a PCI center for urgent revascularization is indicated.This patient has clear evidence of STEMI with failed reperfusion, manifested as continued chest pain and persistent ST elevation greater than 50% of baseline in affected leads. Delay in therapy for completion of coronary CT angiography (Option A) is not warranted.Repeat administration of a thrombolytic agent such as tenecteplase (Option C) has not been shown to provide persistent reperfusion when initial thrombolysis has failed, and rescue PCI is the preferred reperfusion strategy in this setting.Additional antiplatelet therapy with tirofiban (Option D), an intravenous glycoprotein IIb/IIIa inhibitor, would not be indicated after adequate P2Y12 inhibitor loading. Tirofiban generally is reserved for use in the catheterization laboratory in the setting of elevated thrombus burden noted on angiography and is associated with an increased risk for bleeding; it would not be the preferred treatment in this patient with failed reperfusion after thrombolysis.",
   "educational_objective": "Treat a patient with acute myocardial infarction with failed reperfusion following thrombolytic therapy.",
-  "extracted_at": "2025-12-22T22:48:33.176195-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 56-year-old woman is evaluated in the emergency department with a 4-hour history of severe substernal chest pain. She smokes cigarettes but has no other medical problems and takes no medications. ECG in the emergency department is shown.The nearest facility equipped for percutaneous coronary intervention is 180 minutes away. Aspirin, clopidogrel loading, intravenous unfractionated heparin, and tenecteplase are administered within 21 minutes of arrival. After thrombolytic administration, her chest pain improves within 35 minutes but then worsens again at 90 minutes.On physical examination, blood pressure is 137/82 mm Hg, pulse rate is 58/min, and respiration rate is 18/min. The remainder of the examination is normal.Repeat ECG 90 minutes after thrombolytic therapy is shown.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Coronary CT angiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Invasive coronary angiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Repeat administration of tenecteplase",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Tirofiban infusion",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management in this patient with reperfusion failure after thrombolysis is invasive coronary angiography (Option B). Percutaneous coronary intervention (PCI) is the treatment of choice for ST-elevation myocardial infarction (STEMI). Thrombolytic therapy is recommended for patients with STEMI if symptom onset is within 12 hours and primary PCI (PPCI) is not available within 120 minutes of first medical contact. If there is hemodynamic instability, significant myocardium at risk (such as with anterior myocardial infarction), or excessive bleeding risk, transfer of the patient for PPCI rather than thrombolysis may also be considered. Patients undergoing thrombolysis should receive aspirin and intravenous unfractionated heparin, enoxaparin, or fondaparinux. Clopidogrel loading (300 mg orally) has been demonstrated to increase rates of vessel patency and is also recommended. Thrombolytic therapy is most effective within the first 3 to 6 hours from symptom onset. One quarter to one third of patients who undergo thrombolysis do not achieve reperfusion, particularly if they have delayed presentation. In cases of failed reperfusion, rescue PCI is associated with improved outcomes compared with conservative management. Early routine transfer of patients undergoing thrombolysis has also shown benefit in allowing early rescue PCI for patients without reperfusion or who suffer reocclusion and reinfarction after thrombolytic therapy. Thrombolysis has failed to provide reperfusion in this patient with an anterolateral STEMI, and transfer to a PCI center for urgent revascularization is indicated.This patient has clear evidence of STEMI with failed reperfusion, manifested as continued chest pain and persistent ST elevation greater than 50% of baseline in affected leads. Delay in therapy for completion of coronary CT angiography (Option A) is not warranted.Repeat administration of a thrombolytic agent such as tenecteplase (Option C) has not been shown to provide persistent reperfusion when initial thrombolysis has failed, and rescue PCI is the preferred reperfusion strategy in this setting.Additional antiplatelet therapy with tirofiban (Option D), an intravenous glycoprotein IIb/IIIa inhibitor, would not be indicated after adequate P2Y12 inhibitor loading. Tirofiban generally is reserved for use in the catheterization laboratory in the setting of elevated thrombus burden noted on angiography and is associated with an increased risk for bleeding; it would not be the preferred treatment in this patient with failed reperfusion after thrombolysis.",
   "key_points": [
     "Thrombolytic therapy is recommended for patients with ST-elevation myocardial infarction if symptom onset is within 12 hours and primary percutaneous coronary intervention (PCI) is not available within 120 minutes of first medical contact.",
     "In cases of failed reperfusion, rescue PCI is associated with improved outcomes compared with conservative management."
   ],
+  "references": "Bhatt DL, Lopes RD, Harrington RA. Diagnosis and treatment of acute coronary syndromes: a review. JAMA. 2022;327:662-675. PMID: 35166796 doi:10.1001/jama.2022.0358",
+  "related_content": {
+    "syllabus": [
+      "cvsec24004_24023"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [
       "figures/cvfig24211.245071a0fa7f3971251ba04aa5726c37.jpg",
       "figures/cvfig24212.6a7e17b546dd490ec888badebdebd3f3.jpg"
     ],
     "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Coronary CT angiography"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Invasive coronary angiography"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Repeat administration of tenecteplase"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Tirofiban infusion"
-    }
-  ],
-  "question_id": "cvmcq24008",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 56-year-old woman is evaluated in the emergency department with a 4-hour history of severe substernal chest pain. She smokes cigarettes but has no other medical problems and takes no medications. ECG in the emergency department is shown.The nearest facility equipped for percutaneous coronary intervention is 180 minutes away. Aspirin, clopidogrel loading, intravenous unfractionated heparin, and tenecteplase are administered within 21 minutes of arrival. After thrombolytic administration, her chest pain improves within 35 minutes but then worsens again at 90 minutes.On physical examination, blood pressure is 137/82 mm Hg, pulse rate is 58/min, and respiration rate is 18/min. The remainder of the examination is normal.Repeat ECG 90 minutes after thrombolytic therapy is shown.",
-  "references": "Bhatt DL, Lopes RD, Harrington RA. Diagnosis and treatment of acute coronary syndromes: a review. JAMA. 2022;327:662-675. PMID: 35166796 doi:10.1001/jama.2022.0358",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24004_24023"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:48:33.176195-06:00"
 }

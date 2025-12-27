@@ -1,62 +1,62 @@
 {
+  "question_id": "rmmcq24082",
   "category": "rm",
-  "critique": "The most likely diagnosis is VEXAS syndrome (Option D). VEXAS (vacuoles, E1 enzyme, X-linked, autoinflammatory, somatic) syndrome is a newly recognized adult-onset autoinflammatory disorder caused by somatic missense variants in UBA1, a gene encoding the ubiquitin-activating enzyme 1. This inflammatory disorder develops in late adulthood; occurs almost exclusively in men; and manifests with fever, cytopenias, characteristic vacuoles in myeloid and erythroid precursors, dysplastic bone marrow, neutrophilic cutaneous and pulmonary inflammation, chondritis, and vasculitis. The diagnosis is suspected clinically and is subsequently based on genetic testing to evaluate for UBA1 gene variants on the X chromosome. This patient has symptoms suggestive of VEXAS (episodic fevers, chondritis, polyarthritis, inflammatory nodules, and rash). His laboratory studies (pancytopenia) are also consistent with VEXAS syndrome, as are his skin and bone marrow biopsy findings. There is no standard treatment for VEXAS, but high-dose glucocorticoids may be effective.Polyarteritis nodosa (PAN) (Option A) is a rare systemic necrotizing vasculitis that affects medium-sized and sometimes small arteries. PAN most commonly affects the skin and peripheral nervous system, as well as the gastrointestinal tract and kidneys. Although PAN may present with fever, joint pain, and vasculitic skin nodules, pancytopenia is not a characteristic finding.Sweet syndrome (Option B), or acute febrile neutrophilic dermatosis, is characterized by painful, edematous, red-to-violaceous \"juicy\" papules and plaques, most common on the face, neck, and extremities. Affected patients typically have high fevers, leukocytosis with a left shift, elevated inflammatory markers, and muscle or joint pain. Most cases of Sweet syndrome typically develop after an upper respiratory tract or gastrointestinal infection or in the setting of hematologic abnormalities, such as myelodysplastic syndrome. Although this patient's skin biopsy specimen demonstrates a neutrophilic infiltrate, his laboratory studies show leukopenia rather than leukocytosis.Joints are affected in 90% of patients with systemic lupus erythematosus (SLE) (Option C). Antinuclear antibody titer is highly sensitive for diagnosing SLE. This patient is negative for antinuclear antibodies, making SLE an unlikely diagnosis.",
   "educational_objective": "Diagnose VEXAS syndrome.",
-  "extracted_at": "2025-12-22T20:47:18.773591-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 62-year-old man is evaluated in the hospital for fever, joint pain, rash, and pancytopenia. Three years ago, he began to experience episodes of joint pain and swelling of the knees, elbows, wrists, and ankles. He has also experienced episodic rash and eruptions of tender red nodules on the legs. Additional symptoms include episodic fever and pain and erythema of the ears. He has not seen a physician in many years and does not have any known medical conditions.On physical examination, temperature is 38.2 °C (100.1 °F); other vital signs are normal. Erythema is observed on the external ears bilaterally; the ear lobes are spared. Heart, lung, and abdominal examinations are normal. The elbows and wrists are warm and tender to palpation. Synovitis of the knees and ankles and modest knee effusions are observed. Multiple tender erythematous nodules and diffuse plaques are noted over the legs.A skin biopsy specimen from a lesion reveals neutrophilic dermatosis. A bone marrow biopsy specimen demonstrates vacuolated granulocytic and erythroid precursors without evidence of tumor infiltration.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Polyarteritis nodosa",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Sweet syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Systemic lupus erythematosus",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "VEXAS syndrome",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is VEXAS syndrome (Option D). VEXAS (vacuoles, E1 enzyme, X-linked, autoinflammatory, somatic) syndrome is a newly recognized adult-onset autoinflammatory disorder caused by somatic missense variants in UBA1, a gene encoding the ubiquitin-activating enzyme 1. This inflammatory disorder develops in late adulthood; occurs almost exclusively in men; and manifests with fever, cytopenias, characteristic vacuoles in myeloid and erythroid precursors, dysplastic bone marrow, neutrophilic cutaneous and pulmonary inflammation, chondritis, and vasculitis. The diagnosis is suspected clinically and is subsequently based on genetic testing to evaluate for UBA1 gene variants on the X chromosome. This patient has symptoms suggestive of VEXAS (episodic fevers, chondritis, polyarthritis, inflammatory nodules, and rash). His laboratory studies (pancytopenia) are also consistent with VEXAS syndrome, as are his skin and bone marrow biopsy findings. There is no standard treatment for VEXAS, but high-dose glucocorticoids may be effective.Polyarteritis nodosa (PAN) (Option A) is a rare systemic necrotizing vasculitis that affects medium-sized and sometimes small arteries. PAN most commonly affects the skin and peripheral nervous system, as well as the gastrointestinal tract and kidneys. Although PAN may present with fever, joint pain, and vasculitic skin nodules, pancytopenia is not a characteristic finding.Sweet syndrome (Option B), or acute febrile neutrophilic dermatosis, is characterized by painful, edematous, red-to-violaceous \"juicy\" papules and plaques, most common on the face, neck, and extremities. Affected patients typically have high fevers, leukocytosis with a left shift, elevated inflammatory markers, and muscle or joint pain. Most cases of Sweet syndrome typically develop after an upper respiratory tract or gastrointestinal infection or in the setting of hematologic abnormalities, such as myelodysplastic syndrome. Although this patient's skin biopsy specimen demonstrates a neutrophilic infiltrate, his laboratory studies show leukopenia rather than leukocytosis.Joints are affected in 90% of patients with systemic lupus erythematosus (SLE) (Option C). Antinuclear antibody titer is highly sensitive for diagnosing SLE. This patient is negative for antinuclear antibodies, making SLE an unlikely diagnosis.",
   "key_points": [
     "VEXAS (vacuoles, E1 enzyme, X-linked, autoinflammatory, somatic) syndrome is an adult-onset inflammatory disorder caused by UBA1 gene variants.",
     "VEXAS syndrome manifests with fever, cytopenias, characteristic vacuoles in myeloid and erythroid precursors, dysplastic bone marrow, neutrophilic cutaneous and pulmonary inflammation, chondritis, and vasculitis."
   ],
+  "references": "Beck DB, Ferrada MA, Sikora KA, et al. Somatic mutations in UBA1 and severe adult-onset autoinflammatory disease. N Engl J Med. 2020;383:2628-2638. PMID: 33108101 doi:10.1056/NEJMoa2026834",
+  "related_content": {
+    "syllabus": [
+      "rmsec24014_24012"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Polyarteritis nodosa"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Sweet syndrome"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Systemic lupus erythematosus"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "VEXAS syndrome"
-    }
-  ],
-  "question_id": "rmmcq24082",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 62-year-old man is evaluated in the hospital for fever, joint pain, rash, and pancytopenia. Three years ago, he began to experience episodes of joint pain and swelling of the knees, elbows, wrists, and ankles. He has also experienced episodic rash and eruptions of tender red nodules on the legs. Additional symptoms include episodic fever and pain and erythema of the ears. He has not seen a physician in many years and does not have any known medical conditions.On physical examination, temperature is 38.2 °C (100.1 °F); other vital signs are normal. Erythema is observed on the external ears bilaterally; the ear lobes are spared. Heart, lung, and abdominal examinations are normal. The elbows and wrists are warm and tender to palpation. Synovitis of the knees and ankles and modest knee effusions are observed. Multiple tender erythematous nodules and diffuse plaques are noted over the legs.A skin biopsy specimen from a lesion reveals neutrophilic dermatosis. A bone marrow biopsy specimen demonstrates vacuolated granulocytic and erythroid precursors without evidence of tumor infiltration.",
-  "references": "Beck DB, Ferrada MA, Sikora KA, et al. Somatic mutations in UBA1 and severe adult-onset autoinflammatory disease. N Engl J Med. 2020;383:2628-2638. PMID: 33108101 doi:10.1056/NEJMoa2026834",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24014_24012"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:47:18.773591-06:00"
 }

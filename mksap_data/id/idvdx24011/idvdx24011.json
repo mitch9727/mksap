@@ -1,60 +1,60 @@
 {
+  "question_id": "idvdx24011",
   "category": "id",
-  "critique": "The most likely diagnosis is a brain abscess (Option A). On MRI, early cerebritis appears as an irregular area of low density that does not enhance after contrast injection, as shown below. As cerebritis evolves, the lesion enlarges with thick and diffuse ring enhancement after contrast injection, as seen in this patient. The ring of contrast enhancement represents a breakdown of the blood-brain barrier and the development of an inflammatory capsule. Aspiration of the brain abscess for culture is preferred for definitive diagnosis; surgical or stereotactic drainage should be performed if the abscess is large (>2.5 cm).",
   "educational_objective": "Diagnose a brain abscess based on MRI findings.",
-  "extracted_at": "2025-12-23T14:10:29.305938-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 52-year-old previously healthy woman is evaluated for fever and severe headache.Brain MRI with contrast is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Brain abscess",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Cerebral toxoplasmosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Herpes simplex encephalitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Meningioma",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is a brain abscess (Option A). On MRI, early cerebritis appears as an irregular area of low density that does not enhance after contrast injection, as shown below. As cerebritis evolves, the lesion enlarges with thick and diffuse ring enhancement after contrast injection, as seen in this patient. The ring of contrast enhancement represents a breakdown of the blood-brain barrier and the development of an inflammatory capsule. Aspiration of the brain abscess for culture is preferred for definitive diagnosis; surgical or stereotactic drainage should be performed if the abscess is large (>2.5 cm).",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24001_24024"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24613.3da80abc1c946bfc685810cf454e4e6e.jpg",
       "figures/idfig24612.55d723c0fe936ae9f9cd73a8f0a42d59.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Brain abscess"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Cerebral toxoplasmosis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Herpes simplex encephalitis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Meningioma"
-    }
-  ],
-  "question_id": "idvdx24011",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 52-year-old previously healthy woman is evaluated for fever and severe headache.Brain MRI with contrast is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24001_24024"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:10:29.305938-06:00"
 }

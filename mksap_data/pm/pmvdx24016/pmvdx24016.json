@@ -1,60 +1,60 @@
 {
+  "question_id": "pmvdx24016",
   "category": "pm",
-  "critique": "The most likely diagnosis is empyema (Option A). A pleural effusion associated with bacterial pneumonia is called a parapneumonic effusion. It can be uncomplicated (sterile and free flowing) or complicated (infected or loculated). Uncomplicated effusions are typically small and resolve with treatment of the pneumonia. Complicated parapneumonic effusions occur with significant inflammation or when bacteria invade the pleural space. An empyema is defined as a bacterial infection of the pleural space, which results in purulent fluid or a positive Gram stain. This patient's CT imaging shows enhancement of the pleura around the fluid, which creates a lenticular-shaped opacity (arrows), consistent with an empyema. This appearance is in contrast to a lung abscess, which is intraparenchymal rather than pleural based, often contains an air-fluid level, and has thickened irregular walls.",
   "educational_objective": "Diagnose empyema.",
-  "extracted_at": "2025-12-23T14:15:53.276174-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 48-year-old man is hospitalized following 4 weeks of cough and fever unresponsive to antibiotic therapy.Chest CT scan is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Empyema",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Lung abscess",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Lung cancer",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Mesothelioma",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is empyema (Option A). A pleural effusion associated with bacterial pneumonia is called a parapneumonic effusion. It can be uncomplicated (sterile and free flowing) or complicated (infected or loculated). Uncomplicated effusions are typically small and resolve with treatment of the pneumonia. Complicated parapneumonic effusions occur with significant inflammation or when bacteria invade the pleural space. An empyema is defined as a bacterial infection of the pleural space, which results in purulent fluid or a positive Gram stain. This patient's CT imaging shows enhancement of the pleura around the fluid, which creates a lenticular-shaped opacity (arrows), consistent with an empyema. This appearance is in contrast to a lung abscess, which is intraparenchymal rather than pleural based, often contains an air-fluid level, and has thickened irregular walls.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24005_24012"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24626.2183c92b71fc274abe959d794556602e.jpg",
       "figures/pmfig24625.1d02ac15de7c237c3b022c91f4aa388a.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Empyema"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Lung abscess"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Lung cancer"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Mesothelioma"
-    }
-  ],
-  "question_id": "pmvdx24016",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 48-year-old man is hospitalized following 4 weeks of cough and fever unresponsive to antibiotic therapy.Chest CT scan is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24005_24012"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.276174-06:00"
 }

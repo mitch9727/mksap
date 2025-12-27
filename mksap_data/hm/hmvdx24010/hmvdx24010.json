@@ -1,60 +1,60 @@
 {
+  "question_id": "hmvdx24010",
   "category": "hm",
-  "critique": "The most likely diagnosis is sideroblastic anemia. This bone marrow examination is remarkable for the presence of ringed sideroblasts (arrow) (Option C). These cells are erythroid precursor cells with small, blue-staining, iron-containing granules arranged in a ring around the nucleus. Ringed sideroblasts are associated with a variety of disorders characterized by ineffective erythropoiesis and hyperferremia. Sideroblastic anemia may be congenital or acquired. Causes of the acquired form include myelodysplastic syndrome, alcohol use disorder, copper deficiency, lead toxicity, or the use of certain drugs (such as linezolid and isoniazid).",
   "educational_objective": "Identify ringed sideroblasts and diagnose sideroblastic anemia.",
-  "extracted_at": "2025-12-23T14:09:52.898126-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 46-year-old woman is evaluated for unexplained anemia.A Prussian blue–stained bone marrow aspiration is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Aplastic anemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Inflammatory anemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Sideroblastic anemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Wilson disease",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is sideroblastic anemia. This bone marrow examination is remarkable for the presence of ringed sideroblasts (arrow) (Option C). These cells are erythroid precursor cells with small, blue-staining, iron-containing granules arranged in a ring around the nucleus. Ringed sideroblasts are associated with a variety of disorders characterized by ineffective erythropoiesis and hyperferremia. Sideroblastic anemia may be congenital or acquired. Causes of the acquired form include myelodysplastic syndrome, alcohol use disorder, copper deficiency, lead toxicity, or the use of certain drugs (such as linezolid and isoniazid).",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24002_24006"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24616.c47564f55b96aa5211c9af4cc70b5f35.jpg",
       "figures/hmfig24615.c7411a00ddec7730b191209ea56f7e24.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Aplastic anemia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Inflammatory anemia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Sideroblastic anemia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Wilson disease"
-    }
-  ],
-  "question_id": "hmvdx24010",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 46-year-old woman is evaluated for unexplained anemia.A Prussian blue–stained bone marrow aspiration is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24002_24006"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.898126-06:00"
 }

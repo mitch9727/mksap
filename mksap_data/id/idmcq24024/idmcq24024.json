@@ -1,62 +1,62 @@
 {
+  "question_id": "idmcq24024",
   "category": "id",
-  "critique": "The most appropriate treatment is ceftriaxone (Option A). The patient most likely has enteric fever as evidenced by symptoms of fever, abdominal pain, diarrhea, and the presence of \"rose spots\" on physical examination. Enteric (typhoid and paratyphoid) fever is a febrile gastrointestinal illness caused by Salmonella enterica serotype Typhi or serotype Paratyphi. Travelers from Asia (particularly South Asia) and portions of Africa and Latin America are at increased risk if they ingest food or water that is contaminated with organisms shed in the stool from infected persons; the incubation period is 1 to 30 days. Abdominal pain can be accompanied by early-onset diarrhea, which may spontaneously resolve or become severe late in disease. Patients may also have headache, arthralgia, myalgia, pharyngitis, and anorexia. About 20% of patients develop discrete, blanching, 1- to 4-mm salmon-colored macules (rose spots) on the chest and abdomen during the second week of illness. Isolation of S. enterica from blood, stool, urine, or bone marrow is diagnostic. Most isolates of S. enterica serotype Typhi and Paratyphi remain susceptible to azithromycin and ceftriaxone. Empiric therapy should be initiated while cultures are pending to prevent complications. A parenteral agent such as ceftriaxone is preferred for patients with severe disease, manifesting as fever, hypotension, organ dysfunction, or elevated aminotransferase levels. For patients with severe disease who have traveled to Iran or Pakistan, a carbapenem is recommended instead.In many parts of South Asia, more than 80% of S. enterica isolates are resistant to fluoroquinolones; therefore, ciprofloxacin (Option B) would not be the most appropriate empiric treatment choice for a traveler returning from this area.Dexamethasone (Option C) decreases mortality in patients with typhoid fever who have severe illness, including altered mental status or shock, neither of which is present in this patient. Glucocorticoids are an adjunct to antibiotic therapy and should not be used alone.Supportive care (Option D), including fluid administration and electrolyte replacement, is recommended for uncomplicated travelers' diarrhea, such as that caused by enterotoxigenic Escherichia coli. However, treatment is recommended in patients with typhoid fever with evidence of invasive disease.",
   "educational_objective": "Treat enteric fever.",
-  "extracted_at": "2025-12-22T19:46:46.468911-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 58-year-old man is evaluated in the emergency department for fever, abdominal pain, and diarrhea of 3 days' duration. He has just returned from a 2-week trip to Nepal.On physical examination, temperature is 39.6 °C (103.3 °F), blood pressure is 110/55 mm Hg, and pulse rate is 82/min; respiration rate is normal. Several blanching, salmon-colored macules are scattered across the patient's trunk. Abdominal examination reveals mild distension with diffuse tenderness to palpation but no guarding or rebound tenderness.Blood cultures are pending. Malaria testing is negative.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Ceftriaxone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Ciprofloxacin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Dexamethasone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Supportive care only",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment is ceftriaxone (Option A). The patient most likely has enteric fever as evidenced by symptoms of fever, abdominal pain, diarrhea, and the presence of \"rose spots\" on physical examination. Enteric (typhoid and paratyphoid) fever is a febrile gastrointestinal illness caused by Salmonella enterica serotype Typhi or serotype Paratyphi. Travelers from Asia (particularly South Asia) and portions of Africa and Latin America are at increased risk if they ingest food or water that is contaminated with organisms shed in the stool from infected persons; the incubation period is 1 to 30 days. Abdominal pain can be accompanied by early-onset diarrhea, which may spontaneously resolve or become severe late in disease. Patients may also have headache, arthralgia, myalgia, pharyngitis, and anorexia. About 20% of patients develop discrete, blanching, 1- to 4-mm salmon-colored macules (rose spots) on the chest and abdomen during the second week of illness. Isolation of S. enterica from blood, stool, urine, or bone marrow is diagnostic. Most isolates of S. enterica serotype Typhi and Paratyphi remain susceptible to azithromycin and ceftriaxone. Empiric therapy should be initiated while cultures are pending to prevent complications. A parenteral agent such as ceftriaxone is preferred for patients with severe disease, manifesting as fever, hypotension, organ dysfunction, or elevated aminotransferase levels. For patients with severe disease who have traveled to Iran or Pakistan, a carbapenem is recommended instead.In many parts of South Asia, more than 80% of S. enterica isolates are resistant to fluoroquinolones; therefore, ciprofloxacin (Option B) would not be the most appropriate empiric treatment choice for a traveler returning from this area.Dexamethasone (Option C) decreases mortality in patients with typhoid fever who have severe illness, including altered mental status or shock, neither of which is present in this patient. Glucocorticoids are an adjunct to antibiotic therapy and should not be used alone.Supportive care (Option D), including fluid administration and electrolyte replacement, is recommended for uncomplicated travelers' diarrhea, such as that caused by enterotoxigenic Escherichia coli. However, treatment is recommended in patients with typhoid fever with evidence of invasive disease.",
   "key_points": [
     "Enteric fever is a febrile gastrointestinal illness caused by Salmonella enterica serotype Typhi or serotype Paratyphi; travel to South Asia and portions of Africa and Latin America pose the greatest risk of infection.",
     "More than 80% of S. enterica isolates from South and Southeast Asia are resistant to fluoroquinolones, so travelers returning from these areas who require treatment for typhoid fever should be given azithromycin or ceftriaxone."
   ],
+  "references": "Centers for Disease Control and Prevention. CDC Yellow Book 2026: Health Information for International Travel: Typhoid and paratyphoid fever. New York: Oxford University Press. Available at https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html. Accessed October 28, 2025.",
+  "related_content": {
+    "syllabus": [
+      "idsec24015_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Ceftriaxone"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Ciprofloxacin"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Dexamethasone"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Supportive care only"
-    }
-  ],
-  "question_id": "idmcq24024",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 58-year-old man is evaluated in the emergency department for fever, abdominal pain, and diarrhea of 3 days' duration. He has just returned from a 2-week trip to Nepal.On physical examination, temperature is 39.6 °C (103.3 °F), blood pressure is 110/55 mm Hg, and pulse rate is 82/min; respiration rate is normal. Several blanching, salmon-colored macules are scattered across the patient's trunk. Abdominal examination reveals mild distension with diffuse tenderness to palpation but no guarding or rebound tenderness.Blood cultures are pending. Malaria testing is negative.",
-  "references": "Centers for Disease Control and Prevention. CDC Yellow Book 2026: Health Information for International Travel: Typhoid and paratyphoid fever. New York: Oxford University Press. Available at https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html. Accessed October 28, 2025.",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24015_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:46:46.468911-06:00"
 }

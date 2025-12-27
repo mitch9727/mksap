@@ -1,59 +1,59 @@
 {
+  "question_id": "onvdx24014",
   "category": "on",
-  "critique": "This contrast-enhanced chest CT scan suggests metastatic carcinoma (Option C). There are multiple discrete nodular infiltrates of varying size scattered throughout the lungs. Although the differential diagnosis includes inflammatory and infectious disorders, the appearance is consistent with metastatic cancer and is compatible with the patient's history. In this case, the diagnosis was metastatic adenocarcinoma of the pancreas.",
   "educational_objective": "Recognize chest CT findings suggestive of metastatic cancer.",
-  "extracted_at": "2025-12-23T14:12:25.120927-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 56-year-old woman is evaluated for epigastric pain, weight loss, and dyspnea. A contrast-enhanced chest CT scan is obtained to further evaluate abnormalities found on chest radiograph.",
+  "question_stem": "Which of the following is the most likely pulmonary diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bronchiectasis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Histoplasmosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Metastatic carcinoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Miliary tuberculosis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This contrast-enhanced chest CT scan suggests metastatic carcinoma (Option C). There are multiple discrete nodular infiltrates of varying size scattered throughout the lungs. Although the differential diagnosis includes inflammatory and infectious disorders, the appearance is consistent with metastatic cancer and is compatible with the patient's history. In this case, the diagnosis was metastatic adenocarcinoma of the pancreas.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "onsec24004_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/onfig24618.76d26e4d5538b0f7096cf335a5945189.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bronchiectasis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Histoplasmosis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Metastatic carcinoma"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Miliary tuberculosis"
-    }
-  ],
-  "question_id": "onvdx24014",
-  "question_stem": "Which of the following is the most likely pulmonary diagnosis?",
-  "question_text": "A 56-year-old woman is evaluated for epigastric pain, weight loss, and dyspnea. A contrast-enhanced chest CT scan is obtained to further evaluate abnormalities found on chest radiograph.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "onsec24004_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:12:25.120927-06:00"
 }

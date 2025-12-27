@@ -1,62 +1,62 @@
 {
+  "question_id": "idmcq24002",
   "category": "id",
-  "critique": "Bartonella henselae is the most likely cause of this patient's infection (Option A). The mobile valvular vegetation seen on echocardiogram in this patient who also has fever and negative blood cultures strongly suggests blood culture–negative endocarditis (BCNE). Approximately 10% of endocarditis blood cultures are negative, with sterilization from previous antibiotics being the most common cause. Without previous antibiotic treatment, BCNE may indicate infection with a fastidious organism not cultured on routine media, the most common of which are Bartonella species and Coxiella burnetii. A thorough exposure history is key in guiding diagnosis of BCNE. The history of cat ownership raises the possibility of B. henselae infection. An elevated IgG antibody to B. henselae suggests active infection, and most patients with endocarditis have a titer of 1:1024 or greater by indirect immunofluorescence assay. In patients who undergo valve replacement, tissue polymerase chain reaction testing is diagnostic in up to 92% of infections.Eikenella corrodens is one of the HACEK organisms (the “E” in HACEK denoting Eikenella), a group of fastidious, gram-negative bacteria associated with endocarditis (Option B). With the advent of automated blood culture systems, these organisms are readily identified in standard cultures and are no longer considered causes of BCNE.Case clusters of Mycobacterium chimaera prosthetic valve BCNE were reported in 2015 and ultimately traced to contamination of the heating and cooling component of cardiac bypass devices (Option C). Infections can be identified years after the surgical procedure. This patient has no history of cardiac surgery, and this organism is not associated with native valve endocarditis.Tropheryma whipplei is a fastidious gram-positive organism that causes Whipple disease (Option D). BCNE caused by T. whipplei is typically part of a multisystem illness, with expected comorbidities including a combination of diarrhea, weight loss, arthritis, and fever. A hallmark of Whipple disease is the chronicity of symptoms, which are typically present for years, rather than weeks, before diagnosis.",
   "educational_objective": "Recognize causes of blood culture–negative endocarditis.",
-  "extracted_at": "2025-12-23T15:17:18.203986-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 42-year-old patient is hospitalized with fever, malaise, and a 4.5-kg (10.0-lb) weight loss over the past 3 weeks. They report having a routine dental cleaning 2 months ago, and they recently adopted a new pet kitten. Medical history is noncontributory, and they take no medications.On physical examination, temperature is 39.4 °C (102.9 °F); other vital signs are normal. Cardiac auscultation reveals a grade 3/6 systolic murmur at the left lower sternal border radiating to the apex. Other examination findings are unremarkable.Laboratory studies:Leukocyte count12,000/µL (12 × 109/L) with 78% neutrophils and 22% lymphocytesHThree sets of blood cultures show no growth after 96 hours of incubation.Transesophageal echocardiogram shows a mobile 1.5- × 1.0-cm vegetation on the anterior leaflet of the mitral valve.",
+  "question_stem": "Which of the following is the most likely cause of infection?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bartonella henselae",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Eikenella corrodens",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Mycobacterium chimaera",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Tropheryma whipplei",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Bartonella henselae is the most likely cause of this patient's infection (Option A). The mobile valvular vegetation seen on echocardiogram in this patient who also has fever and negative blood cultures strongly suggests blood culture–negative endocarditis (BCNE). Approximately 10% of endocarditis blood cultures are negative, with sterilization from previous antibiotics being the most common cause. Without previous antibiotic treatment, BCNE may indicate infection with a fastidious organism not cultured on routine media, the most common of which are Bartonella species and Coxiella burnetii. A thorough exposure history is key in guiding diagnosis of BCNE. The history of cat ownership raises the possibility of B. henselae infection. An elevated IgG antibody to B. henselae suggests active infection, and most patients with endocarditis have a titer of 1:1024 or greater by indirect immunofluorescence assay. In patients who undergo valve replacement, tissue polymerase chain reaction testing is diagnostic in up to 92% of infections.Eikenella corrodens is one of the HACEK organisms (the “E” in HACEK denoting Eikenella), a group of fastidious, gram-negative bacteria associated with endocarditis (Option B). With the advent of automated blood culture systems, these organisms are readily identified in standard cultures and are no longer considered causes of BCNE.Case clusters of Mycobacterium chimaera prosthetic valve BCNE were reported in 2015 and ultimately traced to contamination of the heating and cooling component of cardiac bypass devices (Option C). Infections can be identified years after the surgical procedure. This patient has no history of cardiac surgery, and this organism is not associated with native valve endocarditis.Tropheryma whipplei is a fastidious gram-positive organism that causes Whipple disease (Option D). BCNE caused by T. whipplei is typically part of a multisystem illness, with expected comorbidities including a combination of diarrhea, weight loss, arthritis, and fever. A hallmark of Whipple disease is the chronicity of symptoms, which are typically present for years, rather than weeks, before diagnosis.",
   "key_points": [
     "A thorough history, focusing on potential exposures or comorbidities, is key in guiding diagnosis of blood culture–negative endocarditis.",
     "Without previous antibiotic treatment, blood culture–negative endocarditis may indicate infection with a fastidious organism not cultured on routine culture media, the most common of which are Bartonella species and Coxiella burnetii."
   ],
+  "references": "Flurin L, Wolf MJ, Fisher CR, et al. Pathogen detection in infective endocarditis using targeted metagenomics on whole blood and plasma: a prospective pilot study. J Clin Microbiol. 2022;60:e0062122. PMID: 36040200 doi:10.1128/jcm.00621-22",
+  "related_content": {
+    "syllabus": [
+      "idsec24005_24019"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Bartonella henselae"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Eikenella corrodens"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Mycobacterium chimaera"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Tropheryma whipplei"
-    }
-  ],
-  "question_id": "idmcq24002",
-  "question_stem": "Which of the following is the most likely cause of infection?",
-  "question_text": "A 42-year-old patient is hospitalized with fever, malaise, and a 4.5-kg (10.0-lb) weight loss over the past 3 weeks. They report having a routine dental cleaning 2 months ago, and they recently adopted a new pet kitten. Medical history is noncontributory, and they take no medications.On physical examination, temperature is 39.4 °C (102.9 °F); other vital signs are normal. Cardiac auscultation reveals a grade 3/6 systolic murmur at the left lower sternal border radiating to the apex. Other examination findings are unremarkable.Laboratory studies:Leukocyte count12,000/µL (12 × 109/L) with 78% neutrophils and 22% lymphocytesHThree sets of blood cultures show no growth after 96 hours of incubation.Transesophageal echocardiogram shows a mobile 1.5- × 1.0-cm vegetation on the anterior leaflet of the mitral valve.",
-  "references": "Flurin L, Wolf MJ, Fisher CR, et al. Pathogen detection in infective endocarditis using targeted metagenomics on whole blood and plasma: a prospective pilot study. J Clin Microbiol. 2022;60:e0062122. PMID: 36040200 doi:10.1128/jcm.00621-22",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24005_24019"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:17:18.203986-06:00"
 }

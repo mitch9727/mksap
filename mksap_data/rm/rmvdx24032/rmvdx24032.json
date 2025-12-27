@@ -1,59 +1,59 @@
 {
+  "question_id": "rmvdx24032",
   "category": "rm",
-  "critique": "This patient has subacute cutaneous lupus erythematosus (SCLE) (Option C). SCLE is a photosensitive rash typically appearing on the shoulders, back, arms, and neck after sun exposure. This rash can appear as ring-shaped lesions with scaly borders or scaly red bumps. The rash is not pruritic or painful and resolves without scarring, but dyspigmentation may occur. SCLE can be drug induced or a manifestation of underlying systemic lupus erythematosus. Most patients with SCLE are positive for anti-Ro/SSA autoantibodies. Treatment includes photoprotection, topical glucocorticoids, and, if needed, hydroxychloroquine.",
   "educational_objective": "Diagnose subacute cutaneous lupus erythematosus.",
-  "extracted_at": "2025-12-23T14:13:05.981378-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 32-year-old woman develops the rash shown after sun exposure. She also reports morning stiffness in the hands, wrists, and knees.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Discoid lupus erythematosus",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Polymorphus light eruption",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Subacute cutaneous lupus erythematosus",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Tumid lupus erythematosus",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has subacute cutaneous lupus erythematosus (SCLE) (Option C). SCLE is a photosensitive rash typically appearing on the shoulders, back, arms, and neck after sun exposure. This rash can appear as ring-shaped lesions with scaly borders or scaly red bumps. The rash is not pruritic or painful and resolves without scarring, but dyspigmentation may occur. SCLE can be drug induced or a manifestation of underlying systemic lupus erythematosus. Most patients with SCLE are positive for anti-Ro/SSA autoantibodies. Treatment includes photoprotection, topical glucocorticoids, and, if needed, hydroxychloroquine.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "rmsec24007_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/rmfig24637.6d0c86652f2e154fe064ed40c4b4bdf1.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Discoid lupus erythematosus"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Polymorphus light eruption"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Subacute cutaneous lupus erythematosus"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Tumid lupus erythematosus"
-    }
-  ],
-  "question_id": "rmvdx24032",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 32-year-old woman develops the rash shown after sun exposure. She also reports morning stiffness in the hands, wrists, and knees.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24007_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:05.981378-06:00"
 }

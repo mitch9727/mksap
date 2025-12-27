@@ -1,62 +1,62 @@
 {
+  "question_id": "npmcq24063",
   "category": "np",
-  "critique": "The most appropriate medication to discontinue is pantoprazole (Option D), a proton pump inhibitor; these agents are a common cause of medication-induced chronic tubulointerstitial nephritis (CTIN). Other commonly associated drug classes include antibiotics and NSAIDs. Other pharmacologic causes of tubular interstitial nephritis are listed in Table: Pharmacologic Causes of Tubulointerstitial Nephritis. Proton pump inhibitors are associated with acute kidney injury due to acute interstitial nephritis, CTIN, incident chronic kidney disease (CKD), and kidney disease progression. Additionally, patients may have symptoms such as polyuria and nocturia due to renal-concentrating defects. Other evidence of tubular dysfunction, including a normal anion gap metabolic acidosis and hyperkalemia, as seen in this patient, or hypokalemia, may be present. Urinalysis may be normal or demonstrate pyuria and/or mild proteinuria <1500 mg/24 h. The course of CKD is slowly progressive, and management includes discontinuation of potentially offending medications and management of CKD complications. A possible cause of this patient's declining kidney function is pantoprazole-induced CTIN, characterized by her elevated serum creatinine level, bland urinalysis, and minimal proteinuria; pantoprazole should be discontinued.Discontinuation of acetaminophen (Option A) is not indicated. Analgesic nephropathy was first described in patients taking combinations of phenacetin (banned since 1983) with aspirin, caffeine, acetaminophen, or NSAIDs. It can also occur when taking any one of these drugs individually. When severe, analgesic nephropathy is associated with renal papillary necrosis, manifesting as gross hematuria, flank pain, and, occasionally, obstruction and infection. Affected individuals typically have a history of heavy analgesic use, which is not the case with this patient who takes acetaminophen only occasionally.Amlodipine (Option B), which this patient is taking to treat hypertension, is not the most appropriate medication to discontinue. Although there are case reports of calcium channel blockers, such as nifedipine, causing tubulointerstitial kidney injury, proton pump inhibitors are a much more common cause of medication-induced CTIN.Discontinuation of atorvastatin (Option C) is not indicated. Statins may cause rhabdomyolysis, which is a cause of acute kidney injury, but there is no evidence of rhabdomyolysis in this patient; her creatine kinase level is within the normal range.",
   "educational_objective": "Manage pantoprazole-induced chronic tubulointerstitial nephritis.",
-  "extracted_at": "2025-12-22T20:06:57.521857-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 45-year-old woman is evaluated during a follow-up visit. She was diagnosed with hypertension and gastroesophageal reflux disease 1 year ago. She reports polyuria and nocturia. She takes acetaminophen occasionally for headaches but does not use NSAIDs. Medical history is otherwise significant for hyperlipidemia. Other medications are atorvastatin, pantoprazole, and amlodipine.Physical examination findings, including vital signs, are normal.Kidney ultrasound shows a 10.2-cm left kidney and a 10.4-cm right kidney, increased echogenicity, and no hydronephrosis.",
+  "question_stem": "Which of the following is the most appropriate medication to discontinue?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acetaminophen",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Amlodipine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Atorvastatin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pantoprazole",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate medication to discontinue is pantoprazole (Option D), a proton pump inhibitor; these agents are a common cause of medication-induced chronic tubulointerstitial nephritis (CTIN). Other commonly associated drug classes include antibiotics and NSAIDs. Other pharmacologic causes of tubular interstitial nephritis are listed in Table: Pharmacologic Causes of Tubulointerstitial Nephritis. Proton pump inhibitors are associated with acute kidney injury due to acute interstitial nephritis, CTIN, incident chronic kidney disease (CKD), and kidney disease progression. Additionally, patients may have symptoms such as polyuria and nocturia due to renal-concentrating defects. Other evidence of tubular dysfunction, including a normal anion gap metabolic acidosis and hyperkalemia, as seen in this patient, or hypokalemia, may be present. Urinalysis may be normal or demonstrate pyuria and/or mild proteinuria <1500 mg/24 h. The course of CKD is slowly progressive, and management includes discontinuation of potentially offending medications and management of CKD complications. A possible cause of this patient's declining kidney function is pantoprazole-induced CTIN, characterized by her elevated serum creatinine level, bland urinalysis, and minimal proteinuria; pantoprazole should be discontinued.Discontinuation of acetaminophen (Option A) is not indicated. Analgesic nephropathy was first described in patients taking combinations of phenacetin (banned since 1983) with aspirin, caffeine, acetaminophen, or NSAIDs. It can also occur when taking any one of these drugs individually. When severe, analgesic nephropathy is associated with renal papillary necrosis, manifesting as gross hematuria, flank pain, and, occasionally, obstruction and infection. Affected individuals typically have a history of heavy analgesic use, which is not the case with this patient who takes acetaminophen only occasionally.Amlodipine (Option B), which this patient is taking to treat hypertension, is not the most appropriate medication to discontinue. Although there are case reports of calcium channel blockers, such as nifedipine, causing tubulointerstitial kidney injury, proton pump inhibitors are a much more common cause of medication-induced CTIN.Discontinuation of atorvastatin (Option C) is not indicated. Statins may cause rhabdomyolysis, which is a cause of acute kidney injury, but there is no evidence of rhabdomyolysis in this patient; her creatine kinase level is within the normal range.",
   "key_points": [
     "Antibiotics, NSAIDs, and proton pump inhibitors are commonly implicated in cases of medication-induced chronic tubulointerstitial nephritis."
   ],
+  "references": "Al-Aly Z, Maddukuri G, Xie Y. Proton pump inhibitors and the kidney: implications of current evidence for clinical practice and when and how to deprescribe. Am J Kidney Dis. 2020;75:497-507. PMID: 31606235 doi:10.1053/j.ajkd.2019.07.012",
+  "related_content": {
+    "syllabus": [
+      "npsec24007_24012"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acetaminophen"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Amlodipine"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Atorvastatin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Pantoprazole"
-    }
-  ],
-  "question_id": "npmcq24063",
-  "question_stem": "Which of the following is the most appropriate medication to discontinue?",
-  "question_text": "A 45-year-old woman is evaluated during a follow-up visit. She was diagnosed with hypertension and gastroesophageal reflux disease 1 year ago. She reports polyuria and nocturia. She takes acetaminophen occasionally for headaches but does not use NSAIDs. Medical history is otherwise significant for hyperlipidemia. Other medications are atorvastatin, pantoprazole, and amlodipine.Physical examination findings, including vital signs, are normal.Kidney ultrasound shows a 10.2-cm left kidney and a 10.4-cm right kidney, increased echogenicity, and no hydronephrosis.",
-  "references": "Al-Aly Z, Maddukuri G, Xie Y. Proton pump inhibitors and the kidney: implications of current evidence for clinical practice and when and how to deprescribe. Am J Kidney Dis. 2020;75:497-507. PMID: 31606235 doi:10.1053/j.ajkd.2019.07.012",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24007_24012"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:06:57.521857-06:00"
 }

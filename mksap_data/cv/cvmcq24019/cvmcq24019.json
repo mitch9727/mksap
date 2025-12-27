@@ -1,62 +1,62 @@
 {
+  "question_id": "cvmcq24019",
   "category": "cv",
-  "critique": "This patient has metabolic syndrome (Option D). The term metabolic syndrome refers to a cluster of risk factors specific to cardiovascular disease that, when present in combination, confers an increased risk for diabetes mellitus, cardiovascular disease, and stroke. The components of metabolic syndrome are an elevated glucose level, central obesity, a low HDL cholesterol level, an elevated triglyceride level, and elevated blood pressure. The presence of any three of these factors is sufficient for the diagnosis of metabolic syndrome. This patient has central obesity, low HDL cholesterol, elevated triglycerides, and elevated blood pressure, which suffice for the diagnosis of metabolic syndrome. Although the hallmark of metabolic syndrome is glucose intolerance, the syndrome can be diagnosed even before confirmatory testing for diabetes, prediabetes, or glucose intolerance.Several medications can contribute to dyslipidemia, including immunosuppressants, antipsychotics, antiviral therapy, steroid hormones, and certain cardiovascular medications. Thiazide diuretics are associated with minor elevations in total cholesterol, LDL cholesterol, or triglycerides on the order of 5% to 15% higher concentrations; however, these increases are usually seen at higher dosages (>50 mg/d). This patient is taking a low-dose thiazide diuretic, which is not associated with low HDL cholesterol (Option A).Familial hypercholesterolemia (FH) (Option B) is an inherited condition that causes high LDL cholesterol levels beginning at birth, often resulting in myocardial infarctions at a young age. The diagnosis is usually made on the basis of characteristic physical examination findings (i.e., xanthomas, xanthelasmas, corneal arcus), increased blood cholesterol levels (i.e., total cholesterol >300 mg/dL [7.77 mmol/L], LDL cholesterol >200 mg/dL [5.18 mmol/L]), and genetic testing demonstrating specific mutations in the LDL receptor gene. This patient has normal total and LDL cholesterol levels and lacks the physical examination findings and family history suggestive of FH.Hypothyroidism (Option C) is a secondary cause of dyslipidemia. The lipid abnormalities associated with hypothyroidism include increased total cholesterol, LDL cholesterol, and triglyceride levels. This pattern is not consistent with the lipid abnormalities seen in this patient.",
   "educational_objective": "Diagnose metabolic syndrome.",
-  "extracted_at": "2025-12-22T22:48:39.195176-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 59-year-old woman is evaluated during an annual physical examination as a new patient. She has hypertension and obesity. She has never smoked cigarettes. She has no pertinent family history. Her only medication is low-dose chlorthalidone.On physical examination, blood pressure is 147/92 mm Hg and pulse rate is 64/min. BMI is 33. Other than central obesity, all other findings, including skin examination, are normal.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Drug-induced dyslipidemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Familial hypercholesterolemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Hypothyroidism",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Metabolic syndrome",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has metabolic syndrome (Option D). The term metabolic syndrome refers to a cluster of risk factors specific to cardiovascular disease that, when present in combination, confers an increased risk for diabetes mellitus, cardiovascular disease, and stroke. The components of metabolic syndrome are an elevated glucose level, central obesity, a low HDL cholesterol level, an elevated triglyceride level, and elevated blood pressure. The presence of any three of these factors is sufficient for the diagnosis of metabolic syndrome. This patient has central obesity, low HDL cholesterol, elevated triglycerides, and elevated blood pressure, which suffice for the diagnosis of metabolic syndrome. Although the hallmark of metabolic syndrome is glucose intolerance, the syndrome can be diagnosed even before confirmatory testing for diabetes, prediabetes, or glucose intolerance.Several medications can contribute to dyslipidemia, including immunosuppressants, antipsychotics, antiviral therapy, steroid hormones, and certain cardiovascular medications. Thiazide diuretics are associated with minor elevations in total cholesterol, LDL cholesterol, or triglycerides on the order of 5% to 15% higher concentrations; however, these increases are usually seen at higher dosages (>50 mg/d). This patient is taking a low-dose thiazide diuretic, which is not associated with low HDL cholesterol (Option A).Familial hypercholesterolemia (FH) (Option B) is an inherited condition that causes high LDL cholesterol levels beginning at birth, often resulting in myocardial infarctions at a young age. The diagnosis is usually made on the basis of characteristic physical examination findings (i.e., xanthomas, xanthelasmas, corneal arcus), increased blood cholesterol levels (i.e., total cholesterol >300 mg/dL [7.77 mmol/L], LDL cholesterol >200 mg/dL [5.18 mmol/L]), and genetic testing demonstrating specific mutations in the LDL receptor gene. This patient has normal total and LDL cholesterol levels and lacks the physical examination findings and family history suggestive of FH.Hypothyroidism (Option C) is a secondary cause of dyslipidemia. The lipid abnormalities associated with hypothyroidism include increased total cholesterol, LDL cholesterol, and triglyceride levels. This pattern is not consistent with the lipid abnormalities seen in this patient.",
   "key_points": [
     "The components of metabolic syndrome are an elevated glucose level, central obesity, a low HDL cholesterol level, an elevated triglyceride level, and elevated blood pressure. The presence of any three of these factors is sufficient for the diagnosis of metabolic syndrome.",
     "Although the hallmark of metabolic syndrome is glucose intolerance, the syndrome can be diagnosed before confirmatory testing for diabetes, prediabetes, or glucose intolerance."
   ],
+  "references": "Rosenzweig JL, Bakris GL, Berglund LF, et al. Primary prevention of ASCVD and T2DM in patients at metabolic risk: an Endocrine Society* clinical practice guideline. J Clin Endocrinol Metab. 2019;104:3939-3985. PMID: 31365087 doi:10.1210/jc.2019-01338",
+  "related_content": {
+    "syllabus": [
+      "cvsec24001_24007"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Drug-induced dyslipidemia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Familial hypercholesterolemia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Hypothyroidism"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Metabolic syndrome"
-    }
-  ],
-  "question_id": "cvmcq24019",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 59-year-old woman is evaluated during an annual physical examination as a new patient. She has hypertension and obesity. She has never smoked cigarettes. She has no pertinent family history. Her only medication is low-dose chlorthalidone.On physical examination, blood pressure is 147/92 mm Hg and pulse rate is 64/min. BMI is 33. Other than central obesity, all other findings, including skin examination, are normal.",
-  "references": "Rosenzweig JL, Bakris GL, Berglund LF, et al. Primary prevention of ASCVD and T2DM in patients at metabolic risk: an Endocrine Society* clinical practice guideline. J Clin Endocrinol Metab. 2019;104:3939-3985. PMID: 31365087 doi:10.1210/jc.2019-01338",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24001_24007"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:48:39.195176-06:00"
 }

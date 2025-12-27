@@ -1,62 +1,62 @@
 {
+  "question_id": "ccmcq24019",
   "category": "cc",
-  "critique": "The most appropriate next step in management of this patient with acute respiratory distress syndrome (ARDS) is prone positioning for at least 12 to 16 hours daily (Option D). Positive end-expiratory pressure (PEEP) and low tidal volume ventilation are the cornerstones of ARDS management and are associated with improved patient outcomes. In patients with severe ARDS (Po2/Fio2 ratio <150 mm Hg and Fio2 ≥0.6), prone positioning within 48 hours is additionally associated with a decreased risk for death. This mortality benefit is likely due to improved ventilation to the dorsal portion of the lung, leading to a better ventilation-perfusion ratio and a lower risk for ventilator-induced lung injury. Prone positioning should be considered for all patients with severe ARDS in addition to PEEP and low tidal volume ventilation. Although this patient is receiving appropriate ventilator management according to ARDS guidelines, a substantial (30%-40%) risk for death remains with a Po2/Fio2 ratio of 117 mm Hg. Prone positioning should be initiated to reduce the mortality risk.Increasing the respiration rate to 20/min (Option A) is unnecessary in this patient. Permissive hypercapnia is an accepted strategy in ARDS because mild respiratory acidemia is not associated with harm. This patient's current pH and Pco2 values are acceptable, and there is no reason to increase respiration rate to increase minute ventilation.Veno-venous extracorporeal membrane oxygenation (ECMO) (Option B) is not the most appropriate intervention for this patient. ECMO is recommended as a rescue therapy in selected patients with ARDS who remain severely hypoxemic (Po2/Fio2 ratio <80 mm Hg) despite optimal ventilatory management and prone positioning. Although trials have suggested a mortality benefit with ECMO among appropriately selected patients, prone positioning is the next best step in this patient.Inhaled nitric oxide (Option C) causes selective pulmonary vasodilation, which improves ventilation-perfusion mismatch. However, this approach has not demonstrated reduction in the morbidity or mortality in patients with ARDS. Prone positioning is the next best step for this patient.",
   "educational_objective": "Treat acute respiratory distress syndrome with prone positioning.",
-  "extracted_at": "2025-12-23T14:13:48.416964-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 56-year-old man is evaluated in the ICU 2 days after he was hospitalized with right lower lobe pneumonia. Despite treatment with ceftriaxone and azithromycin, he developed increasing respiratory distress with hypoxemia and was intubated. Volume control mechanical ventilation was started.On physical examination, respiration rate is 16/min. Oxygen saturation is 92% with the patient breathing Fio2 of 0.60. Optimized ventilator settings include tidal volume of 400 mL and positive end-expiratory pressure titrated up to 14 cm H2O. Peak pressure is 32 cm H2O, and plateau pressure is 28 cm H2O. Predicted body weight is 66.0 kg (145.5 lb). The patient appears comfortable, with adequate patient-ventilator synchrony.Chest radiograph on admission showed diffuse bilateral lung infiltrates.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Increasing respiration rate to 20/min",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Extracorporeal membrane oxygenation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Inhaled nitric oxide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Prone positioning",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in management of this patient with acute respiratory distress syndrome (ARDS) is prone positioning for at least 12 to 16 hours daily (Option D). Positive end-expiratory pressure (PEEP) and low tidal volume ventilation are the cornerstones of ARDS management and are associated with improved patient outcomes. In patients with severe ARDS (Po2/Fio2 ratio <150 mm Hg and Fio2 ≥0.6), prone positioning within 48 hours is additionally associated with a decreased risk for death. This mortality benefit is likely due to improved ventilation to the dorsal portion of the lung, leading to a better ventilation-perfusion ratio and a lower risk for ventilator-induced lung injury. Prone positioning should be considered for all patients with severe ARDS in addition to PEEP and low tidal volume ventilation. Although this patient is receiving appropriate ventilator management according to ARDS guidelines, a substantial (30%-40%) risk for death remains with a Po2/Fio2 ratio of 117 mm Hg. Prone positioning should be initiated to reduce the mortality risk.Increasing the respiration rate to 20/min (Option A) is unnecessary in this patient. Permissive hypercapnia is an accepted strategy in ARDS because mild respiratory acidemia is not associated with harm. This patient's current pH and Pco2 values are acceptable, and there is no reason to increase respiration rate to increase minute ventilation.Veno-venous extracorporeal membrane oxygenation (ECMO) (Option B) is not the most appropriate intervention for this patient. ECMO is recommended as a rescue therapy in selected patients with ARDS who remain severely hypoxemic (Po2/Fio2 ratio <80 mm Hg) despite optimal ventilatory management and prone positioning. Although trials have suggested a mortality benefit with ECMO among appropriately selected patients, prone positioning is the next best step in this patient.Inhaled nitric oxide (Option C) causes selective pulmonary vasodilation, which improves ventilation-perfusion mismatch. However, this approach has not demonstrated reduction in the morbidity or mortality in patients with ARDS. Prone positioning is the next best step for this patient.",
   "key_points": [
     "Positive end-expiratory pressure and low tidal volume ventilation are associated with improved patient outcomes in acute respiratory distress syndrome.",
     "Prone positioning for at least 12 to 16 hours daily should be considered for patients with severe acute respiratory distress syndrome (Po2/Fio2 ratio <150 mm Hg and Fio2 ≥0.60)."
   ],
+  "references": "Grasselli G, Calfee CS, Camporota L, et al; European Society of Intensive Care Medicine Taskforce on ARDS. ESICM guidelines on acute respiratory distress syndrome: definition, phenotyping and respiratory support strategies. Intensive Care Med. 2023;49:727-59. PMID: 37326646 doi:10.1007/s00134-023-07050-7",
+  "related_content": {
+    "syllabus": [
+      "ccsec24002_24006"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Increasing respiration rate to 20/min"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Extracorporeal membrane oxygenation"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Inhaled nitric oxide"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Prone positioning"
-    }
-  ],
-  "question_id": "ccmcq24019",
-  "question_stem": "Which of the following is the most appropriate next step in management?",
-  "question_text": "A 56-year-old man is evaluated in the ICU 2 days after he was hospitalized with right lower lobe pneumonia. Despite treatment with ceftriaxone and azithromycin, he developed increasing respiratory distress with hypoxemia and was intubated. Volume control mechanical ventilation was started.On physical examination, respiration rate is 16/min. Oxygen saturation is 92% with the patient breathing Fio2 of 0.60. Optimized ventilator settings include tidal volume of 400 mL and positive end-expiratory pressure titrated up to 14 cm H2O. Peak pressure is 32 cm H2O, and plateau pressure is 28 cm H2O. Predicted body weight is 66.0 kg (145.5 lb). The patient appears comfortable, with adequate patient-ventilator synchrony.Chest radiograph on admission showed diffuse bilateral lung infiltrates.",
-  "references": "Grasselli G, Calfee CS, Camporota L, et al; European Society of Intensive Care Medicine Taskforce on ARDS. ESICM guidelines on acute respiratory distress syndrome: definition, phenotyping and respiratory support strategies. Intensive Care Med. 2023;49:727-59. PMID: 37326646 doi:10.1007/s00134-023-07050-7",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ccsec24002_24006"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:48.416964-06:00"
 }

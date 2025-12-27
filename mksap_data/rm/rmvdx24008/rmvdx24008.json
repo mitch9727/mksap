@@ -1,59 +1,59 @@
 {
+  "question_id": "rmvdx24008",
   "category": "rm",
-  "critique": "The most likely diagnosis is Sjögren disease (Option D). This patient has parotid gland enlargement that is beginning to obscure her ears on frontal view. Nearly 50% of patients with Sjögren disease develop symmetric salivary gland enlargement that is most obvious in the parotid glands but may also involve the submandibular glands.",
   "educational_objective": "Diagnose parotid and salivary gland swelling associated with Sjögren disease.",
-  "extracted_at": "2025-12-23T14:13:05.932673-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 47-year-old woman is evaluated for an 18-month history of dry eyes, dry mouth, and a change in the shape of her face, as shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Amyloidosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hodgkin lymphoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Sarcoidosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sjögren disease",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is Sjögren disease (Option D). This patient has parotid gland enlargement that is beginning to obscure her ears on frontal view. Nearly 50% of patients with Sjögren disease develop symmetric salivary gland enlargement that is most obvious in the parotid glands but may also involve the submandibular glands.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "rmsec24008_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/rmfig24609.806542e90cac84bbb909ae4a40402cac.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Amyloidosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Hodgkin lymphoma"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Sarcoidosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Sjögren disease"
-    }
-  ],
-  "question_id": "rmvdx24008",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 47-year-old woman is evaluated for an 18-month history of dry eyes, dry mouth, and a change in the shape of her face, as shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24008_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:05.932673-06:00"
 }

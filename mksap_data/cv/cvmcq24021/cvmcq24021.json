@@ -1,63 +1,63 @@
 {
+  "question_id": "cvmcq24021",
   "category": "cv",
-  "critique": "Coronary CT angiography (CCTA) (Option B) is the most appropriate diagnostic test in this scenario. Patients presenting with worsening or new angina should undergo diagnostic testing and risk stratification to determine treatment approaches to prevent adverse cardiac events. Many options exist for risk stratification testing, each of which has ideal utility, advantages, and limitations (see ). The 2021 American Heart Association/American College of Cardiology guidelines for the evaluation and diagnosis of chest pain suggest CCTA as a favored strategy in patients younger than 65 years with an intermediate or high pretest probability of coronary artery disease (CAD), especially if less obstructive CAD is expected. The evaluation of chest pain in the emergency department setting is particularly suitable for a CCTA-based assessment because CCTA contributes to reduced time to diagnosis and prompt discharge with no effect on safety compared with a standard evaluation including stress testing. Other indications for CCTA include a prior inconclusive functional study, concern for anomalous coronary arteries, and a need to evaluate the aorta or pulmonary arteries. This patient is younger than 65 years and has an intermediate likelihood of CAD as well as a prior inconclusive test; CCTA is the best next test.Adenosine myocardial perfusion imaging (Option A) is usually recommended in patients who cannot exercise, because the test results are not dependent on heart rate increase. Although this approach might be appropriate for this patient given her prior exercise intolerance, her active bronchospasm is a contraindication to use of adenosine. Other contraindications to vasodilatory perfusion imaging tests include theophylline therapy, hypotension, and high-degree atrioventricular block.Exercise stress echocardiography (Option C) would not be the best choice for this patient owing to her inability to reach target heart rate during a past stress test. The prior inconclusive stress imaging test is an indication for CCTA.In patients presenting with chest pain without ST-elevation myocardial infarction, invasive coronary angiography (Option D) is indicated for patients categorized as high risk based on a validated risk score (e.g., TIMI [Thrombolysis in Myocardial Infarction], GRACE [Global Registry of Acute Coronary Events]). Angiography or CCTA may also be used in intermediate-risk patients who have recurrent symptoms or significant left ventricular dysfunction. For this patient, invasive coronary angiography would be inappropriate as an initial test given her lack of high-risk factors, such as abnormal ECG, elevated troponin, or known CAD.",
   "educational_objective": "Evaluate chest pain.",
-  "extracted_at": "2025-12-22T22:48:40.292471-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 53-year-old woman is evaluated in the emergency department for two episodes of chest pain during the past 2 days that occurred while exercising. She currently has no chest pain or accompanying symptoms. Three years ago, she had a similar episode and underwent treadmill ECG stress testing, but the results were inconclusive because of poor exercise tolerance. She has a history of depression and COPD. Medications are sertraline and tiotropium.Physical examination reveals diffuse expiratory wheezes. All other findings, including vital signs, are normal.Twelve-lead ECG shows sinus rhythm at 97/min and no ST-segment deviations.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Adenosine myocardial perfusion imaging",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Coronary CT angiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Exercise stress echocardiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Invasive coronary angiography",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Coronary CT angiography (CCTA) (Option B) is the most appropriate diagnostic test in this scenario. Patients presenting with worsening or new angina should undergo diagnostic testing and risk stratification to determine treatment approaches to prevent adverse cardiac events. Many options exist for risk stratification testing, each of which has ideal utility, advantages, and limitations (see ). The 2021 American Heart Association/American College of Cardiology guidelines for the evaluation and diagnosis of chest pain suggest CCTA as a favored strategy in patients younger than 65 years with an intermediate or high pretest probability of coronary artery disease (CAD), especially if less obstructive CAD is expected. The evaluation of chest pain in the emergency department setting is particularly suitable for a CCTA-based assessment because CCTA contributes to reduced time to diagnosis and prompt discharge with no effect on safety compared with a standard evaluation including stress testing. Other indications for CCTA include a prior inconclusive functional study, concern for anomalous coronary arteries, and a need to evaluate the aorta or pulmonary arteries. This patient is younger than 65 years and has an intermediate likelihood of CAD as well as a prior inconclusive test; CCTA is the best next test.Adenosine myocardial perfusion imaging (Option A) is usually recommended in patients who cannot exercise, because the test results are not dependent on heart rate increase. Although this approach might be appropriate for this patient given her prior exercise intolerance, her active bronchospasm is a contraindication to use of adenosine. Other contraindications to vasodilatory perfusion imaging tests include theophylline therapy, hypotension, and high-degree atrioventricular block.Exercise stress echocardiography (Option C) would not be the best choice for this patient owing to her inability to reach target heart rate during a past stress test. The prior inconclusive stress imaging test is an indication for CCTA.In patients presenting with chest pain without ST-elevation myocardial infarction, invasive coronary angiography (Option D) is indicated for patients categorized as high risk based on a validated risk score (e.g., TIMI [Thrombolysis in Myocardial Infarction], GRACE [Global Registry of Acute Coronary Events]). Angiography or CCTA may also be used in intermediate-risk patients who have recurrent symptoms or significant left ventricular dysfunction. For this patient, invasive coronary angiography would be inappropriate as an initial test given her lack of high-risk factors, such as abnormal ECG, elevated troponin, or known CAD.",
   "key_points": [
     "Patients presenting with worsening or new angina should undergo diagnostic testing and risk stratification to determine treatment approaches to prevent adverse cardiac events.",
     "Coronary CT angiography is a favored strategy for evaluation of possible cardiac chest pain in patients younger than 65 years with an intermediate or high pretest probability of coronary artery disease (CAD) if less obstructive CAD is expected."
   ],
+  "references": "Gulati M, Levy PD, Mukherjee D, et al. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR guideline for the evaluation and diagnosis of chest pain: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2021;144:e368-e454. PMID: 34709879 doi:10.1161/CIR.0000000000001029",
+  "related_content": {
+    "syllabus": [
+      "cvsec24003_24009"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Adenosine myocardial perfusion imaging"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Coronary CT angiography"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Exercise stress echocardiography"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Invasive coronary angiography"
-    }
-  ],
-  "question_id": "cvmcq24021",
-  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
-  "question_text": "A 53-year-old woman is evaluated in the emergency department for two episodes of chest pain during the past 2 days that occurred while exercising. She currently has no chest pain or accompanying symptoms. Three years ago, she had a similar episode and underwent treadmill ECG stress testing, but the results were inconclusive because of poor exercise tolerance. She has a history of depression and COPD. Medications are sertraline and tiotropium.Physical examination reveals diffuse expiratory wheezes. All other findings, including vital signs, are normal.Twelve-lead ECG shows sinus rhythm at 97/min and no ST-segment deviations.",
-  "references": "Gulati M, Levy PD, Mukherjee D, et al. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR guideline for the evaluation and diagnosis of chest pain: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2021;144:e368-e454. PMID: 34709879 doi:10.1161/CIR.0000000000001029",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24003_24009"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:48:40.292471-06:00"
 }

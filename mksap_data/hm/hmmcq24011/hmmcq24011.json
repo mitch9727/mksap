@@ -1,62 +1,62 @@
 {
+  "question_id": "hmmcq24011",
   "category": "hm",
-  "critique": "This patient with incidentally discovered microcytic anemia most likely has β-thalassemia minor (Option B). Hemoglobin A is a tetramer containing two α chains and two β chains (α2β2). Thalassemia is a congenital disorder caused by alterations in the α- or β-globin genes that results in impaired production of the corresponding α or β chains and subsequent imbalance of their ratio. The impaired production of hemoglobin and destruction of erythrocyte precursors in the marrow result in ineffective erythropoiesis. A wide range of clinical phenotypes exist and are dependent on the affected chain and the severity of the abnormality. These manifestations range from an asymptomatic change in erythrocytes to severe transfusion-dependent anemia. The peripheral blood smear typically shows uniform microcytosis, nucleated erythrocytes, and target cells resulting from an increased ratio of surface membrane area relative to erythrocyte volume. Ineffective erythropoiesis can be demonstrated by markers of hemolysis, including increased serum lactate dehydrogenase and unconjugated bilirubin levels and a decreased serum haptoglobin level. Diagnosis can be confirmed with genetic testing or, in the case of β-thalassemia, hemoglobin electrophoresis. This patient has mild, microcytic, and hypochromic anemia with target cells on peripheral blood smear and normal iron indices. The most likely diagnosis is β-thalassemia minor.Patients with anemia of inflammation (Option A) usually have a normocytic or mildly microcytic anemia with a low serum iron level and low total iron-binding capacity. This patient has normal iron studies and no underlying inflammatory or chronic disease, making anemia of inflammation unlikely.Myelodysplastic syndrome (MDS) (Option C) is a clonal stem cell disorder that results in anemia and often affects the other cell lines. MDS usually occurs in older patients and is associated with macrocytosis as well as dysplastic cells (hypogranular neutrophils and platelets) on the peripheral blood smear. None of these findings are present in this patient.Patients with sickle cell trait (Option D) have one normal β-globin gene and one gene encoding for the sickle hemoglobin alteration, resulting in production of hemoglobin AS. Patients with sickle cell trait have normal-appearing erythrocytes on laboratory testing.",
   "educational_objective": "Diagnose β-thalassemia minor.",
-  "extracted_at": "2025-12-22T19:36:37.362750-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "An 18-year-old man is evaluated after being deferred from donating blood because of a low hemoglobin level. He has no history of bleeding and feels well. Medical history is unremarkable, and he takes no medications.On physical examination, vital signs and other findings are normal.Peripheral blood smear reveals microcytic and hypochromic erythrocytes; few target cells are present.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Anemia of inflammation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "β-Thalassemia minor",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Myelodysplastic syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sickle cell trait",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient with incidentally discovered microcytic anemia most likely has β-thalassemia minor (Option B). Hemoglobin A is a tetramer containing two α chains and two β chains (α2β2). Thalassemia is a congenital disorder caused by alterations in the α- or β-globin genes that results in impaired production of the corresponding α or β chains and subsequent imbalance of their ratio. The impaired production of hemoglobin and destruction of erythrocyte precursors in the marrow result in ineffective erythropoiesis. A wide range of clinical phenotypes exist and are dependent on the affected chain and the severity of the abnormality. These manifestations range from an asymptomatic change in erythrocytes to severe transfusion-dependent anemia. The peripheral blood smear typically shows uniform microcytosis, nucleated erythrocytes, and target cells resulting from an increased ratio of surface membrane area relative to erythrocyte volume. Ineffective erythropoiesis can be demonstrated by markers of hemolysis, including increased serum lactate dehydrogenase and unconjugated bilirubin levels and a decreased serum haptoglobin level. Diagnosis can be confirmed with genetic testing or, in the case of β-thalassemia, hemoglobin electrophoresis. This patient has mild, microcytic, and hypochromic anemia with target cells on peripheral blood smear and normal iron indices. The most likely diagnosis is β-thalassemia minor.Patients with anemia of inflammation (Option A) usually have a normocytic or mildly microcytic anemia with a low serum iron level and low total iron-binding capacity. This patient has normal iron studies and no underlying inflammatory or chronic disease, making anemia of inflammation unlikely.Myelodysplastic syndrome (MDS) (Option C) is a clonal stem cell disorder that results in anemia and often affects the other cell lines. MDS usually occurs in older patients and is associated with macrocytosis as well as dysplastic cells (hypogranular neutrophils and platelets) on the peripheral blood smear. None of these findings are present in this patient.Patients with sickle cell trait (Option D) have one normal β-globin gene and one gene encoding for the sickle hemoglobin alteration, resulting in production of hemoglobin AS. Patients with sickle cell trait have normal-appearing erythrocytes on laboratory testing.",
   "key_points": [
     "The peripheral blood smear in thalassemia typically shows uniform microcytosis, nucleated erythrocytes, and target cells.",
     "Ineffective erythropoiesis in thalassemia can be demonstrated by markers of hemolysis, including increased serum lactate dehydrogenase and unconjugated bilirubin levels and decreased serum haptoglobin levels."
   ],
+  "references": "Taher AT, Musallam KM, Cappellini MD. β-Thalassemias. N Engl J Med. 2021;384:727-743. PMID: 33626255 doi:10.1056/NEJMra2021838",
+  "related_content": {
+    "syllabus": [
+      "hmsec24004_24009"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Anemia of inflammation"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "β-Thalassemia minor"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Myelodysplastic syndrome"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Sickle cell trait"
-    }
-  ],
-  "question_id": "hmmcq24011",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "An 18-year-old man is evaluated after being deferred from donating blood because of a low hemoglobin level. He has no history of bleeding and feels well. Medical history is unremarkable, and he takes no medications.On physical examination, vital signs and other findings are normal.Peripheral blood smear reveals microcytic and hypochromic erythrocytes; few target cells are present.",
-  "references": "Taher AT, Musallam KM, Cappellini MD. β-Thalassemias. N Engl J Med. 2021;384:727-743. PMID: 33626255 doi:10.1056/NEJMra2021838",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24004_24009"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:36:37.362750-06:00"
 }

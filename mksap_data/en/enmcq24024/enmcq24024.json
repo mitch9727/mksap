@@ -1,62 +1,62 @@
 {
+  "question_id": "enmcq24024",
   "category": "en",
-  "critique": "The most appropriate test to perform next is an adrenocorticotropic hormone (ACTH) stimulation test (Option A). Primary adrenal insufficiency (AI) is a life-threatening disorder that often presents insidiously. Clinical and laboratory manifestations are described in Table: Manifestations of Primary Adrenal Insufficiency. The initial screening test for AI is an 8 am serum cortisol level, which directs subsequent evaluation (). For patients with cortisol levels between 3 and 15 μg/dL (82.8-414 nmol/L), confirmatory testing is needed to diagnose AI. An ACTH stimulation test is performed by administering 250 μg of ACTH and measuring cortisol at 0, 30, and 60 minutes. A blunted response to ACTH stimulation (peak cortisol level of 18 μg/dL [496.8 nmol/L] or lower) confirms AI. This patient has typical historical (weight loss, fatigue) and physical examination findings (orthostasis, hyperpigmentation) for AI, and the 8 am cortisol measurement is indeterminate. An ACTH stimulation test is needed to confirm the diagnosis.Cortisol is typically measured as total serum cortisol, including cortisol that is free (biologically active) and bound to cortisol-binding globulin (inactive). Medical conditions, such as acute illness, liver dysfunction, and low protein states, and medications, such as oral estrogen, can alter the amount of cortisol-binding globulin; free cortisol levels remain the same, but total cortisol measurements are rendered unreliable. This patient does not take medications or have medical conditions that alter cortisol-binding globulin (Option B); therefore, this test will not provide additional relevant clinical information.A low-dose (1-mg) dexamethasone suppression test (Option C) is helpful to assess for excess cortisol, such as in a patient with potential Cushing syndrome or an incidental adrenal mass. Dexamethasone is a glucocorticoid similar to cortisol, so it will suppress endogenous cortisol secretion from the adrenal glands, except in pathologic conditions. This test is not diagnostically helpful for a patient with AI.The diagnosis of AI should first be confirmed with an ACTH stimulation test. If AI is confirmed, a serum ACTH level can determine whether the patient has primary AI (the ACTH level will be elevated) or secondary AI (the ACTH level will be low or inappropriately normal). For patients with unexplained secondary AI, a pituitary MRI should be completed to assess for structural disease. A pituitary MRI (Option D) would be premature in this patient.",
   "educational_objective": "Confirm adrenal insufficiency with an adrenocorticotropic hormone stimulation test.",
-  "extracted_at": "2025-12-22T22:59:30.124939-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 38-year-old woman is evaluated in the hospital for lightheadedness. She has also had 6 months of progressive weight loss, nausea, and fatigue. Medical history is significant for primary hypothyroidism, treated with levothyroxine. Family history is notable for Graves disease in her mother and a sister with type 1 diabetes mellitus.On physical examination, the patient appears ill and thin. Blood pressure is 100/65 mm Hg supine and 82/45 mm Hg standing. Pulse rate is 91/min supine and 110/min standing. Other vital signs are normal. BMI is 19. Mucous membranes are dry. Darkening along the palmar creases is seen on both hands.",
+  "question_stem": "Which of the following is the most appropriate test to confirm the diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Adrenocorticotropic hormone stimulation test",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Cortisol-binding globulin measurement",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Low-dose dexamethasone suppression test",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pituitary MRI",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate test to perform next is an adrenocorticotropic hormone (ACTH) stimulation test (Option A). Primary adrenal insufficiency (AI) is a life-threatening disorder that often presents insidiously. Clinical and laboratory manifestations are described in Table: Manifestations of Primary Adrenal Insufficiency. The initial screening test for AI is an 8 am serum cortisol level, which directs subsequent evaluation (). For patients with cortisol levels between 3 and 15 μg/dL (82.8-414 nmol/L), confirmatory testing is needed to diagnose AI. An ACTH stimulation test is performed by administering 250 μg of ACTH and measuring cortisol at 0, 30, and 60 minutes. A blunted response to ACTH stimulation (peak cortisol level of 18 μg/dL [496.8 nmol/L] or lower) confirms AI. This patient has typical historical (weight loss, fatigue) and physical examination findings (orthostasis, hyperpigmentation) for AI, and the 8 am cortisol measurement is indeterminate. An ACTH stimulation test is needed to confirm the diagnosis.Cortisol is typically measured as total serum cortisol, including cortisol that is free (biologically active) and bound to cortisol-binding globulin (inactive). Medical conditions, such as acute illness, liver dysfunction, and low protein states, and medications, such as oral estrogen, can alter the amount of cortisol-binding globulin; free cortisol levels remain the same, but total cortisol measurements are rendered unreliable. This patient does not take medications or have medical conditions that alter cortisol-binding globulin (Option B); therefore, this test will not provide additional relevant clinical information.A low-dose (1-mg) dexamethasone suppression test (Option C) is helpful to assess for excess cortisol, such as in a patient with potential Cushing syndrome or an incidental adrenal mass. Dexamethasone is a glucocorticoid similar to cortisol, so it will suppress endogenous cortisol secretion from the adrenal glands, except in pathologic conditions. This test is not diagnostically helpful for a patient with AI.The diagnosis of AI should first be confirmed with an ACTH stimulation test. If AI is confirmed, a serum ACTH level can determine whether the patient has primary AI (the ACTH level will be elevated) or secondary AI (the ACTH level will be low or inappropriately normal). For patients with unexplained secondary AI, a pituitary MRI should be completed to assess for structural disease. A pituitary MRI (Option D) would be premature in this patient.",
   "key_points": [
     "The initial screening test for adrenal insufficiency is an 8 am serum cortisol level; if the level is between 3 and 15 μg/dL (83-414 nmol/L), it should be followed by an adrenocorticotropic hormone stimulation test to confirm the diagnosis."
   ],
+  "references": "Husebye ES, Pearce SH, Krone NP, et al. Adrenal insufficiency. Lancet. 2021;397:613-629. PMID: 33484633 doi:10.1016/S0140-6736(21)00136-7",
+  "related_content": {
+    "syllabus": [
+      "ensec24004_24011"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Adrenocorticotropic hormone stimulation test"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Cortisol-binding globulin measurement"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Low-dose dexamethasone suppression test"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Pituitary MRI"
-    }
-  ],
-  "question_id": "enmcq24024",
-  "question_stem": "Which of the following is the most appropriate test to confirm the diagnosis?",
-  "question_text": "A 38-year-old woman is evaluated in the hospital for lightheadedness. She has also had 6 months of progressive weight loss, nausea, and fatigue. Medical history is significant for primary hypothyroidism, treated with levothyroxine. Family history is notable for Graves disease in her mother and a sister with type 1 diabetes mellitus.On physical examination, the patient appears ill and thin. Blood pressure is 100/65 mm Hg supine and 82/45 mm Hg standing. Pulse rate is 91/min supine and 110/min standing. Other vital signs are normal. BMI is 19. Mucous membranes are dry. Darkening along the palmar creases is seen on both hands.",
-  "references": "Husebye ES, Pearce SH, Krone NP, et al. Adrenal insufficiency. Lancet. 2021;397:613-629. PMID: 33484633 doi:10.1016/S0140-6736(21)00136-7",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24004_24011"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:59:30.124939-06:00"
 }

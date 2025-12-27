@@ -1,60 +1,60 @@
 {
+  "question_id": "cvvdx24028",
   "category": "cv",
-  "critique": "The most likely diagnosis is constrictive pericarditis (Option B). Constrictive pericarditis is characterized by pericardial thickening, fibrosis, and sometimes calcification that impair diastolic filling and limit total cardiac volume. Chest radiography or CT may demonstrate partial or circumferential pericardial calcification, and CT or cardiac magnetic resonance imaging may demonstrate pericardial thickening (>3 mm). Importantly, constriction may exist in the absence of these findings. This patient's chest radiograph shows pericardial calcification on both the posterior-anterior (black arrow) and lateral (white arrows) views.",
   "educational_objective": "Identify the changes of constrictive pericarditis on chest radiograph.",
-  "extracted_at": "2025-12-23T14:08:40.420033-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 60-year-old man is evaluated for fatigue, elevated jugular venous pressure, and lower extremity edema.Chest radiographs are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Chronic thromboembolic pulmonary hypertension",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Constrictive pericarditis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Primary hyperparathyroidism",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Restrictive cardiomyopathy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is constrictive pericarditis (Option B). Constrictive pericarditis is characterized by pericardial thickening, fibrosis, and sometimes calcification that impair diastolic filling and limit total cardiac volume. Chest radiography or CT may demonstrate partial or circumferential pericardial calcification, and CT or cardiac magnetic resonance imaging may demonstrate pericardial thickening (>3 mm). Importantly, constriction may exist in the absence of these findings. This patient's chest radiograph shows pericardial calcification on both the posterior-anterior (black arrow) and lateral (white arrows) views.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24009_24010"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24634.fb94ef6ee297d30b40f34e2ea2faa595.jpg",
       "figures/cvfig24633.0e149c2164860b49eeb04e438afbc4f7.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Chronic thromboembolic pulmonary hypertension"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Constrictive pericarditis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Primary hyperparathyroidism"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Restrictive cardiomyopathy"
-    }
-  ],
-  "question_id": "cvvdx24028",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 60-year-old man is evaluated for fatigue, elevated jugular venous pressure, and lower extremity edema.Chest radiographs are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24009_24010"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.420033-06:00"
 }

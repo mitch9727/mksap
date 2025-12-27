@@ -1,113 +1,81 @@
-use anyhow::Result;
+use anyhow::{Context, Result};
 use clap::Parser;
-use reqwest::Client;
-use tracing::{info, warn};
+use reqwest::{header, Client};
+use tracing::info;
 
-mod api;
-mod browser;
-mod file_store;
-mod media;
-mod model;
-mod render;
-mod session;
-mod update;
+mod discovery;
 
-use model::Args;
-use session::load_session_cookie;
+#[derive(Parser, Debug)]
+#[command(about = "Discover MKSAP questions with media via API", author, version)]
+struct Args {
+    /// Base API URL
+    #[arg(long, default_value = "https://mksap.acponline.org")]
+    base_url: String,
+
+    /// Number of concurrent API requests
+    #[arg(long, default_value = "10")]
+    concurrent_requests: usize,
+
+    /// Output file path for discovery results
+    #[arg(long, default_value = "media_discovery.json")]
+    output_file: String,
+}
 
 #[tokio::main]
 async fn main() -> Result<()> {
+    // Load .env file from project root
+    dotenv::from_path("../.env").ok();
+
     tracing_subscriber::fmt()
         .with_max_level(tracing::Level::INFO)
         .init();
 
     let args = Args::parse();
-    let mut session_cookie = load_session_cookie();
 
-    let entries = file_store::collect_question_entries(&args.data_dir)?;
-    let targets = file_store::select_targets(&entries, args.question_id.as_deref(), args.all)?;
+    info!("Starting media discovery via API");
+    info!("Base URL: {}", args.base_url);
+    info!("Concurrent requests: {}", args.concurrent_requests);
+    info!("Output file: {}", args.output_file);
 
-    let include_videos = !args.skip_videos;
-    let include_svgs = !args.skip_svgs;
+    // Get session cookie from environment
+    let session_cookie = std::env::var("MKSAP_SESSION")
+        .context("MKSAP_SESSION not set in .env file")?;
 
-    let password = resolve_password(&args)?;
+    // Build HTTP client with authentication
+    let mut headers = header::HeaderMap::new();
+    let cookie_value = format!("_mksap19_session={}", session_cookie);
+    headers.insert(
+        header::COOKIE,
+        header::HeaderValue::from_str(&cookie_value)?,
+    );
+    info!("Using session cookie from environment");
 
-    if (include_videos || include_svgs) && session_cookie.is_none() && args.interactive_login {
-        let login_options = browser::BrowserOptions {
-            base_url: args.base_url.clone(),
-            webdriver_url: args.webdriver_url.clone(),
-            headless: false,
-            interactive_login: true,
-            username: args.username.clone(),
-            password: password.clone(),
-            login_timeout: std::time::Duration::from_secs(args.login_timeout_seconds),
-            session_cookie: None,
-        };
-        let login_session = browser::BrowserSession::connect(&login_options).await?;
-        login_session.ensure_login(&login_options).await?;
-        session_cookie = load_session_cookie();
-    }
+    let client = Client::builder()
+        .default_headers(headers)
+        .build()?;
 
-    let client = build_client(session_cookie.as_deref())?;
-
-    let browser = if include_videos || include_svgs {
-        let options = browser::BrowserOptions {
-            base_url: args.base_url.clone(),
-            webdriver_url: args.webdriver_url.clone(),
-            headless: !args.headed,
-            interactive_login: args.interactive_login,
-            username: args.username.clone(),
-            password: password.clone(),
-            login_timeout: std::time::Duration::from_secs(args.login_timeout_seconds),
-            session_cookie: session_cookie.clone(),
-        };
-        let session = browser::BrowserSession::connect(&options).await?;
-        session.ensure_login(&options).await?;
-        Some(session)
-    } else {
-        None
-    };
-
-    info!("Processing {} questions for media extraction", targets.len());
-    update::run_media_extraction(
+    // Discover questions with media using inverse logic:
+    // 1. Get all question IDs from text_extractor's discovery checkpoints
+    // 2. Check each question via API to see if it's text-only
+    // 3. Questions that aren't text-only = questions with media
+    let results = discovery::discover_media_questions(
         &client,
         &args.base_url,
-        &targets,
-        browser,
-        include_videos,
-        include_svgs,
+        args.concurrent_requests,
     )
-    .await?;
-    if args.format_existing {
-        let formatted = file_store::format_existing_tables(&args.data_dir)?;
-        info!("Reformatted {} table HTML files", formatted);
-    }
-    info!("Media extraction completed.");
+    .await
+    .context("Failed to discover media questions")?;
+
+    let output_path = std::path::Path::new(&args.output_file);
+    results.save_to_file(output_path)?;
+    info!("Saved discovery results to {}", args.output_file);
+
+    let report = results.generate_report();
+    let report_path = output_path.with_extension("txt");
+    std::fs::write(&report_path, &report)?;
+    info!("Saved text report to {}", report_path.display());
+
+    println!("\n{}", report);
+
     Ok(())
-}
-
-fn build_client(session_cookie: Option<&str>) -> Result<Client> {
-    let mut headers = reqwest::header::HeaderMap::new();
-    if let Some(session_cookie) = session_cookie {
-        let cookie_value = format!("_mksap19_session={}", session_cookie);
-        headers.insert(reqwest::header::COOKIE, cookie_value.parse()?);
-    } else {
-        warn!("MKSAP_SESSION not set and no cached session found; API may return 401 Unauthorized.");
-    }
-
-    Ok(Client::builder().default_headers(headers).build()?)
-}
-
-fn resolve_password(args: &Args) -> Result<Option<String>> {
-    if let Some(password) = args.password.clone() {
-        return Ok(Some(password));
-    }
-    if args.username.is_some() {
-        let password = rpassword::prompt_password("MKSAP password (input hidden): ")?;
-        if password.trim().is_empty() {
-            return Ok(None);
-        }
-        return Ok(Some(password));
-    }
-    Ok(None)
 }

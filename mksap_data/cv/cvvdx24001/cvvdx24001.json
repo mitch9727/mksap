@@ -1,60 +1,60 @@
 {
+  "question_id": "cvvdx24001",
   "category": "cv",
-  "critique": "The ECG shows multifocal atrial tachycardia (MAT) (Option C). MAT is most commonly seen in acutely ill patients, most often in the setting of pulmonary disease, such as an exacerbation of COPD with associated hypoxia and electrolyte abnormalities. The ECG in MAT is defined by the presence of discrete P waves with at least three different morphologic patterns (arrows) and varying P-P, P-R, and R-R intervals, distinguishing it from junctional tachycardia. The morphologic features of P waves are generally best seen in leads II, III, and V1. The rate is greater than 100/min, distinguishing MAT from wandering atrial pacemaker. The rhythm is irregular; however, unlike in atrial fibrillation, P waves are detectable, and there is a 1:1 relationship of each P wave to a QRS complex. Therapy is directed at the underlying disease process because without treatment of the underlying cause, the arrhythmia is often refractory to therapy or recurrent.",
   "educational_objective": "Identify multifocal atrial tachycardia on ECG.",
-  "extracted_at": "2025-12-23T14:08:40.316885-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 63-year-old woman is admitted to the ICU with respiratory failure.ECG is shown.",
+  "question_stem": "Which of the following abnormalities is demonstrated on this patient's ECG?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Atrial fibrillation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Junctional tachycardia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Multifocal atrial tachycardia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sinus tachycardia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The ECG shows multifocal atrial tachycardia (MAT) (Option C). MAT is most commonly seen in acutely ill patients, most often in the setting of pulmonary disease, such as an exacerbation of COPD with associated hypoxia and electrolyte abnormalities. The ECG in MAT is defined by the presence of discrete P waves with at least three different morphologic patterns (arrows) and varying P-P, P-R, and R-R intervals, distinguishing it from junctional tachycardia. The morphologic features of P waves are generally best seen in leads II, III, and V1. The rate is greater than 100/min, distinguishing MAT from wandering atrial pacemaker. The rhythm is irregular; however, unlike in atrial fibrillation, P waves are detectable, and there is a 1:1 relationship of each P wave to a QRS complex. Therapy is directed at the underlying disease process because without treatment of the underlying cause, the arrhythmia is often refractory to therapy or recurrent.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24016"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24601.8d41310de07e096623893e2378f75def.jpg",
       "figures/cvfig24600.81ba3a7721c54761709958e74253b348.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Atrial fibrillation"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Junctional tachycardia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Multifocal atrial tachycardia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Sinus tachycardia"
-    }
-  ],
-  "question_id": "cvvdx24001",
-  "question_stem": "Which of the following abnormalities is demonstrated on this patient's ECG?",
-  "question_text": "A 63-year-old woman is admitted to the ICU with respiratory failure.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24006_24016"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.316885-06:00"
 }

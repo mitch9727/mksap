@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24025",
   "category": "cv",
-  "critique": "This ECG shows an acute inferior myocardial infarction (Option B), with ST-segment elevations in the inferior leads (II, III, and aVF) and reciprocal changes (ST-segment depressions) in lead aVL. There is also subtle ST-segment elevation in leads V5 and V6.",
   "educational_objective": "Identify an inferior myocardial infarction on ECG.",
-  "extracted_at": "2025-12-23T14:08:40.385142-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 48-year-old woman is evaluated for dyspnea associated with nausea and diaphoresis.ECG is shown.",
+  "question_stem": "Which of the following abnormalities is demonstrated on this patient's ECG?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Early repolarization",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Inferior myocardial infarction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Non–ST-elevation myocardial infarction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pericarditis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This ECG shows an acute inferior myocardial infarction (Option B), with ST-segment elevations in the inferior leads (II, III, and aVF) and reciprocal changes (ST-segment depressions) in lead aVL. There is also subtle ST-segment elevation in leads V5 and V6.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24004_24015"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24630.989538aa3cb7a265dbee515d37c3b0de.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Early repolarization"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Inferior myocardial infarction"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Non–ST-elevation myocardial infarction"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Pericarditis"
-    }
-  ],
-  "question_id": "cvvdx24025",
-  "question_stem": "Which of the following abnormalities is demonstrated on this patient's ECG?",
-  "question_text": "A 48-year-old woman is evaluated for dyspnea associated with nausea and diaphoresis.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24004_24015"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.385142-06:00"
 }

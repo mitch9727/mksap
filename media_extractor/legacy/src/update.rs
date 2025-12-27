@@ -131,16 +131,16 @@ async fn collect_media_updates(
     }
 
     if (!wants_videos.is_empty() || !wants_svgs.is_empty()) && browser.is_none() {
-        for vid in wants_videos {
+        for vid in &wants_videos {
             if seen_videos.insert(vid.clone()) {
                 warn!("Found video {} (browser disabled)", vid);
-                update.videos.push(vid);
+                update.videos.push(vid.clone());
             }
         }
-        for svg in wants_svgs {
+        for svg in &wants_svgs {
             if seen_svgs.insert(svg.clone()) {
                 warn!("Found svg {} (browser disabled)", svg);
-                update.svgs.push(svg);
+                update.svgs.push(svg.clone());
             }
         }
     }

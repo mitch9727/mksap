@@ -1,62 +1,62 @@
 {
+  "question_id": "cvmcq24117",
   "category": "cv",
-  "critique": "The most appropriate next step in management for this patient with recurrent atrial flutter is catheter ablation (Option B). Typical atrial flutter is characterized by highly organized reentry around the tricuspid annulus. Initial treatment is similar to that for atrial fibrillation with rate control and, if indicated, anticoagulation. A rhythm control strategy, however, is favored in atrial flutter because rate control may be difficult and often requires high doses of more than one atrioventricular nodal blocker. Furthermore, catheter ablation for atrial flutter has a very high success rate (>95%) and an excellent safety profile. It is often curative and is the preferred method of rhythm control for typical atrial flutter, even as the initial therapy. This patient has atrial flutter and previously underwent direct current cardioversion with recurrence of arrhythmia. Catheter ablation is indicated.Amiodarone (Option A) is often ineffective in maintaining sinus rhythm in patients with atrial flutter and is less effective than catheter ablation. It is also associated with several adverse effects, including thyroid, hepatic, and pulmonary toxicity, especially with long-term administration.This patient has already undergone direct current cardioversion (Option C) followed by a recurrence of atrial flutter symptoms. Undergoing another conversion is unlikely to be helpful because the recurrence rate for her symptomatic atrial flutter would be high.Dofetilide (Option D) is a class III antiarrhythmic agent that may be useful in maintaining sinus rhythm in patients with atrial fibrillation. However, it may cause significant QT prolongation and is subject to several drug-drug interactions. For this patient with recurrent atrial flutter, catheter ablation is a much better option.",
   "educational_objective": "Treat atrial flutter.",
-  "extracted_at": "2025-12-22T22:49:32.415614-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 71-year-old woman is evaluated in the hospital for palpitations and shortness of breath that began 3 days ago. She does not have concomitant chest pain, orthopnea, edema, or light-headedness. Six months ago, she underwent cardioversion for atrial flutter. She has hypertension and type 2 diabetes mellitus. Medications are apixaban, metoprolol, lisinopril, metformin, and sitagliptin.On physical examination, blood pressure is 125/85 mm Hg and pulse rate is 149/min. Central venous pressure is normal. The lungs are clear. Cardiac examination reveals tachycardia with a regular rhythm and no murmurs.Results of laboratory studies, including thyroid-stimulating hormone level, are normal.ECG is shown.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Amiodarone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Catheter ablation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Direct current cardioversion",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Dofetilide",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in management for this patient with recurrent atrial flutter is catheter ablation (Option B). Typical atrial flutter is characterized by highly organized reentry around the tricuspid annulus. Initial treatment is similar to that for atrial fibrillation with rate control and, if indicated, anticoagulation. A rhythm control strategy, however, is favored in atrial flutter because rate control may be difficult and often requires high doses of more than one atrioventricular nodal blocker. Furthermore, catheter ablation for atrial flutter has a very high success rate (>95%) and an excellent safety profile. It is often curative and is the preferred method of rhythm control for typical atrial flutter, even as the initial therapy. This patient has atrial flutter and previously underwent direct current cardioversion with recurrence of arrhythmia. Catheter ablation is indicated.Amiodarone (Option A) is often ineffective in maintaining sinus rhythm in patients with atrial flutter and is less effective than catheter ablation. It is also associated with several adverse effects, including thyroid, hepatic, and pulmonary toxicity, especially with long-term administration.This patient has already undergone direct current cardioversion (Option C) followed by a recurrence of atrial flutter symptoms. Undergoing another conversion is unlikely to be helpful because the recurrence rate for her symptomatic atrial flutter would be high.Dofetilide (Option D) is a class III antiarrhythmic agent that may be useful in maintaining sinus rhythm in patients with atrial fibrillation. However, it may cause significant QT prolongation and is subject to several drug-drug interactions. For this patient with recurrent atrial flutter, catheter ablation is a much better option.",
   "key_points": [
     "A rhythm control strategy is favored in atrial flutter because rate control may be difficult and often requires high doses of more than one atrioventricular nodal blocker.",
     "Catheter ablation is routinely curative for patients with typical atrial flutter and has a very acceptable safety profile."
   ],
+  "references": "January CT, Wann LS, Calkins H, et al. 2019 AHA/ACC/HRS focused update of the 2014 AHA/ACC/HRS guideline for the management of patients with atrial fibrillation: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. J Am Coll Cardiol. 2019;74:104-132. PMID: 30703431 doi:10.1016/j.jacc.2019.01.011",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24034"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24230.98b24ad5dc4a8d61cc536d53c17cbfae.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Amiodarone"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Catheter ablation"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Direct current cardioversion"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Dofetilide"
-    }
-  ],
-  "question_id": "cvmcq24117",
-  "question_stem": "Which of the following is the most appropriate next step in management?",
-  "question_text": "A 71-year-old woman is evaluated in the hospital for palpitations and shortness of breath that began 3 days ago. She does not have concomitant chest pain, orthopnea, edema, or light-headedness. Six months ago, she underwent cardioversion for atrial flutter. She has hypertension and type 2 diabetes mellitus. Medications are apixaban, metoprolol, lisinopril, metformin, and sitagliptin.On physical examination, blood pressure is 125/85 mm Hg and pulse rate is 149/min. Central venous pressure is normal. The lungs are clear. Cardiac examination reveals tachycardia with a regular rhythm and no murmurs.Results of laboratory studies, including thyroid-stimulating hormone level, are normal.ECG is shown.",
-  "references": "January CT, Wann LS, Calkins H, et al. 2019 AHA/ACC/HRS focused update of the 2014 AHA/ACC/HRS guideline for the management of patients with atrial fibrillation: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. J Am Coll Cardiol. 2019;74:104-132. PMID: 30703431 doi:10.1016/j.jacc.2019.01.011",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24006_24034"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:49:32.415614-06:00"
 }

@@ -1,62 +1,62 @@
 {
+  "question_id": "hmmcq24015",
   "category": "hm",
-  "critique": "The most likely cause of this patient's elevated leukocyte count is cigarette smoking (Option D). Chronic leukocyte count elevations may occur secondary to malignancy, infection, obesity, and cigarette smoking. Tobacco use is a particularly common cause of leukocytosis; cigarette smoking increases leukocyte count in up to 35% of active smokers. Although the pathophysiologic mechanism of the increase is unclear, it may be related to an inflammatory process induced by smoking. The magnitude of elevation appears to correlate to the amount smoked and the cumulative number of pack-years smoked. Chronic smoking is also one of the more common causes of acquired neutrophilia, and increases in the absolute lymphocyte, monocyte, eosinophil, and basophil counts may be seen. Elevated leukocyte counts can persist for a prolonged period after smoking cessation, sometimes for years. All patients who smoke should be counseled to stop smoking and be offered pharmacologic assistance regardless of the presence of increased leukocyte counts. This patient has a chronically elevated but stable leukocyte count with no symptoms or evidence of involvement in other cell lines. Smoking is the most likely cause of their elevated leukocyte count.Chronic myeloid leukemia (CML) (Option A) is a myeloproliferative disorder characterized by leukocytosis, including very elevated leukocyte counts approaching 100,000/µL (100 × 109/L). The leukocyte differential in patients with CML reveals circulating immature neutrophils, including promyelocytes, myelocytes, metamyelocytes, and bands. Blasts typically comprise less than 2% of cells. The hemoglobin level is often normal or low, and thrombocytosis may be present. This patient does not have an increased number of circulating immature neutrophils, making CML unlikely.Some medications can cause an increase in the absolute neutrophil count. Glucocorticoids can cause an increase in release of neutrophils from the bone marrow and a longer survival in the circulation. Lithium, catecholamines, and growth factors such as recombinant granulocyte colony-stimulating factor are also associated with leukocytosis. However, losartan is not known to cause leukocytosis (Option B).Polycythemia vera (PV) (Option C) is a myeloproliferative disorder that is usually caused by the JAK2 V617F mutation. Patients often present with elevated hematocrit levels, leukocytosis, and thrombocytosis. As with other myeloproliferative disorders, hepatosplenomegaly may be present. This patient has a normal hemoglobin level and platelet count and a normal physical examination, making PV unlikely.",
   "educational_objective": "Diagnose leukocytosis related to cigarette smoking.",
-  "extracted_at": "2025-12-22T19:36:39.537695-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 64-year-old patient is evaluated at a routine follow-up appointment. They feel well and have no symptoms. They are an active smoker with a 30-pack-year history. Medical history is also significant for hypertension and dyslipidemia. Medications are losartan and atorvastatin.On physical examination, vital signs and other findings are normal.",
+  "question_stem": "Which of the following is the most likely cause of this patient's leukocytosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Chronic myeloid leukemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Losartan",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Polycythemia vera",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Smoking",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely cause of this patient's elevated leukocyte count is cigarette smoking (Option D). Chronic leukocyte count elevations may occur secondary to malignancy, infection, obesity, and cigarette smoking. Tobacco use is a particularly common cause of leukocytosis; cigarette smoking increases leukocyte count in up to 35% of active smokers. Although the pathophysiologic mechanism of the increase is unclear, it may be related to an inflammatory process induced by smoking. The magnitude of elevation appears to correlate to the amount smoked and the cumulative number of pack-years smoked. Chronic smoking is also one of the more common causes of acquired neutrophilia, and increases in the absolute lymphocyte, monocyte, eosinophil, and basophil counts may be seen. Elevated leukocyte counts can persist for a prolonged period after smoking cessation, sometimes for years. All patients who smoke should be counseled to stop smoking and be offered pharmacologic assistance regardless of the presence of increased leukocyte counts. This patient has a chronically elevated but stable leukocyte count with no symptoms or evidence of involvement in other cell lines. Smoking is the most likely cause of their elevated leukocyte count.Chronic myeloid leukemia (CML) (Option A) is a myeloproliferative disorder characterized by leukocytosis, including very elevated leukocyte counts approaching 100,000/µL (100 × 109/L). The leukocyte differential in patients with CML reveals circulating immature neutrophils, including promyelocytes, myelocytes, metamyelocytes, and bands. Blasts typically comprise less than 2% of cells. The hemoglobin level is often normal or low, and thrombocytosis may be present. This patient does not have an increased number of circulating immature neutrophils, making CML unlikely.Some medications can cause an increase in the absolute neutrophil count. Glucocorticoids can cause an increase in release of neutrophils from the bone marrow and a longer survival in the circulation. Lithium, catecholamines, and growth factors such as recombinant granulocyte colony-stimulating factor are also associated with leukocytosis. However, losartan is not known to cause leukocytosis (Option B).Polycythemia vera (PV) (Option C) is a myeloproliferative disorder that is usually caused by the JAK2 V617F mutation. Patients often present with elevated hematocrit levels, leukocytosis, and thrombocytosis. As with other myeloproliferative disorders, hepatosplenomegaly may be present. This patient has a normal hemoglobin level and platelet count and a normal physical examination, making PV unlikely.",
   "key_points": [
     "Chronic cigarette smoking is one of the most common causes of an elevated leukocyte count, causing leukocytosis in up to 35% of active smokers.",
     "Leukocytosis caused by smoking can persist for a prolonged time even after cessation of tobacco use."
   ],
+  "references": "Smith CJ, Kluck LA, Ruan GJ, et al. Leukocytosis and tobacco use: an observational study of asymptomatic leukocytosis. Am J Med. 2021;134:e31-e35. PMID: 32682870 doi:10.1016/j.amjmed.2020.06.014",
+  "related_content": {
+    "syllabus": [
+      "hmsec24001_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Chronic myeloid leukemia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Losartan"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Polycythemia vera"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Smoking"
-    }
-  ],
-  "question_id": "hmmcq24015",
-  "question_stem": "Which of the following is the most likely cause of this patient's leukocytosis?",
-  "question_text": "A 64-year-old patient is evaluated at a routine follow-up appointment. They feel well and have no symptoms. They are an active smoker with a 30-pack-year history. Medical history is also significant for hypertension and dyslipidemia. Medications are losartan and atorvastatin.On physical examination, vital signs and other findings are normal.",
-  "references": "Smith CJ, Kluck LA, Ruan GJ, et al. Leukocytosis and tobacco use: an observational study of asymptomatic leukocytosis. Am J Med. 2021;134:e31-e35. PMID: 32682870 doi:10.1016/j.amjmed.2020.06.014",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24001_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:36:39.537695-06:00"
 }

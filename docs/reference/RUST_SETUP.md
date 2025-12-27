@@ -22,7 +22,7 @@ rustc --version  # Verify installation
 ### Navigate to Project
 
 ```bash
-cd /Users/Mitchell/coding/projects/MKSAP
+cd /Users/Mitchell/coding/projects/MKSAP/text_extractor
 ```
 
 ### Build the Project
@@ -49,21 +49,21 @@ The extractor requires valid MKSAP session credentials:
 
 1. **Visit MKSAP**: https://mksap.acponline.org
 2. **Log in** with your ACP credentials
-3. **Extract session cookie** (automatically handled by extractor)
+3. **Extract session cookie** and set `MKSAP_SESSION`, or provide `MKSAP_USERNAME`/`MKSAP_PASSWORD`
 
 ### Manual Session Configuration
 
-If automatic authentication fails, you can manually provide session cookies:
+If authentication fails, provide credentials via environment variables:
 
-**In `src/main.rs`**, update:
-
-```rust
-const USERNAME: &str = "your-email@example.com";
-const PASSWORD: &str = "your-password";
-const SESSION_COOKIE: &str = "your-session-cookie-here";
+```bash
+MKSAP_SESSION=... ./target/release/mksap-extractor
 ```
 
-> ⚠️ **Security Warning**: Never commit credentials to version control. Use environment variables or external config files.
+```bash
+MKSAP_USERNAME=... MKSAP_PASSWORD=... ./target/release/mksap-extractor
+```
+
+> ⚠️ **Security Warning**: Never commit credentials to version control. Prefer environment variables or a local `.env` file.
 
 ## Building from Source
 
@@ -89,7 +89,7 @@ const SESSION_COOKIE: &str = "your-session-cookie-here";
 4. **Verify binary**:
    ```bash
    ls -lh target/release/mksap-extractor
-   ./target/release/mksap-extractor --version
+   ./target/release/mksap-extractor
    ```
 
 ### Dependencies
@@ -110,18 +110,31 @@ All dependencies are automatically downloaded during build.
 
 ```
 /Users/Mitchell/coding/projects/MKSAP/
-├── src/
-│   ├── main.rs          # Entry point, orchestration
-│   ├── config.rs        # System definitions (12 system codes)
-│   ├── extractor.rs     # Core extraction logic
-│   ├── validator.rs     # Data quality validation
-│   ├── models.rs        # Data structures
-│   ├── media.rs         # Media file handling
-│   ├── browser.rs       # Browser-based auth fallback
-│   └── utils.rs         # Utility functions
+├── text_extractor/      # Text extractor crate
+│   ├── Cargo.toml
+│   └── src/
+│       ├── main.rs          # Entry point and CLI dispatch
+│       ├── commands.rs      # Command parsing
+│       ├── config.rs        # System definitions (16 system codes)
+│       ├── categories.rs    # Category build helpers
+│       ├── extractor.rs     # Core extractor type
+│       ├── workflow.rs      # Discovery + extraction pipeline
+│       ├── discovery.rs     # ID discovery + checkpoints
+│       ├── io.rs            # File IO + checkpoints
+│       ├── retry.rs         # Retry helpers
+│       ├── cleanup.rs       # Cleanup helpers
+│       ├── reporting.rs     # Validation/discovery reports
+│       ├── validator.rs     # Data validation
+│       ├── auth.rs          # API login helpers
+│       ├── auth_flow.rs     # Authentication flow
+│       ├── browser.rs       # Browser-based auth fallback
+│       ├── diagnostics.rs   # API inspection helper
+│       └── models.rs        # Data structures
+├── media_extractor/     # Media post-processing crate
 ├── mksap_data/          # Extracted question data
+├── mksap_data_failed/   # Failed extraction artifacts
 ├── docs/                # Documentation
-├── Cargo.toml           # Project manifest
+├── Cargo.toml           # Workspace manifest
 ├── Cargo.lock           # Dependency lock file
 ├── README.md            # Project readme
 └── .gitignore           # Git ignore patterns
@@ -142,7 +155,7 @@ cargo --version
 cargo check
 
 # Verify compilation
-cargo build --release 2>&1 | grep -i error
+cargo build --release 2>&1 | rg -i "error"
 ```
 
 ### Create Test Data Directory
@@ -164,9 +177,10 @@ The first run will require manual login or valid session credentials:
 Expected output:
 ```
 🚀 MKSAP Extractor Starting...
-Initializing configuration...
-Checking authentication...
-[Browser window opens for manual login if needed]
+Step 0: Checking if already authenticated...
+Step 1: Attempting automatic login with provided credentials...
+Attempting browser-based login as fallback...
+[Browser window opens if needed]
 Beginning extraction...
 ```
 
@@ -185,7 +199,7 @@ Beginning extraction...
 - Verify MKSAP credentials are valid
 - Check session cookie hasn't expired
 - Try manual login in browser first
-- See [Troubleshooting Guide](troubleshooting.md)
+- See [Troubleshooting Guide](TROUBLESHOOTING.md)
 
 ### "Insufficient disk space"
 - Build requires ~2GB temporary space
@@ -195,6 +209,6 @@ Beginning extraction...
 ## Next Steps
 
 1. Complete setup above
-2. Read [Usage Guide](usage.md) to run the extractor
-3. Check [Validation Guide](validation.md) for data quality
-4. See [Architecture](architecture.md) for technical details
+2. Read [Usage Guide](RUST_USAGE.md) to run the extractor
+3. Check [Validation Guide](VALIDATION.md) for data quality
+4. See [Architecture](RUST_ARCHITECTURE.md) for technical details

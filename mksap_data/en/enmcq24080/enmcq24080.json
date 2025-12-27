@@ -1,62 +1,62 @@
 {
+  "question_id": "enmcq24080",
   "category": "en",
-  "critique": "The most appropriate treatment is to refer this patient for total thyroidectomy (Option C). Patients with Graves disease are managed with thionamides (methimazole or propylthiouracil), radioactive iodine therapy, or total thyroidectomy. All three options are effective, but certain clinical situations favor particular modalities. Thionamides are generally the initial treatment of hyperthyroidism due to Graves disease and allow patients to achieve euthyroidism relatively quickly. However, it is important to discuss other options, especially in patients with low likelihood of achieving remission with thionamides. Negative predictors of remission include moderate to severe thyroid eye disease, age younger than 40 years, and persistently elevated thyrotropin (TSH) receptor antibodies; this patient has all of these traits. Surgical management is most appropriate for patients with compressive symptoms, moderate to severe thyroid eye disease, suspected or confirmed thyroid malignancy, or coexisting primary hyperparathyroidism. Because this patient has a low likelihood of achieving remission with thionamides and has compressive symptoms and thyroid eye disease, surgical consultation for thyroidectomy is the best next step.Changing methimazole to propylthiouracil (Option A) is not indicated because this patient is biochemically euthyroid. Surgery is most appropriate because of her compressive symptoms and thyroid eye disease.In patients with thyroid eye disease, the escalation of thyroid autoantibody titers after radioactive iodine therapy (Option B) may exacerbate ocular symptoms. Therefore, surgery is preferred for patients with moderate to severe thyroid eye disease, such as this patient. Additional contraindications to radioactive iodine therapy include active pregnancy or desire for pregnancy within 6 to 12 months, breastfeeding, or coexisting thyroid cancer.Although this patient has achieved euthyroidism with her current treatment, her compressive symptoms and thyroid eye disease are unlikely to improve with methimazole alone (Option D). Therefore, alternative therapy should be considered.",
   "educational_objective": "Treat Graves disease.",
-  "extracted_at": "2025-12-22T22:59:59.796034-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 35-year-old woman is evaluated at a follow-up visit for treatment of Graves disease, which was diagnosed 1 year ago. At that time, she started methimazole, which she has tolerated well. However, she has recently noticed increased pressure in her neck, with intermittent difficulty swallowing. She also reports worsening eye redness and pressure behind her eyes. She has no other medical conditions and takes no other medications.On physical examination, vital signs are normal. She exhibits exophthalmos and bilateral conjunctival injection. The thyroid is enlarged, with a detectable bruit but no palpable nodules.Thyroid ultrasound reveals an enlarged and heterogeneous gland with increased vascularity. No nodules are seen.",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Change methimazole to propylthiouracil",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Radioactive iodine therapy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Refer for total thyroidectomy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Continue current treatment",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate treatment is to refer this patient for total thyroidectomy (Option C). Patients with Graves disease are managed with thionamides (methimazole or propylthiouracil), radioactive iodine therapy, or total thyroidectomy. All three options are effective, but certain clinical situations favor particular modalities. Thionamides are generally the initial treatment of hyperthyroidism due to Graves disease and allow patients to achieve euthyroidism relatively quickly. However, it is important to discuss other options, especially in patients with low likelihood of achieving remission with thionamides. Negative predictors of remission include moderate to severe thyroid eye disease, age younger than 40 years, and persistently elevated thyrotropin (TSH) receptor antibodies; this patient has all of these traits. Surgical management is most appropriate for patients with compressive symptoms, moderate to severe thyroid eye disease, suspected or confirmed thyroid malignancy, or coexisting primary hyperparathyroidism. Because this patient has a low likelihood of achieving remission with thionamides and has compressive symptoms and thyroid eye disease, surgical consultation for thyroidectomy is the best next step.Changing methimazole to propylthiouracil (Option A) is not indicated because this patient is biochemically euthyroid. Surgery is most appropriate because of her compressive symptoms and thyroid eye disease.In patients with thyroid eye disease, the escalation of thyroid autoantibody titers after radioactive iodine therapy (Option B) may exacerbate ocular symptoms. Therefore, surgery is preferred for patients with moderate to severe thyroid eye disease, such as this patient. Additional contraindications to radioactive iodine therapy include active pregnancy or desire for pregnancy within 6 to 12 months, breastfeeding, or coexisting thyroid cancer.Although this patient has achieved euthyroidism with her current treatment, her compressive symptoms and thyroid eye disease are unlikely to improve with methimazole alone (Option D). Therefore, alternative therapy should be considered.",
   "key_points": [
     "Negative predictors of remission of Graves disease with thionamides include moderate to severe thyroid eye disease, age younger than 40 years, and persistently elevated thyrotropin receptor antibodies.",
     "Thyroidectomy in Graves hyperthyroidism is most appropriate for patients with compressive symptoms, moderate to severe thyroid eye disease, or coexistent thyroid cancer or primary hyperparathyroidism."
   ],
+  "references": "Hoang TD, Stocker DJ, Chou EL, et al. 2022 Update on clinical management of Graves disease and thyroid eye disease. Endocrinol Metab Clin North Am. 2022;51:287-304. PMID: 35662442 doi:10.1016/j.ecl.2021.12.004",
+  "related_content": {
+    "syllabus": [
+      "ensec24005_24018"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Change methimazole to propylthiouracil"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Radioactive iodine therapy"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Refer for total thyroidectomy"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Continue current treatment"
-    }
-  ],
-  "question_id": "enmcq24080",
-  "question_stem": "Which of the following is the most appropriate treatment?",
-  "question_text": "A 35-year-old woman is evaluated at a follow-up visit for treatment of Graves disease, which was diagnosed 1 year ago. At that time, she started methimazole, which she has tolerated well. However, she has recently noticed increased pressure in her neck, with intermittent difficulty swallowing. She also reports worsening eye redness and pressure behind her eyes. She has no other medical conditions and takes no other medications.On physical examination, vital signs are normal. She exhibits exophthalmos and bilateral conjunctival injection. The thyroid is enlarged, with a detectable bruit but no palpable nodules.Thyroid ultrasound reveals an enlarged and heterogeneous gland with increased vascularity. No nodules are seen.",
-  "references": "Hoang TD, Stocker DJ, Chou EL, et al. 2022 Update on clinical management of Graves disease and thyroid eye disease. Endocrinol Metab Clin North Am. 2022;51:287-304. PMID: 35662442 doi:10.1016/j.ecl.2021.12.004",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24005_24018"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:59:59.796034-06:00"
 }

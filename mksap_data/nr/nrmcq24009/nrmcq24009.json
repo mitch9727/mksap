@@ -1,62 +1,62 @@
 {
+  "question_id": "nrmcq24009",
   "category": "nr",
-  "critique": "Valproate (Option D) is the correct treatment for this patient in convulsive status epilepticus (CSE). CSE is a medical emergency and requires urgent treatment to prevent long-term neurologic damage. Guidelines indicate that second-line therapy for CSE is indicated once an appropriate dose of first-line treatment (a nonoral benzodiazepine) is given and seizure time has exceeded 20 minutes. There are four choices (fosphenytoin, valproate, levetiracetam, and lacosamide) for second-line therapy that have been shown to be noninferior to each other and thus are all reasonable options. This patient has CSE and has not responded to appropriate doses of intravenous lorazepam as first-line therapy. Second-line treatment is indicated. He is allergic to phenytoin; therefore, the prodrug fosphenytoin should be avoided. He is already taking levetiracetam and has not missed doses; therefore, valproate is a reasonable choice.Lacosamide (Option A) is contraindicated in patients with a prolonged PR interval, as its use in such patients can lead to heart block. In patients without impaired cardiac conduction, lacosamide would be an acceptable choice to treat CSE.Pentobarbital and propofol (Options B, C) are third-line therapies for CSE and inappropriate for this patient at this time. Both require intubation with continuous electroencephalographic monitoring because they will produce a drug-induced coma intended to stop refractory status epilepticus. This patient has not yet received second-line therapy, so proceeding to third-line therapy would be inappropriate at this time. Pentobarbital should not be confused with phenobarbital, an alternative second-line therapy given as an intravenous push.",
   "educational_objective": "Treat convulsive status epilepticus with second-line therapy.",
-  "extracted_at": "2025-12-22T20:16:50.024618-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 42-year-old man is evaluated in the emergency department for a prolonged seizure manifesting as continuous shaking of his whole body. His family called emergency services immediately upon seizure onset, and he was given 4 mg of lorazepam, thiamine, and glucose in the ambulance. He received an additional 4 mg of lorazepam in the emergency department. He has intractable temporal lobe epilepsy. His family reports that he has missed no medication doses and has had no recent fever or illness; however, he did stay up all night because of a work deadline the night before. He is allergic to phenytoin. Medications are pregabalin and levetiracetam.On physical examination, temperature is 37.1 °C (98.8 °F), blood pressure is 150/88 mm Hg, pulse rate is 104/min, respiration rate is 12/min, and oxygen saturation is 96% with the patient breathing ambient air. He is unresponsive and comatose and has continuous rhythmic jerking of the face, arms, and legs.An ECG shows a prolonged PR interval.The seizure continues in the emergency department despite the repeated doses of lorazepam; 20 minutes have elapsed since seizure onset.",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Lacosamide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Pentobarbital",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Propofol",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Valproate",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Valproate (Option D) is the correct treatment for this patient in convulsive status epilepticus (CSE). CSE is a medical emergency and requires urgent treatment to prevent long-term neurologic damage. Guidelines indicate that second-line therapy for CSE is indicated once an appropriate dose of first-line treatment (a nonoral benzodiazepine) is given and seizure time has exceeded 20 minutes. There are four choices (fosphenytoin, valproate, levetiracetam, and lacosamide) for second-line therapy that have been shown to be noninferior to each other and thus are all reasonable options. This patient has CSE and has not responded to appropriate doses of intravenous lorazepam as first-line therapy. Second-line treatment is indicated. He is allergic to phenytoin; therefore, the prodrug fosphenytoin should be avoided. He is already taking levetiracetam and has not missed doses; therefore, valproate is a reasonable choice.Lacosamide (Option A) is contraindicated in patients with a prolonged PR interval, as its use in such patients can lead to heart block. In patients without impaired cardiac conduction, lacosamide would be an acceptable choice to treat CSE.Pentobarbital and propofol (Options B, C) are third-line therapies for CSE and inappropriate for this patient at this time. Both require intubation with continuous electroencephalographic monitoring because they will produce a drug-induced coma intended to stop refractory status epilepticus. This patient has not yet received second-line therapy, so proceeding to third-line therapy would be inappropriate at this time. Pentobarbital should not be confused with phenobarbital, an alternative second-line therapy given as an intravenous push.",
   "key_points": [
     "Second-line therapy for convulsive status epilepticus (CSE) is indicated once an appropriate dose of first-line treatment (nonoral benzodiazepine) is given and seizure time has exceeded 20 minutes.",
     "Fosphenytoin, valproate, levetiracetam, and lacosamide are all appropriate options for second-line therapy in CSE and are noninferior to each other."
   ],
+  "references": "Glauser T, Shinnar S, Gloss D, et al. Evidence-based guideline: treatment of convulsive status epilepticus in children and adults: report of the guideline committee of the American Epilepsy Society. Epilepsy Curr. 2016;16:48-61. PMID: 26900382 doi:10.5698/1535-7597-16.1.48",
+  "related_content": {
+    "syllabus": [
+      "nrsec24003_24028"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Lacosamide"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Pentobarbital"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Propofol"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Valproate"
-    }
-  ],
-  "question_id": "nrmcq24009",
-  "question_stem": "Which of the following is the most appropriate treatment?",
-  "question_text": "A 42-year-old man is evaluated in the emergency department for a prolonged seizure manifesting as continuous shaking of his whole body. His family called emergency services immediately upon seizure onset, and he was given 4 mg of lorazepam, thiamine, and glucose in the ambulance. He received an additional 4 mg of lorazepam in the emergency department. He has intractable temporal lobe epilepsy. His family reports that he has missed no medication doses and has had no recent fever or illness; however, he did stay up all night because of a work deadline the night before. He is allergic to phenytoin. Medications are pregabalin and levetiracetam.On physical examination, temperature is 37.1 °C (98.8 °F), blood pressure is 150/88 mm Hg, pulse rate is 104/min, respiration rate is 12/min, and oxygen saturation is 96% with the patient breathing ambient air. He is unresponsive and comatose and has continuous rhythmic jerking of the face, arms, and legs.An ECG shows a prolonged PR interval.The seizure continues in the emergency department despite the repeated doses of lorazepam; 20 minutes have elapsed since seizure onset.",
-  "references": "Glauser T, Shinnar S, Gloss D, et al. Evidence-based guideline: treatment of convulsive status epilepticus in children and adults: report of the guideline committee of the American Epilepsy Society. Epilepsy Curr. 2016;16:48-61. PMID: 26900382 doi:10.5698/1535-7597-16.1.48",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "nrsec24003_24028"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:16:50.024618-06:00"
 }

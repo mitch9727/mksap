@@ -24,14 +24,23 @@ MKSAP/
 ├── text_extractor/           # Phase 1: Text extraction (Rust binary)
 │   ├── Cargo.toml
 │   └── src/
-│       ├── main.rs            # Entry point and orchestration
-│       ├── extractor.rs       # Core extraction logic (3-phase pipeline)
-│       ├── config.rs          # System definitions (12 system codes)
+│       ├── main.rs            # Entry point and CLI dispatch
+│       ├── commands.rs        # Command parsing
+│       ├── config.rs          # System definitions (16 system codes)
+│       ├── categories.rs      # Category build helpers
+│       ├── extractor.rs       # Core extractor type
+│       ├── workflow.rs        # Discovery + extraction pipeline
+│       ├── discovery.rs       # ID discovery + checkpoints
+│       ├── io.rs              # File IO + checkpoints
+│       ├── retry.rs           # Retry helpers
+│       ├── cleanup.rs         # Cleanup helpers
+│       ├── reporting.rs       # Validation/discovery reports
 │       ├── validator.rs       # Data quality validation
-│       ├── models.rs          # Data structures (QuestionData, etc.)
-│       ├── media.rs           # Media asset downloading
+│       ├── auth.rs            # API login helpers
+│       ├── auth_flow.rs       # Authentication flow
 │       ├── browser.rs         # Browser-based auth fallback
-│       └── utils.rs           # HTML parsing utilities
+│       ├── diagnostics.rs     # API inspection helper
+│       └── models.rs          # Data structures (QuestionData, etc.)
 │
 ├── media_extractor/          # Phase 1: Media post-processing (Rust binary)
 │   ├── Cargo.toml
@@ -43,36 +52,36 @@ MKSAP/
 │   ├── cv/, en/, hm/, ...    # Questions organized by system code
 │   │   └── {question_id}/
 │   │       ├── {question_id}.json        # Complete question data
-│   │       ├── {question_id}_metadata.txt # Human-readable summary
-│   │       └── figures/                  # Downloaded media files
+│   │       ├── figures/                  # Media extractor output
+│   │       ├── tables/                   # Media extractor output
+│   │       ├── videos/                   # Media extractor output
+│   │       └── svgs/                     # Media extractor output
 │   └── validation_report.txt # Quality assurance report
 │
 ├── mksap_data_failed/        # Failed extraction records (for retry)
+│   ├── deserialize/          # Failed JSON payloads
+│   ├── invalid/              # Quarantined invalid questions
+│   └── retired/              # Retired questions moved by cleanup
 │
 ├── docs/                     # Documentation
-│   ├── project/
-│   │   ├── README.md         # Project overview
-│   │   ├── PHASE_1_PLAN.md   # ⭐ Current phase roadmap (2,233 questions)
-│   │   ├── QUICKSTART.md     # Quick start guide
-│   │   └── INDEX.md          # Documentation index
-│   ├── rust/
-│   │   ├── overview.md       # Extractor status and next steps
-│   │   ├── setup.md          # Installation and configuration
-│   │   ├── usage.md          # How to run extraction
-│   │   ├── validation.md     # Data quality checks
-│   │   ├── architecture.md   # Technical implementation details
-│   │   ├── troubleshooting.md
-│   │   └── DESERIALIZATION_ISSUES.md
-│   ├── specifications/
-│   │   ├── MCQ_FORMAT.md     # Anki output format specification
-│   │   └── examples/
-│   │       └── CVMCQ24041.md # Example MCQ card
 │   ├── architecture/
 │   │   └── PROJECT_ORGANIZATION.md # This file
-│   ├── Question ID Discovery.md      # Why 2,233 questions (not 1,810)
-│   ├── syllubus_extraction.md        # Phase 2+ specification (future)
-│   ├── video_svg_extraction.md       # Technical reference (future)
-│   └── potential_syllubus_errors.md  # Risk analysis (future)
+│   ├── project/
+│   │   ├── README.md         # Project overview
+│   │   ├── QUICKSTART.md     # Quick start guide
+│   │   └── INDEX.md          # Documentation index
+│   ├── reference/
+│   │   ├── RUST_SETUP.md
+│   │   ├── RUST_USAGE.md
+│   │   ├── RUST_ARCHITECTURE.md
+│   │   ├── VALIDATION.md
+│   │   ├── TROUBLESHOOTING.md
+│   │   └── QUESTION_ID_DISCOVERY.md
+│   ├── specifications/
+│   │   ├── MCQ_FORMAT.md     # Output format specification
+│   │   └── CVMCQ24041.md     # Example MCQ card
+│   └── risks/
+│       └── POTENTIAL_SYLLABUS_ERRORS.md
 │
 ├── README.md                 # Project entry point
 ├── CLAUDE.md                 # Claude Code integration guide
@@ -86,14 +95,13 @@ MKSAP/
 
 ### Phase 1: Data Extraction (Current)
 
-1. Review [PHASE_1_PLAN.md](../project/PHASE_1_PLAN.md) for complete roadmap
-2. Authenticate to MKSAP (session cookie or browser fallback)
-3. Run text extractor: `./target/release/mksap-extractor`
-4. Run media extractor: `./target/release/media-extractor`
-5. Validate extraction: `./target/release/mksap-extractor validate`
-6. Add syllabus breadcrumb references to each question JSON
+1. Authenticate to MKSAP (prefer `MKSAP_SESSION`)
+2. Run text extractor from `text_extractor/`: `./target/release/mksap-extractor`
+3. Validate extraction: `./target/release/mksap-extractor validate`
+4. Run media extractor (optional): `./target/release/media-extractor --all --data-dir ../mksap_data`
+5. Review `.checkpoints/discovery_metadata.json` and `validation_report.txt`
 
-**Target:** 2,233 questions across 16 systems and 6 question types
+**Target:** 2,233 questions across 16 systems and 6 question types (discovery-based counts are the source of truth)
 
 ### Phase 2: Intelligent Fact Extraction (Future)
 
@@ -144,7 +152,7 @@ MKSAP API
     ↓
 text_extractor → mksap_data/{system}/{question_id}.json
     ↓
-media_extractor → mksap_data/{system}/{question_id}/figures/
+media_extractor → mksap_data/{system}/{question_id}/(figures|tables|videos|svgs)
     ↓
 validator → validation_report.txt
     ↓

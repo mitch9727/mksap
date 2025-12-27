@@ -1,59 +1,59 @@
 {
+  "question_id": "rmvdx24013",
   "category": "rm",
-  "critique": "Rheumatoid arthritis (Option B) is most compatible with symmetric polyarthritis involving the small joint of the hands along with rheumatoid nodules and ulnar deviation, as shown in this patient. Rheumatoid nodules are subcutaneous growths over bony prominences, extensor surfaces, or juxta-articular regions; they occur in about one third of patients with rheumatoid arthritis. Most nodules are asymptomatic, but they can be painful and interfere with functioning. Although rheumatoid nodules might be mistaken for gouty tophi, gout much less commonly presents as symmetric, small-joint polyarthritis.",
   "educational_objective": "Diagnose rheumatoid arthritis.",
-  "extracted_at": "2025-12-23T14:13:05.928664-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 57-year-old woman is evaluated for symmetric polyarthritis involving the small joints of the hands.Findings on the dorsum of the hand are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute rheumatic fever",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Rheumatoid arthritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Systemic sclerosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Tophaceous gout",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Rheumatoid arthritis (Option B) is most compatible with symmetric polyarthritis involving the small joint of the hands along with rheumatoid nodules and ulnar deviation, as shown in this patient. Rheumatoid nodules are subcutaneous growths over bony prominences, extensor surfaces, or juxta-articular regions; they occur in about one third of patients with rheumatoid arthritis. Most nodules are asymptomatic, but they can be painful and interfere with functioning. Although rheumatoid nodules might be mistaken for gouty tophi, gout much less commonly presents as symmetric, small-joint polyarthritis.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "rmsec24003_24013"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/rmfig24615.26dd2a8a5486a357b59c4b39183e74f6.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acute rheumatic fever"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Rheumatoid arthritis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Systemic sclerosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Tophaceous gout"
-    }
-  ],
-  "question_id": "rmvdx24013",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 57-year-old woman is evaluated for symmetric polyarthritis involving the small joints of the hands.Findings on the dorsum of the hand are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24003_24013"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:13:05.928664-06:00"
 }

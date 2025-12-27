@@ -1,59 +1,59 @@
 {
+  "question_id": "hmvdx24033",
   "category": "hm",
-  "critique": "The most likely diagnosis is pulmonary embolism (Option D). This patient's ECG demonstrates an S1Q3T3 pattern (prominent S wave in lead I, Q wave in lead III, and inverted T wave in lead III), which suggests pulmonary embolism. Although the ECG is of limited usefulness for the diagnosis of pulmonary embolism, abnormalities historically considered to support the diagnosis include an S1Q3T3 pattern, right ventricular strain, and new right bundle branch block (incomplete or complete). The most common ECG finding associated with pulmonary embolism is sinus tachycardia, but this is a nonspecific abnormality.",
   "educational_objective": "Identify ECG abnormalities suggesting pulmonary embolism.",
-  "extracted_at": "2025-12-23T14:09:52.985109-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 37-year-old man is evaluated for sudden onset of dyspnea without chest pain.ECG is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Atrioventricular reciprocating tachycardia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Cardiac tamponade",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Inferior myocardial infarction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pulmonary embolism",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is pulmonary embolism (Option D). This patient's ECG demonstrates an S1Q3T3 pattern (prominent S wave in lead I, Q wave in lead III, and inverted T wave in lead III), which suggests pulmonary embolism. Although the ECG is of limited usefulness for the diagnosis of pulmonary embolism, abnormalities historically considered to support the diagnosis include an S1Q3T3 pattern, right ventricular strain, and new right bundle branch block (incomplete or complete). The most common ECG finding associated with pulmonary embolism is sinus tachycardia, but this is a nonspecific abnormality.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24009_24020"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24650.109396dd7feb21ae86733901d2186c26.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Atrioventricular reciprocating tachycardia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Cardiac tamponade"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Inferior myocardial infarction"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Pulmonary embolism"
-    }
-  ],
-  "question_id": "hmvdx24033",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 37-year-old man is evaluated for sudden onset of dyspnea without chest pain.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24009_24020"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.985109-06:00"
 }

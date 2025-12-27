@@ -1,59 +1,59 @@
 {
+  "question_id": "envdx24012",
   "category": "en",
-  "critique": "The most likely diagnosis is Graves disease (Option B), a common autoimmune thyroid disorder and the most common cause of hyperthyroidism. The patient in this image has a goiter, or enlarged thyroid gland. Patients with goiter should be questioned about compressive symptoms, such as dyspnea, cough, dysphagia, and voice changes, which are evident in 10% to 20% of patients with goiter. The presence of hyperthyroid symptoms, eye findings, and goiter in this patient most strongly suggest the diagnosis of Graves disease.",
   "educational_objective": "Diagnose Graves disease.",
-  "extracted_at": "2025-12-23T14:09:16.937395-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 57-year-old woman is evaluated for palpitations, heat intolerance, diplopia, and proptosis.The neck is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Factitious hyperthyroidism",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Graves disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Hodgkin lymphoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Multinodular goiter",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is Graves disease (Option B), a common autoimmune thyroid disorder and the most common cause of hyperthyroidism. The patient in this image has a goiter, or enlarged thyroid gland. Patients with goiter should be questioned about compressive symptoms, such as dyspnea, cough, dysphagia, and voice changes, which are evident in 10% to 20% of patients with goiter. The presence of hyperthyroid symptoms, eye findings, and goiter in this patient most strongly suggest the diagnosis of Graves disease.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "ensec24005_24012"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/enfig24614.3b812456a02108d75ee0b81aa94eceba.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Factitious hyperthyroidism"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Graves disease"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Hodgkin lymphoma"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Multinodular goiter"
-    }
-  ],
-  "question_id": "envdx24012",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 57-year-old woman is evaluated for palpitations, heat intolerance, diplopia, and proptosis.The neck is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24005_24012"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:16.937395-06:00"
 }

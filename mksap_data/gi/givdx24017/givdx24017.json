@@ -1,59 +1,59 @@
 {
+  "question_id": "givdx24017",
   "category": "gi",
-  "critique": "This patient has an anal fissure (Option A). Anal fissures are longitudinal mucosal tears in the anal canal characterized by anorectal pain worsened by bowel movements and sitting. Rectal bleeding with bowel movements or wiping is also frequently reported. Anal fissures are most commonly idiopathic or traumatic, resulting from the passage of hard stool. Additional causes include receptive anal intercourse, enemas, or endoscopy.",
   "educational_objective": "Diagnose anal fissure.",
-  "extracted_at": "2025-12-23T14:14:31.094303-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 49-year-old man has severe rectal pain with passage of stool. The pain began abruptly after passage of a large, hard stool.Perianal findings are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Anal fissure",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Herpes simplex infection",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Solitary rectal ulcer",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Thrombosed hemorrhoids",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has an anal fissure (Option A). Anal fissures are longitudinal mucosal tears in the anal canal characterized by anorectal pain worsened by bowel movements and sitting. Rectal bleeding with bowel movements or wiping is also frequently reported. Anal fissures are most commonly idiopathic or traumatic, resulting from the passage of hard stool. Additional causes include receptive anal intercourse, enemas, or endoscopy.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "gisec24012_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/gifig24621.455b9dba5e458e9ed0fccc00b46aef2e.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Anal fissure"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Herpes simplex infection"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Solitary rectal ulcer"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Thrombosed hemorrhoids"
-    }
-  ],
-  "question_id": "givdx24017",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 49-year-old man has severe rectal pain with passage of stool. The pain began abruptly after passage of a large, hard stool.Perianal findings are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "gisec24012_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:14:31.094303-06:00"
 }

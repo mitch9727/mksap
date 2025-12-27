@@ -1,67 +1,67 @@
 {
+  "question_id": "onmcq24072",
   "category": "on",
-  "critique": "The most appropriate prostate cancer screening strategy is to discuss the benefits and harms of prostate cancer screening with the patient (Option A). The benefits and harms of screening for prostate cancer in asymptomatic, average-risk patients remain unclear. Although a small reduction in prostate cancer mortality may be possible in some patients, this benefit does not clearly outweigh the risks for erectile dysfunction and incontinence that result from treating indolent cancers detected by overscreening. Current recommendations by the American Cancer Society, American College of Physicians, American Urological Association, and U.S. Preventive Services Task Force (USPSTF) advocate for shared decision making and screening with prostate-specific antigen (PSA) blood testing for patients who request screening after an informed discussion (see ).PSA testing (Option B) is the recommended screening method for patients who elect to undergo prostate cancer screening after a shared decision-making discussion. The false-positive rate of PSA testing varies with the PSA cutoff level used; according to the most recent USPSTF review, the false-positive rate varies from one sixth to two thirds of screened patients. Patients with an elevated PSA test result should be referred for additional evaluation, which usually includes prostate imaging by MRI or transrectal ultrasound and possibly prostate biopsy.Digital rectal examination (Option C) with or without PSA testing has not been shown to meaningfully increase the benefits of prostate cancer screening and is not recommended.Transrectal ultrasound of the prostate (Option D), with or without biopsy, may be used to assess patients whose PSA testing result is elevated. Prostate ultrasound does not have a role in screening for prostate cancer.Although prostate cancer screening is controversial, it is recommended that patients be engaged in shared decision making about the risks and benefits of screening. Withholding this discussion and unilaterally determining that the patient does not require screening (Option E) excludes the patient as a stakeholder in his own care and is not patient centered.",
   "educational_objective": "Use shared decision making for prostate cancer screening.",
-  "extracted_at": "2025-12-22T20:27:37.446383-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 55-year-old man is evaluated during his annual physical examination. He asks whether he should be screened for prostate cancer. He has not had nocturia, urinary frequency or hesitancy, or any change in urine stream. His 80-year-old father has benign prostatic hypertrophy. The patient is unaware of any family history of prostate cancer.Physical examination findings, including vital signs, are normal.",
+  "question_stem": "Which of the following is the most appropriate prostate cancer screening strategy for this patient?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Discuss benefits and harms of screening",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Order prostate-specific antigen testing",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Perform digital rectal examination",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Refer for transrectal prostate ultrasound",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "No screening is needed",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate prostate cancer screening strategy is to discuss the benefits and harms of prostate cancer screening with the patient (Option A). The benefits and harms of screening for prostate cancer in asymptomatic, average-risk patients remain unclear. Although a small reduction in prostate cancer mortality may be possible in some patients, this benefit does not clearly outweigh the risks for erectile dysfunction and incontinence that result from treating indolent cancers detected by overscreening. Current recommendations by the American Cancer Society, American College of Physicians, American Urological Association, and U.S. Preventive Services Task Force (USPSTF) advocate for shared decision making and screening with prostate-specific antigen (PSA) blood testing for patients who request screening after an informed discussion (see ).PSA testing (Option B) is the recommended screening method for patients who elect to undergo prostate cancer screening after a shared decision-making discussion. The false-positive rate of PSA testing varies with the PSA cutoff level used; according to the most recent USPSTF review, the false-positive rate varies from one sixth to two thirds of screened patients. Patients with an elevated PSA test result should be referred for additional evaluation, which usually includes prostate imaging by MRI or transrectal ultrasound and possibly prostate biopsy.Digital rectal examination (Option C) with or without PSA testing has not been shown to meaningfully increase the benefits of prostate cancer screening and is not recommended.Transrectal ultrasound of the prostate (Option D), with or without biopsy, may be used to assess patients whose PSA testing result is elevated. Prostate ultrasound does not have a role in screening for prostate cancer.Although prostate cancer screening is controversial, it is recommended that patients be engaged in shared decision making about the risks and benefits of screening. Withholding this discussion and unilaterally determining that the patient does not require screening (Option E) excludes the patient as a stakeholder in his own care and is not patient centered.",
   "key_points": [
     "The benefits and harms of screening for prostate cancer in asymptomatic, average-risk patients remain unclear.",
     "Recommendations by the American Cancer Society, American College of Physicians, American Urologic Society, and U.S. Preventive Services Task Force advocate for shared decision making and screening with prostate-specific antigen testing only for patients who request screening after an informed discussion."
   ],
+  "references": "Wei JT, Barocas D, Carlsson S, et al. Early detection of prostate cancer: AUA/SUO guideline part I: prostate cancer screening. J Urol. 2023;210:46-53. PMID: 37096582 doi:10.1097/JU.0000000000003491",
+  "related_content": {
+    "syllabus": [
+      "onsec24014_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Discuss benefits and harms of screening"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Order prostate-specific antigen testing"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Perform digital rectal examination"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Refer for transrectal prostate ultrasound"
-    },
-    {
-      "letter": "E",
-      "peer_percentage": 0,
-      "text": "No screening is needed"
-    }
-  ],
-  "question_id": "onmcq24072",
-  "question_stem": "Which of the following is the most appropriate prostate cancer screening strategy for this patient?",
-  "question_text": "A 55-year-old man is evaluated during his annual physical examination. He asks whether he should be screened for prostate cancer. He has not had nocturia, urinary frequency or hesitancy, or any change in urine stream. His 80-year-old father has benign prostatic hypertrophy. The patient is unaware of any family history of prostate cancer.Physical examination findings, including vital signs, are normal.",
-  "references": "Wei JT, Barocas D, Carlsson S, et al. Early detection of prostate cancer: AUA/SUO guideline part I: prostate cancer screening. J Urol. 2023;210:46-53. PMID: 37096582 doi:10.1097/JU.0000000000003491",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "onsec24014_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:27:37.446383-06:00"
 }

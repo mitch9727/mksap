@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24054",
   "category": "cv",
-  "critique": "The ECG shows premature ventricular contractions (PVCs) (Option B) in a bigeminal pattern, which likely accounts for the patient's symptoms. The pulse rate of 38/min underscores the cause of the symptoms. Despite an electrical rate roughly twice that, only the narrow QRS beats are perfusing; thus, the patient feels an effective heart rate of 38/min, representing physiologic bradycardia but not electrical bradycardia.There are no ECG findings consistent with Wolff-Parkinson-White syndrome, and the QT is difficult to interpret in the setting of frequent ventricular ectopy. Furthermore, this patient's symptoms are not typical of either Wolff-Parkinson-White syndrome or long QT syndrome, in which palpitations and syncope are more common.",
   "educational_objective": "Diagnose bigeminal ventricular contractions on ECG.",
-  "extracted_at": "2025-12-23T14:08:40.475651-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 38-year-old woman is evaluated for fatigue and palpitations. Blood pressure is 110/75 mm Hg, and pulse rate is 38/min.",
+  "question_stem": "Which of the following is the most likely cause of this patient's symptoms?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Long QT syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Premature ventricular contractions",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Sinus node dysfunction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Wolff-Parkinson-White syndrome",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The ECG shows premature ventricular contractions (PVCs) (Option B) in a bigeminal pattern, which likely accounts for the patient's symptoms. The pulse rate of 38/min underscores the cause of the symptoms. Despite an electrical rate roughly twice that, only the narrow QRS beats are perfusing; thus, the patient feels an effective heart rate of 38/min, representing physiologic bradycardia but not electrical bradycardia.There are no ECG findings consistent with Wolff-Parkinson-White syndrome, and the QT is difficult to interpret in the setting of frequent ventricular ectopy. Furthermore, this patient's symptoms are not typical of either Wolff-Parkinson-White syndrome or long QT syndrome, in which palpitations and syncope are more common.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24036"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24654.6aa070bcc5670c94a9bc91b0fa130deb.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Long QT syndrome"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Premature ventricular contractions"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Sinus node dysfunction"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Wolff-Parkinson-White syndrome"
-    }
-  ],
-  "question_id": "cvvdx24054",
-  "question_stem": "Which of the following is the most likely cause of this patient's symptoms?",
-  "question_text": "A 38-year-old woman is evaluated for fatigue and palpitations. Blood pressure is 110/75 mm Hg, and pulse rate is 38/min.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24006_24036"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.475651-06:00"
 }

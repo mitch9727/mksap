@@ -1,59 +1,59 @@
 {
+  "question_id": "pmvdx24005",
   "category": "pm",
-  "critique": "The most likely diagnosis is variable intrathoracic airway obstruction (Option D). The flow-volume curve shown depicts the typical physiologic pattern of variable intrathoracic airway obstruction with an expiratory plateau. The term intrathoracic in this case refers to the area below the thoracic inlet (where respiration-related changes in pleural pressure are transmitted to the airway). Flow is impaired during expiration rather than inspiration because the positive pleural pressure during forced expiration narrows the intrathoracic airway, whereas negative pleural pressure during forced inspiration widens the intrathoracic airway. Causes of variable intrathoracic airway obstruction include localized tumors of the lower trachea or mainstem bronchus, a large bronchogenic cyst, large mediastinal adenopathy, large thyroid goiter, and tracheobronchomalacia.",
   "educational_objective": "Diagnose variable intrathoracic airway obstruction on the basis of a flow-volume curve.",
-  "extracted_at": "2025-12-23T14:15:53.240712-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 52-year-old woman undergoes pulmonary function testing.A flow-volume curve obtained during forced inspiration and expiration is shown (RV = residual volume; TLC = total lung capacity).",
+  "question_stem": "Which of the following is the most likely physiologic diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Fixed upper airway obstruction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Small airways disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Variable extrathoracic upper airway obstruction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Variable intrathoracic airway obstruction",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is variable intrathoracic airway obstruction (Option D). The flow-volume curve shown depicts the typical physiologic pattern of variable intrathoracic airway obstruction with an expiratory plateau. The term intrathoracic in this case refers to the area below the thoracic inlet (where respiration-related changes in pleural pressure are transmitted to the airway). Flow is impaired during expiration rather than inspiration because the positive pleural pressure during forced expiration narrows the intrathoracic airway, whereas negative pleural pressure during forced inspiration widens the intrathoracic airway. Causes of variable intrathoracic airway obstruction include localized tumors of the lower trachea or mainstem bronchus, a large bronchogenic cyst, large mediastinal adenopathy, large thyroid goiter, and tracheobronchomalacia.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24001_24005"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24606.d5c3fca1640053bf017ac3ec441ed550.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Fixed upper airway obstruction"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Small airways disease"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Variable extrathoracic upper airway obstruction"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Variable intrathoracic airway obstruction"
-    }
-  ],
-  "question_id": "pmvdx24005",
-  "question_stem": "Which of the following is the most likely physiologic diagnosis?",
-  "question_text": "A 52-year-old woman undergoes pulmonary function testing.A flow-volume curve obtained during forced inspiration and expiration is shown (RV = residual volume; TLC = total lung capacity).",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24001_24005"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.240712-06:00"
 }

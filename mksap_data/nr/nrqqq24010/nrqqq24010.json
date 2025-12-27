@@ -1,62 +1,62 @@
 {
+  "question_id": "nrqqq24010",
   "category": "nr",
-  "critique": "The most likely diagnosis is primary progressive aphasia (PPA) (Option D), which is a language variant of frontotemporal dementia (FTD). FTD comprises two distinct clinical syndromes. The first, behavioral variant FTD, is associated with prominent changes in behavior, personality, or executive function. The second, PPA, is associated with prominent, early changes in language function and is further subclassified according to the pattern of language impairment: semantic variant PPA (svPPA) and nonfluent variant PPA (nfPPA). svPPA, as demonstrated by this patient, is characterized by early prominent difficulty with language comprehension. Although language decline is common in many dementia syndromes, it is the symptom noted first in PPA, and language is often the only cognitive domain affected for years before additional cognitive deterioration develops. Structural brain imaging in svPPA typically reveals asymmetric atrophy of the dominant temporal lobe, as shown (arrow). Patients with nfPPA exhibit a dominant posterior frontal pattern of atrophy. As the disease progresses, the atrophy often spreads to the contralateral side.Persistent forgetfulness is the hallmark of Alzheimer disease (Option A), beginning with objects, appointments, names, and other apparently trivial items. As the disease progresses, memories are lost, and problems with word-finding ability become apparent. Alzheimer disease is unlikely in a patient with early impairment of naming and loss of word comprehension with preserved short-term recall, such as this patient.The most prominent feature of behavioral variant FTD (Option B) is an alteration in personality and behavior that typically develops years before the onset of cognitive impairment in other domains. Apathy, diminished interest, loss of empathy, disinhibition, impulsivity, and changes in eating behaviors are among the common symptoms of this disorder.Patients with dementia with Lewy bodies (Option C) may demonstrate a pattern of cognitive impairment with complex recurrent visual hallucinations, cognitive fluctuations, and parkinsonian symptoms.",
   "educational_objective": "Diagnose primary progressive aphasia.",
-  "extracted_at": "2025-12-23T14:11:42.521831-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 63-year-old woman is evaluated for increasing communication difficulties. She retired from her job as a high school teacher 12 months ago because of her decreasing ability to provide clear instructions to students. She continues to drive, cook, shop, and manage home finances without difficulty.On physical examination, her speech is fluent, but she has frequent problems with word finding and often repeats herself. She has difficulty understanding two-step commands. On the Montreal Cognitive Assessment, she scores 0/3 in the object naming section, 0/1 in the letter fluency section, and 4/5 in the recall section.Brain MRI is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Alzheimer disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Behavioral variant frontotemporal dementia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Dementia with Lewy bodies",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Primary progressive aphasia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is primary progressive aphasia (PPA) (Option D), which is a language variant of frontotemporal dementia (FTD). FTD comprises two distinct clinical syndromes. The first, behavioral variant FTD, is associated with prominent changes in behavior, personality, or executive function. The second, PPA, is associated with prominent, early changes in language function and is further subclassified according to the pattern of language impairment: semantic variant PPA (svPPA) and nonfluent variant PPA (nfPPA). svPPA, as demonstrated by this patient, is characterized by early prominent difficulty with language comprehension. Although language decline is common in many dementia syndromes, it is the symptom noted first in PPA, and language is often the only cognitive domain affected for years before additional cognitive deterioration develops. Structural brain imaging in svPPA typically reveals asymmetric atrophy of the dominant temporal lobe, as shown (arrow). Patients with nfPPA exhibit a dominant posterior frontal pattern of atrophy. As the disease progresses, the atrophy often spreads to the contralateral side.Persistent forgetfulness is the hallmark of Alzheimer disease (Option A), beginning with objects, appointments, names, and other apparently trivial items. As the disease progresses, memories are lost, and problems with word-finding ability become apparent. Alzheimer disease is unlikely in a patient with early impairment of naming and loss of word comprehension with preserved short-term recall, such as this patient.The most prominent feature of behavioral variant FTD (Option B) is an alteration in personality and behavior that typically develops years before the onset of cognitive impairment in other domains. Apathy, diminished interest, loss of empathy, disinhibition, impulsivity, and changes in eating behaviors are among the common symptoms of this disorder.Patients with dementia with Lewy bodies (Option C) may demonstrate a pattern of cognitive impairment with complex recurrent visual hallucinations, cognitive fluctuations, and parkinsonian symptoms.",
   "key_points": [
     "Primary progressive aphasia is a language-predominant neurodegenerative dementia in which language is often the only cognitive domain affected for years before additional cognitive deterioration develops; structural brain imaging often shows asymmetric frontal or temporal lobe atrophy that may eventually spread to the contralateral side."
   ],
+  "references": "Tippett DC, Keser Z. Clinical and neuroimaging characteristics of primary progressive aphasia. Handb Clin Neurol. 2022;185:81-97. PMID: 35078612 doi:10.1016/B978-0-12-823384-9.00016-5",
+  "related_content": {
+    "syllabus": [
+      "nrsec24005_24021"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/nrfig24501.3fa453c3bfc6616da83ef683db44ad42.jpg",
       "figures/nrfig24500.3f786345e888dce763aba9128c269e99.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Alzheimer disease"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Behavioral variant frontotemporal dementia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Dementia with Lewy bodies"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Primary progressive aphasia"
-    }
-  ],
-  "question_id": "nrqqq24010",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 63-year-old woman is evaluated for increasing communication difficulties. She retired from her job as a high school teacher 12 months ago because of her decreasing ability to provide clear instructions to students. She continues to drive, cook, shop, and manage home finances without difficulty.On physical examination, her speech is fluent, but she has frequent problems with word finding and often repeats herself. She has difficulty understanding two-step commands. On the Montreal Cognitive Assessment, she scores 0/3 in the object naming section, 0/1 in the letter fluency section, and 4/5 in the recall section.Brain MRI is shown.",
-  "references": "Tippett DC, Keser Z. Clinical and neuroimaging characteristics of primary progressive aphasia. Handb Clin Neurol. 2022;185:81-97. PMID: 35078612 doi:10.1016/B978-0-12-823384-9.00016-5",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "nrsec24005_24021"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:11:42.521831-06:00"
 }

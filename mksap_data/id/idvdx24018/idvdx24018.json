@@ -1,59 +1,59 @@
 {
+  "question_id": "idvdx24018",
   "category": "id",
-  "critique": "The most likely diagnosis is herpes simplex virus infection (Option C). Classically, herpes simplex virus type 2 infection can cause genital herpes and usually presents as a cluster of painful pink papules that rapidly become vesicular. In immunosuppressed patients, such as those with HIV infection, the presentation may be atypical and may include nodules or nonhealing ulcers, as seen in this patient.",
   "educational_objective": "Diagnose herpes simplex virus infection.",
-  "extracted_at": "2025-12-23T14:10:29.325227-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 21-year-old woman is evaluated for the acute onset of painful genital and perianal lesions. HIV testing results are positive.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Crohn disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Epstein-Barr virus infection",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Herpes simplex virus infection",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Primary syphilis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is herpes simplex virus infection (Option C). Classically, herpes simplex virus type 2 infection can cause genital herpes and usually presents as a cluster of painful pink papules that rapidly become vesicular. In immunosuppressed patients, such as those with HIV infection, the presentation may be atypical and may include nodules or nonhealing ulcers, as seen in this patient.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24012_24013"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24621.ea4fb4a24bfd478d3aaf15813bad3343.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Crohn disease"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Epstein-Barr virus infection"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Herpes simplex virus infection"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Primary syphilis"
-    }
-  ],
-  "question_id": "idvdx24018",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 21-year-old woman is evaluated for the acute onset of painful genital and perianal lesions. HIV testing results are positive.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24012_24013"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:10:29.325227-06:00"
 }

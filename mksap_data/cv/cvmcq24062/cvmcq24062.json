@@ -1,62 +1,62 @@
 {
+  "question_id": "cvmcq24062",
   "category": "cv",
-  "critique": "This patient should undergo immediate cardiac catheterization (Option B). Patients with non–ST-segment elevation acute coronary syndrome (NSTE-ACS) should undergo risk stratification, which dictates the pace and direction of testing and treatment. Urgent invasive treatment (within 2 hours) is recommended for patients with type 1 NSTE-ACS who have hemodynamic instability, refractory chest pain, heart failure, or ventricular arrhythmias; other high-risk patients typically undergo invasive testing within 24 hours. Patients at intermediate risk usually undergo a delayed (within 72 hours) invasive strategy, whereas low-risk patients may follow an ischemia-guided pathway in which stress testing dictates the need for invasive testing. Treatment paradigms, however, are often applied differently to older patients, likely because of a perception of heightened risk for complications. Outcome data are also lacking in older patients because they are often excluded from trials. As a result, invasive angiography and revascularization are used less often in older adults. Age alone, however, should not be a disqualifying characteristic. This previously healthy older patient has a very high-risk NSTE-ACS, as marked by ECG changes, elevated troponin level, and evidence of heart failure. Given his otherwise excellent health, the patient would likely benefit from immediate cardiac catheterization.Cardiac catheterization in 24 to 72 hours (Option A) is not the best option in this patient. In intermediate-risk patients with NSTE-ACS who have been initially stabilized, a delayed invasive strategy with cardiac catheterization 24 to 72 hours after presentation is reasonable. This patient, however, is high risk.Intravenous metoprolol (Option C) is not indicated in this patient. Although β-blockers improve long-term survival in patients with ACS, they should be given orally (not intravenously) and should not be given to patients with hypotension, cardiogenic shock, pulmonary congestion, or atrioventricular block.Submaximal exercise stress testing (Option D) is contraindicated in this patient with acute NSTE-ACS and evidence of heart failure. The use of submaximal stress testing is more appropriate for lower-risk patients with NSTE-ACS.",
   "educational_objective": "Manage high-risk non–ST-segment elevation acute coronary syndrome in an older patient.",
-  "extracted_at": "2025-12-22T22:49:02.843547-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "An 82-year-old man is evaluated in the emergency department for 4 hours of chest discomfort and shortness of breath. He has never had these symptoms before. Typically, he walks 20 minutes each day and performs all activities of daily living. He has a remote history of prostate cancer. He takes no medications.On physical examination, blood pressure is 96/49 mm Hg and pulse rate is 108/min and regular. Central venous pressure is elevated. Lung auscultation reveals bilateral crackles. No cardiac murmurs are present.ECG reveals sinus rhythm with 2 mm of ST-segment depression in leads V2 to V6.Treatment is initiated with aspirin, clopidogrel, intravenous heparin, and atorvastatin.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cardiac catheterization in 24 to 72 hours",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Immediate cardiac catheterization",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Intravenous metoprolol",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Submaximal exercise stress testing before discharge",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient should undergo immediate cardiac catheterization (Option B). Patients with non–ST-segment elevation acute coronary syndrome (NSTE-ACS) should undergo risk stratification, which dictates the pace and direction of testing and treatment. Urgent invasive treatment (within 2 hours) is recommended for patients with type 1 NSTE-ACS who have hemodynamic instability, refractory chest pain, heart failure, or ventricular arrhythmias; other high-risk patients typically undergo invasive testing within 24 hours. Patients at intermediate risk usually undergo a delayed (within 72 hours) invasive strategy, whereas low-risk patients may follow an ischemia-guided pathway in which stress testing dictates the need for invasive testing. Treatment paradigms, however, are often applied differently to older patients, likely because of a perception of heightened risk for complications. Outcome data are also lacking in older patients because they are often excluded from trials. As a result, invasive angiography and revascularization are used less often in older adults. Age alone, however, should not be a disqualifying characteristic. This previously healthy older patient has a very high-risk NSTE-ACS, as marked by ECG changes, elevated troponin level, and evidence of heart failure. Given his otherwise excellent health, the patient would likely benefit from immediate cardiac catheterization.Cardiac catheterization in 24 to 72 hours (Option A) is not the best option in this patient. In intermediate-risk patients with NSTE-ACS who have been initially stabilized, a delayed invasive strategy with cardiac catheterization 24 to 72 hours after presentation is reasonable. This patient, however, is high risk.Intravenous metoprolol (Option C) is not indicated in this patient. Although β-blockers improve long-term survival in patients with ACS, they should be given orally (not intravenously) and should not be given to patients with hypotension, cardiogenic shock, pulmonary congestion, or atrioventricular block.Submaximal exercise stress testing (Option D) is contraindicated in this patient with acute NSTE-ACS and evidence of heart failure. The use of submaximal stress testing is more appropriate for lower-risk patients with NSTE-ACS.",
   "key_points": [
     "Urgent invasive treatment (within 2 hours) is recommended for patients with type 1 non–ST-segment elevation acute coronary syndrome (ACS) who have hemodynamic instability, refractory chest pain, heart failure, or ventricular arrhythmias.",
     "In older patients with ACS, age alone should not be a disqualifying factor from pursuing an invasive treatment strategy."
   ],
+  "references": "Damluji AA, Forman DE, Wang TY, et al; American Heart Association Cardiovascular Disease in Older Populations Committee of the Council on Clinical Cardiology and Council on Cardiovascular and Stroke Nursing; Council on Cardiovascular Radiology and Intervention; and Council on Lifestyle and Cardiometabolic Health. Management of acute coronary syndrome in the older adult population: a scientific statement from the American Heart Association. Circulation. 2023;147:e32-e62. PMID: 36503287 doi:10.1161/CIR.0000000000001112",
+  "related_content": {
+    "syllabus": [
+      "cvsec24004_24032"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cardiac catheterization in 24 to 72 hours"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Immediate cardiac catheterization"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Intravenous metoprolol"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Submaximal exercise stress testing before discharge"
-    }
-  ],
-  "question_id": "cvmcq24062",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "An 82-year-old man is evaluated in the emergency department for 4 hours of chest discomfort and shortness of breath. He has never had these symptoms before. Typically, he walks 20 minutes each day and performs all activities of daily living. He has a remote history of prostate cancer. He takes no medications.On physical examination, blood pressure is 96/49 mm Hg and pulse rate is 108/min and regular. Central venous pressure is elevated. Lung auscultation reveals bilateral crackles. No cardiac murmurs are present.ECG reveals sinus rhythm with 2 mm of ST-segment depression in leads V2 to V6.Treatment is initiated with aspirin, clopidogrel, intravenous heparin, and atorvastatin.",
-  "references": "Damluji AA, Forman DE, Wang TY, et al; American Heart Association Cardiovascular Disease in Older Populations Committee of the Council on Clinical Cardiology and Council on Cardiovascular and Stroke Nursing; Council on Cardiovascular Radiology and Intervention; and Council on Lifestyle and Cardiometabolic Health. Management of acute coronary syndrome in the older adult population: a scientific statement from the American Heart Association. Circulation. 2023;147:e32-e62. PMID: 36503287 doi:10.1161/CIR.0000000000001112",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24004_24032"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:49:02.843547-06:00"
 }

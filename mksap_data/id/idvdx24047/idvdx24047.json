@@ -1,59 +1,59 @@
 {
+  "question_id": "idvdx24047",
   "category": "id",
-  "critique": "This frontal chest radiograph shows a lung abscess (Option D). Radiographic findings include a cavitary pulmonary infiltrate, partial central clearing, and an air-fluid level; these findings are consistent with a lung abscess. The most common cause of lung abscess is aspiration, most typically in patients that experienced an episode of decreased consciousness. These abscesses are the result of polymicrobial infection. Lung abscesses can also result from infections with pyogenic bacteria, most commonly Staphylococcus aureus, Klebsiella pneumoniae, and Pseudomonas aeruginosa. Although an infected bulla could have a similar appearance, the thick wall of the lesion suggests a cavitary lung abscess rather than an infected bulla. Cavitary tuberculosis tends to be located in the apical segments of the upper and lower lobes and may be associated with hilar or mediastinal lymphadenopathy.",
   "educational_objective": "Diagnose a lung abscess on a chest radiograph.",
-  "extracted_at": "2025-12-23T14:10:29.405436-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 36-year-old man is evaluated for fever and cough. He has alcohol use disorder.Chest radiograph is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cavitary tuberculosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Granulomatosis with polyangiitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Infected giant bulla",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Lung abscess",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This frontal chest radiograph shows a lung abscess (Option D). Radiographic findings include a cavitary pulmonary infiltrate, partial central clearing, and an air-fluid level; these findings are consistent with a lung abscess. The most common cause of lung abscess is aspiration, most typically in patients that experienced an episode of decreased consciousness. These abscesses are the result of polymicrobial infection. Lung abscesses can also result from infections with pyogenic bacteria, most commonly Staphylococcus aureus, Klebsiella pneumoniae, and Pseudomonas aeruginosa. Although an infected bulla could have a similar appearance, the thick wall of the lesion suggests a cavitary lung abscess rather than an infected bulla. Cavitary tuberculosis tends to be located in the apical segments of the upper and lower lobes and may be associated with hilar or mediastinal lymphadenopathy.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24006_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24653.00bc0e5c523a15106b256fb0b23d768b.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cavitary tuberculosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Granulomatosis with polyangiitis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Infected giant bulla"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Lung abscess"
-    }
-  ],
-  "question_id": "idvdx24047",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 36-year-old man is evaluated for fever and cough. He has alcohol use disorder.Chest radiograph is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24006_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:10:29.405436-06:00"
 }

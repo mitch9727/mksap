@@ -1,60 +1,60 @@
 {
+  "question_id": "hmvdx24005",
   "category": "hm",
-  "critique": "The most likely diagnosis is microangiopathic hemolytic anemia (Option B). Microangiopathic hemolytic anemia is suggested by erythrocyte fragments seen on the peripheral blood smear that appear as schistocytes (irregularly shaped and jagged fragments; blue arrows) and helmet cells (scooped-out erythrocytes that resemble a helmet or bucket; red arrow). Causes of microangiopathic hemolytic anemia include thrombotic thrombocytopenic purpura, hemolytic uremic syndrome, and disseminated intravascular coagulation.",
   "educational_objective": "Diagnose microangiopathic hemolytic anemia.",
-  "extracted_at": "2025-12-23T14:09:52.903769-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 49-year-old man is admitted to the ICU with meningococcal sepsis.Peripheral blood smear is shown.",
+  "question_stem": "Which of the following is the most likely hematologic diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Autoimmune hemolytic anemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Microangiopathic hemolytic anemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Paroxysmal nocturnal hemoglobinuria",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Sickle cell disease",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is microangiopathic hemolytic anemia (Option B). Microangiopathic hemolytic anemia is suggested by erythrocyte fragments seen on the peripheral blood smear that appear as schistocytes (irregularly shaped and jagged fragments; blue arrows) and helmet cells (scooped-out erythrocytes that resemble a helmet or bucket; red arrow). Causes of microangiopathic hemolytic anemia include thrombotic thrombocytopenic purpura, hemolytic uremic syndrome, and disseminated intravascular coagulation.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24006_24009"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24608.c23d54d8c94f7c78669976eba415ddb5.jpg",
       "figures/hmfig24607.2a6b2abd7872a20f40a38507ba381d00.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Autoimmune hemolytic anemia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Microangiopathic hemolytic anemia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Paroxysmal nocturnal hemoglobinuria"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Sickle cell disease"
-    }
-  ],
-  "question_id": "hmvdx24005",
-  "question_stem": "Which of the following is the most likely hematologic diagnosis?",
-  "question_text": "A 49-year-old man is admitted to the ICU with meningococcal sepsis.Peripheral blood smear is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24006_24009"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.903769-06:00"
 }

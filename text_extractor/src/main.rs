@@ -11,6 +11,7 @@ mod diagnostics;
 mod extractor;
 mod models;
 mod reporting;
+mod standardize;
 mod validator;
 
 use auth_flow::authenticate_extractor;
@@ -24,8 +25,8 @@ use reporting::{
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    // Load .env file if present (before any env::var calls)
-    dotenv::dotenv().ok();
+    // Load .env file from project root (before any env::var calls)
+    dotenv::from_path("../.env").ok();
 
     // Initialize logging
     tracing_subscriber::fmt()
@@ -44,6 +45,18 @@ async fn main() -> Result<()> {
 
     match command {
         Command::Validate => return validate_extraction(output_dir).await,
+        Command::Standardize => {
+            info!("=== STANDARDIZING JSON FILES ===");
+            let dry_run = args.contains(&"--dry-run".to_string());
+            let system_filter = args
+                .iter()
+                .position(|a| a == "--system")
+                .and_then(|i| args.get(i + 1))
+                .map(|s| s.clone());
+
+            return standardize::run_standardization(output_dir, dry_run, system_filter.as_deref())
+                .await;
+        }
         Command::CleanupRetired => {
             info!("=== CLEANING UP RETIRED QUESTIONS ===");
             let mut extractor = MKSAPExtractor::new(base_url, output_dir)?;

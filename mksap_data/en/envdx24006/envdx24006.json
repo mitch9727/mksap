@@ -1,60 +1,60 @@
 {
+  "question_id": "envdx24006",
   "category": "en",
-  "critique": "The patient has proliferative diabetic retinopathy (Option D). The funduscopic image shows neovascularization, cotton-wool spots, and retinal hemorrhage. Pre-proliferative retinopathy is manifested by cotton-wool spots, which indicate retinal infarcts. This ischemia eventually provides a stimulus for the growth of new blood vessels (neovascularization). The vessels that form are abnormal in both appearance and structure and are prone to hemorrhage. In proliferative retinopathy, blood vessel fragility can lead to significant retinal and vitreous hemorrhage. Edema of the retina may also occur. Panretinal laser photocoagulation delivers 1000 to 2000 small burns to the periphery of the retina, which results in the avascular scarring and shriveling of new vessels, as shown.",
   "educational_objective": "Diagnose proliferative diabetic retinopathy.",
-  "extracted_at": "2025-12-23T14:09:16.932768-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 59-year-old man undergoes a comprehensive ophthalmologic examination after a recent diagnosis of type 2 diabetes mellitus.Funduscopic findings are shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Age-related macular degeneration",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Glaucoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Nonproliferative diabetic retinopathy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Proliferative diabetic retinopathy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The patient has proliferative diabetic retinopathy (Option D). The funduscopic image shows neovascularization, cotton-wool spots, and retinal hemorrhage. Pre-proliferative retinopathy is manifested by cotton-wool spots, which indicate retinal infarcts. This ischemia eventually provides a stimulus for the growth of new blood vessels (neovascularization). The vessels that form are abnormal in both appearance and structure and are prone to hemorrhage. In proliferative retinopathy, blood vessel fragility can lead to significant retinal and vitreous hemorrhage. Edema of the retina may also occur. Panretinal laser photocoagulation delivers 1000 to 2000 small burns to the periphery of the retina, which results in the avascular scarring and shriveling of new vessels, as shown.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "ensec24002_24039"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/enfig24606.1c3ab32a2eec9a517093c840b493350f.jpg",
       "figures/enfig24605.e9bb5328b2e4e51fee111bafa5660f16.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Age-related macular degeneration"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Glaucoma"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Nonproliferative diabetic retinopathy"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Proliferative diabetic retinopathy"
-    }
-  ],
-  "question_id": "envdx24006",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 59-year-old man undergoes a comprehensive ophthalmologic examination after a recent diagnosis of type 2 diabetes mellitus.Funduscopic findings are shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24002_24039"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:16.932768-06:00"
 }

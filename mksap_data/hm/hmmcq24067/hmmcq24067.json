@@ -1,62 +1,62 @@
 {
+  "question_id": "hmmcq24067",
   "category": "hm",
-  "critique": "This patient with portal vein thrombosis should be tested for the JAK2 tyrosine kinase mutation (Option B). Portal vein thrombosis is common in patients with decompensated cirrhosis secondary to stasis because of slow flow through the portal veins. It may also occur in patients without cirrhosis, especially those with myeloproliferative neoplasms (MPNs). Patients with MPNs are at an increased risk of thrombosis, including pulmonary embolism, deep venous thrombosis, portal vein thrombosis, and hepatic vein thrombosis. Evidence of an MPN is discovered in approximately 50% of patients with hepatic vein thrombosis, even when the complete blood count is normal. Patients with splanchnic vein thrombosis without an obvious cause should undergo evaluation for an MPN, including testing for the JAK2 tyrosine kinase mutation. This mutation is present in almost all patients with polycythemia vera and approximately half (50%-60%) of those with essential thrombocythemia and primary myelofibrosis. This patient has portal vein thrombosis in the absence of cirrhosis. Testing for the JAK2 tyrosine kinase mutation to assess the possibility of an underlying MPN is indicated.CT angiography (CTA) of the chest (Option A) is unnecessary because this patient has no symptoms suggesting pulmonary embolism or pulmonary disease. Furthermore, thrombosis of the portal system does not lead to pulmonary embolism. This patient has no indication for CTA.Liver biopsy (Option C) is not indicated in this patient. Although cirrhosis is the most common predisposing factor for portal vein thrombosis and liver biopsy is often an appropriate test in evaluating the cause and severity of cirrhosis, this patient has no clinical or radiographic evidence of primary liver disease.No further testing (Option D) is inappropriate in this patient with portal vein thrombosis of unclear cause. If cirrhosis was clearly evident, it would be reasonable to perform no further testing related to the portal vein thrombosis because of the strong association between cirrhosis and portal vein thrombosis. However, this patient does not have cirrhosis and should be evaluated for the presence of an MPN.",
   "educational_objective": "Evaluate a patient with splanchnic vein thrombosis for the <i>JAK2</i> tyrosine kinase mutation.",
-  "extracted_at": "2025-12-23T15:17:17.998390-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 69-year-old man is evaluated in the emergency department for a 1-week history of abdominal pain and concomitant nausea with no vomiting, fevers, or chills. Medical history is significant for hypertension and COPD. Medications are losartan and inhaled tiotropium.On physical examination, the patient appears uncomfortable. Blood pressure is 136/90 mm Hg, pulse rate is 84/min, and respiration rate is 16/min. Oxygen saturation is 98% breathing ambient air. Abdominal examination reveals mild tenderness in the periumbilical area without rebound tenderness or guarding. The remainder of the examination is unremarkable.Laboratory studies:Hemoglobin13.9 g/dL (139 g/L)LLeukocyte count5600/μL (5.6 × 109/L)Platelet count278,000/μL (278 × 109/L)A comprehensive metabolic panel is normal.CT scan of the abdomen shows a portal vein thrombosis; the liver is normal in size and appearance.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "CT angiography of the chest",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "JAK2 tyrosine kinase mutation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Liver biopsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "No additional testing",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient with portal vein thrombosis should be tested for the JAK2 tyrosine kinase mutation (Option B). Portal vein thrombosis is common in patients with decompensated cirrhosis secondary to stasis because of slow flow through the portal veins. It may also occur in patients without cirrhosis, especially those with myeloproliferative neoplasms (MPNs). Patients with MPNs are at an increased risk of thrombosis, including pulmonary embolism, deep venous thrombosis, portal vein thrombosis, and hepatic vein thrombosis. Evidence of an MPN is discovered in approximately 50% of patients with hepatic vein thrombosis, even when the complete blood count is normal. Patients with splanchnic vein thrombosis without an obvious cause should undergo evaluation for an MPN, including testing for the JAK2 tyrosine kinase mutation. This mutation is present in almost all patients with polycythemia vera and approximately half (50%-60%) of those with essential thrombocythemia and primary myelofibrosis. This patient has portal vein thrombosis in the absence of cirrhosis. Testing for the JAK2 tyrosine kinase mutation to assess the possibility of an underlying MPN is indicated.CT angiography (CTA) of the chest (Option A) is unnecessary because this patient has no symptoms suggesting pulmonary embolism or pulmonary disease. Furthermore, thrombosis of the portal system does not lead to pulmonary embolism. This patient has no indication for CTA.Liver biopsy (Option C) is not indicated in this patient. Although cirrhosis is the most common predisposing factor for portal vein thrombosis and liver biopsy is often an appropriate test in evaluating the cause and severity of cirrhosis, this patient has no clinical or radiographic evidence of primary liver disease.No further testing (Option D) is inappropriate in this patient with portal vein thrombosis of unclear cause. If cirrhosis was clearly evident, it would be reasonable to perform no further testing related to the portal vein thrombosis because of the strong association between cirrhosis and portal vein thrombosis. However, this patient does not have cirrhosis and should be evaluated for the presence of an MPN.",
   "key_points": [
     "Patients with myeloproliferative neoplasms are at an increased risk of thrombosis, including pulmonary embolism, deep venous thrombosis, portal vein thrombosis, and hepatic vein thrombosis.",
     "Evaluation for evidence of a myeloproliferative neoplasm, including testing for the JAK2 tyrosine kinase mutation, should be considered in patients with splanchnic vein thrombosis without a clear cause."
   ],
+  "references": "Finazzi G, De Stefano V, Barbui T. Splanchnic vein thrombosis in myeloproliferative neoplasms: treatment algorithm 2018. Blood Cancer J. 2018;8:64. PMID: 29946154 doi:10.1038/s41408-018-0100-9",
+  "related_content": {
+    "syllabus": [
+      "hmsec24009_24016"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "CT angiography of the chest"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "JAK2 tyrosine kinase mutation"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Liver biopsy"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "No additional testing"
-    }
-  ],
-  "question_id": "hmmcq24067",
-  "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
-  "question_text": "A 69-year-old man is evaluated in the emergency department for a 1-week history of abdominal pain and concomitant nausea with no vomiting, fevers, or chills. Medical history is significant for hypertension and COPD. Medications are losartan and inhaled tiotropium.On physical examination, the patient appears uncomfortable. Blood pressure is 136/90 mm Hg, pulse rate is 84/min, and respiration rate is 16/min. Oxygen saturation is 98% breathing ambient air. Abdominal examination reveals mild tenderness in the periumbilical area without rebound tenderness or guarding. The remainder of the examination is unremarkable.Laboratory studies:Hemoglobin13.9 g/dL (139 g/L)LLeukocyte count5600/μL (5.6 × 109/L)Platelet count278,000/μL (278 × 109/L)A comprehensive metabolic panel is normal.CT scan of the abdomen shows a portal vein thrombosis; the liver is normal in size and appearance.",
-  "references": "Finazzi G, De Stefano V, Barbui T. Splanchnic vein thrombosis in myeloproliferative neoplasms: treatment algorithm 2018. Blood Cancer J. 2018;8:64. PMID: 29946154 doi:10.1038/s41408-018-0100-9",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24009_24016"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:17:17.998390-06:00"
 }

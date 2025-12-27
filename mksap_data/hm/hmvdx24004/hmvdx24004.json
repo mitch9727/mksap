@@ -1,60 +1,60 @@
 {
+  "question_id": "hmvdx24004",
   "category": "hm",
-  "critique": "The most likely diagnosis is hereditary spherocytosis (Option A). Spherocytes (red arrow) are characterized by erythrocytes with a spherical shape and lack of central pallor. They may be seen in hereditary spherocytosis and warm autoimmune hemolytic anemia. In this patient, the family history of anemia and the presence of splenomegaly are most compatible with hereditary spherocytosis. The larger and lighter pink cells seen on this peripheral blood smear are reticulocytes (blue arrow).",
   "educational_objective": "Diagnose hereditary spherocytosis.",
-  "extracted_at": "2025-12-23T14:09:52.890988-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "An 18-year-old woman is discovered to have splenomegaly during a college sport preparticipation examination. She is asymptomatic. Her father has chronic asymptomatic anemia.Peripheral blood smear is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Hereditary spherocytosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Iron deficiency anemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Thalassemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Warm autoimmune hemolytic anemia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is hereditary spherocytosis (Option A). Spherocytes (red arrow) are characterized by erythrocytes with a spherical shape and lack of central pallor. They may be seen in hereditary spherocytosis and warm autoimmune hemolytic anemia. In this patient, the family history of anemia and the presence of splenomegaly are most compatible with hereditary spherocytosis. The larger and lighter pink cells seen on this peripheral blood smear are reticulocytes (blue arrow).",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24004_24015"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24606.15352b3152d4b7c4c80f25e95e781995.jpg",
       "figures/hmfig24605.2025378ecb728a25de009eb70e5f5cbe.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Hereditary spherocytosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Iron deficiency anemia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Thalassemia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Warm autoimmune hemolytic anemia"
-    }
-  ],
-  "question_id": "hmvdx24004",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "An 18-year-old woman is discovered to have splenomegaly during a college sport preparticipation examination. She is asymptomatic. Her father has chronic asymptomatic anemia.Peripheral blood smear is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24004_24015"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.890988-06:00"
 }

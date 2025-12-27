@@ -1,62 +1,62 @@
 {
+  "question_id": "cvmcq24077",
   "category": "cv",
-  "critique": "Genetic testing (Option B) for familial restrictive cardiomyopathy (RCM) is indicated for this patient. RCM most commonly presents with dyspnea, peripheral edema, and exercise intolerance. Chronic elevation of right atrial pressure often leads to congestive hepatomegaly and ascites as well as atrial arrhythmias. Echocardiography reveals biatrial enlargement and severe diastolic dysfunction in the setting of normal ventricular size, wall thickness, and systolic function. Genetic evaluation of patients with familial RCM reveals pathogenic variants in genes that overlap with those that cause hypertrophic cardiomyopathy and dilated cardiomyopathy. This patient has several findings suggestive of RCM, including relatives with a history of cardiomyopathy at an early age, congestive hepatopathy with ascites, and an echocardiogram showing biatrial enlargement and severe diastolic dysfunction with normal wall thickness. Genetic testing for RCM is the most appropriate diagnostic test and can help in risk stratifying family members if a pathogenic variant is identified in the proband.Endomyocardial biopsy (Option A) can help rule out infiltrative diseases such as amyloidosis or sarcoidosis as a cause of RCM phenotype. However, given this patient's age and significant family history, genetic testing is more likely than endomyocardial biopsy to determine the cause of RCM.99m-Technetium pyrophosphate scintigraphy (Option C) is useful in differentiating AL and ATTR amyloidosis when the clinical presentation and cardiac magnetic resonance imaging are suggestive of amyloidosis. Although biatrial involvement may be seen in amyloidosis, the normal left ventricular wall thickness and congestive hepatopathy are more consistent with RCM than amyloidosis. Scintigraphy is not indicated.Although this patient has ascites, this is likely the result of congestive hepatopathy due to chronic elevation of right-sided cardiac filling pressures. The high serum albumin-ascites gradient and elevated ascitic total protein are also consistent with a cardiac cause. Primary liver disease is unlikely, and liver biopsy (Option D) is not indicated.",
   "educational_objective": "Diagnose familial restrictive cardiomyopathy.",
-  "extracted_at": "2025-12-22T22:49:11.086318-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "An 18-year-old woman is evaluated in the hospital for progressive exertional dyspnea, increased abdominal girth, and peripheral edema over the past 2 months. Her mother died of heart failure at a young age, and her maternal uncle received a heart transplant. Medical history is unremarkable, and she takes no medications.On physical examination, blood pressure is 120/70 mm Hg, pulse rate is 120/min and irregularly irregular, and oxygen saturation is 98% breathing room air. Central venous pressure is elevated. Cardiac examination reveals an irregular heart rate and a loud systolic murmur at the lower left sternal border that increases with inspiration. Ascites, hepatomegaly, and bilateral pedal edema are noted.ECG reveals atrial fibrillation. An echocardiogram shows normal left ventricular wall thickness, an ejection fraction of 50%, severe biatrial enlargement, grade III diastolic dysfunction, a restrictive filling pattern, right ventricular systolic pressure of 65 mm Hg, and severe tricuspid regurgitation.Paracentesis reveals an albumin-ascites gradient of 1.8 g/dL and an ascitic total protein of 2.9 g/dL.",
+  "question_stem": "Which of the following is the most appropriate diagnostic test?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Endomyocardial biopsy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Genetic testing",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "99m-Technetium pyrophosphate scintigraphy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Transjugular liver biopsy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Genetic testing (Option B) for familial restrictive cardiomyopathy (RCM) is indicated for this patient. RCM most commonly presents with dyspnea, peripheral edema, and exercise intolerance. Chronic elevation of right atrial pressure often leads to congestive hepatomegaly and ascites as well as atrial arrhythmias. Echocardiography reveals biatrial enlargement and severe diastolic dysfunction in the setting of normal ventricular size, wall thickness, and systolic function. Genetic evaluation of patients with familial RCM reveals pathogenic variants in genes that overlap with those that cause hypertrophic cardiomyopathy and dilated cardiomyopathy. This patient has several findings suggestive of RCM, including relatives with a history of cardiomyopathy at an early age, congestive hepatopathy with ascites, and an echocardiogram showing biatrial enlargement and severe diastolic dysfunction with normal wall thickness. Genetic testing for RCM is the most appropriate diagnostic test and can help in risk stratifying family members if a pathogenic variant is identified in the proband.Endomyocardial biopsy (Option A) can help rule out infiltrative diseases such as amyloidosis or sarcoidosis as a cause of RCM phenotype. However, given this patient's age and significant family history, genetic testing is more likely than endomyocardial biopsy to determine the cause of RCM.99m-Technetium pyrophosphate scintigraphy (Option C) is useful in differentiating AL and ATTR amyloidosis when the clinical presentation and cardiac magnetic resonance imaging are suggestive of amyloidosis. Although biatrial involvement may be seen in amyloidosis, the normal left ventricular wall thickness and congestive hepatopathy are more consistent with RCM than amyloidosis. Scintigraphy is not indicated.Although this patient has ascites, this is likely the result of congestive hepatopathy due to chronic elevation of right-sided cardiac filling pressures. The high serum albumin-ascites gradient and elevated ascitic total protein are also consistent with a cardiac cause. Primary liver disease is unlikely, and liver biopsy (Option D) is not indicated.",
   "key_points": [
     "Genetic testing for familial restrictive cardiomyopathy (RCM) is indicated in patients with a family history of cardiomyopathy at an early age and a cardiac phenotype consistent with RCM.",
     "RCM presents with dyspnea, congestive hepatopathy with ascites, and peripheral edema; echocardiography reveals biatrial enlargement and severe diastolic dysfunction in the setting of normal ventricular size, wall thickness, and systolic function."
   ],
+  "references": "Cimiotti D, Budde H, Hassoun R, et al. Genetic restrictive cardiomyopathy: causes and consequences-an integrative approach. Int J Mol Sci. 2021;22. PMID: 33429969 doi:10.3390/ijms22020558",
+  "related_content": {
+    "syllabus": [
+      "cvsec24008_24010"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Endomyocardial biopsy"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Genetic testing"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "99m-Technetium pyrophosphate scintigraphy"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Transjugular liver biopsy"
-    }
-  ],
-  "question_id": "cvmcq24077",
-  "question_stem": "Which of the following is the most appropriate diagnostic test?",
-  "question_text": "An 18-year-old woman is evaluated in the hospital for progressive exertional dyspnea, increased abdominal girth, and peripheral edema over the past 2 months. Her mother died of heart failure at a young age, and her maternal uncle received a heart transplant. Medical history is unremarkable, and she takes no medications.On physical examination, blood pressure is 120/70 mm Hg, pulse rate is 120/min and irregularly irregular, and oxygen saturation is 98% breathing room air. Central venous pressure is elevated. Cardiac examination reveals an irregular heart rate and a loud systolic murmur at the lower left sternal border that increases with inspiration. Ascites, hepatomegaly, and bilateral pedal edema are noted.ECG reveals atrial fibrillation. An echocardiogram shows normal left ventricular wall thickness, an ejection fraction of 50%, severe biatrial enlargement, grade III diastolic dysfunction, a restrictive filling pattern, right ventricular systolic pressure of 65 mm Hg, and severe tricuspid regurgitation.Paracentesis reveals an albumin-ascites gradient of 1.8 g/dL and an ascitic total protein of 2.9 g/dL.",
-  "references": "Cimiotti D, Budde H, Hassoun R, et al. Genetic restrictive cardiomyopathy: causes and consequences-an integrative approach. Int J Mol Sci. 2021;22. PMID: 33429969 doi:10.3390/ijms22020558",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24008_24010"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:49:11.086318-06:00"
 }

@@ -1,69 +1,69 @@
 {
+  "question_id": "idmcq24084",
   "category": "id",
-  "critique": "This patient has an initial episode of nonsevere Clostridioides difficile infection (CDI), and the most appropriate treatment is oral fidaxomicin (Option B). Risk factors for CDI include exposure to antibiotic and chemotherapeutic agents, older age, severe underlying comorbidities, presence of inflammatory bowel disease, solid organ transplantation, gastrointestinal surgery, and (possibly) gastric acid suppression with proton pump inhibitors. Nonsevere CDI is defined by a leukocyte count of less than 15,000/µL (15 × 109/L) and a serum creatinine level of less than 1.5 mg/dL (133 µmol/L). The Infectious Diseases Society of America (IDSA) and the Society for Healthcare Epidemiology of America (SHEA) recommend oral fidaxomicin as the preferred initial therapy, rather than oral vancomycin, for an initial episode of nonsevere or severe CDI, although vancomycin remains an acceptable alternative (see ).Intravenous vancomycin (Option A) is not recommended for treatment of CDI because it is not excreted into the large intestine. Consequently, it has no role in the treatment of CDI.Historically, oral metronidazole (Option C) was recommended for treatment of mild CDI, but updated guidelines from the IDSA and SHEA recommend its use for an initial episode of nonsevere CDI only when oral fidaxomicin and oral vancomycin are unavailable or contraindicated.Oral vancomycin followed by rifaximin is a possible alternative treatment regimen () for second and subsequent recurrences of CDI according to IDSA and SHEA recommendations. However, the use of rifaximin (Option D) for an initial episode of CDI is not recommended.Oral vancomycin combined with intravenous metronidazole (Option E) is a recommended treatment for fulminant CDI, which is associated with shock, hypotension, toxic megacolon, or ileus. When ileus is present, the addition of rectal vancomycin to oral vancomycin and intravenous metronidazole may be pursued. Patients with fulminant disease also warrant surgical evaluation.",
   "educational_objective": "Treat a first episode of nonsevere <i>Clostridioides difficile</i> infection.",
-  "extracted_at": "2025-12-22T19:47:19.131520-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 39-year-old patient is evaluated for a 1-day history of abdominal pain and watery diarrhea. Two days ago, they completed a course of cephalexin for cellulitis. Medical history is otherwise noncontributory, and they take no medications.On physical examination, vital signs are normal. Abdominal examination reveals normal bowel sounds and minimal tenderness to palpation, with no guarding or rebound.Stool testing for Clostridioides difficile is positive.",
+  "question_stem": "Which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Intravenous vancomycin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Oral fidaxomicin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Oral metronidazole",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Oral rifaximin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "Oral vancomycin plus intravenous metronidazole",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has an initial episode of nonsevere Clostridioides difficile infection (CDI), and the most appropriate treatment is oral fidaxomicin (Option B). Risk factors for CDI include exposure to antibiotic and chemotherapeutic agents, older age, severe underlying comorbidities, presence of inflammatory bowel disease, solid organ transplantation, gastrointestinal surgery, and (possibly) gastric acid suppression with proton pump inhibitors. Nonsevere CDI is defined by a leukocyte count of less than 15,000/µL (15 × 109/L) and a serum creatinine level of less than 1.5 mg/dL (133 µmol/L). The Infectious Diseases Society of America (IDSA) and the Society for Healthcare Epidemiology of America (SHEA) recommend oral fidaxomicin as the preferred initial therapy, rather than oral vancomycin, for an initial episode of nonsevere or severe CDI, although vancomycin remains an acceptable alternative (see ).Intravenous vancomycin (Option A) is not recommended for treatment of CDI because it is not excreted into the large intestine. Consequently, it has no role in the treatment of CDI.Historically, oral metronidazole (Option C) was recommended for treatment of mild CDI, but updated guidelines from the IDSA and SHEA recommend its use for an initial episode of nonsevere CDI only when oral fidaxomicin and oral vancomycin are unavailable or contraindicated.Oral vancomycin followed by rifaximin is a possible alternative treatment regimen () for second and subsequent recurrences of CDI according to IDSA and SHEA recommendations. However, the use of rifaximin (Option D) for an initial episode of CDI is not recommended.Oral vancomycin combined with intravenous metronidazole (Option E) is a recommended treatment for fulminant CDI, which is associated with shock, hypotension, toxic megacolon, or ileus. When ileus is present, the addition of rectal vancomycin to oral vancomycin and intravenous metronidazole may be pursued. Patients with fulminant disease also warrant surgical evaluation.",
   "key_points": [
     "Oral fidaxomicin is the preferred therapy for an initial episode of nonsevere or severe Clostridioides difficile infection, although oral vancomycin is an acceptable alternative.",
     "Nonsevere C. difficile infection is defined by a leukocyte count of less than 15,000/µL (15 × 109/L) and a serum creatinine level of less than 1.5 mg/dL (132 µmol/L)."
   ],
+  "references": "Johnson S, Lavergne V, Skinner AM, et al. Clinical practice guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 focused update guidelines on management of Clostridioides difficile infection in adults. Clin Infect Dis. 2021;73:755-757. PMID: 34492699 doi:10.1093/cid/ciab718",
+  "related_content": {
+    "syllabus": [
+      "idsec24016_24008"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html",
       "tables/inline_table_3.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Intravenous vancomycin"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Oral fidaxomicin"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Oral metronidazole"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Oral rifaximin"
-    },
-    {
-      "letter": "E",
-      "peer_percentage": 0,
-      "text": "Oral vancomycin plus intravenous metronidazole"
-    }
-  ],
-  "question_id": "idmcq24084",
-  "question_stem": "Which of the following is the most appropriate treatment?",
-  "question_text": "A 39-year-old patient is evaluated for a 1-day history of abdominal pain and watery diarrhea. Two days ago, they completed a course of cephalexin for cellulitis. Medical history is otherwise noncontributory, and they take no medications.On physical examination, vital signs are normal. Abdominal examination reveals normal bowel sounds and minimal tenderness to palpation, with no guarding or rebound.Stool testing for Clostridioides difficile is positive.",
-  "references": "Johnson S, Lavergne V, Skinner AM, et al. Clinical practice guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 focused update guidelines on management of Clostridioides difficile infection in adults. Clin Infect Dis. 2021;73:755-757. PMID: 34492699 doi:10.1093/cid/ciab718",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24016_24008"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:47:19.131520-06:00"
 }

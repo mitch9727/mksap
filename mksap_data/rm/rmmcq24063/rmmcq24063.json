@@ -1,63 +1,63 @@
 {
+  "question_id": "rmmcq24063",
   "category": "rm",
-  "critique": "The most likely diagnosis in this patient is psoriatic arthritis (PsA) (Option B), one of the spondyloarthropathies. PsA is an inflammatory musculoskeletal disease affecting up to 30% of patients with psoriasis, but it may be present in the absence of or preceding the development of typical skin manifestations. Enthesitis (inflammation at the site of tendon insertion) and dactylitis (swelling of an entire finger or toe, or “sausage digit”) are present in up to 50% of patients with PsA. Nail dystrophy is even more common; 80% of patients with PsA demonstrate nail pitting and/or onycholysis. The Classification Criteria for Psoriatic Arthritis (CASPAR) are predominantly used in research but may aid in diagnosis; the criteria include a personal or family history of psoriasis, psoriatic nail dystrophy, dactylitis, a negative test for rheumatoid factor, and radiographic evidence of juxta-articular new bone formation. In a patient with inflammatory musculoskeletal disease (peripheral or axial arthritis or enthesitis), PsA is diagnosed when three or more CASPAR are present, or when psoriatic skin disease is present along with at least one other criterion. This patient has nail disease (pitting) consistent with psoriatic nail dystrophy, and she has dactylitis evidenced by circumferential swelling of the entire third digit on clinical examination. These findings, along with a positive family history of psoriasis and negative rheumatoid factor, indicate a diagnosis of PsA.Erosive (inflammatory) osteoarthritis (Option A) is a disabling, progressive disease featuring diagnosis-defining erosions on plain radiographs, which are absent in this patient. Erosive osteoarthritis is not associated with dactylitis or nail pitting, both of which are present in this patient.Rheumatoid arthritis (RA) (Option C) is characterized by inflammatory polyarthritis with a predilection for the hands and feet. Like this patient, some patients with RA lack rheumatoid factor and anti–cyclic citrullinated peptide antibodies, but the pattern of inflammation in this patient is not consistent with RA. Furthermore, dactylitis is associated with spondyloarthropathies, but not with RA.Although systemic lupus erythematosus (SLE) (Option D) is associated with positivity for antinuclear antibodies, these may also be present in many other disease entities, or in healthy patients. This patient exhibits no specific features of SLE, which, in addition to inflammatory arthritis, also include serositis, myositis, mucocutaneous lesions, and neuropsychiatric and constitutional symptoms.",
   "educational_objective": "Identify clinical findings of psoriatic arthritis.",
-  "extracted_at": "2025-12-22T20:47:08.406985-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 31-year-old woman is evaluated for 3 months of pain and swelling in her hands, particularly her right middle finger. Medical history is unremarkable, and she takes no medications. Family history is notable for psoriasis in her mother.On physical examination, vital signs are normal. Circumferential swelling and tenderness of the right middle finger and small shallow depressions on multiple nails are appreciated. Hand findings are shown. The remainder of the examination is normal.Radiographs of the hands show soft-tissue swelling.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Erosive osteoarthritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Psoriatic arthritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Rheumatoid arthritis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Systemic lupus erythematosus",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis in this patient is psoriatic arthritis (PsA) (Option B), one of the spondyloarthropathies. PsA is an inflammatory musculoskeletal disease affecting up to 30% of patients with psoriasis, but it may be present in the absence of or preceding the development of typical skin manifestations. Enthesitis (inflammation at the site of tendon insertion) and dactylitis (swelling of an entire finger or toe, or “sausage digit”) are present in up to 50% of patients with PsA. Nail dystrophy is even more common; 80% of patients with PsA demonstrate nail pitting and/or onycholysis. The Classification Criteria for Psoriatic Arthritis (CASPAR) are predominantly used in research but may aid in diagnosis; the criteria include a personal or family history of psoriasis, psoriatic nail dystrophy, dactylitis, a negative test for rheumatoid factor, and radiographic evidence of juxta-articular new bone formation. In a patient with inflammatory musculoskeletal disease (peripheral or axial arthritis or enthesitis), PsA is diagnosed when three or more CASPAR are present, or when psoriatic skin disease is present along with at least one other criterion. This patient has nail disease (pitting) consistent with psoriatic nail dystrophy, and she has dactylitis evidenced by circumferential swelling of the entire third digit on clinical examination. These findings, along with a positive family history of psoriasis and negative rheumatoid factor, indicate a diagnosis of PsA.Erosive (inflammatory) osteoarthritis (Option A) is a disabling, progressive disease featuring diagnosis-defining erosions on plain radiographs, which are absent in this patient. Erosive osteoarthritis is not associated with dactylitis or nail pitting, both of which are present in this patient.Rheumatoid arthritis (RA) (Option C) is characterized by inflammatory polyarthritis with a predilection for the hands and feet. Like this patient, some patients with RA lack rheumatoid factor and anti–cyclic citrullinated peptide antibodies, but the pattern of inflammation in this patient is not consistent with RA. Furthermore, dactylitis is associated with spondyloarthropathies, but not with RA.Although systemic lupus erythematosus (SLE) (Option D) is associated with positivity for antinuclear antibodies, these may also be present in many other disease entities, or in healthy patients. This patient exhibits no specific features of SLE, which, in addition to inflammatory arthritis, also include serositis, myositis, mucocutaneous lesions, and neuropsychiatric and constitutional symptoms.",
   "key_points": [
     "Clinical findings of psoriatic arthritis include joint inflammation, skin manifestations of psoriasis, arthritis, enthesitis, dactylitis, and nail dystrophy."
   ],
+  "references": "Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. N Engl J Med. 2017;376:957-970. PMID: 28273019 doi:10.1056/NEJMra1505557",
+  "related_content": {
+    "syllabus": [
+      "rmsec24006_24013"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [
       "figures/rmfig24207.89bfad7c1a1ad471c299f70c3f24153b.jpg"
     ],
     "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Erosive osteoarthritis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Psoriatic arthritis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Rheumatoid arthritis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Systemic lupus erythematosus"
-    }
-  ],
-  "question_id": "rmmcq24063",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 31-year-old woman is evaluated for 3 months of pain and swelling in her hands, particularly her right middle finger. Medical history is unremarkable, and she takes no medications. Family history is notable for psoriasis in her mother.On physical examination, vital signs are normal. Circumferential swelling and tenderness of the right middle finger and small shallow depressions on multiple nails are appreciated. Hand findings are shown. The remainder of the examination is normal.Radiographs of the hands show soft-tissue swelling.",
-  "references": "Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. N Engl J Med. 2017;376:957-970. PMID: 28273019 doi:10.1056/NEJMra1505557",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "rmsec24006_24013"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:47:08.406985-06:00"
 }

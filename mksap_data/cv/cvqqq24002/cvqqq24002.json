@@ -1,62 +1,62 @@
 {
+  "question_id": "cvqqq24002",
   "category": "cv",
-  "critique": "This patient with suspected coronary artery disease should undergo stress echocardiography (Option D). Stable angina pectoris is defined as reproducible angina of at least 2 months' duration that is precipitated by exertion or emotional stress and has not appreciably worsened. In a patient with chest pain, a baseline resting ECG is required to rule out ongoing ischemia and to guide the choice of stress test. Stress testing is most useful in patients with an intermediate probability (10%-90%) of coronary artery disease (CAD). When possible, exercise is preferred over pharmacologic stressors, such as dobutamine and vasodilators, because a patient's exertional capacity provides prognostic information. The addition of imaging to stress testing provides the ability to localize ischemia and detect it earlier than stress ECG. The choice of stress testing modality often depends on local availability and expertise as well as patient-specific anatomic factors and comorbid conditions. Depending on the modality used, stress testing with imaging compares wall motion, perfusion, and/or metabolism at baseline and after stress. Coronary CT angiography is an alternative modality to evaluate patients with an intermediate probability of CAD; if the test result is inconclusive, it is followed by stress testing. This patient with one CAD risk factor (hypertension) and symptoms characteristic of cardiac chest pain has an intermediate pretest probability of coronary disease; therefore, stress echocardiography is an appropriate initial diagnostic test.Invasive coronary angiography via cardiac catheterization (Option A) is indicated in patients with an extremely high pretest probability of CAD or in patients with high-risk findings on cardiac stress testing. It is not an appropriate first-line test in this patient with stable symptoms and intermediate probability of CAD.Coronary artery calcium (CAC) scoring (Option B) by CT provides information regarding the presence and possible burden of CAD, but it cannot determine the degree of obstruction. Stress testing is a more specific test to determine whether this patient's chest pain is likely due to CAD.Exercise ECG (Option C) is a reasonable choice for the evaluation of suspected cardiac chest pain, but the results are uninterpretable in the presence of baseline ECG abnormalities. This patient's ECG shows findings of left ventricular hypertrophy with repolarization abnormalities, precluding an exercise ECG.",
   "educational_objective": "Diagnose ischemic heart disease with cardiac stress testing.",
-  "extracted_at": "2025-12-23T14:08:40.257897-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 52-year-old woman is evaluated for a 2-month history of heavy central chest pain that occurs when running and climbing stairs. She has no pain at rest or during light exertion. She has hypertension for which she takes losartan and amlodipine. She has no other medical problems and has never used tobacco.On physical examination, blood pressure is 154/82 mm Hg. The remainder of the examination is normal.ECG is shown.",
+  "question_stem": "Which of the following is the most appropriate management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cardiac catheterization",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Coronary artery calcium scoring",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Exercise ECG",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Stress echocardiography",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient with suspected coronary artery disease should undergo stress echocardiography (Option D). Stable angina pectoris is defined as reproducible angina of at least 2 months' duration that is precipitated by exertion or emotional stress and has not appreciably worsened. In a patient with chest pain, a baseline resting ECG is required to rule out ongoing ischemia and to guide the choice of stress test. Stress testing is most useful in patients with an intermediate probability (10%-90%) of coronary artery disease (CAD). When possible, exercise is preferred over pharmacologic stressors, such as dobutamine and vasodilators, because a patient's exertional capacity provides prognostic information. The addition of imaging to stress testing provides the ability to localize ischemia and detect it earlier than stress ECG. The choice of stress testing modality often depends on local availability and expertise as well as patient-specific anatomic factors and comorbid conditions. Depending on the modality used, stress testing with imaging compares wall motion, perfusion, and/or metabolism at baseline and after stress. Coronary CT angiography is an alternative modality to evaluate patients with an intermediate probability of CAD; if the test result is inconclusive, it is followed by stress testing. This patient with one CAD risk factor (hypertension) and symptoms characteristic of cardiac chest pain has an intermediate pretest probability of coronary disease; therefore, stress echocardiography is an appropriate initial diagnostic test.Invasive coronary angiography via cardiac catheterization (Option A) is indicated in patients with an extremely high pretest probability of CAD or in patients with high-risk findings on cardiac stress testing. It is not an appropriate first-line test in this patient with stable symptoms and intermediate probability of CAD.Coronary artery calcium (CAC) scoring (Option B) by CT provides information regarding the presence and possible burden of CAD, but it cannot determine the degree of obstruction. Stress testing is a more specific test to determine whether this patient's chest pain is likely due to CAD.Exercise ECG (Option C) is a reasonable choice for the evaluation of suspected cardiac chest pain, but the results are uninterpretable in the presence of baseline ECG abnormalities. This patient's ECG shows findings of left ventricular hypertrophy with repolarization abnormalities, precluding an exercise ECG.",
   "key_points": [
     "Stress testing is an appropriate diagnostic test in patients with an intermediate probability (10%-90%) of coronary artery disease (CAD); coronary CT angiography is an alternative modality.",
     "Stress testing with imaging is sensitive for CAD, has utility in patients with an abnormal baseline ECG, and provides functional and anatomic information."
   ],
+  "references": "Gulati M, Levy PD, Mukherjee D, et al. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR guideline for the evaluation and diagnosis of chest pain: A report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2021;144:e368-e454. PMID: 34709879 doi:10.1161/CIR.0000000000001029",
+  "related_content": {
+    "syllabus": [
+      "cvsec24004_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24500.df29137f99af6eca17b1b3343b0421fd.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cardiac catheterization"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Coronary artery calcium scoring"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Exercise ECG"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Stress echocardiography"
-    }
-  ],
-  "question_id": "cvqqq24002",
-  "question_stem": "Which of the following is the most appropriate management?",
-  "question_text": "A 52-year-old woman is evaluated for a 2-month history of heavy central chest pain that occurs when running and climbing stairs. She has no pain at rest or during light exertion. She has hypertension for which she takes losartan and amlodipine. She has no other medical problems and has never used tobacco.On physical examination, blood pressure is 154/82 mm Hg. The remainder of the examination is normal.ECG is shown.",
-  "references": "Gulati M, Levy PD, Mukherjee D, et al. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR guideline for the evaluation and diagnosis of chest pain: A report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2021;144:e368-e454. PMID: 34709879 doi:10.1161/CIR.0000000000001029",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24004_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.257897-06:00"
 }

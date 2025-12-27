@@ -1,59 +1,59 @@
 {
+  "question_id": "nrvdx24014",
   "category": "nr",
-  "critique": "The most likely diagnosis is normal-pressure hydrocephalus (Option D). The MRI shows ventricular dilation typical of normal-pressure hydrocephalus. The diagnosis is suggested by an expansion of the entire ventricular system in the absence of (or disproportionate to) cortical atrophy or an obstruction to outflow of cerebrospinal fluid, such as aqueductal stenosis. Periventricular hyperintensities also may be seen.",
   "educational_objective": "Diagnose normal-pressure hydrocephalus.",
-  "extracted_at": "2025-12-23T14:11:42.608681-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 68-year-old man is evaluated for apathy, poor cognition, impaired gait, and occasional urinary incontinence.Brain MRI is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Alzheimer dementia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Frontotemporal dementia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Lewy body dementia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Normal-pressure hydrocephalus",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is normal-pressure hydrocephalus (Option D). The MRI shows ventricular dilation typical of normal-pressure hydrocephalus. The diagnosis is suggested by an expansion of the entire ventricular system in the absence of (or disproportionate to) cortical atrophy or an obstruction to outflow of cerebrospinal fluid, such as aqueductal stenosis. Periventricular hyperintensities also may be seen.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "nrsec24005_24009"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/nrfig24616.5ac57dd215974526f48defa7e75b633e.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Alzheimer dementia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Frontotemporal dementia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Lewy body dementia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Normal-pressure hydrocephalus"
-    }
-  ],
-  "question_id": "nrvdx24014",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 68-year-old man is evaluated for apathy, poor cognition, impaired gait, and occasional urinary incontinence.Brain MRI is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "nrsec24005_24009"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:11:42.608681-06:00"
 }

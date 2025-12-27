@@ -1,60 +1,60 @@
 {
+  "question_id": "hmvdx24020",
   "category": "hm",
-  "critique": "The most likely diagnosis is glucose-6-phosphate dehydrogenase (G6PD) deficiency (Option C). The peripheral blood smear is notable for the presence of bite cells at the center of the slide (black arrow). Bite cells are typical findings in G6PD deficiency and are characterized by a membrane defect that appears as though a semicircular bite has been taken out of the erythrocyte. The defect is caused by removal of denatured hemoglobin by macrophages in the spleen. A polychromatophilic macro-ovalocyte can also be seen (blue arrow), indicating a reticulocyte response. Hemolysis occurs in patients with G6PD deficiency when exposed to oxidative stress, most commonly medications. The diagnosis is confirmed by a low G6PD level, although testing performed immediately after a hemolytic episode may be falsely negative because many of the G6PD-deficient cells were hemolyzed. Repeat testing after recovery may be necessary.",
   "educational_objective": "Diagnose glucose-6-phosphate dehydrogenase deficiency.",
-  "extracted_at": "2025-12-23T14:09:52.944409-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 26-year-old man is evaluated following an episode of acute hemolytic anemia.Peripheral blood smear is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Anaplasmosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Babesiosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Glucose-6-phosphate dehydrogenase deficiency",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Warm autoimmune hemolytic anemia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is glucose-6-phosphate dehydrogenase (G6PD) deficiency (Option C). The peripheral blood smear is notable for the presence of bite cells at the center of the slide (black arrow). Bite cells are typical findings in G6PD deficiency and are characterized by a membrane defect that appears as though a semicircular bite has been taken out of the erythrocyte. The defect is caused by removal of denatured hemoglobin by macrophages in the spleen. A polychromatophilic macro-ovalocyte can also be seen (blue arrow), indicating a reticulocyte response. Hemolysis occurs in patients with G6PD deficiency when exposed to oxidative stress, most commonly medications. The diagnosis is confirmed by a low G6PD level, although testing performed immediately after a hemolytic episode may be falsely negative because many of the G6PD-deficient cells were hemolyzed. Repeat testing after recovery may be necessary.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24004_24016"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24633.c13c0ea2ea5b6bc6c8c44dd96e8f7424.jpg",
       "figures/hmfig24632.dfce727fa05ed29fb5d62728f3be6c8d.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Anaplasmosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Babesiosis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Glucose-6-phosphate dehydrogenase deficiency"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Warm autoimmune hemolytic anemia"
-    }
-  ],
-  "question_id": "hmvdx24020",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 26-year-old man is evaluated following an episode of acute hemolytic anemia.Peripheral blood smear is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24004_24016"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.944409-06:00"
 }

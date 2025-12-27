@@ -1,62 +1,62 @@
 {
+  "question_id": "cvmcq24125",
   "category": "cv",
-  "critique": "The most appropriate antithrombotic treatment strategy is to decrease the warfarin dosage (Option A). Patients with mechanical cardiac valves are at high risk for thromboembolic events, and lifelong antithrombotic therapy is mandatory. Warfarin is the preferred agent, and therapy should target a specific INR value rather than a range. In patients with any mitral prosthesis, an older-generation aortic valve prosthesis (ball-in-cage), or a mechanical aortic valve prosthesis with heightened risk factors for thromboembolism, the target INR is 3.0. In patients with a mechanical bileaflet or current-generation single-tilting disc aortic valve with no additional risk factors for thromboembolism (history of embolization, hypercoagulable disorder, left ventricular dysfunction, or atrial fibrillation), the goal INR for warfarin anticoagulation is 2.5. This patient's history and examination findings are consistent with a normally functioning mechanical aortic valve. She has small-volume hematochezia secondary to hemorrhoids, and her INR has been consistently above the goal INR of 2.5. Decreasing the warfarin dosage to limit the risk for bleeding but maintain adequate thromboembolic prophylaxis is appropriate. Of note, in the setting of active bleeding, warfarin may be discontinued temporarily without heparin bridging, as long as the patient has no risk factors for thromboembolism.Direct oral anticoagulants are preferred therapy over warfarin for venous thromboembolism and for patients with atrial fibrillation at high risk for thromboembolism and without mechanical valves. However, the RE-ALIGN trial demonstrated that dabigatran was associated with excess bleeding and thromboembolic events compared with warfarin, and the PROACT Xa trial, which compared several doses of apixaban and warfarin for thromboembolism prophylaxis in a mechanical aortic valve, indicated an excess occurrence of bleeding with apixaban. Oral anticoagulants other than warfarin (Option B) are not indicated for use in mechanical heart valves.Aspirin monotherapy (Option C) does not provide adequate prophylaxis against thromboembolic complications in patients with a mechanical valve and should not be used routinely in this situation. Of importance, despite previous recommendations, low-dose aspirin is no longer routinely used in conjunction with warfarin in patients with mechanical valves for the purpose of thromboembolic prophylaxis of the valve. It may, however, be considered for coadministration with warfarin for separate indications (such as coronary artery disease) if the patient's bleeding risk is low. For valvular thromboembolic prophylaxis, low-dose aspirin monotherapy is reasonable only in patients with a bioprosthetic valve and no additional indications for anticoagulation.This patient has had an INR consistently above the goal and has had minor bleeding. Decreasing her warfarin dosage will decrease the risk for bleeding while continuing to provide adequate protection against thromboembolic complications. The warfarin dosage should be decreased rather than maintained (Option D).",
   "educational_objective": "Treat a patient with a mechanical aortic valve with warfarin.",
-  "extracted_at": "2025-12-22T22:49:36.805328-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 49-year-old woman is evaluated for hematochezia. She had a mechanical bileaflet aortic valve replacement 7 years ago. She has had several episodes of blood streaking of stool after passing a hard bowel movement. She has no other symptoms. Medical history is otherwise unremarkable. Her only medication is warfarin.On physical examination, vital signs are normal. Cardiac examination reveals a sharp mechanical valve sound with a grade 2/6 systolic murmur throughout the precordium; all other findings are normal.Colonoscopy reveals only mild internal hemorrhoids. A psyllium supplement is started.",
+  "question_stem": "Which of the following is the most appropriate antithrombotic treatment strategy?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Decrease warfarin dosage",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Discontinue warfarin and start apixaban",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Discontinue warfarin and start aspirin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Continue current warfarin dosage",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate antithrombotic treatment strategy is to decrease the warfarin dosage (Option A). Patients with mechanical cardiac valves are at high risk for thromboembolic events, and lifelong antithrombotic therapy is mandatory. Warfarin is the preferred agent, and therapy should target a specific INR value rather than a range. In patients with any mitral prosthesis, an older-generation aortic valve prosthesis (ball-in-cage), or a mechanical aortic valve prosthesis with heightened risk factors for thromboembolism, the target INR is 3.0. In patients with a mechanical bileaflet or current-generation single-tilting disc aortic valve with no additional risk factors for thromboembolism (history of embolization, hypercoagulable disorder, left ventricular dysfunction, or atrial fibrillation), the goal INR for warfarin anticoagulation is 2.5. This patient's history and examination findings are consistent with a normally functioning mechanical aortic valve. She has small-volume hematochezia secondary to hemorrhoids, and her INR has been consistently above the goal INR of 2.5. Decreasing the warfarin dosage to limit the risk for bleeding but maintain adequate thromboembolic prophylaxis is appropriate. Of note, in the setting of active bleeding, warfarin may be discontinued temporarily without heparin bridging, as long as the patient has no risk factors for thromboembolism.Direct oral anticoagulants are preferred therapy over warfarin for venous thromboembolism and for patients with atrial fibrillation at high risk for thromboembolism and without mechanical valves. However, the RE-ALIGN trial demonstrated that dabigatran was associated with excess bleeding and thromboembolic events compared with warfarin, and the PROACT Xa trial, which compared several doses of apixaban and warfarin for thromboembolism prophylaxis in a mechanical aortic valve, indicated an excess occurrence of bleeding with apixaban. Oral anticoagulants other than warfarin (Option B) are not indicated for use in mechanical heart valves.Aspirin monotherapy (Option C) does not provide adequate prophylaxis against thromboembolic complications in patients with a mechanical valve and should not be used routinely in this situation. Of importance, despite previous recommendations, low-dose aspirin is no longer routinely used in conjunction with warfarin in patients with mechanical valves for the purpose of thromboembolic prophylaxis of the valve. It may, however, be considered for coadministration with warfarin for separate indications (such as coronary artery disease) if the patient's bleeding risk is low. For valvular thromboembolic prophylaxis, low-dose aspirin monotherapy is reasonable only in patients with a bioprosthetic valve and no additional indications for anticoagulation.This patient has had an INR consistently above the goal and has had minor bleeding. Decreasing her warfarin dosage will decrease the risk for bleeding while continuing to provide adequate protection against thromboembolic complications. The warfarin dosage should be decreased rather than maintained (Option D).",
   "key_points": [
     "Patients with mechanical cardiac valves require warfarin anticoagulation for thromboembolism prophylaxis; other oral anticoagulants should not be used for this indication.",
     "In patients with a prosthetic cardiac valve, the appropriate INR goal varies by type of valve and valve position; therapy should target a specific INR value rather than a range."
   ],
+  "references": "Otto CM, Nishimura RA, Bonow RO, et al. 2020 ACC/AHA guideline for the management of patients with valvular heart disease: a report of the American College of Cardiology/American Heart Association joint committee on clinical practice guidelines. Circulation. 2021;143:e72-e227. PMID: 33332150 doi:10.1161/CIR.0000000000000923",
+  "related_content": {
+    "syllabus": [
+      "cvsec24007_24016"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Decrease warfarin dosage"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Discontinue warfarin and start apixaban"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Discontinue warfarin and start aspirin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Continue current warfarin dosage"
-    }
-  ],
-  "question_id": "cvmcq24125",
-  "question_stem": "Which of the following is the most appropriate antithrombotic treatment strategy?",
-  "question_text": "A 49-year-old woman is evaluated for hematochezia. She had a mechanical bileaflet aortic valve replacement 7 years ago. She has had several episodes of blood streaking of stool after passing a hard bowel movement. She has no other symptoms. Medical history is otherwise unremarkable. Her only medication is warfarin.On physical examination, vital signs are normal. Cardiac examination reveals a sharp mechanical valve sound with a grade 2/6 systolic murmur throughout the precordium; all other findings are normal.Colonoscopy reveals only mild internal hemorrhoids. A psyllium supplement is started.",
-  "references": "Otto CM, Nishimura RA, Bonow RO, et al. 2020 ACC/AHA guideline for the management of patients with valvular heart disease: a report of the American College of Cardiology/American Heart Association joint committee on clinical practice guidelines. Circulation. 2021;143:e72-e227. PMID: 33332150 doi:10.1161/CIR.0000000000000923",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24007_24016"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:49:36.805328-06:00"
 }

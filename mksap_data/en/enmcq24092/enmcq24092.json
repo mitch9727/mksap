@@ -1,62 +1,62 @@
 {
+  "question_id": "enmcq24092",
   "category": "en",
-  "critique": "This patient has secondary hypogonadism that is most likely caused by opioid use (Option D). Secondary hypogonadism reflects a hypothalamic (gonadotropin-releasing hormone [GnRH]) and/or pituitary (luteinizing hormone [LH]/follicle-stimulating hormone [FSH]) deficiency. Medications that can induce secondary hypogonadism include opioids, anabolic steroids, glucocorticoids, and GnRH analogues. The incidence of hypogonadism in men using chronic opioids may be as high as 63%. Opioids inhibit GnRH release and the pituitary response to GnRH; this decreases secretion of FSH and LH, which in turn decreases testosterone secretion. Additionally, opioids stimulate prolactin secretion, which further disrupts the gonadal axis. Finally, opioids induce conversion of testosterone to dihydrotestosterone, which is the more potent androgenic hormone. In patients taking chronic opioids, secondary hypogonadism should be considered when characteristic laboratory findings are present, including decreased serum total testosterone and low or inappropriately normal serum LH and FSH levels; serum prolactin levels may be normal or elevated. Secondary hypogonadism is evidenced in this patient by physical examination features (decreased pubic hair and low testicular volume) and low total testosterone and inappropriately low-normal LH and FSH levels. His elevated prolactin level in the setting of a normal MRI further supports the diagnosis of opioid-induced hypogonadism.Testicular surgery (Option A) can cause primary hypogonadism. Men who have a history of one undescended testis have a 25% to 33% chance of a subnormal sperm count, but testosterone levels are typically normal. If both testes are undescended, the sperm count can be severely low, and the testosterone level may also be reduced. This patient's normal LH and FSH levels rule out primary hypogonadism.Hemochromatosis (Option B) is a common cause of secondary hypogonadism; however, this patient's normal serum ferritin level and transferrin saturation exclude this diagnosis.Klinefelter syndrome (47,XXY) (Option C) is the most common congenital cause of primary hypogonadism and is associated with tall stature, small testes, developmental delays, and socialization difficulties. Laboratory findings include elevated LH and FSH and low testosterone levels. This patient's normal LH and FSH levels rule out Klinefelter syndrome.",
   "educational_objective": "Diagnose opioid-induced hypogonadism.",
-  "extracted_at": "2025-12-22T23:00:06.468091-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 32-year-old man is evaluated for low libido, fatigue, and erectile dysfunction. He reports no headaches or visual changes. Medical history includes an undescended right testis that was surgically corrected in infancy, chronic low back pain, and opioid use disorder. Medications are methadone and ibuprofen.On physical examination, vital signs are normal. BMI is 29. Decreased muscle mass and gynecomastia are observed. Testicular volume is 10 mL bilaterally (normal range, 15-25 mL). The testes are soft and without masses. The phallus is normal. There is scant pubic hair.An 8 am serum total testosterone level is low. Further evaluation is completed as follows:Pituitary MRI is normal.",
+  "question_stem": "Which of the following is the most likely cause of his symptoms?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Effects of testicular surgery",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Hemochromatosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Klinefelter syndrome (47,XXY)",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Opioid use",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has secondary hypogonadism that is most likely caused by opioid use (Option D). Secondary hypogonadism reflects a hypothalamic (gonadotropin-releasing hormone [GnRH]) and/or pituitary (luteinizing hormone [LH]/follicle-stimulating hormone [FSH]) deficiency. Medications that can induce secondary hypogonadism include opioids, anabolic steroids, glucocorticoids, and GnRH analogues. The incidence of hypogonadism in men using chronic opioids may be as high as 63%. Opioids inhibit GnRH release and the pituitary response to GnRH; this decreases secretion of FSH and LH, which in turn decreases testosterone secretion. Additionally, opioids stimulate prolactin secretion, which further disrupts the gonadal axis. Finally, opioids induce conversion of testosterone to dihydrotestosterone, which is the more potent androgenic hormone. In patients taking chronic opioids, secondary hypogonadism should be considered when characteristic laboratory findings are present, including decreased serum total testosterone and low or inappropriately normal serum LH and FSH levels; serum prolactin levels may be normal or elevated. Secondary hypogonadism is evidenced in this patient by physical examination features (decreased pubic hair and low testicular volume) and low total testosterone and inappropriately low-normal LH and FSH levels. His elevated prolactin level in the setting of a normal MRI further supports the diagnosis of opioid-induced hypogonadism.Testicular surgery (Option A) can cause primary hypogonadism. Men who have a history of one undescended testis have a 25% to 33% chance of a subnormal sperm count, but testosterone levels are typically normal. If both testes are undescended, the sperm count can be severely low, and the testosterone level may also be reduced. This patient's normal LH and FSH levels rule out primary hypogonadism.Hemochromatosis (Option B) is a common cause of secondary hypogonadism; however, this patient's normal serum ferritin level and transferrin saturation exclude this diagnosis.Klinefelter syndrome (47,XXY) (Option C) is the most common congenital cause of primary hypogonadism and is associated with tall stature, small testes, developmental delays, and socialization difficulties. Laboratory findings include elevated LH and FSH and low testosterone levels. This patient's normal LH and FSH levels rule out Klinefelter syndrome.",
   "key_points": [
     "Secondary hypogonadism reflects a hypothalamic and/or pituitary deficiency and may be caused by a number of medications, including opioids, anabolic steroids, glucocorticoids, and gonadotropin-releasing hormone analogues.",
     "In patients taking chronic opioids, secondary hypogonadism should be considered when characteristic laboratory findings are present, including decreased serum total testosterone and low or inappropriately normal serum luteinizing hormone and follicle-stimulating hormone levels."
   ],
+  "references": "de Vries F, Bruin M, Lobatto DJ, et al. Opioids and their endocrine effects: a systematic review and meta-analysis. J Clin Endocrinol Metab. 2020;105:1020-9. PMID: 31511863 doi:10.1210/clinem/dgz022",
+  "related_content": {
+    "syllabus": [
+      "ensec24006_24014"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Effects of testicular surgery"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Hemochromatosis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Klinefelter syndrome (47,XXY)"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Opioid use"
-    }
-  ],
-  "question_id": "enmcq24092",
-  "question_stem": "Which of the following is the most likely cause of his symptoms?",
-  "question_text": "A 32-year-old man is evaluated for low libido, fatigue, and erectile dysfunction. He reports no headaches or visual changes. Medical history includes an undescended right testis that was surgically corrected in infancy, chronic low back pain, and opioid use disorder. Medications are methadone and ibuprofen.On physical examination, vital signs are normal. BMI is 29. Decreased muscle mass and gynecomastia are observed. Testicular volume is 10 mL bilaterally (normal range, 15-25 mL). The testes are soft and without masses. The phallus is normal. There is scant pubic hair.An 8 am serum total testosterone level is low. Further evaluation is completed as follows:Pituitary MRI is normal.",
-  "references": "de Vries F, Bruin M, Lobatto DJ, et al. Opioids and their endocrine effects: a systematic review and meta-analysis. J Clin Endocrinol Metab. 2020;105:1020-9. PMID: 31511863 doi:10.1210/clinem/dgz022",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24006_24014"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T23:00:06.468091-06:00"
 }

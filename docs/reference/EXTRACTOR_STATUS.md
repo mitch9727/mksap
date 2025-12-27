@@ -6,38 +6,17 @@ The Rust MKSAP Extractor is the primary tool for extracting medical education qu
 
 ## Current Status
 
-- **Questions Extracted**: 754 / 2,233 (34% of target)
-- **Systems with Data**: 8 of 16 system codes (partial)
-- **Question Types**: 1 of 6 types fully supported (mcq, cor, vdx, qqq, mqq, sq needed)
-- **Implementation Status**: Phase 1 - Data Extraction (see [PHASE_1_PLAN.md](../project/PHASE_1_PLAN.md))
-- **Last Updated**: December 25, 2025
+- **Implementation Status**: Phase 1 text extraction is fully functional
+- **System Coverage**: 16 system codes (including `fc` and `cs`)
+- **Question Types**: `mcq`, `qqq`, `vdx`, `cor`, `mqq`, `sq`
+- **Progress Tracking**: Discovery metadata and validation reports
 
-**Note**: 1,810 question count was based on incomplete question type coverage. Complete count is 2,233 across 16 systems and 6 question types. See [Question ID Discovery](../Question%20ID%20Discovery.md) for details.
+To view current counts and completion ratios:
 
-### Coverage by System
-
-Current extraction covers only **mcq (multiple choice) questions**. Complete extraction requires all 6 question types per system.
-
-| System | Extracted | Target | Status |
-|--------|-----------|--------|--------|
-| Cardiovascular Medicine | 132 | 240 | 55% ◐ |
-| Endocrinology & Metabolism | 101 | 180 | 56% ◐ |
-| Hematology | 72 | 200 | 36% ✗ |
-| Infectious Disease | 114 | 240 | 48% ◐ |
-| Nephrology | 107 | 200 | 54% ◐ |
-| Neurology | 78 | 180 | 43% ◐ |
-| Oncology | 72 | 160 | 45% ◐ |
-| Rheumatology | 78 | 200 | 39% ◐ |
-| **Missing Systems** | | | |
-| Clinical Practice | 0 | 220 | 0% ✗ |
-| Gastroenterology | 0 | 220 | 0% ✗ |
-| Interdisciplinary Medicine | 0 | 220 | 0% ✗ |
-| Pulmonary & Critical Care | 0 | 220 | 0% ✗ |
-| Additional Systems (cs, dm, fc, hp) | 0 | 213 | 0% ✗ |
-
-**Total Progress**: 754 / 2,233 (34%)
-
-See [Question ID Discovery](../Question%20ID%20Discovery.md) for complete target breakdown.
+```bash
+./target/release/mksap-extractor discovery-stats
+./target/release/mksap-extractor validate
+```
 
 ## Extraction Approach
 
@@ -71,11 +50,13 @@ The Rust extractor uses direct HTTPS API calls to the MKSAP backend:
 ### Directory Structure
 ```
 mksap_data/
+├── .checkpoints/
+│   ├── discovery_metadata.json
+│   └── {system}_ids.txt
 ├── cv/                              # Cardiovascular
 │   ├── cvmcq24001/
-│   │   ├── cvmcq24001.json         # Complete question
-│   │   └── cvmcq24001_metadata.txt # Human-readable summary
-│   └── ... (131 more questions)
+│   │   └── cvmcq24001.json         # Complete question
+│   └── ... (more questions)
 ├── en/ ├── hm/
 ├── id/
 ├── np/
@@ -90,12 +71,13 @@ Each question contains:
 - Clinical scenario (stimulus)
 - Question stem (prompt)
 - Multiple choice options (A, B, C, D)
-- Correct answer
+- Correct answer (in `user_performance`)
 - Detailed critique/explanation
 - Key learning points
 - Academic references (with PMIDs)
 - Educational objectives
-- Metadata (care type, last updated, etc.)
+- Metadata (care types, high value care, update date)
+- Media arrays (populated by `media_extractor`)
 
 ## When to Use This Tool
 
@@ -112,20 +94,16 @@ The Rust extractor is the only supported extraction path for this project.
 
 No known abbreviation mismatches in current extraction output. Interdisciplinary Medicine uses `in` for question IDs while the web path remains `/dmin/`.
 
-## Next Steps (Phase 1 Plan)
+## Next Steps
 
-See [PHASE_1_PLAN.md](../project/PHASE_1_PLAN.md) for complete implementation plan:
-
-1. **Implement Question ID Discovery** - Extend to all 6 question types (cor, mcq, qqq, mqq, vdx, sq)
-2. **Update Configuration** - Add all 16 systems with accurate target counts
-3. **Complete All 16 Systems** - Extract remaining systems and fill partial extractions
-4. **Validate & Breadcrumb** - Add syllabus reference fields to each question
-5. **Reach 100%** - Extract all 2,233 questions
+1. Run extraction for the full dataset
+2. Validate output with discovery-aware metrics
+3. Run `media_extractor` if you need figures, tables, or videos
 
 ## Related Documentation
 
-- [Setup Guide](setup.md) - Installation and configuration
-- [Usage Guide](usage.md) - How to run the extractor
-- [Validation](validation.md) - Data quality verification
-- [Architecture](architecture.md) - Technical implementation details
-- [Troubleshooting](troubleshooting.md) - Common issues and solutions
+- [Setup Guide](RUST_SETUP.md) - Installation and configuration
+- [Usage Guide](RUST_USAGE.md) - How to run the extractor
+- [Validation](VALIDATION.md) - Data quality verification
+- [Architecture](RUST_ARCHITECTURE.md) - Technical implementation details
+- [Troubleshooting](TROUBLESHOOTING.md) - Common issues and solutions

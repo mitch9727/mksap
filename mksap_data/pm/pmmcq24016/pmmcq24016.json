@@ -1,64 +1,64 @@
 {
+  "question_id": "pmmcq24016",
   "category": "pm",
-  "critique": "The most appropriate next step in management of this patient with newly diagnosed idiopathic pulmonary fibrosis (IPF) is to start nintedanib (Option A). IPF is a progressive and ultimately fatal fibrotic lung disease with a median survival of 3 to 5 years. Diagnosis rests on the exclusion of other causes of diffuse parenchymal lung disease and demonstration of characteristic radiographic changes of bilateral, subpleural, and basilar reticular changes. Subpleural basilar reticular and ground-glass opacities (arrows) are characteristic of IPF. Management of IPF should include consideration of antifibrotic therapies and oxygen supplementation for hypoxemia. Nintedanib, a tyrosine kinase inhibitor, and pirfenidone, an antifibrotic agent, are first-line medical therapies in IPF. Both medications decrease disease progression, but neither is curative. The clinical course of IPF is unpredictable, and patients can experience acute exacerbations with accelerated decline. Referral to a specialist in IPF is advisable upon diagnosis, and early consideration should be given to referral to a lung transplantation center. This patient has a clinical and radiographic presentation consistent with IPF and should begin receiving antifibrotic therapy with nintedanib or pirfenidone.Glucocorticoids such as prednisone (Option B) have no role in the long-term management of IPF. Glucocorticoids are often given in combination with antibiotics for patients with acute exacerbations of IPF, but few data support this practice. This patient has IPF without evidence of an acute exacerbation, and prednisone is not indicated.A combination regimen of prednisone, N-acetylcysteine, and azathioprine (Option C) is not recommended for the treatment of IPF. A definitive 2012 study showed increased hospitalizations and mortality with this combination, leading to the study's early termination. The use of this combination is not recommended by multiple IPF treatment guidelines.Surgical lung biopsy (Option D) would not be appropriate in this patient. It is typically reserved for cases in which the combination of clinical and imaging data are not diagnostic, and the biopsy results are expected to influence management decisions. When the clinical and high-resolution CT findings are classic for IPF, such as in this case, lung biopsy is not necessary for diagnosis.",
   "educational_objective": "Manage a patient with idiopathic pulmonary fibrosis.",
-  "extracted_at": "2025-12-23T15:17:17.956567-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 58-year-old man is evaluated for a 3-month history of progressively worsening shortness of breath and dry cough. He has not had chest pain, weight loss, or fevers. He works as an attorney and has no exposure to animals. He has no other medical history and takes no medications.On physical examination, vital signs are normal. Oxygen saturation is 94% with the patient breathing ambient air at rest and 87% with activity. Lung examination reveals end-inspiratory crackles at both lung bases. Clubbing is present. No edema or skin rashes are noted.Pulmonary function tests:FVC40% of predictedL FEV1/FVC ratio0.81Total lung capacity43% of predictedLDlcoLowLChest radiograph shows reticular infiltrates in the lower lung zones.High-resolution CT scan of the chest reveals bilateral subpleural and basilar reticular changes consistent with idiopathic pulmonary fibrosis.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Nintedanib",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Prednisone",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Prednisone, N-acetylcysteine, and azathioprine",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Surgical lung biopsy",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate next step in management of this patient with newly diagnosed idiopathic pulmonary fibrosis (IPF) is to start nintedanib (Option A). IPF is a progressive and ultimately fatal fibrotic lung disease with a median survival of 3 to 5 years. Diagnosis rests on the exclusion of other causes of diffuse parenchymal lung disease and demonstration of characteristic radiographic changes of bilateral, subpleural, and basilar reticular changes. Subpleural basilar reticular and ground-glass opacities (arrows) are characteristic of IPF. Management of IPF should include consideration of antifibrotic therapies and oxygen supplementation for hypoxemia. Nintedanib, a tyrosine kinase inhibitor, and pirfenidone, an antifibrotic agent, are first-line medical therapies in IPF. Both medications decrease disease progression, but neither is curative. The clinical course of IPF is unpredictable, and patients can experience acute exacerbations with accelerated decline. Referral to a specialist in IPF is advisable upon diagnosis, and early consideration should be given to referral to a lung transplantation center. This patient has a clinical and radiographic presentation consistent with IPF and should begin receiving antifibrotic therapy with nintedanib or pirfenidone.Glucocorticoids such as prednisone (Option B) have no role in the long-term management of IPF. Glucocorticoids are often given in combination with antibiotics for patients with acute exacerbations of IPF, but few data support this practice. This patient has IPF without evidence of an acute exacerbation, and prednisone is not indicated.A combination regimen of prednisone, N-acetylcysteine, and azathioprine (Option C) is not recommended for the treatment of IPF. A definitive 2012 study showed increased hospitalizations and mortality with this combination, leading to the study's early termination. The use of this combination is not recommended by multiple IPF treatment guidelines.Surgical lung biopsy (Option D) would not be appropriate in this patient. It is typically reserved for cases in which the combination of clinical and imaging data are not diagnostic, and the biopsy results are expected to influence management decisions. When the clinical and high-resolution CT findings are classic for IPF, such as in this case, lung biopsy is not necessary for diagnosis.",
   "key_points": [
     "Two antifibrotic agents, nintedanib and pirfenidone, are first-line medical therapy for idiopathic pulmonary fibrosis; although they may delay disease progression, they are not curative.",
     "Given the progressive and unpredictable clinical course of idiopathic pulmonary fibrosis, early referral to a lung transplantation center is strongly recommended."
   ],
+  "references": "Liu GY, Budinger GRS, Dematte JE. Advances in the management of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis. BMJ. 2022;377:e066354. PMID: 36946547 doi:10.1136/bmj-2021-066354",
+  "related_content": {
+    "syllabus": [
+      "pmsec24003_24014"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
     "images": [
       "figures/pmfig24203.fef19761da79ba7321945ce780ca8b62.jpg"
     ],
     "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Nintedanib"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Prednisone"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Prednisone, N-acetylcysteine, and azathioprine"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Surgical lung biopsy"
-    }
-  ],
-  "question_id": "pmmcq24016",
-  "question_stem": "Which of the following is the most appropriate next step in management?",
-  "question_text": "A 58-year-old man is evaluated for a 3-month history of progressively worsening shortness of breath and dry cough. He has not had chest pain, weight loss, or fevers. He works as an attorney and has no exposure to animals. He has no other medical history and takes no medications.On physical examination, vital signs are normal. Oxygen saturation is 94% with the patient breathing ambient air at rest and 87% with activity. Lung examination reveals end-inspiratory crackles at both lung bases. Clubbing is present. No edema or skin rashes are noted.Pulmonary function tests:FVC40% of predictedL FEV1/FVC ratio0.81Total lung capacity43% of predictedLDlcoLowLChest radiograph shows reticular infiltrates in the lower lung zones.High-resolution CT scan of the chest reveals bilateral subpleural and basilar reticular changes consistent with idiopathic pulmonary fibrosis.",
-  "references": "Liu GY, Budinger GRS, Dematte JE. Advances in the management of idiopathic pulmonary fibrosis and progressive pulmonary fibrosis. BMJ. 2022;377:e066354. PMID: 36946547 doi:10.1136/bmj-2021-066354",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24003_24014"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T15:17:17.956567-06:00"
 }

@@ -1,67 +1,67 @@
 {
+  "question_id": "cvmcq24018",
   "category": "cv",
-  "critique": "Calculation of 10-year risk for atherosclerotic cardiovascular disease (ASCVD) is the most appropriate next step in prevention of cardiovascular disease (Option A). The U.S. Preventive Services Task Force (USPSTF) recommends universal lipid screening in adults aged 40 to 75 years to assess for dyslipidemia and to calculate risk for ASCVD, using the American Heart Association/American College of Cardiology Pooled Cohort Equations. This risk calculator assigns a 10-year ASCVD risk, thereby identifying persons who would benefit from preventive measures, including statin therapy. Regardless of resultant risk category, physicians should engage all patients in a discussion that considers risk factors and a healthy lifestyle. As the leading preventable cause of death, tobacco use should be addressed at every patient visit. In addition to counseling and pharmacologic therapy to assist in tobacco cessation, this patient should undergo calculation of 10-year ASCVD risk.Coronary artery calcium (CAC) scoring (Option B) is useful in evaluating patients at borderline or intermediate risk for coronary artery disease (CAD) for whom CAC scores may prompt primary prevention therapy. This patient's risk for ASCVD needs to be determined before considering further testing, such as CAC scoring.A high-sensitivity C-reactive protein (hs-CRP) test (Option C) would not be the most appropriate next step in this patient's management. hs-CRP may be reasonable to further refine individual risk in patients with borderline or intermediate 10-year ASCVD risk, but calculating this patient's risk level needs to be completed first.In this asymptomatic patient without chest pain or other symptoms suggestive of CAD, a treadmill stress test (Option D) is not indicated. Stress testing is most effectively used in patients with an intermediate pretest probability of CAD in whom test results would significantly impact likelihood of disease. It is not recommended as a means of screening for ASCVD. This patient has no symptoms, so stress testing is not indicated.It is not appropriate to forgo assessment of ASCVD risk (Option E). Although tobacco cessation is the most important aspect of preventing ASCVD, every opportunity should be taken to mitigate cardiovascular disease risk, which requires assessment of the patient's risk level and consideration of statin therapy.",
   "educational_objective": "Manage risk for atherosclerotic cardiovascular disease in an asymptomatic patient.",
-  "extracted_at": "2025-12-22T22:48:38.643181-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 42-year-old woman is evaluated during a visit to establish care. She has no symptoms and feels well. She exercises four times per week. She smokes 1.5 packs of cigarettes per day. Her mother had a heart attack at age 71 years. She takes no medications.Physical examination findings, including vital signs and BMI, are normal.She is offered counseling and pharmacologic therapy to assist in tobacco cessation.",
+  "question_stem": "Which of the following is the most appropriate measure to manage this patient's risk for cardiovascular disease?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Calculation of 10-year risk for atherosclerotic cardiovascular disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Coronary artery calcium scoring",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "High-sensitivity C-reactive protein test",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Treadmill stress test",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "E",
+      "text": "No further testing",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "Calculation of 10-year risk for atherosclerotic cardiovascular disease (ASCVD) is the most appropriate next step in prevention of cardiovascular disease (Option A). The U.S. Preventive Services Task Force (USPSTF) recommends universal lipid screening in adults aged 40 to 75 years to assess for dyslipidemia and to calculate risk for ASCVD, using the American Heart Association/American College of Cardiology Pooled Cohort Equations. This risk calculator assigns a 10-year ASCVD risk, thereby identifying persons who would benefit from preventive measures, including statin therapy. Regardless of resultant risk category, physicians should engage all patients in a discussion that considers risk factors and a healthy lifestyle. As the leading preventable cause of death, tobacco use should be addressed at every patient visit. In addition to counseling and pharmacologic therapy to assist in tobacco cessation, this patient should undergo calculation of 10-year ASCVD risk.Coronary artery calcium (CAC) scoring (Option B) is useful in evaluating patients at borderline or intermediate risk for coronary artery disease (CAD) for whom CAC scores may prompt primary prevention therapy. This patient's risk for ASCVD needs to be determined before considering further testing, such as CAC scoring.A high-sensitivity C-reactive protein (hs-CRP) test (Option C) would not be the most appropriate next step in this patient's management. hs-CRP may be reasonable to further refine individual risk in patients with borderline or intermediate 10-year ASCVD risk, but calculating this patient's risk level needs to be completed first.In this asymptomatic patient without chest pain or other symptoms suggestive of CAD, a treadmill stress test (Option D) is not indicated. Stress testing is most effectively used in patients with an intermediate pretest probability of CAD in whom test results would significantly impact likelihood of disease. It is not recommended as a means of screening for ASCVD. This patient has no symptoms, so stress testing is not indicated.It is not appropriate to forgo assessment of ASCVD risk (Option E). Although tobacco cessation is the most important aspect of preventing ASCVD, every opportunity should be taken to mitigate cardiovascular disease risk, which requires assessment of the patient's risk level and consideration of statin therapy.",
   "key_points": [
     "As the leading preventable cause of death, tobacco use should be addressed at every patient visit.",
     "Adults aged 40 to 75 years should undergo lipid screening to assess for dyslipidemia and calculate risk for atherosclerotic cardiovascular disease."
   ],
+  "references": "Arnett DK, Blumenthal RS, Albert MA, et al. 2019 ACC/AHA guideline on the primary prevention of cardiovascular disease: a report of the American College of Cardiology/American Heart Association task force on clinical practice guidelines. J Am Coll Cardiol. 2019;74:e177-e232. PMID: 30894318 doi:10.1016/j.jacc.2019.03.010",
+  "related_content": {
+    "syllabus": [
+      "cvsec24001_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Calculation of 10-year risk for atherosclerotic cardiovascular disease"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Coronary artery calcium scoring"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "High-sensitivity C-reactive protein test"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Treadmill stress test"
-    },
-    {
-      "letter": "E",
-      "peer_percentage": 0,
-      "text": "No further testing"
-    }
-  ],
-  "question_id": "cvmcq24018",
-  "question_stem": "Which of the following is the most appropriate measure to manage this patient's risk for cardiovascular disease?",
-  "question_text": "A 42-year-old woman is evaluated during a visit to establish care. She has no symptoms and feels well. She exercises four times per week. She smokes 1.5 packs of cigarettes per day. Her mother had a heart attack at age 71 years. She takes no medications.Physical examination findings, including vital signs and BMI, are normal.She is offered counseling and pharmacologic therapy to assist in tobacco cessation.",
-  "references": "Arnett DK, Blumenthal RS, Albert MA, et al. 2019 ACC/AHA guideline on the primary prevention of cardiovascular disease: a report of the American College of Cardiology/American Heart Association task force on clinical practice guidelines. J Am Coll Cardiol. 2019;74:e177-e232. PMID: 30894318 doi:10.1016/j.jacc.2019.03.010",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24001_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:48:38.643181-06:00"
 }

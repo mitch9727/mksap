@@ -1,61 +1,61 @@
 {
+  "question_id": "npmcq24108",
   "category": "np",
-  "critique": "The most likely diagnosis is posthypercapnic metabolic alkalosis (Option C). COPD is a common cause of chronic respiratory acidosis, which is characterized by retention of CO2. In the presence of an elevated Pco2 there is a compensatory metabolic response by the kidneys to increase reabsorption of bicarbonate, which brings the pH closer to normal (respiratory acidosis with metabolic compensation). However, if a patient with chronic CO2 retention has their Pco2 level lowered quickly toward normal (which may occur when a patient with COPD and hypercapnia is placed on a ventilator, as in this case), the metabolic compensation will be uncovered. The acid-base disorder will appear as a “primary” metabolic alkalosis as opposed to the appropriate metabolic compensation from a primary respiratory acidosis; this phenomenon is more aptly termed posthypercapnic metabolic alkalosis. Importantly, arterial blood gases reflect the acid-base status at a single time point, so distinguishing between a primary metabolic alkalosis and a posthypercapnic metabolic alkalosis is not possible unless there is astute recognition of a prior history of CO2 retention. Posthypercapnic metabolic alkalosis has been associated with increased ventilator dependence and longer ICU stays. Because there is evidence that a rapid fall in Pco2 may be associated with increased cerebral intracellular pH and adverse neurological events, it may be prudent to gradually reduce Pco2 in patients with chronic CO2 retention if possible. This patient with a history of COPD with hypercapnia has had rapid lowering of his Pco2 to normal with mechanical ventilation, which has resulted in posthypercapnic metabolic alkalosis.This patient's pH is alkaline, the bicarbonate is elevated, and there is no anion gap. Therefore, a metabolic acidosis does not exist, and a mixed metabolic acidosis and metabolic alkalosis (Option A) is ruled out.A mixed metabolic alkalosis and respiratory acidosis (Option B) is excluded because the patient's mildly elevated Pco2 is expected in a metabolic alkalosis. Appropriate compensation is not defined as a second primary disturbance.A primary respiratory acidosis (Option D) is ruled out because the patient has an increased (alkaline) pH and elevated bicarbonate.",
   "educational_objective": "Diagnose posthypercapnic metabolic alkalosis.",
-  "extracted_at": "2025-12-22T20:07:21.480192-06:00",
-  "key_points": [
-    "Posthypercapnic metabolic alkalosis may occur in patients with chronic hypercapnia and associated compensated respiratory acidosis who have had rapid lowering of their Pco2 level to normal."
-  ],
-  "media": {
-    "images": [],
-    "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "videos": []
-  },
   "metadata": {
     "care_types": [],
-    "high_value_care": false,
     "patient_types": [],
+    "high_value_care": false,
     "question_updated": "12/22/2025"
   },
+  "question_text": "A 68-year-old man is evaluated in the ICU after being admitted 1 day ago for community-acquired pneumonia. On admission, he was intubated for acute respiratory failure. He has a history of hypertension, hyperlipidemia, and COPD with carbon dioxide retention. Medications are ceftriaxone, azithromycin, and propofol. Outpatient medications are lisinopril, amlodipine, formoterol-tiotropium, and rosuvastatin.On physical examination, the patient is mechanically ventilated and sedated. Temperature is 38.2 °C (100.8 °F), blood pressure is 128/80 mm Hg, and respiration rate is 22/min. Oxygen saturation is 92% with the patient breathing 0.40 Fio2. Coarse breath sounds with prolonged expiratory phase are heard. There is trace lower extremity edema.",
+  "question_stem": "Which of the following is the most likely acid-base disorder?",
   "options": [
     {
       "letter": "A",
-      "peer_percentage": 0,
-      "text": "Mixed metabolic acidosis and metabolic alkalosis"
+      "text": "Mixed metabolic acidosis and metabolic alkalosis",
+      "peer_percentage": 0
     },
     {
       "letter": "B",
-      "peer_percentage": 0,
-      "text": "Mixed metabolic alkalosis and respiratory acidosis"
+      "text": "Mixed metabolic alkalosis and respiratory acidosis",
+      "peer_percentage": 0
     },
     {
       "letter": "C",
-      "peer_percentage": 0,
-      "text": "Posthypercapnic metabolic alkalosis"
+      "text": "Posthypercapnic metabolic alkalosis",
+      "peer_percentage": 0
     },
     {
       "letter": "D",
-      "peer_percentage": 0,
-      "text": "Primary respiratory acidosis"
+      "text": "Primary respiratory acidosis",
+      "peer_percentage": 0
     }
   ],
-  "question_id": "npmcq24108",
-  "question_stem": "Which of the following is the most likely acid-base disorder?",
-  "question_text": "A 68-year-old man is evaluated in the ICU after being admitted 1 day ago for community-acquired pneumonia. On admission, he was intubated for acute respiratory failure. He has a history of hypertension, hyperlipidemia, and COPD with carbon dioxide retention. Medications are ceftriaxone, azithromycin, and propofol. Outpatient medications are lisinopril, amlodipine, formoterol-tiotropium, and rosuvastatin.On physical examination, the patient is mechanically ventilated and sedated. Temperature is 38.2 °C (100.8 °F), blood pressure is 128/80 mm Hg, and respiration rate is 22/min. Oxygen saturation is 92% with the patient breathing 0.40 Fio2. Coarse breath sounds with prolonged expiratory phase are heard. There is trace lower extremity edema.",
-  "references": "Banga A, Khilnani GC. Post-hypercapnic alkalosis is associated with ventilator dependence and increased ICU stay. COPD. 2009;6:437-40. PMID: 19938966 doi:10.3109/15412550903341448",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24003_24010"
-    ]
-  },
   "user_performance": {
+    "user_answer": null,
     "correct_answer": "C",
     "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is posthypercapnic metabolic alkalosis (Option C). COPD is a common cause of chronic respiratory acidosis, which is characterized by retention of CO2. In the presence of an elevated Pco2 there is a compensatory metabolic response by the kidneys to increase reabsorption of bicarbonate, which brings the pH closer to normal (respiratory acidosis with metabolic compensation). However, if a patient with chronic CO2 retention has their Pco2 level lowered quickly toward normal (which may occur when a patient with COPD and hypercapnia is placed on a ventilator, as in this case), the metabolic compensation will be uncovered. The acid-base disorder will appear as a “primary” metabolic alkalosis as opposed to the appropriate metabolic compensation from a primary respiratory acidosis; this phenomenon is more aptly termed posthypercapnic metabolic alkalosis. Importantly, arterial blood gases reflect the acid-base status at a single time point, so distinguishing between a primary metabolic alkalosis and a posthypercapnic metabolic alkalosis is not possible unless there is astute recognition of a prior history of CO2 retention. Posthypercapnic metabolic alkalosis has been associated with increased ventilator dependence and longer ICU stays. Because there is evidence that a rapid fall in Pco2 may be associated with increased cerebral intracellular pH and adverse neurological events, it may be prudent to gradually reduce Pco2 in patients with chronic CO2 retention if possible. This patient with a history of COPD with hypercapnia has had rapid lowering of his Pco2 to normal with mechanical ventilation, which has resulted in posthypercapnic metabolic alkalosis.This patient's pH is alkaline, the bicarbonate is elevated, and there is no anion gap. Therefore, a metabolic acidosis does not exist, and a mixed metabolic acidosis and metabolic alkalosis (Option A) is ruled out.A mixed metabolic alkalosis and respiratory acidosis (Option B) is excluded because the patient's mildly elevated Pco2 is expected in a metabolic alkalosis. Appropriate compensation is not defined as a second primary disturbance.A primary respiratory acidosis (Option D) is ruled out because the patient has an increased (alkaline) pH and elevated bicarbonate.",
+  "key_points": [
+    "Posthypercapnic metabolic alkalosis may occur in patients with chronic hypercapnia and associated compensated respiratory acidosis who have had rapid lowering of their Pco2 level to normal."
+  ],
+  "references": "Banga A, Khilnani GC. Post-hypercapnic alkalosis is associated with ventilator dependence and increased ICU stay. COPD. 2009;6:437-40. PMID: 19938966 doi:10.3109/15412550903341448",
+  "related_content": {
+    "syllabus": [
+      "npsec24003_24010"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T20:07:21.480192-06:00"
 }

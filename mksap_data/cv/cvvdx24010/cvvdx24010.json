@@ -1,59 +1,59 @@
 {
+  "question_id": "cvvdx24010",
   "category": "cv",
-  "critique": "This ECG demonstrates right bundle branch block (Option D). ECG features of right bundle branch block include QRS widening (≥120 ms), an rSR′ or rsR′ pattern in lead V1, and wide terminal S waves in leads I and V6. In both left and right bundle branch block, the ST-T–wave pattern is inscribed in the opposite direction of the main QRS vectors; these ST-T–wave abnormalities are secondary to the bundle branch block and do not indicate additional underlying pathology. Several premature atrial contractions also are seen on this ECG, but otherwise, there are discrete P waves throughout, thus excluding atrial fibrillation.",
   "educational_objective": "Identify right bundle branch block on ECG.",
-  "extracted_at": "2025-12-23T14:08:40.390877-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 43-year-old man is evaluated for chest pain.ECG is shown.",
+  "question_stem": "Which of the following abnormalities is shown on this patient's ECG?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Atrial fibrillation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Left bundle branch block",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Right axis deviation",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Right bundle branch block",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This ECG demonstrates right bundle branch block (Option D). ECG features of right bundle branch block include QRS widening (≥120 ms), an rSR′ or rsR′ pattern in lead V1, and wide terminal S waves in leads I and V6. In both left and right bundle branch block, the ST-T–wave pattern is inscribed in the opposite direction of the main QRS vectors; these ST-T–wave abnormalities are secondary to the bundle branch block and do not indicate additional underlying pathology. Several premature atrial contractions also are seen on this ECG, but otherwise, there are discrete P waves throughout, thus excluding atrial fibrillation.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "cvsec24006_24006"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/cvfig24610.00ae0a28fd283dca8902a23ab7f764a5.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Atrial fibrillation"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Left bundle branch block"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Right axis deviation"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Right bundle branch block"
-    }
-  ],
-  "question_id": "cvvdx24010",
-  "question_stem": "Which of the following abnormalities is shown on this patient's ECG?",
-  "question_text": "A 43-year-old man is evaluated for chest pain.ECG is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "cvsec24006_24006"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:08:40.390877-06:00"
 }

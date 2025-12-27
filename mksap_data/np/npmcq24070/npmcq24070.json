@@ -1,62 +1,62 @@
 {
+  "question_id": "npmcq24070",
   "category": "np",
-  "critique": "The most likely diagnosis is bilateral renal vein thrombosis (Option C). Acute renal vein thrombosis can cause acute renal infarction and presents with abdominal or flank pain and gross hematuria. Patients with a history of the nephrotic syndrome, particularly membranous nephropathy, and with protein excretion >10 g/24 h and/or a serum albumin level <2.0 g/dL (20 g/L) are at greatest risk. Serum lactate dehydrogenase (LDH) and D-dimer levels may be elevated, which are indicative of the underlying thrombotic event. In patients suspected of acute renal vein thrombosis, imaging with Doppler ultrasonography, renal vein angiography, or MR with gadolinium should be performed to confirm the diagnosis. This patient's symptoms and laboratory findings coupled with her history of membranous nephropathy make renal vein thrombosis the most likely diagnosis. Treatment typically consists of anticoagulation and supportive care.Although patients with nephrolithiasis (Option A) who are passing a kidney stone can present with severe flank pain and gross hematuria, their serum LDH levels would not be elevated. In addition, acute kidney injury typically does not manifest unless there is bilateral ureteral obstruction and hydronephrosis.Renal papillary necrosis (Option B) manifesting as gross hematuria and flank pain can occur in the setting of severe analgesic nephropathy in patients with a history of heavy analgesic use. Although this patient has been taking both acetaminophen and ibuprofen for pain for 3 days before presentation, her symptoms of gross hematuria and severe bilateral flank pain began before she started taking analgesics. In addition, she reports no previous chronic use of NSAIDs or acetaminophen; therefore, renal papillary necrosis is not the most likely diagnosis.In rhabdomyolysis (Option D), heme pigment released from myoglobin can cause acute kidney injury through intravascular volume depletion, renal vasoconstriction, direct proximal tubular injury resulting in acute tubular necrosis, and tubular obstruction. Although rhabdomyolysis can present with elevated serum LDH levels and the presence of \"blood\" (due to heme pigment from myoglobin) on urinalysis, serum creatine kinase levels would be elevated (usually >5000 U/L); this patient's serum creatine kinase level is normal, and rhabdomyolysis is unlikely.",
   "educational_objective": "Diagnose renal vein thrombosis as a cause of acute kidney injury.",
-  "extracted_at": "2025-12-22T20:07:01.329919-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 50-year-old woman is evaluated for gross hematuria and severe bilateral flank pain that began 3 days ago, for which she has been taking ibuprofen and acetaminophen. Medical history is significant for hyperlipidemia, hypertension, and chronic kidney disease secondary to membranous nephropathy. Other medications are atorvastatin, amlodipine, losartan, prednisone, and mycophenolate mofetil. She reports no chronic NSAID or acetaminophen use before this episode.On physical examination, blood pressure is 156/98 mm Hg, and pulse rate is 110/min. Diffuse abdominal and bilateral costovertebral angle tenderness is noted. There is 2+ pitting lower extremity edema bilaterally.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Nephrolithiasis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Renal papillary necrosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Renal vein thrombosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Rhabdomyolysis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is bilateral renal vein thrombosis (Option C). Acute renal vein thrombosis can cause acute renal infarction and presents with abdominal or flank pain and gross hematuria. Patients with a history of the nephrotic syndrome, particularly membranous nephropathy, and with protein excretion >10 g/24 h and/or a serum albumin level <2.0 g/dL (20 g/L) are at greatest risk. Serum lactate dehydrogenase (LDH) and D-dimer levels may be elevated, which are indicative of the underlying thrombotic event. In patients suspected of acute renal vein thrombosis, imaging with Doppler ultrasonography, renal vein angiography, or MR with gadolinium should be performed to confirm the diagnosis. This patient's symptoms and laboratory findings coupled with her history of membranous nephropathy make renal vein thrombosis the most likely diagnosis. Treatment typically consists of anticoagulation and supportive care.Although patients with nephrolithiasis (Option A) who are passing a kidney stone can present with severe flank pain and gross hematuria, their serum LDH levels would not be elevated. In addition, acute kidney injury typically does not manifest unless there is bilateral ureteral obstruction and hydronephrosis.Renal papillary necrosis (Option B) manifesting as gross hematuria and flank pain can occur in the setting of severe analgesic nephropathy in patients with a history of heavy analgesic use. Although this patient has been taking both acetaminophen and ibuprofen for pain for 3 days before presentation, her symptoms of gross hematuria and severe bilateral flank pain began before she started taking analgesics. In addition, she reports no previous chronic use of NSAIDs or acetaminophen; therefore, renal papillary necrosis is not the most likely diagnosis.In rhabdomyolysis (Option D), heme pigment released from myoglobin can cause acute kidney injury through intravascular volume depletion, renal vasoconstriction, direct proximal tubular injury resulting in acute tubular necrosis, and tubular obstruction. Although rhabdomyolysis can present with elevated serum LDH levels and the presence of \"blood\" (due to heme pigment from myoglobin) on urinalysis, serum creatine kinase levels would be elevated (usually >5000 U/L); this patient's serum creatine kinase level is normal, and rhabdomyolysis is unlikely.",
   "key_points": [
     "Acute renal vein thrombosis can cause acute renal infarction and present with abdominal or flank pain, elevated serum lactate dehydrogenase levels, and hematuria.",
     "Imaging with Doppler ultrasonography, renal vein angiography, or MR with gadolinium should be performed to confirm the diagnosis of suspected acute renal vein thrombosis."
   ],
+  "references": "Casey D, Romero K, Patel R, et al. Bilateral renal vein thrombosis in membranous nephropathy: hypoalbuminemia predictive of venous thromboembolism in nephrotic syndrome. Cureus. 2022;14:e30032. PMID: 36348912 doi:10.7759/cureus.30032",
+  "related_content": {
+    "syllabus": [
+      "npsec24006_24016"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Nephrolithiasis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Renal papillary necrosis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Renal vein thrombosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Rhabdomyolysis"
-    }
-  ],
-  "question_id": "npmcq24070",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 50-year-old woman is evaluated for gross hematuria and severe bilateral flank pain that began 3 days ago, for which she has been taking ibuprofen and acetaminophen. Medical history is significant for hyperlipidemia, hypertension, and chronic kidney disease secondary to membranous nephropathy. Other medications are atorvastatin, amlodipine, losartan, prednisone, and mycophenolate mofetil. She reports no chronic NSAID or acetaminophen use before this episode.On physical examination, blood pressure is 156/98 mm Hg, and pulse rate is 110/min. Diffuse abdominal and bilateral costovertebral angle tenderness is noted. There is 2+ pitting lower extremity edema bilaterally.",
-  "references": "Casey D, Romero K, Patel R, et al. Bilateral renal vein thrombosis in membranous nephropathy: hypoalbuminemia predictive of venous thromboembolism in nephrotic syndrome. Cureus. 2022;14:e30032. PMID: 36348912 doi:10.7759/cureus.30032",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24006_24016"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T20:07:01.329919-06:00"
 }

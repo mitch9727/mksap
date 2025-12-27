@@ -1,61 +1,61 @@
 {
+  "question_id": "idmcq24020",
   "category": "id",
-  "critique": "This patient has ventilator-associated pneumonia (VAP), and the most appropriate empiric treatment is cefepime (Option A). VAP is defined as pneumonia appearing 48 hours after intubation; increased purulent tracheal secretions, new infiltrates on imaging, and worsening oxygenation are characteristic. It is usually associated with fever (or hypothermia) and leukocytosis. Risk factors for multidrug-resistant (MDR) pathogens or methicillin-resistant Staphylococcus aureus (MRSA) include receipt of intravenous antibiotics in the previous 90 days, septic shock at the time of VAP diagnosis, acute respiratory distress syndrome preceding VAP, hospitalization for 5 days or more, and acute dialysis before VAP diagnosis. Without risk factors, a single antibiotic with activity against methicillin-sensitive S. aureus, Pseudomonas aeruginosa, and other gram-negative bacilli is appropriate. Cefepime, piperacillin-tazobactam, levofloxacin, imipenem-cilastatin, and meropenem are recommended agents for patients who meet criteria for monotherapy in the Infectious Diseases Society of America (IDSA) and American Thoracic Society (ATS) guidelines. When culture results are available, empiric therapy should be tailored.Cefepime and ciprofloxacin (Option B) would be appropriate for a patient with risk factors for MDR gram-negative bacilli, including Pseudomonas. Risk factors for these pathogens include resistance greater than 10% of ICU VAP-associated gram-negative bacilli to an agent being considered for monotherapy, unknown local ICU susceptibility rates, or known colonization with or previous isolation of MDR Pseudomonas or other gram-negative bacilli in the patient. IDSA and ATS guidelines recommend two antipseudomonal agents from different classes for empiric therapy of suspected VAP in patients at risk for resistant Pseudomonas. This patient has no risk factors, so cefepime and ciprofloxacin would be inappropriate.Daptomycin has activity against S. aureus (including MRSA); however, it is inactivated by pulmonary surfactant and should never be used for pneumonia treatment, even combined with a recommended agent (Option C).Cefepime and vancomycin (Option D) would be an acceptable treatment choice for a patient with MRSA risk factors, including treatment in a unit with MRSA prevalence greater than 10% to 20% or unknown or known colonization with or previous isolation of MRSA in the patient. For these patients, vancomycin or linezolid should be added for MRSA coverage. Empiric MRSA coverage may also be considered in patients with a history of intravenous drug use, evidence of necrotizing pneumonia, or in patients living in a residential health care setting. This patient does not have these risk factors.",
   "educational_objective": "Treat ventilator-associated pneumonia.",
-  "extracted_at": "2025-12-22T19:46:44.293516-06:00",
-  "key_points": [
-    "The Infectious Diseases Society of America and American Thoracic Society guidelines recommend monotherapy for patients with ventilator-associated pneumonia who do not have risk factors for multidrug-resistant pathogens or methicillin-resistant Staphylococcus aureus."
-  ],
-  "media": {
-    "images": [],
-    "svgs": [],
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "videos": []
-  },
   "metadata": {
     "care_types": [],
-    "high_value_care": false,
     "patient_types": [],
+    "high_value_care": false,
     "question_updated": "12/22/2025"
   },
+  "question_text": "A 43-year-old man is evaluated in the ICU for a fever and increased oxygen and suction requirements. He was hit by a car 4 days ago and sustained multiple rib fractures and a pelvis fracture. He was intubated at admission. His sputum was scant and clear yesterday and is now thick and yellow. Medical history is otherwise unremarkable.On physical examination, the patient is intubated and mechanically ventilated. Temperature is 38.5 °C (101.3 °F) and oxygen saturation is 93% with an Fio2 of 0.5 and positive end-expiratory pressure of 10 cm H2O. Pulmonary auscultation reveals scattered left-sided rhonchi.Sputum Gram stain, sputum culture, and blood cultures are pending. Nasal swab polymerase chain reaction is negative for methicillin-resistant Staphylococcus aureus.A chest radiograph shows an infiltrate in the left lower lobe and associated small pleural effusion but no pneumothorax.",
+  "question_stem": "Which of the following is the most appropriate empiric antibiotic treatment?",
   "options": [
     {
       "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cefepime"
+      "text": "Cefepime",
+      "peer_percentage": 0
     },
     {
       "letter": "B",
-      "peer_percentage": 0,
-      "text": "Cefepime and ciprofloxacin"
+      "text": "Cefepime and ciprofloxacin",
+      "peer_percentage": 0
     },
     {
       "letter": "C",
-      "peer_percentage": 0,
-      "text": "Cefepime and daptomycin"
+      "text": "Cefepime and daptomycin",
+      "peer_percentage": 0
     },
     {
       "letter": "D",
-      "peer_percentage": 0,
-      "text": "Cefepime and vancomycin"
+      "text": "Cefepime and vancomycin",
+      "peer_percentage": 0
     }
   ],
-  "question_id": "idmcq24020",
-  "question_stem": "Which of the following is the most appropriate empiric antibiotic treatment?",
-  "question_text": "A 43-year-old man is evaluated in the ICU for a fever and increased oxygen and suction requirements. He was hit by a car 4 days ago and sustained multiple rib fractures and a pelvis fracture. He was intubated at admission. His sputum was scant and clear yesterday and is now thick and yellow. Medical history is otherwise unremarkable.On physical examination, the patient is intubated and mechanically ventilated. Temperature is 38.5 °C (101.3 °F) and oxygen saturation is 93% with an Fio2 of 0.5 and positive end-expiratory pressure of 10 cm H2O. Pulmonary auscultation reveals scattered left-sided rhonchi.Sputum Gram stain, sputum culture, and blood cultures are pending. Nasal swab polymerase chain reaction is negative for methicillin-resistant Staphylococcus aureus.A chest radiograph shows an infiltrate in the left lower lobe and associated small pleural effusion but no pneumothorax.",
-  "references": "Modi AR, Kovacs CS. Hospital-acquired and ventilator-associated pneumonia: Diagnosis, management, and prevention. Cleve Clin J Med. 2020;87:633-639. PMID: 33004324 doi:10.3949/ccjm.87a.19117",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24018_24018"
-    ]
-  },
   "user_performance": {
+    "user_answer": null,
     "correct_answer": "A",
     "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+    "time_taken": null
+  },
+  "critique": "This patient has ventilator-associated pneumonia (VAP), and the most appropriate empiric treatment is cefepime (Option A). VAP is defined as pneumonia appearing 48 hours after intubation; increased purulent tracheal secretions, new infiltrates on imaging, and worsening oxygenation are characteristic. It is usually associated with fever (or hypothermia) and leukocytosis. Risk factors for multidrug-resistant (MDR) pathogens or methicillin-resistant Staphylococcus aureus (MRSA) include receipt of intravenous antibiotics in the previous 90 days, septic shock at the time of VAP diagnosis, acute respiratory distress syndrome preceding VAP, hospitalization for 5 days or more, and acute dialysis before VAP diagnosis. Without risk factors, a single antibiotic with activity against methicillin-sensitive S. aureus, Pseudomonas aeruginosa, and other gram-negative bacilli is appropriate. Cefepime, piperacillin-tazobactam, levofloxacin, imipenem-cilastatin, and meropenem are recommended agents for patients who meet criteria for monotherapy in the Infectious Diseases Society of America (IDSA) and American Thoracic Society (ATS) guidelines. When culture results are available, empiric therapy should be tailored.Cefepime and ciprofloxacin (Option B) would be appropriate for a patient with risk factors for MDR gram-negative bacilli, including Pseudomonas. Risk factors for these pathogens include resistance greater than 10% of ICU VAP-associated gram-negative bacilli to an agent being considered for monotherapy, unknown local ICU susceptibility rates, or known colonization with or previous isolation of MDR Pseudomonas or other gram-negative bacilli in the patient. IDSA and ATS guidelines recommend two antipseudomonal agents from different classes for empiric therapy of suspected VAP in patients at risk for resistant Pseudomonas. This patient has no risk factors, so cefepime and ciprofloxacin would be inappropriate.Daptomycin has activity against S. aureus (including MRSA); however, it is inactivated by pulmonary surfactant and should never be used for pneumonia treatment, even combined with a recommended agent (Option C).Cefepime and vancomycin (Option D) would be an acceptable treatment choice for a patient with MRSA risk factors, including treatment in a unit with MRSA prevalence greater than 10% to 20% or unknown or known colonization with or previous isolation of MRSA in the patient. For these patients, vancomycin or linezolid should be added for MRSA coverage. Empiric MRSA coverage may also be considered in patients with a history of intravenous drug use, evidence of necrotizing pneumonia, or in patients living in a residential health care setting. This patient does not have these risk factors.",
+  "key_points": [
+    "The Infectious Diseases Society of America and American Thoracic Society guidelines recommend monotherapy for patients with ventilator-associated pneumonia who do not have risk factors for multidrug-resistant pathogens or methicillin-resistant Staphylococcus aureus."
+  ],
+  "references": "Modi AR, Kovacs CS. Hospital-acquired and ventilator-associated pneumonia: Diagnosis, management, and prevention. Cleve Clin J Med. 2020;87:633-639. PMID: 33004324 doi:10.3949/ccjm.87a.19117",
+  "related_content": {
+    "syllabus": [
+      "idsec24018_24018"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "extracted_at": "2025-12-22T19:46:44.293516-06:00"
 }

@@ -1,62 +1,62 @@
 {
+  "question_id": "hmmcq24013",
   "category": "hm",
-  "critique": "This patient most likely has anemia of kidney disease (Option A), which is usually related to decreased erythropoietin production in the kidney, with incidence increasing as the glomerular filtration rate declines. The anemia is usually hypoproliferative, and erythrocytes are normochromic with normal morphology on peripheral blood smear, although burr cells (echinocytes) may be present in patients with uremia. Although ruling out other causes of anemia is often the focus of diagnosis, measuring the erythropoietin level can be helpful when there is diagnostic uncertainty, such as in patients with mild kidney disease. Anemia secondary to kidney disease usually responds to exogenous erythropoiesis-stimulating agents (ESAs). Guidelines recommend that ESAs be withheld in patients with chronic kidney disease (CKD) not requiring dialysis who have a hemoglobin level greater than 10 g/dL (100 g/L). For patients with CKD not receiving dialysis with a hemoglobin level less than 10 g/dL (100 g/L), ESA treatment should be individualized based on symptoms, the speed of hemoglobin decline, and transfusion needs. For patients undergoing dialysis, ESAs should be initiated for hemoglobin levels less than 10 g/dL (100 g/L). This patient has mild hypoproliferative normochromic anemia in the setting of CKD, and erythropoietin deficiency is the most likely cause of the anemia.Aplastic anemia (AA) (Option B) is a hematopoietic stem cell disorder that is caused by a decrease in stem cells because of autoimmunity, toxins, or infection. Although AA is classified as a type of anemia, patients usually present with a combination of neutropenia, thrombocytopenia, and anemia (pancytopenia). This patient has normal platelet and leukocyte counts, making AA an unlikely diagnosis.Iron deficiency (Option C) should be ruled out in patients with anemia of kidney disease, as occult or overt gastrointestinal bleeding is common in patients with CKD, and iron deficiency may coexist with anemia caused by the erythropoietin deficiency of CKD. This patient has normal iron indices, including a normal serum ferritin level, making iron deficiency unlikely.Thalassemia (Option D) is a chronic hemolytic anemia caused by an inherited alteration in one or more of the α or β genes, resulting in impaired production of the corresponding α or β chains and subsequent imbalance of the α-to-β chain ratio. Patients with thalassemia present with microcytic anemia and target cells on peripheral blood smear. This patient has none of the typical findings of thalassemia.",
   "educational_objective": "Diagnose anemia of kidney disease.",
-  "extracted_at": "2025-12-22T19:36:38.447754-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 68-year-old man is evaluated for fatigue. Medical history is significant for celiac disease, hypertension, type 2 diabetes mellitus, and chronic kidney disease. Medications are amlodipine, lisinopril, metformin, and empagliflozin.On physical examination, blood pressure is 144/76 mm Hg. Remaining vital signs are normal.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Anemia of kidney disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Aplastic anemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Iron deficiency anemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Thalassemia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient most likely has anemia of kidney disease (Option A), which is usually related to decreased erythropoietin production in the kidney, with incidence increasing as the glomerular filtration rate declines. The anemia is usually hypoproliferative, and erythrocytes are normochromic with normal morphology on peripheral blood smear, although burr cells (echinocytes) may be present in patients with uremia. Although ruling out other causes of anemia is often the focus of diagnosis, measuring the erythropoietin level can be helpful when there is diagnostic uncertainty, such as in patients with mild kidney disease. Anemia secondary to kidney disease usually responds to exogenous erythropoiesis-stimulating agents (ESAs). Guidelines recommend that ESAs be withheld in patients with chronic kidney disease (CKD) not requiring dialysis who have a hemoglobin level greater than 10 g/dL (100 g/L). For patients with CKD not receiving dialysis with a hemoglobin level less than 10 g/dL (100 g/L), ESA treatment should be individualized based on symptoms, the speed of hemoglobin decline, and transfusion needs. For patients undergoing dialysis, ESAs should be initiated for hemoglobin levels less than 10 g/dL (100 g/L). This patient has mild hypoproliferative normochromic anemia in the setting of CKD, and erythropoietin deficiency is the most likely cause of the anemia.Aplastic anemia (AA) (Option B) is a hematopoietic stem cell disorder that is caused by a decrease in stem cells because of autoimmunity, toxins, or infection. Although AA is classified as a type of anemia, patients usually present with a combination of neutropenia, thrombocytopenia, and anemia (pancytopenia). This patient has normal platelet and leukocyte counts, making AA an unlikely diagnosis.Iron deficiency (Option C) should be ruled out in patients with anemia of kidney disease, as occult or overt gastrointestinal bleeding is common in patients with CKD, and iron deficiency may coexist with anemia caused by the erythropoietin deficiency of CKD. This patient has normal iron indices, including a normal serum ferritin level, making iron deficiency unlikely.Thalassemia (Option D) is a chronic hemolytic anemia caused by an inherited alteration in one or more of the α or β genes, resulting in impaired production of the corresponding α or β chains and subsequent imbalance of the α-to-β chain ratio. Patients with thalassemia present with microcytic anemia and target cells on peripheral blood smear. This patient has none of the typical findings of thalassemia.",
   "key_points": [
     "The anemia of kidney disease is usually hypoproliferative and erythrocytes are normochromic with normal morphology on peripheral blood smear, although echinocytes may be present in patients with uremia.",
     "Iron deficiency is common in patients with chronic kidney disease (CKD) and may coexist with anemia caused by the erythropoietin deficiency of CKD."
   ],
+  "references": "Bazeley JW, Wish JB. Recent and emerging therapies for iron deficiency in anemia of CKD: A review. Am J Kidney Dis. 2022;79:868-876. PMID: 34758368 doi:10.1053/j.ajkd.2021.09.017",
+  "related_content": {
+    "syllabus": [
+      "hmsec24004_24010"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Anemia of kidney disease"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Aplastic anemia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Iron deficiency anemia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Thalassemia"
-    }
-  ],
-  "question_id": "hmmcq24013",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 68-year-old man is evaluated for fatigue. Medical history is significant for celiac disease, hypertension, type 2 diabetes mellitus, and chronic kidney disease. Medications are amlodipine, lisinopril, metformin, and empagliflozin.On physical examination, blood pressure is 144/76 mm Hg. Remaining vital signs are normal.",
-  "references": "Bazeley JW, Wish JB. Recent and emerging therapies for iron deficiency in anemia of CKD: A review. Am J Kidney Dis. 2022;79:868-876. PMID: 34758368 doi:10.1053/j.ajkd.2021.09.017",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24004_24010"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:36:38.447754-06:00"
 }

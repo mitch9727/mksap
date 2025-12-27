@@ -1,59 +1,59 @@
 {
+  "question_id": "npvdx24015",
   "category": "np",
-  "critique": "This patient's urine finding is most consistent with the nephrotic syndrome (Option D). The urine finding depicts the typical \"Maltese cross\" appearance of oval fat bodies. Oval fat bodies are a hallmark finding in the nephrotic syndrome, and the Maltese cross pattern is seen only under polarized light. Patients typically describe slowly progressive edema, and laboratory testing reveals proteinuria, hypoalbuminemia, and hyperlipidemia; serum creatinine level is rarely elevated.",
   "educational_objective": "Diagnose the nephrotic syndrome.",
-  "extracted_at": "2025-12-23T14:11:04.522806-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 40-year-old woman is evaluated for progressive edema and proteinuria. A urinalysis is performed, and this finding is observed under polarized light.",
+  "question_stem": "This patient's urine finding is most consistent with which of the following diagnoses?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Anti–glomerular basement membrane antibody disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "IgA nephropathy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Nephrolithiasis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Nephrotic syndrome",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient's urine finding is most consistent with the nephrotic syndrome (Option D). The urine finding depicts the typical \"Maltese cross\" appearance of oval fat bodies. Oval fat bodies are a hallmark finding in the nephrotic syndrome, and the Maltese cross pattern is seen only under polarized light. Patients typically describe slowly progressive edema, and laboratory testing reveals proteinuria, hypoalbuminemia, and hyperlipidemia; serum creatinine level is rarely elevated.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "npsec24008_24003"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/npfig24619.055401777abbb3427fdcaaa42840d975.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Anti–glomerular basement membrane antibody disease"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "IgA nephropathy"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Nephrolithiasis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Nephrotic syndrome"
-    }
-  ],
-  "question_id": "npvdx24015",
-  "question_stem": "This patient's urine finding is most consistent with which of the following diagnoses?",
-  "question_text": "A 40-year-old woman is evaluated for progressive edema and proteinuria. A urinalysis is performed, and this finding is observed under polarized light.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "npsec24008_24003"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:11:04.522806-06:00"
 }

@@ -1,60 +1,60 @@
 {
+  "question_id": "pmvdx24041",
   "category": "pm",
-  "critique": "This frontal chest radiograph demonstrates marked prominence of the right (white arrow) and left (black arrow) pulmonary arteries (Option D). Such enlargement may be seen with pulmonary hypertension due to any of a number of causes. Here, hyperinflation is also seen, suggesting a diagnosis of COPD as a possible cause of pulmonary hypertension.",
   "educational_objective": "Recognize prominence of the pulmonary arteries on a chest radiograph.",
-  "extracted_at": "2025-12-23T14:15:53.529144-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 72-year-old patient is evaluated for worsening dyspnea on exertion. They have a longtime history of cigarette smoking.Chest radiograph is shown.",
+  "question_stem": "Which of the following is the most likely abnormality seen on this frontal chest radiograph?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Hilar adenopathy",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Interstitial lung disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Mediastinal mass",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Prominence of the pulmonary arteries",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This frontal chest radiograph demonstrates marked prominence of the right (white arrow) and left (black arrow) pulmonary arteries (Option D). Such enlargement may be seen with pulmonary hypertension due to any of a number of causes. Here, hyperinflation is also seen, suggesting a diagnosis of COPD as a possible cause of pulmonary hypertension.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24006_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24671.b00a00fb01be87d1d27a906a0f96ffcd.jpg",
       "figures/pmfig24670.32c9253c7d393204d276c1462a47f42d.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Hilar adenopathy"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Interstitial lung disease"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Mediastinal mass"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Prominence of the pulmonary arteries"
-    }
-  ],
-  "question_id": "pmvdx24041",
-  "question_stem": "Which of the following is the most likely abnormality seen on this frontal chest radiograph?",
-  "question_text": "A 72-year-old patient is evaluated for worsening dyspnea on exertion. They have a longtime history of cigarette smoking.Chest radiograph is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24006_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.529144-06:00"
 }

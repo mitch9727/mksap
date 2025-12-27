@@ -1,63 +1,63 @@
 {
+  "question_id": "hmmcq24055",
   "category": "hm",
-  "critique": "The most likely diagnosis is HELLP (hemolysis, elevated liver enzymes, and low platelets) syndrome (Option B). HELLP is characterized by microangiopathic hemolytic anemia, elevated aminotransferases, and thrombocytopenia. Hypertension, abdominal pain, and kidney abnormalities (including proteinuria) may also be present. Many aspects of the presentation of HELLP overlap with other complications of pregnancy, including preeclampsia and acute fatty liver of pregnancy. Although distinguishing among these disorders may be difficult, the management of each is supportive and involves early delivery. Thrombotic thrombocytopenic purpura and complement-mediated thrombotic microangiopathy can also occur during pregnancy and may require additional therapy with plasma exchange or the anticomplement agent eculizumab. Table: Features of the Thrombotic Microangiopathies of Pregnancy shows the relative frequency of the clinical findings in these disorders. This patient has elevated aminotransferases, thrombocytopenia, and microangiopathic hemolytic anemia as demonstrated by indirect hyperbilirubinemia, elevated serum lactate dehydrogenase, and schistocytes on the peripheral blood smear. These findings are most consistent with the diagnosis of HELLP syndrome.Gestational thrombocytopenia (Option A) affects approximately 5% of pregnant persons, usually during the second or third trimester. Most patients are asymptomatic, with platelet counts greater than 100,000/μL (100 × 109/L). Gestational thrombocytopenia is not associated with the degree of thrombocytopenia or other clinical findings seen in this patient.Immune thrombocytopenic purpura (ITP) (Option C) is not the most likely diagnosis. ITP occurs more frequently in pregnant persons than in the general population, often in the first trimester of pregnancy. Features suggesting ITP also include a low platelet count (<70,000/μL [70 × 109/L]). ITP autoantibodies can cross the placenta and affect the fetus. However, this patient's hypertension, abdominal pain, hemolytic anemia, and abnormal liver function tests are not consistent with ITP.Preeclampsia (Option D) is defined as new-onset hypertension with proteinuria that occurs after 20 weeks of pregnancy. It can be difficult to distinguish preeclampsia from HELLP syndrome because both occur most commonly in the third trimester and have overlapping clinical features. However, hematologic findings such as hemolysis and severe thrombocytopenia are less likely to be associated with preeclampsia. The absence of proteinuria and kidney dysfunction also argues against preeclampsia.",
   "educational_objective": "Diagnose HELLP (hemolysis, elevated liver enzymes, and low platelets) syndrome.",
-  "extracted_at": "2025-12-22T19:37:01.342458-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 26-year-old woman is evaluated in the emergency department for a 1-week history of progressive dyspnea, abdominal pain, and easy bruising. She is at 33 weeks' gestation. Her only medication is a prenatal vitamin.On physical examination, blood pressure is 140/80 mm Hg, and pulse rate is 108/min. Scleral icterus is noted. Cardiac examination reveals regular tachycardia.Peripheral blood smear demonstrates one to five schistocytes.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Gestational thrombocytopenia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "HELLP syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Immune thrombocytopenic purpura",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Preeclampsia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is HELLP (hemolysis, elevated liver enzymes, and low platelets) syndrome (Option B). HELLP is characterized by microangiopathic hemolytic anemia, elevated aminotransferases, and thrombocytopenia. Hypertension, abdominal pain, and kidney abnormalities (including proteinuria) may also be present. Many aspects of the presentation of HELLP overlap with other complications of pregnancy, including preeclampsia and acute fatty liver of pregnancy. Although distinguishing among these disorders may be difficult, the management of each is supportive and involves early delivery. Thrombotic thrombocytopenic purpura and complement-mediated thrombotic microangiopathy can also occur during pregnancy and may require additional therapy with plasma exchange or the anticomplement agent eculizumab. Table: Features of the Thrombotic Microangiopathies of Pregnancy shows the relative frequency of the clinical findings in these disorders. This patient has elevated aminotransferases, thrombocytopenia, and microangiopathic hemolytic anemia as demonstrated by indirect hyperbilirubinemia, elevated serum lactate dehydrogenase, and schistocytes on the peripheral blood smear. These findings are most consistent with the diagnosis of HELLP syndrome.Gestational thrombocytopenia (Option A) affects approximately 5% of pregnant persons, usually during the second or third trimester. Most patients are asymptomatic, with platelet counts greater than 100,000/μL (100 × 109/L). Gestational thrombocytopenia is not associated with the degree of thrombocytopenia or other clinical findings seen in this patient.Immune thrombocytopenic purpura (ITP) (Option C) is not the most likely diagnosis. ITP occurs more frequently in pregnant persons than in the general population, often in the first trimester of pregnancy. Features suggesting ITP also include a low platelet count (<70,000/μL [70 × 109/L]). ITP autoantibodies can cross the placenta and affect the fetus. However, this patient's hypertension, abdominal pain, hemolytic anemia, and abnormal liver function tests are not consistent with ITP.Preeclampsia (Option D) is defined as new-onset hypertension with proteinuria that occurs after 20 weeks of pregnancy. It can be difficult to distinguish preeclampsia from HELLP syndrome because both occur most commonly in the third trimester and have overlapping clinical features. However, hematologic findings such as hemolysis and severe thrombocytopenia are less likely to be associated with preeclampsia. The absence of proteinuria and kidney dysfunction also argues against preeclampsia.",
   "key_points": [
     "HELLP (hemolysis, elevated liver enzymes, low platelets) syndrome is characterized by microangiopathic hemolytic anemia, elevated aminotransferases, and thrombocytopenia; hypertension, abdominal pain, and kidney abnormalities (including proteinuria) may also be present.",
     "The distinction among HELLP syndrome, preeclampsia, and acute fatty liver of pregnancy may be difficult, but it is not crucial because management for all of these is supportive and focused on early delivery."
   ],
+  "references": "ACOG Practice Bulletin no. 207: thrombocytopenia in pregnancy. Obstet Gynecol. 2019;133:e181-e193. PMID: 30801473 doi:10.1097/AOG.0000000000003100",
+  "related_content": {
+    "syllabus": [
+      "hmsec24010_24006"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html",
       "tables/inline_table_2.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Gestational thrombocytopenia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "HELLP syndrome"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Immune thrombocytopenic purpura"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Preeclampsia"
-    }
-  ],
-  "question_id": "hmmcq24055",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 26-year-old woman is evaluated in the emergency department for a 1-week history of progressive dyspnea, abdominal pain, and easy bruising. She is at 33 weeks' gestation. Her only medication is a prenatal vitamin.On physical examination, blood pressure is 140/80 mm Hg, and pulse rate is 108/min. Scleral icterus is noted. Cardiac examination reveals regular tachycardia.Peripheral blood smear demonstrates one to five schistocytes.",
-  "references": "ACOG Practice Bulletin no. 207: thrombocytopenia in pregnancy. Obstet Gynecol. 2019;133:e181-e193. PMID: 30801473 doi:10.1097/AOG.0000000000003100",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24010_24006"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:37:01.342458-06:00"
 }

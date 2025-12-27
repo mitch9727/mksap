@@ -1,59 +1,59 @@
 {
+  "question_id": "idvdx24051",
   "category": "id",
-  "critique": "The most likely diagnosis is tuberculosis (Option D). The frontal chest radiograph demonstrates bilateral upper lobe infiltrates with cavitation. A left pleural effusion is also present. Reactivation (postprimary) pulmonary tuberculosis may be associated with thin-walled cavities or cavities found within an area of patchy airspace opacity. Most tuberculous pulmonary cavities do not contain fluid, but up to 20% may demonstrate an air-fluid interface because of bacterial superinfection or bleeding.",
   "educational_objective": "Diagnose cavitary tuberculosis.",
-  "extracted_at": "2025-12-23T14:10:29.445530-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 59-year-old man is evaluated for fever, a 6.8-kg (15-lb) weight loss over the past 7 weeks; fatigue; malaise; and productive cough, occasionally with blood.Chest radiograph is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Aspergillosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Aspiration pneumonia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Sarcoidosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Tuberculosis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "D",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is tuberculosis (Option D). The frontal chest radiograph demonstrates bilateral upper lobe infiltrates with cavitation. A left pleural effusion is also present. Reactivation (postprimary) pulmonary tuberculosis may be associated with thin-walled cavities or cavities found within an area of patchy airspace opacity. Most tuberculous pulmonary cavities do not contain fluid, but up to 20% may demonstrate an air-fluid interface because of bacterial superinfection or bleeding.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24009_24005"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24658.2d4f6003a0618e179e5984b375a01435.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Aspergillosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Aspiration pneumonia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Sarcoidosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Tuberculosis"
-    }
-  ],
-  "question_id": "idvdx24051",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 59-year-old man is evaluated for fever, a 6.8-kg (15-lb) weight loss over the past 7 weeks; fatigue; malaise; and productive cough, occasionally with blood.Chest radiograph is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24009_24005"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "D",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:10:29.445530-06:00"
 }

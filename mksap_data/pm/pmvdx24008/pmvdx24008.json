@@ -1,60 +1,60 @@
 {
+  "question_id": "pmvdx24008",
   "category": "pm",
-  "critique": "The most likely diagnosis is cystic fibrosis (CF) (Option B). Adults diagnosed with CF most often present with pulmonary or gastrointestinal symptoms. Pulmonary manifestations often include chronic productive cough, recurrent sinusitis, and recurrent pulmonary infections requiring recurrent courses of antibiotics. This chest radiograph demonstrates findings consistent with a diagnosis of CF. There are diffusely thickened bronchial walls (arrows) and pairs of parallel linear opacities (“tram tracks”) (arrowheads), consistent with bronchiectasis. Also seen are diffusely distributed patchy areas of airspace consolidation as well as mild hyperinflation of the chest.",
   "educational_objective": "Recognize chest radiography findings consistent with cystic fibrosis.",
-  "extracted_at": "2025-12-23T14:15:53.262418-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 17-year-old woman is evaluated for diarrhea, inability to gain weight, chronic cough, and recurrent episodes of bronchitis requiring antibiotic therapy.Chest radiograph is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "COPD",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Cystic fibrosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Idiopathic pulmonary fibrosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Lymphangitic carcinomatosis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "B",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is cystic fibrosis (CF) (Option B). Adults diagnosed with CF most often present with pulmonary or gastrointestinal symptoms. Pulmonary manifestations often include chronic productive cough, recurrent sinusitis, and recurrent pulmonary infections requiring recurrent courses of antibiotics. This chest radiograph demonstrates findings consistent with a diagnosis of CF. There are diffusely thickened bronchial walls (arrows) and pairs of parallel linear opacities (“tram tracks”) (arrowheads), consistent with bronchiectasis. Also seen are diffusely distributed patchy areas of airspace consolidation as well as mild hyperinflation of the chest.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24002_24062"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24611.221bbbea74b18a053df90d8907ea0809.jpg",
       "figures/pmfig24610.4e71c737aa7f03df2382c870096eefa0.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "COPD"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Cystic fibrosis"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Idiopathic pulmonary fibrosis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Lymphangitic carcinomatosis"
-    }
-  ],
-  "question_id": "pmvdx24008",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 17-year-old woman is evaluated for diarrhea, inability to gain weight, chronic cough, and recurrent episodes of bronchitis requiring antibiotic therapy.Chest radiograph is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24002_24062"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "B",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.262418-06:00"
 }

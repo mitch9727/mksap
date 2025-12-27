@@ -1,62 +1,62 @@
 {
+  "question_id": "idmcq24028",
   "category": "id",
-  "critique": "The most likely diagnosis is brucellosis (Option A), which is a zoonotic infection transmitted to humans from infected animals (cattle, sheep, goats, and other animals). It is endemic in the Middle East, Central Asia, China, the Indian subcontinent, sub-Saharan Africa, parts of Mexico, and Central and South America. Humans become infected through ingesting contaminated food products (such as unpasteurized dairy products) or contact with contaminated tissue or fluids (e.g., placenta, blood, urine). The incubation period can range from 2 to 4 weeks up to several months. The most common presenting symptom is fevers that can be relapsing and protracted. Other symptoms include night sweats, malaise, weight loss, and arthralgia; patients can also have hepatosplenomegaly and lymphadenopathy. Osteoarticular involvement, such as peripheral arthritis, sacroiliitis, and spondylitis, occurs in up to 70% of infected patients. Laboratory findings include elevated aminotransferase levels, anemia, and leukopenia or leukocytosis. Definitive diagnosis is made by culture of the organism from blood or body fluids or quadrupling of the Brucella antibody titer between acute and convalescent phase serum specimens. This patient has a consistent clinical presentation and exposure history. Laboratory personnel should be alerted of the possibility of brucellosis so that appropriate precautions can be made to protect against nosocomial infection.Lyme disease (Option B) is a tick-borne illness commonly caused by Borrelia burgdorferi. Lyme disease uncommonly causes protracted fever and is not associated with significant malaise or weight loss. Additionally, this patient has sacroiliitis, whereas Lyme arthritis is characterized by arthritis in large joints.Q fever (Option C) is a zoonotic infection caused by Coxiella burnetii. Acute disease is characterized by fever, hepatitis, and pneumonia. Chronic disease can occur after a few months to several years and typically consists of endocarditis in patients with pre-existing valvular disease. This patient's symptoms are not consistent with Q fever.Rheumatoid arthritis (Option D) is characterized by chronic inflammatory, symmetrical, polyarticular arthritis that leads to joint destruction if it is not controlled. It is not typically associated with protracted fever, night sweats, or weight loss as seen in this patient.",
   "educational_objective": "Diagnose brucellosis<i>.</i>",
-  "extracted_at": "2025-12-22T19:46:48.642747-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 65-year-old man is evaluated for a 1-month history of intermittent fever, malaise, night sweats, and arthralgia; he also reports pain and stiffness in his low back and buttocks that radiates down both legs. He has lost 2.3 kg (5.1 lb) during this time. He has no numbness or tingling in his lower extremities and no bowel or bladder incontinence. He recently immigrated to the United States from Egypt, where he worked as a sheep farmer. Medical history is unremarkable, and he takes no medications.On physical examination, vital signs are normal. Abdominal palpation reveals hepatosplenomegaly. Flexion, abduction, and external rotation of both hips elicits pain.Plain radiographs of the pelvis reveal inflammation of the sacroiliac joints.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Brucellosis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Lyme disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Q fever",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Rheumatoid arthritis",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is brucellosis (Option A), which is a zoonotic infection transmitted to humans from infected animals (cattle, sheep, goats, and other animals). It is endemic in the Middle East, Central Asia, China, the Indian subcontinent, sub-Saharan Africa, parts of Mexico, and Central and South America. Humans become infected through ingesting contaminated food products (such as unpasteurized dairy products) or contact with contaminated tissue or fluids (e.g., placenta, blood, urine). The incubation period can range from 2 to 4 weeks up to several months. The most common presenting symptom is fevers that can be relapsing and protracted. Other symptoms include night sweats, malaise, weight loss, and arthralgia; patients can also have hepatosplenomegaly and lymphadenopathy. Osteoarticular involvement, such as peripheral arthritis, sacroiliitis, and spondylitis, occurs in up to 70% of infected patients. Laboratory findings include elevated aminotransferase levels, anemia, and leukopenia or leukocytosis. Definitive diagnosis is made by culture of the organism from blood or body fluids or quadrupling of the Brucella antibody titer between acute and convalescent phase serum specimens. This patient has a consistent clinical presentation and exposure history. Laboratory personnel should be alerted of the possibility of brucellosis so that appropriate precautions can be made to protect against nosocomial infection.Lyme disease (Option B) is a tick-borne illness commonly caused by Borrelia burgdorferi. Lyme disease uncommonly causes protracted fever and is not associated with significant malaise or weight loss. Additionally, this patient has sacroiliitis, whereas Lyme arthritis is characterized by arthritis in large joints.Q fever (Option C) is a zoonotic infection caused by Coxiella burnetii. Acute disease is characterized by fever, hepatitis, and pneumonia. Chronic disease can occur after a few months to several years and typically consists of endocarditis in patients with pre-existing valvular disease. This patient's symptoms are not consistent with Q fever.Rheumatoid arthritis (Option D) is characterized by chronic inflammatory, symmetrical, polyarticular arthritis that leads to joint destruction if it is not controlled. It is not typically associated with protracted fever, night sweats, or weight loss as seen in this patient.",
   "key_points": [
     "Brucellosis, a zoonotic infection transmitted to humans from infected animals (e.g., cattle, sheep, goats), develops after ingestion of food products (such as unpasteurized dairy) or contact with contaminated animal tissue or fluids (placenta, blood, urine).",
     "Signs and symptoms of brucellosis included protracted fevers, night sweats, malaise, weight loss, arthralgia, hepatosplenomegaly, lymphadenopathy, and osteoarticular involvement (peripheral arthritis, sacroiliitis, spondylitis), which occurs in up to 70% of infected patients."
   ],
+  "references": "Centers for Disease Control and Prevention. Brucellosis reference guide: exposures, testing, and prevention. Updated February 2017. Available at https://www.cdc.gov/brucellosis/pdf/brucellosi-reference-guide.pdf. Accessed July 2, 2024.",
+  "related_content": {
+    "syllabus": [
+      "idsec24015_24011"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Brucellosis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Lyme disease"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Q fever"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Rheumatoid arthritis"
-    }
-  ],
-  "question_id": "idmcq24028",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 65-year-old man is evaluated for a 1-month history of intermittent fever, malaise, night sweats, and arthralgia; he also reports pain and stiffness in his low back and buttocks that radiates down both legs. He has lost 2.3 kg (5.1 lb) during this time. He has no numbness or tingling in his lower extremities and no bowel or bladder incontinence. He recently immigrated to the United States from Egypt, where he worked as a sheep farmer. Medical history is unremarkable, and he takes no medications.On physical examination, vital signs are normal. Abdominal palpation reveals hepatosplenomegaly. Flexion, abduction, and external rotation of both hips elicits pain.Plain radiographs of the pelvis reveal inflammation of the sacroiliac joints.",
-  "references": "Centers for Disease Control and Prevention. Brucellosis reference guide: exposures, testing, and prevention. Updated February 2017. Available at https://www.cdc.gov/brucellosis/pdf/brucellosi-reference-guide.pdf. Accessed July 2, 2024.",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24015_24011"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:46:48.642747-06:00"
 }

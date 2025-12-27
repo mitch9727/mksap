@@ -1,62 +1,62 @@
 {
+  "question_id": "enmcq24061",
   "category": "en",
-  "critique": "This patient has medication-induced hyperprolactinemia due to metoclopramide (Option C). Medications are a common cause of non–tumor-related hyperprolactinemia. Medication-induced hyperprolactinemia most often results in serum prolactin levels of 25 to 100 ng/mL (25-100 μg/L), although metoclopramide and drugs such as haloperidol, risperidone, and phenothiazines may lead to serum prolactin levels greater than 200 ng/mL (200 μg/L). Symptoms of hyperprolactinemia in women include breast tenderness; amenorrhea; and, in some patients, galactorrhea. Pregnancy and severe hypothyroidism should always be ruled out in such patients. Confirmation of medication-induced hyperprolactinemia can be challenging. To confirm the diagnosis of medication-induced hyperprolactinemia, this patient's prolactin level should be rechecked after withholding metoclopramide for 3 days or switching to a medication less likely to cause hyperprolactinemia. In cases in which the suspected medication cannot be stopped or replaced, a pituitary-specific MRI should be performed to confirm that an adenoma is not present.Severe hypothyroidism (Option A) can elevate prolactin levels because thyrotropin-releasing hormone can stimulate prolactin secretion. This patient has only a mildly elevated thyroid-stimulating hormone level with a normal free thyroxine level, so hypothyroidism is an unlikely cause of hyperprolactinemia in this case.Because serum prolactin levels correlate with tumor size in patients with prolactinomas, patients with macroprolactinomas typically have a prolactin level greater than 200 ng/mL (200 μg/L). This patient has a mildly elevated prolactin level that is less than 100 ng/mL (100 μg/L), making macroprolactinoma (Option B) an unlikely cause of her symptoms.Hyperprolactinemia may result from several physiologic causes (pregnancy, lactation, coitus, exercise, nipple stimulation, sleep, and stress) or other conditions (cirrhosis, chronic kidney disease, polycystic ovary syndrome, and seizures). However, poorly controlled type 1 diabetes mellitus (Option D) is unlikely to result in elevated prolactin levels.",
   "educational_objective": "Diagnose medication-induced hyperprolactinemia.",
-  "extracted_at": "2025-12-22T22:59:49.908629-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 27-year-old woman is evaluated for a 4-month history of amenorrhea. Medical history is significant for type 1 diabetes mellitus complicated by peripheral neuropathy and gastroparesis. She also has hypothyroidism. Medications are insulin glargine, insulin aspart, gabapentin, levothyroxine, and metoclopramide.On physical examination, vital signs are normal. She has decreased sensation to monofilament and vibration testing. The remainder of the examination is unremarkable.Insulin-like growth factor-1 is normal.",
+  "question_stem": "Which of the following is the most likely cause of this patient's symptoms?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Hypothyroidism",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Macroprolactinoma",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Metoclopramide",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Poorly controlled type 1 diabetes mellitus",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has medication-induced hyperprolactinemia due to metoclopramide (Option C). Medications are a common cause of non–tumor-related hyperprolactinemia. Medication-induced hyperprolactinemia most often results in serum prolactin levels of 25 to 100 ng/mL (25-100 μg/L), although metoclopramide and drugs such as haloperidol, risperidone, and phenothiazines may lead to serum prolactin levels greater than 200 ng/mL (200 μg/L). Symptoms of hyperprolactinemia in women include breast tenderness; amenorrhea; and, in some patients, galactorrhea. Pregnancy and severe hypothyroidism should always be ruled out in such patients. Confirmation of medication-induced hyperprolactinemia can be challenging. To confirm the diagnosis of medication-induced hyperprolactinemia, this patient's prolactin level should be rechecked after withholding metoclopramide for 3 days or switching to a medication less likely to cause hyperprolactinemia. In cases in which the suspected medication cannot be stopped or replaced, a pituitary-specific MRI should be performed to confirm that an adenoma is not present.Severe hypothyroidism (Option A) can elevate prolactin levels because thyrotropin-releasing hormone can stimulate prolactin secretion. This patient has only a mildly elevated thyroid-stimulating hormone level with a normal free thyroxine level, so hypothyroidism is an unlikely cause of hyperprolactinemia in this case.Because serum prolactin levels correlate with tumor size in patients with prolactinomas, patients with macroprolactinomas typically have a prolactin level greater than 200 ng/mL (200 μg/L). This patient has a mildly elevated prolactin level that is less than 100 ng/mL (100 μg/L), making macroprolactinoma (Option B) an unlikely cause of her symptoms.Hyperprolactinemia may result from several physiologic causes (pregnancy, lactation, coitus, exercise, nipple stimulation, sleep, and stress) or other conditions (cirrhosis, chronic kidney disease, polycystic ovary syndrome, and seizures). However, poorly controlled type 1 diabetes mellitus (Option D) is unlikely to result in elevated prolactin levels.",
   "key_points": [
     "Medication-induced hyperprolactinemia is common and most often results in serum prolactin levels of 25 to 100 ng/mL (25-100 μg/L).",
     "Confirming that hyperprolactinemia is related to a medication can be challenging; if possible, the patient's prolactin level should be rechecked after the suspected medication has either been withheld or replaced."
   ],
+  "references": "Vilar L, Vilar CF, Lyra R, et al. Pitfalls in the diagnostic evaluation of hyperprolactinemia. Neuroendocrinology. 2019;109:7-19. PMID: 30889571 doi:10.1159/000499694",
+  "related_content": {
+    "syllabus": [
+      "ensec24003_24021"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Hypothyroidism"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Macroprolactinoma"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Metoclopramide"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Poorly controlled type 1 diabetes mellitus"
-    }
-  ],
-  "question_id": "enmcq24061",
-  "question_stem": "Which of the following is the most likely cause of this patient's symptoms?",
-  "question_text": "A 27-year-old woman is evaluated for a 4-month history of amenorrhea. Medical history is significant for type 1 diabetes mellitus complicated by peripheral neuropathy and gastroparesis. She also has hypothyroidism. Medications are insulin glargine, insulin aspart, gabapentin, levothyroxine, and metoclopramide.On physical examination, vital signs are normal. She has decreased sensation to monofilament and vibration testing. The remainder of the examination is unremarkable.Insulin-like growth factor-1 is normal.",
-  "references": "Vilar L, Vilar CF, Lyra R, et al. Pitfalls in the diagnostic evaluation of hyperprolactinemia. Neuroendocrinology. 2019;109:7-19. PMID: 30889571 doi:10.1159/000499694",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "ensec24003_24021"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "C",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T22:59:49.908629-06:00"
 }

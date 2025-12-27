@@ -1,60 +1,60 @@
 {
+  "question_id": "pmvdx24015",
   "category": "pm",
-  "critique": "The most likely physiologic diagnosis is fixed upper airway obstruction (Option A). This flow-volume curve, which has both an inspiratory and an expiratory plateau, indicates a physiologic pattern of fixed upper airway obstruction; upper airway in this case refers to the airway above the level of the carina (the trachea or the larynx). The similar magnitude of the flow rates during inspiration and expiration demonstrates that the obstruction is fixed and does not vary depending on the phase of the respiratory cycle. A tracheal stricture composed of inflexible fibrotic tissue is an example of a fixed upper airway obstruction. A variable extrathoracic upper airway obstruction would show plateau of the inspiratory limb of the flow-volume curve but not the expiratory limb. A variable intrathoracic airway obstruction would show plateau of the expiratory limb of the flow-volume curve but not the inspiratory limb. The flow-volume curves of different forms of airway obstruction are shown below.",
   "educational_objective": "Diagnose fixed upper airway obstruction on the basis of a flow-volume curve.",
-  "extracted_at": "2025-12-23T14:15:53.282344-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 56-year-old woman is evaluated for wheezing and exertional dyspnea. Pulmonary function testing and a flow-volume curve are obtained.The flow-volume curve obtained during forced inspiration and expiration is shown (RV = residual volume; TLC = total lung capacity).",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Fixed upper airway obstruction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Small airways disease",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Variable extrathoracic upper airway obstruction",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Variable intrathoracic airway obstruction",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely physiologic diagnosis is fixed upper airway obstruction (Option A). This flow-volume curve, which has both an inspiratory and an expiratory plateau, indicates a physiologic pattern of fixed upper airway obstruction; upper airway in this case refers to the airway above the level of the carina (the trachea or the larynx). The similar magnitude of the flow rates during inspiration and expiration demonstrates that the obstruction is fixed and does not vary depending on the phase of the respiratory cycle. A tracheal stricture composed of inflexible fibrotic tissue is an example of a fixed upper airway obstruction. A variable extrathoracic upper airway obstruction would show plateau of the inspiratory limb of the flow-volume curve but not the expiratory limb. A variable intrathoracic airway obstruction would show plateau of the expiratory limb of the flow-volume curve but not the inspiratory limb. The flow-volume curves of different forms of airway obstruction are shown below.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "pmsec24001_24005"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/pmfig24001.09ff1d66b03039806e125fa97f0569e4.svg",
       "figures/pmfig24624.469d114925dfe275766060ebfd3568cc.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Fixed upper airway obstruction"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Small airways disease"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Variable extrathoracic upper airway obstruction"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Variable intrathoracic airway obstruction"
-    }
-  ],
-  "question_id": "pmvdx24015",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 56-year-old woman is evaluated for wheezing and exertional dyspnea. Pulmonary function testing and a flow-volume curve are obtained.The flow-volume curve obtained during forced inspiration and expiration is shown (RV = residual volume; TLC = total lung capacity).",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "pmsec24001_24005"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:15:53.282344-06:00"
 }

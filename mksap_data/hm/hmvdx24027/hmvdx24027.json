@@ -1,60 +1,60 @@
 {
+  "question_id": "hmvdx24027",
   "category": "hm",
-  "critique": "The most likely diagnosis is acute promyelocytic leukemia (Option A), which is characterized by poorly differentiated leukocytes with distinctive primary granules. This patient's bone marrow aspirate shows the presence of many violet granules (black arrow) in the cytoplasm and a high nucleus to cytoplasmic ratio. Granulation of the promyelocytes may be subtle, giving the cells a “dusky” appearance. Folded nuclei and clusters of Auer rods (red arrow) are also noted. These findings are consistent with acute promyelocytic leukemia.",
   "educational_objective": "Diagnose acute promyelocytic leukemia.",
-  "extracted_at": "2025-12-23T14:09:52.960670-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 40-year-old man is evaluated for weakness and easy fatigability, gingival bleeding, ecchymoses, and epistaxis.Bone marrow aspirate is shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Acute promyelocytic leukemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Chronic lymphocytic leukemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Chronic myeloid leukemia",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Hairy cell leukemia",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is acute promyelocytic leukemia (Option A), which is characterized by poorly differentiated leukocytes with distinctive primary granules. This patient's bone marrow aspirate shows the presence of many violet granules (black arrow) in the cytoplasm and a high nucleus to cytoplasmic ratio. Granulation of the promyelocytes may be subtle, giving the cells a “dusky” appearance. Folded nuclei and clusters of Auer rods (red arrow) are also noted. These findings are consistent with acute promyelocytic leukemia.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "hmsec24002_24015"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/hmfig24643.1e351925b6510d59f55d48accd75e461.jpg",
       "figures/hmfig24642.1f37bc475d73503be01507029dc746db.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Acute promyelocytic leukemia"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Chronic lymphocytic leukemia"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Chronic myeloid leukemia"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Hairy cell leukemia"
-    }
-  ],
-  "question_id": "hmvdx24027",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 40-year-old man is evaluated for weakness and easy fatigability, gingival bleeding, ecchymoses, and epistaxis.Bone marrow aspirate is shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "hmsec24002_24015"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:09:52.960670-06:00"
 }

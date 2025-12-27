@@ -1,59 +1,59 @@
 {
+  "question_id": "idvdx24068",
   "category": "id",
-  "critique": "The most likely diagnosis is cellulitis (Option A), which is a rapidly spreading, diffuse infection of the subcutaneous tissues and deep dermis. It is caused most commonly by β-hemolytic streptococcal species, including Streptococcus pyogenes and Streptococcus agalactiae, and usually follows a traumatic insult to the skin, which is often minor. Symptoms and signs include poorly demarcated erythema, warmth, swelling, and pain. Diagnosis is usually based on clinical findings.",
   "educational_objective": "Diagnose cellulitis.",
-  "extracted_at": "2025-12-23T14:10:29.440085-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/23/2025"
+  },
+  "question_text": "A 58-year-old man with poorly controlled type 2 diabetes mellitus is evaluated for the painful abdominal rash shown.",
+  "question_stem": "Which of the following is the most likely diagnosis?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Cellulitis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Compartment syndrome",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Cutaneous candidiasis",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Erythrasma",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most likely diagnosis is cellulitis (Option A), which is a rapidly spreading, diffuse infection of the subcutaneous tissues and deep dermis. It is caused most commonly by β-hemolytic streptococcal species, including Streptococcus pyogenes and Streptococcus agalactiae, and usually follows a traumatic insult to the skin, which is often minor. Symptoms and signs include poorly demarcated erythema, warmth, swelling, and pain. Diagnosis is usually based on clinical findings.",
   "key_points": [],
+  "references": "",
+  "related_content": {
+    "syllabus": [
+      "idsec24002_24002"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
+    "tables": [],
     "images": [
       "figures/idfig24678.f3c5dfb3c3dbfd0f7ccc19851b376035.jpg"
     ],
     "svgs": [],
-    "tables": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/23/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Cellulitis"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Compartment syndrome"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Cutaneous candidiasis"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Erythrasma"
-    }
-  ],
-  "question_id": "idvdx24068",
-  "question_stem": "Which of the following is the most likely diagnosis?",
-  "question_text": "A 58-year-old man with poorly controlled type 2 diabetes mellitus is evaluated for the painful abdominal rash shown.",
-  "references": "",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24002_24002"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-23T14:10:29.440085-06:00"
 }

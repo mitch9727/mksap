@@ -1,62 +1,62 @@
 {
+  "question_id": "idmcq24102",
   "category": "id",
-  "critique": "This patient has Vibrio parahaemolyticus–associated bacteremia, and the most appropriate treatment is intravenous fluids, adequate oxygenation, and combination antimicrobial therapy with a third-generation cephalosporin (such as ceftriaxone) plus a tetracycline (such as doxycycline) (Option A). Fluoroquinolones such as ciprofloxacin also appear to be active against V. parahaemolyticus. This organism thrives in warmer marine and brackish waters. In the United States, V. parahaemolyticus is the most common Vibrio species to cause gastrointestinal illness, usually after consumption of undercooked oysters and other shellfish. The incubation period is about 2 days, and symptoms typically reported at presentation are diarrhea, which can be bloody; fever; nausea or emesis; and crampy abdominal pain. Septicemia can develop in patients who have chronic liver disease, iron overload states, or diabetes mellitus and may lead to secondary necrotizing skin infections, including necrotizing fasciitis, for which surgical evaluation for debridement is needed for source control.Linezolid and metronidazole (Option B) are used to treat infections caused by many gram-positive bacteria (including staphylococci, streptococci, enterococci, and Corynebacterium species) and anaerobes (including Bacteroides, Prevotella, Fusobacterium, Capnocytophaga, Peptostreptococcus, and Clostridium species). These antimicrobials are not active against V. parahaemolyticus.Penicillin and clindamycin (Option C) are recommended for necrotizing skin and soft tissue infections secondary to toxin-producing bacteria such as Streptococcus pyogenes and Clostridium species. This combination is not active against V. parahaemolyticus.Vancomycin and clindamycin (Option D) are used to treat many gram-positive aerobic and anaerobic organisms (including enterococci, Corynebacterium diphtheroid, staphylococci, streptococci, Bacteroides fragilis, Peptostreptococcus, Clostridium perfringens, Prevotella, and Fusobacterium). Vancomycin is also used to treat Clostridioides difficile infections. However, these antimicrobials are not active against V. parahaemolyticus.",
   "educational_objective": "Treat <i>Vibrio parahaemolyticus</i> infection with associated bacteremia.",
-  "extracted_at": "2025-12-22T19:47:28.935895-06:00",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/22/2025"
+  },
+  "question_text": "A 43-year-old man is hospitalized for a 1-day history of fever, nausea, abdominal cramping, diarrhea, and malaise. He consumed raw oysters 3 days ago while visiting the Gulf Coast. Medical history is significant for cirrhosis secondary to metabolic dysfunction–associated steatohepatitis. He takes no medications.On physical examination, he appears uncomfortable. Temperature is 38.5 °C (101.3 °F), blood pressure is 100/70 mm Hg, pulse rate is 105/min, and respiration rate is 22/min. Oxygen saturation is 94% with the patient breathing ambient air. Diffuse abdominal tenderness without guarding is noted. No skin lesions are observed.Blood cultures grow gram-negative bacilli.",
+  "question_stem": "In addition to supportive care, which of the following is the most appropriate treatment?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Ceftriaxone plus doxycycline",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Linezolid plus metronidazole",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Penicillin plus clindamycin",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Vancomycin plus clindamycin",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "A",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "This patient has Vibrio parahaemolyticus–associated bacteremia, and the most appropriate treatment is intravenous fluids, adequate oxygenation, and combination antimicrobial therapy with a third-generation cephalosporin (such as ceftriaxone) plus a tetracycline (such as doxycycline) (Option A). Fluoroquinolones such as ciprofloxacin also appear to be active against V. parahaemolyticus. This organism thrives in warmer marine and brackish waters. In the United States, V. parahaemolyticus is the most common Vibrio species to cause gastrointestinal illness, usually after consumption of undercooked oysters and other shellfish. The incubation period is about 2 days, and symptoms typically reported at presentation are diarrhea, which can be bloody; fever; nausea or emesis; and crampy abdominal pain. Septicemia can develop in patients who have chronic liver disease, iron overload states, or diabetes mellitus and may lead to secondary necrotizing skin infections, including necrotizing fasciitis, for which surgical evaluation for debridement is needed for source control.Linezolid and metronidazole (Option B) are used to treat infections caused by many gram-positive bacteria (including staphylococci, streptococci, enterococci, and Corynebacterium species) and anaerobes (including Bacteroides, Prevotella, Fusobacterium, Capnocytophaga, Peptostreptococcus, and Clostridium species). These antimicrobials are not active against V. parahaemolyticus.Penicillin and clindamycin (Option C) are recommended for necrotizing skin and soft tissue infections secondary to toxin-producing bacteria such as Streptococcus pyogenes and Clostridium species. This combination is not active against V. parahaemolyticus.Vancomycin and clindamycin (Option D) are used to treat many gram-positive aerobic and anaerobic organisms (including enterococci, Corynebacterium diphtheroid, staphylococci, streptococci, Bacteroides fragilis, Peptostreptococcus, Clostridium perfringens, Prevotella, and Fusobacterium). Vancomycin is also used to treat Clostridioides difficile infections. However, these antimicrobials are not active against V. parahaemolyticus.",
   "key_points": [
     "Vibrio parahaemolyticus is the most common Vibrio species to cause gastrointestinal illness and thrives in warmer marine and brackish waters.",
     "Patients with septicemia resulting from V. parahaemolyticus infection require more aggressive combination therapy, typically with doxycycline plus ceftriaxone."
   ],
+  "references": "Baker-Austin C, Oliver JD, Alam M, et al. Vibrio spp. infections. Nat Rev Dis Primers. 2018;4:8. PMID: 30002421 doi:10.1038/s41572-018-0005-8",
+  "related_content": {
+    "syllabus": [
+      "idsec24016_24007"
+    ],
+    "learning_plan_topic": ""
+  },
   "media": {
-    "images": [],
-    "svgs": [],
     "tables": [
       "tables/inline_table_1.html"
     ],
+    "images": [],
+    "svgs": [],
     "videos": []
   },
-  "metadata": {
-    "care_types": [],
-    "high_value_care": false,
-    "patient_types": [],
-    "question_updated": "12/22/2025"
-  },
-  "options": [
-    {
-      "letter": "A",
-      "peer_percentage": 0,
-      "text": "Ceftriaxone plus doxycycline"
-    },
-    {
-      "letter": "B",
-      "peer_percentage": 0,
-      "text": "Linezolid plus metronidazole"
-    },
-    {
-      "letter": "C",
-      "peer_percentage": 0,
-      "text": "Penicillin plus clindamycin"
-    },
-    {
-      "letter": "D",
-      "peer_percentage": 0,
-      "text": "Vancomycin plus clindamycin"
-    }
-  ],
-  "question_id": "idmcq24102",
-  "question_stem": "In addition to supportive care, which of the following is the most appropriate treatment?",
-  "question_text": "A 43-year-old man is hospitalized for a 1-day history of fever, nausea, abdominal cramping, diarrhea, and malaise. He consumed raw oysters 3 days ago while visiting the Gulf Coast. Medical history is significant for cirrhosis secondary to metabolic dysfunction–associated steatohepatitis. He takes no medications.On physical examination, he appears uncomfortable. Temperature is 38.5 °C (101.3 °F), blood pressure is 100/70 mm Hg, pulse rate is 105/min, and respiration rate is 22/min. Oxygen saturation is 94% with the patient breathing ambient air. Diffuse abdominal tenderness without guarding is noted. No skin lesions are observed.Blood cultures grow gram-negative bacilli.",
-  "references": "Baker-Austin C, Oliver JD, Alam M, et al. Vibrio spp. infections. Nat Rev Dis Primers. 2018;4:8. PMID: 30002421 doi:10.1038/s41572-018-0005-8",
-  "related_content": {
-    "learning_plan_topic": "",
-    "syllabus": [
-      "idsec24016_24007"
-    ]
-  },
-  "user_performance": {
-    "correct_answer": "A",
-    "result": null,
-    "time_taken": null,
-    "user_answer": null
-  }
+  "extracted_at": "2025-12-22T19:47:28.935895-06:00"
 }

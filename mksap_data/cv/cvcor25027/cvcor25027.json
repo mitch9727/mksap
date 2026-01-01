@@ -1,12 +1,14 @@
 {
   "question_id": "cvcor25027",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Treat typical atrial flutter with catheter ablation.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 68-year-old man is evaluated during posthospitalization follow-up. One week ago, he was seen in the emergency department for sudden onset of palpitations and dyspnea, at which time ECG showed a narrow complex, regular tachycardia. He underwent cardioversion, which was initially successful. However, 1 day ago, his palpitations recurred. He does not have dyspnea or chest pain. Medical history is notable for hypertension. Medications are apixaban, losartan, carvedilol, and chlorthalidone.On physical examination, pulse rate is 73/min and irregular. Other vital signs and findings on physical examination are normal.Laboratory studies are significant for normal serum thyroid-stimulating hormone and serum N-terminal pro–B-type natriuretic peptide levels.An ECG from today's visit is shown.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -52,29 +54,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig25706.987896726a95f1c96ad56f0b63f7bb1c.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig25706",
-        "file": "figures/cvfig25706.987896726a95f1c96ad56f0b63f7bb1c.jpg",
-        "title": "ECG in a Patient With Atrial Flutter",
-        "short_title": "ECG in a Patient With Atrial Flutter",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 421
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.379658-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.293262-06:00"
 }

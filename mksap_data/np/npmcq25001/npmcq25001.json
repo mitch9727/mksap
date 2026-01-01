@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq25001",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Treat hypertensive emergency in a patient with acute kidney injury.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 62-year-old man with primary hypertension is evaluated in the emergency department for a 24-hour history of headache. He has no other symptoms. Medications are amlodipine, hydrochlorothiazide, and losartan; he reports frequently missing doses.On physical examination, blood pressure is 210/112 mm Hg, and pulse rate is 108/min. There is 1+ edema of the lower extremities. The remainder of the examination is normal.Laboratory studies:Creatinine2.3 mg/dL (203.3 µmol/L)HBaseline0.8 mg/dL (70.7 µmol/L)UrinalysisSpecific gravity 1.010; 1+ blood; 1+ proteinA 12-lead ECG shows sinus tachycardia but is otherwise normal.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -52,60 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nptab24023.html",
-      "tables/nptab24024.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nptab24023",
-        "file": "tables/nptab24023.html",
-        "title": "Intravenous Antihypertensive Drugs for Treatment of Hypertensive Emergencies",
-        "short_title": "Intravenous Antihypertensive Drugs for Hypertensive Emergencies",
-        "footnotes": [
-          "PDE = phosphodiesterase.",
-          "Data from Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: A report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. J Am Coll Cardiol. 2018;71:e127-e248. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/29146535\" target=\"_blank\">PMID: 29146535</a> doi:10.1016/j.jacc.2017.11.006"
-        ],
-        "headers": [
-          "Class",
-          "Examples",
-          "Comments"
-        ]
-      },
-      {
-        "table_id": "nptab24024",
-        "file": "tables/nptab24024.html",
-        "title": "Intravenous Antihypertensive Drugs for Treatment of Hypertensive Emergencies with Selected Comorbidities",
-        "short_title": "Antihypertensives for Hypertensive Emergencies with Comorbidities",
-        "footnotes": [
-          "ARB = angiotensin receptor blocker; BP = blood pressure.",
-          "<sup>a</sup>See Table: Frequently Used Antihypertensive Medications for specific drug contraindications.",
-          "Data from Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: A report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. J Am Coll Cardiol. 2018;71:e127-e248. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/29146535\" target=\"_blank\">PMID: 29146535</a> doi:10.1016/j.jacc.2017.11.006"
-        ],
-        "headers": [
-          "Comorbidity",
-          "Preferred Drugsa",
-          "Comments"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.902647-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.069701-06:00"
 }

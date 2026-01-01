@@ -1,12 +1,14 @@
 {
   "question_id": "idqqq24021",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Treat community-acquired pneumonia caused by <i>Pseudomonas aeruginosa</i>.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "An 82-year-old man is admitted to the ICU for 1 week of fever, cough productive of green sputum, and progressive shortness of breath. Medical history is remarkable for bronchiectasis and polymyalgia rheumatica. His only medication is prednisone.On physical examination, temperature is 38.8 °C (101.8 °F), pulse rate is 115/min, and respiration rate is 25/min. Oxygen saturation is 88% breathing ambient air. Crackles are heard in the right lung base.A sputum Gram stain shows 3+ polymorphonuclear cells and 2+ gram-negative organisms.A chest radiograph is shown.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -52,29 +54,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/idfig24503.3d9c85166d7e581f236db819cbd2c88b.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "idfig24503",
-        "file": "figures/idfig24503.3d9c85166d7e581f236db819cbd2c88b.jpg",
-        "title": "Chest Radiograph of Community-Acquired Pneumonia",
-        "short_title": "CAP Chest Radiograph",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 772
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.635992-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.499830-06:00"
 }

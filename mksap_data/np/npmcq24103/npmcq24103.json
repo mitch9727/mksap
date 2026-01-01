@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24103",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Evaluate an anion gap acidosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 46-year-old patient is evaluated in the emergency department for a 2-day history of confusion and multiple episodes of loose stools daily. They have Crohn disease and have undergone previous abdominal surgeries, including resection of portions of their small intestine. Medications are azathioprine, adalimumab, vitamin D, and ferrous sulfate.On physical examination, temperature is 37.2 °C (99.0 °F), blood pressure is 104/76 mm Hg, pulse rate is 98/min, and respiration rate is 20/min. Oxygen saturation is 96% with the patient breathing ambient air. Multiple abdominal surgical scars are noted. They have slurred speech and are confused.Laboratory studies:Arterial blood gasespH7.28LPco230 mm Hg (4.0 kPa)LAlbumin3.0 g/dL (30 g/L)LBlood urea nitrogen28 mg/dL (10.0 mmol/L)HCreatinine0.9 mg/dL (79.6 µmol/L)ElectrolytesSodium138 mEq/L (138 mmol/L)Potassium3.6 mEq/L (3.6 mmol/L)Chloride106 mEq/L (106 mmol/L)Bicarbonate14 mEq/L (14 mmol/L)LGlucose104 mg/dL (5.8 mmol/L)HLactate1.4 mEq/L (1.4 mmol/L)Serum osmolality290 mOsm/kg H2O",
   "question_stem": "Which of the following tests is the most likely to establish the diagnosis?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.877545-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.038321-06:00"
 }

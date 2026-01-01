@@ -1,12 +1,14 @@
 {
   "question_id": "ccmcq24018",
   "category": "cc",
+  "category_name": "Critical Care Medicine",
   "educational_objective": "Treat a patient with acute cardiogenic pulmonary edema using noninvasive mechanical ventilation.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 72-year-old man is evaluated in the emergency department for a 2-day history of worsening dyspnea, orthopnea, and pedal edema. He has a history of heart failure with a reduced ejection fraction of 36%. Medications include sacubitril-valsartan, empagliflozin, spironolactone, carvedilol, and furosemide.On physical examination, blood pressure is 164/70 mm Hg, pulse rate is 106/min, and respiration rate is 28/min. He is awake and alert and in moderate respiratory distress. Neck veins are distended, and cardiac examination reveals an S3. Crackles in the lung bases and bilateral lower extremity edema are present.Laboratory studies:Arterial blood gases:pH7.42Pco238 mm Hg (5.1 kPa)Po245 mm Hg (6.0 kPa)LBlood urea nitrogen26 mg/dL (9.3 mmol/L)HB-type natriuretic peptide level2200 pg/mL (2200 ng/L)HCreatinine1.6 mg/dL (141 µmol/L)HChest radiograph reveals pulmonary edema. ECG is unchanged from previous tracings.The patient receives an initial bolus dose of intravenous furosemide, supplemental oxygen with a nonrebreather face mask, and intravenous nitroglycerin. He remains in moderate respiratory distress with an oxygen saturation of 87%.",
   "question_stem": "Which of the following is the most appropriate next immediate step in treatment?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.398290-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.887892-06:00"
 }

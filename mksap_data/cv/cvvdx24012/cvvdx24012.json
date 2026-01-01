@@ -1,12 +1,14 @@
 {
   "question_id": "cvvdx24012",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Identify ECG manifestations of cardiac tamponade.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 40-year-old woman is evaluated for hypotension and dyspnea. She is currently being treated for breast cancer. Blood pressure is 100/70 mm Hg, and pulse rate is 170/min. Heart sounds are distant. Jugular venous pressure is elevated.ECG is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24613.a666b330b2aaa66bc5ff89a0342004ca.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24613",
-        "file": "figures/cvfig24613.a666b330b2aaa66bc5ff89a0342004ca.jpg",
-        "title": "ECG Showing Electrical Alternans",
-        "short_title": "stem ECG Showing Electrical Alternans",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 510
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.853835-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.861536-06:00"
 }

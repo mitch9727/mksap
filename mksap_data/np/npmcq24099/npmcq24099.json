@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24099",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Manage hypophosphatemia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 38-year-old patient is evaluated during a routine examination. They report nonspecific musculoskeletal pain and occasional episodes of bloating. The patient has celiac disease, and avoids gluten-containing foods. They take no medications.On physical examination, vital signs are normal. Abdominal palpation elicits mild discomfort. The remainder of the examination is unremarkable.Laboratory studies:Albumin3.8 g/dL (38 g/L)Calcium7.5 mg/dL (1.9 mmol/L)LCreatinine0.9 mg/dL (79.6 µmol/L)ElectrolytesSodium138 mEq/L (138 mmol/L)Potassium4.0 mEq/L (4.0 mmol/L)Chloride106 mEq/L (106 mmol/L)Bicarbonate23 mEq/L (23 mmol/L)Glucose90 mg/dL (5.0 mmol/L)Phosphorus2.1 mg/dL (0.68 mmol/L)L25-Hydroxyvitamin D12 ng/mL (30 nmol/L)L24-Hour urine phosphorus110 mg/24 hH",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.868993-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.013765-06:00"
 }

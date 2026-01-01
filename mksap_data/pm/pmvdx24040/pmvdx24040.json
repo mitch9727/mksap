@@ -1,12 +1,14 @@
 {
   "question_id": "pmvdx24040",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Recognize the findings of bronchiectasis on a chest CT scan.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 62-year-old woman is evaluated for recurrent bronchitis. She has a daily cough productive of mucopurulent and tenacious sputum and dyspnea. She reports one previous hospitalization for hemoptysis.Chest CT scan is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/pmfig24668.0a82b6b78f09b2634562a2e0e6613836.jpg",
-      "figures/pmfig24669.f1a069e73c8fb1e1b7ed1e1ff96c2dcf.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "pmfig24668",
-        "file": "figures/pmfig24668.0a82b6b78f09b2634562a2e0e6613836.jpg",
-        "title": "CT Scan Showing Findings of Bronchiectasis",
-        "short_title": "stem CT Scan Showing Findings of Bronchiectasis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 519,
-        "height": 508
-      },
-      {
-        "figure_id": "pmfig24669",
-        "file": "figures/pmfig24669.f1a069e73c8fb1e1b7ed1e1ff96c2dcf.jpg",
-        "title": "CT Scan Showing Findings of Bronchiectasis",
-        "short_title": "critique CT Scan Showing Findings of Bronchiectasis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 883
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.295902-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.750753-06:00"
 }

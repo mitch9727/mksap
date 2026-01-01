@@ -1,12 +1,14 @@
 {
   "question_id": "nrvdx24011",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Diagnose a cerebral aneurysm.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 38-year-old man with polycystic kidney disease undergoes cerebral angiography. His father also had polycystic kidney disease and died of a stroke at age 52 years.Results of cerebral angiography for the patient are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/nrfig24612.fc6e66971ef1a3d40504fce89d183ab2.jpg",
-      "figures/nrfig24613.9025f255dfd856bfd27d43432a5774eb.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "nrfig24612",
-        "file": "figures/nrfig24612.fc6e66971ef1a3d40504fce89d183ab2.jpg",
-        "title": "Angiogram Showing Cerebral Aneurysm",
-        "short_title": "stem Angiogram Showing Cerebral Aneurysm",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 440
-      },
-      {
-        "figure_id": "nrfig24613",
-        "file": "figures/nrfig24613.9025f255dfd856bfd27d43432a5774eb.jpg",
-        "title": "Angiogram Showing Cerebral Aneurysm",
-        "short_title": "critique Angiogram Showing Cerebral Aneurysm",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 440
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.505530-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.723149-06:00"
 }

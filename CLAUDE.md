@@ -6,13 +6,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-**MKSAP Question Bank Extractor** - Production-grade CLI data extraction system for downloading medical education questions from the ACP MKSAP (Medical Knowledge Self-Assessment Program) online question bank into structured JSON format.
+**MKSAP Medical Education Pipeline** - Multi-phase system for extracting, processing, and generating medical education flashcards from ACP MKSAP (Medical Knowledge Self-Assessment Program) question bank.
 
-**Primary Language**: Rust 2021 Edition with Tokio async runtime
-**Architecture**: Unified extractor (text + media pipeline)
-**Extraction Status**: 2,198 questions extracted (100% complete - Phase 1 ✅)
-**Validation**: Discovery-based extraction using API HEAD requests
-**Check Progress**: Run `./target/release/mksap-extractor validate` for current metrics
+**Project Structure**:
+- **Phase 1 (Complete ✅)**: Rust extractor - 2,198 questions extracted to JSON
+- **Phase 2 (Active)**: Python statement generator - LLM-based flashcard extraction
+- **Phase 3 (Planned)**: Cloze application - Apply fill-in-the-blank formatting
+- **Phase 4 (Planned)**: Anki export - Generate spaced repetition decks
+
+**Primary Languages**: Rust 2021 (extractor), Python 3.9+ (statement_generator)
+**Current Status**: Phase 1 complete, Phase 2 in development
+**Total Questions**: 2,198 questions across 16 medical specialties
 
 ## Important: System Codes vs Browser Organization
 
@@ -26,7 +30,14 @@ The browser shows 12 content areas, but some content areas contain multiple syst
 
 All extraction, validation, and reporting in this codebase is organized by these 16 system codes, not the 12 browser groupings.
 
-## Common Commands
+## Quick Navigation
+
+- **Phase 1 (Rust Extractor)**: See commands in [extractor section](#building) below
+- **Phase 2 (Statement Generator)**: See [statement_generator/CLAUDE.md](statement_generator/CLAUDE.md)
+- **Architecture**: [Project Architecture](#project-architecture) section
+- **Troubleshooting**: [Common Issues](#common-issues) section
+
+## Phase 1: Rust Extractor
 
 ### Building
 
@@ -155,12 +166,19 @@ This project uses a **single Rust binary** that combines text extraction with me
 
 ### Extractor Module Organization
 
-#### Core Extraction Pipeline
-- **app.rs** - Command routing and orchestration
+#### CLI & Orchestration
+- **app.rs** - Initialization, environment setup, and API inspection helpers
+- **cli.rs** - Argument parsing and option structs
+- **handlers.rs** - Command routing and standalone command handling
+- **runners.rs** - Command execution orchestration
+- **commands.rs** - CLI command definitions
 - **main.rs** - CLI entry point
+- **utils.rs** - Shared utilities (env parsing, progress logging)
+
+#### Core Extraction Pipeline
+- **extractor.rs** - Core extraction type and concurrent processing
 - **workflow.rs** - Three-phase pipeline orchestration (discovery → setup → extraction)
 - **discovery.rs** - Question ID discovery using HTTP HEAD requests with checkpointing
-- **extractor.rs** - Core extraction type and concurrent processing
 - **io.rs** - File I/O operations and checkpoint management
 - **retry.rs** - Retry logic with exponential backoff for transient failures
 - **standardize.rs** - Data standardization utilities for schema consistency
@@ -168,22 +186,18 @@ This project uses a **single Rust binary** that combines text extraction with me
 
 #### Data Models & Configuration
 - **models.rs** - Data structures (QuestionData, ApiQuestionResponse, MediaFiles, etc.)
-- **config.rs** - 16 system code definitions with baselines and year ranges
+- **config.rs** - 16 system code definitions (discovery metadata is the source of truth)
 
 #### Authentication & API
 - **auth.rs** - Session-based API authentication
 - **login_browser.rs** - Browser-based fallback authentication (Chrome/Firefox)
-- **auth_flow.rs** - Authentication flow coordination
-- **api.rs** - API interaction helpers
+- **session.rs** - Session cookie helpers
+- **http.rs** - HTTP client configuration
+- **endpoints.rs** - API endpoint construction
 
 #### Validation & Reporting
 - **validator.rs** - Comprehensive data quality validation and reporting
 - **reporting.rs** - Discovery statistics and progress reporting
-
-#### Utilities & CLI
-- **diagnostics.rs** - Diagnostic utilities
-- **categories.rs** - Category/system code helpers
-- **commands.rs** - CLI command definitions
 
 #### Asset Modules (`extractor/src/assets.rs`)
 - **asset_discovery.rs** + **asset_stats.rs** + **asset_types.rs** - Asset discovery + statistics
@@ -201,32 +215,33 @@ The extractor targets **16 question system codes** defined in [extractor/src/con
 pub struct OrganSystem {
     pub id: String,                    // Two-letter system code (cv, en, fc, cs, etc.)
     pub name: String,                  // Display name
-    pub baseline_2024_count: u32,      // Historical baseline (informational only)
 }
 ```
 
+Discovery metadata in `.checkpoints/discovery_metadata.json` is the source of
+truth for available counts and timestamps. Historical baselines are archived in
+[docs/archive/DEPRECATED_BASELINE_COUNTS.md](docs/archive/DEPRECATED_BASELINE_COUNTS.md).
+
 **System Code Inventory** (16 codes):
 
-| Code | System | Baseline 2024 | Current Extracted |
-|------|--------|---------------|-------------------|
-| cv   | Cardiovascular Medicine | 216 | 240 |
-| en   | Endocrinology and Metabolism | 136 | 160 |
-| fc   | Foundations of Clinical Practice | 0 | 36 |
-| cs   | Common Symptoms | 0 | 98 |
-| gi   | Gastroenterology | 77 | 77 |
-| hp   | Hepatology | 77 | 0 (combined with gi) |
-| hm   | Hematology | 125 | 130 |
-| id   | Infectious Disease | 205 | 215 |
-| in   | Interdisciplinary Medicine | 100 | 0 (combined with dm) |
-| dm   | Dermatology | 99 | 104 |
-| np   | Nephrology | 155 | 160 |
-| nr   | Neurology | 118 | 125 |
-| on   | Oncology | 103 | 108 |
-| pm   | Pulmonary Medicine | 131 | 140 |
-| cc   | Critical Care Medicine | 55 | 54 |
-| rm   | Rheumatology | 131 | 135 |
-
-**Note**: Baseline counts are informational only. Actual question availability is determined via API discovery (HTTP HEAD requests), stored in `.checkpoints/discovery_metadata.json`.
+| Code | System |
+|------|--------|
+| cv   | Cardiovascular Medicine |
+| en   | Endocrinology and Metabolism |
+| fc   | Foundations of Clinical Practice |
+| cs   | Common Symptoms |
+| gi   | Gastroenterology |
+| hp   | Hepatology |
+| hm   | Hematology |
+| id   | Infectious Disease |
+| in   | Interdisciplinary Medicine |
+| dm   | Dermatology |
+| np   | Nephrology |
+| nr   | Neurology |
+| on   | Oncology |
+| pm   | Pulmonary Medicine |
+| cc   | Critical Care Medicine |
+| rm   | Rheumatology |
 
 ### Question ID Pattern
 
@@ -525,9 +540,109 @@ The extractor **doesn't use hardcoded question counts**. Instead, it:
 - **image** (0.24) - Image processing and format detection
 - **blake3** (1.x) - Fast hashing for media deduplication
 
-## Downstream Processing
+## Phase 2: Statement Generator
 
-Downstream formatting (fact extraction, card generation) is outside the current extraction scope.
+Phase 2 extracts testable medical facts from MKSAP questions using LLM-powered analysis. It processes the JSON output from Phase 1 and augments each question with structured flashcard statements.
+
+**Key Features**:
+- 4-phase pipeline: critique extraction → key points extraction → cloze identification → text normalization
+- Multi-provider LLM support (Anthropic API, Claude Code CLI, Gemini CLI, Codex CLI)
+- Evidence-based flashcard design following spaced repetition best practices
+- Non-destructive JSON updates (adds `true_statements` field only)
+- Checkpoint-based resumable processing
+
+**Common Commands** (see [statement_generator/CLAUDE.md](statement_generator/CLAUDE.md) for full reference):
+
+```bash
+# Navigate to statement generator
+cd statement_generator
+
+# Test on 1-2 questions
+python -m src.main process --mode test --system cv
+
+# Test specific question
+python -m src.main process --question-id cvmcq24001
+
+# Production: Process all 2,198 questions
+python -m src.main process --mode production
+
+# Use CLI provider (avoids API costs)
+python -m src.main process --provider claude-code --mode test
+
+# Show statistics
+python -m src.main stats
+```
+
+**Output**: Augments question JSON with structured statements:
+
+```json
+{
+  "question_id": "cvmcq24001",
+  "critique": "...",
+  "key_points": [...],
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "ACE inhibitors are first-line therapy for hypertension in CKD.",
+        "extra_field": "ACE inhibitors reduce proteinuria by decreasing intraglomerular pressure.",
+        "cloze_candidates": ["ACE inhibitors", "chronic kidney disease", "proteinuria"]
+      }
+    ],
+    "from_key_points": [...]
+  }
+}
+```
+
+**For complete Phase 2 documentation**, see [statement_generator/CLAUDE.md](statement_generator/CLAUDE.md).
+
+## Multi-Phase Pipeline Overview
+
+The MKSAP project follows a **4-phase sequential pipeline**:
+
+### Phase 1: Question Extraction (Complete ✅)
+**Technology**: Rust
+**Input**: MKSAP API (https://mksap.acponline.org)
+**Output**: 2,198 structured JSON files (one per question)
+**Documentation**: This file (CLAUDE.md)
+
+**Key Outputs**:
+- question_id, category, critique, key_points
+- question_text, question_stem, options
+- educational_objective, references
+- media files (figures, tables, videos, SVGs)
+
+### Phase 2: Statement Generation (Active 🔄)
+**Technology**: Python 3.9+ with LLM providers
+**Input**: Phase 1 JSON files
+**Output**: Augmented JSONs with `true_statements` field
+**Documentation**: [statement_generator/CLAUDE.md](statement_generator/CLAUDE.md)
+
+**Process**:
+- Extract testable facts from critique
+- Extract facts from key_points
+- Identify cloze deletion candidates (2-5 per statement)
+- Normalize mathematical notation
+
+### Phase 3: Cloze Application (Planned 📋)
+**Technology**: TBD (likely Python)
+**Input**: Phase 2 JSONs with true_statements
+**Output**: Formatted flashcards with [...] blanks applied
+
+**Process**:
+- Apply cloze deletions based on cloze_candidates
+- Generate multiple cards per statement (one per candidate)
+- Preserve extra_field for context
+
+### Phase 4: Anki Export (Planned 📋)
+**Technology**: TBD (Python + genanki or similar)
+**Input**: Phase 3 formatted flashcards
+**Output**: Anki deck (.apkg) with media assets
+
+**Process**:
+- Generate Anki note types
+- Link media files (figures, tables, videos, SVGs)
+- Apply spaced repetition metadata
+- Package into importable deck
 
 ## Common Issues
 
@@ -791,13 +906,23 @@ git commit -m "docs: update module organization in CLAUDE.md"
 
 ## Current Status
 
-**Project Phase**: Phase 1 Complete ✅ - Phase 2 Ready
-**Completion Date**: December 27, 2025
-**Extraction Method**: Discovery-based API extraction
-**Total Questions**: 2,198 valid questions extracted from 16 system codes (invalidated excluded)
-**Validation Status**: Run `./target/release/mksap-extractor validate` for latest metrics
-**Results**: See [PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md)
-**Next Phase**: Phase 2 - Fact Extraction (LLM-based processing)
+**Overall Project**: Multi-phase medical education pipeline
+**Phase 1 (Extractor)**: ✅ Complete - 2,198 questions extracted
+**Phase 2 (Statements)**: 🔄 Active - LLM-based flashcard generation in development
+**Phase 3 (Cloze)**: 📋 Planned - Flashcard formatting
+**Phase 4 (Anki)**: 📋 Planned - Deck export
+
+**Phase 1 Details**:
+- **Completion Date**: December 27, 2025
+- **Extraction Method**: Discovery-based API extraction
+- **Total Questions**: 2,198 across 16 medical specialties
+- **Validation**: Run `./target/release/mksap-extractor validate`
+- **Report**: [PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md)
+
+**Phase 2 Status**:
+- **Implementation**: ~90% complete (see [statement_generator/IMPLEMENTATION_STATUS.md](statement_generator/IMPLEMENTATION_STATUS.md))
+- **Remaining**: Provider testing, validation framework
+- **Documentation**: [statement_generator/CLAUDE.md](statement_generator/CLAUDE.md)
 
 **Check Progress**:
 ```bash
@@ -813,7 +938,8 @@ for dir in mksap_data/*/; do echo "$(basename $dir): $(ls $dir | wc -l)"; done
 
 ---
 
-**Last Updated**: December 27, 2025
-**Project Status**: Phase 1 Complete ✅ - Phase 2 Ready
+**Last Updated**: December 31, 2025
+**Primary Maintainer**: Mitchell
 **Repository**: git@github.com:mitch9727/mksap.git
-**Extraction Results**: 2,198 questions (100% complete) - See [PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md)
+**Phase 1 Status**: ✅ Complete (2,198 questions)
+**Phase 2 Status**: 🔄 Active (statement generator in development)

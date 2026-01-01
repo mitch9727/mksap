@@ -1,12 +1,14 @@
 {
   "question_id": "pmmcq24035",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Diagnose a tuberculous pleural effusion.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 47-year-old woman is evaluated for a 1-month history of fever, cough, pleurisy, and occasional night sweats. She has no other symptoms. The patient immigrated to the United States from India at age 25 years.On physical examination, temperature is 38.9 °C (102.0 °F); other vital signs are normal. Lung auscultation reveals dullness to percussion and decreased breath sounds at the right lung base.Laboratory studies:Lactate dehydrogenase206 U/LH Protein, total6.8 g/dL (68 g/L)Chest radiograph shows a moderate-size right-sided effusion. No other abnormalities are noted.Thoracentesis is performed, with removal of 1 L of straw-colored pleural fluid.Pleural fluid analysis:Total nucleated cell count2500/µL (2.5 × 109/L), with 90% lymphocytespH7.30Lactate dehydrogenase350 U/LProtein, total3.5 g/dL (35 g/L)",
   "question_stem": "Which of the following is the most appropriate next diagnostic step?",
@@ -51,52 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/pmtab24032.html",
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "pmtab24032",
-        "file": "tables/pmtab24032.html",
-        "title": "Sensitivity and Specificity of Criteria for Exudative Pleural Effusion",
-        "short_title": "Criteria for Exudative Pleural Effusion",
-        "footnotes": [
-          "LDH = lactate dehydrogenase; ULN = upper limit of normal.",
-          "Information from Porcel JM, Light RW. Pleural fluid analysis: Are Light's criteria still relevant after half a century? Clin Chest Med. 2021;42:599-609. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34774168\" target=\"_blank\">PMID: 34774168</a> doi:10.1016/j.ccm.2021.07.003"
-        ],
-        "headers": [
-          "Test",
-          "Sensitivity (%)",
-          "Specificity (%)"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      },
-      {
-        "table_id": "inline_table_2",
-        "file": "tables/inline_table_2.html",
-        "title": "Pleural fluid analysis:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.090856-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.494084-06:00"
 }

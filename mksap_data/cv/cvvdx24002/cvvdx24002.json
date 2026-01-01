@@ -1,12 +1,14 @@
 {
   "question_id": "cvvdx24002",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Identify ECG features of left bundle branch block.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 61-year-old man is evaluated following a recent diagnosis of hypertension.ECG is shown.",
   "question_stem": "Which of the following abnormalities is seen on this patient's ECG?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24602.ef852e1f64f56c1b11c7c5c6b08ee799.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24602",
-        "file": "figures/cvfig24602.ef852e1f64f56c1b11c7c5c6b08ee799.jpg",
-        "title": "ECG Showing Left Bundle Branch Block",
-        "short_title": "stem ECG Showing Left Bundle Branch Block",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 512
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.828611-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.829798-06:00"
 }

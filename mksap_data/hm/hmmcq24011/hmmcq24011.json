@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24011",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose β-thalassemia minor.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "An 18-year-old man is evaluated after being deferred from donating blood because of a low hemoglobin level. He has no history of bleeding and feels well. Medical history is unremarkable, and he takes no medications.On physical examination, vital signs and other findings are normal.Laboratory studies:Hemoglobin12 g/dL (120 g/L)LMean corpuscular volume70 fLLLeukocyte count7400/μL (7.4 × 109/L)Platelet count250,000/μL (250 × 109/L)Iron studiesFerritin194 ng/mL (194 μg/L)Iron140 μg/dL (25 μmol/L)Total iron-binding capacity320 μg/dL (57 μmol/L)Transferrin saturation44%Peripheral blood smear reveals microcytic and hypochromic erythrocytes; few target cells are present.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.859157-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.381419-06:00"
 }

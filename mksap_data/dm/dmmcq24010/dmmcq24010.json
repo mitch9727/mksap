@@ -1,12 +1,14 @@
 {
   "question_id": "dmmcq24010",
   "category": "dm",
+  "category_name": "Dermatology",
   "educational_objective": "Diagnose a suspected melanoma.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 47-year-old man is evaluated for a dark mole on his back that has expanded in size over the past several months. The lesion is asymptomatic. He has no history of skin cancer. Medical history is otherwise unremarkable, and he takes no medications.On physical examination, vital signs are normal.An 8-mm flat lesion on the back is shown. It is not indurated or tender to touch.",
   "question_stem": "Which of the following is the most appropriate diagnostic test?",
@@ -52,29 +54,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/dmfig24209.6f2a4e859106555f4d2650db9ede6148.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "dmfig24209",
-        "file": "figures/dmfig24209.6f2a4e859106555f4d2650db9ede6148.jpg",
-        "title": "Melanocytic Lesion",
-        "short_title": "stem Melanocytic Lesion",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 610
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.253765-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.241957-06:00"
 }

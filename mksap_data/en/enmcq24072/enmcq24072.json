@@ -1,12 +1,14 @@
 {
   "question_id": "enmcq24072",
   "category": "en",
+  "category_name": "Endocrinology and Metabolism",
   "educational_objective": "Treat subclinical hyperthyroidism due to toxic multinodular goiter.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 74-year-old woman is evaluated for an enlarged thyroid and abnormal thyroid function. She is asymptomatic. She has osteoporosis, and her medical history is relevant for a right hip replacement after a fall 2 years ago. Medications are alendronate and vitamin D.On physical examination, vital signs are normal. The thyroid gland is enlarged, with bilateral palpable nodules.Laboratory studies:Thyroid-stimulating hormone<0.01 μU/mL (0.01 mU/L)LFree thyroxine1.7 ng/dL (22 pmol/L)Total triiodothyronine175 ng/dL (2.7 nmol/L)Thyrotropin receptor antibodyNegativeThyroid scintigraphy with radioactive iodine uptake reveals bilateral hyperfunctioning nodules with a dominant nodule in the left superior gland.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -51,41 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/enfig24201.5f1f7c5c05d2affeb48d8e756820e694.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "enfig24201",
-        "file": "figures/enfig24201.5f1f7c5c05d2affeb48d8e756820e694.jpg",
-        "title": "Thyroid Scintigraphy in Toxic MNG",
-        "short_title": "MK25ENTURI006 Thyroid Scintigraphy in Toxic MNG",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 774,
-        "height": 819
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:27.259805-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:52.361434-06:00"
 }

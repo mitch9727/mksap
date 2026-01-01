@@ -1,12 +1,14 @@
 {
   "question_id": "cvvdx24044",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Evaluate left ventricular function with point-of-care ultrasonography.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 69-year-old woman is evaluated in the emergency department for a 1-week history of progressive exertional dyspnea and bendopnea. Vital signs are normal. Focused point-of-care cardiac ultrasonography is performed.(Note that there is no sound for this video.)",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24651.2bee101e12788a4b84a5881c36aa31e3.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24651",
-        "file": "figures/cvfig24651.2bee101e12788a4b84a5881c36aa31e3.jpg",
-        "title": "Echocardiogram Showing Reduced Ejection Fraction",
-        "short_title": "critique Echocardiogram Showing Reduced Ejection Fraction",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 413,
-        "height": 554
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.931397-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.946209-06:00"
 }

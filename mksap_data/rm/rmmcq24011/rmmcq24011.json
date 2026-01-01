@@ -1,12 +1,14 @@
 {
   "question_id": "rmmcq24011",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Diagnose Sjögren disease.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 28-year-old woman is evaluated for a 6-month history of oral dryness and eye irritation. She also reports a 1-month history of fatigue and joint pain in her hands that persists throughout the day. Two weeks ago, the Schirmer test result was 3 mm/5 min, and her ophthalmologist prescribed lubricating eye drops. Medical history is otherwise noncontributory. She takes no medications.On physical examination, vital signs are normal. Conjunctival injection is observed bilaterally. Oral examination shows decreased salivary pooling. No skin rashes are noted. Metacarpophalangeal and proximal interphalangeal joints show tenderness to palpation, without synovitis.Laboratory studies:Erythrocyte sedimentation rate44 mm/hHRheumatoid factor28 U/mL (28 kU/L)Antinuclear antibody titer1:320Anti–cyclic citrullinated peptide antibody titerNegativeAnti-La/SSB antibody titer>8 U/L (normal, <1 U/L)HAnti-Ro/SSA antibody titer>8 U/L (normal, <1 U/L)HCryoglobulinsPositiveH",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,58 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/rmtab24030.html",
-      "tables/rmtab24031.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "rmtab24030",
-        "file": "tables/rmtab24030.html",
-        "title": "Extraglandular Clinical Manifestations of Sjögren Disease",
-        "short_title": "Extraglandular Clinical Manifestations of Sjögren Disease",
-        "footnotes": [
-          "CNS = central nervous system."
-        ],
-        "headers": [
-          "Site/Organ",
-          "Manifestation (Frequency)"
-        ]
-      },
-      {
-        "table_id": "rmtab24031",
-        "file": "tables/rmtab24031.html",
-        "title": "ACR/EULAR Classification Criteria for Primary Sjögren Disease<sup>a</sup>",
-        "short_title": "Classification Criteria for Primary Sjögren Disease",
-        "footnotes": [
-          "ACR = American College of Rheumatology; EULAR = European Alliance for Associations of Rheumatology (formerly known as the European League Against Rheumatism).",
-          "<sup>a</sup>Exclusion criteria include previous head/neck radiation and history of active hepatitis C virus infection, AIDS, sarcoidosis, amyloidosis, graft-versus-host disease, and IgG4-related disease.",
-          "From Shiboski CH, Shiboski SC, Seror R, et al; International Sjögren's Syndrome Criteria Working Group. 2016 American College of Rheumatology/European League Against Rheumatism Classification Criteria for Primary Sjögren's Syndrome: a consensus and data-driven methodology involving three international patient cohorts. Arthritis Rheumatol. 2017 Jan;69(1):35-45. doi:10.1002/art.39859. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/27785888\" target=\"_blank\">PMID: 27785888</a>. Copyright 2016, American College of Rheumatology. Adapted with permission from John Wiley &amp; Sons, Inc."
-        ],
-        "headers": [
-          "Presence of subjective finding of Sjögren disease (e.g., sicca) plus any combination of the following resulting in a score of ≥4:",
-          "Item",
-          "Score"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.627383-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:21.781304-06:00"
 }

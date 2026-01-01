@@ -1,12 +1,14 @@
 {
   "question_id": "cvvdx24030",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Identify third-degree heart block on ECG.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 79-year-old woman is evaluated for fatigue and bradycardia.ECG is shown.",
   "question_stem": "Which of the following abnormalities is seen on this patient's ECG?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24636.077a4ce22cb621613eb5497418f20c71.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24636",
-        "file": "figures/cvfig24636.077a4ce22cb621613eb5497418f20c71.jpg",
-        "title": "ECG Showing Third-Degree Heart Block",
-        "short_title": "stem ECG Showing Third-Degree Heart Block",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 322
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.893334-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.907133-06:00"
 }

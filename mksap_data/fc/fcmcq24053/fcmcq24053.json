@@ -1,12 +1,14 @@
 {
   "question_id": "fcmcq24053",
   "category": "fc",
+  "category_name": "Foundations of Clinical Practice",
   "educational_objective": "Manage perioperative anticoagulation.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 65-year-old man is evaluated for anticoagulation management before undergoing elective inguinal hernia repair. He has nonvalvular atrial fibrillation, hypertension, stage G3a chronic kidney disease, and dyslipidemia. His CHA2DS2-VASc score is 2. The risk for bleeding from the planned procedure is low. Medications are metoprolol, apixaban, lisinopril, and rosuvastatin.Physical examination findings, including vital signs, are normal.Laboratory studies:Creatinine1.6 mg/dL (141.4 µmol/L)HCreatinine clearance57 mL/minL",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -52,47 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/fctab24046.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "fctab24046",
-        "file": "tables/fctab24046.html",
-        "title": "Suggested Risk Stratification for Procedural Bleed Risk, Based on ISTH Guidance Statements",
-        "short_title": "Suggested Risk Stratification for Procedural Bleed Risk",
-        "footnotes": [
-          "GI = gastrointestinal; ISTH = International Society on Thrombosis and Haemostasis.",
-          "<sup>a</sup>Minimal to no residual anticoagulant effect at time of procedure (i.e., four to five drug half-life interruptions pre-procedure).",
-          "<sup>b</sup>Includes spinal and epidural anesthesia or any other neuraxial (e.g., pain management) intervention; consider not only absolute risk for major bleeding but potentially devastating consequences of epidural bleeding and associated lower limb paralysis.",
-          "<sup>c</sup>Some residual anticoagulant effect allowed (i.e., two to three drug half-life interruptions pre-procedure).",
-          "<sup>d</sup>Radial approach may be considered minimal-bleed-risk compared with femoral approach.",
-          "<sup>e</sup>Procedure can be safely done under full-dose anticoagulation (may consider holding direct oral anticoagulant dose day of procedure to avoid peak anticoagulant effects).",
-          "Reprinted from Douketis JD, Spyropoulos AC, Murad MH, et al. Perioperative management of antithrombotic therapy: an American College of Chest Physicians clinical practice guideline. Chest. 2022;162:e207-e243. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/35964704\" target=\"_blank\">PMID: 35964704</a> doi:10.1016/j.chest.2022.07.025 ©2022, with permission from Elsevier."
-        ],
-        "headers": [
-          "Bleeding Risk",
-          "Type of Surgery/Procedure"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:27.681528-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:52.850211-06:00"
 }

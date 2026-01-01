@@ -1,12 +1,14 @@
 {
   "question_id": "nrmcq24007",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Treat a seizure provoked by medication.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 37-year-old man is evaluated in the hospital for a first-time generalized tonic-clonic seizure. He was hospitalized 3 days ago for severe pneumonia with sepsis in the setting of chronic immunosuppression for systemic lupus erythematosus. Cefepime, azithromycin, intravenous fluids, and stress-dose hydrocortisone were initiated at hospitalization. Over the initial 72 hours, his fever resolved, and his blood pressure stabilized. Earlier this evening, however, he became confused and agitated and was given haloperidol. His mental status improved, but the seizure occurred 6 hours later. Medical history is significant for systemic lupus erythematosus, end-stage kidney disease treated with hemodialysis, and opioid use disorder. His usual outpatient medications are prednisone, sevelamer, calcium carbonate, and buprenorphine, all of which are being continued in the hospital.On physical examination, vital signs are within normal limits. He is somnolent and opens his eyes to voices but does not follow commands. He moves his limbs spontaneously against gravity and withdraws from noxious stimuli in all limbs. Deep tendon reflexes are reduced throughout.Laboratory studies:Creatinine5.4 mg/dL (477.4 μmol/L) (unchanged from previous)HA complete metabolic panel is otherwise normal.Head CT scan is normal.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -52,43 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nrtab24022.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nrtab24022",
-        "file": "tables/nrtab24022.html",
-        "title": "Clinical Factors Associated With Seizures or Epilepsy",
-        "short_title": "Clinical Factors Associated With Seizures or Epilepsy",
-        "footnotes": [
-          "<sup>a</sup>Can be used in patients with epilepsy, if needed.",
-          "<sup>b</sup>Typically does not trigger seizures in patients without epilepsy and is not considered a provoking factor."
-        ],
-        "headers": [
-          "Seizure-Provoking Factors",
-          "Epilepsy Risk Factors",
-          "Seizure Triggers"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.149450-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.363759-06:00"
 }

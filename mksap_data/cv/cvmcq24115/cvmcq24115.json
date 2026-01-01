@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq24115",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Treat newly diagnosed atrial fibrillation.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 60-year-old man is evaluated during a routine follow-up visit. He feels well and has no concerns. He has sleep apnea, hypertension, and chronic kidney disease. Medications are lisinopril, amlodipine, and furosemide.On physical examination, blood pressure is 155/100 mm Hg and pulse rate is 123/min. Cardiopulmonary examination reveals clear lungs and irregular tachycardia.Laboratory studies:Creatinine2.1 mg/dL (185.6 μmol/L)HResults of other laboratory studies, including thyroid-stimulating hormone level, are all normal.ECG shows atrial fibrillation (123/min). Transthoracic echocardiogram reveals a slightly enlarged left atrium, normal left ventricular size and function, and no significant valvular disease.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.706449-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.680951-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "idvdx24053",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Diagnose invasive aspergillosis on a CT scan of the chest.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 54-year-old man develops fever unresponsive to antibiotic therapy. He has prolonged neutropenia following chemotherapy.CT scan of the chest is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/idfig24660.aa5b9a4b276aa661bbe45f95de9460ae.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "idfig24660",
-        "file": "figures/idfig24660.aa5b9a4b276aa661bbe45f95de9460ae.jpg",
-        "title": "Chest CT Scan Demonstrating a Halo Sign",
-        "short_title": "Halo Sign on Chest CT Scan",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 368,
-        "height": 287
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.793874-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.681280-06:00"
 }

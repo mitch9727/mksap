@@ -1,12 +1,14 @@
 {
   "question_id": "nrmcq24062",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Prevent episodic migraine.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 42-year-old woman is evaluated for headaches occurring 10 to 12 days each month. Headaches began at 32 years of age and have gradually become more frequent. Most begin with 30 minutes of left hemifield “flashes” with subsequent onset of simultaneous severe left frontal throbbing headache lasting 2 to 3 days. Occasionally the headaches are preceded by 12 to 24 hours of fatigue and yawning. Afterward, she feels fatigued and “achy” for another day. Stress, menses, and ovulation are triggers. Over the past year, she also developed sporadic, brief stabbing pains in her right temple lasting a few seconds and occurring randomly several times each month. Previous treatments with amitriptyline and metoprolol have been unhelpful. Medical history is otherwise unremarkable. Medications are naproxen, acetaminophen, and sumatriptan.Vital signs and physical examination findings are normal.Brain MRI shows white matter intensities on fluid-attenuated inversion recovery images. T1-weighted MRI shows no hypointensity.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -52,36 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nrtab24008.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nrtab24008",
-        "file": "tables/nrtab24008.html",
-        "title": "Preventive Migraine Therapies<sup>a</sup>",
-        "short_title": "Preventive Migraine Therapies",
-        "footnotes": [
-          "<sup>a</sup>Guidelines from the American College of Physicians recommend propranolol, metoprolol, amitriptyline, venlafaxine, and valproate as first-line choices for prevention of episodic migraine.",
-          "<sup>b</sup>Grade A indicates very strong evidence based on well-designed prospective, randomized, controlled clinical trials. Grade B indicates fairly strong evidence based on case-control or cohort studies or clinical trials lacking one or more of the previously listed features."
-        ],
-        "headers": [
-          "Drug",
-          "Migraine Type (Evidence Levelb)",
-          "Nonspecific Agents",
-          "Migraine-Specific Parenteral Agents",
-          "Migraine-Specific Oral Agents"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.306863-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.527582-06:00"
 }

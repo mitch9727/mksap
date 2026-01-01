@@ -1,12 +1,14 @@
 {
   "question_id": "idvdx24020",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Diagnose neurocysticercosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 40-year-old man who recently emigrated from Argentina is evaluated for several weeks of headache, nausea and vomiting, and new-onset seizures.MRIs of the brain are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/idfig24623.27cac4c328d8c31193f9de7d091dc2bd.jpg",
-      "figures/idfig24624.868280480efd9cca7cb6639f5a8c5460.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "idfig24623",
-        "file": "figures/idfig24623.27cac4c328d8c31193f9de7d091dc2bd.jpg",
-        "title": "MRI Findings in Neurocysticercosis Image 1",
-        "short_title": "MRI in Neurocysticercosis 1",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 938
-      },
-      {
-        "figure_id": "idfig24624",
-        "file": "figures/idfig24624.868280480efd9cca7cb6639f5a8c5460.jpg",
-        "title": "MRI Findings in Neurocysticercosis Image 1",
-        "short_title": "MRI in Neurocysticercosis 2",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 938
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.696984-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.579288-06:00"
 }

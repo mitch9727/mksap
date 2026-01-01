@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24076",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Manage erythropoiesis-stimulating agents in patients with anemia and dialysis-dependent end-stage kidney disease.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 62-year-old patient is evaluated during a follow-up visit for end-stage kidney disease due to hypertension. They have received maintenance hemodialysis for the past 2 years and remain stable. They also have coronary artery disease. Medications are intravenous erythropoietin, amlodipine, metoprolol, lisinopril, clonidine, aspirin, and isosorbide mononitrate.On physical examination, blood pressure is 138/78 mm Hg; other vital signs are normal. The remainder of the physical examination is unremarkable.Laboratory studies:Hemoglobin14.5 g/dL (145 g/L)Ferritin695 ng/mL (695 µg/L)HIron120 µg/dL (22 µmol/L)",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.819087-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.940937-06:00"
 }

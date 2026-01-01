@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24067",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose tubulointerstitial nephritis with uveitis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 20-year-old woman is evaluated for a 3-day history of bilateral eye pain and blurry vision. She also reports subjective fever, headache, a 3.6-kg (8.0-lb) weight loss, and body aches during the past 2 weeks. Three weeks ago, she was treated with amoxicillin for an upper respiratory infection. She reports no sick contacts. She has no other medical problems and takes no medications.On physical examination, blood pressure is 148/96 mm Hg; other vital signs are normal. Bilateral conjunctival injection is noted. The remainder of the examination is normal.Laboratory studies:Hemoglobin11 g/dL (110 g/L)LAlanine aminotransferase58 U/LHAspartate aminotransferase70 U/mLHC-reactive protein5.0 mg/dL (50 mg/L)HCreatinine2.8 mg/dL (247.5 µmol/L)HRheumatoid factor80 U/mL (80 kU/L)HUrinalysisSpecific gravity 1.010; trace protein; no blood or nitrites; positive leukocyte esterase; 5-10 leukocytes/hpf",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -51,39 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nptab24029.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nptab24029",
-        "file": "tables/nptab24029.html",
-        "title": "Urinalysis and Microscopy in Acute Kidney Injury",
-        "short_title": "Urinalysis and Microscopy in Acute Kidney Injury",
-        "footnotes": [],
-        "headers": [
-          "Condition",
-          "Findings"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.782061-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.906391-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24018",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose hereditary nephritis (Alport syndrome).",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 28-year-old woman is evaluated for persistent microscopic hematuria without proteinuria. Family history is significant for end-stage kidney disease in her older brother, who underwent kidney transplantation at age 32 years, and in a maternal uncle, who started dialysis at age 30 years and underwent kidney transplantation. Her mother has microscopic hematuria but normal kidney function. Her younger brother and older sister have no known kidney abnormalities. The patient has no other symptoms or medical conditions and takes no medications.Physical examination findings, including vital signs, are normal.Laboratory studies:Creatinine0.7 mg/dL (61.9 µmol/L)Urinalysis2+ blood; no protein, leukocytes, or leukocyte esterase; and 10-20 erythrocytes/hpfKidney ultrasound shows normal-sized, echogenic kidneys with no cysts, masses, or stones.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.641370-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.758349-06:00"
 }

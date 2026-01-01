@@ -1,12 +1,14 @@
 {
   "question_id": "hmvdx24003",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose chronic myeloid leukemia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 60-year-old woman is evaluated after a leukocyte count of 55,000/µL (55 × 109/L) was found incidentally on a routine complete blood count.Peripheral blood smear is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/hmfig24603.8d06c61788ea3d5a72234bf79ad937be.jpg",
-      "figures/hmfig24604.3985f49b5ece8d96209ba355a9b52cac.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "hmfig24603",
-        "file": "figures/hmfig24603.8d06c61788ea3d5a72234bf79ad937be.jpg",
-        "title": "Stem Peripheral Blood Smear With Findings of Chronic Myeloid Leukemia",
-        "short_title": "PBS in Chronic Myeloid Leukemia Stem",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 675
-      },
-      {
-        "figure_id": "hmfig24604",
-        "file": "figures/hmfig24604.3985f49b5ece8d96209ba355a9b52cac.jpg",
-        "title": "Critique Peripheral Blood Smear With Findings of Chronic Myeloid Leukemia",
-        "short_title": "PBS in Chronic Myeloid Leukemia Critique",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 675
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.083171-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.685015-06:00"
 }

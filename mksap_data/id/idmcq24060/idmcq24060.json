@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24060",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Choose empiric treatment for bacterial meningitis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 38-year-old man is evaluated in the emergency department for a 24-hour history of fever, headache, stiff neck, and altered mental status. He has no underlying medical conditions and no drug allergies.On physical examination, temperature is 39.0 °C (102.2 °F), blood pressure is 140/82 mm Hg, pulse rate is 102/min, and respiration rate is 18/min. He is obtunded. Neurologic examination shows no focal abnormalities.CT scan without contrast is normal.Results of a lumbar puncture are pending.",
   "question_stem": "In addition to adjunctive dexamethasone, which of the following is the most appropriate therapy?",
@@ -51,34 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/idtab24002.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "idtab24002",
-        "file": "tables/idtab24002.html",
-        "title": "Empiric Treatment of Bacterial Meningitis",
-        "short_title": "Bacterial Meningitis Empiric Treatment",
-        "footnotes": [
-          "IV = intravenous.",
-          "<sup>a</sup>Adjunctive dexamethasone should be given concomitantly with or just before the first dose of antibiotic therapy and should be continued for 4 days in adult patients with <i>Streptococcus pneumoniae</i> meningitis. Emerging data suggest that dexamethasone may be beneficial in nonpneumococcal community-acquired bacterial meningitis as well.",
-          "<sup>b</sup>In countries with <i>S. pneumoniae</i> ceftriaxone resistance rate &gt;1%, such as the United States."
-        ],
-        "headers": [
-          "Clinical Characteristics",
-          "Empiric Antibiotic Regimena"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.429213-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.174560-06:00"
 }

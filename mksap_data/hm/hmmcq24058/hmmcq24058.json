@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24058",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Treat venous thromboembolism in a patient with high-risk antiphospholipid antibody syndrome.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 32-year-old woman undergoes follow-up evaluation for recurrent venous thromboembolism. Eighteen months ago, she was diagnosed with deep venous thrombosis of the left leg, for which she received 3 months of anticoagulation with apixaban. Four months ago, she had a pulmonary embolism, and warfarin was started. Laboratory testing at that time was positive for lupus anticoagulant, high-titer IgG anticardiolipin antibodies, and anti-β2-glycoprotein antibodies. She has no family history of thrombosis. Her only medication is warfarin.On physical examination, vital signs and other findings are normal.Laboratory studies:INR2.7Repeat testing shows a persistently positive lupus anticoagulant and high-titer IgG anticardiolipin and anti-β2-glycoprotein antibodies.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -52,44 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/hmtab24041.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "hmtab24041",
-        "file": "tables/hmtab24041.html",
-        "title": "Diagnosis of Antiphospholipid Antibody Syndrome<sup>a</sup>",
-        "short_title": "Diagnosis of Antiphospholipid Antibody Syndrome",
-        "footnotes": [
-          "VTE = venous thromboembolism.",
-          "<sup>a</sup>Diagnosis is based on the presence of clinical OR obstetric criteria PLUS relevant laboratory criteria; multiple minor criteria may also satisfy clinical, obstetric, and laboratory criteria (only major criteria listed).",
-          "Data from Barbhaiya M, Zuily S, Naden R, et al; ACR/EULAR APS Classification Criteria Collaborators. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. Arthritis Rheumatol. 2023;75:1687-1702. PMID: 37635643 doi:10.1002/art.42624"
-        ],
-        "headers": [
-          "Major Clinical Criteria",
-          "Obstetric Criteria",
-          "Laboratory Criteria"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.001917-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.549495-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "cvvdx24034",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Evaluate for abdominal aortic aneurysm using point-of-care ultrasonography.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 65-year-old man undergoes screening for abdominal aortic aneurysm. He has a history of smoking. Focused ultrasonography is performed, with the transducer placed just above the umbilicus.",
   "question_stem": "Which of the following is the most appropriate interpretation of this study regarding an abdominal aortic aneurysm?",
@@ -45,41 +47,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24640.27a2e31cc68179b4d84063bd3498fadd.jpg",
-      "figures/cvfig24641.93f86e31ccc72d760033c43a8146bd22.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24640",
-        "file": "figures/cvfig24640.27a2e31cc68179b4d84063bd3498fadd.jpg",
-        "title": "Echocardiogram Showing Normal Abdominal Aorta",
-        "short_title": "stem Echocardiogram Showing Normal Abdominal Aorta",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 797,
-        "height": 514
-      },
-      {
-        "figure_id": "cvfig24641",
-        "file": "figures/cvfig24641.93f86e31ccc72d760033c43a8146bd22.jpg",
-        "title": "Echocardiogram Showing Normal Abdominal Aorta",
-        "short_title": "critique Echocardiogram Showing Normal Abdominal Aorta",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 797,
-        "height": 558
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.920105-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.920641-06:00"
 }

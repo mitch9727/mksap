@@ -1,12 +1,14 @@
 {
   "question_id": "hmcor25001",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose medication-induced neutropenia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 28-year-old woman is hospitalized for surgical repair of a comminuted ankle fracture sustained in a motorized scooter accident. Medical history is significant for recurrent urinary tract infections, for which she has been taking daily prophylactic trimethoprim-sulfamethoxazole for the past 3 months. She has no other chronic conditions and takes no other medications. She consumes a vegetarian diet.On physical examination, vital signs are normal. Her right ankle is ecchymotic and swollen. The remainder of the examination is normal.Laboratory studies:Hemoglobin13.9 g/dL (139 g/L)Leukocyte count2300/μL (2.3 × 109/L) (20% neutrophils, 72% lymphocytes, 8% monocytes)LAbsolute neutrophil count460/μL (0.46 × 109/L)LMean corpuscular volume92 fLPlatelet count302,000/μL (302 × 109/L)Complete blood count 1 year ago was normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.777395-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.271026-06:00"
 }

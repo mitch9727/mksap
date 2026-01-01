@@ -1,12 +1,14 @@
 {
   "question_id": "npqqq24001",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose hepatorenal syndrome.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 57-year-old man is hospitalized for spontaneous bacterial peritonitis. Vital signs on hospitalization are normal. Treatment with intravenous antibiotics and albumin infusions is initiated. He has cirrhosis. Other medications are furosemide, spironolactone, and lactulose.On day 2, he is oliguric; diuretics are stopped. Urine sediment is bland. Kidney ultrasound is normal.Laboratory studies (hospital day 2):Creatinine2.1 mg/dL (186 µmol/L)H Creatinine on hospitalization0.6 mg/dL (53 µmol/L)LUrine sodium3 mEq/L (3 mmol/L)Fractional excretion of sodium0.5%On day 4, his serum creatinine level continues to rise after 2 days of additional albumin infusions.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies (hospital day 2):",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.906591-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.062358-06:00"
 }

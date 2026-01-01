@@ -1,78 +1,120 @@
 {
   "version": "1.0.0",
-  "last_updated": "2025-12-26T17:31:33.815517+00:00",
+  "last_updated": "2026-01-01T04:53:21.940061+00:00",
   "systems": [
     {
-      "system_code": "cv",
-      "discovered_count": 240,
-      "discovery_timestamp": "2025-12-26T06:59:31.516359+00:00",
+      "system_code": "cc",
+      "discovered_count": 55,
+      "discovery_timestamp": "2025-12-26T17:49:19.208229+00:00",
       "candidates_tested": 23976,
-      "hit_rate": 0.01001001001001001,
+      "hit_rate": 0.0022939606272939605,
       "question_types_found": [
+        "cor",
         "mcq",
         "qqq",
-        "cor",
-        "vdx"
-      ]
-    },
-    {
-      "system_code": "en",
-      "discovered_count": 160,
-      "discovery_timestamp": "2025-12-26T07:00:39.563983+00:00",
-      "candidates_tested": 23976,
-      "hit_rate": 0.00667334000667334,
-      "question_types_found": [
-        "mcq",
-        "qqq",
-        "cor",
         "vdx"
       ]
     },
     {
       "system_code": "cs",
       "discovered_count": 98,
-      "discovery_timestamp": "2025-12-26T07:01:45.616693+00:00",
+      "discovery_timestamp": "2026-01-01T04:46:20.746035+00:00",
       "candidates_tested": 23976,
       "hit_rate": 0.004087420754087421,
       "question_types_found": [
-        "qqq",
         "cor",
         "mcq",
+        "qqq",
+        "sq",
+        "vdx"
+      ]
+    },
+    {
+      "system_code": "cv",
+      "discovered_count": 240,
+      "discovery_timestamp": "2026-01-01T04:42:49.734053+00:00",
+      "candidates_tested": 23976,
+      "hit_rate": 0.01001001001001001,
+      "question_types_found": [
+        "cor",
+        "mcq",
+        "qqq",
+        "vdx"
+      ]
+    },
+    {
+      "system_code": "dm",
+      "discovered_count": 113,
+      "discovery_timestamp": "2026-01-01T04:28:52.794361+00:00",
+      "candidates_tested": 23976,
+      "hit_rate": 0.004713046379713046,
+      "question_types_found": [
+        "cor",
+        "mcq",
+        "mqq",
+        "qqq",
+        "vdx"
+      ]
+    },
+    {
+      "system_code": "en",
+      "discovered_count": 160,
+      "discovery_timestamp": "2026-01-01T04:44:00.606919+00:00",
+      "candidates_tested": 23976,
+      "hit_rate": 0.00667334000667334,
+      "question_types_found": [
+        "cor",
+        "mcq",
+        "qqq",
+        "vdx"
+      ]
+    },
+    {
+      "system_code": "fc",
+      "discovered_count": 132,
+      "discovery_timestamp": "2026-01-01T04:45:11.698442+00:00",
+      "candidates_tested": 23976,
+      "hit_rate": 0.0055055055055055055,
+      "question_types_found": [
+        "cor",
+        "mcq",
+        "qqq",
         "vdx"
       ]
     },
     {
       "system_code": "gi",
       "discovered_count": 125,
-      "discovery_timestamp": "2025-12-26T07:02:51.402334+00:00",
+      "discovery_timestamp": "2026-01-01T04:47:29.618084+00:00",
       "candidates_tested": 23976,
       "hit_rate": 0.0052135468802135465,
       "question_types_found": [
-        "mcq",
         "cor",
-        "vdx",
-        "qqq"
-      ]
-    },
-    {
-      "system_code": "hp",
-      "discovered_count": 53,
-      "discovery_timestamp": "2025-12-26T07:03:58.457945+00:00",
-      "candidates_tested": 23976,
-      "hit_rate": 0.002210543877210544,
-      "question_types_found": [
-        "qqq",
-        "vdx",
         "mcq",
-        "cor"
+        "qqq",
+        "vdx"
       ]
     },
     {
       "system_code": "hm",
       "discovered_count": 149,
-      "discovery_timestamp": "2025-12-26T15:44:24.170124+00:00",
+      "discovery_timestamp": "2026-01-01T04:49:51.842227+00:00",
       "candidates_tested": 23976,
       "hit_rate": 0.0062145478812145475,
+      "question_types_found": [
+        "cor",
+        "mcq",
+        "mqq",
+        "qqq",
+        "vdx"
+      ]
+    },
+    {
+      "system_code": "hp",
+      "discovered_count": 53,
+      "discovery_timestamp": "2026-01-01T04:48:40.985452+00:00",
+      "candidates_tested": 23976,
+      "hit_rate": 0.002210543877210544,
       "question_types_found": [
         "cor",
         "mcq",
@@ -83,59 +125,46 @@
     {
       "system_code": "id",
       "discovered_count": 229,
-      "discovery_timestamp": "2025-12-26T15:45:33.615981+00:00",
+      "discovery_timestamp": "2026-01-01T04:26:19.791672+00:00",
       "candidates_tested": 23976,
       "hit_rate": 0.009551217884551218,
       "question_types_found": [
+        "cor",
         "mcq",
         "qqq",
-        "vdx",
-        "cor"
+        "vdx"
       ]
     },
     {
       "system_code": "in",
       "discovered_count": 110,
-      "discovery_timestamp": "2025-12-26T15:46:41.411041+00:00",
+      "discovery_timestamp": "2026-01-01T04:27:35.424848+00:00",
       "candidates_tested": 23976,
       "hit_rate": 0.004587921254587921,
       "question_types_found": [
+        "cor",
         "mcq",
         "qqq",
-        "cor",
         "vdx"
-      ]
-    },
-    {
-      "system_code": "dm",
-      "discovered_count": 113,
-      "discovery_timestamp": "2025-12-26T15:47:48.642423+00:00",
-      "candidates_tested": 23976,
-      "hit_rate": 0.004713046379713046,
-      "question_types_found": [
-        "qqq",
-        "vdx",
-        "cor",
-        "mcq"
       ]
     },
     {
       "system_code": "np",
       "discovered_count": 179,
-      "discovery_timestamp": "2025-12-26T15:48:56.195364+00:00",
+      "discovery_timestamp": "2026-01-01T04:30:06.496446+00:00",
       "candidates_tested": 23976,
       "hit_rate": 0.007465799132465799,
       "question_types_found": [
-        "qqq",
-        "mcq",
         "cor",
+        "mcq",
+        "qqq",
         "vdx"
       ]
     },
     {
       "system_code": "nr",
       "discovered_count": 142,
-      "discovery_timestamp": "2025-12-26T15:50:05.151955+00:00",
+      "discovery_timestamp": "2026-01-01T04:31:20.589774+00:00",
       "candidates_tested": 23976,
       "hit_rate": 0.005922589255922589,
       "question_types_found": [
@@ -148,66 +177,42 @@
     {
       "system_code": "on",
       "discovered_count": 127,
-      "discovery_timestamp": "2025-12-26T15:51:14.546740+00:00",
+      "discovery_timestamp": "2025-12-26T17:49:19.209090+00:00",
       "candidates_tested": 23976,
       "hit_rate": 0.005296963630296964,
       "question_types_found": [
-        "qqq",
-        "vdx",
         "cor",
-        "mcq"
+        "mcq",
+        "qqq",
+        "vdx"
       ]
     },
     {
       "system_code": "pm",
       "discovered_count": 131,
-      "discovery_timestamp": "2025-12-26T15:52:23.558965+00:00",
+      "discovery_timestamp": "2025-12-26T17:49:19.209136+00:00",
       "candidates_tested": 23976,
       "hit_rate": 0.005463797130463797,
       "question_types_found": [
         "cor",
+        "mcq",
+        "mqq",
         "qqq",
-        "mcq",
         "vdx"
-      ]
-    },
-    {
-      "system_code": "cc",
-      "discovered_count": 55,
-      "discovery_timestamp": "2025-12-26T15:53:33.521828+00:00",
-      "candidates_tested": 23976,
-      "hit_rate": 0.0022939606272939605,
-      "question_types_found": [
-        "cor",
-        "mcq",
-        "vdx",
-        "qqq"
       ]
     },
     {
       "system_code": "rm",
       "discovered_count": 155,
-      "discovery_timestamp": "2025-12-26T15:54:42.155676+00:00",
+      "discovery_timestamp": "2025-12-26T17:49:19.209181+00:00",
       "candidates_tested": 23976,
       "hit_rate": 0.006464798131464798,
       "question_types_found": [
-        "qqq",
-        "vdx",
-        "mcq",
-        "cor"
-      ]
-    },
-    {
-      "system_code": "fc",
-      "discovered_count": 132,
-      "discovery_timestamp": "2025-12-26T17:31:33.815118+00:00",
-      "candidates_tested": 23976,
-      "hit_rate": 0.0055055055055055055,
-      "question_types_found": [
-        "vdx",
-        "mcq",
         "cor",
-        "qqq"
+        "mcq",
+        "mqq",
+        "qqq",
+        "vdx"
       ]
     }
   ]

@@ -1,12 +1,14 @@
 {
   "question_id": "hpmcq24032",
   "category": "hp",
+  "category_name": "Hepatology",
   "educational_objective": "Diagnose primary sclerosing cholangitis in a patient with inflammatory bowel disease.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 32-year-old man is evaluated for new onset of mild pruritis. He reports no jaundice, abdominal pain, fevers, or chills. He has ulcerative pancolitis. He takes mesalamine.Physical examination findings, including vital signs, are normal.Laboratory studies:Albumin4.1 g/dL (41 g/L)Alkaline phosphatase388 U/LH1 year ago: 221 U/LHAlanine aminotransferase42 U/LHAspartate aminotransferase54 U/LHBilirubinTotal1.2 mg/dL (20.5 µmol/L)Direct0.7 mg/dL (11.9 µmol/L)H",
   "question_stem": "Which of the following is the most appropriate diagnostic test?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.694417-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.160088-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "cvvdx24001",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Identify multifocal atrial tachycardia on ECG.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 63-year-old woman is admitted to the ICU with respiratory failure.ECG is shown.",
   "question_stem": "Which of the following abnormalities is demonstrated on this patient's ECG?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24600.81ba3a7721c54761709958e74253b348.jpg",
-      "figures/cvfig24601.8d41310de07e096623893e2378f75def.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24600",
-        "file": "figures/cvfig24600.81ba3a7721c54761709958e74253b348.jpg",
-        "title": "ECG Showing Multifocal Atrial Tachycardia",
-        "short_title": "stem ECG Showing Multifocal Atrial Tachycardia",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 752,
-        "height": 342
-      },
-      {
-        "figure_id": "cvfig24601",
-        "file": "figures/cvfig24601.8d41310de07e096623893e2378f75def.jpg",
-        "title": "ECG Showing Multifocal Atrial Tachycardia With Arrows",
-        "short_title": "critique ECG Showing MAT With Arrows",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 409
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.820901-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.823929-06:00"
 }

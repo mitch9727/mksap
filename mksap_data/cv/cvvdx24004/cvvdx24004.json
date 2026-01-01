@@ -1,12 +1,14 @@
 {
   "question_id": "cvvdx24004",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Identify atrial fibrillation on ECG.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 59-year-old man is evaluated following a transient ischemic attack.ECG is shown.",
   "question_stem": "Which of the following abnormalities is demonstrated on this patient's ECG?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24604.ab3b6202374d4dda3febed54d171ede0.png"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24604",
-        "file": "figures/cvfig24604.ab3b6202374d4dda3febed54d171ede0.png",
-        "title": "ECG Showing Atrial Fibrillation",
-        "short_title": "stem ECG Showing Atrial Fibrillation",
-        "number": null,
-        "footnotes": [],
-        "extension": "png",
-        "width": 600,
-        "height": 308
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.838115-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.843122-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "nrvdx24016",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Diagnose subarachnoid hemorrhage.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 54-year-old woman is evaluated for unresponsiveness following onset of a thunderclap headache.CT angiogram is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/nrfig24618.ef53ab5624fdf6a71ceeaff4362155b8.jpg",
-      "figures/nrfig24619.7392c7f389367a7be75985fca366c28b.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "nrfig24618",
-        "file": "figures/nrfig24618.ef53ab5624fdf6a71ceeaff4362155b8.jpg",
-        "title": "CT Angiogram Showing Subarachnoid Hemorrhage",
-        "short_title": "stem CT Angiogram Showing Subarachnoid Hemorrhage",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 351,
-        "height": 380
-      },
-      {
-        "figure_id": "nrfig24619",
-        "file": "figures/nrfig24619.7392c7f389367a7be75985fca366c28b.jpg",
-        "title": "CT Angiogram Showing Subarachnoid hemorrhage",
-        "short_title": "critique CT Angiogram Showing Subarachnoid hemorrhage",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 351,
-        "height": 380
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.516936-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.734873-06:00"
 }

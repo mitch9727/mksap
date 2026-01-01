@@ -1,12 +1,14 @@
 {
   "question_id": "nrvdx24019",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Identify a subdural hematoma on neuroimaging.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 47-year-old man is evaluated after a fall from a ladder with resultant head trauma. He is unresponsive. Head CT is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/nrfig24623.86e42b16201d5d7c0915c0c0a680847e.jpg",
-      "figures/nrfig24624.34360ceca7027ad180d6ba000af73ed9.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "nrfig24623",
-        "file": "figures/nrfig24623.86e42b16201d5d7c0915c0c0a680847e.jpg",
-        "title": "CT Scan Showing Subdural Hematoma",
-        "short_title": "stem CT Scan Showing Subdural Hematoma",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 891
-      },
-      {
-        "figure_id": "nrfig24624",
-        "file": "figures/nrfig24624.34360ceca7027ad180d6ba000af73ed9.jpg",
-        "title": "CT Scan Showing Subdural Hematoma",
-        "short_title": "critique CT Scan Showing Subdural Hematoma",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 891
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.546020-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.741041-06:00"
 }

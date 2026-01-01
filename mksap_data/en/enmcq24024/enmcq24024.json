@@ -1,12 +1,14 @@
 {
   "question_id": "enmcq24024",
   "category": "en",
+  "category_name": "Endocrinology and Metabolism",
   "educational_objective": "Confirm adrenal insufficiency with an adrenocorticotropic hormone stimulation test.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 38-year-old woman is evaluated in the hospital for lightheadedness. She has also had 6 months of progressive weight loss, nausea, and fatigue. Medical history is significant for primary hypothyroidism, treated with levothyroxine. Family history is notable for Graves disease in her mother and a sister with type 1 diabetes mellitus.On physical examination, the patient appears ill and thin. Blood pressure is 100/65 mm Hg supine and 82/45 mm Hg standing. Pulse rate is 91/min supine and 110/min standing. Other vital signs are normal. BMI is 19. Mucous membranes are dry. Darkening along the palmar creases is seen on both hands.Laboratory studies:Sodium132 mEq/L (132 mmol/L)LPotassium5.5 mEq/L (5.5 mmol/L)H8 am cortisol 5 μg/dL (138 nmol/L)Thyroid-stimulating hormone2.5 µU/mL (2.5 mU/L)",
   "question_stem": "Which of the following is the most appropriate test to confirm the diagnosis?",
@@ -51,47 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/entab24039.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "entab24039",
-        "file": "tables/entab24039.html",
-        "title": "Clinical and Laboratory Manifestations of Primary Adrenal Insufficiency",
-        "short_title": "Manifestations of Primary Adrenal Insufficiency",
-        "footnotes": [
-          "ACTH = adrenocorticotropic hormone; DHEAS = dehydroepiandrosterone sulfate; PRA = plasma renin activity.",
-          "<sup>a</sup>Occurs exclusively in primary adrenal failure.",
-          "<sup>b</sup>Cortisol inhibits secretion of antidiuretic hormone (ADH), so hypocortisolemia leads to increased secretion of ADH and hyponatremia.",
-          "<sup>c</sup>Rare in adults.",
-          "<sup>d</sup>Women only."
-        ],
-        "headers": [
-          "Hormone Deficiency",
-          "Symptoms",
-          "Signs",
-          "Laboratory Findings"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:27.135484-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:52.203107-06:00"
 }

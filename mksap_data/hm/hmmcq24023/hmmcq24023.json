@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24023",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Treat warm autoimmune hemolytic anemia with erythrocyte transfusion.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 64-year-old man is hospitalized for a 2-week history of dyspnea on exertion and intermittent chest pain. Medical history is significant for hypertension and coronary artery disease. Medications are aspirin, atorvastatin, metoprolol, and lisinopril.On physical examination, blood pressure is 92/60 mm Hg and pulse rate is 115/min. Remaining vital signs are normal. Conjunctivae are pale. The patient's skin is jaundiced. Cardiac examination reveals regular tachycardia. The remainder of the examination is normal.Laboratory studies:Hematocrit19%LHemoglobin6.2 g/dL (62 g/L)LLeukocyte count9200/µL (9.2 × 109/L)Platelet count238,000/µL (238 × 109/L)Reticulocyte count7.5% of erythrocytesHBilirubinTotal4.3 mg/dL (73.5 µmol/L)HDirect0.3 mg/dL (5.1 µmol/L)Haptoglobin<50 mg/dL (500 mg/L)LLactate dehydrogenase502 U/LHHigh-sensitivity cardiac troponinNormal (<99th percentile upper reference limit)A direct antiglobulin test is strongly positive for anti-IgG and weakly reactive for anticomplement. The indirect antiglobulin test is positive against all available erythrocyte units.Peripheral blood smear reveals spherocytes.ECG is unchanged from previous examination.Intravenous methylprednisolone is administered.",
   "question_stem": "Which of the following is the most appropriate additional immediate management?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.896579-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.419645-06:00"
 }

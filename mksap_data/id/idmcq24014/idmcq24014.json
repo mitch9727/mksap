@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24014",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Manage catheter-associated bacteriuria.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 64-year-old woman is evaluated in the hospital for a fever she developed following coronary artery bypass graft surgery 4 days ago. She has an indwelling urinary catheter that was inserted in the operating room before surgery. A single episode of fever occurred 2 days ago, with a temperature of 38.4 °C (101.1 °F), and a urine specimen was sent for urinalysis and culture. Medications are aspirin, clopidogrel, metoprolol, and atorvastatin.On physical examination, temperature is 37.3 °C (99.1 °F). Minimal erythema is seen from the sternal incision site, without drainage. No suprapubic tenderness or flank pain is noted.Laboratory studies:Leukocyte count8700/µL (8.7 × 109/L)Urinalysis with microscopyPositive for leukocyte esterase and nitrites; 21 leukocytes/hpfUrine culture grows 103 colony-forming units/mL of pan-sensitive Escherichia coli.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.305363-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.974127-06:00"
 }

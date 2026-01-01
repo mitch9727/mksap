@@ -1,12 +1,14 @@
 {
   "question_id": "rmmcq24066",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Diagnose acute calcium pyrophosphate crystal arthritis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 69-year-old patient is evaluated in the emergency department for 1 day of progressive pain and swelling of the left knee. They have hypertension treated with daily hydrochlorothiazide.On physical examination, temperature is 37.3 °C (99.2 °F); other vital signs are normal. The left knee is warm, red, tender, and swollen. The joint has limited range of motion due to pain. The remainder of the examination is normal.Laboratory studies:Erythrocyte sedimentation rate62 mm/hHLeukocyte count12,300/μL (12.3 × 109/L)HUrate8.3 mg/dL (0.50 mmol/L)HThe left knee is aspirated, and 20 mL of cloudy yellow fluid is removed. Synovial fluid analysis shows a leukocyte count of 22,000/μL (22 × 109/L), with 83% neutrophils, and rhomboid-shaped, positively birefringent crystals under polarizing microscopy, including intracellularly in neutrophils. Gram stain is negative; culture is pending.Radiographs of the knees show mild medial compartment narrowing, with small osteophytes and faint calcification in the menisci bilaterally.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -51,41 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/rmfig24208.b2fffad296040311412fa131199b1a17.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "rmfig24208",
-        "file": "figures/rmfig24208.b2fffad296040311412fa131199b1a17.jpg",
-        "title": "Photomicrograph of Calcium Pyrophosphate Crystals",
-        "short_title": "critique Calcium Pyrophosphate Crystals",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 816
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.757656-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:21.934464-06:00"
 }

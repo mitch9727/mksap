@@ -51,7 +51,7 @@ impl MKSAPExtractor {
 
         while let Some((question_id, result)) = stream.next().await {
             processed += 1;
-            if processed % 10 == 0 || processed == total_to_process {
+            if processed.is_multiple_of(10) || processed == total_to_process {
                 info!(
                     "Progress: {}/{} missing questions retried",
                     processed, total_to_process

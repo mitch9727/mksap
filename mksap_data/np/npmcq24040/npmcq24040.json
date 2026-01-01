@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24040",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose calcium oxalate kidney stones.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 45-year-old man is evaluated in the emergency department for a 3-day history of flank pain and hematuria. Medical history includes gout, hypertension, obesity, and Roux-en-Y gastric bypass surgery. Medications are allopurinol, nifedipine, calcium, vitamin D, iron, and multivitamins.On physical examination, pulse rate is 101/min; other vital signs are normal. BMI is 32. The remainder of the examination is unremarkable.Laboratory studies:UrinalysispH 6.2; 1+ protein; numerous erythrocytesUrine microscopy is shown.Noncontrast CT scan shows a 3-mm stone on the left kidney.",
   "question_stem": "Which of the following is the most likely composition of this patient's kidney stone?",
@@ -51,41 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/npfig24200.e6ea477fec73c236db5ea8f2dfb386d4.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "npfig24200",
-        "file": "figures/npfig24200.e6ea477fec73c236db5ea8f2dfb386d4.jpg",
-        "title": "Urine Microscopy Showing Calcium Oxalate Kidney Stone",
-        "short_title": "Microscopic Calcium Oxalate Stone",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 710,
-        "height": 644
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.712644-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.822996-06:00"
 }

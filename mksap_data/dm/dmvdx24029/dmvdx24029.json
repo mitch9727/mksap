@@ -1,12 +1,14 @@
 {
   "question_id": "dmvdx24029",
   "category": "dm",
+  "category_name": "Dermatology",
   "educational_objective": "Diagnose pityriasis versicolor.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 31-year-old woman is evaluated for the recent onset of an asymptomatic rash, as shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/dmfig24633.89f785bb3eba2b876cb5f41d62209170.jpg",
-      "figures/dmfig24634.edac0064ce9d234dfaa2e8084362f7c4.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "dmfig24633",
-        "file": "figures/dmfig24633.89f785bb3eba2b876cb5f41d62209170.jpg",
-        "title": "Pityriasis Versicolor",
-        "short_title": "stem Pityriasis Versicolor",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 680
-      },
-      {
-        "figure_id": "dmfig24634",
-        "file": "figures/dmfig24634.edac0064ce9d234dfaa2e8084362f7c4.jpg",
-        "title": null,
-        "short_title": "critique Microscopy Showing <i>Malassezia furfur</i> Spores and Hyphae",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 605
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.395975-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.430448-06:00"
 }

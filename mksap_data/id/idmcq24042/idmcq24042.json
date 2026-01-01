@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24042",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Treat pelvic inflammatory disease in a patient with tubo-ovarian abscess.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 22-year-old woman is evaluated in the emergency department for a 1-week history of vaginal discharge and lower abdominal pain. Medical history is noncontributory.On physical examination, temperature is 38.1 °C (100.6 °F), blood pressure is 118/64 mm Hg, pulse rate is 98/min, and respiration rate is 16/min. On abdominal examination, she has normal bowel sounds, tenderness to palpation in the lower abdomen without rebound, and no costovertebral angle tenderness. Genital examination reveals cervical erythema, mucopurulence at the cervical os, and cervical motion tenderness.Laboratory studies:Leukocyte count18,000/µL (18 × 109L)HHemoglobin, platelet count, kidney function, and liver tests are normal. A urine pregnancy test is negative. Testing for sexually transmitted infections is pending.A transvaginal ultrasound reveals a tubo-ovarian abscess measuring approximately 4 cm in diameter, minimal free fluid in the pelvis, and a normal appendix.",
   "question_stem": "Which of the following is the most appropriate initial management for this patient?",
@@ -52,42 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/idtab24094.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "idtab24094",
-        "file": "tables/idtab24094.html",
-        "title": "Treatment of Pelvic Inflammatory Disease",
-        "short_title": "Treatment of Pelvic Inflammatory Disease",
-        "footnotes": [
-          "IM = intramuscularly; IV = intravenously; PO = orally."
-        ],
-        "headers": [
-          "Route of Administration",
-          "Preferred Regimen",
-          "Alternate Regimen"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.379743-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.093064-06:00"
 }

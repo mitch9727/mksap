@@ -1,12 +1,14 @@
 {
   "question_id": "idvdx24008",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Diagnose cellulitis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 56-year-old man is evaluated for fever, chills, and a rapidly spreading, warm, and painful skin condition (shown). He is hemodynamically stable and lacks crepitus.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/idfig24609.dd4ab718e8c53bb9597933ed826d2b33.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "idfig24609",
-        "file": "figures/idfig24609.dd4ab718e8c53bb9597933ed826d2b33.jpg",
-        "title": "Skin Findings of Cellulitis",
-        "short_title": "Cellulitis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 603
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.672318-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.530202-06:00"
 }

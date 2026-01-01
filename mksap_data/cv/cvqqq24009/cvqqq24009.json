@@ -1,12 +1,14 @@
 {
   "question_id": "cvqqq24009",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Manage acute coronary syndrome presenting with atrioventricular block.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 68-year-old woman is evaluated in the emergency department for a 1-hour history of chest pain. Medical history is significant for hypertension and a 20-year history of type 2 diabetes mellitus. Medications are metformin, quinapril, and aspirin.On physical examination, blood pressure is 100/60 mm Hg, pulse rate is 50/min, and respiration rate is 16/min. The patient is alert and conversant. An irregular rhythm is auscultated on cardiac examination. No pulmonary or peripheral congestion is evident, and the extremities are warm.Laboratory studies:High-sensitivity cardiac troponin196 ng/LHAn ECG is shown.",
   "question_stem": "Which of the following is the most appropriate next step in management of this patient's arrhythmia?",
@@ -51,41 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/cvfig24501.8a34e9bd027bb3be1a77ec27484f9e96.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24501",
-        "file": "figures/cvfig24501.8a34e9bd027bb3be1a77ec27484f9e96.jpg",
-        "title": "ECG Showing Mobitz Type 1 AV Block and STEMI",
-        "short_title": "stem ECG Showing Mobitz Type 1 AV Block and STEMI",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 432
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.786932-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.781155-06:00"
 }

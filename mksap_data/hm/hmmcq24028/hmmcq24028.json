@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24028",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Treat low-risk essential thrombocythemia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 49-year-old man is evaluated for follow-up of thrombocytosis. One month ago, he was evaluated in the emergency department for a broken arm following an automobile accident. He currently feels well and reports no symptoms. Medical history is otherwise unremarkable, and he takes no medications.On physical examination, vital signs and other findings are normal.Laboratory studies:Today1 Month AgoHematocrit44%43%Hemoglobin14.5 g/dL (145 g/L)14.1 g/dL (141 g/L)Leukocyte count12,300/µL (12.3 × 109/L)H11,500/µL (11.5 × 109/L)HPlatelet count750,000/µL (750 × 109/L)H791,000/µL (791 × 109/L)HFerritin146 ng/mL (146 μg/L)—Genetic testing is positive for the JAK2 V617F mutation.",
   "question_stem": "In addition to aspirin and periodic laboratory monitoring, which of the following is the most appropriate treatment?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.916131-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.434190-06:00"
 }

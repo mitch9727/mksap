@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24093",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose isotonic hyponatremia (pseudohyponatremia) due to lipoprotein X.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 56-year-old man is evaluated in the emergency department for jaundice. He has cirrhosis and alcohol use disorder. Medications are furosemide, spironolactone, and a multivitamin.On physical examination, temperature is 36.8 °C (98.2 °F), blood pressure is 100/62 mm Hg, pulse rate is 96/min, and respiration rate is 20/min. Sclerae are icteric. The abdomen is distended.Laboratory studies:Albumin2.1 g/dL (21 g/L)LTotal bilirubin16 mg/dL (273.6 µmol/L)HCreatinine1.1 mg/dL (97.2 µmol/L)ElectrolytesSodium130 mEq/L (130 mmol/L)LPotassium3.6 mEq/L (3.6 mmol/L)Chloride94 mEq/L (94 mmol/L)LBicarbonate22 mEq/L (22 mmol/L)LEthanol40 mg/dL (8.6 mmol/L)Glucose90 mg/dL (5.0 mmol/L)Total protein6.4 g/dL (64 g/L)Serum osmolality285 mOsm/kg H2OUrine osmolality284 mOsm/kg H2OUrine sodium40 mEq/L (40 mmol/L)Serum is not lipemic.",
   "question_stem": "Which of the following is the most likely cause of this patient's hyponatremia?",
@@ -56,27 +58,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.845944-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.997241-06:00"
 }

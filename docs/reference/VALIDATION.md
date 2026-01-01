@@ -96,7 +96,7 @@ Use the validation report to track:
 
 - Total questions found vs. valid
 - Invalid breakdown (missing JSON, parse errors, schema issues)
-- Per-system completion using discovery metadata when available
+- Per-system completion using discovery metadata (required)
 
 ## Known Issues
 
@@ -110,9 +110,9 @@ Use the validation report to track:
 
 ### 2. Missing Discovery Metadata
 
-**Issue**: Validation falls back to baseline counts if `.checkpoints/discovery_metadata.json` is missing.
+**Issue**: Validation now fails if `.checkpoints/discovery_metadata.json` is missing.
 
-**Resolution**: Run extraction or `discovery-stats` once to generate discovery metadata.
+**Resolution**: Run extraction (or `media-discover` plus discovery metadata generation) to produce discovery metadata before validating.
 
 ### 3. Peer Performance Data
 

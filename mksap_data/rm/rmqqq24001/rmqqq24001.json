@@ -1,12 +1,14 @@
 {
   "question_id": "rmqqq24001",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Treat acute calcium pyrophosphate crystal arthritis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "An 82-year-old woman is evaluated for severe left wrist pain of 3 days' duration. She reports no preceding trauma. She has hypertension treated with lisinopril and stage G3 chronic kidney disease.Vital signs are normal. The left wrist is swollen and tender with decreased range of motion without erythema or warmth.Laboratory studies:Rheumatoid factor15 U/mL (15 kU/L)Urate4.3 mg/dL (0.25 mmol/L)Anti–cyclic citrullinated peptide antibodiesNegativeLeft wrist synovial fluid analysis reveals a leukocyte count of 20,000/µL (20 × 109/L) (90% neutrophils) and rhomboid-shaped, weakly positively birefringent crystals within macrophages. Gram stain is negative.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.817846-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:22.003531-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq24002",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Manage ST-elevation myocardial infarction after thrombolytic therapy.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 69-year-old patient is admitted to a rural hospital with a 1-hour history of substernal chest pain. Presenting ECG is shown.The nearest hospital capable of performing percutaneous coronary intervention (PCI) is 3 hours away. Intravenous thrombolytic therapy is administered along with aspirin, clopidogrel, and intravenous unfractionated heparin. The patient is transferred to a PCI-capable hospital and on arrival, 3 hours later, they are symptom-free. Medical history is remarkable only for hypertension, and the patient's only outpatient medication is lisinopril.On physical examination, blood pressure is 108/66 mm Hg, pulse rate is 48/min, and respiration rate is 18/min. Oxygen saturation is 94% with the patient breathing ambient air. Lungs are clear to auscultation.A second ECG is shown.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -53,41 +55,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24203.e5d120f537f90b7d6feb52230a7d3b99.jpg",
-      "figures/cvfig24204.39406b02b263173b952c2b1b1fc53d2d.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24203",
-        "file": "figures/cvfig24203.e5d120f537f90b7d6feb52230a7d3b99.jpg",
-        "title": "Presenting ECG in a Patient With Substernal Chest Pain",
-        "short_title": "ECG I in Patient With Chest Pain",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 398
-      },
-      {
-        "figure_id": "cvfig24204",
-        "file": "figures/cvfig24204.39406b02b263173b952c2b1b1fc53d2d.jpg",
-        "title": "Second ECG in a Patient With Substernal Chest Pain",
-        "short_title": "ECG II in Patient With Chest Pain",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 287
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.379916-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.324984-06:00"
 }

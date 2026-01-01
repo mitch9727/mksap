@@ -1,12 +1,14 @@
 {
   "question_id": "pmvdx24017",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Diagnose asbestos-related lung disease based on chest CT findings.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 76-year-old man is evaluated for a 9-month history of progressive shortness of breath without cough or wheezing.Chest CT scans are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,53 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/pmfig24627.b81ce7d0405d8cac1a9a0be33655da48.jpg",
-      "figures/pmfig24628.48e7340838ed4870679d1fb03ee53a92.jpg",
-      "figures/pmfig24629.98d30f116b96ef29e3071a8e8650ca73.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "pmfig24627",
-        "file": "figures/pmfig24627.b81ce7d0405d8cac1a9a0be33655da48.jpg",
-        "title": "CT Scan Showing Asbestos-Related Lung Disease",
-        "short_title": "stem 1 CT Scan Showing Asbestos-Related Lung Disease",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 851,
-        "height": 622
-      },
-      {
-        "figure_id": "pmfig24628",
-        "file": "figures/pmfig24628.48e7340838ed4870679d1fb03ee53a92.jpg",
-        "title": "CT Scan Showing Asbestos-Related Lung Disease",
-        "short_title": "stem 2 CT Scan Showing Asbestos-Related Lung Disease",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 778,
-        "height": 596
-      },
-      {
-        "figure_id": "pmfig24629",
-        "file": "figures/pmfig24629.98d30f116b96ef29e3071a8e8650ca73.jpg",
-        "title": "CT Scan Showing Asbestos-Related Lung Disease",
-        "short_title": "critique CT Scan of Asbestos-Related Lung Disease",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 328
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.249166-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.702134-06:00"
 }

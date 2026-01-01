@@ -1,12 +1,14 @@
 {
   "question_id": "hmvdx24018",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose essential thrombocythemia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 53-year-old man is evaluated after an abnormality was found on a routine complete blood count. He is asymptomatic.Peripheral blood smear is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/hmfig24628.9ed83c284eedb09a77e80748f6bd9cdf.jpg",
-      "figures/hmfig24629.445dbfb415119086fd5f1af601b49370.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "hmfig24628",
-        "file": "figures/hmfig24628.9ed83c284eedb09a77e80748f6bd9cdf.jpg",
-        "title": "Stem Peripheral Blood Smear Findings in Essential Thrombocythemia",
-        "short_title": "PBS in Essential Thrombocythemia Stem",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 800,
-        "height": 533
-      },
-      {
-        "figure_id": "hmfig24629",
-        "file": "figures/hmfig24629.445dbfb415119086fd5f1af601b49370.jpg",
-        "title": "Critique Peripheral Blood Smear Findings in Essential Thrombocythemia",
-        "short_title": "PBS in Essential Thrombocythemia Critique",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 800,
-        "height": 533
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.122384-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.725563-06:00"
 }

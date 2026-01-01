@@ -55,7 +55,7 @@ pub fn count_inline_tables(value: &Value) -> usize {
     collect_inline_table_nodes(value).len()
 }
 
-pub fn collect_inline_table_nodes<'a>(value: &'a Value) -> Vec<&'a Value> {
+pub fn collect_inline_table_nodes(value: &Value) -> Vec<&Value> {
     fn walk<'a>(value: &'a Value, tables: &mut Vec<&'a Value>, in_tables_content: bool) {
         match value {
             Value::Object(map) => {
@@ -87,24 +87,27 @@ pub fn collect_inline_table_nodes<'a>(value: &'a Value) -> Vec<&'a Value> {
     tables
 }
 
-pub fn is_figure_id(content_id: &str) -> bool {
+fn matches_prefix(content_id: &str, prefixes: &[&str]) -> bool {
     let lower = content_id.to_ascii_lowercase();
-    lower.starts_with("fig") || lower.get(2..).map_or(false, |tail| tail.starts_with("fig"))
+    prefixes.iter().any(|prefix| {
+        lower.starts_with(prefix) || lower.get(2..).is_some_and(|tail| tail.starts_with(prefix))
+    })
+}
+
+pub fn is_figure_id(content_id: &str) -> bool {
+    matches_prefix(content_id, &["fig"])
 }
 
 pub fn is_table_id(content_id: &str) -> bool {
-    let lower = content_id.to_ascii_lowercase();
-    lower.starts_with("tab") || lower.get(2..).map_or(false, |tail| tail.starts_with("tab"))
+    matches_prefix(content_id, &["tab"])
 }
 
 pub fn is_video_id(content_id: &str) -> bool {
-    let lower = content_id.to_ascii_lowercase();
-    lower.starts_with("vid") || lower.get(2..).map_or(false, |tail| tail.starts_with("vid"))
+    matches_prefix(content_id, &["vid"])
 }
 
 pub fn is_svg_id(content_id: &str) -> bool {
-    let lower = content_id.to_ascii_lowercase();
-    lower.starts_with("svg") || lower.get(2..).map_or(false, |tail| tail.starts_with("svg"))
+    matches_prefix(content_id, &["svg"])
 }
 
 pub fn classify_content_id(content_id: &str) -> Option<ContentIdKind> {

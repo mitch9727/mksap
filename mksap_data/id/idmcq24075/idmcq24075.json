@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24075",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Treat a patient with newly diagnosed HIV infection.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 49-year-old man is evaluated before initiating antiretroviral therapy. He has newly diagnosed HIV infection. Medical history is also notable for coronary artery disease, hypertension, and chronic kidney disease. Medications are atorvastatin, aspirin, and lisinopril.Vital signs are normal, and physical examination findings are unremarkable.Laboratory studies:Creatinine1.5 mg/dL (133 µmol/L)HEstimated glomerular filtration rate56 mL/min/1.73 m2 Other routine studies recommended before antiretroviral therapy initiation are unremarkable.CD4 cell count is 250/µL and HIV viral load is 53,841 copies/mL.",
   "question_stem": "Which of the following is the most appropriate regimen for this patient?",
@@ -52,42 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/idtab24085.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "idtab24085",
-        "file": "tables/idtab24085.html",
-        "title": "Recommended Regimens for Initial Treatment of Most Persons with HIV Infection<sup>a,b</sup>",
-        "short_title": "Initial Treatment Regimens for Most Persons with HIV Infection",
-        "footnotes": [
-          "<sup>a</sup>Revised based on the 2024 International Antiviral Society–USA Panel guidelines and the 2024 Department of Health and Human Services guideline update. A sample for genotypic testing should be sent before antiretroviral therapy initiation. Before initiating treatment in a person of childbearing potential, a pregnancy test should be performed. Before prescribing antiretroviral therapy to a person of childbearing potential, refer to the <a href=\"https://clinicalinfo.hiv.gov/en/guidelines\" target=\"_blank\">Panel guideline</a> .",
-          "<sup>b</sup>Persons who acquire HIV while receiving preexposure prophylaxis with tenofovir plus emtricitabine should have genotyping performed before initiating therapy. Persons who acquire HIV after receiving preexposure prophylaxis with cabotegravir should have genotyping for integrase strand transfer inhibitor resistance before starting therapy.",
-          "<sup>c</sup>Preferred regimen during pregnancy.",
-          "<sup>d</sup>Tenofovir alafenamide (TAF) and tenofovir disoproxil fumarate (TDF) are two forms of tenofovir that are approved in the United States. TAF has fewer bone and kidney toxicities than TDF, whereas TDF is associated with lower lipid levels.",
-          "<sup>e</sup>Only recommended if pretreatment HIV RNA level &lt;500,000 copies/mL, lamivudine resistance is not present, and hepatitis B virus infection is excluded. Dolutegravir/lamivudine should not be used before results of HIV genotyping are available. This regimen should not be initiated in pregnancy."
-        ],
-        "headers": []
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.481892-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.230589-06:00"
 }

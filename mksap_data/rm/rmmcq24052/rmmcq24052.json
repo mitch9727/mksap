@@ -1,12 +1,14 @@
 {
   "question_id": "rmmcq24052",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Diagnose ankylosing spondylitis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 36-year-old man is evaluated for a 1-year history of back pain. He reports his symptoms are worse in the morning; morning stiffness and pain last more than 1 hour and improve with stretching. Medications are acetaminophen and ibuprofen.On physical examination, vital signs are normal. Tenderness is present over the lumbosacral spine and sacroiliac joints bilaterally. Results of the FABER (Flexion, ABduction, and External Rotation) test are positive bilaterally. Internal and external rotation of the hip joints does not elicit pain.Laboratory studies:C-reactive protein1.0 mg/dL (10 mg/L)HRadiographs of the lumbar spine reveal narrowing of the L5 to S1 disk space. Radiographs of the sacroiliac joints show partial fusion bilaterally.",
   "question_stem": "Which of the following is the most appropriate next step in diagnosis?",
@@ -56,44 +58,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/rmtab24021.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "rmtab24021",
-        "file": "tables/rmtab24021.html",
-        "title": "ASAS Classification Criteria for Axial Spondyloarthritis",
-        "short_title": "ASAS Classification Criteria for Axial Spondyloarthritis",
-        "footnotes": [
-          "ASAS = Assessment of SpondyloArthritis international Society",
-          "Information obtained from Rudwaleit M, van der Heijde D, Landewé R, et al. The development of Assessment of SpondyloArthritis international Society classification criteria for axial spondyloarthritis (part II): validation and final selection. Ann Rheum Dis. 2009;68:777-783. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/19297344\" target=\"_blank\">PMID: 19297344</a> doi:10.1136/ard.2009.108233"
-        ],
-        "headers": [
-          "Back pain for ≥3 months with onset before age 45 years PLUS",
-          "Sacroiliitis on plain radiography or MRI and ≥1 spondyloarthritis featuresa",
-          "OR",
-          "HLA-B27 positivity and ≥2 spondyloarthritis featuresa"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.719812-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:21.896028-06:00"
 }

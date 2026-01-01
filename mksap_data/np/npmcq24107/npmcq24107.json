@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24107",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose ethylene glycol toxicity.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 36-year-old man is evaluated in the emergency department after being found on the street confused. Previous history is unknown.On physical examination, the patient is disheveled. Temperature is 36.4 °C (97.5 °F), blood pressure is 128/80 mm Hg, pulse rate is 104/min, and respiration rate is 20/min. Oxygen saturation is 96% with the patient breathing ambient air. He is oriented only to person. The remainder of the examination is normal.Laboratory studies:Arterial blood gasespH7.28LPco230 mm Hg (4.0 kPa)LBlood urea nitrogen20 mg/dL (7.1 mmol/L)Creatinine1.4 mg/dL (123.8 µmol/L)HElectrolytesSodium138 mEq/L (138 mmol/L)Potassium3.9 mEq/L (3.9 mmol/L)Chloride96 mEq/L (96 mmol/L)LBicarbonate14 mEq/L (14 mmol/L)LEthanol115 mg/dL (24.8 mmol/L)Glucose126 mg/dL (7.0 mmol/L)HSerum osmolality345 mOsm/kg H2OHLactate2.0 mEq/L (2.0 mmol/L)H",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.884108-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.051166-06:00"
 }

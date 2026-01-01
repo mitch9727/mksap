@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24019",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Prevent recurrent stroke in a patient with sickle cell disease with erythrocyte transfusions.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 20-year-old woman is evaluated following discharge after hospitalization for an acute ischemic stroke. Medical history is significant for sickle cell anemia (hemoglobin SS disease) with frequent acute vaso-occlusive pain events. She underwent exchange transfusions during hospitalization and has recovered since being discharged, with only mild residual left-hand weakness. She reports intermittent fatigue but is otherwise well. Medications are aspirin, hydroxyurea, crizanlizumab, and folic acid.On physical examination, vital signs are normal. Mild left-hand weakness is noted. The remainder of the examination is unremarkable.Laboratory studies:Hematocrit28%LHemoglobin9.1 g/dL (91 g/L)LLeukocyte count9200/µL (9.2 × 109/L)Platelet count360,000/µL (360 × 109/L)Creatinine0.7 mg/dL (61.9 µmol/L)",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.887234-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.402470-06:00"
 }

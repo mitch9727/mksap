@@ -1,12 +1,14 @@
 {
   "question_id": "npcor25002",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Evaluate a patient with hyponatremia due to the syndrome of inappropriate antidiuretic hormone secretion.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 65-year-old man is evaluated for hyponatremia that was discovered on recent laboratory studies. He is asymptomatic. He has a history of COPD, hypertension, and heart failure with preserved ejection fraction. He drinks alcohol in moderation daily. He quit smoking 10 years ago. Medications are furosemide, metoprolol, losartan, dapagliflozin, and inhaled tiotropium and salmeterol.On physical examination, vital signs are normal. Cardiac examination is unremarkable. Pulmonary examination reveals a prolonged expiratory phase without wheezing. Abdomen is soft, nontender, and nondistended. No peripheral edema is present.Laboratory studies:Blood urea nitrogen15 mg/dL (5.4 mmol/L)Creatinine1.1 mg/dL (97.2 µmol/L)Electrolytes:Sodium125 mEq/L (125 mmol/L)LPotassium3.8 mEq/L (3.8 mmol/L)Chloride95 mEq/L (95 mmol/L)LBicarbonate23 mEq/L (23 mmol/L)Glucose90 mg/dL (5.0 mmol/L)Serum osmolality260 mOsm/kg H2OUrine sodium36 mEq/L (36 mmol/L)Urine osmolality420 mOsm/LThyroid-stimulating hormone2.5 mµ/mL",
   "question_stem": "Which of the following is the most appropriate next step in the management of this patient's hyponatremia?",
@@ -56,41 +58,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nptab24006.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nptab24006",
-        "file": "tables/nptab24006.html",
-        "title": "Causes of the Syndrome of Inappropriate Antidiuretic Hormone Secretion",
-        "short_title": "Causes of SIADH Secretion",
-        "footnotes": [
-          "<sup>a</sup>Drugs are the most common cause."
-        ],
-        "headers": [
-          "Cause",
-          "Examples"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.549076-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.643371-06:00"
 }

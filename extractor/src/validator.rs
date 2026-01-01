@@ -27,13 +27,8 @@ pub struct SystemValidation {
     pub system_id: String,
     pub system_name: String,
     pub found_count: usize,
-
-    // NEW: Discovery-based metrics (source of truth)
-    pub discovered_count: Option<usize>, // From checkpoint metadata
-    pub discovery_timestamp: Option<String>,
-
-    // DEPRECATED: Hardcoded baseline (informational only)
-    pub expected_count: u32,
+    pub discovered_count: usize,
+    pub discovery_timestamp: String,
     pub valid_count: usize,
     pub issues: Vec<String>,
 }
@@ -68,28 +63,46 @@ impl DataValidator {
             schema_invalid: Vec::new(),
             systems_verified: Vec::new(),
         };
-        let mut system_map: HashMap<String, SystemValidation> = HashMap::new();
-
         let path = Path::new(mksap_data_dir);
         if !path.exists() {
             error!("mksap_data directory not found at {}", mksap_data_dir);
             return Ok(result);
         }
 
-        // NEW: Load discovery metadata
+        // Load discovery metadata
         let metadata_path = Path::new(mksap_data_dir)
             .join(".checkpoints")
             .join("discovery_metadata.json");
 
         let discovery_metadata = if metadata_path.exists() {
             let contents = fs::read_to_string(&metadata_path)?;
-            Some(serde_json::from_str::<DiscoveryMetadataCollection>(
-                &contents,
-            )?)
+            serde_json::from_str::<DiscoveryMetadataCollection>(&contents)?
         } else {
-            warn!("No discovery metadata found - completion percentages will use baseline counts");
-            None
+            return Err(anyhow::anyhow!(
+                "Discovery metadata not found at {}. Run discovery or extraction first.",
+                metadata_path.display()
+            ));
         };
+
+        let mut system_map: HashMap<String, SystemValidation> = HashMap::new();
+        for system in &discovery_metadata.systems {
+            let system_config = config::get_organ_system_by_id(&system.system_code);
+            system_map.insert(
+                system.system_code.clone(),
+                SystemValidation {
+                    system_id: system.system_code.clone(),
+                    system_name: system_config
+                        .as_ref()
+                        .map(|s| s.name.clone())
+                        .unwrap_or_default(),
+                    found_count: 0,
+                    discovered_count: system.discovered_count,
+                    discovery_timestamp: system.discovery_timestamp.clone(),
+                    valid_count: 0,
+                    issues: Vec::new(),
+                },
+            );
+        }
 
         // Iterate through all organ systems
         for entry in fs::read_dir(path)? {
@@ -110,39 +123,16 @@ impl DataValidator {
                 continue;
             }
 
-            let system_config = config::get_organ_system_by_id(&system_id);
-
-            // Get discovered count from discovery metadata if available
-            let (discovered_count, discovery_timestamp) = discovery_metadata
-                .as_ref()
-                .and_then(|m| m.systems.iter().find(|s| s.system_code == system_id))
-                .map(|s| {
-                    (
-                        Some(s.discovered_count),
-                        Some(s.discovery_timestamp.clone()),
-                    )
-                })
-                .unwrap_or((None, None));
-
-            let system_validation =
-                system_map
-                    .entry(system_id.clone())
-                    .or_insert_with(|| SystemValidation {
-                        system_id: system_id.clone(),
-                        system_name: system_config
-                            .as_ref()
-                            .map(|s| s.name.clone())
-                            .unwrap_or_default(),
-                        found_count: 0,
-                        discovered_count,
-                        discovery_timestamp,
-                        expected_count: system_config
-                            .as_ref()
-                            .map(|s| s.baseline_2024_count)
-                            .unwrap_or(0),
-                        valid_count: 0,
-                        issues: Vec::new(),
-                    });
+            let system_validation = match system_map.get_mut(&system_id) {
+                Some(system_validation) => system_validation,
+                None => {
+                    return Err(anyhow::anyhow!(
+                        "Discovery metadata missing for system {} (expected in {})",
+                        system_id,
+                        metadata_path.display()
+                    ));
+                }
+            };
 
             // Scan all questions in this system
             for question_entry in fs::read_dir(&system_path)? {
@@ -188,33 +178,24 @@ impl DataValidator {
         let mut systems: Vec<SystemValidation> = system_map.into_values().collect();
         systems.sort_by(|a, b| a.system_id.cmp(&b.system_id));
         for system_validation in systems.iter_mut() {
-            // NEW: Use discovered count if available, otherwise fall back to expected (baseline)
-            let check_against = system_validation
-                .discovered_count
-                .unwrap_or(system_validation.expected_count as usize);
+            let discovered = system_validation.discovered_count;
 
-            // Check for data integrity issues
-            if let Some(discovered) = system_validation.discovered_count {
-                if system_validation.found_count > discovered {
-                    let msg = format!(
-                        "⚠ Data Integrity Warning: {} extracted > {} discovered (possible stale checkpoint or manual additions)",
-                        system_validation.found_count,
-                        discovered
-                    );
-                    system_validation.issues.push(msg);
-                }
+            if system_validation.found_count > discovered {
+                let msg = format!(
+                    "⚠ Data Integrity Warning: {} extracted > {} discovered (possible stale checkpoint or manual additions)",
+                    system_validation.found_count,
+                    discovered
+                );
+                system_validation.issues.push(msg);
             }
 
-            // Check for incomplete extraction (only if using discovered count)
-            if system_validation.discovered_count.is_some()
-                && system_validation.found_count < check_against
-            {
+            if system_validation.found_count < discovered {
                 let msg = format!(
                     "System {} extracted {} / {} discovered ({:.1}%)",
                     system_validation.system_id,
                     system_validation.found_count,
-                    check_against,
-                    (system_validation.found_count as f64 / check_against as f64) * 100.0
+                    discovered,
+                    (system_validation.found_count as f64 / discovered as f64) * 100.0
                 );
                 system_validation.issues.push(msg);
             }
@@ -258,7 +239,7 @@ impl DataValidator {
         };
 
         // Check required fields per specification
-        let required_fields = vec![
+        let required_fields = [
             "question_id",
             "category",
             "educational_objective",
@@ -273,15 +254,7 @@ impl DataValidator {
             "media",
             "extracted_at",
         ];
-
-        let mut all_valid = true;
-
-        for field in required_fields {
-            if value.get(field).is_none() {
-                warn!("Question {} missing field: {}", question_id, field);
-                all_valid = false;
-            }
-        }
+        let mut all_valid = Self::validate_required_fields(&value, question_id, &required_fields);
 
         // Validate options structure
         if let Some(options) = value.get("options").and_then(|o| o.as_array()) {
@@ -314,6 +287,17 @@ impl DataValidator {
         }
     }
 
+    fn validate_required_fields(value: &Value, question_id: &str, required: &[&str]) -> bool {
+        let mut all_valid = true;
+        for field in required {
+            if value.get(*field).is_none() {
+                warn!("Question {} missing field: {}", question_id, field);
+                all_valid = false;
+            }
+        }
+        all_valid
+    }
+
     /// Generate a validation report
     pub fn generate_report(result: &ValidationResult) -> String {
         let mut report = String::new();
@@ -344,12 +328,9 @@ impl DataValidator {
         for system in &result.systems_verified {
             let display_id = Self::display_system_id(&system.system_id);
 
-            // NEW: Use discovered count if available
-            let check_against = system
-                .discovered_count
-                .unwrap_or(system.expected_count as usize);
-            let percentage = if check_against > 0 {
-                (system.found_count as f64 / check_against as f64) * 100.0
+            let discovered = system.discovered_count;
+            let percentage = if discovered > 0 {
+                (system.found_count as f64 / discovered as f64) * 100.0
             } else {
                 0.0
             };
@@ -359,21 +340,10 @@ impl DataValidator {
             } else {
                 "✗ ISSUES"
             };
-            let metadata_label = if system.discovered_count.is_some() {
-                "discovered"
-            } else {
-                "expected"
-            };
 
             report.push_str(&format!(
-                "{} {}: {}/{} questions ({} valid, {:.1}% of {})\n",
-                status,
-                display_id,
-                system.found_count,
-                check_against,
-                system.valid_count,
-                percentage,
-                metadata_label
+                "{} {}: {}/{} questions ({} valid, {:.1}% of discovered)\n",
+                status, display_id, system.found_count, discovered, system.valid_count, percentage
             ));
 
             if !system.issues.is_empty() {
@@ -404,89 +374,37 @@ impl DataValidator {
 
     /// Compare extracted data with specification expectations
     pub fn compare_with_specification(result: &ValidationResult) -> String {
-        let organ_systems = config::init_organ_systems();
         let mut comparison = String::new();
 
         comparison.push_str("=== SPECIFICATION COMPLIANCE REPORT ===\n\n");
 
-        let mut total_expected = 0;
-        let mut total_discovered = 0;
-        let mut total_found = 0;
-        let has_discovery_metadata = result
-            .systems_verified
-            .iter()
-            .any(|s| s.discovered_count.is_some());
+        let mut total_discovered = 0usize;
+        let mut total_found = 0usize;
+        let mut systems = result.systems_verified.clone();
+        systems.sort_by(|a, b| a.system_id.cmp(&b.system_id));
 
-        for system in organ_systems {
-            let display_id = Self::display_system_id(&system.id);
-            let system_val = result
-                .systems_verified
-                .iter()
-                .find(|s| s.system_id == system.id);
+        for system in systems {
+            let display_id = Self::display_system_id(&system.system_id);
+            let found = system.found_count;
+            let discovered = system.discovered_count;
 
-            let found = system_val.map(|s| s.found_count).unwrap_or(0);
-
-            // NEW: Use discovered count if available, otherwise use baseline
-            let check_against = system_val
-                .and_then(|s| s.discovered_count)
-                .unwrap_or(system.baseline_2024_count as usize);
-
-            total_expected += system.baseline_2024_count;
-            if let Some(sys) = system_val {
-                if let Some(discovered) = sys.discovered_count {
-                    total_discovered += discovered;
-                }
-            }
+            total_discovered += discovered;
             total_found += found;
 
-            let percentage = if check_against > 0 {
-                (found as f64 / check_against as f64) * 100.0
+            let percentage = if discovered > 0 {
+                (found as f64 / discovered as f64) * 100.0
             } else {
                 0.0
             };
-
-            let status = if let Some(discovered) = system_val.and_then(|s| s.discovered_count) {
-                // Use discovered count for status
-                if found >= discovered {
-                    "✓"
-                } else if found > 0 && found >= (discovered as f64 * 0.9) as usize {
-                    "◐"
-                } else if found > 0 {
-                    "⚠"
-                } else {
-                    "✗"
-                }
-            } else {
-                // Fallback to baseline
-                if found >= system.baseline_2024_count as usize {
-                    "✓"
-                } else if found > 0 {
-                    "⚠"
-                } else {
-                    "✗"
-                }
-            };
-
-            let denominator_label = if system_val.and_then(|s| s.discovered_count).is_some() {
-                "discovered"
-            } else {
-                "baseline"
-            };
+            let status = Self::determine_status(found, discovered, 0.9);
 
             comparison.push_str(&format!(
-                "{} {} ({}): {}/{} questions ({:.1}% of {})\n",
-                status,
-                display_id,
-                system.name,
-                found,
-                check_against,
-                percentage,
-                denominator_label
+                "{} {} ({}): {}/{} questions ({:.1}% of discovered)\n",
+                status, display_id, system.system_name, found, discovered, percentage
             ));
         }
 
-        // NEW: Show overall statistics with discovery-based totals if available
-        if has_discovery_metadata && total_discovered > 0 {
+        if total_discovered > 0 {
             comparison.push_str(&format!(
                 "\n=== OVERALL (DISCOVERY-BASED) ===\n{}/{} questions extracted ({:.1}%)\n",
                 total_found,
@@ -494,37 +412,32 @@ impl DataValidator {
                 (total_found as f64 / total_discovered as f64) * 100.0
             ));
         } else {
-            comparison.push_str(&format!(
-                "\n=== OVERALL (BASELINE) ===\n{}/{} questions extracted ({:.1}%)\n",
-                total_found,
-                total_expected,
-                (total_found as f64 / total_expected as f64) * 100.0
-            ));
+            comparison
+                .push_str("\n=== OVERALL (DISCOVERY-BASED) ===\n0/0 questions extracted (0.0%)\n");
         }
 
         comparison
     }
 
+    fn determine_status(found: usize, expected: usize, threshold: f64) -> &'static str {
+        match (found, expected) {
+            (f, e) if f >= e => "✓",
+            (f, e) if f > 0 && (f as f64) >= (e as f64 * threshold) => "◐",
+            (f, _) if f > 0 => "⚠",
+            _ => "✗",
+        }
+    }
+
     fn append_issue_list(report: &mut String, label: &str, ids: &[String]) {
-        report.push_str(&format!("{}: {}\n", label, ids.len()));
+        use std::fmt::Write;
+
+        let _ = writeln!(report, "{}: {}", label, ids.len());
         if ids.is_empty() {
             return;
         }
 
-        let mut current = String::new();
-        let per_line = 10usize;
-
-        for (idx, id) in ids.iter().enumerate() {
-            if idx % per_line == 0 && !current.is_empty() {
-                report.push_str(&format!("  {}\n", current.trim_end_matches(", ")));
-                current.clear();
-            }
-            current.push_str(id);
-            current.push_str(", ");
-        }
-
-        if !current.is_empty() {
-            report.push_str(&format!("  {}\n", current.trim_end_matches(", ")));
+        for chunk in ids.chunks(10) {
+            let _ = writeln!(report, "  {}", chunk.join(", "));
         }
     }
 }

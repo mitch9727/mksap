@@ -1,12 +1,14 @@
 {
   "question_id": "nrvdx24020",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Identify the inflammatory lesions of multiple sclerosis on MRI.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 37-year-old woman is seen in follow-up for persistent neurologic symptoms.MRI is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/nrfig24625.ed14d013cb35459e1a173540e8e909a8.jpg",
-      "figures/nrfig24626.e02105ab5a73b6cc8eb0f52672581dbb.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "nrfig24625",
-        "file": "figures/nrfig24625.ed14d013cb35459e1a173540e8e909a8.jpg",
-        "title": "MRI Findings of Multiple Sclerosis",
-        "short_title": "stem MRI Findings of Multiple Sclerosis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 717,
-        "height": 735
-      },
-      {
-        "figure_id": "nrfig24626",
-        "file": "figures/nrfig24626.e02105ab5a73b6cc8eb0f52672581dbb.jpg",
-        "title": "MRI Findings of Multiple Sclerosis",
-        "short_title": "critique MRI Findings of Multiple Sclerosis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 717,
-        "height": 735
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.546309-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.744328-06:00"
 }

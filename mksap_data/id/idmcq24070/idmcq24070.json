@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24070",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Diagnose ehrlichiosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 48-year-old man is evaluated in May for a 1-week history of fever, headache, and myalgia. He lives in Kansas and reports no travel outside the area. He has no other medical problems and takes no medications.On physical examination, temperature is 38.6 °C (101.5 °F). His other vital signs and the remainder of examination findings are normal.Laboratory studies:Hematocrit44%Leukocyte count2100/µL (2.1 × 109/L)LPlatelet count53,000/µL (53 × 109/L)LAlanine aminotransferase91 U/LHAspartate aminotransferase73 U/LHBilirubin, total1.0 mg/dL (17.1 μmol/L)Creatinine0.8 mg/dL (70.7 μmol/L)Blood Gram stain and cultures are negative.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -51,66 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/idtab24030.html",
-      "tables/idtab24027.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "idtab24030",
-        "file": "tables/idtab24030.html",
-        "title": "Comparison of Epidemiologic and Clinical Features of Ehrlichiosis, Anaplasmosis, and Spotted Fever Rickettsioses",
-        "short_title": "Features of Ehrlichiosis, Anaplasmosis, and Spotted Fever Rickettsioses",
-        "footnotes": [
-          "PCR = polymerase chain reaction; STARI = Southern tick–associated rash illness.",
-          "<sup>a</sup>Two thirds of all spotted fever rickettsial infections occur in Arkansas, Missouri, North Carolina, Oklahoma, and Tennessee."
-        ],
-        "headers": [
-          "Feature",
-          "Ehrlichiosis",
-          "Anaplasmosis",
-          "Spotted Fever Rickettsioses"
-        ]
-      },
-      {
-        "table_id": "idtab24027",
-        "file": "tables/idtab24027.html",
-        "title": "Clinical Manifestations, Diagnostic Testing, and Treatment of Lyme Disease by Stage of Infection",
-        "short_title": "Lyme Disease by Stage of Infection",
-        "footnotes": [
-          "AV = atrioventricular; BID = twice daily; CSF = cerebrospinal fluid; CNS = central nervous system; EM = erythema migrans; IV = intravenous; PO = by mouth; TID = three times daily.",
-          "<sup>a</sup>Doses are for adults with normal kidney function.",
-          "<sup>b</sup>Azithromycin is an alternative agent for early localized disease; if used, patients should be monitored closely for evidence of an inadequate response.",
-          "<sup>c</sup>Preferred evaluation for Lyme neuroborreliosis includes simultaneous antibody testing of CSF and serum to determine CSF:serum antibody index.",
-          "<sup>d</sup>IV penicillin G or IV cefotaxime for 14-21 days are alternative regimens.",
-          "<sup>e</sup>If mild residual symptoms persist, can consider a second course of oral therapy."
-        ],
-        "headers": [
-          "Lyme Stage",
-          "Onset after Infection",
-          "Clinical Findings",
-          "Laboratory Confirmation",
-          "Treatmenta,b"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.462618-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.224952-06:00"
 }

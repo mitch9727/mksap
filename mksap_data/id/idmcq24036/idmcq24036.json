@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24036",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Treat community-acquired pneumonia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 67-year-old man undergoes follow-up evaluation in the hospital. He was admitted 3 days ago for fever, cough, and shortness of breath. A chest radiograph showed a right lower lobe infiltrate and hyperexpanded lung fields throughout. Testing for influenza and SARS-CoV-2 was negative. Vancomycin, cefepime, and azithromycin were initiated. He has now been afebrile for 24 hours. Medical history is significant for a hospitalization 1 month ago for lower extremity cellulitis; he received intravenous antibiotics and was discharged with oral antibiotic therapy.On physical examination, temperature is 37.3 °C (99.1 °F), blood pressure is 110/68 mm Hg, pulse rate is 85/min, and respiration rate is 16/min. Oxygen saturation is 94% breathing 1 L of oxygen by nasal cannula. Crackles are heard in the right lower lung field.Sputum and blood cultures are negative at 48 hours; a nasal swab polymerase chain reaction test from admission is negative for methicillin-resistant Staphylococcus aureus.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -51,40 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/idtab24025.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "idtab24025",
-        "file": "tables/idtab24025.html",
-        "title": "IDSA/ATS Recommendations for Empiric Antibiotics in Community-Acquired Pneumonia",
-        "short_title": "Empiric Antibiotics for CAP",
-        "footnotes": [
-          "ATS = American Thoracic Society; CA-MRSA = community-acquired methicillin-resistant <i>Staphylococcus aureus</i>; IDSA = Infectious Diseases Society of America.",
-          "<sup>a</sup>Comorbidities include chronic heart, lung, liver, or kidney disease; diabetes mellitus; alcoholism; asplenia; malignancies; and immunosuppression.",
-          "<sup>b</sup>Respiratory fluoroquinolones include levofloxacin and moxifloxacin; ciprofloxacin is not a respiratory quinolone because its activity against streptococcal species is limited.",
-          "<sup>c</sup>Recommended oral β-lactams include amoxicillin-clavulanate, cefuroxime, and cefpodoxime.",
-          "<sup>d</sup>Recommended parenteral β-lactams include ampicillin-sulbactam, ceftriaxone, cefotaxime (not currently available in the United States), and ceftaroline.",
-          "<sup>e</sup>Early glucocorticoid administration may be beneficial in immunocompetent patients with severe hypoxemia or those requiring mechanical ventilation. Glucocorticoids may exacerbate certain infections (fungal, tuberculous) and should be avoided in patients with these infections.",
-          "Data from Metlay JP, Waterer GW, Long AC, et al. Diagnosis and treatment of adults with community-acquired pneumonia. An official clinical practice guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med. 2019;200:e45-e67. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/31573350\" target=\"_blank\">PMID: 31573350</a> doi:10.1164/rccm.201908-1581ST"
-        ],
-        "headers": [
-          "Site of Treatment",
-          "Patient or Epidemiologic Considerations",
-          "Most Common Organisms",
-          "Regimens(s)"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.384688-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.116225-06:00"
 }

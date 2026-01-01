@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24003",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Evaluate prolonged <i>Staphylococcus aureus</i> bacteremia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 33-year-old patient is evaluated on hospital day 6 for persistent fever. On hospital day 2, cefazolin was initiated after four sets of admission blood cultures returned positive for methicillin-sensitive Staphylococcus aureus (MSSA). The patient reports use of intravenous heroin, which they last injected 10 days ago.On physical examination, temperature is 39.3 °C (102.7 °F); other vital signs are normal. No skin lesions are present. No spinal tenderness is noted.Repeat blood cultures drawn on hospital days 3 and 5 remain positive for MSSA.A transthoracic echocardiogram is negative for valvular abnormality.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -56,34 +58,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/idtab24014.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "idtab24014",
-        "file": "tables/idtab24014.html",
-        "title": "Prognostic Scores for Risk Assessment of Endocarditis in Patients with <i>Staphylococcus aureus</i> or Enterococcal Bacteremia",
-        "short_title": "Prognostic Scores for Endocarditis Risk Assessment",
-        "footnotes": [
-          "<sup>a</sup>Patients with a score of 2 or less have low risk of endocarditis, and transesophageal echocardiography is unlikely to change management.",
-          "Data from Tubiana S, Duval X, Alla F, et al; VIRSTA/AEPEI Study Group. The VIRSTA score, a prediction score to estimate risk of infective endocarditis and determine priority for echocardiography in patients with Staphylococcus aureus bacteremia. J Infect. 2016;72:544-53. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/26916042\" target=\"_blank\">PMID: 26916042</a> doi:10.1016/j.jinf.2016.02.003; and Berge A, Krantz A, Östlund H, et al. The DENOVA score efficiently identifies patients with monomicrobial Enterococcus faecalis bacteremia where echocardiography is not necessary. Infection. 2019;47:45-50. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/30178077\" target=\"_blank\">PMID: 30178077</a> doi:10.1007/s15010-018-1208-3"
-        ],
-        "headers": [
-          "Variable",
-          "VIRSTA Score Pointsa: for Patients with Staphylococcus aureus Bacteremia",
-          "DENOVA Score Pointsa: for Patients with Enterococcal Bacteremia"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.270608-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.932048-06:00"
 }

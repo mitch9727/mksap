@@ -1,12 +1,14 @@
 {
   "question_id": "cvcor25023",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Manage a patient with non–ST-elevation acute coronary syndrome with refractory chest pain.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 65-year-old man is evaluated in the hospital for 3 hours of persistent severe central chest pressure. He was hospitalized with a 2-day history of episodic chest discomfort and dyspnea occurring at rest and with exertion.On physical examination, blood pressure is 155/90 mm Hg, pulse rate is 90/min, respiration rate is 20/min, and oxygen saturation is 93% with the patient breathing ambient air. BMI is 29. An S4 is present, but the remainder of the cardiac examination is normal.High-sensitivity cardiac troponin level is elevated (>99th percentile upper reference limit).An ECG is shown.He is given aspirin, clopidogrel, intravenous unfractionated heparin, and a nitroglycerin infusion. His chest pain improves temporarily but returns despite nitroglycerin infusion and morphine.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -51,48 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/cvtab24017.html"
-    ],
-    "images": [
-      "figures/cvfig25705.839f84c13cb77c46caacb20e8561ed66.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig25705",
-        "file": "figures/cvfig25705.839f84c13cb77c46caacb20e8561ed66.jpg",
-        "title": "ECG in a Patient With Acute Coronary Syndrome",
-        "short_title": "ECG in a Patient With Acute Coronary Syndrome",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 488,
-        "height": 420
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "cvtab24017",
-        "file": "tables/cvtab24017.html",
-        "title": "TIMI Risk Score for Non–ST-Elevation Acute Coronary Syndromes",
-        "short_title": "TIMI Risk Score for Non–ST-Elevation ACS",
-        "footnotes": [
-          "CAD = coronary artery disease; TIMI = Thrombolysis in Myocardial Infarction.",
-          "<sup>a</sup>Hypertension, hypercholesterolemia, diabetes mellitus, being a current smoker, family history of CAD.",
-          "Information from Antman EM, Cohen M, Bernink PJ, et al. The TIMI risk score for unstable angina/non-ST elevation MI: a method for prognostication and therapeutic decision making. JAMA. 2000;284:835-42. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/10938172\" target=\"_blank\">PMID: 10938172</a> doi:10.1001/jama.284.7.835"
-        ],
-        "headers": [
-          "Prognostic Variables (1 Point Each)",
-          "TIMI Risk Score (Sum of Prognostic Variables)"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.342684-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.272351-06:00"
 }

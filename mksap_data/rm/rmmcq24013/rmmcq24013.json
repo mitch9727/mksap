@@ -1,12 +1,14 @@
 {
   "question_id": "rmmcq24013",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Identify the risk for cardiac involvement in patients with eosinophilic granulomatosis with polyangiitis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 45-year-old woman is evaluated for a 1-year history of increasingly frequent asthma flares. The flares have required multiple courses of glucocorticoids and increased inhaler use. Despite nasal polypectomy 6 months ago, she continues to have ongoing sinus congestion. She also reports intermittent worsening pain and stiffness in the hands, as well as paresthesia of the fourth and fifth fingers of the right hand. Medical history includes asthma and nasal polyps. Her only medication is inhaled budesonide plus formoterol.On physical examination, vital signs are normal. Pulmonary examination reveals diffuse wheezing. There is mild weakness with dorsiflexion of the left foot.Laboratory studies:Leukocyte count7300/μL (7.3 × 109/L) (20% eosinophils)Total blood eosinophil count2000/μL (2.0 × 109/L) (reference range, 50-500/µL [0.05-0.50 × 109/L])HCreatinine1.2 mg/dL (106.1 μmol/L)ANCAPositive (p-ANCA)ECG is unremarkable. Chest radiograph shows patchy opacities in both lungs.Peripheral nerve biopsy is performed, with pathology results pending.",
   "question_stem": "For which of the following conditions is this patient most at risk?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.631909-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:21.774419-06:00"
 }

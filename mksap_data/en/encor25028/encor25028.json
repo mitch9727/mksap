@@ -1,12 +1,14 @@
 {
   "question_id": "encor25028",
   "category": "en",
+  "category_name": "Endocrinology and Metabolism",
   "educational_objective": "Evaluate a patient with a thyroid nodule.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 66-year-old man is evaluated for a thyroid nodule. The nodule, which is approximately 2.7 cm × 2.5 cm × 1.7 cm, was incidentally discovered several days ago on a CT scan when he was evaluated in the emergency department after a motor vehicle collision. He has experienced a 4.5-kg (10.0-lb) weight loss and fatigue over the past year. He reports no palpitations, hand tremors, increased sweating, or diarrhea. He has no history of neck radiation and no family history of thyroid cancer.On physical examination, vital signs are normal. He has a palpable left thyroid nodule. The remainder of the examination is unremarkable.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -51,57 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/entab24043.html",
-      "tables/entab24067.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "entab24043",
-        "file": "tables/entab24043.html",
-        "title": "Summary of 2015 American Thyroid Association Guidelines: Sonographic Patterns and Recommendations for Fine-Needle Aspiration Biopsy",
-        "short_title": "Sonographic Patterns and Recommendations for FNAB",
-        "footnotes": [
-          "<sup>a</sup>The presence of microcystic spaces occupying more than 50% of the nodule volume is highly correlated with benign cytology.",
-          "<sup>b</sup>Clinical observation is an acceptable alternative.",
-          "<sup>c</sup>Microcalcifications, rim calcifications, shape taller than wide in the transverse plane, irregular margins, extrathyroidal extension, or pathologic lymph nodes (image shows hypoechoic solid nodule with irregular margins).",
-          "Adapted with permission from Haugen BR, Alexander EK, Bible KC, et al. 2015 American Thyroid Association management guidelines for adult patients with thyroid nodules and differentiated thyroid cancer: the American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016;26:1-133. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/26462967\" target=\"_blank\">PMID: 26462967</a> doi:10.1089/thy.2015.0020. Copyright 2016, American Thyroid Association Mary Ann Liebert, Inc."
-        ],
-        "headers": [
-          "Sonographic Pattern",
-          "Representative Image",
-          "Description",
-          "Estimated Risk for Malignancy",
-          "Size Threshold for Fine-Needle Aspiration Biopsy"
-        ]
-      },
-      {
-        "table_id": "entab24067",
-        "file": "tables/entab24067.html",
-        "title": "American College of Radiology TI-RADS Categories and Recommendations for Management",
-        "short_title": "TI-RADS Categories and Recommendations for Management",
-        "footnotes": [
-          "ACR TI-RADS = American College of Radiology Thyroid Imaging, Reporting and Data System; FNAB = fine-needle aspiration biopsy; TR = TI-RADS.",
-          "<sup>a</sup>Smaller TR5 nodules (5 to 9 mm) may be considered for biopsy in certain situations.",
-          "Data from Middleton WD, Teefey SA, Reading CC, et al. Multiinstitutional analysis of thyroid nodule risk stratification using the American College of Radiology Thyroid Imaging Reporting and Data System. AJR Am J Roentgenol. 2017;208:1331-1341. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/28402167\" target=\"_blank\">PMID: 28402167</a> doi:10.2214/AJR.16.17613",
-          "Recommendations from Tessler FN, Middleton WD, Grant EG, et al. ACR Thyroid Imaging, Reporting and Data system (TI-RADS): white paper of the ACR TI-RADS committee. J Am Coll Radiol. 2017;14:587-595. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/28372962\" target=\"_blank\">PMID: 28372962</a> doi:10.1016/j.jacr.2017.01.046"
-        ],
-        "headers": [
-          "ACR TI-RADS Category",
-          "Malignancy Rates",
-          "Threshold for FNAB",
-          "Timing of Ultrasonography for Nodules That Do Not Meet FNAB Criteria"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:27.061410-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:52.113129-06:00"
 }

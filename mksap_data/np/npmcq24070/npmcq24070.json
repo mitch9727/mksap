@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24070",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose renal vein thrombosis as a cause of acute kidney injury.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 50-year-old woman is evaluated for gross hematuria and severe bilateral flank pain that began 3 days ago, for which she has been taking ibuprofen and acetaminophen. Medical history is significant for hyperlipidemia, hypertension, and chronic kidney disease secondary to membranous nephropathy. Other medications are atorvastatin, amlodipine, losartan, prednisone, and mycophenolate mofetil. She reports no chronic NSAID or acetaminophen use before this episode.On physical examination, blood pressure is 156/98 mm Hg, and pulse rate is 110/min. Diffuse abdominal and bilateral costovertebral angle tenderness is noted. There is 2+ pitting lower extremity edema bilaterally.Laboratory studies:Albumin1.9 g/dL (19 g/L)LCreatine kinase150 U/LCreatinine3.2 mg/dL (282.9 µmol/L)H3 months ago2.0 mg/dL (176.8 µmol/L)HLactate dehydrogenase1550 U/LHUrine protein-creatinine ratio12,000 mg/gHUrinalysisSpecific gravity 1.010; 3+ protein; large blood; positive leukocyte esterase; no nitrites; erythrocytes too numerous to count",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.796206-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.916194-06:00"
 }

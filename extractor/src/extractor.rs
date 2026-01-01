@@ -1,10 +1,10 @@
 use anyhow::{Context, Result};
 use reqwest::Client;
-use std::env;
 use std::fs;
 use std::path::Path;
 use tracing::warn;
 
+use crate::utils::parse_env;
 #[path = "auth.rs"]
 pub mod auth;
 #[path = "cleanup.rs"]
@@ -23,8 +23,8 @@ const CHECKPOINT_DIR_NAME: &str = ".checkpoints";
 const FAILED_DIR_NAME: &str = "mksap_data_failed";
 
 pub struct MKSAPExtractor {
-    base_url: String,
-    output_dir: String,
+    pub base_url: String,
+    pub output_dir: String,
     pub client: Client,
     authenticated: bool,
 }
@@ -80,10 +80,11 @@ impl MKSAPExtractor {
             .map(|count| count.get())
             .unwrap_or(4);
 
-        env::var("MKSAP_CONCURRENCY")
-            .ok()
-            .and_then(|value| value.parse::<usize>().ok())
-            .filter(|value| *value > 0)
-            .unwrap_or(default)
+        let configured = parse_env("MKSAP_CONCURRENCY", default);
+        if configured == 0 {
+            default
+        } else {
+            configured
+        }
     }
 }

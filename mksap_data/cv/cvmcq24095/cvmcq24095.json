@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq24095",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Treat a patient with heart failure with preserved ejection fraction and volume overload.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 48-year-old woman is evaluated for a 3-week history of progressive fatigue and dyspnea on exertion. She has hypertension and type 1 diabetes mellitus with a history of diabetic ketoacidosis. Medications are valsartan, metoprolol succinate, and insulin.On physical examination, blood pressure is 112/76 mm Hg and pulse rate is 62/min. BMI is 38. Jugular venous distention is present. Cardiopulmonary examination reveals a few crackles at the lung bases and no S3. Mild lower extremity edema is noted.Laboratory studies:B-type natriuretic peptide192 pg/mL (192 ng/L)HCreatinine0.9 mg/dL (79.6 µmol/L)ECG is normal. Echocardiogram shows normal left ventricular function with an ejection fraction of 58%, mild left ventricular hypertrophy, grade II diastolic dysfunction, and bilateral atrial enlargement.",
   "question_stem": "Which of the following is the most appropriate medication to add to this patient's regimen?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.664173-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.619178-06:00"
 }

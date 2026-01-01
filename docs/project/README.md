@@ -81,8 +81,8 @@ CC: 55 extracted / 54 discovered = 101.9% ✓ (accurate - fully extracted)
    - Question types found (mcq, qqq, vdx, cor, mqq, sq)
    - Discovery timestamp
 
-3. **Validator Usage**: Completion metrics now use discovered counts when available
-4. **Fallback**: Uses historical baseline if discovery metadata not found
+3. **Validator Usage**: Completion metrics use discovered counts (required)
+4. **Discovery Required**: Validation fails if discovery metadata is missing
 
 ### Viewing Discovery Statistics
 

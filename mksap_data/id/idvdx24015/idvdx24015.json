@@ -1,12 +1,14 @@
 {
   "question_id": "idvdx24015",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Diagnose an aspergilloma.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 56-year-old man is evaluated for hemoptysis. He has a history of previously treated cavitary tuberculosis.An enlarged image from a frontal radiograph is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/idfig24617.fecfb666301e204b9cba8748c1a73b11.jpg",
-      "figures/idfig24618.a4b381e11a8fa7e1c096b6e2a9fdc4e5.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "idfig24617",
-        "file": "figures/idfig24617.fecfb666301e204b9cba8748c1a73b11.jpg",
-        "title": "Stem Chest Radiograph Showing an Aspergilloma",
-        "short_title": "CXR Aspergilloma Stem",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 691,
-        "height": 1030
-      },
-      {
-        "figure_id": "idfig24618",
-        "file": "figures/idfig24618.a4b381e11a8fa7e1c096b6e2a9fdc4e5.jpg",
-        "title": "Critique Chest Radiograph Showing an Aspergilloma",
-        "short_title": "CXR Aspergilloma Critique",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 691,
-        "height": 1029
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.689193-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.548078-06:00"
 }

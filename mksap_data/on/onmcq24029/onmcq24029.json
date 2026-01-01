@@ -1,12 +1,14 @@
 {
   "question_id": "onmcq24029",
   "category": "on",
+  "category_name": "Oncology",
   "educational_objective": "Manage neutropenic fever.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 65-year-old woman is evaluated in the emergency department for a 1-day history of fever, chills, and diarrhea. Medical history is significant for diffuse large B-cell lymphoma, for which she is currently receiving chemotherapy. Her last dose was 1 week ago. She also has type 2 diabetes mellitus and takes metformin and atorvastatin.On physical examination, temperature is 39.2 °C (102.6 °F), blood pressure is 110/74 mm Hg, pulse rate is 120/min, and respiration rate is 14/min. Oxygen saturation is 95% with the patient breathing ambient air. There is slight diffuse tenderness in the abdomen, with no rebound or guarding.Laboratory studies:Absolute neutrophil count400/μL (0.4 × 109/L)LHemoglobin8 g/dL (80 g/L)LLeukocyte count1100/μL (1.1 × 109/L)LPlatelet count100,000/μL (100 × 109/L)LChest radiograph shows no abnormalities.Blood cultures, urinalysis, and urine cultures are obtained. Treatment is initiated with intravenous fluids.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.723311-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.977592-06:00"
 }

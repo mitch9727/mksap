@@ -249,11 +249,6 @@ MKSAP_REFRESH_DISCOVERY=1 ./target/release/mksap-extractor
 ```
 
 ```bash
-MKSAP_DISCOVERY_SHUFFLE=1 ./target/release/mksap-extractor
-# Randomizes discovery order to reduce clustered misses from 429s/timeouts
-```
-
-```bash
 MKSAP_DISCOVERY_RETRIES=5 ./target/release/mksap-extractor
 # Increases retry attempts during discovery for transient errors
 ```

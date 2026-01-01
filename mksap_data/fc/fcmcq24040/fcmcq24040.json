@@ -1,12 +1,14 @@
 {
   "question_id": "fcmcq24040",
   "category": "fc",
+  "category_name": "Foundations of Clinical Practice",
   "educational_objective": "Screen for family history of cancer to assess inherited cancer risk.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 33-year-old woman is evaluated during a preventive health care visit. She is interested in knowing her risk for developing cancer. Her medical history is unremarkable, and she takes no medications. She exercises regularly and follows a healthy diet. She does not smoke. Recently, her older brother received a diagnosis of melanoma.On physical examination, vital signs and other findings, including a skin examination, are unremarkable.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -46,6 +48,13 @@
       "target": "_blank",
       "title": null,
       "rel": null
+    },
+    {
+      "href": "https://cbiit.github.io/FHH/html/index.html",
+      "text": "https://cbiit.github.io/FHH/html/index.html",
+      "target": "_blank",
+      "title": null,
+      "rel": null
     }
   ],
   "key_points": [
@@ -66,5 +75,5 @@
     "videos": []
   },
   "media_metadata": null,
-  "extracted_at": "2025-12-27T00:29:27.663669-06:00"
+  "extracted_at": "2025-12-31T17:07:52.821576-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24105",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Treat severe disseminated histoplasmosis in an immunocompromised patient.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 23-year-old man is hospitalized for a 2-week history of fever, malaise, progressive nonproductive cough, and shortness of breath. He has rheumatoid arthritis. His only medication is infliximab.On physical examination, he appears ill. Temperature is 39.3 °C (102.7 °F), blood pressure is 78/43 mm Hg, pulse rate is 122/min, and respiration rate is 24/min. Oxygen saturation is 90% with the patient breathing ambient air. He is in moderate respiratory distress, and on lung examination diffuse crackles are heard bilaterally.Laboratory studies:Leukocyte count2500/µL (2.5 × 109/L)LPlatelet count64,000/µL (64 × 109/L)LAlkaline phosphatase320 U/LHAlanine aminotransferase152 U/LHAspartate aminotransferase148 U/LHSodium125 mEq/L (125 mmol/L)LHistoplasma antigen is detected in the serum and urine.CT scan of the chest is shown.",
   "question_stem": "Which of the following is the most appropriate initial treatment?",
@@ -51,41 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/idfig24210.c26283adfbb3dd1993bf7f737d5de243.png"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "idfig24210",
-        "file": "figures/idfig24210.c26283adfbb3dd1993bf7f737d5de243.png",
-        "title": "CT Scan Showing Pulmonary Histoplasmosis",
-        "short_title": "CT Scan Showing Pulmonary Histoplasmosis",
-        "number": null,
-        "footnotes": [],
-        "extension": "png",
-        "width": 442,
-        "height": 355
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.560257-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.386677-06:00"
 }

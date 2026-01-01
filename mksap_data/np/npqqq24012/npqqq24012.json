@@ -1,12 +1,14 @@
 {
   "question_id": "npqqq24012",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose IgA nephropathy.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 23-year-old woman is evaluated for hematuria of 12 hours' duration. She also reports a 2-day history of upper respiratory infection symptoms. She does not have dysuria or flank pain and is not currently menstruating. A similar incident occurred when she had the flu during college and lasted a few hours. She takes no medications.Physical examination findings and vital signs are unremarkable.Laboratory studies:Urinalysis with microscopy4+ blood; 1+ protein; no leukocyte esterase or nitrites; dysmorphic erythrocytesSerum C3, C4, and creatinine levels are normal.Noncontrast CT scan of the abdomen shows no renal masses, nephrolithiasis, or hydronephrosis.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.924302-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.090465-06:00"
 }

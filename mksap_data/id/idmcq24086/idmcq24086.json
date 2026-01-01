@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24086",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Treat moderate-severity, nonpurulent cellulitis that developed from penetrating trauma with an intravenous antibiotic.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 22-year-old man is evaluated in the emergency department for fever and tenderness of the right arm. He sustained a stab wound to that arm 5 days ago and reports pain and swelling of 3 days' duration. Medical history is otherwise unremarkable, and he takes no medications. A tetanus vaccine booster dose was administered 3 years ago.On physical examination, temperature is 38.6 °C (101.5 °F), blood pressure is 105/65 mm Hg, pulse rate is 105/min, and respiration rate is 16/min. A puncture wound is noted in the right biceps area with surrounding cellulitis. Wound irrigation and exploration reveal superficial skin and soft tissue involvement without bone, tendon, or joint involvement. No evidence of purulence, necrosis, crepitus, or neurovascular compromise of the right upper extremity is present.Laboratory studies:Leukocyte count13,000/µL (13 × 109/L) with 85% neutrophils and 15% lymphocytesHA plain radiograph of the right biceps area shows no evidence of gas or foreign body.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -57,44 +59,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/idtab24006.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "idtab24006",
-        "file": "tables/idtab24006.html",
-        "title": "Treatment of Skin Infections",
-        "short_title": "Treatment of Skin Infections",
-        "footnotes": [
-          "IV = intravenous; MRSA = methicillin-resistant <i>Staphylococcus aureus</i>; PO = oral.",
-          "<sup>a</sup>Some experts recommend coverage for methicillin-sensitive <i>S. aureus</i> in addition to β-hemolytic streptococci in mild cellulitis (i.e., oral dicloxacillin or oral first-generation cephalosporin such as cephalexin) and moderate cellulitis/moderate erysipelas (intravenous cefazolin or intravenous nafcillin/oxacillin).",
-          "<sup>b</sup>Inducible resistance (resistance appearing after exposure to an agent) may be seen with clindamycin.",
-          "<sup>c</sup>Clindamycin can be used as an alternative but is not recommended empirically by some experts because of possible MRSA resistance and increased risk of <i>Clostridioides difficile</i> infections."
-        ],
-        "headers": [
-          "Infection",
-          "Treatment"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.511725-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.292979-06:00"
 }

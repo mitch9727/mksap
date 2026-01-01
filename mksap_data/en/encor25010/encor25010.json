@@ -1,12 +1,14 @@
 {
   "question_id": "encor25010",
   "category": "en",
+  "category_name": "Endocrinology and Metabolism",
   "educational_objective": "Evaluate an adrenal mass.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 61-year-old woman is evaluated after an abdominopelvic CT scan for nephrolithiasis revealed an incidental adrenal mass. She is asymptomatic. She has no other medical problems and takes no medications.On physical examination, vital signs are normal. The remainder of the examination is unremarkable.Unenhanced abdominal CT scan showed a 3.5-cm homogeneous left adrenal mass with a density of 9 Hounsfield units.Serum creatinine, electrolytes, and results of a low-dose overnight dexamethasone suppression test are normal.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -57,36 +59,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/entab24042.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "entab24042",
-        "file": "tables/entab24042.html",
-        "title": "Functional Assessment of an Incidental Adrenal Mass",
-        "short_title": "Functional Assessment of an Incidental Adrenal Mass",
-        "footnotes": [
-          "DHEAS = dehydroepiandrosterone sulfate; HU = Hounsfield units; LDST = low-dose (1-mg) dexamethasone suppression test; PAC/PRA = plasma aldosterone concentration/plasma renin activity.",
-          "<sup>a</sup>Patients with normal biochemical testing on initial assessment do not need repeat hormone testing unless clinical signs or symptoms change.",
-          "<sup>b</sup>Testing could be deferred in older or frail patients with limited life expectancy.",
-          "Information from Fassnacht M, Tsagarakis S, Terzolo M, et al. European Society of Endocrinology clinical practice guidelines on the management of adrenal incidentalomas, in collaboration with the European Network for the Study of Adrenal Tumors. Eur J Endocrinol. 2023;189:G1-G42. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/37318239\" target=\"_blank\">PMID: 37318239</a> doi:10.1093/ejendo/lvad066"
-        ],
-        "headers": [
-          "Condition",
-          "Indications for Testing",
-          "Biochemical Testinga"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:27.031614-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:52.058839-06:00"
 }

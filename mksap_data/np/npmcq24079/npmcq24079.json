@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24079",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose peritoneal dialysis–associated peritonitis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 46-year-old woman is evaluated in the emergency department for a 1-day history of acute-onset diffuse abdominal pain, fever, chills, nausea, and vomiting. She has end-stage kidney disease due to focal segmental glomerulosclerosis. She has been receiving peritoneal dialysis for 10 months and has tolerated it well. She has not missed any peritoneal dialysis exchange treatments. She also has hypertension and gastroesophageal reflux disease. Medications are lisinopril, amlodipine, omeprazole, sevelamer, calcitriol, and gentamicin catheter exit-site cream.On physical examination, temperature is 38.4 °C (101.2 °F), blood pressure is 108/74 mm Hg, and pulse rate is 110/min. The abdomen is distended with diffuse abdominal pain, rebound, guarding, and decreased abdominal sounds. A peritoneal catheter is in place with a clean exit site.Laboratory studies:Leukocyte count18,000/µL (18 × 109/L)HStool guaiac testingNegativePeritoneal dialysis fluid is cloudy, with a leukocyte count of 197/µL (0.197 x 109/L). Peritoneal dialysis fluid Gram stain and culture are pending.CT scan of the abdomen shows fluid and scant free air consistent with peritoneal dialysis, a normal-appearing liver and gallbladder, and no bowel wall thickening or masses.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.812591-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.946677-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "rmmcq24010",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Identify interstitial lung disease as a complication of Sjögren disease.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 56-year-old woman is evaluated for a 2-year history of persistent oral dryness, fatigue, and generalized arthralgia. She has no medical conditions and takes no medications.On physical examination, vital signs are normal. Salivary pooling is decreased. The remainder of the examination is unremarkable.Laboratory studies:Erythrocyte sedimentation rateNormal C3 complement Normal C4 complement NormalC-reactive proteinNormalRheumatoid factorNegativeAntinuclear antibody titerNegativeAnti–cyclic citrullinated peptide antibody titerNegativeAnti-Ro/SSA antibody titer>8 U/L (normal, <1 U/L)HAnti-Smith antibody titerNegativeAnti–double-stranded DNA antibody titerNegativeComplete blood count and comprehensive metabolic panel are normal. Urinalysis findings are unremarkable.Salivary gland biopsy specimen shows two foci of lymphocytic infiltrate per 4 mm2 of salivary gland tissue.",
   "question_stem": "Which of the following manifestations is most highly associated with this patient's underlying disease process?",
@@ -51,41 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/rmtab24030.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "rmtab24030",
-        "file": "tables/rmtab24030.html",
-        "title": "Extraglandular Clinical Manifestations of Sjögren Disease",
-        "short_title": "Extraglandular Clinical Manifestations of Sjögren Disease",
-        "footnotes": [
-          "CNS = central nervous system."
-        ],
-        "headers": [
-          "Site/Organ",
-          "Manifestation (Frequency)"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.635576-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:21.777672-06:00"
 }

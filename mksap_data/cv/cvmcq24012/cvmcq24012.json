@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq24012",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Treat stress cardiomyopathy.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 59-year-old woman is evaluated in the emergency department for acute onset of nausea and diaphoresis. About 24 hours ago, she learned that her son was critically injured in a rock climbing accident and that he remains in the ICU. She is otherwise healthy and takes no medications.On physical examination, blood pressure is 132/82 mm Hg, pulse rate is 76/min, and respiration rate is 18/min. Oxygen saturation is 95% with the patient breathing ambient air. All other findings are unremarkable.Laboratory studies:High-sensitivity troponin TAt baseline148 ng/L (148 μg/L)H2 Hours later222 ng/L (222 μg/L)HHemoglobin13.9 g/dL (139 g/L)Leukocyte count12,500/µL (12.5 × 109/L)HECG is shown.The patient undergoes urgent coronary angiography, which reveals no significant coronary artery disease.Left ventriculograms and video demonstrate apical dyskinesis.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -51,65 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/cvfig24214.ce6460403bc6895079feeac0111bc238.jpg",
-      "figures/cvfig24215.4a6312417e958f405707e45c2fbfd6de.jpg",
-      "figures/cvfig24216.9886da84f16f244c1e8c00812fee2a03.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24214",
-        "file": "figures/cvfig24214.ce6460403bc6895079feeac0111bc238.jpg",
-        "title": "ECG Findings in a Patient With Stress Cardiomyopathy",
-        "short_title": "ECG in Stress Cardiomyopathy",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 891,
-        "height": 330
-      },
-      {
-        "figure_id": "cvfig24215",
-        "file": "figures/cvfig24215.4a6312417e958f405707e45c2fbfd6de.jpg",
-        "title": "Left Ventriculogram Showing Apical Dyskinesis (Top)",
-        "short_title": "top Ventriculogram of Apical Dyskinesis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 895,
-        "height": 738
-      },
-      {
-        "figure_id": "cvfig24216",
-        "file": "figures/cvfig24216.9886da84f16f244c1e8c00812fee2a03.jpg",
-        "title": "Left Ventriculogram Showing Apical Dyskinesis (Bottom)",
-        "short_title": "bottom Ventriculogram of Apical Dyskinesis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 837,
-        "height": 681
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.423283-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.373281-06:00"
 }

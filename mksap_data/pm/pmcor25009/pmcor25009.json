@@ -1,12 +1,14 @@
 {
   "question_id": "pmcor25009",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Diagnose obesity hypoventilation syndrome.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 51-year-old man is evaluated for a 3-month history of worsening lower-extremity edema. He reports no chest pain, dyspnea, or cough. He has obesity and a 15-pack-year smoking history. He has no known medical problems and takes no medications.On physical examination, vital signs are normal. BMI is 42. Breath sounds are diminished at the bases. No adventitial sounds are heard. Heart sounds are normal. Moderate jugular venous distention and bilateral pitting edema of the legs are noted.Laboratory studies:Hematocrit51%Hemoglobin17 g/dL (170 g/L)B-type natriuretic peptide90 pg/mL (90 ng/L)Creatinine0.9 mg/dL (79.6 µmol/L)ElectrolytesSodium139 mEq/L (139 mmol/L)Potassium4.1 mEq/L (4.1 mmol/L)Chloride100 mEq/L (100 mmol/L)Bicarbonate30 mEq/L (30 mmol/L)HArterial blood gasespH7.36LPco253 mm Hg (7.0 kPa)HPo252 mm Hg (6.9 kPa)LUrinalysis findings are within normal limits.Chest radiograph shows reduced lung volumes.",
   "question_stem": "Which of the following is the most likely cause of this patient's findings?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.973316-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.314274-06:00"
 }

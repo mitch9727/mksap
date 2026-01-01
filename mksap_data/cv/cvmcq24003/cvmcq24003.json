@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq24003",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Classify chest discomfort.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 48-year-old woman is evaluated for a 3-month history of episodic substernal chest heaviness without pain or radiation. Episodes often begin early during her thrice-weekly walk, last for 5 to 10 minutes, and improve as she continues walking. She has no other medical problems and takes no medications.Physical examination findings, including vital signs, are normal.ECG shows normal sinus rhythm with no ischemic changes.",
   "question_stem": "Which of the following is the most appropriate classification of this patient's chest discomfort?",
@@ -57,32 +59,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/cvtab24012.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "cvtab24012",
-        "file": "tables/cvtab24012.html",
-        "title": "Characteristics Associated With Cardiac, Possibly Cardiac, and Noncardiac Chest Pain Classification",
-        "short_title": "Characteristics Associated With Chest Pain Classification",
-        "footnotes": [],
-        "headers": [
-          "Characteristic",
-          "Cardiac",
-          "Possibly Cardiac",
-          "Noncardiac"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.389619-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.349514-06:00"
 }

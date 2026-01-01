@@ -1,12 +1,14 @@
 {
   "question_id": "ccmcq24019",
   "category": "cc",
+  "category_name": "Critical Care Medicine",
   "educational_objective": "Treat acute respiratory distress syndrome with prone positioning.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 56-year-old man is evaluated in the ICU 2 days after he was hospitalized with right lower lobe pneumonia. Despite treatment with ceftriaxone and azithromycin, he developed increasing respiratory distress with hypoxemia and was intubated. Volume control mechanical ventilation was started.On physical examination, respiration rate is 16/min. Oxygen saturation is 92% with the patient breathing Fio2 of 0.60. Optimized ventilator settings include tidal volume of 400 mL and positive end-expiratory pressure titrated up to 14 cm H2O. Peak pressure is 32 cm H2O, and plateau pressure is 28 cm H2O. Predicted body weight is 66.0 kg (145.5 lb). The patient appears comfortable, with adequate patient-ventilator synchrony.Arterial blood gas studies (with ventilatory support):pH7.30LPco250 mm Hg (6.6 kPa)HPo270 mm Hg (9.3 kPa)LPo2/Fio2 ratio117 mm Hg (reference range, 400-500 mm Hg)LChest radiograph on admission showed diffuse bilateral lung infiltrates.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Arterial blood gas studies (with ventilatory support):",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.407643-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.902927-06:00"
 }

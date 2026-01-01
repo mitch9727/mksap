@@ -1,12 +1,14 @@
 {
   "question_id": "hmcor25022",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose smoldering multiple myeloma.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 70-year-old patient is evaluated for recently diagnosed anemia. They report no weight loss, fever, pain, dyspnea, or other symptoms. Medical history is significant for hypertension and osteoporosis. Medications are amlodipine, alendronate, calcium, and vitamin D.On physical examination, vital signs and other findings are normal.Laboratory studies:Hemoglobin12.5 g/dL (125 g/L)LMean corpuscular volume90 fLLeukocyte count6700/μL (6.7 × 109/L)Platelet count325,000 (325 × 109/L)Calcium9.7 mg/dL (2.4 mmol/L)Creatinine0.7 mg/dL (61.9 μmol/L)Lactate dehydrogenase95 U/LPeripheral blood smear shows rouleaux formation.Serum protein electrophoresis and immunofixation show an IgG kappa monoclonal protein spike of 3.5 g/dL (35 g/L). Bone marrow biopsy reveals 15% kappa-restricted plasma cells.A PET/CT scan shows no bone lesions.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.815308-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.287918-06:00"
 }

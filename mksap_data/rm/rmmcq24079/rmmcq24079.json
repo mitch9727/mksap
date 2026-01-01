@@ -1,12 +1,14 @@
 {
   "question_id": "rmmcq24079",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Diagnose hypersensitivity vasculitis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 35-year-old patient is evaluated for a 2-week history of a nonpruritic rash on their feet and ankles, as well as rash in small bunches over the lower extremities and buttocks. They have no other symptoms. Medical history is notable for hypertension and hepatitis C virus infection, which was treated 1 year ago. Their only medication is hydrochlorothiazide.On physical examination, vital signs are normal. There are diffuse, mildly tender, 2-mm raised purpuric lesions on the ankles and buttocks.Laboratory studies: C3 complementNormal C4 complementNormalC-reactive proteinNormalRheumatoid factorNegativeCryoglobulinsNegativeAntinuclear antibody titerNegativeANCA antibodiesNegativeHepatitis C antibodyPositiveHepatitis C virus RNANegativeHepatitis B surface antibodyPositiveHepatitis B surface antigenNegativeHIV antigen/antibody combination immunoassayNegativeComplete blood count and complete metabolic panel are normal. Findings on urinalysis with microscopy are normal.Skin biopsy reveals a neutrophilic infiltrate of the small blood vessels, leukocytoclasia, and fibrinoid necrosis. Direct immunofluorescence shows scant deposits of C3 complement, IgM, IgA, and IgG.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.793632-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:21.995567-06:00"
 }

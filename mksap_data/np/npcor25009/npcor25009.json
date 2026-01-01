@@ -1,12 +1,14 @@
 {
   "question_id": "npcor25009",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Manage acute tubular necrosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 56-year-old woman is evaluated in the hospital for acute kidney injury after being hospitalized for severe community-acquired pneumonia. In the emergency department 3 days ago, her blood pressure was 84/40 mm Hg. Aggressive fluid resuscitation with 0.9% saline was administered. Ceftriaxone and azithromycin were initiated. She has no other medical conditions.Today, on physical examination, temperature is 38.2 °C (100.8 °F), blood pressure is 120/68 mm Hg, pulse rate is 90/min, respiration rate is 20/min, and oxygen saturation is 91% with the patient breathing 4 L of oxygen by nasal cannula. Bilateral rhonchi are heard on lung examination. 1+ Lower extremity edema is present.Urine output has been 380 mL during the past 24 hours.Laboratory studies:Blood urea nitrogen45 mg/dL (16.1 mmol/L)HCreatinine3.2 mg/dL (282.9 µmol/L)H3 days ago, on admission1.3 mg/dL (114.9 µmol/L)Sodium135 mEq/L (135 mmol/L)LPotassium4.9 mEq/L (4.9 mmol/L)Bicarbonate19 mEq/L (19 mmol/L)LUrinalysis with microscopySpecific gravity 1.010; pH 5.5; 5 leukocytes/hpf; no erythrocytes; no protein; many granular casts; no crystalsFractional excretion of sodium2.6%H",
   "question_stem": "Which of the following is the most appropriate next step in the management of this patient's acute kidney injury?",
@@ -52,51 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nptab24028.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nptab24028",
-        "file": "tables/nptab24028.html",
-        "title": "Diagnostic Findings Differentiating Prerenal Acute Kidney Injury from Acute Tubular Necrosis",
-        "short_title": "Prerenal Acute Kidney Injury Versus Acute Tubular Necrosis",
-        "footnotes": [
-          "BUN = blood urea nitrogen; FE<sub>Na</sub> = fractional excretion of sodium; FE<sub>Urea</sub> = fractional excretion of urea.a",
-          "<sup>a</sup>Urine sediment findings are more sensitive and specific than BUN-creatinine ratios.",
-          "<sup>b</sup>FE<sub>Na</sub> = (Urine sodium concentration × Plasma creatinine concentration)/(Urine creatinine concentration × Plasma sodium concentration) × 100.",
-          "<sup>c</sup>FE<sub>Urea</sub> = (Urine urea concentration × Plasma creatinine concentration)/(Urine creatinine concentration × Plasma urea concentration) × 100.",
-          "<sup>d</sup>FE<sub>Na</sub> can be high in prerenal states with diuretic use, adrenal insufficiency, or metabolic alkalosis.",
-          "<sup>e</sup>FE<sub>Na</sub> can be low in acute tubular necrosis due to contrast-associated nephropathy, pigment nephropathy, glomerulonephritis, or early obstruction."
-        ],
-        "headers": [
-          "Condition",
-          "BUN-Creatinine Ratioa",
-          "Urine Osmolality (mOsm/kg H2O)",
-          "Urine Sodium (mEq/L [mmol/L])",
-          "FENab",
-          "FEUreac",
-          "Urinalysis and Microscopya"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.558303-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.639253-06:00"
 }

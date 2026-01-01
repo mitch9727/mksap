@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24087",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Diagnose a patient with group A streptococci–associated necrotizing fasciitis and toxic shock syndrome.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 33-year-old woman is admitted to the hospital for fever and excruciating left arm pain at the site of a recent insect bite, which she had been continuously scratching.On physical examination, temperature is 39.0 °C (102.0 °F), blood pressure is 88/60 mm Hg, pulse rate is 105/min, and respiration rate is 24/min. The left biceps is exquisitely tender, with associated warmth, edema, and violaceous hue. The skin surrounding the insect bite is excoriated, and crepitus is present.Laboratory studies:Hemoglobin10 g/dL (100 g/L)LLeukocyte count30,000/µL (30 × 109/L) with 90% neutrophilsHPlatelet count75,000/μL (75 × 109/L)LAlanine aminotransferase120 U/LHAspartate aminotransferase175 U/LHCreatinine2.7 mg/dL (239 μmol/L)HA plain radiograph of the left biceps area shows gas.Empiric meropenem, vancomycin, and clindamycin are initiated. Surgical debridement confirms necrotizing fasciitis. Bacteria are visualized on blood and intraoperative tissue cultures as shown.",
   "question_stem": "Which of the following is the most likely causative organism?",
@@ -51,58 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/idtab24009.html",
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/idfig24207.2128087f9670919924aff2200da03fb9.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "idfig24207",
-        "file": "figures/idfig24207.2128087f9670919924aff2200da03fb9.jpg",
-        "title": "Histopathology of Necrotizing Fasciitis Showing Group A Streptococci",
-        "short_title": "Histopathology of Group A Streptococci",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 675
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "idtab24009",
-        "file": "tables/idtab24009.html",
-        "title": "Diagnostic Criteria for Toxic Shock Syndrome",
-        "short_title": "Diagnostic Criteria for TSS",
-        "footnotes": [
-          "GABHS = group A β-hemolytic streptococci; TSS = toxic shock syndrome.",
-          "<sup>a</sup>Diagnosis is considered confirmed when fever, hypotension, and rash with involvement of three or more organ systems listed and negative serologic and cerebrospinal fluid results listed are all present.",
-          "<sup>b</sup>A definite case is defined by the isolation of GABHS from a sterile site; hypotension with systolic blood pressure ≤90 mm Hg; plus the presence of two or more of the clinical findings listed.",
-          "Information from Centers for Disease Control and Prevention. Toxic shock syndrome (other than streptococcal) (TSS) 2011 case definition. Last updated April 16, 2021. Available at <a href=\"https://ndc.services.cdc.gov/case-definitions/toxic-shock-syndrome-2011/\" target=\"_blank\">https://ndc.services.cdc.gov/case-definitions/toxic-shock-syndrome-2011/</a>. Accessed December 3, 2024; and Centers for Disease Control and Prevention. Streptococcal toxic shock syndrome (STSS) (<i>Streptococcus pyogenes</i>) 2010 case definition. Last updated April 16, 2021. Available at <a href=\"https://ndc.services.cdc.gov/case-definitions/streptococcal-toxic-shock-syndrome-2010/\" target=\"_blank\">https://ndc.services.cdc.gov/case-definitions/streptococcal-toxic-shock-syndrome-2010/</a>. Accessed December 3, 2024."
-        ],
-        "headers": [
-          "Staphylococcal TSSa",
-          "Streptococcal TSSb"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.505825-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.349755-06:00"
 }

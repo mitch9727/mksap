@@ -1,12 +1,14 @@
 {
   "question_id": "fcmcq24063",
   "category": "fc",
+  "category_name": "Foundations of Clinical Practice",
   "educational_objective": "Identify recommended methods for safe patient handoffs.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 63-year-old woman is hospitalized for an exacerbation of newly diagnosed COPD. In handing off the patient to the nocturnist, the admitting physician reports that the patient is moderately ill, with COPD exacerbation diagnosed after increased dyspnea and cough during the past 3 days. He notes that a repeat arterial blood gas test is scheduled for 9 pm, and the results will need to be followed. The admitting physician suggests that noninvasive positive pressure ventilation be initiated for a decline in respiratory status. Then, the nocturnist summarizes the patient's case and asks a clarifying question.",
   "question_stem": "Which communication strategy was used during this encounter?",
@@ -52,35 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/fctab24018.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "fctab24018",
-        "file": "tables/fctab24018.html",
-        "title": "Structured Communication Strategies",
-        "short_title": "Structured Communication Strategies",
-        "footnotes": [
-          "BP = blood pressure; IV = intravenous; NS = normal (0.9%) saline; O<sub>2</sub> sat = O<sub>2</sub> saturation; postop = postoperative; SBP = systolic blood pressure.",
-          "Adapted from TeamSTEPPS curriculum materials. Agency for Healthcare Research and Quality, Rockville, MD. Content last reviewed October 2019. <a href=\"http://www.ahrq.gov/teamstepps/curriculum-materials.html\" target=\"_blank\">www.ahrq.gov/teamstepps/curriculum-materials.html</a>. Accessed November 14, 2024."
-        ],
-        "headers": [
-          "Communication Strategy",
-          "Description",
-          "Setting/Overview",
-          "Example"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:27.707991-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:52.896377-06:00"
 }

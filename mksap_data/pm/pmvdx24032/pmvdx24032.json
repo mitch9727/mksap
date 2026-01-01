@@ -1,12 +1,14 @@
 {
   "question_id": "pmvdx24032",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Diagnose pneumothorax on chest radiography.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 58-year-old woman with septic shock is admitted to the ICU. A central venous catheter is placed. Follow-up chest radiography is performed.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/pmfig24654.f0497ead7a8bc3731b92b0fb1a4f1085.jpg",
-      "figures/pmfig24655.4a4d8c35705d37e4080310abc0a7c787.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "pmfig24654",
-        "file": "figures/pmfig24654.f0497ead7a8bc3731b92b0fb1a4f1085.jpg",
-        "title": "Radiograph Showing Pneumothorax",
-        "short_title": "stem Radiograph Showing Pneumothorax",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 772
-      },
-      {
-        "figure_id": "pmfig24655",
-        "file": "figures/pmfig24655.4a4d8c35705d37e4080310abc0a7c787.jpg",
-        "title": "Radiograph Showing Pneumothorax",
-        "short_title": "critique Radiograph Showing Pneumothorax",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 773
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.286560-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.746582-06:00"
 }

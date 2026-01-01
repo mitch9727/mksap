@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24063",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Manage pantoprazole-induced chronic tubulointerstitial nephritis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 45-year-old woman is evaluated during a follow-up visit. She was diagnosed with hypertension and gastroesophageal reflux disease 1 year ago. She reports polyuria and nocturia. She takes acetaminophen occasionally for headaches but does not use NSAIDs. Medical history is otherwise significant for hyperlipidemia. Other medications are atorvastatin, pantoprazole, and amlodipine.Physical examination findings, including vital signs, are normal.Laboratory studies:Creatine kinase150 U/LCreatinine1.5 mg/dL (132.6 µmol/L)H1 year ago1.1 mg/dL (97.2 µmol/L)ElectrolytesSodium136 mEq/L (136 mmol/L)Potassium5.4 mEq/L (5.4 mmol/L)HChloride105 mEq/L (105 mmol/L)Bicarbonate19 mEq/L (19 mmol/L)LEstimated glomerular filtration rate31 mL/min/1.73 m2 UrinalysisSpecific gravity 1.010; 1+ protein; no blood, leukocyte esterase, or nitritesUrine protein-creatinine ratio500 mg/gHKidney ultrasound shows a 10.2-cm left kidney and a 10.4-cm right kidney, increased echogenicity, and no hydronephrosis.",
   "question_stem": "Which of the following is the most appropriate medication to discontinue?",
@@ -51,46 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nptab24030.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nptab24030",
-        "file": "tables/nptab24030.html",
-        "title": "Pharmacologic Causes of Tubulointerstitial Nephritis",
-        "short_title": "Pharmacologic Causes of Tubulointerstitial Nephritis",
-        "footnotes": [
-          "COX-2 = cyclooxygenase 2."
-        ],
-        "headers": [
-          "Analgesics",
-          "Antibiotics",
-          "Gastrointestinal Therapeutics",
-          "Calcineurin Inhibitors",
-          "Antineoplastic Agents",
-          "Drugs of Abuse",
-          "Other"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.772106-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.900736-06:00"
 }

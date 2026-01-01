@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24020",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Treat ventilator-associated pneumonia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 43-year-old man is evaluated in the ICU for a fever and increased oxygen and suction requirements. He was hit by a car 4 days ago and sustained multiple rib fractures and a pelvis fracture. He was intubated at admission. His sputum was scant and clear yesterday and is now thick and yellow. Medical history is otherwise unremarkable.On physical examination, the patient is intubated and mechanically ventilated. Temperature is 38.5 °C (101.3 °F) and oxygen saturation is 93% with an Fio2 of 0.5 and positive end-expiratory pressure of 10 cm H2O. Pulmonary auscultation reveals scattered left-sided rhonchi.Laboratory studies:Leukocyte count17,200/μL (17.2 × 109/L)HSputum Gram stain, sputum culture, and blood cultures are pending. Nasal swab polymerase chain reaction is negative for methicillin-resistant Staphylococcus aureus.A chest radiograph shows an infiltrate in the left lower lobe and associated small pleural effusion but no pneumothorax.",
   "question_stem": "Which of the following is the most appropriate empiric antibiotic treatment?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.334020-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.995205-06:00"
 }

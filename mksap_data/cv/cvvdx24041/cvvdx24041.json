@@ -1,12 +1,14 @@
 {
   "question_id": "cvvdx24041",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Diagnose congenital bicuspid aortic valve on echocardiography.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 19-year-old man is evaluated for a systolic heart murmur.A short-axis view of the aortic valve on echocardiogram is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24649.764bfbdfeaeaa815ca1239033e8b25f1.png"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24649",
-        "file": "figures/cvfig24649.764bfbdfeaeaa815ca1239033e8b25f1.png",
-        "title": "Echocardiogram Showing Bicuspid Aortic Valve",
-        "short_title": "stem Echocardiogram Showing Bicuspid Aortic Valve",
-        "number": null,
-        "footnotes": [],
-        "extension": "png",
-        "width": 640,
-        "height": 480
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.926860-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.938085-06:00"
 }

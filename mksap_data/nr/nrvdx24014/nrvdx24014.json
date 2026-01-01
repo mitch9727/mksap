@@ -1,12 +1,14 @@
 {
   "question_id": "nrvdx24014",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Diagnose normal-pressure hydrocephalus.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 68-year-old man is evaluated for apathy, poor cognition, impaired gait, and occasional urinary incontinence.Brain MRI is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/nrfig24616.5ac57dd215974526f48defa7e75b633e.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "nrfig24616",
-        "file": "figures/nrfig24616.5ac57dd215974526f48defa7e75b633e.jpg",
-        "title": "MRI Showing Normal Pressure Hydrocephalus",
-        "short_title": "stem MRI Showing Normal Pressure Hydrocephalus",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 387
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.510010-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.725710-06:00"
 }

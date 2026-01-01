@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24076",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Diagnose cryptococcal meningoencephalitis in a patient with AIDS.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 51-year-old man is hospitalized for a 2-week history of fever, malaise, headache, and mild confusion. He has HIV infection but is not taking antiretroviral therapy.On physical examination, the patient is lethargic, slow to answer questions, and oriented to person and place but not time. Temperature is 38.5 °C (101.3 °F), blood pressure is 101/60 mm Hg, pulse rate is 92/min, and respiration rate 18/min. Nuchal rigidity is noted. The remainder of the examination is unremarkable.Noncontrast CT scan of the head is unremarkable.Cerebrospinal fluid studies:Opening pressure300 mm H2OHLeukocyte count20/µL (20 × 106/L) (all mononuclear cells)HGlucose50 mg/dL (2.8 mmol/L)Protein62 mg/dL (620 mg/L)HCD4 cell count is 70/µL, and HIV viral load is 46,500 copies/mL.A brain MRI does not reveal an intracranial mass, lesion, or abnormal enhancement.",
   "question_stem": "Which of the following is the most likely cause of this patient's infection?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Cerebrospinal fluid studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.485471-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.242792-06:00"
 }

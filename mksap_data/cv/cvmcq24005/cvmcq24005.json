@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq24005",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Diagnose acute ascending aortic dissection.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 69-year-old man is evaluated in the emergency department after 2 hours of severe substernal chest pressure that began while at rest. He received aspirin in the ambulance and arrived in the emergency department with minimal residual chest discomfort. Initial ECG was normal. Shortly after arrival, recurrent chest discomfort develops and radiates to the back with associated diaphoresis and shortness of breath. Medical history is unremarkable, and he takes no medications.On physical examination, blood pressure is 100/52 mm Hg, pulse rate is 54/min, and oxygen saturation is 92% with the patient breathing ambient air; other vital signs are normal. There is a soft diastolic murmur at the left sternal border. Faint bibasilar crackles are present. There is no lower extremity edema.ECG and chest radiograph are shown.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -58,53 +60,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24206.5c2df894299aa10181c0bcd110360060.jpg",
-      "figures/cvfig24207.15c014061376b411aa4ec0ab43a5824f.jpg",
-      "figures/cvfig24208.12524108050589bdfc5199d8c7b364b6.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24206",
-        "file": "figures/cvfig24206.5c2df894299aa10181c0bcd110360060.jpg",
-        "title": "ECG in a Patient With Severe Substernal Chest Pressure",
-        "short_title": "stem ECG in Patient With Chest Pressure",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 893,
-        "height": 360
-      },
-      {
-        "figure_id": "cvfig24207",
-        "file": "figures/cvfig24207.15c014061376b411aa4ec0ab43a5824f.jpg",
-        "title": "Chest Radiograph in a Patient With Severe Substernal Chest Pressure",
-        "short_title": "stem Chest X-ray in Patient With Chest Pressure",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 778
-      },
-      {
-        "figure_id": "cvfig24208",
-        "file": "figures/cvfig24208.12524108050589bdfc5199d8c7b364b6.jpg",
-        "title": "CT Angiogram Showing Acute Thoracic Aortic Disease",
-        "short_title": "critique CTA of Thoracic Aortic Disease",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 466,
-        "height": 251
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.406612-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.336792-06:00"
 }

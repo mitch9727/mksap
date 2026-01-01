@@ -1,12 +1,14 @@
 {
   "question_id": "enmcq24088",
   "category": "en",
+  "category_name": "Endocrinology and Metabolism",
   "educational_objective": "Diagnose alcohol-induced hypoglycemia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 59-year-old man is evaluated in the emergency department after being found unconscious this morning. His wife reports that she last saw him 3 days ago. A point-of-care blood glucose level at the scene, performed by emergency medical services, was 39 mg/dL (2.2 mmol/L). He was given intravenous dextrose, and his mentation improved. Medical history is relevant for alcohol use disorder, hypertension, obesity, and a recent episode of contact dermatitis. For the rash, he was prescribed a low-potency topical glucocorticoid, which he used for 3 days and stopped 2 weeks ago. His only medication is hydrochlorothiazide.Upon arrival at the emergency department, blood pressure is 135/87 mm Hg. BMI is 31. He is drowsy but is oriented to person and place. Mucous membranes are dry. He has no rashes.Laboratory studies (upon arrival):Glucose, plasma54 mg/dL (3.0 mmol/L)LInsulin0.05 μU/mL (normal range, 2.6-24.9 μU/mL; normal range after a prolonged fast, <0.3 μU/mL)Ethanol0 mg/dLUrine drug screening is negative. Serum and urine ketone testing is positive.Intravenous dextrose is started. One hour later, his blood glucose level is 90 mg/dL (5.0 mmol/L).",
   "question_stem": "Which of the following is the most likely cause of this patient's hypoglycemia?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies (upon arrival):",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:27.297730-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:52.421749-06:00"
 }

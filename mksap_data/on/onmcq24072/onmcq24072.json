@@ -1,12 +1,14 @@
 {
   "question_id": "onmcq24072",
   "category": "on",
+  "category_name": "Oncology",
   "educational_objective": "Use shared decision making for prostate cancer screening.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 55-year-old man is evaluated during his annual physical examination. He asks whether he should be screened for prostate cancer. He has not had nocturia, urinary frequency or hesitancy, or any change in urine stream. His 80-year-old father has benign prostatic hypertrophy. The patient is unaware of any family history of prostate cancer.Physical examination findings, including vital signs, are normal.",
   "question_stem": "Which of the following is the most appropriate prostate cancer screening strategy for this patient?",
@@ -57,32 +59,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/ontab24027.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "ontab24027",
-        "file": "tables/ontab24027.html",
-        "title": "Recommendations for Prostate Cancer Screening",
-        "short_title": "Recommendations for Prostate Cancer Screening",
-        "footnotes": [
-          "PSA = prostate-specific antigen."
-        ],
-        "headers": [
-          "Expert Group",
-          "Recommendation"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.838496-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.135575-06:00"
 }

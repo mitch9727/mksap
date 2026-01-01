@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq24116",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Prevent stroke in a patient treated with catheter ablation for atrial fibrillation.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 79-year-old woman is evaluated during a follow-up visit 3 months after undergoing catheter ablation for paroxysmal atrial fibrillation. She has no symptoms. She has hypertension, dyslipidemia, and diabetes mellitus. Medications are apixaban, lisinopril, atorvastatin, and metformin.Physical examination findings, including vital signs, are normal.Routine laboratory studies are normal.ECG shows sinus rhythm. Previous echocardiogram showed mild left atrial enlargement with normal left ventricular function (ejection fraction of 55%) and no significant valvular disease.",
   "question_stem": "Which of the following is the most appropriate management of this patient's risk for stroke?",
@@ -52,38 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/cvtab24028.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "cvtab24028",
-        "file": "tables/cvtab24028.html",
-        "title": "CHA<sub>2</sub>DS<sub>2</sub>-VASc Score, Adjusted Stroke Rates, and Stroke Prevention Therapy Recommendations for Nonvalvular Atrial Fibrillation and Flutter",
-        "short_title": "Recommendations for Nonvalvular Atrial Fibrillation and Flutter",
-        "footnotes": [
-          "N/A = not applicable; OAC = oral anticoagulation.",
-          "<sup>a</sup>CHA<sub>2</sub>DS<sub>2</sub>-VASc scoring (maximum 9 points): One point each is given for heart failure, hypertension, diabetes mellitus, vascular disease (prior myocardial infarction, peripheral artery disease, aortic plaque), female sex, and age 65 to 74 years. Two points each are given for previous stroke/transient ischemic attack/thromboembolic disease and age ≥75 years.",
-          "<sup>b</sup>Data from Friberg L, Rosenqvist M, Lip GY. Evaluation of risk stratification schemes for ischaemic stroke and bleeding in 182 678 patients with atrial fibrillation: the Swedish Atrial Fibrillation cohort study. Eur Heart J. 2012;33:1500-10. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/22246443\" target=\"_blank\">PMID: 22246443</a> doi:10.1093/eurheartj/ehr488",
-          "<sup>c</sup>Recommendations from Joglar JA, Chung MK, Armbruster AL, et al. 2023 ACC/AHA/ACCP/HRS guideline for the diagnosis and management of atrial fibrillation: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2024;149:e1-e156. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/38033089\" target=\"_blank\">PMID: 38033089</a> doi:10.1161/CIR.0000000000001193"
-        ],
-        "headers": [
-          "CHA2DS2-VASc Scorea",
-          "Incidence of Ischemic Stroke/100 Patient-Yearsb",
-          "Stroke Prevention Therapyc",
-          "Men",
-          "Women"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.712186-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.692944-06:00"
 }

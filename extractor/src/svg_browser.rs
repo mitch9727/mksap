@@ -113,8 +113,8 @@ impl BrowserSession {
             let dom_urls = self.collect_dom_urls().await.unwrap_or_default();
             let resource_urls = self.collect_resource_urls().await.unwrap_or_default();
             let mut urls = extract_svg_urls(&html);
-            urls.extend(filter_urls(&dom_urls, |url| is_svg_url(url)));
-            urls.extend(filter_urls(&resource_urls, |url| is_svg_url(url)));
+            urls.extend(filter_urls(&dom_urls, is_svg_url));
+            urls.extend(filter_urls(&resource_urls, is_svg_url));
             media.svg_urls = dedupe_urls(urls);
             media.inline_svgs = extract_inline_svgs(&html);
         }
@@ -213,12 +213,9 @@ impl BrowserSession {
     }
 
     async fn try_fill(&self, selector: &str, value: &str) {
-        match self.driver.find(By::Css(selector)).await {
-            Ok(element) => {
-                let _ = element.clear().await;
-                let _ = element.send_keys(value).await;
-            }
-            Err(_) => {}
+        if let Ok(element) = self.driver.find(By::Css(selector)).await {
+            let _ = element.clear().await;
+            let _ = element.send_keys(value).await;
         }
     }
 

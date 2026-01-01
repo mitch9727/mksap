@@ -1,12 +1,14 @@
 {
   "question_id": "hpmcq24025",
   "category": "hp",
+  "category_name": "Hepatology",
   "educational_objective": "Treat suspected acetaminophen-induced hepatotoxicity.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 51-year-old woman is evaluated in the emergency department for a 2-day history of nausea and right-upper-quadrant abdominal discomfort. She recently had an upper respiratory tract illness, for which she has been taking several acetaminophen-containing over-the-counter medications. Liver test results 6 months ago were normal. She does not drink alcohol. Family history is noncontributory.Physical examination findings, including vital signs, are normal.Laboratory studies:INR0.9Albumin4.1 g/dL (41 g/L)Alkaline phosphatase114 U/LHAlanine aminotransferase1132 U/LHAspartate aminotransferase1099 U/LHBilirubinTotal1.2 mg/dL (20.5 µmol/L)Direct1.0 mg/dL (17.1 µmol/L)HSerum acetaminophen11 μg/mL (therapeutic level, 5-20 μg/mL)Viral hepatitis panelNegativeDoppler ultrasound of the abdomen shows a normal-appearing liver and patent portal and hepatic veins. There is no biliary ductal dilation, ascites, or splenomegaly.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.690645-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.111229-06:00"
 }

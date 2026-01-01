@@ -1,12 +1,14 @@
 {
   "question_id": "pmmcq24006",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Treat a patient with chronic hypoventilation due to neuromuscular disease.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 54-year-old man is evaluated 1 month after hospitalization for emergency appendectomy. He was placed on supplemental oxygen for 2 nights following surgery because of oxygen desaturations but otherwise had an uncomplicated postoperative course. Medical history is significant for amyotrophic lateral sclerosis. He has no shortness of breath, but neurologic dysfunction limits his mobility to bed and a wheelchair. His only medication is riluzole.On physical examination, respiration rate is 16/min. Oxygen saturation is 92% with the patient breathing ambient air. BMI is 24. Slight dysarthria, left arm and right leg weakness, muscle fasciculations, and hyperactive deep tendon reflexes are noted. Lung examination reveals reduced diaphragmatic excursion but normal lung sounds.Laboratory studies:Arterial blood gases:pH7.42Pco257 mm Hg (7.6 kPa)HPo263 mm Hg (8.4 kPa)LBicarbonate33 mEq/L (33 mmol/L)HPulmonary function tests:FVC44% of predictedL",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -52,36 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      },
-      {
-        "table_id": "inline_table_2",
-        "file": "tables/inline_table_2.html",
-        "title": "Pulmonary function tests:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.021595-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.384376-06:00"
 }

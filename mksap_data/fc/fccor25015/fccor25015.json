@@ -1,12 +1,14 @@
 {
   "question_id": "fccor25015",
   "category": "fc",
+  "category_name": "Foundations of Clinical Practice",
   "educational_objective": "Provide hepatitis B vaccination for a patient older than 60 years who is at risk.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 63-year-old woman is evaluated during a preventive health care visit. Her vaccination history is as follows:Laboratory studies:VaccineTimingCOVID-19Up to date with vaccinations and boostersInfluenzaMost recent influenza seasonRecombinant zoster6 years agoTetanus, diphtheria, and acellular pertussis5 years agoHer medical history is significant for recently diagnosed metabolic dysfunction–associated steatotic liver disease and dyslipidemia. Her only medication is atorvastatin.",
   "question_stem": "Which of the following vaccines should the patient receive now?",
@@ -52,58 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/fctab24034.html",
-      "tables/fctab24032.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "fctab24034",
-        "file": "tables/fctab24034.html",
-        "title": "Populations With a Risk-Based Indication for Hepatitis B Vaccination<sup>a</sup>",
-        "short_title": "Populations With a Risk-Based Indication for HBV Vaccination",
-        "footnotes": [
-          "HBsAg = hepatitis B surface antigen.",
-          "<sup>a</sup>Adults aged ≥60 years with any of the risk factors listed or any nonimmune adult desiring vaccination."
-        ],
-        "headers": []
-      },
-      {
-        "table_id": "fctab24032",
-        "file": "tables/fctab24032.html",
-        "title": "Indications for Pneumococcal Vaccination Recommendations for Adults Aged 19 to 49 Years",
-        "short_title": "Indications for Pneumococcal Vaccination",
-        "footnotes": [
-          "CSF = cerebrospinal fluid.",
-          "<sup>a</sup>Including heart failure and cardiomyopathies; excludes hypertension.",
-          "<sup>b</sup>Including COPD, emphysema, and asthma.",
-          "<sup>c</sup>Including B- (humoral) or T-lymphocyte deficiency, complement deficiencies (particularly C1, C2, C3, and C4 deficiencies), and phagocytic disorders (excluding chronic granulomatous disease).",
-          "<sup>d</sup>Including diseases requiring treatment with immunosuppressive drugs, including long-term systemic glucocorticoids, or radiation therapy.",
-          "Adapted from U.S. Centers for Disease Control and Prevention. Recommended adult immunization schedule for ages 19 years and older. Published November 21, 2024. Accessed March 28, 2025. <a href=\"https://www.cdc.gov/vaccines/hcp/imz-schedules/downloads/adult/adult-combined-schedule.pdf\" target=\"_blank\">https://www.cdc.gov/vaccines/hcp/imz-schedules/downloads/adult/adult-combined-schedule.pdf</a>"
-        ],
-        "headers": [
-          "Risk Group",
-          "Underlying Medical Condition"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:27.526321-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:52.651023-06:00"
 }

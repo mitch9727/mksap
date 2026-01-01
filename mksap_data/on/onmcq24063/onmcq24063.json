@@ -1,12 +1,14 @@
 {
   "question_id": "onmcq24063",
   "category": "on",
+  "category_name": "Oncology",
   "educational_objective": "Manage superior vena cava syndrome.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 62-year-old patient is evaluated in the emergency department for a 1-week history of dyspnea on exertion and facial edema. They also report a 7-kg (15-lb) unintentional weight loss and cough over the past 3 months. They have a 32-pack-year history of smoking. The patient otherwise has no medical problems and takes no medications.On physical examination, blood pressure is 120/80 mm Hg, pulse rate is 86/min, and respiration rate is 19/min. Oxygen saturation is 98% with the patient breathing ambient air. BMI is 19. Facial fullness, distended neck veins, and mild bilateral upper extremity edema are noted. There is no lower extremity edema. No stridor or respiratory distress is noted.Laboratory study results are normal.Contrast-enhanced CT scan of the chest reveals a central lung mass with a large mediastinal mass impinging upon the superior vena cava. No thrombus is present.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -52,33 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/ontab24022.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "ontab24022",
-        "file": "tables/ontab24022.html",
-        "title": "Grading Superior Vena Cava Syndrome",
-        "short_title": "Grading Superior Vena Cava Syndrome",
-        "footnotes": [
-          "Adapted from Yu JB, Wilson LD, Detterbeck FC. Superior vena cava syndrome—a proposed classification system and algorithm for management. J Thorac Oncol. 2008;3:811-814. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/18670297\" target=\"_blank\">PMID: 18670297</a> doi:10.1097/JTO.0b013e3181804791."
-        ],
-        "headers": [
-          "Grade",
-          "Presentation",
-          "Frequency"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.807283-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.102790-06:00"
 }

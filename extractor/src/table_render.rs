@@ -125,7 +125,7 @@ fn parse_tag(tag: &str) -> (Option<String>, bool, bool) {
     let name_start = if is_end { 2 } else { 1 };
     let name = tag[name_start..]
         .trim_start()
-        .split(|c: char| c == ' ' || c == '>' || c == '/')
+        .split(|c: char| [' ', '>', '/'].contains(&c))
         .next()
         .unwrap_or("")
         .to_string();

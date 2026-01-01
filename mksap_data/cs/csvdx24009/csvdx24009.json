@@ -1,12 +1,14 @@
 {
   "question_id": "csvdx24009",
   "category": "cs",
+  "category_name": "Common Symptoms",
   "educational_objective": "Identify the radiographic findings of osteonecrosis of the hip.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 57-year-old woman with systemic lupus erythematosus is evaluated for right hip pain.A radiograph of the hips is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,53 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/csfig24609.e349ccc34e5aa3ab70e232bafbf69da5.jpg",
-      "figures/csfig24610.8d5858e803fc07184926de46068e4e0b.jpg",
-      "figures/csfig24611.839be1d50864a4ac2892dd0ac5315f99.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "csfig24609",
-        "file": "figures/csfig24609.e349ccc34e5aa3ab70e232bafbf69da5.jpg",
-        "title": "Radiograph of the Hips Showing Osteonecrosis",
-        "short_title": "stem Radiograph of the Hips Showing Osteonecrosis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 729
-      },
-      {
-        "figure_id": "csfig24610",
-        "file": "figures/csfig24610.8d5858e803fc07184926de46068e4e0b.jpg",
-        "title": "Radiograph of the Hips Showing Osteonecrosis",
-        "short_title": "critique Radiograph of the Hips Showing Osteonecrosis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 729
-      },
-      {
-        "figure_id": "csfig24611",
-        "file": "figures/csfig24611.839be1d50864a4ac2892dd0ac5315f99.jpg",
-        "title": "MRI of the Hips Showing Osteonecrosis",
-        "short_title": "critique MRI of the Hips Showing Osteonecrosis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 797,
-        "height": 797
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.168571-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:53.422833-06:00"
 }

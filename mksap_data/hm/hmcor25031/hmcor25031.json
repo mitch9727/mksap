@@ -1,12 +1,14 @@
 {
   "question_id": "hmcor25031",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Manage pulmonary embolism in an older patient at risk of falling.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 78-year-old woman is hospitalized for shortness of breath and pleuritic chest pain of 5 days' duration. She has type 2 diabetes mellitus with associated peripheral neuropathy and a resultant abnormal gait; she has fallen twice in the past year, neither of which required medical evaluation. Medications are metformin, empagliflozin, atorvastatin, and gabapentin.On physical examination, blood pressure is 124/68 mm Hg, pulse rate is 88/min, and respiration rate is 18/min. Oxygen saturation is 92% breathing ambient air. The remainder of the examination is unremarkable.Laboratory studies:Creatinine0.9 mg/dL (79.6 μmol/L)B-type natriuretic peptide98 pg/mL (98 ng/L)High-sensitivity cardiac troponinNormal (<99th percentile upper reference limit)CT angiogram of the chest shows multiple segmental pulmonary emboli.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.823486-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.338570-06:00"
 }

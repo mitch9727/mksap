@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24054",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose acute tubular necrosis due to ischemic injury.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 67-year-old patient is evaluated in the hospital for acute kidney injury. Two days ago, they underwent multivessel percutaneous coronary intervention for an ST-elevation myocardial infarction, which was complicated by cardiogenic shock and insertion of an intra-aortic balloon pump. One week ago, they were prescribed levofloxacin for community-acquired pneumonia. Other medical conditions are type 2 diabetes mellitus, hyperlipidemia, and hypertension. Medications are aspirin, ticagrelor, atorvastatin, levofloxacin, furosemide, and norepinephrine.On physical examination, blood pressure is 90/60 mm Hg, pulse rate is 124/min, and oxygen saturation is 92% with the patient breathing 60% Fio2. Cardiopulmonary examination reveals an S3 gallop and bibasilar crackles. There is bilateral lower extremity edema.Laboratory studies:Creatinine3.0 mg/dL (265.2 μmol/L)H1 week ago0.9 mg/dL (79.6 μmol/L)Creatine kinase170 U/LPotassium5.4 mEq/L (5.4 mmol/L)HUrine microscopyNumerous granular casts/lpf, 1-2 renal tubular epithelial cells/lpf",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,51 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nptab24028.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nptab24028",
-        "file": "tables/nptab24028.html",
-        "title": "Diagnostic Findings Differentiating Prerenal Acute Kidney Injury from Acute Tubular Necrosis",
-        "short_title": "Prerenal Acute Kidney Injury Versus Acute Tubular Necrosis",
-        "footnotes": [
-          "BUN = blood urea nitrogen; FE<sub>Na</sub> = fractional excretion of sodium; FE<sub>Urea</sub> = fractional excretion of urea.a",
-          "<sup>a</sup>Urine sediment findings are more sensitive and specific than BUN-creatinine ratios.",
-          "<sup>b</sup>FE<sub>Na</sub> = (Urine sodium concentration × Plasma creatinine concentration)/(Urine creatinine concentration × Plasma sodium concentration) × 100.",
-          "<sup>c</sup>FE<sub>Urea</sub> = (Urine urea concentration × Plasma creatinine concentration)/(Urine creatinine concentration × Plasma urea concentration) × 100.",
-          "<sup>d</sup>FE<sub>Na</sub> can be high in prerenal states with diuretic use, adrenal insufficiency, or metabolic alkalosis.",
-          "<sup>e</sup>FE<sub>Na</sub> can be low in acute tubular necrosis due to contrast-associated nephropathy, pigment nephropathy, glomerulonephritis, or early obstruction."
-        ],
-        "headers": [
-          "Condition",
-          "BUN-Creatinine Ratioa",
-          "Urine Osmolality (mOsm/kg H2O)",
-          "Urine Sodium (mEq/L [mmol/L])",
-          "FENab",
-          "FEUreac",
-          "Urinalysis and Microscopya"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.752614-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.866677-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "hmqqq24003",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose warm autoimmune hemolytic anemia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 66-year-old woman is evaluated during a follow-up visit for recently diagnosed anemia. She has no family history of anemia. She has otherwise been well and takes no medications.On physical examination, vital signs are normal. Icterus is noted. Splenomegaly is present. The remainder of the examination is normal.Laboratory studies:Hemoglobin8.1 g/dL (81 g/L)LReticulocyte count6.4% of erythrocytesHDirect antiglobulin test is strongly positive for IgG and weakly positive for C3. Peripheral blood smear shows reticulocytosis and spherocytes.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.038079-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.603862-06:00"
 }

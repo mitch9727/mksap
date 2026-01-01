@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24004",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose light-chain amyloidosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 60-year-old man is evaluated for fatigue and lower extremity edema. Medical history is significant for hypertension and dyslipidemia. Medications are amlodipine and atorvastatin.On physical examination, blood pressure is 100/70 mm Hg, and pulse rate is 90/min. No jugular venous distention is seen. Lungs are clear bilaterally. An S4 is present. Bilateral 2+ pedal edema is observed.Laboratory studies:Albumin1.8 g/dL (18 g/L)LCreatinine1.8 mg/dL (159 μmol/L)HFree kappa light chains10 mg/L (normal, 3.3-19.4 mg/L)Free lambda light chains100 mg/L (normal, 5.7-26.6 mg/L)HKappa/lambda free light-chain ratio0.1 (normal, 0.26-1.65)LUrine protein-creatinine ratio4.2 mg/gEchocardiogram shows an ejection fraction of 70% with left ventricular hypertrophy, diastolic dysfunction, and myocardial speckling.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.843306-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.333509-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "dmmcq24007",
   "category": "dm",
+  "category_name": "Dermatology",
   "educational_objective": "Diagnose allergic contact dermatitis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 50-year-old man is evaluated for a 10-year history of an intensely pruritic rash localized to his lower mid abdomen that comes and goes but is usually present. He reports the rash always appears in the same location and has not spread elsewhere. He constantly scratches at the lesion. Over-the-counter hydrocortisone cream provides only temporary relief. Medical history is otherwise unremarkable, and he takes no medications.On physical examination, vital signs are normal.Skin findings are shown.The remainder of the skin examination shows no additional rash. Fingernails and toenails are normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -51,44 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/dmtab24010.html"
-    ],
-    "images": [
-      "figures/dmfig24206.fd3e8215bfc13a6e91f1a416ae19e101.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "dmfig24206",
-        "file": "figures/dmfig24206.fd3e8215bfc13a6e91f1a416ae19e101.jpg",
-        "title": "Allergic Contact Dermatitis",
-        "short_title": "stem Allergic Contact Dermatitis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 808,
-        "height": 1086
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "dmtab24010",
-        "file": "tables/dmtab24010.html",
-        "title": "Common Contact Allergens",
-        "short_title": "Common Contact Allergens",
-        "footnotes": [],
-        "headers": [
-          "Contact Allergens",
-          "Occupations/Exposures"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.205514-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.198814-06:00"
 }

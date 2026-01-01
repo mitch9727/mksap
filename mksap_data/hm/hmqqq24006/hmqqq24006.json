@@ -1,12 +1,14 @@
 {
   "question_id": "hmqqq24006",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose polycythemia vera.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "An 81-year-old woman is evaluated for a 1-year history of headache, redness of the face, and itching. She reports no shortness of breath, chest pain, or difficulty sleeping. Medical history is significant for hypertension. She has never smoked and does not drink alcohol. Her only medication is hydrochlorothiazide.On physical examination, blood pressure is 160/90 mm Hg; other vital signs are normal. BMI is 19. Abdominal examination shows splenomegaly.Laboratory studies:ErythropoietinUndetectableLHemoglobin17.5 g/dL (175 g/L)HLeukocyte count11,000/µL (11 × 109/L)HPlatelet count400,000/µL (400 × 109/L)",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.041245-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.633461-06:00"
 }

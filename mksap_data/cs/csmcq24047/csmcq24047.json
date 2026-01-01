@@ -1,12 +1,14 @@
 {
   "question_id": "csmcq24047",
   "category": "cs",
+  "category_name": "Common Symptoms",
   "educational_objective": "Diagnose pericarditis in a patient with chest pain.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 37-year-old man is evaluated in the emergency department for sharp left-sided chest pain that started earlier in the day. He reports the pain worsens with deep inspiration but does not radiate. He has no other symptoms and has had no previous chest pain. He has hypertension and dyslipidemia. Medications are lisinopril, hydrochlorothiazide, and simvastatin.On physical examination, temperature is 37.2 °C (99.0 °F), blood pressure is 136/86 mm Hg, pulse rate is 101/min, and respiration rate is 16/min. Oxygen saturation is 95% breathing ambient air. The remainder of the examination is unremarkable.Laboratory studies:High-sensitivity troponinNegativeECG is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,41 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/csfig24200.732b463c68a577ddd5daa337f43e3767.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "csfig24200",
-        "file": "figures/csfig24200.732b463c68a577ddd5daa337f43e3767.jpg",
-        "title": "ECG Showing Pericarditis",
-        "short_title": "stem ECG Showing Pericarditis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 533
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.045624-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:53.296308-06:00"
 }

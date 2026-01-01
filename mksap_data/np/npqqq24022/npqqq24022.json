@@ -1,12 +1,14 @@
 {
   "question_id": "npqqq24022",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose type 1 (hypokalemic distal) renal tubular acidosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 37-year-old woman is evaluated for arthralgia, dry eyes, and dry mouth of several weeks' duration. She has taken naproxen and acetaminophen daily for 1 week.On physical examination, vital signs are normal. Mucous membranes and conjunctivae are dry. The parotid glands are enlarged bilaterally.Laboratory studies:Creatinine0.9 mg/dL (79.6 µmol/L) Electrolytes:Sodium138 mEq/L (138 mmol/L)Potassium3.1 mEq/L (3.1 mmol/L)LChloride118 mEq/L (118 mmol/L)HBicarbonate12 mEq/L (12 mmol/L)LGlucose74 mg/dL (4.1 mmol/L)UrinalysispH 7.0; no blood, protein, glucose, erythrocytes, or leukocytesKidney ultrasound shows normal-sized kidneys without cysts or stones.",
   "question_stem": "Which of the following is the most likely cause of the patient's laboratory findings?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.954149-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.125470-06:00"
 }

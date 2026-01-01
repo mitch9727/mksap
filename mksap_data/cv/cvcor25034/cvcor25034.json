@@ -1,12 +1,14 @@
 {
   "question_id": "cvcor25034",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Treat acute pericarditis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 42-year-old man is evaluated in the emergency department for 8 hours of sharp, persistent chest pain. Medical history is significant for hypertension and hyperlipidemia. Medications are lisinopril and atorvastatin.On physical examination, temperature is 37.2 °C (99.0 °F), and the remainder of the vital signs are normal. There is no jugular venous distention. Cardiac examination reveals no rubs, murmurs, or gallops. The chest wall is nontender and without rashes.Serum C-reactive protein level is normal. Troponin T level is normal on arrival and 1 hour later.An ECG is shown. Point-of-care echocardiogram demonstrates normal left ventricular size and function. A small, 4-mm pericardial effusion is present.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -53,29 +55,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig25710.6ae08f7330a161aae9077278e75bedcc.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig25710",
-        "file": "figures/cvfig25710.6ae08f7330a161aae9077278e75bedcc.jpg",
-        "title": "ECG in a Patient With Acute Pericarditis",
-        "short_title": "ECG in a Patient With Acute Pericarditis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 452
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.387737-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.309150-06:00"
 }

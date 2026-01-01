@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24059",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose pulmonary embolism in a patient with high pretest probability by using CT angiography.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 65-year-old man is evaluated in the emergency department for bloody sputum and shortness of breath, which developed 2 hours ago. Three weeks ago, he underwent resection of a stage IIA adenocarcinoma of the colon. Medical history is otherwise unremarkable, and he takes no medications.On physical examination, blood pressure is 122/68 mm Hg, pulse rate is 105/min, and respiration rate is 18/min. Oxygen saturation is 94% with the patient breathing ambient air. Lungs are clear to auscultation. A well-healed abdominal incision is noted.Laboratory studies:Creatinine0.8 mg/dL (70.7 μmol/L)",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -51,63 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/hmtab24045.html",
-      "tables/hmtab24044.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "hmtab24045",
-        "file": "tables/hmtab24045.html",
-        "title": "Pulmonary Embolism Rule-Out Criteria for Predicting Probability of Pulmonary Embolism in Patients With Low Pretest Probability",
-        "short_title": "PERC for Predicting Probability of PE",
-        "footnotes": [
-          "Pretest probability with score of 0 is &lt;1%; no D-dimer measurement or deep venous thrombosis or pulmonary embolism imaging is indicated.",
-          "Reprinted with permission from Raja AS, Greenberg JO, Qaseem A, et al; Clinical Guidelines Committee of the American College of Physicians. Evaluation of patients with suspected acute pulmonary embolism: best practice advice from the clinical guidelines committee of the American College of Physicians. <a href=\"https://www.acpjournals.org/doi/10.7326/M14-1772\" target=\"_blank\">Ann Intern Med</a>. 2015;163:701-11. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/26414967\" target=\"_blank\">PMID: 26414967</a> Copyright 2015 American College of Physicians."
-        ],
-        "headers": [
-          "Clinical Characteristic",
-          "Meets Criterion",
-          "Does Not Meet Criterion"
-        ]
-      },
-      {
-        "table_id": "hmtab24044",
-        "file": "tables/hmtab24044.html",
-        "title": "Wells Criteria for Pulmonary Embolism",
-        "short_title": "Wells Criteria for PE",
-        "footnotes": [
-          "DVT = deep venous thrombosis; PE = pulmonary embolism.",
-          "Dichotomous scoring: &gt;4 points = PE likely; ≤4 points = PE unlikely.",
-          "Three-level scoring: &lt;2 points = low likelihood of PE; 2-6 points = intermediate possibility of PE; &gt;6 points = high probability of PE.",
-          "Data from Wells PS, Anderson DR, Rodger M, Ginsberg JS, Kearon C, Gent M, et al. Derivation of a simple clinical model to categorize patients probability of pulmonary embolism: increasing the models utility with the SimpliRED D-dimer. Thromb Haemost. 2000;83:416-20. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/10744147\" target=\"_blank\">PMID: 10744147</a>"
-        ],
-        "headers": [
-          "Variables",
-          "Points",
-          "Symptoms and Signs",
-          "History",
-          "Other"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.002956-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.554129-06:00"
 }

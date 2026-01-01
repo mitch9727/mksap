@@ -1,12 +1,14 @@
 {
   "question_id": "ccmcq24024",
   "category": "cc",
+  "category_name": "Critical Care Medicine",
   "educational_objective": "Treat a patient with acute COPD exacerbation using noninvasive positive-pressure ventilation.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 75-year-old woman is evaluated in the emergency department for a 4-day history of cough, wheezing, and progressive dyspnea. She has COPD with a baseline FEV1 of 45% of predicted. Medications are inhaled tiotropium-olodaterol and as-needed albuterol.On physical examination, blood pressure is 140/70 mm Hg, pulse rate is 104/min, and respiration rate is 26/min. She is in moderate respiratory distress and is using accessory muscles to breathe. Cardiac examination is normal. Lung examination shows bilateral reduced breath sounds with wheezes and prolonged expiration. Abdominal examination shows paradoxical upper abdominal retraction with inspiration.Arterial blood gas studies (oxygen, 2 L/min by nasal cannula):pH7.28LPco260 mm Hg (8.0 kPa)HPo252 mm Hg (6.9 kPa)LChest radiograph shows bilateral hyperinflated lungs and no infiltrates.Inhaled bronchodilators, intravenous glucocorticoids, and antibiotics are started.",
   "question_stem": "Which of the following is the most appropriate additional treatment?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Arterial blood gas studies (oxygen, 2 L/min by nasal cannula):",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.431801-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.913602-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "cvvdx24014",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Recognize signs of aortic coarctation on a chest radiograph.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 30-year-old man is evaluated for hypertension. He is asymptomatic. A systolic murmur is heard in the left infraclavicular region.Blood pressure is 168/90 mm Hg in both arms.Chest radiograph is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24615.2116ffcd2f65d9439d3fcf9ea6b62792.jpg",
-      "figures/cvfig24616.4cf5a343a84413d950cfa1a0a5bf54ce.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24615",
-        "file": "figures/cvfig24615.2116ffcd2f65d9439d3fcf9ea6b62792.jpg",
-        "title": "Chest Radiograph With Signs of Aortic Coarctation",
-        "short_title": "stem CXR With Signs of Aortic Coarctation",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 1094
-      },
-      {
-        "figure_id": "cvfig24616",
-        "file": "figures/cvfig24616.4cf5a343a84413d950cfa1a0a5bf54ce.jpg",
-        "title": "Chest Radiograph With Signs of Aortic Coarctation With Arrows",
-        "short_title": "critique CXR With Findings of Aortic Coarctation With Arrows",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 656,
-        "height": 800
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.856884-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.873249-06:00"
 }

@@ -41,13 +41,6 @@ pub struct OrganSystem {
     /// Display name of this system code (human-readable).
     /// Examples: "Cardiovascular Medicine", "Endocrinology and Metabolism"
     pub name: String,
-
-    /// Historical baseline question count from MKSAP 2024 initial release.
-    ///
-    /// **IMPORTANT**: This is INFORMATIONAL ONLY and should NOT be used for validation.
-    /// The discovery phase determines the actual available questions via API HEAD requests.
-    /// See `discovery_metadata.json` in the `.checkpoints/` directory for accurate counts.
-    pub baseline_2024_count: u32,
 }
 
 impl OrganSystem {
@@ -69,24 +62,24 @@ pub struct Category {
 ///
 /// # Question System Codes
 ///
-/// | Code | Name | Questions (2024 baseline) |
-/// |------|------|------------------------|
-/// | cv | Cardiovascular Medicine | 216 |
-/// | en | Endocrinology and Metabolism | 136 |
-/// | fc | Foundations of Clinical Practice | 0 (TBD) |
-/// | cs | Common Symptoms | 98 |
-/// | gi | Gastroenterology | 77 |
-/// | hp | Hepatology | 77 |
-/// | hm | Hematology | 125 |
-/// | id | Infectious Disease | 205 |
-/// | in | Interdisciplinary Medicine | 100 |
-/// | dm | Dermatology | 99 |
-/// | np | Nephrology | 155 |
-/// | nr | Neurology | 118 |
-/// | on | Oncology | 103 |
-/// | pm | Pulmonary Medicine | 131 |
-/// | cc | Critical Care Medicine | 55 |
-/// | rm | Rheumatology | 131 |
+/// | Code | Name |
+/// |------|------|
+/// | cv | Cardiovascular Medicine |
+/// | en | Endocrinology and Metabolism |
+/// | fc | Foundations of Clinical Practice |
+/// | cs | Common Symptoms |
+/// | gi | Gastroenterology |
+/// | hp | Hepatology |
+/// | hm | Hematology |
+/// | id | Infectious Disease |
+/// | in | Interdisciplinary Medicine |
+/// | dm | Dermatology |
+/// | np | Nephrology |
+/// | nr | Neurology |
+/// | on | Oncology |
+/// | pm | Pulmonary Medicine |
+/// | cc | Critical Care Medicine |
+/// | rm | Rheumatology |
 ///
 /// # Examples
 ///
@@ -102,82 +95,66 @@ pub fn init_organ_systems() -> Vec<OrganSystem> {
         OrganSystem {
             id: "cv".to_string(),
             name: "Cardiovascular Medicine".to_string(),
-            baseline_2024_count: 216,
         },
         OrganSystem {
             id: "en".to_string(),
             name: "Endocrinology and Metabolism".to_string(),
-            baseline_2024_count: 136,
         },
         OrganSystem {
             id: "fc".to_string(),
             name: "Foundations of Clinical Practice".to_string(),
-            baseline_2024_count: 0, // To be discovered via API
         },
         OrganSystem {
             id: "cs".to_string(),
             name: "Common Symptoms".to_string(),
-            baseline_2024_count: 98, // Actual discovered count
         },
         OrganSystem {
             id: "gi".to_string(),
             name: "Gastroenterology".to_string(),
-            baseline_2024_count: 77, // Estimated split from original 154
         },
         OrganSystem {
             id: "hp".to_string(),
             name: "Hepatology".to_string(),
-            baseline_2024_count: 77, // Estimated split from original 154
         },
         OrganSystem {
             id: "hm".to_string(),
             name: "Hematology".to_string(),
-            baseline_2024_count: 125,
         },
         OrganSystem {
             id: "id".to_string(),
             name: "Infectious Disease".to_string(),
-            baseline_2024_count: 205,
         },
         OrganSystem {
             id: "in".to_string(),
             name: "Interdisciplinary Medicine".to_string(),
-            baseline_2024_count: 100, // Estimated split from original 199
         },
         OrganSystem {
             id: "dm".to_string(),
             name: "Dermatology".to_string(),
-            baseline_2024_count: 99, // Estimated split from original 199
         },
         OrganSystem {
             id: "np".to_string(),
             name: "Nephrology".to_string(),
-            baseline_2024_count: 155,
         },
         OrganSystem {
             id: "nr".to_string(),
             name: "Neurology".to_string(),
-            baseline_2024_count: 118,
         },
         OrganSystem {
             id: "on".to_string(),
             name: "Oncology".to_string(),
-            baseline_2024_count: 103,
         },
         OrganSystem {
             id: "pm".to_string(),
             name: "Pulmonary Medicine".to_string(),
-            baseline_2024_count: 131,
         },
         OrganSystem {
             id: "cc".to_string(),
             name: "Critical Care Medicine".to_string(),
-            baseline_2024_count: 55,
         },
         OrganSystem {
             id: "rm".to_string(),
             name: "Rheumatology".to_string(),
-            baseline_2024_count: 131,
         },
     ]
 }

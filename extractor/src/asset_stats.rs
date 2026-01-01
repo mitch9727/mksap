@@ -88,7 +88,7 @@ impl DiscoveryStatistics {
             if let Some(subspecialty) = &question.subspecialty {
                 self.video_questions_by_subspecialty
                     .entry(subspecialty.clone())
-                    .or_insert_with(Vec::new)
+                    .or_default()
                     .push(question_id.to_string());
             }
         }
@@ -138,7 +138,7 @@ impl DiscoveryStatistics {
 
         report.push_str("MKSAP Media Discovery Report\n");
         report.push_str(&format!("Generated: {}\n", timestamp));
-        report.push_str("\n");
+        report.push('\n');
 
         report.push_str("SUMMARY\n");
         report.push_str(&format!(
@@ -158,7 +158,7 @@ impl DiscoveryStatistics {
             self.skipped_questions
         ));
         report.push_str(&format!("- Failed: {}\n", self.failed_requests));
-        report.push_str("\n");
+        report.push('\n');
 
         report.push_str("MEDIA COUNTS\n");
         report.push_str(&format!(
@@ -177,13 +177,13 @@ impl DiscoveryStatistics {
             "- SVGs: {} (across {} questions)\n",
             self.total_svg_references, self.questions_with_svgs
         ));
-        report.push_str("\n");
+        report.push('\n');
 
         report.push_str("FIGURE BREAKDOWN\n");
         report.push_str(&format!("- SVG format: {}\n", self.svg_figures));
         report.push_str(&format!("- JPG format: {}\n", self.jpg_figures));
         report.push_str(&format!("- PNG format: {}\n", self.png_figures));
-        report.push_str("\n");
+        report.push('\n');
 
         report.push_str("MEDIA COMBINATIONS\n");
         report.push_str(&format!(
@@ -194,7 +194,7 @@ impl DiscoveryStatistics {
             "- Questions with all four types: {}\n",
             self.questions_with_all_four_types
         ));
-        report.push_str("\n");
+        report.push('\n');
 
         if !self.by_subspecialty.is_empty() {
             report.push_str("BY SUBSPECIALTY\n");
@@ -203,7 +203,7 @@ impl DiscoveryStatistics {
             for (subspecialty, count) in subspecialties {
                 report.push_str(&format!("- {}: {} questions\n", subspecialty, count));
             }
-            report.push_str("\n");
+            report.push('\n');
         }
 
         if !self.by_product_type.is_empty() {
@@ -213,7 +213,7 @@ impl DiscoveryStatistics {
             for (product_type, count) in product_types {
                 report.push_str(&format!("- {}: {} questions\n", product_type, count));
             }
-            report.push_str("\n");
+            report.push('\n');
         }
 
         // Add video questions section
@@ -232,7 +232,7 @@ impl DiscoveryStatistics {
                 report.push_str(&format!("  {} ({}):\n", subspecialty, count));
                 report.push_str(&format!("    {}\n", ids_sorted.join(", ")));
             }
-            report.push_str("\n");
+            report.push('\n');
         }
 
         if !self.video_question_ids.is_empty() {

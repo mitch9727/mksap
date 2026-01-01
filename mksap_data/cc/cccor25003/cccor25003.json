@@ -1,12 +1,14 @@
 {
   "question_id": "cccor25003",
   "category": "cc",
+  "category_name": "Critical Care Medicine",
   "educational_objective": "Diagnose acute respiratory distress syndrome.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 36-year-old woman is evaluated for respiratory failure requiring invasive mechanical ventilation 2 hours after a motor vehicle collision in which she sustained right foot and ankle fracture. She has no medical conditions and takes no medications.On physical examination, temperature is 38.0 °C (100.4 °F), blood pressure is 100/65 mm Hg, pulse rate is 100/min, and respiration rate is 26/min. With ventilator settings of an Fio2 of 0.50 and positive end-expiratory pressure of 12 cm H2O, oxygen saturation is 90%. Multiple contusions are seen on her chest. Estimated central venous pressure is normal. Other than tachycardia, cardiac examination is normal. Diffuse lung crackles are heard.Arterial blood gas studies:pH7.3LPco250 mm Hg (6.6 kPa)HPo266 mm Hg (8.8 kPa)LThe hemoglobin level has remained stable.ECG shows only sinus tachycardia. Chest radiograph is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -51,41 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/ccfig25700.d8457ca8951bc0cd669509d3806b599d.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "ccfig25700",
-        "file": "figures/ccfig25700.d8457ca8951bc0cd669509d3806b599d.jpg",
-        "title": "Chest Radiograph in a Patient With Acute Respiratory Distress Syndrome",
-        "short_title": "Chest Radiograph in a Patient With ARDS",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 320,
-        "height": 387
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Arterial blood gas studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.358994-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.830214-06:00"
 }

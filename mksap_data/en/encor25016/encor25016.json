@@ -1,12 +1,14 @@
 {
   "question_id": "encor25016",
   "category": "en",
+  "category_name": "Endocrinology and Metabolism",
   "educational_objective": "Treat thyroid storm.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 75-year-old man is evaluated in the hospital for confusion and diarrhea 12 hours after operative repair of a traumatic left hip fracture. He has Graves disease. His only prehospital medication is methimazole, which has been continued in the hospital. He is currently also receiving enoxaparin and acetaminophen.On physical examination, temperature is 39.4 °C (102.9 °F), blood pressure is 96/54 mm Hg, and pulse rate is 138/min. He is agitated and disoriented. His abdomen is soft, nondistended, and diffusely tender to palpation. The remainder of the examination is normal.Laboratory studies:Thyroid-stimulating hormone<0.1 µU/mL (0.1 mU/L)LFree thyroxine4.4 ng/dL (57 pmol/L)H",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -51,45 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/entab24050.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "entab24050",
-        "file": "tables/entab24050.html",
-        "title": "Diagnostic Criteria for Thyroid Storm<sup>a</sup>",
-        "short_title": "Diagnostic Criteria for Thyroid Storm",
-        "footnotes": [
-          "<sup>a</sup>In patients with severe thyrotoxicosis, points are assigned to the highest weighted description acceptable in each category and scores totaled. When it is not possible to distinguish the effects of an intercurrent illness from those of the severe thyrotoxicosis per se, points are awarded such as to favor the diagnosis of storm and hence, empiric therapy. A score of 45 or greater is highly suggestive of thyroid storm, a score of 25 to 44 is suggestive of impending storm, and a score below 25 is unlikely to represent thyroid storm.",
-          "Reproduced from Burch HB, Wartofsky L. Life-threatening thyrotoxicosis. Thyroid storm. <a href=\"https://www.sciencedirect.com/journal/endocrinology-and-metabolism-clinics-of-north-america\" target=\"_blank\">Endocrinol Metab Clin North Am</a>. 1993;22:263-77. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/8325286\" target=\"_blank\">PMID: 8325286</a> doi.org/10.1016/S0889-8529(18)30165-8. Copyright 1993 with permission from Elsevier, Inc."
-        ],
-        "headers": [
-          "Thermoregulatory Dysfunction",
-          "Central Nervous System Effects",
-          "Gastrointestinal-Hepatic Dysfunction",
-          "Cardiovascular Dysfunction",
-          "Precipitant History"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:27.043474-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:52.073177-06:00"
 }

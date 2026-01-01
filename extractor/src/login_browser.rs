@@ -105,9 +105,7 @@ impl BrowserLogin {
     {
         #[cfg(not(target_os = "macos"))]
         {
-            return Err(anyhow::anyhow!(
-                "Browser login is supported only on macOS."
-            ));
+            return Err(anyhow::anyhow!("Browser login is supported only on macOS."));
         }
 
         info!("================================================");
@@ -181,10 +179,7 @@ impl BrowserLogin {
             }
 
             // Display countdown every 10 seconds
-            if elapsed_secs % 10 == 0
-                && elapsed_secs != 0
-                && (elapsed_secs == 10 || elapsed_secs % 10 == 0)
-            {
+            if elapsed_secs != 0 && elapsed_secs.is_multiple_of(10) {
                 let remaining = 600 - elapsed_secs;
                 info!("Still waiting... ({} seconds remaining)", remaining);
             }

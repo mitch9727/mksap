@@ -1,12 +1,14 @@
 {
   "question_id": "rmcor25005",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Diagnose hemochromatosis as a cause of secondary osteoarthritis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 46-year-old man is evaluated for a 5-year history of daily pain in the lower spine, knees, and hands. The hand pain is associated with occasional swelling. Morning stiffness lasts less than 30 minutes. He was diagnosed with type 2 diabetes mellitus 2 years ago. His medications are metformin and atorvastatin.On physical examination, vital signs are normal. There is bilateral enlargement of the second, third, and fourth metacarpophalangeal joints as well as all proximal and distal interphalangeal joints. The medial joint line of each knee is tender to palpation.Laboratory studies:Alanine aminotransferase48 U/LHAspartate aminotransferase52 U/LHCreatinine1.0 mg/dL (88.4 µmol/L)Serum calcium and C-reactive protein levels are normal; serum ferritin level and transferrin saturation are elevated.Radiographs of the knees reveal tricompartmental joint-space narrowing and subchondral sclerosis. Radiograph of the hands is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,53 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/rmfig25700.599efbf1de7677e2316bb069bf9f0fdf.jpg",
-      "figures/rmfig25701.60bba0561f52e55f319841d75a228cf3.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "rmfig25700",
-        "file": "figures/rmfig25700.599efbf1de7677e2316bb069bf9f0fdf.jpg",
-        "title": "Radiographic Findings in Osteoarthritis",
-        "short_title": "stem Radiographic Findings in Osteoarthritis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 397,
-        "height": 334
-      },
-      {
-        "figure_id": "rmfig25701",
-        "file": "figures/rmfig25701.60bba0561f52e55f319841d75a228cf3.jpg",
-        "title": "Radiographic Findings in Osteoarthritis",
-        "short_title": "crit Radiographic Findings in Osteoarthritis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 468,
-        "height": 395
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.551626-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:59.054531-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "hmqqq24001",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Treat iron deficiency caused by malabsorption.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 28-year-old woman is evaluated for a 2-month history of decreased exercise tolerance and ice cravings. She was diagnosed with Crohn disease 3 months ago. Medications are infliximab and daily ferrous sulfate tablets, which she began taking 6 weeks ago after laboratory studies showed a hemoglobin level of 8.2 g/dL (82 g/L).On physical examination, conjunctivae are pale. The remainder of the examination, including vital signs, is normal.Laboratory studies:Hemoglobin7.5 g/dL (75 g/L)LFerritin1.0 ng/mL (1.0 µg/L)L",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.034891-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.598996-06:00"
 }

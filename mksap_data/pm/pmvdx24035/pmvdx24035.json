@@ -1,12 +1,14 @@
 {
   "question_id": "pmvdx24035",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Diagnose bronchiectasis on a chest CT scan.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 49-year-old man is evaluated for chronic cough and voluminous sputum production.Chest CT scan is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/pmfig24659.40788830930805468f9a24ef4e84dab9.jpg",
-      "figures/pmfig24660.54a5288e60434474eb4cdebb03dd5d06.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "pmfig24659",
-        "file": "figures/pmfig24659.40788830930805468f9a24ef4e84dab9.jpg",
-        "title": "CT Scan Showing Bronchiectasis",
-        "short_title": "stem CT Scan Showing Bronchiectasis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 632
-      },
-      {
-        "figure_id": "pmfig24660",
-        "file": "figures/pmfig24660.54a5288e60434474eb4cdebb03dd5d06.jpg",
-        "title": "CT Scan Showing Bronchiectasis",
-        "short_title": "critique CT Scan Showing Bronchiectasis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 632
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.286397-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.745118-06:00"
 }

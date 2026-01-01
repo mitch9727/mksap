@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24032",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Manage minor bleeding in a patient with mild hemophilia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 24-year-old man is evaluated for a 6-hour history of epistaxis. The bleeding has not responded to local pressure. He has mild hemophilia. He has no history of bleeding or surgery. Family history is significant for hemophilia in his brother and uncle. He takes no medications.On physical examination, vital signs are normal. Anterior rhinoscopy reveals oozing from the right anterior nasal septum in the Kiesselbach plexus.Laboratory studies:Factor VIII activity25% (baseline, 30%)The bleeding persists despite initiation of oxymetazoline and local cautery.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -57,27 +59,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.926223-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.487455-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "ccmcq24025",
   "category": "cc",
+  "category_name": "Critical Care Medicine",
   "educational_objective": "Assess a comatose patient with hypothermia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 44-year-old woman is evaluated in the ICU 1 day after hospital admission. She was found unresponsive and pulseless at home, and cardiopulmonary resuscitation was initiated by emergency medical services, with return of spontaneous circulation. Cardiac monitoring on presentation showed ventricular fibrillation. CT scan of the head was normal. Targeted hypothermia was initiated. Temperature has been maintained at 35.0 °C (95.0 °F) for the past 24 hours.On physical examination, she is intubated. Temperature is 35.1 °C (95.2 °F), blood pressure is 140/98 mm Hg, pulse rate is 110/min, and respiration rate is 10/min. Oxygen saturation is 100% with the patient breathing Fio2 of 0.40. Pupils are 4 mm and unreactive bilaterally. Corneal, oculocephalic, oculovestibular, gag, and cough reflexes are absent. The patient has no motor response to auditory or painful stimuli.Arterial blood gas studies (with ventilatory support):pH7.35LPco234 mm Hg (4.5 kPa)LPo280 mm Hg (10.6 kPa)No spontaneous breaths or respiratory efforts are appreciated when she is placed on pressure support ventilation.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Arterial blood gas studies (with ventilatory support):",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.437723-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.911338-06:00"
 }

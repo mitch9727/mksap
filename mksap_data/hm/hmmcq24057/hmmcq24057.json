@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24057",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Manage low-risk pulmonary embolism.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 72-year-old man is evaluated in the emergency department for pleuritic chest pain and shortness of breath of 2 days' duration. Medical history is unremarkable, and he takes no medications.On physical examination, blood pressure is 124/72 mm Hg, and pulse rate is 98/min. Oxygen saturation is 94% with the patient breathing ambient air. The remainder of the physical examination is normal.Laboratory studies show an elevated D-dimer level and normal troponin and B-type natriuretic peptide levels.CT angiogram of the chest shows a left-sided segmental pulmonary embolism without right ventricular enlargement.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -51,35 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/hmtab24046.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "hmtab24046",
-        "file": "tables/hmtab24046.html",
-        "title": "Simplified Pulmonary Embolism Severity Index (sPESI)",
-        "short_title": "Simplified PESI",
-        "footnotes": [
-          "PESI = Pulmonary Embolism Severity Index; SBP = systolic blood pressure.",
-          "<sup>a</sup>A total point score is obtained by adding the points. The score corresponds with the following risk classes: 0 = low risk; ≥1 = high risk.",
-          "<sup>b</sup>Combined variable of history of heart failure and history of chronic lung disease.",
-          "Reprinted with permission from Fermann GJ, Erkens PM, Prins MH, et al. Treatment of pulmonary embolism with rivaroxaban: outcomes by simplified Pulmonary Embolism Severity Index score from a post hoc analysis of the EINSTEIN PE study. Acad Emerg Med. 2015;22:299-307. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/25716463\" target=\"_blank\">PMID: 25716463</a> doi:10.1111/acem.12615"
-        ],
-        "headers": [
-          "Variable",
-          "Simplified PESIa Score"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.992300-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.546344-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24027",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose babesiosis as the cause of hemolysis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 28-year-old man is evaluated for a 3-day history of fever, myalgia, and malaise. He also reports occasional headaches. He resides in Maine and reports no recent travel. Medical history is unremarkable, and he takes no medications.On physical examination, temperature is 39.2 °C (102.6 °F), blood pressure is 120/70 mm Hg, pulse rate is 112/min, and respiration rate is 16/min. Palpation reveals a mildly enlarged liver. No lymphadenopathy or rash is present.Laboratory studies:Hematocrit33%LHemoglobin11.1 g/dL (111 g/L)LLeukocyte count9800/µL (9.8 × 109/L)Platelet count100,000/µL (100 × 109/L)LReticulocyte count6.3% of erythrocytesHAlanine aminotransferase50 U/LHAspartate aminotransferase56 U/LHBilirubinTotal2.6 mg/dL (44.5 μmol/L)HDirect0.2 mg/dL (3.4 μmol/L)Creatinine1.0 mg/dL (88.4 μmol/L)Haptoglobin10 mg/dL (100 mg/L)LLactate dehydrogenase385 U/LHDirect antiglobulin test is negative for IgG and complement (C3).Peripheral blood smear shows erythrocytes with occasional inclusions arranged in a tetrad resembling a Maltese cross.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.905343-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.437285-06:00"
 }

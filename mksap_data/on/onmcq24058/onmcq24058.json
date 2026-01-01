@@ -1,12 +1,14 @@
 {
   "question_id": "onmcq24058",
   "category": "on",
+  "category_name": "Oncology",
   "educational_objective": "Evaluate a patient with metastatic breast cancer.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 74-year-old woman is evaluated for a 4-month history of worsening back pain and dyspnea on exertion. She has not experienced bladder or bowel incontinence or lower extremity weakness. She has a history of coronary artery disease and hypertension. Medications include aspirin, metoprolol tartrate, atorvastatin, and lisinopril.On physical examination, vital signs are normal. A palpable 4-cm × 3-cm right breast mass is noted.Laboratory studies:Alkaline phosphataseMildly elevatedCalciumMildly elevatedLiver function testingNormalCT scan of the chest shows multiple scattered bilateral pulmonary masses measuring up to 3.2 cm and a 4-cm x 4-cm right breast mass. Spinal MRI reveals multiple lesions in the lumbar spine with no evidence of spinal cord compression.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.802482-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.078702-06:00"
 }

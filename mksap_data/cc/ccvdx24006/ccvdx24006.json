@@ -1,12 +1,14 @@
 {
   "question_id": "ccvdx24006",
   "category": "cc",
+  "category_name": "Critical Care Medicine",
   "educational_objective": "Diagnose right mainstem intubation and right upper lobe atelectasis on a chest radiograph.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 58-year-old man is intubated and mechanically ventilated for respiratory failure. Postintubation chest radiography is performed.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/ccfig24611.87b129bdaf74f6c0b2a1d67fa3b43250.jpg",
-      "figures/ccfig24612.f11db7095148f790190eab4f8ec46496.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "ccfig24611",
-        "file": "figures/ccfig24611.87b129bdaf74f6c0b2a1d67fa3b43250.jpg",
-        "title": "Radiograph Showing Mainstem Intubation and Atelectasis",
-        "short_title": "stem Radiograph of Mainstem Intubation and Atelectasis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 833
-      },
-      {
-        "figure_id": "ccfig24612",
-        "file": "figures/ccfig24612.f11db7095148f790190eab4f8ec46496.jpg",
-        "title": "Radiograph Showing Mainstem Intubation and Atelectasis",
-        "short_title": "crit Radiograph of Mainstem Intubation and Atelectasis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 832
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.480738-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.977453-06:00"
 }

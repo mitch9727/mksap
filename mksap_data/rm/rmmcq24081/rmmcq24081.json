@@ -1,12 +1,14 @@
 {
   "question_id": "rmmcq24081",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Diagnose diffuse alveolar hemorrhage in systemic lupus erythematosus.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 34-year-old woman is evaluated in the emergency department for 2 days of increasing shortness of breath, fever, and blood-tinged sputum. She has a 3-year history of systemic lupus erythematosus. She has had difficulty adhering to medications in the past, and she currently is not taking any medications.On physical examination, temperature is 38.8 °C (101.8 °F), blood pressure is 110/60 mm Hg, pulse rate is 110/min, and respiration rate is 24/min. Oxygen saturation is 90% with the patient breathing high-flow oxygen. Malar rash is observed. Cardiac examination is normal. Lung examination demonstrates diffuse crackles but no rubs. There are small knee effusions and 1+ pitting edema in the lower extremities.Laboratory studies:Hematocrit28%L1 month ago: 35%LLeukocyte count4200/μL (4.2 × 109/L)Platelet count235,000/μL (235 × 109/L) C3 complement65 mg/dL (650 mg/L) C4 complement8 mg/dL (100 mg/L)LAnti–double-stranded DNA antibody titer400 U/mL (normal range, <10 U/mL)HAntiphospholipid antibodiesNegativeChest radiograph reveals diffuse pulmonary infiltrates.Bronchoalveolar lavage shows increasing erythrocyte counts with sequential aliquots.",
   "question_stem": "Which of the following most likely explains this patient's acute presentation?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.799245-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:21.977803-06:00"
 }

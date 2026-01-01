@@ -16,7 +16,7 @@ The extractor follows a modular, async-first architecture optimized for API-base
 
 **Key Functions**:
 - `main()` - Application entry point
-- `authenticate_extractor()` (from `auth_flow.rs`) - Authentication flow
+- `authenticate_extractor()` (from `auth.rs`) - Authentication flow
 - `extract_category()` (from `workflow.rs`) - Per-system extraction pipeline
 - `validate_extraction()` / `show_discovery_stats()` (from `reporting.rs`)
 
@@ -24,7 +24,7 @@ The extractor follows a modular, async-first architecture optimized for API-base
 
 **Responsibilities**:
 - Define all 16 system codes (including `fc` and `cs`)
-- Store display names and baseline counts (informational only)
+- Store display names for system lookup
 - Provide system lookup functions
 
 **Key Structures**:
@@ -32,7 +32,6 @@ The extractor follows a modular, async-first architecture optimized for API-base
 pub struct OrganSystem {
     pub id: String,                  // cv, en, fc, cs, etc.
     pub name: String,                // Full system name
-    pub baseline_2024_count: u32,    // Informational baseline
 }
 ```
 
@@ -228,7 +227,6 @@ GET /api/questions/{question_id}.json
 - **chrono**: Date/time handling
 - **uuid**: Unique identifiers
 - **futures**: Async stream helpers
-- **rand**: Discovery shuffle
 - **anyhow**: Error handling
 
 ## Performance Characteristics
@@ -257,7 +255,6 @@ GET /api/questions/{question_id}.json
 OrganSystem {
     id: "ns".to_string(),
     name: "New System Name".to_string(),
-    baseline_2024_count: 0,
 }
 ```
 

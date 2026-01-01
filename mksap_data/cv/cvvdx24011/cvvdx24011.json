@@ -1,12 +1,14 @@
 {
   "question_id": "cvvdx24011",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Diagnose type A aortic dissection.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 66-year-old man is evaluated for sudden-onset dyspnea. Blood pressure in the right arm is 198/120 mm Hg. Cardiopulmonary examination reveals aortic regurgitation and pulmonary crackles. Emergency chest CT with contrast is performed.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24611.813f64500d74b09ca3c5bdccf5707928.jpg",
-      "figures/cvfig24612.d0c46ea57ea6f6d7e5e4205ec4de50d3.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24611",
-        "file": "figures/cvfig24611.813f64500d74b09ca3c5bdccf5707928.jpg",
-        "title": "Chest CT Showing Type A Aortic Dissection",
-        "short_title": "stem Chest CT Showing Type A Aortic Dissection",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 512,
-        "height": 418
-      },
-      {
-        "figure_id": "cvfig24612",
-        "file": "figures/cvfig24612.d0c46ea57ea6f6d7e5e4205ec4de50d3.jpg",
-        "title": "Chest CT Showing Type A Aortic Dissection With Arrow",
-        "short_title": "critique Chest CT Showing Type A Aortic Dissection With Arrow",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 512,
-        "height": 418
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.857111-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.853908-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24021",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Manage glucose-6-phosphate dehydrogenase deficiency.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 21-year-old man is evaluated in the emergency department for fatigue and dyspnea. Ten days ago, treatment was initiated for purulent cellulitis of the right leg with trimethoprim-sulfamethoxazole. Medical history is otherwise unremarkable, and he takes no other medications.On physical examination, vital signs are normal. He has pale conjunctiva and icteric sclera. Lower extremities are without erythema or induration.Laboratory studies:Hematocrit26%LHemoglobin8.5 g/dL (85 g/L)LLeukocyte count9800/µL (9.8 × 109/L) with 80% neutrophils, 15% lymphocytes, 5% monocytesPlatelet count260,000/µL (260 × 109/L)Reticulocyte count15% of erythrocytesHBilirubinTotal4.0 mg/dL (68.4 µmol/L)HDirect0.3 mg/dL (5.1 µmol/L)Creatinine0.7 mg/dL (61.9 µmol/L)HaptoglobinUndetectableLactate dehydrogenase550 U/LHDirect antiglobulin test is negative for IgG and complement (C3).Peripheral blood smear is shown.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -52,53 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/hmfig24205.a23e96d40d4e3e2ca9fbd5d67a4fbc20.jpg",
-      "figures/hmfig24206.476f10654aabbddd5c19c3160921cd6f.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "hmfig24205",
-        "file": "figures/hmfig24205.a23e96d40d4e3e2ca9fbd5d67a4fbc20.jpg",
-        "title": "Bite Cells in Glucose-6-Phosphate Dehydrogenase Deficiency",
-        "short_title": "Bite Cells",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 469
-      },
-      {
-        "figure_id": "hmfig24206",
-        "file": "figures/hmfig24206.476f10654aabbddd5c19c3160921cd6f.jpg",
-        "title": "Critique Bite Cells in Glucose-6-Phosphate Dehydrogenase Deficiency",
-        "short_title": "Bite Cells Critique",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 469
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.898072-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.414633-06:00"
 }

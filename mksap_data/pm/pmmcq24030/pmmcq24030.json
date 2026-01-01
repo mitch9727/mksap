@@ -1,12 +1,14 @@
 {
   "question_id": "pmmcq24030",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Evaluate an incidentally detected pulmonary nodule.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 46-year-old woman is evaluated after the incidental discovery of a pulmonary nodule on CT scan. Two weeks ago, she was evaluated in the emergency department for abdominal pain. A CT scan of the abdomen obtained at that time revealed diverticulitis and a 5-mm solid pulmonary nodule with regular margins in the right lower lobe of the lung. She has no shortness of breath, chest pain, hemoptysis, weight loss, or other symptoms. She has not previously undergone chest imaging. The patient has hypertension treated with lisinopril. Her mother died of breast cancer; she has no other family history of cancer. She does not smoke tobacco.Physical examination findings, including vital signs, are normal.",
   "question_stem": "Which of the following is the most appropriate next step in image-based diagnostic testing?",
@@ -46,6 +48,13 @@
       "target": "_blank",
       "title": null,
       "rel": null
+    },
+    {
+      "href": "https://brocku.ca/lung-cancer-screening-and-risk-prediction/risk-calculators/",
+      "text": "https://brocku.ca/lung-cancer-screening-and-risk-prediction/risk-calculators/",
+      "target": "_blank",
+      "title": null,
+      "rel": null
     }
   ],
   "key_points": [
@@ -60,33 +69,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/pmtab24039.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "pmtab24039",
-        "file": "tables/pmtab24039.html",
-        "title": "Fleischner Society Recommendations for Single Pulmonary Nodule Follow-Up",
-        "short_title": "Recommendations for Single Pulmonary Nodule Follow-Up",
-        "footnotes": [
-          "Used with permission of the Radiological Society of North America, from MacMahon H, Naidich DP, Goo JM, et al. Guidelines for management of incidental pulmonary nodules detected on CT images: from the Fleischner Society 2017. Radiology. 2017;284:228-43. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/28240562\" target=\"_blank\">PMID: 28240562</a> doi:10.1148/radiol.2017161659; permission conveyed through Copyright Clearance Center, Inc."
-        ],
-        "headers": [
-          "Risk Factors for Lung Cancer?",
-          "Size",
-          "Recommended Follow-Up"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.089319-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.455404-06:00"
 }

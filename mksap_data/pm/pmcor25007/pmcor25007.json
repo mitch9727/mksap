@@ -1,12 +1,14 @@
 {
   "question_id": "pmcor25007",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Diagnose a complicated parapneumonic effusion.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 60-year-old man is evaluated in the emergency department for a 1-week history of cough, shortness of breath, chest pain, and night sweats. He has atrial fibrillation, hypertension, and heart failure with preserved ejection fraction. Medications are metoprolol, valsartan, and apixaban. He has a 25-pack-year smoking history.On physical examination, temperature is 38.8 °C (102 °F), blood pressure is 145/82 mm Hg, pulse rate is 128/min, and respiration rate is 30/min. Oxygen saturation is 88% with the patient breathing ambient air. Heart rhythm is irregularly irregular. No jugular venous distention or leg edema is observed. Decreased breath sounds and dullness to percussion at the right lung base are noted. The remainder of the examination is noncontributory.Laboratory studies:Leukocyte count16,000/µL (16.0 × 109/L)HTotal protein6.9 g/dL (69 g/L)Chest radiograph shows a large right pleural effusion with associated compressive atelectasis or consolidation, and consolidation in the right upper lobe.The patient is prescribed broad-spectrum antibiotics, and diagnostic thoracentesis removes 100 mL of serous pleural fluid.Pleural fluid studies:pH7.0LGlucose42 mg/dL (2.3 mmol/L)LLactate dehydrogenase2310 U/LHProtein, total5.2 g/dL (52 g/L)Gram stainNegative",
   "question_stem": "Which of the following is the most likely cause of this patient's pleural effusion?",
@@ -51,36 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      },
-      {
-        "table_id": "inline_table_2",
-        "file": "tables/inline_table_2.html",
-        "title": "Pleural fluid studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.976493-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.299870-06:00"
 }

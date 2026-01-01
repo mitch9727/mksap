@@ -1,12 +1,14 @@
 {
   "question_id": "fcmcq24057",
   "category": "fc",
+  "category_name": "Foundations of Clinical Practice",
   "educational_objective": "Manage periprocedural glucocorticoid therapy in a patient with primary adrenal insufficiency.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 35-year-old woman is scheduled for a dental extraction to be performed with local anesthesia. She is physically active and feels well. She has primary adrenal insufficiency, for which she takes hydrocortisone and fludrocortisone.On physical examination, vital signs and other findings are unremarkable.Results of a basic chemistry panel and kidney function tests are normal.",
   "question_stem": "Which of the following is the most appropriate management of this patient's glucocorticoid therapy on the day of surgery?",
@@ -52,33 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/fctab24048.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "fctab24048",
-        "file": "tables/fctab24048.html",
-        "title": "Glucocorticoid Stress Dosing Strategies in Patients at Risk for Adrenal Insufficiency",
-        "short_title": "Glucocorticoid Stress Dosing Strategies",
-        "footnotes": [
-          "Adapted from Liu MM, Reidy AB, Saatee S, et al. Perioperative steroid management: approaches based on current evidence. Anesthesiology. 2017;127:166-172. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/28452806\" target=\"_blank\">PMID: 28452806</a> doi:10.1097/ALN.0000000000001659 <i>and</i> Woodcock T, Barker P, Daniel S, et al. Guidelines for the management of glucocorticoids during the peri-operative period for patients with adrenal insufficiency: guidelines from the Association of Anaesthetists, the Royal College of Physicians and the Society for Endocrinology UK. Anaesthesia. 2020;75:654-663. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/32017012\" target=\"_blank\">PMID: 32017012</a> doi:10.1111/anae.14963"
-        ],
-        "headers": [
-          "Patient Risk",
-          "Patient Characteristics",
-          "Glucocorticoid Management"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:27.691879-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:52.887527-06:00"
 }

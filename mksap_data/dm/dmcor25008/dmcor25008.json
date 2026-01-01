@@ -1,12 +1,14 @@
 {
   "question_id": "dmcor25008",
   "category": "dm",
+  "category_name": "Dermatology",
   "educational_objective": "Diagnose exanthematous (morbilliform) drug eruption.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 26-year-old patient is evaluated for a 4-day history of a pink-red, itchy rash across the trunk and proximal extremities. They were prescribed trimethoprim-sulfamethoxazole for a urinary tract infection 7 days ago. The patient has a 6-year history of systemic lupus erythematosus, and their chronic azathioprine was withheld when the antibiotic was prescribed. Their only other medication is hydroxychloroquine.On physical examination, vital signs are normal. The patient appears well but uncomfortable. Fine pink-to-red dense monomorphic papules coalescing centrally to plaques are noted on the trunk and neck, with decreasing density over the proximal limbs. No conjunctival injection or ulceration of the oropharyngeal or genital mucosa is seen. Anterior and posterior cervical lymphadenopathy is present bilaterally.Results of a complete blood count and complete metabolic panel are normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,41 +54,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/dmfig25708.b5038a0d6f1d38ff01fc2af80e0e8c0b.jpg",
-      "figures/dmfig25709.b645d270fc9366fbf43ee01a8fab88b4.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "dmfig25708",
-        "file": "figures/dmfig25708.b5038a0d6f1d38ff01fc2af80e0e8c0b.jpg",
-        "title": "Exanthematous (Morbilliform) Drug Eruption",
-        "short_title": "crit 1 Exanthematous (Morbilliform) Drug Eruption",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 796
-      },
-      {
-        "figure_id": "dmfig25709",
-        "file": "figures/dmfig25709.b645d270fc9366fbf43ee01a8fab88b4.jpg",
-        "title": "Exanthematous (Morbilliform) Drug Eruption",
-        "short_title": "crit 2 Exanthematous (Morbilliform) Drug Eruption",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 1232
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.213396-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.194933-06:00"
 }

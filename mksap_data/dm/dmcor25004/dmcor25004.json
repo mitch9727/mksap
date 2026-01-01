@@ -1,12 +1,14 @@
 {
   "question_id": "dmcor25004",
   "category": "dm",
+  "category_name": "Dermatology",
   "educational_objective": "Diagnose nail psoriasis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 32-year-old man is evaluated for a 2-year history of nail changes. Medical history is otherwise unremarkable. He takes no medications.On physical examination, nine of 10 fingernails are dystrophic. Nail findings are shown.Toenails are not involved.The remainder of the skin examination reveals scaly patches in the conchae of both ears. The remainder of the general medical examination is normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -53,41 +55,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/dmfig25705.c0709147770ac5870f2f390b3ed7df8d.jpg",
-      "figures/dmfig25706.622fd004f762ec573fadcdc77233a1ee.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "dmfig25705",
-        "file": "figures/dmfig25705.c0709147770ac5870f2f390b3ed7df8d.jpg",
-        "title": "Nail Psoriasis",
-        "short_title": "stem Nail Psoriasis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 650,
-        "height": 378
-      },
-      {
-        "figure_id": "dmfig25706",
-        "file": "figures/dmfig25706.622fd004f762ec573fadcdc77233a1ee.jpg",
-        "title": "Lichen Planus of the Nails",
-        "short_title": "critique Lichen Planus of the Nails",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 599
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.211557-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.211418-06:00"
 }

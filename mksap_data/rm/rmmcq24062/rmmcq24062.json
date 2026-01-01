@@ -1,12 +1,14 @@
 {
   "question_id": "rmmcq24062",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Identify inflammatory bowel disease in a patient with ankylosing spondylitis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 36-year-old man is evaluated for follow-up of ankylosing spondylitis. He initially presented with back pain and sacroiliitis 12 months ago, and his musculoskeletal symptoms have since been well-controlled with naproxen. He now reports 2 months of abdominal cramping and occasional loose stools with hematochezia. He has had a 2.3-kg (5-lb) weight loss but no fevers. He has no other medical conditions and takes no other medications.On physical examination, vital signs are normal. His abdomen is soft, nontender, and nondistended. Forward flexion of the lumbar spine is limited.Laboratory studies:Erythrocyte sedimentation rate48 mm/hHC-reactive protein5.0 mg/dL (50.0 mg/L)HFecal calprotectin122 μg/g (normal, <50 μg/g)HFecal multipathogen molecular panelNegative",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.755080-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:21.920912-06:00"
 }

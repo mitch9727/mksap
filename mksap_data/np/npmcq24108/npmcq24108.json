@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24108",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose posthypercapnic metabolic alkalosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 68-year-old man is evaluated in the ICU after being admitted 1 day ago for community-acquired pneumonia. On admission, he was intubated for acute respiratory failure. He has a history of hypertension, hyperlipidemia, and COPD with carbon dioxide retention. Medications are ceftriaxone, azithromycin, and propofol. Outpatient medications are lisinopril, amlodipine, formoterol-tiotropium, and rosuvastatin.On physical examination, the patient is mechanically ventilated and sedated. Temperature is 38.2 °C (100.8 °F), blood pressure is 128/80 mm Hg, and respiration rate is 22/min. Oxygen saturation is 92% with the patient breathing 0.40 Fio2. Coarse breath sounds with prolonged expiratory phase are heard. There is trace lower extremity edema.Laboratory studies:Arterial blood gasespH7.49HPco246 mm Hg (6.1 kPa)HBlood urea nitrogen18 mg/dL (6.4 mmol/L)Creatinine1.2 mg/dL (106.1 µmol/LElectrolytesSodium136 mEq/L (136 mmol/L)Potassium4.9 mEq/L (4.9 mmol/L)Chloride98 mEq/L (98 mmol/L)Bicarbonate32 mEq/L (32 mmol/L)HGlucose128 mg/dL (7.1 mmol/L)H",
   "question_stem": "Which of the following is the most likely acid-base disorder?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.899288-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.059298-06:00"
 }

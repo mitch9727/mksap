@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq24087",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Treat hypertension in a patient after heart transplantation.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 47-year-old woman is evaluated during a follow-up visit 7 months after undergoing heart transplantation for peripartum cardiomyopathy. She had one episode of rejection 6 months ago but has been well since. She has chronic kidney disease and hypertension. The patient provides a log of home blood pressure readings that are consistently near 150/90 mm Hg. Medications are tacrolimus, mycophenolate, prednisone, pravastatin, and aspirin. She has a history of angioedema caused by lisinopril.On physical examination, blood pressure is 152/92 mm Hg and pulse rate is 104/min. The remainder of the examination is normal.Laboratory studies:Blood urea nitrogen28 mg/dL (10 mmol/L)HCreatinine1.9 mg/dL (168.0 µmol/L)HSodium142 mEq/L (142 mmol/L)Potassium5.3 mEq/L (5.3 mmol/L)HTacrolimus level is within target range.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.633094-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.586357-06:00"
 }

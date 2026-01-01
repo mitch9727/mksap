@@ -1,12 +1,14 @@
 {
   "question_id": "gicor25028",
   "category": "gi",
+  "category_name": "Gastroenterology",
   "educational_objective": "Manage low-risk upper gastrointestinal bleeding.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 46-year-old man is hospitalized for a 1-day history of epigastric pain and melenic stools. He is taking ibuprofen daily to prevent migraine headaches. His medical history is otherwise unremarkable, and he takes no other medications.On physical examination, vital signs are normal. He has mild tenderness to palpation of his abdomen in the epigastric region.Laboratory studies:Hemoglobin11.2 g/dL (112 g/L)LUpper endoscopy shows a 1.5-cm, clean-based, superficial duodenal ulcer. Findings from gastric biopsy specimens for assessment of Helicobacter pylori infection are pending.Ibuprofen is stopped.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.262563-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:53.535758-06:00"
 }

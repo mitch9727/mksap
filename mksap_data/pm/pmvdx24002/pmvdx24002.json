@@ -1,12 +1,14 @@
 {
   "question_id": "pmvdx24002",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Diagnose idiopathic pulmonary fibrosis on chest CT scan.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 62-year-old woman is evaluated for an 8-month history of progressive dyspnea, dry cough, and clubbing. She smokes one pack of cigarettes daily.Chest CT scan is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/pmfig24601.bfd4886f459dd4016c9827cafc094968.jpg",
-      "figures/pmfig24602.d87fbb0354719ce0785bf4f400bf29d1.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "pmfig24601",
-        "file": "figures/pmfig24601.bfd4886f459dd4016c9827cafc094968.jpg",
-        "title": "CT Scan Showing Idiopathic Pulmonary Fibrosis",
-        "short_title": "stem CT Scan Showing Idiopathic Pulmonary Fibrosis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 512,
-        "height": 512
-      },
-      {
-        "figure_id": "pmfig24602",
-        "file": "figures/pmfig24602.d87fbb0354719ce0785bf4f400bf29d1.jpg",
-        "title": "CT Scan Showing Idiopathic Pulmonary Fibrosis",
-        "short_title": "critique CT Scan Showing Idiopathic Pulmonary Fibrosis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 512,
-        "height": 512
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.214345-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.658674-06:00"
 }

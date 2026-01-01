@@ -1,12 +1,14 @@
 {
   "question_id": "oncor25031",
   "category": "on",
+  "category_name": "Oncology",
   "educational_objective": "Treat hypercalcemia of malignancy.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 58-year-old woman is evaluated in the emergency department for several days of progressive confusion and lethargy accompanied by nausea and vomiting. She has lost 9.1 kg (20 lb) over the past 2 months. Her medical history is otherwise unremarkable, and she takes no medications.On physical examination, blood pressure is 105/60 mm Hg and pulse rate is 112/min; other vital signs are normal. She is somnolent but can be roused. Mucous membranes are dry, and she has decreased skin turgor. Cardiac and pulmonary examinations are notable only for tachycardia.Laboratory studies:Albumin3.2 g/dL (32 g/L)LCalcium15.1 mg/dL (3.8 mmol/L)HCreatinine3.2 mg/dL (283 μmol/L)H",
   "question_stem": "Which of the following is the most appropriate immediate treatment?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.635165-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.863939-06:00"
 }

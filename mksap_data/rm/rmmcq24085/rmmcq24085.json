@@ -1,12 +1,14 @@
 {
   "question_id": "rmmcq24085",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Diagnose Marfan syndrome.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 35-year-old patient is evaluated for new onset of exertional dyspnea. They do not have dyspnea at rest or chest discomfort. Medical history is significant for myopia and ectopia lentis (lens dislocation). The patient was adopted, and their family history is unknown.On physical examination, blood pressure is 160/74 mm Hg and pulse rate is 72/min; other vital signs are normal. Height is 193 cm (76 in). There is evidence of spinal curvature, and extremities are long and thin. Oropharyngeal examination discloses a high-arched palate. Cardiac examination reveals an early diastolic decrescendo murmur heard best at the right sternal border. Lung examination is normal. The entire distal phalanx of the adducted thumb extends beyond the ulnar border of the palm.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -46,6 +48,13 @@
       "target": "_blank",
       "title": null,
       "rel": null
+    },
+    {
+      "href": "https://marfan.org/dx/rules/",
+      "text": "https://marfan.org/dx/rules/",
+      "target": "_blank",
+      "title": null,
+      "rel": null
     }
   ],
   "key_points": [
@@ -59,43 +68,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/rmtab24053.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "rmtab24053",
-        "file": "tables/rmtab24053.html",
-        "title": "Findings and Management of Genetic Diseases of Connective Tissue",
-        "short_title": "Genetic Diseases of Connective Tissue",
-        "footnotes": [
-          "AD = autosomal dominant; AR = autosomal recessive.",
-          "<sup>a</sup>In dolichostenomelia, the extremities are disproportionately long for the size of the trunk.",
-          "<sup>b</sup>Dentinogenesis imperfecta is defined as discolored (blue/gray or yellow/brown), translucent, weak teeth prone to breakage.",
-          "<sup>c</sup>Genetic consultation is appropriate for all listed conditions.",
-          "<sup>d</sup>May slow the rate of aortopathy."
-        ],
-        "headers": [
-          "Ehlers-Danlos Syndrome",
-          "Marfan Syndrome",
-          "Osteogenesis Imperfecta",
-          "Hypermobility",
-          "Classic",
-          "Kyphoscoliotic",
-          "Vascular",
-          "Genetics",
-          "Clinical Findings"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.814787-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:22.001423-06:00"
 }

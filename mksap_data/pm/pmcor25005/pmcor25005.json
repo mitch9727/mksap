@@ -1,12 +1,14 @@
 {
   "question_id": "pmcor25005",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Diagnose diffuse parenchymal lung disease.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 55-year-old woman is evaluated for a 7-month history of gradually progressive shortness of breath and cough. She had been an avid hiker, but for the past 3 months her dyspnea has been too severe for her to enjoy this activity. Medical history is otherwise unremarkable, and she takes no medications.On physical examination, vital signs are normal. Oxygen saturation is 97% with the patient breathing ambient air at rest and 93% with ambulation. Auscultation reveals fine end-inspiratory bibasilar crackles. Clubbing is present. No rashes or edema is seen. Cardiac examination is unremarkable.Pulmonary function tests:FVC62% of predictedL FEV1/FVC ratio0.87Dlco 55% of predictedLChest radiograph reveals small lung volumes and reticular opacities at the lung bases.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Pulmonary function tests:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.973135-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.323966-06:00"
 }

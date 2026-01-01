@@ -1,12 +1,14 @@
 {
   "question_id": "pmmcq24039",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Diagnose COPD using spirometry.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 62-year-old woman is evaluated for a 6-month history of progressive shortness of breath. She now becomes dyspneic when climbing one flight of stairs. She has no cough, weight loss, or chest pain. She has a 35-pack-year smoking history and quit smoking 20 years ago. Her medical history is significant for hypertension and depression. Medications are enalapril-hydrochlorothiazide and escitalopram.On physical examination, vital signs and other findings are normal.Laboratory studies show a normal complete blood cell count.Pulmonary function tests:FEV165% of predicted; 66% following bronchodilator administrationL FEV1/FVC ratio0.63; 0.62 following bronchodilator administrationLTotal lung capacity104% of predictedResidual volume99% of predictedDlco NormalChest radiograph is normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -51,42 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/pmtab24001.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "pmtab24001",
-        "file": "tables/pmtab24001.html",
-        "title": "Characterization of Impairment Severity in Pulmonary Function Tests",
-        "short_title": "Pulmonary Function Test Results and Associated Impairment",
-        "footnotes": [
-          "LLN = lower limit of normal (fifth percentile of healthy never-smokers).",
-          "Reproduced with permission of the © ERS 2025 from Pellegrino R, Viegi G, Brusasco V, et al. Interpretative strategies for lung function tests. Eur Respir J. 2005;26:957. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/16264058\" target=\"_blank\">PMID: 16264058</a> doi:10.1183/09031936.05.00035205"
-        ],
-        "headers": [
-          "Test Result (% of Predicted)",
-          "Severity of Impairment"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Pulmonary function tests:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.098446-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.529461-06:00"
 }

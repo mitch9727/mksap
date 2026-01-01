@@ -1,12 +1,14 @@
 {
   "question_id": "enmcq24020",
   "category": "en",
+  "category_name": "Endocrinology and Metabolism",
   "educational_objective": "Evaluate a patient with an incidental adrenal mass for pheochromocytoma.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 54-year-old patient is evaluated at a preoperative visit before undergoing elective cholecystectomy next month. They are asymptomatic. Two weeks ago, they visited the emergency department for abdominal pain. A CT scan at that time showed cholelithiasis and a 3.5-cm right adrenal mass with an unenhanced CT attenuation of 35 Hounsfield units and heterogeneous enhancement on contrast images. The patient is physically active. They have no medical conditions and take no medications.On physical examination, vital signs and other findings are normal.Serum electrolyte and creatinine levels are normal.",
   "question_stem": "Which of the following is the most appropriate next step in evaluation?",
@@ -51,36 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/entab24042.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "entab24042",
-        "file": "tables/entab24042.html",
-        "title": "Functional Assessment of an Incidental Adrenal Mass",
-        "short_title": "Functional Assessment of an Incidental Adrenal Mass",
-        "footnotes": [
-          "DHEAS = dehydroepiandrosterone sulfate; HU = Hounsfield units; LDST = low-dose (1-mg) dexamethasone suppression test; PAC/PRA = plasma aldosterone concentration/plasma renin activity.",
-          "<sup>a</sup>Patients with normal biochemical testing on initial assessment do not need repeat hormone testing unless clinical signs or symptoms change.",
-          "<sup>b</sup>Testing could be deferred in older or frail patients with limited life expectancy.",
-          "Information from Fassnacht M, Tsagarakis S, Terzolo M, et al. European Society of Endocrinology clinical practice guidelines on the management of adrenal incidentalomas, in collaboration with the European Network for the Study of Adrenal Tumors. Eur J Endocrinol. 2023;189:G1-G42. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/37318239\" target=\"_blank\">PMID: 37318239</a> doi:10.1093/ejendo/lvad066"
-        ],
-        "headers": [
-          "Condition",
-          "Indications for Testing",
-          "Biochemical Testinga"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:27.127424-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:52.189216-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "ccmcq24031",
   "category": "cc",
+  "category_name": "Critical Care Medicine",
   "educational_objective": "Treat a patient with ICU delirium.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 75-year-old woman is evaluated in the ICU for new-onset confusion. She was admitted to the ICU 3 days ago for pneumonia and septic shock. At presentation, she required intubation, mechanical ventilation, and a brief period of vasopressor support. She has improved over the past 48 hours and was extubated yesterday. This morning, she was noted to be confused and disoriented. Medications are ceftriaxone, azithromycin, and enoxaparin. She has no other medical history.On physical examination, temperature is 37.7 °C (99.9 °F), blood pressure is 112/77 mm Hg, pulse rate is 90/min, and respiration rate is 18/min. Oxygen saturation is 93% with the patient breathing supplemental oxygen, 2 L/min by nasal cannula. She is alert but oriented to person only. She is inattentive and cannot name the month that precedes December. Pulmonary examination is unchanged, with left basilar crackles. Neurologic examination shows no focal abnormalities.Laboratory studies:Hematocrit32%LLeukocyte count9600/µL (9.6 × 109/L)Blood urea nitrogen26 mg/dL (9.3 mmol/L)HCreatinine1.1 mg/dL (97.2 µmol/L)Sodium142 mEq/L (142 mmol/L)",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -51,56 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nrtab24037.html",
-      "tables/cctab24004.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nrtab24037",
-        "file": "tables/nrtab24037.html",
-        "title": "Causes, Features, and Management of Delirium",
-        "short_title": "Causes, Features, and Management of Delirium",
-        "footnotes": [
-          "SAT = spontaneous awakening trial; SBT = spontaneous breathing trial.",
-          "<sup>a</sup>See the American Geriatrics Society Beers criteria for potentially inappropriate medication use in older adults."
-        ],
-        "headers": [
-          "Predisposing Factors",
-          "Provoking Factors",
-          "Clinical Features of Delirium",
-          "Management of Delirium"
-        ]
-      },
-      {
-        "table_id": "cctab24004",
-        "file": "tables/cctab24004.html",
-        "title": "ABCDEF Care Bundle for Managing ICU Delirium",
-        "short_title": "ABCDEF Care Bundle for Managing ICU Delirium",
-        "footnotes": [
-          "SAT = spontaneous awakening trial; SBT= spontaneous breathing trial.",
-          "Recommendations from Devlin JW, Skrobik Y, Gélinas C, et al. Clinical practice guidelines for the prevention and management of pain, agitation/sedation, delirium, immobility, and sleep disruption in adult patients in the ICU. Crit Care Med. 2018;46:e825-73. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/30113379\" target=\"_blank\">PMID: 30113379</a> doi:10.1097/CCM.0000000000003299"
-        ],
-        "headers": []
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.446336-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.941448-06:00"
 }

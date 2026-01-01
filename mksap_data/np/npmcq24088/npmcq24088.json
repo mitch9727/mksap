@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24088",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose posttransplant diabetes mellitus.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 28-year-old man is evaluated during a routine follow-up visit for end-stage kidney disease due to congenital anomalies of the kidney and urinary tract. He reports no fever, chills, abdominal pain, hematuria, or weight loss or gain. He received a living-donor kidney transplant 7 years ago. He also has hypertension. Family history is unremarkable. Medications are tacrolimus, prednisone, mycophenolate mofetil, losartan, and chlorthalidone. He is adherent to interval follow-up visits and his medication regimen.Physical examination, including vital signs and comprehensive skin examination, are normal. BMI is 22.Laboratory studies:Hemoglobin14 g/dL (140 g/L)Creatinine1.1 mg/dL (97.2 µmol/L)Glucose142 mg/dL (7.9 mmol/L)H",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -56,27 +58,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.831738-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.967735-06:00"
 }

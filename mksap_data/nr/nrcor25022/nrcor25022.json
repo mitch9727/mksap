@@ -1,12 +1,14 @@
 {
   "question_id": "nrcor25022",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Manage an acute intracerebral hemorrhage in a patient without elevated blood pressure.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "An 87-year-old woman is evaluated in the emergency department for left arm weakness and headache of 3 hours' duration. Medical history is significant for dyslipidemia and coronary artery disease; a coronary artery stent was placed for ST-elevation myocardial infarction 4 years ago. Medications are atorvastatin, metoprolol succinate, and aspirin.On physical examination, blood pressure is 122/86 mm Hg, and pulse rate is 78/min. She has left-sided inattention and left arm weakness.Laboratory studies:Activated partial thromboplastin time31 sPlatelet count295,000/μL (295 × 109/L)INR1.0Glucose102 mg/dL (5.7 mmol/L)HHead CT scan shows a right frontal lobe intracerebral hemorrhage with no midline shift or intraventricular extension.",
   "question_stem": "Which of the following is the most appropriate acute treatment?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.074526-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.275299-06:00"
 }

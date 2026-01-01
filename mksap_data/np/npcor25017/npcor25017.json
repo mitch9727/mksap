@@ -1,12 +1,14 @@
 {
   "question_id": "npcor25017",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Treat a patient with diabetic kidney disease using a sodium-glucose cotransporter 2 inhibitor.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 60-year-old asymptomatic woman is evaluated for stage G3 proteinuric chronic kidney disease attributed to type 2 diabetes mellitus. She also has hypertension and dyslipidemia. Medications are lisinopril, amlodipine, atorvastatin, and metformin.On physical examination, blood pressure is 130/80 mm Hg and pulse rate is 83/min. Other vital signs are normal. The remainder of the examination is normal.Fasting laboratory studies:Potassium4.3 mEq/L (4.3 mmol/L)Bicarbonate24 mEq/L (24 mmol/L)LDL cholesterol75 mg/dL (1.9 mmol/L)Hemoglobin A1c8.3%HCreatinine1.2 mg/dL (106.1 µmol/L)Estimated glomerular filtration rate47 mL/min/1.73m2 Spot urine albumin-creatinine ratio 360 mg/gCalculated 10-year ASCVD risk is 15%.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Fasting laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.564842-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.611671-06:00"
 }

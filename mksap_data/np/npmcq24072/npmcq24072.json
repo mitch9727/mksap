@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24072",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Treat chronic kidney disease with sodium-glucose cotransporter 2 inhibitors to slow kidney function decline.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 36-year-old man is evaluated for biopsy-confirmed focal segmental glomerulosclerosis. His blood pressure and edema have responded well to medical therapy. Medications are prednisone, lisinopril, chlorthalidone, atorvastatin, and low-dose aspirin.Physical examination findings, including vital signs, are normal.Laboratory studies:Creatinine1.6 mg/dL (141.4 µmol/L)HPotassium4.3 mEq/L (4.3 mmol/L)Urine albumin-creatinine ratio1200 mg/gHEstimated glomerular filtration rate57 mL/min/1.73 m2",
   "question_stem": "Which of the following is the most appropriate additional treatment to slow chronic kidney disease progression?",
@@ -56,27 +58,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.795189-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.926444-06:00"
 }

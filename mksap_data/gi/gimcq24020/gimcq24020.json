@@ -1,12 +1,14 @@
 {
   "question_id": "gimcq24020",
   "category": "gi",
+  "category_name": "Gastroenterology",
   "educational_objective": "Test for colon cancer following polyp detection.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 52-year-old patient is evaluated to discuss recent screening colonoscopy findings.On physical examination, vital signs and other findings are normal.One week ago, colonoscopy showed eight tubular adenomas that ranged between 3 mm and 6 mm in size. Polyps were sessile and were removed completely. Colonoscopy bowel preparation and withdrawal time were adequate.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -56,36 +58,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/gitab24023.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "gitab24023",
-        "file": "tables/gitab24023.html",
-        "title": "Surveillance for Colorectal Cancer After Screening or Polypectomy",
-        "short_title": "Surveillance for CRC After Screening or Polypectomy",
-        "footnotes": [
-          "HP = hyperplastic polyps; SSP = sessile serrated polyps.",
-          "<sup>a</sup>Consideration for genetic testing based on adenoma burden, age, and family history.",
-          "Data from Gupta S, Lieberman D, Anderson JC, et al. Recommendations for follow-up after colonoscopy and polypectomy: a consensus update by the US Multi-society Task Force on Colorectal Cancer. Gastroenterology. 2020;158:1131-1153.e5. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/32044092\" target=\"_blank\">PMID: 32044092</a> doi:10.1053/j.gastro.2019.10.026."
-        ],
-        "headers": [
-          "Adenomatous Polyps",
-          "Interval to Next Colonoscopy",
-          "Serrated Polyps",
-          "Interval to Next Colonoscopy"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.301067-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:53.614361-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24012",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Manage antibiotic de-escalation in a patient improving from an infection caused by an extended-spectrum β-lactamase–producing gram-negative organism.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "An 87-year-old man is evaluated for bacteremia in the hospital 4 days after being admitted for pyelonephritis. Medical history is notable for benign prostatic hyperplasia and multiple episodes of extended-spectrum β-lactamase (ESBL)–producing Escherichia coli urinary tract infections. Ertapenem was initiated at admission; his only other medication is finasteride. His symptoms of chills and dysuria have resolved.On physical examination, temperature is 37.1 °C (98.8 °F) (at admission, 38.8 °C [101.8 °F]), blood pressure is 118/76 mm Hg (at admission, 100/68 mm Hg), and pulse rate is 90/min. No suprapubic or costovertebral angle tenderness is noted, and bowel sounds are normal.Laboratory studies:Leukocyte count8900/µL (8.9 × 109/L)At admission18,900/µL (18.9 × 109/L)HUrine culture and blood cultures are growing E. coli resistant to ceftriaxone and ceftazidime and sensitive to meropenem, ciprofloxacin, and nitrofurantoin.An ECG is normal, with a corrected QT interval of 410 msec.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.303281-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.971364-06:00"
 }

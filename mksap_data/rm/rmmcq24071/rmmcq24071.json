@@ -1,12 +1,14 @@
 {
   "question_id": "rmmcq24071",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Evaluate lupus disease activity by measuring complement levels.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 27-year-old woman is evaluated for a several-day history of fatigue, subjective low-grade fevers, and diffuse arthralgias. Three months ago, she was diagnosed with systemic lupus erythematosus based on fever, malar rash, discoid lesions on her scalp and back, and inflammatory arthritis of her bilateral metacarpophalangeal (MCP) and proximal interphalangeal (PIP) joints. Laboratory studies at that time revealed a positive antinuclear antibody titer (1:160), along with positivity for anti-Ro/SSA, anti-Smith, and anti–double-stranded DNA antibodies. Complete blood count revealed mild leukopenia; serum chemistries and urinalysis were normal. Hydroxychloroquine was prescribed; 2 months later, her signs and symptoms had fully resolved. She takes no other medications.On physical examination, vital signs are normal. No rashes are noted. The MCP and PIP joints bilaterally are tender but not swollen.Laboratory studies:Erythrocyte sedimentation rate28 mm/hHCreatinine0.8 mg/dL (70.7 μmol/L)Complete blood count and urinalysis results are normal.",
   "question_stem": "Which of the following is the most appropriate test to perform next?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.785628-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:21.990611-06:00"
 }

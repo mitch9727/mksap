@@ -1,12 +1,14 @@
 {
   "question_id": "pmmcq24053",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Treat a patient with COPD and frequent exacerbations using triple inhaler therapy.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 71-year-old man is evaluated in the hospital for dyspnea and cough. He was hospitalized 5 days ago for an exacerbation of COPD and has received prednisone, levofloxacin, and albuterol-ipratropium nebulizer treatments. He had one other exacerbation in the past year. His symptoms are now near baseline, and his bronchodilator regimen has been changed back to his usual vilanterol-umeclidinium. He has no medical history other than COPD; his most recent spirometry showed an FEV1 of 52% of predicted. He has completed the planned 5-day course of prednisone and is taking no medications other than prednisone, levofloxacin, and vilanterol-umeclidinium.On physical examination, vital signs are normal. Lung examination reveals diffuse wheezing.Laboratory studies:Leukocyte count9000/µL (9.0 × 109/L); 5% eosinophilsAbsolute eosinophil count450/µL (0.45 × 109/L)",
   "question_stem": "Which of the following is the most appropriate next step in treatment?",
@@ -51,45 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/pmtab24017.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "pmtab24017",
-        "file": "tables/pmtab24017.html",
-        "title": "Recommended Pharmacologic Management of COPD by GOLD Classification",
-        "short_title": "Recommended Therapy for COPD by GOLD Patient Group",
-        "footnotes": [
-          "GOLD = Global Initiative for Chronic Obstructive Lung Disease; ICS = inhaled corticosteroid (glucocorticoid); LABA = long-acting β<sub>2</sub>-agonist; LAMA = long-acting muscarinic antagonist.",
-          "<sup>a</sup>Consider if eosinophil count ≥300/μL (0.30 × 10<sup>9</sup>/L).",
-          "Information from Global Initiative for Chronic Obstructive Lung Disease. Global strategy for the diagnosis, management, and prevention of chronic obstructive pulmonary disease. 2025 Report. <a href=\"https://goldcopd.org/2025-gold-report/\" target=\"_blank\">https://goldcopd.org/2025-gold-report/</a>. Accessed May 20, 2025."
-        ],
-        "headers": [
-          "Patient Group",
-          "Recommended Therapy",
-          "Alternative or Additional Therapy",
-          "Other Considerations"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.131813-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.565748-06:00"
 }

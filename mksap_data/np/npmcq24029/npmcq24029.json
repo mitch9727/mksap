@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24029",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Evaluate hepatitis C virus infection as a cause of membranoproliferative glomerulonephritis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 28-year-old man is evaluated in the hospital for an elevated serum creatinine level after being admitted for a 6-month history of lower extremity edema and progressive fatigue. He has a history of injection drug use.On physical examination, blood pressure is 150/95 mm Hg; other vital signs are normal. He has 2-mm pitting edema through the mid shins.Laboratory studies:Albumin3.3 g/dL (33 g/L)L C3 complement55 mg/dL (550 mg/L) C4 complement8 mg/dL (80 mg/L)LCreatinine2.8 mg/dL (248 µmol/L)HUrinalysis3+ protein, 3+ bloodUrine protein-creatinine ratio2300 mg/gHKidney biopsy shows membranoproliferative glomerulonephritis on light microscopy, and immunofluorescence microscopy shows 3+ staining for IgG, 1+ staining for IgM, 2+ staining for C1q complement, and 2+ staining for C3 complement.",
   "question_stem": "Which of the following is the most likely cause of this patient's glomerulonephritis?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.675827-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.785325-06:00"
 }

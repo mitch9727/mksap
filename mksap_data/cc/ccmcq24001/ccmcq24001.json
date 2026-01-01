@@ -1,12 +1,14 @@
 {
   "question_id": "ccmcq24001",
   "category": "cc",
+  "category_name": "Critical Care Medicine",
   "educational_objective": "Treat a patient with opioid toxicity.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 30-year-old woman is evaluated in the emergency department (ED) after being found unresponsive at home. A syringe, a half-empty bottle of vodka, and an empty lorazepam bottle filled 2 months ago were found nearby. Initial respiration rate was 8/min, and oxygen saturation was 89% with the patient breathing ambient air. En route to the ED, she was administered 5 L/min of supplemental oxygen by simple face mask, two doses of intranasal naloxone, and one dose of intravenous naloxone, resulting in a respiration rate of 12/min and an oxygen saturation of 95%. The patient has a history of substance use disorder, alcohol use disorder, and anxiety. Her only medication is lorazepam.On arrival in the ED, respiration rate is 8/min; other vital signs are normal. Oxygen saturation is 92% with the patient breathing supplemental oxygen, 5 L/min by simple face mask. The patient grimaces and opens her eyes with a trapezius squeeze but is otherwise unresponsive. Pupil diameter is 1 mm bilaterally.Laboratory studies:Glucose88 mg/dL (4.9 mmol/L)",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.361680-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.821960-06:00"
 }

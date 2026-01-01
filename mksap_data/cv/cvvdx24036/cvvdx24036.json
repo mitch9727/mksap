@@ -1,12 +1,14 @@
 {
   "question_id": "cvvdx24036",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Identify a prior lateral myocardial infarction on ECG.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 65-year-old woman is evaluated for a 6-week history of persistent fatigue and exertional dyspnea.ECG is shown.",
   "question_stem": "Which of the following abnormalities best describes the findings on this patient's ECG?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24643.e25e979ef578e6b7bf3db8b6f440993b.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24643",
-        "file": "figures/cvfig24643.e25e979ef578e6b7bf3db8b6f440993b.jpg",
-        "title": "ECG Showing Prior Lateral Myocardial Infarction",
-        "short_title": "stem ECG Showing Prior Lateral Myocardial Infarction",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 877,
-        "height": 483
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.918204-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.925612-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24041",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose a struvite kidney stone.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 65-year-old woman is evaluated in the emergency department for a 5-day history of fever and dysuria. She has type 2 diabetes mellitus and hyperlipidemia. She has had multiple urinary tract infections over the last 3 years and reports recent intravenous drug use. Medications are metformin, dulaglutide, and atorvastatin.On physical examination, temperature is 38.3 °C (101.0 °F), and pulse rate is 110/min; other vital signs are normal. Track marks are seen on the upper extremities. Left-sided costovertebral angle tenderness is present. The remainder of the examination is unremarkable.Laboratory studies:Leukocyte count19,000/µL (19 × 109/L)HUrinalysispH 7.6; 11-25 leukocytes/hpf; numerous erythrocytesUrine microscopy is shown.",
   "question_stem": "Which of the following organisms is most likely responsible for this patient's presentation?",
@@ -52,41 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/npfig24201.2de46cd7be9a28227a92cf94e2f691af.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "npfig24201",
-        "file": "figures/npfig24201.2de46cd7be9a28227a92cf94e2f691af.jpg",
-        "title": "Urine Microscopy Showing Struvite Kidney Stone",
-        "short_title": "Microscopic Struvite Stone",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 665
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.711052-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.827347-06:00"
 }

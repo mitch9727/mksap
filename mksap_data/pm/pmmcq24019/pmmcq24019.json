@@ -1,12 +1,14 @@
 {
   "question_id": "pmmcq24019",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Diagnose post-COVID pulmonary fibrosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 67-year-old man is evaluated for a 1-year history of persistent shortness of breath and dry cough. One year ago, he had COVID-19 pneumonia complicated by hypoxemic respiratory failure. He was hospitalized for 5 weeks and since discharge has required oxygen, 2 L/min, with exertion. He has a remote 20-pack-year smoking history and quit smoking 30 years ago. He also has coronary artery disease, hypertension, and dyslipidemia. Medications are metoprolol, aspirin, atorvastatin, and lisinopril.On physical examination, vital signs are normal. Oxygen saturation is 94% with the patient breathing ambient air at rest. Jugular venous pressure is normal. Lung examination reveals coarse crackles in both interscapular and infrascapular regions. Cardiac examination is normal. No lower extremity edema is noted.Pulmonary function tests:FVC65% of predictedL FEV1/FVC ratio0.90DlcoLowLChest radiograph shows bilateral mid- and lower-zone interstitial infiltrates. CT scan of the chest shows mild lower lung–predominant bronchiectasis and parenchymal bands.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,42 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/pmtab24023.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "pmtab24023",
-        "file": "tables/pmtab24023.html",
-        "title": "Characteristics of Drug-Induced Parenchymal Lung Diseases",
-        "short_title": "Selected Drug-Induced DPLDs",
-        "footnotes": [
-          "DPLD = diffuse parenchymal lung disease; ICI = immune checkpoint inhibitor."
-        ],
-        "headers": [
-          "Drug",
-          "Clinical Points",
-          "Radiographic Findings and Treatment"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Pulmonary function tests:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.052767-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.423062-06:00"
 }

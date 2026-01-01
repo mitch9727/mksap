@@ -1,12 +1,14 @@
 {
   "question_id": "ccmcq24030",
   "category": "cc",
+  "category_name": "Critical Care Medicine",
   "educational_objective": "Screen a patient in the ICU for delirium.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 68-year-old man is evaluated in the ICU. He was admitted 2 days ago with septic shock due to acute pyelonephritis. He was intubated and briefly required vasopressor support with norepinephrine. His hemodynamic parameters have improved, and he has been weaned off the norepinephrine. He was successfully extubated this morning. His only chronic medical problem is benign prostatic hypertrophy managed with tamsulosin. Other medications are levofloxacin and prophylactic-dose subcutaneous heparin.On physical examination, temperature is 37.8 °C (100.0 °F), blood pressure is 108/60 mm Hg, pulse rate is 90/min, and respiration rate is 18/min. Oxygen saturation is 93% with the patient breathing ambient air. Mild right costovertebral angle tenderness is noted. The patient is not in acute distress. He is pleasant but mildly anxious and is oriented to person and place only. Neurologic examination reveals no focal abnormalities.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -52,47 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nrtab24037.html",
-      "tables/cctab24004.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nrtab24037",
-        "file": "tables/nrtab24037.html",
-        "title": "Causes, Features, and Management of Delirium",
-        "short_title": "Causes, Features, and Management of Delirium",
-        "footnotes": [
-          "SAT = spontaneous awakening trial; SBT = spontaneous breathing trial.",
-          "<sup>a</sup>See the American Geriatrics Society Beers criteria for potentially inappropriate medication use in older adults."
-        ],
-        "headers": [
-          "Predisposing Factors",
-          "Provoking Factors",
-          "Clinical Features of Delirium",
-          "Management of Delirium"
-        ]
-      },
-      {
-        "table_id": "cctab24004",
-        "file": "tables/cctab24004.html",
-        "title": "ABCDEF Care Bundle for Managing ICU Delirium",
-        "short_title": "ABCDEF Care Bundle for Managing ICU Delirium",
-        "footnotes": [
-          "SAT = spontaneous awakening trial; SBT= spontaneous breathing trial.",
-          "Recommendations from Devlin JW, Skrobik Y, Gélinas C, et al. Clinical practice guidelines for the prevention and management of pain, agitation/sedation, delirium, immobility, and sleep disruption in adult patients in the ICU. Crit Care Med. 2018;46:e825-73. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/30113379\" target=\"_blank\">PMID: 30113379</a> doi:10.1097/CCM.0000000000003299"
-        ],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.439785-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.937029-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "idvdx24055",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Diagnose <i>Streptococcus pneumoniae</i> on a sputum specimen Gram stain.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 59-year-old man is admitted to the ICU with respiratory failure caused by severe community-acquired pneumonia.A sputum specimen Gram stain is shown.",
   "question_stem": "Which of the following is the most likely organism responsible for this patient's community-acquired pneumonia?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/idfig24663.31859e555aa437d7b213610125a8ebed.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "idfig24663",
-        "file": "figures/idfig24663.31859e555aa437d7b213610125a8ebed.jpg",
-        "title": null,
-        "short_title": "Sputum Gram Stain of <i>Streptococcus pneumoniae</i>",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 800,
-        "height": 538
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.796972-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.683940-06:00"
 }

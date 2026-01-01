@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24062",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose drug-induced acute interstitial nephritis as a cause of acute kidney injury.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 61-year-old man is evaluated during a follow-up visit 3 weeks after he was treated for metastatic melanoma with ipilimumab and nivolumab. He reports decreased oral intake and early morning nausea over the past 2 weeks. He has hypertension, hyperlipidemia, benign prostatic hyperplasia, and type 2 diabetes mellitus. Medications are amlodipine, atorvastatin, losartan, and metformin.Physical examination findings, including vital signs, are normal.Laboratory studies:Creatinine3.2 mg/dL (282.9 µmol/L)H1 month ago0.9 mg/dL (79.6 μmol/L)Urate5.0 mg/dL (0.30 mmol/L)Urinalysis with microscopySpecific gravity 1.010; 1+ protein; 1+ blood; 2+ leukocyte esterase; 6-10 leukocytes/hpf; 1-3 erythrocytes/hpf; few leukocyte casts/lpfKidney ultrasound shows normal-sized kidneys without hydronephrosis.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -56,27 +58,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.773441-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.893323-06:00"
 }

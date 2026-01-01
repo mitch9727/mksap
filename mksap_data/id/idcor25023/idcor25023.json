@@ -1,12 +1,14 @@
 {
   "question_id": "idcor25023",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Evaluate for osteomyelitis in a patient with a diabetic foot infection.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 62-year-old man is evaluated in the emergency department for a chronic, nonpainful ulcer on the plantar aspect of his right foot that has recently begun to drain foul-smelling pus. Medical history is notable for type 2 diabetes mellitus and hypertension. Medications are metformin, canagliflozin, and lisinopril.On physical examination, temperature is 37.1 °C (98.8 °F); other vital signs are normal. A 5- × 3-cm plantar ulcer draining pus is present on the right foot at the base of the third metatarsal with associated warmth, edema, and erythema. Right dorsalis pedis pulse is palpable. Bone cannot be visualized, and a metal probe cannot palpate bone.Laboratory studies:Erythrocyte sedimentation rate100 mm/hHLeukocyte count9500/µL (9.5 × 109/L)A plain radiograph of the foot is normal.",
   "question_stem": "Which of the following is the most appropriate imaging test to perform next?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.256346-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.884761-06:00"
 }

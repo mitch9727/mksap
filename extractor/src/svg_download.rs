@@ -15,6 +15,7 @@ use super::asset_store::{
 use super::svg_browser::{dedupe_urls, extract_svg_urls, BrowserOptions, BrowserSession};
 use crate::session;
 
+#[allow(clippy::too_many_arguments)]
 pub async fn run_svg_download(
     client: &Client,
     base_url: &str,

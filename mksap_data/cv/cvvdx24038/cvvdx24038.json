@@ -1,12 +1,14 @@
 {
   "question_id": "cvvdx24038",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Identify Mobitz type 2 second-degree atrioventricular block on ECG.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 68-year-old man with stable chronic angina is evaluated for an irregular pulse discovered during a routine evaluation.ECG is shown.",
   "question_stem": "Which of the following abnormalities is seen on this patient's ECG?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24645.ce78fe95beb1d77e44d9bb60b1deaf4a.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24645",
-        "file": "figures/cvfig24645.ce78fe95beb1d77e44d9bb60b1deaf4a.jpg",
-        "title": "ECG Showing Mobitz Type 2 AV Block",
-        "short_title": "stem ECG Showing Mobitz Type 2 AV Block",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 336
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.926016-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.928711-06:00"
 }

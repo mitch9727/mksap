@@ -1,12 +1,14 @@
 {
   "question_id": "fcmcq24006",
   "category": "fc",
+  "category_name": "Foundations of Clinical Practice",
   "educational_objective": "Manage stage 1 hypertension.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 45-year-old patient is evaluated during a follow-up visit for elevated blood pressure. One month ago, their blood pressure in the office was 135/85 mm Hg and they were asked to monitor their blood pressure at home. Today, review of home blood pressure readings shows systolic ranges from 129 to 134 mm Hg and diastolic ranges from 78 to 84 mm Hg. The patient does not exercise regularly, has a sedentary job, and follows no specific diet. They have no other known medical problems and take no medications.On physical examination, blood pressure is 136/82 mm Hg and other vital signs are normal. BMI is 29. The remainder of the examination is unremarkable.A basic metabolic panel, thyroid-stimulating hormone level, and an ECG are normal.The patient's 10-year atherosclerotic cardiovascular disease risk score is 7.5%.Lifestyle modifications, including dietary changes and increased physical activity, are recommended.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -52,34 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nptab24019.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nptab24019",
-        "file": "tables/nptab24019.html",
-        "title": "American College of Cardiology/American Heart Association Blood Pressure Categories and Recommendations",
-        "short_title": "Blood Pressure Categories and Recommendations",
-        "footnotes": [
-          "ASCVD = atherosclerotic cardiovascular disease; BP = blood pressure; CVD = cardiovascular disease.",
-          "Data from Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: A report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. Hypertension. 2018;71:e13-e115. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/29133356\" target=\"_blank\">PMID: 29133356</a> doi:10.1161/HYP.0000000000000065"
-        ],
-        "headers": [
-          "Category",
-          "Readings",
-          "Recommendations"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:27.567467-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:52.719528-06:00"
 }

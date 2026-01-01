@@ -1,12 +1,22 @@
+use chrono::Utc;
 use regex::Regex;
 use serde::de::Deserializer;
 use serde::{Deserialize, Serialize};
-use std::collections::HashSet;
+use std::collections::{HashMap, HashSet};
+
+type CritiqueLinkKey = (
+    String,
+    String,
+    Option<String>,
+    Option<String>,
+    Option<String>,
+);
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct QuestionData {
     pub question_id: String,
     pub category: String,
+    pub category_name: String,
     pub educational_objective: String,
     pub metadata: QuestionMetadata,
     pub question_text: String,
@@ -39,6 +49,7 @@ pub struct QuestionMetadata {
     pub care_types: Vec<String>,
     pub patient_types: Vec<String>,
     pub high_value_care: bool,
+    pub hospitalist: bool,
     pub question_updated: String,
 }
 
@@ -63,23 +74,12 @@ pub struct RelatedContent {
     pub learning_plan_topic: String,
 }
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
+#[derive(Debug, Clone, Default, Serialize, Deserialize)]
 pub struct MediaFiles {
     pub tables: Vec<String>,
     pub images: Vec<String>,
     pub svgs: Vec<String>,
     pub videos: Vec<String>,
-}
-
-impl Default for MediaFiles {
-    fn default() -> Self {
-        Self {
-            tables: Vec::new(),
-            images: Vec::new(),
-            svgs: Vec::new(),
-            videos: Vec::new(),
-        }
-    }
 }
 
 /// API response structure from MKSAP API endpoint
@@ -160,6 +160,11 @@ pub enum ApiTextValue {
 impl ApiQuestionResponse {
     /// Convert API response to QuestionData format
     pub fn into_question_data(self, category: String) -> QuestionData {
+        // Look up full category name from config
+        let category_name = crate::config::get_organ_system_by_id(&category)
+            .map(|sys| sys.name)
+            .unwrap_or_else(|| category.clone());
+
         // Extract text content from HTML-like structures
         let objective_text = match self.objective {
             ApiObjective::Html { html } => html,
@@ -172,14 +177,19 @@ impl ApiQuestionResponse {
         let keypoints_list = extract_keypoints(&self.keypoints);
         let references_text = extract_references(&self.references);
 
+        // Extract peer percentages from peerComparison object
+        let peer_percentages = extract_peer_percentages(&self.peer_comparison);
+
         QuestionData {
             question_id: self.id.clone(),
-            category,
+            category: category.clone(),
+            category_name,
             educational_objective: objective_text,
             metadata: QuestionMetadata {
                 care_types: Vec::new(),
                 patient_types: Vec::new(),
                 high_value_care: self.hvc,
+                hospitalist: self.hospitalist,
                 question_updated: chrono::Local::now().format("%m/%d/%Y").to_string(),
             },
             question_text: stimulus_text,
@@ -188,9 +198,9 @@ impl ApiQuestionResponse {
                 .options
                 .into_iter()
                 .map(|o| AnswerOption {
-                    letter: o.letter,
+                    letter: o.letter.clone(),
                     text: extract_text_from_value(&o.text),
-                    peer_percentage: 0,
+                    peer_percentage: peer_percentages.get(&o.letter).copied().unwrap_or(0),
                 })
                 .collect(),
             user_performance: UserPerformance {
@@ -284,13 +294,7 @@ fn extract_links_from_nodes(nodes: &[serde_json::Value]) -> Vec<CritiqueLink> {
 fn extract_links_from_value(
     value: &serde_json::Value,
     links: &mut Vec<CritiqueLink>,
-    seen: &mut HashSet<(
-        String,
-        String,
-        Option<String>,
-        Option<String>,
-        Option<String>,
-    )>,
+    seen: &mut HashSet<CritiqueLinkKey>,
 ) {
     match value {
         serde_json::Value::Object(obj) => {
@@ -440,13 +444,7 @@ fn strip_html_tags(text: &str) -> String {
 fn extract_links_from_html(
     html: &str,
     links: &mut Vec<CritiqueLink>,
-    seen: &mut HashSet<(
-        String,
-        String,
-        Option<String>,
-        Option<String>,
-        Option<String>,
-    )>,
+    seen: &mut HashSet<CritiqueLinkKey>,
 ) {
     let tag_re = Regex::new(r#"(?is)<a\b([^>]*)>(.*?)</a>"#).unwrap();
     let attr_re = Regex::new(r#"(?i)\b([a-zA-Z_-]+)\s*=\s*["']([^"']*)["']"#).unwrap();
@@ -566,6 +564,21 @@ fn extract_references(refs: &[serde_json::Value]) -> String {
         .join("\n")
 }
 
+/// Helper function to extract peer percentages from peerComparison JSON object
+fn extract_peer_percentages(peer_comparison: &serde_json::Value) -> HashMap<String, u32> {
+    let mut percentages = HashMap::new();
+
+    if let Some(obj) = peer_comparison.as_object() {
+        for (letter, value) in obj {
+            if let Some(percentage) = value.as_u64() {
+                percentages.insert(letter.clone(), percentage as u32);
+            }
+        }
+    }
+
+    percentages
+}
+
 /// Discovery metadata for a single organ system
 /// Tracks statistics from the discovery phase to provide accurate completion metrics
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -594,4 +607,14 @@ pub struct DiscoveryMetadataCollection {
     pub last_updated: String,
     /// Discovery metadata for each organ system
     pub systems: Vec<DiscoveryMetadata>,
+}
+
+impl Default for DiscoveryMetadataCollection {
+    fn default() -> Self {
+        Self {
+            version: "1.0.0".to_string(),
+            last_updated: Utc::now().to_rfc3339(),
+            systems: Vec::new(),
+        }
+    }
 }

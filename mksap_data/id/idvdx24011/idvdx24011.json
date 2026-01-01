@@ -1,12 +1,14 @@
 {
   "question_id": "idvdx24011",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Diagnose a brain abscess based on MRI findings.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 52-year-old previously healthy woman is evaluated for fever and severe headache.Brain MRI with contrast is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/idfig24612.55d723c0fe936ae9f9cd73a8f0a42d59.jpg",
-      "figures/idfig24613.3da80abc1c946bfc685810cf454e4e6e.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "idfig24612",
-        "file": "figures/idfig24612.55d723c0fe936ae9f9cd73a8f0a42d59.jpg",
-        "title": "Stem MRI Showing Brain Abscess",
-        "short_title": "Brain Abscess on MRI Stem",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 1233
-      },
-      {
-        "figure_id": "idfig24613",
-        "file": "figures/idfig24613.3da80abc1c946bfc685810cf454e4e6e.jpg",
-        "title": "Critique MRI Showing Brain Abscess",
-        "short_title": "Brain Abscess on MRI Critique",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 1205
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.680454-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.541810-06:00"
 }

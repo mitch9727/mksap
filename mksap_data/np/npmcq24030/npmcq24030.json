@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24030",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Treat advanced-stage IgA nephropathy.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 48-year-old man is evaluated in the hospital for abnormal kidney function and hypertension. His emergency room visit was prompted by a blood pressure of 180/110 mm Hg measured at a work-based screening. He has a history of hypertension diagnosed 15 years ago, but he has not received regular medical care since that time. He has no other known medical conditions and does not take any medications.On physical examination, blood pressure is 166/102 mm Hg. Other vital signs and the remainder of the examination are normal.Laboratory studies: C3 complementNormal C4 complementNormalCreatinine2.5 mg/dL (221 µmol/L)HUrinalysis3+ blood, 2+ proteinUrine protein-creatinine ratio1200 mg/gHKidney ultrasound shows normal-sized kidneys with increased echogenicity bilaterally.Kidney biopsy shows IgA nephropathy with little to no activity and moderate chronicity.Lisinopril is initiated.",
   "question_stem": "Which of the following is the most appropriate additional treatment?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.675965-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.794032-06:00"
 }

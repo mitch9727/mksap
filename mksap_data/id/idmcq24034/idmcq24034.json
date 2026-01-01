@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24034",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Manage severe community-acquired pneumonia requiring ICU admission.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 62-year-old man is evaluated in the emergency department for a 4-day history of fever, chills, cough productive of yellow sputum, increasing shortness of breath, and sharp left-sided chest pain with deep breaths. His family indicates he was out of breath and confused earlier today. He has a 30-pack-year smoking history. Medical history is significant for COPD and hypertension. He has never been hospitalized and has not recently received antibiotics or oral glucocorticoids. Medications are a umeclidinium-vilanterol inhaler and hydrochlorothiazide.On physical examination, temperature is 35.7 °C (96.3 °F), blood pressure is 95/64 mm Hg, pulse rate is 115/min, and respiration rate is 24/min. Oxygen saturation is 90% breathing ambient air. He is oriented only to person and place. The neck is supple. Tachypnea is noted. Diffuse wheezing and decreased breath sounds are heard in the left lower lobe.Laboratory studies:Leukocyte count21,000/µL (21 × 109/L)HBlood urea nitrogen43 mg/dL (15.4 mmol/L)HCreatinine2.1 mg/dL (186 µmol/L)HSodium125 mEq/L (125 mmol/L)LA chest radiograph shows hyperexpanded lungs bilaterally and a left lower lobe consolidation with pleural effusion.",
   "question_stem": "Which of the following are the most appropriate next steps in management?",
@@ -52,43 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/idtab24024.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "idtab24024",
-        "file": "tables/idtab24024.html",
-        "title": "Community-Acquired Pneumonia Clinical Decision Support Scoring Systems for Site of Care",
-        "short_title": "CAP Clinical Decision Support Scoring Systems",
-        "footnotes": [
-          "ATS = American Thoracic Society; BUN = blood urea nitrogen; IDSA = Infectious Diseases Society of America; PSI = Pneumonia Severity Index.",
-          "<sup>a</sup>PSI Step 1 Screen: If no factors are present, patient is assigned risk class I and can likely be managed as an outpatient. Patients with at least one risk factor are stratified by a more complex Step 2 scale (not shown) into risk class II-V.",
-          "<sup>b</sup>IDSA/ATS Criteria for Defining Severe CAP: Patients with one major criterion have severe CAP and are best managed in the ICU. Consideration of minor criteria plus clinical judgment are recommended to guide the need for higher levels of care."
-        ],
-        "headers": [
-          "PSIa",
-          "IDSA/ATSb"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.368321-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.079190-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "fccor25010",
   "category": "fc",
+  "category_name": "Foundations of Clinical Practice",
   "educational_objective": "Use a conversation guide to discuss prognosis with a patient who has a serious illness.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "An 81-year-old man is evaluated after a hospitalization 1 week ago for expressive aphasia. He has a distant history of resected melanoma. Brain imaging in the hospital showed bleeding into a lesion in the left frontal region. A chest CT scan showed several pulmonary nodules concerning for metastases. The patient's oncologist is starting chemotherapy but noted that the patient's prognosis is poor. The patient also has atrial fibrillation; warfarin was recently discontinued. His other medication is metoprolol.Today the patient feels well, with improved speech. He states that he is “going to beat this disease.”",
   "question_stem": "Which of the following is the most appropriate response?",
@@ -52,32 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/fctab24054.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "fctab24054",
-        "file": "tables/fctab24054.html",
-        "title": "Serious Illness Conversation Guide",
-        "short_title": "Serious Illness Conversation Guide",
-        "footnotes": [
-          "Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\" target=\"_blank\">https://creativecommons.org/licenses/by-nc-sa/4.0/</a>). Ariadne Labs licenses the original content as-is and as-available, and makes no representations or warranties of any kind concerning the original content or concerning this material, which Ariadne Labs has not reviewed or endorsed. © 2015, Ariadne Labs: A Joint Center for Health Systems Innovation (<a href=\"http://www.ariadnelabs.org\" target=\"_blank\">www.ariadnelabs.org</a>) and Dana-Farber Cancer Institute."
-        ],
-        "headers": [
-          "Conversation Flow",
-          "Patient-Tested Language"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:27.524597-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:52.630110-06:00"
 }

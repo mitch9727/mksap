@@ -1,12 +1,14 @@
 {
   "question_id": "rmmcq24004",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Diagnose microscopic polyangiitis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 35-year-old patient is hospitalized for recent hemoptysis in the setting of 6 months of progressive shortness of breath and cough. They also report 3 weeks of bilateral leg swelling and lower extremity rash. One week ago, right foot weakness developed.On physical examination, blood pressure is 95/70 mm Hg and pulse is 105/min. Pulmonary examination reveals crackles at both lung bases. A palpable rash is shown. Right foot dorsiflexion is 3/5. The remainder of the examination is unremarkable.Laboratory studies:Hemoglobin10.5 g/dL (105 g/L)L C3 complementNormal C4 complementNormalCreatinine3.2 mg/dL (282.9 μmol/L)HAnti–double-stranded DNA antibody titerNegativeAntinuclear antibody titer1:320Antiglomerular basement membrane antibody titerNegativeANCAPositive (p-ANCA pattern)CryoglobulinNegativeUrinalysis2+ blood; 3+ protein; 20-30 erythrocytes/hpfBronchoalveolar lavage reveals progressive bloody aliquots.Kidney biopsy specimen shows pauci-immune crescentic glomerulonephritis.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,55 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/rmtab24048.html",
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/rmfig24200.6c23514225a73a94d16179afab4c6a98.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "rmfig24200",
-        "file": "figures/rmfig24200.6c23514225a73a94d16179afab4c6a98.jpg",
-        "title": "Vasculitic Skin Lesions in a Patient With Microscopic Polyangiitis",
-        "short_title": "stem Vasculitic Skin Lesions in Microscopic Polyangiitis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 630,
-        "height": 594
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "rmtab24048",
-        "file": "tables/rmtab24048.html",
-        "title": "Features of ANCA-Associated Vasculitis",
-        "short_title": "Features of ANCA-Associated Vasculitis",
-        "footnotes": [],
-        "headers": [
-          "Feature",
-          "Granulomatosis With Polyangiitis",
-          "Microscopic Polyangiitis",
-          "Eosinophilic Granulomatosis With Polyangiitis"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.590304-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:21.786557-06:00"
 }

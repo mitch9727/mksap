@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq25001",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Treat cardiogenic shock.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 67-year-old woman is hospitalized with worsening dyspnea. Over the past 2 months, she has had progressive dyspnea that is now present at rest. One year ago, she was diagnosed with anthracycline-induced cardiomyopathy after undergoing breast cancer treatment. Coronary angiography at that time was normal. Medications are losartan, carvedilol, spironolactone, empagliflozin, and furosemide.On physical examination, blood pressure is 98/64 mm Hg, pulse rate is 114/min, and respiration rate is 22/min. Oxygen saturation is 82% with the patient breathing ambient air and 94% breathing oxygen at 6 L/min by nasal cannula. Jugular venous distention to the earlobe is noted. Cardiac examination reveals an S3. Bilateral lower extremity edema is noted past the knees. The hands and feet are cool.Laboratory studies:CreatinineBaseline1.4 mg/dL (123.8 µmol/L)HCurrent2.3 mg/dL (203.3 µmol/L)HLactate4.5 mEq/L (4.5 mmol/L)HTroponin0 ng/mL (0 μg/L)ECG is unchanged, with sinus tachycardia and left bundle branch block. Chest radiograph shows bilateral pleural effusions, cephalization, and an enlarged heart. Echocardiogram reveals an ejection fraction of 15% with global hypokinesis; previous ejection fraction was 40%.Dobutamine is initiated, with no clinical improvement.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.760453-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.742763-06:00"
 }

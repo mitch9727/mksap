@@ -1,12 +1,14 @@
 {
   "question_id": "onqqq24007",
   "category": "on",
+  "category_name": "Oncology",
   "educational_objective": "Evaluate for newly diagnosed nonsquamous metastatic non–small cell lung cancer.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 62-year-old woman is evaluated for a 3-month history of worsening cough and shortness of breath. She has lost 9.1 kg (20.0 lb). She quit smoking 25 years ago. She takes no medications.On physical examination, vital signs are normal. Oxygen saturation is 94% with the patient breathing ambient air. Pulmonary examination reveals decreased breath sounds in the left lower lung field.CT scan of the chest shows a large left pleural effusion and multiple right-sided lung nodules. Bone scan reveals metastatic lesions involving the thoracic spine. Brain MRI shows no metastatic disease.Thoracentesis is performed, and cytologic findings confirm adenocarcinoma.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -51,30 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/ontab24012.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "ontab24012",
-        "file": "tables/ontab24012.html",
-        "title": "Targeted Therapies for Validated Genomic Alterations in Metastatic Lung Cancer",
-        "short_title": "Targeted Therapies for Metastatic Lung Cancer",
-        "footnotes": [],
-        "headers": [
-          "Gene/Alteration",
-          "Potentially Active Drugs (Not All Inclusive or in Order of Preference)"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.865454-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.162632-06:00"
 }

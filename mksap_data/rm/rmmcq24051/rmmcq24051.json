@@ -1,12 +1,14 @@
 {
   "question_id": "rmmcq24051",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Treat ankylosing spondylitis with NSAIDs.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 26-year-old man is evaluated for a 2-year history of back pain. He has morning stiffness lasting longer than 1 hour that improves with activity.On physical examination, vital signs are normal. There is mild reduction of lumbar flexion and tenderness over the sacroiliac joints bilaterally. Results of the FABER (Flexion, ABduction, and External Rotation) test are positive bilaterally.Laboratory studies:C-reactive protein3.0 mg/dL (30 mg/L)HRadiographs show normal lumbar vertebrae and bilateral sacroiliac joint sclerosis and erosions consistent with sacroiliitis.",
   "question_stem": "Which of the following is the most appropriate initial treatment?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.716042-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:21.888769-06:00"
 }

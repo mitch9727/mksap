@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24043",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose the cause of thrombocytopenia in a pregnant patient.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 28-year-old woman is evaluated during follow-up for pregnancy. She is at 28 weeks' gestation. She reports no bleeding or bruising. Her only medication is a prenatal vitamin.On physical examination, vital signs and other findings are normal for her stage of pregnancy.A complete blood count is obtained in screening for anemia.Laboratory studies:Hemoglobin11.5 g/dL (115 g/L)LPlatelet count105,000/µL (105 × 109/L)L",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.954087-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.504973-06:00"
 }

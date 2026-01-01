@@ -1,12 +1,14 @@
 {
   "question_id": "hmvdx24027",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose acute promyelocytic leukemia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 40-year-old man is evaluated for weakness and easy fatigability, gingival bleeding, ecchymoses, and epistaxis.Bone marrow aspirate is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/hmfig24642.1f37bc475d73503be01507029dc746db.jpg",
-      "figures/hmfig24643.1e351925b6510d59f55d48accd75e461.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "hmfig24642",
-        "file": "figures/hmfig24642.1f37bc475d73503be01507029dc746db.jpg",
-        "title": "Stem Peripheral Blood Smear Findings in Acute Promyelocytic Leukemia",
-        "short_title": "PBS Findings in Acute Promyelocytic Leukemia Stem",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 500,
-        "height": 375
-      },
-      {
-        "figure_id": "hmfig24643",
-        "file": "figures/hmfig24643.1e351925b6510d59f55d48accd75e461.jpg",
-        "title": "Critique Peripheral Blood Smear Findings in Acute Promyelocytic Leukemia",
-        "short_title": "PBS Findings in Acute Promyelocytic Leukemia Critique",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 500,
-        "height": 375
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.143531-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.752002-06:00"
 }

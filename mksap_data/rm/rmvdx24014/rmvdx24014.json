@@ -1,12 +1,14 @@
 {
   "question_id": "rmvdx24014",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Diagnose Takayasu arteritis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 31-year-old woman is evaluated for an 8-month history of malaise, fatigue, and subjective fever, as well as the recent onset of bilateral upper arm claudication.An aortic angiogram is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/rmfig24616.d264eae575d1bb51bc028581170c3d07.jpg",
-      "figures/rmfig24617.fd51fce81fc1ac635c8a6652048df43d.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "rmfig24616",
-        "file": "figures/rmfig24616.d264eae575d1bb51bc028581170c3d07.jpg",
-        "title": "Aortic Angiogram in Takayasu Arteritis",
-        "short_title": "stem Aortic Angiogram in Takayasu Arteritis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 107,
-        "height": 164
-      },
-      {
-        "figure_id": "rmfig24617",
-        "file": "figures/rmfig24617.fd51fce81fc1ac635c8a6652048df43d.jpg",
-        "title": "Aortic Angiogram in Takayasu Arteritis",
-        "short_title": "critique Aortic Angiogram in Takayasu Arteritis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 107,
-        "height": 164
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.897637-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:22.093572-06:00"
 }

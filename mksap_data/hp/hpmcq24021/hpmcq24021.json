@@ -1,12 +1,14 @@
 {
   "question_id": "hpmcq24021",
   "category": "hp",
+  "category_name": "Hepatology",
   "educational_objective": "Treat severe alcoholic hepatitis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 31-year-old man is hospitalized for nausea, epigastric discomfort, and weakness over the past 10 days, as well as jaundice and dark urine over the past 4 days. He does not have fevers, chills, or symptoms of gastrointestinal bleeding. He drinks a pint of vodka daily and recently has been drinking more heavily.On physical examination, temperature is 37.3 °C (99.2 °F), blood pressure is 112/73 mm Hg, and pulse rate is 106/min. He appears jaundiced and has proximal muscle wasting. The abdomen is distended, with shifting dullness. The liver edge is palpable 3 cm below the inferior costal margin and is tender.Laboratory studies:Hemoglobin14.3 g/dL (143 g/L)Leukocyte count12,800/μL (12.8 × 109/L)HINR1.9Albumin3.2 g/dL (32 g/L)LAlkaline phosphatase199 U/LHAlanine aminotransferase127 U/LHAspartate aminotransferase392 U/LHBilirubinTotal10.3 mg/dL (176.1 µmol/L)HDirect6.8 mg/dL (116.2 µmol/L)HCreatinine0.9 mg/dL (79.6 μmol/L)Sodium130 mEq/L (130 mmol/L)LAcute viral hepatitis panelNegativeModel for End-Stage Liver Disease (MELD) score is 22. Preliminary blood cultures are negative.Doppler ultrasound of the abdomen shows hepatomegaly with diffusely increased hepatic echogenicity, moderate ascites, splenomegaly, patent portal and hepatic veins, and no biliary ductal dilation.Diagnostic paracentesis is performed.Paracentesis studies:Leukocyte count900/µL (0.9 × 109/L) with 20% polymorphonuclear cellsAlbumin1.8 g/dL (18 g/L)",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -51,36 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      },
-      {
-        "table_id": "inline_table_2",
-        "file": "tables/inline_table_2.html",
-        "title": "Paracentesis studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.711033-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.081415-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24062",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Treat COVID-19 in a patient at high risk for respiratory failure.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 68-year-old man is evaluated in the emergency department for a 3-day history of dry cough, sore throat, low-grade fever, and shortness of breath. He has not been vaccinated against SARS-CoV-2 and has not recently been admitted to the hospital. He has COPD. Medications are tiotropium and an as-needed albuterol inhaler.On physical examination, temperature is 39.0 °C (102.2 °F), blood pressure is 140/85 mm Hg, pulse rate is 112/min, and respiration rate is 24/min. Oxygen saturation is 88% breathing ambient air. He is alert and oriented. Bibasilar crackles are heard on lung examination.Laboratory studies:Leukocyte count6500/μL (6.5 × 109/L)Procalcitonin level is normal. A SARS-CoV-2 polymerase chain reaction test is positive.Chest radiograph shows bibasilar ground-glass opacities.",
   "question_stem": "Which of the following is the most appropriate therapy?",
@@ -46,6 +48,13 @@
       "target": "_blank",
       "title": null,
       "rel": null
+    },
+    {
+      "href": "https://www.idsociety.org/COVID19guidelines",
+      "text": "https://www.idsociety.org/COVID19guidelines",
+      "target": "_blank",
+      "title": null,
+      "rel": null
     }
   ],
   "key_points": [
@@ -59,27 +68,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.443985-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.177435-06:00"
 }

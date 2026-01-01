@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24014",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Evaluate asymptomatic iron deficiency anemia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 41-year-old man is found to have new iron deficiency anemia. He is asymptomatic. He eats a well-balanced diet. He does not have a family history of gastrointestinal malignancy.On physical examination, vital signs and other findings are normal.Laboratory studies:Hemoglobin11.7 g/dL (117 g/L)LMean corpuscular volume78 fLLFerritin25 ng/mL (25 μg/L)",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.870890-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.386174-06:00"
 }

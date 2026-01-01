@@ -62,8 +62,8 @@ pub async fn show_discovery_stats(output_dir: &str) -> Result<()> {
 
     println!("Per-System Breakdown:");
     println!(
-        "{:<6} {:>10} {:>15} {:>10} {}",
-        "System", "Discovered", "Candidates", "Hit Rate", "Types Found"
+        "{:<6} {:>10} {:>15} {:>10} Types Found",
+        "System", "Discovered", "Candidates", "Hit Rate"
     );
     println!("{}", "-".repeat(70));
 

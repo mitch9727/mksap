@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24089",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Treat a patient with inadequate response to initial oral antibiotic therapy for Lyme arthritis with ceftriaxone.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 50-year-old man is evaluated at follow-up 1 month after a diagnosis of Lyme arthritis. He experienced several months of mild pain and swelling of the right knee but no fever or rash. He completed 28 days of oral doxycycline but reports no improvement. Moderate restriction in range of motion of the right knee has continued, and he has not noted improvement in the size of the effusion. Medical history is otherwise unremarkable. He takes ibuprofen as needed for pain.On physical examination, vital signs are normal. The right knee has a large effusion with minimal warmth and tenderness. There is moderate restriction in range of motion.Synovial fluid analysis:Leukocyte count30,000/µL (30 × 109/L) with 55% neutrophilsCrystalsNoneResults of serologic testing are positive for Borrelia burgdorferi-specific antibodies. Synovial fluid Gram stain and cultures are negative.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -56,27 +58,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Synovial fluid analysis:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.522611-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.324020-06:00"
 }

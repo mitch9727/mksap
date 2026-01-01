@@ -1,12 +1,14 @@
 {
   "question_id": "cvcor25028",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Diagnose atrioventricular nodal reentrant tachycardia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "An 18-year-old man is evaluated in the emergency department for abrupt-onset palpitations. For the past year, he has been having similar episodes with increasing frequency. He has been able to stop these previous episodes by coughing or bearing down. He reports no syncopal episodes.On physical examination, blood pressure is 95/68 mm Hg, pulse rate is 200/min, and respiration rate is 16/min. The remainder of the physical examination is normal.ECG is shown. A previous ECG showed sinus rhythm with a heart rate of 72/min without any abnormalities.",
   "question_stem": "Which of the following is the most likely rhythm diagnosis?",
@@ -52,41 +54,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig25707.3e2b6f317e5c715b5b111acb26983df8.jpg",
-      "figures/cvfig25708.1b76685120f79028a833e24e02f77b83.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig25707",
-        "file": "figures/cvfig25707.3e2b6f317e5c715b5b111acb26983df8.jpg",
-        "title": "ECG in a Patient With Atrioventricular Nodal Reentrant Tachycardia",
-        "short_title": "stem ECG Showing Tachycardia",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 479
-      },
-      {
-        "figure_id": "cvfig25708",
-        "file": "figures/cvfig25708.1b76685120f79028a833e24e02f77b83.jpg",
-        "title": "ECG Showing Retrograde P Waves",
-        "short_title": "critique ECG Showing Retrograde P Waves",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 349,
-        "height": 122
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.366014-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.290748-06:00"
 }

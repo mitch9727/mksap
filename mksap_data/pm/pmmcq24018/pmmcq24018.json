@@ -1,12 +1,14 @@
 {
   "question_id": "pmmcq24018",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Treat a patient with pulmonary sarcoidosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 40-year-old man is evaluated at a follow-up visit after bronchoscopy. He initially presented with a 6-week history of progressively worsening dry cough and shortness of breath. He reports no weight loss or hemoptysis. Chest radiograph revealed bilateral symmetric hilar prominence and diffuse bilateral lung infiltrates. CT scan of the chest showed right paratracheal and bilateral symmetric hilar lymphadenopathy along with bilateral upper lobe predominant reticulonodular pulmonary infiltrates. He has gastroesophageal reflux disease, and his only medication is famotidine.On physical examination, vital signs are normal. Oxygen saturation is 93% with the patient breathing ambient air at rest and 91% with ambulation. Lung examination reveals bilateral scattered crackles.Pulmonary function tests:FEV168% of predictedLFVC60% of predictedL FEV1/FVC ratio0.65LDlcoLowLBronchoscopic needle aspiration from the hilar lymph node reveals noncaseating granulomas. Results of microbiology studies from the bronchoscopy specimen are negative.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -52,40 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/pmtab24024.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "pmtab24024",
-        "file": "tables/pmtab24024.html",
-        "title": "Radiographic Characteristics and Staging in Pulmonary Sarcoidosis",
-        "short_title": "Chest Radiograph Staging of Pulmonary Sarcoidosis",
-        "footnotes": [],
-        "headers": [
-          "Stage",
-          "Radiographic Pattern",
-          "Clinical Course and Comments"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Pulmonary function tests:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.049701-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.426417-06:00"
 }

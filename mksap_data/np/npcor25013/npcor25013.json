@@ -1,12 +1,14 @@
 {
   "question_id": "npcor25013",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Treat hypertensive emergency in a patient with heart failure.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 54-year-old woman is evaluated in the emergency department for acute dyspnea. Medical history includes difficult-to-treat hypertension and hyperlipidemia. Medications are nifedipine, hydrochlorothiazide, metoprolol, hydralazine, and atorvastatin.On physical examination, blood pressure is 210/120 mm Hg in both arms, pulse rate is 110/min, respiration rate is 28/min, and oxygen saturation is 94% with the patient breathing 2 L/min of oxygen by nasal cannula. Funduscopic examination shows no papilledema. Central venous pressure is elevated. Cardiopulmonary examination reveals tachycardia, a summation gallop, and bilateral crackles.Chest radiograph shows an enlarged cardiac silhouette and bilateral pulmonary edema. ECG shows sinus tachycardia, left-axis deviation, and left ventricular hypertrophy.Intravenous nitroglycerin and furosemide are initiated. After 3 hours, blood pressure is 156/94 mm Hg, pulse rate is 88/min, respiration rate is 18/min, and oxygen saturation is 98% with the patient breathing 2 L/min of oxygen by nasal cannula.Two high-sensitivity troponin T levels, obtained serially, are not consistent with acute myocardial infarction.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -51,35 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nptab24024.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nptab24024",
-        "file": "tables/nptab24024.html",
-        "title": "Intravenous Antihypertensive Drugs for Treatment of Hypertensive Emergencies with Selected Comorbidities",
-        "short_title": "Antihypertensives for Hypertensive Emergencies with Comorbidities",
-        "footnotes": [
-          "ARB = angiotensin receptor blocker; BP = blood pressure.",
-          "<sup>a</sup>See Table: Frequently Used Antihypertensive Medications for specific drug contraindications.",
-          "Data from Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: A report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. J Am Coll Cardiol. 2018;71:e127-e248. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/29146535\" target=\"_blank\">PMID: 29146535</a> doi:10.1016/j.jacc.2017.11.006"
-        ],
-        "headers": [
-          "Comorbidity",
-          "Preferred Drugsa",
-          "Comments"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.549713-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.605332-06:00"
 }

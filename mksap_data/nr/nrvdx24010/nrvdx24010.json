@@ -1,12 +1,14 @@
 {
   "question_id": "nrvdx24010",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Diagnose Horner syndrome.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 40-year-old woman is evaluated for a droopy eyelid, as shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/nrfig24611.3379ad2fc6fc4f88fb6e5a6cd1c50ff2.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "nrfig24611",
-        "file": "figures/nrfig24611.3379ad2fc6fc4f88fb6e5a6cd1c50ff2.jpg",
-        "title": "Findings of Horner Syndrome",
-        "short_title": "stem Findings of Horner Syndrome",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 601
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.506641-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.723781-06:00"
 }

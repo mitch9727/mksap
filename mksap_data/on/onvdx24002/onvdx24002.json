@@ -1,12 +1,14 @@
 {
   "question_id": "onvdx24002",
   "category": "on",
+  "category_name": "Oncology",
   "educational_objective": "Diagnose lung cancer with PET/CT scan.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 67-year-old woman is evaluated for a lung mass.PET/CT scan is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/onfig24602.67d57452a77135690b859e94e095fb8e.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "onfig24602",
-        "file": "figures/onfig24602.67d57452a77135690b859e94e095fb8e.jpg",
-        "title": "Preoperative Staging PET/CT Scan Showing Enhancing Lung Nodule",
-        "short_title": "stem Preoperative Staging PET/CT Scan Showing Enhancing Lung Nodule",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 299,
-        "height": 145
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.886972-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.199046-06:00"
 }

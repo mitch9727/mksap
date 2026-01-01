@@ -1,12 +1,14 @@
 {
   "question_id": "nrmcq24075",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Treat symptomatic intracranial atherosclerosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 58-year-old man is evaluated in the hospital for left-sided weakness that began 18 hours ago. Medical history is significant for hypertension, dyslipidemia, and type 2 diabetes mellitus; he has a 25-pack-year history of smoking. Medications are candesartan, rosuvastatin, metformin, empagliflozin, and aspirin.On physical examination, blood pressure is 148/78 mm Hg, and pulse rate is 78/min. He exhibits left facial weakness and left arm and leg drift. National Institutes of Health Stroke Scale score is 3. He shows no dysarthria and passes a bedside dysphagia evaluation.Head CT scan shows no acute infarct, but brain MRI shows two small right frontal infarcts involving subcortical white matter without mass effect or hemorrhagic conversion. CT angiography shows 80% stenosis of the right middle cerebral artery.Oral aspirin is administered.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -53,29 +55,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/nrfig24206.30b44bc8db1572e4fdfbbae76accba5a.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "nrfig24206",
-        "file": "figures/nrfig24206.30b44bc8db1572e4fdfbbae76accba5a.jpg",
-        "title": "Brain MRI in Stroke Secondary to Intracranial Atherosclerosis",
-        "short_title": "MRI in Stroke from Intracranial Atherosclerosis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 987
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.368467-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.591603-06:00"
 }

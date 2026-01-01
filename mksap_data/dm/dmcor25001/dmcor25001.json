@@ -1,12 +1,14 @@
 {
   "question_id": "dmcor25001",
   "category": "dm",
+  "category_name": "Dermatology",
   "educational_objective": "Classify and treat a burn injury.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 28-year-old woman is evaluated in the emergency department 3 hours after sustaining a burn on the left arm while burning leaves in her backyard.On physical examination, vital signs are normal. Skin findings on the left arm are shown.The affected area blanches with pressure. Pain is present without application of pressure.",
   "question_stem": "In addition to analgesia, which of the following is the most appropriate therapy?",
@@ -53,41 +55,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/dmfig25700.6351eccd25a3834afb02c80499a3a3e9.jpg",
-      "figures/dmfig25701.ed4257ac6e30cd146aa73bf16077a443.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "dmfig25700",
-        "file": "figures/dmfig25700.6351eccd25a3834afb02c80499a3a3e9.jpg",
-        "title": "Second-Degree, Superficial Partial-Thickness Burn",
-        "short_title": "stem Second-Degree Burn",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 650,
-        "height": 506
-      },
-      {
-        "figure_id": "dmfig25701",
-        "file": "figures/dmfig25701.ed4257ac6e30cd146aa73bf16077a443.jpg",
-        "title": "Third-Degree, Full-Thickness Burn",
-        "short_title": "critique Third-Degree, Full-Thickness Burn",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 650,
-        "height": 506
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.209422-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.213949-06:00"
 }

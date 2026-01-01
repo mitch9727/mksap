@@ -1,12 +1,14 @@
 {
   "question_id": "hpmcq24024",
   "category": "hp",
+  "category_name": "Hepatology",
   "educational_objective": "Refer a patient with acute liver failure to a liver transplant center.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 39-year-old man is evaluated in the emergency department for a 2-week history of worsening fatigue, abdominal discomfort, nausea, and jaundice. His partner notes that, over the past 2 days, the patient has been more irritable and has slept poorly. The patient has no personal or family history of liver disease. He drinks two alcoholic beverages a month. Three months ago, he began taking a weight loss supplement containing green tea extract. He takes no other medications or supplements.On physical examination, vital signs are normal. He is alert and oriented with slight psychomotor retardation. Scleral icterus and mild right-upper-quadrant abdominal tenderness are noted. The remainder of the examination is normal.Laboratory studies:INR1.7Albumin4.3 g/dL (43 g/L)Alkaline phosphatase211 U/LHAlanine aminotransferase2219 U/LHAspartate aminotransferase2377 U/LHBilirubinTotal11.7 mg/dL (200 µmol/L)HDirect8.2 mg/dL (140.2 µmol/L)HDoppler ultrasound of the abdomen is normal.",
   "question_stem": "Which of the following is the most appropriate disposition for this patient?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.699289-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.107696-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "hmqqq24011",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose immune thrombocytopenic purpura.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 27-year-old woman is evaluated for a 1-month history of easy bruising with relatively minimal trauma. She has otherwise been well and reports no bleeding. She has no medical problems and takes no medications or supplements.Physical examination reveals multiple ecchymoses of various stages on the arms and legs. Findings are otherwise normal.Laboratory studies:Hemoglobin13.5 g/dL (135 g/L)Leukocyte count6750/µL (6.75 × 109/L)Platelet count50,000/µL (50 × 109/L)LPeripheral blood smear shows large platelets, which are slightly decreased in number, with normal leukocyte and erythrocyte morphology. Platelet clumping is not observed.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.067043-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.644209-06:00"
 }

@@ -1,8 +1,6 @@
 use anyhow::{Context, Result};
 use chrono::Utc;
 use futures::stream::{self, StreamExt};
-use rand::seq::SliceRandom;
-use rand::thread_rng;
 use std::collections::HashSet;
 use std::env;
 use std::fs;
@@ -13,6 +11,7 @@ use tokio::time::sleep;
 use tracing::info;
 
 use crate::models::{DiscoveryMetadata, DiscoveryMetadataCollection};
+use crate::utils::parse_env;
 
 use super::{MKSAPExtractor, CHECKPOINT_DIR_NAME, QUESTION_TYPE_CODES};
 
@@ -49,16 +48,9 @@ impl MKSAPExtractor {
         question_prefix: &str,
         existing_ids: &HashSet<String>,
     ) -> Result<Vec<String>> {
-        let mut question_ids = self.generate_question_ids(question_prefix);
+        let question_ids = self.generate_question_ids(question_prefix);
         let total_to_try = question_ids.len();
         let concurrency = Self::concurrency_limit();
-        let shuffle = env::var("MKSAP_DISCOVERY_SHUFFLE")
-            .map(|value| value == "1" || value.eq_ignore_ascii_case("true"))
-            .unwrap_or(false);
-
-        if shuffle {
-            question_ids.shuffle(&mut thread_rng());
-        }
 
         info!("Testing {} potential question IDs...", total_to_try);
 
@@ -81,7 +73,7 @@ impl MKSAPExtractor {
         let mut valid_ids = Vec::new();
         while let Some(result) = stream.next().await {
             tested += 1;
-            if tested % 1000 == 0 || tested == total_to_try {
+            if tested.is_multiple_of(1000) || tested == total_to_try {
                 info!(
                     "Discovery progress: {}/{} tested - {} found so far",
                     tested,
@@ -123,13 +115,7 @@ impl MKSAPExtractor {
         };
 
         // Update or create metadata collection
-        let mut collection =
-            self.load_discovery_metadata()?
-                .unwrap_or_else(|| DiscoveryMetadataCollection {
-                    version: "1.0.0".to_string(),
-                    last_updated: Utc::now().to_rfc3339(),
-                    systems: Vec::new(),
-                });
+        let mut collection = self.load_discovery_metadata()?.unwrap_or_default();
 
         // Replace or add system metadata
         collection
@@ -163,14 +149,8 @@ impl MKSAPExtractor {
     /// Check if a question exists (fast HTTP HEAD request)
     async fn question_exists(&self, question_id: &str) -> Result<bool> {
         let api_url = crate::endpoints::question_json(&self.base_url, question_id);
-        let max_retries = env::var("MKSAP_DISCOVERY_RETRIES")
-            .ok()
-            .and_then(|value| value.parse::<u32>().ok())
-            .unwrap_or(3);
-        let max_429_retries = env::var("MKSAP_DISCOVERY_429_RETRIES")
-            .ok()
-            .and_then(|value| value.parse::<u32>().ok())
-            .unwrap_or(8);
+        let max_retries = parse_env("MKSAP_DISCOVERY_RETRIES", 3u32);
+        let max_429_retries = parse_env("MKSAP_DISCOVERY_429_RETRIES", 8u32);
         let mut attempt = 0u32;
         let mut rate_limit_attempt = 0u32;
 
@@ -235,14 +215,8 @@ impl MKSAPExtractor {
     fn generate_question_ids(&self, category_code: &str) -> Vec<String> {
         let mut ids = Vec::new();
 
-        let year_start = env::var("MKSAP_YEAR_START")
-            .ok()
-            .and_then(|value| value.parse::<u32>().ok())
-            .unwrap_or(23);
-        let year_end = env::var("MKSAP_YEAR_END")
-            .ok()
-            .and_then(|value| value.parse::<u32>().ok())
-            .unwrap_or(26);
+        let year_start = parse_env("MKSAP_YEAR_START", 23u32);
+        let year_end = parse_env("MKSAP_YEAR_END", 26u32);
         let type_codes_env =
             env::var("MKSAP_QUESTION_TYPES").unwrap_or_else(|_| QUESTION_TYPE_CODES.join(","));
         let type_codes: Vec<String> = type_codes_env

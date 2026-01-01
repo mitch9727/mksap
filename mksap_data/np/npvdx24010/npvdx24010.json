@@ -1,12 +1,14 @@
 {
   "question_id": "npvdx24010",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Identify the CT findings characteristic of hydronephrosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 63-year-old man is evaluated for chronic kidney disease.Abdominal CT scan is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/npfig24611.5839f400a68804f4162b72e4186705a6.jpg",
-      "figures/npfig24612.30f3bfaa3ed913c64a1a62b293cdb7d4.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "npfig24611",
-        "file": "figures/npfig24611.5839f400a68804f4162b72e4186705a6.jpg",
-        "title": "CT Scan Showing Hydronephrosis of the Right Kidney",
-        "short_title": "stem CT Scan Showing Hydronephrosis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 850,
-        "height": 828
-      },
-      {
-        "figure_id": "npfig24612",
-        "file": "figures/npfig24612.30f3bfaa3ed913c64a1a62b293cdb7d4.jpg",
-        "title": "CT Scan Showing Cortical Thinning of the Right Kidney",
-        "short_title": "critique CT Scan of Cortical Thinning of the Kidney",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 578,
-        "height": 655
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.987796-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.168894-06:00"
 }

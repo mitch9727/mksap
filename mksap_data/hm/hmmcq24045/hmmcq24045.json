@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24045",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose acquired pure red cell aplasia in a patient with parvovirus B19 infection.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 33-year-old man is evaluated in the emergency department for a 10-day history of fever, malaise, anorexia, and progressive dyspnea on exertion. Medical history is significant for hereditary spherocytosis and cholelithiasis requiring cholecystectomy at age 29 years. His only medication is folic acid.On physical examination, pulse rate is 112/min. Pallor is noted. Spleen tip is palpable in the left upper quadrant.Laboratory studies:Hemoglobin4.5 g/dL (45 g/L)LMean corpuscular volume90 fLLeukocyte count6500/µL (6.5 × 109/L) (62% neutrophils, 35% lymphocytes, 3% monocytes)Platelet count235,000/µL (235 × 109/L)Reticulocyte count0.1% of erythrocytesLBilirubinTotal4.0 mg/dL (68.2 µmol/L)HDirect0.5 mg/dL (8.6 µmol/L)HLactate dehydrogenase500 U/LHA direct antiglobulin test is negative.Peripheral blood smear shows spherocytes.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.962278-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.507522-06:00"
 }

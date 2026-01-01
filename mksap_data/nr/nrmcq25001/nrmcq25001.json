@@ -1,12 +1,14 @@
 {
   "question_id": "nrmcq25001",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Diagnose focal preserved consciousness seizures.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 31-year-old man is evaluated for a 6-week history of episodes of difficulty speaking, which occur once or twice a week. His mother reports that he suddenly stops speaking in the middle of a sentence and has rhythmic twitching of the right side of his face. During these episodes, he cannot answer questions but is able to follow commands, such as being asked to sit. The episodes last about 30 to 90 seconds each. Afterward, he regains the ability to respond and reports that he remembers the entire event, including anything asked of him. He sometimes has slurred speech and right facial droop for about 20 minutes after these events. Medical history is otherwise unremarkable, and he takes no medications.Physical examination findings, including vital signs, are normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,32 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nrtab24020.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nrtab24020",
-        "file": "tables/nrtab24020.html",
-        "title": "Examples of Focal Preserved Consciousness Seizures<sup>a</sup>",
-        "short_title": "Examples of Focal Preserved Consciousness Seizures",
-        "footnotes": [
-          "<sup>a</sup>Also known as simple partial seizures or focal aware seizures (which include auras)."
-        ],
-        "headers": [
-          "Lobe",
-          "Clinical Presentation"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.363210-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.605618-06:00"
 }

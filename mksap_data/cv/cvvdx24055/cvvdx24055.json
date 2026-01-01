@@ -1,12 +1,14 @@
 {
   "question_id": "cvvdx24055",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Diagnose Brugada syndrome.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 19-year-old man is evaluated during a routine physical examination. He reports one previous episode of syncope during an acute illness.ECG is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24655.7934e2fbd4d74f1776d306e2774bd8b4.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24655",
-        "file": "figures/cvfig24655.7934e2fbd4d74f1776d306e2774bd8b4.jpg",
-        "title": "ECG Showing Brugada Pattern",
-        "short_title": "stem ECG Showing Brugada Pattern",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 343
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.969278-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.982275-06:00"
 }

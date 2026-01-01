@@ -1,12 +1,14 @@
 {
   "question_id": "pmmcq24033",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Diagnose a benign pulmonary nodule.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 67-year-old woman is evaluated for a follow-up examination 1 week after being evaluated in the emergency department for pleuritic chest pain, which was ultimately attributed to costochondritis. CT pulmonary angiogram obtained at that time revealed no evidence of pulmonary embolism but did show an 8-mm smooth, well-demarcated, fully calcified nodule in the posterior right upper lobe of the lung (shown). She says she feels well and reports no recurrent chest pain, cough, shortness of breath, or hemoptysis. The patient has hypertension treated with lisinopril. She has a 12-pack-year history of smoking but stopped smoking 35 years ago. Her mother died of lung cancer at age 60 years.On physical examination, vital signs and other findings are normal.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -51,62 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/pmtab24039.html",
-      "tables/pmtab24040.html"
-    ],
-    "images": [
-      "figures/pmfig24206.6073f1c2c243c5e0cef002cb2c615a75.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "pmfig24206",
-        "file": "figures/pmfig24206.6073f1c2c243c5e0cef002cb2c615a75.jpg",
-        "title": "Lung Nodule on CT Pulmonary Angiogram",
-        "short_title": "stem Lung Nodule on CT Pulmonary Angiogram",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 183,
-        "height": 232
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "pmtab24039",
-        "file": "tables/pmtab24039.html",
-        "title": "Fleischner Society Recommendations for Single Pulmonary Nodule Follow-Up",
-        "short_title": "Recommendations for Single Pulmonary Nodule Follow-Up",
-        "footnotes": [
-          "Used with permission of the Radiological Society of North America, from MacMahon H, Naidich DP, Goo JM, et al. Guidelines for management of incidental pulmonary nodules detected on CT images: from the Fleischner Society 2017. Radiology. 2017;284:228-43. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/28240562\" target=\"_blank\">PMID: 28240562</a> doi:10.1148/radiol.2017161659; permission conveyed through Copyright Clearance Center, Inc."
-        ],
-        "headers": [
-          "Risk Factors for Lung Cancer?",
-          "Size",
-          "Recommended Follow-Up"
-        ]
-      },
-      {
-        "table_id": "pmtab24040",
-        "file": "tables/pmtab24040.html",
-        "title": "Fleischner Society Recommendations for Solitary Subsolid Lung Nodule Follow-Up",
-        "short_title": "Recommendations for Solitary Subsolid Lung Nodule Follow-Up",
-        "footnotes": [
-          "Used with permission of the Radiological Society of North America, from MacMahon H, Naidich DP, Goo JM, et al. Guidelines for management of incidental pulmonary nodules detected on CT images: from the Fleischner Society 2017. Radiology. 2017;284:228-43. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/28240562\" target=\"_blank\">PMID: 28240562</a> doi:10.1148/radiol.2017161659; permission conveyed through Copyright Clearance Center, Inc."
-        ],
-        "headers": [
-          "Imaging Findings",
-          "Size",
-          "Recommended Follow-Up"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.089462-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.464862-06:00"
 }

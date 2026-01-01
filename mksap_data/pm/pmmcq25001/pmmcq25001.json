@@ -1,12 +1,14 @@
 {
   "question_id": "pmmcq25001",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Manage a pure ground-glass lung nodule.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 73-year-old man is evaluated for a pulmonary nodule. Chest CT performed 1 week ago revealed an 8-mm ground-glass opacity without a solid component in the right upper lobe of the lung. The opacity is unchanged in size and appearance when compared to findings on chest CT performed 1 year ago. He has COPD (Global Initiative for Chronic Obstructive Lung Disease [GOLD] stage 1/group A) and a 15-pack-year history of smoking; he stopped smoking 20 years ago. The patient's only medication is an as-needed albuterol inhaler.On physical examination, vital signs and other findings are normal.",
   "question_stem": "Which of the following is the most appropriate next step in testing?",
@@ -52,33 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/pmtab24040.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "pmtab24040",
-        "file": "tables/pmtab24040.html",
-        "title": "Fleischner Society Recommendations for Solitary Subsolid Lung Nodule Follow-Up",
-        "short_title": "Recommendations for Solitary Subsolid Lung Nodule Follow-Up",
-        "footnotes": [
-          "Used with permission of the Radiological Society of North America, from MacMahon H, Naidich DP, Goo JM, et al. Guidelines for management of incidental pulmonary nodules detected on CT images: from the Fleischner Society 2017. Radiology. 2017;284:228-43. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/28240562\" target=\"_blank\">PMID: 28240562</a> doi:10.1148/radiol.2017161659; permission conveyed through Copyright Clearance Center, Inc."
-        ],
-        "headers": [
-          "Imaging Findings",
-          "Size",
-          "Recommended Follow-Up"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.171826-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.589950-06:00"
 }

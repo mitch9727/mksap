@@ -1,12 +1,14 @@
 {
   "question_id": "hmvdx24030",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose pulmonary embolism on a CT angiogram.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 40-year-old woman is evaluated for an episode of dyspnea and syncope.CT angiogram is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/hmfig24646.b18acf8db6aae1f0869bd85664fae02e.jpg",
-      "figures/hmfig24647.f2bfd0ec2ae761f1622466fa32308b7b.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "hmfig24646",
-        "file": "figures/hmfig24646.b18acf8db6aae1f0869bd85664fae02e.jpg",
-        "title": "Stem CT Angiogram Showing Findings of Pulmonary Embolism",
-        "short_title": "CT Angiogram in Pulmonary Embolism Stem",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 512,
-        "height": 512
-      },
-      {
-        "figure_id": "hmfig24647",
-        "file": "figures/hmfig24647.f2bfd0ec2ae761f1622466fa32308b7b.jpg",
-        "title": "Critique CT Angiogram Showing Findings of Pulmonary Embolism",
-        "short_title": "CT Angiogram in Pulmonary Embolism Critique",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 688
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.153012-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.747925-06:00"
 }

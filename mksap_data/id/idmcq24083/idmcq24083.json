@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24083",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Prevent <i>Pneumocystis jirovecii</i> pneumonia in persons with HIV.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 23-year-old man is seen for evaluation of newly diagnosed HIV infection. He is asymptomatic.Vital signs are normal, and physical examination findings are unremarkable.Laboratory studies:Creatinine0.7 mg/dL (61.9 µmol/L)CD4 cell count is 49/µL, and HIV viral load is 32,517 copies/mL.Hepatitis A IgG and hepatitis B surface antibody are reactive; hepatitis C antibody is negative. He is immune to varicella-zoster virus, mumps, and rubella, but not measles. A Toxoplasma IgG is negative.",
   "question_stem": "In addition to starting antiretroviral therapy, which of the following is the most appropriate preventive measure?",
@@ -57,27 +59,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.501181-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.260755-06:00"
 }

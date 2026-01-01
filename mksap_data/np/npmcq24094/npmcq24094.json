@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24094",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose drug-induced hypomagnesemia due to tacrolimus.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 32-year-old woman is evaluated during a routine follow-up visit after undergoing living-related donor kidney transplantation 3 months ago. She reports increased muscle cramps since transplantation. Medical history includes end-stage kidney disease, lupus nephritis, hypertension, and gastroesophageal reflux disease. She does not drink alcohol. Medications are losartan, pantoprazole, prednisone, mycophenolate mofetil, and tacrolimus.On physical examination, vital signs are normal. The remainder of the examination is unremarkable.Laboratory studies:Blood urea nitrogen18 mg/dL (6.4 mmol/L)Calcium9.4 mg/dL (2.4 mmol/L)Creatinine1.8 mg/dL (159.1 µmol/L)HElectrolytesSodium138 mEq/L (138 mmol/L)Potassium3.4 mEq/L (3.4 mmol/L)LChloride106 mEq/L (106 mmol/L)Bicarbonate22 mEq/L (22 mmol/L)LGlucose118 mg/dL (6.5 mmol/L)HMagnesium1.2 mg/dL (0.50 mmol/L)LFractional excretion of magnesium10%H",
   "question_stem": "What is the most likely cause of this patient's hypomagnesemia?",
@@ -57,27 +59,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.857347-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.001162-06:00"
 }

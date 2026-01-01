@@ -1,12 +1,14 @@
 {
   "question_id": "rmmcq24034",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Diagnose Behçet syndrome.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 24-year-old man is evaluated for 5 years of episodic joint pain and swelling of the wrists, knees, and ankles, which resolve with NSAIDs. He also reports episodes of eye pain with photosensitivity and blurriness that occur once or twice annually; eye symptoms have improved with glucocorticoid eye drops. He has had two previous episodes of painful irritated skin sites on the penis and scrotum; results of testing for sexually transmitted infections (STIs) have been repeatedly negative. Two days after the most recent testing for STIs, a pustular-appearing skin lesion developed at the site of the blood draw. The patient is currently asymptomatic.On physical examination, vital signs and other findings are normal.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -56,32 +58,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/rmtab24054.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "rmtab24054",
-        "file": "tables/rmtab24054.html",
-        "title": "International Criteria for Behçet Syndrome",
-        "short_title": "International Criteria for Behçet Syndrome",
-        "footnotes": [
-          "<sup>a</sup>Four or more points are needed for the diagnosis of Behçet syndrome."
-        ],
-        "headers": [
-          "Manifestations",
-          "Pointsa"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.672712-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:21.843560-06:00"
 }

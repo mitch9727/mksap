@@ -1,12 +1,14 @@
 {
   "question_id": "hpmcq24026",
   "category": "hp",
+  "category_name": "Hepatology",
   "educational_objective": "Evaluate a patient with metabolic dysfunction–associated steatotic liver disease for advanced fibrosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 49-year-old patient is evaluated for abnormal liver test results. They are asymptomatic. They drink two beers weekly. The patient has no personal or family history of liver disease. They have type 2 diabetes mellitus, dyslipidemia, and hypertension. Medications are semaglutide, atorvastatin, and lisinopril.On physical examination, vital signs are normal. BMI is 29. The abdomen is soft, nontender, and nondistended. The liver edge is palpable 1 cm below the inferior costal margin. There are no stigmata of advanced liver disease.Laboratory studies:INR0.9Platelet count232,000/µL (232 × 109/L)Albumin4.2 g/dL (42 g/L)Alkaline phosphatase90 U/LAlanine aminotransferase72 U/LHAspartate aminotransferase83 U/LHBilirubinTotal0.9 mg/dL (15.3 µmol/L)Direct0.6 mg/dL (10.2 µmol/L)HIron studiesNormalResults of viral hepatitis, autoimmune hepatitis, and Wilson disease testing are negative. A Fibrosis-4 (FIB-4) score is 2.07 (indeterminate).Abdominal ultrasound shows mild hepatomegaly and increased liver echogenicity consistent with fatty infiltration.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.690413-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.120781-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24030",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Diagnose spur cell hemolytic anemia secondary to decompensated cirrhosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 58-year-old man is hospitalized for worsening confusion. He has alcohol use disorder and alcohol-related cirrhosis complicated by hepatic encephalopathy, portal hypertension, and ascites. Medications are thiamine, lactulose, and rifaximin. However, he has been drinking heavily for the past 2 weeks and has not taken his medications.On physical examination, blood pressure is 101/62 mm Hg, and pulse rate is 112/min. Remaining vital signs are normal. He is oriented to self but not time or place. Jaundice is present. The abdomen is distended. The spleen is palpable 6 cm below the left costal margin. Lower extremity edema is present.Laboratory studies:Hematocrit23.9%LHemoglobin7.9 g/dL (79 g/L)LMean corpuscular volume104 fLHLeukocyte count3200/µL (3.2 × 109/L)LPlatelet count41,000/µL (41 × 109/L)LINR1.9 (normal, 0.8-1.1)HProthrombin time21 sHBilirubinTotal12.4 mg/dL (212.1 μmol/L)HDirect4.8 mg/dL (82.1 μmol/L)HCreatinine1.2 g/dL (106 μmol/L)Haptoglobin<10 mg/dL (100 mg/L)LLactate dehydrogenase402 U/LHA direct antiglobulin test is negative.Peripheral blood smear shows frequent (30%) acanthocytes and occasional target cells.",
   "question_stem": "Which of the following is the most likely cause of this patient's anemia?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.912759-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.452997-06:00"
 }

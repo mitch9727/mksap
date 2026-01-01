@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24066",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose normotensive ischemic acute tubular necrosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 72-year-old woman is evaluated in the hospital for acute kidney injury after being admitted for a fall. She reports that she had not taken her medications for 2 weeks while on vacation but restarted them 1 week ago. Two liters of 0.9% saline administered on admission have not improved her serum creatinine level. Medical history is significant for hypertension, hyperlipidemia, and heart failure with reduced ejection fraction. Medications are losartan, carvedilol, spironolactone, hydralazine, isosorbide dinitrate, atorvastatin, and empagliflozin.On physical examination, vital signs are normal. Lungs are clear to auscultation. There is a large ecchymosis on the patient's left upper thigh. There is no lower extremity edema.Laboratory studies:Creatine kinase800 U/LHCreatinine2.8 mg/dL (247.5 µmol/L)H2 months ago0.7 mg/dL (61.9 µmol/L)Urine sodium56 mEq/L (56 mmol/L)Fractional excretion of sodium1.6%Urinalysis with microscopySpecific gravity 1.010; 1+ protein; no blood or leukocyte esterase; few granular casts/lpf; 1-2 renal tubular epithelial cells/hpf",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -51,51 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nptab24028.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nptab24028",
-        "file": "tables/nptab24028.html",
-        "title": "Diagnostic Findings Differentiating Prerenal Acute Kidney Injury from Acute Tubular Necrosis",
-        "short_title": "Prerenal Acute Kidney Injury Versus Acute Tubular Necrosis",
-        "footnotes": [
-          "BUN = blood urea nitrogen; FE<sub>Na</sub> = fractional excretion of sodium; FE<sub>Urea</sub> = fractional excretion of urea.a",
-          "<sup>a</sup>Urine sediment findings are more sensitive and specific than BUN-creatinine ratios.",
-          "<sup>b</sup>FE<sub>Na</sub> = (Urine sodium concentration × Plasma creatinine concentration)/(Urine creatinine concentration × Plasma sodium concentration) × 100.",
-          "<sup>c</sup>FE<sub>Urea</sub> = (Urine urea concentration × Plasma creatinine concentration)/(Urine creatinine concentration × Plasma urea concentration) × 100.",
-          "<sup>d</sup>FE<sub>Na</sub> can be high in prerenal states with diuretic use, adrenal insufficiency, or metabolic alkalosis.",
-          "<sup>e</sup>FE<sub>Na</sub> can be low in acute tubular necrosis due to contrast-associated nephropathy, pigment nephropathy, glomerulonephritis, or early obstruction."
-        ],
-        "headers": [
-          "Condition",
-          "BUN-Creatinine Ratioa",
-          "Urine Osmolality (mOsm/kg H2O)",
-          "Urine Sodium (mEq/L [mmol/L])",
-          "FENab",
-          "FEUreac",
-          "Urinalysis and Microscopya"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.776084-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.909257-06:00"
 }

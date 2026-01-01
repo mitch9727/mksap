@@ -1,12 +1,14 @@
 {
   "question_id": "idmcq24103",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Manage rhino-orbital-cerebral disease caused by mucormycosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 48-year-old man is hospitalized with a 5-day history of persistent febrile neutropenia despite treatment with cefepime. Medical history is notable for refractory acute myeloid leukemia. Other medications are cytarabine, voriconazole, and acyclovir.On physical examination, temperature is 39.3 °C (102.7 °F), blood pressure is 112/65 mm Hg, pulse rate is 115/min, and respiration rate is 18/min. Oxygen saturation is 98% breathing ambient air. Facial pain and swelling are noted over the right maxillary sinus. The remainder of the examination is normal.Laboratory studies:Leukocyte count200/µL (0.2 × 109/L)LAbsolute neutrophil count0/µL (0 × 109/L)LPlatelet count5000/µL (5 × 109/L)LRoutine blood cultures are negative.CT scan of the sinuses demonstrates fullness within the maxillary sinuses with bony erosion of the medial wall of the right maxillary antrum, middle turbinate, and uncinate process. CT scan of the chest demonstrates several 0.5-cm to 1.0-cm lung nodules bilaterally. CT scan of the abdomen and pelvis is unremarkable.Empiric liposomal amphotericin B is initiated.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.561067-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.364089-06:00"
 }

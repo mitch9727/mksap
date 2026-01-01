@@ -1,12 +1,14 @@
 {
   "question_id": "givdx24018",
   "category": "gi",
+  "category_name": "Gastroenterology",
   "educational_objective": "Diagnose autoimmune pancreatitis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 47-year-old man is evaluated for abdominal pain. He has a history of sclerosing sialadenitis.A contrast-enhanced abdominal CT scan is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/gifig24622.a3ddcf7e90db8519714fbb88efa6abc4.jpg",
-      "figures/gifig24623.1bc3cd7eae553353a540bfe6e237e5c6.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "gifig24622",
-        "file": "figures/gifig24622.a3ddcf7e90db8519714fbb88efa6abc4.jpg",
-        "title": "CT Scan Showing Autoimmune Pancreatitis",
-        "short_title": "stem CT Scan Showing Autoimmune Pancreatitis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 400,
-        "height": 400
-      },
-      {
-        "figure_id": "gifig24623",
-        "file": "figures/gifig24623.1bc3cd7eae553353a540bfe6e237e5c6.jpg",
-        "title": "CT Scan Showing Autoimmune Pancreatitis",
-        "short_title": "critique CT Scan Showing Autoimmune Pancreatitis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 386,
-        "height": 319
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.559627-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:53.947085-06:00"
 }

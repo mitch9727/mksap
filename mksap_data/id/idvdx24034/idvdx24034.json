@@ -1,12 +1,14 @@
 {
   "question_id": "idvdx24034",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Diagnose <i>Pneumocystis jirovecii</i> pneumonia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 31-year-old man is evaluated for a 3-week illness consisting of fever, dyspnea, and dry cough. He has risk factors for HIV infection.Frontal chest radiograph is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,41 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/idfig24639.8a619e10a492282a5e28c6db32c4870b.jpg",
-      "figures/idfig24640.73b96ba9c2bf8aee9d97b6bcc69c601d.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "idfig24639",
-        "file": "figures/idfig24639.8a619e10a492282a5e28c6db32c4870b.jpg",
-        "title": null,
-        "short_title": "<i>Pneumocystis jirovecii</i> Pneumonia CXR Stem",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 1028
-      },
-      {
-        "figure_id": "idfig24640",
-        "file": "figures/idfig24640.73b96ba9c2bf8aee9d97b6bcc69c601d.jpg",
-        "title": "Critique Sputum Specimen Stain Showing Pneumocystis Organism",
-        "short_title": "Pneumocystis Organism Sputum Stain Critique",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 603
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.743285-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:55.630904-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "csmcq24040",
   "category": "cs",
+  "category_name": "Common Symptoms",
   "educational_objective": "Evaluate vasovagal syncope.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 32-year-old patient is evaluated during a new patient visit. They report that they have fainted twice in the past 10 years, including 1 week ago. On both occasions, the patient was in a crowded, stuffy room and experienced a sensation of warmth, diaphoresis, and nausea just before passing out. After awakening, they felt generally weak and fatigued for about 30 minutes before these symptoms resolved spontaneously. They had no other sequalae. Witnesses did not note any abnormal movements during the events. The patient describes no cardiovascular symptoms otherwise and regularly walks up two flights of stairs without symptoms. The patient has no family history of syncope or sudden cardiac death. They have hypertension treated with hydrochlorothiazide.Physical examination findings, including orthostatic vital signs, are normal.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -51,34 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/cvtab24010.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "cvtab24010",
-        "file": "tables/cvtab24010.html",
-        "title": "Diagnostic Testing for Suspected or Known Cardiac Arrhythmias",
-        "short_title": "Diagnostic Testing for Cardiac Arrhythmias",
-        "footnotes": [
-          "<sup>a</sup>This technology is commonly used in smartphone cameras and smartwatches."
-        ],
-        "headers": [
-          "Diagnostic Test or Device",
-          "Indications",
-          "Advantages",
-          "Limitations"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.046695-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:53.283506-06:00"
 }

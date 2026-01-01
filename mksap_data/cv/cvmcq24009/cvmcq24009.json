@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq24009",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Evaluate a patient with acute chest pain who is at low risk for acute coronary syndrome.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 54-year-old woman is evaluated in the emergency department 3 hours after a 30-minute episode of chest discomfort. She is currently pain free. She reports a 2-day history of recurrent episodes of chest “fullness” while at rest. Episodes are 7/10 in severity and last 5 to 45 minutes without radiation or other associated symptoms. She also reports discomfort after meals. She has not exerted herself because of concerns of precipitating chest discomfort. She has no other medical problems and takes no medications.Physical examination findings, including vital signs, are normal. BMI is 34.Laboratory studies show a high-sensitivity troponin T level less than the 99th percentile upper reference limit; repeat measurement shows no change at 2 hours.ECG is shown.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -46,6 +48,13 @@
       "target": "_blank",
       "title": null,
       "rel": null
+    },
+    {
+      "href": "https://www.mdcalc.com/calc/1752/heart-score-major-cardiac-events",
+      "text": "https://www.mdcalc.com/calc/1752/heart-score-major-cardiac-events",
+      "target": "_blank",
+      "title": null,
+      "rel": null
     }
   ],
   "key_points": [
@@ -60,29 +69,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24213.2f1740a08695f19b61b537166a1ad774.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24213",
-        "file": "figures/cvfig24213.2f1740a08695f19b61b537166a1ad774.jpg",
-        "title": "ECG Findings in a Patient With Acute Chest Pain",
-        "short_title": "ECG in Patient With Chest Pain",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 475
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.415686-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.356766-06:00"
 }

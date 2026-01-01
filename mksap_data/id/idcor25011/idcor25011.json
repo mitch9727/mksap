@@ -1,12 +1,14 @@
 {
   "question_id": "idcor25011",
   "category": "id",
+  "category_name": "Infectious Disease",
   "educational_objective": "Diagnose <i>Legionella</i> pneumonia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 22-year-old man is evaluated in the emergency department for a 3-day history of nonproductive cough, fever, and diarrhea. He returned 1 week ago from a tournament in Indiana with his college wrestling team. During the trip, the team used an indoor hot tub. Three other team members have developed similar symptoms. Medical history is noncontributory, and he takes no medications.On physical examination, temperature is 38.8 °C (101.8 °F), blood pressure is 115/75 mm Hg, pulse rate is 68/min, and respiration rate is 24/min. Lung examination reveals diffuse crackles. The rest of the examination is unremarkable.Laboratory studies:Sodium128 mEq/L (128 mmol/L)LCOVID-19 and Legionella urinary antigen testing are negative.A chest radiograph is shown.The patient's symptoms improve within 48 hours of initiating empiric therapy with azithromycin.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,41 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/idfig25701.da4b869ed965baf73e5ee8e7928f85f7.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "idfig25701",
-        "file": "figures/idfig25701.da4b869ed965baf73e5ee8e7928f85f7.jpg",
-        "title": null,
-        "short_title": "Chest Radiograph Findings Showing <i>Legionella</i> Pneumonia",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 751
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:29.233335-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.854910-06:00"
 }

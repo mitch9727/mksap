@@ -1,12 +1,14 @@
 {
   "question_id": "nrmcq24052",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Evaluate mild traumatic brain injury.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 20-year-old patient is evaluated in the emergency department for mild global headache and dizziness of 4 hours' duration. The patient is a collegiate soccer player, and the symptoms occurred following a head-to-head collision with loss of consciousness of less than 15 seconds. The patient was immediately removed from play. They have full memory of the surrounding events and have not experienced any vomiting, visual symptoms, or focal neurologic symptoms. Medical history is otherwise unremarkable, and the patient takes no medications.Physical examination findings, including vital signs, are normal.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -52,31 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nrtab24018.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nrtab24018",
-        "file": "tables/nrtab24018.html",
-        "title": "Indications for Head CT in Mild Traumatic Brain Injury",
-        "short_title": "Indications for Head CT in Mild Traumatic Brain Injury",
-        "footnotes": [
-          "Data from Centers for Disease Control and Prevention and American College of Emergency Physicians. Mild TBI pocket guide: guideline for adult patients: a part of CDC's “Heads Up” series. Available at: <a href=\"https://stacks.cdc.gov/view/cdc/130138\" target=\"_blank\">https://stacks.cdc.gov/view/cdc/130138</a>. Accessed January 17, 2025."
-        ],
-        "headers": [
-          "Head CT should be obtained if any of the following are present:"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.255519-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.501280-06:00"
 }

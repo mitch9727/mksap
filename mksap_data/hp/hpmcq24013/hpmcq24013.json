@@ -1,12 +1,14 @@
 {
   "question_id": "hpmcq24013",
   "category": "hp",
+  "category_name": "Hepatology",
   "educational_objective": "Diagnose choledocholithiasis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 47-year-old woman is evaluated in the emergency department for a 2-day history of intermittent severe right-upper-quadrant abdominal pain. The patient reports no nausea, vomiting, or fever. She underwent appendectomy 20 years ago.On physical examination, vital signs are normal. There is tenderness to palpation of the right upper quadrant, without rebound.Laboratory studies:Leukocyte countNormalAlkaline phosphatase275 U/LHAlanine aminotransferase170 U/LHAspartate aminotransferase200 U/LHTotal bilirubin3.2 mg/dL (54.7 μmol/L)HLipaseNormalAbdominal ultrasound shows a normal gallbladder, no gallstones, and a dilated common bile duct.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.653226-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.093874-06:00"
 }

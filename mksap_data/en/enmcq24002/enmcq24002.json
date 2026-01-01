@@ -1,12 +1,14 @@
 {
   "question_id": "enmcq24002",
   "category": "en",
+  "category_name": "Endocrinology and Metabolism",
   "educational_objective": "Manage medication-related hypoglycemia.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 64-year-old man is evaluated for recurrent hypoglycemia that occurs three to four times per week. During these episodes, he feels sweaty and tremulous. A fingerstick blood glucose measurement during one such episode yesterday was 54 mg/dL (3.0 mmol/L). After ingestion of glucose, his blood glucose level and symptoms improve. Medical conditions are type 2 diabetes mellitus, stage G2 chronic kidney disease, hypertension, obesity, and hyperlipidemia. Medications are metformin, semaglutide, glipizide, dapagliflozin, lisinopril, and atorvastatin.On physical examination, vital signs and other findings are unremarkable. BMI is 31.Laboratory studies:Creatinine1.3 mg/dL (115 μmol/L)Hemoglobin A1c6.5%H",
   "question_stem": "Which of the following medications should be discontinued?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:27.068731-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:52.134508-06:00"
 }

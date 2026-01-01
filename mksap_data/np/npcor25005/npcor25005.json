@@ -1,12 +1,14 @@
 {
   "question_id": "npcor25005",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Identify multiple myeloma as a cause of isotonic hyponatremia (pseudohyponatremia).",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 65-year-old man is evaluated for a 7-week history of increasing fatigue, weight loss, and poor appetite. Medical history is otherwise unremarkable. He takes no medications.Physical examination findings, including vital signs, are normal.Laboratory studies:Hematocrit28%LAlbumin3.0 g/dL (30 g/L)LCalcium10.9 mg/dL (2.7 mmol/L)HCreatinine1.2 mg/dL (106.1 µmol/L)Total protein10 g/dL (100 g/L)HElectrolytes:Sodium130 mEq/L (130 mmol/L)LPotassium3.6 mEq/L (3.6 mmol/L)Chloride99 mEq/L (99 mmol/L)Bicarbonate23 mEq/L (23 mmol/L)Serum osmolality290 mOsm/kg H2OUrine osmolality240 mOsm/kg H2OUrine sodium45 mEq/L (45 mmol/L)",
   "question_stem": "Which of the following is the most likely cause of this patient's hyponatremia?",
@@ -57,27 +59,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.565121-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.632220-06:00"
 }

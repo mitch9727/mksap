@@ -1,12 +1,14 @@
 {
   "question_id": "rmmcq24054",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Diagnose inclusion body myositis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 61-year-old man is evaluated for weakness that has progressed during the past 4 years. He also reports dysphagia but no dyspnea on exertion. In the past 6 months, he has fallen twice. He takes no medications.On physical examination, vital signs are normal. Symmetric weakness is noted in the shoulder abductors, elbow flexors, finger flexors, hip flexors, and knee extensors. The quadriceps muscles are atrophied. No synovitis is noted. Skin examination is normal.Laboratory studies:Creatine kinase782 U/LHAldolase10.3 U/L (0.17 µkat/L) (normal range: 1-7.5 U/L [0.02-0.13 µkat/L])HA myositis antibody profile is positive for anti–5′-nucleotidase cytosolic 1A autoantibody.Muscle biopsy findings are pending.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,44 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/rmtab24034.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "rmtab24034",
-        "file": "tables/rmtab24034.html",
-        "title": "Idiopathic Inflammatory Myopathy–Specific Antibodies",
-        "short_title": "IIM-Specific Antibodies",
-        "footnotes": [
-          "DM = dermatomyositis; HMG-CoA = 3-hydroxy 3-methylglutaryl coenzyme A; IBM = inclusion body myositis; IIM = idiopathic inflammatory myopathies; ILD = interstitial lung disease; IMNM = immune-mediated necrotizing myopathy; <i>MDA5</i> = melanoma-differentiation–associated gene 5; NT5c1A = 5′-nucleotidase cytosolic 1A; NXP-2 = nuclear matrix protein 2; SAE = small ubiquitin-like modifier activating enzyme; SRP = signal recognition particle; TIF-1-gamma = transcription intermediary factor 1 gamma."
-        ],
-        "headers": [
-          "Antibody Target",
-          "Type of IIM",
-          "Skin Features",
-          "Muscle Features",
-          "Other Clinical Features"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.735602-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:09:21.904407-06:00"
 }

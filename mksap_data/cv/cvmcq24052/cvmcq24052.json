@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq24052",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Manage a patient with acute symptoms and imaging compatible with penetrating aortic ulcer of the descending thoracic aorta.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 79-year-old patient is evaluated in the emergency department for acute left-sided chest pain radiating to the back. The pain began 2 hours ago and was followed by nausea and presyncope. The patient has hypertension, dyslipidemia, and COPD. Medications are valsartan, simvastatin, and umeclidinium/vilanterol.On physical examination, blood pressure is 140/84 mm Hg in both arms and pulse rate is 88/min and regular. The patient appears uncomfortable and rates their pain as 8 on a 10-point scale. Cardiac and lung examinations are normal.Laboratory results, including troponin levels, are normal.ECG reveals normal sinus rhythm and no ST-T–wave changes. Chest CT shows a penetrating aortic ulcer in the proximal descending thoracic aorta, approximately 8 cm below the left subclavian artery (arrow in the image below).Pain control is achieved with intravenous morphine.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -53,29 +55,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24218.b102db631fb30bd8e46eed9e0ae3cfc1.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24218",
-        "file": "figures/cvfig24218.b102db631fb30bd8e46eed9e0ae3cfc1.jpg",
-        "title": "Chest CT Showing a Penetrating Aortic Ulcer in the Proximal Descending Thoracic Aorta",
-        "short_title": "Chest CT Showing Aortic Ulcer",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 583,
-        "height": 524
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.548135-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.483217-06:00"
 }

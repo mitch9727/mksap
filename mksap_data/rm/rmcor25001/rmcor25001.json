@@ -1,12 +1,14 @@
 {
   "question_id": "rmcor25001",
   "category": "rm",
+  "category_name": "Rheumatology",
   "educational_objective": "Confirm the diagnosis of rheumatoid arthritis with autoantibody testing.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 40-year-old woman is evaluated for a 6-month history of bilateral hand and wrist pain and swelling. She also has morning stiffness of the bilateral hands and wrists lasting for 1 hour each day. She has no other medical problems and takes no medications.On physical examination, vital signs are normal. There is tissue swelling, warmth, and tenderness of the second through fourth metacarpophalangeal joints and wrists bilaterally. Range of motion of these joints is normal but painful.",
   "question_stem": "Measurement of which of the following will be most helpful in establishing the diagnosis?",
@@ -51,40 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/rmtab24015.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "rmtab24015",
-        "file": "tables/rmtab24015.html",
-        "title": "2010 ACR/EULAR Classification Criteria for Rheumatoid Arthritis",
-        "short_title": "Classification Criteria for Rheumatoid Arthritis",
-        "footnotes": [
-          "ACR = American College of Rheumatology; CCP = cyclic citrullinated peptide; CRP = C-reactive protein; ESR = erythrocyte sedimentation rate; EULAR = European League Against Rheumatism (now known as the European Alliance of Associations for Rheumatology); MCP = metacarpophalangeal; MTP = metatarsophalangeal; PIP = proximal interphalangeal; RF = rheumatoid factor.",
-          "<sup>a</sup>Six points needed for classification as rheumatoid arthritis.",
-          "<sup>b</sup>At least one joint with definite clinical synovitis that is not better explained by another disease. Joints excluded from this classification schema: first carpometacarpal, distal interphalangeal, and first metatarsophalangeal.",
-          "<sup>c</sup>A duration of ≥6 weeks is less often seen with crystalline or viral causes.",
-          "From Aletaha D, Neogi T, Silman AJ, et al. 2010 Rheumatoid arthritis classification criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative. Arthritis Rheum. 2010 Sep;62(9):2569-81. doi:10.1002/art.27584. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/20872595\" target=\"_blank\">PMID: 20872595</a> Copyright 2010, American College of Rheumatology. Adapted with permission from John Wiley &amp; Sons, Inc."
-        ],
-        "headers": [
-          "Criteria",
-          "Scorea",
-          "Joint Involvementb",
-          "Serology",
-          "Acute Phase Reactants",
-          "Durationc"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.549616-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:59.057476-06:00"
 }

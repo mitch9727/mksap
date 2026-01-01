@@ -1,12 +1,14 @@
 {
   "question_id": "nrcor25010",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Diagnose mild cognitive impairment.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "An 80-year-old man is evaluated for a 12-month history of increasing forgetfulness. He is a retired physician. Although he reports forgetting names and misplacing objects, his wife notes that his occasional forgetfulness has caused no major problems. He continues to manage the household budget and is active in his book club. He has hypertension, for which he takes losartan. He has no other medical conditions and takes no other medications.On physical examination, vital signs are normal. His PHQ-9 score is 4, and his Montreal Cognitive Assessment score is 25/30, with scores of 1/5 on the delayed recall section and 5/6 on the orientation section. All other physical and neurologic examination findings are normal.Laboratory study results show normal serum vitamin B12, thyroid-stimulating hormone, and 25-hydroxyvitamin D levels.Findings on complete neuropsychological testing indicate normal global cognition, language function, and attention, but verbal learning and memory performance are 2 standard deviations below those of an age- and education-matched control population.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -51,37 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nrtab24036.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nrtab24036",
-        "file": "tables/nrtab24036.html",
-        "title": "Secondary Causes of Cognitive Impairment<sup>a</sup>",
-        "short_title": "Secondary Causes of Cognitive Impairment",
-        "footnotes": [
-          "ANA = antinuclear antibodies; BMP = basic metabolic profile; CBC = complete blood count; CRP = C-reactive protein; CSF = cerebrospinal fluid; EEG = electroencephalography; ESR = erythrocyte sedimentation rate; IV = intravenous; IVIG = intravenous immune globulin; TSH = thyroid-stimulating hormone.",
-          "<sup>a</sup>Treatment can reverse or reduce cognitive impairment.",
-          "<sup>b</sup>See Seizures and Epilepsy in Neurology.",
-          "<sup>c</sup>See Neuro-oncology in Neurology."
-        ],
-        "headers": [
-          "Causes",
-          "Common Differential Diagnoses",
-          "Initial Diagnostic Tests",
-          "Treatment"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.075531-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.292225-06:00"
 }

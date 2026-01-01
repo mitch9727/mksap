@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq24021",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Evaluate chest pain.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 53-year-old woman is evaluated in the emergency department for two episodes of chest pain during the past 2 days that occurred while exercising. She currently has no chest pain or accompanying symptoms. Three years ago, she had a similar episode and underwent treadmill ECG stress testing, but the results were inconclusive because of poor exercise tolerance. She has a history of depression and COPD. Medications are sertraline and tiotropium.Physical examination reveals diffuse expiratory wheezes. All other findings, including vital signs, are normal.Laboratory studies:High-sensitivity troponin<99% of reference limitCreatinine0.8 mg/dL (70.7 µmol/L)Estimated glomerular filtration rate>90 mL/min/1.73 m2 Twelve-lead ECG shows sinus rhythm at 97/min and no ST-segment deviations.",
   "question_stem": "Which of the following is the most appropriate diagnostic test to perform next?",
@@ -52,47 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/cvtab24005.html",
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "cvtab24005",
-        "file": "tables/cvtab24005.html",
-        "title": "Diagnostic Testing for Coronary Artery Disease",
-        "short_title": "Diagnostic Testing for Coronary Artery Disease",
-        "footnotes": [
-          "AV = atrioventricular; CAC = coronary artery calcium; CAD = coronary artery disease; CKD = chronic kidney disease; CMR = cardiac magnetic resonance; FFR = fractional flow reserve; ICD = implantable cardioverter-defibrillator; IFR = instantaneous wave-free ratio; LBBB = left bundle branch block; LVH = left ventricular hypertrophy; SPECT = single-photon emission CT.",
-          "<sup>a</sup>Group I gadolinium-based contrast agents are contraindicated in patients with end-stage kidney disease or an estimated glomerular filtration rate less than 30 mL/min/1.73 m<sup>2</sup>. Group II gadolinium-based contrast agents are not contraindicated in patients with CKD. Data are insufficient to make a recommendation for group III gadolinium-based contrast agents in patients with CKD."
-        ],
-        "headers": [
-          "Diagnostic Test",
-          "Utility",
-          "Advantages",
-          "Limitations",
-          "Exercise Stress Testing",
-          "Pharmacologic Stress Testing",
-          "Anatomic Tests"
-        ]
-      },
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.494942-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.418051-06:00"
 }

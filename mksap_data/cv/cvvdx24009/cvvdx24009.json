@@ -1,12 +1,14 @@
 {
   "question_id": "cvvdx24009",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Diagnose cardiac ischemia based on exercise stress testing.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 66-year-old woman is evaluated for chest pain. Exercise stress testing is performed.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24609.388e0dc9cff824ecba493c2844b0e0e9.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24609",
-        "file": "figures/cvfig24609.388e0dc9cff824ecba493c2844b0e0e9.jpg",
-        "title": "Rest ECG and Post-Exercise ECG in Patient with CAD",
-        "short_title": "stem Rest ECG and Post-Exercise ECG in Patient with CAD",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 779
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.847209-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.842198-06:00"
 }

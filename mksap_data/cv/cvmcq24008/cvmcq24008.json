@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq24008",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Treat a patient with acute myocardial infarction with failed reperfusion following thrombolytic therapy.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 56-year-old woman is evaluated in the emergency department with a 4-hour history of severe substernal chest pain. She smokes cigarettes but has no other medical problems and takes no medications. ECG in the emergency department is shown.The nearest facility equipped for percutaneous coronary intervention is 180 minutes away. Aspirin, clopidogrel loading, intravenous unfractionated heparin, and tenecteplase are administered within 21 minutes of arrival. After thrombolytic administration, her chest pain improves within 35 minutes but then worsens again at 90 minutes.On physical examination, blood pressure is 137/82 mm Hg, pulse rate is 58/min, and respiration rate is 18/min. The remainder of the examination is normal.Laboratory studies:High-sensitivity troponin T85 ng/L (85 µg/L; >99th percentile upper reference limit)HRepeat ECG 90 minutes after thrombolytic therapy is shown.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -52,53 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/cvfig24211.245071a0fa7f3971251ba04aa5726c37.jpg",
-      "figures/cvfig24212.6a7e17b546dd490ec888badebdebd3f3.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24211",
-        "file": "figures/cvfig24211.245071a0fa7f3971251ba04aa5726c37.jpg",
-        "title": "ECG in a Woman With Severe Substernal Chest Pain",
-        "short_title": "ECG in Woman With Chest Pain",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 354
-      },
-      {
-        "figure_id": "cvfig24212",
-        "file": "figures/cvfig24212.6a7e17b546dd490ec888badebdebd3f3.jpg",
-        "title": "ECG 90 Minutes After Thrombolytic Therapy",
-        "short_title": "ECG Post Thrombolysis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 352
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.419248-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.344100-06:00"
 }

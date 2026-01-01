@@ -1,12 +1,14 @@
 {
   "question_id": "pmmcq24042",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Diagnose tracheal stenosis using spirometry.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 32-year-old patient is evaluated for shortness of breath. Ten days ago, they were discharged after an extended hospitalization following a motorcycle collision 2 months ago. Injuries included a subarachnoid hemorrhage, multiple fractured ribs, and a fractured femur. During the hospitalization, the patient underwent tracheostomy and prolonged mechanical ventilation. They improved during the hospital stay and have been off mechanical ventilation for 4 weeks. Since discharge, they have noted shortness of breath with exertion as they have increased their level of activity. They have no chest pain or wheezing. Other notable medical history consists of childhood asthma that has been quiescent for more than a decade. They take no medications.On physical examination, vital signs are normal. The tracheostomy scar is healed.Pulmonary function tests:FEV182% of predicted FEV1/FVC ratio80% of predictedFlow-volume loop is shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -51,53 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/pmfig24208.dd26858f6391511067f229d911cac144.svg",
-      "figures/pmfig24209.dd8d163c3bcafe32223a9be2255ba275.svg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "pmfig24208",
-        "file": "figures/pmfig24208.dd26858f6391511067f229d911cac144.svg",
-        "title": "Flow-Volume Loop",
-        "short_title": "stem Flow-Volume Loop",
-        "number": null,
-        "footnotes": [],
-        "extension": "svg",
-        "width": 769,
-        "height": 760
-      },
-      {
-        "figure_id": "pmfig24209",
-        "file": "figures/pmfig24209.dd8d163c3bcafe32223a9be2255ba275.svg",
-        "title": "Labeled Flow-Volume Loop",
-        "short_title": "critique Labeled Flow-Volume Loop",
-        "number": null,
-        "footnotes": [],
-        "extension": "svg",
-        "width": 769,
-        "height": 760
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Pulmonary function tests:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.123841-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.523814-06:00"
 }

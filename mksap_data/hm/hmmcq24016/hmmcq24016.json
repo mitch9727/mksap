@@ -1,12 +1,14 @@
 {
   "question_id": "hmmcq24016",
   "category": "hm",
+  "category_name": "Hematology",
   "educational_objective": "Manage an acute pain event in a patient with sickle cell disease.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 28-year-old woman is hospitalized with a 2-day history of acute pain affecting her legs, low back, and shoulders. Medical history is significant for hemoglobin SS sickle cell disease with frequent vaso-occlusive pain events requiring hospitalization at least twice annually. She reports that her current pain is consistent with previous pain events. She has no other medical problems. Medications are hydroxyurea and folic acid.On physical examination, the patient appears uncomfortable. Temperature is 37.8 °C (100 °F), blood pressure is 108/68 mm Hg, pulse rate is 107/min, and respiration rate is 18/min. Oxygen saturation is 98% breathing ambient air. The remainder of the examination is normal.Laboratory studies:Hemoglobin8.0 g/dL (80 g/L)LBaseline8.5 g/dL (85 g/L)LLeukocyte count11,000/µL (11 × 109/L)HPlatelet count410,000/µL (410 × 109/L)Reticulocyte count8% of erythrocytesHBilirubinTotal1.8 mg/dL (30.8 µmol/L)HDirect0.3 mg/dL (5.1 µmol/L)Creatinine0.9 mg/dL (79.6 µmol/L)Lactate dehydrogenase250 U/LHA chest radiograph is clear.",
   "question_stem": "In addition to pain control, which of the following is the most appropriate management?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.880118-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.404561-06:00"
 }

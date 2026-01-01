@@ -1,12 +1,14 @@
 {
   "question_id": "npcor25015",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Evaluate chronic kidney disease.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 56-year-old man is evaluated during a new-patient visit. He has a 20-year history of type 2 diabetes mellitus and a 10-year history of hypertension. He also has obesity and hypercholesterolemia. Medications are amlodipine, lisinopril-hydrochlorothiazide, atorvastatin, canagliflozin, and semaglutide. His last visit to his previous physician was 6 months ago.On physical examination, blood pressure is 148/82 mm Hg and pulse rate is 62/min. Other vital signs are normal. BMI is 38. The remainder of the examination is normal.Laboratory studies:Albumin3.5 g/dL (35 g/L)ElectrolytesNormalCreatinine1.6 mg/dL (141.4 µmol/L)H6 months ago1.4 mg/dL (123.8 µmol/L)HEstimated glomerular filtration rate50 mL/min/1.73 m2 6 months ago59 mL/min/1.73 m2 Results of kidney ultrasonography and referral to an ophthalmologist for a dilated retinal examination are pending.",
   "question_stem": "Which of the following is the most appropriate next test to assess the prognosis of this patient's chronic kidney disease?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.553442-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.625487-06:00"
 }

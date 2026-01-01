@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq24092",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Treat a patient with progressing heart failure symptoms with cardiac resynchronization therapy.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 48-year-old man is evaluated for 3 weeks of worsening exertional dyspnea and peripheral edema. He has a 10-year history of heart failure due to presumed viral myocarditis. An implantable cardioverter-defibrillator was placed 8 years ago. During the past year, he has been hospitalized twice because of volume overload. Medications are valsartan-sacubitril, carvedilol, dapagliflozin, spironolactone, and high-dose torsemide.On physical examination, blood pressure is 116/74 mm Hg and pulse rate is 78/min. Oxygen saturation is 95% breathing ambient air. Jugular venous distention is noted. Lung examination reveals scant bibasilar rales. There is trace peripheral edema.Laboratory studies:Creatinine1.7 mg/dL (150.3 µmol/L)HECG is shown.Chest radiograph shows cardiomegaly and vascular congestion with perihilar edema. Echocardiogram reveals a dilated left ventricle and an ejection fraction of 28% with septal hypokinesis.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -51,41 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
-    "images": [
-      "figures/cvfig24223.0b13f39161662709eb8593df63d79d77.jpg"
-    ],
+    "tables": [],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24223",
-        "file": "figures/cvfig24223.0b13f39161662709eb8593df63d79d77.jpg",
-        "title": "ECG in Patient With Heart Failure With Reduced Ejection Fraction and Left Bundle Branch Block",
-        "short_title": "ECG in Patient With HFrEF and LBBB",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 576,
-        "height": 153
-      }
-    ],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.652623-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.621496-06:00"
 }

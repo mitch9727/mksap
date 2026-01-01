@@ -1,12 +1,14 @@
 {
   "question_id": "nrcor25031",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Treat acute hypertension in intracerebral hemorrhage.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 65-year-old man is evaluated in the emergency department for acute right-sided weakness that began 30 minutes ago. He has type 2 diabetes mellitus, hypertension, and peripheral artery disease. Medications are metformin, dapagliflozin, lisinopril, and clopidogrel.On physical examination, blood pressure is 205/100 mm Hg; other vital signs are normal. Neurologic examination demonstrates right lower facial weakness, slurred speech, and paralysis of the right arm and leg.Laboratory studies:Platelet count180,000/µL (180 × 109/L)INR1.2CT scan reveals a 1-cm intracerebral hemorrhage in the left pons, without intraventricular extension.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -57,27 +59,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.118542-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.347371-06:00"
 }

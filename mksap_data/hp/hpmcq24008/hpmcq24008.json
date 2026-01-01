@@ -1,12 +1,14 @@
 {
   "question_id": "hpmcq24008",
   "category": "hp",
+  "category_name": "Hepatology",
   "educational_objective": "Manage acute, symptomatic portal vein thrombosis in the setting of cirrhosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 62-year-old woman is evaluated in the emergency department for abdominal pain that began 2 days ago. She reports no fever, weight loss, or change in bowel habits. She has alcoholic cirrhosis complicated by nonbleeding esophageal varices. Upper endoscopy performed 3 months ago showed large esophageal varices. Her only medication is carvedilol.On physical examination, blood pressure is 130/85 mm Hg and pulse rate is 90/min. The upper abdomen is mildly tender without guarding.Laboratory studies:Hemoglobin13 g/dL (130 g/L)Platelet count98,000/µL (98 × 109/L)LINR1.6Albumin3.5 g/dL (35 g/L)α-Fetoprotein3.0 ng/mL (3.0 μg/L)Total bilirubin1.2 mg/dL (20.5 µmol/L)CT scan of the abdomen obtained with multiphase imaging shows cirrhosis of the liver and complete occlusion of the main portal vein. Thrombus extending into the right and left portal veins appears new compared to a CT scan from 6 months ago. Enhancement in the thrombus is absent. The scan also shows mild splenomegaly and no ascites.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:28.649364-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:54.047680-06:00"
 }

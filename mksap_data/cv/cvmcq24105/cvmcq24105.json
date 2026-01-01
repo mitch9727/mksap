@@ -1,12 +1,14 @@
 {
   "question_id": "cvmcq24105",
   "category": "cv",
+  "category_name": "Cardiovascular Medicine",
   "educational_objective": "Manage Wolff-Parkinson-White syndrome.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 20-year-old patient is evaluated during a routine physical examination for sports participation. They had one episode of syncope 2 years ago, passing out while recovering from a strenuous workout. There were no prodromal symptoms, and the patient awoke promptly. They did not seek medical attention at the time. They have no other medical history.Physical examination findings, including vital signs, are normal.ECG is shown.",
   "question_stem": "Which of the following is the most appropriate next step in management?",
@@ -53,41 +55,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/cvfig24224.5650822d8c21571dc5c3ec8cd2e95c3e.jpg",
-      "figures/cvfig24232.d67823c192c5513964d487b113aff67e.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "cvfig24224",
-        "file": "figures/cvfig24224.5650822d8c21571dc5c3ec8cd2e95c3e.jpg",
-        "title": "ECG in a Patient With Wolff-Parkinson-White Syndrome",
-        "short_title": "stem ECG in a Patient With WPW Syndrome",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 509
-      },
-      {
-        "figure_id": "cvfig24232",
-        "file": "figures/cvfig24232.d67823c192c5513964d487b113aff67e.jpg",
-        "title": "ECG in a Patient With Wolff-Parkinson-White Syndrome (circle)",
-        "short_title": "critique ECG in a Patient With WPW Syndrome (circle)",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 509
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:26.692638-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:51.640811-06:00"
 }

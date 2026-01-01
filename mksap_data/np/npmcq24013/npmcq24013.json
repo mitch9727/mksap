@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24013",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Treat hypertension in a patient with chronic kidney disease with an ACE inhibitor.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 55-year-old man is evaluated during a follow-up visit for hypertension. Lisinopril, 10 mg once daily, was initiated 2 weeks ago. He also has newly diagnosed stage G3a chronic kidney disease secondary to IgA nephropathy. He takes no other medications.On physical examination, blood pressure is 138/72 mm Hg. Other vital signs and the remainder of the examination are normal.Laboratory studies:Today2 weeks agoCreatinine1.8 mg/dL (159.1 µmol/L)H1.5 mg/dL (132.6 µmol/L)HPotassium4.9 mEq/L (4.9 mmol/L)4.5 mEq/L (4.5 mmol/L)",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -51,27 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.640068-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.737827-06:00"
 }

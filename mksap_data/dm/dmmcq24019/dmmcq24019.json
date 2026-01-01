@@ -1,12 +1,14 @@
 {
   "question_id": "dmmcq24019",
   "category": "dm",
+  "category_name": "Dermatology",
   "educational_objective": "Diagnose a dysplastic nevus.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 55-year-old man is evaluated for a dark spot on his back. His wife noticed that it was darker than the other spots on his back and became concerned. They are unsure how long it has been present or if it has changed in appearance or size. He has no medical problems and takes no medications.On physical examination, vital signs are normal.Skin findings are shown.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -53,29 +55,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/dmfig24219.b1698e3619f470f71aeba8e7e47803a2.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "dmfig24219",
-        "file": "figures/dmfig24219.b1698e3619f470f71aeba8e7e47803a2.jpg",
-        "title": "Dysplastic nevus",
-        "short_title": "stem Dysplastic nevus",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 900,
-        "height": 759
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.248512-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.280432-06:00"
 }

@@ -1,12 +1,14 @@
 {
   "question_id": "ccmcq24016",
   "category": "cc",
+  "category_name": "Critical Care Medicine",
   "educational_objective": "Treat a patient with refractory septic shock.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 49-year-old woman is evaluated in the ICU with septic shock due to suspected pyelonephritis. She was treated with piperacillin-tazobactam upon arrival and received a 30-mL/kg bolus of lactated Ringer solution followed by several more fluid boluses. She remained hypotensive and began receiving norepinephrine and vasopressin 4 hours ago. She has no other medical problems.On physical examination, temperature is 37.1 °C (98.8 °F), blood pressure is 86/48 mm Hg, mean arterial pressure is 61 mm Hg, pulse rate is 106/min, and respiration rate is 22/min. A passive leg raise test shows a lack of fluid responsiveness.Laboratory studies:Leukocyte count15,000/µL (15 × 109/L)HCreatinine2.6 mg/dL (230 µmol/L)HGlucose160 mg/dL (8.9 mmol/L)HLactate4.1 mEq/L (4.1 mmol/L)H",
   "question_stem": "Which of the following is the most appropriate next step in treatment?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.402883-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.890100-06:00"
 }

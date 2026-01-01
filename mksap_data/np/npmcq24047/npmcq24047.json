@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24047",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Diagnose myeloma cast nephropathy.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 55-year-old patient is evaluated in the hospital for acute kidney injury after presenting with progressive fatigue and rib pain. They have no other medical problems and take no medications.Physical examination findings, including vital signs, are normal.Laboratory studies:Hemoglobin8.1 g/dL (81 g/L)LAlbumin4.0 g/dL (40 g/L)Calcium11 mg/dL (2.8 mmol/L)HCreatinine4.0 mg/dL (354 µmol/L)H3 weeks ago1.0 mg/dL (88.4 µmol/L)Urine protein-creatinine ratio7000 mg/gHUrinalysis1+ glucose; 1+ protein; no erythrocytes or leukocytesA chest radiograph shows multiple bilateral lytic rib lesions.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -52,27 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.723604-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.844683-06:00"
 }

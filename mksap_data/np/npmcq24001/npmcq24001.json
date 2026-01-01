@@ -1,12 +1,14 @@
 {
   "question_id": "npmcq24001",
   "category": "np",
+  "category_name": "Nephrology",
   "educational_objective": "Manage elevated blood pressure.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 45-year-old patient is evaluated for hypertension. Two months ago, their blood pressure measurement in the office was 128/78 mm Hg. They subsequently underwent 24-hour ambulatory blood pressure monitoring, which demonstrated a mean blood pressure of 124/74 mm Hg. Personal and family histories are unremarkable. They take no medications.On physical examination, blood pressure is 129/79 mm Hg. Other vital signs and the remainder of the examination are normal.Laboratory studies show normal serum creatinine and electrolyte levels.",
   "question_stem": "Which of the following is the most appropriate management?",
@@ -51,34 +53,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/nptab24021.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "nptab24021",
-        "file": "tables/nptab24021.html",
-        "title": "Efficacy of Lifestyle Modifications for Reducing Blood Pressure",
-        "short_title": "Efficacy of Lifestyle Modifications for Reducing Blood Pressure",
-        "footnotes": [
-          "DASH = Dietary Approaches to Stop Hypertension.",
-          "<sup>a</sup>Slow breathing exercises, which can be initiated by means of specific devices."
-        ],
-        "headers": [
-          "Approach",
-          "Recommendation",
-          "Effect on Systolic Blood Pressure"
-        ]
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:30.603170-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:56.687862-06:00"
 }

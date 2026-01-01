@@ -1,12 +1,14 @@
 {
   "question_id": "pmmcq24056",
   "category": "pm",
+  "category_name": "Pulmonary Medicine",
   "educational_objective": "Refer a patient with severe COPD for lung volume reduction surgery.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 63-year-old patient is evaluated after hospitalization for a COPD exacerbation, which was their second exacerbation within the past year. The patient completed pulmonary rehabilitation and experienced some improvement but continues to have dyspnea with minimal exertion. They have no other medical problems. Medications are inhaled budesonide-glycopyrrolate-formoterol and low-dose daily azithromycin.On physical examination, vital signs are normal. Oxygen saturation is 92% with the patient breathing ambient air at rest. Dyspnea increases when the patient moves from the chair to the examination table. Lung examination reveals scattered expiratory wheezing and a prolonged expiratory phase.Laboratory studies:Arterial blood gases:pH7.36LPco245 mm Hg (6.0 kPa)Po267 mm Hg (8.9 kPa)LBicarbonate26 mEq/L (26 mmol/L)α1-Antitrypsin levelNormal (PI*MM genotype)Pulmonary function tests:FEV132% of predictedL FEV1/FVC ratio0.55LDlco LowLTotal lung capacity130% of predictedCT scan of the chest shows emphysematous changes predominantly in the upper lobes.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -52,36 +54,11 @@
     "learning_plan_topic": ""
   },
   "media": {
-    "tables": [
-      "tables/inline_table_1.html",
-      "tables/inline_table_2.html"
-    ],
+    "tables": [],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [],
-    "tables": [
-      {
-        "table_id": "inline_table_1",
-        "file": "tables/inline_table_1.html",
-        "title": "Laboratory studies:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      },
-      {
-        "table_id": "inline_table_2",
-        "file": "tables/inline_table_2.html",
-        "title": "Pulmonary function tests:",
-        "short_title": null,
-        "footnotes": [],
-        "headers": []
-      }
-    ],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:32.165244-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:58.583963-06:00"
 }

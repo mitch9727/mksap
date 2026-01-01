@@ -1,12 +1,14 @@
 {
   "question_id": "nrvdx24001",
   "category": "nr",
+  "category_name": "Neurology",
   "educational_objective": "Diagnose multiple sclerosis.",
   "metadata": {
     "care_types": [],
     "patient_types": [],
     "high_value_care": false,
-    "question_updated": "12/27/2025"
+    "hospitalist": false,
+    "question_updated": "12/31/2025"
   },
   "question_text": "A 33-year-old woman is evaluated for double vision. Examination shows disconjugate eye movements and nystagmus. Brain MRI is performed.",
   "question_stem": "Which of the following is the most likely diagnosis?",
@@ -50,29 +52,10 @@
   },
   "media": {
     "tables": [],
-    "images": [
-      "figures/nrfig24600.2af73747c304c961371cd2032a962f04.jpg"
-    ],
+    "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": {
-    "figures": [
-      {
-        "figure_id": "nrfig24600",
-        "file": "figures/nrfig24600.2af73747c304c961371cd2032a962f04.jpg",
-        "title": "MRI Showing Plaques of Multiple Sclerosis",
-        "short_title": "stem MRI Showing Plaques of Multiple Sclerosis",
-        "number": null,
-        "footnotes": [],
-        "extension": "jpg",
-        "width": 292,
-        "height": 354
-      }
-    ],
-    "tables": [],
-    "videos": [],
-    "svgs": []
-  },
-  "extracted_at": "2025-12-27T00:29:31.460533-06:00"
+  "media_metadata": null,
+  "extracted_at": "2025-12-31T17:07:57.699647-06:00"
 }

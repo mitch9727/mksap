@@ -1,0 +1,78 @@
+{
+  "question_id": "cvmcq25001",
+  "category": "cv",
+  "educational_objective": "Treat cardiogenic shock.",
+  "metadata": {
+    "care_types": [],
+    "patient_types": [],
+    "high_value_care": false,
+    "question_updated": "12/27/2025"
+  },
+  "question_text": "A 67-year-old woman is hospitalized with worsening dyspnea. Over the past 2 months, she has had progressive dyspnea that is now present at rest. One year ago, she was diagnosed with anthracycline-induced cardiomyopathy after undergoing breast cancer treatment. Coronary angiography at that time was normal. Medications are losartan, carvedilol, spironolactone, empagliflozin, and furosemide.On physical examination, blood pressure is 98/64 mm Hg, pulse rate is 114/min, and respiration rate is 22/min. Oxygen saturation is 82% with the patient breathing ambient air and 94% breathing oxygen at 6 L/min by nasal cannula. Jugular venous distention to the earlobe is noted. Cardiac examination reveals an S3. Bilateral lower extremity edema is noted past the knees. The hands and feet are cool.Laboratory studies:CreatinineBaseline1.4 mg/dL (123.8 µmol/L)HCurrent2.3 mg/dL (203.3 µmol/L)HLactate4.5 mEq/L (4.5 mmol/L)HTroponin0 ng/mL (0 μg/L)ECG is unchanged, with sinus tachycardia and left bundle branch block. Chest radiograph shows bilateral pleural effusions, cephalization, and an enlarged heart. Echocardiogram reveals an ejection fraction of 15% with global hypokinesis; previous ejection fraction was 40%.Dobutamine is initiated, with no clinical improvement.",
+  "question_stem": "Which of the following is the most appropriate next step in management?",
+  "options": [
+    {
+      "letter": "A",
+      "text": "Biventricular pacemaker-defibrillator",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "B",
+      "text": "Coronary angiography",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "C",
+      "text": "Percutaneous mechanical support",
+      "peer_percentage": 0
+    },
+    {
+      "letter": "D",
+      "text": "Pulmonary artery pressure sensor",
+      "peer_percentage": 0
+    }
+  ],
+  "user_performance": {
+    "user_answer": null,
+    "correct_answer": "C",
+    "result": null,
+    "time_taken": null
+  },
+  "critique": "The most appropriate management for this patient with cardiogenic shock is to provide percutaneous mechanical support (Option C). Cardiogenic shock is characterized by signs and symptoms of volume overload with low cardiac output and hypotension (systolic blood pressure <90 mm Hg or mean arterial blood pressure <60 mm Hg) and evidence of end-organ hypoperfusion such as decreased mentation, cool extremities, low urine output, and lactate levels above 2.0 mEq/L (2.0 mmol/L). Treatment focuses on remedying reversible causes of shock (especially ischemia with revascularization) and supporting blood pressure and cardiac output with inotropic and vasopressor agents. Percutaneous mechanical support, including intra-aortic balloon pumps, percutaneous ventricular assist devices, and extracorporeal membrane oxygenators, is an additional option in severe shock. This patient has severe cardiogenic shock with evidence of ongoing hypoperfusion despite dobutamine. Mechanical support such as with a percutaneous microvascular intra-aortic flow pump is a reasonable next step along with consideration of transfer to a hospital with an advanced shock team.Placing a biventricular pacemaker-defibrillator (Option A) is not the most appropriate management. This patient has a low ejection fraction and left bundle branch block, meeting criteria for placement of an implantable cardioverter-defibrillator with biventricular pacemaker to reduce mortality. However, the use of biventricular pacemakers in persons in cardiogenic shock has not been studied and would not be warranted at this time.Coronary angiography (Option B) is not indicated. Although revascularization is a key therapy in patients with cardiogenic shock due to coronary artery disease, this patient had normal coronary arteries 1 year ago and the likelihood of the subsequent development of significant coronary disease is low.Placement of a pulmonary artery pressure sensor (Option D) is not the most appropriate management for this patient. Use of these sensors in the outpatient setting to direct therapy in patients with symptomatic heart failure may reduce hospitalizations, but they have no known role in the acute management of cardiogenic shock.",
+  "critique_links": [],
+  "key_points": [
+    "Treatment of cardiogenic shock focuses on remedying reversible causes of shock (especially ischemia with revascularization) and supporting blood pressure and cardiac output with inotropic and vasopressor agents.",
+    "Percutaneous mechanical support is an option in severe cardiogenic shock unresponsive to vasopressors and inotrope therapy."
+  ],
+  "references": "Sinha SS, Morrow DA, Kapur NK, et al. 2025 concise clinical guidance: an ACC expert consensus statement on the evaluation and management of cardiogenic shock: a report of the American College of Cardiology Solution Set Oversight Committee. J Am Coll Cardiol. 2025;85:1618-1641. PMID: 40100174 doi:10.1016/j.jacc.2025.02.018",
+  "related_content": {
+    "syllabus": [
+      "cvsec24005_24035"
+    ],
+    "learning_plan_topic": ""
+  },
+  "media": {
+    "tables": [
+      "tables/inline_table_1.html"
+    ],
+    "images": [],
+    "svgs": [],
+    "videos": []
+  },
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": "Laboratory studies:",
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2025-12-27T00:29:26.760453-06:00"
+}

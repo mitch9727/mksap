@@ -28,9 +28,9 @@
 
 - Inline table metadata backfill helpers were removed during consolidation;
   reintroduce only if we need a dedicated backfill pass.
-- `RelatedContent` list field remains in the output schema even though related
-  content extraction is out of scope. Decide
-  whether to rename or remove this field to reduce confusion.
+- `RelatedContent` remains in the output schema with only `syllabus`; the API
+  does not provide learning plan topics. Decide whether to keep or remove
+  `related_content` entirely to reduce confusion.
 
 ## Duplication And Consolidation Candidates
 

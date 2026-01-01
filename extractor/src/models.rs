@@ -71,7 +71,6 @@ pub struct UserPerformance {
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct RelatedContent {
     pub syllabus: Vec<String>,
-    pub learning_plan_topic: String,
 }
 
 #[derive(Debug, Clone, Default, Serialize, Deserialize)]
@@ -215,7 +214,6 @@ impl ApiQuestionResponse {
             references: references_text,
             related_content: RelatedContent {
                 syllabus: vec![self.related_section],
-                learning_plan_topic: String::new(),
             },
             media: MediaFiles::default(),
             media_metadata: None,

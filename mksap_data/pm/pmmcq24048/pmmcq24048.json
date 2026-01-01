@@ -8,7 +8,7 @@
     "patient_types": [],
     "high_value_care": false,
     "hospitalist": false,
-    "question_updated": "12/31/2025"
+    "question_updated": "01/01/2026"
   },
   "question_text": "A 43-year-old woman is evaluated for severe persistent asthma. She was hospitalized three times during the past year for asthma exacerbations, most recently 2 weeks ago. She adheres to maintenance therapy, has proper inhaler technique, and avoids triggers. Medical history is otherwise significant for obstructive sleep apnea and depression. Medications are high-dose inhaled budesonide-formoterol, tiotropium, montelukast, prednisone, and citalopram.On physical examination, vital signs and other findings are normal.Laboratory studies:Absolute eosinophil count110/μL (0.11 × 109/L)IgE18 U/mL (18 kU/L)Fractional exhaled nitric oxide level is 12 ppb (normal, <25 ppb). Results of allergy testing are negative.",
   "question_stem": "Which of the following is the most appropriate treatment?",
@@ -60,109 +60,5 @@
     "videos": []
   },
   "media_metadata": null,
-  "extracted_at": "2025-12-31T17:07:58.537310-06:00",
-  "true_statements": {
-    "from_critique": [
-      {
-        "statement": "Tezepelumab is indicated for severe, difficult-to-control asthma.",
-        "extra_field": "Tezepelumab improves asthma control and reduces exacerbations independent of phenotype, making it suitable when other biologic therapies are limited by biomarker criteria",
-        "cloze_candidates": [
-          "Tezepelumab",
-          "severe",
-          "asthma"
-        ]
-      },
-      {
-        "statement": "Tezepelumab is a humanized monoclonal antibody that blocks thymic stromal lymphopoietin.",
-        "extra_field": null,
-        "cloze_candidates": [
-          "Tezepelumab",
-          "humanized monoclonal antibody",
-          "thymic stromal lymphopoietin"
-        ]
-      },
-      {
-        "statement": "Unlike other biologic asthma treatments, tezepelumab use is not limited to a specific asthma phenotype.",
-        "extra_field": null,
-        "cloze_candidates": [
-          "tezepelumab",
-          "asthma phenotype"
-        ]
-      },
-      {
-        "statement": "Dupilumab has shown greatest efficacy in asthma patients with absolute eosinophil count > 150/μL and elevated fractional exhaled nitric oxide.",
-        "extra_field": null,
-        "cloze_candidates": [
-          "Dupilumab",
-          "150/μL",
-          "fractional exhaled nitric oxide",
-          "eosinophil count"
-        ]
-      },
-      {
-        "statement": "Omalizumab is indicated for severe asthma inadequately controlled with standard therapy in patients with elevated IgE levels and sensitivity to multiple allergens.",
-        "extra_field": null,
-        "cloze_candidates": [
-          "Omalizumab",
-          "severe asthma",
-          "elevated IgE levels",
-          "multiple allergens"
-        ]
-      },
-      {
-        "statement": "Azithromycin can decrease exacerbation frequency in selected patients with COPD and bronchiectasis.",
-        "extra_field": "Azithromycin has both anti-inflammatory and antimicrobial effects, but does not have a role in long-term asthma treatment",
-        "cloze_candidates": [
-          "Azithromycin",
-          "COPD",
-          "bronchiectasis",
-          "exacerbation frequency"
-        ]
-      },
-      {
-        "statement": "Severe asthma is characterized by frequent exacerbations that may require emergency department visits or hospitalizations.",
-        "extra_field": null,
-        "cloze_candidates": [
-          "severe",
-          "asthma",
-          "frequent exacerbations",
-          "emergency department visits",
-          "hospitalizations"
-        ]
-      }
-    ],
-    "from_key_points": [
-      {
-        "statement": "Patients with severe asthma that remains difficult to control despite optimal therapy should be considered for biologic therapy with agents that block the effects of IgE and interleukins.",
-        "extra_field": null,
-        "cloze_candidates": [
-          "severe asthma",
-          "biologic therapy",
-          "IgE",
-          "interleukins"
-        ]
-      },
-      {
-        "statement": "When biologic therapy is indicated in asthma, the asthma phenotype should guide selection of therapy.",
-        "extra_field": null,
-        "cloze_candidates": [
-          "biologic therapy",
-          "asthma phenotype"
-        ]
-      },
-      {
-        "statement": "Tezepelumab is a biologic therapy whose use is not limited to a specific asthma phenotype.",
-        "extra_field": null,
-        "cloze_candidates": [
-          "Tezepelumab",
-          "asthma phenotype"
-        ]
-      }
-    ]
-  },
-  "table_statements": {
-    "statements": [],
-    "tables_processed": 0,
-    "tables_skipped": 0
-  }
+  "extracted_at": "2026-01-01T17:54:36.117044-06:00"
 }

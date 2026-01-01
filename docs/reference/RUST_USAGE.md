@@ -110,8 +110,7 @@ By default, the extractor writes to `../mksap_data` relative to `extractor/`, so
   ],
   "references": "Sinha SS, et al. [PMID: 40100174]",
   "related_content": {
-    "syllabus": ["cv-section-id"],
-    "learning_plan_topic": ""
+    "syllabus": ["cv-section-id"]
   },
   "media": {
     "tables": [],
@@ -124,6 +123,8 @@ By default, the extractor writes to `../mksap_data` relative to `extractor/`, so
 ```
 
 All metadata lives in the JSON file; there is no separate `_metadata.txt` file.
+`related_content` currently includes only `syllabus` because the API does not
+provide learning plan topics.
 
 #### Media Files (Integrated)
 The extractor initializes empty `media` arrays. Media commands populate figures/tables/SVGs; videos are manual downloads:

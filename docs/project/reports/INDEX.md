@@ -73,7 +73,7 @@ Progress: **87.3% complete** (1,802+ of 2,065 target questions)
 ## 🔗 Related Documentation
 
 - **[Project README](../README.md)** - Current project status and overview
-- **[PHASE_1_PLAN.md](../PHASE_1_PLAN.md)** - Complete Phase 1 roadmap
+- **[PHASE_1_PLAN.md](../archive/phase-1/PHASE_1_PLAN.md)** - Complete Phase 1 roadmap
 - **[CHANGELOG.md](../CHANGELOG.md)** - Documentation change history
 
 ---

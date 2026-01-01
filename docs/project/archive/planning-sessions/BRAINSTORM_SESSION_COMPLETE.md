@@ -40,7 +40,7 @@ You now have a **complete, actionable 4-phase project plan** for converting MKSA
 **Tasks breakdown:**
 1. Finalize question count (2,198 across 16 systems, 6 types)
 2. Implement Question ID discovery algorithm
-3. Update config.rs with accurate counts
+3. Update system configuration with accurate counts
 4. Complete question extraction (all 2,198)
 5. Monitor extraction & handle issues
 6. Validate all extracted questions
@@ -113,7 +113,7 @@ Supporting Documentation
 ## Ready to Execute
 
 ### Next Steps (Immediate)
-1. **Review** [PHASE_1_PLAN.md](docs/project/PHASE_1_PLAN.md)
+1. **Review** [PHASE_1_PLAN.md](../phase-1/PHASE_1_PLAN.md)
 2. **Start** Task 1: Finalize question count with Question ID discovery
 3. **Follow** 10-task sequence with success criteria
 4. **Track** progress using todo list (already created)
@@ -271,7 +271,7 @@ All unknowns have mitigation strategies in place.
 
 ### To Begin Phase 1:
 
-1. Read [docs/project/PHASE_1_PLAN.md](docs/project/PHASE_1_PLAN.md)
+1. Read [docs/project/PHASE_1_PLAN.md](../phase-1/PHASE_1_PLAN.md)
 2. Start with Task 1: Finalize question count
 3. Follow 10-task sequence sequentially
 4. Use todo list to track progress
@@ -316,4 +316,4 @@ This brainstorming session has transformed your project from a partially-complet
 
 ---
 
-See [docs/project/PHASE_1_PLAN.md](docs/project/PHASE_1_PLAN.md) to begin Phase 1 execution.
+See [docs/project/PHASE_1_PLAN.md](../phase-1/PHASE_1_PLAN.md) to begin Phase 1 execution.

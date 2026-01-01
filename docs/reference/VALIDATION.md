@@ -9,7 +9,7 @@ The Rust MKSAP Extractor includes comprehensive validation to ensure extracted q
 ### Validate All Extracted Data
 
 ```bash
-cd /Users/Mitchell/coding/projects/MKSAP/extractor
+cd /path/to/MKSAP/extractor
 ./target/release/mksap-extractor validate
 ```
 
@@ -171,7 +171,7 @@ Use the validation report to track:
 
 ### Validator Module
 
-The validator is implemented in `src/validator.rs`:
+The validator is implemented in the extractor validation module:
 
 **Key Functions**:
 - `validate_extraction()` - Scan and validate all questions

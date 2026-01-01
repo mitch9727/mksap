@@ -22,7 +22,7 @@ rustc --version  # Verify installation
 ### Navigate to Project
 
 ```bash
-cd /Users/Mitchell/coding/projects/MKSAP/extractor
+cd /path/to/MKSAP/extractor
 ```
 
 ### Build the Project
@@ -109,29 +109,8 @@ All dependencies are automatically downloaded during build.
 ## Directory Structure
 
 ```
-/Users/Mitchell/coding/projects/MKSAP/
-├── extractor/      # Unified extractor crate
-│   ├── Cargo.toml
-│   └── src/
-│       ├── main.rs          # Entry point and CLI dispatch
-│       ├── app.rs           # Command routing and orchestration
-│       ├── commands.rs      # Command parsing
-│       ├── config.rs        # System definitions (16 system codes)
-│       ├── categories.rs    # Category build helpers
-│       ├── extractor.rs     # Core extractor type
-│       ├── workflow.rs      # Discovery + extraction pipeline
-│       ├── discovery.rs     # ID discovery + checkpoints
-│       ├── io.rs            # File IO + checkpoints
-│       ├── retry.rs         # Retry helpers
-│       ├── cleanup.rs       # Cleanup helpers
-│       ├── reporting.rs     # Validation/discovery reports
-│       ├── validator.rs     # Data validation
-│       ├── auth.rs          # API login helpers
-│       ├── auth_flow.rs     # Authentication flow
-│       ├── login_browser.rs # Browser-based auth fallback
-│       ├── diagnostics.rs   # API inspection helper
-│       ├── assets.rs        # Asset discovery/download modules
-│       └── models.rs        # Data structures
+MKSAP/
+├── extractor/      # Unified Rust extractor crate (CLI, pipeline, auth, assets, validation)
 ├── mksap_data/          # Extracted question data
 ├── mksap_data_failed/   # Failed extraction artifacts
 ├── docs/                # Documentation
@@ -160,7 +139,7 @@ cargo build --release 2>&1 | rg -i "error"
 ### Create Test Data Directory
 
 ```bash
-cd /Users/Mitchell/coding/projects/MKSAP
+cd /path/to/MKSAP
 mkdir -p mksap_data
 chmod 755 mksap_data
 ```

@@ -1,6 +1,6 @@
 # MKSAP Question ID Discovery - Complete Analysis
 
-> 📜 **Historical Analysis**: This document explains the discovery process that informed Phase 1 implementation. For actual extraction results, see [PHASE_1_COMPLETION_REPORT.md](../project/PHASE_1_COMPLETION_REPORT.md).
+> 📜 **Historical Analysis**: This document explains the discovery process that informed Phase 1 implementation. For actual extraction results, see [PHASE_1_COMPLETION_REPORT.md](../../PHASE_1_COMPLETION_REPORT.md).
 
 ## Critical Finding: Why IDs Were Missed
 

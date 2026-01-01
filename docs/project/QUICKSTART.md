@@ -3,7 +3,7 @@
 ## 1) Build
 
 ```bash
-cd /Users/Mitchell/coding/projects/MKSAP/extractor
+cd /path/to/MKSAP/extractor
 cargo build --release
 ```
 
@@ -45,6 +45,18 @@ Optional session override:
 ```bash
 MKSAP_SESSION=... ./target/release/mksap-extractor media-download --all
 ```
+
+## 5) Statement generator (Phase 2)
+
+```bash
+cd statement_generator
+pip install -r requirements.txt
+
+# Test on 1-2 questions
+python -m src.main process --mode test --system cv
+```
+
+See `docs/reference/STATEMENT_GENERATOR.md` for provider setup and full CLI options.
 
 ## Output Location
 

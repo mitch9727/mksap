@@ -52,7 +52,7 @@ All Phase 1 tasks from original plan completed:
 - Hit rate statistics tracked per system
 
 ### ✅ Task 2: Configuration Updates
-- Updated config.rs with 16 system codes
+- Updated system configuration with 16 system codes
 - Configured all 6 question types
 - Discovery-driven extraction (no hardcoded counts)
 

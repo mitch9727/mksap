@@ -16,7 +16,7 @@ impl MKSAPExtractor {
         category: &crate::config::Category,
         refresh_existing: bool,
     ) -> Result<usize> {
-        info!("Extracting: {}", category.name);
+        debug!("Extracting: {}", category.name);
 
         let existing_ids = self.load_existing_question_ids(&category.code)?;
         let concurrency = Self::concurrency_limit();
@@ -29,7 +29,7 @@ impl MKSAPExtractor {
         let valid_ids = self
             .load_or_discover_ids(&category.code, &category.question_prefix, &existing_ids)
             .await?;
-        info!("✓ Found {} valid questions", valid_ids.len());
+        debug!("✓ Found {} valid questions", valid_ids.len());
 
         // Phase 2: Setup - create folders for valid questions
         debug!(

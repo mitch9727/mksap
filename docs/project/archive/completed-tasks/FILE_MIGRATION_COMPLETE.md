@@ -26,8 +26,8 @@ The `docs/project/INDEX.md` now links to the archived locations:
 
 **New Section: "📝 Project Process Documentation"**
 ```markdown
-- [archive/planning-sessions/BRAINSTORM_SESSION_COMPLETE.md](archive/planning-sessions/BRAINSTORM_SESSION_COMPLETE.md) - Initial brainstorming results
-- [archive/completed-tasks/DOCUMENTATION_CLEANUP_COMPLETE.md](archive/completed-tasks/DOCUMENTATION_CLEANUP_COMPLETE.md) - Documentation reorganization summary
+- [archive/planning-sessions/BRAINSTORM_SESSION_COMPLETE.md](../planning-sessions/BRAINSTORM_SESSION_COMPLETE.md) - Initial brainstorming results
+- [archive/completed-tasks/DOCUMENTATION_CLEANUP_COMPLETE.md](DOCUMENTATION_CLEANUP_COMPLETE.md) - Documentation reorganization summary
 ```
 
 ---
@@ -53,7 +53,7 @@ docs/project/
 
 ### Verified: No Code References
 - ✅ Searched entire codebase for hardcoded file references
-- ✅ No mentions in `.rs`, `.toml`, or other `.md` files
+- ✅ No mentions in source files, config manifests, or documentation
 - ✅ No internal cross-references that needed updating
 - ✅ Clean migration, zero breakage risk
 

@@ -1,7 +1,7 @@
 # Documentation Maintenance Guide
 
 **Purpose**: Ensure documentation stays synchronized with codebase changes
-**Last Updated**: December 27, 2025
+**Last Updated**: December 31, 2025
 
 ---
 
@@ -25,12 +25,13 @@ docs/
 │   ├── CHANGELOG.md                     # Documentation history (APPEND ONLY)
 │   ├── EXTRACTION_SCOPE.md              # Scope definition (UPDATE ON SCOPE CHANGES)
 │   ├── PHASE_1_COMPLETION_REPORT.md     # Phase 1 results (FINAL, DO NOT EDIT)
+│   ├── PHASE_2_STATUS.md                # Phase 2 status (KEEP CURRENT)
 │   ├── EXTRACTOR_CODE_AUDIT.md          # Code cleanup notes (ARCHIVE WHEN COMPLETE)
 │   │
 │   ├── archive/                         # Historical documents
 │   │   ├── planning-sessions/           # Brainstorm & planning meetings
 │   │   ├── completed-tasks/             # One-time task completion notices
-│   │   └── phase-1/                     # Phase 1 planning documents
+│   │   └── phase-1/                     # Phase 1 planning documents + discovery analysis
 │   │
 │   └── reports/                         # Extraction reports (KEEP AS HISTORY)
 │
@@ -41,8 +42,9 @@ docs/
 │   ├── VALIDATION.md                    # Data QA (UPDATE ON VALIDATOR CHANGES)
 │   ├── TROUBLESHOOTING.md               # Problem-solving (ADD NEW ISSUES)
 │   ├── DESERIALIZATION_ISSUES.md        # API quirks (ADD NEW PATTERNS)
-│   ├── EXTRACTOR_STATUS.md              # Status & progress (UPDATE ON MILESTONES)
-│   └── QUESTION_ID_DISCOVERY.md         # Scope analysis (STABLE, ARCHIVE IF OBSOLETE)
+│   ├── EXTRACTION_OVERVIEW.md           # Status & progress (UPDATE ON MILESTONES)
+│   ├── STATEMENT_GENERATOR.md           # Phase 2 reference (UPDATE ON CLI CHANGES)
+│   └── CLOZE_FLASHCARD_BEST_PRACTICES.md # Flashcard design guidance (STABLE)
 │
 ├── architecture/                        # System design
 │   └── PROJECT_ORGANIZATION.md          # 4-phase pipeline (UPDATE ON ARCHITECTURE CHANGES)
@@ -216,7 +218,7 @@ Run these checks to ensure documentation is current:
 
 ```bash
 # 1. Verify module count in CLAUDE.md matches actual modules
-rg --files -g '*.rs' extractor/src | wc -l
+rg --files -g '*.rs' extractor | wc -l
 # Compare to CLAUDE.md "Extractor Module Organization" count
 
 # 2. Verify CLI commands documented

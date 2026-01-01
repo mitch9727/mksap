@@ -1,6 +1,6 @@
 use anyhow::Result;
 use std::env;
-use tracing::{error, info};
+use tracing::{debug, error, info};
 
 use crate::handlers::handle_command;
 use crate::{Command, MKSAPExtractor};
@@ -32,7 +32,7 @@ pub fn init_tracing() {
 
 pub async fn maybe_inspect_api(extractor: &MKSAPExtractor) -> Result<()> {
     if env::var_os("MKSAP_INSPECT_API").is_some() {
-        info!("=== PHASE 1: INSPECTING API RESPONSE ===");
+        debug!("=== PHASE 1: INSPECTING API RESPONSE ===");
         match inspect_api(extractor).await {
             Ok(_) => {
                 info!("API inspection complete.");

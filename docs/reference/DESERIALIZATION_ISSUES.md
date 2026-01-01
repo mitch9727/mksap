@@ -34,9 +34,7 @@ We updated the API model to tolerate both formats:
 - `objective` accepts either a `__html` object or a plain string.
 - `stimulus`, `prompt`, `exposition`, `keypoints`, and `references` accept null.
 
-These changes are implemented in:
-
-- `src/models.rs`
+These changes are implemented in the extractor data model definitions.
 
 ## Recovery
 

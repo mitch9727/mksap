@@ -1,45 +1,26 @@
 # MKSAP Project Organization
 
-**Last Updated:** December 25, 2025
+**Last Updated:** January 1, 2026
 
 ## Overview
 
 This project is a **4-phase pipeline** for generating MKSAP Anki flashcard decks:
 
 1. **Phase 1**: Data Extraction (Rust) - Extract 2,198 valid questions from the MKSAP API (invalidated questions excluded)
-2. **Phase 2**: Intelligent Fact Extraction (Claude Code) - Extract atomic facts via LLM
+2. **Phase 2**: Statement Generation (Python) - Extract atomic facts via LLM
 3. **Phase 3**: Card Generation (Rust) - Convert facts to Anki note format
 4. **Phase 4**: Import & Validation - Generate .apkg deck and import
 
-See [PHASE_1_PLAN.md](../project/PHASE_1_PLAN.md) for current phase details.
+See [PHASE_1_PLAN.md](../project/archive/phase-1/PHASE_1_PLAN.md) for current phase details.
 
 ## Directory Structure
 
 ```
 MKSAP/
 │
-├── extractor/           # Phase 1: Unified extractor (Rust binary)
-│   ├── Cargo.toml
-│   └── src/
-│       ├── main.rs            # Entry point and CLI dispatch
-│       ├── app.rs             # Command routing and orchestration
-│       ├── commands.rs        # Command parsing
-│       ├── config.rs          # System definitions (16 system codes)
-│       ├── categories.rs      # Category build helpers
-│       ├── extractor.rs       # Core extractor type
-│       ├── workflow.rs        # Discovery + extraction pipeline
-│       ├── discovery.rs       # ID discovery + checkpoints
-│       ├── io.rs              # File IO + checkpoints
-│       ├── retry.rs           # Retry helpers
-│       ├── cleanup.rs         # Cleanup helpers
-│       ├── reporting.rs       # Validation/discovery reports
-│       ├── validator.rs       # Data quality validation
-│       ├── auth.rs            # API login helpers
-│       ├── auth_flow.rs       # Authentication flow
-│       ├── login_browser.rs   # Browser-based auth fallback
-│       ├── diagnostics.rs     # API inspection helper
-│       ├── assets.rs          # Asset discovery/download modules
-│       └── models.rs          # Data structures (QuestionData, etc.)
+├── extractor/           # Phase 1: Rust extractor (CLI, pipeline, auth, assets, validation)
+│
+├── statement_generator/   # Phase 2: Statement generator (Python pipeline)
 │
 ├── mksap_data/               # Phase 1 Output: Extracted question data
 │   ├── .checkpoints/         # Extraction progress checkpoints
@@ -57,20 +38,7 @@ MKSAP/
 │   ├── invalid/              # Quarantined invalid questions
 │   └── retired/              # Retired questions moved by cleanup
 │
-├── docs/                     # Documentation
-│   ├── architecture/
-│   │   └── PROJECT_ORGANIZATION.md # This file
-│   ├── project/
-│   │   ├── README.md         # Project overview
-│   │   ├── QUICKSTART.md     # Quick start guide
-│   │   └── INDEX.md          # Documentation index
-│   ├── reference/
-│   │   ├── RUST_SETUP.md
-│   │   ├── RUST_USAGE.md
-│   │   ├── RUST_ARCHITECTURE.md
-│   │   ├── VALIDATION.md
-│   │   ├── TROUBLESHOOTING.md
-│   │   └── QUESTION_ID_DISCOVERY.md
+├── docs/                     # Documentation (architecture, project, reference, specifications, archive)
 │
 ├── README.md                 # Project entry point
 ├── CLAUDE.md                 # Claude Code integration guide
@@ -92,11 +60,12 @@ MKSAP/
 
 **Target:** 2,198 valid questions across 16 systems and 6 question types (invalidated questions excluded)
 
-### Phase 2: Intelligent Fact Extraction (Future)
+### Phase 2: Statement Generation (Active)
 
-1. Create Claude Code skill for batch LLM processing
-2. For each question's `critique` field: Extract atomic facts
-3. Append `true_statements` array to each question JSON
+1. Configure provider via `.env` or CLI flags
+2. Run statement generator from `statement_generator/`
+3. Pipeline: critique extraction -> key points extraction -> cloze identification -> normalization
+4. Append `true_statements` to each question JSON
 
 ### Phase 3: Card Generation (Future)
 
@@ -150,5 +119,5 @@ validator → validation_report.txt
 
 - The Rust extractor is the **only supported extraction method**
 - Future processing steps (fact extraction, card generation) are **downstream of `mksap_data/`**
-- See [PHASE_1_PLAN.md](../project/PHASE_1_PLAN.md) for current phase implementation details
+- See [PHASE_1_PLAN.md](../project/archive/phase-1/PHASE_1_PLAN.md) for current phase implementation details
 - All documentation should be kept synchronized with actual directory structure

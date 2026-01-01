@@ -4,6 +4,75 @@
 
 ---
 
+## January 1, 2026 - Terminal Output Refactor Alignment
+
+**Type**: Update - Logging documentation refresh and plan cleanup
+**Status**: Complete ✅
+
+### Summary
+Updated documentation to reflect the completed terminal output refactor, refreshed the extractor
+source tree reference, archived an obsolete media extraction guide, removed the completed
+planning file, and generalized docs to avoid brittle file-path references.
+
+### Files Removed
+1. **docs/plans/2025-12-26-terminal-output-refactor.md** - Completed implementation plan removed
+2. **docs/plans/** - Planning folder removed after completion
+
+### Files Archived
+1. **docs/_.md** → `docs/project/archive/obsolete-specs/2025-12-26_media-extraction-implementation-guide.md`
+
+### Files Updated
+1. **docs/project/README.md** - Logging output sample updated with discovery summaries
+2. **docs/architecture/PROJECT_ORGANIZATION.md** - Extractor source tree refreshed
+3. **docs/specifications/VIDEO_SVG_EXTRACTION.md** - Added media metadata notes
+4. **docs/reference/RUST_SETUP.md** - Updated extractor source tree snapshot
+5. **docs/project/EXTRACTOR_CODE_AUDIT.md** - Updated auth flow references
+6. **README.md** - Updated last-updated timestamp
+7. **docs/project/INDEX.md** - Updated last-updated timestamp + archive link
+8. **Documentation set** - Removed hard-coded file names/paths; generalized module descriptions and absolute paths
+
+### Verification
+- ✅ `./target/release/mksap-extractor validate` completed successfully
+
+## December 31, 2025 - Phase 2 Documentation Consolidation
+
+**Type**: Major update - Phase 2 docs consolidation into global scope
+**Status**: Complete ✅
+
+### Summary
+Consolidated statement generator documentation into global references, moved flashcard best practices into `docs/reference/`, and updated top-level navigation to reflect Phase 2 as active.
+
+### Files Created
+1. **STATEMENT_GENERATOR.md** - Phase 2 usage, CLI, pipeline reference
+2. **PHASE_2_STATUS.md** - Implementation status and open work
+
+### Files Moved/Renamed
+1. **best-practices-cloze-deletion-flashcards.md** → `docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md`
+2. **docs/reference/QUESTION_ID_DISCOVERY.md** → `docs/project/archive/phase-1/QUESTION_ID_DISCOVERY.md`
+
+### Files Removed
+1. **statement_generator/CLAUDE.md** - Consolidated into global CLAUDE.md and STATEMENT_GENERATOR.md
+2. **statement_generator/README.md** - Consolidated into STATEMENT_GENERATOR.md
+3. **statement_generator/IMPLEMENTATION_STATUS.md** - Consolidated into PHASE_2_STATUS.md
+4. **statement_generator/IMPROVEMENTS_SUMMARY.md** - Consolidated into PHASE_2_STATUS.md
+5. **statement_generator/PARALLEL_EXECUTION_FIX.md** - Consolidated into PHASE_2_STATUS.md
+6. **docs/reference/VIDEO_DOWNLOAD_NOTES.md** - Consolidated into VIDEO_SVG_EXTRACTION.md
+
+### Files Updated
+1. **CLAUDE.md** - Phase 2 commands, architecture, constraints, troubleshooting
+2. **README.md** - Phase 2 status + quickstart link updates
+3. **docs/project/INDEX.md** - Phase 2 navigation block
+4. **docs/project/README.md** - Phase 2 section + key paths
+5. **docs/project/QUICKSTART.md** - Phase 2 quickstart steps
+6. **docs/architecture/PROJECT_ORGANIZATION.md** - Statement generator location and phase update
+7. **docs/DOCUMENTATION_MAINTENANCE_GUIDE.md** - Added Phase 2 docs
+8. **docs/specifications/VIDEO_SVG_EXTRACTION.md** - Manual video download workflow consolidated
+9. **docs/REFERENCE_FOLDER_AUDIT.md** - Added post-audit update note
+
+### Verification
+- ✅ Global documentation links resolve
+- ✅ Phase 2 instructions centralized under `docs/reference/`
+
 ## December 27, 2025 - Documentation Audit & Reorganization
 
 **Type**: Major update - Archive creation, Phase 1 completion, reference folder audit

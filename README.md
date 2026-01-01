@@ -1,14 +1,15 @@
 # MKSAP Question Bank Extractor
 
-> **Last updated: December 27, 2025**
+> **Last updated: January 1, 2026**
 
 System for extracting medical education questions from the ACP MKSAP (Medical Knowledge Self-Assessment Program) online question bank into structured JSON format.
 
 ## Current Status
 
 - **Phase 1 Status**: ✅ **COMPLETE** (December 27, 2025) - All 2,198 valid questions extracted
+- **Phase 2 Status**: Statement generator active (see [PHASE_2_STATUS.md](docs/project/PHASE_2_STATUS.md))
 - **Primary Tool**: Rust MKSAP Extractor (API-based extraction with discovery validation)
-- **Architecture**: 16 system codes configured (see [config.rs](extractor/src/config.rs))
+- **Architecture**: 16 system codes configured via the extractor configuration module
 - **Extraction Results**: See [PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md) for final metrics
 - **Historical Data**: See [docs/project/reports/](docs/project/reports/) for past extraction summaries
 
@@ -17,7 +18,7 @@ System for extracting medical education questions from the ACP MKSAP (Medical Kn
 ### Rust Extractor (Recommended)
 
 ```bash
-cd /Users/Mitchell/coding/projects/MKSAP/extractor
+cd /path/to/MKSAP/extractor
 cargo build --release
 ./target/release/mksap-extractor
 ```
@@ -56,14 +57,27 @@ Override session cookie (optional):
 MKSAP_SESSION=... ./target/release/mksap-extractor media-download --all
 ```
 
+### Statement Generator (Phase 2)
+
+```bash
+cd statement_generator
+pip install -r requirements.txt
+
+# Test on 1-2 questions
+python -m src.main process --mode test --system cv
+```
+
+Provider configuration and full CLI reference live in [STATEMENT_GENERATOR.md](docs/reference/STATEMENT_GENERATOR.md).
+
 ## Documentation
 
 ### Critical - Start Here
 
 - **[PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md)** ✅ - Phase 1 results (100% complete)
-- **[Question ID Discovery](docs/reference/QUESTION_ID_DISCOVERY.md)** - Understanding question discovery
+- **[Question ID Discovery](docs/project/archive/phase-1/QUESTION_ID_DISCOVERY.md)** - Historical discovery analysis
 - **[Project Index](docs/project/INDEX.md)** - Navigation guide for all documentation
 - **[PHASE_1_PLAN.md](docs/project/archive/phase-1/PHASE_1_PLAN.md)** - Archived Phase 1 roadmap
+- **[Project TODO](TODO.md)** - Global project status tracker
 
 ### Getting Started with Extraction
 
@@ -80,6 +94,12 @@ MKSAP_SESSION=... ./target/release/mksap-extractor media-download --all
 
 - [Project Overview](docs/project/README.md) - Project goals
 - [Architecture Guide](docs/architecture/PROJECT_ORGANIZATION.md) - Codebase organization
+
+### Phase 2: Statement Generator
+
+- [Statement Generator Reference](docs/reference/STATEMENT_GENERATOR.md) - Usage, CLI, pipeline overview
+- [Phase 2 Status](docs/project/PHASE_2_STATUS.md) - Implementation status and open work
+- [Cloze Flashcard Best Practices](docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md) - Evidence-based guidance
 
 ## Data Structure
 
@@ -112,7 +132,7 @@ Each question directory contains:
 - `{question_id}.json` - Complete structured data
 - `figures/`, `tables/`, `videos/`, `svgs/` - Media assets (videos are manual downloads)
 
-See [config.rs](extractor/src/config.rs) for complete system definitions.
+See the extractor configuration module for complete system definitions.
 
 ## Features
 
@@ -138,11 +158,11 @@ Primary tool for API-based extraction:
 - Data validation
 - Organized output
 
-**Key Files**:
-- `extractor/src/main.rs` - Entry point
-- `extractor/src/extractor.rs` - Extraction logic
-- `extractor/src/config.rs` - System definitions
-- `extractor/src/validator.rs` - Data quality checks
+**Core Components**:
+- CLI entrypoint and command routing
+- Extraction pipeline and discovery logic
+- System configuration definitions
+- Data validation and reporting
 - `mksap_data/` - Extracted questions
 
 ## Technology Stack
@@ -213,7 +233,7 @@ See [Troubleshooting Guide](docs/reference/TROUBLESHOOTING.md) for:
 
 ### Project Status
 
-**Current Phase**: Phase 1 Complete ✅ - Phase 2 Ready
+**Current Phase**: Phase 2 Active (statement generator)
 **Completed**: All 2,198 valid questions extracted (December 27, 2025)
 **Architecture**: Discovery-based extraction with API validation
 **Validation**: Run `./target/release/mksap-extractor validate` for current metrics
@@ -232,3 +252,4 @@ Refer to documentation:
 - [Quick Start](docs/reference/RUST_SETUP.md)
 - [Common Issues](docs/reference/TROUBLESHOOTING.md)
 - [Architecture](docs/reference/RUST_ARCHITECTURE.md)
+- [Statement Generator](docs/reference/STATEMENT_GENERATOR.md)

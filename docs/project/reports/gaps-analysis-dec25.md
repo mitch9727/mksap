@@ -46,7 +46,6 @@ The extractor attempts to find 6 question types for each system:
 The API returns HTTP 200 OK but includes `"invalidated": true` field. The extractor correctly skips these:
 
 ```rust
-// From extractor.rs line 808-812
 if api_response.invalidated {
     info!("Skipping retired question: {}", question_id);
     return Ok(true);
@@ -210,7 +209,7 @@ Once we know how many questions are actually available (not retired), we can set
 Based on findings:
 - **If many retired**: Current extraction is actually more complete than it appears
 - **If many available**: Need to re-run extraction for missing ones
-- **If expected counts are wrong**: Update config.rs with accurate numbers
+- **If expected counts are wrong**: Update the system configuration with accurate numbers
 
 ---
 
@@ -240,7 +239,7 @@ The "expected" counts (206, 154, 162, 199) are from an older MKSAP version with 
 3. Document actual question availability per system
 
 ### Medium Term
-1. Update config.rs with current, realistic expected counts
+1. Update the system configuration with current, realistic expected counts
 2. Consider whether retiring questions is acceptable data loss
 3. Plan re-extraction if needed after gap analysis
 
@@ -406,7 +405,7 @@ This explains why the "cc" system appeared incomplete:
 
 ### The Fix
 
-**File Modified**: `extractor/src/config.rs`
+**Component Modified**: System configuration
 
 Changed:
 ```rust
@@ -496,7 +495,7 @@ The MKSAP extractor has been updated to support multiple question ID prefixes pe
 
 ### Code Modifications
 
-**1. Configuration Layer (`extractor/src/config.rs`)**
+**1. Configuration Layer**
 
 Added `question_prefixes: Vec<String>` field to `OrganSystem` struct:
 ```rust
@@ -521,7 +520,7 @@ Updated all 15 system definitions with proper multi-prefix support:
 
 **Total systems now: 15 (up from 12)**
 
-**2. Extractor Layer (`extractor/src/main.rs`)**
+**2. Extractor Layer**
 
 Updated category definitions to reflect multi-prefix architecture:
 - Separated 3 "AND" content areas into 6 distinct system categories
@@ -529,7 +528,7 @@ Updated category definitions to reflect multi-prefix architecture:
 - Configured correct URL paths for each system
 - All 15 categories are now processed independently
 
-**3. Discovery Phase (`extractor/src/extractor.rs`)**
+**3. Discovery Phase**
 
 The existing `generate_question_ids()` method generates IDs for a single prefix, which is correct for the current approach since each category in the extraction loop uses a single prefix.
 
@@ -652,7 +651,7 @@ mksap_data/
 
 ### Files Modified
 
-1. `extractor/src/config.rs` - Added `question_prefixes` field, added hp/dm systems
-2. `extractor/src/main.rs` - Updated 15 categories with correct prefixes and separations
+1. System configuration - Added `question_prefixes` field, added hp/dm systems
+2. Extractor routing/config - Updated 15 categories with correct prefixes and separations
 3. `EXTRACTION_GAPS_ANALYSIS.md` - Documented multi-prefix architecture and findings
 4. Build tested and confirmed ✓ (cargo check passed with expected warnings)

@@ -5,7 +5,7 @@
 ### Running the Extractor
 
 ```bash
-cd /Users/Mitchell/coding/projects/MKSAP/extractor
+cd /path/to/MKSAP/extractor
 cargo build --release
 ./target/release/mksap-extractor
 ```
@@ -280,12 +280,12 @@ MKSAP_QUARANTINE_INVALID=1 ./target/release/mksap-extractor
 
 ### Current Implementation Notes
 
-The extractor only supports the commands above; other configuration lives in source:
+The extractor only supports the commands above; other configuration lives in the
+source modules:
 
 **To customize**:
-1. Edit `src/app.rs`
-2. Update `output_dir` (default is `../mksap_data`)
-3. Rebuild: `cargo build --release`
+1. Update the extractor application configuration (default output is `../mksap_data`)
+2. Rebuild: `cargo build --release`
 
 ### Planned Features
 
@@ -332,7 +332,7 @@ MKSAP_SESSION=... ./target/release/mksap-extractor media-download --all
 To validate extracted data without extracting:
 
 ```bash
-# (Validator built into main.rs)
+# (Validator built into the extractor binary)
 ./target/release/mksap-extractor validate
 ```
 

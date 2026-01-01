@@ -2,7 +2,7 @@
 
 **Clean, organized navigation for the MKSAP Question Bank Extraction project**
 
-**Last Updated**: December 27, 2025
+**Last Updated**: January 1, 2026
 
 ---
 
@@ -12,12 +12,21 @@
 2. **[PHASE_1_COMPLETION_REPORT.md](PHASE_1_COMPLETION_REPORT.md)** ✅ - Phase 1 results (100% complete)
 3. **[EXTRACTION_SCOPE.md](EXTRACTION_SCOPE.md)** - Extraction scope and success criteria
 4. **[QUICKSTART.md](QUICKSTART.md)** - Fast command reference
+5. **[TODO.md](../../TODO.md)** - Global project status tracker
 
 ---
 
 ## 📐 Architecture & Design
 
 - **[PROJECT_ORGANIZATION.md](../architecture/PROJECT_ORGANIZATION.md)** - System architecture and pipeline overview
+
+---
+
+## 🧠 Phase 2: Statement Generator
+
+- **[STATEMENT_GENERATOR.md](../reference/STATEMENT_GENERATOR.md)** - Phase 2 usage, CLI, and pipeline
+- **[PHASE_2_STATUS.md](PHASE_2_STATUS.md)** - Implementation status, open work, and testing notes
+- **[CLOZE_FLASHCARD_BEST_PRACTICES.md](../reference/CLOZE_FLASHCARD_BEST_PRACTICES.md)** - Evidence-based flashcard guidance
 
 ---
 
@@ -34,7 +43,7 @@
 
 ### Reference
 - **[EXTRACTION_OVERVIEW.md](../reference/EXTRACTION_OVERVIEW.md)** - Extractor overview (renamed from EXTRACTOR_STATUS.md)
-- **[QUESTION_ID_DISCOVERY.md](../reference/QUESTION_ID_DISCOVERY.md)** - 📜 Historical: Discovery analysis that informed Phase 1
+- **[QUESTION_ID_DISCOVERY.md](archive/phase-1/QUESTION_ID_DISCOVERY.md)** - 📜 Historical: Discovery analysis that informed Phase 1
 - **[DESERIALIZATION_ISSUES.md](../reference/DESERIALIZATION_ISSUES.md)** - API response variations and quirks
 
 ---
@@ -65,6 +74,9 @@
 - **[archive/completed-tasks/DOCUMENTATION_CLEANUP_COMPLETE.md](archive/completed-tasks/DOCUMENTATION_CLEANUP_COMPLETE.md)** - Documentation reorganization
 - **[archive/completed-tasks/FILE_MIGRATION_COMPLETE.md](archive/completed-tasks/FILE_MIGRATION_COMPLETE.md)** - File migration completion
 
+### Obsolete Specs
+- **[archive/obsolete-specs/2025-12-26_media-extraction-implementation-guide.md](archive/obsolete-specs/2025-12-26_media-extraction-implementation-guide.md)** - Archived media extraction implementation guide
+
 ### Code Analysis
 - **[EXTRACTOR_CODE_AUDIT.md](EXTRACTOR_CODE_AUDIT.md)** - Code cleanup analysis (active)
 
@@ -72,8 +84,8 @@
 
 ## 📖 Documentation System
 
-- **[DOCUMENTATION_MAINTENANCE_GUIDE.md](../../DOCUMENTATION_MAINTENANCE_GUIDE.md)** - How to keep docs synchronized with code
-- **[REFERENCE_FOLDER_AUDIT.md](../../REFERENCE_FOLDER_AUDIT.md)** - Reference folder audit results
+- **[DOCUMENTATION_MAINTENANCE_GUIDE.md](../DOCUMENTATION_MAINTENANCE_GUIDE.md)** - How to keep docs synchronized with code
+- **[REFERENCE_FOLDER_AUDIT.md](../REFERENCE_FOLDER_AUDIT.md)** - Reference folder audit results
 
 ---
 
@@ -97,10 +109,10 @@
 **For Understanding History**:
 1. Phase 1 completion: PHASE_1_COMPLETION_REPORT.md
 2. Original plan: archive/phase-1/PHASE_1_PLAN.md
-3. Discovery analysis: QUESTION_ID_DISCOVERY.md
+3. Discovery analysis: QUESTION_ID_DISCOVERY.md (archive)
 4. Planning sessions: archive/planning-sessions/
 
 ---
 
 **Project Status**: Phase 1 Complete (2,198 questions extracted)
-**Next Phase**: Phase 2 - Fact Extraction (planning stage)
+**Next Phase**: Phase 2 - Statement Generator (active)

@@ -2,11 +2,11 @@
 
 ## System Architecture
 
-The extractor follows a modular, async-first architecture optimized for API-based data extraction, with asset discovery/download integrated under `src/assets.rs`.
+The extractor follows a modular, async-first architecture optimized for API-based data extraction, with an integrated asset discovery/download subsystem.
 
 ## Module Structure
 
-### Main Entry Point (`main.rs` + `app.rs`)
+### Main Entry Point
 
 **Responsibilities**:
 - Load `.env` and initialize logging
@@ -16,11 +16,11 @@ The extractor follows a modular, async-first architecture optimized for API-base
 
 **Key Functions**:
 - `main()` - Application entry point
-- `authenticate_extractor()` (from `auth.rs`) - Authentication flow
-- `extract_category()` (from `workflow.rs`) - Per-system extraction pipeline
-- `validate_extraction()` / `show_discovery_stats()` (from `reporting.rs`)
+- `authenticate_extractor()` - Authentication flow
+- `extract_category()` - Per-system extraction pipeline
+- `validate_extraction()` / `show_discovery_stats()`
 
-### Configuration (`config.rs`)
+### Configuration
 
 **Responsibilities**:
 - Define all 16 system codes (including `fc` and `cs`)
@@ -39,7 +39,7 @@ pub struct OrganSystem {
 - `init_organ_systems()` - Returns all 16 system codes
 - `get_organ_system_by_id()` - Lookup by ID
 
-### Data Models (`models.rs`)
+### Data Models
 
 **Structures**:
 - `QuestionData` - Complete question object
@@ -52,7 +52,7 @@ pub struct OrganSystem {
 
 **Serialization**: All structures derive `Serialize`/`Deserialize` for JSON conversion
 
-### Extraction Logic (`extractor.rs`, `workflow.rs`, `discovery.rs`)
+### Extraction Logic
 
 **Three-Phase Extraction**:
 
@@ -81,7 +81,7 @@ async fn extract_question(&self, category_code: &str, id: &str) -> Result<bool>
 - Extraction backs off for 429 (rate limit) responses
 - 10s HEAD timeout and 30s GET timeout
 
-### Validation (`validator.rs`)
+### Validation
 
 **Responsibilities**:
 - Scan extracted question files
@@ -106,7 +106,7 @@ pub struct ValidationResult {
 **Non-Destructive**: Only reads files, creates no modifications
 **Discovery-Aware**: Uses `.checkpoints/discovery_metadata.json` when available
 
-### Asset Pipeline (`src/assets.rs`)
+### Asset Pipeline
 
 **Responsibilities**:
 - Discover media content IDs after text extraction
@@ -114,7 +114,7 @@ pub struct ValidationResult {
 - Update the `media` field in each `{question_id}.json`
 - Store assets alongside question folders
 
-### Browser Login (`src/login_browser.rs`)
+### Browser Login
 
 **Fallback Authentication**:
 - Opens Chrome browser if API auth fails
@@ -124,7 +124,7 @@ pub struct ValidationResult {
 
 **Platform Support**: macOS
 
-### IO + Retry (`io.rs`, `retry.rs`)
+### IO + Retry
 
 **File IO**:
 - Save JSON payloads
@@ -250,7 +250,7 @@ GET /api/questions/{question_id}.json
 
 ### Adding New Systems
 
-1. Add to `config.rs`:
+1. Add to the system configuration list:
 ```rust
 OrganSystem {
     id: "ns".to_string(),
@@ -262,14 +262,14 @@ OrganSystem {
 
 ### Custom Validation
 
-Extend `validator.rs`:
+Extend the validation module:
 - Add new validation check function
 - Call from `validate_extraction()`
 - Include in report generation
 
 ### Media Handling
 
-Extend the asset modules under `src/assets.rs`:
+Extend the asset subsystem:
 - Add support for new file types
 - Update content-type detection
 - Customize file naming

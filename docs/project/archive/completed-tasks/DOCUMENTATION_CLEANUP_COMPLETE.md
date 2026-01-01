@@ -167,7 +167,7 @@ This is your **single source of truth for progress tracking**. It includes:
 ## How to Continue
 
 ### Phase 1 Execution
-1. Open [docs/project/PROJECT_TODOS.md](docs/project/PROJECT_TODOS.md)
+1. Open [docs/project/PROJECT_TODOS.md](../phase-1/PROJECT_TODOS.md)
 2. Follow Task 1-10 in order
 3. Update PROJECT_TODOS.md as you progress
 4. Reference PHASE_1_PLAN.md for detailed task descriptions

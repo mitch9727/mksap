@@ -11,6 +11,15 @@ The `docs/reference/` folder contains **9 technical reference documents** (86KB 
 
 ---
 
+## Update (December 31, 2025)
+
+Since this audit:
+- `QUESTION_ID_DISCOVERY.md` moved to `docs/project/archive/phase-1/` (historical analysis).
+- Video download notes were consolidated into `docs/specifications/VIDEO_SVG_EXTRACTION.md`.
+- Phase 2 references were added: `STATEMENT_GENERATOR.md` and `CLOZE_FLASHCARD_BEST_PRACTICES.md`.
+
+---
+
 ## File-by-File Analysis
 
 ### ✅ KEEP & MAINTAIN (No Changes Needed)

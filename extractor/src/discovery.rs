@@ -8,9 +8,10 @@ use std::path::Path;
 use std::sync::Arc;
 use std::time::Duration;
 use tokio::time::sleep;
-use tracing::info;
+use tracing::debug;
 
 use crate::models::{DiscoveryMetadata, DiscoveryMetadataCollection};
+use crate::reporting::log_discovery_result;
 use crate::utils::parse_env;
 
 use super::{MKSAPExtractor, CHECKPOINT_DIR_NAME, QUESTION_TYPE_CODES};
@@ -29,7 +30,9 @@ impl MKSAPExtractor {
         if !refresh {
             if let Some(ids) = self.load_checkpoint_ids(category_code)? {
                 if !ids.is_empty() {
-                    info!("✓ Loaded {} valid question IDs", ids.len());
+                    let question_types_found = self.collect_question_types(&ids);
+                    log_discovery_result(category_code, ids.len(), &question_types_found);
+                    debug!("Loaded {} valid question IDs from checkpoint", ids.len());
                     return Ok(ids);
                 }
             }
@@ -52,7 +55,7 @@ impl MKSAPExtractor {
         let total_to_try = question_ids.len();
         let concurrency = Self::concurrency_limit();
 
-        info!("Testing {} potential question IDs...", total_to_try);
+        debug!("Testing {} potential question IDs...", total_to_try);
 
         let existing_ids = Arc::new(existing_ids.clone());
         let mut tested = 0usize;
@@ -74,7 +77,7 @@ impl MKSAPExtractor {
         while let Some(result) = stream.next().await {
             tested += 1;
             if tested.is_multiple_of(1000) || tested == total_to_try {
-                info!(
+                debug!(
                     "Discovery progress: {}/{} tested - {} found so far",
                     tested,
                     total_to_try,
@@ -89,13 +92,7 @@ impl MKSAPExtractor {
             }
         }
 
-        // Track discovered question types
-        let mut question_types_found: HashSet<String> = HashSet::new();
-        for id in &valid_ids {
-            if let Some(type_code) = self.extract_question_type(id) {
-                question_types_found.insert(type_code);
-            }
-        }
+        let question_types_found = self.collect_question_types(&valid_ids);
 
         // Create and save metadata
         let discovered_count = valid_ids.len();
@@ -111,7 +108,7 @@ impl MKSAPExtractor {
             discovery_timestamp: Utc::now().to_rfc3339(),
             candidates_tested: total_to_try,
             hit_rate,
-            question_types_found: question_types_found.into_iter().collect(),
+            question_types_found: question_types_found.clone(),
         };
 
         // Update or create metadata collection
@@ -125,12 +122,23 @@ impl MKSAPExtractor {
         collection.last_updated = Utc::now().to_rfc3339();
 
         self.save_discovery_metadata(&collection)?;
-
-        info!(
+        log_discovery_result(question_prefix, discovered_count, &question_types_found);
+        debug!(
             "Discovery complete for {}: found {} valid questions out of {} candidates ({:.2}% hit rate)",
             question_prefix, discovered_count, total_to_try, hit_rate * 100.0
         );
         Ok(valid_ids)
+    }
+
+    fn collect_question_types(&self, question_ids: &[String]) -> Vec<String> {
+        let mut question_types_found: HashSet<String> = HashSet::new();
+        for id in question_ids {
+            if let Some(type_code) = self.extract_question_type(id) {
+                question_types_found.insert(type_code);
+            }
+        }
+
+        question_types_found.into_iter().collect()
     }
 
     /// Extract question type from a question ID

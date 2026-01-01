@@ -1,5 +1,9 @@
 # MKSAP Media Extraction Implementation Guide
 
+> Archived (2026-01-01): Historical implementation notes. Media counts, array-index
+> assumptions, and automated download steps are outdated. See
+> `docs/specifications/VIDEO_SVG_EXTRACTION.md` for current policy.
+
 ## Project Overview
 You are implementing a media extraction system for the ACP MKSAP (Medical Knowledge Self-Assessment Program) question bank. The system needs to extract all supplemental media files (images, tables, videos) associated with each valid question.
 

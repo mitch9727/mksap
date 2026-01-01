@@ -33,7 +33,7 @@ All extraction, validation, and reporting in this codebase is organized by these
 ## Quick Navigation
 
 - **Phase 1 (Rust Extractor)**: See commands in [extractor section](#building) below
-- **Phase 2 (Statement Generator)**: See [statement_generator/CLAUDE.md](statement_generator/CLAUDE.md)
+- **Phase 2 (Statement Generator)**: See [docs/reference/STATEMENT_GENERATOR.md](docs/reference/STATEMENT_GENERATOR.md)
 - **Architecture**: [Project Architecture](#project-architecture) section
 - **Troubleshooting**: [Common Issues](#common-issues) section
 
@@ -43,7 +43,7 @@ All extraction, validation, and reporting in this codebase is organized by these
 
 ```bash
 # Build extractor (text + media)
-cd /Users/Mitchell/coding/projects/MKSAP/extractor
+cd /path/to/MKSAP/extractor
 cargo build --release
 ```
 
@@ -167,49 +167,46 @@ This project uses a **single Rust binary** that combines text extraction with me
 ### Extractor Module Organization
 
 #### CLI & Orchestration
-- **app.rs** - Initialization, environment setup, and API inspection helpers
-- **cli.rs** - Argument parsing and option structs
-- **handlers.rs** - Command routing and standalone command handling
-- **runners.rs** - Command execution orchestration
-- **commands.rs** - CLI command definitions
-- **main.rs** - CLI entry point
-- **utils.rs** - Shared utilities (env parsing, progress logging)
+- Initialization and environment setup
+- CLI option parsing and command definitions
+- Command routing and execution runners
+- Shared utilities (env parsing, progress logging)
 
 #### Core Extraction Pipeline
-- **extractor.rs** - Core extraction type and concurrent processing
-- **workflow.rs** - Three-phase pipeline orchestration (discovery → setup → extraction)
-- **discovery.rs** - Question ID discovery using HTTP HEAD requests with checkpointing
-- **io.rs** - File I/O operations and checkpoint management
-- **retry.rs** - Retry logic with exponential backoff for transient failures
-- **standardize.rs** - Data standardization utilities for schema consistency
-- **cleanup.rs** - Duplicate question detection and removal
+- Core extraction type and concurrent processing
+- Three-phase pipeline orchestration (discovery → setup → extraction)
+- Question ID discovery using HTTP HEAD requests with checkpointing
+- File I/O operations and checkpoint management
+- Retry logic with exponential backoff for transient failures
+- Data standardization utilities for schema consistency
+- Duplicate question detection and removal
 
 #### Data Models & Configuration
-- **models.rs** - Data structures (QuestionData, ApiQuestionResponse, MediaFiles, etc.)
-- **config.rs** - 16 system code definitions (discovery metadata is the source of truth)
+- Data structures (QuestionData, ApiQuestionResponse, MediaFiles, etc.)
+- System code definitions (discovery metadata is the source of truth)
 
 #### Authentication & API
-- **auth.rs** - Session-based API authentication
-- **login_browser.rs** - Browser-based fallback authentication (Chrome/Firefox)
-- **session.rs** - Session cookie helpers
-- **http.rs** - HTTP client configuration
-- **endpoints.rs** - API endpoint construction
+- Session-based API authentication
+- Browser-based fallback authentication (Chrome/Firefox)
+- Session cookie helpers
+- HTTP client configuration
+- API endpoint construction
 
 #### Validation & Reporting
-- **validator.rs** - Comprehensive data quality validation and reporting
-- **reporting.rs** - Discovery statistics and progress reporting
+- Comprehensive data quality validation and reporting
+- Discovery statistics and progress reporting
 
-#### Asset Modules (`extractor/src/assets.rs`)
-- **asset_discovery.rs** + **asset_stats.rs** + **asset_types.rs** - Asset discovery + statistics
-- **asset_download.rs** + **asset_api.rs** - Figure/table download pipeline
-- **svg_browser.rs** + **svg_download.rs** - SVG browser automation
-- **asset_store.rs** + **table_render.rs** - JSON/media updates and table rendering
-- **asset_metadata.rs** + **content_ids.rs** - Asset metadata + content ID parsing
-- **session.rs** - Session cookie helpers
+#### Asset Subsystem
+- Asset discovery and statistics
+- Figure/table download pipeline
+- SVG browser automation
+- JSON/media updates and table rendering
+- Asset metadata + content ID parsing
+- Shared session cookie helpers
 
 ### Question System Codes
 
-The extractor targets **16 question system codes** defined in [extractor/src/config.rs](extractor/src/config.rs):
+The extractor targets **16 question system codes** defined in the configuration module:
 
 ```rust
 pub struct OrganSystem {
@@ -262,22 +259,22 @@ Examples:
 
 ### Three-Phase Extraction Pipeline
 
-The extraction follows a **three-phase async pipeline** orchestrated by [workflow.rs](extractor/src/workflow.rs):
+The extraction follows a **three-phase async pipeline** orchestrated by the workflow component:
 
 ```
-PHASE 1: DISCOVERY (discovery.rs)
+PHASE 1: DISCOVERY
 ├─ Generate question IDs using pattern: {code}{type}{year}{num}
 ├─ HTTP HEAD requests to check existence
 ├─ Collect valid IDs (200 OK responses)
 ├─ Save to checkpoint: .checkpoints/{system}_ids.txt
 └─ Log: "✓ Found {count} valid questions"
 
-PHASE 2: DIRECTORY SETUP (workflow.rs)
+PHASE 2: DIRECTORY SETUP
 ├─ Create question directories for all valid IDs
 ├─ Path: mksap_data/{system}/{question_id}/
 └─ Silent operation (no debug logging unless RUST_LOG=debug)
 
-PHASE 3: EXTRACTION (extractor.rs)
+PHASE 3: EXTRACTION
 ├─ Concurrent extraction (14 workers via buffer_unordered)
 ├─ GET /api/questions/{id}.json
 ├─ Deserialize ApiQuestionResponse
@@ -285,10 +282,10 @@ PHASE 3: EXTRACTION (extractor.rs)
 ├─ Save {question_id}.json
 ├─ Skip if already extracted (unless --refresh-existing)
 ├─ Progress logging every 10 questions
-└─ Retry on transient errors (retry.rs)
+└─ Retry on transient errors
 
 VALIDATION (on demand)
-├─ Scan all extracted questions (validator.rs)
+├─ Scan all extracted questions
 ├─ Check JSON structure and required fields
 ├─ Compare extracted vs discovered counts
 └─ Generate validation_report.txt
@@ -296,7 +293,7 @@ VALIDATION (on demand)
 
 ### Authentication Flow
 
-**Session Cookie Management** ([auth.rs](extractor/src/auth.rs), [login_browser.rs](extractor/src/login_browser.rs)):
+**Session Cookie Management** (auth subsystem with browser fallback):
 
 ```rust
 // Priority order:
@@ -320,7 +317,7 @@ VALIDATION (on demand)
 
 ### Resumable Extraction
 
-**Checkpoint System** ([io.rs](extractor/src/io.rs), [discovery.rs](extractor/src/discovery.rs)):
+**Checkpoint System** (I/O + discovery subsystems):
 
 **Checkpoint types**:
 1. **Discovery checkpoints** - `.checkpoints/{system}_ids.txt`
@@ -373,7 +370,7 @@ mksap_data/
 
 ### JSON Schema
 
-**QuestionData structure** ([extractor/src/models.rs](extractor/src/models.rs)):
+**QuestionData structure**:
 
 ```rust
 pub struct QuestionData {
@@ -415,7 +412,7 @@ pub struct QuestionData {
 
 ### Validation Framework
 
-**Built-in validator** ([extractor/src/validator.rs](extractor/src/validator.rs)):
+**Built-in validator**:
 
 ```bash
 ./target/release/mksap-extractor validate
@@ -440,7 +437,7 @@ pub struct QuestionData {
 
 ### Rate Limiting & Retry Logic
 
-**Server-friendly extraction** ([retry.rs](extractor/src/retry.rs), [extractor.rs](extractor/src/extractor.rs)):
+**Server-friendly extraction**:
 
 **Rate limiting**:
 - **500ms delay** between discovery HEAD requests (configurable)
@@ -448,7 +445,7 @@ pub struct QuestionData {
 - **60-second backoff** on HTTP 429 (rate limit) responses
 - Respects server load by limiting concurrency
 
-**Retry strategy** (retry.rs):
+**Retry strategy**:
 - **Exponential backoff** for transient errors
 - **Max 3 retries** per request
 - Retryable errors:
@@ -470,7 +467,7 @@ let concurrency = num_cpus::get().min(16);
 
 ### Discovery-Based Metrics
 
-**API Discovery** ([discovery.rs](extractor/src/discovery.rs)):
+**API Discovery** (discovery subsystem):
 
 The extractor **doesn't use hardcoded question counts**. Instead, it:
 
@@ -512,7 +509,7 @@ The extractor **doesn't use hardcoded question counts**. Instead, it:
 
 ### Technology Stack
 
-**Core Dependencies** ([extractor/Cargo.toml](extractor/Cargo.toml)):
+**Core Dependencies** (extractor crate manifest):
 
 **Async Runtime & HTTP**:
 - **tokio** (1.x) - Async runtime with full features (rt-multi-thread, macros)
@@ -545,16 +542,15 @@ The extractor **doesn't use hardcoded question counts**. Instead, it:
 Phase 2 extracts testable medical facts from MKSAP questions using LLM-powered analysis. It processes the JSON output from Phase 1 and augments each question with structured flashcard statements.
 
 **Key Features**:
-- 4-phase pipeline: critique extraction → key points extraction → cloze identification → text normalization
+- 4-phase pipeline: critique extraction -> key points extraction -> cloze identification -> text normalization
 - Multi-provider LLM support (Anthropic API, Claude Code CLI, Gemini CLI, Codex CLI)
-- Evidence-based flashcard design following spaced repetition best practices
+- Evidence-based flashcard design aligned with spaced repetition best practices
 - Non-destructive JSON updates (adds `true_statements` field only)
-- Checkpoint-based resumable processing
+- Checkpoint-based resumable processing with atomic saves
 
-**Common Commands** (see [statement_generator/CLAUDE.md](statement_generator/CLAUDE.md) for full reference):
+### Common Commands
 
 ```bash
-# Navigate to statement generator
 cd statement_generator
 
 # Test on 1-2 questions
@@ -566,34 +562,219 @@ python -m src.main process --question-id cvmcq24001
 # Production: Process all 2,198 questions
 python -m src.main process --mode production
 
-# Use CLI provider (avoids API costs)
+# Use CLI providers (avoid API costs)
 python -m src.main process --provider claude-code --mode test
+python -m src.main process --provider gemini --mode test
+python -m src.main process --provider codex --mode test
 
-# Show statistics
-python -m src.main stats
+# Adjust temperature (default 0.2)
+python -m src.main process --temperature 0.5 --question-id cvmcq24001
+
+# Re-process already completed questions
+python -m src.main process --force --question-id cvmcq24001
+
+# Preview without API calls
+python -m src.main process --dry-run --system cv
+
+# Debug logging
+python -m src.main process --log-level DEBUG --question-id cvmcq24001
 ```
 
-**Output**: Augments question JSON with structured statements:
+### Management Commands
+
+```bash
+# Show statistics
+python -m src.main stats
+
+# Reset checkpoints
+python -m src.main reset
+
+# Clean old log files (keeps last 7 days)
+python -m src.main clean-logs
+python -m src.main clean-logs --keep-days 3
+python -m src.main clean-logs --dry-run
+
+# Clean all logs and reset checkpoints
+python -m src.main clean-all
+```
+
+### Development
+
+```bash
+# Install dependencies
+pip install -r statement_generator/requirements.txt
+
+# Test a single question without saving
+python -m src.main process --dry-run --question-id cvmcq24001
+```
+
+### High-Level Architecture
+
+#### 4-Phase Pipeline Design
+
+```
+PHASE 1: Critique Extraction
+- Input: critique field (300-800 words of medical explanation)
+- Output: 3-7 atomic statements
+- Constraint: Extract ONLY facts explicitly stated in the critique
+
+PHASE 2: Key Points Extraction
+- Input: key_points array (0-3 pre-formatted bullets)
+- Output: 1-3 refined statements
+- Constraint: Minimal rewriting, same anti-hallucination rules
+
+PHASE 3: Cloze Identification
+- Input: All statements from phases 1-2
+- Output: 2-5 cloze candidates per statement
+- Strategy: Modifier splitting (e.g., "mild" and "hypercalcemia")
+
+PHASE 4: Text Normalization
+- Input: Statements with cloze candidates
+- Output: Normalized symbols ("less than" -> "<", "greater than" -> ">")
+
+FINAL: JSON Augmentation
+- Add true_statements field to existing question JSON
+- Preserve all original fields (non-destructive)
+- Checkpoint each processed question
+```
+
+#### Multi-Provider Abstraction
+
+```
+BaseLLMProvider
+-> AnthropicProvider
+-> ClaudeCodeProvider
+-> GeminiProvider
+-> CodexProvider
+```
+
+#### Provider Selection and Fallback
+
+- Provider settings (model, temperature, keys) are loaded via `--provider` or `LLM_PROVIDER`.
+- Processing uses a provider manager with fallback order: claude-code -> codex -> anthropic -> gemini.
+- User confirmation is required before switching providers on rate limits.
+
+#### Checkpoint/Resume System
+
+- Checkpoint file: `statement_generator/outputs/checkpoints/processed_questions.json`
+- Tracks processed and failed question IDs
+- Atomic writes with batch saves (default: every 10 questions)
+- Safe to interrupt and resume without data loss
+
+#### Non-Destructive JSON Updates
+
+- Adds `true_statements` without modifying any existing fields
+- Preserves all media metadata, question text, and performance data
+- Allows re-running Phase 2 without re-extracting data
+
+### Evidence-Based Flashcard Design
+
+Prompts follow research-backed principles from `docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md`:
+
+1. Atomic facts (one concept per statement)
+2. Anti-hallucination constraints (source-only extraction)
+3. Modifier splitting for clinically important qualifiers
+4. Clinical context in `extra_field` only when source provides it
+5. Concise phrasing (remove patient-specific fluff)
+6. Avoid enumerations (chunk lists into overlapping clozes)
+7. Multiple cloze candidates per statement (2-5)
+
+### Output Structure
+
+Each question JSON is augmented with:
 
 ```json
 {
   "question_id": "cvmcq24001",
   "critique": "...",
-  "key_points": [...],
+  "key_points": ["..."],
   "true_statements": {
     "from_critique": [
       {
-        "statement": "ACE inhibitors are first-line therapy for hypertension in CKD.",
-        "extra_field": "ACE inhibitors reduce proteinuria by decreasing intraglomerular pressure.",
+        "statement": "ACE inhibitors are first-line therapy for hypertension in patients with chronic kidney disease.",
+        "extra_field": "ACE inhibitors reduce proteinuria and slow CKD progression by reducing intraglomerular pressure.",
         "cloze_candidates": ["ACE inhibitors", "chronic kidney disease", "proteinuria"]
       }
     ],
-    "from_key_points": [...]
+    "from_key_points": [
+      {
+        "statement": "Initial management of chronic cough includes tobacco cessation and discontinuation of ACE inhibitor therapy.",
+        "extra_field": null,
+        "cloze_candidates": ["tobacco cessation", "ACE inhibitor"]
+      }
+    ]
   }
 }
 ```
 
-**For complete Phase 2 documentation**, see [statement_generator/CLAUDE.md](statement_generator/CLAUDE.md).
+Field semantics:
+- `statement`: Full sentence without cloze blanks
+- `extra_field`: Clinical context or null if not provided by source
+- `cloze_candidates`: 2-5 terms to blank in Phase 3
+
+### Module Organization
+
+**Core Pipeline Modules**:
+- Pipeline orchestration (critique → key points → cloze → normalization)
+- Critique statement extraction
+- Key points statement extraction
+- Cloze candidate identification
+- Text normalization
+
+**Infrastructure Modules**:
+- CLI entry point and orchestration
+- Configuration and environment loading
+- JSON read/write and augmentation helpers
+- Resume/checkpoint management
+- Multi-provider client wrapper
+- Provider fallback orchestration
+- Pydantic data models
+
+**Provider Implementations**:
+- Anthropic API (API key required)
+- Claude Code CLI (subscription)
+- Gemini CLI (subscription)
+- OpenAI CLI (subscription)
+
+### Critical Design Constraints
+
+- Sequential processing only (LLM-bound, simpler error handling, avoids rate limits)
+- Low temperature default (0.2) to minimize hallucination
+- Non-destructive JSON updates (Phase 1 data is treated as immutable)
+- Checkpoint batching for I/O efficiency and safe resume
+
+### Troubleshooting (Statement Generator)
+
+**Provider setup issues**:
+- Claude CLI missing: install Claude Code CLI or set `CLAUDE_CLI_PATH`
+- Gemini CLI missing: install `google-generativeai` or set `GEMINI_CLI_PATH`
+- OpenAI CLI missing: install `openai` or set `OPENAI_CLI_PATH`
+- Anthropic API key missing: set `ANTHROPIC_API_KEY` in project `.env`
+
+**Processing issues**:
+- Reset checkpoint: `python -m src.main reset`
+- Re-process questions: `python -m src.main process --force --system cv`
+- Remove logs: `python -m src.main clean-logs`
+
+**Data quality issues**:
+- Hallucinated facts: lower temperature, review prompts, compare to critique
+- Missing facts: verify they appear in critique or key_points
+- Invalid JSON response: inspect statement generator logs
+
+### Known Limitations
+
+1. Some CLI providers ignore temperature settings
+2. No automated validation framework yet
+3. No extraction from wrong-answer explanations
+4. No extraction from media (figures/tables captions)
+5. No scenario extraction from question_text
+6. Sequential-only processing (no parallelism)
+
+### References
+
+- `docs/reference/STATEMENT_GENERATOR.md`
+- `docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md`
+- `docs/project/PHASE_2_STATUS.md`
 
 ## Multi-Phase Pipeline Overview
 
@@ -615,7 +796,7 @@ The MKSAP project follows a **4-phase sequential pipeline**:
 **Technology**: Python 3.9+ with LLM providers
 **Input**: Phase 1 JSON files
 **Output**: Augmented JSONs with `true_statements` field
-**Documentation**: [statement_generator/CLAUDE.md](statement_generator/CLAUDE.md)
+**Documentation**: [docs/reference/STATEMENT_GENERATOR.md](docs/reference/STATEMENT_GENERATOR.md)
 
 **Process**:
 - Extract testable facts from critique
@@ -655,7 +836,7 @@ MKSAP_SESSION=<new_cookie> ./target/release/mksap-extractor
 ```
 
 **Browser timeout** (5 minutes):
-- Increase timeout in [extractor/src/login_browser.rs](extractor/src/login_browser.rs)
+- Increase the browser login timeout in the auth settings
 - Or manually extract cookie from browser DevTools:
   1. Login to MKSAP in browser
   2. Open DevTools (F12)
@@ -672,13 +853,13 @@ MKSAP_SESSION=<new_cookie> ./target/release/mksap-extractor
 
 **Rate limiting (429)**:
 - Extractor automatically retries with 60-second backoff
-- If persistent, increase delay in [retry.rs](extractor/src/retry.rs)
+- If persistent, increase the retry delay in the retry settings
 - Run during off-peak hours (evenings, weekends)
 - Only run one extractor instance at a time
 
 **Timeouts**:
 - Check network speed: `speedtest-cli`
-- Increase timeout in [retry.rs](extractor/src/retry.rs)
+- Increase timeout in the retry settings
 - Enable debug logging: `RUST_LOG=debug ./target/release/mksap-extractor`
 
 **Connection resets**:
@@ -774,7 +955,7 @@ cat mksap_data/validation_report.txt
 ```
 
 **Manual testing checklist**:
-1. Run extraction on single system: modify config.rs
+1. Run extraction on a single system: use configuration or CLI filtering
 2. Validate JSON structure: check validation_report.txt
 3. Verify media downloads: check figures/ directories
 4. Test resume functionality: Ctrl+C during extraction, re-run
@@ -801,7 +982,7 @@ cat mksap_data/validation_report.txt
 - **[EXTRACTION_SCOPE.md](docs/project/EXTRACTION_SCOPE.md)** - Extraction scope definition
 
 ### Reference
-- **[QUESTION_ID_DISCOVERY.md](docs/reference/QUESTION_ID_DISCOVERY.md)** - Understanding question discovery (historical)
+- **[QUESTION_ID_DISCOVERY.md](docs/project/archive/phase-1/QUESTION_ID_DISCOVERY.md)** - Historical question discovery analysis
 - **[EXTRACTION_OVERVIEW.md](docs/reference/EXTRACTION_OVERVIEW.md)** - Extraction implementation overview
 - **[DESERIALIZATION_ISSUES.md](docs/reference/DESERIALIZATION_ISSUES.md)** - API response variations
 
@@ -815,27 +996,27 @@ cat mksap_data/validation_report.txt
 ### Making Changes
 
 1. **Read relevant modules** - Architecture is modular and well-documented
-2. **Test locally** - Run extraction on a single system (modify config.rs)
+2. **Test locally** - Run extraction on a single system (config or CLI filter)
 3. **Validate output** - Use built-in validator
 4. **Check conventions** - Follow Rust 2021 style (run `cargo fmt`)
 
 ### Code Organization Principles
 
 **DRY (Don't Repeat Yourself)**:
-- System codes defined once in config.rs
-- Authentication logic in auth.rs, used by both extractors
-- Retry logic in retry.rs, shared across HTTP operations
+- System codes defined once in the configuration module
+- Authentication logic centralized in the auth subsystem
+- Retry logic centralized for shared HTTP operations
 
 **Separation of Concerns**:
-- Discovery (discovery.rs) separate from extraction (extractor.rs)
-- File I/O (io.rs) separate from business logic
-- Validation (validator.rs) separate from extraction
+- Discovery separate from extraction
+- File I/O separate from business logic
+- Validation separate from extraction
 
 **Error Handling**:
 - Use `anyhow::Result` for fallible operations
 - Add context with `.context("description")`
 - Log errors with `tracing::error!`
-- Retry transient errors with retry.rs helpers
+- Retry transient errors with retry helpers
 
 ### Commit Guidelines
 
@@ -920,9 +1101,9 @@ git commit -m "docs: update module organization in CLAUDE.md"
 - **Report**: [PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md)
 
 **Phase 2 Status**:
-- **Implementation**: ~90% complete (see [statement_generator/IMPLEMENTATION_STATUS.md](statement_generator/IMPLEMENTATION_STATUS.md))
+- **Implementation**: ~90% complete (see [docs/project/PHASE_2_STATUS.md](docs/project/PHASE_2_STATUS.md))
 - **Remaining**: Provider testing, validation framework
-- **Documentation**: [statement_generator/CLAUDE.md](statement_generator/CLAUDE.md)
+- **Documentation**: [docs/reference/STATEMENT_GENERATOR.md](docs/reference/STATEMENT_GENERATOR.md)
 
 **Check Progress**:
 ```bash

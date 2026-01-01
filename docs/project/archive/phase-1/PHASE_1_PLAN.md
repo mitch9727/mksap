@@ -41,7 +41,7 @@
 3. Determine exact question count per system
    - Execute discovery against live API
    - Generate final counts: System → Total Questions
-   - Compare to current config.rs targets
+   - Compare to current configuration targets
    - Identify which systems are missing question types
 
 4. Document findings
@@ -50,13 +50,9 @@
    - Note any API inconsistencies discovered
    - Record timestamp of discovery (for reproducibility)
 
-**Deliverable:** Final question count verified and documented. Ready for config.rs update.
+**Deliverable:** Final question count verified and documented. Ready for configuration update.
 
-**Success Check:**
-```bash
-# Should confirm total of 2,198 questions
-grep "total_questions" text_extractor/src/config.rs | awk '{sum+=$NF} END {print sum}'
-```
+**Success Check:** Confirm totals match 2,198 using discovery metadata or validation output.
 
 **Risk:** API endpoint may have changed or be unavailable. Fallback: Use pattern-based discovery algorithm from Question ID Discovery.md.
 
@@ -68,11 +64,11 @@ grep "total_questions" text_extractor/src/config.rs | awk '{sum+=$NF} END {print
 
 **Objective:** Update Rust extractor configuration to target all 2,198 questions.
 
-**Current File:** `text_extractor/src/config.rs` (lines 23-162)
+**Current Module:** System configuration
 
 **Action Items:**
 
-1. Open `text_extractor/src/config.rs`
+1. Open the system configuration list
    - Locate the `ORGAN_SYSTEMS` array (should be 16 system codes)
    - Each system has: `id`, `name`, `url_slug`, `api_code`, `total_questions`
 
@@ -84,12 +80,12 @@ grep "total_questions" text_extractor/src/config.rs | awk '{sum+=$NF} END {print
 3. Add support for missing question types if needed
    - Current config may only target `mcq` type
    - If discovery revealed `vdx`, `cor`, `qqq`, `mqq`, `sq` questions, ensure extraction logic targets these
-   - Check `extractor.rs` for question type handling
+   - Check extraction logic for question type handling
    - Update question ID pattern matching if needed
 
 4. Test configuration
    ```bash
-   cd text_extractor
+   cd extractor
    cargo build --release
    # Should compile without errors
    ```
@@ -99,7 +95,7 @@ grep "total_questions" text_extractor/src/config.rs | awk '{sum+=$NF} END {print
    - Compare total against 2,198
    - Should match exactly
 
-**Deliverable:** `text_extractor/src/config.rs` updated with accurate counts. Code compiles successfully.
+**Deliverable:** System configuration updated with accurate counts. Code compiles successfully.
 
 **Success Check:**
 ```bash
@@ -117,12 +113,12 @@ grep "total_questions" text_extractor/src/config.rs | awk '{sum+=$NF} END {print
 
 **Objective:** Ensure extractor handles all 6 question types (cor, mcq, qqq, mqq, vdx, sq).
 
-**Current File:** `text_extractor/src/extractor.rs`
+**Current Module:** Extraction pipeline
 
 **Action Items:**
 
 1. Review extractor logic for question type handling
-   - Search for "question type" or "suffix" patterns in extractor.rs
+   - Search for "question type" or "suffix" patterns in the extraction logic
    - Identify how question IDs are generated/validated
    - Check if it hardcodes "mcq" or supports variable types
 
@@ -169,13 +165,13 @@ grep "total_questions" text_extractor/src/config.rs | awk '{sum+=$NF} END {print
 
 1. Prepare extraction environment
    ```bash
-   cd /Users/Mitchell/coding/projects/MKSAP
+   cd /path/to/MKSAP
 
    # Ensure session cookie is set
    export MKSAP_SESSION=<your_valid_session_cookie>
 
    # Optional: Override request delay for faster extraction
-   # Edit text_extractor/src/extractor.rs: REQUEST_DELAY_MS
+   # Update the request delay setting in extraction configuration
    ```
 
 2. Start extraction
@@ -228,9 +224,9 @@ ls -1 mksap_data_failed/ 2>/dev/null | wc -l
 |-------|----------|
 | Slow extraction (hours) | Normal due to rate limiting. Run overnight or in background. |
 | Session expires mid-extraction | Restart with fresh session cookie. Checkpoints preserve progress. |
-| HTTP 429 (rate limit) | Automatic backoff. Or increase REQUEST_DELAY_MS in extractor.rs. |
+| HTTP 429 (rate limit) | Automatic backoff. Or increase the request delay setting. |
 | Connection timeout | Check network. Retry operation. |
-| Deserialization error | Document in DESERIALIZATION_ISSUES.md. May need models.rs update. |
+| Deserialization error | Document in DESERIALIZATION_ISSUES.md. May need data model update. |
 
 **Dependencies:** Requires Tasks 1-3 to be complete.
 
@@ -259,7 +255,7 @@ ls -1 mksap_data_failed/ 2>/dev/null | wc -l
 
 3. Handle rate limiting
    - If HTTP 429 errors appear: Normal, automatic backoff active
-   - If persistent 429s: Increase REQUEST_DELAY_MS in extractor.rs
+   - If persistent 429s: Increase the request delay setting
      - Current: 500ms (conservative)
      - Try: 750ms or 1000ms if needed
      - Recompile and retry failed extraction
@@ -346,7 +342,7 @@ grep -i "error\|critical" mksap_data/validation_report.txt
 | Issue | Cause | Solution |
 |-------|-------|----------|
 | Missing 'critique' field | API didn't return it | Re-extract that question using retry logic |
-| Invalid JSON structure | Deserialization issue | Document in DESERIALIZATION_ISSUES.md, update models.rs if needed |
+| Invalid JSON structure | Deserialization issue | Document in DESERIALIZATION_ISSUES.md, update data models if needed |
 | Missing media references | Media extraction didn't run | See Task 7 |
 | Count < 2,198 | Extraction incomplete | Verify all systems processed, re-run failed extractions |
 
@@ -465,8 +461,8 @@ find mksap_data -path "*/figures/*" -type f | wc -l
    - Include: Field name, possible values/structures, example questions
    - Note: Workaround or planned fix
 
-5. Validate models.rs handles variations
-   - If issues found, check if `models.rs` uses flexible deserialization
+5. Validate data models handle variations
+   - If issues found, check if flexible deserialization is in use
    - Anyhow/serde should handle most variations
    - Document if manual fix needed
 
@@ -616,7 +612,7 @@ cat mksap_data/validation_report.txt | grep -i critical | wc -l
 **If errors > 10% of questions:**
 - PAUSE extraction
 - Investigate error pattern
-- Update models.rs to handle variation
+- Update data models to handle variation
 - Recompile and re-run extraction on failed questions
 
 ### Risk: Media Not Fully Downloaded

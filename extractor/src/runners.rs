@@ -3,7 +3,7 @@
 use anyhow::Result;
 use std::fs;
 use std::path::Path;
-use tracing::{error, info};
+use tracing::{debug, error, info};
 
 use crate::assets::{asset_discovery, asset_download, svg_download};
 use crate::cli::MediaOptions;
@@ -17,7 +17,7 @@ pub async fn run_extraction(
     output_dir: &str,
     refresh_existing: bool,
 ) -> Result<()> {
-    info!("\n=== PHASE 2: FULL CATEGORY EXTRACTION ===");
+    debug!("\n=== PHASE 2: FULL CATEGORY EXTRACTION ===");
     info!(
         "Starting extraction for all {} categories...\n",
         categories.len()

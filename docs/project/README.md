@@ -11,11 +11,11 @@ For historical extraction metrics, see [reports/](reports/) directory.
 
 ## Project Goal
 
-Extract the full MKSAP question bank into structured JSON using the Rust API-based extractor, then use that data for downstream processing (Markdown/Anki generation).
+Extract the full MKSAP question bank into structured JSON using the Rust API-based extractor, then use that data for downstream processing starting with Phase 2 statement generation and later cloze/Anki export.
 
 ## System Architecture
 
-The extractor is configured to handle **16 question system codes** (see [config.rs](../../extractor/src/config.rs)):
+The extractor is configured to handle **16 question system codes** (see the configuration module):
 
 **System Prefixes**:
 - cv (Cardiovascular), en (Endocrinology), fc (Foundations), cs (Common Symptoms)
@@ -47,13 +47,23 @@ This approach ensures extraction targets reflect the current API state, not outd
 - Built-in discovery-based validation
 - CLI commands for metadata inspection and media discovery/download
 
+## Phase 2: Statement Generator
+
+Phase 2 extracts atomic, testable facts from critique and key_points fields using LLMs and augments each JSON with `true_statements`.
+
+- **Reference**: [STATEMENT_GENERATOR.md](../reference/STATEMENT_GENERATOR.md)
+- **Status**: [PHASE_2_STATUS.md](PHASE_2_STATUS.md)
+- **Flashcard Design**: [CLOZE_FLASHCARD_BEST_PRACTICES.md](../reference/CLOZE_FLASHCARD_BEST_PRACTICES.md)
+
 ## Key Paths
 
-- `extractor/src/` - Rust extractor source
+- Rust extractor source (crate modules)
+- `statement_generator/` - Phase 2 statement generator (Python)
 - `mksap_data/` - Extracted JSON output by system
 - `mksap_data/.checkpoints/discovery_metadata.json` - API discovery statistics
 - `docs/reference/` - Setup, usage, and troubleshooting
 - `docs/reference/EXTRACTION_OVERVIEW.md` - Extraction status and scope overview
+- `docs/reference/STATEMENT_GENERATOR.md` - Phase 2 usage and CLI reference
 
 ## Discovery-Based Completion Tracking
 
@@ -135,14 +145,16 @@ The extractor produces clean, production-grade output by default:
 
 # Sample output (consolidated per-system results):
 [1/16] Processing: Cardiovascular Medicine
+✓ cv: Discovered 240 questions (1 types)
 ✓ cv: Extracted 0 new, 240 already extracted
 
 [2/16] Processing: Endocrinology and Metabolism
+✓ en: Discovered 160 questions (1 types)
 ✓ en: Extracted 0 new, 160 already extracted
 ```
 
 Output features:
-- Discovery logs include candidate/tested counts and discovered IDs
+- Discovery summaries: `✓ {system}: Discovered {count} questions ({types} types)`
 - Extraction results: `✓ {system}: Extracted {new} new, {existing} already extracted`
 - Errors and warnings are always displayed (independent of log level)
 - No redundant category name repetition
@@ -157,7 +169,7 @@ RUST_LOG=debug ./target/release/mksap-extractor
 ```
 
 This enables:
-- Discovery phase details: Which candidates are being tested, hit rate
+- Discovery phase details: Which candidates are being tested, hit rate, and progress
 - Directory creation logs: When question folders are created
 - Extraction phase details: Concurrency level and progress
 - All debug-level tracing information

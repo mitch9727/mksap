@@ -35,19 +35,19 @@
 
 ### Task 2: Update Configuration with Accurate Counts
 - **Status:** ⬜ Pending
-- **Details:** Update text_extractor/src/config.rs with all 16 systems and accurate targets
+- **Details:** Update system configuration with all 16 systems and accurate targets
 - **Sub-tasks:**
-  - ⬜ Open config.rs
+  - ⬜ Open the system configuration list
   - ⬜ Update ORGAN_SYSTEMS array (16 systems, all question types)
   - ⬜ Test compilation
   - ⬜ Verify question ID generation
-- **Success Criteria:** config.rs compiles, targets 2,198 questions total
+- **Success Criteria:** Configuration compiles, targets 2,198 questions total
 
 ### Task 3: Verify Question Type Support in Extractor
 - **Status:** ⬜ Pending
 - **Details:** Ensure extractor supports all 6 question types (cor, mcq, qqq, mqq, vdx, sq)
 - **Sub-tasks:**
-  - ⬜ Review extractor.rs for question type handling
+  - ⬜ Review extraction logic for question type handling
   - ⬜ Test each question type via API (6 manual tests)
   - ⬜ Update logic if needed for all types
   - ⬜ Document QUESTION_TYPES_SUPPORT.md
@@ -103,7 +103,7 @@
 - **Sub-tasks:**
   - ⬜ Review existing DESERIALIZATION_ISSUES.md
   - ⬜ Scan 50 random questions for type variations
-  - ⬜ Check if models.rs handles variations correctly
+  - ⬜ Check if data models handle variations correctly
   - ⬜ Document any new patterns in DESERIALIZATION_ISSUES.md
 - **Success Criteria:** All JSONs parse cleanly, no critical deserialization blockers
 
@@ -181,7 +181,7 @@
 - ⬜ Create: PHASE_4_PLAN.md (after Phase 3)
 
 ### Code Organization
-- 🟩 Completed: Rust workspace structure (text_extractor, media_extractor)
+- 🟩 Completed: Rust workspace structure (extractor + media tooling)
 - ⬜ Pending: Phase 2 Claude Code skill creation
 - ⬜ Pending: Phase 3 modular Rust pipeline
 
@@ -195,15 +195,15 @@
 3. Update this file as you progress
 
 **For Reference Documentation:**
-- Installation: [docs/reference/RUST_SETUP.md](../reference/RUST_SETUP.md)
-- Running: [docs/reference/RUST_USAGE.md](../reference/RUST_USAGE.md)
-- Architecture: [docs/reference/RUST_ARCHITECTURE.md](../reference/RUST_ARCHITECTURE.md)
-- Validation: [docs/reference/VALIDATION.md](../reference/VALIDATION.md)
-- Troubleshooting: [docs/reference/TROUBLESHOOTING.md](../reference/TROUBLESHOOTING.md)
+- Installation: [docs/reference/RUST_SETUP.md](../../../reference/RUST_SETUP.md)
+- Running: [docs/reference/RUST_USAGE.md](../../../reference/RUST_USAGE.md)
+- Architecture: [docs/reference/RUST_ARCHITECTURE.md](../../../reference/RUST_ARCHITECTURE.md)
+- Validation: [docs/reference/VALIDATION.md](../../../reference/VALIDATION.md)
+- Troubleshooting: [docs/reference/TROUBLESHOOTING.md](../../../reference/TROUBLESHOOTING.md)
 
 **For Analysis & Planning:**
-- Question count justification: [docs/reference/QUESTION_ID_DISCOVERY.md](../reference/QUESTION_ID_DISCOVERY.md)
-- Media extraction reference: [docs/reference/VIDEO_SVG_EXTRACTION.md](../reference/VIDEO_SVG_EXTRACTION.md)
+- Question count justification: [docs/project/archive/phase-1/QUESTION_ID_DISCOVERY.md](QUESTION_ID_DISCOVERY.md)
+- Media extraction reference: [docs/specifications/VIDEO_SVG_EXTRACTION.md](../../../specifications/VIDEO_SVG_EXTRACTION.md)
 
 ---
 

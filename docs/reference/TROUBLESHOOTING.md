@@ -30,18 +30,13 @@ ERROR: Login timed out. Please run the extractor again and complete login within
    - Ensure ACP account is active
    - Try manual login in browser first
 
-3. **Increase timeout** (in `src/main.rs`):
-   ```rust
-   const LOGIN_TIMEOUT_SECONDS: u64 = 600;  // Increase to 10 minutes
-   ```
+3. **Increase timeout**:
+   - Increase the browser login timeout in the auth settings (code configuration)
 
 4. **Manual session cookie**:
    - Log in manually at https://mksap.acponline.org
    - Extract session cookie using browser dev tools
-   - Add to `src/main.rs`:
-   ```rust
-   const SESSION_COOKIE: &str = "your-cookie-here";
-   ```
+   - Set `MKSAP_SESSION` for the extractor process
 
 #### "Invalid Session" Errors
 
@@ -121,10 +116,8 @@ HTTP 429: Too Many Requests
 
 **Solutions**:
 
-1. **Increase delay** (in `src/extractor.rs`):
-   ```rust
-   const REQUEST_DELAY_MS: u64 = 1000;  // Increase to 1 second
-   ```
+1. **Increase delay**:
+   - Increase the request delay in the extraction settings (code configuration)
 
 2. **Stop other extractions**:
    - Only run one extractor instance
@@ -149,10 +142,8 @@ ERROR: Request timed out after 30 seconds
 
 **Solutions**:
 
-1. **Increase timeout** (in `src/main.rs`):
-   ```rust
-   const REQUEST_TIMEOUT_SECS: u64 = 60;  // Increase timeout
-   ```
+1. **Increase timeout**:
+   - Increase the request timeout in the extraction settings (code configuration)
 
 2. **Check network speed**:
    ```bash
@@ -183,7 +174,7 @@ ERROR: No space left on device
 1. **Check available space**:
    ```bash
    df -h
-   du -sh /Users/Mitchell/coding/projects/MKSAP
+   du -sh /path/to/MKSAP
    ```
 
 2. **Estimate space needed**:
@@ -194,7 +185,7 @@ ERROR: No space left on device
 3. **Free up space**:
    ```bash
    # Remove old builds
-   cd /Users/Mitchell/coding/projects/MKSAP
+   cd /path/to/MKSAP
    cargo clean  # Frees 2GB
 
    # Move existing data
@@ -253,7 +244,7 @@ ERROR: Permission denied (os error 13)
 
 1. **Fix directory permissions**:
    ```bash
-   cd /Users/Mitchell/coding/projects/MKSAP
+   cd /path/to/MKSAP
    chmod 755 mksap_data/
    chmod -R 755 mksap_data/*
    ```
@@ -342,10 +333,7 @@ error: failed to resolve: use of undeclared crate `tokio`
    ```
 
 2. **Reduce rate limiting** (carefully):
-   ```rust
-   // In src/extractor.rs
-   const REQUEST_DELAY_MS: u64 = 100;  // From 500
-   ```
+   - Decrease the request delay in the extraction settings (code configuration)
 
 3. **Monitor system resources**:
    ```bash
@@ -378,13 +366,9 @@ error: failed to resolve: use of undeclared crate `tokio`
 
 ### Enable Verbose Logging
 
-The extractor uses `tracing`. To see more details, modify `src/main.rs`:
-
-```rust
-tracing_subscriber::fmt()
-    .with_max_level(tracing::Level::DEBUG)  // From INFO
-    .init();
-```
+The extractor uses `tracing`. To see more details, enable debug logging in the
+logging configuration (code change) or run with a debug-enabled build if
+available.
 
 Then rebuild:
 ```bash

@@ -1,7 +1,7 @@
 # Deprecated Baseline Counts
 
 This file archives historical baseline question counts from the initial MKSAP 2024
-release. These values previously lived in `extractor/src/config.rs` as
+release. These values previously lived in the extractor configuration module as
 `baseline_2024_count` and were used as a fallback when discovery metadata was
 missing.
 

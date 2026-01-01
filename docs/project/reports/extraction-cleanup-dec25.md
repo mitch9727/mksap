@@ -15,7 +15,7 @@ Successfully diagnosed and fixed critical data inconsistencies in the MKSAP ques
 - `in/` directory: 110 questions with correct category ("in")
 - These directories contained the SAME questions with different metadata
 
-**Root Cause**: Configuration bug in `extractor/src/main.rs:183` used wrong API path slug
+**Root Cause**: Configuration bug in extractor routing used wrong API path slug
 ```rust
 // BEFORE (WRONG):
 path: "/app/question-bank/content-areas/dmin/answered-questions".to_string(),
@@ -30,12 +30,12 @@ path: "/app/question-bank/content-areas/in/answered-questions".to_string(),
 - Final IN system: 110 unique questions
 
 ### 2. **Source Code Bug** ✅
-**File**: `extractor/src/main.rs:183`
+**Component**: Extractor configuration
 **Change**: Fixed category path from `dmin` → `in`
 **Impact**: Prevents future category metadata corruption when extracting IN questions
 
 ### 3. **Validator Workaround** ✅
-**File**: `extractor/src/validator.rs:47-52`
+**Component**: Validation logic
 **Removed**: Band-aid fix that normalized "dmin" to "in" in validation
 **Impact**: Validator now works correctly without masking the root cause
 
@@ -119,8 +119,8 @@ Three systems significantly below target:
 ## Files Modified
 
 ### Source Code
-- `extractor/src/main.rs:183` - Fixed category path
-- `extractor/src/validator.rs:47-52` - Removed normalization workaround
+- Extractor configuration - Fixed category path
+- Validation logic - Removed normalization workaround
 
 ### Data & Logs
 - Deleted: `mksap_data/dmin/` directory (110 questions moved to in/)
@@ -142,7 +142,7 @@ Three systems significantly below target:
    - Check if low counts are expected or indicate real gaps
 
 2. **Document 2024 vs 2025 expectations**
-   - Update `config.rs` to track year-based expectations
+   - Update configuration to track year-based expectations
    - Consider splitting validation by year for better accuracy
 
 3. **Commit cleaned-up state**

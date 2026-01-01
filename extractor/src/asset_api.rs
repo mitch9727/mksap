@@ -5,8 +5,6 @@ use serde_json::Value;
 use std::path::Path;
 use tracing::warn;
 
-use super::table_render::render_table_html;
-
 #[derive(Debug, Deserialize)]
 struct FigureResponse {
     pub id: String,
@@ -31,10 +29,39 @@ pub struct TableResponse {
     pub json_content: Value,
 }
 
-#[derive(Debug)]
-pub struct TableDownload {
-    pub path: String,
-    pub table: TableResponse,
+pub async fn fetch_table(
+    client: &Client,
+    base_url: &str,
+    table_id: &str,
+) -> Result<Option<TableResponse>> {
+    let url = crate::endpoints::table_json(base_url, table_id);
+    let response = match client.get(&url).send().await {
+        Ok(resp) => resp,
+        Err(err) => {
+            warn!(
+                "Failed to reach API for table {}: {}. Retry later.",
+                table_id, err
+            );
+            return Ok(None);
+        }
+    };
+    if response.status() == reqwest::StatusCode::NOT_FOUND {
+        warn!("Table not found: {}", table_id);
+        return Ok(None);
+    }
+    let response = match response.error_for_status() {
+        Ok(resp) => resp,
+        Err(err) => {
+            warn!("Failed to fetch table {}: {}", table_id, err);
+            return Ok(None);
+        }
+    };
+    let table = response
+        .json::<TableResponse>()
+        .await
+        .context("Failed to decode table JSON")?;
+
+    Ok(Some(table))
 }
 
 pub async fn fetch_question_json(
@@ -116,57 +143,4 @@ pub async fn download_figure(
 
     let relative = Path::new("figures").join(&filename);
     Ok(Some(relative.to_string_lossy().to_string()))
-}
-
-pub async fn download_table(
-    client: &Client,
-    base_url: &str,
-    question_dir: &Path,
-    table_id: &str,
-) -> Result<Option<TableDownload>> {
-    let url = crate::endpoints::table_json(base_url, table_id);
-    let response = match client.get(&url).send().await {
-        Ok(resp) => resp,
-        Err(err) => {
-            warn!(
-                "Failed to reach API for table {}: {}. Retry later.",
-                table_id, err
-            );
-            return Ok(None);
-        }
-    };
-    if response.status() == reqwest::StatusCode::NOT_FOUND {
-        warn!("Table not found: {}", table_id);
-        return Ok(None);
-    }
-    let response = match response.error_for_status() {
-        Ok(resp) => resp,
-        Err(err) => {
-            warn!("Failed to fetch table {}: {}", table_id, err);
-            return Ok(None);
-        }
-    };
-    let table = response
-        .json::<TableResponse>()
-        .await
-        .context("Failed to decode table JSON")?;
-
-    let html = render_table_html(&table.json_content);
-    let filename = format!("{}.html", table.id);
-    let dest_dir = question_dir.join("tables");
-    std::fs::create_dir_all(&dest_dir)?;
-    let dest_path = dest_dir.join(&filename);
-    if !dest_path.exists() {
-        std::fs::write(&dest_path, html)?;
-    }
-
-    let relative = Path::new("tables")
-        .join(&filename)
-        .to_string_lossy()
-        .to_string();
-
-    Ok(Some(TableDownload {
-        path: relative,
-        table,
-    }))
 }

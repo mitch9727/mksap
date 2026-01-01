@@ -45,13 +45,13 @@ pub enum SvgSource {
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct QuestionMedia {
     pub subspecialty: Option<String>,
-    #[serde(skip_serializing_if = "Vec::is_empty")]
+    #[serde(skip_serializing_if = "Vec::is_empty", default)]
     pub figures: Vec<FigureReference>,
-    #[serde(skip_serializing_if = "Vec::is_empty")]
+    #[serde(skip_serializing_if = "Vec::is_empty", default)]
     pub tables: Vec<TableReference>,
-    #[serde(skip_serializing_if = "Vec::is_empty")]
+    #[serde(skip_serializing_if = "Vec::is_empty", default)]
     pub videos: Vec<VideoReference>,
-    #[serde(skip_serializing_if = "Vec::is_empty")]
+    #[serde(skip_serializing_if = "Vec::is_empty", default)]
     pub svgs: Vec<SvgReference>,
 }
 

@@ -5,7 +5,7 @@ use std::collections::{HashMap, HashSet};
 use std::path::Path;
 use tracing::{info, warn};
 
-use super::asset_api::{download_figure, download_table, fetch_question_json, TableResponse};
+use super::asset_api::{download_figure, fetch_question_json, fetch_table, TableResponse};
 use super::asset_metadata::{extract_html_text, for_each_figure_snapshot};
 use super::asset_store::{
     collect_question_entry_map, load_discovery_results, select_targets, update_question_json,
@@ -15,7 +15,7 @@ use super::content_ids::{
     classify_content_id, collect_inline_table_nodes, extract_content_ids,
     extract_table_ids_from_tables_content, inline_table_id, ContentIdKind,
 };
-use super::table_render::{pretty_format_html, render_node};
+use super::table_render::{pretty_format_html, render_node, render_table_html};
 
 pub async fn run_media_download(
     client: &Client,
@@ -26,14 +26,19 @@ pub async fn run_media_download(
     download_figures: bool,
     download_tables: bool,
 ) -> Result<()> {
-    let discovery_path = Path::new(discovery_file);
-    let discovered_ids = load_discovery_results(discovery_path)?;
-    if discovered_ids.is_empty() {
-        warn!(
-            "No questions found in discovery file: {}",
-            discovery_path.display()
-        );
-    }
+    let discovered_ids = if question_id.is_none() {
+        let discovery_path = Path::new(discovery_file);
+        let discovered_ids = load_discovery_results(discovery_path)?;
+        if discovered_ids.is_empty() {
+            warn!(
+                "No questions found in discovery file: {}",
+                discovery_path.display()
+            );
+        }
+        discovered_ids
+    } else {
+        HashSet::new()
+    };
 
     let figure_metadata_by_id = if download_figures {
         load_figure_metadata(client, base_url).await?
@@ -42,7 +47,11 @@ pub async fn run_media_download(
     };
 
     let entry_map = collect_question_entry_map(data_dir)?;
-    let targets = select_targets(question_id, &discovered_ids, "discovery file")?;
+    let targets = if let Some(question_id) = question_id {
+        vec![question_id.to_string()]
+    } else {
+        select_targets(None, &discovered_ids, "discovery file")?
+    };
     info!("Processing {} questions for media downloads", targets.len());
 
     for (idx, qid) in targets.iter().enumerate() {
@@ -121,6 +130,7 @@ async fn collect_media_updates(
     let mut seen_images = HashSet::new();
     let mut seen_figure_metadata = HashSet::new();
     let mut seen_table_metadata = HashSet::new();
+    let mut table_html_index = HashMap::new();
 
     let content_ids = extract_content_ids(question);
     for content_id in content_ids {
@@ -138,13 +148,14 @@ async fn collect_media_updates(
                 }
             }
             Some(ContentIdKind::Table) if download_tables => {
-                if let Some(download) =
-                    download_table(client, base_url, question_dir, &content_id).await?
-                {
-                    let path = download.path.clone();
+                if let Some(table) = fetch_table(client, base_url, &content_id).await? {
+                    let html = render_table_html(&table.json_content);
+                    let filename = format!("{}.html", table.id);
+                    let path =
+                        store_table_html(question_dir, &filename, &html, &mut table_html_index)?;
                     push_unique(&mut update.tables, &mut seen_tables, Some(path.clone()));
-                    if seen_table_metadata.insert(download.table.id.clone()) {
-                        let metadata = build_table_metadata(&download.table, Some(path));
+                    if seen_table_metadata.insert(table.id.clone()) {
+                        let metadata = build_table_metadata(&table, Some(path));
                         update.metadata.tables.push(metadata);
                     }
                 }
@@ -155,13 +166,13 @@ async fn collect_media_updates(
 
     if download_tables {
         for table_id in extract_table_ids_from_tables_content(question) {
-            if let Some(download) =
-                download_table(client, base_url, question_dir, &table_id).await?
-            {
-                let path = download.path.clone();
+            if let Some(table) = fetch_table(client, base_url, &table_id).await? {
+                let html = render_table_html(&table.json_content);
+                let filename = format!("{}.html", table.id);
+                let path = store_table_html(question_dir, &filename, &html, &mut table_html_index)?;
                 push_unique(&mut update.tables, &mut seen_tables, Some(path.clone()));
-                if seen_table_metadata.insert(download.table.id.clone()) {
-                    let metadata = build_table_metadata(&download.table, Some(path));
+                if seen_table_metadata.insert(table.id.clone()) {
+                    let metadata = build_table_metadata(&table, Some(path));
                     update.metadata.tables.push(metadata);
                 }
             }
@@ -170,17 +181,9 @@ async fn collect_media_updates(
         let inline_tables = extract_inline_tables(question);
         for (index, html) in inline_tables.iter().enumerate() {
             let filename = format!("inline_table_{}.html", index + 1);
-            let dest_dir = question_dir.join("tables");
-            std::fs::create_dir_all(&dest_dir)?;
-            let dest_path = dest_dir.join(&filename);
-            if !dest_path.exists() {
-                let formatted = pretty_format_html(&html.html);
-                std::fs::write(&dest_path, formatted)?;
-            }
-            let relative = Path::new("tables")
-                .join(&filename)
-                .to_string_lossy()
-                .to_string();
+            let formatted = pretty_format_html(&html.html);
+            let relative =
+                store_table_html(question_dir, &filename, &formatted, &mut table_html_index)?;
             if seen_tables.insert(relative.clone()) {
                 update.tables.push(relative.clone());
             }
@@ -188,7 +191,7 @@ async fn collect_media_updates(
             if seen_table_metadata.insert(inline_id.clone()) {
                 update.metadata.tables.push(TableMetadata {
                     table_id: inline_id,
-                    file: Some(relative),
+                    file: Some(relative.clone()),
                     title: None,
                     short_title: None,
                     footnotes: Vec::new(),
@@ -207,6 +210,31 @@ fn push_unique(target: &mut Vec<String>, seen: &mut HashSet<String>, value: Opti
             target.push(value);
         }
     }
+}
+
+fn store_table_html(
+    question_dir: &Path,
+    filename: &str,
+    html: &str,
+    table_html_index: &mut HashMap<String, String>,
+) -> Result<String> {
+    if let Some(existing) = table_html_index.get(html) {
+        return Ok(existing.clone());
+    }
+
+    let dest_dir = question_dir.join("tables");
+    std::fs::create_dir_all(&dest_dir)?;
+    let dest_path = dest_dir.join(filename);
+    if !dest_path.exists() {
+        std::fs::write(&dest_path, html)?;
+    }
+
+    let relative = Path::new("tables")
+        .join(filename)
+        .to_string_lossy()
+        .to_string();
+    table_html_index.insert(html.to_string(), relative.clone());
+    Ok(relative)
 }
 
 fn extract_inline_tables(question: &Value) -> Vec<InlineTable> {

@@ -41,10 +41,15 @@ fn render_attrs(attrs: Option<&Value>) -> String {
     let mut pairs = Vec::new();
     for (key, value) in map {
         if let Some(val_str) = value.as_str() {
-            pairs.push(format!(" {}=\"{}\"", key, escape_html(val_str)));
+            pairs.push((key, val_str));
         }
     }
-    pairs.join("")
+    pairs.sort_by(|(left, _), (right, _)| left.cmp(right));
+    pairs
+        .into_iter()
+        .map(|(key, val_str)| format!(" {}=\"{}\"", key, escape_html(val_str)))
+        .collect::<Vec<_>>()
+        .join("")
 }
 
 fn escape_html(input: &str) -> String {

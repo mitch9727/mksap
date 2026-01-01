@@ -42,9 +42,9 @@ pub struct DiscoveryStatistics {
     pub by_product_type: HashMap<String, usize>,
 
     // Video question tracking by subspecialty
-    #[serde(skip_serializing)]
+    #[serde(skip_serializing, default)]
     pub video_questions_by_subspecialty: HashMap<String, Vec<String>>,
-    #[serde(skip_serializing_if = "Vec::is_empty")]
+    #[serde(skip_serializing_if = "Vec::is_empty", default)]
     pub video_question_ids: Vec<String>,
 
     // Error tracking

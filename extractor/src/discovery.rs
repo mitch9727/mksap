@@ -11,7 +11,6 @@ use tokio::time::sleep;
 use tracing::debug;
 
 use crate::models::{DiscoveryMetadata, DiscoveryMetadataCollection};
-use crate::reporting::log_discovery_result;
 use crate::utils::parse_env;
 
 use super::{MKSAPExtractor, CHECKPOINT_DIR_NAME, QUESTION_TYPE_CODES};
@@ -30,8 +29,6 @@ impl MKSAPExtractor {
         if !refresh {
             if let Some(ids) = self.load_checkpoint_ids(category_code)? {
                 if !ids.is_empty() {
-                    let question_types_found = self.collect_question_types(&ids);
-                    log_discovery_result(category_code, ids.len(), &question_types_found);
                     debug!("Loaded {} valid question IDs from checkpoint", ids.len());
                     return Ok(ids);
                 }
@@ -122,7 +119,6 @@ impl MKSAPExtractor {
         collection.last_updated = Utc::now().to_rfc3339();
 
         self.save_discovery_metadata(&collection)?;
-        log_discovery_result(question_prefix, discovered_count, &question_types_found);
         debug!(
             "Discovery complete for {}: found {} valid questions out of {} candidates ({:.2}% hit rate)",
             question_prefix, discovered_count, total_to_try, hit_rate * 100.0

@@ -82,7 +82,7 @@ def validate_true_statements_field(data: Dict) -> List[ValidationIssue]:
 
     if "true_statements" not in data:
         issues.append(ValidationIssue(
-            severity="warning",
+            severity="error",
             category="structure",
             message="Missing true_statements field - question not yet processed",
             location="root.true_statements"

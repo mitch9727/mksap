@@ -302,5 +302,109 @@ def clean_all():
     print("\nFresh start! All logs and checkpoints cleared.")
 
 
+@cli.command()
+@click.option("--question-id", type=str, help="Validate single question by ID")
+@click.option("--system", type=str, help="Validate all questions in system (e.g., cv, en)")
+@click.option("--all", "validate_all", is_flag=True, help="Validate all 2,198 questions")
+@click.option(
+    "--severity",
+    type=click.Choice(["error", "warning", "all"]),
+    default="all",
+    help="Filter by severity level"
+)
+@click.option(
+    "--category",
+    multiple=True,
+    help="Filter by category (structure, quality, cloze, hallucination)"
+)
+@click.option("--output", type=click.Path(), help="Save report to file")
+@click.option("--detailed", is_flag=True, help="Show detailed issues for each question")
+def validate(question_id, system, validate_all, severity, category, output, detailed):
+    """Validate extracted statements for quality and correctness"""
+    from .config import PathsConfig
+    from .validation import StatementValidator
+    from .validation.reporter import generate_summary_report, generate_detailed_report, export_to_json
+
+    # Validation doesn't need LLM provider, just use default config
+    paths = PathsConfig()
+    file_io = QuestionFileIO(paths.mksap_data)
+    validator = StatementValidator()
+
+    # Discover questions to validate
+    if question_id:
+        question_path = file_io.get_question_path(question_id)
+        if not question_path:
+            print(f"Error: Question not found: {question_id}")
+            return
+        questions = [question_path]
+    elif system:
+        questions = file_io.discover_system_questions(system)
+    elif validate_all:
+        questions = file_io.discover_all_questions()
+    else:
+        print("Error: Must specify --question-id, --system, or --all")
+        return
+
+    print(f"Validating {len(questions)} questions...")
+    print()
+
+    # Validate each question
+    results = []
+    for i, question_file in enumerate(questions):
+        if len(questions) > 1 and (i + 1) % 10 == 0:
+            print(f"Progress: {i + 1}/{len(questions)}")
+
+        try:
+            data = file_io.read_question(question_file)
+            result = validator.validate_question(data)
+            results.append(result)
+        except Exception as e:
+            print(f"Error validating {question_file.stem}: {e}")
+
+    print()
+    print("=" * 70)
+
+    # Filter results by severity if requested
+    if severity != "all":
+        filtered_results = []
+        for result in results:
+            if severity == "error" and result.errors:
+                filtered_results.append(result)
+            elif severity == "warning" and (result.errors or result.warnings):
+                filtered_results.append(result)
+        results = filtered_results
+
+    # Filter by category if requested
+    if category:
+        category_set = set(category)
+        filtered_results = []
+        for result in results:
+            all_issues = result.errors + result.warnings + result.info
+            if any(issue.category in category_set for issue in all_issues):
+                filtered_results.append(result)
+        results = filtered_results
+
+    # Generate and print report
+    if detailed:
+        report = generate_detailed_report(results)
+    else:
+        report = generate_summary_report(results)
+
+    print(report)
+
+    # Save to file if requested
+    if output:
+        from pathlib import Path
+        output_path = Path(output)
+
+        if output_path.suffix == '.json':
+            export_to_json(results, output_path)
+            print(f"\nDetailed report saved to: {output_path}")
+        else:
+            # Save text report
+            output_path.write_text(report)
+            print(f"\nReport saved to: {output_path}")
+
+
 if __name__ == "__main__":
     cli()

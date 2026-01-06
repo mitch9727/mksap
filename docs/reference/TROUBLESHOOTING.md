@@ -439,9 +439,68 @@ If problem persists, report with:
    - Exact commands you ran
    - State of mksap_data/ before failure
 
+## Phase 2: Statement Generator Troubleshooting
+
+### Provider Setup Issues
+
+**Claude CLI missing**:
+- Install Claude Code CLI or set `CLAUDE_CLI_PATH`
+- Verify: `which claude` or `echo $CLAUDE_CLI_PATH`
+
+**Gemini CLI missing**:
+- Install `google-generativeai` or set `GEMINI_CLI_PATH`
+- Verify: `python -c "import google.generativeai"`
+
+**OpenAI CLI missing**:
+- Install `openai` or set `OPENAI_CLI_PATH`
+- Verify: `openai --version`
+
+**Anthropic API key missing**:
+- Set `ANTHROPIC_API_KEY` in project `.env`
+- Verify: `echo $ANTHROPIC_API_KEY`
+
+### Processing Issues
+
+**Reset checkpoint**:
+```bash
+./scripts/python -m src.main reset
+```
+
+**Skip reprocessing questions**:
+```bash
+./scripts/python -m src.main process --skip-existing --system cv
+```
+
+**Remove logs**:
+```bash
+./scripts/python -m src.main clean-logs
+./scripts/python -m src.main clean-logs --keep-days 3
+```
+
+### Data Quality Issues
+
+**Hallucinated facts**:
+- Lower temperature: `--temperature 0.1`
+- Review prompts in source code
+- Compare extracted statements to critique
+
+**Missing facts**:
+- Verify they appear in critique or key_points
+- Check statement generator logs for warnings
+- Inspect raw LLM output (enable DEBUG logging)
+
+**Invalid JSON response**:
+- Inspect statement generator logs
+- Check for malformed JSON in prompts
+- Try different provider or temperature
+
 ## Next Steps
 
 1. Review setup and usage if first time
 2. Check validation for data integrity
 3. See architecture for technical details
 4. For continued help, file issue with details
+
+---
+
+**Last Updated**: January 5, 2026

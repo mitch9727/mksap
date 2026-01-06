@@ -1,65 +1,63 @@
-# MKSAP Quickstart
+# QUICKSTART - Essential Commands
 
-## 1) Build
+> For detailed explanations, see [Phase 1 Deep Dive](../reference/PHASE_1_DEEP_DIVE.md), [Phase 2 Planning](PHASE_2_DETAILED_PLANNING.md), and [Troubleshooting](../reference/TROUBLESHOOTING.md).
+
+## Phase 1: Rust Extractor
 
 ```bash
-cd /path/to/MKSAP/extractor
+# Build
+cd /Users/Mitchell/coding/projects/MKSAP/extractor
 cargo build --release
-```
 
-## 2) Run the extractor
-
-```bash
+# Run extraction (all systems)
 ./target/release/mksap-extractor
-```
 
-Optional session override:
-
-```bash
-MKSAP_SESSION=... ./target/release/mksap-extractor
-```
-
-## 3) Validate output
-
-```bash
+# Validate
 ./target/release/mksap-extractor validate
-```
 
-## 4) Run media extraction
+# Get stats
+./target/release/mksap-extractor discovery-stats
 
-```bash
+# Media: discover → download → extract (SVG/video)
 ./target/release/mksap-extractor media-discover
 ./target/release/mksap-extractor media-download --all
+./target/release/mksap-extractor svg-browser --all
 ```
 
-Media commands:
+## Phase 2: Statement Generator
 
 ```bash
-./target/release/mksap-extractor media-discover
-./target/release/mksap-extractor media-download --all
-./target/release/mksap-extractor media-download --question-id cvmcq24001
+cd /Users/Mitchell/coding/projects/MKSAP
+
+# Test on 1 question
+./scripts/python -m src.main process --question-id cvmcq24001
+
+# Test on system
+./scripts/python -m src.main process --mode test --system cv
+
+# Production (all 2,198)
+./scripts/python -m src.main process --mode production
+
+# Stats & management
+./scripts/python -m src.main stats
+./scripts/python -m src.main reset
+./scripts/python -m src.main clean-logs
 ```
 
-Optional session override:
+## Progress Tracking
 
-```bash
-MKSAP_SESSION=... ./target/release/mksap-extractor media-download --all
-```
+- **Todos**: See [TODO.md](../../TODO.md)
+- **Phase 1 Report**: See [Phase 1 Completion](PHASE_1_COMPLETION_REPORT.md)
+- **Phase 2 Details**: See [Phase 2 Planning](PHASE_2_DETAILED_PLANNING.md)
 
-## 5) Statement generator (Phase 2)
+## Need Help?
 
-```bash
-cd statement_generator
-pip install -r requirements.txt
+- **Architecture**: See [Phase 1 Deep Dive](../reference/PHASE_1_DEEP_DIVE.md)
+- **Stuck on error?**: See [Troubleshooting](../reference/TROUBLESHOOTING.md)
+- **Phase 2 details?**: See [Statement Generator Reference](../reference/STATEMENT_GENERATOR.md)
+- **Flashcard design?**: See [Cloze Best Practices](../reference/CLOZE_FLASHCARD_BEST_PRACTICES.md)
 
-# Test on 1-2 questions
-python -m src.main process --mode test --system cv
-```
 
-See `docs/reference/STATEMENT_GENERATOR.md` for provider setup and full CLI options.
+---
 
-## Output Location
-
-- Extracted questions: `mksap_data/{system}/{question_id}/`
-- Checkpoints: `mksap_data/.checkpoints/`
-- Failures: `mksap_data_failed/`
+**Last Updated**: January 5, 2026

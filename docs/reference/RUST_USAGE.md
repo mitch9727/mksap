@@ -24,7 +24,8 @@ On first run, the extractor will:
 3. Fall back to browser login if needed (10-minute timeout)
 4. Begin extraction
 
-For reliable API access, set `MKSAP_SESSION` in your environment (or `.env` file). Browser login does not automatically share Chrome cookies with the Rust HTTP client.
+For reliable API access, set `MKSAP_SESSION` in your environment (or `.env` file). Browser login does not automatically
+share Chrome cookies with the Rust HTTP client.
 
 **Expected behavior**:
 ```
@@ -71,7 +72,8 @@ mksap_data/
 └── rm/    # Rheumatology
 ```
 
-By default, the extractor writes to `../mksap_data` relative to `extractor/`, so checkpoints live in `../mksap_data/.checkpoints/`.
+By default, the extractor writes to `../mksap_data` relative to `extractor/`, so checkpoints live in
+`../mksap_data/.checkpoints/`.
 
 ### Question Files
 
@@ -122,12 +124,12 @@ By default, the extractor writes to `../mksap_data` relative to `extractor/`, so
 }
 ```
 
-All metadata lives in the JSON file; there is no separate `_metadata.txt` file.
-`related_content` currently includes only `syllabus` because the API does not
-provide learning plan topics.
+All metadata lives in the JSON file; there is no separate `_metadata.txt` file. `related_content` currently includes
+only `syllabus` because the API does not provide learning plan topics.
 
 #### Media Files (Integrated)
-The extractor initializes empty `media` arrays. Media commands populate figures/tables/SVGs; videos are manual downloads:
+The extractor initializes empty `media` arrays. Media commands populate figures/tables/SVGs; videos are manual
+downloads:
 
 ```
 mksap_data/cv/cvmcq24001/
@@ -153,8 +155,8 @@ If extraction is interrupted (network error, timeout, etc.):
 # Resumes from next unprocessed system
 ```
 
-The extractor checks `mksap_data/` and skips existing questions, making it safe to run multiple times.
-Checkpoint files under `mksap_data/.checkpoints/` record discovered IDs and discovery metadata.
+The extractor checks `mksap_data/` and skips existing questions, making it safe to run multiple times. Checkpoint files
+under `mksap_data/.checkpoints/` record discovered IDs and discovery metadata.
 
 ### Force Full Re-extraction
 
@@ -281,8 +283,7 @@ MKSAP_QUARANTINE_INVALID=1 ./target/release/mksap-extractor
 
 ### Current Implementation Notes
 
-The extractor only supports the commands above; other configuration lives in the
-source modules:
+The extractor only supports the commands above; other configuration lives in the source modules:
 
 **To customize**:
 1. Update the extractor application configuration (default output is `../mksap_data`)
@@ -305,7 +306,8 @@ After text extraction is complete, run the integrated media commands:
 ./target/release/mksap-extractor media-download --all
 ```
 
-This pass re-fetches question JSON, discovers `contentIds`, downloads figure/table assets, and updates each question's `media` field.
+This pass re-fetches question JSON, discovers `contentIds`, downloads figure/table assets, and updates each question's
+`media` field.
 
 Media commands:
 
@@ -316,8 +318,8 @@ Media commands:
 ./target/release/mksap-extractor svg-browser --all   # SVGs only
 ```
 
-Video files are manual downloads. Use `media_discovery.txt` (VIDEO QUESTION IDS)
-to locate questions that contain videos.
+Video files are manual downloads. Use `media_discovery.txt` (VIDEO QUESTION IDS) to locate questions that contain
+videos.
 
 Environment:
 

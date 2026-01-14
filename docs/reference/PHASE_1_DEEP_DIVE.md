@@ -1,6 +1,7 @@
 # Phase 1: Rust Extractor - Deep Technical Dive
 
-> This is the detailed architecture guide for Phase 1. For quick commands, see [QUICKSTART.md](../project/QUICKSTART.md).
+> This is the detailed architecture guide for Phase 1. For quick commands, see
+> [QUICKSTART.md](../QUICKSTART.md).
 
 ## Overview
 
@@ -67,9 +68,8 @@ pub struct OrganSystem {
 }
 ```
 
-Discovery metadata in `.checkpoints/discovery_metadata.json` is the source of
-truth for available counts and timestamps. Historical baselines are archived in
-[docs/archive/DEPRECATED_BASELINE_COUNTS.md](../../archive/DEPRECATED_BASELINE_COUNTS.md).
+Discovery metadata in `.checkpoints/discovery_metadata.json` is the source of truth for available counts and
+timestamps. Historical baselines were removed after the API discovery flow was adopted.
 
 **System Code Inventory** (16 codes):
 
@@ -338,10 +338,7 @@ The extractor **doesn't use hardcoded question counts**. Instead, it:
    - `{system}_ids.txt` - List of valid IDs
    - `discovery_metadata.json` - Statistics
 
-4. **Reports metrics**:
-   ```bash
-   ./target/release/mksap-extractor discovery-stats
-   ```
+4. **Reports metrics**: ```bash ./target/release/mksap-extractor discovery-stats ```
 
 **Discovery metadata** (example):
 ```json
@@ -402,5 +399,4 @@ The extractor **doesn't use hardcoded question counts**. Instead, it:
 
 ---
 
-**Last Updated**: January 5, 2026
-**Status**: ✅ Complete (2,198 questions extracted)
+**Last Updated**: January 5, 2026 **Status**: ✅ Complete (2,198 questions extracted)

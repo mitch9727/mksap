@@ -1,17 +1,37 @@
 # MKSAP Project Overview
 
-## Overview
+## Project Overview
 
-The MKSAP Question Bank Extractor uses a Rust-based API extraction system to download medical education questions from the ACP MKSAP online question bank into structured JSON format.
+The MKSAP Question Bank Extractor uses a Rust-based API extraction system to download medical education questions from
+the ACP MKSAP online question bank into structured JSON format.
 
 **Architecture**: Unified extractor with discovery-based validation
 - **extractor**: Main extraction tool using direct API calls + integrated media pipeline
 
-For historical extraction metrics, see [reports/](reports/) directory.
+For historical extraction metrics, see [archive/reports/](archive/reports/) directory.
 
 ## Project Goal
 
-Extract the full MKSAP question bank into structured JSON using the Rust API-based extractor, then use that data for downstream processing starting with Phase 2 statement generation and later cloze/Anki export.
+Extract the full MKSAP question bank into structured JSON using the Rust API-based extractor, then use that data for
+downstream processing starting with Phase 2 statement generation and later cloze/Anki export.
+
+## Quick Start
+
+```bash
+cd extractor
+cargo build --release
+./target/release/mksap-extractor
+./target/release/mksap-extractor validate
+```
+
+Set `MKSAP_SESSION=...` if you need to override the session cookie for API calls.
+
+## Key Concepts
+
+- Discovery-based extraction uses HTTP HEAD requests to determine which IDs exist.
+- Validation compares extracted counts to discovery metadata in `mksap_data/.checkpoints/`.
+- Output is organized by system code under `mksap_data/`.
+- Optional media discovery/download runs in the same extractor binary.
 
 ## System Architecture
 
@@ -24,7 +44,9 @@ The extractor is configured to handle **16 question system codes** (see the conf
 - np (Nephrology), nr (Neurology), on (Oncology)
 - pm (Pulmonary), cc (Critical Care), rm (Rheumatology)
 
-**Multi-Prefix Design**: Some ACP content areas combine multiple specialties (e.g., "Gastroenterology AND Hepatology" or "Foundations of Clinical Practice AND Common Symptoms"). The extractor separates these into individual systems with distinct prefixes (gi/hp, fc/cs) for accurate question ID discovery.
+**Multi-Prefix Design**: Some ACP content areas combine multiple specialties (e.g., "Gastroenterology AND Hepatology" or
+"Foundations of Clinical Practice AND Common Symptoms"). The extractor separates these into individual systems with
+distinct prefixes (gi/hp, fc/cs) for accurate question ID discovery.
 
 **Year Range**: Targets questions from 2023-2026 by default (override with `MKSAP_YEAR_START`/`MKSAP_YEAR_END`)
 
@@ -49,11 +71,12 @@ This approach ensures extraction targets reflect the current API state, not outd
 
 ## Phase 2: Statement Generator
 
-Phase 2 extracts atomic, testable facts from critique and key_points fields using LLMs and augments each JSON with `true_statements`.
+Phase 2 extracts atomic, testable facts from critique and key_points fields using LLMs and augments each JSON with
+`true_statements`.
 
-- **Reference**: [STATEMENT_GENERATOR.md](../reference/STATEMENT_GENERATOR.md)
+- **Reference**: [STATEMENT_GENERATOR.md](reference/STATEMENT_GENERATOR.md)
 - **Status**: [PHASE_2_STATUS.md](PHASE_2_STATUS.md)
-- **Flashcard Design**: [CLOZE_FLASHCARD_BEST_PRACTICES.md](../reference/CLOZE_FLASHCARD_BEST_PRACTICES.md)
+- **Flashcard Design**: [CLOZE_FLASHCARD_BEST_PRACTICES.md](reference/CLOZE_FLASHCARD_BEST_PRACTICES.md)
 
 ## Key Paths
 
@@ -204,7 +227,13 @@ rg -i "error|warning|failed" extractor.log
 
 ## Next Steps
 
-1. Run validation with new discovery-based metrics: `./target/release/mksap-extractor validate`
-2. Review validation report for data integrity warnings
-3. Monitor discovery hit rate to understand API question availability
-4. Build downstream conversion pipeline (Markdown/Anki)
+### Phase 2: Statement Generator (Active)
+
+1. Process the next 10-20 questions (start with `cv`) using `claude-code`
+2. Reduce ambiguity false positives in `ambiguity_checks.py`
+3. Add daily validation metrics reporting in `statement_generator/artifacts/validation/`
+
+### Phase 3+ Preparation (Planned)
+
+1. Draft the Phase 3 cloze application design
+2. Outline the Phase 4 Anki export plan

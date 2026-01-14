@@ -2,7 +2,8 @@
 
 ## Data Validation Overview
 
-The Rust MKSAP Extractor includes comprehensive validation to ensure extracted question data meets quality standards and matches the specification.
+The Rust MKSAP Extractor includes comprehensive validation to ensure extracted question data meets quality standards and
+matches the specification.
 
 ## Running Validation
 
@@ -82,9 +83,8 @@ Overall Coverage: <found>/<discovered> questions (<pct>%)
 
 ### Report Interpretation
 
-**Green (✓)**: System at or above discovered count
-**Yellow (⚠)**: System partially extracted
-**Red (✗)**: System empty or not started
+**Green (✓)**: System at or above discovered count **Yellow (⚠)**: System partially extracted **Red (✗)**: System empty
+or not started
 
 **Validity Rate**: Percentage of extracted questions that are valid
 - 100% = All questions valid (no corruption)
@@ -112,7 +112,8 @@ Use the validation report to track:
 
 **Issue**: Validation now fails if `.checkpoints/discovery_metadata.json` is missing.
 
-**Resolution**: Run extraction (or `media-discover` plus discovery metadata generation) to produce discovery metadata before validating.
+**Resolution**: Run extraction (or `media-discover` plus discovery metadata generation) to produce discovery metadata
+before validating.
 
 ### 3. Peer Performance Data
 
@@ -126,10 +127,7 @@ Use the validation report to track:
 
 ### Recommended Validation Schedule
 
-1. **After Each Extraction Session**
-   ```bash
-   ./target/release/mksap-extractor validate
-   ```
+1. **After Each Extraction Session** ```bash ./target/release/mksap-extractor validate ```
 
 2. **Before Using Data**
    - Verify validity rate is 100%
@@ -153,18 +151,14 @@ Use the validation report to track:
    - Network error during write
    - API returned malformed data
 
-3. **Resolution**
-   ```bash
-   # Delete problematic question directory
-   rm -rf mksap_data/cv/cvmcq24001/
+3. **Resolution** ```bash # Delete problematic question directory rm -rf mksap_data/cv/cvmcq24001/
 
-   # Re-run extraction (will skip existing valid questions)
-   ./target/release/mksap-extractor
+# Re-run extraction (will skip existing valid questions) ./target/release/mksap-extractor
    ```
 
 4. **Verify Fix**
    ```bash
-   ./target/release/mksap-extractor validate
+./target/release/mksap-extractor validate
    ```
 
 ## Validation Implementation

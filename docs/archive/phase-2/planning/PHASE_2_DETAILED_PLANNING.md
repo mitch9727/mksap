@@ -1,10 +1,12 @@
 # Phase 2: Statement Generator - Detailed Planning
 
-> For quick commands, see [QUICKSTART.md](QUICKSTART.md). For implementation details, see [Statement Generator Reference](../reference/STATEMENT_GENERATOR.md).
+> For quick commands, see [QUICKSTART.md](../../../QUICKSTART.md). For implementation details, see [Statement
+> Generator Reference](../../../reference/STATEMENT_GENERATOR.md).
 
 ## Phase 2 Overview
 
-Phase 2 extracts testable medical facts from MKSAP questions using LLM-powered analysis. It processes the JSON output from Phase 1 and augments each question with structured flashcard statements.
+Phase 2 extracts testable medical facts from MKSAP questions using LLM-powered analysis. It processes the JSON output
+from Phase 1 and augments each question with structured flashcard statements.
 
 **Key Features**:
 - 4-phase pipeline: critique extraction -> key points extraction -> cloze identification -> text normalization
@@ -18,9 +20,8 @@ Phase 2 extracts testable medical facts from MKSAP questions using LLM-powered a
 The MKSAP project follows a **4-phase sequential pipeline**:
 
 ### Phase 1: Question Extraction (Complete ✅)
-**Technology**: Rust
-**Input**: MKSAP API (https://mksap.acponline.org)
-**Output**: 2,198 structured JSON files (one per question)
+**Technology**: Rust **Input**: MKSAP API (https://mksap.acponline.org) **Output**: 2,198 structured JSON files (one per
+question)
 
 **Key Outputs**:
 - question_id, category, critique, key_points
@@ -29,9 +30,8 @@ The MKSAP project follows a **4-phase sequential pipeline**:
 - media files (figures, tables, videos, SVGs)
 
 ### Phase 2: Statement Generation (Active 🔄)
-**Technology**: Python 3.9+ with LLM providers
-**Input**: Phase 1 JSON files
-**Output**: Augmented JSONs with `true_statements` field
+**Technology**: Python 3.9+ with LLM providers **Input**: Phase 1 JSON files **Output**: Augmented JSONs with
+`true_statements` field
 
 **Process**:
 - Extract testable facts from critique
@@ -40,9 +40,8 @@ The MKSAP project follows a **4-phase sequential pipeline**:
 - Normalize mathematical notation
 
 ### Phase 3: Cloze Application (Planned 📋)
-**Technology**: TBD (likely Python)
-**Input**: Phase 2 JSONs with true_statements
-**Output**: Formatted flashcards with [...] blanks applied
+**Technology**: TBD (likely Python) **Input**: Phase 2 JSONs with true_statements **Output**: Formatted flashcards with
+[...] blanks applied
 
 **Process**:
 - Apply cloze deletions based on cloze_candidates
@@ -50,9 +49,8 @@ The MKSAP project follows a **4-phase sequential pipeline**:
 - Preserve extra_field for context
 
 ### Phase 4: Anki Export (Planned 📋)
-**Technology**: TBD (Python + genanki or similar)
-**Input**: Phase 3 formatted flashcards
-**Output**: Anki deck (.apkg) with media assets
+**Technology**: TBD (Python + genanki or similar) **Input**: Phase 3 formatted flashcards **Output**: Anki deck (.apkg)
+with media assets
 
 **Process**:
 - Generate Anki note types
@@ -121,7 +119,8 @@ BaseLLMProvider
 
 ## Evidence-Based Flashcard Design
 
-Prompts follow research-backed principles from [Cloze Flashcard Best Practices](../reference/CLOZE_FLASHCARD_BEST_PRACTICES.md):
+Prompts follow research-backed principles from [Cloze Flashcard Best
+Practices](../../../reference/CLOZE_FLASHCARD_BEST_PRACTICES.md):
 
 1. Atomic facts (one concept per statement)
 2. Anti-hallucination constraints (source-only extraction)
@@ -173,5 +172,4 @@ Prompts follow research-backed principles from [Cloze Flashcard Best Practices](
 
 ---
 
-**Last Updated**: January 5, 2026
-**Status**: 🔄 Active
+**Last Updated**: January 5, 2026 **Status**: 🔄 Active

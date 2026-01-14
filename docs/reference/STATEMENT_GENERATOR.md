@@ -1,10 +1,12 @@
 # Statement Generator (Phase 2)
 
-**Last Updated**: December 31, 2025
+**Last Updated**: January 6, 2026
 
 ## Overview
 
-The statement generator is the Phase 2 Python pipeline that extracts testable medical facts from MKSAP critiques and key points. It reads from `mksap_data/`, augments Phase 1 JSONs with a `true_statements` field, and preserves all existing data.
+The statement generator is the Phase 2 Python pipeline that extracts testable medical facts from MKSAP critiques and key
+points. It reads from `mksap_data/` for production runs and `test_mksap_data/` for testing, augments Phase 1 JSONs with
+a `true_statements` field, and preserves all existing data.
 
 ## Features
 
@@ -20,8 +22,41 @@ The statement generator is the Phase 2 Python pipeline that extracts testable me
 ### 1) Install dependencies
 
 ```bash
-cd statement_generator
-pip install -r requirements.txt
+# From repo root
+pip install -r statement_generator/requirements.txt
+```
+
+Optional: set the expected interpreter in `.env` so the CLI can enforce it (example: `MKSAP_PYTHON_VERSION=3.11.9`).
+
+### 1b) Install scispaCy model (validation NLP)
+
+Validation uses spaCy/scispaCy for lemma/entity matching. Install a model such as `en_core_sci_sm` per scispaCy
+instructions.
+
+Local model option (avoids system-wide install):
+
+```bash
+# Download and extract into the repo
+./statement_generator/scripts/setup_nlp_model.sh
+```
+
+Optional environment settings:
+
+```bash
+# Enable/disable NLP validation
+export MKSAP_USE_NLP=1
+
+# Select model and performance knobs
+export MKSAP_NLP_MODEL=en_core_sci_sm
+export MKSAP_NLP_DISABLE=parser
+export MKSAP_NLP_BATCH_SIZE=32
+export MKSAP_NLP_N_PROCESS=1
+```
+
+If using a local model path:
+
+```bash
+export MKSAP_NLP_MODEL=statement_generator/models/en_core_sci_sm-0.5.4/en_core_sci_sm/en_core_sci_sm-0.5.4
 ```
 
 ### 2) Configure a provider
@@ -72,19 +107,28 @@ OPENAI_MODEL=gpt-4
 ### 3) Run statement generation
 
 ```bash
+# Copy questions into the test data root
+./scripts/python -m src.main prepare-test --question-id cvmcq24001
+
 # Test on 1-2 questions
-python -m src.main process --mode test --system cv
+./scripts/python -m src.main process --mode test --system cv
 
 # Test specific question
-python -m src.main process --question-id cvmcq24001
+./scripts/python -m src.main process --question-id cvmcq24001
 
 # Production: process all questions
-python -m src.main process --mode production
+./scripts/python -m src.main process --mode production
 
 # Use CLI providers
-python -m src.main process --provider claude-code --mode test
-python -m src.main process --provider gemini --mode test
-python -m src.main process --provider codex --mode test
+./scripts/python -m src.main process --provider claude-code --mode test
+./scripts/python -m src.main process --provider gemini --mode test
+./scripts/python -m src.main process --provider codex --mode test
+```
+
+Optional override for data root:
+
+```bash
+export MKSAP_DATA_ROOT=test_mksap_data
 ```
 
 ## CLI Reference
@@ -93,21 +137,24 @@ python -m src.main process --provider codex --mode test
 
 ```bash
 # Process questions (main command)
-python -m src.main process [OPTIONS]
+./scripts/python -m src.main process [OPTIONS]
 
 # Show statistics
-python -m src.main stats
+./scripts/python -m src.main stats
 
 # Reset checkpoints
-python -m src.main reset
+./scripts/python -m src.main reset
+
+# Copy selected questions into test_mksap_data
+./scripts/python -m src.main prepare-test --question-id cvmcq24001
 
 # Clean old log files (keeps last 7 days by default)
-python -m src.main clean-logs
-python -m src.main clean-logs --keep-days 3
-python -m src.main clean-logs --dry-run  # Preview what would be deleted
+./scripts/python -m src.main clean-logs
+./scripts/python -m src.main clean-logs --keep-days 3
+./scripts/python -m src.main clean-logs --dry-run  # Preview what would be deleted
 
 # Clean all logs and reset checkpoints (fresh start)
-python -m src.main clean-all
+./scripts/python -m src.main clean-all
 ```
 
 ### Key Options
@@ -124,6 +171,7 @@ python -m src.main clean-all
 | `--skip-existing/--overwrite` | Skip questions with true_statements | `--skip-existing` |
 | `--force` | Re-process even if already completed (ignores checkpoint) | False |
 | `--dry-run` | Preview without API calls | False |
+| `--data-root` | Override data root | Test: `test_mksap_data`, Prod: `mksap_data` |
 | `--log-level` | DEBUG, INFO, WARNING, ERROR | INFO |
 | `--batch-size` | Questions per checkpoint save | 10 |
 
@@ -131,24 +179,28 @@ python -m src.main clean-all
 
 ```bash
 # Test with Claude Code CLI (uses your subscription)
-python -m src.main process --provider claude-code --mode test --system cv
+./scripts/python -m src.main process --provider claude-code --mode test --system cv
 
 # Production with Gemini
-python -m src.main process --provider gemini --mode production
+./scripts/python -m src.main process --provider gemini --mode production
 
 # Test with higher temperature (more creative)
-python -m src.main process --temperature 0.5 --question-id cvmcq24001
+./scripts/python -m src.main process --temperature 0.5 --question-id cvmcq24001
 
 # Dry run to preview
-python -m src.main process --dry-run --system cv
+./scripts/python -m src.main process --dry-run --system cv
+
+# Override data root (for full production runs)
+./scripts/python -m src.main process --mode production --data-root mksap_data
 
 # Debug logging
-python -m src.main process --log-level DEBUG --question-id cvmcq24001
+./scripts/python -m src.main process --log-level DEBUG --question-id cvmcq24001
 ```
 
 ## Provider Selection and Fallback
 
-- Provider settings (model, temperature, keys) are loaded from `--provider` or `LLM_PROVIDER` (default is `anthropic`).
+- Provider settings (model, temperature, keys) are loaded from `--provider` or `LLM_PROVIDER` (default is
+  `anthropic`).
 - Processing uses a provider manager with a fixed fallback order: `claude-code` -> `codex` -> `anthropic` -> `gemini`.
 - When rate limits are detected, the CLI prompts before switching providers.
 
@@ -164,14 +216,14 @@ Each question's JSON is augmented with:
   "true_statements": {
     "from_critique": [
       {
-        "statement": "ACE inhibitors are first-line therapy for hypertension in patients with chronic kidney disease.",
-        "extra_field": "ACE inhibitors reduce proteinuria and slow CKD progression by reducing intraglomerular pressure.",
+        "statement": "ACE inhibitors are first-line therapy for hypertension with chronic kidney disease.",
+        "extra_field": "They reduce proteinuria and slow chronic kidney disease progression.",
         "cloze_candidates": ["ACE inhibitors", "chronic kidney disease", "proteinuria"]
       }
     ],
     "from_key_points": [
       {
-        "statement": "Initial management of chronic cough includes tobacco cessation and discontinuation of ACE inhibitor therapy.",
+        "statement": "Initial chronic cough management includes tobacco cessation and stopping ACE inhibitors.",
         "extra_field": null,
         "cloze_candidates": ["tobacco cessation", "ACE inhibitor"]
       }
@@ -206,7 +258,9 @@ PHASE 4: Text Normalization
 statement_generator/
 ├── src/        # Pipeline, providers, config, IO, and CLI entrypoint
 ├── prompts/    # Prompt templates
-└── outputs/    # Checkpoints and logs
+├── tests/      # Validation test suite (pytest)
+├── tools/      # Debug/validation helpers
+└── artifacts/  # Logs, checkpoints, validation reports, pytest cache
 ```
 
 ## Troubleshooting
@@ -258,7 +312,13 @@ echo "ANTHROPIC_API_KEY=your_key_here" >> ../.env
 
 ## Next Steps
 
-After statement generation:
+### Phase 2 Priorities (Active)
+
+- Process the next 10-20 questions (start with `cv`) using `claude-code`
+- Reduce ambiguity false positives in `ambiguity_checks.py`
+- Add daily validation metrics reporting in `statement_generator/artifacts/validation/`
+
+### After Statement Generation (Planned)
 
 - Phase 3: Cloze application (apply [...] blanks to statements)
 - Phase 4: Anki export (generate deck with media assets)
@@ -266,4 +326,5 @@ After statement generation:
 ## References
 
 - `docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md`
-- `docs/project/PHASE_2_STATUS.md`
+- `../PHASE_2_STATUS.md`
+- `../archive/phase-2/reports/`

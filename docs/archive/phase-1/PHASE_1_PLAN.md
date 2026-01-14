@@ -1,6 +1,7 @@
 # PHASE 1: Complete Data Extraction - Detailed Implementation Plan
 
-**Phase Goal:** Ensure all 2,198 valid MKSAP questions are extracted with complete context and media (invalidated questions excluded).
+**Phase Goal:** Ensure all 2,198 valid MKSAP questions are extracted with complete context and media (invalidated
+questions excluded).
 
 **Current Status:** 2,198 questions extracted (100% of target)
 
@@ -54,7 +55,8 @@
 
 **Success Check:** Confirm totals match 2,198 using discovery metadata or validation output.
 
-**Risk:** API endpoint may have changed or be unavailable. Fallback: Use pattern-based discovery algorithm from Question ID Discovery.md.
+**Risk:** API endpoint may have changed or be unavailable. Fallback: Use pattern-based discovery algorithm from Question
+ID Discovery.md.
 
 **Dependencies:** Must complete before moving to Task 2.
 
@@ -83,12 +85,7 @@
    - Check extraction logic for question type handling
    - Update question ID pattern matching if needed
 
-4. Test configuration
-   ```bash
-   cd extractor
-   cargo build --release
-   # Should compile without errors
-   ```
+4. Test configuration ```bash cd extractor cargo build --release # Should compile without errors ```
 
 5. Verify changes
    - Generate list of all target question IDs
@@ -159,24 +156,21 @@
 
 **Objective:** Extract all 2,198 questions and store in mksap_data/ directory.
 
-**Estimated Time:** 10-30 hours (depending on rate limiting: 500ms per request × 2,198 = ~30 hours minimum, plus overhead)
+**Estimated Time:** 10-30 hours (depending on rate limiting: 500ms per request × 2,198 = ~30 hours minimum, plus
+overhead)
 
 **Action Items:**
 
-1. Prepare extraction environment
-   ```bash
-   cd /path/to/MKSAP
+1. Prepare extraction environment ```bash cd /path/to/MKSAP
 
-   # Ensure session cookie is set
-   export MKSAP_SESSION=<your_valid_session_cookie>
+# Ensure session cookie is set export MKSAP_SESSION=<your_valid_session_cookie>
 
-   # Optional: Override request delay for faster extraction
-   # Update the request delay setting in extraction configuration
+# Optional: Override request delay for faster extraction # Update the request delay setting in extraction configuration
    ```
 
 2. Start extraction
    ```bash
-   ./target/release/mksap-extractor
+./target/release/mksap-extractor
    ```
 
 3. Monitor progress
@@ -193,11 +187,9 @@
 
 5. Periodically validate during extraction
    ```bash
-   # Count extracted questions
-   find mksap_data -type d -name "*mcq*" -o -name "*vdx*" -o -name "*cor*" | wc -l
+# Count extracted questions find mksap_data -type d -name "*mcq*" -o -name "*vdx*" -o -name "*cor*" | wc -l
 
-   # Check for failures
-   ls mksap_data_failed/ | wc -l
+# Check for failures ls mksap_data_failed/ | wc -l
    ```
 
 6. Complete extraction
@@ -244,7 +236,8 @@ ls -1 mksap_data_failed/ 2>/dev/null | wc -l
    - Terminal window 1: Run extractor (Task 4)
    - Terminal window 2: Monitor progress
    ```bash
-   watch -n 10 'find mksap_data -maxdepth 2 -type d ! -name ".*" | wc -l && echo "---" && ls mksap_data_failed/ 2>/dev/null | wc -l && echo "failed"'
+watch -n 10 'find mksap_data -maxdepth 2 -type d ! -name ".*" | wc -l && echo "---" && ls mksap_data_failed/ 2>/dev/null
+| wc -l && echo "failed"'
    ```
 
 2. Handle session expiration
@@ -287,7 +280,7 @@ ls -1 mksap_data_failed/ 2>/dev/null | wc -l
 
 1. Run built-in validator
    ```bash
-   ./target/release/mksap-extractor validate
+./target/release/mksap-extractor validate
    ```
    - This scans all extracted questions
    - Checks JSON structure, required fields, data integrity
@@ -295,7 +288,7 @@ ls -1 mksap_data_failed/ 2>/dev/null | wc -l
 
 2. Review validation report
    ```bash
-   cat mksap_data/validation_report.txt
+cat mksap_data/validation_report.txt
    ```
    - Check for errors, warnings, or anomalies
    - Note any fields with missing data
@@ -303,19 +296,14 @@ ls -1 mksap_data_failed/ 2>/dev/null | wc -l
 
 3. Validate specific criteria
    ```bash
-   # All questions should have 'critique' field (needed for Phase 2)
-   for file in mksap_data/*/*.json; do
-     if ! jq -e '.critique' "$file" > /dev/null 2>&1; then
-       echo "Missing critique: $file"
-     fi
-   done
+# All questions should have 'critique' field (needed for Phase 2) for file in mksap_data/*/*.json; do if ! jq -e
+'.critique' "$file" > /dev/null 2>&1; then echo "Missing critique: $file" fi done
    ```
 
 4. Check question count matches target
    ```bash
-   # Count total extracted questions
-   find mksap_data -name "*.json" ! -path "*/.checkpoints/*" | wc -l
-   # Should be exactly 2,198
+# Count total extracted questions find mksap_data -name "*.json" ! -path "*/.checkpoints/*" | wc -l # Should be exactly
+2,198
    ```
 
 5. Sample validation
@@ -362,34 +350,26 @@ grep -i "error\|critical" mksap_data/validation_report.txt
    - Media should be in: `mksap_data/{system}/{question_id}/figures/`
    - Check existing media:
    ```bash
-   find mksap_data -path "*/figures/*" -type f | head -20
+find mksap_data -path "*/figures/*" -type f | head -20
    ```
 
 2. Verify media references in JSON
    ```bash
-   # Extract all media refs from a sample question
-   jq '.media' mksap_data/cv/cvmcq24001/cvmcq24001.json
+# Extract all media refs from a sample question jq '.media' mksap_data/cv/cvmcq24001/cvmcq24001.json
    ```
 
 3. Check media download completion
    ```bash
-   # Count total media files downloaded
-   find mksap_data -path "*/figures/*" -type f | wc -l
+# Count total media files downloaded find mksap_data -path "*/figures/*" -type f | wc -l
 
-   # This should be non-zero and substantial (hundreds of files)
+# This should be non-zero and substantial (hundreds of files)
    ```
 
 4. Audit for missing media
    ```bash
-   # For each question, check if referenced media exists
-   for qdir in mksap_data/*/*/; do
-     qid=$(basename "$qdir")
-     refs=$(jq '.media? | length' "$qdir/$qid.json" 2>/dev/null || echo 0)
-     files=$(find "$qdir/figures" -type f 2>/dev/null | wc -l)
-     if [ "$refs" -gt 0 ] && [ "$files" -eq 0 ]; then
-       echo "Missing media in $qid (expected: $refs, found: $files)"
-     fi
-   done
+# For each question, check if referenced media exists for qdir in mksap_data/*/*/; do qid=$(basename "$qdir") refs=$(jq
+'.media? | length' "$qdir/$qid.json" 2>/dev/null || echo 0) files=$(find "$qdir/figures" -type f 2>/dev/null | wc -l) if
+[ "$refs" -gt 0 ] && [ "$files" -eq 0 ]; then echo "Missing media in $qid (expected: $refs, found: $files)" fi done
    ```
 
 5. Organize media by type
@@ -398,9 +378,8 @@ grep -i "error\|critical" mksap_data/validation_report.txt
 
 6. Check media file integrity
    ```bash
-   # Spot-check a few image files for corruption
-   file mksap_data/*/*/figures/*.jpg | head -5
-   # Should show "JPEG image data"
+# Spot-check a few image files for corruption file mksap_data/*/*/figures/*.jpg | head -5 # Should show "JPEG image
+data"
    ```
 
 7. Document media audit
@@ -438,22 +417,17 @@ find mksap_data -path "*/figures/*" -type f | wc -l
 
 2. Scan for JSON inconsistencies
    ```bash
-   # Sample 50 random question JSONs for structure analysis
-   for file in $(find mksap_data -name "*.json" ! -path "*/.checkpoints/*" | shuf | head -50); do
-     echo "=== $(basename $file) ==="
-     jq 'keys' "$file"
-   done
+# Sample 50 random question JSONs for structure analysis for file in $(find mksap_data -name "*.json" ! -path
+"*/.checkpoints/*" | shuf | head -50); do echo "=== $(basename $file) ===" jq 'keys' "$file" done
    ```
 
 3. Check for type variations
    ```bash
-   # Look for fields that sometimes are strings, sometimes objects
-   # Example: options[].text might be string or object
+# Look for fields that sometimes are strings, sometimes objects # Example: options[].text might be string or object
 
-   # Sample different questions from different systems
-   jq '.options[0].text | type' mksap_data/cv/*/*.json | sort | uniq -c
-   jq '.options[0].text | type' mksap_data/en/*/*.json | sort | uniq -c
-   # If you see multiple types (string and object), that's a deserialization issue
+# Sample different questions from different systems jq '.options[0].text | type' mksap_data/cv/*/*.json | sort | uniq -c
+jq '.options[0].text | type' mksap_data/en/*/*.json | sort | uniq -c # If you see multiple types (string and object),
+that's a deserialization issue
    ```
 
 4. Document any new issues
@@ -471,8 +445,7 @@ find mksap_data -path "*/figures/*" -type f | wc -l
 **Success Check:**
 ```bash
 # All sampled JSONs should parse cleanly
-jq . mksap_data/*/*.json > /dev/null
-echo $?  # Should return 0 (success)
+jq . mksap_data/*/*.json > /dev/null echo $?  # Should return 0 (success)
 ```
 
 **Dependencies:** Requires Task 4 extraction and Task 6 validation.
@@ -497,20 +470,14 @@ echo $?  # Should return 0 (success)
 
 2. Generate statistics
    ```bash
-   # Total questions extracted
-   find mksap_data -maxdepth 2 -type d ! -name ".*" | wc -l
+# Total questions extracted find mksap_data -maxdepth 2 -type d ! -name ".*" | wc -l
 
-   # Total media files
-   find mksap_data -path "*/figures/*" -type f | wc -l
+# Total media files find mksap_data -path "*/figures/*" -type f | wc -l
 
-   # Total storage used
-   du -sh mksap_data/
+# Total storage used du -sh mksap_data/
 
-   # Breakdown by system
-   for system in mksap_data/*/; do
-     count=$(find "$system" -maxdepth 1 -type d ! -name ".*" | wc -l)
-     echo "$(basename $system): $count"
-   done
+# Breakdown by system for system in mksap_data/*/; do count=$(find "$system" -maxdepth 1 -type d ! -name ".*" | wc -l)
+echo "$(basename $system): $count" done
    ```
 
 3. Create final report: `docs/PHASE_1_COMPLETION_REPORT.md`
@@ -528,7 +495,7 @@ echo $?  # Should return 0 (success)
 
 4. Create Phase 2 input validation checklist
    ```markdown
-   ## Phase 2 Prerequisites - Validation Checklist
+## Phase 2 Prerequisites - Validation Checklist
 
    - [ ] All 2,198 questions extracted
    - [ ] All questions have 'critique' field populated
@@ -552,7 +519,7 @@ echo $?  # Should return 0 (success)
    - Known limitations discovered
 
 7. Prepare Phase 2 kickoff
-   - Review Phase 2 plan: `docs/project/PHASE_2_PLAN.md` (to be created)
+   - Review Phase 2 plan: `docs/PHASE_2_PLAN.md` (to be created)
    - Identify any dependencies or blockers
    - Schedule Phase 2 start
 

@@ -1,6 +1,8 @@
 # QUICKSTART - Essential Commands
 
-> For detailed explanations, see [Phase 1 Deep Dive](../reference/PHASE_1_DEEP_DIVE.md), [Phase 2 Planning](PHASE_2_DETAILED_PLANNING.md), and [Troubleshooting](../reference/TROUBLESHOOTING.md).
+> For detailed explanations, see [Phase 1 Deep Dive](reference/PHASE_1_DEEP_DIVE.md),
+> [Phase 2 Status](PHASE_2_STATUS.md), and
+> [Troubleshooting](reference/TROUBLESHOOTING.md).
 
 ## Phase 1: Rust Extractor
 
@@ -26,6 +28,8 @@ cargo build --release
 
 ## Phase 2: Statement Generator
 
+Set `MKSAP_PYTHON_VERSION` in `.env` to the interpreter you expect (example: `3.11.9`).
+
 ```bash
 cd /Users/Mitchell/coding/projects/MKSAP
 
@@ -46,18 +50,18 @@ cd /Users/Mitchell/coding/projects/MKSAP
 
 ## Progress Tracking
 
-- **Todos**: See [TODO.md](../../TODO.md)
+- **Todos**: See [TODO.md](../TODO.md)
 - **Phase 1 Report**: See [Phase 1 Completion](PHASE_1_COMPLETION_REPORT.md)
-- **Phase 2 Details**: See [Phase 2 Planning](PHASE_2_DETAILED_PLANNING.md)
+- **Phase 2 Details**: See [Phase 2 Status](PHASE_2_STATUS.md)
 
 ## Need Help?
 
-- **Architecture**: See [Phase 1 Deep Dive](../reference/PHASE_1_DEEP_DIVE.md)
-- **Stuck on error?**: See [Troubleshooting](../reference/TROUBLESHOOTING.md)
-- **Phase 2 details?**: See [Statement Generator Reference](../reference/STATEMENT_GENERATOR.md)
-- **Flashcard design?**: See [Cloze Best Practices](../reference/CLOZE_FLASHCARD_BEST_PRACTICES.md)
+- **Architecture**: See [Phase 1 Deep Dive](reference/PHASE_1_DEEP_DIVE.md)
+- **Stuck on error?**: See [Troubleshooting](reference/TROUBLESHOOTING.md)
+- **Phase 2 details?**: See [Statement Generator Reference](reference/STATEMENT_GENERATOR.md)
+- **Flashcard design?**: See [Cloze Best Practices](reference/CLOZE_FLASHCARD_BEST_PRACTICES.md)
 
 
 ---
 
-**Last Updated**: January 5, 2026
+**Last Updated**: January 6, 2026

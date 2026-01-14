@@ -2,7 +2,8 @@
 
 ## System Architecture
 
-The extractor follows a modular, async-first architecture optimized for API-based data extraction, with an integrated asset discovery/download subsystem.
+The extractor follows a modular, async-first architecture optimized for API-based data extraction, with an integrated
+asset discovery/download subsystem.
 
 ## Module Structure
 
@@ -103,8 +104,8 @@ pub struct ValidationResult {
 }
 ```
 
-**Non-Destructive**: Only reads files, creates no modifications
-**Discovery-Aware**: Uses `.checkpoints/discovery_metadata.json` when available
+**Non-Destructive**: Only reads files, creates no modifications **Discovery-Aware**: Uses
+`.checkpoints/discovery_metadata.json` when available
 
 ### Asset Pipeline
 

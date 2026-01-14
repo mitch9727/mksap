@@ -1,10 +1,12 @@
 # MKSAP Question ID Discovery - Complete Analysis
 
-> 📜 **Historical Analysis**: This document explains the discovery process that informed Phase 1 implementation. For actual extraction results, see [PHASE_1_COMPLETION_REPORT.md](../../PHASE_1_COMPLETION_REPORT.md).
+> 📜 **Historical Analysis**: This document explains the discovery process that informed Phase 1 implementation. For
+> actual extraction results, see [PHASE_1_COMPLETION_REPORT.md](../../PHASE_1_COMPLETION_REPORT.md).
 
 ## Critical Finding: Why IDs Were Missed
 
-The root cause was that MKSAP uses **multiple question type suffixes**. The current extractor now checks all 6 suffixes below. The `/api/content_metadata.json` endpoint remains a useful reference for auditing ID coverage.
+The root cause was that MKSAP uses **multiple question type suffixes**. The current extractor now checks all 6 suffixes
+below. The `/api/content_metadata.json` endpoint remains a useful reference for auditing ID coverage.
 
 ---
 
@@ -348,11 +350,15 @@ You are writing a Rust program to discover all MKSAP question IDs and store them
 
 ### Cardiovascular (cv) - 244 Total
 
-**COR (26):** cvcor25001, cvcor25002, cvcor25003, cvcor25004, cvcor25005, cvcor25009, cvcor25010, cvcor25014, cvcor25015, cvcor25016, cvcor25019, cvcor25020, cvcor25021, cvcor25023, cvcor25024, cvcor25026, cvcor25027, cvcor25028, cvcor25030, cvcor25032, cvcor25033, cvcor25034, cvcor25035, cvcor25037, cvcor25038, cvcor25039
+**COR (26):** cvcor25001, cvcor25002, cvcor25003, cvcor25004, cvcor25005, cvcor25009, cvcor25010, cvcor25014,
+cvcor25015, cvcor25016, cvcor25019, cvcor25020, cvcor25021, cvcor25023, cvcor25024, cvcor25026, cvcor25027, cvcor25028,
+cvcor25030, cvcor25032, cvcor25033, cvcor25034, cvcor25035, cvcor25037, cvcor25038, cvcor25039
 
 **MCQ (133):** cvmcq24001 through cvmcq24133 (with some gaps in sequence)
 
-**QQQ (25):** cvqqq24001, cvqqq24002, cvqqq24003, cvqqq24004, cvqqq24005, cvqqq24006, cvqqq24007, cvqqq24008, cvqqq24009, cvqqq24011, cvqqq24012, cvqqq24013, cvqqq24014, cvqqq24015, cvqqq24016, cvqqq24017, cvqqq24018, cvqqq24019, cvqqq24020, cvqqq24021, cvqqq24022, cvqqq24023, cvqqq24024, cvqqq24025
+**QQQ (25):** cvqqq24001, cvqqq24002, cvqqq24003, cvqqq24004, cvqqq24005, cvqqq24006, cvqqq24007, cvqqq24008,
+cvqqq24009, cvqqq24011, cvqqq24012, cvqqq24013, cvqqq24014, cvqqq24015, cvqqq24016, cvqqq24017, cvqqq24018, cvqqq24019,
+cvqqq24020, cvqqq24021, cvqqq24022, cvqqq24023, cvqqq24024, cvqqq24025
 
 **VDX (61):** cvvdx24001 through cvvdx24061 (with some gaps)
 

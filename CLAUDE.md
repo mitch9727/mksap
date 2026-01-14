@@ -1,6 +1,6 @@
 # CLAUDE.md - MKSAP Medical Education Pipeline
 
-> **Last Updated**: January 5, 2026
+> **Last Updated**: January 6, 2026
 
 This file provides guidance to Claude Code when working on the MKSAP medical education extraction pipeline.
 
@@ -19,11 +19,11 @@ This file provides guidance to Claude Code when working on the MKSAP medical edu
 
 ### Quick Links
 
-- **Working on Phase 1?** → See [QUICKSTART.md](docs/project/QUICKSTART.md) for commands
+- **Working on Phase 1?** → See [QUICKSTART.md](docs/QUICKSTART.md) for commands
 - **Working on Phase 2?** → See [Statement Generator Reference](docs/reference/STATEMENT_GENERATOR.md)
 - **Stuck on a problem?** → See [Troubleshooting Guide](docs/reference/TROUBLESHOOTING.md)
 - **Understanding architecture?** → See [Phase 1 Deep Dive](docs/reference/PHASE_1_DEEP_DIVE.md)
-- **Planning Phase 2 work?** → See [Phase 2 Detailed Planning](docs/project/PHASE_2_DETAILED_PLANNING.md)
+- **Planning Phase 2 work?** → See [Phase 2 Status](docs/PHASE_2_STATUS.md)
 
 ## Important: System Codes vs Browser Organization
 
@@ -35,18 +35,19 @@ This codebase works with **16 two-letter system codes** (cv, en, fc, cs, gi, hp,
 
 ### Single Source of Truth
 
-**All project todos are tracked in [TODO.md](TODO.md)**. This is the only place to look for what's completed, what's in progress, and what's planned next.
+**All project todos are tracked in [TODO.md](TODO.md)** for active and planned work. Completed work is recorded in
+`docs/CHANGELOG.md` and removed from TODO.md.
 
 **When starting work:**
 1. Open [TODO.md](TODO.md) and find the task you're starting
 2. Check dependencies - is anything blocking this task?
-3. Mark task as in progress
-4. Review file links in the task description for context
+3. Review file links in the task description for context
 
 **When done:**
-1. Mark task as complete with date
-2. Update "Last Updated" at top of TODO.md
-3. Commit with message: `git commit -m "mark: [task name] complete"`
+1. Remove the completed task from TODO.md
+2. Add a change note in `docs/CHANGELOG.md` (plain text, no checkboxes)
+3. Update "Last Updated" at top of TODO.md
+4. Commit with message: `git commit -m "mark: [task name] complete"`
 
 ## Essential Commands
 
@@ -109,17 +110,21 @@ MKSAP/
 │   └── scripts/python
 ├── mksap_data/                        ← Extracted questions (2,198 JSON files)
 └── docs/
+    ├── INDEX.md                       ← Documentation entry point
+    ├── PROJECT_OVERVIEW.md            ← Project goals and architecture
+    ├── QUICKSTART.md                  ← Essential commands
+    ├── PHASE_1_COMPLETION_REPORT.md
+    ├── PHASE_2_STATUS.md              ← Phase 2 status and priorities
+    ├── CHANGELOG.md                   ← Documentation change notes
+    ├── DOCUMENTATION_MAINTENANCE_GUIDE.md
+    ├── architecture/
     ├── reference/
-    │   ├── PHASE_1_DEEP_DIVE.md       ← Phase 1 architecture details
-    │   ├── TROUBLESHOOTING.md         ← Debugging guide
-    │   ├── STATEMENT_GENERATOR.md     ← Phase 2 reference
+    │   ├── PHASE_1_DEEP_DIVE.md        ← Phase 1 architecture details
+    │   ├── TROUBLESHOOTING.md          ← Debugging guide
+    │   ├── STATEMENT_GENERATOR.md      ← Phase 2 reference
     │   ├── CLOZE_FLASHCARD_BEST_PRACTICES.md
     │   └── VALIDATION.md
-    ├── project/
-    │   ├── QUICKSTART.md              ← Essential commands
-    │   ├── PHASE_1_COMPLETION_REPORT.md
-    │   ├── PHASE_2_DETAILED_PLANNING.md ← Phase 2 planning
-    │   └── README.md
+    ├── specifications/
     └── archive/
 ```
 
@@ -135,14 +140,14 @@ MKSAP/
 
 1. **Check status**: Open [TODO.md](TODO.md)
 2. **Review context**: Check task description and linked docs
-3. **Run QUICKSTART command**: See [docs/project/QUICKSTART.md](docs/project/QUICKSTART.md)
+3. **Run QUICKSTART command**: See [docs/QUICKSTART.md](docs/QUICKSTART.md)
 4. **If stuck**: See [Troubleshooting Guide](docs/reference/TROUBLESHOOTING.md)
-5. **When done**: Update TODO.md and commit
+5. **When done**: Remove completed task from TODO.md, add a change note, and commit
 
 ## Next Steps
 
-- **Phase 1 Complete?** → Read [Phase 1 Completion Report](docs/project/PHASE_1_COMPLETION_REPORT.md)
-- **Working on Phase 2?** → Read [Phase 2 Detailed Planning](docs/project/PHASE_2_DETAILED_PLANNING.md)
+- **Phase 1 Complete?** → Read [Phase 1 Completion Report](docs/PHASE_1_COMPLETION_REPORT.md)
+- **Working on Phase 2?** → Read [Phase 2 Status](docs/PHASE_2_STATUS.md)
 - **Need architecture details?** → Read [Phase 1 Deep Dive](docs/reference/PHASE_1_DEEP_DIVE.md)
 - **Understanding validation?** → Read [Validation Guide](docs/reference/VALIDATION.md)
 

@@ -1,17 +1,17 @@
 # MKSAP Question Bank Extractor
 
-> **Last updated: January 1, 2026**
+> **Last updated: January 6, 2026**
 
 System for extracting medical education questions from the ACP MKSAP (Medical Knowledge Self-Assessment Program) online question bank into structured JSON format.
 
 ## Current Status
 
 - **Phase 1 Status**: ✅ **COMPLETE** (December 27, 2025) - All 2,198 valid questions extracted
-- **Phase 2 Status**: Statement generator active (see [PHASE_2_STATUS.md](docs/project/PHASE_2_STATUS.md))
+- **Phase 2 Status**: Statement generator active (see [PHASE_2_STATUS.md](docs/PHASE_2_STATUS.md))
 - **Primary Tool**: Rust MKSAP Extractor (API-based extraction with discovery validation)
 - **Architecture**: 16 system codes configured via the extractor configuration module
-- **Extraction Results**: See [PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md) for final metrics
-- **Historical Data**: See [docs/project/reports/](docs/project/reports/) for past extraction summaries
+- **Extraction Results**: See [PHASE_1_COMPLETION_REPORT.md](docs/PHASE_1_COMPLETION_REPORT.md) for final metrics
+- **Historical Data**: See [docs/archive/reports/](docs/archive/reports/) for past extraction summaries
 
 ## Quick Start
 
@@ -60,11 +60,15 @@ MKSAP_SESSION=... ./target/release/mksap-extractor media-download --all
 ### Statement Generator (Phase 2)
 
 ```bash
-cd statement_generator
-pip install -r requirements.txt
+# From repo root
+pip install -r statement_generator/requirements.txt
+```
 
+Set the expected interpreter in `.env` so the CLI can enforce it (example: `MKSAP_PYTHON_VERSION=3.11.9`).
+
+```bash
 # Test on 1-2 questions
-python -m src.main process --mode test --system cv
+./scripts/python -m src.main process --mode test --system cv
 ```
 
 Provider configuration and full CLI reference live in [STATEMENT_GENERATOR.md](docs/reference/STATEMENT_GENERATOR.md).
@@ -73,10 +77,10 @@ Provider configuration and full CLI reference live in [STATEMENT_GENERATOR.md](d
 
 ### Critical - Start Here
 
-- **[PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md)** ✅ - Phase 1 results (100% complete)
-- **[Question ID Discovery](docs/project/archive/phase-1/QUESTION_ID_DISCOVERY.md)** - Historical discovery analysis
-- **[Project Index](docs/project/INDEX.md)** - Navigation guide for all documentation
-- **[PHASE_1_PLAN.md](docs/project/archive/phase-1/PHASE_1_PLAN.md)** - Archived Phase 1 roadmap
+- **[PHASE_1_COMPLETION_REPORT.md](docs/PHASE_1_COMPLETION_REPORT.md)** ✅ - Phase 1 results (100% complete)
+- **[Question ID Discovery](docs/archive/phase-1/QUESTION_ID_DISCOVERY.md)** - Historical discovery analysis
+- **[Documentation Index](docs/INDEX.md)** - Navigation guide for all documentation
+- **[PHASE_1_PLAN.md](docs/archive/phase-1/PHASE_1_PLAN.md)** - Archived Phase 1 roadmap
 - **[Project TODO](TODO.md)** - Global project status tracker
 
 ### Getting Started with Extraction
@@ -92,13 +96,13 @@ Provider configuration and full CLI reference live in [STATEMENT_GENERATOR.md](d
 
 ### Project Planning & Specifications
 
-- [Project Overview](docs/project/README.md) - Project goals
+- [Project Overview](docs/PROJECT_OVERVIEW.md) - Project goals
 - [Architecture Guide](docs/architecture/PROJECT_ORGANIZATION.md) - Codebase organization
 
 ### Phase 2: Statement Generator
 
 - [Statement Generator Reference](docs/reference/STATEMENT_GENERATOR.md) - Usage, CLI, pipeline overview
-- [Phase 2 Status](docs/project/PHASE_2_STATUS.md) - Implementation status and open work
+- [Phase 2 Status](docs/PHASE_2_STATUS.md) - Current status and priorities
 - [Cloze Flashcard Best Practices](docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md) - Evidence-based guidance
 
 ## Data Structure
@@ -187,7 +191,7 @@ This project is actively maintained. To contribute:
 
 The project includes Claude Code integration:
 
-- **`.claude/` folder**: Project-specific configuration
+- **Claude Code config**: Global configuration in `~/.claude/` (project no longer ships a `.claude/` folder)
   - Custom commands for validation and organization
   - Documentation standards
   - File organization rules
@@ -207,6 +211,12 @@ The project includes Claude Code integration:
 2. Run extraction: `./target/release/mksap-extractor`
 3. Validate results: `./target/release/mksap-extractor validate`
 4. Check [Troubleshooting](docs/reference/TROUBLESHOOTING.md) if issues
+
+### For Phase 2 (Statement Generator)
+
+1. Process the next 10-20 questions (start with `cv`) using `claude-code`
+2. Triage validation false positives in `ambiguity_checks.py`
+3. Add daily validation metrics reporting for `statement_generator/outputs/`
 
 ### For Development
 
@@ -240,7 +250,9 @@ See [Troubleshooting Guide](docs/reference/TROUBLESHOOTING.md) for:
 
 The extractor uses API discovery (HTTP HEAD requests) to determine available questions, ensuring metrics reflect current API state rather than outdated baselines.
 
-See [PHASE_1_COMPLETION_REPORT.md](docs/project/PHASE_1_COMPLETION_REPORT.md) for final results, [docs/project/README.md](docs/project/README.md) for architecture details, and [docs/project/reports/](docs/project/reports/) for historical extraction data.
+See [PHASE_1_COMPLETION_REPORT.md](docs/PHASE_1_COMPLETION_REPORT.md) for final results,
+[PROJECT_OVERVIEW.md](docs/PROJECT_OVERVIEW.md) for architecture details, and [docs/archive/reports/](docs/archive/reports/)
+for historical extraction data.
 
 ## License
 

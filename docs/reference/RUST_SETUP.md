@@ -63,34 +63,20 @@ MKSAP_SESSION=... ./target/release/mksap-extractor
 MKSAP_USERNAME=... MKSAP_PASSWORD=... ./target/release/mksap-extractor
 ```
 
-> ⚠️ **Security Warning**: Never commit credentials to version control. Prefer environment variables or a local `.env` file.
+> ⚠️ **Security Warning**: Never commit credentials to version control. Prefer environment variables or a local `.env`
+> file.
 
 ## Building from Source
 
 ### Step-by-Step
 
-1. **Verify Rust toolchain**:
-   ```bash
-   rustup update
-   rustc --version
-   cargo --version
-   ```
+1. **Verify Rust toolchain**: ```bash rustup update rustc --version cargo --version ```
 
-2. **Check dependencies**:
-   ```bash
-   cargo check
-   ```
+2. **Check dependencies**: ```bash cargo check ```
 
-3. **Build release binary**:
-   ```bash
-   cargo build --release
-   ```
+3. **Build release binary**: ```bash cargo build --release ```
 
-4. **Verify binary**:
-   ```bash
-   ls -lh target/release/mksap-extractor
-   ./target/release/mksap-extractor
-   ```
+4. **Verify binary**: ```bash ls -lh target/release/mksap-extractor ./target/release/mksap-extractor ```
 
 ### Dependencies
 

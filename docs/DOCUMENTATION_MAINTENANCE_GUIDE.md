@@ -1,13 +1,13 @@
 # Documentation Maintenance Guide
 
-**Purpose**: Ensure documentation stays synchronized with codebase changes
-**Last Updated**: December 31, 2025
+**Purpose**: Ensure documentation stays synchronized with codebase changes **Last Updated**: January 13, 2026
 
 ---
 
 ## Overview
 
-This guide establishes a systematic approach to keeping documentation aligned with code as the project evolves. The goal is to prevent documentation drift while maintaining historical context for debugging and understanding past decisions.
+This guide establishes a systematic approach to keeping documentation aligned with code as the project evolves. The goal
+is to prevent documentation drift while maintaining historical context for debugging and understanding past decisions.
 
 ---
 
@@ -18,22 +18,25 @@ This guide establishes a systematic approach to keeping documentation aligned wi
 docs/
 ├── DOCUMENTATION_MAINTENANCE_GUIDE.md  # This file
 │
-├── project/                             # Project planning & execution
-│   ├── README.md                        # Project overview (KEEP CURRENT)
-│   ├── INDEX.md                         # Navigation guide (UPDATE ON STRUCTURE CHANGES)
-│   ├── QUICKSTART.md                    # Command reference (UPDATE ON CLI CHANGES)
-│   ├── CHANGELOG.md                     # Documentation history (APPEND ONLY)
-│   ├── EXTRACTION_SCOPE.md              # Scope definition (UPDATE ON SCOPE CHANGES)
-│   ├── PHASE_1_COMPLETION_REPORT.md     # Phase 1 results (FINAL, DO NOT EDIT)
-│   ├── PHASE_2_STATUS.md                # Phase 2 status (KEEP CURRENT)
-│   ├── EXTRACTOR_CODE_AUDIT.md          # Code cleanup notes (ARCHIVE WHEN COMPLETE)
-│   │
-│   ├── archive/                         # Historical documents
-│   │   ├── planning-sessions/           # Brainstorm & planning meetings
-│   │   ├── completed-tasks/             # One-time task completion notices
-│   │   └── phase-1/                     # Phase 1 planning documents + discovery analysis
-│   │
+├── INDEX.md                             # Navigation guide (UPDATE ON STRUCTURE CHANGES)
+├── PROJECT_OVERVIEW.md                  # Project overview (KEEP CURRENT)
+├── QUICKSTART.md                        # Command reference (UPDATE ON CLI CHANGES)
+├── CHANGELOG.md                         # Documentation history (APPEND ONLY)
+├── EXTRACTION_SCOPE.md                  # Scope definition (UPDATE ON SCOPE CHANGES)
+├── PHASE_1_COMPLETION_REPORT.md         # Phase 1 results (FINAL, DO NOT EDIT)
+├── PHASE_2_STATUS.md                    # Phase 2 status (KEEP CURRENT)
+├── EXTRACTOR_CODE_AUDIT.md              # Code cleanup notes (ARCHIVE WHEN COMPLETE)
+│
+├── archive/                             # Historical documents
+│   ├── planning-sessions/               # Brainstorm & planning meetings
+│   ├── phase-1/                         # Phase 1 planning documents + discovery analysis
+│   ├── phase-2/                         # Phase 2 planning + weekly reports (archived)
+│   │   ├── planning/                    # Phase 2 planning documents
+│   │   └── reports/                     # Phase 2 weekly reports and handoffs
 │   └── reports/                         # Extraction reports (KEEP AS HISTORY)
+│
+├── architecture/                        # System design
+│   └── PROJECT_ORGANIZATION.md          # 4-phase pipeline (UPDATE ON ARCHITECTURE CHANGES)
 │
 ├── reference/                           # Technical documentation
 │   ├── RUST_SETUP.md                    # Installation (UPDATE ON DEPENDENCY CHANGES)
@@ -46,14 +49,13 @@ docs/
 │   ├── STATEMENT_GENERATOR.md           # Phase 2 reference (UPDATE ON CLI CHANGES)
 │   └── CLOZE_FLASHCARD_BEST_PRACTICES.md # Flashcard design guidance (STABLE)
 │
-├── architecture/                        # System design
-│   └── PROJECT_ORGANIZATION.md          # 4-phase pipeline (UPDATE ON ARCHITECTURE CHANGES)
-│
 ├── specifications/                      # Output format specs
-│   └── (future specs)                   # (ADD AS NEEDED)
+│   └── VIDEO_SVG_EXTRACTION.md          # Media extraction spec (UPDATE ON POLICY CHANGES)
 │
-└── risks/                               # Risk analysis
-    └── (future risk docs)               # (ADD AS NEEDED)
+├── scraper/                             # Scraper/extractor details
+│   └── TECHNICAL_SPEC.md                # Extractor technical spec
+│
+└── old_method/                          # Legacy reference output (EXCLUDED FROM VALIDATION)
 ```
 
 ---
@@ -153,27 +155,29 @@ When changing system architecture:
 ### When to Archive Documents
 
 **Archive documents when they are:**
-1. **Completion notices** - One-time task completions (FILE_MIGRATION_COMPLETE.md)
-2. **Planning sessions** - Brainstorms and design meetings (BRAINSTORM_SESSION_COMPLETE.md)
-3. **Phase plans** - When phase completes, archive plan and create completion report
-4. **Outdated specs** - When replaced by newer versions
-5. **Obsolete guides** - When functionality removed or replaced
+1. **Planning sessions** - Brainstorms and design meetings
+2. **Phase plans** - When phase completes, archive plan and create completion report
+3. **Phase reports** - Weekly or milestone progress summaries and handoffs
+4. **Extraction reports** - Time-stamped audits and cleanup summaries
+5. **Legacy analysis** - Rare historical context that still informs decisions
 
 **DO NOT archive:**
 - Current technical reference docs
 - Active command guides
 - Architectural documentation (unless doing major rewrite)
 - Troubleshooting guides (they accumulate knowledge)
+- One-off completion notices or superseded specs (summarize in CHANGELOG, then delete)
 
 ### Archive Location
 
 ```
-docs/project/archive/
+docs/archive/
 ├── planning-sessions/          # Brainstorms, design meetings
-├── completed-tasks/            # One-time completion notices
 ├── phase-1/                    # Phase 1 planning documents
-├── phase-2/                    # Phase 2 planning documents (future)
-└── obsolete-specs/             # Replaced specifications (future)
+├── phase-2/                    # Phase 2 planning + weekly reports (archived)
+│   ├── planning/               # Phase 2 planning documents
+│   └── reports/                # Phase 2 weekly reports and handoffs
+└── reports/                    # Extraction cleanup and discovery reports
 ```
 
 ### Archive Naming Convention
@@ -310,6 +314,23 @@ When deprecating code:
 
 ## Documentation Standards
 
+### Scope and Exclusions
+
+- `docs/old_method/` contains legacy output and reference material only.
+- Exclude `docs/old_method/` from documentation validation (links, formatting, line length, and heading rules).
+
+### Documentation Placement (Claude/Codex)
+
+- All generated documentation lives under `docs/`.
+- Do not create module-level `docs/` folders (for example, `statement_generator/docs/`).
+- If new docs are created, link them from `docs/INDEX.md` and `docs/CHANGELOG.md`.
+
+### Change Notes
+
+- Record completed work in `docs/CHANGELOG.md` with a date heading.
+- Keep notes in plain text (no checkboxes or TODO items).
+- Link to supporting reports when they exist.
+
 ### Filename Conventions
 
 - **ALL_CAPS.md** - Major documents (CLAUDE.md, README.md, CHANGELOG.md)
@@ -349,28 +370,14 @@ All technical documents should include:
 ### Scripts to Consider
 
 1. **Module count checker**:
-   ```bash
-   # scripts/check-module-docs.sh
-   # Verify module counts in CLAUDE.md match actual codebase
-   ```
+   ```bash # scripts/check-module-docs.sh # Verify module counts in CLAUDE.md match actual codebase ```
 
-2. **Link validator**:
-   ```bash
-   # scripts/validate-doc-links.sh
-   # Check all documentation links are valid
-   ```
+2. **Link validator**: ```bash # scripts/validate-doc-links.sh # Check all documentation links are valid ```
 
-3. **Timestamp updater**:
-   ```bash
-   # scripts/update-timestamps.sh
-   # Update "Last Updated" when files change
-   ```
+3. **Timestamp updater**: ```bash # scripts/update-timestamps.sh # Update "Last Updated" when files change ```
 
 4. **CLI docs generator**:
-   ```bash
-   # scripts/generate-cli-docs.sh
-   # Auto-generate command reference from --help output
-   ```
+   ```bash # scripts/generate-cli-docs.sh # Auto-generate command reference from --help output ```
 
 ---
 
@@ -421,14 +428,11 @@ All technical documents should include:
 
 Documentation is well-maintained when:
 
-✅ **Accurate**: Code examples work, commands match CLI
-✅ **Current**: "Last Updated" timestamps within 3 months for active docs
-✅ **Complete**: All modules, commands, and features documented
-✅ **Organized**: Easy to find information via INDEX.md
-✅ **Consistent**: Follows naming and structure conventions
-✅ **Synchronized**: Updates happen with code changes, not retroactively
-✅ **Historical**: Archive preserves context for debugging
-✅ **Navigable**: Clear paths from README to detailed docs
+✅ **Accurate**: Code examples work, commands match CLI ✅ **Current**: "Last Updated" timestamps within 3 months for
+active docs ✅ **Complete**: All modules, commands, and features documented ✅ **Organized**: Easy to find information via
+INDEX.md ✅ **Consistent**: Follows naming and structure conventions ✅ **Synchronized**: Updates happen with code
+changes, not retroactively ✅ **Historical**: Archive preserves context for debugging ✅ **Navigable**: Clear paths from
+README to detailed docs
 
 ---
 
@@ -442,6 +446,5 @@ If documentation maintenance becomes unclear:
 
 ---
 
-**Maintained By**: Documentation system as part of codebase
-**Review Frequency**: Monthly during active development, quarterly during maintenance
-**Next Review**: January 27, 2026 (1 month from last update)
+**Maintained By**: Documentation system as part of codebase **Review Frequency**: Monthly during active development,
+quarterly during maintenance **Next Review**: January 27, 2026 (1 month from last update)

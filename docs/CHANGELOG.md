@@ -4,31 +4,104 @@
 
 ---
 
-## January 1, 2026 - Terminal Output Refactor Alignment
+## January 13, 2026 - Archive Cleanup
 
-**Type**: Update - Logging documentation refresh and plan cleanup
-**Status**: Complete ✅
+**Type**: Minor update - Removed obsolete docs **Status**: Complete ✅
 
 ### Summary
-Updated documentation to reflect the completed terminal output refactor, refreshed the extractor
-source tree reference, archived an obsolete media extraction guide, removed the completed
-planning file, and generalized docs to avoid brittle file-path references.
+Removed outdated archive artifacts (obsolete specs, completion notices, deprecated baseline counts) and
+cleaned references.
+
+### Files Removed
+1. **2025-12-26_media-extraction-implementation-guide.md** →
+   `archive/obsolete-specs/2025-12-26_media-extraction-implementation-guide.md`
+2. **EXTRACTION_BROWSER_ENHANCEMENT_PLAN.md** → `archive/obsolete-specs/EXTRACTION_BROWSER_ENHANCEMENT_PLAN.md`
+3. **DEPRECATED_BASELINE_COUNTS.md** → `archive/DEPRECATED_BASELINE_COUNTS.md`
+4. **DOCUMENTATION_CLEANUP_COMPLETE.md** → `archive/completed-tasks/DOCUMENTATION_CLEANUP_COMPLETE.md`
+5. **FILE_MIGRATION_COMPLETE.md** → `archive/completed-tasks/FILE_MIGRATION_COMPLETE.md`
+6. **REFERENCE_FOLDER_AUDIT.md** → `archive/completed-tasks/REFERENCE_FOLDER_AUDIT.md`
+7. **data-cleanup-dec25.md** → `archive/reports/data-cleanup-dec25.md`
+8. **extraction-cleanup-dec25.md** → `archive/reports/extraction-cleanup-dec25.md`
+9. **gaps-analysis-dec25.md** → `archive/reports/gaps-analysis-dec25.md`
+
+### Directories Removed
+1. `docs/archive/completed-tasks/`
+2. `docs/archive/obsolete-specs/`
+3. `docs/archive/statement-generator/`
+
+### Files Updated
+1. **docs/INDEX.md** - Removed outdated archive links
+2. **docs/reference/PHASE_1_DEEP_DIVE.md** - Removed deprecated baseline reference
+3. **docs/PHASE_1_COMPLETION_REPORT.md** - Trimmed archive list
+4. **docs/DOCUMENTATION_MAINTENANCE_GUIDE.md** - Generalized completion notice guidance
+
+## January 6, 2026 - Documentation Cleanup and Phase 2 Archiving
+
+**Type**: Major update - Archive consolidation + Phase 2 status refresh **Status**: Complete ✅
+
+### Summary
+Archived outdated Phase 2 planning and week-by-week reports, consolidated references to the new archive layout, and
+refreshed Phase 2 status and next steps across the main docs.
+
+### Files Moved/Archived
+1. **PHASE_2_DETAILED_PLANNING.md** → `archive/phase-2/planning/PHASE_2_DETAILED_PLANNING.md`
+2. **PHASE_2_PLANNING_SUMMARY.md** → `archive/phase-2/planning/PHASE_2_PLANNING_SUMMARY.md`
+3. **statement_generator/docs/reports/** → `archive/phase-2/reports/`
+4. **statement_generator/tests/AMBIGUITY_TEST_SUMMARY.md** →
+   `archive/phase-2/reports/AMBIGUITY_TEST_SUMMARY.md`
+5. **EXTRACTION_BROWSER_ENHANCEMENT_PLAN.md** → `archive/obsolete-specs/EXTRACTION_BROWSER_ENHANCEMENT_PLAN.md`
+6. **REFERENCE_FOLDER_AUDIT.md** → `archive/completed-tasks/REFERENCE_FOLDER_AUDIT.md`
+
+### Files Updated
+1. **PHASE_2_STATUS.md** - Rewritten to focus on current priorities and next steps
+2. **README.md** - Phase 2 next steps and updated timestamp
+3. **docs/PROJECT_OVERVIEW.md** - Phase 2 next steps
+4. **docs/INDEX.md** - Archive links and updated timestamp
+5. **docs/QUICKSTART.md** - Updated Phase 2 references
+6. **docs/reference/STATEMENT_GENERATOR.md** - Current priorities + archive reference
+7. **docs/reference/EXTRACTION_OVERVIEW.md** - Updated next steps
+8. **CLAUDE.md** - Updated Phase 2 references
+9. **TODO.md** - Updated archive references and timestamp
+10. **docs/DOCUMENTATION_MAINTENANCE_GUIDE.md** - Archive structure update
+
+### Project Change Notes
+
+Summary:
+- Phase 1 extraction completed with 2,198 questions and validation. See
+  [PHASE_1_COMPLETION_REPORT.md](PHASE_1_COMPLETION_REPORT.md).
+- Phase 2 foundation completed: 4-step pipeline, table extraction fixes, checkpoint resume, provider fallback,
+  reprocessing controls, validation framework, and multi-provider support. See
+  [WEEK2_COMPLETION_REPORT.md](archive/phase-2/reports/WEEK2_COMPLETION_REPORT.md).
+- Removed the legacy Phase 1 todo list and references to avoid confusion; active tasks now live in TODO.md.
+
+Details:
+- Validation framework additions include ambiguity and enumeration detectors plus quality checks tuned on 10 questions.
+  See [Week 2 validation report](archive/phase-2/reports/WEEK2_DAY2-3_VALIDATION_FRAMEWORK_REPORT.md).
+
+## January 1, 2026 - Terminal Output Refactor Alignment
+
+**Type**: Update - Logging documentation refresh and plan cleanup **Status**: Complete ✅
+
+### Summary
+Updated documentation to reflect the completed terminal output refactor, refreshed the extractor source tree reference,
+archived an obsolete media extraction guide, removed the completed planning file, and generalized docs to avoid brittle
+file-path references.
 
 ### Files Removed
 1. **docs/plans/2025-12-26-terminal-output-refactor.md** - Completed implementation plan removed
 2. **docs/plans/** - Planning folder removed after completion
 
 ### Files Archived
-1. **docs/_.md** → `docs/project/archive/obsolete-specs/2025-12-26_media-extraction-implementation-guide.md`
+1. **docs/_.md** → `docs/archive/obsolete-specs/2025-12-26_media-extraction-implementation-guide.md`
 
 ### Files Updated
-1. **docs/project/README.md** - Logging output sample updated with discovery summaries
+1. **docs/PROJECT_OVERVIEW.md** - Logging output sample updated with discovery summaries
 2. **docs/architecture/PROJECT_ORGANIZATION.md** - Extractor source tree refreshed
 3. **docs/specifications/VIDEO_SVG_EXTRACTION.md** - Added media metadata notes
 4. **docs/reference/RUST_SETUP.md** - Updated extractor source tree snapshot
-5. **docs/project/EXTRACTOR_CODE_AUDIT.md** - Updated auth flow references
+5. **docs/EXTRACTOR_CODE_AUDIT.md** - Updated auth flow references
 6. **README.md** - Updated last-updated timestamp
-7. **docs/project/INDEX.md** - Updated last-updated timestamp + archive link
+7. **docs/INDEX.md** - Updated last-updated timestamp + archive link
 8. **Documentation set** - Removed hard-coded file names/paths; generalized module descriptions and absolute paths
 
 ### Verification
@@ -36,11 +109,11 @@ planning file, and generalized docs to avoid brittle file-path references.
 
 ## December 31, 2025 - Phase 2 Documentation Consolidation
 
-**Type**: Major update - Phase 2 docs consolidation into global scope
-**Status**: Complete ✅
+**Type**: Major update - Phase 2 docs consolidation into global scope **Status**: Complete ✅
 
 ### Summary
-Consolidated statement generator documentation into global references, moved flashcard best practices into `docs/reference/`, and updated top-level navigation to reflect Phase 2 as active.
+Consolidated statement generator documentation into global references, moved flashcard best practices into
+`docs/reference/`, and updated top-level navigation to reflect Phase 2 as active.
 
 ### Files Created
 1. **STATEMENT_GENERATOR.md** - Phase 2 usage, CLI, pipeline reference
@@ -48,7 +121,7 @@ Consolidated statement generator documentation into global references, moved fla
 
 ### Files Moved/Renamed
 1. **best-practices-cloze-deletion-flashcards.md** → `docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md`
-2. **docs/reference/QUESTION_ID_DISCOVERY.md** → `docs/project/archive/phase-1/QUESTION_ID_DISCOVERY.md`
+2. **docs/reference/QUESTION_ID_DISCOVERY.md** → `docs/archive/phase-1/QUESTION_ID_DISCOVERY.md`
 
 ### Files Removed
 1. **statement_generator/CLAUDE.md** - Consolidated into global CLAUDE.md and STATEMENT_GENERATOR.md
@@ -61,13 +134,13 @@ Consolidated statement generator documentation into global references, moved fla
 ### Files Updated
 1. **CLAUDE.md** - Phase 2 commands, architecture, constraints, troubleshooting
 2. **README.md** - Phase 2 status + quickstart link updates
-3. **docs/project/INDEX.md** - Phase 2 navigation block
-4. **docs/project/README.md** - Phase 2 section + key paths
-5. **docs/project/QUICKSTART.md** - Phase 2 quickstart steps
+3. **docs/INDEX.md** - Phase 2 navigation block
+4. **docs/PROJECT_OVERVIEW.md** - Phase 2 section + key paths
+5. **docs/QUICKSTART.md** - Phase 2 quickstart steps
 6. **docs/architecture/PROJECT_ORGANIZATION.md** - Statement generator location and phase update
 7. **docs/DOCUMENTATION_MAINTENANCE_GUIDE.md** - Added Phase 2 docs
 8. **docs/specifications/VIDEO_SVG_EXTRACTION.md** - Manual video download workflow consolidated
-9. **docs/REFERENCE_FOLDER_AUDIT.md** - Added post-audit update note
+9. **docs/archive/completed-tasks/REFERENCE_FOLDER_AUDIT.md** - Added post-audit update note
 
 ### Verification
 - ✅ Global documentation links resolve
@@ -75,11 +148,12 @@ Consolidated statement generator documentation into global references, moved fla
 
 ## December 27, 2025 - Documentation Audit & Reorganization
 
-**Type**: Major update - Archive creation, Phase 1 completion, reference folder audit
-**Status**: Complete ✅
+**Type**: Major update - Archive creation, Phase 1 completion, reference folder audit **Status**: Complete ✅
 
 ### Summary
-Comprehensive documentation audit completed following Phase 1 extraction completion. Created archive structure, updated all references to reflect 100% extraction status, reorganized reference folder, and established documentation maintenance system.
+Comprehensive documentation audit completed following Phase 1 extraction completion. Created archive structure, updated
+all references to reflect 100% extraction status, reorganized reference folder, and established documentation
+maintenance system.
 
 ### Files Created
 1. **PHASE_1_COMPLETION_REPORT.md** - Phase 1 results (2,198 questions, 100% complete)
@@ -89,7 +163,7 @@ Comprehensive documentation audit completed following Phase 1 extraction complet
 ### Files Archived
 **Phase 1 Planning** (moved to `archive/phase-1/`):
 - PHASE_1_PLAN.md - Original Phase 1 detailed plan
-- PROJECT_TODOS.md - Original Phase 1 todo list
+- PROJECT_TODOS.md - Original Phase 1 todo list (removed)
 
 **Planning Sessions** (moved to `archive/planning-sessions/`):
 - BRAINSTORM_SESSION_COMPLETE.md - Initial brainstorming results
@@ -126,7 +200,7 @@ Comprehensive documentation audit completed following Phase 1 extraction complet
 
 ### Archive Structure Created
 ```
-docs/project/archive/
+docs/archive/
 ├── planning-sessions/          # Brainstorms and design meetings
 ├── completed-tasks/            # One-time completion notices
 └── phase-1/                    # Phase 1 planning documents
@@ -138,10 +212,9 @@ docs/project/archive/
 - **Clear maintenance triggers**: When to update each doc type based on code changes
 
 ### Key Principles Implemented
-✅ **Separation of Concerns**: Reference vs Specifications vs Archive
-✅ **Historical Preservation**: Original plans archived with context
-✅ **Clear Update Triggers**: Each file has defined maintenance schedule
-✅ **Integration**: All files linked from main navigation
+✅ **Separation of Concerns**: Reference vs Specifications vs Archive ✅ **Historical Preservation**: Original plans
+archived with context ✅ **Clear Update Triggers**: Each file has defined maintenance schedule ✅ **Integration**: All
+files linked from main navigation
 
 ### Verification
 - ✅ All Phase 1 tasks complete
@@ -154,18 +227,19 @@ docs/project/archive/
 
 ## December 25, 2025 - Initial Documentation Alignment
 
-**Date:** December 25, 2025
-**Status:** Complete
+**Date:** December 25, 2025 **Status:** Complete
 
 ## Overview
 
-Comprehensive documentation audit and alignment completed to support the new 4-phase MKSAP Anki deck generation pipeline. All obsolete files removed, critical documents promoted to higher visibility, and documentation hierarchy reorganized for clarity.
+Comprehensive documentation audit and alignment completed to support the new 4-phase MKSAP Anki deck generation
+pipeline. All obsolete files removed, critical documents promoted to higher visibility, and documentation hierarchy
+reorganized for clarity.
 
 ---
 
 ## Files Deleted
 
-1. **docs/project/PROJECT_STATUS.md** ❌
+1. **docs/PROJECT_STATUS.md** ❌
    - Reason: Contained outdated progress tracking (1,810 vs 2,198 questions)
    - Replacement: PHASE_1_PLAN.md (detailed roadmap) + Weekly progress reports during Phase 1
 
@@ -177,7 +251,7 @@ Comprehensive documentation audit and alignment completed to support the new 4-p
 
 ## Files Created
 
-1. **docs/project/PHASE_1_PLAN.md** ✅ (NEW - CRITICAL)
+1. **docs/PHASE_1_PLAN.md** ✅ (NEW - CRITICAL)
    - **Purpose**: Complete implementation roadmap for Phase 1 (Data Extraction)
    - **Scope**: 9 detailed tasks with specific action items, success criteria, and risk handling
    - **Content**:
@@ -191,7 +265,7 @@ Comprehensive documentation audit and alignment completed to support the new 4-p
    - **Duration**: 2-4 weeks (dependent on rate limiting)
    - **Visibility**: Highest priority - linked from README.md, INDEX.md, all key docs
 
-2. **docs/project/DOCUMENTATION_UPDATE_SUMMARY.md** ✅ (THIS FILE)
+2. **docs/DOCUMENTATION_UPDATE_SUMMARY.md** ✅ (THIS FILE)
    - **Purpose**: Document all changes made in this update
    - **Audience**: Future maintenance and understanding of documentation state
 
@@ -212,7 +286,7 @@ Comprehensive documentation audit and alignment completed to support the new 4-p
 
 **Rationale:** README is first entry point; it now directs users to PHASE_1_PLAN.md immediately.
 
-### docs/project/INDEX.md
+### docs/INDEX.md
 **Changes:**
 - Reorganized sections: "Critical - Start Here" at top (items 1-2)
 - Added PHASE_1_PLAN.md as Item #1 (marked with ⭐)
@@ -262,20 +336,13 @@ Comprehensive documentation audit and alignment completed to support the new 4-p
 
 ## Files Kept (No Changes)
 
-✅ README.md (docs/project/) - Project overview
-✅ QUICKSTART.md - Quick start guide
-✅ docs/rust/setup.md - Installation guide
-✅ docs/rust/usage.md - Usage guide
-✅ docs/rust/architecture.md - Technical implementation
-✅ docs/rust/validation.md - Data quality
-✅ docs/rust/troubleshooting.md - Troubleshooting
-✅ docs/rust/DESERIALIZATION_ISSUES.md - API quirks
-✅ docs/Question ID Discovery.md - Critical analysis (now promoted)
-✅ docs/syllubus_extraction.md - Phase 2+ spec
-✅ docs/video_svg_extraction.md - Technical reference
-✅ docs/potential_syllubus_errors.md - Risk analysis
-✅ CLAUDE.md - Claude Code integration
-✅ AGENTS.md - Development guidelines
+✅ README.md (docs/) - Project overview ✅ QUICKSTART.md - Quick start guide ✅ docs/rust/setup.md - Installation
+guide ✅ docs/rust/usage.md - Usage guide ✅ docs/rust/architecture.md - Technical implementation ✅
+docs/rust/validation.md - Data quality ✅ docs/rust/troubleshooting.md - Troubleshooting ✅
+docs/rust/DESERIALIZATION_ISSUES.md - API quirks ✅ docs/Question ID Discovery.md - Critical analysis (now promoted) ✅
+docs/syllubus_extraction.md - Phase 2+ spec ✅ docs/video_svg_extraction.md - Technical reference ✅
+docs/potential_syllubus_errors.md - Risk analysis ✅ CLAUDE.md - Claude Code integration ✅ AGENTS.md - Development
+guidelines
 
 ---
 
@@ -356,7 +423,7 @@ README (high level)
 4. Complete all success criteria before Phase 2
 
 ### Documentation During Phase 1
-- Create `docs/project/PHASE_1_PROGRESS.md` for weekly updates
+- Create `docs/PHASE_1_PROGRESS.md` for weekly updates
 - Document any new deserialization issues in DESERIALIZATION_ISSUES.md
 - Track actual timings for duration estimates
 
@@ -388,16 +455,11 @@ README (high level)
 
 ## Verification Checklist
 
-✅ PHASE_1_PLAN.md created with 9 detailed tasks
-✅ Obsolete files deleted (PROJECT_STATUS.md, TODOS.md)
-✅ README.md updated with correct targets and references
-✅ INDEX.md reorganized with PHASE_1_PLAN as #1 priority
-✅ overview.md updated with 2,198 target and 16 systems
-✅ PROJECT_ORGANIZATION.md completely restructured for 4-phase pipeline
-✅ All cross-references updated and verified
-✅ Documentation hierarchy established (critical → supporting → future)
-✅ All changes aligned with 4-phase pipeline architecture
-✅ This summary document created
+✅ PHASE_1_PLAN.md created with 9 detailed tasks ✅ Obsolete files deleted (PROJECT_STATUS.md, TODOS.md) ✅ README.md
+updated with correct targets and references ✅ INDEX.md reorganized with PHASE_1_PLAN as #1 priority ✅ overview.md
+updated with 2,198 target and 16 systems ✅ PROJECT_ORGANIZATION.md completely restructured for 4-phase pipeline ✅ All
+cross-references updated and verified ✅ Documentation hierarchy established (critical → supporting → future) ✅ All
+changes aligned with 4-phase pipeline architecture ✅ This summary document created
 
 ---
 

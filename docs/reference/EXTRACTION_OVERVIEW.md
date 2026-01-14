@@ -1,10 +1,12 @@
 # Rust MKSAP Extractor - Overview
 
-> **Phase 1 Status**: ✅ COMPLETE (December 27, 2025) - All 2,198 valid questions extracted. See [PHASE_1_COMPLETION_REPORT.md](../project/PHASE_1_COMPLETION_REPORT.md) for details.
+> **Phase 1 Status**: ✅ COMPLETE (December 27, 2025) - All 2,198 valid questions extracted. See
+> [PHASE_1_COMPLETION_REPORT.md](../PHASE_1_COMPLETION_REPORT.md) for details.
 
 ## Purpose
 
-The Rust MKSAP Extractor is the primary tool for extracting medical education questions from the ACP MKSAP (Medical Knowledge Self-Assessment Program) question bank via direct API calls.
+The Rust MKSAP Extractor is the primary tool for extracting medical education questions from the ACP MKSAP (Medical
+Knowledge Self-Assessment Program) question bank via direct API calls.
 
 ## Current Status
 
@@ -96,14 +98,15 @@ The Rust extractor is the only supported extraction path for this project.
 
 ## Known Issues
 
-No known abbreviation mismatches in current extraction output. Interdisciplinary Medicine uses `in` for question IDs while the web path remains `/dmin/`.
+No known abbreviation mismatches in current extraction output. Interdisciplinary Medicine uses `in` for question IDs
+while the web path remains `/dmin/`.
 
 ## Next Steps
 
-1. Run extraction for the full dataset
-2. Validate output with discovery-aware metrics
-3. Run `mksap-extractor media-download` for figures and tables (videos are manual)
-4. Use `media_discovery.txt` (VIDEO QUESTION IDS) to guide manual video downloads
+1. Re-run validation after any extractor changes: `./target/release/mksap-extractor validate`
+2. Use `media-discover` and `media-download` to fill missing figures/tables
+3. Review `mksap_data/validation_report.txt` and `mksap_data_failed/` for issues
+4. Move downstream into Phase 2 statement generation when data is clean
 
 ## Related Documentation
 

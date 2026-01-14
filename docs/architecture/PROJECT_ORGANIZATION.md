@@ -6,12 +6,13 @@
 
 This project is a **4-phase pipeline** for generating MKSAP Anki flashcard decks:
 
-1. **Phase 1**: Data Extraction (Rust) - Extract 2,198 valid questions from the MKSAP API (invalidated questions excluded)
+1. **Phase 1**: Data Extraction (Rust) - Extract 2,198 valid questions from the MKSAP API (invalidated questions
+   excluded)
 2. **Phase 2**: Statement Generation (Python) - Extract atomic facts via LLM
 3. **Phase 3**: Card Generation (Rust) - Convert facts to Anki note format
 4. **Phase 4**: Import & Validation - Generate .apkg deck and import
 
-See [PHASE_1_PLAN.md](../project/archive/phase-1/PHASE_1_PLAN.md) for current phase details.
+See [PHASE_1_PLAN.md](../archive/phase-1/PHASE_1_PLAN.md) for current phase details.
 
 ## Directory Structure
 
@@ -44,8 +45,7 @@ MKSAP/
 ├── CLAUDE.md                 # Claude Code integration guide
 ├── AGENTS.md                 # Development guidelines and standards
 ├── .gitignore                # Git ignore patterns
-└── .claude/                  # Claude Code project configuration
-    └── (project-specific tools and skills)
+└── (global) ~/.claude/        # Claude Code configuration (outside repo)
 ```
 
 ## Primary Workflow
@@ -119,5 +119,5 @@ validator → validation_report.txt
 
 - The Rust extractor is the **only supported extraction method**
 - Future processing steps (fact extraction, card generation) are **downstream of `mksap_data/`**
-- See [PHASE_1_PLAN.md](../project/archive/phase-1/PHASE_1_PLAN.md) for current phase implementation details
+- See [PHASE_1_PLAN.md](../archive/phase-1/PHASE_1_PLAN.md) for current phase implementation details
 - All documentation should be kept synchronized with actual directory structure

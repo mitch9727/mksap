@@ -152,7 +152,7 @@ Resumable extraction with three checkpoint types:
 - ✅ CLAUDE.md - Comprehensive guide (875 lines)
 - ✅ README.md - Project overview
 - ✅ docs/reference/ - Technical documentation (8 files)
-- ✅ docs/project/ - Project planning (7 files)
+- ✅ docs/ - Project planning and status docs
 - ✅ docs/architecture/ - System design (1 file)
 
 ---
@@ -205,10 +205,8 @@ The project is now ready for Phase 2: Fact Extraction
 ## Archive Reference
 
 Original Phase 1 planning documents moved to archive:
-- `docs/project/archive/phase-1/PHASE_1_PLAN.md` - Original detailed plan
-- `docs/project/archive/planning-sessions/BRAINSTORM_SESSION_COMPLETE.md` - Initial brainstorm
-- `docs/project/archive/completed-tasks/DOCUMENTATION_CLEANUP_COMPLETE.md` - Doc cleanup
-- `docs/project/archive/completed-tasks/FILE_MIGRATION_COMPLETE.md` - File reorganization
+- `archive/phase-1/PHASE_1_PLAN.md` - Original detailed plan
+- `archive/planning-sessions/BRAINSTORM_SESSION_COMPLETE.md` - Initial brainstorm
 
 ---
 

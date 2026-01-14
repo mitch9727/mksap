@@ -1,14 +1,13 @@
 # Project TODO - MKSAP Medical Education Pipeline
 
-**Last Updated**: January 6, 2026
+**Last Updated**: January 13, 2026
 **Current Phase**: Phase 2 (Statement Generator) - Week 3 Planning
 **Source of Truth**: This file is the single source for active and planned project todos
-**Completed Work**: See `docs/CHANGELOG.md` for change notes
+**Completed Work**: Tracked in git history; remove finished tasks from this list
 
 This file tracks outstanding work across the 4-phase pipeline. Completed todos are removed once finished. Reference documents:
 - `docs/PHASE_2_STATUS.md` - Current status and implementation details
-- `docs/archive/phase-2/planning/PHASE_2_PLANNING_SUMMARY.md` - Archived Week 1-7 roadmap
-- `docs/archive/phase-2/reports/WEEK2_HANDOFF.md` - Archived Week 3 task context
+- `docs/reference/STATEMENT_GENERATOR.md` - Phase 2 CLI and pipeline reference
 
 ---
 
@@ -19,7 +18,7 @@ This file tracks outstanding work across the 4-phase pipeline. Completed todos a
 
 ### WEEK 3 - High Priority Tasks (Start Here)
 
-These are the immediate next steps from `docs/archive/phase-2/reports/WEEK2_HANDOFF.md`:
+These are the immediate next steps:
 
 #### Scale Processing (🎯 Do First)
 - [ ] Process 10-20 questions per day (target: 100 questions by end of week)
@@ -67,8 +66,6 @@ These are the immediate next steps from `docs/archive/phase-2/reports/WEEK2_HAND
 - [ ] Run full production pass on all 2,198 questions
 
 ### Phase 2 - Week 3-7 Detailed Roadmap
-
-**See**: `docs/archive/phase-2/planning/PHASE_2_PLANNING_SUMMARY.md` for the archived week-by-week breakdown:
 
 **Week 3**: Consistency improvements & scaling
 - [ ] Lock temperature settings (Codex CLI or selected provider)
@@ -231,9 +228,8 @@ These are the immediate next steps from `docs/archive/phase-2/reports/WEEK2_HAND
 
 ### When Completing Work
 1. Remove the completed task from TODO.md
-2. Add a short change note in `docs/CHANGELOG.md` (no checkboxes)
-3. Update "Last Updated" at top
-4. Commit: `git commit -m "mark: task completed"`
+2. Update "Last Updated" at top
+3. Commit: `git commit -m "mark: task completed"`
 
 ### When Adding New Work
 1. Add task with clear description
@@ -253,9 +249,6 @@ These are the immediate next steps from `docs/archive/phase-2/reports/WEEK2_HAND
 ## Reference Documents
 
 **For detailed context, see**:
-- **Change Notes**: `docs/CHANGELOG.md` (written summaries of completed work)
-- **Phase 2 Planning**: `docs/archive/phase-2/planning/PHASE_2_PLANNING_SUMMARY.md` (Weeks 1-7 roadmap)
-- **Week 2 Handoff**: `docs/archive/phase-2/reports/WEEK2_HANDOFF.md` (Week 3 context)
 - **Phase 2 Status**: `docs/PHASE_2_STATUS.md` (Current implementation details)
 - **Best Practices**: `docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md`
 

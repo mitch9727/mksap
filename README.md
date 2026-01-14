@@ -1,6 +1,6 @@
 # MKSAP Question Bank Extractor
 
-> **Last updated: January 6, 2026**
+> **Last updated: January 13, 2026**
 
 System for extracting medical education questions from the ACP MKSAP (Medical Knowledge Self-Assessment Program) online question bank into structured JSON format.
 
@@ -11,7 +11,6 @@ System for extracting medical education questions from the ACP MKSAP (Medical Kn
 - **Primary Tool**: Rust MKSAP Extractor (API-based extraction with discovery validation)
 - **Architecture**: 16 system codes configured via the extractor configuration module
 - **Extraction Results**: See [PHASE_1_COMPLETION_REPORT.md](docs/PHASE_1_COMPLETION_REPORT.md) for final metrics
-- **Historical Data**: See [docs/archive/reports/](docs/archive/reports/) for past extraction summaries
 
 ## Quick Start
 
@@ -77,10 +76,10 @@ Provider configuration and full CLI reference live in [STATEMENT_GENERATOR.md](d
 
 ### Critical - Start Here
 
-- **[PHASE_1_COMPLETION_REPORT.md](docs/PHASE_1_COMPLETION_REPORT.md)** ✅ - Phase 1 results (100% complete)
-- **[Question ID Discovery](docs/archive/phase-1/QUESTION_ID_DISCOVERY.md)** - Historical discovery analysis
 - **[Documentation Index](docs/INDEX.md)** - Navigation guide for all documentation
-- **[PHASE_1_PLAN.md](docs/archive/phase-1/PHASE_1_PLAN.md)** - Archived Phase 1 roadmap
+- **[Project Overview](docs/PROJECT_OVERVIEW.md)** - Project goals and architecture
+- **[PHASE_1_COMPLETION_REPORT.md](docs/PHASE_1_COMPLETION_REPORT.md)** ✅ - Phase 1 results (100% complete)
+- **[Phase 2 Status](docs/PHASE_2_STATUS.md)** - Current status and priorities
 - **[Project TODO](TODO.md)** - Global project status tracker
 
 ### Getting Started with Extraction
@@ -98,6 +97,7 @@ Provider configuration and full CLI reference live in [STATEMENT_GENERATOR.md](d
 
 - [Project Overview](docs/PROJECT_OVERVIEW.md) - Project goals
 - [Architecture Guide](docs/architecture/PROJECT_ORGANIZATION.md) - Codebase organization
+- [Extraction Scope](docs/EXTRACTION_SCOPE.md) - Scope definition and success criteria
 
 ### Phase 2: Statement Generator
 
@@ -250,9 +250,8 @@ See [Troubleshooting Guide](docs/reference/TROUBLESHOOTING.md) for:
 
 The extractor uses API discovery (HTTP HEAD requests) to determine available questions, ensuring metrics reflect current API state rather than outdated baselines.
 
-See [PHASE_1_COMPLETION_REPORT.md](docs/PHASE_1_COMPLETION_REPORT.md) for final results,
-[PROJECT_OVERVIEW.md](docs/PROJECT_OVERVIEW.md) for architecture details, and [docs/archive/reports/](docs/archive/reports/)
-for historical extraction data.
+See [PHASE_1_COMPLETION_REPORT.md](docs/PHASE_1_COMPLETION_REPORT.md) for final results and
+[PROJECT_OVERVIEW.md](docs/PROJECT_OVERVIEW.md) for architecture details.
 
 ## License
 

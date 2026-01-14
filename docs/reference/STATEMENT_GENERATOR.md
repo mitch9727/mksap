@@ -327,4 +327,3 @@ echo "ANTHROPIC_API_KEY=your_key_here" >> ../.env
 
 - `docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md`
 - `../PHASE_2_STATUS.md`
-- `../archive/phase-2/reports/`

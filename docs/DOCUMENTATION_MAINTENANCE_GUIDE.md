@@ -21,19 +21,10 @@ docs/
 ├── INDEX.md                             # Navigation guide (UPDATE ON STRUCTURE CHANGES)
 ├── PROJECT_OVERVIEW.md                  # Project overview (KEEP CURRENT)
 ├── QUICKSTART.md                        # Command reference (UPDATE ON CLI CHANGES)
-├── CHANGELOG.md                         # Documentation history (APPEND ONLY)
 ├── EXTRACTION_SCOPE.md                  # Scope definition (UPDATE ON SCOPE CHANGES)
 ├── PHASE_1_COMPLETION_REPORT.md         # Phase 1 results (FINAL, DO NOT EDIT)
 ├── PHASE_2_STATUS.md                    # Phase 2 status (KEEP CURRENT)
-├── EXTRACTOR_CODE_AUDIT.md              # Code cleanup notes (ARCHIVE WHEN COMPLETE)
-│
-├── archive/                             # Historical documents
-│   ├── planning-sessions/               # Brainstorm & planning meetings
-│   ├── phase-1/                         # Phase 1 planning documents + discovery analysis
-│   ├── phase-2/                         # Phase 2 planning + weekly reports (archived)
-│   │   ├── planning/                    # Phase 2 planning documents
-│   │   └── reports/                     # Phase 2 weekly reports and handoffs
-│   └── reports/                         # Extraction reports (KEEP AS HISTORY)
+├── EXTRACTOR_CODE_AUDIT.md              # Code cleanup notes (REMOVE WHEN RESOLVED)
 │
 ├── architecture/                        # System design
 │   └── PROJECT_ORGANIZATION.md          # 4-phase pipeline (UPDATE ON ARCHITECTURE CHANGES)
@@ -67,19 +58,19 @@ docs/
 | Code Change | Documentation to Update | Priority |
 |-------------|------------------------|----------|
 | **Add new module** | CLAUDE.md, RUST_ARCHITECTURE.md | HIGH |
-| **Remove module** | CLAUDE.md, RUST_ARCHITECTURE.md, CHANGELOG.md | HIGH |
+| **Remove module** | CLAUDE.md, RUST_ARCHITECTURE.md | HIGH |
 | **Refactor module** | RUST_ARCHITECTURE.md if structure changes significantly | MEDIUM |
 | **Add CLI command** | CLAUDE.md, QUICKSTART.md, RUST_USAGE.md | HIGH |
-| **Remove CLI command** | CLAUDE.md, QUICKSTART.md, RUST_USAGE.md, CHANGELOG.md | HIGH |
+| **Remove CLI command** | CLAUDE.md, QUICKSTART.md, RUST_USAGE.md | HIGH |
 | **Change CLI arguments** | QUICKSTART.md, RUST_USAGE.md | MEDIUM |
 | **Add dependency** | CLAUDE.md (Technology Stack section), RUST_SETUP.md | MEDIUM |
-| **Remove dependency** | CLAUDE.md, RUST_SETUP.md, CHANGELOG.md | MEDIUM |
+| **Remove dependency** | CLAUDE.md, RUST_SETUP.md | MEDIUM |
 | **Fix bug** | TROUBLESHOOTING.md if pattern is reusable | LOW |
-| **Add feature** | Relevant guide + CHANGELOG.md | MEDIUM |
+| **Add feature** | Relevant guide | MEDIUM |
 | **API changes** | DESERIALIZATION_ISSUES.md if new patterns found | MEDIUM |
 | **Pipeline changes** | PROJECT_ORGANIZATION.md, RUST_ARCHITECTURE.md | HIGH |
-| **Complete phase** | Create PHASE_X_COMPLETION_REPORT.md, archive plan | HIGH |
-| **Start new phase** | Create PHASE_X_PLAN.md | HIGH |
+| **Complete phase** | Create PHASE_X_COMPLETION_REPORT.md, update PHASE_X_STATUS.md and TODO.md | HIGH |
+| **Start new phase** | Create PHASE_X_STATUS.md, update TODO.md | HIGH |
 
 ---
 
@@ -100,10 +91,6 @@ When adding/removing/refactoring modules:
    - [ ] Data flow diagrams
    - [ ] File structure examples
 
-3. **Update CHANGELOG.md**:
-   - [ ] Add entry with date
-   - [ ] Note module changes
-   - [ ] Link to commit/PR if applicable
 
 ### For CLI Changes
 
@@ -122,9 +109,6 @@ When adding/removing/changing CLI commands:
    - [ ] Detailed command documentation
    - [ ] Examples and use cases
 
-4. **Update CHANGELOG.md**:
-   - [ ] Note CLI changes
-   - [ ] Migration notes if breaking change
 
 ### For Architectural Changes
 
@@ -144,49 +128,17 @@ When changing system architecture:
    - [ ] Project Architecture section
    - [ ] Reflect new design
 
-4. **Update CHANGELOG.md**:
-   - [ ] Major architectural changes
-   - [ ] Rationale for changes
 
 ---
 
-## Archive Policy
+## Version Control Policy
 
-### When to Archive Documents
+Documentation history is tracked in git. We do not keep local changelogs or archives.
 
-**Archive documents when they are:**
-1. **Planning sessions** - Brainstorms and design meetings
-2. **Phase plans** - When phase completes, archive plan and create completion report
-3. **Phase reports** - Weekly or milestone progress summaries and handoffs
-4. **Extraction reports** - Time-stamped audits and cleanup summaries
-5. **Legacy analysis** - Rare historical context that still informs decisions
-
-**DO NOT archive:**
-- Current technical reference docs
-- Active command guides
-- Architectural documentation (unless doing major rewrite)
-- Troubleshooting guides (they accumulate knowledge)
-- One-off completion notices or superseded specs (summarize in CHANGELOG, then delete)
-
-### Archive Location
-
-```
-docs/archive/
-├── planning-sessions/          # Brainstorms, design meetings
-├── phase-1/                    # Phase 1 planning documents
-├── phase-2/                    # Phase 2 planning + weekly reports (archived)
-│   ├── planning/               # Phase 2 planning documents
-│   └── reports/                # Phase 2 weekly reports and handoffs
-└── reports/                    # Extraction cleanup and discovery reports
-```
-
-### Archive Naming Convention
-
-When archiving:
-1. Keep original filename
-2. Add date prefix if multiple versions: `YYYY-MM-DD_original-name.md`
-3. Update INDEX.md to reference archive location
-4. Add entry to CHANGELOG.md noting archival
+**When documentation becomes obsolete:**
+1. Remove the outdated doc.
+2. Update references (INDEX, README, TODO, CLAUDE) to point at the current source.
+3. Note the change in the commit message or PR description.
 
 ---
 
@@ -202,15 +154,12 @@ When archiving:
 
 **Quarterly** (during maintenance):
 - [ ] Review all reference docs for accuracy
-- [ ] Archive completed phase plans
 - [ ] Clean up outdated troubleshooting entries
-- [ ] Consolidate CHANGELOG.md if too long
 
 **Per Phase**:
-- [ ] Before phase start: Create PHASE_X_PLAN.md
-- [ ] During phase: Update progress in plan
+- [ ] Before phase start: Create PHASE_X_STATUS.md
+- [ ] During phase: Update progress in status and TODO.md
 - [ ] After phase: Create PHASE_X_COMPLETION_REPORT.md
-- [ ] After phase: Archive phase plan to `archive/phase-x/`
 
 ---
 
@@ -263,9 +212,9 @@ Perform full audit quarterly or when making major changes:
    - [ ] Verify examples still work
    - [ ] Update outdated content
 
-5. **Archive review**:
-   - [ ] Identify historical documents in main docs
-   - [ ] Move to appropriate archive location
+5. **Scope review**:
+   - [ ] Identify outdated documents
+   - [ ] Remove anything no longer needed
    - [ ] Update INDEX.md
 
 ---
@@ -278,7 +227,6 @@ When code changes break documented workflows:
 
 1. **Before commit**:
    - [ ] Update all affected documentation
-   - [ ] Add migration notes to CHANGELOG.md
    - [ ] Consider adding MIGRATION_GUIDE.md if major
 
 2. **In commit message**:
@@ -295,20 +243,16 @@ For features under development:
 
 1. **Don't document in main docs** until stable
 2. **Use comment blocks** in code to explain experimental features
-3. **Add to CHANGELOG.md** when feature graduates to stable
-4. **Document fully** only when feature is release-ready
+3. **Document fully** only when feature is release-ready
 
 ### Handling Deprecated Features
 
 When deprecating code:
 
 1. **Mark as deprecated** in documentation (add "⚠️ Deprecated" tag)
-2. **Add to CHANGELOG.md** with deprecation notice
-3. **Keep documentation** until feature is removed
-4. **After removal**:
+2. **Keep documentation** until feature is removed
+3. **After removal**:
    - [ ] Remove from main documentation
-   - [ ] Add removal note to CHANGELOG.md
-   - [ ] Archive documentation if historically valuable
 
 ---
 
@@ -323,20 +267,19 @@ When deprecating code:
 
 - All generated documentation lives under `docs/`.
 - Do not create module-level `docs/` folders (for example, `statement_generator/docs/`).
-- If new docs are created, link them from `docs/INDEX.md` and `docs/CHANGELOG.md`.
+- If new docs are created, link them from `docs/INDEX.md`.
 
-### Change Notes
+### Change Tracking (Git)
 
-- Record completed work in `docs/CHANGELOG.md` with a date heading.
-- Keep notes in plain text (no checkboxes or TODO items).
-- Link to supporting reports when they exist.
+- Rely on git history for documentation changes.
+- Use clear commit messages describing what changed and why.
+- Remove obsolete documents instead of archiving them locally.
 
 ### Filename Conventions
 
-- **ALL_CAPS.md** - Major documents (CLAUDE.md, README.md, CHANGELOG.md)
+- **ALL_CAPS.md** - Major documents (CLAUDE.md, README.md)
 - **Sentence_Case.md** - Regular documents (most reference docs)
 - **PHASE_X_*.md** - Phase-specific documents
-- **YYYY-MM-DD_*.md** - Dated archives (when multiple versions exist)
 
 ### Content Structure
 
@@ -393,8 +336,7 @@ All technical documents should include:
 **Solution**:
 1. Run verification procedures above
 2. Update affected documents
-3. Add entry to CHANGELOG.md
-4. Consider automating the check
+3. Consider automating the check
 
 ### Documentation is Scattered
 
@@ -407,7 +349,7 @@ All technical documents should include:
 1. Identify authoritative source
 2. Consolidate information there
 3. Add cross-references from other locations
-4. Archive outdated duplicates
+4. Remove outdated duplicates
 
 ### Documentation is Overwhelming
 
@@ -419,8 +361,7 @@ All technical documents should include:
 **Solution**:
 1. Review INDEX.md structure
 2. Create "Start Here" section
-3. Archive historical documents
-4. Simplify navigation paths
+3. Simplify navigation paths
 
 ---
 
@@ -431,7 +372,7 @@ Documentation is well-maintained when:
 ✅ **Accurate**: Code examples work, commands match CLI ✅ **Current**: "Last Updated" timestamps within 3 months for
 active docs ✅ **Complete**: All modules, commands, and features documented ✅ **Organized**: Easy to find information via
 INDEX.md ✅ **Consistent**: Follows naming and structure conventions ✅ **Synchronized**: Updates happen with code
-changes, not retroactively ✅ **Historical**: Archive preserves context for debugging ✅ **Navigable**: Clear paths from
+changes, not retroactively ✅ **Lean**: Only current docs retained; history in git ✅ **Navigable**: Clear paths from
 README to detailed docs
 
 ---
@@ -440,7 +381,7 @@ README to detailed docs
 
 If documentation maintenance becomes unclear:
 1. Consult this guide first
-2. Check CHANGELOG.md for precedents
+2. Check git history for recent documentation changes
 3. Review INDEX.md for structure
 4. Ask: "Will this help future contributors?"
 

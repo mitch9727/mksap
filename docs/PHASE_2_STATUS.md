@@ -1,6 +1,6 @@
 # Phase 2 Status - Statement Generator
 
-**Last Updated**: January 6, 2026
+**Last Updated**: January 13, 2026
 
 ## Summary
 
@@ -27,11 +27,8 @@ metrics.
 ## Notes
 
 - TODOs and sequencing live in `TODO.md` (single source of truth).
-- Historical Week 1-2 reports and planning docs are archived for reference.
 
 ## References
 
 - `TODO.md`
 - `docs/reference/STATEMENT_GENERATOR.md`
-- `archive/phase-2/planning/`
-- `archive/phase-2/reports/`

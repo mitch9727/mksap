@@ -8,7 +8,7 @@ the ACP MKSAP online question bank into structured JSON format.
 **Architecture**: Unified extractor with discovery-based validation
 - **extractor**: Main extraction tool using direct API calls + integrated media pipeline
 
-For historical extraction metrics, see [archive/reports/](archive/reports/) directory.
+Historical extraction metrics are tracked via git history and past releases.
 
 ## Project Goal
 

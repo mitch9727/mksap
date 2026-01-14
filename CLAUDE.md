@@ -1,6 +1,6 @@
 # CLAUDE.md - MKSAP Medical Education Pipeline
 
-> **Last Updated**: January 6, 2026
+> **Last Updated**: January 13, 2026
 
 This file provides guidance to Claude Code when working on the MKSAP medical education extraction pipeline.
 
@@ -36,7 +36,7 @@ This codebase works with **16 two-letter system codes** (cv, en, fc, cs, gi, hp,
 ### Single Source of Truth
 
 **All project todos are tracked in [TODO.md](TODO.md)** for active and planned work. Completed work is recorded in
-`docs/CHANGELOG.md` and removed from TODO.md.
+git history and removed from TODO.md.
 
 **When starting work:**
 1. Open [TODO.md](TODO.md) and find the task you're starting
@@ -45,9 +45,8 @@ This codebase works with **16 two-letter system codes** (cv, en, fc, cs, gi, hp,
 
 **When done:**
 1. Remove the completed task from TODO.md
-2. Add a change note in `docs/CHANGELOG.md` (plain text, no checkboxes)
-3. Update "Last Updated" at top of TODO.md
-4. Commit with message: `git commit -m "mark: [task name] complete"`
+2. Update "Last Updated" at top of TODO.md
+3. Commit with a short, descriptive message (example: `git commit -m "mark: [task name] complete"`)
 
 ## Essential Commands
 
@@ -115,8 +114,8 @@ MKSAP/
     ├── QUICKSTART.md                  ← Essential commands
     ├── PHASE_1_COMPLETION_REPORT.md
     ├── PHASE_2_STATUS.md              ← Phase 2 status and priorities
-    ├── CHANGELOG.md                   ← Documentation change notes
     ├── DOCUMENTATION_MAINTENANCE_GUIDE.md
+    ├── EXTRACTION_SCOPE.md
     ├── architecture/
     ├── reference/
     │   ├── PHASE_1_DEEP_DIVE.md        ← Phase 1 architecture details
@@ -125,7 +124,8 @@ MKSAP/
     │   ├── CLOZE_FLASHCARD_BEST_PRACTICES.md
     │   └── VALIDATION.md
     ├── specifications/
-    └── archive/
+    ├── scraper/
+    └── old_method/
 ```
 
 ## Key Design Principles

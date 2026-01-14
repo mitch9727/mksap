@@ -1,6 +1,6 @@
 # MKSAP Project Organization
 
-**Last Updated:** January 1, 2026
+**Last Updated:** January 13, 2026
 
 ## Overview
 
@@ -12,7 +12,7 @@ This project is a **4-phase pipeline** for generating MKSAP Anki flashcard decks
 3. **Phase 3**: Card Generation (Rust) - Convert facts to Anki note format
 4. **Phase 4**: Import & Validation - Generate .apkg deck and import
 
-See [PHASE_1_PLAN.md](../archive/phase-1/PHASE_1_PLAN.md) for current phase details.
+See [PHASE_2_STATUS.md](../PHASE_2_STATUS.md) for current phase details.
 
 ## Directory Structure
 
@@ -119,5 +119,5 @@ validator → validation_report.txt
 
 - The Rust extractor is the **only supported extraction method**
 - Future processing steps (fact extraction, card generation) are **downstream of `mksap_data/`**
-- See [PHASE_1_PLAN.md](../archive/phase-1/PHASE_1_PLAN.md) for current phase implementation details
+- See [PHASE_2_STATUS.md](../PHASE_2_STATUS.md) for current phase implementation details
 - All documentation should be kept synchronized with actual directory structure

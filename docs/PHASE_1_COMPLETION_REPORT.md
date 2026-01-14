@@ -202,14 +202,6 @@ The project is now ready for Phase 2: Fact Extraction
 
 ---
 
-## Archive Reference
-
-Original Phase 1 planning documents moved to archive:
-- `archive/phase-1/PHASE_1_PLAN.md` - Original detailed plan
-- `archive/planning-sessions/BRAINSTORM_SESSION_COMPLETE.md` - Initial brainstorm
-
----
-
 ## Final Metrics Summary
 
 | Metric | Target | Achieved | Status |

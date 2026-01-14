@@ -2,7 +2,7 @@
 
 **Start here for navigation across the MKSAP documentation set.**
 
-**Last Updated**: January 6, 2026
+**Last Updated**: January 13, 2026
 
 ---
 
@@ -18,11 +18,10 @@
 
 ## Documentation Layout
 
-- Top-level docs: project overview, quickstart, status, scope, audits, changelog
+- Top-level docs: project overview, quickstart, status, scope, audits
 - `architecture/` - System design and codebase guides
 - `reference/` - Rust extractor usage, troubleshooting, and validation
 - `specifications/` - Formats and data extraction specs
-- `archive/` - Historical plans and reports
 - `old_method/` - Legacy reference output (excluded from validation)
 
 ---
@@ -31,7 +30,6 @@
 
 - **[EXTRACTION_SCOPE.md](EXTRACTION_SCOPE.md)** - Extraction scope and success criteria
 - **[EXTRACTOR_CODE_AUDIT.md](EXTRACTOR_CODE_AUDIT.md)** - Code cleanup analysis
-- **[CHANGELOG.md](CHANGELOG.md)** - Documentation change notes
 - **[DOCUMENTATION_MAINTENANCE_GUIDE.md](DOCUMENTATION_MAINTENANCE_GUIDE.md)** - Doc workflow and standards
 
 ---
@@ -71,30 +69,9 @@
 
 ---
 
-## Reports
+## Results
 
 - **[PHASE_1_COMPLETION_REPORT.md](PHASE_1_COMPLETION_REPORT.md)** - Final Phase 1 metrics
-- **[archive/reports/](archive/reports/)** - Historical extraction and cleanup reports
-- **[archive/phase-2/reports/](archive/phase-2/reports/)** - Week-by-week Phase 2 reports and handoffs
-
----
-
-## Archive
-
-### Phase 1 Planning
-
-- **[PHASE_1_PLAN.md](archive/phase-1/PHASE_1_PLAN.md)** - Original Phase 1 detailed plan
-- **[QUESTION_ID_DISCOVERY.md](archive/phase-1/QUESTION_ID_DISCOVERY.md)** - Historical discovery analysis
-
-### Phase 2 Planning
-
-- **[PHASE_2_PLANNING_SUMMARY.md](archive/phase-2/planning/PHASE_2_PLANNING_SUMMARY.md)** - Archived Week 1-7 roadmap
-- **[PHASE_2_DETAILED_PLANNING.md](archive/phase-2/planning/PHASE_2_DETAILED_PLANNING.md)** - Detailed Phase 2 plan
-- **[SPACY_SCISPACY_HYBRID_PLAN.md](archive/phase-2/planning/SPACY_SCISPACY_HYBRID_PLAN.md)** - Hybrid NLP plan
-
-### Planning Sessions
-
-- **[BRAINSTORM_SESSION_COMPLETE.md](archive/planning-sessions/BRAINSTORM_SESSION_COMPLETE.md)** - Initial brainstorm
 
 ---
 
@@ -114,14 +91,6 @@
 1. Architecture: RUST_ARCHITECTURE.md
 2. Code audit: EXTRACTOR_CODE_AUDIT.md
 3. Maintenance: DOCUMENTATION_MAINTENANCE_GUIDE.md
-
-**For Understanding History**:
-1. Phase 1 completion: PHASE_1_COMPLETION_REPORT.md
-2. Original plan: archive/phase-1/PHASE_1_PLAN.md
-3. Discovery analysis: archive/phase-1/QUESTION_ID_DISCOVERY.md
-4. Planning sessions: archive/planning-sessions/
-
----
 
 **Project Status**: Phase 1 Complete (2,198 questions extracted)
 **Next Phase**: Phase 2 - Statement Generator (active)

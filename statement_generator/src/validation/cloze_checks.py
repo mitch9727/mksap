@@ -76,10 +76,16 @@ def validate_cloze_candidates_exist_in_statement(statement: Statement, location:
     """
     issues: List[ValidationIssue] = []
     statement_text = statement.statement.lower()
+    normalized_statement = _normalize_for_match(statement_text)
 
     for candidate in statement.cloze_candidates:
         # Case-insensitive search
-        if candidate.lower() not in statement_text:
+        candidate_lower = candidate.lower()
+        if candidate_lower in statement_text:
+            continue
+        if _normalize_for_match(candidate_lower) in normalized_statement:
+            continue
+        if candidate_lower not in statement_text:
             issues.append(ValidationIssue(
                 severity="error",
                 category="cloze",
@@ -88,6 +94,32 @@ def validate_cloze_candidates_exist_in_statement(statement: Statement, location:
             ))
 
     return issues
+
+
+def _normalize_for_match(text: str) -> str:
+    """
+    Normalize text for cloze candidate substring matching.
+
+    Handles unicode dashes, comparator phrasing, and whitespace.
+    """
+    normalized = text.lower()
+    normalized = normalized.replace("\u2013", "-").replace("\u2014", "-").replace("\u2011", "-")
+    normalized = normalized.replace("\u00a0", " ")
+    normalized = normalized.replace("≤", "<=").replace("≥", ">=")
+    replacements = {
+        "less than or equal to": "<=",
+        "greater than or equal to": ">=",
+        "less than": "<",
+        "greater than": ">",
+    }
+    for phrase, symbol in replacements.items():
+        normalized = normalized.replace(phrase, symbol)
+    normalized = re.sub(r"\s*<\s*", "<", normalized)
+    normalized = re.sub(r"\s*>\s*", ">", normalized)
+    normalized = re.sub(r"\s*<=\s*", "<=", normalized)
+    normalized = re.sub(r"\s*>=\s*", ">=", normalized)
+    normalized = re.sub(r"\s+", " ", normalized).strip()
+    return normalized
 
 
 def validate_cloze_uniqueness(statement: Statement, location: Optional[str]) -> List[ValidationIssue]:

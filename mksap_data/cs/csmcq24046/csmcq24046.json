@@ -50,15 +50,57 @@
   "related_content": {
     "syllabus": [
       "cssec24004_24005"
-    ],
-    "learning_plan_topic": ""
+    ]
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/hmtab24045.html",
+      "tables/hmtab24044.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": null,
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "hmtab24045",
+        "file": "tables/hmtab24045.html",
+        "title": "Pulmonary Embolism Rule-Out Criteria for Predicting Probability of Pulmonary Embolism in Patients With Low Pretest Probability",
+        "short_title": "PERC for Predicting Probability of PE",
+        "footnotes": [
+          "Pretest probability with score of 0 is &lt;1%; no D-dimer measurement or deep venous thrombosis or pulmonary embolism imaging is indicated.",
+          "Reprinted with permission from Raja AS, Greenberg JO, Qaseem A, et al; Clinical Guidelines Committee of the American College of Physicians. Evaluation of patients with suspected acute pulmonary embolism: best practice advice from the clinical guidelines committee of the American College of Physicians. <a href=\"https://www.acpjournals.org/doi/10.7326/M14-1772\" target=\"_blank\">Ann Intern Med</a>. 2015;163:701-11. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/26414967\" target=\"_blank\">PMID: 26414967</a> Copyright 2015 American College of Physicians."
+        ],
+        "headers": [
+          "Clinical Characteristic",
+          "Meets Criterion",
+          "Does Not Meet Criterion"
+        ]
+      },
+      {
+        "table_id": "hmtab24044",
+        "file": "tables/hmtab24044.html",
+        "title": "Wells Criteria for Pulmonary Embolism",
+        "short_title": "Wells Criteria for PE",
+        "footnotes": [
+          "DVT = deep venous thrombosis; PE = pulmonary embolism.",
+          "Dichotomous scoring: &gt;4 points = PE likely; ≤4 points = PE unlikely.",
+          "Three-level scoring: &lt;2 points = low likelihood of PE; 2-6 points = intermediate possibility of PE; &gt;6 points = high probability of PE.",
+          "Data from Wells PS, Anderson DR, Rodger M, Ginsberg JS, Kearon C, Gent M, et al. Derivation of a simple clinical model to categorize patients probability of pulmonary embolism: increasing the models utility with the SimpliRED D-dimer. Thromb Haemost. 2000;83:416-20. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/10744147\" target=\"_blank\">PMID: 10744147</a>"
+        ],
+        "headers": [
+          "Variables",
+          "Points",
+          "Symptoms and Signs",
+          "History",
+          "Other"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
   "extracted_at": "2026-01-01T17:54:30.875882-06:00"
 }

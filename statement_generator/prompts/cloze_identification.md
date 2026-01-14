@@ -15,6 +15,9 @@ EVIDENCE-BASED PRINCIPLES:
    - Diagnostic criteria or test names
    - Drug names/classes, management steps
    - Numeric values (when clinically significant)
+   - Candidates MUST be exact, contiguous text spans copied from the statement (no paraphrasing)
+   - Preserve symbols and punctuation exactly as written (e.g., "<", "≥", en dashes)
+   - Do not select bare numbers; include the full numeric phrase with units or comparator (e.g., "< 2", "120 minutes")
 
 2. MULTIPLE CANDIDATES PER STATEMENT
    - Prefer 2-5 candidates per statement
@@ -29,6 +32,7 @@ EVIDENCE-BASED PRINCIPLES:
 4. UNAMBIGUOUS
    - Each candidate should be the ONLY logical answer for that blank
    - If ambiguous, suggest adding hints like "(drug class)" or "(organism)"
+   - Do NOT expand or rewrite abbreviations; use the exact surface form in the statement
 
 5. ORDERED LISTS
    - For sequences, preserve order
@@ -102,6 +106,7 @@ INSTRUCTIONS:
    - The ONLY logical answer for that blank
    - Board-relevant
    - Not trivial
+   - **Exact substring** of the statement (copy/paste the exact words)
 
 4. Consider adding contextual hints for disambiguation:
    - "(drug)", "(organism)", "(finding)", "(test)"

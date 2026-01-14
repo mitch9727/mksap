@@ -50,15 +50,62 @@
   "related_content": {
     "syllabus": [
       "cssec24006_24002"
-    ],
-    "learning_plan_topic": ""
+    ]
   },
   "media": {
-    "tables": [],
-    "images": [],
+    "tables": [
+      "tables/cstab24007.html",
+      "tables/cstab24006.html"
+    ],
+    "images": [
+      "figures/csfig24201.2be577519f5272323bc866c0d957993c.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": null,
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "csfig24201",
+        "file": "figures/csfig24201.2be577519f5272323bc866c0d957993c.jpg",
+        "title": "ECG in a patient with syncope and high-risk clinical features",
+        "short_title": "stem ECG in a patient with syncope",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 492
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "cstab24007",
+        "file": "tables/cstab24007.html",
+        "title": "High-Risk Clinical Characteristics in the Patient With Syncope<sup>a</sup>",
+        "short_title": "High-Risk Clinical Characteristics in the Patient With Syncope",
+        "footnotes": [
+          "QTc = corrected QT interval.",
+          "<sup>a</sup>A patient is considered at high cardiac risk if any of the listed risk factors are present.",
+          "Information from Costantino G, Sun BC, Barbic F, et al. Syncope clinical management in the emergency department: a consensus from the first international workshop on syncope risk stratification in the emergency department. Eur Heart J. 2016;37:1493-1498. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/26242712\" target=\"_blank\">PMID: 26242712</a> doi:10.1093/eurheartj/ehv378"
+        ],
+        "headers": []
+      },
+      {
+        "table_id": "cstab24006",
+        "file": "tables/cstab24006.html",
+        "title": "Historical Characteristics Associated With Increased Probability of Cardiac and Noncardiac Causes of Syncope",
+        "short_title": "Characteristics Associated With Cardiac and Noncardiac Syncope",
+        "footnotes": [
+          "Reproduced with permission from Shen WK, Sheldon RS, Benditt DG, et al. 2017 ACC/AHA/HRS guideline for the evaluation and management of patients with syncope: executive summary: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines and the Heart Rhythm Society. Circulation. 2017;136:e32. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/28280232\" target=\"_blank\">PMID: 28280232</a> doi:10.1161/CIR.0000000000000498. © 2017, American Heart Association, Inc."
+        ],
+        "headers": [
+          "More Often Associated With Cardiac Causes of Syncope",
+          "More Often Associated With Noncardiac Causes of Syncope"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
   "extracted_at": "2026-01-01T17:54:30.866844-06:00"
 }

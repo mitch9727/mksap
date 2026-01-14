@@ -27,6 +27,8 @@ EVIDENCE-BASED PRINCIPLES:
    - Strip unnecessary words - focus on essential trigger
    - Excess words distract and slow reviews
    - Remove patient-specific details ("this patient" → general principle)
+   - Never reference the source text ("this critique", "this question", "the vignette", "this case")
+   - Avoid deictic phrases that require context ("this setting", "this scenario", "these findings") — restate the condition explicitly
 
 4. HANDLE LISTS CAREFULLY
    - DO NOT test entire lists in one card
@@ -40,6 +42,7 @@ EVIDENCE-BASED PRINCIPLES:
    - Use null if the critique doesn't provide explanatory context beyond the fact itself
    - NOT a source citation - educational context only
    - **NEVER add medical knowledge from outside the critique**
+   - If a sentence is case-specific, move the case details into extra_field and keep the statement general
 
 STATEMENT PATTERNS TO FOLLOW:
 
@@ -50,20 +53,36 @@ STATEMENT PATTERNS TO FOLLOW:
 - Ordered List: "[Category] includes: item1, item2, item3"
 - Comparison: "Unlike X, Y has [distinguishing feature]"
 - Mini-Case: "Patient with [clinical scenario] – diagnosis: [condition]"
+- Risk/Threshold: "[Condition] is low risk/high risk when [criterion A] or [criterion B] is present"
+- Management: "In [condition], [intervention] is indicated/recommended when [criteria]"
 
 **CRITICAL**: Do NOT insert [...] cloze deletions in your statements. Write complete sentences with all terms spelled out. The cloze identification step happens later.
 
+**CONTEXT CLARITY REQUIREMENT:**
+For medication/drug facts: Always include mechanism OR indication OR class to uniquely identify it.
+- ❌ "Omalizumab binds free serum IgE" → ✅ "Omalizumab, an anti-IgE monoclonal antibody, binds free serum IgE"
+- ❌ "Adverse effects include anaphylaxis" (which drug?) → ✅ "IL-5 receptor antagonist adverse effects include anaphylaxis"
+
 INSTRUCTIONS:
 
-1. Extract 3-7 testable medical facts from the critique
+1. Extract ALL testable medical facts from the critique comprehensively (no upper limit)
 2. Each fact should be:
    - Atomic (ONE core concept)
    - **SOURCE-FAITHFUL**: Extract ONLY what the critique explicitly states
    - **NO HALLUCINATION**: Do not add pathophysiology, mechanisms, or details not in the text
    - Generalized (remove "this patient")
+   - Expand abbreviations on first use (e.g., "B-type natriuretic peptide (BNP)")
+   - Replace pronouns with explicit nouns from the source (this/that/it/they → the actual term)
    - Concise (minimal words)
+   - **CONTEXT-CLEAR**: When a fact involves a medication/treatment/agent, provide sufficient context that the reader can uniquely identify it
+   - For procedures or tests, include the indication or timing when the critique provides it (e.g., "performed within 24 hours" or "indicated for X")
    - Unambiguous (one possible answer)
    - Board-relevant (high-yield)
+   - **SOURCE-NEUTRAL**: Do not mention "critique", "question", "vignette", or "this case"
+   - **NATURAL CLINICAL PHRASING**: Prefer human-like sentences over meta phrasing (no "based on this critique")
+   - **CONDITION-EXPLICIT**: Replace "this setting/scenario" with the actual condition or criteria stated in the critique
+   - **MODALITY-PRESERVING**: Keep source modality exact (recommended vs may vs consider)
+   - **NUMERIC-FIDELITY**: Keep thresholds and units verbatim (>, <, >=, <=, mg, mmHg)
 
 3. For each fact, provide:
    - statement: The medical fact as a **complete sentence** with all terms written out (NO [...] placeholders!)
@@ -72,10 +91,15 @@ INSTRUCTIONS:
 4. **Write complete statements** - A separate step will identify cloze candidates later
 5. For lists: write complete comma-separated items (no blanks or placeholders)
 6. Focus on diagnostic reasoning, management, pathophysiology **as presented in the critique**
+   - If you find yourself writing "in this critique" or similar, remove it and express the clinical fact directly
+   - If you find yourself writing "in this setting/scenario," rewrite with the explicit condition (e.g., "In STEMI with failed thrombolysis, ...")
 7. **CRITICAL - Extra Field Rule**:
    - If the critique provides explanatory context (why/how/clinical significance), extract it
    - If the critique only states the fact without explanation, use null
    - NEVER infer, explain, or add context from your medical knowledge
+
+**COMPLETENESS CHECK:**
+Before finalizing: Did you extract facts about drug mechanisms, indications, contraindications, thresholds, and differentials from the critique?
 
 OUTPUT FORMAT EXAMPLE (JSON):
 ```json

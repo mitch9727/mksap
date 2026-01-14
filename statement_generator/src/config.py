@@ -24,7 +24,7 @@ if ENV_PATH.exists():
 class LLMConfig(BaseModel):
     """LLM configuration (supports multiple providers)"""
 
-    provider: str = Field(default="anthropic", description="LLM provider (anthropic, claude-code, gemini, codex)")
+    provider: str = Field(default="codex", description="LLM provider (anthropic, claude-code, gemini, codex)")
     api_key: Optional[str] = Field(default=None, description="API key (only for anthropic provider)")
     model: str = Field(default="claude-sonnet-4-20250514")
     temperature: float = Field(default=0.2, ge=0.0, le=1.0)
@@ -39,7 +39,7 @@ class ProcessingConfig(BaseModel):
     batch_size: int = Field(default=10)
     max_retries: int = Field(default=3)
     retry_delay: float = Field(default=2.0)  # seconds
-    skip_existing: bool = Field(default=True)
+    skip_existing: bool = Field(default=False)
 
 
 class PathsConfig(BaseModel):
@@ -47,21 +47,45 @@ class PathsConfig(BaseModel):
 
     project_root: Path = Field(default_factory=lambda: PROJECT_ROOT)
 
+    def _resolve_env_data_root(self) -> Optional[Path]:
+        env_root = os.getenv("MKSAP_DATA_ROOT")
+        if not env_root:
+            return None
+        data_root = Path(env_root)
+        if not data_root.is_absolute():
+            data_root = self.project_root / data_root
+        return data_root
+
     @property
     def mksap_data(self) -> Path:
+        env_root = self._resolve_env_data_root()
+        if env_root:
+            return env_root
         return self.project_root / "mksap_data"
+
+    @property
+    def test_mksap_data(self) -> Path:
+        return self.project_root / "test_mksap_data"
 
     @property
     def statement_generator(self) -> Path:
         return self.project_root / "statement_generator"
 
     @property
+    def artifacts(self) -> Path:
+        return self.statement_generator / "artifacts"
+
+    @property
     def checkpoints(self) -> Path:
-        return self.statement_generator / "outputs" / "checkpoints"
+        return self.artifacts / "checkpoints"
 
     @property
     def logs(self) -> Path:
-        return self.statement_generator / "outputs" / "logs"
+        return self.artifacts / "logs"
+
+    @property
+    def validation_reports(self) -> Path:
+        return self.artifacts / "validation"
 
     @property
     def prompts(self) -> Path:
@@ -97,7 +121,7 @@ class Config(BaseModel):
             ValueError: If required configuration is missing
         """
         # Determine provider
-        provider = provider or os.getenv("LLM_PROVIDER", "anthropic")
+        provider = provider or os.getenv("LLM_PROVIDER", "codex")
 
         # Build LLM config based on provider
         if provider == "anthropic":
@@ -141,10 +165,10 @@ class Config(BaseModel):
             # Codex (OpenAI) uses CLI (no API key needed)
             llm_config = LLMConfig(
                 provider=provider,
-                model=os.getenv("OPENAI_MODEL", "gpt-4"),
+                model=os.getenv("OPENAI_MODEL", ""),
                 temperature=float(os.getenv("TEMPERATURE", "0.2")),
                 max_tokens=int(os.getenv("MAX_TOKENS", "4096")),
-                cli_path=os.getenv("OPENAI_CLI_PATH", "openai"),
+                cli_path=os.getenv("OPENAI_CLI_PATH", "codex"),
             )
 
         else:

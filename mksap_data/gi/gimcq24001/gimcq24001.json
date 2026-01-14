@@ -49,15 +49,114 @@
   "related_content": {
     "syllabus": [
       "gisec24004_24005"
-    ],
-    "learning_plan_topic": ""
+    ]
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/gitab24021.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": null,
-  "extracted_at": "2026-01-01T17:54:31.118800-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "gitab24021",
+        "file": "tables/gitab24021.html",
+        "title": "Screening for Colorectal Cancer in Individuals at Elevated Risk",
+        "short_title": "Colorectal Cancer Screening in Individuals at Elevated Risk",
+        "footnotes": [
+          "CRC = colorectal cancer; FDR = first-degree relative (parent, sibling, or child).",
+          "<sup>a</sup>Family history of an advanced polyp includes adenomas or sessile serrated lesions ≥1 cm, ≥3 adenomas/sessile serrated lesions, villous histology, or high-grade dysplasia or submucosal cancer in a colonic polyp or a traditional serrated adenoma.",
+          "<sup>b</sup>If baseline examination is normal.",
+          "Data from Rex DK, Boland CR, Dominitz JA, et al. Colorectal cancer screening: recommendations for physicians and patients from the U.S. Multi-society Task Force on Colorectal Cancer. Gastroenterology. 2017;153:307-323. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/28600072\" target=\"_blank\">PMID: 28600072</a> doi:10.1053/j.gastro.2017.05.013; Syngal S, Brand RE, Church JM, et al; American College of Gastroenterology. ACG clinical guideline: genetic testing and management of hereditary gastrointestinal cancer syndromes. Am J Gastroenterol. 2015;110:223-62; quiz 263. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/25645574\" target=\"_blank\">PMID: 25645574</a>; Rubin DT, Ananthakrishnan AN, Siegel CA, et al. ACG clinical guideline: ulcerative colitis in adults. Am J Gastroenterol. 2019;114:384-413. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/30840605\" target=\"_blank\">PMID: 30840605</a> doi:10.14309/ajg.0000000000000152; Shaukat A, Kahi CJ, Burke CA, et al. ACG clinical guidelines: colorectal cancer screening 2021. Am J Gastroenterol. 2021;116:458-479. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/33657038\" target=\"_blank\">PMID: 33657038</a> doi:10.14309/ajg.0000000000001122."
+        ],
+        "headers": [
+          "Risk Category and Criteria",
+          "Screening Recommendations (Age; Modality; Interval)"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2026-01-01T17:54:31.118800-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "For persons with a first-degree relative diagnosed with colorectal cancer or advanced polyp before age 60 years, screening for colorectal cancer should begin at age 40 years or 10 years earlier than the age of the youngest first-degree relative at diagnosis, whichever comes first.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "first-degree relative",
+          "colorectal cancer",
+          "advanced polyp",
+          "age 60 years",
+          "age 40 years",
+          "10 years earlier"
+        ]
+      },
+      {
+        "statement": "In patients at increased risk for colorectal cancer due to family history, colonoscopy screening should continue every 5 years even if no polyps are identified or resected on initial screening.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "increased risk",
+          "family history",
+          "colonoscopy",
+          "every 5 years"
+        ]
+      },
+      {
+        "statement": "Colonoscopy is the preferred screening modality in most patients at increased risk for colorectal cancer.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "colonoscopy",
+          "increased risk",
+          "colorectal cancer"
+        ]
+      },
+      {
+        "statement": "The exception to colonoscopy as preferred screening for increased-risk patients is a patient with a first-degree relative diagnosed with colorectal cancer or advanced polyp at age 60 years or older, in whom any modality is recommended.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "first-degree relative",
+          "colorectal cancer",
+          "advanced polyp",
+          "age 60 years or older",
+          "any modality"
+        ]
+      },
+      {
+        "statement": "Multitarget stool DNA testing is not recommended for screening in patients at elevated risk for colorectal cancer due to a first-degree relative's diagnosis before age 60 years.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "multitarget stool DNA testing",
+          "elevated risk",
+          "first-degree relative",
+          "age 60 years"
+        ]
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "For persons with a first-degree relative diagnosed with colorectal cancer or advanced polyp before age 60 years, screening colonoscopy should begin at age 40 years or 10 years earlier than the age at diagnosis of the youngest affected relative, whichever comes first.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "first-degree relative",
+          "colorectal cancer",
+          "advanced polyp",
+          "age 60 years",
+          "screening colonoscopy",
+          "age 40 years",
+          "10 years earlier"
+        ]
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 0
+  }
 }

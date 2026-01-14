@@ -50,15 +50,173 @@
   "related_content": {
     "syllabus": [
       "ensec24002_24003"
-    ],
-    "learning_plan_topic": ""
+    ]
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/entab24008.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": null,
-  "extracted_at": "2026-01-01T17:54:29.701263-06:00"
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "entab24008",
+        "file": "tables/entab24008.html",
+        "title": "Screening Guidelines for Prediabetes or Type 2 Diabetes Mellitus in Asymptomatic Adults",
+        "short_title": "Screening Guidelines for Prediabetes or Type 2 Diabetes Mellitus",
+        "footnotes": [
+          "ADA = American Diabetes Association; CVD = cardiovascular disease; USPSTF = U.S. Preventive Services Task Force.",
+          "Recommendations from Davidson KW, Barry MJ, Mangione CM, et al; U.S. Preventive Services Task Force. Screening for prediabetes and type 2 diabetes: U.S. Preventive Services Task Force recommendation statement. JAMA. 2021;326:736-743. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/34427594\" target=\"_blank\">PMID: 34427594</a> doi:10.1001/jama.2021.12531; American Diabetes Association Professional Practice Committee. 2. Diagnosis and classification of diabetes: Standards of Care in Diabetes—2025. Diabetes Care. 2025;48:S27-S49. <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/39651986\" target=\"_blank\">PMID: 39651986</a> doi:10.2337/dc25-S002"
+        ],
+        "headers": [
+          "ADA (2025)",
+          "USPSTF (2021)"
+        ]
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2026-01-01T17:54:29.701263-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "According to the American Diabetes Association, screening for type 2 diabetes in asymptomatic patients should be considered in those with overweight (BMI ≥25, or ≥23 in persons of Asian ancestry) and at least one additional risk factor, regardless of age.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "American Diabetes Association",
+          "type 2 diabetes",
+          "overweight",
+          "BMI ≥25",
+          "≥23 in persons of Asian ancestry",
+          "at least one additional risk factor"
+        ]
+      },
+      {
+        "statement": "Additional risk factors for type 2 diabetes screening include: first-degree relative with diabetes, race or ethnicity with high risk, history of cardiovascular disease, physical inactivity, hypertension (or taking antihypertensive therapy), low HDL cholesterol (<35 mg/dL [0.90 mmol/L]), elevated triglycerides (>250 mg/dL [2.82 mmol/L]), and other conditions associated with insulin resistance.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "first-degree relative with diabetes",
+          "cardiovascular disease",
+          "physical inactivity",
+          "hypertension",
+          "HDL cholesterol",
+          "<35 mg/dL",
+          "triglycerides",
+          ">250 mg/dL"
+        ]
+      },
+      {
+        "statement": "Conditions associated with insulin resistance include severe obesity, acanthosis nigricans, polycystic ovary syndrome, and metabolic dysfunction–associated steatotic liver disease.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "severe obesity",
+          "acanthosis nigricans",
+          "polycystic ovary syndrome",
+          "metabolic dysfunction–associated steatotic liver disease",
+          "insulin resistance"
+        ]
+      },
+      {
+        "statement": "The American Diabetes Association recommends that screening for type 2 diabetes begin at age 35 years for all other patients.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "American Diabetes Association",
+          "35 years",
+          "type 2 diabetes"
+        ]
+      },
+      {
+        "statement": "The U.S. Preventive Services Task Force recommends screening nonpregnant asymptomatic adults aged 35 to 70 years who have overweight or obesity.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "U.S. Preventive Services Task Force",
+          "35 to 70 years",
+          "overweight or obesity"
+        ]
+      },
+      {
+        "statement": "The BMI threshold for overweight is 25 or greater (≥23 for persons of Asian ancestry).",
+        "extra_field": null,
+        "cloze_candidates": [
+          "BMI",
+          "25",
+          "≥23 for persons of Asian ancestry",
+          "overweight"
+        ]
+      },
+      {
+        "statement": "Type 2 diabetes is often preceded by a prolonged asymptomatic hyperglycemic period in which microvascular and macrovascular damage may occur.",
+        "extra_field": "Delaying screening can put patients with undiagnosed type 2 diabetes at risk for vascular damage",
+        "cloze_candidates": [
+          "Type 2 diabetes",
+          "asymptomatic hyperglycemic period",
+          "microvascular",
+          "macrovascular"
+        ]
+      },
+      {
+        "statement": "According to ADA guidelines, in patients younger than 35 years, screening for type 2 diabetes should be considered in patients with overweight and at least one additional risk factor.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "ADA",
+          "younger than 35 years",
+          "type 2 diabetes",
+          "overweight",
+          "at least one additional risk factor"
+        ]
+      },
+      {
+        "statement": "A triglyceride level > 250 mg/dL (2.82 mmol/L) is an additional risk factor for type 2 diabetes screening in patients younger than 35 years with overweight.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "triglyceride",
+          ">250 mg/dL",
+          "type 2 diabetes",
+          "younger than 35 years",
+          "overweight"
+        ]
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "The American Diabetes Association recommends screening for type 2 diabetes mellitus in patients with overweight and one additional risk factor.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "American Diabetes Association",
+          "type 2 diabetes mellitus",
+          "overweight",
+          "one additional risk factor"
+        ]
+      },
+      {
+        "statement": "The American Diabetes Association recommends screening for type 2 diabetes mellitus in patients without risk factors beginning at age 35 years.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "American Diabetes Association",
+          "type 2 diabetes mellitus",
+          "35 years"
+        ]
+      },
+      {
+        "statement": "The U.S. Preventive Services Task Force recommends screening for type 2 diabetes mellitus in nonpregnant asymptomatic adults aged 35 to 70 years who have overweight or obesity.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "U.S. Preventive Services Task Force",
+          "type 2 diabetes mellitus",
+          "35 to 70 years",
+          "overweight or obesity"
+        ]
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 0
+  }
 }

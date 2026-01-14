@@ -80,6 +80,10 @@ class QuestionFileIO:
         """Check if question already has true_statements"""
         return "true_statements" in data and data["true_statements"]
 
+    def has_table_statements(self, data: Dict[str, Any]) -> bool:
+        """Check if question already has table_statements"""
+        return "table_statements" in data and data["table_statements"]
+
     def write_question(self, file_path: Path, data: Dict[str, Any]) -> None:
         """Write augmented question JSON (preserve formatting)"""
         try:

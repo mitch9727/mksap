@@ -50,15 +50,54 @@
   "related_content": {
     "syllabus": [
       "npsec24006_24008"
-    ],
-    "learning_plan_topic": ""
+    ]
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/nptab24028.html",
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": null,
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "nptab24028",
+        "file": "tables/nptab24028.html",
+        "title": "Diagnostic Findings Differentiating Prerenal Acute Kidney Injury from Acute Tubular Necrosis",
+        "short_title": "Prerenal Acute Kidney Injury Versus Acute Tubular Necrosis",
+        "footnotes": [
+          "BUN = blood urea nitrogen; FE<sub>Na</sub> = fractional excretion of sodium; FE<sub>Urea</sub> = fractional excretion of urea.a",
+          "<sup>a</sup>Urine sediment findings are more sensitive and specific than BUN-creatinine ratios.",
+          "<sup>b</sup>FE<sub>Na</sub> = (Urine sodium concentration × Plasma creatinine concentration)/(Urine creatinine concentration × Plasma sodium concentration) × 100.",
+          "<sup>c</sup>FE<sub>Urea</sub> = (Urine urea concentration × Plasma creatinine concentration)/(Urine creatinine concentration × Plasma urea concentration) × 100.",
+          "<sup>d</sup>FE<sub>Na</sub> can be high in prerenal states with diuretic use, adrenal insufficiency, or metabolic alkalosis.",
+          "<sup>e</sup>FE<sub>Na</sub> can be low in acute tubular necrosis due to contrast-associated nephropathy, pigment nephropathy, glomerulonephritis, or early obstruction."
+        ],
+        "headers": [
+          "Condition",
+          "BUN-Creatinine Ratioa",
+          "Urine Osmolality (mOsm/kg H2O)",
+          "Urine Sodium (mEq/L [mmol/L])",
+          "FENab",
+          "FEUreac",
+          "Urinalysis and Microscopya"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": null,
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
   "extracted_at": "2026-01-01T17:54:34.067579-06:00"
 }

@@ -83,7 +83,7 @@ class ClozeIdentifier:
         self, candidates: List[str], statement: str
     ) -> List[str]:
         """
-        Strip units from numerical cloze candidates while preserving context.
+        Preserve exact cloze candidates while allowing a numeric fallback.
 
         Examples:
             "1 mg/dL (0.25 mmol/L)" → "1"
@@ -102,6 +102,9 @@ class ClozeIdentifier:
         processed = []
 
         for candidate in candidates:
+            if candidate in statement:
+                processed.append(candidate)
+                continue
             # Pattern: number followed by space and units
             # Matches: "1 mg/dL", "60 mL/min/1.73 m2", "250 mg/24 h"
             # Doesn't match: "Type 2", "25-hydroxyvitamin D"
@@ -110,24 +113,12 @@ class ClozeIdentifier:
 
             if match:
                 number = match.group(1)
-                units = match.group(2)
-
-                # Validate that the full candidate appears in the statement
-                # This prevents stripping "Type 2" from "Type 2 diabetes"
-                if candidate in statement:
-                    # Check if units look like medical units (contain /, mg, mL, etc.)
-                    # This prevents "Type 2" from being stripped
-                    unit_indicators = ["mg", "mL", "dL", "mmol", "ng", "/", "m2", "h"]
-                    if any(indicator in units for indicator in unit_indicators):
-                        logger.debug(
-                            f"Stripped units: '{candidate}' → '{number}' (units: {units})"
-                        )
-                        processed.append(number)
-                    else:
-                        # Not actually units (e.g., "Type 2")
-                        processed.append(candidate)
+                if number in statement:
+                    logger.debug(
+                        f"Numeric fallback: '{candidate}' → '{number}' (candidate not found verbatim)"
+                    )
+                    processed.append(number)
                 else:
-                    # Candidate not in statement - keep original
                     processed.append(candidate)
             else:
                 # Not a number with units - keep original

@@ -24,7 +24,10 @@ MEDICAL_STOPWORDS = {
 def validate_statement_fidelity(
     statement: Statement,
     source_text: str,
-    location: Optional[str]
+    location: Optional[str],
+    *,
+    statement_doc=None,
+    source_doc=None,
 ) -> List[ValidationIssue]:
     """
     Validate that statement facts are present in source text.
@@ -50,7 +53,13 @@ def validate_statement_fidelity(
         return issues
 
     # Detect potential hallucination
-    issue = detect_potential_hallucination(statement.statement, source_text, location)
+    issue = detect_potential_hallucination(
+        statement.statement,
+        source_text,
+        location,
+        statement_doc=statement_doc,
+        source_doc=source_doc,
+    )
     if issue:
         issues.append(issue)
 
@@ -61,7 +70,10 @@ def detect_potential_hallucination(
     statement: str,
     source_text: str,
     location: Optional[str],
-    threshold: float = 0.3
+    threshold: float = 0.3,
+    *,
+    statement_doc=None,
+    source_doc=None,
 ) -> Optional[ValidationIssue]:
     """
     Detect potential hallucination by checking keyword overlap.
@@ -78,31 +90,41 @@ def detect_potential_hallucination(
     Returns:
         ValidationIssue if potential hallucination, None otherwise
     """
-    # Normalize both texts
-    statement_lower = statement.lower()
-    source_lower = source_text.lower()
+    if statement_doc is not None and source_doc is not None:
+        statement_terms = extract_terms_from_doc(statement_doc)
+        source_terms = extract_terms_from_doc(source_doc)
 
-    # Extract key terms from statement (nouns, medical terms)
-    statement_terms = extract_key_terms(statement_lower)
+        if not statement_terms:
+            return None
 
-    if not statement_terms:
-        # No terms to check
-        return None
+        matched_terms = statement_terms & source_terms
+        missing_terms = statement_terms - source_terms
+    else:
+        # Normalize both texts
+        statement_lower = statement.lower()
+        source_lower = source_text.lower()
 
-    # Count how many terms appear in source
-    matched_terms = set()
-    missing_terms = set()
+        # Extract key terms from statement (nouns, medical terms)
+        statement_terms = extract_key_terms(statement_lower)
 
-    for term in statement_terms:
-        # Use word boundaries to avoid partial matches
-        if re.search(rf'\b{re.escape(term)}\b', source_lower):
-            matched_terms.add(term)
-        else:
-            # Check for partial matches or synonyms
-            if fuzzy_match(term, source_lower):
+        if not statement_terms:
+            # No terms to check
+            return None
+
+        # Count how many terms appear in source
+        matched_terms = set()
+        missing_terms = set()
+
+        for term in statement_terms:
+            # Use word boundaries to avoid partial matches
+            if re.search(rf'\b{re.escape(term)}\b', source_lower):
                 matched_terms.add(term)
             else:
-                missing_terms.add(term)
+                # Check for partial matches or synonyms
+                if fuzzy_match(term, source_lower):
+                    matched_terms.add(term)
+                else:
+                    missing_terms.add(term)
 
     # Calculate match ratio
     match_ratio = len(matched_terms) / len(statement_terms) if statement_terms else 1.0
@@ -167,6 +189,38 @@ def extract_key_terms(text: str) -> Set[str]:
     medical_terms = re.findall(medical_suffix_pattern, text.lower())
     for term in medical_terms:
         key_terms.add(term)
+
+    return key_terms
+
+
+def extract_terms_from_doc(doc) -> Set[str]:
+    """
+    Extract key terms from a spaCy Doc using lemmas and entities.
+
+    Uses lemma normalization to reduce ad-hoc word list matching.
+    """
+    if doc is None:
+        return set()
+
+    key_terms: Set[str] = set()
+
+    for token in doc:
+        if token.is_space or token.is_punct:
+            continue
+
+        token_lower = token.text.lower()
+        if token.is_stop or token_lower in MEDICAL_STOPWORDS:
+            continue
+
+        if token.is_alpha and len(token_lower) >= 3:
+            key_terms.add(token.lemma_.lower())
+        elif "-" in token_lower and re.search(r"[a-zA-Z]", token_lower):
+            key_terms.add(token_lower)
+
+    for ent in doc.ents:
+        ent_text = ent.text.strip().lower()
+        if ent_text and ent_text not in MEDICAL_STOPWORDS:
+            key_terms.add(ent_text)
 
     return key_terms
 

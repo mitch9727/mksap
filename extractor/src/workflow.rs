@@ -42,6 +42,13 @@ impl MKSAPExtractor {
         }
         debug!("✓ Directories created");
 
+        if !refresh_existing {
+            for question_id in &existing_ids {
+                let json_path = self.question_json_path(&category.code, question_id);
+                cleanup_learning_plan_topic(&json_path);
+            }
+        }
+
         // Phase 3: Extraction - download and process only valid questions
         debug!(
             "Phase 3: Extracting data for {} questions (concurrency: {})...",
@@ -112,6 +119,7 @@ impl MKSAPExtractor {
             && json_path.exists()
             && Self::is_valid_question_json(&json_path, question_id)
         {
+            cleanup_learning_plan_topic(&json_path);
             info!("Skipping extraction for {} (already exists)", question_id);
             return Ok(true);
         }
@@ -206,5 +214,38 @@ fn merge_existing_media(question: &mut QuestionData, json_path: &std::path::Path
         if !media_metadata.is_null() {
             question.media_metadata = Some(media_metadata.clone());
         }
+    }
+}
+
+fn cleanup_learning_plan_topic(json_path: &std::path::Path) {
+    let text = match fs::read_to_string(json_path) {
+        Ok(text) => text,
+        Err(_) => return,
+    };
+    let mut value: Value = match serde_json::from_str(&text) {
+        Ok(value) => value,
+        Err(_) => return,
+    };
+
+    let removed = value
+        .get_mut("related_content")
+        .and_then(|value| value.as_object_mut())
+        .and_then(|object| object.remove("learning_plan_topic"))
+        .is_some();
+
+    if !removed {
+        return;
+    }
+
+    let pretty = match serde_json::to_string_pretty(&value) {
+        Ok(pretty) => pretty,
+        Err(_) => return,
+    };
+
+    if fs::write(json_path, pretty).is_ok() {
+        debug!(
+            "Removed related_content.learning_plan_topic from {}",
+            json_path.display()
+        );
     }
 }

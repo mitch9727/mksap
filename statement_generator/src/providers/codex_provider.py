@@ -1,7 +1,7 @@
 """
-OpenAI Codex CLI provider.
+Codex CLI provider.
 
-Uses the OpenAI CLI to generate responses with Codex, leveraging existing paid subscription.
+Uses the Codex CLI to generate responses with existing subscription credentials.
 """
 
 import logging
@@ -21,7 +21,7 @@ class CodexProvider(BaseLLMProvider):
 
     def __init__(
         self,
-        model: str = "gpt-4",
+        model: str = "",
         temperature: float = 0.2,
         cli_path: str = "codex",
     ):
@@ -39,7 +39,7 @@ class CodexProvider(BaseLLMProvider):
         self._verify_cli_available()
 
     def _verify_cli_available(self):
-        """Verify OpenAI CLI is installed and accessible"""
+        """Verify Codex CLI is installed and accessible"""
         try:
             result = subprocess.run(
                 [self.cli_path, "--version"],
@@ -49,50 +49,47 @@ class CodexProvider(BaseLLMProvider):
             )
             if result.returncode != 0:
                 raise RuntimeError(
-                    f"OpenAI CLI not accessible at '{self.cli_path}'. "
-                    "Please install OpenAI CLI or update cli_path."
+                    f"Codex CLI not accessible at '{self.cli_path}'. "
+                    "Please install Codex CLI or update cli_path."
                 )
-            logger.info(f"OpenAI CLI found: {result.stdout.strip()}")
+            logger.info(f"Codex CLI found: {result.stdout.strip()}")
         except FileNotFoundError:
             raise RuntimeError(
-                f"OpenAI CLI not found at '{self.cli_path}'. "
-                "Please install OpenAI CLI: https://platform.openai.com/docs/guides/cli"
+                f"Codex CLI not found at '{self.cli_path}'. "
+                "Please install Codex CLI: https://github.com/openai/codex"
             )
         except subprocess.TimeoutExpired:
-            raise RuntimeError("OpenAI CLI verification timed out")
+            raise RuntimeError("Codex CLI verification timed out")
 
     def generate(
         self, prompt: str, temperature: Optional[float] = None, max_retries: int = 3
     ) -> str:
-        """Generate response using OpenAI CLI"""
-        temperature = temperature if temperature is not None else self.default_temperature
+        """Generate response using Codex CLI"""
+        _ = temperature if temperature is not None else self.default_temperature
 
         for attempt in range(max_retries):
             try:
-                # Write prompt to temporary file
+                # Capture last message to a temp file for clean JSON parsing
                 with tempfile.NamedTemporaryFile(
                     mode="w", suffix=".txt", delete=False
-                ) as f:
-                    f.write(prompt)
-                    prompt_file = Path(f.name)
+                ) as output_file:
+                    output_path = Path(output_file.name)
 
                 try:
-                    # Call OpenAI CLI with prompt file
-                    # Format: openai api completions.create --model gpt-4 --temperature 0.2 --file prompt.txt
+                    # Codex CLI exec reads prompt from stdin when "-" is provided.
                     cmd = [
                         self.cli_path,
-                        "api",
-                        "chat.completions.create",
-                        "-m",
-                        self.model,
-                        "-t",
-                        str(temperature),
-                        "--file",
-                        str(prompt_file),
+                        "exec",
+                        "-",
+                        "--output-last-message",
+                        str(output_path),
                     ]
+                    if self.model:
+                        cmd.extend(["-m", self.model])
 
                     result = subprocess.run(
                         cmd,
+                        input=prompt,
                         capture_output=True,
                         text=True,
                         timeout=120,  # 2 minute timeout
@@ -100,34 +97,35 @@ class CodexProvider(BaseLLMProvider):
 
                     if result.returncode != 0:
                         raise RuntimeError(
-                            f"OpenAI CLI failed: {result.stderr or result.stdout}"
+                            f"Codex CLI failed: {result.stderr or result.stdout}"
                         )
 
-                    response_text = result.stdout.strip()
+                    response_text = output_path.read_text().strip()
+                    if not response_text:
+                        raise RuntimeError("Codex CLI returned empty response")
                     logger.debug(
-                        f"OpenAI CLI response ({len(response_text)} chars): {response_text[:200]}..."
+                        f"Codex CLI response ({len(response_text)} chars): {response_text[:200]}..."
                     )
 
                     return response_text
 
                 finally:
-                    # Clean up temporary file
-                    prompt_file.unlink(missing_ok=True)
+                    output_path.unlink(missing_ok=True)
 
             except subprocess.TimeoutExpired:
                 logger.warning(
-                    f"OpenAI CLI timed out (attempt {attempt + 1}/{max_retries})"
+                    f"Codex CLI timed out (attempt {attempt + 1}/{max_retries})"
                 )
                 if attempt < max_retries - 1:
                     delay = 2**attempt
                     logger.info(f"Retrying in {delay}s...")
                     time.sleep(delay)
                 else:
-                    raise RuntimeError("OpenAI CLI timed out after all retries")
+                    raise RuntimeError("Codex CLI timed out after all retries")
 
             except Exception as e:
                 logger.warning(
-                    f"OpenAI CLI call failed (attempt {attempt + 1}/{max_retries}): {e}"
+                    f"Codex CLI call failed (attempt {attempt + 1}/{max_retries}): {e}"
                 )
 
                 if attempt < max_retries - 1:
@@ -135,7 +133,7 @@ class CodexProvider(BaseLLMProvider):
                     logger.info(f"Retrying in {delay}s...")
                     time.sleep(delay)
                 else:
-                    logger.error(f"OpenAI CLI call failed after {max_retries} attempts")
+                    logger.error(f"Codex CLI call failed after {max_retries} attempts")
                     raise
 
     def get_provider_name(self) -> str:

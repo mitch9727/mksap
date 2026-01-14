@@ -50,15 +50,308 @@
   "related_content": {
     "syllabus": [
       "cvsec24004_24025"
-    ],
-    "learning_plan_topic": ""
+    ]
   },
   "media": {
     "tables": [],
-    "images": [],
+    "images": [
+      "figures/cvfig25702.ba4d605f377d44893810c2017a872720.jpg"
+    ],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": null,
-  "extracted_at": "2026-01-01T17:54:28.803307-06:00"
+  "media_metadata": {
+    "figures": [
+      {
+        "figure_id": "cvfig25702",
+        "file": "figures/cvfig25702.ba4d605f377d44893810c2017a872720.jpg",
+        "title": "ECG in a Patient With Myocardial Infarction",
+        "short_title": "stem 2 ECG in a Patient With Myocardial Infarction",
+        "number": null,
+        "footnotes": [],
+        "extension": "jpg",
+        "width": 900,
+        "height": 340
+      }
+    ],
+    "tables": [],
+    "videos": [],
+    "svgs": []
+  },
+  "extracted_at": "2026-01-01T17:54:28.803307-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "Thrombolytic therapy is recommended for patients with ST-elevation myocardial infarction (STEMI) if symptom onset is within 12 hours and primary percutaneous coronary intervention (PCI) is not available within 120 minutes of first medical contact.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Thrombolytic therapy",
+          "ST-elevation",
+          "myocardial infarction (STEMI)",
+          "within 12 hours",
+          "120 minutes"
+        ]
+      },
+      {
+        "statement": "Thrombolytic therapy for ST-elevation myocardial infarction (STEMI) is ideally incorporated into a pharmacoinvasive treatment protocol.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Thrombolytic therapy",
+          "ST-elevation",
+          "myocardial infarction (STEMI)",
+          "pharmacoinvasive treatment protocol"
+        ]
+      },
+      {
+        "statement": "A pharmacoinvasive treatment protocol after thrombolytic therapy includes expedited transfer to a PCI-capable center for coronary angiography and revascularization, as indicated.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "pharmacoinvasive treatment protocol",
+          "thrombolytic therapy",
+          "PCI-capable center",
+          "coronary angiography",
+          "revascularization"
+        ]
+      },
+      {
+        "statement": "After thrombolytic therapy, the electrocardiogram (ECG) should be monitored at 60 to 90 minutes to confirm reperfusion.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "thrombolytic therapy",
+          "electrocardiogram (ECG)",
+          "60 to 90 minutes",
+          "confirm reperfusion"
+        ]
+      },
+      {
+        "statement": "Reperfusion after thrombolytic therapy is reflected by at least 50% improvement in maximal ST-segment elevation on electrocardiogram (ECG).",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Reperfusion",
+          "thrombolytic therapy",
+          "at least 50% improvement",
+          "maximal ST-segment elevation",
+          "electrocardiogram (ECG)"
+        ]
+      },
+      {
+        "statement": "Up to one third of patients do not achieve reperfusion with thrombolytic therapy.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Up to one third",
+          "do not achieve reperfusion",
+          "thrombolytic therapy"
+        ]
+      },
+      {
+        "statement": "In patients without reperfusion after thrombolytic therapy, subsequent urgent rescue percutaneous coronary intervention (PCI) is associated with improved outcomes.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "without reperfusion",
+          "thrombolytic therapy",
+          "urgent rescue percutaneous coronary intervention (PCI)",
+          "improved outcomes"
+        ]
+      },
+      {
+        "statement": "After successful thrombolysis, coronary angiography is performed before discharge and usually within 4 to 24 hours.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "successful thrombolysis",
+          "coronary angiography",
+          "before discharge",
+          "within 4 to 24 hours"
+        ]
+      },
+      {
+        "statement": "< 50% ST-segment resolution on electrocardiogram (ECG) indicates unsuccessful reperfusion after thrombolytic therapy.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Less than 50% ST-segment resolution",
+          "electrocardiogram (ECG)",
+          "unsuccessful reperfusion",
+          "thrombolytic therapy"
+        ]
+      },
+      {
+        "statement": "In ST-elevation myocardial infarction (STEMI) with failed reperfusion after thrombolytic therapy, urgent coronary angiography with possible rescue percutaneous coronary intervention (PCI) is indicated.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "ST-elevation",
+          "myocardial infarction (STEMI)",
+          "failed reperfusion",
+          "urgent coronary angiography",
+          "rescue percutaneous coronary intervention (PCI)"
+        ]
+      },
+      {
+        "statement": "Delaying coronary angiography for 3 to 24 hours after thrombolytic therapy reduces the risk for bleeding complications.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Delaying coronary angiography",
+          "3 to 24 hours",
+          "thrombolytic therapy",
+          "bleeding complications"
+        ]
+      },
+      {
+        "statement": "Delaying coronary angiography for 3 to 24 hours after thrombolytic therapy is not appropriate when there is evidence of persistent coronary occlusion.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Delaying coronary angiography",
+          "3 to 24 hours",
+          "thrombolytic therapy",
+          "persistent coronary occlusion"
+        ]
+      },
+      {
+        "statement": "Failed reperfusion after thrombolytic therapy, reflected by persistent or recurrent ST-segment elevation, is best treated with early revascularization even in an asymptomatic patient.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Failed reperfusion",
+          "thrombolytic therapy",
+          "persistent or recurrent ST-segment elevation",
+          "early revascularization",
+          "asymptomatic patient"
+        ]
+      },
+      {
+        "statement": "Stress testing such as exercise stress echocardiography is a valid approach to further risk stratify patients with non-ST-elevation acute coronary syndrome who have a low risk for complications.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Stress testing",
+          "exercise stress echocardiography",
+          "non-ST-elevation",
+          "acute coronary syndrome",
+          "low risk for complications"
+        ]
+      },
+      {
+        "statement": "Low risk for complications in non-ST-elevation acute coronary syndrome includes a Thrombolysis in Myocardial Infarction (TIMI) score <2.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Low risk for complications",
+          "non-ST-elevation",
+          "acute coronary syndrome",
+          "Thrombolysis in Myocardial Infarction (TIMI) score <2"
+        ]
+      },
+      {
+        "statement": "Low risk for complications in non-ST-elevation acute coronary syndrome includes a Global Registry of Acute Coronary Events (GRACE) score <109.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Low risk for complications",
+          "non-ST-elevation",
+          "acute coronary syndrome",
+          "Global Registry of Acute Coronary Events (GRACE) score <109"
+        ]
+      },
+      {
+        "statement": "Stress testing to further risk stratify is inappropriate in patients with ST-elevation myocardial infarction (STEMI).",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Stress testing",
+          "further risk stratify",
+          "inappropriate",
+          "ST-elevation",
+          "myocardial infarction (STEMI)"
+        ]
+      },
+      {
+        "statement": "Most patients with ST-elevation myocardial infarction (STEMI) should undergo coronary angiography.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "ST-elevation",
+          "myocardial infarction (STEMI)",
+          "coronary angiography"
+        ]
+      },
+      {
+        "statement": "In ST-elevation myocardial infarction (STEMI) with failed thrombolysis, coronary angiography is especially indicated.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "ST-elevation",
+          "myocardial infarction (STEMI)",
+          "failed thrombolysis",
+          "coronary angiography"
+        ]
+      },
+      {
+        "statement": "In failed reperfusion after thrombolytic therapy, delay for urgent echocardiography is not warranted.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "failed reperfusion",
+          "thrombolytic therapy",
+          "urgent echocardiography",
+          "not warranted"
+        ]
+      },
+      {
+        "statement": "Echocardiography may demonstrate wall motion abnormalities that correspond to areas of ischemia.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Echocardiography",
+          "wall motion abnormalities",
+          "areas of ischemia"
+        ]
+      },
+      {
+        "statement": "Echocardiography can reveal complications such as ventricular dysfunction.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Echocardiography",
+          "ventricular dysfunction",
+          "complications"
+        ]
+      },
+      {
+        "statement": "Echocardiography can reveal complications such as regurgitant valvular lesions.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Echocardiography",
+          "regurgitant valvular lesions",
+          "complications"
+        ]
+      },
+      {
+        "statement": "In failed reperfusion after thrombolytic therapy, echocardiographic information about ischemia or complications does not change the need for urgent revascularization.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "failed reperfusion",
+          "thrombolytic therapy",
+          "echocardiographic information",
+          "ischemia or complications",
+          "urgent revascularization"
+        ]
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "Reperfusion after thrombolytic therapy for STEMI is demonstrated by at least 50% improvement in maximal ST-segment elevation.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Reperfusion",
+          "thrombolytic therapy",
+          "STEMI",
+          "at least 50% improvement",
+          "maximal ST-segment elevation"
+        ]
+      },
+      {
+        "statement": "Up to one third of patients who receive thrombolytic therapy for STEMI do not achieve reperfusion and should undergo immediate rescue percutaneous coronary intervention.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Up to one third",
+          "thrombolytic therapy for STEMI",
+          "do not achieve reperfusion",
+          "immediate rescue percutaneous coronary intervention"
+        ]
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 0
+  }
 }

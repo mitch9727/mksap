@@ -53,6 +53,7 @@ extractor/_.md
 mksap_data/.checkpoints/
 mksap_data/media_discovery.*
 mksap_data_failed/
+test_mksap_data/
 extraction_log.txt
 
 # Environment variables (credentials)
@@ -106,5 +107,5 @@ htmlcov/
 dmypy.json
 
 # Statement generator outputs
-statement_generator/outputs/logs/*.log
-statement_generator/outputs/checkpoints/*.json
+statement_generator/artifacts/
+statement_generator/models/

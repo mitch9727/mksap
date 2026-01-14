@@ -71,19 +71,20 @@ class ClaudeCodeProvider(BaseLLMProvider):
         """
         for attempt in range(max_retries):
             try:
-                # Call Claude CLI in non-interactive mode
-                # Format: claude --print --model sonnet "prompt text"
+                # Call Claude CLI with prompt via stdin
+                # Format: echo "prompt" | claude --print --model sonnet
                 # Note: Claude CLI doesn't support --temperature or --max-tokens
                 cmd = [
                     self.cli_path,
                     "--print",  # Non-interactive mode
                     "--model",
                     self.model,
-                    prompt,  # Pass prompt directly as argument
+                    "--no-session-persistence",  # Don't save sessions
                 ]
 
                 result = subprocess.run(
                     cmd,
+                    input=prompt,
                     capture_output=True,
                     text=True,
                     timeout=120,  # 2 minute timeout
@@ -91,34 +92,66 @@ class ClaudeCodeProvider(BaseLLMProvider):
 
                 if result.returncode != 0:
                     error_output = result.stderr or result.stdout
+                    error_lower = error_output.lower()
 
                     # Detect specific error types
-                    if "rate limit" in error_output.lower() or "too many requests" in error_output.lower():
+                    if "eperm" in error_lower or "operation not permitted" in error_lower:
                         raise ProviderLimitError(
                             "claude-code",
-                            "Rate limit reached. You may have exceeded your usage quota.",
+                            "Claude CLI unavailable (permission denied).",
                             retryable=False,
                         )
-                    elif "budget" in error_output.lower() or "quota" in error_output.lower():
+                    elif any(
+                        marker in error_lower
+                        for marker in [
+                            "rate limit",
+                            "too many requests",
+                            "usage limit",
+                            "usage quota",
+                            "usage exceeded",
+                            "out of extra usage",
+                            "budget",
+                            "quota",
+                            "usage cap",
+                        ]
+                    ):
                         raise ProviderLimitError(
                             "claude-code",
-                            "Usage budget exceeded",
+                            "Usage limit reached. You may have exceeded your Claude Code quota.",
                             retryable=False,
                         )
-                    elif "unauthorized" in error_output.lower() or "authentication" in error_output.lower():
+                    elif "unauthorized" in error_lower or "authentication" in error_lower:
                         raise ProviderAuthError(
                             "claude-code",
                             "Authentication failed. Please check your Claude Code login.",
                         )
                     else:
-                        raise RuntimeError(
-                            f"Claude CLI failed: {error_output}"
-                        )
+                        raise RuntimeError(f"Claude CLI failed: {error_output}")
 
                 response_text = result.stdout.strip()
                 logger.debug(
                     f"Claude Code CLI response ({len(response_text)} chars): {response_text[:200]}..."
                 )
+
+                # Extract JSON from markdown code blocks if present
+                # Claude CLI often wraps JSON in ```json ... ``` blocks
+                if response_text.startswith("```json"):
+                    logger.debug("Extracting JSON from markdown code block")
+                    start = response_text.find("```json") + 7
+                    end = response_text.find("```", start)
+                    if end != -1:
+                        response_text = response_text[start:end].strip()
+                        logger.debug(f"Extracted JSON ({len(response_text)} chars)")
+                elif response_text.startswith("```"):
+                    logger.debug("Extracting JSON from generic code block")
+                    start = response_text.find("```") + 3
+                    # Skip language identifier if present
+                    if response_text[start] == '\n':
+                        start += 1
+                    end = response_text.find("```", start)
+                    if end != -1:
+                        response_text = response_text[start:end].strip()
+                        logger.debug(f"Extracted JSON ({len(response_text)} chars)")
 
                 return response_text
 

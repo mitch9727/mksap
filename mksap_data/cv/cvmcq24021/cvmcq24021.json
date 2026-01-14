@@ -50,15 +50,50 @@
   "related_content": {
     "syllabus": [
       "cvsec24003_24009"
-    ],
-    "learning_plan_topic": ""
+    ]
   },
   "media": {
-    "tables": [],
+    "tables": [
+      "tables/cvtab24005.html",
+      "tables/inline_table_1.html"
+    ],
     "images": [],
     "svgs": [],
     "videos": []
   },
-  "media_metadata": null,
+  "media_metadata": {
+    "figures": [],
+    "tables": [
+      {
+        "table_id": "cvtab24005",
+        "file": "tables/cvtab24005.html",
+        "title": "Diagnostic Testing for Coronary Artery Disease",
+        "short_title": "Diagnostic Testing for Coronary Artery Disease",
+        "footnotes": [
+          "AV = atrioventricular; CAC = coronary artery calcium; CAD = coronary artery disease; CKD = chronic kidney disease; CMR = cardiac magnetic resonance; FFR = fractional flow reserve; ICD = implantable cardioverter-defibrillator; IFR = instantaneous wave-free ratio; LBBB = left bundle branch block; LVH = left ventricular hypertrophy; SPECT = single-photon emission CT.",
+          "<sup>a</sup>Group I gadolinium-based contrast agents are contraindicated in patients with end-stage kidney disease or an estimated glomerular filtration rate less than 30 mL/min/1.73 m<sup>2</sup>. Group II gadolinium-based contrast agents are not contraindicated in patients with CKD. Data are insufficient to make a recommendation for group III gadolinium-based contrast agents in patients with CKD."
+        ],
+        "headers": [
+          "Diagnostic Test",
+          "Utility",
+          "Advantages",
+          "Limitations",
+          "Exercise Stress Testing",
+          "Pharmacologic Stress Testing",
+          "Anatomic Tests"
+        ]
+      },
+      {
+        "table_id": "inline_table_1",
+        "file": "tables/inline_table_1.html",
+        "title": null,
+        "short_title": null,
+        "footnotes": [],
+        "headers": []
+      }
+    ],
+    "videos": [],
+    "svgs": []
+  },
   "extracted_at": "2026-01-01T17:54:28.963021-06:00"
 }

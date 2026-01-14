@@ -5,6 +5,8 @@ Provides commands for processing questions and managing state.
 """
 
 import logging
+import os
+import sys
 from datetime import datetime
 from pathlib import Path
 from typing import List, Optional
@@ -38,10 +40,55 @@ def setup_logging(log_level: str, log_dir: Path):
     logger.info(f"Logging initialized: {log_file}")
 
 
+def resolve_data_root(
+    paths: "PathsConfig",
+    data_root: Optional[str],
+    mode: Optional[str],
+    default_to_test: bool,
+) -> Path:
+    if data_root:
+        root_path = Path(data_root)
+        if not root_path.is_absolute():
+            root_path = paths.project_root / root_path
+        return root_path
+    if default_to_test or mode == "test":
+        return paths.test_mksap_data
+    return paths.mksap_data
+
+
+def _parse_python_version(value: str) -> Optional[tuple[int, ...]]:
+    cleaned = value.strip()
+    if not cleaned:
+        return None
+    parts = cleaned.split(".")
+    if len(parts) > 3 or any(not part.isdigit() for part in parts):
+        return None
+    return tuple(int(part) for part in parts)
+
+
+def ensure_python_version() -> None:
+    expected_raw = os.getenv("MKSAP_PYTHON_VERSION")
+    if not expected_raw:
+        return
+    expected = _parse_python_version(expected_raw)
+    if not expected:
+        raise click.ClickException(
+            "Invalid MKSAP_PYTHON_VERSION value. Expected format like 3.11 or 3.11.9."
+        )
+    current = sys.version_info[: len(expected)]
+    if current != expected:
+        expected_str = ".".join(str(part) for part in expected)
+        current_str = f"{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}"
+        raise click.ClickException(
+            f"Python {expected_str} required (from MKSAP_PYTHON_VERSION), "
+            f"but running {current_str}. Update .env or switch interpreters."
+        )
+
+
 @click.group()
 def cli():
     """MKSAP Statement Generator - Phase 2"""
-    pass
+    ensure_python_version()
 
 
 @cli.command()
@@ -62,9 +109,19 @@ def cli():
     help="LLM provider (default: anthropic). CLI providers use existing subscription.",
 )
 @click.option("--resume/--no-resume", default=True, help="Resume from checkpoint")
-@click.option("--skip-existing/--overwrite", default=True, help="Skip questions with true_statements or overwrite")
+@click.option(
+    "--skip-existing/--overwrite",
+    default=False,
+    help="Overwrite existing true_statements by default; use --skip-existing to skip",
+)
 @click.option("--force", is_flag=True, default=False, help="Re-process even if already completed (ignores checkpoint)")
 @click.option("--dry-run", is_flag=True, default=False, help="Preview what would be processed")
+@click.option(
+    "--data-root",
+    type=click.Path(),
+    default=None,
+    help="Override data root (defaults to test_mksap_data in test mode, mksap_data in production)",
+)
 @click.option(
     "--log-level",
     type=click.Choice(["DEBUG", "INFO", "WARNING", "ERROR"]),
@@ -83,6 +140,7 @@ def process(
     skip_existing: bool,
     force: bool,
     dry_run: bool,
+    data_root: Optional[str],
     log_level: str,
     batch_size: int,
 ):
@@ -108,7 +166,14 @@ def process(
         logger.error(f"Failed to initialize provider: {e}")
         return
 
-    file_io = QuestionFileIO(config.paths.mksap_data)
+    data_root_path = resolve_data_root(config.paths, data_root, mode, default_to_test=False)
+    if not data_root_path.exists():
+        logger.error(f"Data root not found: {data_root_path}")
+        return
+
+    logger.info(f"Data root: {data_root_path}")
+
+    file_io = QuestionFileIO(data_root_path)
     checkpoint = CheckpointManager(config.paths.checkpoints)
     # Use provider_manager as client (it has same interface with fallback support)
     pipeline = StatementPipeline(provider_manager, file_io, config.paths.prompts)
@@ -303,6 +368,74 @@ def clean_all():
 
 
 @cli.command()
+@click.option(
+    "--question-id",
+    "question_ids",
+    multiple=True,
+    help="Question ID(s) to copy into test_mksap_data (repeatable)",
+)
+@click.option("--system", type=str, help="Copy all questions in system (e.g., cv, en)")
+@click.option("--all", "copy_all", is_flag=True, help="Copy all questions into test_mksap_data")
+@click.option(
+    "--overwrite/--skip-existing",
+    default=False,
+    help="Overwrite existing question folders in test_mksap_data",
+)
+def prepare_test(question_ids, system, copy_all, overwrite):
+    """Copy questions into test_mksap_data for safe iteration"""
+    import shutil
+    from .config import PathsConfig
+
+    paths = PathsConfig()
+    source_root = paths.mksap_data
+    target_root = paths.test_mksap_data
+
+    if not source_root.exists():
+        print(f"Source data root not found: {source_root}")
+        return
+
+    target_root.mkdir(parents=True, exist_ok=True)
+    file_io = QuestionFileIO(source_root)
+
+    questions = []
+    if question_ids:
+        for question_id in question_ids:
+            question_path = file_io.get_question_path(question_id)
+            if not question_path:
+                print(f"Question not found: {question_id}")
+                continue
+            questions.append(question_path)
+    elif system:
+        questions = file_io.discover_system_questions(system)
+    elif copy_all:
+        questions = file_io.discover_all_questions()
+    else:
+        print("Error: Must specify --question-id, --system, or --all")
+        return
+
+    copied = 0
+    skipped = 0
+    for question_file in questions:
+        question_dir = question_file.parent
+        system_dir = question_dir.parent.name
+        dest_dir = target_root / system_dir / question_dir.name
+        dest_dir.parent.mkdir(parents=True, exist_ok=True)
+
+        if dest_dir.exists() and not overwrite:
+            print(f"Skipping existing: {dest_dir}")
+            skipped += 1
+            continue
+        if dest_dir.exists() and overwrite:
+            shutil.rmtree(dest_dir)
+
+        shutil.copytree(question_dir, dest_dir)
+        copied += 1
+        print(f"Copied: {question_dir.name} -> {dest_dir}")
+
+    print(f"Done. Copied {copied}, skipped {skipped}.")
+
+
+@cli.command()
 @click.option("--question-id", type=str, help="Validate single question by ID")
 @click.option("--system", type=str, help="Validate all questions in system (e.g., cv, en)")
 @click.option("--all", "validate_all", is_flag=True, help="Validate all 2,198 questions")
@@ -317,9 +450,19 @@ def clean_all():
     multiple=True,
     help="Filter by category (structure, quality, cloze, hallucination)"
 )
-@click.option("--output", type=click.Path(), help="Save report to file")
+@click.option(
+    "--output",
+    type=click.Path(),
+    help="Save report to file (relative paths go under statement_generator/artifacts/validation/)",
+)
 @click.option("--detailed", is_flag=True, help="Show detailed issues for each question")
-def validate(question_id, system, validate_all, severity, category, output, detailed):
+@click.option(
+    "--data-root",
+    type=click.Path(),
+    default=None,
+    help="Override data root (default: test_mksap_data)",
+)
+def validate(question_id, system, validate_all, severity, category, output, detailed, data_root):
     """Validate extracted statements for quality and correctness"""
     from .config import PathsConfig
     from .validation import StatementValidator
@@ -327,7 +470,12 @@ def validate(question_id, system, validate_all, severity, category, output, deta
 
     # Validation doesn't need LLM provider, just use default config
     paths = PathsConfig()
-    file_io = QuestionFileIO(paths.mksap_data)
+    data_root_path = resolve_data_root(paths, data_root, mode=None, default_to_test=True)
+    if not data_root_path.exists():
+        print(f"Data root not found: {data_root_path}")
+        return
+
+    file_io = QuestionFileIO(data_root_path)
     validator = StatementValidator()
 
     # Discover questions to validate
@@ -394,10 +542,13 @@ def validate(question_id, system, validate_all, severity, category, output, deta
 
     # Save to file if requested
     if output:
-        from pathlib import Path
         output_path = Path(output)
+        if not output_path.is_absolute():
+            output_path = paths.validation_reports / output_path
 
-        if output_path.suffix == '.json':
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+
+        if output_path.suffix == ".json":
             export_to_json(results, output_path)
             print(f"\nDetailed report saved to: {output_path}")
         else:

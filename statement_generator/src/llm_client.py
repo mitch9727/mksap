@@ -89,7 +89,7 @@ class ClaudeClient:
             return CodexProvider(
                 model=config.model,
                 temperature=config.temperature,
-                cli_path=config.cli_path or "openai",
+                cli_path=config.cli_path or "codex",
             )
 
         else:

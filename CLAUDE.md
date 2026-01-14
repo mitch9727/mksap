@@ -128,6 +128,13 @@ MKSAP/
     └── old_method/
 ```
 
+## Documentation Output Policy (Claude/Codex)
+
+- All documentation lives under `docs/`.
+- Do not create module-level `docs/` folders (for example, `statement_generator/docs/`).
+- When creating new docs, place them in the appropriate `docs/` subfolder and link them from `docs/INDEX.md`.
+- If a tool generates docs elsewhere, relocate them into `docs/` before committing.
+
 ## Key Design Principles
 
 1. **Discovery-Driven** - Adapts to current API state, not hardcoded baselines

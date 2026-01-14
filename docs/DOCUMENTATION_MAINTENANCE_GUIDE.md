@@ -267,6 +267,9 @@ When deprecating code:
 
 - All generated documentation lives under `docs/`.
 - Do not create module-level `docs/` folders (for example, `statement_generator/docs/`).
+- If you generate docs while working in a module, save them directly into `docs/` (usually `docs/reference/` or
+  `docs/architecture/`).
+- If tooling writes docs into a module, move them into `docs/` and delete the module copy before committing.
 - If new docs are created, link them from `docs/INDEX.md`.
 
 ### Change Tracking (Git)

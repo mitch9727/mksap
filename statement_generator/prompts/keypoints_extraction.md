@@ -5,6 +5,11 @@ CRITICAL: Extract ONLY information explicitly stated in the key points below. Do
 CONTEXT:
 These "key points" are already structured clinical takeaways from a medical question. Your job is to ensure they are formatted as clear, testable statements suitable for cloze deletion flashcards.
 
+SOURCE-FIDELITY RULES:
+- Keep key point wording intact whenever possible; avoid synonyms unless required for clarity.
+- Preserve modality and qualifiers exactly (recommended vs may be considered vs contraindicated).
+- Do not merge separate key points into a single statement.
+
 KEY POINTS:
 {key_points}
 
@@ -36,6 +41,7 @@ INSTRUCTIONS:
 3. If a key point contains multiple facts, consider splitting
 4. Each statement should be:
    - Atomic (one core concept)
+   - Verbatim-leaning (use source phrasing; avoid unnecessary paraphrase)
    - Generalized (no "this patient")
    - Clinically accurate
    - Board-relevant

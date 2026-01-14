@@ -5,6 +5,11 @@ CRITICAL: Extract ONLY information explicitly stated in the table below. Do NOT 
 CONTEXT:
 This table presents structured clinical data (medications, guidelines, screening criteria, diagnostic parameters, etc.). Your job is to extract atomic, testable medical facts that will become cloze deletion flashcards following evidence-based best practices.
 
+SOURCE-FIDELITY RULES:
+- Prefer the table's wording whenever possible; avoid synonyms unless required for clarity.
+- Preserve modality, qualifiers, and thresholds exactly as written in the cells.
+- Map each statement to a single row or cell; do not merge distant rows.
+
 TABLE CAPTION:
 {table_caption}
 
@@ -111,6 +116,7 @@ INSTRUCTIONS:
 
 4. Each fact should be:
    - Atomic (ONE core concept)
+   - Verbatim-leaning (use table phrasing; avoid unnecessary paraphrase)
    - **SOURCE-FAITHFUL**: Extract ONLY what the table explicitly states
    - **NO HALLUCINATION**: Do not add pathophysiology, mechanisms, or details not in the table
    - Concise (minimal words)

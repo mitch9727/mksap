@@ -5,6 +5,12 @@ CRITICAL: Extract ONLY information explicitly stated in the source text below. D
 CONTEXT:
 This critique explains the correct answer to a medical board question. Your job is to extract atomic, testable medical facts that will become cloze deletion flashcards following evidence-based best practices.
 
+SOURCE-FIDELITY RULES:
+- Prefer the critique's wording whenever possible; avoid synonyms unless required for clarity.
+- Preserve modality and qualifiers exactly (recommended vs may be considered vs contraindicated).
+- Each statement should map to a single explicit sentence or clause; do not merge distant facts.
+- If the critique includes a labeled "Key Point" or summary line, include it as a statement.
+
 EDUCATIONAL OBJECTIVE:
 {educational_objective}
 
@@ -68,6 +74,7 @@ INSTRUCTIONS:
 1. Extract ALL testable medical facts from the critique comprehensively (no upper limit)
 2. Each fact should be:
    - Atomic (ONE core concept)
+   - Verbatim-leaning (use source phrasing; avoid unnecessary paraphrase)
    - **SOURCE-FAITHFUL**: Extract ONLY what the critique explicitly states
    - **NO HALLUCINATION**: Do not add pathophysiology, mechanisms, or details not in the text
    - Generalized (remove "this patient")

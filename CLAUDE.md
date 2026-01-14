@@ -124,8 +124,7 @@ MKSAP/
     │   ├── CLOZE_FLASHCARD_BEST_PRACTICES.md
     │   └── VALIDATION.md
     ├── specifications/
-    ├── scraper/
-    └── old_method/
+    └── scraper/
 ```
 
 ## Documentation Output Policy (Claude/Codex)

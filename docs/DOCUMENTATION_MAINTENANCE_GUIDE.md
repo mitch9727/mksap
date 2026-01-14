@@ -38,6 +38,7 @@ docs/
 │   ├── DESERIALIZATION_ISSUES.md        # API quirks (ADD NEW PATTERNS)
 │   ├── EXTRACTION_OVERVIEW.md           # Status & progress (UPDATE ON MILESTONES)
 │   ├── STATEMENT_GENERATOR.md           # Phase 2 reference (UPDATE ON CLI CHANGES)
+│   ├── LEGACY_STATEMENT_STYLE_GUIDE.md  # Legacy style examples (REFERENCE ONLY)
 │   └── CLOZE_FLASHCARD_BEST_PRACTICES.md # Flashcard design guidance (STABLE)
 │
 ├── specifications/                      # Output format specs
@@ -46,7 +47,6 @@ docs/
 ├── scraper/                             # Scraper/extractor details
 │   └── TECHNICAL_SPEC.md                # Extractor technical spec
 │
-└── old_method/                          # Legacy reference output (EXCLUDED FROM VALIDATION)
 ```
 
 ---
@@ -260,8 +260,8 @@ When deprecating code:
 
 ### Scope and Exclusions
 
-- `docs/old_method/` contains legacy output and reference material only.
-- Exclude `docs/old_method/` from documentation validation (links, formatting, line length, and heading rules).
+- Legacy style guidance lives in `docs/reference/LEGACY_STATEMENT_STYLE_GUIDE.md`.
+- No documentation subfolders are excluded from validation.
 
 ### Documentation Placement (Claude/Codex)
 

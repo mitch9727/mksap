@@ -22,7 +22,6 @@
 - `architecture/` - System design and codebase guides
 - `reference/` - Rust extractor usage, troubleshooting, and validation
 - `specifications/` - Formats and data extraction specs
-- `old_method/` - Legacy reference output (excluded from validation)
 
 ---
 
@@ -44,6 +43,8 @@
 ## Phase 2: Statement Generator
 
 - **[STATEMENT_GENERATOR.md](reference/STATEMENT_GENERATOR.md)** - Phase 2 usage, CLI, and pipeline
+- **[LEGACY_STATEMENT_STYLE_GUIDE.md](reference/LEGACY_STATEMENT_STYLE_GUIDE.md)** - Legacy style guidance and tag
+  normalization
 - **[PHASE_2_STATUS.md](PHASE_2_STATUS.md)** - Implementation status, open work, testing notes
 - **[CLOZE_FLASHCARD_BEST_PRACTICES.md](reference/CLOZE_FLASHCARD_BEST_PRACTICES.md)** - Evidence-based
   flashcard guidance

@@ -1,6 +1,6 @@
 # Statement Generator (Phase 2)
 
-**Last Updated**: January 6, 2026
+**Last Updated**: January 13, 2026
 
 ## Overview
 
@@ -326,4 +326,5 @@ echo "ANTHROPIC_API_KEY=your_key_here" >> ../.env
 ## References
 
 - `docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md`
+- `docs/reference/LEGACY_STATEMENT_STYLE_GUIDE.md`
 - `../PHASE_2_STATUS.md`

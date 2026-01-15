@@ -6,8 +6,8 @@ Validates count, existence in statement, uniqueness, and quality of cloze candid
 
 import re
 from typing import List, Optional, Set
-from ..models import Statement
-from .validator import ValidationIssue
+from src.infrastructure.models.data_models import Statement
+from src.validation.validator import ValidationIssue
 
 
 def validate_statement_clozes(statement: Statement, location: Optional[str]) -> List[ValidationIssue]:

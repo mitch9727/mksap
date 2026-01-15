@@ -6,8 +6,8 @@ Checks for atomicity, vague language, board relevance, and appropriate length.
 
 import re
 from typing import List, Optional
-from ..models import Statement
-from .validator import ValidationIssue
+from src.infrastructure.models.data_models import Statement
+from src.validation.validator import ValidationIssue
 
 
 def validate_statement_quality(statement: Statement, location: Optional[str]) -> List[ValidationIssue]:

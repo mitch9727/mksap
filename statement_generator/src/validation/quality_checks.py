@@ -6,7 +6,7 @@ Checks for atomicity, vague language, board relevance, and appropriate length.
 
 import re
 from typing import List, Optional
-from ..models import Statement
+from src.infrastructure.models.data_models import Statement
 from .validator import ValidationIssue
 
 

@@ -6,8 +6,8 @@ Uses keyword-based matching to verify statement facts appear in source text.
 
 import re
 from typing import List, Optional, Set
-from ..models import Statement
-from .validator import ValidationIssue
+from src.infrastructure.models.data_models import Statement
+from src.validation.validator import ValidationIssue
 
 
 # Common medical stopwords to ignore

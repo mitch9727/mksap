@@ -5,7 +5,7 @@ Validates that JSON has correct fields, types, and completeness.
 """
 
 from typing import Dict, List
-from ..models import Statement, TableStatement
+from src.infrastructure.models.data_models import Statement, TableStatement
 from .validator import ValidationIssue
 
 

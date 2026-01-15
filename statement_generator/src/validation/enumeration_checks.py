@@ -17,7 +17,7 @@ References:
 
 import re
 from typing import List, Optional, Tuple
-from ..models import Statement
+from src.infrastructure.models.data_models import Statement
 from .validator import ValidationIssue
 
 

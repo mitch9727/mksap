@@ -17,8 +17,8 @@ References:
 
 import re
 from typing import List, Optional, Tuple
-from ..models import Statement
-from .validator import ValidationIssue
+from src.infrastructure.models.data_models import Statement
+from src.validation.validator import ValidationIssue
 
 
 # List indicators in statement text

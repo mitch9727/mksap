@@ -6,7 +6,7 @@ Validates count, existence in statement, uniqueness, and quality of cloze candid
 
 import re
 from typing import List, Optional, Set
-from ..models import Statement
+from src.infrastructure.models.data_models import Statement
 from .validator import ValidationIssue
 
 

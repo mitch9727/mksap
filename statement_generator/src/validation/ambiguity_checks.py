@@ -16,7 +16,7 @@ Example ambiguity:
 
 import re
 from typing import Dict, List, Optional, Set
-from ..models import Statement
+from src.infrastructure.models.data_models import Statement
 from .validator import ValidationIssue
 
 

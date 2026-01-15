@@ -16,8 +16,8 @@ Example ambiguity:
 
 import re
 from typing import Dict, List, Optional, Set
-from ..models import Statement
-from .validator import ValidationIssue
+from src.infrastructure.models.data_models import Statement
+from src.validation.validator import ValidationIssue
 
 
 # Medication-related terms that require context

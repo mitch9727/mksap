@@ -1,6 +1,7 @@
 # CLAUDE.md - MKSAP Medical Education Pipeline
 
-> **Last Updated**: January 13, 2026
+> **Last Updated**: January 15, 2026
+> **Recent Changes**: Statement generator reorganized into layered architecture (Jan 15, 2026)
 
 This file provides guidance to Claude Code when working on the MKSAP medical education extraction pipeline.
 
@@ -103,10 +104,25 @@ MKSAP/
 │   ├── Cargo.toml
 │   ├── src/
 │   └── target/release/mksap-extractor
-├── statement_generator/               ← Phase 2: Python
+├── statement_generator/               ← Phase 2: Python (reorganized Jan 2026)
 │   ├── requirements.txt
 │   ├── src/
-│   └── scripts/python
+│   │   ├── interface/                 ← CLI entry point
+│   │   ├── orchestration/             ← Pipeline & checkpoint management
+│   │   ├── processing/                ← Feature modules
+│   │   │   ├── statements/            ← Statement extraction & validation
+│   │   │   ├── cloze/                 ← Cloze identification
+│   │   │   ├── tables/                ← Table processing
+│   │   │   └── normalization/         ← Text normalization
+│   │   ├── infrastructure/            ← Cross-cutting concerns
+│   │   │   ├── llm/                   ← LLM providers & client
+│   │   │   ├── io/                    ← File operations
+│   │   │   ├── config/                ← Configuration
+│   │   │   └── models/                ← Data models
+│   │   └── validation/                ← Validation framework
+│   ├── tests/                         ← Tests mirror src/ structure
+│   ├── prompts/                       ← LLM prompt templates
+│   └── scripts/                       ← Setup & migration scripts
 ├── mksap_data/                        ← Extracted questions (2,198 JSON files)
 └── docs/
     ├── INDEX.md                       ← Documentation entry point
@@ -126,6 +142,50 @@ MKSAP/
     ├── specifications/
     └── scraper/
 ```
+
+## Statement Generator Architecture (Phase 2)
+
+**Reorganized**: January 15, 2026 - Migrated to layered architecture for better navigation and extensibility.
+
+### Layer Structure
+
+The statement_generator follows a **pipeline-focused, 4-layer architecture**:
+
+1. **Interface** (`src/interface/`) - CLI entry point and user commands
+2. **Orchestration** (`src/orchestration/`) - Pipeline control and checkpoint management
+3. **Processing** (`src/processing/`) - Feature modules organized by domain:
+   - `statements/` - Statement extraction and validation (critique, keypoints)
+   - `cloze/` - Cloze candidate identification and validation
+   - `tables/` - Table extraction and processing
+   - `normalization/` - Text normalization
+4. **Infrastructure** (`src/infrastructure/`) - Cross-cutting concerns:
+   - `llm/` - LLM provider abstraction and client
+   - `io/` - File operations
+   - `config/` - Configuration management
+   - `models/` - Data models (Pydantic)
+
+### Import Paths
+
+After reorganization, imports use new paths:
+```python
+# Old imports (deprecated):
+from src.models import Statement
+from src.pipeline import StatementPipeline
+
+# New imports:
+from src.infrastructure.models.data_models import Statement
+from src.orchestration.pipeline import StatementPipeline
+```
+
+**Note**: Old import paths still work via deprecation wrappers for backward compatibility.
+
+### Key Files
+
+- **Entry point**: `src/interface/cli.py` (was `main.py`)
+- **Pipeline**: `src/orchestration/pipeline.py`
+- **Extractors**: `src/processing/statements/extractors/`
+- **Validators**: `src/processing/statements/validators/`
+- **LLM Client**: `src/infrastructure/llm/client.py`
 
 ## Documentation Output Policy (Claude/Codex)
 

@@ -11,8 +11,8 @@ from typing import List, Optional, Dict, Any
 
 from bs4 import BeautifulSoup
 
-from .infrastructure.llm.client import ClaudeClient
-from .infrastructure.models.data_models import TableStatement
+from ...infrastructure.llm.client import ClaudeClient
+from ...infrastructure.models.data_models import TableStatement
 
 logger = logging.getLogger(__name__)
 

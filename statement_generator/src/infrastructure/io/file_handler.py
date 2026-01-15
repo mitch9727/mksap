@@ -9,7 +9,7 @@ import logging
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from .infrastructure.models.data_models import TrueStatements
+from ..models.data_models import TrueStatements
 
 logger = logging.getLogger(__name__)
 

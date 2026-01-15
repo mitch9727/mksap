@@ -7,14 +7,14 @@ Manages the flow: critique extraction → key points extraction → cloze identi
 import logging
 from pathlib import Path
 
-from .processing.cloze.identifier import ClozeIdentifier
-from .processing.statements.extractors.critique import CritiqueProcessor
-from .infrastructure.io.file_handler import QuestionFileIO
-from .processing.statements.extractors.keypoints import KeyPointsProcessor
-from .infrastructure.llm.client import ClaudeClient
-from .infrastructure.models.data_models import ProcessingResult, Statement, TableStatement, TableStatements, TrueStatements
-from .processing.tables.extractor import TableProcessor
-from .processing.normalization.text_normalizer import TextNormalizer
+from ..processing.cloze.identifier import ClozeIdentifier
+from ..processing.statements.extractors.critique import CritiqueProcessor
+from ..infrastructure.io.file_handler import QuestionFileIO
+from ..processing.statements.extractors.keypoints import KeyPointsProcessor
+from ..infrastructure.llm.client import ClaudeClient
+from ..infrastructure.models.data_models import ProcessingResult, Statement, TableStatement, TableStatements, TrueStatements
+from ..processing.tables.extractor import TableProcessor
+from ..processing.normalization.text_normalizer import TextNormalizer
 
 logger = logging.getLogger(__name__)
 

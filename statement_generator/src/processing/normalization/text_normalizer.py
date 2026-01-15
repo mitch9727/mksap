@@ -7,7 +7,7 @@ Converts verbose mathematical expressions to symbolic notation.
 import re
 from typing import List
 
-from .infrastructure.models.data_models import Statement
+from ...infrastructure.models.data_models import Statement
 
 
 class TextNormalizer:

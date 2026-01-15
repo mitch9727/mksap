@@ -9,8 +9,8 @@ import re
 from pathlib import Path
 from typing import List
 
-from .infrastructure.llm.client import ClaudeClient
-from .infrastructure.models.data_models import Statement
+from ...infrastructure.llm.client import ClaudeClient
+from ...infrastructure.models.data_models import Statement
 
 logger = logging.getLogger(__name__)
 

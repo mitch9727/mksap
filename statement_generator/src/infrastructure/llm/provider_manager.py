@@ -7,8 +7,8 @@ Uses the configured LLM provider and surfaces any errors to the caller.
 import logging
 from typing import Optional
 
-from .infrastructure.config.settings import Config
-from .infrastructure.llm.client import ClaudeClient
+from ..config.settings import Config
+from ..llm.client import ClaudeClient
 
 logger = logging.getLogger(__name__)
 

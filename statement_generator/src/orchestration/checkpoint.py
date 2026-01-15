@@ -9,7 +9,7 @@ import logging
 from datetime import datetime
 from pathlib import Path
 
-from .infrastructure.models.data_models import CheckpointData
+from ..infrastructure.models.data_models import CheckpointData
 
 logger = logging.getLogger(__name__)
 

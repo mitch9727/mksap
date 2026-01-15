@@ -9,8 +9,8 @@ import subprocess
 import time
 from typing import Optional
 
-from .base import BaseLLMProvider
-from ..provider_exceptions import ProviderLimitError, ProviderAuthError
+from ..base_provider import BaseLLMProvider
+from ..exceptions import ProviderLimitError, ProviderAuthError
 
 logger = logging.getLogger(__name__)
 

@@ -13,14 +13,14 @@ from typing import List, Optional
 
 import click
 
-from .orchestration.checkpoint import CheckpointManager
-from .infrastructure.config.settings import Config
-from .infrastructure.io.file_handler import QuestionFileIO
-from .infrastructure.llm.client import ClaudeClient
-from .infrastructure.models.data_models import ProcessingResult
-from .orchestration.pipeline import StatementPipeline
-from .infrastructure.llm.provider_manager import ProviderManager
-from .infrastructure.llm.exceptions import ProviderLimitError, ProviderAuthError
+from ..orchestration.checkpoint import CheckpointManager
+from ..infrastructure.config.settings import Config
+from ..infrastructure.io.file_handler import QuestionFileIO
+from ..infrastructure.llm.client import ClaudeClient
+from ..infrastructure.models.data_models import ProcessingResult
+from ..orchestration.pipeline import StatementPipeline
+from ..infrastructure.llm.provider_manager import ProviderManager
+from ..infrastructure.llm.exceptions import ProviderLimitError, ProviderAuthError
 
 
 def setup_logging(log_level: str, log_dir: Path):
@@ -267,7 +267,7 @@ def process(
 def stats():
     """Show processing statistics"""
     # Stats doesn't need LLM provider, just use default config
-    from .infrastructure.config.settings import PathsConfig
+    from ..infrastructure.config.settings import PathsConfig
     checkpoint = CheckpointManager(PathsConfig().checkpoints)
 
     print(f"Processed questions: {checkpoint.get_processed_count()}")
@@ -279,7 +279,7 @@ def stats():
 def reset():
     """Reset checkpoint state"""
     # Reset doesn't need LLM provider, just use default config
-    from .infrastructure.config.settings import PathsConfig
+    from ..infrastructure.config.settings import PathsConfig
     checkpoint = CheckpointManager(PathsConfig().checkpoints)
     checkpoint.reset()
     print("Checkpoints reset")
@@ -296,7 +296,7 @@ def reset():
 def clean_logs(keep_days: int, dry_run: bool):
     """Clean old log files to save space and reduce clutter"""
     from datetime import datetime, timedelta
-    from .infrastructure.config.settings import PathsConfig
+    from ..infrastructure.config.settings import PathsConfig
 
     # Clean-logs doesn't need LLM provider, just use default config
     log_dir = PathsConfig().logs
@@ -348,7 +348,7 @@ def clean_logs(keep_days: int, dry_run: bool):
 def clean_all():
     """Clean all logs and reset checkpoints (fresh start)"""
     import shutil
-    from .infrastructure.config.settings import PathsConfig
+    from ..infrastructure.config.settings import PathsConfig
 
     # Clean-all doesn't need LLM provider, just use default config
     paths = PathsConfig()
@@ -384,7 +384,7 @@ def clean_all():
 def prepare_test(question_ids, system, copy_all, overwrite):
     """Copy questions into test_mksap_data for safe iteration"""
     import shutil
-    from .infrastructure.config.settings import PathsConfig
+    from ..infrastructure.config.settings import PathsConfig
 
     paths = PathsConfig()
     source_root = paths.mksap_data
@@ -464,9 +464,9 @@ def prepare_test(question_ids, system, copy_all, overwrite):
 )
 def validate(question_id, system, validate_all, severity, category, output, detailed, data_root):
     """Validate extracted statements for quality and correctness"""
-    from .infrastructure.config.settings import PathsConfig
-    from .validation import StatementValidator
-    from .validation.reporter import generate_summary_report, generate_detailed_report, export_to_json
+    from ..infrastructure.config.settings import PathsConfig
+    from ..validation import StatementValidator
+    from ..validation.reporter import generate_summary_report, generate_detailed_report, export_to_json
 
     # Validation doesn't need LLM provider, just use default config
     paths = PathsConfig()

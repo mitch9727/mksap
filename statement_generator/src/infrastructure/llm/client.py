@@ -10,7 +10,7 @@ import logging
 import re
 from typing import Any, Dict
 
-from .infrastructure.config.settings import LLMConfig
+from ..config.settings import LLMConfig
 from .providers import (
     AnthropicProvider,
     BaseLLMProvider,

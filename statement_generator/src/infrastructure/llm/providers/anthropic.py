@@ -10,8 +10,8 @@ from typing import Optional
 
 from anthropic import Anthropic, RateLimitError, AuthenticationError
 
-from .base import BaseLLMProvider
-from ..provider_exceptions import ProviderLimitError, ProviderAuthError
+from ..base_provider import BaseLLMProvider
+from ..exceptions import ProviderLimitError, ProviderAuthError
 
 logger = logging.getLogger(__name__)
 

@@ -1,7 +1,7 @@
 # CLAUDE.md - MKSAP Medical Education Pipeline
 
 > **Last Updated**: January 15, 2026
-> **Recent Changes**: Statement generator reorganized, dependencies consolidated to pyproject.toml, documentation updated (Jan 15, 2026)
+> **Recent Changes**: Consolidated scripts to single `/scripts` directory, removed migration helpers (Jan 15, 2026)
 
 This file provides guidance to Claude Code when working on the MKSAP medical education extraction pipeline.
 
@@ -94,12 +94,33 @@ cd /path/to/MKSAP
 ./scripts/python -m src.interface.cli clean-logs
 ```
 
+## Utility Scripts
+
+All utility scripts are located in `/scripts/`:
+
+- **`python`** - CLI wrapper that sets PYTHONPATH for statement_generator. Use this for all Phase 2 CLI commands.
+  ```bash
+  ./scripts/python -m src.interface.cli <command>
+  ```
+
+- **`setup_nlp_model.sh`** - One-time setup script to download and extract the scispacy NLP model (v0.5.4).
+  ```bash
+  ./scripts/setup_nlp_model.sh
+  ```
+  After running, set the environment variable:
+  ```bash
+  export MKSAP_NLP_MODEL=statement_generator/models/en_core_sci_sm-0.5.4/en_core_sci_sm/en_core_sci_sm-0.5.4
+  ```
+
 ## Project Structure
 
 ```
 MKSAP/
 ├── CLAUDE.md                          ← This file
 ├── TODO.md                            ← Task tracking
+├── scripts/                           ← Utility scripts
+│   ├── python                         ← CLI wrapper (sets PYTHONPATH)
+│   └── setup_nlp_model.sh             ← One-time: download scispacy model
 ├── extractor/                         ← Phase 1: Rust
 │   ├── Cargo.toml
 │   ├── src/
@@ -132,7 +153,6 @@ MKSAP/
 │   │   ├── infrastructure/
 │   │   └── tools/                     ← Developer utilities (debug, manual validation)
 │   ├── prompts/                       ← LLM prompt templates
-│   ├── scripts/                       ← Setup & migration scripts
 │   └── artifacts/                     ← Runtime outputs (logs, checkpoints, validation)
 ├── mksap_data/                        ← Extracted questions (2,198 JSON files)
 └── docs/

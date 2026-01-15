@@ -1,6 +1,6 @@
 # Project TODO - MKSAP Medical Education Pipeline
 
-**Last Updated**: January 13, 2026
+**Last Updated**: January 15, 2026
 **Current Phase**: Phase 2 (Statement Generator) - Week 3 Planning
 **Source of Truth**: This file is the single source for active and planned project todos
 **Completed Work**: Tracked in git history; remove finished tasks from this list
@@ -23,7 +23,7 @@ These are the immediate next steps:
 #### Scale Processing (🎯 Do First)
 - [ ] Process 10-20 questions per day (target: 100 questions by end of week)
 - [ ] Start with: System cv (240 questions) using claude-code provider
-- [ ] Command: `./scripts/python -m src.main process --system cv --provider claude-code`
+- [ ] Command: `./scripts/python -m src.interface.cli process --system cv --provider claude-code`
 - [ ] Monitor: API costs, processing time, validation pass rate
 
 #### Validation Refinement (🔧 Critical)

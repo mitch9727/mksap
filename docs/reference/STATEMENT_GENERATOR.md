@@ -1,6 +1,6 @@
 # Statement Generator (Phase 2)
 
-**Last Updated**: January 13, 2026
+**Last Updated**: January 15, 2026
 
 ## Overview
 
@@ -22,8 +22,11 @@ a `true_statements` field, and preserves all existing data.
 ### 1) Install dependencies
 
 ```bash
-# From repo root
-pip install -r statement_generator/requirements.txt
+# From repo root, using pyproject.toml
+cd statement_generator
+pip install -e .
+# OR using Poetry:
+poetry install
 ```
 
 Optional: set the expected interpreter in `.env` so the CLI can enforce it (example: `MKSAP_PYTHON_VERSION=3.11.9`).
@@ -108,21 +111,21 @@ OPENAI_MODEL=gpt-4
 
 ```bash
 # Copy questions into the test data root
-./scripts/python -m src.main prepare-test --question-id cvmcq24001
+./scripts/python -m src.interface.cli prepare-test --question-id cvmcq24001
 
 # Test on 1-2 questions
-./scripts/python -m src.main process --mode test --system cv
+./scripts/python -m src.interface.cli process --mode test --system cv
 
 # Test specific question
-./scripts/python -m src.main process --question-id cvmcq24001
+./scripts/python -m src.interface.cli process --question-id cvmcq24001
 
 # Production: process all questions
-./scripts/python -m src.main process --mode production
+./scripts/python -m src.interface.cli process --mode production
 
 # Use CLI providers
-./scripts/python -m src.main process --provider claude-code --mode test
-./scripts/python -m src.main process --provider gemini --mode test
-./scripts/python -m src.main process --provider codex --mode test
+./scripts/python -m src.interface.cli process --provider claude-code --mode test
+./scripts/python -m src.interface.cli process --provider gemini --mode test
+./scripts/python -m src.interface.cli process --provider codex --mode test
 ```
 
 Optional override for data root:
@@ -137,24 +140,24 @@ export MKSAP_DATA_ROOT=test_mksap_data
 
 ```bash
 # Process questions (main command)
-./scripts/python -m src.main process [OPTIONS]
+./scripts/python -m src.interface.cli process [OPTIONS]
 
 # Show statistics
-./scripts/python -m src.main stats
+./scripts/python -m src.interface.cli stats
 
 # Reset checkpoints
-./scripts/python -m src.main reset
+./scripts/python -m src.interface.cli reset
 
 # Copy selected questions into test_mksap_data
-./scripts/python -m src.main prepare-test --question-id cvmcq24001
+./scripts/python -m src.interface.cli prepare-test --question-id cvmcq24001
 
 # Clean old log files (keeps last 7 days by default)
-./scripts/python -m src.main clean-logs
-./scripts/python -m src.main clean-logs --keep-days 3
-./scripts/python -m src.main clean-logs --dry-run  # Preview what would be deleted
+./scripts/python -m src.interface.cli clean-logs
+./scripts/python -m src.interface.cli clean-logs --keep-days 3
+./scripts/python -m src.interface.cli clean-logs --dry-run  # Preview what would be deleted
 
 # Clean all logs and reset checkpoints (fresh start)
-./scripts/python -m src.main clean-all
+./scripts/python -m src.interface.cli clean-all
 ```
 
 ### Key Options
@@ -179,22 +182,22 @@ export MKSAP_DATA_ROOT=test_mksap_data
 
 ```bash
 # Test with Claude Code CLI (uses your subscription)
-./scripts/python -m src.main process --provider claude-code --mode test --system cv
+./scripts/python -m src.interface.cli process --provider claude-code --mode test --system cv
 
 # Production with Gemini
-./scripts/python -m src.main process --provider gemini --mode production
+./scripts/python -m src.interface.cli process --provider gemini --mode production
 
 # Test with higher temperature (more creative)
-./scripts/python -m src.main process --temperature 0.5 --question-id cvmcq24001
+./scripts/python -m src.interface.cli process --temperature 0.5 --question-id cvmcq24001
 
 # Dry run to preview
-./scripts/python -m src.main process --dry-run --system cv
+./scripts/python -m src.interface.cli process --dry-run --system cv
 
 # Override data root (for full production runs)
-./scripts/python -m src.main process --mode production --data-root mksap_data
+./scripts/python -m src.interface.cli process --mode production --data-root mksap_data
 
 # Debug logging
-./scripts/python -m src.main process --log-level DEBUG --question-id cvmcq24001
+./scripts/python -m src.interface.cli process --log-level DEBUG --question-id cvmcq24001
 ```
 
 ## Provider Selection and Fallback
@@ -256,11 +259,33 @@ PHASE 4: Text Normalization
 
 ```
 statement_generator/
-├── src/        # Pipeline, providers, config, IO, and CLI entrypoint
-├── prompts/    # Prompt templates
-├── tests/      # Validation test suite (pytest)
-├── tools/      # Debug/validation helpers
-└── artifacts/  # Logs, checkpoints, validation reports, pytest cache
+├── pyproject.toml              # Dependencies & tool configurations
+├── src/                        # 4-layer pipeline architecture
+│   ├── interface/              # CLI entry point
+│   │   └── cli.py              # Main command interface
+│   ├── orchestration/          # Pipeline control & state management
+│   │   ├── pipeline.py         # Main processing workflow
+│   │   └── checkpoint.py       # Resumable processing state
+│   ├── processing/             # Feature modules
+│   │   ├── statements/         # Statement extraction & validation
+│   │   │   ├── extractors/     # Critique, keypoints extraction
+│   │   │   └── validators/     # Quality, structure, ambiguity, enumeration checks
+│   │   ├── cloze/              # Cloze identification & validation
+│   │   ├── tables/             # Table extraction
+│   │   └── normalization/      # Text symbol normalization
+│   ├── infrastructure/         # Cross-cutting concerns
+│   │   ├── llm/                # LLM providers (Anthropic, Claude Code, Gemini, Codex)
+│   │   ├── io/                 # File I/O operations
+│   │   ├── config/             # Configuration management
+│   │   └── models/             # Data models (Pydantic)
+│   └── validation/             # Validation orchestrator
+├── tests/                      # Test suite (mirrors src/ structure)
+│   ├── processing/
+│   ├── infrastructure/
+│   └── tools/                  # Developer utilities (debug, manual validation)
+├── prompts/                    # LLM prompt templates
+├── scripts/                    # Setup & migration scripts
+└── artifacts/                  # Runtime outputs (logs, checkpoints, validation, pytest cache)
 ```
 
 ## Troubleshooting

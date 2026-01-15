@@ -1,7 +1,7 @@
 # CLAUDE.md - MKSAP Medical Education Pipeline
 
 > **Last Updated**: January 15, 2026
-> **Recent Changes**: Statement generator reorganized into layered architecture (Jan 15, 2026)
+> **Recent Changes**: Statement generator reorganized, dependencies consolidated to pyproject.toml, documentation updated (Jan 15, 2026)
 
 This file provides guidance to Claude Code when working on the MKSAP medical education extraction pipeline.
 
@@ -80,18 +80,18 @@ cargo build --release
 cd /path/to/MKSAP
 
 # Test on 1 question
-./scripts/python -m src.main process --question-id cvmcq24001
+./scripts/python -m src.interface.cli process --question-id cvmcq24001
 
 # Test on system
-./scripts/python -m src.main process --mode test --system cv
+./scripts/python -m src.interface.cli process --mode test --system cv
 
 # Production (all 2,198)
-./scripts/python -m src.main process --mode production
+./scripts/python -m src.interface.cli process --mode production
 
 # Stats & management
-./scripts/python -m src.main stats
-./scripts/python -m src.main reset
-./scripts/python -m src.main clean-logs
+./scripts/python -m src.interface.cli stats
+./scripts/python -m src.interface.cli reset
+./scripts/python -m src.interface.cli clean-logs
 ```
 
 ## Project Structure
@@ -105,24 +105,35 @@ MKSAP/
 │   ├── src/
 │   └── target/release/mksap-extractor
 ├── statement_generator/               ← Phase 2: Python (reorganized Jan 2026)
-│   ├── requirements.txt
+│   ├── pyproject.toml                 ← Dependencies & tool configs
 │   ├── src/
 │   │   ├── interface/                 ← CLI entry point
+│   │   │   └── cli.py                 ← Main CLI commands
 │   │   ├── orchestration/             ← Pipeline & checkpoint management
+│   │   │   ├── pipeline.py            ← Statement processing workflow
+│   │   │   └── checkpoint.py          ← State management & resumability
 │   │   ├── processing/                ← Feature modules
 │   │   │   ├── statements/            ← Statement extraction & validation
+│   │   │   │   ├── extractors/        ← Critique & keypoints extraction
+│   │   │   │   └── validators/        ← Quality, structure, ambiguity checks
 │   │   │   ├── cloze/                 ← Cloze identification
 │   │   │   ├── tables/                ← Table processing
 │   │   │   └── normalization/         ← Text normalization
 │   │   ├── infrastructure/            ← Cross-cutting concerns
 │   │   │   ├── llm/                   ← LLM providers & client
-│   │   │   ├── io/                    ← File operations
-│   │   │   ├── config/                ← Configuration
-│   │   │   └── models/                ← Data models
-│   │   └── validation/                ← Validation framework
+│   │   │   │   ├── providers/         ← Anthropic, Claude Code, Gemini, Codex
+│   │   │   │   └── client.py          ← Multi-provider wrapper
+│   │   │   ├── io/                    ← File I/O operations
+│   │   │   ├── config/                ← Configuration management
+│   │   │   └── models/                ← Data models (Pydantic)
+│   │   └── validation/                ← Validation framework (orchestrator)
 │   ├── tests/                         ← Tests mirror src/ structure
+│   │   ├── processing/
+│   │   ├── infrastructure/
+│   │   └── tools/                     ← Developer utilities (debug, manual validation)
 │   ├── prompts/                       ← LLM prompt templates
-│   └── scripts/                       ← Setup & migration scripts
+│   ├── scripts/                       ← Setup & migration scripts
+│   └── artifacts/                     ← Runtime outputs (logs, checkpoints, validation)
 ├── mksap_data/                        ← Extracted questions (2,198 JSON files)
 └── docs/
     ├── INDEX.md                       ← Documentation entry point
@@ -168,16 +179,14 @@ The statement_generator follows a **pipeline-focused, 4-layer architecture**:
 
 After reorganization, imports use new paths:
 ```python
-# Old imports (deprecated):
-from src.models import Statement
-from src.pipeline import StatementPipeline
-
-# New imports:
+# New imports (current):
 from src.infrastructure.models.data_models import Statement
 from src.orchestration.pipeline import StatementPipeline
+from src.processing.statements.extractors.critique import CritiqueProcessor
+from src.infrastructure.llm.client import ClaudeClient
 ```
 
-**Note**: Old import paths still work via deprecation wrappers for backward compatibility.
+All imports are relative within the `src/` package for clarity.
 
 ### Key Files
 

@@ -463,18 +463,18 @@ If problem persists, report with:
 
 **Reset checkpoint**:
 ```bash
-./scripts/python -m src.main reset
+./scripts/python -m src.interface.cli reset
 ```
 
 **Skip reprocessing questions**:
 ```bash
-./scripts/python -m src.main process --skip-existing --system cv
+./scripts/python -m src.interface.cli process --skip-existing --system cv
 ```
 
 **Remove logs**:
 ```bash
-./scripts/python -m src.main clean-logs
-./scripts/python -m src.main clean-logs --keep-days 3
+./scripts/python -m src.interface.cli clean-logs
+./scripts/python -m src.interface.cli clean-logs --keep-days 3
 ```
 
 ### Data Quality Issues

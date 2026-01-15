@@ -1,6 +1,6 @@
 # Phase 2 Status - Statement Generator
 
-**Last Updated**: January 13, 2026
+**Last Updated**: January 15, 2026
 
 ## Summary
 
@@ -20,8 +20,8 @@ metrics.
 ## Current Priorities (Next Steps)
 
 1. Process the next 10-20 questions (start with `cv`) using `claude-code`
-2. Reduce ambiguity false positives in `ambiguity_checks.py`
-3. Add daily validation metrics reporting in `statement_generator/artifacts/validation/`
+2. Reduce ambiguity false positives in `src/processing/statements/validators/ambiguity.py`
+3. Add daily validation metrics reporting in `artifacts/validation/`
 4. Test Gemini/Codex CLI integrations and confirm parameter support
 
 ## Notes

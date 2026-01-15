@@ -34,18 +34,18 @@ Set `MKSAP_PYTHON_VERSION` in `.env` to the interpreter you expect (example: `3.
 cd /Users/Mitchell/coding/projects/MKSAP
 
 # Test on 1 question
-./scripts/python -m src.main process --question-id cvmcq24001
+./scripts/python -m src.interface.cli process --question-id cvmcq24001
 
 # Test on system
-./scripts/python -m src.main process --mode test --system cv
+./scripts/python -m src.interface.cli process --mode test --system cv
 
 # Production (all 2,198)
-./scripts/python -m src.main process --mode production
+./scripts/python -m src.interface.cli process --mode production
 
 # Stats & management
-./scripts/python -m src.main stats
-./scripts/python -m src.main reset
-./scripts/python -m src.main clean-logs
+./scripts/python -m src.interface.cli stats
+./scripts/python -m src.interface.cli reset
+./scripts/python -m src.interface.cli clean-logs
 ```
 
 ## Progress Tracking
@@ -64,4 +64,4 @@ cd /Users/Mitchell/coding/projects/MKSAP
 
 ---
 
-**Last Updated**: January 6, 2026
+**Last Updated**: January 15, 2026

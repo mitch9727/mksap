@@ -1,6 +1,6 @@
 # MKSAP Question Bank Extractor
 
-> **Last updated: January 13, 2026**
+> **Last updated: January 15, 2026**
 
 System for extracting medical education questions from the ACP MKSAP (Medical Knowledge Self-Assessment Program) online question bank into structured JSON format.
 
@@ -59,15 +59,18 @@ MKSAP_SESSION=... ./target/release/mksap-extractor media-download --all
 ### Statement Generator (Phase 2)
 
 ```bash
-# From repo root
-pip install -r statement_generator/requirements.txt
+# From repo root, install dependencies (uses pyproject.toml)
+cd statement_generator
+pip install -e .
+# OR using Poetry:
+poetry install
 ```
 
 Set the expected interpreter in `.env` so the CLI can enforce it (example: `MKSAP_PYTHON_VERSION=3.11.9`).
 
 ```bash
 # Test on 1-2 questions
-./scripts/python -m src.main process --mode test --system cv
+./scripts/python -m src.interface.cli process --mode test --system cv
 ```
 
 Provider configuration and full CLI reference live in [STATEMENT_GENERATOR.md](docs/reference/STATEMENT_GENERATOR.md).

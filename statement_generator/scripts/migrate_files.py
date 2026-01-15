@@ -262,11 +262,20 @@ def migrate_file(old_path: str, new_path: str, exports: List[str], dry_run: bool
         print(f"  ⚠️  Source file not found: {old_path}")
         return False
 
-    print(f"  📄 Migrating: {old_path} → {new_path}")
+    # Check if file is staying in same location (just updating imports)
+    same_location = old_path == new_path
+
+    if same_location:
+        print(f"  📄 Updating imports: {old_path}")
+    else:
+        print(f"  📄 Migrating: {old_path} → {new_path}")
 
     if dry_run:
-        print(f"     [DRY RUN] Would copy to {new_path}")
-        print(f"     [DRY RUN] Would create deprecation wrapper at {old_path}")
+        if same_location:
+            print(f"     [DRY RUN] Would update imports in place")
+        else:
+            print(f"     [DRY RUN] Would copy to {new_path}")
+            print(f"     [DRY RUN] Would create deprecation wrapper at {old_path}")
         return True
 
     try:
@@ -277,19 +286,26 @@ def migrate_file(old_path: str, new_path: str, exports: List[str], dry_run: bool
         # Update imports in content
         updated_content = update_imports_in_file(content)
 
-        # Ensure target directory exists
-        new_file.parent.mkdir(parents=True, exist_ok=True)
+        if same_location:
+            # Just update the file in place
+            with open(old_file, 'w', encoding='utf-8') as f:
+                f.write(updated_content)
+            print(f"     ✅ Updated successfully")
+        else:
+            # Ensure target directory exists
+            new_file.parent.mkdir(parents=True, exist_ok=True)
 
-        # Write to new location
-        with open(new_file, 'w', encoding='utf-8') as f:
-            f.write(updated_content)
+            # Write to new location
+            with open(new_file, 'w', encoding='utf-8') as f:
+                f.write(updated_content)
 
-        # Create deprecation wrapper at old location
-        wrapper = create_deprecation_wrapper(old_path, new_path, exports)
-        with open(old_file, 'w', encoding='utf-8') as f:
-            f.write(wrapper)
+            # Create deprecation wrapper at old location
+            wrapper = create_deprecation_wrapper(old_path, new_path, exports)
+            with open(old_file, 'w', encoding='utf-8') as f:
+                f.write(wrapper)
 
-        print(f"     ✅ Migrated successfully")
+            print(f"     ✅ Migrated successfully")
+
         return True
 
     except Exception as e:

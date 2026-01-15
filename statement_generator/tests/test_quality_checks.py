@@ -10,8 +10,8 @@ Tests all quality validation functions including:
 """
 
 import pytest
-from src.models import Statement
-from src.validation.quality_checks import (
+from src.infrastructure.models.data_models import Statement
+from src.processing.statements.validators.quality import (
     validate_statement_quality,
     check_atomicity,
     check_patient_specific_language,

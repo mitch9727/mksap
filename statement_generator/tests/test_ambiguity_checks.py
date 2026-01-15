@@ -14,8 +14,8 @@ Coverage achieved: 73% overall
 """
 
 import pytest
-from src.models import Statement
-from src.validation.ambiguity_checks import (
+from src.infrastructure.models.data_models import Statement
+from src.processing.statements.validators.ambiguity import (
     validate_statement_ambiguity,
     detect_ambiguous_medication_clozes,
     detect_overlapping_candidates,

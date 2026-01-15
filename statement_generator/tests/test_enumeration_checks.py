@@ -15,9 +15,9 @@ that don't match "includes" or "consists of". Tests use exact patterns that work
 """
 
 import pytest
-from src.models import Statement
+from src.infrastructure.models.data_models import Statement
 from src.validation.validator import ValidationIssue
-from src.validation.enumeration_checks import (
+from src.processing.statements.validators.enumeration import (
     validate_statement_enumerations,
     check_list_statement,
     check_multi_item_cloze,

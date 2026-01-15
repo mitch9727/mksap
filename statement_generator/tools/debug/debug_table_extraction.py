@@ -8,8 +8,8 @@ from pathlib import Path
 ROOT_DIR = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT_DIR))
 
-from src.providers.claude_code_provider import ClaudeCodeProvider
-from src.providers.codex_provider import CodexProvider
+from src.infrastructure.llm.providers.claude_code import ClaudeCodeProvider
+from src.infrastructure.llm.providers.codex import CodexProvider
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)

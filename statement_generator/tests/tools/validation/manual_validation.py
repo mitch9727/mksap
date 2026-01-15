@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 from typing import Dict, List
 
-ROOT_DIR = Path(__file__).resolve().parents[2]
+ROOT_DIR = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT_DIR))
 
 from src.validation.validator import StatementValidator, ValidationResult

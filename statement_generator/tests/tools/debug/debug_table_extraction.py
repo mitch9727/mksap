@@ -5,7 +5,7 @@ import json
 import logging
 from pathlib import Path
 
-ROOT_DIR = Path(__file__).resolve().parents[2]
+ROOT_DIR = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT_DIR))
 
 from src.infrastructure.llm.providers.claude_code import ClaudeCodeProvider

@@ -1,42 +1,23 @@
 """
-Base provider interface for LLM providers.
+DEPRECATED: Use src.infrastructure.llm.base_provider instead.
 
-All providers must implement the generate() method.
+This module provides backward compatibility during the reorganization.
+All imports will be redirected to the new location.
 """
 
-from abc import ABC, abstractmethod
-from typing import Optional
+import warnings
 
+warnings.warn(
+    "src.providers.base is deprecated. Use src.infrastructure.llm.base_provider instead.",
+    DeprecationWarning,
+    stacklevel=2
+)
 
-class BaseLLMProvider(ABC):
-    """Abstract base class for LLM providers"""
+# Re-export all classes from new location
+from .infrastructure.llm.base_provider import (
+    BaseLLMProvider,
+)
 
-    @abstractmethod
-    def generate(
-        self, prompt: str, temperature: Optional[float] = None, max_retries: int = 3
-    ) -> str:
-        """
-        Generate response from LLM.
-
-        Args:
-            prompt: The prompt to send
-            temperature: Override default temperature (0.0-1.0)
-            max_retries: Number of retry attempts
-
-        Returns:
-            Response text from LLM
-
-        Raises:
-            Exception: If all retries fail
-        """
-        pass
-
-    @abstractmethod
-    def get_provider_name(self) -> str:
-        """
-        Get the name of this provider.
-
-        Returns:
-            Provider name (e.g., "anthropic", "claude-code", "gemini", "codex")
-        """
-        pass
+__all__ = [
+    "BaseLLMProvider",
+]

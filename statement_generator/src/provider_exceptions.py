@@ -1,28 +1,27 @@
 """
-Provider-specific exceptions for error handling and fallback logic.
+DEPRECATED: Use infrastructure.llm.exceptions instead.
+
+This module provides backward compatibility during the reorganization.
+All imports will be redirected to the new location.
 """
 
+import warnings
 
-class ProviderLimitError(Exception):
-    """Raised when provider hits rate limit or usage cap"""
+warnings.warn(
+    "provider_exceptions is deprecated. Use infrastructure.llm.exceptions instead.",
+    DeprecationWarning,
+    stacklevel=2
+)
 
-    def __init__(self, provider: str, message: str, retryable: bool = True):
-        self.provider = provider
-        self.retryable = retryable
-        super().__init__(f"{provider}: {message}")
+# Re-export all classes from new location
+from .infrastructure.llm.exceptions import (
+    ProviderException,
+    ProviderRateLimitError,
+    ProviderAuthError,
+)
 
-
-class ProviderAuthError(Exception):
-    """Raised when provider authentication fails"""
-
-    def __init__(self, provider: str, message: str):
-        self.provider = provider
-        super().__init__(f"{provider}: {message}")
-
-
-class ProviderError(Exception):
-    """General provider error"""
-
-    def __init__(self, provider: str, message: str):
-        self.provider = provider
-        super().__init__(f"{provider}: {message}")
+__all__ = [
+    "ProviderException",
+    "ProviderRateLimitError",
+    "ProviderAuthError",
+]

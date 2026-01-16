@@ -10,9 +10,10 @@
 
 1. **[PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md)** - Project goals, architecture, and scope
 2. **[QUICKSTART.md](QUICKSTART.md)** - Essential commands and setup
-3. **[PHASE_2_STATUS.md](PHASE_2_STATUS.md)** - Current implementation status and priorities
-4. **[PHASE_1_COMPLETION_REPORT.md](PHASE_1_COMPLETION_REPORT.md)** - Phase 1 results (2,198 questions)
-5. **[TODO.md](../TODO.md)** - Active and planned work
+3. **[PHASE_2_STATUS.md](PHASE_2_STATUS.md)** - Phase 2 implementation status and priorities
+4. **[PHASE_3_STATUS.md](PHASE_3_STATUS.md)** - Phase 3 LLM integration evaluation (ready to execute)
+5. **[PHASE_1_COMPLETION_REPORT.md](PHASE_1_COMPLETION_REPORT.md)** - Phase 1 results (2,198 questions)
+6. **[TODO.md](../TODO.md)** - Active and planned work
 
 ---
 
@@ -40,14 +41,15 @@
 
 ---
 
-## Phase 2: Statement Generator
+## Phase 2-3: Statement Generator & Evaluation
 
 - **[STATEMENT_GENERATOR.md](reference/STATEMENT_GENERATOR.md)** - Phase 2 usage, CLI, and pipeline
+- **[PHASE_2_STATUS.md](PHASE_2_STATUS.md)** - Phase 2 implementation status, open work, testing notes
 - **[NLP_MODEL_COMPARISON.md](reference/NLP_MODEL_COMPARISON.md)** - ScispaCy model evaluation and selection
 - **[SPECIALIZED_NER_EVALUATION.md](reference/SPECIALIZED_NER_EVALUATION.md)** - Specialized NER models (bc5cdr, bionlp13cg) vs core model
+- **[PHASE_3_STATUS.md](PHASE_3_STATUS.md)** - Phase 3 LLM integration evaluation status and readiness
 - **[LEGACY_STATEMENT_STYLE_GUIDE.md](reference/LEGACY_STATEMENT_STYLE_GUIDE.md)** - Legacy style guidance and tag
   normalization
-- **[PHASE_2_STATUS.md](PHASE_2_STATUS.md)** - Implementation status, open work, testing notes
 - **[CLOZE_FLASHCARD_BEST_PRACTICES.md](reference/CLOZE_FLASHCARD_BEST_PRACTICES.md)** - Evidence-based
   flashcard guidance
 

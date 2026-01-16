@@ -1,7 +1,7 @@
 # Project TODO - MKSAP Medical Education Pipeline
 
-**Last Updated**: January 15, 2026
-**Current Phase**: Phase 2 (Statement Generator) - Week 3 Planning
+**Last Updated**: January 16, 2026
+**Current Phase**: Phase 2 (Statement Generator) - NLP Model Selection Complete, Ready for Integration Testing
 **Source of Truth**: This file is the single source for active and planned project todos
 **Completed Work**: Tracked in git history; remove finished tasks from this list
 
@@ -11,16 +11,41 @@ This file tracks outstanding work across the 4-phase pipeline. Completed todos a
 
 ---
 
+## Completed Work Summary (January 16, 2026)
+
+### ✅ NLP Model Evaluation & Optimization
+- **Completed**: Comprehensive evaluation of 6 scispaCy models
+- **Models Tested**:
+  - Core models: en_core_sci_sm ✅ (selected), en_core_sci_md ❌, en_core_sci_lg ❌
+  - Specialized NER: en_ner_bc5cdr_md ❌, en_ner_bionlp13cg_md ❌
+  - Other: en_ner_scibert (404 unavailable)
+- **Key Decision**: Production model = en_core_sci_sm (13MB, 0.24s/question, 94% entity coverage)
+- **System Optimization**: 1,177MB freed by removing non-beneficial models
+- **Documentation**: Comprehensive NLP_MODEL_COMPARISON.md created (482 lines)
+- **Commits**: 5 commits completed (Jan 15-16)
+- **Status**: ✅ Production ready, hybrid pipeline operational with small model
+
+---
+
 ## Phase 2: Statement Generator (🔄 ACTIVE)
 
-**Overall**: ~90% foundation complete, pending production readiness
-**Last Updated**: January 5, 2026 (Week 2 completion, Week 3 planning)
+**Overall**: ~95% foundation complete, NLP integration ready for testing
+**Last Updated**: January 16, 2026 (Model selection complete, integration testing ready)
 
 ### WEEK 3 - High Priority Tasks (Start Here)
 
 These are the immediate next steps:
 
-#### Scale Processing (🎯 Do First)
+#### LLM Integration Evaluation (🎯 Do First) - NEW
+- [ ] Run hybrid pipeline on 10-20 sample questions for baseline comparison
+- [ ] Selected test questions: Pick 2-3 from each major system (cv, en, gi, dm, etc.)
+- [ ] Measure: Negation preservation, entity completeness, unit accuracy
+- [ ] Command: `./scripts/python -m src.interface.cli process --question-id <id>`
+- [ ] Document: Create comparison report in `statement_generator/artifacts/phase3_evaluation/`
+- [ ] Success criteria: Measure improvements vs baseline (71.4% validation pass rate)
+- [ ] Decision point: Results determine Phase 4 (default switch) readiness
+
+#### Scale Processing (After evaluation)
 - [ ] Process 10-20 questions per day (target: 100 questions by end of week)
 - [ ] Start with: System cv (240 questions) using claude-code provider
 - [ ] Command: `./scripts/python -m src.interface.cli process --system cv --provider claude-code`

@@ -2,7 +2,7 @@
 
 **Start here for navigation across the MKSAP documentation set.**
 
-**Last Updated**: January 13, 2026
+**Last Updated**: January 16, 2026
 
 ---
 
@@ -43,6 +43,7 @@
 ## Phase 2: Statement Generator
 
 - **[STATEMENT_GENERATOR.md](reference/STATEMENT_GENERATOR.md)** - Phase 2 usage, CLI, and pipeline
+- **[NLP_MODEL_COMPARISON.md](reference/NLP_MODEL_COMPARISON.md)** - ScispaCy model evaluation and selection
 - **[LEGACY_STATEMENT_STYLE_GUIDE.md](reference/LEGACY_STATEMENT_STYLE_GUIDE.md)** - Legacy style guidance and tag
   normalization
 - **[PHASE_2_STATUS.md](PHASE_2_STATUS.md)** - Implementation status, open work, testing notes

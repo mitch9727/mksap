@@ -10,6 +10,10 @@ from functools import lru_cache
 import os
 from typing import Iterable, List, Optional
 
+# Import settings to ensure .env is loaded before reading env vars
+# This also provides access to DEFAULT_NLP_MODEL
+from ..infrastructure.config.settings import DEFAULT_NLP_MODEL
+
 try:
     import spacy
     from spacy.tokens import Doc
@@ -45,6 +49,9 @@ def get_nlp() -> Optional["spacy.language.Language"]:
     Load and cache the spaCy/scispaCy model.
 
     Set MKSAP_USE_NLP=0 to disable NLP usage.
+
+    If parser is disabled (default for performance), adds a sentencizer
+    component to maintain sentence segmentation capability.
     """
     if not _env_flag("MKSAP_USE_NLP", "1"):
         return None
@@ -55,9 +62,15 @@ def get_nlp() -> Optional["spacy.language.Language"]:
             "(e.g., en_core_sci_sm), or set MKSAP_USE_NLP=0 to disable NLP."
         ) from _SPACY_IMPORT_ERROR
 
-    model_name = os.getenv("MKSAP_NLP_MODEL", "en_core_sci_sm")
+    model_name = os.getenv("MKSAP_NLP_MODEL", DEFAULT_NLP_MODEL)
     disable = _env_list("MKSAP_NLP_DISABLE", "parser")
-    return spacy.load(model_name, disable=disable)
+    nlp = spacy.load(model_name, disable=disable)
+
+    # If parser is disabled, add sentencizer for sentence segmentation
+    if "parser" in disable and "sentencizer" not in nlp.pipe_names:
+        nlp.add_pipe("sentencizer")
+
+    return nlp
 
 
 def nlp_pipe(texts: List[str]) -> List[Optional["Doc"]]:

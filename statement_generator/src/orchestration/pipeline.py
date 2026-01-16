@@ -2,16 +2,23 @@
 Pipeline orchestrator - Coordinates 4-step statement generation workflow.
 
 Manages the flow: critique extraction → key points extraction → cloze identification → text normalization
+
+Hybrid Mode (USE_HYBRID_PIPELINE=true):
+  Adds NLP preprocessing stage using scispaCy to extract entities, detect negations,
+  and analyze atomicity before LLM calls. In Phase 1, this only logs artifacts
+  without changing output behavior.
 """
 
 import logging
 from pathlib import Path
+from typing import Optional
 
 from ..processing.cloze.identifier import ClozeIdentifier
 from ..processing.statements.extractors.critique import CritiqueProcessor
 from ..infrastructure.io.file_handler import QuestionFileIO
 from ..processing.statements.extractors.keypoints import KeyPointsProcessor
 from ..infrastructure.llm.client import ClaudeClient
+from ..infrastructure.config.settings import NLPConfig
 from ..infrastructure.models.data_models import ProcessingResult, Statement, TableStatement, TableStatements, TrueStatements
 from ..processing.tables.extractor import TableProcessor
 from ..processing.normalization.text_normalizer import TextNormalizer
@@ -20,13 +27,37 @@ logger = logging.getLogger(__name__)
 
 
 class StatementPipeline:
-    """Orchestrate 3-step statement generation workflow"""
+    """Orchestrate statement generation workflow.
+
+    Supports two modes:
+    - Legacy mode (default): Direct LLM extraction
+    - Hybrid mode (USE_HYBRID_PIPELINE=true): NLP preprocessing + LLM extraction
+    """
 
     def __init__(
-        self, client: ClaudeClient, file_io: QuestionFileIO, prompts_path: Path
+        self,
+        client: ClaudeClient,
+        file_io: QuestionFileIO,
+        prompts_path: Path,
+        nlp_config: Optional[NLPConfig] = None,
     ):
         self.client = client
         self.file_io = file_io
+
+        # Load NLP config (determines hybrid vs legacy mode)
+        self.nlp_config = nlp_config or NLPConfig.from_env()
+        self.use_hybrid = self.nlp_config.use_hybrid_pipeline
+
+        # Initialize NLP preprocessor if hybrid mode enabled
+        self._nlp_preprocessor = None
+        if self.use_hybrid:
+            try:
+                from ..processing.nlp.preprocessor import NLPPreprocessor
+                self._nlp_preprocessor = NLPPreprocessor(self.nlp_config)
+                logger.info("Hybrid pipeline enabled - NLP preprocessing active")
+            except Exception as e:
+                logger.warning(f"Failed to initialize NLP preprocessor: {e}. Falling back to legacy mode.")
+                self.use_hybrid = False
 
         # Initialize processors
         self.critique_processor = CritiqueProcessor(
@@ -71,16 +102,27 @@ class StatementPipeline:
 
             logger.info(f"Processing {question_id}")
 
-            # Step 1: Extract from critique
+            # Hybrid mode: NLP preprocessing to guide LLM extraction
+            critique_nlp_context = None
+            keypoints_nlp_context = None
+            if self.use_hybrid and self._nlp_preprocessor:
+                critique_nlp_context, keypoints_nlp_context = self._run_nlp_preprocessing(
+                    question_id, data
+                )
+
+            # Step 1: Extract from critique (with optional NLP guidance)
             logger.debug("Step 1: Extracting statements from critique")
             critique_statements = self.critique_processor.extract_statements(
-                data["critique"], data.get("educational_objective", "")
+                data["critique"],
+                data.get("educational_objective", ""),
+                nlp_context=critique_nlp_context,
             )
 
-            # Step 2: Extract from key_points
+            # Step 2: Extract from key_points (with optional NLP guidance)
             logger.debug("Step 2: Extracting statements from key_points")
             keypoint_statements = self.keypoints_processor.extract_statements(
-                data.get("key_points", [])
+                data.get("key_points", []),
+                nlp_context=keypoints_nlp_context,
             )
 
             # Step 3: Extract from tables (NEW)
@@ -166,3 +208,71 @@ class StatementPipeline:
                 statements_extracted=0,
                 error=str(e),
             )
+
+    def _run_nlp_preprocessing(
+        self, question_id: str, data: dict
+    ) -> tuple[Optional["EnrichedPromptContext"], Optional["EnrichedPromptContext"]]:
+        """Run NLP preprocessing on question data for hybrid mode.
+
+        Processes critique and key_points through scispaCy pipeline to extract:
+        - Entities (diseases, medications, procedures, etc.)
+        - Negation detection
+        - Atomicity analysis (should_split vs multi_cloze_ok)
+
+        Returns enriched prompt contexts for injection into LLM prompts.
+
+        Args:
+            question_id: Question identifier for logging
+            data: Question data dict containing critique, key_points, etc.
+
+        Returns:
+            Tuple of (critique_context, keypoints_context), either may be None
+        """
+        from ..infrastructure.models.fact_candidates import EnrichedPromptContext
+
+        logger.debug(f"[Hybrid] Running NLP preprocessing for {question_id}")
+
+        critique_context: Optional[EnrichedPromptContext] = None
+        keypoints_context: Optional[EnrichedPromptContext] = None
+
+        try:
+            # Process critique
+            critique_text = data.get("critique", "")
+            if critique_text:
+                critique_context = self._nlp_preprocessor.process_and_enrich(
+                    critique_text, "critique"
+                )
+                negated_count = len([
+                    e for e in critique_context.nlp_artifacts.entities if e.is_negated
+                ])
+                logger.debug(
+                    f"[Hybrid] Critique NLP: {len(critique_context.nlp_artifacts.sentences)} sentences, "
+                    f"{len(critique_context.nlp_artifacts.entities)} entities, "
+                    f"{negated_count} negated"
+                )
+
+            # Process key_points (join into single text for NLP)
+            key_points = data.get("key_points", [])
+            if key_points:
+                keypoints_text = " ".join(key_points)
+                keypoints_context = self._nlp_preprocessor.process_and_enrich(
+                    keypoints_text, "keypoints"
+                )
+                negated_count = len([
+                    e for e in keypoints_context.nlp_artifacts.entities if e.is_negated
+                ])
+                logger.debug(
+                    f"[Hybrid] Keypoints NLP: {len(keypoints_context.nlp_artifacts.sentences)} sentences, "
+                    f"{len(keypoints_context.nlp_artifacts.entities)} entities, "
+                    f"{negated_count} negated"
+                )
+
+            logger.debug(f"[Hybrid] NLP preprocessing complete for {question_id}")
+
+        except Exception as e:
+            # NLP errors should not fail the pipeline - fall back to legacy mode
+            logger.warning(f"[Hybrid] NLP preprocessing failed for {question_id}: {e}")
+            critique_context = None
+            keypoints_context = None
+
+        return critique_context, keypoints_context

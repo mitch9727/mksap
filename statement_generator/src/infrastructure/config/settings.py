@@ -13,8 +13,14 @@ from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 
 
+# Default scispaCy model - single source of truth
+# Override with MKSAP_NLP_MODEL environment variable
+DEFAULT_NLP_MODEL = "en_core_sci_sm"
+
 # Load environment variables from project root .env
-PROJECT_ROOT = Path(__file__).parent.parent.parent.absolute()
+# settings.py is at src/infrastructure/config/settings.py
+# We want statement_generator/ as project root (4 levels up)
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent.absolute()
 ENV_PATH = PROJECT_ROOT / ".env"
 
 if ENV_PATH.exists():
@@ -40,6 +46,58 @@ class ProcessingConfig(BaseModel):
     max_retries: int = Field(default=3)
     retry_delay: float = Field(default=2.0)  # seconds
     skip_existing: bool = Field(default=False)
+
+
+class NLPConfig(BaseModel):
+    """NLP/scispaCy configuration for hybrid pipeline.
+
+    All settings can be overridden via environment variables:
+    - MKSAP_USE_NLP: Enable/disable NLP (default: true)
+    - MKSAP_NLP_MODEL: scispaCy model name (default: en_core_sci_sm)
+    - MKSAP_NLP_DISABLE: Comma-separated components to disable (default: parser)
+    - MKSAP_NLP_BATCH_SIZE: Batch size for nlp.pipe() (default: 32)
+    - MKSAP_NLP_N_PROCESS: Number of processes for nlp.pipe() (default: 1)
+    - USE_HYBRID_PIPELINE: Enable hybrid NLP+LLM pipeline (default: false)
+    """
+
+    enabled: bool = Field(default=True, description="Enable NLP processing")
+    model: str = Field(
+        default=DEFAULT_NLP_MODEL,
+        description="scispaCy model name (e.g., en_core_sci_sm, en_core_sci_md)"
+    )
+    disabled_components: list[str] = Field(
+        default_factory=lambda: ["parser"],
+        description="spaCy pipeline components to disable for performance"
+    )
+    batch_size: int = Field(default=32, description="Batch size for nlp.pipe()")
+    n_process: int = Field(default=1, description="Number of processes for nlp.pipe()")
+    use_hybrid_pipeline: bool = Field(
+        default=False,
+        description="Enable hybrid NLP+LLM pipeline (Phase 1: scaffolding only)"
+    )
+
+    @classmethod
+    def from_env(cls) -> "NLPConfig":
+        """Load NLP config from environment variables."""
+
+        def parse_bool(value: str, default: bool) -> bool:
+            if not value:
+                return default
+            return value.strip().lower() not in {"0", "false", "no", "off"}
+
+        def parse_list(value: str, default: list[str]) -> list[str]:
+            if not value:
+                return default
+            return [item.strip() for item in value.split(",") if item.strip()]
+
+        return cls(
+            enabled=parse_bool(os.getenv("MKSAP_USE_NLP", ""), True),
+            model=os.getenv("MKSAP_NLP_MODEL", DEFAULT_NLP_MODEL),
+            disabled_components=parse_list(os.getenv("MKSAP_NLP_DISABLE", ""), ["parser"]),
+            batch_size=int(os.getenv("MKSAP_NLP_BATCH_SIZE", "32")),
+            n_process=int(os.getenv("MKSAP_NLP_N_PROCESS", "1")),
+            use_hybrid_pipeline=parse_bool(os.getenv("USE_HYBRID_PIPELINE", ""), False),
+        )
 
 
 class PathsConfig(BaseModel):
@@ -98,6 +156,7 @@ class Config(BaseModel):
     llm: LLMConfig
     processing: ProcessingConfig
     paths: PathsConfig = Field(default_factory=PathsConfig)
+    nlp: NLPConfig = Field(default_factory=NLPConfig.from_env)
 
     @classmethod
     def from_env(

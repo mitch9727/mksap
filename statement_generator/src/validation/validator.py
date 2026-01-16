@@ -7,7 +7,7 @@ Validates JSON structure, statement quality, cloze candidates, and source fideli
 from typing import Dict, List, Optional, Literal
 from pydantic import BaseModel, Field
 
-from src.infrastructure.models.data_models import Statement, TableStatement
+from ..infrastructure.models.data_models import Statement, TableStatement
 
 
 class ValidationIssue(BaseModel):

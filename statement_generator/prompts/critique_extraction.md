@@ -16,7 +16,7 @@ EDUCATIONAL OBJECTIVE:
 
 CRITIQUE TEXT:
 {critique}
-
+{nlp_guidance}
 EVIDENCE-BASED PRINCIPLES:
 
 1. ATOMIC FACTS (Minimum Information Principle)

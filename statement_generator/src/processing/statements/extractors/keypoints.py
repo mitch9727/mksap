@@ -2,20 +2,30 @@
 Key points processor - Extract statements from key_points array (Step 2).
 
 Refines pre-formatted key points into testable statements.
+
+Hybrid Mode:
+  When NLP artifacts are provided, injects entity/negation/atomicity
+  guidance into the prompt to improve LLM extraction accuracy.
 """
 
 import logging
 from pathlib import Path
-from typing import List
+from typing import List, Optional
 
 from ....infrastructure.llm.client import ClaudeClient
 from ....infrastructure.models.data_models import Statement
+from ....infrastructure.models.fact_candidates import EnrichedPromptContext
 
 logger = logging.getLogger(__name__)
 
 
 class KeyPointsProcessor:
-    """Extract statements from key_points array (Step 2)"""
+    """Extract statements from key_points array (Step 2).
+
+    Supports two modes:
+    - Legacy mode: Direct LLM extraction without NLP guidance
+    - Hybrid mode: NLP-guided extraction with entity/negation/atomicity hints
+    """
 
     def __init__(self, client: ClaudeClient, prompt_template_path: Path):
         self.client = client
@@ -26,12 +36,17 @@ class KeyPointsProcessor:
         with open(path, "r") as f:
             return f.read()
 
-    def extract_statements(self, key_points: List[str]) -> List[Statement]:
+    def extract_statements(
+        self,
+        key_points: List[str],
+        nlp_context: Optional[EnrichedPromptContext] = None,
+    ) -> List[Statement]:
         """
         Extract statements from key_points using LLM.
 
         Args:
             key_points: List of pre-formatted key point strings
+            nlp_context: Optional NLP analysis for hybrid mode guidance
 
         Returns:
             List of Statement objects (cloze_candidates empty at this stage)
@@ -40,9 +55,18 @@ class KeyPointsProcessor:
             logger.debug("No key_points to process")
             return []
 
-        # Build prompt
+        # Build NLP guidance section if context provided
+        nlp_guidance = ""
+        if nlp_context:
+            nlp_guidance = self._format_nlp_guidance(nlp_context)
+            logger.debug(f"Injecting NLP guidance ({len(nlp_guidance)} chars)")
+
+        # Build prompt with optional NLP guidance
         key_points_text = "\n".join([f"{i+1}. {kp}" for i, kp in enumerate(key_points)])
-        prompt = self.prompt_template.format(key_points=key_points_text)
+        prompt = self.prompt_template.format(
+            key_points=key_points_text,
+            nlp_guidance=nlp_guidance,
+        )
 
         # Call LLM
         logger.debug(f"Calling LLM for key_points extraction ({len(key_points)} points)")
@@ -71,3 +95,72 @@ class KeyPointsProcessor:
         except Exception as e:
             logger.error(f"Failed to parse key_points extraction response: {e}")
             raise
+
+    def _format_nlp_guidance(self, context: EnrichedPromptContext) -> str:
+        """Format NLP analysis into prompt guidance section.
+
+        Args:
+            context: EnrichedPromptContext from NLP preprocessing
+
+        Returns:
+            Formatted string to inject into prompt template
+        """
+        sections = []
+
+        # Entity summary
+        if context.entity_summary:
+            sections.append(f"**Detected Entities**: {context.entity_summary}")
+
+        # Negation warnings (CRITICAL for accuracy)
+        if context.negation_summary:
+            sections.append(
+                f"**CRITICAL - Negations Detected**: {context.negation_summary}\n"
+                "You MUST preserve these negations exactly. Do NOT convert negated findings to positive statements."
+            )
+
+        # Key entities to preserve
+        key_entities = self._get_key_entities(context)
+        if key_entities:
+            sections.append(
+                "**Key Medical Terms** (preserve exactly as written):\n" +
+                "\n".join(f"- {e}" for e in key_entities)
+            )
+
+        if not sections:
+            return ""
+
+        return (
+            "\n\n---\n"
+            "## NLP ANALYSIS (Use this to guide extraction)\n\n" +
+            "\n\n".join(sections) +
+            "\n---\n"
+        )
+
+    def _get_key_entities(self, context: EnrichedPromptContext) -> List[str]:
+        """Extract key entities that should be preserved exactly."""
+        from ....infrastructure.models.nlp_artifacts import EntityType
+
+        key_entities = []
+        seen = set()
+
+        for entity in context.nlp_artifacts.entities:
+            if entity.text.lower() in seen:
+                continue
+            seen.add(entity.text.lower())
+
+            # Prioritize negated entities
+            if entity.is_negated:
+                trigger = entity.negation_trigger or "negated"
+                key_entities.append(f"{entity.text} ({trigger})")
+                continue
+
+            # Include medications, diseases, quantities
+            if entity.entity_type in (
+                EntityType.MEDICATION,
+                EntityType.DISEASE,
+                EntityType.QUANTITY,
+                EntityType.LAB_VALUE,
+            ):
+                key_entities.append(entity.text)
+
+        return key_entities[:10]  # Limit for keypoints (shorter than critique)

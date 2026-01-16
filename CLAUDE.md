@@ -231,6 +231,13 @@ All imports are relative within the `src/` package for clarity.
 4. **Modular Documentation** - Detailed docs linked from this file, not embedded
 5. **Frequent Commits** - Small, atomic commits with clear messages
 
+## Context Discipline & Parallelization (Claude Code)
+
+- Treat context as scarce: read only the files needed, prefer targeted `rg` + narrow `sed` reads, and summarize large outputs instead of pasting them.
+- Default to subagents or skills for parallelizable work (discovery, analysis, review, docs, validation). If no subagents are used, state why.
+- Use parallel tool calls when safe; keep the main thread focused on integration and final decisions.
+- Keep responses concise and avoid repeating large snippets; reference files/paths instead.
+
 ## When Starting Work
 
 1. **Check status**: Open [TODO.md](TODO.md)

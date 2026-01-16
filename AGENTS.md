@@ -47,3 +47,9 @@ cargo build --release
 
 - Never commit session cookies or authentication artifacts.
 - Prefer environment variables (`MKSAP_SESSION`, `MKSAP_CONCURRENCY`, etc.) for local overrides.
+
+## Context Discipline & Subagents
+
+- Treat context as scarce: load only required files, summarize long outputs, and avoid dumping large file contents.
+- Spawn subagents or skills for parallelizable work (discovery, analysis, review, docs). If not used, explain why.
+- Prefer parallel tool calls when safe; keep the main thread for integration and final edits.

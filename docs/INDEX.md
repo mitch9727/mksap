@@ -44,6 +44,7 @@
 
 - **[STATEMENT_GENERATOR.md](reference/STATEMENT_GENERATOR.md)** - Phase 2 usage, CLI, and pipeline
 - **[NLP_MODEL_COMPARISON.md](reference/NLP_MODEL_COMPARISON.md)** - ScispaCy model evaluation and selection
+- **[SPECIALIZED_NER_EVALUATION.md](reference/SPECIALIZED_NER_EVALUATION.md)** - Specialized NER models (bc5cdr, bionlp13cg) vs core model
 - **[LEGACY_STATEMENT_STYLE_GUIDE.md](reference/LEGACY_STATEMENT_STYLE_GUIDE.md)** - Legacy style guidance and tag
   normalization
 - **[PHASE_2_STATUS.md](PHASE_2_STATUS.md)** - Implementation status, open work, testing notes

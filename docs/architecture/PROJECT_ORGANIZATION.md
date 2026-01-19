@@ -43,7 +43,7 @@ MKSAP/
 │
 ├── README.md                 # Project entry point
 ├── CLAUDE.md                 # Claude Code integration guide
-├── AGENTS.md                 # Development guidelines and standards
+├── TODO.md                   # Active task tracking
 ├── .gitignore                # Git ignore patterns
 └── (global) ~/.claude/        # Claude Code configuration (outside repo)
 ```

@@ -1,6 +1,19 @@
 # Documentation Maintenance Guide
 
-**Purpose**: Ensure documentation stays synchronized with codebase changes **Last Updated**: January 13, 2026
+**Purpose**: Ensure documentation stays synchronized with codebase changes
+**Last Updated**: January 19, 2026
+
+---
+
+## Related Documentation
+
+**For AI assistants and Claude Code**: See **[DOCUMENTATION_POLICY.md](DOCUMENTATION_POLICY.md)** for comprehensive documentation lifecycle policies, including:
+- When to create vs update documentation (decision tree)
+- Documentation categories and lifecycle (Living, Versioned, Immutable, Temporary, Archive)
+- Phase documentation patterns
+- Mandatory INDEX.md linking requirements
+
+**This guide** focuses on human maintenance workflows, verification procedures, and review schedules.
 
 ---
 
@@ -265,12 +278,17 @@ When deprecating code:
 
 ### Documentation Placement (Claude/Codex)
 
+**Note**: For comprehensive AI documentation policies, see [DOCUMENTATION_POLICY.md](DOCUMENTATION_POLICY.md).
+
+**Quick rules**:
 - All generated documentation lives under `docs/`.
 - Do not create module-level `docs/` folders (for example, `statement_generator/docs/`).
-- If you generate docs while working in a module, save them directly into `docs/` (usually `docs/reference/` or
-  `docs/architecture/`).
+- If you generate docs while working in a module, save them directly into `docs/` (usually `docs/reference/` or `docs/architecture/`).
 - If tooling writes docs into a module, move them into `docs/` and delete the module copy before committing.
 - If new docs are created, link them from `docs/INDEX.md`.
+- Temporary artifacts go in `statement_generator/artifacts/` (not `docs/`).
+
+See [DOCUMENTATION_POLICY.md](DOCUMENTATION_POLICY.md) for detailed guidance on update-first policy, documentation categories, and lifecycle management.
 
 ### Change Tracking (Git)
 

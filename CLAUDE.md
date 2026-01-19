@@ -1,7 +1,7 @@
 # CLAUDE.md - MKSAP Medical Education Pipeline
 
-> **Last Updated**: January 15, 2026
-> **Recent Changes**: Consolidated scripts to single `/scripts` directory, removed migration helpers (Jan 15, 2026)
+> **Last Updated**: January 19, 2026
+> **Recent Changes**: Consolidated duplicate test_mksap_data and artifacts folders, added working directory documentation (Jan 19, 2026)
 
 This file provides guidance to Claude Code when working on the MKSAP medical education extraction pipeline.
 
@@ -14,17 +14,20 @@ This file provides guidance to Claude Code when working on the MKSAP medical edu
 ### Current Status
 
 - **Phase 1 (Complete ✅)**: Rust extractor - 2,198 questions extracted to JSON
-- **Phase 2 (Active 🔄)**: Python statement generator - LLM-based flashcard extraction
-- **Phase 3 (Planned 📋)**: Cloze application - Apply fill-in-the-blank formatting
-- **Phase 4 (Planned 📋)**: Anki export - Generate spaced repetition decks
+- **Phase 2 (Complete ✅)**: Python statement generator - LLM-based flashcard extraction
+- **Phase 3 (Complete ✅)**: Hybrid pipeline validation - 92.9% pass rate, NLP + LLM integration
+- **Phase 4 (Planned 📋)**: Production deployment - Process all 2,198 questions with hybrid pipeline
+- **Phase 5 (Planned 📋)**: Cloze application - Apply fill-in-the-blank formatting
+- **Phase 6 (Planned 📋)**: Anki export - Generate spaced repetition decks
 
 ### Quick Links
 
 - **Working on Phase 1?** → See [QUICKSTART.md](docs/QUICKSTART.md) for commands
 - **Working on Phase 2?** → See [Statement Generator Reference](docs/reference/STATEMENT_GENERATOR.md)
+- **Understanding Phase 3?** → See [Phase 3 Status](docs/PHASE_3_STATUS.md) and [Phase 3 Final Report](statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT.md)
+- **Planning Phase 4?** → See [Phase 4 Deployment Plan](docs/plans/PHASE4_DEPLOYMENT_PLAN.md) and [What's Next](whats-next.md)
 - **Stuck on a problem?** → See [Troubleshooting Guide](docs/reference/TROUBLESHOOTING.md)
 - **Understanding architecture?** → See [Phase 1 Deep Dive](docs/reference/PHASE_1_DEEP_DIVE.md)
-- **Planning Phase 2 work?** → See [Phase 2 Status](docs/PHASE_2_STATUS.md)
 
 ## Important: System Codes vs Browser Organization
 
@@ -93,6 +96,38 @@ cd /path/to/MKSAP
 ./scripts/python -m src.interface.cli reset
 ./scripts/python -m src.interface.cli clean-logs
 ```
+
+**IMPORTANT: Working Directory**
+
+**ALWAYS run commands from the project root** (`/Users/Mitchell/coding/projects/MKSAP/`), NOT from inside `statement_generator/`.
+
+The `./scripts/python` wrapper and path configuration (statement_generator/src/infrastructure/config/settings.py:23) depend on being run from the project root. Running from the wrong directory will cause:
+- Duplicate `statement_generator/statement_generator/` folders
+- Duplicate `statement_generator/test_mksap_data/` folders
+- Logs and artifacts written to the wrong locations
+
+**If you accidentally run from inside statement_generator/:**
+1. Stop immediately
+2. Delete any `statement_generator/statement_generator/` or `statement_generator/test_mksap_data/` folders
+3. Move any logs from duplicate locations to `statement_generator/artifacts/logs/`
+4. Return to project root before running commands again
+
+**IMPORTANT: Environment Variables (.env)**
+
+**ALWAYS use the global project .env file** at `/Users/Mitchell/coding/projects/MKSAP/.env`
+
+All environment variables for the entire project (Phase 1 extractor, Phase 2 statement generator, etc.) are configured in the single global `.env` file. This includes:
+- MKSAP authentication (username, password, session)
+- LLM provider configuration (LLM_PROVIDER, API keys)
+- NLP/scispaCy settings (MKSAP_NLP_MODEL, USE_HYBRID_PIPELINE)
+- Discovery and validation settings
+
+**NEVER create a `.env` file in subdirectories** (like `statement_generator/.env`). The settings.py at `statement_generator/src/infrastructure/config/settings.py` is configured to load from the global .env at project root.
+
+**If you need to add a new environment variable:**
+1. Add it to `/Users/Mitchell/coding/projects/MKSAP/.env`
+2. Also update `.env.template` with documentation
+3. NEVER create module-level .env files
 
 ## Utility Scripts
 
@@ -216,12 +251,26 @@ All imports are relative within the `src/` package for clarity.
 - **Validators**: `src/processing/statements/validators/`
 - **LLM Client**: `src/infrastructure/llm/client.py`
 
-## Documentation Output Policy (Claude/Codex)
+## Documentation Policy (Claude/Codex)
 
-- All documentation lives under `docs/`.
-- Do not create module-level `docs/` folders (for example, `statement_generator/docs/`).
-- When creating new docs, place them in the appropriate `docs/` subfolder and link them from `docs/INDEX.md`.
-- If a tool generates docs elsewhere, relocate them into `docs/` before committing.
+**All documentation follows the policies defined in [docs/DOCUMENTATION_POLICY.md](docs/DOCUMENTATION_POLICY.md).**
+
+**Quick Rules**:
+- All documentation lives under `docs/` (never create module-level docs/ folders)
+- Update existing docs by default; create new docs only for new phases/features
+- Every new permanent doc MUST be linked from `docs/INDEX.md`
+- Temporary artifacts go in `statement_generator/artifacts/` (not docs/)
+- Run validation: `./scripts/validate-docs.sh`
+
+**For detailed guidance on**:
+- When to create vs update documentation
+- Documentation categories and lifecycle (Living, Versioned, Immutable, Temporary, Archive)
+- Phase documentation patterns
+- Temporary vs permanent documentation
+- Mandatory INDEX.md linking requirements
+- Documentation health checks and validation
+
+**→ See [docs/DOCUMENTATION_POLICY.md](docs/DOCUMENTATION_POLICY.md)**
 
 ## Key Design Principles
 
@@ -249,7 +298,9 @@ All imports are relative within the `src/` package for clarity.
 ## Next Steps
 
 - **Phase 1 Complete?** → Read [Phase 1 Completion Report](docs/PHASE_1_COMPLETION_REPORT.md)
-- **Working on Phase 2?** → Read [Phase 2 Status](docs/PHASE_2_STATUS.md)
+- **Phase 2 Complete?** → Read [Phase 2 Status](docs/PHASE_2_STATUS.md)
+- **Phase 3 Complete?** → Read [Phase 3 Status](docs/PHASE_3_STATUS.md) and [Phase 3 Final Report](statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT.md)
+- **Planning Phase 4?** → Read [Phase 4 Deployment Plan](docs/plans/PHASE4_DEPLOYMENT_PLAN.md) and [What's Next](whats-next.md)
 - **Need architecture details?** → Read [Phase 1 Deep Dive](docs/reference/PHASE_1_DEEP_DIVE.md)
 - **Understanding validation?** → Read [Validation Guide](docs/reference/VALIDATION.md)
 
@@ -258,4 +309,6 @@ All imports are relative within the `src/` package for clarity.
 
 **Repository**: git@github.com:mitch9727/mksap.git
 **Phase 1 Status**: ✅ Complete (2,198 questions)
-**Phase 2 Status**: 🔄 Active
+**Phase 2 Status**: ✅ Complete (Hybrid pipeline implemented)
+**Phase 3 Status**: ✅ Complete (92.9% validation pass rate)
+**Phase 4 Status**: 📋 Ready to execute (Production deployment)

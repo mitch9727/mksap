@@ -85,7 +85,7 @@ Phase 2 extracts atomic, testable facts from critique and key_points fields usin
 - `mksap_data/` - Extracted JSON output by system
 - `mksap_data/.checkpoints/discovery_metadata.json` - API discovery statistics
 - `docs/reference/` - Setup, usage, and troubleshooting
-- `docs/reference/EXTRACTION_OVERVIEW.md` - Extraction status and scope overview
+- `docs/archive/phase1/EXTRACTION_OVERVIEW.md` - Extraction status and scope overview (archived)
 - `docs/reference/STATEMENT_GENERATOR.md` - Phase 2 usage and CLI reference
 
 ## Discovery-Based Completion Tracking

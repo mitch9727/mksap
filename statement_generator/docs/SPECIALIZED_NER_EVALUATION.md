@@ -267,4 +267,4 @@ Specialized NER models provide **typed entity classification** but at the cost o
 - Comparison Tool: `statement_generator/tests/tools/specialized_ner_comparison.py`
 - Main Pipeline: `statement_generator/src/orchestration/pipeline.py`
 - NLP Components: `statement_generator/src/processing/nlp/`
-- Core Model Evaluation: `docs/reference/NLP_MODEL_COMPARISON.md`
+- Core Model Evaluation: `statement_generator/docs/NLP_MODEL_COMPARISON.md`

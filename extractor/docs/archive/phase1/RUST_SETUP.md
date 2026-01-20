@@ -163,7 +163,7 @@ Beginning extraction...
 - Verify MKSAP credentials are valid
 - Check session cookie hasn't expired
 - Try manual login in browser first
-- See [Troubleshooting Guide](TROUBLESHOOTING.md)
+- See [Troubleshooting Guide](../../TROUBLESHOOTING.md)
 
 ### "Insufficient disk space"
 - Build requires ~2GB temporary space
@@ -174,5 +174,5 @@ Beginning extraction...
 
 1. Complete setup above
 2. Read [Usage Guide](RUST_USAGE.md) to run the extractor
-3. Check [Validation Guide](VALIDATION.md) for data quality
+3. Check [Validation Guide](../../VALIDATION.md) for data quality
 4. See [Architecture](RUST_ARCHITECTURE.md) for technical details

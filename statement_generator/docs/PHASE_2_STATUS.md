@@ -31,4 +31,4 @@ metrics.
 ## References
 
 - `TODO.md`
-- `docs/reference/STATEMENT_GENERATOR.md`
+- `statement_generator/docs/STATEMENT_GENERATOR.md`

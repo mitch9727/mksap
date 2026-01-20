@@ -12,7 +12,7 @@ into structured JSON. Supporting tooling lives alongside it:
 - `statement_generator/` - Phase 2 statement generation tooling
 - `mksap_data/` - Extracted JSON output organized by system
 - `mksap_data_failed/` - Quarantined extraction artifacts
-- `docs/` - Project documentation and historical reports
+- `docs/` - Project-level documentation (component docs live under extractor/docs and statement_generator/docs)
 
 For a system-level overview, see
 [PROJECT_ORGANIZATION.md](PROJECT_ORGANIZATION.md).
@@ -44,4 +44,4 @@ Key Rust entry points:
    `extractor/src/asset_download.rs`.
 
 If you need usage details, see
-[RUST_USAGE.md](../reference/RUST_USAGE.md).
+[TECHNICAL_SPEC.md](../../extractor/docs/TECHNICAL_SPEC.md).

@@ -1,13 +1,13 @@
 # Project TODO - MKSAP Medical Education Pipeline
 
-**Last Updated**: January 16, 2026
+**Last Updated**: January 20, 2026
 **Current Phase**: Phase 3 Complete (92.9% validation pass rate) - Ready for Phase 4 Production Deployment
 **Source of Truth**: This file is the single source for active and planned project todos
 **Completed Work**: Tracked in git history; remove finished tasks from this list
 
 This file tracks outstanding work across the 4-phase pipeline. Completed todos are removed once finished. Reference documents:
-- `docs/PHASE_2_STATUS.md` - Current status and implementation details
-- `docs/reference/STATEMENT_GENERATOR.md` - Phase 2 CLI and pipeline reference
+- `statement_generator/docs/PHASE_2_STATUS.md` - Current status and implementation details
+- `statement_generator/docs/STATEMENT_GENERATOR.md` - Phase 2 CLI and pipeline reference
 
 ---
 
@@ -27,9 +27,9 @@ This file tracks outstanding work across the 4-phase pipeline. Completed todos a
   - Processing success: **100%** (14/14 questions, 0 failures)
 - **Improvement**: +21.5 percentage points over baseline (71.4% → 92.9%)
 - **Documentation**:
-  - `docs/PHASE_3_STATUS.md` - Status document
+  - `statement_generator/docs/PHASE_3_STATUS.md` - Status document
   - `statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT.md` - Final report
-  - `docs/plans/PHASE4_DEPLOYMENT_PLAN.md` - Phase 4 plan
+  - `statement_generator/docs/deployment/PHASE4_DEPLOYMENT_PLAN.md` - Phase 4 plan
   - `whats-next.md` - Decision guide
 - **Status**: ✅ **READY FOR PHASE 4**
 
@@ -111,7 +111,7 @@ This file tracks outstanding work across the 4-phase pipeline. Completed todos a
   - Input: Phase 4 JSON files with `true_statements` and `validation_pass` fields
   - Output: JSON with cloze blanks applied
   - Key decision: Multiple cards per statement vs one card with all blanks
-  - File: Create `docs/PHASE_5_DESIGN.md`
+  - File: Create `statement_generator/docs/PHASE_5_DESIGN.md`
 
 ### Implementation
 - [ ] Implement cloze blanking based on `cloze_candidates`
@@ -140,7 +140,7 @@ This file tracks outstanding work across the 4-phase pipeline. Completed todos a
 ### Tooling Selection
 - [ ] Select Anki export tooling (likely `genanki`)
   - Options: genanki (Python), AnkiDroid sync, manual APKG
-  - Decision file: `docs/PHASE_6_DESIGN.md`
+  - Decision file: `statement_generator/docs/PHASE_6_DESIGN.md`
 
 ### Card Schema
 - [ ] Define note model and field mapping
@@ -158,7 +158,7 @@ This file tracks outstanding work across the 4-phase pipeline. Completed todos a
 ### Quality Assurance
 - [ ] Validate import into Anki and review card quality
   - Steps: Generate APKG → Import → Spot-check 20 cards → Review media → Test sync
-  - Output: `docs/PHASE_6_VALIDATION_REPORT.md`
+  - Output: `statement_generator/docs/PHASE_6_VALIDATION_REPORT.md`
 
 ---
 
@@ -171,7 +171,7 @@ This file tracks outstanding work across the 4-phase pipeline. Completed todos a
 
 - [ ] Add automated docs link check to routine workflow
   - Tools: broken-link-checker or similar
-  - Scope: Check all internal links in `docs/`
+  - Scope: Check all internal links in `docs/`, `extractor/docs/`, `statement_generator/docs/`
   - Frequency: Pre-commit or weekly
   - File: Create `scripts/check-docs.sh`
 
@@ -261,12 +261,12 @@ This file tracks outstanding work across the 4-phase pipeline. Completed todos a
 ## Reference Documents
 
 **For detailed context, see**:
-- **Phase 2 Status**: `docs/PHASE_2_STATUS.md` (Implementation complete)
-- **Phase 3 Status**: `docs/PHASE_3_STATUS.md` (Validation complete, 92.9% pass rate)
+- **Phase 2 Status**: `statement_generator/docs/PHASE_2_STATUS.md` (Implementation complete)
+- **Phase 3 Status**: `statement_generator/docs/PHASE_3_STATUS.md` (Validation complete, 92.9% pass rate)
 - **Phase 3 Final Report**: `statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT.md`
-- **Phase 4 Deployment Plan**: `docs/plans/PHASE4_DEPLOYMENT_PLAN.md` (Production deployment strategy)
+- **Phase 4 Deployment Plan**: `statement_generator/docs/deployment/PHASE4_DEPLOYMENT_PLAN.md` (Production deployment strategy)
 - **What's Next**: `whats-next.md` (Decision guide for Phase 4)
-- **Best Practices**: `docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md`
+- **Best Practices**: `statement_generator/docs/CLOZE_FLASHCARD_BEST_PRACTICES.md`
 
 ---
 

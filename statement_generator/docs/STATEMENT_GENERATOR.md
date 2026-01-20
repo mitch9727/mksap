@@ -15,7 +15,7 @@ a `true_statements` field, and preserves all existing data.
 - Non-destructive JSON updates (adds `true_statements` only)
 - Checkpoint-based resumable processing
 - CLI-first workflows with optional provider fallback
-- Flashcard design aligned with `docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md`
+- Flashcard design aligned with `statement_generator/docs/CLOZE_FLASHCARD_BEST_PRACTICES.md`
 
 ## Quick Start
 
@@ -350,6 +350,6 @@ echo "ANTHROPIC_API_KEY=your_key_here" >> ../.env
 
 ## References
 
-- `docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md`
-- `docs/reference/LEGACY_STATEMENT_STYLE_GUIDE.md`
+- `statement_generator/docs/CLOZE_FLASHCARD_BEST_PRACTICES.md`
+- `statement_generator/docs/LEGACY_STATEMENT_STYLE_GUIDE.md`
 - `../PHASE_2_STATUS.md`

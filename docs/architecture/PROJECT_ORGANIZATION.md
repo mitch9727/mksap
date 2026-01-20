@@ -39,7 +39,7 @@ MKSAP/
 │   ├── invalid/              # Quarantined invalid questions
 │   └── retired/              # Retired questions moved by cleanup
 │
-├── docs/                     # Documentation (architecture, project, reference, specifications, archive)
+├── docs/                     # Project-level documentation (architecture, overview, policy)
 │
 ├── README.md                 # Project entry point
 ├── CLAUDE.md                 # Claude Code integration guide

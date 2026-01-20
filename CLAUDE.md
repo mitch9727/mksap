@@ -1,7 +1,7 @@
 # CLAUDE.md - MKSAP Medical Education Pipeline
 
-> **Last Updated**: January 19, 2026
-> **Recent Changes**: Consolidated duplicate test_mksap_data and artifacts folders, added working directory documentation (Jan 19, 2026)
+> **Last Updated**: January 20, 2026
+> **Recent Changes**: Restructured docs into component-level folders, updated references and indexes (Jan 20, 2026)
 
 This file provides guidance to Claude Code when working on the MKSAP medical education extraction pipeline.
 
@@ -23,11 +23,11 @@ This file provides guidance to Claude Code when working on the MKSAP medical edu
 ### Quick Links
 
 - **Working on Phase 1?** → See [QUICKSTART.md](docs/QUICKSTART.md) for commands
-- **Working on Phase 2?** → See [Statement Generator Reference](docs/reference/STATEMENT_GENERATOR.md)
-- **Understanding Phase 3?** → See [Phase 3 Status](docs/PHASE_3_STATUS.md) and [Phase 3 Final Report](statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT.md)
-- **Planning Phase 4?** → See [Phase 4 Deployment Plan](docs/plans/PHASE4_DEPLOYMENT_PLAN.md) and [What's Next](whats-next.md)
-- **Stuck on a problem?** → See [Troubleshooting Guide](docs/reference/TROUBLESHOOTING.md)
-- **Understanding architecture?** → See [Phase 1 Deep Dive](docs/reference/PHASE_1_DEEP_DIVE.md)
+- **Working on Phase 2?** → See [Statement Generator Reference](statement_generator/docs/STATEMENT_GENERATOR.md)
+- **Understanding Phase 3?** → See [Phase 3 Status](statement_generator/docs/PHASE_3_STATUS.md) and [Phase 3 Final Report](statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT.md)
+- **Planning Phase 4?** → See [Phase 4 Deployment Plan](statement_generator/docs/deployment/PHASE4_DEPLOYMENT_PLAN.md) and [What's Next](whats-next.md)
+- **Stuck on a problem?** → See [Troubleshooting Guide](extractor/docs/TROUBLESHOOTING.md)
+- **Understanding architecture?** → See [Phase 1 Deep Dive](extractor/docs/PHASE_1_DEEP_DIVE.md)
 
 ## Important: System Codes vs Browser Organization
 
@@ -190,23 +190,19 @@ MKSAP/
 │   ├── prompts/                       ← LLM prompt templates
 │   └── artifacts/                     ← Runtime outputs (logs, checkpoints, validation)
 ├── mksap_data/                        ← Extracted questions (2,198 JSON files)
-└── docs/
-    ├── INDEX.md                       ← Documentation entry point
-    ├── PROJECT_OVERVIEW.md            ← Project goals and architecture
-    ├── QUICKSTART.md                  ← Essential commands
-    ├── PHASE_1_COMPLETION_REPORT.md
-    ├── PHASE_2_STATUS.md              ← Phase 2 status and priorities
-    ├── DOCUMENTATION_MAINTENANCE_GUIDE.md
-    ├── EXTRACTION_SCOPE.md
-    ├── architecture/
-    ├── reference/
-    │   ├── PHASE_1_DEEP_DIVE.md        ← Phase 1 architecture details
-    │   ├── TROUBLESHOOTING.md          ← Debugging guide
-    │   ├── STATEMENT_GENERATOR.md      ← Phase 2 reference
-    │   ├── CLOZE_FLASHCARD_BEST_PRACTICES.md
-    │   └── VALIDATION.md
-    ├── specifications/
-    └── scraper/
+├── docs/
+│   ├── INDEX.md                       ← Project-level documentation index
+│   ├── PROJECT_OVERVIEW.md            ← Project goals and architecture
+│   ├── QUICKSTART.md                  ← Essential commands
+│   ├── DOCUMENTATION_POLICY.md
+│   ├── DOCUMENTATION_MAINTENANCE_GUIDE.md
+│   └── architecture/
+├── extractor/
+│   └── docs/                          ← Phase 1 extractor documentation
+├── statement_generator/
+│   └── docs/                          ← Phase 2-4 generator documentation
+└── anking_analysis/
+    └── docs/                          ← Anking analysis documentation
 ```
 
 ## Statement Generator Architecture (Phase 2)
@@ -256,9 +252,10 @@ All imports are relative within the `src/` package for clarity.
 **All documentation follows the policies defined in [docs/DOCUMENTATION_POLICY.md](docs/DOCUMENTATION_POLICY.md).**
 
 **Quick Rules**:
-- All documentation lives under `docs/` (never create module-level docs/ folders)
+- Project-level documentation lives under `docs/`
+- Component documentation lives under `<component>/docs/` (e.g., `extractor/docs/`, `statement_generator/docs/`)
 - Update existing docs by default; create new docs only for new phases/features
-- Every new permanent doc MUST be linked from `docs/INDEX.md`
+- Every new permanent doc MUST be linked from the appropriate INDEX.md (global or component)
 - Temporary artifacts go in `statement_generator/artifacts/` (not docs/)
 - Run validation: `./scripts/validate-docs.sh`
 
@@ -292,17 +289,17 @@ All imports are relative within the `src/` package for clarity.
 1. **Check status**: Open [TODO.md](TODO.md)
 2. **Review context**: Check task description and linked docs
 3. **Run QUICKSTART command**: See [docs/QUICKSTART.md](docs/QUICKSTART.md)
-4. **If stuck**: See [Troubleshooting Guide](docs/reference/TROUBLESHOOTING.md)
+4. **If stuck**: See [Troubleshooting Guide](extractor/docs/TROUBLESHOOTING.md)
 5. **When done**: Remove completed task from TODO.md, add a change note, and commit
 
 ## Next Steps
 
-- **Phase 1 Complete?** → Read [Phase 1 Completion Report](docs/PHASE_1_COMPLETION_REPORT.md)
-- **Phase 2 Complete?** → Read [Phase 2 Status](docs/PHASE_2_STATUS.md)
-- **Phase 3 Complete?** → Read [Phase 3 Status](docs/PHASE_3_STATUS.md) and [Phase 3 Final Report](statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT.md)
-- **Planning Phase 4?** → Read [Phase 4 Deployment Plan](docs/plans/PHASE4_DEPLOYMENT_PLAN.md) and [What's Next](whats-next.md)
-- **Need architecture details?** → Read [Phase 1 Deep Dive](docs/reference/PHASE_1_DEEP_DIVE.md)
-- **Understanding validation?** → Read [Validation Guide](docs/reference/VALIDATION.md)
+- **Phase 1 Complete?** → Read [Phase 1 Completion Report](extractor/docs/PHASE_1_COMPLETION_REPORT.md)
+- **Phase 2 Complete?** → Read [Phase 2 Status](statement_generator/docs/PHASE_2_STATUS.md)
+- **Phase 3 Complete?** → Read [Phase 3 Status](statement_generator/docs/PHASE_3_STATUS.md) and [Phase 3 Final Report](statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT.md)
+- **Planning Phase 4?** → Read [Phase 4 Deployment Plan](statement_generator/docs/deployment/PHASE4_DEPLOYMENT_PLAN.md) and [What's Next](whats-next.md)
+- **Need architecture details?** → Read [Phase 1 Deep Dive](extractor/docs/PHASE_1_DEEP_DIVE.md)
+- **Understanding validation?** → Read [Validation Guide](extractor/docs/VALIDATION.md)
 
 
 ---

@@ -74,9 +74,9 @@ This approach ensures extraction targets reflect the current API state, not outd
 Phase 2 extracts atomic, testable facts from critique and key_points fields using LLMs and augments each JSON with
 `true_statements`.
 
-- **Reference**: [STATEMENT_GENERATOR.md](reference/STATEMENT_GENERATOR.md)
-- **Status**: [PHASE_2_STATUS.md](PHASE_2_STATUS.md)
-- **Flashcard Design**: [CLOZE_FLASHCARD_BEST_PRACTICES.md](reference/CLOZE_FLASHCARD_BEST_PRACTICES.md)
+- **Reference**: [STATEMENT_GENERATOR.md](../statement_generator/docs/STATEMENT_GENERATOR.md)
+- **Status**: [PHASE_2_STATUS.md](../statement_generator/docs/PHASE_2_STATUS.md)
+- **Flashcard Design**: [CLOZE_FLASHCARD_BEST_PRACTICES.md](../statement_generator/docs/CLOZE_FLASHCARD_BEST_PRACTICES.md)
 
 ## Key Paths
 
@@ -84,9 +84,9 @@ Phase 2 extracts atomic, testable facts from critique and key_points fields usin
 - `statement_generator/` - Phase 2 statement generator (Python)
 - `mksap_data/` - Extracted JSON output by system
 - `mksap_data/.checkpoints/discovery_metadata.json` - API discovery statistics
-- `docs/reference/` - Setup, usage, and troubleshooting
-- `docs/archive/phase1/EXTRACTION_OVERVIEW.md` - Extraction status and scope overview (archived)
-- `docs/reference/STATEMENT_GENERATOR.md` - Phase 2 usage and CLI reference
+- `extractor/docs/` - Phase 1 extractor documentation (setup, validation, troubleshooting)
+- `statement_generator/docs/` - Phase 2-4 documentation (CLI, evaluation, deployment)
+- `extractor/docs/archive/phase1/EXTRACTION_OVERVIEW.md` - Extraction status and scope overview (archived)
 
 ## Discovery-Based Completion Tracking
 

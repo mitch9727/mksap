@@ -1,7 +1,7 @@
 # Rust MKSAP Extractor - Overview
 
 > **Phase 1 Status**: ✅ COMPLETE (December 27, 2025) - All 2,198 valid questions extracted. See
-> [PHASE_1_COMPLETION_REPORT.md](../PHASE_1_COMPLETION_REPORT.md) for details.
+> [PHASE_1_COMPLETION_REPORT.md](../../PHASE_1_COMPLETION_REPORT.md) for details.
 
 ## Purpose
 
@@ -112,6 +112,6 @@ while the web path remains `/dmin/`.
 
 - [Setup Guide](RUST_SETUP.md) - Installation and configuration
 - [Usage Guide](RUST_USAGE.md) - How to run the extractor
-- [Validation](VALIDATION.md) - Data quality verification
+- [Validation](../../VALIDATION.md) - Data quality verification
 - [Architecture](RUST_ARCHITECTURE.md) - Technical implementation details
-- [Troubleshooting](TROUBLESHOOTING.md) - Common issues and solutions
+- [Troubleshooting](../../TROUBLESHOOTING.md) - Common issues and solutions

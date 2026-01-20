@@ -346,7 +346,7 @@ This:
 - Generates report
 - Doesn't modify anything
 
-See [Validation Guide](VALIDATION.md) for details.
+See [Validation Guide](../../VALIDATION.md) for details.
 
 ## Monitoring Extraction
 
@@ -398,7 +398,7 @@ Logs are printed to console. For persistent logs:
 **Question not downloading**
 - Check network connection
 - Verify MKSAP API is accessible
-- See [Troubleshooting Guide](TROUBLESHOOTING.md)
+- See [Troubleshooting Guide](../../TROUBLESHOOTING.md)
 
 **Session expired**
 - Delete cached session
@@ -410,11 +410,11 @@ Logs are printed to console. For persistent logs:
 - Move existing data to backup
 - Resume after freeing space
 
-For more help, see [Troubleshooting Guide](TROUBLESHOOTING.md).
+For more help, see [Troubleshooting Guide](../../TROUBLESHOOTING.md).
 
 ## Next Steps
 
 1. Extract data using this guide
-2. Validate data with [Validation Guide](VALIDATION.md)
+2. Validate data with [Validation Guide](../../VALIDATION.md)
 3. Review [Architecture](RUST_ARCHITECTURE.md) for technical details
-4. See [Troubleshooting](TROUBLESHOOTING.md) if issues arise
+4. See [Troubleshooting](../../TROUBLESHOOTING.md) if issues arise

@@ -464,8 +464,8 @@ The system is now **maximally optimized**:
 
 ### Documentation
 - **NLP Model Evaluation**: `statement_generator/NLP_MODEL_EVALUATION.md`
-- **Specialized NER Analysis**: `docs/reference/SPECIALIZED_NER_EVALUATION.md`
-- **This Comprehensive Comparison**: `docs/reference/NLP_MODEL_COMPARISON.md`
+- **Specialized NER Analysis**: `statement_generator/docs/SPECIALIZED_NER_EVALUATION.md`
+- **This Comprehensive Comparison**: `statement_generator/docs/NLP_MODEL_COMPARISON.md`
 
 ### Implementation
 - **Hybrid Pipeline**: `statement_generator/src/orchestration/pipeline.py`
@@ -478,5 +478,5 @@ The system is now **maximally optimized**:
 
 ### Related Documentation
 - **Project Overview**: `docs/INDEX.md`
-- **Phase 2 Status**: `docs/PHASE_2_STATUS.md`
-- **Statement Generator**: `docs/reference/STATEMENT_GENERATOR.md`
+- **Phase 2 Status**: `statement_generator/docs/PHASE_2_STATUS.md`
+- **Statement Generator**: `statement_generator/docs/STATEMENT_GENERATOR.md`

@@ -1,7 +1,7 @@
 # Documentation Maintenance Guide
 
 **Purpose**: Ensure documentation stays synchronized with codebase changes
-**Last Updated**: January 19, 2026
+**Last Updated**: January 20, 2026
 
 ---
 
@@ -26,41 +26,31 @@ is to prevent documentation drift while maintaining historical context for debug
 
 ## Documentation Structure
 
-### Active Documentation
+### Project-Level Docs (Global)
 ```
 docs/
-├── DOCUMENTATION_MAINTENANCE_GUIDE.md  # This file
-│
 ├── INDEX.md                             # Navigation guide (UPDATE ON STRUCTURE CHANGES)
 ├── PROJECT_OVERVIEW.md                  # Project overview (KEEP CURRENT)
 ├── QUICKSTART.md                        # Command reference (UPDATE ON CLI CHANGES)
-├── EXTRACTION_SCOPE.md                  # Scope definition (UPDATE ON SCOPE CHANGES)
-├── PHASE_1_COMPLETION_REPORT.md         # Phase 1 results (FINAL, DO NOT EDIT)
-├── PHASE_2_STATUS.md                    # Phase 2 status (KEEP CURRENT)
-├── EXTRACTOR_CODE_AUDIT.md              # Code cleanup notes (REMOVE WHEN RESOLVED)
-│
-├── architecture/                        # System design
-│   └── PROJECT_ORGANIZATION.md          # 4-phase pipeline (UPDATE ON ARCHITECTURE CHANGES)
-│
-├── reference/                           # Technical documentation
-│   ├── RUST_SETUP.md                    # Installation (UPDATE ON DEPENDENCY CHANGES)
-│   ├── RUST_USAGE.md                    # How to run (UPDATE ON CLI CHANGES)
-│   ├── RUST_ARCHITECTURE.md             # Technical details (UPDATE ON REFACTORING)
-│   ├── VALIDATION.md                    # Data QA (UPDATE ON VALIDATOR CHANGES)
-│   ├── TROUBLESHOOTING.md               # Problem-solving (ADD NEW ISSUES)
-│   ├── DESERIALIZATION_ISSUES.md        # API quirks (ADD NEW PATTERNS)
-│   ├── EXTRACTION_OVERVIEW.md           # Status & progress (UPDATE ON MILESTONES)
-│   ├── STATEMENT_GENERATOR.md           # Phase 2 reference (UPDATE ON CLI CHANGES)
-│   ├── LEGACY_STATEMENT_STYLE_GUIDE.md  # Legacy style examples (REFERENCE ONLY)
-│   └── CLOZE_FLASHCARD_BEST_PRACTICES.md # Flashcard design guidance (STABLE)
-│
-├── specifications/                      # Output format specs
-│   └── VIDEO_SVG_EXTRACTION.md          # Media extraction spec (UPDATE ON POLICY CHANGES)
-│
-├── scraper/                             # Scraper/extractor details
-│   └── TECHNICAL_SPEC.md                # Extractor technical spec
-│
+├── DOCUMENTATION_POLICY.md              # Documentation lifecycle rules
+├── DOCUMENTATION_MAINTENANCE_GUIDE.md   # This file
+└── architecture/                        # System design
+    ├── PROJECT_ORGANIZATION.md
+    └── CODEBASE_GUIDE.md
 ```
+
+### Component Docs (Owned by Each Module)
+```
+extractor/docs/                          # Rust extractor documentation
+└── INDEX.md                              # Entry point for extractor docs
+
+statement_generator/docs/                # Statement generator documentation
+└── INDEX.md                              # Entry point for statement generator docs
+
+anking_analysis/docs/                    # Anking analysis documentation
+```
+
+See each component INDEX.md for detailed file lists.
 
 ---
 
@@ -70,20 +60,20 @@ docs/
 
 | Code Change | Documentation to Update | Priority |
 |-------------|------------------------|----------|
-| **Add new module** | CLAUDE.md, RUST_ARCHITECTURE.md | HIGH |
-| **Remove module** | CLAUDE.md, RUST_ARCHITECTURE.md | HIGH |
-| **Refactor module** | RUST_ARCHITECTURE.md if structure changes significantly | MEDIUM |
-| **Add CLI command** | CLAUDE.md, QUICKSTART.md, RUST_USAGE.md | HIGH |
-| **Remove CLI command** | CLAUDE.md, QUICKSTART.md, RUST_USAGE.md | HIGH |
-| **Change CLI arguments** | QUICKSTART.md, RUST_USAGE.md | MEDIUM |
-| **Add dependency** | CLAUDE.md (Technology Stack section), RUST_SETUP.md | MEDIUM |
-| **Remove dependency** | CLAUDE.md, RUST_SETUP.md | MEDIUM |
-| **Fix bug** | TROUBLESHOOTING.md if pattern is reusable | LOW |
-| **Add feature** | Relevant guide | MEDIUM |
-| **API changes** | DESERIALIZATION_ISSUES.md if new patterns found | MEDIUM |
-| **Pipeline changes** | PROJECT_ORGANIZATION.md, RUST_ARCHITECTURE.md | HIGH |
-| **Complete phase** | Create PHASE_X_COMPLETION_REPORT.md, update PHASE_X_STATUS.md and TODO.md | HIGH |
-| **Start new phase** | Create PHASE_X_STATUS.md, update TODO.md | HIGH |
+| **Add new module** | CLAUDE.md, docs/architecture/PROJECT_ORGANIZATION.md, <component>/docs/INDEX.md | HIGH |
+| **Remove module** | CLAUDE.md, docs/architecture/PROJECT_ORGANIZATION.md, <component>/docs/INDEX.md | HIGH |
+| **Refactor module** | Relevant component docs (e.g., extractor/docs/PHASE_1_DEEP_DIVE.md) | MEDIUM |
+| **Add CLI command** | CLAUDE.md, docs/QUICKSTART.md, component guide (extractor/docs/TECHNICAL_SPEC.md or statement_generator/docs/STATEMENT_GENERATOR.md) | HIGH |
+| **Remove CLI command** | CLAUDE.md, docs/QUICKSTART.md, component guide | HIGH |
+| **Change CLI arguments** | docs/QUICKSTART.md, component guide | MEDIUM |
+| **Add dependency** | CLAUDE.md (Technology Stack section), component guide | MEDIUM |
+| **Remove dependency** | CLAUDE.md, component guide | MEDIUM |
+| **Fix bug** | extractor/docs/TROUBLESHOOTING.md if pattern is reusable | LOW |
+| **Add feature** | Relevant component guide + component INDEX.md | MEDIUM |
+| **API changes** | extractor/docs/PHASE_1_DEEP_DIVE.md if new patterns found | MEDIUM |
+| **Pipeline changes** | docs/architecture/PROJECT_ORGANIZATION.md + relevant component guide | HIGH |
+| **Complete phase** | Create <component>/docs/PHASE_X_COMPLETION_REPORT.md, update <component>/docs/PHASE_X_STATUS.md and TODO.md | HIGH |
+| **Start new phase** | Create <component>/docs/PHASE_X_STATUS.md, update TODO.md | HIGH |
 
 ---
 
@@ -99,7 +89,12 @@ When adding/removing/refactoring modules:
    - [ ] Module descriptions
    - [ ] Update "Last Updated" timestamp
 
-2. **Update RUST_ARCHITECTURE.md**:
+2. **Update docs/architecture/PROJECT_ORGANIZATION.md**:
+   - [ ] Module descriptions
+   - [ ] Data flow diagrams
+   - [ ] File structure examples
+
+3. **Update the relevant component deep dive** (e.g., extractor/docs/PHASE_1_DEEP_DIVE.md):
    - [ ] Module descriptions
    - [ ] Data flow diagrams
    - [ ] File structure examples
@@ -114,11 +109,11 @@ When adding/removing/changing CLI commands:
    - [ ] Add/remove command examples
    - [ ] Update command descriptions
 
-2. **Update QUICKSTART.md**:
+2. **Update docs/QUICKSTART.md**:
    - [ ] Add/remove command
    - [ ] Update arguments if changed
 
-3. **Update RUST_USAGE.md**:
+3. **Update the component guide** (extractor/docs/TECHNICAL_SPEC.md or statement_generator/docs/STATEMENT_GENERATOR.md):
    - [ ] Detailed command documentation
    - [ ] Examples and use cases
 
@@ -127,12 +122,12 @@ When adding/removing/changing CLI commands:
 
 When changing system architecture:
 
-1. **Update PROJECT_ORGANIZATION.md**:
+1. **Update docs/architecture/PROJECT_ORGANIZATION.md**:
    - [ ] Pipeline diagrams
    - [ ] Component descriptions
    - [ ] Data flow explanations
 
-2. **Update RUST_ARCHITECTURE.md**:
+2. **Update the relevant component deep dive** (e.g., extractor/docs/PHASE_1_DEEP_DIVE.md):
    - [ ] Technical implementation details
    - [ ] Module interactions
    - [ ] Design decisions
@@ -192,12 +187,13 @@ rg --files -g '*.rs' extractor | wc -l
 # Compare to CLAUDE.md "Common Commands" section
 
 # 3. Check for broken documentation links
-cd docs
-grep -r "](.*\.md)" . | grep -v "^Binary"
+for dir in docs extractor/docs statement_generator/docs; do
+  (cd "$dir" && rg -n "\\]\\([^)]*\\.md\\)" .)
+done
 # Manually verify links are valid
 
 # 4. Verify "Last Updated" timestamps are recent
-grep "Last Updated" docs/**/*.md
+rg -n "Last Updated" docs/**/*.md extractor/docs/**/*.md statement_generator/docs/**/*.md
 # Should be within last 3 months for active docs
 ```
 
@@ -273,7 +269,7 @@ When deprecating code:
 
 ### Scope and Exclusions
 
-- Legacy style guidance lives in `docs/reference/LEGACY_STATEMENT_STYLE_GUIDE.md`.
+- Legacy style guidance lives in `statement_generator/docs/LEGACY_STATEMENT_STYLE_GUIDE.md`.
 - No documentation subfolders are excluded from validation.
 
 ### Documentation Placement (Claude/Codex)
@@ -281,11 +277,11 @@ When deprecating code:
 **Note**: For comprehensive AI documentation policies, see [DOCUMENTATION_POLICY.md](DOCUMENTATION_POLICY.md).
 
 **Quick rules**:
-- All generated documentation lives under `docs/`.
-- Do not create module-level `docs/` folders (for example, `statement_generator/docs/`).
-- If you generate docs while working in a module, save them directly into `docs/` (usually `docs/reference/` or `docs/architecture/`).
-- If tooling writes docs into a module, move them into `docs/` and delete the module copy before committing.
-- If new docs are created, link them from `docs/INDEX.md`.
+- Project-level documentation lives under `docs/`.
+- Component-specific documentation lives under `<component>/docs/` (e.g., `extractor/docs/`, `statement_generator/docs/`).
+- If you generate docs while working in a module, save them into that module's `docs/` folder.
+- If tooling writes docs into the wrong location, move them into the owning component's `docs/` folder before committing.
+- If new docs are created, link them from the appropriate INDEX.md (global or component).
 - Temporary artifacts go in `statement_generator/artifacts/` (not `docs/`).
 
 See [DOCUMENTATION_POLICY.md](DOCUMENTATION_POLICY.md) for detailed guidance on update-first policy, documentation categories, and lifecycle management.

@@ -151,9 +151,9 @@ Resumable extraction with three checkpoint types:
 ### Documentation
 - ✅ CLAUDE.md - Comprehensive guide (875 lines)
 - ✅ README.md - Project overview
-- ✅ docs/reference/ - Technical documentation (8 files)
-- ✅ docs/ - Project planning and status docs
-- ✅ docs/architecture/ - System design (1 file)
+- ✅ docs/ - Project-level overview and policies
+- ✅ extractor/docs/ - Extractor technical documentation
+- ✅ docs/architecture/ - System design (project-level)
 
 ---
 

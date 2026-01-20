@@ -15,8 +15,8 @@ current implementation is the `extractor/` crate.
   (images, SVG/video) via integrated commands.
 
 Related documentation:
-- [RUST_ARCHITECTURE.md](../reference/RUST_ARCHITECTURE.md)
-- [EXTRACTION_OVERVIEW.md](../reference/EXTRACTION_OVERVIEW.md)
+- [RUST_ARCHITECTURE.md](archive/phase1/RUST_ARCHITECTURE.md)
+- [EXTRACTION_OVERVIEW.md](archive/phase1/EXTRACTION_OVERVIEW.md)
 
 ## API Reference
 
@@ -36,7 +36,7 @@ Optional media commands:
 ./target/release/mksap-extractor media-download
 ```
 
-For detailed usage and flags, see [RUST_USAGE.md](../reference/RUST_USAGE.md).
+For detailed usage and flags, see [RUST_USAGE.md](archive/phase1/RUST_USAGE.md).
 
 ## Configuration
 

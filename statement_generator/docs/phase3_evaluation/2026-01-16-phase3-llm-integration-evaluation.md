@@ -20,7 +20,7 @@
 **Files:**
 - Create: `statement_generator/artifacts/phase3_evaluation/test_questions.md`
 - Reference: `mksap_data/` (extracted questions organized by system code)
-- Reference: `docs/reference/STATEMENT_GENERATOR.md` (CLI reference)
+- Reference: `statement_generator/docs/STATEMENT_GENERATOR.md` (CLI reference)
 
 **Step 1: Select 15 diverse test questions (2-3 per system)**
 
@@ -808,7 +808,7 @@ git commit -m "feat: complete Phase 3 evaluation on 10 diverse sample questions"
 
 **Files:**
 - Create: `statement_generator/artifacts/phase3_evaluation/PHASE_3_SUMMARY.md` (final decision document)
-- Update: `docs/PHASE_2_STATUS.md` (record Phase 3 completion)
+- Update: `statement_generator/docs/PHASE_2_STATUS.md` (record Phase 3 completion)
 - Update: `TODO.md` (mark Phase 3 complete, update next steps)
 
 **Step 1: Create final summary document**
@@ -874,7 +874,7 @@ All test questions and evaluation artifacts saved in:
 
 **Step 2: Update PHASE_2_STATUS.md**
 
-In `docs/PHASE_2_STATUS.md`, add new section at top:
+In `statement_generator/docs/PHASE_2_STATUS.md`, add new section at top:
 
 ```markdown
 ## Phase 3 - LLM Integration Evaluation (Completed)
@@ -904,7 +904,7 @@ Remove completed tasks from TODO.md and update status:
 
 ```bash
 git add statement_generator/artifacts/phase3_evaluation/PHASE_3_SUMMARY.md
-git add docs/PHASE_2_STATUS.md
+git add statement_generator/docs/PHASE_2_STATUS.md
 git add TODO.md
 git commit -m "docs: complete Phase 3 LLM integration evaluation with final summary and recommendation"
 ```
@@ -942,13 +942,13 @@ git commit -m "docs: complete Phase 3 LLM integration evaluation with final summ
 ## References
 
 **Key Files:**
-- Phase 2 Status: `docs/PHASE_2_STATUS.md`
+- Phase 2 Status: `statement_generator/docs/PHASE_2_STATUS.md`
 - Hybrid Pipeline: `statement_generator/src/orchestration/pipeline.py`
 - NLP Preprocessor: `statement_generator/src/processing/nlp/preprocessor.py`
-- CLI Reference: `docs/reference/STATEMENT_GENERATOR.md`
-- Best Practices: `docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md`
+- CLI Reference: `statement_generator/docs/STATEMENT_GENERATOR.md`
+- Best Practices: `statement_generator/docs/CLOZE_FLASHCARD_BEST_PRACTICES.md`
 
 **Related Documentation:**
-- Phase 2 Status Report: `docs/PHASE_2_STATUS.md`
-- NLP Model Comparison: `docs/reference/NLP_MODEL_COMPARISON.md`
+- Phase 2 Status Report: `statement_generator/docs/PHASE_2_STATUS.md`
+- NLP Model Comparison: `statement_generator/docs/NLP_MODEL_COMPARISON.md`
 - Project Overview: `docs/PROJECT_OVERVIEW.md`

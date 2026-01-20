@@ -317,5 +317,5 @@ Extend the asset subsystem:
 
 1. Review [Setup Guide](RUST_SETUP.md) to build
 2. Follow [Usage Guide](RUST_USAGE.md) to run
-3. Check [Validation Guide](VALIDATION.md) for quality
-4. See [Troubleshooting](TROUBLESHOOTING.md) for issues
+3. Check [Validation Guide](../../VALIDATION.md) for quality
+4. See [Troubleshooting](../../TROUBLESHOOTING.md) for issues

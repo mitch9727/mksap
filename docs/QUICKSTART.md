@@ -1,8 +1,8 @@
 # QUICKSTART - Essential Commands
 
-> For detailed explanations, see [Phase 1 Deep Dive](reference/PHASE_1_DEEP_DIVE.md),
-> [Phase 2 Status](PHASE_2_STATUS.md), and
-> [Troubleshooting](reference/TROUBLESHOOTING.md).
+> For detailed explanations, see [Phase 1 Deep Dive](../extractor/docs/PHASE_1_DEEP_DIVE.md),
+> [Phase 2 Status](../statement_generator/docs/PHASE_2_STATUS.md), and
+> [Troubleshooting](../extractor/docs/TROUBLESHOOTING.md).
 
 ## Phase 1: Rust Extractor
 
@@ -51,17 +51,17 @@ cd /Users/Mitchell/coding/projects/MKSAP
 ## Progress Tracking
 
 - **Todos**: See [TODO.md](../TODO.md)
-- **Phase 1 Report**: See [Phase 1 Completion](PHASE_1_COMPLETION_REPORT.md)
-- **Phase 2 Details**: See [Phase 2 Status](PHASE_2_STATUS.md)
+- **Phase 1 Report**: See [Phase 1 Completion](../extractor/docs/PHASE_1_COMPLETION_REPORT.md)
+- **Phase 2 Details**: See [Phase 2 Status](../statement_generator/docs/PHASE_2_STATUS.md)
 
 ## Need Help?
 
-- **Architecture**: See [Phase 1 Deep Dive](reference/PHASE_1_DEEP_DIVE.md)
-- **Stuck on error?**: See [Troubleshooting](reference/TROUBLESHOOTING.md)
-- **Phase 2 details?**: See [Statement Generator Reference](reference/STATEMENT_GENERATOR.md)
-- **Flashcard design?**: See [Cloze Best Practices](reference/CLOZE_FLASHCARD_BEST_PRACTICES.md)
+- **Architecture**: See [Phase 1 Deep Dive](../extractor/docs/PHASE_1_DEEP_DIVE.md)
+- **Stuck on error?**: See [Troubleshooting](../extractor/docs/TROUBLESHOOTING.md)
+- **Phase 2 details?**: See [Statement Generator Reference](../statement_generator/docs/STATEMENT_GENERATOR.md)
+- **Flashcard design?**: See [Cloze Best Practices](../statement_generator/docs/CLOZE_FLASHCARD_BEST_PRACTICES.md)
 
 
 ---
 
-**Last Updated**: January 15, 2026
+**Last Updated**: January 20, 2026

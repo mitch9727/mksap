@@ -1,16 +1,16 @@
 # MKSAP Question Bank Extractor
 
-> **Last updated: January 15, 2026**
+> **Last updated: January 20, 2026**
 
 System for extracting medical education questions from the ACP MKSAP (Medical Knowledge Self-Assessment Program) online question bank into structured JSON format.
 
 ## Current Status
 
 - **Phase 1 Status**: ✅ **COMPLETE** (December 27, 2025) - All 2,198 valid questions extracted
-- **Phase 2 Status**: Statement generator active (see [PHASE_2_STATUS.md](docs/PHASE_2_STATUS.md))
+- **Phase 2 Status**: Statement generator active (see [PHASE_2_STATUS.md](statement_generator/docs/PHASE_2_STATUS.md))
 - **Primary Tool**: Rust MKSAP Extractor (API-based extraction with discovery validation)
 - **Architecture**: 16 system codes configured via the extractor configuration module
-- **Extraction Results**: See [PHASE_1_COMPLETION_REPORT.md](docs/PHASE_1_COMPLETION_REPORT.md) for final metrics
+- **Extraction Results**: See [PHASE_1_COMPLETION_REPORT.md](extractor/docs/PHASE_1_COMPLETION_REPORT.md) for final metrics
 
 ## Quick Start
 
@@ -73,7 +73,7 @@ Set the expected interpreter in `.env` so the CLI can enforce it (example: `MKSA
 ./scripts/python -m src.interface.cli process --mode test --system cv
 ```
 
-Provider configuration and full CLI reference live in [STATEMENT_GENERATOR.md](docs/reference/STATEMENT_GENERATOR.md).
+Provider configuration and full CLI reference live in [STATEMENT_GENERATOR.md](statement_generator/docs/STATEMENT_GENERATOR.md).
 
 ## Documentation
 
@@ -81,32 +81,34 @@ Provider configuration and full CLI reference live in [STATEMENT_GENERATOR.md](d
 
 - **[Documentation Index](docs/INDEX.md)** - Navigation guide for all documentation
 - **[Project Overview](docs/PROJECT_OVERVIEW.md)** - Project goals and architecture
-- **[PHASE_1_COMPLETION_REPORT.md](docs/PHASE_1_COMPLETION_REPORT.md)** ✅ - Phase 1 results (100% complete)
-- **[Phase 2 Status](docs/PHASE_2_STATUS.md)** - Current status and priorities
+- **[PHASE_1_COMPLETION_REPORT.md](extractor/docs/PHASE_1_COMPLETION_REPORT.md)** ✅ - Phase 1 results (100% complete)
+- **[Phase 2 Status](statement_generator/docs/PHASE_2_STATUS.md)** - Current status and priorities
 - **[Project TODO](TODO.md)** - Global project status tracker
 
 ### Getting Started with Extraction
 
-- [Rust Extractor Setup](docs/reference/RUST_SETUP.md) - Installation and configuration
-- [Usage Guide](docs/reference/RUST_USAGE.md) - How to run the extractor
+- [Extractor Docs Index](extractor/docs/INDEX.md) - Entry point for extraction docs
+- [Technical Spec](extractor/docs/TECHNICAL_SPEC.md) - Extractor usage and interfaces
+- [Setup (Archive)](extractor/docs/archive/phase1/RUST_SETUP.md) - Rust installation (Phase 1)
+- [Usage Guide (Archive)](extractor/docs/archive/phase1/RUST_USAGE.md) - How to run the extractor (Phase 1)
 
 ### Deep Dives
 
-- [Validation Guide](docs/reference/VALIDATION.md) - Data quality checks
-- [Architecture](docs/reference/RUST_ARCHITECTURE.md) - Technical implementation
-- [Troubleshooting](docs/reference/TROUBLESHOOTING.md) - Common issues and solutions
+- [Validation Guide](extractor/docs/VALIDATION.md) - Data quality checks
+- [Architecture](extractor/docs/PHASE_1_DEEP_DIVE.md) - Technical implementation
+- [Troubleshooting](extractor/docs/TROUBLESHOOTING.md) - Common issues and solutions
 
 ### Project Planning & Specifications
 
 - [Project Overview](docs/PROJECT_OVERVIEW.md) - Project goals
 - [Architecture Guide](docs/architecture/PROJECT_ORGANIZATION.md) - Codebase organization
-- [Extraction Scope](docs/EXTRACTION_SCOPE.md) - Scope definition and success criteria
+- [Extraction Scope](extractor/docs/EXTRACTION_SCOPE.md) - Scope definition and success criteria
 
 ### Phase 2: Statement Generator
 
-- [Statement Generator Reference](docs/reference/STATEMENT_GENERATOR.md) - Usage, CLI, pipeline overview
-- [Phase 2 Status](docs/PHASE_2_STATUS.md) - Current status and priorities
-- [Cloze Flashcard Best Practices](docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md) - Evidence-based guidance
+- [Statement Generator Reference](statement_generator/docs/STATEMENT_GENERATOR.md) - Usage, CLI, pipeline overview
+- [Phase 2 Status](statement_generator/docs/PHASE_2_STATUS.md) - Current status and priorities
+- [Cloze Flashcard Best Practices](statement_generator/docs/CLOZE_FLASHCARD_BEST_PRACTICES.md) - Evidence-based guidance
 
 ## Data Structure
 
@@ -186,7 +188,7 @@ Primary tool for API-based extraction:
 This project is actively maintained. To contribute:
 
 1. Review [Architecture Guide](docs/architecture/PROJECT_ORGANIZATION.md)
-2. Check [Rust Architecture](docs/reference/RUST_ARCHITECTURE.md)
+2. Check [Phase 1 Deep Dive](extractor/docs/PHASE_1_DEEP_DIVE.md)
 3. Follow existing code patterns
 4. Test changes before submitting
 
@@ -204,16 +206,16 @@ The project includes Claude Code integration:
 
 ### For New Users
 
-1. Follow [Setup Guide](docs/reference/RUST_SETUP.md)
-2. Check [Usage Guide](docs/reference/RUST_USAGE.md)
-3. Review [Validation Guide](docs/reference/VALIDATION.md)
+1. Start with the [Extractor Docs Index](extractor/docs/INDEX.md)
+2. Check the [Technical Spec](extractor/docs/TECHNICAL_SPEC.md)
+3. Review the [Validation Guide](extractor/docs/VALIDATION.md)
 
 ### For Extraction
 
 1. Build project: `cd extractor && cargo build --release`
 2. Run extraction: `./target/release/mksap-extractor`
 3. Validate results: `./target/release/mksap-extractor validate`
-4. Check [Troubleshooting](docs/reference/TROUBLESHOOTING.md) if issues
+4. Check [Troubleshooting](extractor/docs/TROUBLESHOOTING.md) if issues
 
 ### For Phase 2 (Statement Generator)
 
@@ -223,7 +225,7 @@ The project includes Claude Code integration:
 
 ### For Development
 
-1. Review [Architecture](docs/reference/RUST_ARCHITECTURE.md)
+1. Review [Architecture](extractor/docs/PHASE_1_DEEP_DIVE.md)
 2. Understand [Project Structure](docs/architecture/PROJECT_ORGANIZATION.md)
 3. Follow code patterns in existing modules
 4. Write tests for new features
@@ -232,13 +234,13 @@ The project includes Claude Code integration:
 
 ### Documentation
 
-- Complete architecture documentation in `docs/`
+- Project-level docs in `docs/`; component docs in `extractor/docs/` and `statement_generator/docs/`
 - Modular guides for each major component
 - Troubleshooting guide for common issues
 
 ### Troubleshooting
 
-See [Troubleshooting Guide](docs/reference/TROUBLESHOOTING.md) for:
+See [Troubleshooting Guide](extractor/docs/TROUBLESHOOTING.md) for:
 - Authentication issues
 - Network problems
 - Data quality checks
@@ -253,7 +255,7 @@ See [Troubleshooting Guide](docs/reference/TROUBLESHOOTING.md) for:
 
 The extractor uses API discovery (HTTP HEAD requests) to determine available questions, ensuring metrics reflect current API state rather than outdated baselines.
 
-See [PHASE_1_COMPLETION_REPORT.md](docs/PHASE_1_COMPLETION_REPORT.md) for final results and
+See [PHASE_1_COMPLETION_REPORT.md](extractor/docs/PHASE_1_COMPLETION_REPORT.md) for final results and
 [PROJECT_OVERVIEW.md](docs/PROJECT_OVERVIEW.md) for architecture details.
 
 ## License
@@ -263,7 +265,7 @@ Medical education question extraction for personal study purposes.
 ## Questions?
 
 Refer to documentation:
-- [Quick Start](docs/reference/RUST_SETUP.md)
-- [Common Issues](docs/reference/TROUBLESHOOTING.md)
-- [Architecture](docs/reference/RUST_ARCHITECTURE.md)
-- [Statement Generator](docs/reference/STATEMENT_GENERATOR.md)
+- [Quick Start](docs/QUICKSTART.md)
+- [Common Issues](extractor/docs/TROUBLESHOOTING.md)
+- [Architecture](docs/architecture/PROJECT_ORGANIZATION.md)
+- [Statement Generator](statement_generator/docs/STATEMENT_GENERATOR.md)

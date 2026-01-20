@@ -1,6 +1,6 @@
 # What's Next: MKSAP Medical Education Pipeline
 
-**Last Updated**: January 19, 2026
+**Last Updated**: January 20, 2026
 **Context**: Fresh session handoff document for continuing work
 
 ---
@@ -128,10 +128,10 @@ statement_generator/
 
 **Documentation Created**:
 - `statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT.md` - Comprehensive final report
-- `docs/reference/VALIDATION_IMPLEMENTATION.md` - Validation framework implementation notes
-- `docs/reference/NLP_PERSISTENCE_IMPLEMENTATION.md` - NLP metadata persistence implementation notes
-- `docs/PHASE_3_STATUS.md` - Phase 3 status document (updated to "Complete")
-- `docs/plans/PHASE4_DEPLOYMENT_PLAN.md` - Phase 4 deployment strategy
+- `statement_generator/docs/VALIDATION_IMPLEMENTATION.md` - Validation framework implementation notes
+- `statement_generator/docs/NLP_PERSISTENCE_IMPLEMENTATION.md` - NLP metadata persistence implementation notes
+- `statement_generator/docs/PHASE_3_STATUS.md` - Phase 3 status document (updated to "Complete")
+- `statement_generator/docs/deployment/PHASE4_DEPLOYMENT_PLAN.md` - Phase 4 deployment strategy
 
 **Known Issues**:
 - 1 validation failure: dmmcq24032 (Diabetes/Metabolic MCQ) - isolated failure, no pattern detected
@@ -157,7 +157,7 @@ statement_generator/
 - System optimization: Hybrid pipeline operational with small model
 
 **Documentation**:
-- `docs/reference/NLP_MODEL_COMPARISON.md` (482 lines, comprehensive evaluation)
+- `statement_generator/docs/NLP_MODEL_COMPARISON.md` (482 lines, comprehensive evaluation)
 
 ## Git Repository Status (Current Branch: backup-before-reorg)
 **Current Branch**: `backup-before-reorg`
@@ -167,7 +167,7 @@ statement_generator/
 ```
 M CLAUDE.md
 M TODO.md
-M docs/PHASE_3_STATUS.md
+M statement_generator/docs/PHASE_3_STATUS.md
 M mksap_data/cc/cccor25002/cccor25002.json    (14 test questions modified with validation_pass + nlp_analysis)
 M mksap_data/cc/ccmcq24035/ccmcq24035.json
 M mksap_data/cv/cvcor25010/cvcor25010.json
@@ -192,7 +192,7 @@ M whats-next.md
 
 **Untracked Files**:
 ```
-?? docs/plans/                                           (Phase 4 deployment plan)
+?? statement_generator/docs/deployment/                 (Phase 4 deployment plan)
 ?? run_phase3_evaluation.sh                              (Shell script for Phase 3 evaluation)
 ?? statement_generator/NLP_PERSISTENCE_IMPLEMENTATION.md (Implementation notes)
 ?? statement_generator/VALIDATION_IMPLEMENTATION.md      (Implementation notes)
@@ -428,8 +428,8 @@ cat "$RANDOM_Q" | jq '{
 3. **Update Documentation**:
    - Mark Phase 4 complete in `CLAUDE.md:6`
    - Update `TODO.md` to remove Phase 4 tasks
-   - Update `docs/PHASE_3_STATUS.md` to link to Phase 4 results
-   - Create `docs/PHASE_4_COMPLETION_REPORT.md`
+   - Update `statement_generator/docs/PHASE_3_STATUS.md` to link to Phase 4 results
+   - Create `statement_generator/docs/PHASE_4_COMPLETION_REPORT.md`
 
 4. **Commit Changes**:
    - Commit modified JSON files (2,198 files with new `validation_pass` + `nlp_analysis` fields)
@@ -444,7 +444,7 @@ cat "$RANDOM_Q" | jq '{
 **Goal**: Apply fill-in-the-blank formatting to statements based on `cloze_candidates` field
 
 **Tasks**:
-1. Draft Phase 5 design/spec (`docs/PHASE_5_DESIGN.md`)
+1. Draft Phase 5 design/spec (`statement_generator/docs/PHASE_5_DESIGN.md`)
    - Input: Phase 4 JSON files with `true_statements` and `cloze_candidates`
    - Output: JSON with cloze blanks applied (e.g., "Patient has {{c1::hypertension}} with BP {{c2::150/90 mmHg}}")
    - Key decision: Multiple cards per statement vs one card with all blanks
@@ -474,7 +474,7 @@ cat "$RANDOM_Q" | jq '{
 **Goal**: Generate Anki-compatible .apkg files for spaced repetition learning
 
 **Tasks**:
-1. Select Anki export tooling (`docs/PHASE_6_DESIGN.md`)
+1. Select Anki export tooling (`statement_generator/docs/PHASE_6_DESIGN.md`)
    - Options: `genanki` (Python library), AnkiDroid sync, manual APKG generation
    - Recommendation: `genanki` (well-maintained, supports media, Python integration)
 
@@ -491,7 +491,7 @@ cat "$RANDOM_Q" | jq '{
 
 4. Quality assurance
    - Steps: Generate sample APKG → Import to Anki → Spot-check 20 cards → Review media → Test AnkiWeb sync
-   - Output: `docs/PHASE_6_VALIDATION_REPORT.md`
+   - Output: `statement_generator/docs/PHASE_6_VALIDATION_REPORT.md`
 
 **Estimated Time**: 2-3 days implementation + testing
 
@@ -846,27 +846,27 @@ export MKSAP_NLP_MODEL=statement_generator/models/en_core_sci_sm-0.5.4/en_core_s
 
 ## References & Documentation
 
-**Project Documentation** (all in `docs/`):
+**Project & Component Documentation** (global docs + component docs):
 - `docs/INDEX.md` - Documentation entry point (comprehensive index)
 - `docs/PROJECT_OVERVIEW.md` - Project goals and architecture
 - `docs/QUICKSTART.md` - Essential commands for Phase 1-2
-- `docs/PHASE_1_COMPLETION_REPORT.md` - Phase 1 final report
-- `docs/PHASE_2_STATUS.md` - Phase 2 status and priorities
-- `docs/PHASE_3_STATUS.md` - Phase 3 status (now marked complete)
-- `docs/plans/PHASE4_DEPLOYMENT_PLAN.md` - Phase 4 deployment strategy
-- `docs/reference/PHASE_1_DEEP_DIVE.md` - Phase 1 architecture details
-- `docs/reference/STATEMENT_GENERATOR.md` - Phase 2 CLI reference
-- `docs/reference/VALIDATION.md` - Validation framework guide
-- `docs/reference/TROUBLESHOOTING.md` - Debugging guide
-- `docs/reference/CLOZE_FLASHCARD_BEST_PRACTICES.md` - Flashcard design principles
-- `docs/reference/NLP_MODEL_COMPARISON.md` - NLP model evaluation (482 lines)
+- `extractor/docs/PHASE_1_COMPLETION_REPORT.md` - Phase 1 final report
+- `statement_generator/docs/PHASE_2_STATUS.md` - Phase 2 status and priorities
+- `statement_generator/docs/PHASE_3_STATUS.md` - Phase 3 status (now marked complete)
+- `statement_generator/docs/deployment/PHASE4_DEPLOYMENT_PLAN.md` - Phase 4 deployment strategy
+- `extractor/docs/PHASE_1_DEEP_DIVE.md` - Phase 1 architecture details
+- `statement_generator/docs/STATEMENT_GENERATOR.md` - Phase 2 CLI reference
+- `extractor/docs/VALIDATION.md` - Validation framework guide
+- `extractor/docs/TROUBLESHOOTING.md` - Debugging guide
+- `statement_generator/docs/CLOZE_FLASHCARD_BEST_PRACTICES.md` - Flashcard design principles
+- `statement_generator/docs/NLP_MODEL_COMPARISON.md` - NLP model evaluation (482 lines)
 - `docs/DOCUMENTATION_MAINTENANCE_GUIDE.md` - How to maintain documentation
-- `docs/EXTRACTION_SCOPE.md` - What's extracted from MKSAP questions
+- `extractor/docs/EXTRACTION_SCOPE.md` - What's extracted from MKSAP questions
 
 **Phase 3 Evaluation Reports**:
 - `statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT.md` - Comprehensive final report (authoritative)
-- `docs/reference/VALIDATION_IMPLEMENTATION.md` - Validation framework technical details
-- `docs/reference/NLP_PERSISTENCE_IMPLEMENTATION.md` - NLP metadata persistence technical details
+- `statement_generator/docs/VALIDATION_IMPLEMENTATION.md` - Validation framework technical details
+- `statement_generator/docs/NLP_PERSISTENCE_IMPLEMENTATION.md` - NLP metadata persistence technical details
 
 **Code Reference**:
 - Entry point: `statement_generator/src/interface/cli.py`
@@ -944,14 +944,14 @@ export MKSAP_NLP_MODEL=statement_generator/models/en_core_sci_sm-0.5.4/en_core_s
 - Logs: 80+ files in `statement_generator/artifacts/logs/` (Phase 3 testing and earlier)
 - Checkpoints: `statement_generator/artifacts/checkpoints/processed_questions.json` tracks 14 completed questions
 - Evaluation reports: 1 final report in `statement_generator/artifacts/phase3_evaluation/` directory
-- Implementation docs: 2 technical notes in `docs/reference/` directory
+- Implementation docs: 2 technical notes in `statement_generator/docs/`
 - Modified JSON files: 14 test questions with new fields
 
 **Technical Debt**:
 1. Wrong log path: `statement_generator/statement_generator/artifacts/logs/` should be `statement_generator/artifacts/logs/`
 2. Many uncommitted changes (need to commit or discard before Phase 4 completion)
 3. Branch management: `backup-before-reorg` vs `main` needs resolution
-4. Documentation: Several .md files in wrong locations (statement_generator/ root instead of docs/)
+4. Documentation: Several .md files in wrong locations (statement_generator/ root instead of statement_generator/docs/)
 
 **Quality Assurance**:
 - All Phase 3 success criteria met ✅

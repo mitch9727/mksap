@@ -137,7 +137,7 @@ The validation framework supports optional NLP enhancement via scispaCy:
 - `statement_generator/test_validation_integration.py`
 
 **Documentation**:
-- This file (`docs/reference/VALIDATION_IMPLEMENTATION.md`)
+- This file (`statement_generator/docs/VALIDATION_IMPLEMENTATION.md`)
 
 ### 8. Files Modified
 

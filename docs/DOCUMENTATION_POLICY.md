@@ -1,6 +1,7 @@
 # Documentation Lifecycle and Organization Policy
 
 **Created**: January 19, 2026
+**Last Updated**: January 20, 2026
 **Purpose**: Establish clear documentation creation, organization, and update policies to prevent documentation bloat and ensure maintainability
 **Audience**: Claude Code, AI assistants, and human maintainers
 
@@ -11,7 +12,7 @@ This policy defines when to create new documentation versus updating existing fi
 **Key Principles**:
 1. **Update-first**: Default to updating existing documentation rather than creating new files
 2. **Clear lifecycle**: Every document has a defined category (Living, Versioned, Immutable, Temporary, Archive)
-3. **Mandatory linking**: All permanent docs must be linked from docs/INDEX.md
+3. **Mandatory linking**: Project-level docs are linked from docs/INDEX.md; component docs are linked from their component INDEX.md
 4. **Automated validation**: Health checks catch documentation drift
 5. **Temporary artifact cleanup**: Regular review and cleanup of temporary files
 
@@ -21,10 +22,10 @@ Use this decision tree:
 
 ```
 Are you documenting a new phase?
-├─ YES → Create PHASE_X_STATUS.md + link from INDEX.md
+├─ YES → Create <component>/docs/PHASE_X_STATUS.md + link from <component>/docs/INDEX.md
 └─ NO
    └─ Are you documenting a new major feature/component?
-      ├─ YES → Create docs/reference/FEATURE_NAME.md + link from INDEX.md
+      ├─ YES → Create <component>/docs/FEATURE_NAME.md + link from <component>/docs/INDEX.md
       └─ NO
          └─ Are you creating temporary analysis/evaluation?
             ├─ YES → Create in statement_generator/artifacts/ (do not link from INDEX.md)
@@ -32,20 +33,20 @@ Are you documenting a new phase?
 ```
 
 **Examples**:
-- ❌ "Phase 3 is ready" → Update existing PHASE_3_STATUS.md, don't create PHASE3_QUICK_START.md
-- ✅ "Phase 4 starts" → Create new PHASE_4_STATUS.md
-- ❌ "Validation implementation details" → Update docs/reference/VALIDATION.md, don't create statement_generator/VALIDATION_IMPLEMENTATION.md
+- ❌ "Phase 3 is ready" → Update existing statement_generator/docs/PHASE_3_STATUS.md, don't create PHASE3_QUICK_START.md
+- ✅ "Phase 4 starts" → Create new statement_generator/docs/PHASE_4_STATUS.md
+- ❌ "Validation implementation details" → Update statement_generator/docs/VALIDATION_IMPLEMENTATION.md, don't create new standalone files
 - ✅ "Phase 3 evaluation results" → Create statement_generator/artifacts/phase3_evaluation/evaluation_report.md (temporary)
 
 ## Documentation Categories
 
 | Category | Lifecycle | Location | Examples | Last Updated Policy |
 |----------|-----------|----------|----------|---------------------|
-| **Living** | Continuously updated | `docs/` root or `docs/reference/` | PHASE_X_STATUS.md, TODO.md, TROUBLESHOOTING.md | Update timestamp on every significant change |
-| **Versioned** | One per phase/version | `docs/plans/` | PHASE4_DEPLOYMENT_PLAN.md, 2026-01-16-phase3-llm-integration-evaluation.md | Create new file per version, move old to archive |
-| **Immutable** | Written once, never edited | `docs/` root | PHASE_X_COMPLETION_REPORT.md | Do not update after finalization |
+| **Living** | Continuously updated | `docs/` (project) or `<component>/docs/` | PHASE_X_STATUS.md, TODO.md, TROUBLESHOOTING.md | Update timestamp on every significant change |
+| **Versioned** | One per phase/version | `<component>/docs/` | PHASE4_DEPLOYMENT_PLAN.md, 2026-01-16-phase3-llm-integration-evaluation.md | Create new file per version, move old to archive |
+| **Immutable** | Written once, never edited | `<component>/docs/` | PHASE_X_COMPLETION_REPORT.md | Do not update after finalization |
 | **Temporary** | Deleted or promoted | `statement_generator/artifacts/` | evaluation_report.md, test_results.json | Review monthly, promote or delete |
-| **Archive** | Historical reference | `docs/archive/` | Phase 1-only docs moved after phase completion | Mark with ⚪ Archive badge in INDEX.md |
+| **Archive** | Historical reference | `<component>/docs/archive/` | Phase 1-only docs moved after phase completion | Mark with ⚪ Archive badge in INDEX.md |
 
 ### Category Details
 
@@ -75,9 +76,9 @@ Are you documenting a new phase?
 
 **Update Policy**:
 - Create new file for each version/phase
-- Move superseded versions to `docs/archive/phaseX/`
-- Link current version from INDEX.md with 🟢 Active badge
-- Link archived versions from INDEX.md with ⚪ Archive badge
+- Move superseded versions to `<component>/docs/archive/phaseX/`
+- Link current version from <component>/docs/INDEX.md with 🟢 Active badge
+- Link archived versions from <component>/docs/INDEX.md with ⚪ Archive badge
 
 #### Immutable Archives
 **Purpose**: Final reports that capture completed work and should never be edited
@@ -91,7 +92,7 @@ Are you documenting a new phase?
 **Update Policy**:
 - Do not edit after finalization
 - If corrections needed, create errata document or note in current phase status
-- Always linked from INDEX.md with 🟡 Reference badge
+- Always linked from <component>/docs/INDEX.md with 🟡 Reference badge
 
 #### Temporary Documents
 **Purpose**: Work-in-progress analysis, evaluation results, or temporary notes
@@ -114,7 +115,7 @@ Are you documenting a new phase?
 **Characteristics**:
 - Phase-specific docs after phase completion
 - Superseded designs or approaches
-- Stored in `docs/archive/phaseX/`
+- Stored in `<component>/docs/archive/phaseX/`
 - Examples: RUST_SETUP.md (Phase 1 only), old deployment plans
 
 **Update Policy**:
@@ -136,7 +137,7 @@ Ask these questions in order:
    - NO → Continue to step 2
 
 2. **Is this a new phase, major feature, or architectural component?**
-   - YES → Create new document + link from INDEX.md
+   - YES → Create new document in `<component>/docs/` + link from `<component>/docs/INDEX.md`
    - NO → Continue to step 3
 
 3. **Is this temporary analysis or evaluation?**
@@ -147,13 +148,13 @@ Ask these questions in order:
 
 | Scenario | Action | Rationale |
 |----------|--------|-----------|
-| Phase 3 progress update | Update PHASE_3_STATUS.md | Living document, continuous updates |
-| Phase 4 begins | Create PHASE_4_STATUS.md | New phase = new document |
-| Validation improvements | Update docs/reference/VALIDATION.md | Existing feature enhancement |
-| New NLP component | Create docs/reference/NLP_COMPONENT.md | New major component |
+| Phase 3 progress update | Update statement_generator/docs/PHASE_3_STATUS.md | Living document, continuous updates |
+| Phase 4 begins | Create statement_generator/docs/PHASE_4_STATUS.md | New phase = new document |
+| Validation improvements | Update extractor/docs/VALIDATION.md or statement_generator/docs/VALIDATION_IMPLEMENTATION.md | Existing feature enhancement |
+| New NLP component | Create statement_generator/docs/NLP_COMPONENT.md | New major component |
 | Evaluation results | Create artifacts/eval_report.md | Temporary analysis |
-| Quick start instructions | Update PHASE_X_STATUS.md | Don't duplicate phase docs |
-| Bug fix documentation | Update TROUBLESHOOTING.md | Existing troubleshooting resource |
+| Quick start instructions | Update docs/QUICKSTART.md or component guide | Don't duplicate phase docs |
+| Bug fix documentation | Update extractor/docs/TROUBLESHOOTING.md (if extractor-related) | Existing troubleshooting resource |
 
 ### Update Strategy for Living Documents
 
@@ -177,7 +178,7 @@ Every project phase follows this standard structure:
 
 ### Before Phase Starts
 
-1. **Create `docs/PHASE_X_STATUS.md`** (living document)
+1. **Create `<component>/docs/PHASE_X_STATUS.md`** (living document)
    - Current status, goals, priorities
    - Link to relevant plans and specs
    - Updated continuously during phase
@@ -198,18 +199,19 @@ Every project phase follows this standard structure:
      [Immediate priorities]
 
      ## Related Documentation
-     - [Phase X Plan](plans/PHASEX_PLAN.md)
+     - [Phase X Plan](phaseX/PHASEX_PLAN.md)
      - [Phase X Specification](specifications/phase_x_spec.md)
      ```
 
-2. **Create `docs/plans/YYYY-MM-DD-phase-X-plan-name.md`** (versioned document)
+2. **Create `<component>/docs/phaseX/YYYY-MM-DD-phase-X-plan-name.md`** (versioned document)
    - Detailed implementation plan
    - One plan per major approach or iteration
    - Date-stamped filename for clear versioning
 
-3. **Link both from `docs/INDEX.md`**
+3. **Link both from `<component>/docs/INDEX.md`**
    - Add to appropriate sections
    - Use 🟢 Active badge
+   - Link from `docs/INDEX.md` if it's a project-wide milestone
 
 ### During Phase
 
@@ -230,7 +232,7 @@ Every project phase follows this standard structure:
 
 ### After Phase Completes
 
-1. **Create `docs/PHASE_X_COMPLETION_REPORT.md`** (immutable archive)
+1. **Create `<component>/docs/PHASE_X_COMPLETION_REPORT.md`** (immutable archive)
    - Final metrics, results, lessons learned
    - Never edited after creation
    - Template:
@@ -256,21 +258,21 @@ Every project phase follows this standard structure:
 2. **Update `PHASE_X_STATUS.md` one final time**
    - Add "Status: 🟡 COMPLETE ✅" at top
    - Add link to completion report
-   - Change INDEX.md badge to 🟡 Reference
+   - Change `<component>/docs/INDEX.md` badge to 🟡 Reference
 
 3. **Review temporary artifacts**
    - Promote important findings to permanent docs
    - Delete or archive remaining temporary files
-   - Move final reports to docs/ if needed
+   - Move final reports to <component>/docs/ if needed
 
 4. **Update project status**
    - CLAUDE.md current status section
    - README.md project status
-   - docs/INDEX.md project status
+   - docs/INDEX.md project status (plus component INDEX.md if phase-specific)
 
 5. **Archive phase-specific docs** (if needed)
-   - Move superseded plans to `docs/archive/phaseX/`
-   - Update INDEX.md to link from Archives section
+   - Move superseded plans to `<component>/docs/archive/phaseX/`
+   - Update <component>/docs/INDEX.md to link from Archives section
 
 ## Temporary Documentation Handling
 
@@ -280,9 +282,9 @@ Every project phase follows this standard structure:
 `statement_generator/artifacts/`
 
 ### Do NOT
-- Link from docs/INDEX.md
+- Link from docs/INDEX.md or component INDEX.md files
 - Reference from CLAUDE.md (except final reports promoted to permanent)
-- Create in `docs/` folder
+- Create temporary docs in `docs/` or `<component>/docs/`
 
 ### Monthly Review Process
 
@@ -295,7 +297,7 @@ Every project phase follows this standard structure:
    ```
 
 2. **Promote** significant findings to permanent docs:
-   - Important evaluation results → `docs/reference/`
+   - Important evaluation results → `<component>/docs/`
    - Key technical decisions → Update relevant feature docs
    - Performance benchmarks → Add to completion report or status doc
 
@@ -306,9 +308,9 @@ Every project phase follows this standard structure:
    - Work-in-progress notes
 
 4. **Archive** final evaluation reports:
-   - Move to `docs/` if phase complete
+   - Move to `<component>/docs/` if phase complete
    - Link from phase completion report
-   - Update INDEX.md
+   - Update <component>/docs/INDEX.md (and docs/INDEX.md if project-level)
 
 ### Example: Phase 3 Evaluation Artifacts
 
@@ -325,14 +327,14 @@ Every project phase follows this standard structure:
 
 ## Mandatory INDEX.md Linking
 
-**Rule**: Every new permanent document MUST be linked from `docs/INDEX.md` at creation time.
+**Rule**: Every new permanent document MUST be linked from the appropriate INDEX.md (docs/INDEX.md for project-level, or <component>/docs/INDEX.md for component docs) at creation time.
 
 ### Process
 
-1. **Create new document** in appropriate `docs/` subfolder
-2. **Immediately add link** to `docs/INDEX.md` in correct category
+1. **Create new document** in `docs/` (project-level) or `<component>/docs/` (component-level)
+2. **Immediately add link** to the relevant INDEX.md (global or component) in the correct category
 3. **Add status badge** (🟢 Active, 🟡 Reference, ⚪ Archive)
-4. **Update INDEX.md** "Last Updated" timestamp
+4. **Update INDEX.md** "Last Updated" timestamp for the index you changed
 
 ### Link Format
 
@@ -370,7 +372,7 @@ Automated validation checks for documents not linked from INDEX.md:
 ```
 
 Any orphaned documents should either be:
-1. Linked from INDEX.md, or
+1. Linked from the appropriate INDEX.md, or
 2. Moved to `statement_generator/artifacts/` (if temporary), or
 3. Deleted (if no longer needed)
 
@@ -399,11 +401,11 @@ Any orphaned documents should either be:
 **Checklist**:
 - [ ] Create immutable completion report (`PHASE_X_COMPLETION_REPORT.md`)
 - [ ] Update phase status document to "COMPLETE" with link to report
-- [ ] Move superseded plans to `docs/archive/phaseX/`
+- [ ] Move superseded plans to `<component>/docs/archive/phaseX/`
 - [ ] Review and clean up temporary artifacts
 - [ ] Update CLAUDE.md project status section
 - [ ] Update README.md project status (if exists)
-- [ ] Update docs/INDEX.md project status
+- [ ] Update docs/INDEX.md project status (and component INDEX.md if phase-specific)
 
 **Example Phase Completion**:
 ```markdown
@@ -444,14 +446,14 @@ See script source for implementation details.
 **Example 1: Phase Progress Update**
 ```
 Scenario: Phase 3 validation pass rate improved from 85% to 92%
-Action: Update PHASE_3_STATUS.md with new metrics
+Action: Update statement_generator/docs/PHASE_3_STATUS.md with new metrics
 Rationale: Living document, reflects current state
 ```
 
 **Example 2: New Feature Documentation**
 ```
 Scenario: Implemented new NLP caching layer
-Action: Update docs/reference/VALIDATION.md with new section
+Action: Update <component>/docs/VALIDATION.md with new section
 Rationale: Enhancement to existing feature, not new component
 ```
 
@@ -466,10 +468,10 @@ Rationale: Temporary analysis, not permanent reference
 ```
 Scenario: Phase 3 complete, starting Phase 4
 Actions:
-1. Create PHASE_3_COMPLETION_REPORT.md
-2. Update PHASE_3_STATUS.md with completion status
-3. Create PHASE_4_STATUS.md
-4. Update CLAUDE.md and INDEX.md
+1. Create statement_generator/docs/PHASE_3_COMPLETION_REPORT.md
+2. Update statement_generator/docs/PHASE_3_STATUS.md with completion status
+3. Create statement_generator/docs/PHASE_4_STATUS.md
+4. Update CLAUDE.md and the relevant INDEX.md files
 Rationale: Proper phase lifecycle management
 ```
 
@@ -483,26 +485,26 @@ Rationale: Proper phase lifecycle management
 
 **Anti-Pattern 2: Implementation Notes in Wrong Location**
 ```
-❌ Creating statement_generator/VALIDATION_IMPLEMENTATION.md
-✅ Update docs/reference/VALIDATION.md
+❌ Creating statement_generator/VALIDATION_IMPLEMENTATION.md (outside docs/)
+✅ Update statement_generator/docs/VALIDATION_IMPLEMENTATION.md
 ```
 
 **Anti-Pattern 3: Editing Immutable Reports**
 ```
 ❌ Updating PHASE_1_COMPLETION_REPORT.md with corrections
-✅ Add errata note to PHASE_2_STATUS.md or create separate errata doc
+✅ Add errata note to statement_generator/docs/PHASE_2_STATUS.md or create separate errata doc
 ```
 
 **Anti-Pattern 4: Forgetting to Link New Docs**
 ```
-❌ Creating docs/reference/NEW_FEATURE.md without updating INDEX.md
-✅ Create NEW_FEATURE.md AND add link to INDEX.md immediately
+❌ Creating <component>/docs/NEW_FEATURE.md without updating the component INDEX.md
+✅ Create NEW_FEATURE.md AND add link to the component INDEX.md immediately
 ```
 
 **Anti-Pattern 5: Permanent Docs in Artifacts**
 ```
 ❌ Creating comprehensive feature docs in artifacts/
-✅ Create in docs/reference/ and link from INDEX.md
+✅ Create in <component>/docs/ and link from the component INDEX.md
 ```
 
 ## Tools and Automation
@@ -521,9 +523,17 @@ Rationale: Proper phase lifecycle management
 
 **Find documents not linked from INDEX.md**:
 ```bash
+# Project-level docs
 comm -23 \
   <(find docs -name "*.md" ! -name "INDEX.md" | sort) \
   <(grep -o 'docs/[^)]*\.md' docs/INDEX.md | sort | uniq)
+
+# Component docs (run from each component's docs/ folder, then review output)
+cd extractor/docs
+comm -23 <(find . -name "*.md" ! -name "INDEX.md" | sort) <(grep -o '\\([^)]*\\.md\\)' INDEX.md | sort | uniq)
+
+cd ../../statement_generator/docs
+comm -23 <(find . -name "*.md" ! -name "INDEX.md" | sort) <(grep -o '\\([^)]*\\.md\\)' INDEX.md | sort | uniq)
 ```
 
 **Find stale artifacts**:

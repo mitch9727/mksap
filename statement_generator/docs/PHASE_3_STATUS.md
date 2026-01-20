@@ -133,7 +133,7 @@ Phase 3 is **complete** with **outstanding results** that exceed all success cri
 
 **Expected Outcome**: 90%+ validation pass rate maintained across full dataset
 
-**Documentation**: See `docs/plans/PHASE4_DEPLOYMENT_PLAN.md` for details
+**Documentation**: See `statement_generator/docs/deployment/PHASE4_DEPLOYMENT_PLAN.md` for details
 
 **Decision Point**: Choose between:
 - Option A: Staged rollout (recommended, lower risk)
@@ -311,9 +311,9 @@ cat statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT
 ## Files & Documentation
 
 ### Phase 3 Documentation
-- `docs/PHASE_3_STATUS.md` - This file (Status overview and guide)
-- `docs/plans/2026-01-16-phase3-llm-integration-evaluation.md` - Original evaluation plan
-- `docs/phase3_evaluation/test_questions.md` - Test question selection criteria
+- `statement_generator/docs/PHASE_3_STATUS.md` - This file (Status overview and guide)
+- `statement_generator/docs/phase3_evaluation/2026-01-16-phase3-llm-integration-evaluation.md` - Original evaluation plan
+- `statement_generator/docs/phase3_evaluation/test_questions.md` - Test question selection criteria
 
 ### Evaluation Tools
 - `statement_generator/tests/tools/phase3_evaluator.py` - Main evaluation runner
@@ -322,8 +322,8 @@ cat statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT
 - `statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT.md` - Comprehensive final report
 
 ### Supporting Documentation
-- `docs/reference/NLP_MODEL_COMPARISON.md` - Model evaluation results
-- `docs/reference/SPECIALIZED_NER_EVALUATION.md` - Specialized NER analysis
+- `statement_generator/docs/NLP_MODEL_COMPARISON.md` - Model evaluation results
+- `statement_generator/docs/SPECIALIZED_NER_EVALUATION.md` - Specialized NER analysis
 - `docs/INDEX.md` - Documentation index
 
 ---

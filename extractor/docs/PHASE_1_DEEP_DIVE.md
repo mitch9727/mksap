@@ -1,7 +1,7 @@
 # Phase 1: Rust Extractor - Deep Technical Dive
 
 > This is the detailed architecture guide for Phase 1. For quick commands, see
-> [QUICKSTART.md](../QUICKSTART.md).
+> [QUICKSTART.md](../../docs/QUICKSTART.md).
 
 ## Overview
 

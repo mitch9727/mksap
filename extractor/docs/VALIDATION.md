@@ -206,4 +206,4 @@ The validator is implemented in the extractor validation module:
 2. Monitor per-system coverage progress
 3. Use `list-missing` for targeted retries
 4. Review [Troubleshooting Guide](TROUBLESHOOTING.md) if issues found
-5. Check [Architecture](RUST_ARCHITECTURE.md) for technical details
+5. Check [Architecture](archive/phase1/RUST_ARCHITECTURE.md) for technical details

@@ -85,11 +85,11 @@ cd /path/to/MKSAP
 # Test on 1 question
 ./scripts/python -m src.interface.cli process --question-id cvmcq24001
 
-# Test on system
-./scripts/python -m src.interface.cli process --mode test --system cv
+# Test on first 2 questions in CV system
+./scripts/python -m src.interface.cli process --system cv --limit 2
 
-# Production (all 2,198)
-./scripts/python -m src.interface.cli process --mode production
+# Process all 2,198 questions
+./scripts/python -m src.interface.cli process
 
 # Stats & management
 ./scripts/python -m src.interface.cli stats
@@ -103,12 +103,11 @@ cd /path/to/MKSAP
 
 The `./scripts/python` wrapper and path configuration (statement_generator/src/infrastructure/config/settings.py:23) depend on being run from the project root. Running from the wrong directory will cause:
 - Duplicate `statement_generator/statement_generator/` folders
-- Duplicate `statement_generator/test_mksap_data/` folders
 - Logs and artifacts written to the wrong locations
 
 **If you accidentally run from inside statement_generator/:**
 1. Stop immediately
-2. Delete any `statement_generator/statement_generator/` or `statement_generator/test_mksap_data/` folders
+2. Delete any duplicate `statement_generator/statement_generator/` folders
 3. Move any logs from duplicate locations to `statement_generator/artifacts/logs/`
 4. Return to project root before running commands again
 

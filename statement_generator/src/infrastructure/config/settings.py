@@ -122,10 +122,6 @@ class PathsConfig(BaseModel):
         return self.project_root / "mksap_data"
 
     @property
-    def test_mksap_data(self) -> Path:
-        return self.project_root / "test_mksap_data"
-
-    @property
     def statement_generator(self) -> Path:
         return self.project_root / "statement_generator"
 

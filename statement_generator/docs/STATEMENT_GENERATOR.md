@@ -5,8 +5,8 @@
 ## Overview
 
 The statement generator is the Phase 2 Python pipeline that extracts testable medical facts from MKSAP critiques and key
-points. It reads from `mksap_data/` for production runs and `test_mksap_data/` for testing, augments Phase 1 JSONs with
-a `true_statements` field, and preserves all existing data.
+points. It reads from `mksap_data/` (2,198 questions), augments Phase 1 JSONs with a `true_statements` field, and
+preserves all existing data.
 
 ## Features
 

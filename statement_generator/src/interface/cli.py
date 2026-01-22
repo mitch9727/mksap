@@ -43,16 +43,19 @@ def setup_logging(log_level: str, log_dir: Path):
 def resolve_data_root(
     paths: "PathsConfig",
     data_root: Optional[str],
-    mode: Optional[str],
-    default_to_test: bool,
 ) -> Path:
+    """Resolve data root with CLI override support.
+
+    Priority:
+    1. --data-root CLI flag (if provided)
+    2. MKSAP_DATA_ROOT env var (if set via paths.mksap_data)
+    3. Default: mksap_data/
+    """
     if data_root:
         root_path = Path(data_root)
         if not root_path.is_absolute():
             root_path = paths.project_root / root_path
         return root_path
-    if default_to_test or mode == "test":
-        return paths.test_mksap_data
     return paths.mksap_data
 
 
@@ -92,12 +95,6 @@ def cli():
 
 
 @cli.command()
-@click.option(
-    "--mode",
-    type=click.Choice(["test", "production"]),
-    default="test",
-    help="Test processes 1-2 questions, production processes all",
-)
 @click.option("--question-id", type=str, default=None, help="Process specific question by ID")
 @click.option("--system", type=str, default=None, help="Process all questions in system (e.g., cv, en)")
 @click.option("--temperature", type=float, default=None, help="LLM temperature (default: 0.2)")
@@ -120,7 +117,7 @@ def cli():
     "--data-root",
     type=click.Path(),
     default=None,
-    help="Override data root (defaults to test_mksap_data in test mode, mksap_data in production)",
+    help="Override data root (default: mksap_data, or MKSAP_DATA_ROOT env var)",
 )
 @click.option(
     "--log-level",
@@ -129,8 +126,8 @@ def cli():
     help="Logging verbosity",
 )
 @click.option("--batch-size", type=int, default=10, help="Questions per checkpoint save")
+@click.option("--limit", type=int, default=None, help="Limit number of questions to process (useful for testing)")
 def process(
-    mode: str,
     question_id: Optional[str],
     system: Optional[str],
     temperature: Optional[float],
@@ -143,6 +140,7 @@ def process(
     data_root: Optional[str],
     log_level: str,
     batch_size: int,
+    limit: Optional[int],
 ):
     """Process questions and generate statements"""
 
@@ -155,7 +153,7 @@ def process(
     setup_logging(log_level, config.paths.logs)
     logger = logging.getLogger(__name__)
 
-    logger.info(f"Starting statement generation - Mode: {mode}")
+    logger.info(f"Starting statement generation")
     logger.info(f"Config: model={config.llm.model}, temp={config.llm.temperature}")
 
     # Initialize components with provider fallback support
@@ -166,7 +164,7 @@ def process(
         logger.error(f"Failed to initialize provider: {e}")
         return
 
-    data_root_path = resolve_data_root(config.paths, data_root, mode, default_to_test=False)
+    data_root_path = resolve_data_root(config.paths, data_root)
     if not data_root_path.exists():
         logger.error(f"Data root not found: {data_root_path}")
         return
@@ -187,12 +185,13 @@ def process(
         questions = [question_path]
     elif system:
         questions = file_io.discover_system_questions(system)
-        if mode == "test":
-            questions = questions[:2]
     else:
         questions = file_io.discover_all_questions()
-        if mode == "test":
-            questions = questions[:2]
+
+    # Apply limit if specified
+    if limit is not None:
+        questions = questions[:limit]
+        logger.info(f"Limited to {limit} questions")
 
     logger.info(f"Discovered {len(questions)} questions to process")
 
@@ -368,74 +367,6 @@ def clean_all():
 
 
 @cli.command()
-@click.option(
-    "--question-id",
-    "question_ids",
-    multiple=True,
-    help="Question ID(s) to copy into test_mksap_data (repeatable)",
-)
-@click.option("--system", type=str, help="Copy all questions in system (e.g., cv, en)")
-@click.option("--all", "copy_all", is_flag=True, help="Copy all questions into test_mksap_data")
-@click.option(
-    "--overwrite/--skip-existing",
-    default=False,
-    help="Overwrite existing question folders in test_mksap_data",
-)
-def prepare_test(question_ids, system, copy_all, overwrite):
-    """Copy questions into test_mksap_data for safe iteration"""
-    import shutil
-    from ..infrastructure.config.settings import PathsConfig
-
-    paths = PathsConfig()
-    source_root = paths.mksap_data
-    target_root = paths.test_mksap_data
-
-    if not source_root.exists():
-        print(f"Source data root not found: {source_root}")
-        return
-
-    target_root.mkdir(parents=True, exist_ok=True)
-    file_io = QuestionFileIO(source_root)
-
-    questions = []
-    if question_ids:
-        for question_id in question_ids:
-            question_path = file_io.get_question_path(question_id)
-            if not question_path:
-                print(f"Question not found: {question_id}")
-                continue
-            questions.append(question_path)
-    elif system:
-        questions = file_io.discover_system_questions(system)
-    elif copy_all:
-        questions = file_io.discover_all_questions()
-    else:
-        print("Error: Must specify --question-id, --system, or --all")
-        return
-
-    copied = 0
-    skipped = 0
-    for question_file in questions:
-        question_dir = question_file.parent
-        system_dir = question_dir.parent.name
-        dest_dir = target_root / system_dir / question_dir.name
-        dest_dir.parent.mkdir(parents=True, exist_ok=True)
-
-        if dest_dir.exists() and not overwrite:
-            print(f"Skipping existing: {dest_dir}")
-            skipped += 1
-            continue
-        if dest_dir.exists() and overwrite:
-            shutil.rmtree(dest_dir)
-
-        shutil.copytree(question_dir, dest_dir)
-        copied += 1
-        print(f"Copied: {question_dir.name} -> {dest_dir}")
-
-    print(f"Done. Copied {copied}, skipped {skipped}.")
-
-
-@cli.command()
 @click.option("--question-id", type=str, help="Validate single question by ID")
 @click.option("--system", type=str, help="Validate all questions in system (e.g., cv, en)")
 @click.option("--all", "validate_all", is_flag=True, help="Validate all 2,198 questions")
@@ -460,7 +391,7 @@ def prepare_test(question_ids, system, copy_all, overwrite):
     "--data-root",
     type=click.Path(),
     default=None,
-    help="Override data root (default: test_mksap_data)",
+    help="Override data root (default: mksap_data, or MKSAP_DATA_ROOT env var)",
 )
 def validate(question_id, system, validate_all, severity, category, output, detailed, data_root):
     """Validate extracted statements for quality and correctness"""
@@ -470,7 +401,7 @@ def validate(question_id, system, validate_all, severity, category, output, deta
 
     # Validation doesn't need LLM provider, just use default config
     paths = PathsConfig()
-    data_root_path = resolve_data_root(paths, data_root, mode=None, default_to_test=True)
+    data_root_path = resolve_data_root(paths, data_root)
     if not data_root_path.exists():
         print(f"Data root not found: {data_root_path}")
         return

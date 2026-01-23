@@ -177,7 +177,7 @@ def main():
             if not data_root_path.is_absolute():
                 data_root_path = ROOT_DIR.parent / data_root_path
         else:
-            data_root_path = ROOT_DIR.parent / "test_mksap_data"
+            data_root_path = ROOT_DIR.parent / "mksap_data"
 
         enhanced_path = data_root_path / "pm" / "pmmcq24048" / "pmmcq24048.json"
 

@@ -110,9 +110,6 @@ OPENAI_MODEL=gpt-4
 ### 3) Run statement generation
 
 ```bash
-# Copy questions into the test data root
-./scripts/python -m src.interface.cli prepare-test --question-id cvmcq24001
-
 # Test on 1-2 questions
 ./scripts/python -m src.interface.cli process --mode test --system cv
 
@@ -131,7 +128,8 @@ OPENAI_MODEL=gpt-4
 Optional override for data root:
 
 ```bash
-export MKSAP_DATA_ROOT=test_mksap_data
+# Example: use alternate data directory
+export MKSAP_DATA_ROOT=/path/to/alternate/data
 ```
 
 ## CLI Reference
@@ -147,9 +145,6 @@ export MKSAP_DATA_ROOT=test_mksap_data
 
 # Reset checkpoints
 ./scripts/python -m src.interface.cli reset
-
-# Copy selected questions into test_mksap_data
-./scripts/python -m src.interface.cli prepare-test --question-id cvmcq24001
 
 # Clean old log files (keeps last 7 days by default)
 ./scripts/python -m src.interface.cli clean-logs
@@ -174,7 +169,7 @@ export MKSAP_DATA_ROOT=test_mksap_data
 | `--skip-existing/--overwrite` | Skip questions with true_statements | `--skip-existing` |
 | `--force` | Re-process even if already completed (ignores checkpoint) | False |
 | `--dry-run` | Preview without API calls | False |
-| `--data-root` | Override data root | Test: `test_mksap_data`, Prod: `mksap_data` |
+| `--data-root` | Override data root path | `mksap_data` (default) |
 | `--log-level` | DEBUG, INFO, WARNING, ERROR | INFO |
 | `--batch-size` | Questions per checkpoint save | 10 |
 

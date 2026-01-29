@@ -27,7 +27,9 @@ class TestAtomicityEnhancements:
 
     def test_semicolon_detection(self):
         """Semicolons always suggest compound sentences"""
-        statement = "ACE inhibitors reduce blood pressure; they also reduce proteinuria."
+        statement = (
+            "ACE inhibitors reduce blood pressure; they also reduce proteinuria."
+        )
         issues = check_atomicity(statement, "test.statement[0]")
 
         assert len(issues) == 1
@@ -69,7 +71,9 @@ class TestAtomicityEnhancements:
         statement = "If patient has hypertension then start ACE inhibitor."
         issues = check_atomicity(statement, None)
 
-        conditional_warning = any("Multi-clause conditional" in i.message for i in issues)
+        conditional_warning = any(
+            "Multi-clause conditional" in i.message for i in issues
+        )
         assert not conditional_warning
 
     def test_atomicity_priority_semicolon_first(self):
@@ -134,14 +138,11 @@ class TestSourceReferences:
         assert "this setting" in issues[0].message.lower()
 
     def test_clean_statement_no_source_reference(self):
+        """Clean statement without source references should pass"""
         statement = "Urgent coronary angiography is indicated for high-risk NSTEMI."
         issues = check_source_references(statement, None)
 
         assert len(issues) == 0
-        assert issues[0].severity == "info"
-        assert issues[0].category == "quality"
-        assert "Patient-specific language detected" in issues[0].message
-        assert "this patient" in issues[0].message.lower()
 
     def test_this_case_detection(self):
         """Detect 'this case' phrase"""
@@ -161,7 +162,9 @@ class TestSourceReferences:
 
     def test_multiple_patient_specific_phrases(self):
         """Detect multiple patient-specific phrases"""
-        statement = "This patient should receive therapy. The patient requires monitoring."
+        statement = (
+            "This patient should receive therapy. The patient requires monitoring."
+        )
         issues = check_patient_specific_language(statement, None)
 
         assert len(issues) == 1
@@ -171,7 +174,9 @@ class TestSourceReferences:
 
     def test_clean_generalized_statement(self):
         """Generalized statement without patient-specific language"""
-        statement = "Patients with chronic kidney disease should receive ACE inhibitors."
+        statement = (
+            "Patients with chronic kidney disease should receive ACE inhibitors."
+        )
         issues = check_patient_specific_language(statement, None)
 
         assert len(issues) == 0
@@ -235,7 +240,9 @@ class TestVagueLanguage:
 
     def test_multiple_vague_terms(self):
         """Detect multiple vague qualifiers"""
-        statement = "ACE inhibitors usually reduce blood pressure and may improve outcomes."
+        statement = (
+            "ACE inhibitors usually reduce blood pressure and may improve outcomes."
+        )
         issues = check_vague_language(statement, None)
 
         assert len(issues) == 1
@@ -315,7 +322,11 @@ class TestIntegration:
         stmt = Statement(
             statement="ACE inhibitors reduce proteinuria in chronic kidney disease.",
             extra_field=None,
-            cloze_candidates=["ACE inhibitors", "proteinuria", "chronic kidney disease"]
+            cloze_candidates=[
+                "ACE inhibitors",
+                "proteinuria",
+                "chronic kidney disease",
+            ],
         )
 
         issues = validate_statement_quality(stmt, None)
@@ -326,7 +337,7 @@ class TestIntegration:
         stmt = Statement(
             statement="This patient often has hypertension; they also have diabetes and kidney disease and heart failure.",
             extra_field=None,
-            cloze_candidates=[]
+            cloze_candidates=[],
         )
 
         issues = validate_statement_quality(stmt, "test.statement[0]")
@@ -346,11 +357,7 @@ class TestIntegration:
     def test_long_statement_with_compound_structure(self):
         """Long compound statement should trigger multiple warnings"""
         long_compound = "A" * 100 + " and this is compound; " + "B" * 100
-        stmt = Statement(
-            statement=long_compound,
-            extra_field=None,
-            cloze_candidates=[]
-        )
+        stmt = Statement(statement=long_compound, extra_field=None, cloze_candidates=[])
 
         issues = validate_statement_quality(stmt, None)
 
@@ -365,7 +372,7 @@ class TestIntegration:
         stmt = Statement(
             statement="This patient often requires therapy.",
             extra_field=None,
-            cloze_candidates=[]
+            cloze_candidates=[],
         )
 
         location = "critique.statement[5]"
@@ -378,9 +385,7 @@ class TestIntegration:
     def test_validate_statement_quality_returns_list(self):
         """validate_statement_quality should always return a list"""
         stmt = Statement(
-            statement="Simple statement.",
-            extra_field=None,
-            cloze_candidates=[]
+            statement="Simple statement.", extra_field=None, cloze_candidates=[]
         )
 
         result = validate_statement_quality(stmt, None)
@@ -389,4 +394,11 @@ class TestIntegration:
 
 # Run pytest with coverage if executed directly
 if __name__ == "__main__":
-    pytest.main([__file__, "-v", "--cov=src.validation.quality_checks", "--cov-report=term-missing"])
+    pytest.main(
+        [
+            __file__,
+            "-v",
+            "--cov=src.validation.quality_checks",
+            "--cov-report=term-missing",
+        ]
+    )

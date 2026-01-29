@@ -1,17 +1,49 @@
 # Project TODO - MKSAP Medical Education Pipeline
 
-**Last Updated**: January 20, 2026
-**Current Phase**: Phase 3 Complete (92.9% validation pass rate) - Ready for Phase 4 Production Deployment
+**Last Updated**: January 29, 2026
+**Current Phase**: Phase 3 Complete (92.9% validation pass rate) - Test Suite Improvements Complete + Phase 4 Ready
 **Source of Truth**: This file is the single source for active and planned project todos
 **Completed Work**: Tracked in git history; remove finished tasks from this list
+
+**IMPORTANT**: This file MUST be updated when:
+1. Starting any task (mark in-progress if long-running)
+2. Completing any task (remove from list, update header date)
+3. Discovering new tasks during implementation
+4. Phase transitions (add new phase tasks)
+
+**See also**: [whats-next.md](whats-next.md) for high-level context and handoff info
 
 This file tracks outstanding work across the 4-phase pipeline. Completed todos are removed once finished. Reference documents:
 - `statement_generator/docs/PHASE_2_STATUS.md` - Current status and implementation details
 - `statement_generator/docs/STATEMENT_GENERATOR.md` - Phase 2 CLI and pipeline reference
+- `.claude/plans/splendid-herding-sutherland.md` - Comprehensive codebase audit (Jan 23, 2026)
 
 ---
 
-## Completed Work Summary (January 16, 2026)
+## Completed Work Summary
+
+### ✅ Test Suite Improvements (January 29, 2026)
+- **Completed**: January 29, 2026
+- **Work Done**:
+  - Fixed critical bug in test_quality.py (contradictory assertions)
+  - Implemented 2 skipped tests in test_hybrid_extra_field_integration.py
+  - Created 6 new Pipeline integration tests (addresses #1 audit gap)
+  - Scaffolded 7 additional Pipeline tests for future work
+- **Results**:
+  - Test count: **+14 passing tests** (44 → 58, +32% increase)
+  - Bug fixes: 1 critical test bug fixed
+  - Pipeline coverage: 0% → ~40% (basic workflow + error handling)
+  - Files created/modified: 4 files
+- **Documentation**:
+  - `statement_generator/TEST_IMPROVEMENTS_SUMMARY.md` - Detailed summary
+  - `tests/orchestration/test_pipeline_integration.py` - NEW FILE
+- **Audit Progress**:
+  - Priority 1 (Pipeline Orchestration): ✅ PARTIALLY COMPLETE (6/13 tests passing)
+  - Priority 2 (Checkpoint Management): ⏳ NOT STARTED (next session)
+  - Priority 3 (LLM Client): ⏳ NOT STARTED
+- **Status**: ✅ **Core Pipeline workflows validated, ready for Checkpoint tests**
+
+### ✅ Phase 3: Hybrid Pipeline Validation (January 16, 2026)
 
 ### ✅ Phase 3: Hybrid Pipeline Validation (Complete)
 - **Completed**: January 16, 2026
@@ -44,6 +76,107 @@ This file tracks outstanding work across the 4-phase pipeline. Completed todos a
 - **Documentation**: Comprehensive NLP_MODEL_COMPARISON.md created (482 lines)
 - **Commits**: 5 commits completed (Jan 15-16)
 - **Status**: ✅ Production ready, hybrid pipeline operational with small model
+
+---
+
+## 🚀 2026-01-23 Codebase Audit Improvements (⚡ IN PROGRESS - 4 Parallel Agents)
+
+**Context**: Comprehensive codebase audit identified significant optimization opportunities
+**Plan**: See `.claude/plans/splendid-herding-sutherland.md` for full details
+**Timeline**: Quick Wins (1-2 days) → Strategic (1-2 weeks) → Quality (1-2 weeks)
+**Expected Impact**: 3-5x speedup + 50% code reduction + 50%+ quality improvement
+
+### Quick Wins (⚡ Agent 1 - IN PROGRESS)
+
+**Status**: 4 parallel agents launched (Jan 23, 2026)
+**Expected Gain**: 10-15% speedup, 1-2 days effort
+
+- [x] Launch Agent 1: Performance quick wins (lru_cache, orjson, pytest-xdist, py-spy)
+- [ ] Add `@lru_cache` decorators (1 hour, 5% speedup)
+  - Files: `text_normalizer.py`, `ambiguity_checks.py`, pattern functions
+  - Test: Run 10-question batch, measure time improvement
+- [ ] Replace `json` with `orjson` (1 hour, 2-3% speedup)
+  - Files: `file_handler.py`, `checkpoint.py`
+  - Test: Verify JSON read/write still works, measure speedup
+- [ ] Add `pytest-xdist` for parallel tests (30 min, 75% test time reduction)
+  - Command: `poetry add pytest-xdist --group dev`
+  - Test: `pytest -n auto`, verify all tests pass
+- [ ] Profile with `py-spy` (30 min, diagnostic only)
+  - Command: `py-spy record -o profile.svg -- ./scripts/python -m src.interface.cli process --limit 50`
+  - Review flame graph to confirm LLM bottleneck
+
+### Strategic Improvements (🏗️ Agent 2 - IN PROGRESS)
+
+**Status**: Agent 2 working on async + caching
+**Expected Gain**: 3-5x speedup, 1-2 weeks effort
+
+- [x] Launch Agent 2: Strategic performance improvements
+- [ ] Implement async LLM calls (2 days, 3-5x speedup)
+  - Dependencies: Install `aiohttp`, refactor providers to async
+  - Files: `client.py`, all providers, `pipeline.py`
+  - Test: Compare sync vs async on 50-question batch
+- [ ] Add response caching with `cachetools` (4 hours, 5-15% speedup on re-runs)
+  - Files: `client.py`, new `infrastructure/cache/llm_cache.py`
+  - Test: Run batch twice, verify cache hits
+- [ ] Add NLP document caching (1 hour, 5-10% speedup)
+  - Files: `nlp_utils.py`
+  - Test: Monitor cache hit rates on validators
+
+### Code Quality Refactoring (🧹 Agent 3 - IN PROGRESS)
+
+**Status**: Agent 3 working on consolidation + registries
+**Expected Gain**: 50% code reduction, improved maintainability
+
+- [x] Launch Agent 3: Code quality improvements
+- [ ] Consolidate NLP guidance formatting (4 hours, ~200 lines reduced)
+  - Files: Create `processing/nlp/guidance_formatter.py`, refactor extractors
+  - Test: Verify statement output unchanged
+- [ ] Extract shared retry logic (2 hours, maintainability)
+  - Files: Update `base.py`, refactor all providers
+  - Test: Verify retry behavior unchanged
+- [ ] Implement provider registry pattern (4 hours, extensibility)
+  - Files: Create `providers/registry.py`, update `client.py`
+  - Test: Verify all providers still work
+- [ ] Optimize NLP analyzer instantiation (1 hour, memory + performance)
+  - Files: Update `preprocessor.py` with class-level singletons
+  - Test: Verify behavior unchanged
+
+### Statement Quality Improvements (✨ Agent 4 - IN PROGRESS)
+
+**Status**: Agent 4 working on validators
+**Expected Gain**: 50%+ reduction in atomicity violations
+
+- [x] Launch Agent 4: Statement quality improvements
+- [ ] Add atomicity validator (1 day)
+  - Detect compound statements (4+ cloze candidates)
+  - Flag enumerations (lists of items)
+  - Warn on long statements (>200 chars)
+  - Files: New `validation/atomicity_checks.py`
+  - Test: Verify catches `enmcq24050` stmt #1 (6 hormones)
+- [ ] Enhance cloze clarity checks (1 day)
+  - Detect generic clozes ("diagnosis", "treatment")
+  - Flag ambiguous blanks
+  - Files: Update `validation/cloze_checks.py`
+  - Test: Verify catches `cvmcq24001` stmt #3 ("diagnosis" cloze)
+- [ ] Add context sufficiency validator (1 day)
+  - Check if statement is self-contained
+  - Detect missing clinical context
+  - Files: Update `validation/context_checks.py`
+  - Test: Verify catches `npmcq24050` stmt #13 (embedded reasoning)
+- [ ] Improve enumeration handling (2 days)
+  - Detect lists in source text
+  - Preserve emphasis ("most commonly", "rarely")
+  - Files: Update `critique.py`, `keypoints.py`
+  - Test: Verify fixes `dmmcq24032` (fungal organisms hierarchy)
+
+### Documentation from Audit
+
+- [ ] Create `docs/CODING_STANDARDS.md` (foundational documentation)
+- [ ] Create `docs/ARCHITECTURE.md` (high-level architecture map)
+- [ ] Create `docs/REFACTORING_GUIDE.md` (implementation steps)
+- [ ] Create `docs/PERFORMANCE_OPTIMIZATION.md` (benchmarks + profiling)
+- [ ] Update `docs/INDEX.md` with new architecture docs
+- [ ] Update `whats-next.md` with audit findings
 
 ---
 

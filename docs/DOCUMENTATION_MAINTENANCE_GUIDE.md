@@ -35,8 +35,7 @@ docs/
 ├── DOCUMENTATION_POLICY.md              # Documentation lifecycle rules
 ├── DOCUMENTATION_MAINTENANCE_GUIDE.md   # This file
 └── architecture/                        # System design
-    ├── PROJECT_ORGANIZATION.md
-    └── CODEBASE_GUIDE.md
+    └── PROJECT_ORGANIZATION.md
 ```
 
 ### Component Docs (Owned by Each Module)
@@ -62,15 +61,15 @@ See each component INDEX.md for detailed file lists.
 |-------------|------------------------|----------|
 | **Add new module** | CLAUDE.md, docs/architecture/PROJECT_ORGANIZATION.md, <component>/docs/INDEX.md | HIGH |
 | **Remove module** | CLAUDE.md, docs/architecture/PROJECT_ORGANIZATION.md, <component>/docs/INDEX.md | HIGH |
-| **Refactor module** | Relevant component docs (e.g., extractor/docs/PHASE_1_DEEP_DIVE.md) | MEDIUM |
-| **Add CLI command** | CLAUDE.md, docs/QUICKSTART.md, component guide (extractor/docs/TECHNICAL_SPEC.md or statement_generator/docs/STATEMENT_GENERATOR.md) | HIGH |
+| **Refactor module** | Relevant component docs (e.g., extractor/docs/EXTRACTOR_MANUAL.md) | MEDIUM |
+| **Add CLI command** | CLAUDE.md, docs/QUICKSTART.md, component guide (extractor/docs/EXTRACTOR_MANUAL.md or statement_generator/docs/STATEMENT_GENERATOR.md) | HIGH |
 | **Remove CLI command** | CLAUDE.md, docs/QUICKSTART.md, component guide | HIGH |
 | **Change CLI arguments** | docs/QUICKSTART.md, component guide | MEDIUM |
 | **Add dependency** | CLAUDE.md (Technology Stack section), component guide | MEDIUM |
 | **Remove dependency** | CLAUDE.md, component guide | MEDIUM |
 | **Fix bug** | extractor/docs/TROUBLESHOOTING.md if pattern is reusable | LOW |
 | **Add feature** | Relevant component guide + component INDEX.md | MEDIUM |
-| **API changes** | extractor/docs/PHASE_1_DEEP_DIVE.md if new patterns found | MEDIUM |
+| **API changes** | extractor/docs/EXTRACTOR_MANUAL.md if new patterns found | MEDIUM |
 | **Pipeline changes** | docs/architecture/PROJECT_ORGANIZATION.md + relevant component guide | HIGH |
 | **Complete phase** | Create <component>/docs/PHASE_X_COMPLETION_REPORT.md, update <component>/docs/PHASE_X_STATUS.md and TODO.md | HIGH |
 | **Start new phase** | Create <component>/docs/PHASE_X_STATUS.md, update TODO.md | HIGH |
@@ -94,7 +93,7 @@ When adding/removing/refactoring modules:
    - [ ] Data flow diagrams
    - [ ] File structure examples
 
-3. **Update the relevant component deep dive** (e.g., extractor/docs/PHASE_1_DEEP_DIVE.md):
+3. **Update the relevant component manual** (e.g., extractor/docs/EXTRACTOR_MANUAL.md):
    - [ ] Module descriptions
    - [ ] Data flow diagrams
    - [ ] File structure examples
@@ -113,7 +112,7 @@ When adding/removing/changing CLI commands:
    - [ ] Add/remove command
    - [ ] Update arguments if changed
 
-3. **Update the component guide** (extractor/docs/TECHNICAL_SPEC.md or statement_generator/docs/STATEMENT_GENERATOR.md):
+3. **Update the component guide** (extractor/docs/EXTRACTOR_MANUAL.md or statement_generator/docs/STATEMENT_GENERATOR.md):
    - [ ] Detailed command documentation
    - [ ] Examples and use cases
 
@@ -127,7 +126,7 @@ When changing system architecture:
    - [ ] Component descriptions
    - [ ] Data flow explanations
 
-2. **Update the relevant component deep dive** (e.g., extractor/docs/PHASE_1_DEEP_DIVE.md):
+2. **Update the relevant component manual** (e.g., extractor/docs/EXTRACTOR_MANUAL.md):
    - [ ] Technical implementation details
    - [ ] Module interactions
    - [ ] Design decisions

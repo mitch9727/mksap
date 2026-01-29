@@ -4,11 +4,9 @@
 
 ## Start Here
 
-- [Project Overview](../../docs/PROJECT_OVERVIEW.md)
+- [Project Overview](../../README.md)
 - [Quickstart](../../docs/QUICKSTART.md)
 - [Statement Generator Guide](STATEMENT_GENERATOR.md)
-- [Phase 2 Status](PHASE_2_STATUS.md)
-- [Phase 3 Status](PHASE_3_STATUS.md)
 
 ## Guides & References
 

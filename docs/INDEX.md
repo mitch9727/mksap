@@ -8,7 +8,7 @@
 
 ## Start Here
 
-1. **[PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md)** - Project goals, scope, and architecture
+1. **[Project Overview](README.md)** - Project goals, scope, and architecture
 2. **[QUICKSTART.md](QUICKSTART.md)** - Essential commands and setup
 3. **[DOCUMENTATION_POLICY.md](DOCUMENTATION_POLICY.md)** - Documentation lifecycle and organization rules
 4. **[DOCUMENTATION_MAINTENANCE_GUIDE.md](DOCUMENTATION_MAINTENANCE_GUIDE.md)** - Maintenance workflows and reviews
@@ -39,8 +39,6 @@
 ## Project Status
 
 - 🟢 **[Phase 1 Completion Report](../extractor/docs/PHASE_1_COMPLETION_REPORT.md)**
-- 🟢 **[Phase 2 Status](../statement_generator/docs/PHASE_2_STATUS.md)**
-- 🟢 **[Phase 3 Status](../statement_generator/docs/PHASE_3_STATUS.md)**
 - 🟢 **[Phase 4 Deployment Plan](../statement_generator/docs/deployment/PHASE4_DEPLOYMENT_PLAN.md)**
 - 🟡 **[Phase 3 Final Report](../statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT.md)**
 
@@ -54,9 +52,7 @@
 - **[PERFORMANCE_OPTIMIZATION.md](PERFORMANCE_OPTIMIZATION.md)** - Profiling, caching, benchmarking guide
 - **[REFACTORING_GUIDE.md](REFACTORING_GUIDE.md)** - Implementation patterns for improvements
 
-### Legacy Architecture Docs
-- **[PROJECT_ORGANIZATION.md](architecture/PROJECT_ORGANIZATION.md)** - System architecture and pipeline overview
-- **[CODEBASE_GUIDE.md](architecture/CODEBASE_GUIDE.md)** - Codebase navigation guide
+
 
 ---
 

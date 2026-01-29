@@ -7,10 +7,11 @@ System for extracting medical education questions from the ACP MKSAP (Medical Kn
 ## Current Status
 
 - **Phase 1 Status**: ✅ **COMPLETE** (December 27, 2025) - All 2,198 valid questions extracted
-- **Phase 2 Status**: Statement generator active (see [PHASE_2_STATUS.md](statement_generator/docs/PHASE_2_STATUS.md))
+- **Phase 2 Status**: ✅ **COMPLETE** (January 16, 2026) - Statement generator implementation finished
+- **Phase 3 Status**: ✅ **COMPLETE** (January 16, 2026) - Validation framework deployed (92.9% pass rate)
+- **Phase 4 Status**: ⚡ **IN PROGRESS** - Production deployment and optimization
 - **Primary Tool**: Rust MKSAP Extractor (API-based extraction with discovery validation)
-- **Architecture**: 16 system codes configured via the extractor configuration module
-- **Extraction Results**: See [PHASE_1_COMPLETION_REPORT.md](extractor/docs/PHASE_1_COMPLETION_REPORT.md) for final metrics
+- **Architecture**: See [ARCHITECTURE.md](docs/ARCHITECTURE.md) for system design
 
 ## Quick Start
 
@@ -70,7 +71,7 @@ Set the expected interpreter in `.env` so the CLI can enforce it (example: `MKSA
 
 ```bash
 # Test on 1-2 questions
-./scripts/python -m src.interface.cli process --mode test --system cv
+../scripts/python -m src.interface.cli process --limit 1 --system cv
 ```
 
 Provider configuration and full CLI reference live in [STATEMENT_GENERATOR.md](statement_generator/docs/STATEMENT_GENERATOR.md).
@@ -80,29 +81,30 @@ Provider configuration and full CLI reference live in [STATEMENT_GENERATOR.md](s
 ### Critical - Start Here
 
 - **[Documentation Index](docs/INDEX.md)** - Navigation guide for all documentation
-- **[Project Overview](docs/PROJECT_OVERVIEW.md)** - Project goals and architecture
+- **[Project Overview](docs/PROJECT_OVERVIEW.md)** - Project goals and background
+- **[System Architecture](docs/ARCHITECTURE.md)** - Core system design and components
 - **[PHASE_1_COMPLETION_REPORT.md](extractor/docs/PHASE_1_COMPLETION_REPORT.md)** ✅ - Phase 1 results (100% complete)
-- **[Phase 2 Status](statement_generator/docs/PHASE_2_STATUS.md)** - Current status and priorities
+- **[Phase 4 Deployment](statement_generator/docs/deployment/PHASE4_DEPLOYMENT_PLAN.md)** - Current production plan
 - **[Project TODO](TODO.md)** - Global project status tracker
 
 ### Getting Started with Extraction
 
 - [Extractor Docs Index](extractor/docs/INDEX.md) - Entry point for extraction docs
-- [Technical Spec](extractor/docs/TECHNICAL_SPEC.md) - Extractor usage and interfaces
+- [Extractor Manual](extractor/docs/EXTRACTOR_MANUAL.md) - Extractor architecture and usage
 - [Setup (Archive)](extractor/docs/archive/phase1/RUST_SETUP.md) - Rust installation (Phase 1)
 - [Usage Guide (Archive)](extractor/docs/archive/phase1/RUST_USAGE.md) - How to run the extractor (Phase 1)
 
 ### Deep Dives
 
 - [Validation Guide](extractor/docs/VALIDATION.md) - Data quality checks
-- [Architecture](extractor/docs/PHASE_1_DEEP_DIVE.md) - Technical implementation
+
 - [Troubleshooting](extractor/docs/TROUBLESHOOTING.md) - Common issues and solutions
 
 ### Project Planning & Specifications
 
-- [Project Overview](docs/PROJECT_OVERVIEW.md) - Project goals
-- [Architecture Guide](docs/architecture/PROJECT_ORGANIZATION.md) - Codebase organization
-- [Extraction Scope](extractor/docs/EXTRACTION_SCOPE.md) - Scope definition and success criteria
+- [Project Overview](README.md) - Project goals
+- [System Architecture](docs/ARCHITECTURE.md) - Codebase organization
+- [Scope & Completion](extractor/docs/PHASE_1_COMPLETION_REPORT.md) - Final scope and results
 
 ### Phase 2: Statement Generator
 
@@ -187,8 +189,8 @@ Primary tool for API-based extraction:
 
 This project is actively maintained. To contribute:
 
-1. Review [Architecture Guide](docs/architecture/PROJECT_ORGANIZATION.md)
-2. Check [Phase 1 Deep Dive](extractor/docs/PHASE_1_DEEP_DIVE.md)
+1. Review [System Architecture](docs/ARCHITECTURE.md)
+2. Check [Extractor Manual](extractor/docs/EXTRACTOR_MANUAL.md)
 3. Follow existing code patterns
 4. Test changes before submitting
 
@@ -207,7 +209,7 @@ The project includes Claude Code integration:
 ### For New Users
 
 1. Start with the [Extractor Docs Index](extractor/docs/INDEX.md)
-2. Check the [Technical Spec](extractor/docs/TECHNICAL_SPEC.md)
+2. Check the [Extractor Manual](extractor/docs/EXTRACTOR_MANUAL.md)
 3. Review the [Validation Guide](extractor/docs/VALIDATION.md)
 
 ### For Extraction
@@ -225,8 +227,8 @@ The project includes Claude Code integration:
 
 ### For Development
 
-1. Review [Architecture](extractor/docs/PHASE_1_DEEP_DIVE.md)
-2. Understand [Project Structure](docs/architecture/PROJECT_ORGANIZATION.md)
+1. Review [Architecture](docs/ARCHITECTURE.md)
+2. Understand [Project Structure](docs/architecture/PROJECT_ORGANIZATION.md) (Note: Legacy reference)
 3. Follow code patterns in existing modules
 4. Write tests for new features
 
@@ -248,10 +250,10 @@ See [Troubleshooting Guide](extractor/docs/TROUBLESHOOTING.md) for:
 
 ### Project Status
 
-**Current Phase**: Phase 2 Active (statement generator)
-**Completed**: All 2,198 valid questions extracted (December 27, 2025)
-**Architecture**: Discovery-based extraction with API validation
-**Validation**: Run `./target/release/mksap-extractor validate` for current metrics
+**Current Phase**: Phase 4 Active (Production Deployment)
+**Completed**: Phase 1 (Extraction), Phase 2 (Statement Gen), Phase 3 (Validation)
+**Architecture**: Discovery-based extraction, 4-layer Python pipeline
+**Validation**: Run `./target/release/mksap-extractor validate` for metadata metrics
 
 The extractor uses API discovery (HTTP HEAD requests) to determine available questions, ensuring metrics reflect current API state rather than outdated baselines.
 
@@ -267,5 +269,5 @@ Medical education question extraction for personal study purposes.
 Refer to documentation:
 - [Quick Start](docs/QUICKSTART.md)
 - [Common Issues](extractor/docs/TROUBLESHOOTING.md)
-- [Architecture](docs/architecture/PROJECT_ORGANIZATION.md)
+- [Architecture](docs/ARCHITECTURE.md)
 - [Statement Generator](statement_generator/docs/STATEMENT_GENERATOR.md)

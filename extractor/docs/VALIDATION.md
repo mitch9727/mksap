@@ -197,8 +197,62 @@ The validator is implemented in the extractor validation module:
 
 - **100% validity**: Safe to use entire dataset
 - **Incomplete coverage**: Plan workflows around missing systems
-- **Known issues**: Document in code when using
 - **Named quirks**: Handle folder naming in scripts
+- **100% validity**: Safe to use entire dataset
+
+## Discovery-Based Completion Tracking
+
+### How It Works
+
+1. **Discovery Phase**: Each extraction run discovers available questions via HTTP HEAD requests
+2. **Metadata Storage**: Statistics saved to `.checkpoints/discovery_metadata.json`:
+   - Discovered count per system
+   - Candidates tested (how many IDs were checked)
+   - Hit rate (% of candidates that exist)
+   - Question types found (mcq, qqq, vdx, cor, mqq, sq)
+   - Discovery timestamp
+
+3. **Validator Usage**: Completion metrics use discovered counts (required)
+4. **Discovery Required**: Validation fails if discovery metadata is missing
+
+### Viewing Discovery Statistics
+
+```bash
+# From extractor directory:
+./target/release/mksap-extractor discovery-stats
+```
+
+Example output:
+```
+=== MKSAP Discovery Statistics ===
+
+Overall:
+  Total Discovered: 1,790 questions
+  Total Candidates Tested: ~500,000
+  Overall Hit Rate: 0.36%
+
+Per-System Breakdown:
+System Discovered      Candidates Hit Rate Types Found
+cv         239           41958    0.57%    mcq,qqq,vdx,cor
+en         159           41958    0.38%    mcq,qqq,vdx,cor
+...
+```
+
+### Interpreting Results
+
+- **100%+**: All discovered questions have been extracted (system complete)
+- **90-99%**: Nearly complete - missing only a few questions
+- **<90%**: Incomplete - extraction still in progress
+- **⚠ Over-extracted**: More extracted than discovered (check for data issues)
+
+### Why This Matters
+
+The MKSAP API availability changes over time:
+- Questions can be retired (marked as `invalidated`)
+- New questions are added (2025 content)
+- Historical baselines become stale
+
+With API-driven metrics, the system automatically adapts to real API state without manual updates.
 
 ## Next Steps
 

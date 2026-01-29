@@ -27,7 +27,7 @@ This file provides guidance to Claude Code when working on the MKSAP medical edu
 - **Understanding Phase 3?** → See [Phase 3 Status](statement_generator/docs/PHASE_3_STATUS.md) and [Phase 3 Final Report](statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT.md)
 - **Planning Phase 4?** → See [Phase 4 Deployment Plan](statement_generator/docs/deployment/PHASE4_DEPLOYMENT_PLAN.md) and [What's Next](whats-next.md)
 - **Stuck on a problem?** → See [Troubleshooting Guide](extractor/docs/TROUBLESHOOTING.md)
-- **Understanding architecture?** → See [Phase 1 Deep Dive](extractor/docs/PHASE_1_DEEP_DIVE.md)
+- **Understanding architecture?** → See [Extractor Manual](extractor/docs/EXTRACTOR_MANUAL.md)
 
 ## Important: System Codes vs Browser Organization
 
@@ -297,7 +297,7 @@ All imports are relative within the `src/` package for clarity.
 - **Phase 2 Complete?** → Read [Phase 2 Status](statement_generator/docs/PHASE_2_STATUS.md)
 - **Phase 3 Complete?** → Read [Phase 3 Status](statement_generator/docs/PHASE_3_STATUS.md) and [Phase 3 Final Report](statement_generator/artifacts/phase3_evaluation/PHASE3_COMPLETE_FINAL_REPORT.md)
 - **Planning Phase 4?** → Read [Phase 4 Deployment Plan](statement_generator/docs/deployment/PHASE4_DEPLOYMENT_PLAN.md) and [What's Next](whats-next.md)
-- **Need architecture details?** → Read [Phase 1 Deep Dive](extractor/docs/PHASE_1_DEEP_DIVE.md)
+- **Need architecture details?** → Read [Extractor Manual](extractor/docs/EXTRACTOR_MANUAL.md)
 - **Understanding validation?** → Read [Validation Guide](extractor/docs/VALIDATION.md)
 
 

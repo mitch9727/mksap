@@ -1,6 +1,6 @@
 # QUICKSTART - Essential Commands
 
-> For detailed explanations, see [Phase 1 Deep Dive](../extractor/docs/PHASE_1_DEEP_DIVE.md),
+> For detailed explanations, see [Extractor System Manual](../extractor/docs/EXTRACTOR_MANUAL.md),
 > [Phase 2 Status](../statement_generator/docs/PHASE_2_STATUS.md), and
 > [Troubleshooting](../extractor/docs/TROUBLESHOOTING.md).
 
@@ -56,7 +56,7 @@ cd /Users/Mitchell/coding/projects/MKSAP
 
 ## Need Help?
 
-- **Architecture**: See [Phase 1 Deep Dive](../extractor/docs/PHASE_1_DEEP_DIVE.md)
+- **Architecture**: See [Extractor System Manual](../extractor/docs/EXTRACTOR_MANUAL.md)
 - **Stuck on error?**: See [Troubleshooting](../extractor/docs/TROUBLESHOOTING.md)
 - **Phase 2 details?**: See [Statement Generator Reference](../statement_generator/docs/STATEMENT_GENERATOR.md)
 - **Flashcard design?**: See [Cloze Best Practices](../statement_generator/docs/CLOZE_FLASHCARD_BEST_PRACTICES.md)

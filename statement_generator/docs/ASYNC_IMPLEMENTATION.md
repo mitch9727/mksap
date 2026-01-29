@@ -93,8 +93,23 @@ def process_question(self, question_file: Path) -> ProcessingResult:
     # Step 3: Extract from tables (SYNC)
     table_statements_list = self.table_processor.extract_statements(...)
 
+    # Step 3.5: Enhance clinical context (SYNC)
+    critique_statements = self.context_enhancer.enhance_statements(...)
+
     # Step 4: Identify cloze candidates (SYNC)
-    all_statements = self.cloze_identifier.identify_cloze_candidates(...)
+    critique_statements = self.cloze_identifier.identify_cloze_candidates(...)
+
+    # Step 4.25: Normalize statement text (SYNC)
+    critique_statements = self._normalize_statement_text(...)
+
+    # Step 4.3: Consolidate statements (SYNC)
+    critique_statements = self.statement_consolidator.consolidate(...)
+
+    # Step 4.35: Salvage disambiguating context (SYNC)
+    critique_statements = self.context_salvager(...)
+
+    # Step 4.5: Select final clozes (SYNC)
+    critique_final = self.cloze_selector.select_final_clozes(...)
 ```
 
 **No async keywords present**: No `async def`, no `await`, no `asyncio.gather()`.

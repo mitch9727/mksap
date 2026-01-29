@@ -11,12 +11,12 @@ preserves all existing data.
 ## Features
 
 - Multi-provider LLM support (Anthropic API, Claude Code CLI, Gemini CLI, Codex CLI)
-- 4-step pipeline: critique extraction -> key points extraction -> cloze identification -> text normalization
-- Non-destructive JSON updates (adds `true_statements` only)
+- Multi-stage pipeline: critique/key points/table extraction -> context enhancement -> cloze identification -> normalization -> consolidation -> context salvage -> final cloze selection -> validation
+- Non-destructive JSON updates (adds `true_statements`, `table_statements`, `validation_pass`, optional `nlp_analysis`)
 - Checkpoint-based resumable processing
 - CLI-first workflows with optional provider fallback
 - TTL-based LLM response caching (5-15% speedup on re-runs)
-- Async-ready infrastructure (Anthropic API only - see [ASYNC_IMPLEMENTATION.md](ASYNC_IMPLEMENTATION.md))
+- Async-ready infrastructure (Infrastructure only, not active - see [ASYNC_IMPLEMENTATION.md](ASYNC_IMPLEMENTATION.md))
 - Flashcard design aligned with `statement_generator/docs/CLOZE_FLASHCARD_BEST_PRACTICES.md`
 
 ## Quick Start
@@ -61,7 +61,7 @@ export MKSAP_NLP_N_PROCESS=1
 If using a local model path:
 
 ```bash
-export MKSAP_NLP_MODEL=statement_generator/models/en_core_sci_sm-0.5.4/en_core_sci_sm/en_core_sci_sm-0.5.4
+export MKSAP_NLP_MODEL=/absolute/path/to/statement_generator/models/en_core_sci_sm-0.5.4/en_core_sci_sm/en_core_sci_sm-0.5.4
 ```
 
 ### 2) Configure a provider
@@ -113,18 +113,18 @@ OPENAI_MODEL=gpt-4
 
 ```bash
 # Test on 1-2 questions
-./scripts/python -m src.interface.cli process --mode test --system cv
+../scripts/python -m src.interface.cli process --limit 1 --system cv
 
 # Test specific question
-./scripts/python -m src.interface.cli process --question-id cvmcq24001
+../scripts/python -m src.interface.cli process --question-id cvmcq24001
 
 # Production: process all questions
-./scripts/python -m src.interface.cli process --mode production
+../scripts/python -m src.interface.cli process
 
 # Use CLI providers
-./scripts/python -m src.interface.cli process --provider claude-code --mode test
-./scripts/python -m src.interface.cli process --provider gemini --mode test
-./scripts/python -m src.interface.cli process --provider codex --mode test
+../scripts/python -m src.interface.cli process --provider claude-code --limit 1
+../scripts/python -m src.interface.cli process --provider gemini --limit 1
+../scripts/python -m src.interface.cli process --provider codex --limit 1
 ```
 
 Optional override for data root:
@@ -140,28 +140,28 @@ export MKSAP_DATA_ROOT=/path/to/alternate/data
 
 ```bash
 # Process questions (main command)
-./scripts/python -m src.interface.cli process [OPTIONS]
+../scripts/python -m src.interface.cli process [OPTIONS]
 
 # Show statistics
-./scripts/python -m src.interface.cli stats
+../scripts/python -m src.interface.cli stats
 
 # Reset checkpoints
-./scripts/python -m src.interface.cli reset
+../scripts/python -m src.interface.cli reset
 
 # Clean old log files (keeps last 7 days by default)
-./scripts/python -m src.interface.cli clean-logs
-./scripts/python -m src.interface.cli clean-logs --keep-days 3
-./scripts/python -m src.interface.cli clean-logs --dry-run  # Preview what would be deleted
+../scripts/python -m src.interface.cli clean-logs
+../scripts/python -m src.interface.cli clean-logs --keep-days 3
+../scripts/python -m src.interface.cli clean-logs --dry-run  # Preview what would be deleted
 
 # Clean all logs and reset checkpoints (fresh start)
-./scripts/python -m src.interface.cli clean-all
+../scripts/python -m src.interface.cli clean-all
 ```
 
 ### Key Options
 
 | Option | Description | Default |
 |--------|-------------|---------|
-| `--mode` | `test` (1-2 questions) or `production` (all) | `test` |
+| `--limit` | Limit number of questions (useful for testing) | None |
 | `--provider` | LLM provider (claude-code, codex, anthropic, gemini) | `anthropic` |
 | `--question-id` | Process specific question by ID | None |
 | `--system` | Process all questions in system (cv, en, etc.) | None |
@@ -179,22 +179,22 @@ export MKSAP_DATA_ROOT=/path/to/alternate/data
 
 ```bash
 # Test with Claude Code CLI (uses your subscription)
-./scripts/python -m src.interface.cli process --provider claude-code --mode test --system cv
+../scripts/python -m src.interface.cli process --provider claude-code --limit 1 --system cv
 
 # Production with Gemini
-./scripts/python -m src.interface.cli process --provider gemini --mode production
+../scripts/python -m src.interface.cli process --provider gemini
 
 # Test with higher temperature (more creative)
-./scripts/python -m src.interface.cli process --temperature 0.5 --question-id cvmcq24001
+../scripts/python -m src.interface.cli process --temperature 0.5 --question-id cvmcq24001
 
 # Dry run to preview
-./scripts/python -m src.interface.cli process --dry-run --system cv
+../scripts/python -m src.interface.cli process --dry-run --system cv
 
 # Override data root (for full production runs)
-./scripts/python -m src.interface.cli process --mode production --data-root mksap_data
+../scripts/python -m src.interface.cli process --data-root mksap_data
 
 # Debug logging
-./scripts/python -m src.interface.cli process --log-level DEBUG --question-id cvmcq24001
+../scripts/python -m src.interface.cli process --log-level DEBUG --question-id cvmcq24001
 ```
 
 ## Provider Selection and Fallback

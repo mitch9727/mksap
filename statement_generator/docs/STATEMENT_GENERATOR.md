@@ -15,6 +15,8 @@ preserves all existing data.
 - Non-destructive JSON updates (adds `true_statements` only)
 - Checkpoint-based resumable processing
 - CLI-first workflows with optional provider fallback
+- TTL-based LLM response caching (5-15% speedup on re-runs)
+- Async-ready infrastructure (Anthropic API only - see [ASYNC_IMPLEMENTATION.md](ASYNC_IMPLEMENTATION.md))
 - Flashcard design aligned with `statement_generator/docs/CLOZE_FLASHCARD_BEST_PRACTICES.md`
 
 ## Quick Start
@@ -282,6 +284,52 @@ statement_generator/
 ├── scripts/                    # Setup & migration scripts
 └── artifacts/                  # Runtime outputs (logs, checkpoints, validation, pytest cache)
 ```
+
+## Performance & Caching
+
+### LLM Response Cache
+
+The statement generator includes a TTL-based cache for LLM responses to improve performance on re-runs and reduce API costs.
+
+**Configuration**:
+```bash
+# Enable/disable cache (default: enabled)
+export MKSAP_LLM_CACHE_ENABLED=1
+```
+
+**Behavior**:
+- Cache key: MD5(prompt + model + temperature)
+- TTL: 1 hour (3600 seconds)
+- Max size: 10,000 cached responses
+- Thread-safe in-memory storage
+
+**Expected speedup**: 5-15% on re-runs within the TTL window
+
+**Note**: Cache hits are logged at DEBUG level. To see cache activity:
+```bash
+# Check logs for cache hits/misses
+grep "Cache HIT\|Cache MISS" statement_generator/artifacts/logs/*.log
+```
+
+### Async Processing
+
+The codebase includes async-ready infrastructure for concurrent LLM calls, but **async is not currently active** in the pipeline. Processing is sequential.
+
+**Status**: Infrastructure only (see [ASYNC_IMPLEMENTATION.md](ASYNC_IMPLEMENTATION.md))
+
+**Async support by provider**:
+- Anthropic API: True async (AsyncAnthropic)
+- Codex CLI: Fallback to executor (not true async)
+- Claude Code CLI: Fallback to executor
+- Gemini CLI: Fallback to executor
+
+**To enable async** (future work):
+1. Convert pipeline.process_question() to async
+2. Convert all extractors to async (critique, keypoints, tables, cloze)
+3. Update CLI to use asyncio.run()
+4. Add rate limit management and concurrency controls
+
+**Expected speedup**: 1.5-2x with Anthropic API, minimal with CLI providers
 
 ## Troubleshooting
 

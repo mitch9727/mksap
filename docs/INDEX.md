@@ -2,7 +2,7 @@
 
 **Start here for project-level documentation and pointers to component docs.**
 
-**Last Updated**: January 20, 2026
+**Last Updated**: January 23, 2026
 
 ---
 
@@ -20,6 +20,22 @@
 
 ---
 
+## Recent Work (January 2026)
+
+### Comprehensive Codebase Audit (Jan 23, 2026)
+- **[Audit Plan](../.claude/plans/splendid-herding-sutherland.md)** - Original audit findings (performance, code quality, statement quality)
+- **[Audit Implementation Summary](../statement_generator/artifacts/AUDIT_IMPLEMENTATION_SUMMARY.md)** - What was completed by parallel agents
+- **[Async Implementation](../statement_generator/docs/ASYNC_IMPLEMENTATION.md)** - Async infrastructure analysis and status
+
+**Key Improvements**:
+- ✅ ProviderRegistry pattern (eliminated 40-line if-elif chain)
+- ✅ ValidatorRegistry pattern (11 validators, 93.3% pass rate)
+- ✅ NLP guidance consolidation (~200 lines removed)
+- ✅ LLM response caching (5-15% speedup on re-runs)
+- ✅ Performance optimizations (orjson, lru_cache, NLP singletons)
+
+---
+
 ## Project Status
 
 - 🟢 **[Phase 1 Completion Report](../extractor/docs/PHASE_1_COMPLETION_REPORT.md)**
@@ -32,6 +48,13 @@
 
 ## Architecture & Design
 
+### Core Architecture (Updated Jan 23, 2026)
+- **[ARCHITECTURE.md](ARCHITECTURE.md)** - System architecture overview (4-layer design, data flow, tech stack)
+- **[CODING_STANDARDS.md](CODING_STANDARDS.md)** - Python best practices, naming conventions, patterns
+- **[PERFORMANCE_OPTIMIZATION.md](PERFORMANCE_OPTIMIZATION.md)** - Profiling, caching, benchmarking guide
+- **[REFACTORING_GUIDE.md](REFACTORING_GUIDE.md)** - Implementation patterns for improvements
+
+### Legacy Architecture Docs
 - **[PROJECT_ORGANIZATION.md](architecture/PROJECT_ORGANIZATION.md)** - System architecture and pipeline overview
 - **[CODEBASE_GUIDE.md](architecture/CODEBASE_GUIDE.md)** - Codebase navigation guide
 

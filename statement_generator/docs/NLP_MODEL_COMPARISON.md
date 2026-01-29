@@ -11,7 +11,7 @@
 The **en_core_sci_sm (small) model** has been selected as the production standard after comprehensive evaluation of all available scispaCy models. It provides the optimal balance of speed and accuracy, with **14x faster processing** than larger models while maintaining **94% entity detection accuracy** and **100% equivalent negation detection** (the most critical feature for medical accuracy).
 
 ### Production Configuration
-- **Model**: `en_core_sci_sm-0.5.4` (Small - 13MB)
+- **Model**: `en_core_sci_sm` (Small - 13MB)
 - **Processing Time**: 0.24 seconds per question
 - **Estimated Full Dataset**: ~9 minutes for all 2,198 questions
 - **Memory Footprint**: ~95% reduction vs large model
@@ -285,7 +285,7 @@ Specialized NER models provide **typed entity classification** but at severe cos
 ### Current Setup
 ```bash
 # .env file
-MKSAP_NLP_MODEL=statement_generator/models/en_core_sci_sm-0.5.4/en_core_sci_sm/en_core_sci_sm-0.5.4
+MKSAP_NLP_MODEL=statement_generator/models/en_core_sci_sm
 USE_HYBRID_PIPELINE=true
 MKSAP_NLP_DISABLE=  # Empty = parser enabled for negation detection
 ```

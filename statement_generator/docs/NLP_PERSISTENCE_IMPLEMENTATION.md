@@ -133,7 +133,7 @@ When hybrid mode is enabled (`USE_HYBRID_PIPELINE=true`), the pipeline adds an `
 ```bash
 # Enable hybrid mode
 export MKSAP_USE_HYBRID_PIPELINE=true
-export MKSAP_NLP_MODEL=statement_generator/models/en_core_sci_sm-0.5.4/en_core_sci_sm/en_core_sci_sm-0.5.4
+export MKSAP_NLP_MODEL=statement_generator/models/en_core_sci_sm
 
 # Run pipeline
 ./scripts/python -m src.interface.cli process --question-id cvmcq24001

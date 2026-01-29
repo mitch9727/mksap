@@ -59,7 +59,9 @@ anking_analysis/
 │
 └── docs/                              (Implementation iteration notes)
     ├── INDEX.md
-    ├── PHASE1_TASK2_*.md
+    ├── archive/
+        └── phase1/
+            └── PHASE1_TASK2_*.md
     ├── ANKI_EXTRACTOR_REFERENCE.md
     └── ... (reference documentation)
 ```

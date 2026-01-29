@@ -86,13 +86,13 @@ with open("anking_cards.json", "w") as f:
 📖 /Users/Mitchell/coding/projects/MKSAP/anking_analysis/ANKI_EXTRACTOR_REFERENCE.md
    👈 Complete reference guide for all methods
 
-📖 /Users/Mitchell/coding/projects/MKSAP/PHASE1_TASK2_SUMMARY.md
+📖 /Users/Mitchell/coding/projects/MKSAP/anking_analysis/docs/archive/phase1/PHASE1_TASK2_SUMMARY.md
    👈 Architecture and implementation details
 
-📖 /Users/Mitchell/coding/projects/MKSAP/PHASE1_TASK2_IMPLEMENTATION_OUTPUT.md
+📖 /Users/Mitchell/coding/projects/MKSAP/anking_analysis/docs/archive/phase1/PHASE1_TASK2_IMPLEMENTATION_OUTPUT.md
    👈 Detailed technical documentation
 
-📖 /Users/Mitchell/coding/projects/MKSAP/DELIVERY_REPORT.md
+📖 /Users/Mitchell/coding/projects/MKSAP/anking_analysis/docs/archive/phase1/DELIVERY_REPORT.md
    👈 Project delivery report
 ```
 
@@ -224,7 +224,7 @@ This will:
 → Read: [PHASE1_TASK2_IMPLEMENTATION_OUTPUT.md](PHASE1_TASK2_IMPLEMENTATION_OUTPUT.md)
 
 **I want to verify everything**
-→ Read: [anking_analysis/IMPLEMENTATION_CHECKLIST.md](anking_analysis/IMPLEMENTATION_CHECKLIST.md)
+→ Read: [../../EXTRACTOR_VERIFICATION_CHECKLIST.md](../../EXTRACTOR_VERIFICATION_CHECKLIST.md)
 
 **I want the delivery status**
 → Read: [DELIVERY_REPORT.md](DELIVERY_REPORT.md)
@@ -352,7 +352,7 @@ A: Yes: `from anking_analysis.tools import AnkiExtractor`
 - **Summary**: [PHASE1_TASK2_SUMMARY.md](PHASE1_TASK2_SUMMARY.md)
 - **Details**: [PHASE1_TASK2_IMPLEMENTATION_OUTPUT.md](PHASE1_TASK2_IMPLEMENTATION_OUTPUT.md)
 - **Tests**: [test_anki_extractor.py](test_anki_extractor.py)
-- **Checklist**: [anking_analysis/IMPLEMENTATION_CHECKLIST.md](anking_analysis/IMPLEMENTATION_CHECKLIST.md)
+- **Checklist**: [../../EXTRACTOR_VERIFICATION_CHECKLIST.md](../../EXTRACTOR_VERIFICATION_CHECKLIST.md)
 - **Report**: [DELIVERY_REPORT.md](DELIVERY_REPORT.md)
 
 ---

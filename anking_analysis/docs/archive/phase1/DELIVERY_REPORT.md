@@ -110,21 +110,21 @@ The AnkiExtractor class is a fully-functional, production-ready implementation t
    - Usage examples
    - Database schema reference
 
-✅ /Users/Mitchell/coding/projects/MKSAP/PHASE1_TASK2_SUMMARY.md
+✅ /Users/Mitchell/coding/projects/MKSAP/anking_analysis/docs/archive/phase1/PHASE1_TASK2_SUMMARY.md
    - Implementation overview
    - Architecture details
    - Integration notes
 
-✅ /Users/Mitchell/coding/projects/MKSAP/anking_analysis/IMPLEMENTATION_CHECKLIST.md
+✅ /Users/Mitchell/coding/projects/MKSAP/anking_analysis/docs/EXTRACTOR_VERIFICATION_CHECKLIST.md
    - Complete validation checklist
    - Requirements verification
 
-✅ /Users/Mitchell/coding/projects/MKSAP/PHASE1_TASK2_IMPLEMENTATION_OUTPUT.md
+✅ /Users/Mitchell/coding/projects/MKSAP/anking_analysis/docs/archive/phase1/PHASE1_TASK2_IMPLEMENTATION_OUTPUT.md
    - Detailed implementation output
    - Expected results
    - Integration information
 
-✅ /Users/Mitchell/coding/projects/MKSAP/DELIVERY_REPORT.md
+✅ /Users/Mitchell/coding/projects/MKSAP/anking_analysis/docs/archive/phase1/DELIVERY_REPORT.md
    - This delivery report
 ```
 
@@ -381,13 +381,13 @@ Phase 1 Task 3: Structure analysis
 - See: `/Users/Mitchell/coding/projects/MKSAP/anking_analysis/ANKI_EXTRACTOR_REFERENCE.md`
 
 ### For Developers
-- See: `/Users/Mitchell/coding/projects/MKSAP/PHASE1_TASK2_SUMMARY.md`
+- See: `/Users/Mitchell/coding/projects/MKSAP/anking_analysis/docs/archive/phase1/PHASE1_TASK2_SUMMARY.md`
 
 ### For Integration
-- See: `/Users/Mitchell/coding/projects/MKSAP/PHASE1_TASK2_IMPLEMENTATION_OUTPUT.md`
+- See: `/Users/Mitchell/coding/projects/MKSAP/anking_analysis/docs/archive/phase1/PHASE1_TASK2_IMPLEMENTATION_OUTPUT.md`
 
 ### For Validation
-- See: `/Users/Mitchell/coding/projects/MKSAP/anking_analysis/IMPLEMENTATION_CHECKLIST.md`
+- See: `/Users/Mitchell/coding/projects/MKSAP/anking_analysis/docs/EXTRACTOR_VERIFICATION_CHECKLIST.md`
 
 ---
 

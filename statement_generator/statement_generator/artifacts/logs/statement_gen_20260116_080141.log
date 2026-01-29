@@ -1,8 +1,0 @@
-2026-01-16 08:01:41,587 - __main__ - INFO - Logging initialized: /Users/Mitchell/coding/projects/MKSAP/statement_generator/statement_generator/artifacts/logs/statement_gen_20260116_080141.log
-2026-01-16 08:01:41,587 - __main__ - INFO - Starting statement generation - Mode: test
-2026-01-16 08:01:41,587 - __main__ - INFO - Config: model=, temp=0.2
-2026-01-16 08:01:41,593 - src.infrastructure.llm.providers.codex - INFO - Codex CLI found: codex-cli 0.86.0
-2026-01-16 08:01:41,593 - src.infrastructure.llm.client - INFO - Initialized codex provider
-2026-01-16 08:01:41,593 - src.infrastructure.llm.provider_manager - INFO - Initialized provider: codex
-2026-01-16 08:01:41,593 - __main__ - INFO - Using provider: codex
-2026-01-16 08:01:41,593 - __main__ - ERROR - Data root not found: /Users/Mitchell/coding/projects/MKSAP/statement_generator/test_mksap_data

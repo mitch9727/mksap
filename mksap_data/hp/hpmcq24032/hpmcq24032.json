@@ -75,5 +75,1341 @@
     "videos": [],
     "svgs": []
   },
-  "extracted_at": "2026-01-01T17:54:31.667120-06:00"
+  "extracted_at": "2026-01-01T17:54:31.667120-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "The most appropriate diagnostic test to assess for primary sclerosing cholangitis is magnetic resonance cholangiopancreatography (MRCP).",
+        "extra_field": null,
+        "cloze_candidates": [
+          "primary",
+          "sclerosing cholangitis",
+          "magnetic resonance cholangiopancreatography (MRCP)"
+        ]
+      },
+      {
+        "statement": "Primary sclerosing cholangitis is an autoimmune fibroinflammatory disease of bile ducts.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Primary",
+          "sclerosing cholangitis",
+          "autoimmune",
+          "fibroinflammatory disease",
+          "bile ducts"
+        ]
+      },
+      {
+        "statement": "Primary sclerosing cholangitis is strongly associated with inflammatory bowel disease in about 70% of cases.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Primary",
+          "sclerosing cholangitis",
+          "inflammatory bowel disease",
+          "about 70% of cases"
+        ]
+      },
+      {
+        "statement": "Primary sclerosing cholangitis is strongly associated with inflammatory bowel disease primarily ulcerative colitis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Primary",
+          "sclerosing cholangitis",
+          "inflammatory bowel disease",
+          "ulcerative colitis"
+        ]
+      },
+      {
+        "statement": "Up to 7.5% of patients with ulcerative colitis have primary sclerosing cholangitis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Up to 7.5%",
+          "ulcerative colitis",
+          "primary",
+          "sclerosing cholangitis"
+        ]
+      },
+      {
+        "statement": "Patients with inflammatory bowel disease and cholestatic liver tests should undergo magnetic resonance cholangiopancreatography to assess for possible primary sclerosing cholangitis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "inflammatory bowel disease",
+          "cholestatic liver tests",
+          "magnetic resonance cholangiopancreatography",
+          "primary",
+          "sclerosing cholangitis"
+        ]
+      },
+      {
+        "statement": "Primary sclerosing cholangitis typically causes multifocal bile duct stricturing.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Primary",
+          "sclerosing cholangitis",
+          "multifocal bile duct stricturing"
+        ]
+      },
+      {
+        "statement": "Patients with primary sclerosing cholangitis have a 15% lifetime risk for cholangiocarcinoma.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "primary",
+          "sclerosing cholangitis",
+          "15% lifetime risk",
+          "cholangiocarcinoma"
+        ]
+      },
+      {
+        "statement": "Yearly magnetic resonance cholangiopancreatography with or without measurement of carbohydrate 19-9 are recommended for cholangiocarcinoma surveillance.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Yearly magnetic resonance cholangiopancreatography",
+          "measurement of carbohydrate 19-9",
+          "cholangiocarcinoma surveillance"
+        ]
+      },
+      {
+        "statement": "Endoscopic retrograde cholangiopancreatography is no longer the most appropriate initial diagnostic test for suspected primary sclerosing cholangitis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Endoscopic retrograde cholangiopancreatography",
+          "most appropriate initial diagnostic test",
+          "primary",
+          "sclerosing cholangitis"
+        ]
+      },
+      {
+        "statement": "Magnetic resonance cholangiopancreatography is noninvasive.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Magnetic resonance cholangiopancreatography",
+          "noninvasive"
+        ]
+      },
+      {
+        "statement": "Magnetic resonance cholangiopancreatography does not require ionizing radiation.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Magnetic resonance cholangiopancreatography",
+          "ionizing radiation"
+        ]
+      },
+      {
+        "statement": "The sensitivity of endoscopic retrograde cholangiopancreatography remains somewhat higher than magnetic resonance cholangiopancreatography in early primary sclerosing cholangitis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "endoscopic retrograde cholangiopancreatography",
+          "magnetic resonance cholangiopancreatography",
+          "early",
+          "primary",
+          "sclerosing cholangitis"
+        ]
+      },
+      {
+        "statement": "Endoscopic retrograde cholangiopancreatography should be considered if high clinical suspicion for primary sclerosing cholangitis remains despite a negative or equivocal magnetic resonance cholangiopancreatography.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Endoscopic retrograde cholangiopancreatography",
+          "high clinical suspicion",
+          "primary",
+          "sclerosing cholangitis",
+          "negative or equivocal magnetic resonance cholangiopancreatography"
+        ]
+      },
+      {
+        "statement": "Endoscopic retrograde cholangiopancreatography should be considered in patients with a dominant stricture on magnetic resonance cholangiopancreatography because these findings could indicate cholangiocarcinoma.",
+        "extra_field": "A dominant stricture on magnetic resonance cholangiopancreatography could indicate cholangiocarcinoma.",
+        "cloze_candidates": [
+          "Endoscopic retrograde cholangiopancreatography",
+          "dominant stricture",
+          "magnetic resonance cholangiopancreatography",
+          "cholangiocarcinoma"
+        ]
+      },
+      {
+        "statement": "Endoscopic retrograde cholangiopancreatography should be considered in patients with a bile duct mass on magnetic resonance cholangiopancreatography because these findings could indicate cholangiocarcinoma.",
+        "extra_field": "A bile duct mass on magnetic resonance cholangiopancreatography could indicate cholangiocarcinoma.",
+        "cloze_candidates": [
+          "Endoscopic retrograde cholangiopancreatography",
+          "bile duct mass",
+          "magnetic resonance cholangiopancreatography",
+          "cholangiocarcinoma"
+        ]
+      },
+      {
+        "statement": "Endoscopic ultrasonography is not the most appropriate test to evaluate for primary sclerosing cholangitis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Endoscopic ultrasonography",
+          "most appropriate test",
+          "primary",
+          "sclerosing cholangitis"
+        ]
+      },
+      {
+        "statement": "Endoscopic ultrasonography cannot adequately visualize the intrahepatic bile ducts.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Endoscopic ultrasonography",
+          "intrahepatic bile ducts"
+        ]
+      },
+      {
+        "statement": "Liver biopsy is not the most appropriate initial test for primary sclerosing cholangitis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Liver biopsy",
+          "most appropriate initial test",
+          "primary",
+          "sclerosing cholangitis"
+        ]
+      },
+      {
+        "statement": "Primary sclerosing cholangitis usually affects large bile ducts that are best visualized by magnetic resonance cholangiopancreatography or endoscopic retrograde cholangiopancreatography.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Primary",
+          "sclerosing cholangitis",
+          "large bile ducts",
+          "magnetic resonance cholangiopancreatography",
+          "endoscopic retrograde cholangiopancreatography"
+        ]
+      },
+      {
+        "statement": "Primary sclerosing cholangitis usually does not affect small bile ducts that are best visualized on a biopsy specimen.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Primary",
+          "sclerosing cholangitis",
+          "small bile ducts",
+          "biopsy specimen"
+        ]
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "Primary sclerosing cholangitis (PSC) is strongly associated with inflammatory bowel disease (IBD).",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Primary",
+          "sclerosing cholangitis (PSC)",
+          "inflammatory bowel disease (IBD)"
+        ]
+      },
+      {
+        "statement": "Primary sclerosing cholangitis (PSC) should be suspected in any patient with IBD and cholestatic liver tests.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Primary",
+          "sclerosing cholangitis (PSC)",
+          "IBD",
+          "cholestatic liver tests"
+        ]
+      },
+      {
+        "statement": "Magnetic resonance cholangiopancreatography is the preferred initial diagnostic test when PSC is suspected.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Magnetic resonance cholangiopancreatography",
+          "preferred initial diagnostic test",
+          "PSC"
+        ]
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 1
+  },
+  "validation_pass": true,
+  "nlp_analysis": {
+    "critique": {
+      "entities": [
+        {
+          "text": "diagnostic test",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "appropriate",
+            "diagnostic"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "magnetic resonance cholangiopancreatography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "magnetic"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option D",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "primary sclerosing cholangitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "primary"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PSC",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PSC",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "autoimmune fibroinflammatory disease",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "autoimmune",
+            "fibroinflammatory"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "bile ducts",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PSC",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "inflammatory bowel disease",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "inflammatory"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "IBD",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cases",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ulcerative colitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ulcerative"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ulcerative colitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ulcerative"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PSC",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "IBD",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cholestatic liver tests",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cholestatic"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "MRCP",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PSC",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "possible"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "multifocal",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "multifocal"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "bile duct",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "multifocal"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PSC",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "lifetime",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cholangiocarcinoma",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "MRCP",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "yearly"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "measurement",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "without",
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "carbohydrate",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "without",
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cholangiocarcinoma surveillance",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Endoscopic retrograde cholangiopancreatography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "endoscopic"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ERCP",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option A",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diagnostic test",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "initial",
+            "diagnostic"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "suspected",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PSC",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "MRCP",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "noninvasive",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "noninvasive"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ionizing radiation",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "does not require",
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sensitivity",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "does not require",
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ERCP",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "MRCP",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PSC",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "early"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ERCP",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical suspicion",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "high",
+            "clinical"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PSC",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "negative",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "negative"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "equivocal MRCP",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "negative",
+          "modifiers": [
+            "equivocal"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ERCP",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "dominant",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "dominant"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "stricture",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "dominant"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "bile duct",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mass",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "MRCP",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "findings",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cholangiocarcinoma",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Endoscopic ultrasonography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "endoscopic"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option B",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "test",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "appropriate"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "evaluate",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PSC",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "visualize",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intrahepatic bile ducts",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "intrahepatic"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Liver biopsy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option C",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "test",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "initial"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PSC",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "bile ducts",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "large"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "MRCP",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ERCP",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "bile ducts",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "small"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "biopsy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "biopsy"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "specimen",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "biopsy"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": " 70%",
+          "entity_type": "QUANTITY",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "CUSTOM_LAB_VALUE"
+        },
+        {
+          "text": " 7.5%",
+          "entity_type": "QUANTITY",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "CUSTOM_LAB_VALUE"
+        },
+        {
+          "text": " 15%",
+          "entity_type": "QUANTITY",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "CUSTOM_LAB_VALUE"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The most appropriate diagnostic test is magnetic resonance cholangiopancreatography (MRCP) (Option D) to assess for primary sclerosing cholangitis (PSC).",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 5
+        },
+        {
+          "text": "PSC is an autoimmune fibroinflammatory disease of bile ducts.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 3
+        },
+        {
+          "text": "PSC is strongly associated with inflammatory bowel disease (IBD) in about 70% of cases (primarily ulcerative colitis); conversely, up to 7.5% of patients with ulcerative colitis have PSC.",
+          "index": 2,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 11
+        },
+        {
+          "text": "Patients with IBD and cholestatic liver tests, such as this patient, should undergo MRCP to assess for possible PSC, which typically causes multifocal bile duct stricturing.",
+          "index": 3,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 8
+        },
+        {
+          "text": "Patients with PSC have a 15% lifetime risk for cholangiocarcinoma.",
+          "index": 4,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 5
+        },
+        {
+          "text": "Yearly MRCP with or without measurement of carbohydrate 19-9 are recommended for cholangiocarcinoma surveillance.",
+          "index": 5,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "Endoscopic retrograde cholangiopancreatography (ERCP) (Option A) is no longer the most appropriate initial diagnostic test for suspected PSC.",
+          "index": 6,
+          "has_negation": true,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 6
+        },
+        {
+          "text": "MRCP is noninvasive and does not require ionizing radiation.",
+          "index": 7,
+          "has_negation": true,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 3
+        },
+        {
+          "text": "However, the sensitivity of ERCP remains somewhat higher than MRCP in early PSC; thus, ERCP should be considered if high clinical suspicion for PSC remains despite a negative or equivocal MRCP.",
+          "index": 8,
+          "has_negation": true,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "In addition, ERCP should be considered in patients with a dominant stricture or bile duct mass on MRCP because these findings could indicate cholangiocarcinoma.",
+          "index": 9,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "Endoscopic ultrasonography (Option B) is not the most appropriate test to evaluate for PSC because it cannot adequately visualize the intrahepatic bile ducts.",
+          "index": 10,
+          "has_negation": true,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 7
+        },
+        {
+          "text": "Liver biopsy (Option C) is not the most appropriate initial test because PSC usually affects large bile ducts that are best visualized by MRCP or ERCP, not small bile ducts that are best visualized on a biopsy specimen.",
+          "index": 11,
+          "has_negation": true,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 10
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "without",
+          "start_char": 665,
+          "end_char": 672
+        },
+        {
+          "trigger": "no",
+          "start_char": 826,
+          "end_char": 828
+        },
+        {
+          "trigger": "does not require",
+          "start_char": 924,
+          "end_char": 940
+        },
+        {
+          "trigger": "not",
+          "start_char": 929,
+          "end_char": 932
+        },
+        {
+          "trigger": "negative",
+          "start_char": 1127,
+          "end_char": 1135
+        },
+        {
+          "trigger": "not",
+          "start_char": 1356,
+          "end_char": 1359
+        },
+        {
+          "trigger": "not",
+          "start_char": 1420,
+          "end_char": 1423
+        },
+        {
+          "trigger": "not",
+          "start_char": 1500,
+          "end_char": 1503
+        },
+        {
+          "trigger": "not",
+          "start_char": 1625,
+          "end_char": 1628
+        }
+      ],
+      "entity_count": 80,
+      "sentence_count": 12,
+      "negation_count": 9
+    },
+    "key_points": {
+      "entities": [
+        {
+          "text": "Primary sclerosing cholangitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "primary"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PSC",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "inflammatory bowel disease",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "inflammatory"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "IBD",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "suspected",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "IBD",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cholestatic liver tests",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cholestatic"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Magnetic resonance cholangiopancreatography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "magnetic"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diagnostic test",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "initial",
+            "diagnostic"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PSC",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "suspected",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "Primary sclerosing cholangitis (PSC) is strongly associated with inflammatory bowel disease (IBD) and should be suspected in any patient with IBD and cholestatic liver tests.",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "Magnetic resonance cholangiopancreatography is the preferred initial diagnostic test when PSC is suspected.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        }
+      ],
+      "negations": [],
+      "entity_count": 13,
+      "sentence_count": 2,
+      "negation_count": 0
+    }
+  }
 }

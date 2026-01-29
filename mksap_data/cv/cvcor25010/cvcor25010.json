@@ -58,5 +58,1331 @@
     "videos": []
   },
   "media_metadata": null,
-  "extracted_at": "2026-01-01T17:54:28.766693-06:00"
+  "extracted_at": "2026-01-01T17:54:28.766693-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "No additional vascular testing is required.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "No additional vascular testing",
+          "vascular testing"
+        ]
+      },
+      {
+        "statement": "Exertional lower extremity pain is often caused by peripheral artery disease (PAD).",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Exertional lower extremity pain",
+          "peripheral",
+          "artery disease (PAD)"
+        ]
+      },
+      {
+        "statement": "Some patients with lumbar spinal stenosis describe symptoms similar to those of vascular claudication (pseudoclaudication).",
+        "extra_field": null,
+        "cloze_candidates": [
+          "lumbar",
+          "spinal stenosis",
+          "vascular",
+          "claudication",
+          "pseudoclaudication"
+        ]
+      },
+      {
+        "statement": "Pseudoclaudication can include exertional groin pain.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Pseudoclaudication",
+          "exertional groin pain"
+        ]
+      },
+      {
+        "statement": "Pseudoclaudication can include exertional thigh pain.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Pseudoclaudication",
+          "exertional thigh pain"
+        ]
+      },
+      {
+        "statement": "Pseudoclaudication can include exertional buttock pain.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Pseudoclaudication",
+          "exertional buttock pain"
+        ]
+      },
+      {
+        "statement": "Weakness may be present with pseudoclaudication symptoms.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Weakness",
+          "pseudoclaudication symptoms"
+        ]
+      },
+      {
+        "statement": "Numbness may be present with pseudoclaudication symptoms.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Numbness",
+          "pseudoclaudication symptoms"
+        ]
+      },
+      {
+        "statement": "Patients with vascular claudication usually have vascular risk factors.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "vascular",
+          "claudication",
+          "vascular risk factors"
+        ]
+      },
+      {
+        "statement": "Patients with vascular claudication may have established atherosclerotic disease.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "vascular",
+          "claudication",
+          "established atherosclerotic disease"
+        ]
+      },
+      {
+        "statement": "Patients with spinal stenosis may have concomitant back pain.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "spinal stenosis",
+          "concomitant back pain"
+        ]
+      },
+      {
+        "statement": "Patients with spinal stenosis may have neurologic findings.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "spinal stenosis",
+          "neurologic findings"
+        ]
+      },
+      {
+        "statement": "The pain of vascular claudication tends to resolve much more quickly after rest than that of pseudoclaudication.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "vascular",
+          "claudication",
+          "pseudoclaudication",
+          "resolve much more quickly"
+        ]
+      },
+      {
+        "statement": "The pain of vascular claudication tends to resolve in < 5 minutes after rest.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "vascular",
+          "claudication",
+          "less than 5 minutes",
+          "after rest"
+        ]
+      },
+      {
+        "statement": "A normal resting ankle-brachial index (ABI) makes peripheral artery disease (PAD) much less likely.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "normal",
+          "resting",
+          "ankle-brachial index (ABI)",
+          "peripheral",
+          "artery disease (PAD)"
+        ]
+      },
+      {
+        "statement": "Computed tomography angiography (CTA) is most useful for planning in patients in whom revascularization is planned.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Computed tomography angiography (CTA)",
+          "most useful for planning",
+          "revascularization"
+        ]
+      },
+      {
+        "statement": "Computed tomography angiography (CTA) is not indicated in patients with normal physical examination findings and resting ankle-brachial index (ABI) levels, indicating a very low likelihood of significant peripheral artery disease (PAD).",
+        "extra_field": "Normal physical examination findings and resting ankle-brachial index (ABI) levels indicate a very low likelihood of significant peripheral artery disease (PAD).",
+        "cloze_candidates": [
+          "Computed tomography angiography (CTA)",
+          "not indicated",
+          "normal",
+          "physical examination findings",
+          "resting ankle-brachial index (ABI) levels"
+        ]
+      },
+      {
+        "statement": "Invasive angiography is most commonly performed as part of a revascularization procedure.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Invasive",
+          "angiography",
+          "revascularization procedure"
+        ]
+      },
+      {
+        "statement": "Invasive angiography is not warranted in patients with normal physical examination findings and normal ankle-brachial index (ABI) levels.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Invasive",
+          "angiography",
+          "normal",
+          "physical examination findings",
+          "normal ankle-brachial index (ABI) levels"
+        ]
+      },
+      {
+        "statement": "Toe-brachial index testing may be useful in detecting peripheral artery disease (PAD) in patients who have a noncompressible resting ankle-brachial index (ABI >1.40).",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Toe-brachial index testing",
+          "peripheral",
+          "artery disease (PAD)",
+          "noncompressible resting ankle-brachial index (ABI >1.40)"
+        ]
+      },
+      {
+        "statement": "Toe-brachial index testing may be useful in detecting peripheral artery disease (PAD) in patients with chronic limb-threatening ischemia.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Toe-brachial index testing",
+          "peripheral",
+          "artery disease (PAD)",
+          "chronic limb-threatening ischemia"
+        ]
+      },
+      {
+        "statement": "Chronic limb-threatening ischemia includes ischemic rest pain.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Chronic",
+          "limb-threatening ischemia",
+          "ischemic rest pain"
+        ]
+      },
+      {
+        "statement": "Chronic limb-threatening ischemia includes tissue ulceration.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Chronic",
+          "limb-threatening ischemia",
+          "tissue ulceration"
+        ]
+      },
+      {
+        "statement": "Chronic limb-threatening ischemia includes gangrene.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Chronic",
+          "limb-threatening ischemia",
+          "gangrene"
+        ]
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "Patients with lumbar stenosis may describe symptoms similar to those of vascular claudication (pseudoclaudication).",
+        "extra_field": null,
+        "cloze_candidates": [
+          "lumbar",
+          "stenosis",
+          "vascular",
+          "claudication",
+          "pseudoclaudication"
+        ]
+      },
+      {
+        "statement": "Lumbar stenosis can cause exertional groin, thigh, or buttock pain.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Lumbar",
+          "stenosis",
+          "exertional groin, thigh, or buttock pain"
+        ]
+      },
+      {
+        "statement": "A prolonged duration of pain despite rest suggests pseudoclaudication.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "prolonged duration of pain",
+          "despite rest",
+          "pseudoclaudication"
+        ]
+      },
+      {
+        "statement": "Pain relief with sitting suggests pseudoclaudication.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Pain relief with sitting",
+          "pseudoclaudication"
+        ]
+      },
+      {
+        "statement": "A normal vascular examination suggests pseudoclaudication.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "normal",
+          "vascular examination",
+          "pseudoclaudication"
+        ]
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 0
+  },
+  "validation_pass": true,
+  "nlp_analysis": {
+    "critique": {
+      "entities": [
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "vascular testing",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [
+            "additional",
+            "vascular"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option D",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Exertional lower extremity pain",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "exertional",
+            "lower"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "peripheral artery disease",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "peripheral"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PAD",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "lumbar spinal stenosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "lumbar",
+            "spinal"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "symptoms",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "vascular claudication",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "vascular"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pseudoclaudication",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "exertional groin",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "exertional"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "thigh",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "buttock pain",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Weakness",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "numbness",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "vascular claudication",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "vascular"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "vascular risk factors",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "vascular"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "atherosclerotic disease",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "atherosclerotic"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "spinal stenosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "spinal"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "concomitant",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "concomitant"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "back pain",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "concomitant"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "neurologic findings",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "neurologic"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pain",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "vascular claudication",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "vascular"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "rest",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "minutes",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pseudoclaudication",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "minimal",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "minimal"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "risk factors",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "minimal"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "vascular disease",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "vascular"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "duration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pain",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "consistent with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "consistent"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pseudoclaudication",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ABI",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PAD",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "CT angiography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "CTA",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option A",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "planning",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "revascularization",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "planned",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "CTA",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not indicated",
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "physical examination",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not indicated",
+          "modifiers": [
+            "normal",
+            "physical"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "findings",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ABI",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "levels",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "likelihood",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "low"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "significant",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "significant"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PAD.Likewise",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "significant"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "invasive angiography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "invasive"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option B",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "revascularization",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "procedure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient's",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "physical examination",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "normal",
+            "physical"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "findings",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ABIs",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "normal"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Toe-brachial index testing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "toe-brachial"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option C",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "PAD",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "resting ABI",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "noncompressible"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ABI",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "chronic limb-threatening ischemia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "chronic",
+            "limb-threatening"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ischemic rest pain",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ischemic"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tissue ulceration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "gangrene",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "This patient requires no additional vascular testing (Option D).",
+          "index": 0,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 3
+        },
+        {
+          "text": "Exertional lower extremity pain is often caused by peripheral artery disease (PAD), but some patients with lumbar spinal stenosis describe symptoms similar to those of vascular claudication (pseudoclaudication), with exertional groin, thigh, or buttock pain.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 11
+        },
+        {
+          "text": "Weakness or numbness may also be present.",
+          "index": 2,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 2
+        },
+        {
+          "text": "Patients with vascular claudication usually have vascular risk factors and may have established atherosclerotic disease, whereas patients with spinal stenosis may have concomitant back pain or neurologic findings.",
+          "index": 3,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 9
+        },
+        {
+          "text": "The pain of vascular claudication also tends to resolve much more quickly after rest (<5 minutes) than that of pseudoclaudication.",
+          "index": 4,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 5
+        },
+        {
+          "text": "This patient has minimal risk factors for vascular disease, and the extended duration of pain is most consistent with pseudoclaudication.",
+          "index": 5,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 8
+        },
+        {
+          "text": "Most importantly, her normal resting ankle-brachial index (ABI) makes PAD much less likely.",
+          "index": 6,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 2
+        },
+        {
+          "text": "CT angiography (CTA) (Option A) is most useful for planning in patients in whom revascularization is planned.",
+          "index": 7,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 7
+        },
+        {
+          "text": "CTA is not indicated in this patient with normal physical examination findings and resting ABI levels, indicating a very low likelihood of significant PAD.Likewise, invasive angiography (Option B) is most commonly performed as part of a revascularization procedure.",
+          "index": 8,
+          "has_negation": true,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 13
+        },
+        {
+          "text": "It is not warranted because of the patient's normal physical examination findings and normal ABIs.",
+          "index": 9,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "Toe-brachial index testing (Option C) may be useful in detecting PAD in patients who have a noncompressible resting ABI (ABI >1.40) or in those with chronic limb-threatening ischemia (e.g., ischemic rest pain, tissue ulceration or gangrene).",
+          "index": 10,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 10
+        },
+        {
+          "text": "This patient has neither.",
+          "index": 11,
+          "has_negation": true,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 1
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "no",
+          "start_char": 22,
+          "end_char": 24
+        },
+        {
+          "trigger": "not",
+          "start_char": 1057,
+          "end_char": 1060
+        },
+        {
+          "trigger": "not indicated",
+          "start_char": 1057,
+          "end_char": 1070
+        },
+        {
+          "trigger": "not",
+          "start_char": 1322,
+          "end_char": 1325
+        },
+        {
+          "trigger": "neither",
+          "start_char": 1673,
+          "end_char": 1680
+        }
+      ],
+      "entity_count": 75,
+      "sentence_count": 12,
+      "negation_count": 5
+    },
+    "key_points": {
+      "entities": [
+        {
+          "text": "Patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "lumbar stenosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "lumbar"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "symptoms",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "vascular claudication",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "vascular"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pseudoclaudication",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "exertional groin",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "exertional"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "thigh",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "buttock pain",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prolonged",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "prolonged"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "duration of",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "prolonged"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pain",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "rest",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pain relief with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sitting",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "vascular examination",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "normal",
+            "vascular"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pseudoclaudication",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "Patients with lumbar stenosis may describe symptoms similar to those of vascular claudication (pseudoclaudication), with exertional groin, thigh, or buttock pain; a prolonged duration of pain despite rest, pain relief with sitting, and a normal vascular examination suggest pseudoclaudication.",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 16
+        }
+      ],
+      "negations": [],
+      "entity_count": 16,
+      "sentence_count": 1,
+      "negation_count": 0
+    }
+  }
 }

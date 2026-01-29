@@ -76,5 +76,1438 @@
     "videos": [],
     "svgs": []
   },
-  "extracted_at": "2026-01-01T17:54:36.560979-06:00"
+  "extracted_at": "2026-01-01T17:54:36.560979-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "The most appropriate next step in management is removal of the indwelling urinary catheter.",
+        "extra_field": "Urinary catheterization increases the risk for catheter-associated urinary tract infection (CAUTI).",
+        "cloze_candidates": [
+          "most appropriate next step in management",
+          "removal",
+          "indwelling",
+          "urinary catheter"
+        ]
+      },
+      {
+        "statement": "Urinary catheterization increases the risk for catheter-associated urinary tract infection (CAUTI).",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Urinary catheterization",
+          "risk",
+          "catheter-associated urinary tract infection (CAUTI)"
+        ]
+      },
+      {
+        "statement": "Catheter-associated urinary tract infection (CAUTI) is the most common device-associated, health care–associated infection in the United States.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "catheter-associated urinary tract infection (CAUTI)",
+          "most common",
+          "device-associated, health care–associated infection",
+          "United States"
+        ]
+      },
+      {
+        "statement": "Up to 70% of catheter-associated urinary tract infection (CAUTI) episodes can be prevented.",
+        "extra_field": "The duration of catheterization is the primary modifiable risk factor.",
+        "cloze_candidates": [
+          "Up to 70%",
+          "catheter-associated urinary tract infection (CAUTI) episodes",
+          "prevented"
+        ]
+      },
+      {
+        "statement": "The duration of catheterization is the primary modifiable risk factor for catheter-associated urinary tract infection (CAUTI).",
+        "extra_field": null,
+        "cloze_candidates": [
+          "duration of catheterization",
+          "primary",
+          "modifiable risk factor",
+          "catheter-associated urinary tract infection (CAUTI)"
+        ]
+      },
+      {
+        "statement": "The Choosing Wisely campaign recommends the removal of unnecessary catheters and drains.",
+        "extra_field": "The Choosing Wisely campaign promotes cost-effective strategies that improve patient care and avoid waste and harm.",
+        "cloze_candidates": [
+          "Choosing Wisely campaign",
+          "removal",
+          "unnecessary",
+          "catheters and drains"
+        ]
+      },
+      {
+        "statement": "It is imperative to remove all catheters and drains for which there is not a clear ongoing indication.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "remove all catheters and drains",
+          "clear ongoing indication",
+          "imperative"
+        ]
+      },
+      {
+        "statement": "It is imperative to mobilize the patient after recovery from severe community-acquired pneumonia (CAP) to the point of extubation.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "mobilize the patient",
+          "severe community-acquired pneumonia (CAP)",
+          "extubation"
+        ]
+      },
+      {
+        "statement": "A 5-day course of antibiotics is sufficient for most patients with community-acquired pneumonia (CAP).",
+        "extra_field": null,
+        "cloze_candidates": [
+          "5-day course of antibiotics",
+          "most patients",
+          "community-acquired pneumonia (CAP)"
+        ]
+      },
+      {
+        "statement": "Longer courses of antibiotic therapy are recommended for pneumonia complicated by meningitis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Longer courses of antibiotic therapy",
+          "pneumonia complicated by meningitis"
+        ]
+      },
+      {
+        "statement": "Longer courses of antibiotic therapy are recommended for pneumonia complicated by endocarditis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Longer courses of antibiotic therapy",
+          "pneumonia complicated by endocarditis"
+        ]
+      },
+      {
+        "statement": "Longer courses of antibiotic therapy are recommended for pneumonia complicated by other deep-seated infections.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Longer courses of antibiotic therapy",
+          "pneumonia complicated by other deep-seated infections"
+        ]
+      },
+      {
+        "statement": "Longer courses of antibiotic therapy are recommended for infections with less common pathogens such as Burkholderia pseudomallei.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Longer courses of antibiotic therapy",
+          "less common pathogens",
+          "Burkholderia pseudomallei"
+        ]
+      },
+      {
+        "statement": "Longer courses of antibiotic therapy are recommended for infections with less common pathogens such as Mycobacterium tuberculosis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Longer courses of antibiotic therapy",
+          "less common pathogens",
+          "Mycobacterium tuberculosis"
+        ]
+      },
+      {
+        "statement": "Longer courses of antibiotic therapy are recommended for infections with less common pathogens such as endemic fungi.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Longer courses of antibiotic therapy",
+          "less common pathogens",
+          "endemic fungi"
+        ]
+      },
+      {
+        "statement": "In a patient having an excellent clinical response to ceftriaxone with the achievement of clinical stability in 72 hours, there is no reason to extend the duration of therapy to 10 days.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "excellent clinical response",
+          "ceftriaxone",
+          "clinical stability in 72 hours",
+          "extend the duration of therapy to 10 days"
+        ]
+      },
+      {
+        "statement": "In patients with pneumonia, radiographic improvement typically lags behind clinical improvement.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "radiographic improvement",
+          "clinical improvement",
+          "lags behind"
+        ]
+      },
+      {
+        "statement": "In adults with community-acquired pneumonia (CAP) who are improving, guidelines recommend against obtaining routine follow-up chest imaging.",
+        "extra_field": "Radiographic improvement typically lags behind clinical improvement in patients with pneumonia.",
+        "cloze_candidates": [
+          "adults with community-acquired pneumonia (CAP)",
+          "improving",
+          "guidelines recommend against obtaining routine follow-up chest imaging"
+        ]
+      },
+      {
+        "statement": "In patients with acute hypoxic respiratory failure and bilateral lung infiltrates, evaluation with transthoracic echocardiography can help assess the likelihood of left-sided heart failure.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "acute hypoxic respiratory failure",
+          "bilateral lung infiltrates",
+          "transthoracic echocardiography",
+          "left-sided heart failure"
+        ]
+      },
+      {
+        "statement": "Echocardiography is necessary in patients with a clinical suspicion of endocarditis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Echocardiography",
+          "clinical suspicion of endocarditis"
+        ]
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "In critically ill patients, all catheters and drains for which there is no clear, ongoing indication should be removed as soon as is feasible.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "critically ill patients",
+          "catheters and drains",
+          "no clear, ongoing indication",
+          "removed as soon as is feasible"
+        ]
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 1
+  },
+  "validation_pass": true,
+  "nlp_analysis": {
+    "critique": {
+      "entities": [
+        {
+          "text": "management",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "indwelling urinary catheter",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "urinary"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option D",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "caring",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "critically ill",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ill"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ill"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "urinary catheterization",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "urinary"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increases",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "risk",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "catheter-associated",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "catheter-associated"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "urinary tract infection",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "catheter-associated",
+            "urinary"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "CAUTI",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "CAUTI",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "device-associated",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "common",
+            "device-associated"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "health care",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "infection",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "United States",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "CAUTI",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "episodes",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prevented",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "duration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "catheterization",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "risk factor",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "modifiable"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Choosing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Wisely campaign",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "wisely"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cost-effective",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cost-effective"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient care",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "waste",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "harm",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "recommends",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "removal",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "unnecessary catheters",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "unnecessary"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "drains",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Table",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Choosing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Checklist",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "community-acquired pneumonia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "severe",
+            "community-acquired"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "CAP",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "extubation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "catheters",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "drains",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "indication",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "ongoing"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mobilize",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antibiotics",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "most"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "CAP",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Longer courses",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "longer"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antibiotic therapy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "antibiotic"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pneumonia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "complicated",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "complicated"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "meningitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "endocarditis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "deep-seated infections",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "other",
+            "deep-seated"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "infections",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pathogens",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "common"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Burkholderia pseudomallei",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Mycobacterium tuberculosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "endemic fungi",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "endemic"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical response",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "excellent",
+            "clinical"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ceftriaxone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "achievement",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical stability",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "clinical"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hours",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "duration",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "therapy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "days",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "A).In",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pneumonia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "radiographic",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "radiographic"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "improvement",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "radiographic"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical improvement",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "clinical"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "adults",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "CAP",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "improving",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "guidelines",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option B).In",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "acute",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypoxic",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute",
+            "hypoxic"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hypoxic",
+            "respiratory"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "bilateral",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "bilateral"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "evaluation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "transthoracic echocardiography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "transthoracic"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option C",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "likelihood",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "left-sided heart failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "left-sided"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Echocardiography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical suspicion",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "clinical"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "endocarditis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient's",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical findings",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "clinical"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "microbiologic diagnosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "microbiologic"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "improvement",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ongoing"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antibiotics",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cause",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "presentation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "echocardiography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": " 70%",
+          "entity_type": "QUANTITY",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "CUSTOM_LAB_VALUE"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The most appropriate next step in management in this patient is to remove the indwelling urinary catheter (Option D).",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 4
+        },
+        {
+          "text": "Although often an important component of caring for the critically ill patient, urinary catheterization increases the risk for catheter-associated urinary tract infection (CAUTI).",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "CAUTI is the most common device-associated, health care–associated infection in the United States, but up to 70% of CAUTI episodes can be prevented, with the duration of catheterization being the primary modifiable risk factor.",
+          "index": 2,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 13
+        },
+        {
+          "text": "The Choosing Wisely campaign, which promotes cost-effective strategies that improve patient care and avoid waste and harm, recommends the removal of unnecessary catheters and drains (Table: Society of Critical Care Medicine Choosing Wisely Checklist).",
+          "index": 3,
+          "has_negation": false,
+          "verb_count": 5,
+          "is_complex": true,
+          "entity_count": 13
+        },
+        {
+          "text": "This patient is recovering from severe community-acquired pneumonia (CAP) and has improved to the point of extubation.",
+          "index": 4,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 4
+        },
+        {
+          "text": "It is imperative to remove all catheters and drains for which there is not a clear ongoing indication and to mobilize the patient.",
+          "index": 5,
+          "has_negation": true,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 5
+        },
+        {
+          "text": "A 5-day course of antibiotics is sufficient for most patients with CAP.",
+          "index": 6,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 3
+        },
+        {
+          "text": "Longer courses of antibiotic therapy are recommended for (1) pneumonia complicated by meningitis, endocarditis, and other deep-seated infections and (2) infections with less common pathogens (e.g., Burkholderia pseudomallei, Mycobacterium tuberculosis, endemic fungi).",
+          "index": 7,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 12
+        },
+        {
+          "text": "In a patient having an excellent clinical response to ceftriaxone with the achievement of clinical stability in 72 hours, there is no reason to extend the duration of therapy to 10 days (Option A).In patients with pneumonia, radiographic improvement typically lags behind clinical improvement.",
+          "index": 8,
+          "has_negation": true,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 15
+        },
+        {
+          "text": "In adults with CAP who are improving, guidelines recommend against obtaining routine follow-up chest imaging (Option B).In patients with acute hypoxic respiratory failure and bilateral lung infiltrates, evaluation with transthoracic echocardiography (Option C) can help assess the likelihood of left-sided heart failure.",
+          "index": 9,
+          "has_negation": false,
+          "verb_count": 5,
+          "is_complex": true,
+          "entity_count": 15
+        },
+        {
+          "text": "Echocardiography is also necessary in patients with a clinical suspicion of endocarditis.",
+          "index": 10,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "However, this patient's clinical findings, established microbiologic diagnosis, and ongoing improvement with antibiotics strongly argue against a cardiac cause of his presentation, and echocardiography is unnecessary.",
+          "index": 11,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 9
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "not",
+          "start_char": 968,
+          "end_char": 971
+        },
+        {
+          "trigger": "no",
+          "start_char": 1499,
+          "end_char": 1501
+        }
+      ],
+      "entity_count": 106,
+      "sentence_count": 12,
+      "negation_count": 2
+    },
+    "key_points": {
+      "entities": [
+        {
+          "text": "ill",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ill"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ill"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "catheters",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "drains",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "indication",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [
+            "ongoing"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "In critically ill patients, all catheters and drains for which there is no clear, ongoing indication should be removed as soon as is feasible.",
+          "index": 0,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 5
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "no",
+          "start_char": 72,
+          "end_char": 74
+        }
+      ],
+      "entity_count": 5,
+      "sentence_count": 1,
+      "negation_count": 1
+    }
+  }
 }

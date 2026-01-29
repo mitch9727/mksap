@@ -59,5 +59,1602 @@
     "videos": []
   },
   "media_metadata": null,
-  "extracted_at": "2026-01-01T17:54:36.411083-06:00"
+  "extracted_at": "2026-01-01T17:54:36.411083-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "The most appropriate management for hypoxemia due to atelectasis is pain control with increased oxycodone.",
+        "extra_field": "Post-op atelectasis is usually from hypoventilation and poor cough due to pain, leading to alveolar collapse and V/Q mismatch. Adequate analgesia lets the patient take deep breaths, cough, and mobilize—recruiting collapsed alveoli and improving oxygenation. Memory aid: “Open the lung by opening the chest”—control pain to restore mechanics.",
+        "cloze_candidates": [
+          "hypoxemia",
+          "atelectasis",
+          "pain control",
+          "increased oxycodone"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Atelectasis is reported to occur in up to 90% of all anesthetized patients.",
+        "extra_field": "General anesthesia reduces FRC and causes airway closure with absorption of alveolar gas, so collapse is common and often physiologic. Clinically, this high baseline incidence means mild hypoxemia immediately post‑op is often atelectasis rather than infection. Memory aid: “Anesthesia closes airways.”",
+        "cloze_candidates": [
+          "Atelectasis",
+          "up to 90%",
+          "anesthetized patients"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Atelectasis may persist for several days following surgery.",
+        "extra_field": "Collapsed segments can remain unrecruited until pain control and mobilization restore effective ventilation and cough. This means hypoxemia can persist for days unless you actively intervene with lung expansion strategies. Memory aid: “No deep breaths, no reopening.”",
+        "cloze_candidates": [
+          "Atelectasis",
+          "several days",
+          "following surgery"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Atelectasis can result from impaired respiratory mechanics after thoracic and abdominal surgeries that lead to shallow breathing patterns and avoidance of coughing.",
+        "extra_field": "Incisional pain splints the chest/abdomen, limiting diaphragmatic excursion and cough; secretions then accumulate and airways close. Clinically, this directs early management toward analgesia, incentive spirometry, and mobilization rather than antibiotics. Memory aid: “Splinting → shallow → collapse.”",
+        "cloze_candidates": [
+          "impaired respiratory mechanics",
+          "thoracic and abdominal surgeries",
+          "shallow breathing patterns",
+          "avoidance of coughing"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with atelectasis may be asymptomatic.",
+        "extra_field": "Small areas of collapse can be clinically silent yet still impair gas exchange. This is why routine post‑op monitoring and early lung expansion are important even without symptoms. Memory aid: “Silent collapse.”",
+        "cloze_candidates": [
+          "atelectasis",
+          "asymptomatic"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with atelectasis may present with labored breathing.",
+        "extra_field": "Large or bilateral collapse increases work of breathing because the patient must generate higher pressures to ventilate fewer open units. Clinically, labored breathing suggests significant atelectasis needing aggressive recruitment (analgesia, CPAP, physio). Memory aid: “Collapsed lung, heavy breathing.”",
+        "cloze_candidates": [
+          "atelectasis",
+          "labored breathing"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with atelectasis may present with diminished breath sounds at the lung bases.",
+        "extra_field": "Airless lung transmits less sound, especially at dependent bases where collapse is common post‑op. On exam, this helps localize atelectasis and differentiate from diffuse processes. Memory aid: “Bases go quiet.”",
+        "cloze_candidates": [
+          "atelectasis",
+          "diminished breath sounds",
+          "lung bases"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with atelectasis may present with egophony.",
+        "extra_field": "Collapsed or consolidated lung transmits higher‑frequency sounds, producing egophony over affected areas. Clinically, egophony supports anatomic consolidation but must be interpreted with the rest of the picture. Memory aid: “E to A = solid lung.”",
+        "cloze_candidates": [
+          "atelectasis",
+          "egophony"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with atelectasis may present with rhonchi.",
+        "extra_field": "Rhonchi reflect airway secretions and partial obstruction, which often accompany post‑op atelectasis. This points toward secretion clearance strategies (hydration, chest physio, suctioning) rather than bronchodilators alone. Memory aid: “Rhonchi = gunk.”",
+        "cloze_candidates": [
+          "atelectasis",
+          "rhonchi"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with atelectasis may present with consolidation on imaging.",
+        "extra_field": "Atelectasis can appear as areas of increased density with volume loss, sometimes resembling consolidation. Clinically, look for signs like mediastinal shift or diaphragmatic elevation to favor collapse over pneumonia. Memory aid: “White plus volume loss.”",
+        "cloze_candidates": [
+          "atelectasis",
+          "consolidation on imaging"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Atelectasis is associated with increased morbidity.",
+        "extra_field": "Collapsed lung impairs oxygenation and predisposes to secretion retention and infection. Clinically, this justifies proactive prevention (analgesia, mobilization, spirometry) rather than waiting for complications. Memory aid: “Collapse begets complications.”",
+        "cloze_candidates": [
+          "Atelectasis",
+          "increased morbidity"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Atelectasis-associated morbidity includes hypoxemia.",
+        "extra_field": "Atelectasis causes V/Q mismatch with perfusion to non‑ventilated units, leading to hypoxemia that may not fully correct with low‑flow oxygen. This guides escalation to lung expansion measures or positive pressure. Memory aid: “Shunt causes low O2.”",
+        "cloze_candidates": [
+          "Atelectasis-associated morbidity",
+          "hypoxemia"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Atelectasis-associated morbidity includes retained secretions.",
+        "extra_field": "Poor cough and shallow breathing reduce mucus clearance, so secretions pool and plug airways, worsening collapse. Clinically, prioritize hydration, mobilization, and airway clearance. Memory aid: “Stasis = secretions.”",
+        "cloze_candidates": [
+          "Atelectasis-associated morbidity",
+          "retained secretions"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Atelectasis-associated morbidity includes pneumonia.",
+        "extra_field": "Retained secretions and poor ventilation create an environment for bacterial growth, leading to post‑op pneumonia. Early reversal of atelectasis lowers this risk. Memory aid: “Collapsed lung seeds infection.”",
+        "cloze_candidates": [
+          "Atelectasis-associated morbidity",
+          "pneumonia"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Early management of atelectasis should focus on pain control.",
+        "extra_field": "Pain limits inspiratory depth and cough, which are key to re‑expanding alveoli. Clinically, multimodal analgesia (opioid + non‑opioid) is first‑line to enable effective lung expansion. Memory aid: “No pain control, no deep breath.”",
+        "cloze_candidates": [
+          "Early management of atelectasis",
+          "pain control"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Early management of atelectasis should focus on mobility.",
+        "extra_field": "Ambulation increases tidal volumes and diaphragmatic motion, helping recruit atelectatic areas and clear secretions. Clinically, early mobilization is as important as oxygen therapy. Memory aid: “Move to move air.”",
+        "cloze_candidates": [
+          "Early management of atelectasis",
+          "mobility"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Early management of atelectasis should focus on secretion management.",
+        "extra_field": "Plugged bronchi prevent ventilation of distal units, perpetuating collapse. Clinically, use incentive spirometry, chest physiotherapy, hydration, and suctioning when needed. Memory aid: “Clear the plug, reopen the lung.”",
+        "cloze_candidates": [
+          "Early management of atelectasis",
+          "secretion management"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Postoperative pain is causing shallow breathing.",
+        "extra_field": "Pain causes splinting and shallow breaths, reducing alveolar ventilation and promoting closure at the bases. Clinically, this explains why oxygen alone is insufficient unless the mechanics are corrected. Memory aid: “Pain → shallow.”",
+        "cloze_candidates": [
+          "Postoperative pain",
+          "shallow breathing"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Postoperative pain is limiting mobility.",
+        "extra_field": "Pain reduces mobility, which decreases overall ventilation and cough effectiveness. Clinically, this supports aggressive mobilization plans once analgesia is adequate. Memory aid: “Pain keeps patients in bed.”",
+        "cloze_candidates": [
+          "Postoperative pain",
+          "limiting mobility"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Management of atelectasis should focus on its cause.",
+        "extra_field": "Atelectasis is usually mechanical (low volumes, obstruction), so treating the mechanism reopens lung units and corrects hypoxemia. Clinically, this prevents overuse of antibiotics or bronchodilators when not indicated. Memory aid: “Fix the mechanics, fix the oxygen.”",
+        "cloze_candidates": [
+          "Management of atelectasis",
+          "its cause"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In addition to pain control, chest physiotherapy should be provided as soon as it can be tolerated.",
+        "extra_field": "Chest physiotherapy (breathing exercises, mobilization, airway clearance) directly addresses the collapse and secretion stasis once the patient can tolerate it. Clinically, start early to prevent progression to infection. Memory aid: “PT = pulmonary therapy.”",
+        "cloze_candidates": [
+          "pain control",
+          "chest physiotherapy",
+          "as soon as it can be tolerated"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Naloxone is used to reverse the respiratory depressive effects of opioid therapy.",
+        "extra_field": "Naloxone is a competitive opioid antagonist that reverses opioid‑induced respiratory depression. Clinically, use it when hypoventilation is present, titrating to restore ventilation while avoiding complete analgesia reversal. Memory aid: “Narcan = NARcotic CANcel.”",
+        "cloze_candidates": [
+          "Naloxone",
+          "reverse",
+          "respiratory depressive effects",
+          "opioid therapy"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Naloxone is inappropriate in a patient with uncontrolled pain who is not hypoventilating.",
+        "extra_field": "If a patient is breathing adequately, reversing opioids removes analgesia, leading to splinting and worse atelectasis. Clinically, avoid naloxone unless there is true respiratory depression. Memory aid: “Don’t undo the pain control.”",
+        "cloze_candidates": [
+          "Naloxone",
+          "inappropriate",
+          "uncontrolled pain",
+          "not hypoventilating"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "For patients with atelectasis who do not respond to pain control and chest physiotherapy, suctioning may be of some value.",
+        "extra_field": "When basic measures fail, mucus plugging may be the limiting factor; suctioning can remove proximal secretions and improve ventilation. Clinically, consider suctioning when rhonchi and poor cough suggest retained secretions. Memory aid: “Suction for plugs.”",
+        "cloze_candidates": [
+          "atelectasis",
+          "pain control",
+          "chest physiotherapy",
+          "suctioning"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "For patients with atelectasis who do not respond to pain control and chest physiotherapy, bronchoscopy may be of some value.",
+        "extra_field": "Bronchoscopy can directly remove obstructing mucus plugs from larger bronchi, allowing distal re‑expansion. Clinically, reserve it for refractory cases after noninvasive measures. Memory aid: “Scope for stubborn plugs.”",
+        "cloze_candidates": [
+          "atelectasis",
+          "pain control",
+          "chest physiotherapy",
+          "bronchoscopy"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Suctioning and bronchoscopy may be of some value particularly if secretions are tenacious and abundant.",
+        "extra_field": "Thick, abundant secretions are harder to clear with coughing alone and are more likely to obstruct airways. This supports escalation to suctioning or bronchoscopy when standard clearance fails. Memory aid: “Tenacious secretions need tools.”",
+        "cloze_candidates": [
+          "Suctioning",
+          "bronchoscopy",
+          "tenacious",
+          "abundant"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Bronchoscopy is not indicated in a patient who has yet to receive the most basic treatments for atelectasis.",
+        "extra_field": "Atelectasis is usually reversible with analgesia, mobilization, and physiotherapy; bronchoscopy is invasive and unnecessary early. Clinically, confirm failure of basic therapy before escalating. Memory aid: “Basics before bronchoscopy.”",
+        "cloze_candidates": [
+          "Bronchoscopy",
+          "not indicated",
+          "most basic treatments for atelectasis"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Chest physiotherapy includes inspiratory muscle training.",
+        "extra_field": "Inspiratory muscle training strengthens diaphragmatic effort and improves lung expansion. Clinically, this can aid recovery in patients with weak respiratory mechanics. Memory aid: “Train to inhale.”",
+        "cloze_candidates": [
+          "Chest physiotherapy",
+          "inspiratory muscle training"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Chest physiotherapy includes deep breathing exercise.",
+        "extra_field": "Deep breathing increases transpulmonary pressure, reopening collapsed alveoli and improving oxygenation. Clinically, incentive spirometry formalizes this and reduces atelectasis risk. Memory aid: “Deep breaths open lungs.”",
+        "cloze_candidates": [
+          "Chest physiotherapy",
+          "deep breathing exercise"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Chest physiotherapy includes mobility programs.",
+        "extra_field": "Mobilization increases tidal volume, cough effectiveness, and secretion clearance. Clinically, early ambulation is a core preventive and therapeutic intervention. Memory aid: “Up and out of bed = up and out of collapse.”",
+        "cloze_candidates": [
+          "Chest physiotherapy",
+          "mobility programs"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Chest physiotherapy includes percussion and vibration therapy.",
+        "extra_field": "Percussion/vibration helps mobilize secretions from peripheral airways into the central airways for clearance. Clinically, use when secretions are significant and cough is ineffective. Memory aid: “Shake it loose.”",
+        "cloze_candidates": [
+          "Chest physiotherapy",
+          "percussion and vibration therapy"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In a patient with no clinical features of pneumonia such as fever or cough, consolidation on radiograph can be attributed to atelectasis.",
+        "extra_field": "Radiographic consolidation can reflect collapse rather than infection; absence of fever or cough makes pneumonia less likely. Clinically, this prevents unnecessary antibiotics and focuses care on lung expansion. Memory aid: “No symptoms, think atelectasis.”",
+        "cloze_candidates": [
+          "no clinical features of pneumonia",
+          "fever or cough",
+          "consolidation on radiograph",
+          "atelectasis"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Initiating antibiotics, such as levofloxacin, would be inappropriate when consolidation is attributed to atelectasis and there are no clinical features of pneumonia.",
+        "extra_field": "Antibiotics target infection, not mechanical collapse; using them without clinical evidence of pneumonia adds risk without benefit. Clinically, reserve antibiotics for systemic signs or supportive cultures. Memory aid: “Treat bugs, not collapse.”",
+        "cloze_candidates": [
+          "Initiating antibiotics",
+          "levofloxacin",
+          "inappropriate",
+          "consolidation",
+          "atelectasis"
+        ],
+        "final_clozes": []
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "Postoperative atelectasis is associated with increased morbidity, including hypoxemia.",
+        "extra_field": "Atelectasis causes alveolar collapse, creating low V/Q or shunt physiology that impairs oxygen diffusion and leads to hypoxemia. Clinically, think “post-op O2 drop” and respond with lung expansion strategies (incentive spirometry, deep breathing) rather than just increasing FiO2. Memory aid: “Collapsed sacs can’t exchange gas.”",
+        "cloze_candidates": [
+          "Postoperative atelectasis",
+          "increased morbidity",
+          "hypoxemia"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Postoperative atelectasis is associated with increased morbidity, including retained secretions.",
+        "extra_field": "Collapsed or poorly ventilated segments reduce mucociliary clearance and cough effectiveness, so secretions pool in dependent areas. This matters because retained secretions increase obstruction and perpetuate atelectasis—cycle of collapse → mucus → more collapse. Memory aid: “Stasis breeds slime.”",
+        "cloze_candidates": [
+          "Postoperative atelectasis",
+          "increased morbidity",
+          "retained secretions"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Postoperative atelectasis is associated with increased morbidity, including pneumonia.",
+        "extra_field": "Atelectatic areas are poorly aerated but still perfused, making them a fertile environment for bacterial growth and aspiration-related infection. Clinically, treat atelectasis early to prevent progression to pneumonia, especially in older or immobile patients. Memory aid: “Closed rooms grow mold.”",
+        "cloze_candidates": [
+          "Postoperative atelectasis",
+          "increased morbidity",
+          "pneumonia"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Postoperative atelectasis may trigger the development of acute lung injury.",
+        "extra_field": "Atelectasis can promote inflammatory injury from repetitive alveolar opening/closing (atelectrauma) and regional overdistension of open units. This can tip susceptible patients toward acute lung injury/ARDS, so preventing collapse is part of lung-protective care. Memory aid: “Snap-open lungs get hurt.”",
+        "cloze_candidates": [
+          "Postoperative atelectasis",
+          "acute lung injury"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Postoperative atelectasis is best managed with pain control, secretion management, and early mobility.",
+        "extra_field": "Pain limits deep breaths and coughing, so analgesia restores ventilation; secretion management clears obstructing mucus; early ambulation increases lung expansion and diaphragmatic excursion. Clinically, combine multimodal analgesia, incentive spirometry, and mobilization rather than relying on oxygen alone. Memory aid: “Breathe, clear, and move.”",
+        "cloze_candidates": [
+          "Postoperative atelectasis",
+          "pain control",
+          "secretion management",
+          "early mobility"
+        ],
+        "final_clozes": []
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 0
+  },
+  "validation_pass": true,
+  "nlp_analysis": {
+    "critique": {
+      "entities": [
+        {
+          "text": "management",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "appropriate"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypoxemia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "atelectasis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pain control",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increased",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "oxycodone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option C",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Atelectasis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "anesthetized",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "days",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "several"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "surgery",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Atelectasis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "impaired",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "impaired"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory mechanics",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "impaired",
+            "respiratory"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "thoracic",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "abdominal surgeries",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "abdominal"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "shallow breathing patterns",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "avoidance",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "coughing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "asymptomatic",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "asymptomatic"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diminished",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "breath sounds",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "lung bases",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "egophony",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "rhonchi",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "consolidation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "imaging",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Atelectasis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increased",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "morbidity",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypoxemia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "retained",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "retained"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "secretions",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "retained"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pneumonia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Early management",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "early"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pain control",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mobility",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "secretion management",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient's",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "postoperative pain",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "postoperative"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "shallow breathing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "shallow"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "limiting",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mobility",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Management",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "atelectasis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cause",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increase",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "oxycodone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pain control",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "chest physiotherapy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tolerated",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Naloxone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "reverse",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "respiratory"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "opioid therapy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "uncontrolled",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "uncontrolled"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pain",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "uncontrolled"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypoventilating",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "atelectasis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pain control",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "chest physiotherapy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "inspiratory muscle training",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "inspiratory"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "deep breathing exercise",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "deep"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mobility programs",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "percussion",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "vibration therapy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "suctioning",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "bronchoscopy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option B",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "secretions",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tenacious",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "tenacious"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "abundant",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "abundant"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Bronchoscopy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not indicated",
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "treatments",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "basic"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical features",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [
+            "clinical"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pneumonia",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "fever",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cough",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "consolidation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "radiograph",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "atelectasis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antibiotics",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "levofloxacin",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option D",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "inappropriate",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "inappropriate"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": " 90%",
+          "entity_type": "QUANTITY",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "CUSTOM_LAB_VALUE"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The most appropriate management for this patient with hypoxemia due to atelectasis is pain control with increased oxycodone (Option C).",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 8
+        },
+        {
+          "text": "Atelectasis is reported to occur in up to 90% of all anesthetized patients and may persist for several days following surgery.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 5,
+          "is_complex": true,
+          "entity_count": 6
+        },
+        {
+          "text": "Atelectasis can result from impaired respiratory mechanics after thoracic and abdominal surgeries that lead to shallow breathing patterns and avoidance of coughing.",
+          "index": 2,
+          "has_negation": false,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 8
+        },
+        {
+          "text": "Patients may be asymptomatic or present with labored breathing, diminished breath sounds at the lung bases, egophony, rhonchi, and consolidation on imaging.",
+          "index": 3,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "Atelectasis is associated with increased morbidity, including hypoxemia, retained secretions, and pneumonia.",
+          "index": 4,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 8
+        },
+        {
+          "text": "Early management should focus on pain control, mobility, and secretion management.",
+          "index": 5,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "This patient's postoperative pain is causing shallow breathing and limiting her mobility.",
+          "index": 6,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 5
+        },
+        {
+          "text": "Management of her atelectasis should focus on its cause, so an increase in her oxycodone is appropriate.",
+          "index": 7,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 5
+        },
+        {
+          "text": "In addition to pain control, she should have chest physiotherapy as soon as it can be tolerated.",
+          "index": 8,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 3
+        },
+        {
+          "text": "Naloxone (Option A) is used to reverse the respiratory depressive effects of opioid therapy, but it would be an inappropriate choice in this patient with uncontrolled pain who is not hypoventilating.",
+          "index": 9,
+          "has_negation": true,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 8
+        },
+        {
+          "text": "For patients with atelectasis who do not respond to pain control and chest physiotherapy (inspiratory muscle training, deep breathing exercise, mobility programs, or percussion and vibration therapy), suctioning and bronchoscopy (Option B) may be of some value, particularly if secretions are tenacious and abundant.",
+          "index": 10,
+          "has_negation": true,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 15
+        },
+        {
+          "text": "Bronchoscopy is not indicated in this patient, who has yet to receive the most basic treatments.",
+          "index": 11,
+          "has_negation": true,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 3
+        },
+        {
+          "text": "This patient has no clinical features of pneumonia, such as fever or cough, and the consolidation on radiograph can be attributed to atelectasis.",
+          "index": 12,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 8
+        },
+        {
+          "text": "Thus, initiating antibiotics, such as levofloxacin (Option D), would be inappropriate.",
+          "index": 13,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "not",
+          "start_char": 1247,
+          "end_char": 1250
+        },
+        {
+          "trigger": "not",
+          "start_char": 1304,
+          "end_char": 1307
+        },
+        {
+          "trigger": "not",
+          "start_char": 1600,
+          "end_char": 1603
+        },
+        {
+          "trigger": "not indicated",
+          "start_char": 1600,
+          "end_char": 1613
+        },
+        {
+          "trigger": "no",
+          "start_char": 1697,
+          "end_char": 1699
+        }
+      ],
+      "entity_count": 94,
+      "sentence_count": 14,
+      "negation_count": 5
+    },
+    "key_points": {
+      "entities": [
+        {
+          "text": "Postoperative",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "postoperative"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "atelectasis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "postoperative"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increased",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "morbidity",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypoxemia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "retained",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "retained"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "secretions",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "retained"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pneumonia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "development",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "acute lung injury",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Postoperative atelectasis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "postoperative"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pain control",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "secretion management",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "early mobility",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "early"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "Postoperative atelectasis is associated with increased morbidity, including hypoxemia, retained secretions, and pneumonia and may trigger the development of acute lung injury.",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 11
+        },
+        {
+          "text": "Postoperative atelectasis is best managed with pain control, secretion management, and early mobility.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        }
+      ],
+      "negations": [],
+      "entity_count": 15,
+      "sentence_count": 2,
+      "negation_count": 0
+    }
+  }
 }

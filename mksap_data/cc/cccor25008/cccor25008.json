@@ -75,5 +75,1812 @@
     "videos": [],
     "svgs": []
   },
-  "extracted_at": "2026-01-01T17:54:36.406980-06:00"
+  "extracted_at": "2026-01-01T17:54:36.406980-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "Neuroleptic malignant syndrome (NMS) is the most likely diagnosis in this critique.",
+        "extra_field": "NMS reflects dopamine D2 blockade in the CNS, causing impaired thermoregulation, rigidity, and autonomic instability. Clinically, this is a time‑critical diagnosis when a patient on dopamine antagonists develops fever + rigidity + altered mental status. Memory aid: “FEVER + RIGID + D2 blocked = NMS.”",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome (NMS)",
+          "most likely diagnosis"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Neuroleptic malignant syndrome (NMS) is an idiosyncratic response.",
+        "extra_field": "Idiosyncratic means unpredictable and not dose‑dependent, likely related to individual susceptibility in dopamine pathways. Clinically, you cannot “test” for risk—any exposure can trigger it, so maintain vigilance early after starting or changing meds. Memory aid: “NMS = Not My Schedule” (not predictable).",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome (NMS)",
+          "idiosyncratic response"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Neuroleptic malignant syndrome (NMS) is classically associated with the use of first-generation antipsychotic agents such as haloperidol.",
+        "extra_field": "High‑potency first‑generation antipsychotics (e.g., haloperidol) strongly block D2 receptors, driving rigidity and hyperthermia. Clinically, these drugs are classic triggers and should be the first meds you stop when NMS is suspected. Memory aid: “Haldol = Hard muscles.”",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome (NMS)",
+          "first-generation",
+          "antipsychotic agents",
+          "haloperidol"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Neuroleptic malignant syndrome (NMS) is also seen with newer-generation antipsychotics.",
+        "extra_field": "Second‑generation agents still block D2 (though less), so NMS can still occur. Clinically, don’t dismiss NMS just because the patient is on “atypical” antipsychotics. Memory aid: “Atypical ≠ exempt.”",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome (NMS)",
+          "newer-generation",
+          "antipsychotics"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Neuroleptic malignant syndrome (NMS) is also seen with antiemetics.",
+        "extra_field": "Antiemetics like metoclopramide and prochlorperazine also antagonize D2 receptors in the CNS. Clinically, NMS can arise in non‑psychiatric settings (e.g., post‑op nausea treatment). Memory aid: “D2 blockers anywhere can cause NMS.”",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome (NMS)",
+          "antiemetics"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Neuroleptic malignant syndrome (NMS) is more common at times of medication initiation.",
+        "extra_field": "Early exposure may rapidly unmask dopamine blockade effects before the body adapts. Clinically, the highest vigilance is in the first days to weeks after starting therapy. Memory aid: “New start = new risk.”",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome (NMS)",
+          "medication initiation"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Neuroleptic malignant syndrome (NMS) is more common at times of dose escalation.",
+        "extra_field": "Dose increases intensify dopamine blockade and can precipitate abrupt physiologic dysregulation. Clinically, recent up‑titration is a key clue in the history. Memory aid: “Up the dose, up the danger.”",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome (NMS)",
+          "dose escalation"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Neuroleptic malignant syndrome (NMS) can occur after prolonged use.",
+        "extra_field": "Chronic exposure can still lead to NMS, likely due to cumulative stress, dehydration, or intercurrent illness tipping balance. Clinically, don’t exclude NMS just because the patient has been stable for months. Memory aid: “NMS can strike late.”",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome (NMS)",
+          "prolonged use"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The diagnosis of neuroleptic malignant syndrome (NMS) is made clinically.",
+        "extra_field": "There is no single definitive test; diagnosis rests on clinical constellation and medication exposure. Clinically, prompt recognition and treatment matter more than waiting for labs. Memory aid: “See it, treat it.”",
+        "cloze_candidates": [
+          "diagnosis of neuroleptic malignant syndrome (NMS)",
+          "made clinically"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Neuroleptic malignant syndrome (NMS) is characterized by mental status changes.",
+        "extra_field": "Dopamine blockade in the brain causes encephalopathy ranging from confusion to stupor. Clinically, altered mental status with rigidity and fever in a patient on D2 blockers is highly suggestive. Memory aid: “Mind altered in NMS.”",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome (NMS)",
+          "mental status changes"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Neuroleptic malignant syndrome (NMS) is characterized by high fever.",
+        "extra_field": "Thermoregulatory failure and increased muscle activity generate severe hyperthermia. Clinically, high fever helps distinguish NMS from many other drug reactions. Memory aid: “NMS = Nuclear‑level temperature.”",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome (NMS)",
+          "high fever"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Neuroleptic malignant syndrome (NMS) is characterized by muscle rigidity described as “lead pipe” rigidity.",
+        "extra_field": "Severe generalized rigidity results from dopaminergic inhibition of basal ganglia pathways, giving “lead‑pipe” tone. Clinically, rigidity is a key differentiator from serotonin syndrome (which favors clonus). Memory aid: “Lead‑pipe = NMS.”",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome (NMS)",
+          "muscle rigidity",
+          "“lead pipe” rigidity"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Neuroleptic malignant syndrome (NMS) is characterized by dysautonomia.",
+        "extra_field": "Autonomic instability reflects hypothalamic dysregulation and muscle‑driven heat stress, causing labile BP, tachycardia, and diaphoresis. Clinically, dysautonomia signals severity and need for ICU‑level monitoring. Memory aid: “NMS = Nervous system in chaos.”",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome (NMS)",
+          "dysautonomia"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Common laboratory abnormalities in neuroleptic malignant syndrome (NMS) include leukocytosis.",
+        "extra_field": "Leukocytosis is a stress response from systemic inflammation and muscle injury, not necessarily infection. Clinically, it can mislead clinicians toward sepsis; interpret in context of drug exposure and rigidity. Memory aid: “WBC up from stress, not just bugs.”",
+        "cloze_candidates": [
+          "neuroleptic malignant syndrome (NMS)",
+          "leukocytosis"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Common laboratory abnormalities in neuroleptic malignant syndrome (NMS) include an elevated serum creatine kinase level.",
+        "extra_field": "CK rises from rhabdomyolysis due to sustained muscle rigidity. Clinically, CK helps confirm muscle breakdown and guides renal‑protective management. Memory aid: “Rigid muscles = CK surge.”",
+        "cloze_candidates": [
+          "neuroleptic malignant syndrome (NMS)",
+          "elevated serum creatine kinase level"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The elevated serum creatine kinase level in neuroleptic malignant syndrome (NMS) may be striking.",
+        "extra_field": "CK can reach very high levels because rigidity is continuous and diffuse. Clinically, extreme CK warns of renal failure risk and need for aggressive fluids. Memory aid: “Sky‑high CK = severe NMS.”",
+        "cloze_candidates": [
+          "elevated serum creatine kinase level",
+          "neuroleptic malignant syndrome (NMS)"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Mortality in neuroleptic malignant syndrome (NMS) may exceed 10%.",
+        "extra_field": "Mortality reflects complications like rhabdomyolysis, renal failure, arrhythmias, and hyperthermia. Clinically, this justifies rapid discontinuation of triggers and ICU care. Memory aid: “Treat fast to keep NMS <10%.”",
+        "cloze_candidates": [
+          "Mortality",
+          "exceed 10%"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Treatment of neuroleptic malignant syndrome (NMS) includes stopping the triggering agent.",
+        "extra_field": "Stopping D2 blockade removes the primary trigger of dysregulation. Clinically, this is the first and most important intervention. Memory aid: “First step: stop the block.”",
+        "cloze_candidates": [
+          "Treatment of neuroleptic malignant syndrome (NMS)",
+          "stopping the triggering agent"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Treatment of neuroleptic malignant syndrome (NMS) includes active cooling.",
+        "extra_field": "Hyperthermia is a major driver of end‑organ damage; active cooling counters excessive heat production. Clinically, use external cooling methods early while treating the cause. Memory aid: “Cool the furnace.”",
+        "cloze_candidates": [
+          "Treatment of neuroleptic malignant syndrome (NMS)",
+          "active cooling"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Treatment of neuroleptic malignant syndrome (NMS) includes supportive care.",
+        "extra_field": "Supportive care addresses complications—airway, hemodynamics, renal protection, and electrolyte disturbances. Clinically, outcomes hinge on meticulous supportive management alongside drug cessation. Memory aid: “Support saves.”",
+        "cloze_candidates": [
+          "Treatment of neuroleptic malignant syndrome (NMS)",
+          "supportive care"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Supportive care for neuroleptic malignant syndrome (NMS) includes intravenous fluid administration.",
+        "extra_field": "IV fluids prevent and treat rhabdomyolysis‑related kidney injury and support hemodynamics. Clinically, aggressive hydration is standard unless contraindicated. Memory aid: “Fluids flush CK.”",
+        "cloze_candidates": [
+          "Supportive care",
+          "intravenous fluid administration"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Quetiapine is a second-generation antipsychotic.",
+        "extra_field": "Quetiapine is an atypical (second‑generation) antipsychotic with mixed D2/5‑HT2 effects. Clinically, it can still cause NMS, so don’t overlook it as a trigger. Memory aid: “Q = ‘Quiet’ D2, but not zero.”",
+        "cloze_candidates": [
+          "Quetiapine",
+          "second-generation",
+          "antipsychotic"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Metoclopramide has dopamine antagonistic properties.",
+        "extra_field": "Metoclopramide blocks D2 receptors in the chemoreceptor trigger zone and GI tract. Clinically, this dopamine antagonism explains extrapyramidal symptoms and NMS risk. Memory aid: “Metoclopramide = D2 blocker.”",
+        "cloze_candidates": [
+          "Metoclopramide",
+          "dopamine antagonistic properties"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Metoclopramide is associated with neuroleptic malignant syndrome (NMS).",
+        "extra_field": "Because it is a D2 antagonist, metoclopramide can precipitate NMS even when used for nausea or gastroparesis. Clinically, consider NMS in non‑psychiatric patients receiving it. Memory aid: “Nausea med, neuroleptic risk.”",
+        "cloze_candidates": [
+          "Metoclopramide",
+          "neuroleptic malignant syndrome (NMS)"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with anticholinergic toxicity may present with encephalopathy.",
+        "extra_field": "Central anticholinergic effects impair cognition and attention, leading to delirium. Clinically, encephalopathy with dry skin and mydriasis points toward anticholinergic toxicity. Memory aid: “Mad as a hatter.”",
+        "cloze_candidates": [
+          "anticholinergic toxicity",
+          "encephalopathy"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with anticholinergic toxicity may present with fever.",
+        "extra_field": "Anhidrosis prevents heat dissipation, so body temperature rises. Clinically, fever with dry skin suggests anticholinergic toxicity rather than NMS or serotonin syndrome. Memory aid: “Hot and dry = anticholinergic.”",
+        "cloze_candidates": [
+          "anticholinergic toxicity",
+          "fever"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In anticholinergic toxicity, diaphoresis is not a typical feature.",
+        "extra_field": "Anticholinergic blockade suppresses sweating, so patients are typically dry, not diaphoretic. Clinically, diaphoresis favors NMS or serotonin syndrome instead. Memory aid: “Can’t sweat with anticholinergics.”",
+        "cloze_candidates": [
+          "anticholinergic toxicity",
+          "diaphoresis"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In anticholinergic toxicity, muscle rigidity is not a typical feature.",
+        "extra_field": "Anticholinergic toxicity causes agitation and delirium but not the sustained rigidity seen in NMS. Clinically, lack of rigidity helps differentiate the syndromes. Memory aid: “Anticholinergic = delirious, not rigid.”",
+        "cloze_candidates": [
+          "anticholinergic toxicity",
+          "muscle rigidity"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In anticholinergic toxicity, drooling is not a typical feature.",
+        "extra_field": "Anticholinergics reduce secretions, causing dry mouth rather than drooling. Clinically, drooling suggests alternative toxidromes or neurologic disease. Memory aid: “Dry as a bone.”",
+        "cloze_candidates": [
+          "anticholinergic toxicity",
+          "drooling"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Metoclopramide has cholinomimetic properties.",
+        "extra_field": "Metoclopramide increases acetylcholine effects in the gut by blocking dopamine’s inhibitory action. Clinically, this pro‑motility effect is why it’s used for gastroparesis despite CNS side effects. Memory aid: “D2 block → ACh freer.”",
+        "cloze_candidates": [
+          "Metoclopramide",
+          "cholinomimetic properties"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Metoclopramide has utility in gastrointestinal hypomotility disorders.",
+        "extra_field": "By enhancing cholinergic activity, metoclopramide improves gastric emptying and esophageal motility. Clinically, it’s useful for gastroparesis and reflux but watch for EPS/NMS. Memory aid: “Moves the gut, moves the risk.”",
+        "cloze_candidates": [
+          "Metoclopramide",
+          "gastrointestinal hypomotility disorders"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Muscle rigidity is encountered in malignant hyperthermia.",
+        "extra_field": "Malignant hyperthermia causes uncontrolled calcium release in muscle (ryanodine receptor mutation), leading to sustained contraction and rigidity. Clinically, rigidity after anesthesia exposure is a key red flag. Memory aid: “MH = Muscles Harden.”",
+        "cloze_candidates": [
+          "Muscle rigidity",
+          "malignant hyperthermia"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Very high fever is encountered in malignant hyperthermia.",
+        "extra_field": "Excessive muscle metabolism generates extreme heat, causing very high fevers. Clinically, rapid temperature rise in the OR or PACU is a classic clue. Memory aid: “MH = Massive Heat.”",
+        "cloze_candidates": [
+          "Very high fever",
+          "malignant hyperthermia"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Malignant hyperthermia is a rare genetic disorder.",
+        "extra_field": "It is inherited (often autosomal dominant) and uncommon, involving skeletal muscle calcium channels. Clinically, family history and prior anesthesia reactions matter in pre‑op screening. Memory aid: “MH runs in families.”",
+        "cloze_candidates": [
+          "Malignant hyperthermia",
+          "rare genetic disorder"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Malignant hyperthermia is associated with exposure to inhaled anesthetic agents.",
+        "extra_field": "Volatile anesthetics trigger abnormal calcium release in susceptible individuals. Clinically, exposure history is essential for diagnosis and prevention. Memory aid: “Vapor = Vulnerable.”",
+        "cloze_candidates": [
+          "Malignant hyperthermia",
+          "inhaled anesthetic agents"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Malignant hyperthermia is associated with exposure to the paralytic succinylcholine.",
+        "extra_field": "Succinylcholine can precipitate uncontrolled muscle contraction in susceptible patients. Clinically, avoid succinylcholine in known or suspected MH risk. Memory aid: “Sux = switch on MH.”",
+        "cloze_candidates": [
+          "Malignant hyperthermia",
+          "paralytic succinylcholine"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Serotonin syndrome is associated with serotonergic agents.",
+        "extra_field": "Excess serotonergic activity (e.g., SSRIs, MAOIs, linezolid, triptans) overstimulates CNS and autonomic systems. Clinically, recent medication changes or combinations are key history clues. Memory aid: “Serotonin overload.”",
+        "cloze_candidates": [
+          "Serotonin syndrome",
+          "serotonergic agents"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Serotonin syndrome shares some features with neuroleptic malignant syndrome (NMS), such as encephalopathy.",
+        "extra_field": "Both syndromes can cause altered mental status due to central neurotransmitter dysregulation. Clinically, encephalopathy alone doesn’t distinguish them—look for rigidity vs clonus and medication type. Memory aid: “Both scramble the brain.”",
+        "cloze_candidates": [
+          "Serotonin syndrome",
+          "neuroleptic malignant syndrome (NMS)",
+          "encephalopathy"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Serotonin syndrome shares some features with neuroleptic malignant syndrome (NMS), such as fever.",
+        "extra_field": "Hyperthermia can occur in both from increased muscle activity and autonomic dysfunction. Clinically, fever needs toxidrome differentiation rather than assuming infection. Memory aid: “Fever isn’t specific.”",
+        "cloze_candidates": [
+          "Serotonin syndrome",
+          "neuroleptic malignant syndrome (NMS)",
+          "fever"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with serotonin syndrome do not present with muscle rigidity.",
+        "extra_field": "Serotonin syndrome typically causes hyperreflexia and clonus rather than the lead‑pipe rigidity of NMS. Clinically, the absence of rigidity with prominent clonus points toward serotonin syndrome. Memory aid: “Clonus, not lead‑pipe.”",
+        "cloze_candidates": [
+          "serotonin syndrome",
+          "muscle rigidity"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with serotonin syndrome more typically have hyperactive deep tendon reflexes.",
+        "extra_field": "Serotonin excess enhances spinal reflexes, producing hyperreflexia and inducible or spontaneous clonus. Clinically, hyperactive reflexes are a hallmark clue favoring serotonin syndrome over NMS. Memory aid: “Serotonin = springy reflexes.”",
+        "cloze_candidates": [
+          "serotonin syndrome",
+          "hyperactive deep tendon reflexes"
+        ],
+        "final_clozes": []
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "Neuroleptic malignant syndrome is a clinical diagnosis characterized by the tetrad of fever, mental status changes, muscle rigidity, and dysautonomia.",
+        "extra_field": "NMS reflects sudden central dopamine D2 blockade in the hypothalamus and basal ganglia, driving hyperthermia, \"lead‑pipe\" rigidity, and autonomic instability; muscle breakdown can cause rhabdomyolysis and renal failure. Clinically, treat as a time‑critical diagnosis—stop the offending agent, provide aggressive supportive care, and consider dantrolene/bromocriptine while ruling out mimics like serotonin syndrome or malignant catatonia. Memory aid: “Fever + Rigidity + Autonomic chaos + AMS = NMS.”",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome",
+          "clinical diagnosis",
+          "tetrad of fever, mental status changes, muscle rigidity, and dysautonomia"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Neuroleptic malignant syndrome is classically associated with the use of first-generation antipsychotic agents.",
+        "extra_field": "High‑potency first‑generation antipsychotics (e.g., haloperidol, fluphenazine) produce strong D2 blockade, which is the key mechanism behind NMS risk. Clinically, new fever/rigidity/AMS after starting or increasing these drugs should trigger immediate drug cessation and ICU‑level monitoring. Memory aid: “High‑potency typicals = high D2 lock = NMS.”",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome",
+          "first-generation",
+          "antipsychotic agents"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Neuroleptic malignant syndrome can also occur with newer-generation antipsychotics, as well as antiemetics.",
+        "extra_field": "Second‑generation antipsychotics and dopamine‑blocking antiemetics (e.g., metoclopramide, prochlorperazine) can still reduce dopamine tone enough to precipitate NMS, especially with dose escalation or dehydration. Clinically, don’t exclude NMS just because a patient is on an atypical or an antiemetic—maintain suspicion and manage identically. Memory aid: “Any D2 blocker can trigger NMS.”",
+        "cloze_candidates": [
+          "Neuroleptic malignant syndrome",
+          "newer-generation",
+          "antipsychotics",
+          "antiemetics"
+        ],
+        "final_clozes": []
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 1
+  },
+  "validation_pass": true,
+  "nlp_analysis": {
+    "critique": {
+      "entities": [
+        {
+          "text": "diagnosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "likely"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "neuroleptic malignant syndrome",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "neuroleptic",
+            "malignant"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "NMS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option C",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "NMS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "idiosyncratic response",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "idiosyncratic"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "first-generation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antipsychotic agents",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "antipsychotic"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "haloperidol",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "newer-generation antipsychotics",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "newer-generation"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antiemetics",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "NMS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "medication initiation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "dose escalation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prolonged",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "prolonged"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "use",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "prolonged"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diagnosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinically",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "characterized",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mental status",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "mental"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "high fever",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "high"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "muscle rigidity",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "lead pipe”",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "rigidity",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "dysautonomia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "laboratory abnormalities",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "common",
+            "laboratory"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "leukocytosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "elevated",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "elevated"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "serum creatine kinase",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "elevated"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "level",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "striking",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "striking"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Mortality",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Treatment",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "stopping",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "triggering agent",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "active cooling",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "active"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "supportive care",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "supportive"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intravenous fluid",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "intravenous",
+            "fluid"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "administration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "fluid"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "symptoms",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "classic"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "NMS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "second-generation antipsychotic quetiapine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "second-generation",
+            "antipsychotic"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prescribed",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "metoclopramide",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "drug",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "dopamine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antagonistic",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "antagonistic"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "NMS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "NMS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diagnosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "likely"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "anticholinergic toxicity",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "anticholinergic"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option A",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "encephalopathy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "encephalopathy"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "fever",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diaphoresis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "muscle rigidity",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "drooling",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "features",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "typical"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "medications",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "anticholinergic effects",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "anticholinergic"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antidopaminergic effects",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "antidopaminergic"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "metoclopramide",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cholinomimetic",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cholinomimetic"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "properties",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cholinomimetic"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "gastrointestinal hypomotility disorders",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "gastrointestinal"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Muscle rigidity",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "fever",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "high"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "malignant hyperthermia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "malignant"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option B",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "malignant hyperthermia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "malignant"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "genetic disorder",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "rare",
+            "genetic"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "exposure to",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "inhaled",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "anesthetic agents",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "anesthetic"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "paralytic succinylcholine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "paralytic"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option D",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "serotonergic agents",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "serotonergic"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "shares",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "features",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "NMS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "encephalopathy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "encephalopathy"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "fever",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "serotonin syndrome",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "muscle rigidity",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hyperactive",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hyperactive"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "deep tendon",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hyperactive",
+            "deep"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "reflexes",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "muscle rigidity",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "underactive",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "underactive"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "deep tendon",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "underactive",
+            "deep"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "reflexes",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "serotonergic drugs",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "known",
+            "serotonergic"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "serotonin syndrome",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": " 10%",
+          "entity_type": "QUANTITY",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "CUSTOM_LAB_VALUE"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The most likely diagnosis is neuroleptic malignant syndrome (NMS) (Option C).",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "NMS is an idiosyncratic response classically associated with the use of first-generation antipsychotic agents such as haloperidol but also seen with newer-generation antipsychotics, as well as antiemetics.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 8
+        },
+        {
+          "text": "NMS is more common at times of medication initiation or dose escalation but can occur after prolonged use.",
+          "index": 2,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 5
+        },
+        {
+          "text": "The diagnosis is made clinically and is characterized by mental status changes, high fever, muscle rigidity (described as “lead pipe” rigidity), and dysautonomia.",
+          "index": 3,
+          "has_negation": false,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "Common laboratory abnormalities include leukocytosis and an elevated serum creatine kinase level, which may be striking.",
+          "index": 4,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 6
+        },
+        {
+          "text": "Mortality may exceed 10%.",
+          "index": 5,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 2
+        },
+        {
+          "text": "Treatment includes stopping the triggering agent; active cooling; and supportive care, including intravenous fluid administration.",
+          "index": 6,
+          "has_negation": false,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 7
+        },
+        {
+          "text": "This patient has classic symptoms of NMS, takes the second-generation antipsychotic quetiapine, and was recently prescribed metoclopramide, a drug with dopamine antagonistic properties that is also associated with NMS.",
+          "index": 7,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 11
+        },
+        {
+          "text": "NMS is the most likely diagnosis.",
+          "index": 8,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 2
+        },
+        {
+          "text": "Patients with anticholinergic toxicity (Option A) may present with encephalopathy and fever; however, diaphoresis, muscle rigidity, and drooling are not typical features.",
+          "index": 9,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 9
+        },
+        {
+          "text": "This patient is also not taking medications known to have anticholinergic effects.",
+          "index": 10,
+          "has_negation": true,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 3
+        },
+        {
+          "text": "In fact, in addition to its antidopaminergic effects, metoclopramide has cholinomimetic properties leading to its utility in gastrointestinal hypomotility disorders.",
+          "index": 11,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 5
+        },
+        {
+          "text": "Muscle rigidity and very high fever are also encountered in malignant hyperthermia (Option B).",
+          "index": 12,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "However, malignant hyperthermia is a rare genetic disorder associated with exposure to inhaled anesthetic agents or the paralytic succinylcholine, which has not occurred in this patient.",
+          "index": 13,
+          "has_negation": true,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 8
+        },
+        {
+          "text": "Serotonin syndrome (Option D), associated with serotonergic agents, shares some features with NMS, such as encephalopathy and fever.",
+          "index": 14,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "However, patients with serotonin syndrome do not present with muscle rigidity and more typically have hyperactive deep tendon reflexes.",
+          "index": 15,
+          "has_negation": true,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 6
+        },
+        {
+          "text": "This patient has muscle rigidity and underactive deep tendon reflexes and has not been exposed to any known serotonergic drugs; therefore, serotonin syndrome is unlikely.",
+          "index": 16,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 7
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "not",
+          "start_char": 1233,
+          "end_char": 1236
+        },
+        {
+          "trigger": "not",
+          "start_char": 1276,
+          "end_char": 1279
+        },
+        {
+          "trigger": "not",
+          "start_char": 1755,
+          "end_char": 1758
+        },
+        {
+          "trigger": "not",
+          "start_char": 1962,
+          "end_char": 1965
+        },
+        {
+          "trigger": "not",
+          "start_char": 2131,
+          "end_char": 2134
+        }
+      ],
+      "entity_count": 105,
+      "sentence_count": 17,
+      "negation_count": 5
+    },
+    "key_points": {
+      "entities": [
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "neuroleptic",
+            "malignant"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical diagnosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "clinical"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "characterized",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tetrad",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "fever",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mental status",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "mental"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "muscle rigidity",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "dysautonomia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "neuroleptic",
+            "malignant"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "first-generation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antipsychotic agents",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "antipsychotic"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "newer-generation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "newer-generation"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antipsychotics",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "newer-generation"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antiemetics",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "Neuroleptic malignant syndrome is a clinical diagnosis characterized by the tetrad of fever, mental status changes, muscle rigidity, and dysautonomia.",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 8
+        },
+        {
+          "text": "Neuroleptic malignant syndrome is classically associated with the use of first-generation antipsychotic agents but can also occur with newer-generation antipsychotics, as well as antiemetics.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 7
+        }
+      ],
+      "negations": [],
+      "entity_count": 15,
+      "sentence_count": 2,
+      "negation_count": 0
+    }
+  }
 }

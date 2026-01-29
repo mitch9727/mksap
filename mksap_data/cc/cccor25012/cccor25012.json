@@ -59,5 +59,1776 @@
     "videos": []
   },
   "media_metadata": null,
-  "extracted_at": "2026-01-01T17:54:36.398597-06:00"
+  "extracted_at": "2026-01-01T17:54:36.398597-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "The most appropriate next step in management of a patient who is likely oversedated is to interrupt sedation by discontinuing propofol.",
+        "extra_field": "Propofol is a short‑acting sedative that can suppress brainstem arousal and drive to breathe; when oversedation is suspected, stopping the infusion rapidly unmasks whether neurologic depression is drug‑related. Clinically, this is the fastest, safest diagnostic and therapeutic step before escalating workup for neurologic causes. Memory aid: “Propofol off = proof it’s pharmacologic.”",
+        "cloze_candidates": [
+          "likely oversedated",
+          "interrupt sedation",
+          "discontinuing propofol"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Critically ill patients often require sedation to facilitate tolerance for invasive procedures and mechanical ventilation.",
+        "extra_field": "Mechanical ventilation and invasive lines trigger pain, anxiety, and ventilator dyssynchrony through sympathetic activation and airway reflexes. Sedation blunts these responses, improving oxygenation and procedural tolerance, but it trades comfort for risks like hypotension and delirium. Clinically, sedation is used to facilitate care while balancing adverse effects.",
+        "cloze_candidates": [
+          "Critically ill patients",
+          "sedation",
+          "invasive procedures",
+          "mechanical ventilation"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Guidelines favor using the minimum amount of sedation possible to keep patients comfortable and safe.",
+        "extra_field": "Excess sedation reduces cortical arousal and respiratory drive, prolonging ventilation and increasing delirium risk. Practically, titrate to the lightest effective target (e.g., responsive to voice), reassessing frequently. Memory aid: “Light is right” for sedation depth.",
+        "cloze_candidates": [
+          "Guidelines",
+          "minimum amount of sedation possible",
+          "comfortable and safe"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Propofol or dexmedetomidine are preferred to benzodiazepines for sedation.",
+        "extra_field": "Propofol and dexmedetomidine provide rapid, titratable sedation with less GABA‑mediated delirium burden than benzodiazepines. Clinically, they are first‑line for most ventilated ICU patients unless contraindications exist. Memory aid: “P/D over ‘Bens’ for brains.”",
+        "cloze_candidates": [
+          "Propofol",
+          "dexmedetomidine",
+          "benzodiazepines",
+          "preferred"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Benzodiazepines are associated with increased delirium.",
+        "extra_field": "Benzodiazepines enhance GABA‑A signaling broadly, which disrupts sleep architecture and cognitive processing, predisposing to ICU delirium. Clinically, this risk guides avoidance for routine sedation and prompts minimization if needed for withdrawal or seizures. Memory aid: “Benzo haze = delirium phase.”",
+        "cloze_candidates": [
+          "Benzodiazepines",
+          "increased delirium"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "For light sedation, dexmedetomidine may be associated with less delirium compared with propofol.",
+        "extra_field": "Dexmedetomidine provides cooperative, arousable sedation via α2‑agonism, preserving sleep‑like patterns and reducing delirium compared with deeper hypnotic agents. Clinically, it is favored for light sedation goals or when delirium is a concern. Memory aid: “Dex keeps patients ‘DExterous’—awake but calm.”",
+        "cloze_candidates": [
+          "light",
+          "sedation",
+          "dexmedetomidine",
+          "less delirium",
+          "propofol"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "For deeper sedation, propofol may be more appropriate than dexmedetomidine.",
+        "extra_field": "Dexmedetomidine has a ceiling effect and may not achieve deep hypnosis, whereas propofol can reliably produce deeper sedation by GABAergic potentiation. Clinically, choose propofol when profound sedation is required (e.g., severe ARDS ventilator synchrony). Memory aid: “Deep? Go ‘Pro’.”",
+        "cloze_candidates": [
+          "deeper",
+          "sedation",
+          "propofol",
+          "dexmedetomidine"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "For patients at risk for bradycardia, propofol may be more appropriate than dexmedetomidine.",
+        "extra_field": "Dexmedetomidine slows SA/AV nodal conduction via sympatholysis, increasing bradycardia risk; propofol more commonly causes hypotension without marked bradycardia. Clinically, in patients with baseline bradycardia or conduction disease, propofol is usually safer. Memory aid: “Dex drops the pulse.”",
+        "cloze_candidates": [
+          "risk for bradycardia",
+          "propofol",
+          "dexmedetomidine"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In patients requiring continuous sedation, daily protocolized interruption of sedation is associated with decreased length of mechanical ventilation.",
+        "extra_field": "Daily sedation interruption reduces cumulative drug exposure, allowing neurologic assessment and spontaneous respiratory effort to re‑emerge. Clinically, this shortens ventilator dependence by identifying readiness to wean and avoiding unnecessary deep sedation. Memory aid: “Wake‑up saves ventilator days.”",
+        "cloze_candidates": [
+          "continuous sedation",
+          "daily protocolized interruption of sedation",
+          "decreased length of mechanical ventilation"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In patients requiring continuous sedation, daily protocolized interruption of sedation is associated with decreased intensive care unit stay.",
+        "extra_field": "Less sedation means fewer complications (delirium, infections, immobility), enabling earlier mobilization and extubation, which collectively reduce ICU length of stay. Clinically, protocolized wake‑ups are part of ICU liberation bundles. Memory aid: “Wake‑ups = get‑ups = ICU down.”",
+        "cloze_candidates": [
+          "continuous sedation",
+          "daily protocolized interruption of sedation",
+          "decreased intensive care unit stay"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In patients requiring continuous sedation, daily protocolized interruption of sedation is associated with decreased incidence of delirium.",
+        "extra_field": "Delirium is linked to prolonged brain dysfunction and sedative exposure; interrupting sedation reduces psychoactive load and promotes normal sleep‑wake cues. Clinically, daily awakenings are a key delirium‑prevention strategy alongside reorientation and mobilization. Memory aid: “Less sedative, less delirative.”",
+        "cloze_candidates": [
+          "continuous sedation",
+          "daily protocolized interruption of sedation",
+          "decreased incidence of delirium"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "An evidence-based practice for correction of oversedation is to stop the sedating drugs until the level of sedation is appropriate and then restart at half the previous dose.",
+        "extra_field": "Stopping sedatives reverses drug‑induced CNS depression; restarting at a lower dose prevents re‑accumulation, acknowledging altered pharmacokinetics in critical illness. Clinically, this is a safe titration strategy after oversedation episodes. Memory aid: “Off, then half.”",
+        "cloze_candidates": [
+          "stop the sedating drugs",
+          "level of sedation is appropriate",
+          "restart at half the previous dose"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "No response to voice or physical stimulation is most likely oversedation in a patient receiving propofol.",
+        "extra_field": "Propofol produces dose‑dependent CNS depression, and lack of response to voice or pain indicates deeper‑than‑intended sedation. Clinically, this should trigger immediate sedative interruption and reassessment rather than escalation of neurologic testing. Memory aid: “No response = too much prop.”",
+        "cloze_candidates": [
+          "No response to voice or physical stimulation",
+          "oversedation",
+          "propofol"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Electroencephalography (EEG) is indicated in the evaluation of possible seizures.",
+        "extra_field": "EEG detects cortical electrical activity that may be invisible clinically, especially in sedated or paralyzed patients. Clinically, it is the definitive test when seizures are suspected but not seen. Memory aid: “If you can’t see it, EEG it.”",
+        "cloze_candidates": [
+          "Electroencephalography (EEG)",
+          "possible seizures"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Nonconvulsive status epilepticus is episodes of electrical seizure activity without clinically evident seizures.",
+        "extra_field": "Nonconvulsive status epilepticus (NCSE) reflects ongoing electrical seizure activity without motor manifestations, often due to impaired inhibitory control in injured or metabolically stressed brain tissue. Clinically, it explains unexplained coma or fluctuating mental status and requires EEG for diagnosis. Memory aid: “Seizures can be silent.”",
+        "cloze_candidates": [
+          "Nonconvulsive status epilepticus",
+          "electrical seizure activity",
+          "clinically evident seizures"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Nonconvulsive status epilepticus can present with altered mental status.",
+        "extra_field": "NCSE can impair consciousness by sustained cortical dysfunction, presenting as confusion, obtundation, or coma rather than convulsions. Clinically, persistent altered mental status despite stopping sedatives should raise suspicion. Memory aid: “Altered without shaking can still be seizing.”",
+        "cloze_candidates": [
+          "Nonconvulsive status epilepticus",
+          "altered mental status"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Nonconvulsive status epilepticus can present with episodes of unconsciousness.",
+        "extra_field": "Seizure activity can produce transient or prolonged unconsciousness when cortical networks responsible for awareness are disrupted. Clinically, episodic unresponsiveness in ICU patients warrants consideration of NCSE, especially if it doesn’t resolve with sedation changes. Memory aid: “Unconscious episodes can be electrical.”",
+        "cloze_candidates": [
+          "Nonconvulsive status epilepticus",
+          "episodes of unconsciousness"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Oversedation is far more likely than nonconvulsive status epilepticus in a patient receiving propofol.",
+        "extra_field": "Propofol’s pharmacologic effect is common and immediate, while NCSE is less frequent; in a sedated patient, drug effect is statistically and mechanistically more likely. Clinically, treat the common cause first—stop sedation—before pursuing EEG. Memory aid: “Occam’s razor: propofol first.”",
+        "cloze_candidates": [
+          "Oversedation",
+          "nonconvulsive status epilepticus",
+          "propofol"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Electroencephalography (EEG) could be reconsidered if mental status does not improve after correction of oversedation.",
+        "extra_field": "If mental status fails to improve after sedative washout, a non‑pharmacologic cause like NCSE becomes more plausible. Clinically, EEG becomes the next diagnostic step to avoid missing treatable seizures. Memory aid: “No wake‑up after wake‑up? EEG.”",
+        "cloze_candidates": [
+          "Electroencephalography (EEG)",
+          "mental status does not improve",
+          "correction of oversedation"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Repeat head computed tomography (CT) may be appropriate if a structural neurologic cause of symptoms is suspected.",
+        "extra_field": "Structural lesions (bleed, stroke, mass effect) can cause abrupt or worsening neurologic deficits that won’t improve with sedation changes. Clinically, repeat CT is indicated when new focal signs, trauma, or unexplained decline suggests a new structural process. Memory aid: “Focal or falling → scan.”",
+        "cloze_candidates": [
+          "Repeat head computed tomography (CT)",
+          "structural neurologic cause"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Repeat head computed tomography (CT) is not warranted in a patient who is likely oversedated unless mental status does not improve after discontinuation of the sedating medications.",
+        "extra_field": "If oversedation explains unresponsiveness and improves after stopping sedatives, structural causes are unlikely, making CT low yield. Clinically, reserve repeat imaging for persistent deficits after sedation clears to avoid unnecessary radiation and transport risk. Memory aid: “Wake first, then scan if needed.”",
+        "cloze_candidates": [
+          "Repeat head computed tomography (CT)",
+          "likely oversedated",
+          "mental status does not improve",
+          "discontinuation of the sedating medications"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Spontaneous breathing trials are used to assess readiness for extubation.",
+        "extra_field": "Spontaneous breathing trials (SBTs) test whether respiratory drive and mechanics can sustain adequate ventilation without full support. Clinically, passing an SBT is a key readiness criterion for extubation. Memory aid: “SBT = see if they can breathe themselves.”",
+        "cloze_candidates": [
+          "Spontaneous breathing trials",
+          "readiness for extubation"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "When used concurrently with lighter sedation, spontaneous breathing trials reduce mechanical ventilation time and mortality.",
+        "extra_field": "Lighter sedation preserves respiratory drive and cough, making SBTs more successful and enabling earlier extubation, which lowers ventilator‑associated complications and mortality. Clinically, pair light sedation with daily SBTs to accelerate liberation. Memory aid: “Light sedation lets lungs lead.”",
+        "cloze_candidates": [
+          "lighter",
+          "sedation",
+          "Spontaneous breathing trials",
+          "mechanical ventilation time",
+          "mortality"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "When used concurrently with daily sedation interruption protocols, spontaneous breathing trials reduce mechanical ventilation time and mortality.",
+        "extra_field": "Daily sedation interruption combined with SBTs creates a coordinated “awakening and breathing” strategy that exposes readiness sooner and reduces ventilator days and death. Clinically, this bundle is standard ICU liberation practice. Memory aid: “Wake + breathe = wean.”",
+        "cloze_candidates": [
+          "daily sedation interruption protocols",
+          "Spontaneous breathing trials",
+          "mechanical ventilation time",
+          "mortality"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Deep sedation is a barrier to proceeding with a spontaneous breathing trial.",
+        "extra_field": "Deep sedation suppresses respiratory drive and masks true breathing capacity, making SBTs unsafe or uninterpretable. Clinically, sedation must be lightened before attempting SBTs to get an accurate assessment. Memory aid: “Too deep to wean.”",
+        "cloze_candidates": [
+          "Deep",
+          "sedation",
+          "spontaneous breathing trial"
+        ],
+        "final_clozes": []
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "In critically ill patients requiring continuous sedation for mechanical ventilation, discontinuation of the sedating medication is appropriate when evidence of oversedation is present.",
+        "extra_field": "Sedatives (e.g., propofol, benzodiazepines, opioids) depress CNS drive and can suppress respiratory effort, prolonging ventilator dependence, causing hypotension, and predisposing to delirium. When oversedation is evident (e.g., RASS too low, no purposeful response, ventilator dysynchrony from apnea), the safest correction is to stop the sedative to allow drug clearance and reassess true neurologic/respiratory status. Clinically, this is the rationale behind daily sedation interruption and targeting light sedation to shorten ICU stay and reduce complications. Memory aid: “Too deep, hit pause” — deep sedation should trigger a sedative pause.",
+        "cloze_candidates": [
+          "continuous",
+          "sedation",
+          "mechanical ventilation",
+          "discontinuation of the sedating medication",
+          "evidence of oversedation"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "An evidence-based practice for correction of oversedation in critically ill patients is to stop the drug until the level of sedation is appropriate and then restart it at half the previous dose.",
+        "extra_field": "Oversedation often reflects drug accumulation (lipid-soluble agents, organ dysfunction, prolonged infusions), so simply reducing the rate may not quickly reverse excess effect; stopping allows redistribution/metabolism and avoids further stacking. Once the patient reaches the desired sedation target, restarting at ~50% helps prevent rapid re-oversedation while still providing comfort and ventilator synchrony. Clinically, this aligns with titration to a validated scale (e.g., RASS -2 to 0) and frequent reassessment after restart. Memory aid: “Off, then half” — turn it off to recover, restart at half to avoid bouncing back too deep.",
+        "cloze_candidates": [
+          "stop the drug",
+          "level of sedation is appropriate",
+          "restart it at half the previous dose"
+        ],
+        "final_clozes": []
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 0
+  },
+  "validation_pass": true,
+  "nlp_analysis": {
+    "critique": {
+      "entities": [
+        {
+          "text": "management",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "oversedated",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "interrupt"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "discontinuing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "propofol",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option A",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Critically ill",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ill"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ill"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tolerance",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "invasive procedures",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "invasive"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mechanical ventilation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "mechanical"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "guidelines",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Propofol",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "dexmedetomidine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "benzodiazepines",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increased",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "delirium",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "light sedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "light"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "dexmedetomidine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "delirium",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "less"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "propofol",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "deeper"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "risk",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "bradycardia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "propofol",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "appropriate",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "appropriate"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "continuous",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "continuous"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "continuous"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "daily",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "protocolized",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "protocolized"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "interruption",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "protocolized"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "decreased",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "length",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mechanical ventilation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "mechanical"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ICU stay",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "incidence",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "delirium",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "evidence-based practice",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "evidence-based"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "correction",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "oversedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "stop",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sedating",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "drugs",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "level",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "dose",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "previous"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "no response",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "voice",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "physical stimulation",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [
+            "physical"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "oversedated",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "propofol",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "discontinued",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Electroencephalography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "EEG",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option B",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "evaluation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "seizures",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "possible"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Critically ill",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ill"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ill"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "nonconvulsive status epilepticus",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "nonconvulsive"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "episodes",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "electrical seizure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "electrical",
+            "seizure"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "activity",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "seizure"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinically",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "without",
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "seizures",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "without",
+          "modifiers": [
+            "evident"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "altered",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "altered"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mental status",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "altered",
+            "mental"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "episodes",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "unconsciousness",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "nonconvulsive status epilepticus",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "nonconvulsive"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "consideration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "oversedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "propofol",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "EEG",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mental status",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "mental"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "correction",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "oversedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "head CT",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option C",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "structural",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "structural"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "symptoms",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "suspected",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "unless his mental status",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "mental"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "discontinuation",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sedating medications",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option D",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "readiness",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "extubation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "lighter",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "lighter"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "lighter"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "daily",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "daily"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "daily"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "spontaneous breathing trials",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "spontaneous"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mechanical ventilation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "mechanical"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mortality",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient's",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pulmonary mechanics",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pulmonary"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "improving",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "deep sedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "deep"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "proceeding",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "spontaneous",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "spontaneous"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The most appropriate next step in management of this patient who is likely oversedated is to interrupt sedation by discontinuing propofol (Option A).",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 7
+        },
+        {
+          "text": "Critically ill patients often require sedation to facilitate tolerance for invasive procedures and mechanical ventilation.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 6
+        },
+        {
+          "text": "However, guidelines favor using the minimum amount of sedation possible to keep patients comfortable and safe.",
+          "index": 2,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 3
+        },
+        {
+          "text": "Propofol or dexmedetomidine are preferred to benzodiazepines, which are associated with increased delirium.",
+          "index": 3,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 6
+        },
+        {
+          "text": "For light sedation, dexmedetomidine may be associated with less delirium compared with propofol; for deeper sedation or for patients at risk for bradycardia, propofol may be more appropriate.",
+          "index": 4,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 11
+        },
+        {
+          "text": "In patients requiring continuous sedation, daily protocolized interruption of sedation is associated with decreased length of mechanical ventilation, ICU stay, and incidence of delirium.",
+          "index": 5,
+          "has_negation": false,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 14
+        },
+        {
+          "text": "An evidence-based practice for correction of oversedation is to stop the sedating drugs until the level of sedation is appropriate and then restart at half the previous dose.",
+          "index": 6,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "This patient with no response to voice or physical stimulation is most likely oversedated, and propofol should be discontinued.",
+          "index": 7,
+          "has_negation": true,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 7
+        },
+        {
+          "text": "Electroencephalography (EEG) (Option B) is indicated in the evaluation of possible seizures.",
+          "index": 8,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 5
+        },
+        {
+          "text": "Critically ill patients can develop nonconvulsive status epilepticus (episodes of electrical seizure activity without clinically evident seizures), which can present with altered mental status and episodes of unconsciousness.",
+          "index": 9,
+          "has_negation": true,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 12
+        },
+        {
+          "text": "Although nonconvulsive status epilepticus is a consideration, oversedation is far more likely in this patient who is receiving propofol.",
+          "index": 10,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 5
+        },
+        {
+          "text": "EEG could be reconsidered if his mental status does not improve after the correction of oversedation.",
+          "index": 11,
+          "has_negation": true,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 4
+        },
+        {
+          "text": "Repeat head CT (Option C) may be appropriate if a structural neurologic cause of symptoms is suspected.",
+          "index": 12,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 5
+        },
+        {
+          "text": "It is not warranted in this patient who is likely oversedated unless his mental status does not improve after discontinuation of the sedating medications.",
+          "index": 13,
+          "has_negation": true,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 4
+        },
+        {
+          "text": "Spontaneous breathing trials (Option D) are used to assess readiness for extubation.",
+          "index": 14,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 3
+        },
+        {
+          "text": "When used concurrently with lighter sedation or daily sedation interruption protocols, spontaneous breathing trials reduce mechanical ventilation time and mortality.",
+          "index": 15,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 7
+        },
+        {
+          "text": "Although this patient's pulmonary mechanics are improving, his deep sedation is a barrier to proceeding with a spontaneous breathing trial.",
+          "index": 16,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 6
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "no",
+          "start_char": 1064,
+          "end_char": 1066
+        },
+        {
+          "trigger": "without",
+          "start_char": 1376,
+          "end_char": 1383
+        },
+        {
+          "trigger": "not",
+          "start_char": 1681,
+          "end_char": 1684
+        },
+        {
+          "trigger": "not",
+          "start_char": 1840,
+          "end_char": 1843
+        },
+        {
+          "trigger": "not",
+          "start_char": 1926,
+          "end_char": 1929
+        }
+      ],
+      "entity_count": 114,
+      "sentence_count": 17,
+      "negation_count": 5
+    },
+    "key_points": {
+      "entities": [
+        {
+          "text": "ill patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ill"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "continuous",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "continuous"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "continuous"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mechanical ventilation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "mechanical"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "discontinuation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sedating medication",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "evidence",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "oversedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "evidence-based practice",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "evidence-based"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "correction",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "oversedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "critically ill",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ill"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "ill"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "stop",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "drug",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "level",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sedation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "dose",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "previous"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "In critically ill patients requiring continuous sedation for mechanical ventilation, discontinuation of the sedating medication is appropriate when evidence of oversedation is present.",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 8
+        },
+        {
+          "text": "An evidence-based practice for correction of oversedation in critically ill patients is to stop the drug until the level of sedation is appropriate and then restart it at half the previous dose.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 10
+        }
+      ],
+      "negations": [],
+      "entity_count": 18,
+      "sentence_count": 2,
+      "negation_count": 0
+    }
+  }
 }

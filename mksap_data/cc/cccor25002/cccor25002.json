@@ -58,5 +58,1566 @@
     "videos": []
   },
   "media_metadata": null,
-  "extracted_at": "2026-01-01T17:54:36.404872-06:00"
+  "extracted_at": "2026-01-01T17:54:36.404872-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "The most appropriate additional intravenous access for rapid treatment of hemorrhagic shock is a second 18-gauge peripheral intravenous catheter.",
+        "extra_field": "Hemorrhagic shock demands the highest possible flow; Poiseuille’s law makes a short, wide-bore peripheral line far more efficient than longer or narrower devices. Clinically, placing a second 18‑gauge peripheral IV gives rapid dual access for large-volume crystalloids or blood while avoiding central-line delays and complications. Memory aid: “Short and fat for fast.”",
+        "cloze_candidates": [
+          "second 18-gauge peripheral intravenous catheter",
+          "rapid treatment of hemorrhagic shock",
+          "intravenous access"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "According to the law of Poiseuille, the flow of fluid through a tube is dictated in part by the radius of the tube.",
+        "extra_field": "Poiseuille’s law says flow is proportional to the fourth power of radius (r⁴), so small increases in diameter massively boost flow. Clinically, this is why large‑bore IVs are preferred for resuscitation and why small-gauge lines are poor for rapid infusion. Memory aid: “Radius rules—r to the 4th.”",
+        "cloze_candidates": [
+          "law of Poiseuille",
+          "flow of fluid",
+          "radius of the tube"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "According to the law of Poiseuille, the flow of fluid through a tube is dictated in part by the length of the tube.",
+        "extra_field": "Flow is inversely proportional to tube length; longer catheters add resistance and slow infusion. Clinically, this explains why PICCs or central lines (longer) can’t match peripheral large‑bore lines for rapid volume resuscitation. Memory aid: “Long line, slow flow.”",
+        "cloze_candidates": [
+          "law of Poiseuille",
+          "flow of fluid",
+          "length of the tube"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "For venous access catheters, a device that is short and has a wide-diameter lumen will maximize flow rates.",
+        "extra_field": "A short, wide lumen minimizes resistance (Poiseuille), maximizing achievable flow rates. Clinically, choose short large‑bore peripherals for rapid fluids/blood rather than long, narrow devices. Memory aid: “Short + wide = rapid.”",
+        "cloze_candidates": [
+          "venous access catheters",
+          "short",
+          "wide-diameter lumen",
+          "maximize flow rates"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Peripheral intravenous access with a short, wide-bore catheter is the route of choice for rapid volume resuscitation.",
+        "extra_field": "Hemorrhagic shock requires rapid volume delivery; large‑bore peripheral IVs provide the fastest, safest access. Clinically, two 14–18G peripherals are standard first‑line before central access. Memory aid: “Two big peripherals before the central.”",
+        "cloze_candidates": [
+          "Peripheral intravenous access",
+          "short",
+          "wide-bore catheter",
+          "rapid volume resuscitation"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Peripheral intravenous access with a short, wide-bore catheter is the route of choice for administration of blood products.",
+        "extra_field": "Blood products are viscous and flow poorly through small or long catheters; large‑bore short peripherals minimize resistance and hemolysis risk. Clinically, use 14–18G peripheral IVs for transfusion in shock. Memory aid: “Big bore for blood.”",
+        "cloze_candidates": [
+          "Peripheral intravenous access",
+          "short",
+          "wide-bore catheter",
+          "administration of blood products"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Central catheters are indicated when peripheral intravenous access is inadequate for a specific clinical need.",
+        "extra_field": "Central lines carry higher risks (infection, thrombosis, pneumothorax) and slower setup, so they’re reserved for needs peripherals can’t meet. Clinically, use central access for meds or monitoring that require it, not for routine resuscitation if good peripheral access exists. Memory aid: “Central only when peripheral can’t.”",
+        "cloze_candidates": [
+          "Central catheters",
+          "peripheral intravenous access",
+          "specific clinical need"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "A specific clinical need for central catheters is administration of caustic medications.",
+        "extra_field": "Caustic or hyperosmolar medications can cause tissue necrosis if they extravasate; central veins have high flow that rapidly dilutes these agents. Clinically, vasopressors or concentrated KCl should go through central access when possible. Memory aid: “Hot meds need the big pipe.”",
+        "cloze_candidates": [
+          "central catheters",
+          "caustic medications"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "A specific clinical need for central catheters is hemodynamic monitoring.",
+        "extra_field": "Hemodynamic monitoring (e.g., CVP, ScvO₂, vasopressor titration) requires reliable central venous access and consistent central pressure measurements. Clinically, place a central line when advanced monitoring guides resuscitation or shock management. Memory aid: “Central line for central numbers.”",
+        "cloze_candidates": [
+          "central catheters",
+          "hemodynamic monitoring"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "A specific clinical need for central catheters is support of extracorporeal therapies like hemodialysis.",
+        "extra_field": "Extracorporeal therapies like hemodialysis require very high flow rates and large lumens that peripheral lines cannot provide. Clinically, a dialysis catheter in a central vein is required for adequate clearance. Memory aid: “Dialysis needs a highway.”",
+        "cloze_candidates": [
+          "central catheters",
+          "extracorporeal therapies",
+          "hemodialysis"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Devices with lower risk for complications should be prioritized whenever possible.",
+        "extra_field": "Lower‑risk devices reduce complications like infection, thrombosis, and mechanical injury; peripherals are safer and faster to place. Clinically, start with peripherals whenever they meet the clinical need and escalate only if necessary. Memory aid: “Least invasive that works.”",
+        "cloze_candidates": [
+          "lower risk for complications"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "A second access point should be obtained for additional access.",
+        "extra_field": "Resuscitation is dynamic; a second access point allows simultaneous fluids, blood, and medications without delays. Clinically, dual access improves speed and flexibility during shock management. Memory aid: “One is none; two is one.”",
+        "cloze_candidates": [
+          "second access point",
+          "additional access"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "A second access point should be obtained in case the first intravenous catheter becomes dysfunctional.",
+        "extra_field": "IVs can infiltrate, clot, or be dislodged during emergencies; losing access in shock is dangerous. Clinically, a backup line prevents interruptions in life‑saving infusions. Memory aid: “Backup line saves time.”",
+        "cloze_candidates": [
+          "second access point",
+          "first intravenous catheter",
+          "dysfunctional"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Placement of an intraosseous needle device in the humerus or tibia is easy.",
+        "extra_field": "The humerus and tibia have thin cortical bone and accessible landmarks, making intraosseous (IO) placement fast even in low‑flow states. Clinically, IO is a rapid bridge when IV access fails, especially in cardiac arrest or shock. Memory aid: “Humerus or tibia—IO easy.”",
+        "cloze_candidates": [
+          "intraosseous needle device",
+          "humerus",
+          "tibia"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "An intraosseous needle device has a short, large-bore lumen that allows for rapid administration of intravenous fluids.",
+        "extra_field": "IO needles access the medullary cavity, which drains into the venous system; the short, large-bore needle supports high flow. Clinically, IO can deliver fluids, blood, and drugs quickly when IV access is delayed. Memory aid: “IO = IV in the bone.”",
+        "cloze_candidates": [
+          "intraosseous needle device",
+          "short, large-bore lumen",
+          "rapid administration of intravenous fluids"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "An intraosseous needle device is an excellent choice when intravenous access is not available.",
+        "extra_field": "In shock or cardiac arrest, peripheral veins may collapse; IO provides immediate vascular access. Clinically, use IO when IV access cannot be obtained quickly (e.g., within 60–90 seconds). Memory aid: “No IV? Go IO.”",
+        "cloze_candidates": [
+          "intraosseous needle device",
+          "intravenous access is not available"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "An intraosseous needle device is contraindicated in patients with osteogenesis imperfecta.",
+        "extra_field": "Osteogenesis imperfecta causes brittle bones that fracture easily; drilling an IO needle can cause iatrogenic fracture. Clinically, avoid IO in these patients and seek alternative access. Memory aid: “OI = bones too fragile for IO.”",
+        "cloze_candidates": [
+          "intraosseous needle device",
+          "osteogenesis imperfecta"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "An intraosseous needle device is contraindicated in patients with osteopenia.",
+        "extra_field": "Osteopenia implies reduced bone density, increasing fracture risk with IO insertion. Clinically, consider alternate access if feasible and weigh risks carefully. Memory aid: “Thin bones, think twice.”",
+        "cloze_candidates": [
+          "intraosseous needle device",
+          "osteopenia"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "An intraosseous needle device is contraindicated in patients with osteoporosis.",
+        "extra_field": "Osteoporosis significantly weakens bone architecture; IO insertion can cause fracture or improper placement. Clinically, avoid IO unless absolutely necessary and consider central or ultrasound‑guided peripheral access. Memory aid: “Porous bone, poor IO.”",
+        "cloze_candidates": [
+          "intraosseous needle device",
+          "osteoporosis"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "A peripherally inserted central catheter line is more durable than a peripheral intravenous line.",
+        "extra_field": "PICCs are designed for longer-term access with durable materials and central tip placement, making them less likely to fail than peripherals. Clinically, choose PICCs for long courses of IV therapy rather than acute resuscitation. Memory aid: “PICC for persistent.”",
+        "cloze_candidates": [
+          "peripherally inserted central catheter line",
+          "more durable",
+          "peripheral intravenous line"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The long length of a peripherally inserted central catheter line significantly limits the maximal flow rate of infused fluids.",
+        "extra_field": "Long catheter length increases resistance and lowers maximal flow (Poiseuille). Clinically, PICCs are poor choices for rapid boluses or massive transfusion. Memory aid: “Long line, low flow.”",
+        "cloze_candidates": [
+          "long length",
+          "peripherally inserted central catheter line",
+          "maximal flow rate"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The narrow-gauge lumen of a peripherally inserted central catheter line significantly limits the maximal flow rate of infused fluids.",
+        "extra_field": "PICCs are often narrow‑gauge; small radius drastically reduces flow (r⁴ effect). Clinically, they cannot support rapid infusion required in shock. Memory aid: “Small bore = slow pour.”",
+        "cloze_candidates": [
+          "narrow-gauge lumen",
+          "peripherally inserted central catheter line",
+          "maximal flow rate"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "A peripherally inserted central catheter line is inadequate for the rapid volume resuscitation required in hemorrhagic shock.",
+        "extra_field": "Hemorrhagic shock requires high‑rate volume delivery; PICCs can’t achieve needed flow because they’re long and narrow. Clinically, use large‑bore peripheral IVs or large‑lumen central lines instead. Memory aid: “PICC is for drips, not dumps.”",
+        "cloze_candidates": [
+          "peripherally inserted central catheter line",
+          "rapid volume resuscitation",
+          "hemorrhagic shock"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "A peripherally inserted central catheter line is inadequate for administration of blood products required in hemorrhagic shock.",
+        "extra_field": "Blood products need high flow and larger diameters to avoid sluggish infusion and clotting; PICCs often cannot deliver fast transfusion. Clinically, avoid PICCs for massive transfusion and use large‑bore peripherals. Memory aid: “Blood needs big pipes.”",
+        "cloze_candidates": [
+          "peripherally inserted central catheter line",
+          "administration of blood products",
+          "hemorrhagic shock"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "An 18-gauge peripheral intravenous catheter has a flow rate similar to that of all three catheters combined in a triple-lumen catheter.",
+        "extra_field": "Despite multiple lumens, each lumen in a triple‑lumen catheter is narrow and long, limiting total flow; a single 18‑gauge peripheral can match or exceed their combined flow. Clinically, don’t assume “more lumens” means faster resuscitation. Memory aid: “One big beats three small.”",
+        "cloze_candidates": [
+          "18-gauge peripheral intravenous catheter",
+          "triple-lumen catheter",
+          "flow rate"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Femoral insertion of intravenous catheters should be avoided if possible.",
+        "extra_field": "Femoral sites sit near the groin with higher bacterial load and moisture, increasing infection risk versus subclavian or internal jugular. Clinically, avoid femoral access when alternatives are available, especially for longer duration lines. Memory aid: “Groin = germs.”",
+        "cloze_candidates": [
+          "Femoral insertion",
+          "intravenous catheters",
+          "should be avoided if possible"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Femoral insertion of intravenous catheters should be avoided if possible.",
+        "extra_field": "Femoral lines carry higher thrombosis risk due to vessel size, stasis, and patient immobility. Clinically, prefer upper‑body sites to reduce DVT risk unless emergent access is required. Memory aid: “Femoral = DVT danger.”",
+        "cloze_candidates": [
+          "Femoral insertion",
+          "intravenous catheters",
+          "should be avoided if possible"
+        ],
+        "final_clozes": []
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "For rapid and large-volume fluid administration, an access device that is short and has a wide-diameter lumen will maximize flow rates.",
+        "extra_field": "Flow through a tube follows Poiseuille’s law: flow rises with the fourth power of radius and drops with length, so short, wide-bore catheters dramatically increase infusion speed. Clinically, choose a large-bore peripheral IV (e.g., 14–16G) over a long, narrow line when resuscitating hemorrhagic shock or rapid blood product delivery. Memory aid: “Short and fat flows fast.”",
+        "cloze_candidates": [
+          "rapid and large-volume fluid administration",
+          "short",
+          "wide-diameter lumen",
+          "maximize flow rates"
+        ],
+        "final_clozes": []
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 0
+  },
+  "validation_pass": true,
+  "nlp_analysis": {
+    "critique": {
+      "entities": [
+        {
+          "text": "intravenous access",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "additional",
+            "intravenous"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "treatment",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "rapid"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient's",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hemorrhagic shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hemorrhagic"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "peripheral intravenous catheter",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "18-gauge",
+            "peripheral",
+            "intravenous"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option A",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Poiseuille",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "flow",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "fluid",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tube",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "radius",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "length",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tube",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "venous access catheters",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "venous"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "device",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "wide-diameter lumen",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "wide-diameter"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "flow rates",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Peripheral intravenous",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "peripheral",
+            "intravenous"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "wide-bore catheter",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "wide-bore"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "volume",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "rapid"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "resuscitation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "administration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "blood products",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Central catheters",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "central"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "peripheral",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "peripheral"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intravenous access",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "peripheral",
+            "intravenous"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "inadequate",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "inadequate"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "specific",
+            "clinical"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "administration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "caustic medications",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "caustic"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hemodynamic",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hemodynamic"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "monitoring",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hemodynamic"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "extracorporeal therapies",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "extracorporeal"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hemodialysis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Devices",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "lower risk",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "lower"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "complications",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "peripheral intravenous access",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "peripheral",
+            "intravenous"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prioritized",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "peripheral",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "single",
+            "peripheral"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "resuscitation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "access",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "second"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "access",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "additional"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intravenous catheter",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "first",
+            "intravenous"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "dysfunctional",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "dysfunctional"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "peripheral",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "additional",
+            "peripheral"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intravenous catheter",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "peripheral",
+            "intravenous"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "short",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "short"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "wide lumen",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "wide"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "low risk",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "low"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "complications",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Placement",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intraosseous needle device",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "intraosseous"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option B",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "humerus",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tibia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "large-bore",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "large-bore"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "lumen",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "large-bore"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "administration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "rapid"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intravenous fluids",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "intravenous"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intravenous access",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "intravenous"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "device",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "contraindicated",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "contraindicated",
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "conditions",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "contraindicated",
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "osteogenesis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "imperfecta",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "osteopenia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "osteoporosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "placement",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "needle",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increase",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "fracture risk",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "fracture"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "osteoporosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "device",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "peripherally",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option C) line",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "peripheral intravenous line",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "peripheral",
+            "intravenous"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "long length",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "long"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "narrow-gauge lumen",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "narrow-gauge"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "maximal",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "maximal"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "flow rate",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "maximal"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "infused fluids",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "inadequate",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "inadequate"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "volume",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "rapid"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "resuscitation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "administration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "blood products",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "care",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "lumen",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "single"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "peripheral intravenous",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "18-gauge",
+            "peripheral",
+            "intravenous"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "flow rate",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "catheters",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "triple-lumen catheter",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "triple-lumen"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option D",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "femoral insertion",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "femoral"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intravenous catheters",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "intravenous"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increased",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "risk",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "infection",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "thrombosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The most appropriate additional intravenous access for rapid treatment of this patient's hemorrhagic shock is a second 18-gauge peripheral intravenous catheter (Option A).",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 6
+        },
+        {
+          "text": "According to the law of Poiseuille, the flow of fluid through a tube is dictated in part by the radius and length of the tube.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 7
+        },
+        {
+          "text": "Therefore, for venous access catheters, a device that is short and has a wide-diameter lumen will maximize flow rates.",
+          "index": 2,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "Peripheral intravenous access with a short, wide-bore catheter is therefore the route of choice for rapid volume resuscitation and administration of blood products.",
+          "index": 3,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 6
+        },
+        {
+          "text": "Central catheters are indicated when peripheral intravenous access is inadequate for a specific clinical need, such as administration of caustic medications, hemodynamic monitoring, and support of extracorporeal therapies like hemodialysis.",
+          "index": 4,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 11
+        },
+        {
+          "text": "Devices with lower risk for complications (e.g., peripheral intravenous access) should be prioritized whenever possible.",
+          "index": 5,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 5
+        },
+        {
+          "text": "This patient has a single peripheral intravenous catheter with which to start resuscitation, but a second access point should be obtained for additional access or in case the first intravenous catheter becomes dysfunctional.",
+          "index": 6,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 7
+        },
+        {
+          "text": "An additional peripheral intravenous catheter is the best choice because of the short, wide lumen and low risk for complications.",
+          "index": 7,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 6
+        },
+        {
+          "text": "Placement of an intraosseous needle device (Option B) in the humerus or tibia is easy, and its short, large-bore lumen allows for rapid administration of intravenous fluids.",
+          "index": 8,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 9
+        },
+        {
+          "text": "This makes it an excellent choice when intravenous access is not available.",
+          "index": 9,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 1
+        },
+        {
+          "text": "However, the device is contraindicated in patients with conditions such as osteogenesis imperfecta, osteopenia, and osteoporosis because placement of the needle may increase fracture risk.",
+          "index": 10,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 12
+        },
+        {
+          "text": "This patient has osteoporosis; thus, this device would not be appropriate.",
+          "index": 11,
+          "has_negation": true,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 3
+        },
+        {
+          "text": "Although a peripherally inserted central catheter (Option C) line is more durable than a peripheral intravenous line, its long length and narrow-gauge lumen significantly limit the maximal flow rate of infused fluids.",
+          "index": 12,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 8
+        },
+        {
+          "text": "It is inadequate for the rapid volume resuscitation and administration of blood products required in the care of this patient.",
+          "index": 13,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 7
+        },
+        {
+          "text": "Despite having only a single lumen, an 18-gauge peripheral intravenous catheter has a flow rate similar to that of all three catheters combined in a triple-lumen catheter (Option D).",
+          "index": 14,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 6
+        },
+        {
+          "text": "In addition, femoral insertion of intravenous catheters should be avoided if possible because of the increased risk for infection and thrombosis.",
+          "index": 15,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 6
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "not",
+          "start_char": 1534,
+          "end_char": 1537
+        },
+        {
+          "trigger": "contraindicated",
+          "start_char": 1572,
+          "end_char": 1587
+        },
+        {
+          "trigger": "not",
+          "start_char": 1793,
+          "end_char": 1796
+        }
+      ],
+      "entity_count": 104,
+      "sentence_count": 16,
+      "negation_count": 3
+    },
+    "key_points": {
+      "entities": [
+        {
+          "text": "large-volume fluid",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "large-volume",
+            "fluid"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "administration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "fluid"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "access device",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "wide-diameter lumen",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "wide-diameter"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "flow rates",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "For rapid and large-volume fluid administration, an access device that is short and has a wide-diameter lumen will maximize flow rates.",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 5
+        }
+      ],
+      "negations": [],
+      "entity_count": 5,
+      "sentence_count": 1,
+      "negation_count": 0
+    }
+  }
 }

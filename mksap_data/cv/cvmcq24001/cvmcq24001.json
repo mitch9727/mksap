@@ -94,163 +94,243 @@
   "true_statements": {
     "from_critique": [
       {
-        "statement": "In patients with suspected ACS but with initial test results nondiagnostic of STEMI, serial ECGs are indicated to identify evolving STEMI.",
-        "extra_field": "Serial ECGs clarify the diagnosis and determine the need for reperfusion therapy",
+        "statement": "Additional electrocardiogram (ECG) testing with modified leads is indicated in patients with possible acute coronary syndrome (ACS).",
+        "extra_field": "Ischemia can be “silent” on a standard 12‑lead if the infarct involves posterior, right ventricular, or high‑lateral walls—areas under‑represented by routine leads. Modified leads (posterior V7–V9, right‑sided V3R–V4R) uncover ST elevation that would otherwise appear only as reciprocal changes. Clinically, this prevents missing a reperfusion‑eligible STEMI; think “if the story fits but the ECG doesn’t, move the electrodes.”",
         "cloze_candidates": [
-          "serial ECGs",
-          "evolving STEMI",
-          "ACS",
-          "STEMI"
-        ]
-      },
-      {
-        "statement": "In patients with suspected ACS but with initial test results nondiagnostic of STEMI, ECG with modified leads is indicated in some cases to identify evolving STEMI.",
-        "extra_field": "Modified lead ECGs clarify the diagnosis and determine the need for reperfusion therapy",
-        "cloze_candidates": [
+          "electrocardiogram (ECG)",
           "modified leads",
-          "ACS",
-          "STEMI"
-        ]
+          "acute",
+          "coronary syndrome (ACS)"
+        ],
+        "final_clozes": []
       },
       {
-        "statement": "ECGs should be repeated every 15 to 30 minutes as necessary in patients with suspected ACS to clarify the diagnosis and determine the need for reperfusion therapy.",
-        "extra_field": null,
+        "statement": "In patients with suspected acute coronary syndrome (ACS) but initial test results nondiagnostic of ST-segment elevation myocardial infarction (STEMI), serial ECGs are indicated to identify evolving STEMI.",
+        "extra_field": "Early STEMI can evolve over minutes as transmural ischemia progresses, so a single nondiagnostic ECG can precede clear ST elevation. Serial ECGs capture dynamic changes and reduce false reassurance. Clinically, repeating ECGs in ongoing symptoms is a low‑cost way to trigger timely reperfusion—remember “STEMI is a moving target.”",
+        "cloze_candidates": [
+          "suspected",
+          "acute",
+          "coronary syndrome (ACS)",
+          "serial ECGs",
+          "ST-segment elevation",
+          "myocardial infarction (STEMI)"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In patients with suspected acute coronary syndrome (ACS) but initial test results nondiagnostic of ST-segment elevation myocardial infarction (STEMI), ECG with modified leads is indicated in some cases to identify evolving STEMI.",
+        "extra_field": "Posterior or right‑ventricular infarcts often show only reciprocal ST depression or subtle changes on standard leads. Modified leads directly over the affected myocardium convert those reciprocal patterns into diagnostic ST elevation. Use them when symptoms are concerning but standard ECG is equivocal—“look where it hurts.”",
+        "cloze_candidates": [
+          "suspected",
+          "acute",
+          "coronary syndrome (ACS)",
+          "ECG with modified leads",
+          "evolving STEMI"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Electrocardiograms should be repeated every 15 to 30 minutes as necessary to clarify the diagnosis and determine the need for reperfusion therapy.",
+        "extra_field": "Ischemic injury patterns can change quickly, and the decision to reperfuse hinges on capturing ST elevation when it appears. Repeating ECGs every 15–30 minutes during active symptoms balances speed with feasibility and can shift management from observation to emergent PCI/lysis. Think “every half‑hour is another chance to save myocardium.”",
         "cloze_candidates": [
           "15 to 30 minutes",
-          "ACS",
-          "reperfusion therapy"
-        ]
+          "reperfusion therapy",
+          "clarify the diagnosis"
+        ],
+        "final_clozes": []
       },
       {
         "statement": "In patients with possible posterior myocardial infarction, modified posterior leads V7, V8, and/or V9 should be assessed for ST-segment elevation.",
-        "extra_field": null,
+        "extra_field": "Posterior MI produces reciprocal ST depression in V1–V3 because the posterior wall is electrically opposite those leads. Posterior leads V7–V9 place electrodes directly over the posterior myocardium to reveal true ST elevation. Clinically, add these leads when you see V1–V3 ST depression with ischemic symptoms—“posterior pain, posterior leads.”",
         "cloze_candidates": [
           "posterior myocardial infarction",
-          "V7, V8, and/or V9",
+          "modified posterior leads V7, V8, and/or V9",
           "ST-segment elevation"
-        ]
+        ],
+        "final_clozes": []
       },
       {
-        "statement": "ECG findings suggestive of posterior myocardial infarction include significant precordial ST-segment depression with accompanying tall R waves.",
-        "extra_field": null,
+        "statement": "Recognition of 1 mm ST-segment elevation in leads V7 and V8 is diagnostic of posterior myocardial infarction.",
+        "extra_field": "Because posterior leads are farther from the heart, even 1 mm of ST elevation is significant and reflects transmural injury. This threshold converts subtle posterior injury into a STEMI‑equivalent diagnosis. Use the 1‑mm rule to avoid undercalling posterior infarcts—“small rise, big deal.”",
         "cloze_candidates": [
-          "posterior myocardial infarction",
-          "precordial ST-segment depression",
-          "tall R waves"
-        ]
-      },
-      {
-        "statement": "1 mm ST-segment elevation in leads V7 and V8 is diagnostic of posterior myocardial infarction.",
-        "extra_field": "This finding indicates the need for immediate reperfusion therapy",
-        "cloze_candidates": [
-          "1 mm",
-          "ST-segment elevation",
-          "V7 and V8",
+          "1 mm ST-segment elevation",
+          "leads V7 and V8",
           "posterior myocardial infarction"
-        ]
+        ],
+        "final_clozes": []
       },
       {
-        "statement": "Early reperfusion with either percutaneous coronary intervention or thrombolytic therapy is indicated in all patients with STEMI in the absence of active contraindication.",
-        "extra_field": null,
+        "statement": "Recognition of 1 mm ST-segment elevation in leads V7 and V8 indicates the need for immediate reperfusion therapy.",
+        "extra_field": "Posterior ST elevation reflects an occluded infarct‑related artery, most commonly the LCx or RCA, and carries the same urgency as anterior STEMI. Recognizing it triggers immediate reperfusion to salvage myocardium. Treat it as a “hidden STEMI.”",
         "cloze_candidates": [
-          "reperfusion",
-          "percutaneous coronary intervention",
+          "1 mm ST-segment elevation",
+          "leads V7 and V8",
+          "immediate reperfusion therapy"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Early reperfusion with either percutaneous coronary intervention (PCI) or thrombolytic therapy is indicated in all patients with ST-segment elevation myocardial infarction (STEMI) in the absence of active contraindication.",
+        "extra_field": "STEMI represents acute coronary occlusion with ongoing transmural necrosis; only rapid reperfusion reverses ischemia and reduces mortality. PCI or thrombolysis restores flow, limiting infarct size and complications. Clinically, if no contraindication, activate reperfusion pathways immediately—“time is muscle.”",
+        "cloze_candidates": [
+          "Early reperfusion",
+          "percutaneous coronary intervention (PCI)",
           "thrombolytic therapy",
-          "STEMI"
-        ]
+          "ST-segment elevation myocardial infarction (STEMI)",
+          "active contraindication"
+        ],
+        "final_clozes": []
       },
       {
-        "statement": "PCI is preferable to thrombolysis unless it cannot be performed within 120 minutes of first medical contact.",
-        "extra_field": null,
+        "statement": "Percutaneous coronary intervention (PCI) is preferable to thrombolysis unless PCI cannot be performed within 120 minutes of first medical contact.",
+        "extra_field": "PCI achieves higher rates of complete reperfusion and lower bleeding risk than thrombolysis, but its benefit declines with delay. The 120‑minute threshold balances PCI superiority against the harm of waiting too long. Use this to decide: if PCI can’t happen fast enough, give lytics—“better blood flow now than perfect flow later.”",
         "cloze_candidates": [
-          "PCI",
+          "Percutaneous coronary intervention (PCI)",
           "thrombolysis",
-          "120 minutes"
-        ]
+          "120 minutes",
+          "first medical contact"
+        ],
+        "final_clozes": []
       },
       {
-        "statement": "History of ischemic stroke is a relative contraindication to thrombolytic therapy.",
-        "extra_field": null,
+        "statement": "Serial troponin levels are a component of the TIMI (Thrombolysis in Myocardial Infarction) risk score.",
+        "extra_field": "Troponin reflects myocardial necrosis, and serial changes distinguish acute injury from chronic elevation. TIMI includes biomarkers to stratify short‑term risk of death or ischemic events. Clinically, rising troponins push patients toward more aggressive therapy and early invasive strategies—“trend beats single value.”",
         "cloze_candidates": [
-          "ischemic stroke",
-          "relative contraindication",
-          "thrombolytic therapy"
-        ]
+          "Serial troponin levels",
+          "TIMI (Thrombolysis in Myocardial Infarction) risk score"
+        ],
+        "final_clozes": []
       },
       {
-        "statement": "Serial troponin levels are a component of the TIMI risk score.",
-        "extra_field": "TIMI score can guide treatment in patients with non-ST-elevation ACS, including the timing of coronary angiography",
+        "statement": "Serial troponin levels are a component of the GRACE (Global Registry of Acute Coronary Events) risk score.",
+        "extra_field": "GRACE predicts in‑hospital and 6‑month mortality using clinical variables and cardiac markers; troponin adds objective evidence of infarction. Serial levels improve accuracy in distinguishing ACS from nonischemic injury. Clinically, higher GRACE scores justify early invasive management—“markers move the needle.”",
         "cloze_candidates": [
-          "troponin levels",
-          "TIMI risk score"
-        ]
+          "Serial troponin levels",
+          "GRACE (Global Registry of Acute Coronary Events) risk score"
+        ],
+        "final_clozes": []
       },
       {
-        "statement": "Serial troponin levels are a component of the GRACE risk score.",
-        "extra_field": "GRACE score can guide treatment in patients with non-ST-elevation ACS, including the timing of coronary angiography",
+        "statement": "TIMI and GRACE risk scores can guide treatment in patients with non–ST-elevation acute coronary syndrome (ACS), including the timing of coronary angiography.",
+        "extra_field": "Non‑ST‑elevation ACS has heterogeneous risk; TIMI and GRACE translate bedside data into event probabilities. Higher scores correlate with greater benefit from early angiography and revascularization, while low scores may be managed more conservatively. Use them to time angiography and allocate resources—“risk score = timing score.”",
         "cloze_candidates": [
-          "troponin levels",
-          "GRACE risk score"
-        ]
+          "TIMI",
+          "GRACE risk scores",
+          "non–ST-elevation",
+          "acute coronary syndrome (ACS)",
+          "coronary angiography"
+        ],
+        "final_clozes": []
       },
       {
-        "statement": "In patients with a high likelihood of ACS and symptomatic, hemodynamic, or electrical instability, but without ST-segment elevation on ECG, urgent coronary angiography is appropriate within 2 hours of presentation.",
-        "extra_field": null,
+        "statement": "In patients with a high likelihood of acute coronary syndrome (ACS) and symptomatic, hemodynamic, or electrical instability but without ST-segment elevation on ECG, urgent coronary angiography is appropriate within 2 hours of presentation.",
+        "extra_field": "Hemodynamic instability, refractory ischemia, or malignant arrhythmias imply ongoing critical coronary obstruction even without ST elevation. Early angiography within 2 hours allows rapid revascularization to prevent collapse. Clinically, unstable NSTE‑ACS is treated like STEMI‑level urgency—“shock or storms mean cath now.”",
         "cloze_candidates": [
-          "ACS",
-          "coronary angiography",
-          "2",
-          "ST-segment elevation"
-        ]
+          "high likelihood of acute coronary syndrome (ACS)",
+          "symptomatic, hemodynamic, or electrical instability",
+          "without ST-segment elevation on ECG",
+          "urgent coronary angiography",
+          "within 2 hours of presentation"
+        ],
+        "final_clozes": []
       },
       {
-        "statement": "Temporary pacemaker implantation may be considered in patients with ACS and symptomatic bradycardia due to persistent or progressive high-degree atrioventricular block.",
-        "extra_field": null,
+        "statement": "Posterior myocardial infarction due to coronary artery occlusion must be excluded before deciding on management in suspected cases.",
+        "extra_field": "Posterior MI is a STEMI equivalent that can be missed because standard leads show only ST depression. Failing to exclude it risks inappropriate conservative management and delayed reperfusion. Clinically, always rule it out when the ECG shows V1–V3 depression with ischemic symptoms—“don’t mistake posterior STEMI for NSTEMI.”",
         "cloze_candidates": [
-          "temporary pacemaker",
-          "ACS",
+          "Posterior myocardial infarction",
+          "coronary artery occlusion",
+          "must be excluded"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Serial and modified lead ECGs are necessary to further assess the possibility of ST-segment elevation myocardial infarction (STEMI) when posterior myocardial infarction due to coronary artery occlusion has not been excluded.",
+        "extra_field": "When posterior occlusion is possible, the standard ECG can be falsely nondiagnostic; serial and posterior leads uncover evolving or hidden ST elevation. This directly impacts whether to activate reperfusion therapy. In practice, repeat and modify leads until occlusion is excluded—“no posterior exclusion, no NSTEMI label.”",
+        "cloze_candidates": [
+          "Serial and modified lead ECGs",
+          "ST-segment elevation myocardial infarction (STEMI)",
+          "posterior myocardial infarction",
+          "coronary artery occlusion"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Immediate reperfusion with primary percutaneous coronary intervention (PCI) or thrombolytic therapy is the best treatment for ST-segment elevation myocardial infarction (STEMI).",
+        "extra_field": "Primary PCI (or lysis if PCI delay is excessive) restores coronary flow, limits infarct size, and reduces mortality and heart failure. Supportive care alone does not reverse the occlusion. Clinically, reperfusion is the definitive therapy and should be arranged immediately—“open the artery, save the ventricle.”",
+        "cloze_candidates": [
+          "Immediate reperfusion",
+          "primary percutaneous coronary intervention (PCI)",
+          "thrombolytic therapy",
+          "ST-segment elevation myocardial infarction (STEMI)"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Temporary pacemaker implantation may be considered in patients with acute coronary syndrome (ACS) and symptomatic bradycardia due to persistent or progressive high-degree atrioventricular block.",
+        "extra_field": "High‑degree AV block in ACS—especially inferior MI—can progress and cause hypotension or syncope by severely reducing cardiac output. Temporary pacing stabilizes heart rate and perfusion while definitive therapy (reperfusion) treats the cause. Clinically, consider pacing when bradycardia is symptomatic or hemodynamically significant—“block plus symptoms equals pacing.”",
+        "cloze_candidates": [
+          "Temporary pacemaker implantation",
+          "acute coronary syndrome (ACS)",
           "symptomatic bradycardia",
-          "high-degree atrioventricular block"
-        ]
+          "persistent or progressive high-degree atrioventricular block"
+        ],
+        "final_clozes": []
       },
       {
-        "statement": "Hemodynamically stable, vagally mediated bradyarrhythmias, such as sinus bradycardia, do not require specific intervention in patients with ACS.",
-        "extra_field": null,
+        "statement": "Hemodynamically stable, vagally mediated bradyarrhythmias do not require specific intervention.",
+        "extra_field": "Vagally mediated bradyarrhythmias are driven by transient parasympathetic tone, not ongoing ischemia, and usually resolve with supportive care. Treating them aggressively can cause harm (e.g., unnecessary pacing or drug side effects). Clinically, observe if stable and correct triggers—“if it’s vagal and stable, watch and wait.”",
         "cloze_candidates": [
+          "Hemodynamically stable",
           "vagally mediated bradyarrhythmias",
-          "sinus bradycardia",
-          "ACS"
-        ]
+          "do not require specific intervention"
+        ],
+        "final_clozes": []
       }
     ],
     "from_key_points": [
       {
-        "statement": "In patients with suspected acute coronary syndrome but nondiagnostic initial testing, serial ECGs and modified lead ECGs are indicated to identify evolving ST-segment elevation myocardial infarction.",
-        "extra_field": null,
+        "statement": "In patients presenting with suspected acute coronary syndrome but nondiagnostic initial testing, serial ECGs are indicated to identify evolving ST-segment elevation myocardial infarction.",
+        "extra_field": "Early STEMI can evolve over minutes to hours as ischemia progresses from subendocardial to transmural; initial ECG may be normal or show only subtle changes. Clinically, repeat ECGs (often every 15–30 minutes or with symptom change) catch dynamic ST elevation that triggers immediate reperfusion pathways. Memory aid: “ECG is a moving target in ACS—if pain persists, repeat the trace.”",
         "cloze_candidates": [
+          "suspected acute coronary syndrome",
+          "nondiagnostic initial testing",
           "serial ECGs",
-          "modified lead ECGs",
-          "ST-segment elevation myocardial infarction",
-          "acute coronary syndrome"
-        ]
+          "evolving ST-segment elevation myocardial infarction"
+        ],
+        "final_clozes": []
       },
       {
-        "statement": "Significant precordial ST-segment depression with tall R waves is suggestive of posterior myocardial infarction.",
-        "extra_field": null,
+        "statement": "In patients presenting with suspected acute coronary syndrome but nondiagnostic initial testing, modified lead ECGs are indicated in some cases to identify evolving ST-segment elevation myocardial infarction.",
+        "extra_field": "Occlusion in territories not well seen on standard 12‑lead (posterior or right ventricle) can hide STEMI because the injury vector points away from routine leads. Adding posterior leads (V7–V9) or right‑sided leads (V3R–V4R) unmasks ST elevation and prevents missed reperfusion for LCx or RCA infarcts. Memory aid: “When the story fits but the ECG doesn’t, look behind and right.”",
         "cloze_candidates": [
-          "precordial ST-segment depression",
+          "suspected acute coronary syndrome",
+          "nondiagnostic initial testing",
+          "modified lead ECGs",
+          "evolving ST-segment elevation myocardial infarction"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In a patient with chest pain, significant precordial ST-segment depression with accompanying tall R waves is suggestive of a posterior myocardial infarction.",
+        "extra_field": "Posterior MI produces a mirror image on anterior leads: posterior ST elevation appears as anterior ST depression, and posterior Q waves appear as tall R waves in V1–V3. This pattern signals an occluded circumflex or RCA and should prompt posterior leads and STEMI-level treatment. Memory aid: “Posterior MI is the ECG’s mirror—depression up front means elevation in back.”",
+        "cloze_candidates": [
+          "chest pain",
+          "significant precordial ST-segment depression",
           "tall R waves",
           "posterior myocardial infarction"
-        ]
+        ],
+        "final_clozes": []
       },
       {
-        "statement": "In posterior myocardial infarction, ST-segment elevation may be present in the inferior leads.",
-        "extra_field": null,
+        "statement": "In a patient with chest pain, ST-segment elevation may also be present in the inferior leads.",
+        "extra_field": "Inferior ST elevation reflects injury in the RCA or left circumflex territory, which often travels with posterior involvement due to shared blood supply. Clinically, inferior STE should trigger assessment for right‑ventricular infarct (right‑sided leads) and avoidance of preload‑reducing drugs if RV involvement is present. Memory aid: “Inferior STE—think RCA, check the right side.”",
         "cloze_candidates": [
-          "posterior myocardial infarction",
+          "chest pain",
           "ST-segment elevation",
           "inferior leads"
-        ]
+        ],
+        "final_clozes": []
       }
     ]
   },
@@ -258,5 +338,24 @@
     "statements": [],
     "tables_processed": 0,
     "tables_skipped": 0
+  },
+  "validation_pass": true,
+  "nlp_analysis": {
+    "critique": {
+      "entities": [],
+      "sentences": [],
+      "negations": [],
+      "entity_count": 0,
+      "sentence_count": 0,
+      "negation_count": 0
+    },
+    "key_points": {
+      "entities": [],
+      "sentences": [],
+      "negations": [],
+      "entity_count": 0,
+      "sentence_count": 0,
+      "negation_count": 0
+    }
   }
 }

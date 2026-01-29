@@ -78,5 +78,2179 @@
     "videos": [],
     "svgs": []
   },
-  "extracted_at": "2026-01-01T17:54:36.413495-06:00"
+  "extracted_at": "2026-01-01T17:54:36.413495-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "In likely obstructive shock due to cardiac tamponade, the most appropriate management is urgent echocardiography.",
+        "extra_field": "Tamponade is a rapidly reversible cause of obstructive shock, so confirming it quickly changes management from supportive care to immediate drainage. Echo is bedside, fast, and shows both effusion and hemodynamic impact (RA/RV collapse). Memory aid: “Shock + JVD + quiet heart = echo now.”",
+        "cloze_candidates": [
+          "obstructive shock",
+          "cardiac tamponade",
+          "urgent echocardiography",
+          "most appropriate management"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Obstructive shock is caused by extracardiac forces that impair cardiac output despite the presence of normal cardiac function.",
+        "extra_field": "In obstructive shock, the pump is intrinsically okay but is being compressed or blocked, so cardiac output falls despite normal contractility. Clinically, this pushes you to look for reversible mechanical causes rather than treating primary pump failure. Memory aid: “Obstruction = outside the heart.”",
+        "cloze_candidates": [
+          "Obstructive shock",
+          "extracardiac forces",
+          "cardiac output",
+          "normal cardiac function"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Causes of obstructive shock include cardiac tamponade.",
+        "extra_field": "Tamponade compresses the heart, preventing filling, so output drops even though myocardium is intact. Recognizing it as an obstructive cause directs you to urgent pericardiocentesis rather than inotropes alone. Memory aid: Beck’s triad points to tamponade as the obstructive culprit.",
+        "cloze_candidates": [
+          "Causes of obstructive shock",
+          "cardiac tamponade"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Causes of obstructive shock include tension pneumothorax.",
+        "extra_field": "Tension pneumothorax raises intrathoracic pressure, collapsing venous return and shifting mediastinum, which limits preload. Clinically, treat immediately with needle decompression—don’t wait for imaging. Memory aid: “Tension = treat first.”",
+        "cloze_candidates": [
+          "Causes of obstructive shock",
+          "tension pneumothorax"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Causes of obstructive shock include pulmonary embolism.",
+        "extra_field": "Large PE blocks pulmonary flow, acutely increasing RV afterload and reducing LV preload, causing shock. This pushes management toward thrombolysis or embolectomy rather than fluids alone. Memory aid: “PE = pressure on the right.”",
+        "cloze_candidates": [
+          "Causes of obstructive shock",
+          "pulmonary embolism"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In cardiac tamponade, pericardial effusion causes increased pressure within the relatively inelastic pericardial sac.",
+        "extra_field": "The pericardium doesn’t stretch quickly, so even modest rapid effusions raise intrapericardial pressure. This pressure limits diastolic filling, the core mechanism of tamponade. Memory aid: “Fast fluid fills the fixed sac.”",
+        "cloze_candidates": [
+          "cardiac tamponade",
+          "pericardial effusion",
+          "increased pressure",
+          "inelastic pericardial sac"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In cardiac tamponade, increased pericardial pressure causes the thin-walled right atrium to collapse during early diastole.",
+        "extra_field": "The right atrium is the lowest‑pressure chamber, so it collapses first when pericardial pressure rises. Early diastolic RA collapse on echo is a sensitive sign of tamponade physiology. Memory aid: “RA falls first.”",
+        "cloze_candidates": [
+          "cardiac tamponade",
+          "increased pericardial pressure",
+          "right atrium",
+          "early diastole"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Right atrial collapse during early diastole impedes venous filling in cardiac tamponade.",
+        "extra_field": "RA collapse blocks venous inflow at the moment it should be filling, cutting preload. Clinically this explains JVD and hypotension despite clear lungs. Memory aid: “Collapsed RA = blocked return.”",
+        "cloze_candidates": [
+          "Right atrial collapse",
+          "early diastole",
+          "impedes venous filling",
+          "cardiac tamponade"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Impeded venous filling in cardiac tamponade decreases cardiac output.",
+        "extra_field": "Reduced venous return lowers preload, which drops stroke volume by Frank‑Starling. Clinically, this is why tamponade patients are preload dependent and decompensate with diuresis. Memory aid: “Less fill, less flow.”",
+        "cloze_candidates": [
+          "Impeded venous filling",
+          "cardiac tamponade",
+          "decreases cardiac output"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Decreased cardiac output in cardiac tamponade results in obstructive shock.",
+        "extra_field": "When preload is severely limited, blood pressure falls and tissue perfusion drops—classic obstructive shock. This is why tamponade demands urgent decompression rather than slow medical management. Memory aid: “Tamponade = shock until drained.”",
+        "cloze_candidates": [
+          "Decreased cardiac output",
+          "cardiac tamponade",
+          "obstructive shock"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Findings consistent with pericardial tamponade include hypotension.",
+        "extra_field": "Hypotension reflects low stroke volume from impaired filling. It’s a key part of Beck’s triad, but absence doesn’t exclude tamponade early. Memory aid: “Beck = low BP.”",
+        "cloze_candidates": [
+          "pericardial tamponade",
+          "hypotension",
+          "Findings consistent"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Findings consistent with pericardial tamponade include tachycardia.",
+        "extra_field": "Tachycardia is a compensatory response to maintain cardiac output when stroke volume falls. Clinically, unexplained sinus tachycardia with JVD should raise suspicion for tamponade. Memory aid: “Fast heart to save flow.”",
+        "cloze_candidates": [
+          "pericardial tamponade",
+          "tachycardia",
+          "Findings consistent"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Findings consistent with pericardial tamponade include jugular venous distention.",
+        "extra_field": "JVD reflects elevated venous pressure from impaired right‑sided filling. It helps distinguish tamponade from hypovolemic shock, where neck veins are flat. Memory aid: “JVD = blocked return.”",
+        "cloze_candidates": [
+          "pericardial tamponade",
+          "jugular venous distention",
+          "Findings consistent"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Findings consistent with pericardial tamponade include pulsus paradoxus.",
+        "extra_field": "Pulsus paradoxus occurs because inspiration increases RV filling at the expense of LV filling in the constrained pericardium. Clinically, a >10 mm Hg drop in systolic BP with inspiration strongly suggests tamponade. Memory aid: “Paradox in the pulse.”",
+        "cloze_candidates": [
+          "pericardial tamponade",
+          "pulsus paradoxus",
+          "Findings consistent"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Findings consistent with pericardial tamponade include muffled heart sounds.",
+        "extra_field": "Muffled heart sounds occur because fluid dampens sound transmission. It’s part of Beck’s triad, but can be subtle in noisy settings. Memory aid: “Fluid muffles.”",
+        "cloze_candidates": [
+          "pericardial tamponade",
+          "muffled heart sounds",
+          "Findings consistent"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Chest radiograph may show an enlarged cardiac silhouette in pericardial tamponade.",
+        "extra_field": "A large effusion can create a globular “water‑bottle” silhouette on CXR, but small or acute effusions can look normal. Use it as a clue, not a rule‑out test. Memory aid: “Big bottle heart.”",
+        "cloze_candidates": [
+          "Chest radiograph",
+          "enlarged cardiac silhouette",
+          "pericardial tamponade"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Electrocardiogram (ECG) may show electrical alternans in pericardial tamponade.",
+        "extra_field": "Electrical alternans reflects the heart swinging in a large effusion, changing QRS axis beat‑to‑beat. It’s specific but not sensitive—seen mainly with large effusions. Memory aid: “Swinging heart, alternating QRS.”",
+        "cloze_candidates": [
+          "Electrocardiogram (ECG)",
+          "electrical alternans",
+          "pericardial tamponade"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Electrocardiogram (ECG) may show diminished voltage in pericardial tamponade.",
+        "extra_field": "Low voltage occurs because fluid insulates the heart’s electrical signal. This supports effusion but is nonspecific and can appear in obesity or COPD. Memory aid: “Fluid turns down the volume.”",
+        "cloze_candidates": [
+          "Electrocardiogram (ECG)",
+          "diminished voltage",
+          "pericardial tamponade"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "None of the clinical and test findings listed for tamponade is overly sensitive.",
+        "extra_field": "Tamponade signs are classic but inconsistently present, especially early or in subacute cases. Clinically, you should not be reassured by a missing triad or normal ECG. Memory aid: “No single sign rules it out.”",
+        "cloze_candidates": [
+          "clinical and test findings",
+          "tamponade",
+          "overly sensitive"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The absence of these findings does not rule out tamponade.",
+        "extra_field": "Because sensitivity is limited, a normal exam or ECG doesn’t exclude tamponade. Persisting suspicion requires echo, not watchful waiting. Memory aid: “If you suspect it, echo it.”",
+        "cloze_candidates": [
+          "absence",
+          "does not rule out",
+          "tamponade"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Diagnosis of cardiac tamponade is with echocardiography.",
+        "extra_field": "Echo directly visualizes effusion and hemodynamic effects (RA/RV collapse, IVC plethora). It’s the diagnostic test of choice and guides urgent drainage. Memory aid: “Tamponade = echo.”",
+        "cloze_candidates": [
+          "Diagnosis of cardiac tamponade",
+          "echocardiography"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "When tamponade is present, urgent pericardiocentesis is necessary.",
+        "extra_field": "Once tamponade physiology is present, the only definitive therapy is pericardial drainage to restore filling. Delay risks cardiovascular collapse despite supportive measures. Memory aid: “Drain to gain.”",
+        "cloze_candidates": [
+          "tamponade",
+          "urgent pericardiocentesis",
+          "necessary"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Urgent pericardiocentesis decreases pressure against the right atrium in tamponade.",
+        "extra_field": "Removing fluid reduces intrapericardial pressure, allowing the right atrium to open during diastole. Clinically, this can rapidly normalize blood pressure. Memory aid: “Pressure off, RA opens.”",
+        "cloze_candidates": [
+          "Urgent pericardiocentesis",
+          "decreases pressure",
+          "right atrium",
+          "tamponade"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Urgent pericardiocentesis improves venous return in tamponade.",
+        "extra_field": "Restored RA filling improves venous return, increasing preload and stroke volume. This is why clinical improvement is often immediate after pericardiocentesis. Memory aid: “Return restored.”",
+        "cloze_candidates": [
+          "Urgent pericardiocentesis",
+          "improves venous return",
+          "tamponade"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Emergent coronary angiography would not be the most appropriate management in likely cardiac tamponade with obstructive shock.",
+        "extra_field": "Coronary angiography treats ischemic pump failure, not mechanical compression. In tamponade, it delays life‑saving drainage and doesn’t fix the cause of shock. Memory aid: “Not a pipe problem.”",
+        "cloze_candidates": [
+          "Emergent coronary angiography",
+          "most appropriate management",
+          "cardiac tamponade",
+          "obstructive shock"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Acute coronary syndrome is a common cause of cardiogenic shock.",
+        "extra_field": "Myocardial infarction can severely reduce contractility, leading to cardiogenic shock. Recognizing this common cause prompts early revascularization rather than focusing solely on preload. Memory aid: “MI → weak pump.”",
+        "cloze_candidates": [
+          "Acute coronary syndrome",
+          "cardiogenic shock",
+          "common cause"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In cardiogenic shock, cardiac catheterization with revascularization, if indicated, is the primary treatment.",
+        "extra_field": "Cardiogenic shock from ischemia improves most with rapid revascularization, which restores perfusion to stunned myocardium. Clinically, cath lab activation is the key step when MI‑related shock is suspected. Memory aid: “Open the artery, revive the pump.”",
+        "cloze_candidates": [
+          "cardiogenic shock",
+          "cardiac catheterization",
+          "revascularization",
+          "primary treatment"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Heart failure can cause elevated jugular venous pressure.",
+        "extra_field": "Right‑sided failure elevates right atrial pressure, causing JVD. This is a major overlap with tamponade, so JVD alone doesn’t differentiate causes of shock. Memory aid: “Any right‑side backup shows in the neck.”",
+        "cloze_candidates": [
+          "Heart failure",
+          "elevated jugular venous pressure"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Nonspecific changes on electrocardiogram (ECG) and other clinical findings suggestive of tamponade make echocardiography the best next test.",
+        "extra_field": "When signs are suggestive but nonspecific (tachycardia, JVD, low voltage), echo is the fastest way to confirm or exclude tamponade. Clinically, it prevents misdirected therapies like diuresis or cath. Memory aid: “Unclear signs → ultrasound.”",
+        "cloze_candidates": [
+          "Nonspecific changes",
+          "electrocardiogram (ECG)",
+          "echocardiography",
+          "best next test"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Diuresis with furosemide would not be appropriate management in likely cardiac tamponade.",
+        "extra_field": "Diuretics reduce preload, which tamponade patients rely on to maintain filling against external pressure. Giving furosemide can precipitate collapse. Memory aid: “Tamponade needs volume, not diuresis.”",
+        "cloze_candidates": [
+          "Diuresis",
+          "furosemide",
+          "cardiac tamponade",
+          "not be appropriate management"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Diuretic therapy is a central component of the treatment of heart failure.",
+        "extra_field": "In heart failure, diuretics relieve congestion and lower filling pressures, improving symptoms and oxygenation. This is appropriate when the problem is volume overload, not external compression. Memory aid: “Wet lungs = water off.”",
+        "cloze_candidates": [
+          "Diuretic therapy",
+          "central component",
+          "treatment of heart failure"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Diuretic therapy decreases venous return.",
+        "extra_field": "Diuretics lower intravascular volume, decreasing venous return. Clinically, that’s helpful in overload but dangerous in preload‑dependent states. Memory aid: “Diuresis drops preload.”",
+        "cloze_candidates": [
+          "Diuretic therapy",
+          "decreases venous return"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Decreased venous return would worsen shock in cardiac tamponade.",
+        "extra_field": "With tamponade, any drop in preload further limits already compromised filling, worsening hypotension. This is why cautious fluids are often used as a bridge to drainage. Memory aid: “Less preload, more shock.”",
+        "cloze_candidates": [
+          "Decreased venous return",
+          "worsen shock",
+          "cardiac tamponade"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with cardiac tamponade depend on increased preload to maintain right atrial filling in the presence of increased intrapericardial pressure.",
+        "extra_field": "Increased intrapericardial pressure narrows the filling window, so maintaining higher venous return helps keep chambers open. Clinically, avoid aggressive diuresis and vasodilators. Memory aid: “Tamponade lives on preload.”",
+        "cloze_candidates": [
+          "cardiac tamponade",
+          "increased preload",
+          "right atrial filling",
+          "increased intrapericardial pressure"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Pulmonary computed tomography (CT) angiography to diagnose pulmonary embolism is not the most appropriate management in likely cardiac tamponade.",
+        "extra_field": "CT angiography is for PE evaluation, but in suspected tamponade it delays definitive care and may be unsafe in unstable patients. Bedside echo is faster and directly answers the key question. Memory aid: “Unstable? Ultrasound first.”",
+        "cloze_candidates": [
+          "Pulmonary computed tomography (CT) angiography",
+          "pulmonary embolism",
+          "not the most appropriate management",
+          "cardiac tamponade"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Pulmonary embolism is a cause of obstructive shock.",
+        "extra_field": "PE can acutely obstruct pulmonary flow, elevating RV pressure and reducing LV preload, causing shock. Recognizing this directs therapy toward anticoagulation or thrombolysis. Memory aid: “Clot in lung, shock in heart.”",
+        "cloze_candidates": [
+          "Pulmonary embolism",
+          "obstructive shock",
+          "cause"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Pulmonary embolism may present with elevated jugular venous pressure.",
+        "extra_field": "Acute RV strain from PE backs up venous blood, producing JVD. This overlap with tamponade means you need additional clues or imaging to distinguish. Memory aid: “PE can mimic tamponade neck veins.”",
+        "cloze_candidates": [
+          "Pulmonary embolism",
+          "elevated jugular venous pressure"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Quiet heart sounds are more consistent with cardiac tamponade than pulmonary embolism.",
+        "extra_field": "Pericardial fluid dampens heart sounds, while PE typically has normal heart sounds unless RV failure is severe. Clinically, quiet heart sounds push you toward tamponade. Memory aid: “Muffled = fluid.”",
+        "cloze_candidates": [
+          "Quiet heart sounds",
+          "cardiac tamponade",
+          "pulmonary embolism"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Lack of chest pain is more consistent with cardiac tamponade than pulmonary embolism.",
+        "extra_field": "PE often causes pleuritic chest pain from pulmonary infarction or strain, whereas tamponade may present more with dyspnea and hypotension. Absence of chest pain doesn’t exclude PE but makes tamponade more likely. Memory aid: “Pain suggests PE.”",
+        "cloze_candidates": [
+          "Lack of chest pain",
+          "cardiac tamponade",
+          "pulmonary embolism"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Normal oxygen saturation is more consistent with cardiac tamponade than pulmonary embolism.",
+        "extra_field": "PE commonly causes hypoxemia due to V/Q mismatch, while tamponade may have normal oxygen saturation if lungs are unaffected. Normal SpO2 supports a cardiac mechanical issue over a pulmonary obstruction. Memory aid: “PE lowers O2.”",
+        "cloze_candidates": [
+          "Normal oxygen saturation",
+          "cardiac tamponade",
+          "pulmonary embolism"
+        ],
+        "final_clozes": []
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "Cardiac tamponade is suggested by the presence of hypotension, tachycardia, jugular venous distension, pulsus paradoxus, and muffled heart sounds.",
+        "extra_field": "Tamponade is caused by pericardial fluid under pressure, which limits diastolic filling, lowers stroke volume, and triggers compensatory tachycardia while venous blood backs up into the neck veins. Pulsus paradoxus reflects exaggerated inspiratory drop in systolic BP because the RV expands at the expense of the LV within a fixed pericardial volume. Clinically, this cluster (Beck triad + pulsus paradoxus) flags obstructive shock—treat the cause, not just the blood pressure. Memory aid: “Beck’s triad” (hypotension, JVD, muffled heart sounds) + “pulsus paradoxus = tamponade.”",
+        "cloze_candidates": [
+          "cardiac tamponade",
+          "hypotension",
+          "tachycardia",
+          "jugular venous distension",
+          "pulsus paradoxus"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Urgent echocardiography is indicated if cardiac tamponade is suspected.",
+        "extra_field": "Echocardiography rapidly confirms hemodynamic compromise by showing pericardial effusion, chamber collapse (especially RA/RV in diastole), and respiratory variation in transvalvular flows. This is the fastest way to distinguish tamponade from other causes of shock and guides immediate management, including procedural planning for drainage. Use bedside (POCUS) if unstable; don’t delay for formal imaging. Memory aid: “Tamponade? Probe now.”",
+        "cloze_candidates": [
+          "Urgent echocardiography",
+          "cardiac tamponade",
+          "suspected"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients who present with cardiac tamponade require emergent pericardiocentesis.",
+        "extra_field": "Pericardiocentesis relieves external pressure on the heart, restoring diastolic filling and cardiac output; without it, the obstructive physiology persists despite fluids or pressors. Clinically, it’s a life-saving bridge in unstable patients, often performed emergently with echo guidance while addressing the underlying cause (e.g., malignancy, uremia, trauma). Remember: “Drain to gain”—remove fluid to regain preload and perfusion.",
+        "cloze_candidates": [
+          "cardiac tamponade",
+          "emergent pericardiocentesis",
+          "Patients who present"
+        ],
+        "final_clozes": []
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 0
+  },
+  "validation_pass": true,
+  "nlp_analysis": {
+    "critique": {
+      "entities": [
+        {
+          "text": "management",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "appropriate"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "obstructive shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "likely",
+            "obstructive"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac tamponade",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "echocardiography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "urgent"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option A",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Obstructive shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "obstructive"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "extracardiac forces",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "extracardiac"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "impair",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "normal",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "normal"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac function",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "normal",
+            "cardiac"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac tamponade",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tension pneumothorax",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pulmonary embolism",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pulmonary"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac tamponade",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pericardial effusion",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pericardial"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increased",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pressure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "inelastic pericardial sac",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "inelastic",
+            "pericardial"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increased",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pressure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "thin-walled right atrium",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "thin-walled",
+            "right"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "collapse",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diastole",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "early"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "venous filling",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "venous"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "decreases",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "results",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "obstructive shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "obstructive"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Findings",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "consistent with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "consistent"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pericardial tamponade",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pericardial"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypotension",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tachycardia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "jugular venous distention",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "jugular",
+            "venous"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pulsus paradoxus",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "muffled heart sounds",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Chest radiograph",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "chest",
+            "radiograph"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "enlarged",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "enlarged"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac silhouette",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "enlarged",
+            "cardiac"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ECG",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "electrical alternans",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "electrical"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diminished",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "voltage",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "findings",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "None",
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sensitive",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "sensitive"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "absence",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tamponade",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "absence",
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Diagnosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "echocardiography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pericardiocentesis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "urgent"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tamponade",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "decrease",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pressure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "right atrium",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "right"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "improve",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "venous return",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "venous"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "evidence",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypotension",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypoperfusion",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "signs of",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tamponade",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "jugular",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "jugular"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "venous distension",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "jugular",
+            "venous"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "distant heart sounds",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "distant"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "enlarged",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "enlarged"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac silhouette",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "enlarged",
+            "cardiac"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "radiography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "echocardiography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "urgent"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Emergent",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "emergent"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "coronary angiography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "emergent",
+            "coronary"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option B",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "management",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "appropriate"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute",
+            "coronary"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiogenic shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiogenic"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac catheterization",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "revascularization",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "primary treatment",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "primary"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiogenic shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiogenic"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Heart failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "elevated",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "elevated"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "jugular",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "elevated",
+            "jugular"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "venous pressure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "jugular",
+            "venous"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "nonspecific",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "nonspecific"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "changes",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "nonspecific"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ECG",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical findings",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "other",
+            "clinical"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tamponade",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "echocardiography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "next test",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "best",
+            "next"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Diuresis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "furosemide",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option C",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "management",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "appropriate"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac tamponade",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "likely",
+            "cardiac"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "central component",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "central"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "treatment",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "heart failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diuretic therapy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "diuretic"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "decreases",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "venous return",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "venous"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "worsen shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac tamponade",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increased",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "preload",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "right atrial filling",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "right",
+            "atrial"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "presence",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increased",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intrapericardial",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "intrapericardial"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Pulmonary CT angiography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pulmonary"
+          ],
+          "sentence_index": 17,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option D",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 17,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diagnose",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 17,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pulmonary embolism",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pulmonary"
+          ],
+          "sentence_index": 17,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "management",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "appropriate"
+          ],
+          "sentence_index": 17,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pulmonary embolism",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pulmonary"
+          ],
+          "sentence_index": 18,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "obstructive shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "obstructive"
+          ],
+          "sentence_index": 18,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "elevated",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "elevated"
+          ],
+          "sentence_index": 18,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "venous pressure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "jugular",
+            "venous"
+          ],
+          "sentence_index": 18,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient's",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 18,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "heart sounds",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "quiet"
+          ],
+          "sentence_index": 18,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "chest pain",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "chest"
+          ],
+          "sentence_index": 18,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "normal oxygen saturation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "normal"
+          ],
+          "sentence_index": 18,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "consistent with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "consistent"
+          ],
+          "sentence_index": 18,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac tamponade",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 18,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pulmonary embolism",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pulmonary"
+          ],
+          "sentence_index": 18,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The most appropriate management in this patient with likely obstructive shock due to cardiac tamponade is urgent echocardiography (Option A).",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 6
+        },
+        {
+          "text": "Obstructive shock is caused by extracardiac forces that impair cardiac output despite the presence of normal cardiac function.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 6
+        },
+        {
+          "text": "Causes include cardiac tamponade, tension pneumothorax, and pulmonary embolism.",
+          "index": 2,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 3
+        },
+        {
+          "text": "In cardiac tamponade, pericardial effusion causes increased pressure within the relatively inelastic pericardial sac.",
+          "index": 3,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 5
+        },
+        {
+          "text": "This increased pressure causes the thin-walled right atrium to collapse during early diastole, impeding venous filling.",
+          "index": 4,
+          "has_negation": false,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 6
+        },
+        {
+          "text": "This decreases cardiac output and results in obstructive shock.",
+          "index": 5,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "Findings consistent with pericardial tamponade include hypotension, tachycardia, jugular venous distention, pulsus paradoxus, and muffled heart sounds.",
+          "index": 6,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 8
+        },
+        {
+          "text": "Chest radiograph may show an enlarged cardiac silhouette.",
+          "index": 7,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 3
+        },
+        {
+          "text": "ECG may also show electrical alternans and diminished voltage.",
+          "index": 8,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 4
+        },
+        {
+          "text": "None of these findings is overly sensitive, and their absence does not rule out tamponade.",
+          "index": 9,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "Diagnosis is with echocardiography, and urgent pericardiocentesis is necessary when tamponade is present to decrease pressure against the right atrium and improve venous return.",
+          "index": 10,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "This patient has evidence of shock, with hypotension with hypoperfusion as well as signs of tamponade, including jugular venous distension, distant heart sounds, and an enlarged cardiac silhouette on radiography; the most appropriate next step is urgent echocardiography.",
+          "index": 11,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 14
+        },
+        {
+          "text": "Emergent coronary angiography (Option B) would not be the most appropriate management.",
+          "index": 12,
+          "has_negation": true,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "Acute coronary syndrome is a common cause of cardiogenic shock, and cardiac catheterization with revascularization, if indicated, is the primary treatment for cardiogenic shock.",
+          "index": 13,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 6
+        },
+        {
+          "text": "Heart failure can cause the elevated jugular venous pressure seen in this patient, but the nonspecific changes seen on ECG and other clinical findings suggestive of tamponade make echocardiography the best next test.",
+          "index": 14,
+          "has_negation": false,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 12
+        },
+        {
+          "text": "Diuresis with furosemide (Option C) would not be appropriate management in this patient with likely cardiac tamponade.",
+          "index": 15,
+          "has_negation": true,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 6
+        },
+        {
+          "text": "Although a central component of the treatment of heart failure, diuretic therapy decreases venous return, which would worsen shock in patients with cardiac tamponade who depend on increased preload to maintain right atrial filling in the presence of increased intrapericardial pressure.",
+          "index": 16,
+          "has_negation": false,
+          "verb_count": 7,
+          "is_complex": true,
+          "entity_count": 15
+        },
+        {
+          "text": "Pulmonary CT angiography (Option D) to diagnose pulmonary embolism is not the most appropriate management.",
+          "index": 17,
+          "has_negation": true,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 5
+        },
+        {
+          "text": "Although pulmonary embolism is a cause of obstructive shock and may present with elevated jugular venous pressure, this patient's quiet heart sounds, lack of chest pain, and normal oxygen saturation are more consistent with cardiac tamponade than pulmonary embolism.",
+          "index": 18,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 11
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "None",
+          "start_char": 924,
+          "end_char": 928
+        },
+        {
+          "trigger": "absence",
+          "start_char": 978,
+          "end_char": 985
+        },
+        {
+          "trigger": "not",
+          "start_char": 991,
+          "end_char": 994
+        },
+        {
+          "trigger": "not",
+          "start_char": 1511,
+          "end_char": 1514
+        },
+        {
+          "trigger": "not",
+          "start_char": 1987,
+          "end_char": 1990
+        },
+        {
+          "trigger": "not",
+          "start_char": 2420,
+          "end_char": 2423
+        }
+      ],
+      "entity_count": 131,
+      "sentence_count": 19,
+      "negation_count": 6
+    },
+    "key_points": {
+      "entities": [
+        {
+          "text": "Cardiac tamponade",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "presence",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypotension",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tachycardia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "jugular venous distension",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "jugular",
+            "venous"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pulsus paradoxus",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "muffled heart sounds",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "echocardiography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "urgent"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac tamponade",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac tamponade",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pericardiocentesis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "emergent"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "decrease",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intrapericardial",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "intrapericardial"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pressure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "intrapericardial"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac inflow",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "Cardiac tamponade is suggested by the presence of hypotension, tachycardia, jugular venous distension, pulsus paradoxus, and muffled heart sounds; urgent echocardiography is indicated if cardiac tamponade is suspected.",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 5,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "Patients who present with cardiac tamponade require emergent pericardiocentesis to decrease the intrapericardial pressure impeding cardiac inflow.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 7
+        }
+      ],
+      "negations": [],
+      "entity_count": 16,
+      "sentence_count": 2,
+      "negation_count": 0
+    }
+  }
 }

@@ -90,5 +90,1787 @@
     "videos": [],
     "svgs": []
   },
-  "extracted_at": "2026-01-01T17:54:31.549977-06:00"
+  "extracted_at": "2026-01-01T17:54:31.549977-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "In acute alcoholic hepatitis with high Model for End-Stage Liver Disease (MELD) score, prednisolone and N-acetylcysteine are the most appropriate additional management.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "acute alcoholic hepatitis",
+          "high Model for End-Stage Liver Disease (MELD) score",
+          "prednisolone",
+          "N-acetylcysteine"
+        ]
+      },
+      {
+        "statement": "Acute alcoholic hepatitis is a distinct clinical syndrome of severe steatohepatitis in the setting of chronic alcohol-associated liver disease.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Acute alcoholic hepatitis",
+          "distinct clinical syndrome",
+          "severe steatohepatitis",
+          "chronic alcohol-associated liver disease"
+        ]
+      },
+      {
+        "statement": "Acute alcoholic hepatitis is characterized by fever.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Acute alcoholic hepatitis",
+          "fever"
+        ]
+      },
+      {
+        "statement": "Acute alcoholic hepatitis is characterized by jaundice.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Acute alcoholic hepatitis",
+          "jaundice"
+        ]
+      },
+      {
+        "statement": "Acute alcoholic hepatitis is characterized by tender hepatomegaly.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Acute alcoholic hepatitis",
+          "tender hepatomegaly"
+        ]
+      },
+      {
+        "statement": "Acute alcoholic hepatitis is characterized by leukocytosis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Acute alcoholic hepatitis",
+          "leukocytosis"
+        ]
+      },
+      {
+        "statement": "Severity in acute alcoholic hepatitis is predicted by the Model for End-Stage Liver Disease (MELD) score.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Severity",
+          "acute alcoholic hepatitis",
+          "Model for End-Stage Liver Disease (MELD) score"
+        ]
+      },
+      {
+        "statement": "Severity in acute alcoholic hepatitis is predicted by the Maddrey discriminant function score.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Severity",
+          "acute alcoholic hepatitis",
+          "Maddrey discriminant function score"
+        ]
+      },
+      {
+        "statement": "The American College of Gastroenterology favors the Model for End-Stage Liver Disease (MELD) score for its accuracy.",
+        "extra_field": "The American College of Gastroenterology favors the Model for End-Stage Liver Disease (MELD) score because it incorporates creatinine, a major determinant of outcomes in alcoholic hepatitis.",
+        "cloze_candidates": [
+          "American College of Gastroenterology",
+          "Model for End-Stage Liver Disease (MELD) score",
+          "accuracy"
+        ]
+      },
+      {
+        "statement": "The American College of Gastroenterology favors the Model for End-Stage Liver Disease (MELD) score because it incorporates creatinine.",
+        "extra_field": "Creatinine is a major determinant of outcomes in alcoholic hepatitis.",
+        "cloze_candidates": [
+          "American College of Gastroenterology",
+          "Model for End-Stage Liver Disease (MELD) score",
+          "creatinine"
+        ]
+      },
+      {
+        "statement": "In patients with acute alcoholic hepatitis and Model for End-Stage Liver Disease (MELD) score > 20, prednisolone is recommended to reduce short-term mortality.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "acute alcoholic hepatitis",
+          "Model for End-Stage Liver Disease (MELD) score greater than 20",
+          "prednisolone",
+          "short-term mortality"
+        ]
+      },
+      {
+        "statement": "Prednisolone is contraindicated in active infection.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Prednisolone",
+          "active infection"
+        ]
+      },
+      {
+        "statement": "Prednisolone is contraindicated in upper gastrointestinal bleeding.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Prednisolone",
+          "upper gastrointestinal bleeding"
+        ]
+      },
+      {
+        "statement": "Prednisolone is contraindicated in severe kidney injury.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Prednisolone",
+          "severe kidney injury"
+        ]
+      },
+      {
+        "statement": "Prednisolone is contraindicated in concomitant liver disease, especially hepatitis B and hepatitis C virus infections.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Prednisolone",
+          "concomitant liver disease",
+          "hepatitis B",
+          "hepatitis C virus infections"
+        ]
+      },
+      {
+        "statement": "Prednisolone is contraindicated in multiorgan failure.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Prednisolone",
+          "multiorgan failure"
+        ]
+      },
+      {
+        "statement": "Intravenous therapy with the antioxidant N-acetylcysteine is recommended as an adjuvant to glucocorticoids in acute alcoholic hepatitis.",
+        "extra_field": "N-acetylcysteine is recommended because of its possible modest survival benefit and excellent safety profile.",
+        "cloze_candidates": [
+          "Intravenous therapy",
+          "antioxidant",
+          "N-acetylcysteine",
+          "glucocorticoids",
+          "acute alcoholic hepatitis"
+        ]
+      },
+      {
+        "statement": "Prednisolone should be discontinued if no response is seen by days 4 to 7 of therapy, as determined by the Lille score.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Prednisolone",
+          "days 4 to 7",
+          "Lille score"
+        ]
+      },
+      {
+        "statement": "Prednisolone should be discontinued if minimal response is seen by days 4 to 7 of therapy, as determined by the Lille score.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Prednisolone",
+          "days 4 to 7",
+          "Lille score"
+        ]
+      },
+      {
+        "statement": "If a clinical response occurs, prednisolone should be continued for 28 days.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "clinical response",
+          "prednisolone",
+          "28 days"
+        ]
+      },
+      {
+        "statement": "In acute alcoholic hepatitis with Model for End-Stage Liver Disease (MELD) score of 23, prednisolone and N-acetylcysteine should be initiated.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "acute alcoholic hepatitis",
+          "Model for End-Stage Liver Disease (MELD) score of 23",
+          "prednisolone",
+          "N-acetylcysteine"
+        ]
+      },
+      {
+        "statement": "In alcoholic hepatitis without active infection, the American College of Gastroenterology strongly recommends against antibiotics such as cefepime and vancomycin.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "alcoholic hepatitis",
+          "American College of Gastroenterology",
+          "antibiotics",
+          "cefepime",
+          "vancomycin"
+        ]
+      },
+      {
+        "statement": "In acute alcoholic hepatitis, fever and leukocytosis can be explained by acute hepatitis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "acute alcoholic hepatitis",
+          "fever",
+          "leukocytosis",
+          "acute hepatitis"
+        ]
+      },
+      {
+        "statement": "Antibiotics are not indicated when there is no clinical evidence of infection in acute alcoholic hepatitis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Antibiotics",
+          "clinical evidence of infection",
+          "acute alcoholic hepatitis"
+        ]
+      },
+      {
+        "statement": "Acute alcoholic hepatitis is usually diagnosed clinically.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Acute alcoholic hepatitis",
+          "diagnosed clinically"
+        ]
+      },
+      {
+        "statement": "Liver biopsy is reserved for cases of diagnostic uncertainty in acute alcoholic hepatitis.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Liver biopsy",
+          "diagnostic uncertainty",
+          "acute alcoholic hepatitis"
+        ]
+      },
+      {
+        "statement": "Fever, jaundice, tender hepatomegaly, and leukocytosis in the context of substantial alcohol consumption obviate the need for liver biopsy.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Fever",
+          "jaundice",
+          "tender hepatomegaly",
+          "leukocytosis",
+          "substantial alcohol consumption",
+          "liver biopsy"
+        ]
+      },
+      {
+        "statement": "Pentoxifylline is no longer recommended in severe alcoholic hepatitis.",
+        "extra_field": "Subsequent evidence has demonstrated no survival benefit.",
+        "cloze_candidates": [
+          "Pentoxifylline",
+          "severe alcoholic hepatitis"
+        ]
+      },
+      {
+        "statement": "Pentoxifylline is not an appropriate choice in severe alcoholic hepatitis.",
+        "extra_field": "Subsequent evidence has demonstrated no survival benefit.",
+        "cloze_candidates": [
+          "Pentoxifylline",
+          "severe alcoholic hepatitis"
+        ]
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "Severe alcoholic hepatitis is defined by a Model for End-Stage Liver Disease (MELD) score > 20.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Severe alcoholic hepatitis",
+          "Model for End-Stage Liver Disease (MELD) score greater than 20"
+        ]
+      },
+      {
+        "statement": "For patients with severe alcoholic hepatitis, prednisolone and N-acetylcysteine are recommended treatments.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "severe",
+          "alcoholic hepatitis",
+          "prednisolone",
+          "N-acetylcysteine"
+        ]
+      },
+      {
+        "statement": "Patients with alcoholic hepatitis treated with prednisolone who do not respond after 4 to 7 days should have prednisolone discontinued.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "alcoholic hepatitis",
+          "prednisolone",
+          "4 to 7 days"
+        ]
+      },
+      {
+        "statement": "Patients with alcoholic hepatitis treated with prednisolone who respond after 4 to 7 days should continue prednisolone for 28 days.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "alcoholic hepatitis",
+          "prednisolone",
+          "4 to 7 days",
+          "28 days"
+        ]
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 1
+  },
+  "validation_pass": true,
+  "nlp_analysis": {
+    "critique": {
+      "entities": [
+        {
+          "text": "management",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "additional"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "acute",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "alcoholic hepatitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute",
+            "alcoholic"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "high Model",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "high"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "End-Stage Liver Disease",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prednisolone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "N-acetylcysteine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute",
+            "alcoholic"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical syndrome",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "distinct",
+            "clinical"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "severe steatohepatitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "severe"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "chronic",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "chronic"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "life-threatening condition",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "life-threatening"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "characterized",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "fever",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "jaundice",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tender hepatomegaly",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "leukocytosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Severity",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "MELD score",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Maddrey discriminant function score",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "discriminant"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "American College",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Gastroenterology",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "accuracy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "incorporation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "creatinine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "determinant",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "major"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "outcomes",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "alcoholic hepatitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "alcoholic"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "acute alcoholic hepatitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute",
+            "alcoholic"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "MELD score",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "treatment",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prednisolone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "short-term",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "short-term"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mortality",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "short-term"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Contraindications",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prednisolone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "active infection",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "active"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "upper gastrointestinal bleeding",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "upper",
+            "gastrointestinal"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "severe",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "severe"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "kidney injury",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "severe"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "concomitant liver disease",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "concomitant"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hepatitis B",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hepatitis C virus infections",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "multiorgan failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Intravenous therapy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "intravenous"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antioxidant",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "antioxidant"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "N-acetylcysteine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "antioxidant"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "adjuvant",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "glucocorticoids",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "survival",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "modest"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "benefit",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "safety profile",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "excellent"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Prednisolone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "discontinued",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "minimal",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [
+            "minimal"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "response",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [
+            "minimal"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "days",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "therapy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Lille score",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical response",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "clinical"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prednisolone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "days",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "acute",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "alcoholic hepatitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute",
+            "alcoholic"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "MELD score",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prednisolone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "N-acetylcysteine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "alcoholic hepatitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "alcoholic"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "active infection",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "without",
+          "modifiers": [
+            "active"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "American College of Gastroenterology",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "without",
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antibiotics",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cefepime",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "vancomycin",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option A",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient's",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "acute hepatitis explains",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "fever",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "leukocytosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical evidence",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [
+            "clinical"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "infection",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antibiotics",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not indicated",
+          "modifiers": [
+            "acute",
+            "alcoholic"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diagnosed",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinically",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "liver biopsy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option B",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cases",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diagnostic uncertainty",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "diagnostic"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient's",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "fever",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "jaundice",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tender hepatomegaly",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "leukocytosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "alcohol consumption",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "substantial"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "liver biopsy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "seminal study",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "seminal"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "benefit",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pentoxifylline",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option C",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "severe",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "severe"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "alcoholic hepatitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "severe",
+            "alcoholic"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "evidence",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "subsequent"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "survival",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "benefit",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "result",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pentoxifylline",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The most appropriate additional management of this patient with acute alcoholic hepatitis and high Model for End-Stage Liver Disease (MELD) score is prednisolone and N-acetylcysteine (Option D).",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 8
+        },
+        {
+          "text": "Acute alcoholic hepatitis is a distinct clinical syndrome of severe steatohepatitis in the setting of chronic alcohol-associated liver disease.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "This life-threatening condition is characterized by fever, jaundice, tender hepatomegaly, and leukocytosis.",
+          "index": 2,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 6
+        },
+        {
+          "text": "Severity is predicted by the MELD score or by the Maddrey discriminant function score; the American College of Gastroenterology favors the former for its accuracy and incorporation of creatinine, a major determinant of outcomes in alcoholic hepatitis.",
+          "index": 3,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 11
+        },
+        {
+          "text": "In patients with acute alcoholic hepatitis and MELD score greater than 20, treatment with prednisolone is recommended to reduce short-term mortality.",
+          "index": 4,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 7
+        },
+        {
+          "text": "Contraindications to prednisolone include active infection, upper gastrointestinal bleeding, severe kidney injury, concomitant liver disease (especially hepatitis B and hepatitis C virus infections), and multiorgan failure.",
+          "index": 5,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 10
+        },
+        {
+          "text": "Intravenous therapy with the antioxidant N-acetylcysteine is also recommended as an adjuvant to glucocorticoids because of its possible modest survival benefit and excellent safety profile.",
+          "index": 6,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 8
+        },
+        {
+          "text": "Prednisolone should be discontinued if no or minimal response is seen by days 4 to 7 of therapy, as determined by the Lille score.",
+          "index": 7,
+          "has_negation": true,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 7
+        },
+        {
+          "text": "If a clinical response occurs, prednisolone should be continued for 28 days.",
+          "index": 8,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 3
+        },
+        {
+          "text": "In this patient with acute alcoholic hepatitis and a MELD score of 23, prednisolone and N-acetylcysteine should be initiated.",
+          "index": 9,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 6
+        },
+        {
+          "text": "In the setting of alcoholic hepatitis without active infection, the American College of Gastroenterology strongly recommends against antibiotics, such as cefepime and vancomycin (Option A).",
+          "index": 10,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 7
+        },
+        {
+          "text": "Moreover, this patient's acute hepatitis explains his fever and leukocytosis, and he has no clinical evidence of infection.",
+          "index": 11,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 6
+        },
+        {
+          "text": "Thus, antibiotics are not indicated.",
+          "index": 12,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 1
+        },
+        {
+          "text": "Acute alcoholic hepatitis is usually diagnosed clinically, with liver biopsy (Option B) reserved for cases with diagnostic uncertainty.",
+          "index": 13,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 7
+        },
+        {
+          "text": "This patient's fever, jaundice, tender hepatomegaly, and leukocytosis in the context of substantial alcohol consumption obviate the need for liver biopsy.",
+          "index": 14,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 7
+        },
+        {
+          "text": "Despite a seminal study showing benefit and previous widespread use of pentoxifylline (Option C) in severe alcoholic hepatitis, subsequent evidence has demonstrated no survival benefit.",
+          "index": 15,
+          "has_negation": true,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "As a result, pentoxifylline is no longer recommended and is not an appropriate choice for this patient.",
+          "index": 16,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 3
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "no",
+          "start_char": 1302,
+          "end_char": 1304
+        },
+        {
+          "trigger": "without",
+          "start_char": 1634,
+          "end_char": 1641
+        },
+        {
+          "trigger": "no",
+          "start_char": 1875,
+          "end_char": 1877
+        },
+        {
+          "trigger": "not",
+          "start_char": 1932,
+          "end_char": 1935
+        },
+        {
+          "trigger": "not indicated",
+          "start_char": 1932,
+          "end_char": 1945
+        },
+        {
+          "trigger": "no",
+          "start_char": 2401,
+          "end_char": 2403
+        },
+        {
+          "trigger": "no",
+          "start_char": 2453,
+          "end_char": 2455
+        },
+        {
+          "trigger": "not",
+          "start_char": 2482,
+          "end_char": 2485
+        }
+      ],
+      "entity_count": 110,
+      "sentence_count": 17,
+      "negation_count": 8
+    },
+    "key_points": {
+      "entities": [
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "severe",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "severe"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "alcoholic hepatitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "severe",
+            "alcoholic"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Model",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "End-Stage Liver Disease",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "MELD",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prednisolone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "N-acetylcysteine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "treatments",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "alcoholic hepatitis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "alcoholic"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "treated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prednisolone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "days",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prednisolone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "discontinued",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prednisolone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "days",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "For patients with severe alcoholic hepatitis, as defined by a Model for End-Stage Liver Disease (MELD) score greater than 20, prednisolone and N-acetylcysteine are recommended treatments.",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "Patients with alcoholic hepatitis treated with prednisolone who do not respond after 4 to 7 days should have prednisolone discontinued; otherwise, prednisolone should be continued for 28 days.",
+          "index": 1,
+          "has_negation": true,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 9
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "not",
+          "start_char": 255,
+          "end_char": 258
+        }
+      ],
+      "entity_count": 18,
+      "sentence_count": 2,
+      "negation_count": 1
+    }
+  }
 }

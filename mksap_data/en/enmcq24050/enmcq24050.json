@@ -91,5 +91,1774 @@
     "videos": [],
     "svgs": []
   },
-  "extracted_at": "2026-01-01T17:54:29.865727-06:00"
+  "extracted_at": "2026-01-01T17:54:29.865727-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "The most appropriate diagnostic test to perform next is measurement of insulin-like growth factor-1 (IGF-1).",
+        "extra_field": null,
+        "cloze_candidates": [
+          "diagnostic test",
+          "insulin-like growth factor-1 (IGF-1)"
+        ]
+      },
+      {
+        "statement": "Pituitary hypersecretion should be ruled out in all incidentally found pituitary adenomas by measuring serum prolactin levels.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Pituitary hypersecretion",
+          "incidentally found pituitary adenomas",
+          "serum prolactin levels"
+        ]
+      },
+      {
+        "statement": "Pituitary hypersecretion should be ruled out in all incidentally found pituitary adenomas by measuring insulin-like growth factor-1 (IGF-1) levels.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Pituitary hypersecretion",
+          "incidentally found pituitary adenomas",
+          "insulin-like growth factor-1 (IGF-1) levels"
+        ]
+      },
+      {
+        "statement": "Small growth hormone–secreting pituitary adenomas may not be overtly symptomatic.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Small",
+          "growth hormone–secreting pituitary adenomas",
+          "overtly symptomatic"
+        ]
+      },
+      {
+        "statement": "Diagnosing a growth hormone–secreting tumor when it is smaller than 1 cm in size significantly increases the chance of a surgical cure.",
+        "extra_field": "Diagnosing a growth hormone–secreting tumor when it is smaller than 1 cm in size significantly increases the chance of a surgical cure.",
+        "cloze_candidates": [
+          "growth hormone–secreting tumor",
+          "smaller than 1 cm in size",
+          "surgical cure"
+        ]
+      },
+      {
+        "statement": "Screening for hypopituitarism is recommended in all pituitary tumors, regardless of symptoms.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Screening for hypopituitarism",
+          "pituitary tumors",
+          "regardless of symptoms"
+        ]
+      },
+      {
+        "statement": "Screening for hypopituitarism is recommended by measuring serum follicle-stimulating hormone.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Screening for hypopituitarism",
+          "serum follicle-stimulating hormone"
+        ]
+      },
+      {
+        "statement": "Screening for hypopituitarism is recommended by measuring serum luteinizing hormone.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Screening for hypopituitarism",
+          "serum luteinizing hormone"
+        ]
+      },
+      {
+        "statement": "Screening for hypopituitarism is recommended by measuring 8 am cortisol.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Screening for hypopituitarism",
+          "8 am cortisol"
+        ]
+      },
+      {
+        "statement": "Screening for hypopituitarism is recommended by measuring thyroid-stimulating hormone.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Screening for hypopituitarism",
+          "thyroid-stimulating hormone"
+        ]
+      },
+      {
+        "statement": "Screening for hypopituitarism is recommended by measuring free thyroxine.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Screening for hypopituitarism",
+          "free thyroxine"
+        ]
+      },
+      {
+        "statement": "Screening for hypopituitarism is recommended in men by measuring 8 am total testosterone levels.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Screening for hypopituitarism",
+          "men",
+          "8 am total testosterone levels"
+        ]
+      },
+      {
+        "statement": "In premenopausal women, a menstrual history can assess for hypogonadotropic hypogonadism.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "premenopausal women",
+          "menstrual history",
+          "hypogonadotropic hypogonadism"
+        ]
+      },
+      {
+        "statement": "Abnormal baseline testing may prompt further stimulatory testing to confirm hypopituitarism.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Abnormal baseline testing",
+          "further stimulatory testing",
+          "hypopituitarism"
+        ]
+      },
+      {
+        "statement": "Microadenomas smaller than 1 cm should be reassessed with imaging in 1 year.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Microadenomas smaller than 1 cm",
+          "reassessed with imaging",
+          "1 year"
+        ]
+      },
+      {
+        "statement": "Microadenomas smaller than 1 cm should be reassessed with imaging every 1 to 2 years thereafter for at least 3 years.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Microadenomas smaller than 1 cm",
+          "reassessed with imaging",
+          "every 1 to 2 years",
+          "at least 3 years"
+        ]
+      },
+      {
+        "statement": "Repeat evaluation of pituitary function is unnecessary in microadenomas if initial testing is normal and no change has occurred clinically.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Repeat evaluation of pituitary function",
+          "microadenomas",
+          "initial testing is normal",
+          "no change has occurred clinically"
+        ]
+      },
+      {
+        "statement": "Repeat evaluation of pituitary function is unnecessary in microadenomas if initial testing is normal and no change has occurred radiologically.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Repeat evaluation of pituitary function",
+          "microadenomas",
+          "initial testing is normal",
+          "no change has occurred radiologically"
+        ]
+      },
+      {
+        "statement": "Measuring serum follicle-stimulating hormone and estradiol levels in women with normal periods is not necessary.",
+        "extra_field": "Menses itself sufficiently rules out hypogonadotropic hypogonadism.",
+        "cloze_candidates": [
+          "serum follicle-stimulating hormone",
+          "estradiol levels",
+          "women with normal periods"
+        ]
+      },
+      {
+        "statement": "Menses itself sufficiently rules out hypogonadotropic hypogonadism.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Menses",
+          "hypogonadotropic hypogonadism"
+        ]
+      },
+      {
+        "statement": "Measuring a 24-hour urine free cortisol level is not necessary in a patient without clinical signs and symptoms of Cushing syndrome.",
+        "extra_field": "Clinical signs and symptoms of Cushing syndrome include violaceous striae, easy bruising, facial plethora, and dorsocervical and supraclavicular fat pads.",
+        "cloze_candidates": [
+          "24-hour urine free cortisol level",
+          "clinical signs and symptoms of Cushing syndrome"
+        ]
+      },
+      {
+        "statement": "Clinical signs and symptoms of Cushing syndrome include violaceous striae.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Clinical signs and symptoms of Cushing syndrome",
+          "violaceous striae"
+        ]
+      },
+      {
+        "statement": "Clinical signs and symptoms of Cushing syndrome include easy bruising.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Clinical signs and symptoms of Cushing syndrome",
+          "easy bruising"
+        ]
+      },
+      {
+        "statement": "Clinical signs and symptoms of Cushing syndrome include facial plethora.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Clinical signs and symptoms of Cushing syndrome",
+          "facial plethora"
+        ]
+      },
+      {
+        "statement": "Clinical signs and symptoms of Cushing syndrome include dorsocervical fat pads.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Clinical signs and symptoms of Cushing syndrome",
+          "dorsocervical fat pads"
+        ]
+      },
+      {
+        "statement": "Clinical signs and symptoms of Cushing syndrome include supraclavicular fat pads.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Clinical signs and symptoms of Cushing syndrome",
+          "supraclavicular fat pads"
+        ]
+      },
+      {
+        "statement": "Obtaining a visual field examination is important in patients with macroadenomas (tumors 1 cm or larger) to obtain a baseline.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "visual field examination",
+          "macroadenomas (tumors 1 cm or larger)",
+          "baseline"
+        ]
+      },
+      {
+        "statement": "Obtaining a visual field examination is required in tumors that cause mass effect on the optic chiasm.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "visual field examination",
+          "mass effect on the optic chiasm"
+        ]
+      },
+      {
+        "statement": "Performing visual field testing in a larger microadenoma for a baseline may be reasonable.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "visual field testing",
+          "larger microadenoma",
+          "baseline"
+        ]
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "Pituitary hypersecretion should be ruled out in all incidentally found pituitary adenomas by measuring serum prolactin and insulin-like growth factor-1 levels.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "Pituitary hypersecretion",
+          "incidentally found pituitary adenomas",
+          "serum prolactin",
+          "insulin-like growth factor-1 levels"
+        ]
+      },
+      {
+        "statement": "Diagnosing a growth hormone–secreting tumor when it is smaller than 1 cm in size significantly increases the chance of a surgical cure.",
+        "extra_field": null,
+        "cloze_candidates": [
+          "growth hormone–secreting tumor",
+          "smaller than 1 cm in size",
+          "surgical cure"
+        ]
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [
+      {
+        "statement": "In the ACTH stimulation test for ACTH (cortisol) deficiency, a peak serum cortisol level > 18 micrograms per deciliter (496.8 nanomoles per liter) indicates a normal response.",
+        "extra_field": "Dynamic Testing for Pituitary Dysfunction",
+        "cloze_candidates": [
+          "ACTH stimulation test",
+          "peak serum cortisol level greater than 18 micrograms per deciliter (496.8 nanomoles per liter)",
+          "normal response"
+        ],
+        "table_source": "entab24027.html"
+      },
+      {
+        "statement": "In the ACTH stimulation test, a lower peak serum cortisol threshold of 14 to 15 micrograms per deciliter (390-414 nanomoles per liter) is sufficient when using newer, more specific immunoassays for measuring cortisol.",
+        "extra_field": "Dynamic Testing for Pituitary Dysfunction",
+        "cloze_candidates": [
+          "lower peak serum cortisol threshold of 14 to 15 micrograms per deciliter (390-414 nanomoles per liter)",
+          "newer, more specific immunoassays",
+          "measuring cortisol"
+        ],
+        "table_source": "entab24027.html"
+      },
+      {
+        "statement": "In the water deprivation test, urine osmolality > 800 milliosmoles per kilogram H2O is a normal response to water deprivation, indicating that vasopressin production and peripheral effect are intact and the diagnosis is most likely primary polydipsia.",
+        "extra_field": "Dynamic Testing for Pituitary Dysfunction",
+        "cloze_candidates": [
+          "water deprivation test",
+          "urine osmolality greater than 800 milliosmoles per kilogram H2O",
+          "primary polydipsia"
+        ],
+        "table_source": "entab24027.html"
+      },
+      {
+        "statement": "In the water deprivation test, urine osmolality between 300 and 800 milliosmoles per kilogram H2O suggests partial AVP disorder.",
+        "extra_field": "Dynamic Testing for Pituitary Dysfunction",
+        "cloze_candidates": [
+          "water deprivation test",
+          "urine osmolality between 300 and 800 milliosmoles per kilogram H2O",
+          "partial AVP disorder"
+        ],
+        "table_source": "entab24027.html"
+      },
+      {
+        "statement": "In the water deprivation test, urine osmolality < 300 milliosmoles per kilogram H2O is consistent with AVP disorder.",
+        "extra_field": "Dynamic Testing for Pituitary Dysfunction",
+        "cloze_candidates": [
+          "water deprivation test",
+          "urine osmolality less than 300 milliosmoles per kilogram H2O",
+          "AVP disorder"
+        ],
+        "table_source": "entab24027.html"
+      },
+      {
+        "statement": "In the desmopressin challenge, an increase in urine osmolality by > 50% after desmopressin is consistent with complete AVP deficiency (central DI) when urine osmolality is < 300 milliosmoles per kilogram H2O before the challenge.",
+        "extra_field": "Dynamic Testing for Pituitary Dysfunction",
+        "cloze_candidates": [
+          "desmopressin challenge",
+          "increase in urine osmolality by greater than 50%",
+          "complete AVP deficiency (central DI)",
+          "urine osmolality is less than 300 milliosmoles per kilogram H2O"
+        ],
+        "table_source": "entab24027.html"
+      },
+      {
+        "statement": "In the desmopressin challenge, an increase in urine osmolality by < 50% after desmopressin indicates complete AVP resistance (nephrogenic DI) when urine osmolality is < 300 milliosmoles per kilogram H2O before the challenge.",
+        "extra_field": "Dynamic Testing for Pituitary Dysfunction",
+        "cloze_candidates": [
+          "desmopressin challenge",
+          "increase in urine osmolality by less than 50%",
+          "complete AVP resistance (nephrogenic DI)",
+          "urine osmolality is less than 300 milliosmoles per kilogram H2O"
+        ],
+        "table_source": "entab24027.html"
+      },
+      {
+        "statement": "In the glucose tolerance test for GH excess (acromegaly), a GH nadir of 1.0 nanograms per milliliter or higher (or 0.4 nanograms per milliliter or higher on an ultrasensitive assay) is diagnostic of acromegaly.",
+        "extra_field": "Dynamic Testing for Pituitary Dysfunction",
+        "cloze_candidates": [
+          "glucose tolerance test",
+          "GH excess (acromegaly)",
+          "GH nadir of 1.0 nanograms per milliliter or higher",
+          "0.4 nanograms per milliliter or higher",
+          "ultrasensitive assay"
+        ],
+        "table_source": "entab24027.html"
+      }
+    ],
+    "tables_processed": 1,
+    "tables_skipped": 1
+  },
+  "validation_pass": true,
+  "nlp_analysis": {
+    "critique": {
+      "entities": [
+        {
+          "text": "diagnostic test",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "appropriate",
+            "diagnostic"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "measurement",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "measurement"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "insulin-like growth factor-1",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "insulin-like"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "IGF-1",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option A",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Pituitary hypersecretion",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pituitary"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "incidentally",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "ruled out",
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pituitary adenomas",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "ruled out",
+          "modifiers": [
+            "pituitary"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "measuring",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "serum prolactin",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "IGF-1",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "levels",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Small growth hormone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "small"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "secreting",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pituitary adenomas",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pituitary"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "symptomatic",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "symptomatic"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diagnosing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "growth hormone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "secreting",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tumor",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "size",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increases",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "chance",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "surgical cure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "surgical"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "screening",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypopituitarism",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pituitary tumors",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pituitary"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "symptoms",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "measuring",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "serum follicle-stimulating hormone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "follicle-stimulating"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "luteinizing hormone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cortisol",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "thyroid-stimulating hormone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "thyroid-stimulating"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "free thyroxine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "free"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "men",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "testosterone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "total"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "levels",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "premenopausal",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "premenopausal"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "women",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "premenopausal"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "menstrual history",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "menstrual"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypogonadotropic hypogonadism",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hypogonadotropic"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "baseline testing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "abnormal"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "stimulatory testing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "stimulatory"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypopituitarism",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Table",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Dynamic Testing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Pituitary Dysfunction",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Microadenomas",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "imaging",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "year",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "years",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "years",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "evaluation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pituitary function",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pituitary"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "microadenomas",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "testing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "initial"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "no change",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinically",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "radiologically",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pituitary adenoma",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "9-mm",
+            "pituitary"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "prolactin hypersecretion",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypopituitarism",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "IGF-1",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "level",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "measured",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Measuring",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "serum follicle-stimulating hormone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "follicle-stimulating"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "estradiol levels",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option B",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "women",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "normal periods",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "normal"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "menses",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "rules",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypogonadotropic",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hypogonadotropic"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypogonadism",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hypogonadotropic"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Measuring",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "24-hour urine free",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "24-hour",
+            "free"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option C",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical signs",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "without",
+          "modifiers": [
+            "clinical"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "symptoms",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "without",
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Cushing syndrome",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "violaceous striae",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "violaceous"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "bruising",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "easy"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "facial plethora",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "facial"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "dorsocervical",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "dorsocervical"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "supraclavicular fat pads",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "supraclavicular"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Cushing syndrome",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no signs of",
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "physical examination",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no signs of",
+          "modifiers": [
+            "physical"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "visual field examination",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "visual"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option D",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "macroadenomas",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tumors",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "baseline",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tumors",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mass effect",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "mass"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "optic chiasm",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "optic"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "visual field testing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "visual"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "microadenoma",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "larger"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "baseline",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "asymptomatic",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "asymptomatic"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "asymptomatic"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "subcentimeter adenoma",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "evidence",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "without",
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mass effect",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "without",
+          "modifiers": [
+            "mass"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The most appropriate diagnostic test to perform next is measurement of insulin-like growth factor-1 (IGF-1) (Option A).",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 5
+        },
+        {
+          "text": "Pituitary hypersecretion should be ruled out in all incidentally found pituitary adenomas by measuring serum prolactin and IGF-1 levels.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 7
+        },
+        {
+          "text": "Small growth hormone–secreting pituitary adenomas may not be overtly symptomatic, but diagnosing a growth hormone–secreting tumor when it is smaller than 1 cm in size significantly increases the chance of a surgical cure.",
+          "index": 2,
+          "has_negation": true,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 12
+        },
+        {
+          "text": "Additionally, screening for hypopituitarism is recommended in all pituitary tumors, regardless of symptoms, by measuring serum follicle-stimulating hormone, luteinizing hormone, 8 am cortisol, thyroid-stimulating hormone, free thyroxine, and, in men, 8 am total testosterone levels.",
+          "index": 3,
+          "has_negation": false,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 13
+        },
+        {
+          "text": "In premenopausal women, a menstrual history can assess for hypogonadotropic hypogonadism.",
+          "index": 4,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "Abnormal baseline testing may prompt further stimulatory testing to confirm hypopituitarism (Table: Dynamic Testing for Pituitary Dysfunction).",
+          "index": 5,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 6
+        },
+        {
+          "text": "Microadenomas (<1 cm) should be reassessed with imaging in 1 year and then every 1 to 2 years thereafter for at least 3 years.",
+          "index": 6,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 5
+        },
+        {
+          "text": "Repeat evaluation of pituitary function is unnecessary in microadenomas if initial testing is normal and no change has occurred clinically or radiologically.",
+          "index": 7,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 7
+        },
+        {
+          "text": "This patient has a 9-mm pituitary adenoma and has been appropriately tested for prolactin hypersecretion as well as hypopituitarism; an IGF-1 level should also be measured.",
+          "index": 8,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 7
+        },
+        {
+          "text": "Measuring serum follicle-stimulating hormone and estradiol levels (Option B) in women with normal periods, such as this patient, is not necessary as menses itself sufficiently rules out hypogonadotropic hypogonadism.",
+          "index": 9,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 11
+        },
+        {
+          "text": "Measuring a 24-hour urine free cortisol level (Option C) is not necessary in a patient without clinical signs and symptoms of Cushing syndrome, such as violaceous striae, easy bruising, facial plethora, and dorsocervical and supraclavicular fat pads.",
+          "index": 10,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 12
+        },
+        {
+          "text": "This patient has no signs of Cushing syndrome on physical examination.",
+          "index": 11,
+          "has_negation": true,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 3
+        },
+        {
+          "text": "Obtaining a visual field examination (Option D) is important in patients with macroadenomas (tumors ≥1 cm) to obtain a baseline and is required in tumors that cause mass effect on the optic chiasm.",
+          "index": 12,
+          "has_negation": false,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "Although performing visual field testing in a larger microadenoma for a baseline may be reasonable, it would not be the immediate next step for this asymptomatic patient with a subcentimeter adenoma without evidence of mass effect.",
+          "index": 13,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 8
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "ruled out",
+          "start_char": 155,
+          "end_char": 164
+        },
+        {
+          "trigger": "not",
+          "start_char": 311,
+          "end_char": 314
+        },
+        {
+          "trigger": "no",
+          "start_char": 1228,
+          "end_char": 1230
+        },
+        {
+          "trigger": "not",
+          "start_char": 1585,
+          "end_char": 1588
+        },
+        {
+          "trigger": "not",
+          "start_char": 1729,
+          "end_char": 1732
+        },
+        {
+          "trigger": "without",
+          "start_char": 1756,
+          "end_char": 1763
+        },
+        {
+          "trigger": "no signs of",
+          "start_char": 1937,
+          "end_char": 1948
+        },
+        {
+          "trigger": "no",
+          "start_char": 1937,
+          "end_char": 1939
+        },
+        {
+          "trigger": "not",
+          "start_char": 2297,
+          "end_char": 2300
+        },
+        {
+          "trigger": "without",
+          "start_char": 2387,
+          "end_char": 2394
+        }
+      ],
+      "entity_count": 109,
+      "sentence_count": 14,
+      "negation_count": 10
+    },
+    "key_points": {
+      "entities": [
+        {
+          "text": "Pituitary hypersecretion",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pituitary"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "incidentally",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "ruled out",
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pituitary adenomas",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "ruled out",
+          "modifiers": [
+            "pituitary"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "measuring",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "serum",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "insulin-like growth factor-1",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "insulin-like"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diagnosing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "growth hormone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "secreting",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tumor",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "size",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increases",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "chance",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "surgical cure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "surgical"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "Pituitary hypersecretion should be ruled out in all incidentally found pituitary adenomas by measuring serum prolactin and insulin-like growth factor-1 levels; diagnosing a growth hormone–secreting tumor when it is smaller than 1 cm in size significantly increases the chance of a surgical cure.",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 6,
+          "is_complex": true,
+          "entity_count": 14
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "ruled out",
+          "start_char": 35,
+          "end_char": 44
+        }
+      ],
+      "entity_count": 14,
+      "sentence_count": 1,
+      "negation_count": 1
+    }
+  }
 }

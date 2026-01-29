@@ -58,5 +58,1493 @@
     "videos": []
   },
   "media_metadata": null,
-  "extracted_at": "2026-01-01T17:54:36.402833-06:00"
+  "extracted_at": "2026-01-01T17:54:36.402833-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "The most appropriate intravenous treatment for refractory septic shock is hydrocortisone.",
+        "extra_field": "Refractory septic shock reflects vasoplegia and relative adrenal insufficiency, where endogenous cortisol is inadequate for maintaining vascular tone and catecholamine responsiveness. Hydrocortisone restores adrenergic receptor sensitivity and has mineralocorticoid activity, improving MAP when fluids/pressors fail. Clinically, add it after adequate fluids and ongoing vasopressor requirement rather than as first-line therapy. Memory aid: “H for Hypotension that won’t budge.” ([journals.lww.com](https://journals.lww.com/ccmjournal/fulltext/2021/11000/surviving_sepsis_campaign__international.21.aspx?utm_source=openai))",
+        "cloze_candidates": [
+          "intravenous treatment",
+          "refractory",
+          "septic shock",
+          "hydrocortisone"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The two main pillars of sepsis management are supporting organ perfusion and controlling the infection.",
+        "extra_field": "Sepsis causes distributive shock (vasodilation, capillary leak) and a runaway infection source; treating only one side leaves the other lethal. Perfusion support (fluids/pressors) buys time for antibiotics and source control to work, and source control removes the inflammatory trigger. Clinically, assess both every hour: MAP/lactate for perfusion and timely antibiotics/source control for infection. Memory aid: “Plumbing + pathogen.” ([sccm.org](https://www.sccm.org/Clinical-Resources/Guidelines/Guidelines/Surviving-Sepsis-Guidelines-2021?utm_source=openai))",
+        "cloze_candidates": [
+          "sepsis management",
+          "supporting organ perfusion",
+          "controlling the infection"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The Surviving Sepsis Campaign guidelines recommend early and aggressive fluid resuscitation for sepsis-induced hypoperfusion or shock.",
+        "extra_field": "Early fluids counteract vasodilation and capillary leak that reduce effective circulating volume and organ perfusion. The guideline emphasis reflects time-sensitive reversibility of microcirculatory hypoperfusion before organ injury becomes fixed. Clinically, start bolus resuscitation immediately in sepsis-induced hypoperfusion/shock and reassess dynamically. Memory aid: “Fill the tank early.” ([sccm.org](https://www.sccm.org/Clinical-Resources/Guidelines/Guidelines/Surviving-Sepsis-Guidelines-2021?utm_source=openai))",
+        "cloze_candidates": [
+          "Surviving Sepsis Campaign guidelines",
+          "early and aggressive fluid resuscitation",
+          "sepsis-induced hypoperfusion or shock"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "For sepsis-induced hypoperfusion or shock, the Surviving Sepsis Campaign guidelines recommend an initial bolus of 30 mL/kg of crystalloid fluid given within the first 3 hours of resuscitation.",
+        "extra_field": "The 30 mL/kg bolus targets rapid restoration of preload and stroke volume during the initial shock window when perfusion is most salvageable. Clinically, give this within 3 hours, then reassess with dynamic measures to avoid under‑resuscitation or fluid overload. It’s a starting point, not a ceiling—further fluids depend on response. Memory aid: “30 by 3.” ([sccm.org](https://www.sccm.org/Clinical-Resources/Guidelines/Guidelines/Surviving-Sepsis-Guidelines-2021?utm_source=openai))",
+        "cloze_candidates": [
+          "sepsis-induced hypoperfusion or shock",
+          "30 mL/kg",
+          "crystalloid fluid",
+          "first 3 hours of resuscitation"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "If hypotension persists after adequate fluid administration, guidelines endorse norepinephrine as a first-line vasopressor therapy.",
+        "extra_field": "Persistent hypotension after fluids reflects vasoplegia; norepinephrine provides potent alpha‑1 vasoconstriction with less tachyarrhythmia than dopamine. Clinically, start norepinephrine promptly to target MAP ~65 mmHg and add vasopressin if escalating doses are needed. Memory aid: “NE = Next for Empty pressure.” ([sccm.org](https://www.sccm.org/Clinical-Resources/Guidelines/Guidelines/Surviving-Sepsis-Guidelines-2021?utm_source=openai))",
+        "cloze_candidates": [
+          "hypotension",
+          "norepinephrine",
+          "first-line vasopressor therapy"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Septic shock can contribute to a state of relative adrenal insufficiency.",
+        "extra_field": "Septic shock can blunt the hypothalamic‑pituitary‑adrenal axis and increase cortisol metabolism, yielding “relative” adrenal insufficiency despite stress. This explains why some patients remain catecholamine‑resistant and respond to hydrocortisone. Clinically, don’t wait for cortisol testing—treat based on hemodynamics. Memory aid: “Sepsis stresses the adrenals, they can’t keep up.” ([emedicine.medscape.com](https://emedicine.medscape.com/article/168402-treatment?utm_source=openai))",
+        "cloze_candidates": [
+          "septic shock",
+          "relative",
+          "adrenal insufficiency"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Septic shock can contribute to refractory hypotension.",
+        "extra_field": "Profound inflammatory vasodilation, nitric oxide excess, and endothelial dysfunction make blood pressure unresponsive to volume alone. This is the physiologic rationale for pressors and, when needed, steroids to restore vascular tone. Clinically, recognize refractory hypotension early and escalate to norepinephrine rather than repeated fluid boluses alone. Memory aid: “Wide pipes, low pressure.” ([sccm.org](https://www.sccm.org/Clinical-Resources/Guidelines/Guidelines/Surviving-Sepsis-Guidelines-2021?utm_source=openai))",
+        "cloze_candidates": [
+          "septic shock",
+          "refractory",
+          "hypotension"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "A growing body of evidence supports the use of glucocorticoids in septic shock when intravenous fluids and vasopressor therapies fail to achieve hemodynamic stability.",
+        "extra_field": "When fluids and vasopressors fail, corticosteroids can improve vascular responsiveness and reduce vasopressor requirements by modulating inflammation and adrenergic signaling. Evidence supports benefit in shock reversal even if mortality benefit is uncertain. Clinically, consider low‑dose hydrocortisone for vasopressor‑dependent shock. Memory aid: “Steroids for stuck shock.” ([journals.lww.com](https://journals.lww.com/ccmjournal/fulltext/2021/11000/surviving_sepsis_campaign__international.21.aspx?utm_source=openai))",
+        "cloze_candidates": [
+          "glucocorticoids",
+          "septic shock",
+          "intravenous fluids",
+          "vasopressor therapies",
+          "hemodynamic stability"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Glucocorticoids are associated with a faster shock recovery.",
+        "extra_field": "Corticosteroids shorten time to shock resolution by increasing vasopressor responsiveness and reducing inflammatory vasodilation. Trials/meta-analyses show more vasopressor‑free days and faster shock reversal. Clinically, expect earlier pressor weaning rather than guaranteed survival benefit. Memory aid: “Steroids speed shock shutdown.” ([journals.lww.com](https://journals.lww.com/ccmjournal/fulltext/2021/11000/surviving_sepsis_campaign__international.21.aspx?utm_source=openai))",
+        "cloze_candidates": [
+          "Glucocorticoids",
+          "faster shock recovery"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Glucocorticoids are associated with a decrease in hospital length of stay.",
+        "extra_field": "If shock resolves faster, ICU/hospital stay may shorten, but the effect is modest and inconsistent across studies. Use this as a possible secondary benefit, not the primary reason to start steroids. Clinically, counsel that LOS reductions are not guaranteed. Memory aid: “Faster shock, maybe shorter stay.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/38250247/?utm_source=openai))",
+        "cloze_candidates": [
+          "Glucocorticoids",
+          "decrease in hospital length of stay"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Glucocorticoids may cause increased neuromuscular weakness.",
+        "extra_field": "Steroids can worsen ICU‑acquired weakness by promoting myopathy and critical illness neuropathy. This matters in prolonged ICU courses, where weakness delays ventilator weaning and rehab. Clinically, monitor strength, minimize steroid duration, and prioritize early mobilization when possible. Memory aid: “Steroids can soften muscles.” ([journals.lww.com](https://journals.lww.com/ccmjournal/fulltext/2021/11000/surviving_sepsis_campaign__international.21.aspx?utm_source=openai))",
+        "cloze_candidates": [
+          "Glucocorticoids",
+          "increased neuromuscular weakness"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Glucocorticoids may cause hypernatremia.",
+        "extra_field": "Hydrocortisone has mineralocorticoid activity that promotes sodium retention, risking hypernatremia. Clinically, check sodium daily and adjust free‑water and diuretics if levels rise. Memory aid: “Corti‑SALT‑one.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/38250247/?utm_source=openai))",
+        "cloze_candidates": [
+          "Glucocorticoids",
+          "hypernatremia"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Glucocorticoids may cause hyperglycemia.",
+        "extra_field": "Glucocorticoids increase gluconeogenesis and induce insulin resistance, leading to hyperglycemia. This can raise infection risk and worsen outcomes if uncontrolled. Clinically, monitor glucose closely and titrate insulin to target ranges. Memory aid: “Steroids spike sugar.” ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/38250247/?utm_source=openai))",
+        "cloze_candidates": [
+          "Glucocorticoids",
+          "hyperglycemia"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "For refractory shock, current guidelines recommend hydrocortisone at a total dose of 200 mg daily.",
+        "extra_field": "The recommended 200 mg/day hydrocortisone is a physiologic‑stress dose that balances hemodynamic benefit with side‑effect risk. It’s the dose used in major trials and recommended by SSC when shock persists despite fluids/pressors. Clinically, use this standard dose rather than high‑dose regimens. Memory aid: “Two‑hundred for the two pressors.” ([journals.lww.com](https://journals.lww.com/ccmjournal/fulltext/2021/11000/surviving_sepsis_campaign__international.21.aspx?utm_source=openai))",
+        "cloze_candidates": [
+          "refractory shock",
+          "hydrocortisone",
+          "200 mg daily"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "For refractory shock, current guidelines recommend hydrocortisone in three or four divided doses.",
+        "extra_field": "Divided dosing (e.g., 50 mg q6h) or continuous infusion maintains steady cortisol levels and avoids peaks/troughs. Clinically, choose divided doses if infusion isn’t feasible, and taper once pressors are off. Memory aid: “Q6 keeps cortisol even.” ([journals.lww.com](https://journals.lww.com/ccmjournal/fulltext/2021/11000/surviving_sepsis_campaign__international.21.aspx?utm_source=openai))",
+        "cloze_candidates": [
+          "refractory shock",
+          "hydrocortisone",
+          "three or four divided doses"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Adrenocorticotropic hormone stimulation testing is not recommended.",
+        "extra_field": "ACTH testing doesn’t predict which septic shock patients benefit from steroids, because shock physiology—not absolute cortisol level—drives responsiveness. Guidelines advise treating based on refractory hypotension rather than lab testing. Clinically, skip ACTH tests to avoid delays. Memory aid: “Treat the pressure, not the cortisol.” ([emedicine.medscape.com](https://emedicine.medscape.com/article/168402-treatment?utm_source=openai))",
+        "cloze_candidates": [
+          "Adrenocorticotropic hormone stimulation testing"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Because of the lack of proven benefit and high cost, colloid albumin is not recommended in the treatment of septic shock.",
+        "extra_field": "Crystalloids are first‑line because they are effective, safe, and inexpensive; albumin is reserved for patients needing very large volumes. The cost‑benefit balance doesn’t support routine albumin use in septic shock. Clinically, start with balanced crystalloids and consider albumin only after substantial crystalloid resuscitation. Memory aid: “Crystals first, albumin last.” ([sccm.org](https://www.sccm.org/Clinical-Resources/Guidelines/Guidelines/Surviving-Sepsis-Guidelines-2021?utm_source=openai))",
+        "cloze_candidates": [
+          "lack of proven benefit",
+          "high cost",
+          "colloid albumin",
+          "septic shock"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Dopamine is associated with increased tachyarrhythmia and death compared with norepinephrine.",
+        "extra_field": "Dopamine increases beta‑adrenergic stimulation, leading to more tachyarrhythmias than norepinephrine, with worse safety signals in shock populations. This makes norepinephrine the preferred initial vasopressor. Clinically, avoid dopamine unless specific indications exist. Memory aid: “Dopamine = Dysrhythmias.” ([medschool.cuanschutz.edu](https://medschool.cuanschutz.edu/docs/librariesprovider60/education-docs/heartbeat-im-res/suggested-read/debacker-d--da-vs-ne-for-shock-2010.pdf?sfvrsn=e65f31b9_2&utm_source=openai))",
+        "cloze_candidates": [
+          "Dopamine",
+          "increased tachyarrhythmia",
+          "death",
+          "norepinephrine"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Dopamine is not recommended for use in septic shock except in select patients with clinically significant bradycardia.",
+        "extra_field": "Because dopamine is more arrhythmogenic, its role is limited to unusual cases where bradycardia is clinically significant and a chronotropic effect is desired. Otherwise, norepinephrine provides better hemodynamic control with less risk. Clinically, document the bradycardia rationale if choosing dopamine. Memory aid: “Dopa only if slow.” ([medschool.cuanschutz.edu](https://medschool.cuanschutz.edu/docs/librariesprovider60/education-docs/heartbeat-im-res/suggested-read/debacker-d--da-vs-ne-for-shock-2010.pdf?sfvrsn=e65f31b9_2&utm_source=openai))",
+        "cloze_candidates": [
+          "Dopamine",
+          "septic shock",
+          "clinically significant bradycardia"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Voriconazole is not appropriate empiric antimicrobial therapy in a patient with an apparent bacterial source of infection.",
+        "extra_field": "Voriconazole targets fungi (not bacteria) and is not first‑line even for candidemia; it’s mainly step‑down therapy or for specific resistant species. In an apparent bacterial source, empiric antifungal coverage is unnecessary and exposes patients to toxicity and drug interactions. Clinically, reserve voriconazole for confirmed/suspected fungal disease or specific ID indications. Memory aid: “Voriconazole = molds, not microbes.” ([idsociety.org](https://www.idsociety.org/practice-guideline/candidiasis/?utm_source=openai))",
+        "cloze_candidates": [
+          "Voriconazole",
+          "empiric antimicrobial therapy",
+          "bacterial source of infection"
+        ],
+        "final_clozes": []
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "The use of glucocorticoids is recommended in the setting of septic shock refractory to appropriate fluid administration and vasopressor therapy.",
+        "extra_field": "Refractory septic shock often reflects relative adrenal insufficiency and cytokine-driven vasoplegia, so low‑dose hydrocortisone can restore vascular responsiveness to catecholamines by upregulating adrenergic receptors and tempering inflammation. Clinically, add steroids only after adequate fluids and escalating vasopressors (e.g., norepinephrine) fail to achieve a MAP ≥65 mmHg—this is a vasopressor‑sparing move, not a first‑line resuscitation step. Memory aid: “Shock that won’t press? Give stress‑dose” (hydrocortisone 200 mg/day).",
+        "cloze_candidates": [
+          "glucocorticoids",
+          "septic shock",
+          "refractory",
+          "appropriate fluid administration",
+          "vasopressor therapy"
+        ],
+        "final_clozes": []
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 0
+  },
+  "validation_pass": true,
+  "nlp_analysis": {
+    "critique": {
+      "entities": [
+        {
+          "text": "intravenous treatment",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "appropriate",
+            "intravenous"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "refractory",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "refractory"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "septic shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "refractory",
+            "septic"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hydrocortisone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option C",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pillars",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "main"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sepsis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "management",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "organ",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "organ"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "controlling",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "infection",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "empiric antibiotic therapy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "appropriate",
+            "empiric",
+            "antibiotic"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Surviving Sepsis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "guidelines",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "early",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "early"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "aggressive fluid",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "aggressive",
+            "fluid"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "resuscitation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "fluid"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sepsis-induced hypoperfusion",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "sepsis-induced"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "bolus",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "initial"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mL/kg",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "crystalloid fluid",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "crystalloid"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "resuscitation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypotension",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "persists",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "adequate",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "adequate"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "fluid",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "adequate",
+            "fluid"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "administration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "fluid"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "guidelines",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "norepinephrine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "first-line",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "first-line"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "vasopressor therapy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "first-line"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Septic shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "septic"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "relative adrenal insufficiency",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "relative",
+            "adrenal"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "refractory hypotension",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "refractory"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "growing body",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "evidence",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "glucocorticoids",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "septic shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "septic"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intravenous fluids",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "intravenous"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "vasopressor therapies",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "fail",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hemodynamic stability",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hemodynamic"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Glucocorticoids",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "faster shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "faster"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "recovery",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "decrease",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hospital length of stay",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increased",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "neuromuscular weakness",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "neuromuscular"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypernatremia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hyperglycemia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "refractory shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "refractory"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "guidelines",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "current"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hydrocortisone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "total dose",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "total"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "daily",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "divided",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "divided"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "doses",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "divided"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Adrenocorticotropic hormone stimulation testing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "adrenocorticotropic"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not recommended",
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "septic shock",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not recommended",
+          "modifiers": [
+            "septic"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "necrotic diabetic foot ulcer",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "necrotic",
+            "diabetic"
+          ],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "resuscitation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "early"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "crystalloid fluids",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "crystalloid"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "concomitant",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "concomitant"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "vasopressors",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "concomitant"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient's",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hemodynamic status",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hemodynamic"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Hydrocortisone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "treatment",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "lack",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "benefit",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cost",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "high"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "colloid albumin",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option A",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "treatment",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not recommended",
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "septic shock",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not recommended",
+          "modifiers": [
+            "septic"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "inappropriate",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "inappropriate"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Dopamine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option B",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "increased",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tachyarrhythmia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "death",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "compared",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "norepinephrine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "septic shock",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not recommended",
+          "modifiers": [
+            "septic"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "select"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinically significant",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "significant"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "bradycardia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "significant"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Voriconazole",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option D",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "empiric",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "appropriate",
+            "empiric"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antimicrobial therapy",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "empiric",
+            "antimicrobial"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "apparent",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "apparent"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "bacterial source",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "apparent",
+            "bacterial"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "infection",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The most appropriate intravenous treatment of this patient with refractory septic shock is hydrocortisone (Option C).",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 6
+        },
+        {
+          "text": "The two main pillars of sepsis management are supporting organ perfusion and controlling the infection.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 6
+        },
+        {
+          "text": "In addition to appropriate empiric antibiotic therapy, the Surviving Sepsis Campaign guidelines recommend early and aggressive fluid resuscitation for sepsis-induced hypoperfusion or shock, with an initial bolus of 30 mL/kg of crystalloid fluid given within the first 3 hours of resuscitation.",
+          "index": 2,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 12
+        },
+        {
+          "text": "If hypotension persists after adequate fluid administration, guidelines endorse norepinephrine as a first-line vasopressor therapy.",
+          "index": 3,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "Septic shock can contribute to a state of relative adrenal insufficiency and refractory hypotension.",
+          "index": 4,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 3
+        },
+        {
+          "text": "A growing body of evidence supports the use of glucocorticoids in septic shock when intravenous fluids and vasopressor therapies fail to achieve hemodynamic stability.",
+          "index": 5,
+          "has_negation": false,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 8
+        },
+        {
+          "text": "Glucocorticoids are associated with a faster shock recovery and a decrease in hospital length of stay but may cause increased neuromuscular weakness, hypernatremia, and hyperglycemia.",
+          "index": 6,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 10
+        },
+        {
+          "text": "For refractory shock, current guidelines recommend hydrocortisone, at a total dose of 200 mg daily, in three or four divided doses.",
+          "index": 7,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 7
+        },
+        {
+          "text": "Adrenocorticotropic hormone stimulation testing is not recommended.",
+          "index": 8,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 1
+        },
+        {
+          "text": "This patient has septic shock related to her necrotic diabetic foot ulcer.",
+          "index": 9,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 3
+        },
+        {
+          "text": "Despite aggressive early resuscitation with crystalloid fluids and concomitant vasopressors, the patient's hemodynamic status remains unstable.",
+          "index": 10,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 6
+        },
+        {
+          "text": "Hydrocortisone is the most appropriate next step in treatment.",
+          "index": 11,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 2
+        },
+        {
+          "text": "Because of the lack of proven benefit and high cost, colloid albumin (Option A) is not recommended in the treatment of septic shock and would therefore be inappropriate in this patient.",
+          "index": 12,
+          "has_negation": true,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "Dopamine (Option B) is associated with increased tachyarrhythmia and death compared with norepinephrine and is not recommended for use in septic shock except in select patients with clinically significant bradycardia.",
+          "index": 13,
+          "has_negation": true,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 12
+        },
+        {
+          "text": "Voriconazole (Option D) is not appropriate empiric antimicrobial therapy in this patient with an apparent bacterial source of infection.",
+          "index": 14,
+          "has_negation": true,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 8
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "not recommended",
+          "start_char": 1284,
+          "end_char": 1299
+        },
+        {
+          "trigger": "not",
+          "start_char": 1284,
+          "end_char": 1287
+        },
+        {
+          "trigger": "not",
+          "start_char": 1665,
+          "end_char": 1668
+        },
+        {
+          "trigger": "not recommended",
+          "start_char": 1665,
+          "end_char": 1680
+        },
+        {
+          "trigger": "not",
+          "start_char": 1878,
+          "end_char": 1881
+        },
+        {
+          "trigger": "not recommended",
+          "start_char": 1878,
+          "end_char": 1893
+        },
+        {
+          "trigger": "not",
+          "start_char": 2011,
+          "end_char": 2014
+        }
+      ],
+      "entity_count": 102,
+      "sentence_count": 15,
+      "negation_count": 7
+    },
+    "key_points": {
+      "entities": [
+        {
+          "text": "glucocorticoids",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "septic shock",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "septic"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "fluid",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "appropriate",
+            "fluid"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "administration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "fluid"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "vasopressor therapy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The use of glucocorticoids is recommended in the setting of septic shock refractory to appropriate fluid administration and vasopressor therapy.",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 5
+        }
+      ],
+      "negations": [],
+      "entity_count": 5,
+      "sentence_count": 1,
+      "negation_count": 0
+    }
+  }
 }

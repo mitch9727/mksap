@@ -88,5 +88,2151 @@
     "videos": [],
     "svgs": []
   },
-  "extracted_at": "2026-01-01T17:54:36.394140-06:00"
+  "extracted_at": "2026-01-01T17:54:36.394140-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "Acute respiratory distress syndrome (ARDS) is characterized by acute hypoxemia and diffuse lung injury due to an inciting insult.",
+        "extra_field": "An inciting insult triggers diffuse alveolar-capillary injury, increasing permeability and causing protein‑rich pulmonary edema that worsens V/Q mismatch and shunt. Clinically, recognize rapid-onset hypoxemia with bilateral infiltrates after a trigger to prompt supportive care and lung-protective ventilation. Memory aid: “Injury → leaky lungs → low O2.”",
+        "cloze_candidates": [
+          "Acute",
+          "respiratory distress syndrome (ARDS)",
+          "acute",
+          "hypoxemia",
+          "diffuse lung injury"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The most common causes of acute respiratory distress syndrome (ARDS) are sepsis and pneumonia.",
+        "extra_field": "Sepsis and pneumonia cause systemic or direct lung inflammation, driving cytokine‑mediated endothelial and epithelial damage with capillary leak. Knowing these are the most common helps target early antibiotics/source control while initiating ARDS‑compatible ventilation. Memory aid: “S & P = Sepsis and Pneumonia.”",
+        "cloze_candidates": [
+          "sepsis",
+          "pneumonia",
+          "acute respiratory distress syndrome (ARDS)"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Trauma is a possible cause of acute respiratory distress syndrome (ARDS).",
+        "extra_field": "Trauma (especially chest trauma or massive transfusion) can provoke inflammatory lung injury and capillary leak leading to noncardiogenic pulmonary edema. After trauma, unexplained hypoxemia and bilateral infiltrates should raise ARDS suspicion even without infection. Memory aid: “Trauma = trigger.”",
+        "cloze_candidates": [
+          "Trauma",
+          "acute respiratory distress syndrome (ARDS)"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "There is no single diagnostic test for acute respiratory distress syndrome (ARDS).",
+        "extra_field": "ARDS is a syndrome defined by clinical timing, imaging, and oxygenation rather than a single biomarker because multiple pathways can produce the same lung injury pattern. Clinically, use criteria-based diagnosis and exclude cardiac causes rather than waiting for a specific test. Memory aid: “No test—use the definition.”",
+        "cloze_candidates": [
+          "single diagnostic test",
+          "acute respiratory distress syndrome (ARDS)"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The 2023 New Global Definition of acute respiratory distress syndrome (ARDS) includes acute hypoxemic respiratory failure not attributable to heart failure with onset within 1 week of a known ARDS insult.",
+        "extra_field": "The 1‑week timing links hypoxemia to a known insult, and excluding heart failure focuses on permeability edema rather than hydrostatic edema. Clinically, this prevents mislabeling cardiogenic pulmonary edema as ARDS and guides management toward lung‑protective strategies. Memory aid: “One week, no heart.”",
+        "cloze_candidates": [
+          "2023 New Global Definition",
+          "acute",
+          "hypoxemic respiratory failure",
+          "heart failure",
+          "1 week"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In the 2023 New Global Definition of acute respiratory distress syndrome (ARDS), if the patient is not intubated, use of high-flow nasal oxygen of at least 30 L/min is a criterion.",
+        "extra_field": "High‑flow nasal oxygen ≥30 L/min reflects significant respiratory support and helps standardize oxygenation assessment in non‑intubated patients. Clinically, it allows ARDS classification and early recognition outside the ICU vent setting. Memory aid: “HFNC ≥30.”",
+        "cloze_candidates": [
+          "not intubated",
+          "high-flow nasal oxygen",
+          "30 L/min",
+          "2023 New Global Definition"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In the 2023 New Global Definition of acute respiratory distress syndrome (ARDS), if the patient is not intubated, noninvasive ventilation or continuous positive airway pressure of at least 5 cm H2O end-expiratory pressure is a criterion.",
+        "extra_field": "NIV/CPAP with ≥5 cm H2O PEEP provides measurable positive pressure akin to ventilator PEEP, indicating meaningful lung support. Clinically, it anchors ARDS criteria for non‑intubated patients and supports escalation decisions. Memory aid: “PEEP 5 counts.”",
+        "cloze_candidates": [
+          "not intubated",
+          "noninvasive ventilation",
+          "continuous positive airway pressure",
+          "5 cm H2O end-expiratory pressure"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The 2023 New Global Definition of acute respiratory distress syndrome (ARDS) includes hypoxemia levels of Po2 and Fio2 no > 300 mm Hg or Spo2/Fio2 ratio < 315 mm Hg with Spo2 no > 97%.",
+        "extra_field": "Hypoxemia thresholds (PaO2/FiO2 ≤300 or SpO2/FiO2 <315 with SpO2 ≤97%) quantify shunt and V/Q mismatch severity while avoiding falsely reassuring high SpO2. Clinically, these cutoffs stratify severity and guide ICU-level care and ventilator strategy. Memory aid: “P/F 300.”",
+        "cloze_candidates": [
+          "Po2 and Fio2",
+          "300 mm Hg",
+          "Spo2/Fio2 ratio less than 315 mm Hg",
+          "Spo2 no greater than 97%"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The 2023 New Global Definition of acute respiratory distress syndrome (ARDS) includes bilateral opacities on chest imaging.",
+        "extra_field": "Bilateral opacities reflect diffuse alveolar injury rather than focal disease; the pattern supports a global process like ARDS. Clinically, it helps differentiate ARDS from lobar pneumonia or unilateral collapse and prompts evaluation for diffuse causes. Memory aid: “Both lungs involved.”",
+        "cloze_candidates": [
+          "2023 New Global Definition",
+          "bilateral opacities",
+          "chest imaging"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with acute respiratory distress syndrome (ARDS) are at high risk for mortality.",
+        "extra_field": "Diffuse lung injury plus systemic inflammation leads to severe hypoxemia and downstream organ dysfunction, which drive high mortality. Clinically, this warrants early ICU care, aggressive monitoring, and evidence‑based ventilation to improve outcomes. Memory aid: “ARDS = high risk.”",
+        "cloze_candidates": [
+          "acute respiratory distress syndrome (ARDS)",
+          "high risk for mortality"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In acute respiratory distress syndrome (ARDS), mortality is usually the result of underlying disease.",
+        "extra_field": "Many patients die from the precipitating illness (e.g., septic shock) rather than isolated lung failure because ARDS often reflects systemic disease. Clinically, treating the underlying cause is as critical as ventilator management. Memory aid: “Treat the trigger.”",
+        "cloze_candidates": [
+          "acute respiratory distress syndrome (ARDS)",
+          "mortality",
+          "underlying disease"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In acute respiratory distress syndrome (ARDS), mortality is usually the result of secondary infection.",
+        "extra_field": "Critical illness and prolonged ventilation increase susceptibility to secondary infections (e.g., VAP, sepsis), which can worsen outcomes. Clinically, strict infection prevention and early detection are key to improving survival. Memory aid: “ARDS → infection risk.”",
+        "cloze_candidates": [
+          "acute respiratory distress syndrome (ARDS)",
+          "mortality",
+          "secondary infection"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In acute respiratory distress syndrome (ARDS), mortality is usually the result of multiorgan dysfunction rather than refractory respiratory failure.",
+        "extra_field": "Systemic inflammation and hypoperfusion can cause multiorgan dysfunction, which is a more common terminal pathway than refractory hypoxemia alone. Clinically, prioritize hemodynamic support and organ-protective strategies, not just oxygenation. Memory aid: “ARDS kills by organs, not lungs.”",
+        "cloze_candidates": [
+          "acute respiratory distress syndrome (ARDS)",
+          "mortality",
+          "multiorgan dysfunction",
+          "refractory respiratory failure"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Most patients with acute respiratory distress syndrome (ARDS) are managed with invasive mechanical ventilation.",
+        "extra_field": "Severe hypoxemia and work of breathing often require intubation to control oxygenation, ventilation, and airway protection. Clinically, anticipate the need for mechanical ventilation and prepare early for escalation. Memory aid: “Severe ARDS usually needs a tube.”",
+        "cloze_candidates": [
+          "acute respiratory distress syndrome (ARDS)",
+          "invasive mechanical ventilation"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Use of low-tidal-volume ventilation and positive end-expiratory pressure is the cornerstone of acute respiratory distress syndrome (ARDS) management.",
+        "extra_field": "Low tidal volumes limit ventilator‑induced lung injury by reducing overdistension, while PEEP prevents alveolar collapse and improves oxygenation. Clinically, these are the default ventilation strategies to reduce mortality and barotrauma. Memory aid: “Low VT + PEEP.”",
+        "cloze_candidates": [
+          "low-tidal-volume ventilation",
+          "positive end-expiratory pressure",
+          "acute respiratory distress syndrome (ARDS)"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Use of low-tidal-volume ventilation and positive end-expiratory pressure in acute respiratory distress syndrome (ARDS) is associated with improved patient outcomes.",
+        "extra_field": "Lung-protective ventilation reduces volutrauma and atelectrauma, translating into improved survival and fewer complications. Clinically, it’s a quality metric—ensure VT around 6 mL/kg predicted body weight with adequate PEEP. Memory aid: “Protect the lung to save the patient.”",
+        "cloze_candidates": [
+          "low-tidal-volume ventilation",
+          "positive end-expiratory pressure",
+          "improved patient outcomes",
+          "acute respiratory distress syndrome (ARDS)"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Acute cardiogenic pulmonary edema can present as hypoxemic respiratory failure.",
+        "extra_field": "Cardiogenic pulmonary edema from elevated left‑sided pressures can rapidly cause hypoxemia via alveolar flooding. Clinically, it’s a key ARDS mimic—treating with diuresis and afterload reduction can reverse failure. Memory aid: “Wet lungs, weak heart.”",
+        "cloze_candidates": [
+          "Acute",
+          "cardiogenic pulmonary edema",
+          "hypoxemic respiratory failure"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Evaluation of patients with acute respiratory failure should include an assessment for volume overload.",
+        "extra_field": "Volume overload raises hydrostatic pressure, causing pulmonary edema and hypoxemia independent of ARDS. Clinically, assess JVP, edema, weights, and response to diuretics to distinguish cardiogenic causes. Memory aid: “Too much fluid = wet lungs.”",
+        "cloze_candidates": [
+          "acute",
+          "respiratory failure",
+          "volume overload"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Evaluation of patients with acute respiratory failure should include an assessment for cardiac injury.",
+        "extra_field": "Myocardial ischemia or injury can precipitate cardiogenic edema and shock, mimicking ARDS. Clinically, ECG and troponins help identify cardiac causes that require specific therapy. Memory aid: “Check the heart when lungs fail.”",
+        "cloze_candidates": [
+          "acute",
+          "respiratory failure",
+          "cardiac injury"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Echocardiography may be required if the diagnosis of acute respiratory failure is unclear.",
+        "extra_field": "Echo evaluates ventricular function, filling pressures, and valvular disease, helping separate cardiogenic from noncardiogenic pulmonary edema. Clinically, it guides treatment decisions when the etiology of respiratory failure is uncertain. Memory aid: “Echo clarifies the cause.”",
+        "cloze_candidates": [
+          "Echocardiography",
+          "acute respiratory failure"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Cardiac contusion can lead to heart failure from valvular injury.",
+        "extra_field": "Blunt trauma can damage valves (e.g., papillary muscle or chordae), leading to acute regurgitation and heart failure. Clinically, new murmurs or rapid pulmonary edema after trauma should prompt echocardiography. Memory aid: “Trauma can tear valves.”",
+        "cloze_candidates": [
+          "Cardiac contusion",
+          "heart failure",
+          "valvular injury"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Cardiac contusion can lead to heart failure from cardiac dysfunction.",
+        "extra_field": "Myocardial contusion impairs contractility, reducing cardiac output and causing pulmonary congestion. Clinically, monitor for arrhythmias and heart failure after chest trauma and treat accordingly. Memory aid: “Bruised heart = weak pump.”",
+        "cloze_candidates": [
+          "Cardiac contusion",
+          "heart failure",
+          "cardiac dysfunction"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Diffuse alveolar hemorrhage (DAH) is the result of bleeding into the alveolar spaces secondary to the disruption of the alveolar-capillary basement membrane.",
+        "extra_field": "Disruption of the alveolar‑capillary basement membrane allows blood to flood alveoli, causing hypoxemia and diffuse infiltrates. Clinically, DAH requires rapid recognition and immunosuppressive or disease‑specific therapy. Memory aid: “Broken barrier → blood in airspaces.”",
+        "cloze_candidates": [
+          "Diffuse alveolar hemorrhage (DAH)",
+          "bleeding into the alveolar spaces",
+          "alveolar-capillary basement membrane"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Diffuse alveolar hemorrhage (DAH) usually occurs in the context of autoimmune or inflammatory disorders rather than trauma.",
+        "extra_field": "Autoimmune capillaritis (e.g., ANCA vasculitis, anti‑GBM disease) is a common mechanism for DAH, whereas trauma is a less frequent cause. Clinically, look for systemic autoimmune clues and order serologies when DAH is suspected. Memory aid: “DAH often = vasculitis.”",
+        "cloze_candidates": [
+          "Diffuse alveolar hemorrhage (DAH)",
+          "autoimmune or inflammatory disorders",
+          "trauma"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Radiographic findings in diffuse alveolar hemorrhage (DAH) and acute respiratory distress syndrome (ARDS) are similar.",
+        "extra_field": "Both DAH and ARDS produce bilateral, diffuse opacities from alveolar filling, so imaging alone can’t distinguish them. Clinically, rely on history, hemoptysis, falling hemoglobin, and bronchoscopy to differentiate. Memory aid: “Same X‑ray, different cause.”",
+        "cloze_candidates": [
+          "Radiographic findings",
+          "diffuse alveolar hemorrhage (DAH)",
+          "acute respiratory distress syndrome (ARDS)"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Most patients with diffuse alveolar hemorrhage (DAH) present with hemoptysis.",
+        "extra_field": "Hemoptysis reflects bleeding into the airways and is a classic clue for DAH, though it may be absent in some cases. Clinically, its presence should trigger urgent evaluation for capillaritis and early treatment. Memory aid: “DAH = coughing blood.”",
+        "cloze_candidates": [
+          "diffuse alveolar hemorrhage (DAH)",
+          "hemoptysis"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Most patients with diffuse alveolar hemorrhage (DAH) present with a decreasing hemoglobin level.",
+        "extra_field": "Ongoing alveolar bleeding lowers hemoglobin even without external blood loss. Clinically, an unexplained Hb drop with new infiltrates and hypoxemia points toward DAH. Memory aid: “Falling Hb + lung opacities.”",
+        "cloze_candidates": [
+          "diffuse alveolar hemorrhage (DAH)",
+          "decreasing hemoglobin level"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with pulmonary embolism may present with chest pain.",
+        "extra_field": "PE can cause pleuritic chest pain from pulmonary infarction or pleural irritation. Clinically, chest pain in the right context should raise suspicion and prompt risk stratification and imaging. Memory aid: “PE can hurt.”",
+        "cloze_candidates": [
+          "pulmonary embolism",
+          "chest pain"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with pulmonary embolism may present with dyspnea.",
+        "extra_field": "Sudden dyspnea results from acute V/Q mismatch and increased dead space due to blocked pulmonary arteries. Clinically, unexplained acute dyspnea should trigger PE evaluation. Memory aid: “PE = sudden short of breath.”",
+        "cloze_candidates": [
+          "pulmonary embolism",
+          "dyspnea"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with pulmonary embolism may present with tachypnea.",
+        "extra_field": "Tachypnea is a compensatory response to hypoxemia and increased dead space ventilation. Clinically, persistent unexplained tachypnea is an early sign of PE, even before hypoxia. Memory aid: “Fast breathing = PE clue.”",
+        "cloze_candidates": [
+          "pulmonary embolism",
+          "tachypnea"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with pulmonary embolism may present with hypoxemic respiratory failure.",
+        "extra_field": "Large or multiple emboli create significant shunt and reduced perfusion, leading to hypoxemic respiratory failure. Clinically, severe hypoxemia with risk factors should prompt emergent PE workup and anticoagulation when appropriate. Memory aid: “Big PE = low O2.”",
+        "cloze_candidates": [
+          "pulmonary embolism",
+          "hypoxemic respiratory failure"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Chest radiographs are most often normal in pulmonary embolism.",
+        "extra_field": "PE often doesn’t change the chest radiograph because the primary problem is vascular obstruction rather than alveolar filling. Clinically, a normal CXR in a dyspneic patient does not exclude PE. Memory aid: “Normal CXR doesn’t rule out PE.”",
+        "cloze_candidates": [
+          "Chest radiographs",
+          "most often normal",
+          "pulmonary embolism"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Pulmonary embolism would not explain diffuse opacities on a chest radiograph.",
+        "extra_field": "Diffuse opacities suggest alveolar filling (edema, hemorrhage, ARDS) rather than vascular obstruction, which is typical for PE. Clinically, diffuse bilateral infiltrates should shift the differential toward ARDS, cardiogenic edema, or DAH. Memory aid: “PE is vascular, not fluffy.”",
+        "cloze_candidates": [
+          "Pulmonary embolism",
+          "diffuse opacities",
+          "chest radiograph"
+        ],
+        "final_clozes": []
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "The diagnosis of acute respiratory distress syndrome (ARDS) is based on the onset of respiratory failure within 1 week of known ARDS insult.",
+        "extra_field": "ARDS is an acute inflammatory lung injury (diffuse alveolar damage) that evolves rapidly after a triggering insult like sepsis, pneumonia, aspiration, or trauma; the 1‑week window separates it from chronic interstitial or progressive cardiopulmonary disease. Clinically, anchoring the timeline forces you to identify the inciting event and strengthens the pretest probability before labeling someone ARDS. Memory aid: “ARDS is fast after a hit” — if it’s not rapid, rethink the diagnosis.",
+        "cloze_candidates": [
+          "acute respiratory distress syndrome (ARDS)",
+          "respiratory failure",
+          "1 week",
+          "known ARDS insult"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The diagnosis of acute respiratory distress syndrome (ARDS) is based on bilateral opacities on chest imaging.",
+        "extra_field": "Bilateral opacities reflect diffuse alveolar flooding and collapse from increased capillary permeability, a hallmark of noncardiogenic pulmonary edema in ARDS. Clinically, this pattern prompts lung‑protective ventilation and rules out focal processes like lobar pneumonia or isolated atelectasis as the primary cause of hypoxemia. Memory aid: “A = All over” — ARDS affects both lungs.",
+        "cloze_candidates": [
+          "acute respiratory distress syndrome (ARDS)",
+          "bilateral opacities",
+          "chest imaging"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The diagnosis of acute respiratory distress syndrome (ARDS) is based on respiratory failure not related to cardiac failure or volume overload.",
+        "extra_field": "In ARDS, endothelial and epithelial injury drives leakiness without primary hydrostatic pressure overload, so the edema is noncardiogenic. Clinically, you must exclude heart failure or volume overload (echo, BNP, volume status) because treatment diverges: diuresis and afterload reduction for cardiogenic edema versus lung‑protective ventilation and treating the trigger for ARDS. Memory aid: “ARDS = A**R**DS (Ain’t from **R**ight or left heart).”",
+        "cloze_candidates": [
+          "acute respiratory distress syndrome (ARDS)",
+          "cardiac failure",
+          "volume overload"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The diagnosis of acute respiratory distress syndrome (ARDS) is based on arterial Po2/Fio2 ratio < 300 mm Hg on at least 5 cm H2O positive end-expiratory pressure.",
+        "extra_field": "A low PaO2/FiO2 ratio reflects severe V/Q mismatch and shunt from flooded, non‑recruiting alveoli; requiring at least 5 cm H2O PEEP standardizes oxygenation assessment by preventing collapse. Clinically, P/F <300 defines ARDS and helps stage severity (mild 200–300, moderate 100–200, severe <100), guiding escalation to prone positioning or neuromuscular blockade. Memory aid: “P/F <300 = ARDS; lower is worse.”",
+        "cloze_candidates": [
+          "acute respiratory distress syndrome (ARDS)",
+          "arterial Po2/Fio2 ratio less than 300 mm Hg",
+          "5 cm H2O positive end-expiratory pressure"
+        ],
+        "final_clozes": []
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 1
+  },
+  "validation_pass": true,
+  "nlp_analysis": {
+    "critique": {
+      "entities": [
+        {
+          "text": "diagnosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "likely"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypoxemic respiratory failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hypoxemic",
+            "respiratory"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "trauma",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "acute respiratory distress syndrome",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute",
+            "respiratory"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ARDS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option A",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ARDS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "acute hypoxemia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diffuse lung injury",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "diffuse"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "inciting insult",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "causes",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "common"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "sepsis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pneumonia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "trauma",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diagnostic test",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [
+            "single",
+            "diagnostic"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ARDS",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Global Definition",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ARDS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "specifies",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "criteria",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Acute hypoxemic respiratory failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute",
+            "hypoxemic",
+            "respiratory"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "heart failure",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "week",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ARDS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "known"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "insultif"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "high-flow",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "high-flow"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "nasal oxygen",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "high-flow",
+            "nasal"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "L/min",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "noninvasive",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "noninvasive"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "airway pressure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "positive"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "end-expiratory",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "end-expiratory"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pressureHypoxemia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "end-expiratory"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "levels",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Po2",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Fio2",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mm Hg",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Spo2/Fio2",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ratio",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mm Hg",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Spo2",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "97%Bilateral",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "no",
+          "modifiers": [
+            "97%bilateral"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "chest",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "chest"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "imagingPatients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "chest"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ARDS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "high risk",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "high"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mortality",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "result",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "disease",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "secondary infection",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "secondary"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "multiorgan dysfunction",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "refractory respiratory failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "refractory",
+            "respiratory"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "most"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ARDS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "invasive",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "invasive"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mechanical ventilation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "invasive",
+            "mechanical"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "positive",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "positive"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "end-expiratory",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "positive",
+            "end-expiratory"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cornerstone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ARDS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "management",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "associated with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "improved"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "outcomes",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient's",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "trauma",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "triggered",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "respiratory"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "radiographic",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "radiographic"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "findings",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "radiographic"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypoxemia",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "consistent with",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "consistent"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diagnosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ARDS.Acute cardiogenic pulmonary edema",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiogenic",
+            "pulmonary"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option B",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypoxemic",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hypoxemic"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hypoxemic",
+            "respiratory"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Evaluation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "acute respiratory failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute",
+            "respiratory"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "assessment",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "volume",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac injury",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Echocardiography",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diagnosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac contusion",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "heart failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "valvular injury",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "valvular"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac dysfunction",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "clinical findings",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "clinical"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiogenic pulmonary edema",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "cardiogenic",
+            "pulmonary"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "diffuse",
+            "alveolar"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "DAH",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option C",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "bleeding",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "alveolar spaces",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "alveolar"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "disruption",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "alveolar-capillary basement membrane",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "alveolar-capillary"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "autoimmune",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "autoimmune"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "inflammatory disorders",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "inflammatory"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "trauma",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "radiographic",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "radiographic"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "findings",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "radiographic"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "DAH",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ARDS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "most"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "DAH",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hemoptysis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "decreasing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hemoglobin",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "level",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "relationship",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient's",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "trauma",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory distress",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "respiratory"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "absence",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hemoptysis",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "absence of",
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient's",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "absence of",
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "stable",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "absence of",
+          "modifiers": [
+            "stable"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hemoglobin",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "absence of",
+          "modifiers": [
+            "stable"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "level",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ARDS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diagnosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "likely"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "pulmonary embolism",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pulmonary"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option D",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "chest pain",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "chest"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "dyspnea",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tachypnea",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "hypoxemic respiratory failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "hypoxemic",
+            "respiratory"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Chest radiographs",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "chest"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "pulmonary"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diffuse",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "diffuse"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient's",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "chest radiograph",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "radiograph"
+          ],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": " 97%",
+          "entity_type": "QUANTITY",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "CUSTOM_LAB_VALUE"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The most likely diagnosis in this patient with hypoxemic respiratory failure following trauma is acute respiratory distress syndrome (ARDS) (Option A).",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 7
+        },
+        {
+          "text": "ARDS is characterized by acute hypoxemia and diffuse lung injury due to an inciting insult.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "The most common causes are sepsis and pneumonia, but many other causes are possible, including trauma.",
+          "index": 2,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "There is no single diagnostic test for ARDS.",
+          "index": 3,
+          "has_negation": true,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 2
+        },
+        {
+          "text": "The 2023 New Global Definition of ARDS specifies the following criteria:Acute hypoxemic respiratory failure (not attributable to heart failure) with onset within 1 week of known ARDS insultIf patient is not intubated: use of high-flow nasal oxygen of at least 30 L/min or noninvasive ventilation/continuous positive airway pressure of at least 5 cm H2O end-expiratory pressureHypoxemia levels of Po2 and Fio2 no greater than 300 mm Hg or Spo2/Fio2 ratio less than 315 mm Hg with Spo2 no greater than 97%Bilateral opacities on chest imagingPatients with ARDS are at high risk for mortality, which is usually the result of underlying disease, secondary infection, or multiorgan dysfunction rather than refractory respiratory failure.",
+          "index": 4,
+          "has_negation": true,
+          "verb_count": 5,
+          "is_complex": true,
+          "entity_count": 36
+        },
+        {
+          "text": "Most patients with ARDS are managed with invasive mechanical ventilation.",
+          "index": 5,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "Use of low-tidal-volume ventilation and positive end-expiratory pressure is the cornerstone of ARDS management and is associated with improved patient outcomes.",
+          "index": 6,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 8
+        },
+        {
+          "text": "This patient's trauma triggered her respiratory failure, and her radiographic findings and hypoxemia are consistent with a diagnosis of ARDS.Acute cardiogenic pulmonary edema (Option B) can present as hypoxemic respiratory failure.",
+          "index": 7,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 13
+        },
+        {
+          "text": "Evaluation of patients with acute respiratory failure should include an assessment for volume overload and cardiac injury.",
+          "index": 8,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 6
+        },
+        {
+          "text": "Echocardiography may be required if the diagnosis is unclear.",
+          "index": 9,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 2
+        },
+        {
+          "text": "Although cardiac contusion can lead to heart failure from valvular injury or cardiac dysfunction, this patient does not have clinical findings suggestive of cardiogenic pulmonary edema.",
+          "index": 10,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 7
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage (DAH) (Option C) is the result of bleeding into the alveolar spaces secondary to the disruption of the alveolar-capillary basement membrane, usually in the context of autoimmune or inflammatory disorders rather than trauma.",
+          "index": 11,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 10
+        },
+        {
+          "text": "Although radiographic findings in DAH and ARDS are similar, most patients with DAH present with hemoptysis and a decreasing hemoglobin level.",
+          "index": 12,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 10
+        },
+        {
+          "text": "Given the relationship of this patient's trauma to the onset of respiratory distress, the absence of hemoptysis, and the patient's stable hemoglobin level, ARDS is a more likely diagnosis.",
+          "index": 13,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 12
+        },
+        {
+          "text": "Patients with pulmonary embolism (Option D) may present with chest pain, dyspnea, tachypnea, and hypoxemic respiratory failure.",
+          "index": 14,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 7
+        },
+        {
+          "text": "Chest radiographs are most often normal.",
+          "index": 15,
+          "has_negation": false,
+          "verb_count": 0,
+          "is_complex": false,
+          "entity_count": 1
+        },
+        {
+          "text": "Pulmonary embolism would not explain the diffuse opacities on this patient's chest radiograph.",
+          "index": 16,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "no",
+          "start_char": 356,
+          "end_char": 358
+        },
+        {
+          "trigger": "not",
+          "start_char": 501,
+          "end_char": 504
+        },
+        {
+          "trigger": "not",
+          "start_char": 595,
+          "end_char": 598
+        },
+        {
+          "trigger": "no",
+          "start_char": 801,
+          "end_char": 803
+        },
+        {
+          "trigger": "no",
+          "start_char": 876,
+          "end_char": 878
+        },
+        {
+          "trigger": "not",
+          "start_char": 1892,
+          "end_char": 1895
+        },
+        {
+          "trigger": "absence",
+          "start_char": 2445,
+          "end_char": 2452
+        },
+        {
+          "trigger": "absence of",
+          "start_char": 2445,
+          "end_char": 2455
+        },
+        {
+          "trigger": "not",
+          "start_char": 2737,
+          "end_char": 2740
+        }
+      ],
+      "entity_count": 137,
+      "sentence_count": 17,
+      "negation_count": 9
+    },
+    "key_points": {
+      "entities": [
+        {
+          "text": "diagnosis",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "acute respiratory distress syndrome",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "acute",
+            "respiratory"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ARDS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "respiratory"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "week",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ARDS",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "known"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "insult",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "bilateral",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "bilateral"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "opacities",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "bilateral"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "chest imaging",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "respiratory"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cardiac failure",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "cardiac"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "volume overload",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "arterial",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "arterial"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Po2/Fio2",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "arterial"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "H2O positive",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "positive"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "end-expiratory pressure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "positive",
+            "end-expiratory"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The diagnosis of acute respiratory distress syndrome (ARDS) is based on the onset of respiratory failure within 1 week of known ARDS insult; bilateral opacities on chest imaging; respiratory failure not related to cardiac failure or volume overload; and arterial Po2/Fio2 ratio less than 300 mm Hg on at least 5 cm H2O positive end-expiratory pressure.",
+          "index": 0,
+          "has_negation": true,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 17
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "not",
+          "start_char": 199,
+          "end_char": 202
+        }
+      ],
+      "entity_count": 17,
+      "sentence_count": 1,
+      "negation_count": 1
+    }
+  }
 }

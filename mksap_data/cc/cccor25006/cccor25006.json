@@ -75,5 +75,1758 @@
     "videos": [],
     "svgs": []
   },
-  "extracted_at": "2026-01-01T17:54:36.400674-06:00"
+  "extracted_at": "2026-01-01T17:54:36.400674-06:00",
+  "true_statements": {
+    "from_critique": [
+      {
+        "statement": "The most appropriate next step in treating a patient with a threatened airway is endotracheal intubation.",
+        "extra_field": "A threatened airway means impending loss of patency or protective reflexes; hypoxia and aspiration can occur before you can “wait and see.” Clinically, intubate early to secure oxygenation/ventilation and prevent aspiration in a deteriorating patient. Memory aid: “If you’re thinking about intubation, you’re already late.”",
+        "cloze_candidates": [
+          "threatened airway",
+          "endotracheal intubation",
+          "most appropriate next step"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Care of patients with overdose is primarily supportive.",
+        "extra_field": "Most overdoses lack a reliable antidote, so outcomes depend on maintaining oxygenation, ventilation, perfusion, and temperature while the toxin clears. Clinically, prioritize ABCs and treat complications (hypoglycemia, seizures, arrhythmias) rather than chasing a specific agent. Memory aid: “Support first, antidote second.”",
+        "cloze_candidates": [
+          "Care of patients with overdose",
+          "primarily supportive"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Maintenance of airway patency and ventilation is critical in patients with decreased mental status.",
+        "extra_field": "Depressed consciousness blunts airway reflexes and respiratory drive, increasing risk of hypoventilation and aspiration. Clinically, assess GCS, gag, and respiratory rate; if inadequate, intervene with airway support or intubation. Memory aid: “Low GCS = lose cough, lose airway.”",
+        "cloze_candidates": [
+          "airway patency",
+          "ventilation",
+          "decreased mental status"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Suspected opioid overdose warrants an early empiric trial of the opioid antagonist naloxone.",
+        "extra_field": "Opioids suppress brainstem respiratory centers; waiting for confirmation risks apnea and death. Clinically, give naloxone promptly when hypoventilation and pinpoint pupils suggest opioid toxicity. Memory aid: “Pinpoint + slow = Narcan now.”",
+        "cloze_candidates": [
+          "Suspected opioid overdose",
+          "early empiric trial",
+          "opioid antagonist naloxone"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Naloxone reverses respiratory depression.",
+        "extra_field": "Naloxone is a competitive μ‑opioid receptor antagonist, rapidly restoring medullary respiratory drive. Clinically, the key endpoint is improved breathing, not full arousal. Memory aid: “Narcan for breaths.”",
+        "cloze_candidates": [
+          "Naloxone",
+          "respiratory depression"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Naloxone reverses toxic encephalopathy.",
+        "extra_field": "Opioid‑induced encephalopathy is receptor‑mediated CNS depression; blocking μ‑receptors reverses mental status changes. Clinically, expect improved alertness if opioids are the primary cause; lack of response suggests alternative or mixed causes. Memory aid: “If it’s opioid, Narcan clears the cloud.”",
+        "cloze_candidates": [
+          "Naloxone",
+          "toxic encephalopathy"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Naloxone should be titrated to adequate respiration rate rather than mental status.",
+        "extra_field": "Over‑reversal causes acute withdrawal and agitation without improving safety, while the true goal is ventilation. Clinically, titrate naloxone to a safe respiratory rate and oxygenation, not to full wakefulness. Memory aid: “Treat the breaths, not the behavior.”",
+        "cloze_candidates": [
+          "titrated",
+          "adequate respiration rate",
+          "mental status"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Naloxone has a short half-life.",
+        "extra_field": "Naloxone’s short half‑life means its effect can wear off while opioids are still active. Clinically, anticipate recurrence of respiratory depression and plan observation or repeat dosing. Memory aid: “Narcan is a sprint, opioids are a marathon.”",
+        "cloze_candidates": [
+          "short half-life"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "The antidote effects of naloxone will usually subside before the effects of the ingested opioid do.",
+        "extra_field": "Many opioids (e.g., methadone, extended‑release formulations) last longer than naloxone’s antagonism. Clinically, monitor closely and redose or infuse naloxone as needed. Memory aid: “Short Narcan, long opioid.”",
+        "cloze_candidates": [
+          "antidote effects of naloxone",
+          "ingested opioid"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with an initial response to naloxone should be observed for signs of opioid withdrawal.",
+        "extra_field": "Rapid reversal can precipitate withdrawal (agitation, vomiting, tachycardia), which can cause aspiration or dehydration though it is rarely life‑threatening. Clinically, monitor after initial response, provide supportive care, and avoid over‑titration. Memory aid: “Wake‑up equals watch‑up.”",
+        "cloze_candidates": [
+          "initial response to naloxone",
+          "opioid withdrawal"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Opioid withdrawal is not fatal and requires only supportive care.",
+        "extra_field": "Opioid withdrawal reflects abrupt loss of receptor stimulation rather than toxic organ failure, so it is uncomfortable but not usually fatal. Clinically, manage symptoms with fluids, antiemetics, and reassurance; reserve sedatives cautiously. Memory aid: “Withdrawal is miserable, not lethal.”",
+        "cloze_candidates": [
+          "Opioid withdrawal",
+          "not fatal",
+          "supportive care"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Patients with an initial response to naloxone should be observed for continued or recurrent signs of respiratory depression.",
+        "extra_field": "Because naloxone wears off early, respiratory depression can recur even if the patient initially improves. Clinically, observe for at least several hours (longer for long‑acting opioids) and be ready to redose. Memory aid: “First response doesn’t mean final safety.”",
+        "cloze_candidates": [
+          "initial response to naloxone",
+          "continued or recurrent signs of respiratory depression"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Despite naloxone, some patients may require intubation for protection from aspiration.",
+        "extra_field": "Even if ventilation improves, reduced airway reflexes or emesis can lead to aspiration. Clinically, intubate if the patient cannot protect the airway despite improved respiration. Memory aid: “Breathing better doesn’t equal airway safe.”",
+        "cloze_candidates": [
+          "intubation",
+          "protection from aspiration"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Despite naloxone, some patients may require intubation for respiratory failure.",
+        "extra_field": "Severe respiratory failure may persist from co‑ingestants, aspiration, or underlying lung disease. Clinically, intubate when oxygenation/ventilation remains inadequate despite naloxone. Memory aid: “Narcan won’t fix lungs.”",
+        "cloze_candidates": [
+          "intubation",
+          "respiratory failure"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Despite two doses of naloxone, inability to protect the airway indicates endotracheal intubation.",
+        "extra_field": "Persistent inability to protect the airway after adequate reversal attempts indicates a non‑opioid cause or severe toxicity. Clinically, proceed to definitive airway control rather than repeated dosing. Memory aid: “Two tries then tube.”",
+        "cloze_candidates": [
+          "two doses of naloxone",
+          "inability to protect the airway",
+          "endotracheal intubation"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Bilevel positive airway pressure may decrease the work of breathing in some patients with respiratory failure.",
+        "extra_field": "BiPAP reduces work of breathing by providing inspiratory support and unloading fatigued respiratory muscles. Clinically, use in cooperative patients with hypercapnic or cardiogenic respiratory failure who can protect their airway. Memory aid: “BiPAP buys time for tired muscles.”",
+        "cloze_candidates": [
+          "Bilevel positive airway pressure",
+          "work of breathing",
+          "respiratory failure"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Bilevel positive airway pressure may augment tidal volume in some patients with respiratory failure.",
+        "extra_field": "Inspiratory pressure increases tidal volume and improves CO2 clearance when the patient can trigger breaths. Clinically, consider BiPAP for hypoventilation when intubation can be avoided. Memory aid: “BiPAP boosts the breath.”",
+        "cloze_candidates": [
+          "Bilevel positive airway pressure",
+          "tidal volume",
+          "respiratory failure"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Bilevel positive airway pressure is contraindicated in patients who cannot protect their airway.",
+        "extra_field": "Positive pressure without airway protection increases aspiration risk if the patient vomits or cannot manage secretions. Clinically, avoid BiPAP in obtunded patients or those with poor airway reflexes—intubate instead. Memory aid: “No cough, no mask.”",
+        "cloze_candidates": [
+          "Bilevel positive airway pressure",
+          "cannot protect their airway"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "If naloxone measurably improves respiratory depression, naloxone can be given in repeated doses until the opioid is sufficiently metabolized and cleared.",
+        "extra_field": "If naloxone improves breathing, the cause is opioid‑mediated; repeated dosing maintains receptor blockade as the opioid clears. Clinically, redose based on respiratory status, especially with long‑acting agents. Memory aid: “If it works once, keep it working.”",
+        "cloze_candidates": [
+          "measurably improves respiratory depression",
+          "repeated doses",
+          "sufficiently metabolized and cleared"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "If naloxone measurably improves respiratory depression, naloxone can be given as an intravenous infusion until the opioid is sufficiently metabolized and cleared.",
+        "extra_field": "Continuous infusion provides steady antagonism when repeated boluses are needed, matching the opioid’s longer duration. Clinically, use infusion for long‑acting opioids or recurrent depression after boluses. Memory aid: “Long opioid, long Narcan.”",
+        "cloze_candidates": [
+          "measurably improves respiratory depression",
+          "intravenous infusion",
+          "sufficiently metabolized and cleared"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "In many instances, naloxone can avert the need for mechanical ventilation.",
+        "extra_field": "Reversing opioid‑induced hypoventilation can rapidly stabilize gas exchange and avoid intubation. Clinically, early naloxone can spare mechanical ventilation and its complications. Memory aid: “Narcan can save a tube.”",
+        "cloze_candidates": [
+          "naloxone",
+          "mechanical ventilation"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "For suspected benzodiazepine or polysubstance overdose, administration of the benzodiazepine receptor antagonist flumazenil is problematic because reversing the effect of benzodiazepines can lead to life-threatening central nervous system activation, including seizures.",
+        "extra_field": "Benzodiazepines enhance GABA; flumazenil blocks this and can abruptly remove seizure protection, especially in mixed overdoses or chronic users. Clinically, avoid flumazenil unless a clear, isolated benzo ingestion in a benzo‑naïve patient. Memory aid: “Flumazenil can unmask seizures.”",
+        "cloze_candidates": [
+          "benzodiazepine receptor antagonist flumazenil",
+          "reversing the effect of benzodiazepines",
+          "life-threatening central nervous system activation",
+          "seizures"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Adverse effects of flumazenil are more likely in patients ingesting benzodiazepines long term.",
+        "extra_field": "Chronic benzodiazepine use causes dependence; antagonism can precipitate withdrawal and seizures. Clinically, in long‑term users, supportive care and ventilation are safer than reversal. Memory aid: “Dependent patient, don’t pull the plug.”",
+        "cloze_candidates": [
+          "Adverse effects of flumazenil",
+          "benzodiazepines long term"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "It is generally preferable to manage patients with ventilator support and allow metabolism and elimination of the agent over time.",
+        "extra_field": "When the antidote is risky or the agent is self‑limited, supportive ventilation maintains oxygenation while the body clears the toxin. Clinically, intubate and ventilate rather than trigger seizures or arrhythmias with reversal agents. Memory aid: “Support the lungs, let time detox.”",
+        "cloze_candidates": [
+          "ventilator support",
+          "metabolism and elimination of the agent"
+        ],
+        "final_clozes": []
+      }
+    ],
+    "from_key_points": [
+      {
+        "statement": "Opioid overdose should be suspected in patients with respiratory depression, miotic pupils, and depressed level of consciousness.",
+        "extra_field": "Opioids activate μ-receptors in the brainstem, suppressing respiratory drive, and also cause parasympathetic tone leading to pinpoint pupils and CNS depression. Clinically, this triad should trigger immediate assessment for opioid exposure and prompt consideration of naloxone while securing airway and ventilation. Memory aid: “Pupils + Poor breathing + Poor consciousness = opioid.”",
+        "cloze_candidates": [
+          "Opioid overdose",
+          "respiratory depression",
+          "miotic pupils",
+          "depressed level of consciousness"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Care of patients with overdose is primarily supportive.",
+        "extra_field": "Most overdoses lack a specific antidote, so outcomes depend on preventing secondary injury (hypoxia, aspiration, arrhythmias) while the toxin is metabolized. Clinically, prioritize ABCs, monitoring, and targeted decontamination/antidotes only when indicated. Memory aid: “Support first, specifics second.”",
+        "cloze_candidates": [
+          "Care of patients with overdose",
+          "primarily supportive"
+        ],
+        "final_clozes": []
+      },
+      {
+        "statement": "Maintenance of airway patency and ventilation is critically important in patients with decreased mental status.",
+        "extra_field": "Depressed mental status compromises protective airway reflexes and ventilatory drive, leading to hypoventilation, hypercapnia, and aspiration risk. Clinically, assess airway immediately, provide oxygen, consider bag-valve ventilation or intubation when protective reflexes are absent. Memory aid: “GCS low → airway go.”",
+        "cloze_candidates": [
+          "airway patency",
+          "ventilation",
+          "decreased mental status"
+        ],
+        "final_clozes": []
+      }
+    ]
+  },
+  "table_statements": {
+    "statements": [],
+    "tables_processed": 0,
+    "tables_skipped": 1
+  },
+  "validation_pass": true,
+  "nlp_analysis": {
+    "critique": {
+      "entities": [
+        {
+          "text": "treating",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "threatened",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "airway",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "endotracheal intubation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "endotracheal"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option C",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Care",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "overdose",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "maintenance",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "airway patency",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ventilation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "decreased",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mental status",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "mental"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "opioid",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "overdose",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "warrants",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "opioid antagonist",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "opioid"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "naloxone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory depression",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "respiratory"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "toxic encephalopathy",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "toxic"
+          ],
+          "sentence_index": 2,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "adequate",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "rate",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mental status",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "mental"
+          ],
+          "sentence_index": 3,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Naloxone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "half-life",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "short"
+          ],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "antidote",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "effects",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "subside",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "effects",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ingested",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "opioid",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 4,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "response",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "initial"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "naloxone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "opioid",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "opioid"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "withdrawal",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "opioid"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "fatal",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "fatal"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "supportive care",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [
+            "supportive"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "recurrent",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "recurrent"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory depression",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "respiratory"
+          ],
+          "sentence_index": 5,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intubation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "protection",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "aspiration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "respiratory"
+          ],
+          "sentence_index": 6,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "diagnostic consideration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "primary",
+            "diagnostic"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "opioid",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "opioid"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "toxicity",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "opioid"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "access",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory depression",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "respiratory"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "miotic pupils",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "miotic"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "depressed level",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "depressed"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "consciousness",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "transient response",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "transient"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory rate",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "respiratory"
+          ],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "naloxone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 7,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "toxic syndrome",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "toxic"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "unclear",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "unclear"
+          ],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "substance",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 8,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "doses",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "naloxone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "airway",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "endotracheal intubation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 9,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Bilevel",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "bilevel"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "positive",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "bilevel",
+            "positive"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option A",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "decrease",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "breathing",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "tidal volume",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "tidal"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory failure",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "respiratory"
+          ],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "contraindicated",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "contraindicated",
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "airway",
+          "entity_type": "OTHER",
+          "is_negated": true,
+          "negation_trigger": "not",
+          "modifiers": [],
+          "sentence_index": 10,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "naloxone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory depression",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "respiratory"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "repeated",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "doses",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intravenous infusion",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "intravenous"
+          ],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option B",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "opioid",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "metabolized",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "cleared",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 11,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "naloxone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mechanical ventilation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "mechanical"
+          ],
+          "sentence_index": 12,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "intubation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "naloxone",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "insufficient",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "insufficient"
+          ],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "airway",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 13,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "benzodiazepine",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "polysubstance",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "overdose",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "administration",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "benzodiazepine receptor antagonist",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Option D",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "problematic",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "problematic"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "effect",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "benzodiazepines",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "life-threatening",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "life-threatening"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "central nervous system",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "life-threatening",
+            "central",
+            "nervous"
+          ],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "activation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "seizures",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 14,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "adverse effects",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "adverse"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "benzodiazepines long term",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "long"
+          ],
+          "sentence_index": 15,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ventilator support",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "metabolism",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "elimination",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "agent",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 16,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "The most appropriate next step in treating this patient with a threatened airway is endotracheal intubation (Option C).",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 6
+        },
+        {
+          "text": "Care of patients with overdose is primarily supportive; maintenance of airway patency and ventilation is critical in patients with decreased mental status.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 9
+        },
+        {
+          "text": "Suspected opioid overdose warrants an early empiric trial of the opioid antagonist naloxone, which reverses respiratory depression and toxic encephalopathy.",
+          "index": 2,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 7
+        },
+        {
+          "text": "It should be titrated to adequate respiration rate rather than mental status.",
+          "index": 3,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 4
+        },
+        {
+          "text": "Naloxone has a short half-life, and its antidote effects will usually subside before the effects of the ingested opioid do.",
+          "index": 4,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 8
+        },
+        {
+          "text": "Patients with an initial response to naloxone should be observed for signs of opioid withdrawal (which is not fatal and requires only supportive care) and for continued or recurrent signs of respiratory depression.",
+          "index": 5,
+          "has_negation": true,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "Despite naloxone, some patients may require intubation for protection from aspiration or respiratory failure.",
+          "index": 6,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 5
+        },
+        {
+          "text": "A primary diagnostic consideration in this patient is opioid toxicity, given his oxycodone access, respiratory depression, miotic pupils, and depressed level of consciousness, as well as the transient response of the respiratory rate to naloxone.",
+          "index": 7,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 12
+        },
+        {
+          "text": "However, the exact circumstances of the toxic syndrome in this patient are unclear and may involve more than one substance.",
+          "index": 8,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 4
+        },
+        {
+          "text": "Despite two doses of naloxone, this patient remains unable to protect his airway, so endotracheal intubation is indicated.",
+          "index": 9,
+          "has_negation": false,
+          "verb_count": 3,
+          "is_complex": true,
+          "entity_count": 5
+        },
+        {
+          "text": "Bilevel positive airway pressure (Option A) may decrease the work of breathing and augment tidal volume in some patients with respiratory failure, but it is contraindicated in patients, such as this one, who cannot protect their airway.",
+          "index": 10,
+          "has_negation": true,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 11
+        },
+        {
+          "text": "If naloxone measurably improves respiratory depression, it can be given in repeated doses or as an intravenous infusion (Option B) until the opioid is sufficiently metabolized and cleared.",
+          "index": 11,
+          "has_negation": false,
+          "verb_count": 5,
+          "is_complex": true,
+          "entity_count": 9
+        },
+        {
+          "text": "In many instances, naloxone can avert the need for mechanical ventilation.",
+          "index": 12,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 2
+        },
+        {
+          "text": "In this patient, however, intubation is necessary because his response to naloxone has been insufficient to protect the airway.",
+          "index": 13,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 5
+        },
+        {
+          "text": "For suspected benzodiazepine or polysubstance overdose, administration of the benzodiazepine receptor antagonist flumazenil (Option D) is problematic because reversing the effect of benzodiazepines can lead to life-threatening central nervous system activation, including seizures.",
+          "index": 14,
+          "has_negation": false,
+          "verb_count": 4,
+          "is_complex": true,
+          "entity_count": 13
+        },
+        {
+          "text": "These adverse effects are more likely in patients ingesting benzodiazepines long term.",
+          "index": 15,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 3
+        },
+        {
+          "text": "It is generally preferable to manage patients with ventilator support and allow metabolism and elimination of the agent over time.",
+          "index": 16,
+          "has_negation": false,
+          "verb_count": 2,
+          "is_complex": true,
+          "entity_count": 5
+        }
+      ],
+      "negations": [
+        {
+          "trigger": "not",
+          "start_char": 741,
+          "end_char": 744
+        },
+        {
+          "trigger": "contraindicated",
+          "start_char": 1610,
+          "end_char": 1625
+        },
+        {
+          "trigger": "not",
+          "start_char": 1664,
+          "end_char": 1667
+        }
+      ],
+      "entity_count": 117,
+      "sentence_count": 17,
+      "negation_count": 3
+    },
+    "key_points": {
+      "entities": [
+        {
+          "text": "Opioid",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "overdose",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "suspected",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "respiratory depression",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "respiratory"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "miotic pupils",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "miotic"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "depressed level",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "depressed"
+          ],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "consciousness",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 0,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "Care",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "overdose",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "maintenance",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "airway patency",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "ventilation",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "patients",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "decreased",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        },
+        {
+          "text": "mental status",
+          "entity_type": "OTHER",
+          "is_negated": false,
+          "negation_trigger": null,
+          "modifiers": [
+            "mental"
+          ],
+          "sentence_index": 1,
+          "spacy_label": "ENTITY"
+        }
+      ],
+      "sentences": [
+        {
+          "text": "Opioid overdose should be suspected in patients with respiratory depression, miotic pupils, and depressed level of consciousness.",
+          "index": 0,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 8
+        },
+        {
+          "text": "Care of patients with overdose is primarily supportive; maintenance of airway patency and ventilation is critically important in patients with decreased mental status.",
+          "index": 1,
+          "has_negation": false,
+          "verb_count": 1,
+          "is_complex": false,
+          "entity_count": 9
+        }
+      ],
+      "negations": [],
+      "entity_count": 17,
+      "sentence_count": 2,
+      "negation_count": 0
+    }
+  }
 }
